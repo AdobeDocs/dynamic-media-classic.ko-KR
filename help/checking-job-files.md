@@ -65,7 +65,7 @@ Scene 7 Publishing System에 대한 파일 업로드 및 Dynamic Media Classic �
 
 **[표시] &gt; [내 작업] 또는 [표시] &gt; [모든 작업]** 를 선택하여 목록 범위를 좁히거나 회사 내 사람들이 주문한 작업으로 범위를 좁힙니다.
 
-## [작업 세부 사항] 보고서 보기, 복사 또는 인쇄{#viewing-copying-or-printing-a-job-details-report}
+## 작업 세부 사항 보고서 보기, 복사 또는 인쇄{#viewing-copying-or-printing-a-job-details-report}
 
 작업 페이지에서 보고서 이름을 두 번 클릭하여 작업 세부 사항 페이지를 엽니다. 이 페이지에서는 작업 파일에 대한 요약 보고서를 제공합니다. 항목의 SPS ID, 타겟 경로 및 상태 정보를 확인하려면 [세부 사항 보기]를 클릭합니다. SPS에서 사용할 수 없는 글꼴이 필요한 PDF 또는 PostScript 파일을 업로드한 경우 보고서에 누락된 글꼴이 나열됩니다.
 
