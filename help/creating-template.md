@@ -83,7 +83,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 1. [격자 보기], [목록 보기] 또는 [상세 보기]에서 템플릿을 하나 이상 선택합니다.
 1. 글로벌 탐색 막대에서 **파일** &gt; **삭제** &gt; **삭제**&#x200B;를 클릭합니다.
 
-## [템플릿] 화면 이해 {#understanding-the-template-screen}
+## 템플릿 화면 이해 {#understanding-the-template-screen}
 
 [템플릿] 화면에서는 레이어를 조작하고 매개 변수화하기 위한 도구를 제공합니다.
 
