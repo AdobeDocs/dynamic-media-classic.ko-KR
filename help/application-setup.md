@@ -567,7 +567,7 @@ Dynamic Media Classic는 MP 4 H .264 비디오용 모바일 비디오 재생을 
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
 
-### [뷰어 사전 설정] 화면 정보{#about-the-viewer-preset-screen}
+### 뷰어 사전 설정 화면 정보{#about-the-viewer-preset-screen}
 
 [뷰어 사전 설정] 화면에서 뷰어 사전 설정을 만들고 관리합니다. 이 화면을 열려면 **[설정]** &gt; **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
 
