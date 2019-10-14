@@ -3,14 +3,14 @@ title: 휴지통 폴더 관리
 seo-title: 휴지통 폴더 관리
 description: 널
 seo-description: 휴지통 폴더를 관리하는 방법을 알아봅니다.
-uuid: 3992 A 5 B 8-1919-4924-B 07 D -7 FB 25565 EFFD
+uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
 contentOwner: 관리
 content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/managing_ assets
-discoiquuid: 553 c 95 fc -0 a 41-4 f 06-af 50-a 62 bc 1438149
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -25,13 +25,13 @@ Scene7 Publishing System에서 삭제한 항목은 휴지통 폴더로 이동됩
 
 >[!NOTE]
 >
->휴지통 폴더로 이동된 자산은 Scene7 Publishing System에 여전히 등록되어 있습니다. 휴지통 폴더에서 삭제된 파일과 이름이 같은 파일을 업로드하려고 하면 Dynamic Media Classic에서 업로드할 자산을 중복 자산으로 취급합니다. 따라서 자산 이름에 숫자가 추가됩니다.
+>휴지통 폴더로 이동된 자산은 Scene7 Publishing System에 여전히 등록되어 있습니다. 휴지통 폴더에 있는 삭제된 파일과 이름이 같은 파일을 업로드하려고 하면 Dynamic Media Classic에서 업로드하려는 자산을 중복 자산으로 처리합니다. 따라서 자산 이름에 숫자가 추가됩니다.
 
 ## 휴지통 폴더 정보 {#about-the-trash-folder}
 
 폴더에서 삭제한 항목은 휴지통 폴더에 배치됩니다. 항목을 삭제하고 휴지통 폴더로 이동하는 경우 다음 동작이 발생합니다.
 
-* 항목이·Scene7·Publishing System 폴더에서 제거되었지만 휴지통 폴더에 유지되는 동안 해당 ID를 다른 자산에 지정할 수 없습니다. 휴지통 폴더에 있는 파일과 동일한 이름으로 자산을 업로드하려고 하면 Dynamic Media Classic에서 숫자 이름에 숫자를 추가합니다.
+* 항목이·Scene7·Publishing System 폴더에서 제거되었지만 휴지통 폴더에 유지되는 동안 해당 ID를 다른 자산에 지정할 수 없습니다. 휴지통 폴더에 있는 파일과 같은 이름의 자산을 업로드하려고 하면 Dynamic Media Classic에서 자산의 이름에 숫자를 추가합니다.
 * 항목을 게시할 수 없습니다. 항목을 삭제할 때 게시로 표시된 경우에도 항목이 게시되지 않습니다.
 * 항목은 복원되거나 7일이 경과하거나 [휴지통 비우기] 명령을 선택할 때까지 휴지통 폴더에 유지됩니다. 7일 후에는 자동 정리 작업에 의해 항목이 영구적으로 삭제됩니다.
 
@@ -51,9 +51,9 @@ Scene7 Publishing System에서 삭제한 항목은 휴지통 폴더로 이동됩
 
 휴지통 폴더에서 자산을 영구적으로 삭제하려면 [휴지통] 아이콘 을 선택하여 휴지통 폴더를 엽니다. 그런 다음 개별 자산을 삭제하거나 폴더에 있는 모든 자산을 삭제합니다.
 
-**개별 자산** 삭제 영구적으로 삭제할 자산을 선택하고 [파일] &gt; [휴지통에서 비어 있음] 를 클릭합니다.
+* **개별 자산** 삭제 영구적으로 삭제할 자산을 선택하고 파일 &gt; 휴지통에서 **[!UICONTROL 비우기 를 클릭합니다]**.
 
-**모든 자산** 삭제 파일 &gt; 휴지통을 클릭합니다.
+* **모든 자산** 삭제 파일 **[!UICONTROL &gt; 빈 휴지통을 클릭합니다]**.
 
 >[!MORELIKETHIS]
 >
