@@ -3,14 +3,14 @@ title: 혼합 미디어 집합 뷰어 사전 설정 지정
 seo-title: 혼합 미디어 집합 뷰어 사전 설정 지정
 description: 널
 seo-description: 혼합 미디어 집합 뷰어 사전 설정을 설정하는 방법을 알아봅니다.
-uuid: D 5 BF 1840-E 453-445 D-BEBC -84889 B 29 F 3 C 8
+uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: 관리
 content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/mixed_ media_ sets
-discoiquuid: 8029 AAD 8-D 696-4 D 7 C -99 E 2-3 B 08 EDB 68181
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -51,13 +51,13 @@ source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
 
 1. 커뮤니티 기능(포함, 링크, 방문)을 뷰어에 추가하려면 다음 중 하나의 선택 사항을 지정합니다.
 
-   **이메일** 뷰어에서 이메일 단추를 활성화하려면 여기를 클릭합니다. 사용자가 집합을 보는 동안 [이메일] 단추를 클릭하면 집합에 대한 링크가 포함된 이메일이 열립니다.
+   * **전자**&#x200B;메일 단추를 클릭하여 뷰어에서 [전자 메일] 단추를 활성화합니다. 사용자가 집합을 보는 동안 [이메일] 단추를 클릭하면 집합에 대한 링크가 포함된 이메일이 열립니다.
 
-   **포함** 라이브 클릭. [포함 단추 레이블] 상자에 뷰어에서 [포함 단추]에 대해 표시할 이름을 입력합니다. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **포함라이브**&#x200B;를 클릭합니다. [포함 단추 레이블] 상자에 뷰어에서 [포함 단추]에 대해 표시할 이름을 입력합니다. If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **Link** Live를 클릭합니다. [링크 단추 레이블] 상자에 뷰어에서 [링크 단추]에 대해 표시할 이름을 입력합니다. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **연결라이브를**&#x200B;클릭합니다. [링크 단추 레이블] 상자에 뷰어에서 [링크 단추]에 대해 표시할 이름을 입력합니다. If desired, click **Browse** to locate and select a custom skin for the button.
 
-   **[라이브** ] 를 **클릭합니다**. [방문 단추 레이블] 상자에 뷰어에서 [방문 단추]에 대해 표시할 이름을 입력합니다. [방문 URL] 상자에 링크를 클릭할 때 열려는 웹 사이트의 URL을 입력합니다.
+   * **방문**&#x200B;라이브 **를 클릭합니다**. [방문 단추 레이블] 상자에 뷰어에서 [방문 단추]에 대해 표시할 이름을 입력합니다. [방문 URL] 상자에 링크를 클릭할 때 열려는 웹 사이트의 URL을 입력합니다.
 
 1. 원하는 대로 기타 선택 사항을 지정합니다. 선택 사항에 대한 설명을 보려면 선택 사항에 인접한 [정보 팁] 아이콘 을 클릭합니다.
 
