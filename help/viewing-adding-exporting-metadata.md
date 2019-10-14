@@ -2,38 +2,38 @@
 title: 메타데이터 보기, 추가 및 내보내기
 seo-title: 메타데이터 보기, 추가 및 내보내기
 description: 널
-seo-description: 메타데이터를 보고, 추가하고, 내보내는 방법을 알아봅니다.
-uuid: A 5254 C 51-9 E 04-45 AE -8236-3 EAB 2925 E 5 FC
+seo-description: 메타데이터를 보고 추가하고 내보내는 방법을 알아봅니다.
+uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: 관리
 content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/managing_ assets
-discoiquuid: 5414 B 4 F 5-6 E 05-468 C -8725-385423596342
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
 
 # 메타데이터 보기, 추가 및 내보내기{#viewing-adding-and-exporting-metadata}
 
-작업하는 파일과 관련된 정보를 Scene7 Publishing System에 저장할 수 있습니다. 이 정보를 *메타데이터*&#x200B;라고 합니다. Dynamic Media Classic에서 메타데이터를 사용하여 에셋을 구성, 검색, 필터링 및 정렬할 수 있습니다.
+작업하는 파일과 관련된 정보를 Scene7 Publishing System에 저장할 수 있습니다. 이 정보를 *메타데이터*&#x200B;라고 합니다. Dynamic Media Classic의 메타데이터를 사용하여 자산을 구성, 검색, 필터링 및 정렬할 수 있습니다.
 
 메타데이터는 파일 작성 날짜, 게시 날짜 및 키워드와 같은 Dynamic Media Classic에서 생성된 정보와 함께 세부 사항 보기에 표시됩니다. 메타데이터를 보려면 [세부 사항 보기]에서 자산을 열고 [메타데이터] 패널을 선택합니다. [세부 사항 보기]에서 메타데이터를 입력하고 편집할 수 있습니다.
 
-일부 메타데이터는 파일에 직접 포함됩니다. 파일에 이 메타데이터가 포함되어 있으면 Dynamic Media Classic에서 해당 메타데이터를 파일에 자동으로 업로드합니다. Adobe Photoshop, InDesign, Illustrator 및 기타 응용 프로그램의 소스 자산에 메타데이터를 포함할 수 있습니다. Dynamic Media Classic는 이 메타데이터를 인식합니다. 세부 사항 보기의 [메타데이터] 패널에서 개별 파일에 메타데이터를 추가할 수도 있습니다. 자산 간에 일관성을 유지하기 위해 회사 관리자는 입력할 수 있는 메타데이터 필드를 제공하는 메타데이터 템플릿을 만듭니다.
+일부 메타데이터는 파일에 직접 포함됩니다. 파일에 이 메타데이터가 포함되어 있으면 Dynamic Media Classic에서 자동으로 파일과 함께 업로드합니다. Adobe Photoshop, InDesign, Illustrator 및 기타 애플리케이션에서 메타데이터를 소스 에셋에 임베드할 수 있습니다.Dynamic Media Classic은 이 메타데이터를 인식합니다. 세부 사항 보기의 [메타데이터] 패널에서 개별 파일에 메타데이터를 추가할 수도 있습니다. 자산 간에 일관성을 유지하기 위해 회사 관리자는 입력할 수 있는 메타데이터 필드를 제공하는 메타데이터 템플릿을 만듭니다.
 
 For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
 
 ## 메타데이터 보기 {#view-metadata}
 
-자산의 메타데이터를 보려면 [세부 사항 보기]에서 자산을 열고 [메타데이터] 패널을 클릭합니다. [메타데이터 보기] 메뉴에서 선택 사항을 선택하여 메타데이터 필드 집합을 선택합니다. Dynamic Media Classic 에서는 다음과 같은 메타데이터 보기를 제공합니다.
+자산의 메타데이터를 보려면 [세부 사항 보기]에서 자산을 열고 [메타데이터] 패널을 클릭합니다. [메타데이터 보기] 메뉴에서 선택 사항을 선택하여 메타데이터 필드 집합을 선택합니다. Dynamic Media Classic에서는 다음 메타데이터 보기를 제공합니다.
 
-**Compact 기본** 값 목록을 표시합니다.
+* **축소**&#x200B;보기기본 값 목록입니다.
 
-**International Press Telecommunications Council에서 정의한 IPTC** 값.
+* **IPTC**&#x200B;국제 통신 협의회에서 정의한 값.
 
-**확장 가능한 메타데이터 플랫폼에서 정의한 XMP** 값.
+* **XMP**&#x200B;확장 가능한 메타데이터 플랫폼에서 정의된 값.
 
 관리자는 메타데이터 보기를 만들 수 있습니다. 이러한 보기는 [메타데이터 보기] 메뉴에도 표시됩니다. 메타데이터 보기를 만드는 방법에 대한 자세한 내용은 [메타데이터 보기](application-setup.md#metadata_views)를 참조하십시오.
 
@@ -67,7 +67,7 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 1. 키워드를 제거하려면 키워드를 선택하고 [제거]를 클릭합니다. 키워드가 [키워드 제안] 테이블로 이동합니다.
 
 >[!NOTE]
-Dynamic Media Classic에 업로드할 때 파일에 키워드를 추가할 수 있습니다. [업로드 작업 선택 사항] 대화 상자에서 [추가 메타데이터]를 선택하고 키워드를 입력합니다. [업로드 선택 사항](uploading-files.md#upload_options)을 참조하십시오.
+Dynamic Media Classic에 키워드를 업로드할 때 파일에 키워드를 추가할 수 있습니다. [업로드 작업 선택 사항] 대화 상자에서 [추가 메타데이터]를 선택하고 키워드를 입력합니다. [업로드 선택 사항](uploading-files.md#upload_options)을 참조하십시오.
 
 ## 메타데이터 가져오기 {#import-metadata}
 
@@ -76,7 +76,7 @@ Dynamic Media Classic에 업로드할 때 파일에 키워드를 추가할 수 �
 >[!NOTE]
 메타데이터를 Scene7 Publishing System으로 올바르게 가져올 수 있도록 메타데이터를 입력하는 데 사용할 템플릿을 만들 수 있습니다. 템플릿을 만든 후 메타데이터를 입력하는 데 사용할 수 있습니다. [업로드할 메타데이터를 입력하는 데 사용할 템플릿 만들기](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)를 참조하십시오.
 
-표준 속성에 대한 자세한 내용은 다음에서 찾을 수 있습니다. https://www.adobe.com/devnet/xmp.html
+표준화된 속성에 대한 자세한 내용은https://www.adobe.com/devnet/xmp.html
 
 1. 찾아보기 패널에서 탭으로 구분된 파일이나 XML 파일에서 메타데이터를 추가하려는 이미지를 선택합니다.
 1. **파일** &gt; **메타데이터 가져오기**&#x200B;를 클릭합니다.
@@ -143,7 +143,7 @@ To rename an image’s Scene7 Publishing System ID, add a column labeled *newips
 
 ## 업로드할 메타데이터를 입력하는 데 사용할 템플릿 만들기 {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic 에서는 메타데이터를 기록할 템플릿을 만드는 명령을 제공합니다. 템플릿을 사용하면 메타데이터가 Scene7 Publishing System에 올바르게 업로드될 수 있도록 메타데이터를 올바른 형식으로 입력할 수 있습니다. 메타데이터를 기록하고 Scene7 Publishing System으로 가져오는 데 사용할 템플릿을 만들려면 다음 단계를 수행합니다.
+Dynamic Media Classic에서는 메타데이터를 기록할 템플릿을 만드는 명령을 제공합니다. 템플릿을 사용하면 메타데이터가 Scene7 Publishing System에 올바르게 업로드될 수 있도록 메타데이터를 올바른 형식으로 입력할 수 있습니다. 메타데이터를 기록하고 Scene7 Publishing System으로 가져오는 데 사용할 템플릿을 만들려면 다음 단계를 수행합니다.
 
 1. 템플릿에 사용할 메타데이터 필드가 포함된 이미지 자산을 선택합니다.
 1. [파일] &gt; [메타데이터 가져오기]를 선택합니다.
