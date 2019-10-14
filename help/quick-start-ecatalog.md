@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalog
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: e1b74f30faab334453f941e9075910c8a8565462
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -39,8 +39,8 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 
 >[!NOTE]
 >
->AEM Dynamic Media - Scene7 모드 사용자이고 eCatalogs를 사용하려면 CRXDE Lite에서 `pdfbrochure` 값을 편집해야 합니다. 이렇게 하려면 AEM에서 UICONTROL 도구 &gt; **[일반 &gt; CRXDE Lite를 클릭합니다]**. 왼쪽 패널 탐색 트리에서 로 이동합니다 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
-오른쪽 아래 창의 속성 **탭에서** `jobParam` 행을 선택합니다. 에서 `pdfbrochure` 로 값을 `false` 설정합니다 `true`. CRXDE `pdfbrochure=true`Lite 페이지의 왼쪽 위 모서리에서 모두 저장을 **클릭합니다**.
+>AEM Dynamic Media - Scene7 모드 사용자이고 eCatalogs를 사용하려면 CRXDE Lite에서 `pdfbrochure` 값을 편집해야 합니다. 이렇게 하려면 AEM에서 도구 &gt; 일반 **[!UICONTROL &gt; CRXDE Lite를 클릭합니다]**. 왼쪽 패널 탐색 트리에서 로 이동합니다 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+오른쪽 아래 창의 속성 **[!UICONTROL 탭에서]** `jobParam` 행을 선택합니다. 에서 `pdfbrochure` 로 값을 `false` 설정합니다 `true`. CRXDE `pdfbrochure=true`Lite 페이지의 왼쪽 위 모서리에서 모두 저장을 **[!UICONTROL 클릭합니다]**.
 이제 SPS에서 eCatalog를 작성할 수 있습니다.
 
 **빠른 시작**
@@ -65,7 +65,7 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 
 페이지를 추가하려면 자산 라이브러리에서 폴더를 선택하고 PDF 또는 이미지 파일을 [주문 페이지] 화면으로 드래그합니다. 기본 페이지 번호 대신 사용자 지정 페이지 이름을 제공하거나 많은 페이지 이름을 가져올 수 있습니다.
 
-[저장] 단추를 클릭하고 eCatalog의 이름을 입력한 다음 eCatalog를 저장할 SPS 폴더를 선택하고 [저장] 단추를 선택합니다. 페이지 순서를 변경하거나 eCatalog를 편집할 때마다 [저장] 단추를 클릭하여 변경 사항을 저장합니다.
+Click **[!UICONTROL Save]**, enter a name for your eCatalog, choose an SPS folder for storing it, and click **[!UICONTROL Save]**. Each time you change the page order or edit your eCatalog, save your changes by clicking **[!UICONTROL Save]**.
 
 [eCatalog 만들기](creating-ecatalog.md)를 참조하십시오.
 
@@ -73,7 +73,7 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 
 이미지 맵은 eCatalog 페이지에 다른 차원을 추가합니다. 이미지 맵은 항목에 대한 자세한 정보를 제공하는 페이지의 한 영역입니다. 뷰어가 포인터를 이미지 맵 위로 롤오버하면 항목에 대한 설명이 표시됩니다. 이미지 맵을 클릭하면 새 웹 페이지를 여는 외부 참조가 활성화되고, 이 페이지에서 항목에 대한 자세한 정보를 확인할 수 있습니다.
 
-이미지 맵을 만들려면 eCatalog 화면을 엽니다. eCatalog 화면의 [맵 페이지] 탭으로 이동한 다음 [사각형 이미지 맵] 도구  또는 [다각형 이미지 맵] 도구 를 사용하여 맵을 그립니다. [패닝] 도구 로 맵 테두리를 끌어 이미지 맵의 위치와 크기를 조정할 수 있습니다.
+이미지 맵을 만들려면 eCatalog 화면을 엽니다. Then go to the **[!UICONTROL Map Pages]** tab of the eCatalog screen, and draw the map with the Rectangle Image Map tool or Polygon Image Map tool. [패닝] 도구 로 맵 테두리를 끌어 이미지 맵의 위치와 크기를 조정할 수 있습니다.
 
 이미지 맵을 그린 후 [이미지 맵]을 클릭할 때 이동하려는 URL 주소를 입력합니다. 포인터를 이미지 맵 위로 이동할 때 표시되는 롤오버 텍스트를 입력할 수도 있습니다.
 
@@ -89,7 +89,7 @@ eCatalog 화면의 [정보 패널] 설정을 사용하여 이미지 맵 텍스�
 
 최종 사용자는 eCatalog 뷰어에서 eCatalog를 봅니다. 관리자는 eCatalog 뷰어를 구성할 수 있습니다. 윤곽 색상을 변경하고 새 "스킨"을 선택하여 eCatalog를 브랜딩할 수 있습니다. Dynamic Media Classic에는 몇 가지 "우수 사례" eCatalog 뷰어 사전 설정이 포함되어 있습니다. 이러한 사전 설정 중 하나를 선택하여 eCatalog를 표시할 수 있습니다. 관리자는 고유한 eCatalog 뷰어 사전 설정을 만들 수도 있습니다.
 
-eCatalog 뷰어 사전 설정을 만들려면 글로벌 탐색 막대에서 [설정] 단추를 클릭하고 [뷰어 사전 설정]을 선택합니다. Then click Add, choose a platform, and choose **[UICONTROL eCatalog &gt; Viewer]**.
+eCatalog 뷰어 사전 설정을 만들려면 전역 탐색 막대에서 [설정]을 클릭하고 **[!UICONTROL [뷰어 사전]** 설정] **[!UICONTROL 을 선택합니다]**. 그런 다음 **[!UICONTROL 추가를]**&#x200B;클릭하고 플랫폼을 선택한 다음 [전자 카탈로그] &gt; [뷰어] **[!UICONTROL 를 클릭합니다]**.
 
 [eCatalog 뷰어 사전 설정 지정](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)을 참조하십시오.
 
@@ -97,7 +97,7 @@ eCatalog 뷰어 사전 설정을 만들려면 글로벌 탐색 막대에서 [설
 
 eCatalog 뷰어 사전 설정은 eCatalog 뷰어의 스타일과 동작을 결정합니다.
 
-eCatalog 뷰어 사전 설정에 따라 eCatalog가 표시되는 방식을 확인하려면 찾아보기 패널에서 eCatalog를 선택하고 [미리 보기]를 클릭합니다. [미리 보기] 화면이 기본 뷰어에서 열립니다.
+To find out how eCatalog Viewer Presets display your eCatalog, select your eCatalog in the Browse Panel and click **[!UICONTROL Preview]**. [미리 보기] 화면이 기본 뷰어에서 열립니다.
 
 방향, 색상 구성표, 페이지 변경 컨트롤의 모양, 페이지를 넘길 때 페이지의 모양 등을 확인합니다. 
 
@@ -107,7 +107,7 @@ eCatalog 뷰어 사전 설정에 따라 eCatalog가 표시되는 방식을 확�
 
 eCatalog 및 관련 PDF를 게시하면 Dynamic Media 이미지 서버에 배치되므로 웹 사이트와 애플리케이션에 전달할 수 있습니다. 게시 프로세스의 일부로 Scene7 Publishing System이 eCatalog의 URL 문자열을 활성화합니다. 이 URL을 사용하여 다이내믹 미디어 이미지 서버에서 웹 사이트 또는 애플리케이션으로 eCatalog를 호출합니다.
 
-검색 패널에서 eCatalog 및 PDF를 게시로 표시한 후 전역 탐색 막대에서 [게시] 단추를 선택하여 게시를 시작합니다. [게시] 화면에서 [게시 시작]을 클릭합니다.
+검색 패널에서 eCatalog 및 PDF를 게시로 표시한 후 전역 탐색 막대에서 [게시] 단추를 선택하여 게시를 시작합니다. On the Publish screen, click **[!UICONTROL Start Publish]**.
 
 e카탈로그 [및 관련 PDF 게시를 참조하십시오](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
