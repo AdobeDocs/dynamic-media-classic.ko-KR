@@ -2,15 +2,15 @@
 title: Scene7 Publishing System에서 자산 내보내기
 seo-title: Scene7 Publishing System에서 자산 내보내기
 description: 널
-seo-description: Scene 7 Publishing System에서 자산을 내보내는 방법을 알아봅니다.
-uuid: d 42 b 7 a 73-80 c 0-4 a 9 a-a 04 e -7 ef 53 e 6 fcf 22
+seo-description: Scene7 Publishing System에서 자산을 내보내는 방법을 알아봅니다.
+uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: 관리
 content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/managing_ assets
-discoiquuid: EB 850 EC 7-A 669-41 EA-B 2 B 0-4 C 9178 E 34 F 95
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 ---
 
@@ -21,30 +21,30 @@ Scene7 Publishing System에서 편집한 자산을 로컬 네트워크 드라이
 
 내보내기 작업에 대해 ZIP 압축 파일의 최대 파일 크기는 1 GB입니다. 또한 내보내기 작업 당 최대 500 개의 자산을 내보낼 수 있습니다.
 
-Dynamic Media Classic는 작업 화면에 내보내기 작업 기록을 유지합니다.
+Dynamic Media Classic은 [작업] 화면에서 내보내기 작업 기록을 유지합니다.
 
 **Scene7 Publishing System에서 자산을 내보내려면**
 
 1. 내보내려는 자산을 선택한 다음 **[파일]** &gt; **[내보내기]**&#x200B;를 클릭합니다.
 1. [선택한 자산 내보내기] 창에서 **[이미지 선택 사항]**&#x200B;을 클릭하고 다음 중 원하는 선택 사항을 지정합니다. 사용자가 사용할 수 있는 선택 사항은 관리자가 결정합니다.
 
-   **사전 설정을** 선택적으로, 내보낼 때 형식을 지정할 이미지 사전 설정을 선택합니다. 이미지 사전 설정을 선택하면 자산이 이미지 사전 설정에서 정의된 형식을 사용하기 때문에 다른 형식 지정 선택 사항은 사용할 수 없습니다.
+   * **사전**&#x200B;설정 선택적으로, 에셋을 내보낼 때 이미지 사전 설정을 선택하여 에셋의 형식을 지정합니다. 이미지 사전 설정을 선택하면 자산이 이미지 사전 설정에서 정의된 형식을 사용하기 때문에 다른 형식 지정 선택 사항은 사용할 수 없습니다.
 
-   **변환자산** 파일이나 원본 이미지를 변환합니다.
+   * **전환**&#x200B;자산 파일 또는 원본 이미지를 변환합니다.
 
-   **크기표준** 크기를 선택할 수 있습니다. 또한 [크기] 드롭다운 목록에서 [기타]를 클릭하고 원하는 측정 단위를 선택한 다음 너비와 높이를 지정할 수 있습니다.
+   * **크기**&#x200B;표준 크기를 선택할 수 있습니다. 또한 [크기] 드롭다운 목록에서 [기타]를 클릭하고 원하는 측정 단위를 선택한 다음 너비와 높이를 지정할 수 있습니다.
 
-   또한 [Media Portal 사용자가 사용할 수 있는 내보내기 선택 사항 지정](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)을 참조하십시오.
+      또한 [Media Portal 사용자가 사용할 수 있는 내보내기 선택 사항 지정](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)을 참조하십시오.
 
-   **형식** 이미지 형식을 선택합니다.
+   * **형식**&#x200B;이미지 형식을 선택합니다.
 
-   **색상** RGB, CMYK 또는 회색을 선택합니다.
+   * **색상** RGB, CMYK 또는 회색을 선택합니다.
 
-   **해상도** 72, 150 또는 300 ppi를 선택합니다.
+   * **해상도** 72, 150 또는 300ppi를 선택합니다.
 
-   **작업 이름** 내보내기에 작업 이름을 할당할 수 있습니다.
+   * **작업**&#x200B;이름 내보내기에 작업 이름을 지정할 수 있습니다.
 
-   **이메일을 보내어** 전자 메일을 통해 자산을 보낼 전자 메일 주소를 입력합니다. 이메일 메시지에는 수신자가 자산을 다운로드하기 위해 이동할 수 있는 URL이 표시됩니다.
+   * **이메일 보내기**&#x200B;선택적으로 이메일 주소를 입력하여 이메일로 자산을 보냅니다. 이메일 메시지에는 수신자가 자산을 다운로드하기 위해 이동할 수 있는 URL이 표시됩니다.
 
 1. **내보내기**&#x200B;를 클릭합니다.
 
