@@ -1,11 +1,11 @@
 ---
-cloud: Experience-Cloud
-product: 'Dynamic Media Classic '
+cloud: experience Cloud
+product: '다이내믹 미디어 클래식 '
 audience: 최종 사용자
 user-guide-title: Dynamic Media Classic 도움말
 index: y
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 
 ---
 
@@ -13,6 +13,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 # Dynamic Media Classic 도움말 {#using}
 
 + [Dynamic Media Classic 설명서 홈](home.md)
++ [Experience League의 Dynamic Media 뉴스레터](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic 소개 {#intro}
    + [Dynamic Media Classic 정보](introduction.md)
    + [개발자 리소스](developer-resources.md)
@@ -39,7 +40,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Administration Setup](administration-setup.md)
 + Media Portal {#media-portal}
    + [시스템 요구 사항](system-requirements-1.md)
-   + [빠른 시작: Media Portal](quick-start-media-portal-administration.md)
+   + [빠른 시작:미디어 포털](quick-start-media-portal-administration.md)
    + [Media Portal 사용자 역할](media-portal-user-roles.md)
    + [Creating and managing Media Portal groups](creating-media-portal-groups.md)
    + [Media Portal 사용자 추가 및 관리](adding-media-portal-users.md)
@@ -57,12 +58,12 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 + 자산 관리 {#managing-assets}
    + [자산 관리 정보](about-managing-assets.md)
    + [자산 폴더 작업](asset-folders.md)
-   + [찾아보기 패널에서 자산 보기](viewing-assets-browse-panel.md)
-   + [찾아보기 패널에서 자산 선택](selecting-assets-browse-panel.md)
+   + [찾아보기 패널에서 에셋 보기](viewing-assets-browse-panel.md)
+   + [찾아보기 패널에서 에셋 선택](selecting-assets-browse-panel.md)
    + [자산 검색](searching-assets.md)
    + [자산 미리 보기](previewing-asset.md)
    + [자산 이동, 이름 바꾸기 및 삭제](moving-renaming-deleting-assets.md)
-   + [Working in Detail view](detail-view.md)
+   + [세부 사항 보기의 작업](detail-view.md)
    + [메타데이터 보기, 추가 및 내보내기](viewing-adding-exporting-metadata.md)
    + [Scene7 Publishing System에서 자산 내보내기](exporting-assets-scene7-publishing-system.md)
    + [자산 변경 사항을 피어와 실시간으로 공유](sharing-asset-changes-peers-real.md)
@@ -80,25 +81,25 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [확대/축소 이미지 업로드](uploading-zoom-images.md)
    + [Creating zoom targets for Guided Zoom](creating-zoom-targets-guided-zoom.md)
    + [확대/축소 뷰어 사전 설정 지정](setting-zoom-viewer-presets.md)
-   + [다른 확대/축소 뷰어에서 이미지 자산 미리 보기](previewing-image-assets-different-zoom.md)
+   + [다양한 확대/축소 뷰어를 사용하여 이미지 에셋 미리 보기](previewing-image-assets-different-zoom.md)
    + [확대/축소 이미지 게시](publishing-zoom-images.md)
    + [확대/축소 뷰어를 웹 페이지에 연결](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
-   + [빠른 시작: Ecatalogs](quick-start-ecatalog.md)
+   + [빠른 시작:eCatalogs](quick-start-ecatalog.md)
    + [PDF 파일 업로드](uploading-pdf-files.md)
    + [Creating an eCatalog](creating-ecatalog.md)
    + [Creating eCatalog Image Maps](creating-ecatalog-image-maps.md)
-   + [Ecatalog에서 정보 패널 컨텐츠 관리](info-panel-content.md)
+   + [eCatalogs의 정보 패널 컨텐츠 관리](info-panel-content.md)
    + [eCatalog 뷰어 사전 설정 지정](setting-ecatalog-viewer-presets.md)
    + [eCatalog 뷰어에서 eCatalog 미리 보기](previewing-ecatalogs-ecatalog-viewer.md)
-   + [Ecatalog 및 관련 PDF 게시](publishing-ecatalogs-associated-pdfs.md)
+   + [e카탈로그 및 관련 PDF 게시](publishing-ecatalogs-associated-pdfs.md)
    + [eCatalog를 웹 페이지에 연결](linking-ecatalog-web-page.md)
 + 이미지 집합 {#image-sets}
    + [빠른 시작: 이미지 집합](quick-start-image-sets.md)
    + [업로드할 이미지 집합 자산 준비](preparing-image-set-assets-upload.md)
    + [Creating an Image Set](creating-image-set.md)
    + [이미지 집합에 확대/축소 타겟 및 이미지 맵 포함](including-zoom-targets-image-maps.md)
-   + [이미지 세트에서 정보 패널 컨텐츠 관리](info-panel-content-1.md)
+   + [이미지 세트의 정보 패널 컨텐츠 관리](info-panel-content-1.md)
    + [이미지 집합 보기](viewing-image-sets.md)
    + [자동화된 이미지 집합 생성](automated-image-set-generation.md)
    + [이미지 집합을 웹 페이지에 연결](linking-image-set-web-page.md)
@@ -119,17 +120,17 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 + Template basics {#template-basics}
    + [Quick Start: Template Basics](quick-start-template-basics.md)
    + [템플릿 파일 업로드](uploading-template-files.md)
-   + [Creating a template](creating-template.md)
+   + [템플릿 만들기](creating-template.md)
    + [템플릿 매개 변수 만들기](creating-template-parameters.md)
    + [템플릿 게시](publishing-templates.md)
    + [템플릿을 웹 페이지에 연결](linking-template-web-page.md)
    + [컨텐츠 변형 관리](content-variations.md)
 + Template publishing {#template-publishing}
-   + [빠른 시작: 템플릿 게시](quick-start-template-publishing.md)
+   + [빠른 시작:템플릿 게시](quick-start-template-publishing.md)
    + [Adobe Illustrator에서 초기 템플릿 만들기](create-initial-template-illustrator.md)
    + [Upload files for Template Publishing](upload-files-template-publishing.md)
    + [가변성 정의: 매개 변수화 및 DOM 조작](defining-variability-parameterization-versus-dom.md)
-   + [Dynamic Media Classic에서 템플릿 매개 변수 지정](parameterizing-template-scene7.md)
+   + [Dynamic Media Classic에서 템플릿 매개 변수화](parameterizing-template-scene7.md)
    + [템플릿 특성 미리 보기 및 업데이트](preview-update-template-attributes.md)
    + [DOM 조작](dom-manipulation.md)
    + [FXG 템플릿을 웹 페이지에 연결](linking-fxg-template-web-page.md)
@@ -150,7 +151,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [혼합 미디어 집합 게시](publishing-mixed-media-set.md)
    + [혼합 미디어 집합을 웹 페이지에 연결](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [빠른 시작: Adobe Analytics와 Dynamic Media Classic 통합 ](quick-start-integrating-scene7-analytics.md)
+   + [빠른 시작:Dynamic Media Classic과 Adobe Analytics 통합 ](quick-start-integrating-scene7-analytics.md)
    + [Adobe Analytics에 로그인](log-analytics.md)
    + [Adobe Analytics 보고서 구성](configuring-analytics-reports.md)
    + [Adobe Analytics 계측 키트를 사용하여 뷰어 계측](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -159,10 +160,10 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Adobe Analytics 비디오 보고서 활성화](enabling-analytics-video-reports.md)
    + [Adobe Analytics 구성 정보 게시](publishing-analytics-configuration-information.md)
 + Target Classic 통합 {#target-classic}
-   + [빠른 시작: Target Classic 통합](quick-start-target-classic-integration.md)
-   + [Adobe Target Classic와 Adobe Dynamic Media Classic 통합](integrating-scene7-target-classic.md)
+   + [빠른 시작:Target Classic 통합](quick-start-target-classic-integration.md)
+   + [Adobe Dynamic Media Classic과 Adobe Target Classic 통합](integrating-scene7-target-classic.md)
    + [Creating an offer set](creating-offer-set.md)
-   + [Adobe Target Classic에 오퍼 집합 푸시](pushing-offer-sets-target-classic.md)
+   + [Adobe Target Classic으로 오퍼 집합 푸시](pushing-offer-sets-target-classic.md)
 + 사용자 생성 컨텐츠 {#user-generated-content}
    + [사용자 생성 컨텐츠 정보](about-ugc.md)
    + [업로드한 자산 삭제](deleting-uploaded-asset.md)
@@ -177,7 +178,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
    + [Adjusting an image](adjusting-image.md)
    + [업로드 시 이미지 편집 선택 사항](image-editing-options-upload.md)
    + [Working with PDFs](pdfs.md)
-   + [Working with PSD files](psd-files.md)
+   + [PSD 파일 작업](psd-files.md)
    + [PostScript 및 Illustrator 파일 작업](postscript-illustrator-files.md)
    + [Working with vignette, window covering, and cabinet files](vignette-window-covering-cabinet-files.md)
 + 지원 파일 {#support-files}
