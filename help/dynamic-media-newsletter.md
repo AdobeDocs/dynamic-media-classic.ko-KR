@@ -1,44 +1,85 @@
 ---
-description: Adobe Target Insider는 Adobe Target 커뮤니티 구성원을 위한 월별 뉴스레터입니다. 제품 업데이트와 향후 계획, 개인화 및 최적화 팁 및 기법, 고객 성공 사례, 정보 중심의 백서, 인기 블로그 게시물 등에 대해 알아보십시오.
-keywords: 참가자 뉴스레터;뉴스레터;제품 업데이트;팁 및 기법;이벤트;고객 성공;블로그;블로그;백서
-seo-description: Adobe Target Insider는 Adobe Target 커뮤니티 구성원을 위한 월별 뉴스레터입니다. 제품 업데이트와 향후 계획, 개인화 및 최적화 팁 및 기법, 고객 성공 사례, 정보 중심의 백서, 인기 블로그 게시물 등에 대해 알아보십시오.
-seo-title: 'Adobe Target Insider 뉴스레터 '
-solution: 목표
-title: Target Insider Newsletter
+description: 'Experience League의 Dynamic Media 뉴스레터는 월간 뉴스레터입니다. Dynamic Media와 Dynamic Media Classic을 통해 작업 속도를 높일 수 있도록 고안된 플러그인입니다. 비디오 방법, 솔루션 개요, 이미지 사전 설정, 뷰어 사전 설정, 비디오 프로필 등과 같은 일부 주요 기능과 기능에 대한 도입 등 유용한 지식 작성 리소스가 이 원 스톱 스토어 뉴스레터에서 제공됩니다. '
+keywords: 다이내믹 미디어;뉴스레터;제품 업데이트;팁 및 기법;이벤트;고객 성공;블로그;블로그;이미지;기능;기능;Dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;images;images;features;features
+seo-description: 비디오 방법, 솔루션 개요, 이미지 사전 설정, 뷰어 사전 설정, 비디오 프로필 등과 같은 일부 주요 기능과 기능에 대한 소개를 비롯하여 원스톱 Shop 뉴스레터에서 지식 작성 리소스를 이용할 수 있습니다.
+seo-title: 'Adobe Dynamic Media 뉴스레터 '
+solution: 동적 미디어
+title: 다이내믹 미디어 뉴스레터
 translation-type: tm+mt
-source-git-commit: 1fc1537288fe8e106970a61271705f28ecf497c0
+source-git-commit: e78e6bc34343479b133f475e9c0fae1e1841d465
 
 ---
 
 
-# Target Insider 뉴스레터
+# ![Dynamic Media 뉴스레터 로고](/help/assets/dynamic-media-newsletter-logo.png)
 
-Adobe Target Insider는 Adobe Target 커뮤니티 구성원을 위한 월별 뉴스레터입니다. 제품 업데이트와 향후 계획, 개인화 및 최적화 팁 및 기법, 고객 성공 사례, 정보 중심의 백서, 인기 블로그 게시물 등에 대해 알아보십시오.
+Dynamic Media Newsletter by Experience League는 Dynamic Media와 Dynamic Media Classic을 신속하게 활용하는 데 도움이 되는 월별 뉴스레터입니다.
+
+**뉴스레터에 무엇이 포함되어 있습니까?**
+사용 방법 비디오, 솔루션 개요, 이미지 사전 설정, 뷰어 사전 설정, 비디오 프로필 등과 같은 일부 주요 기능과 기능에 대한 도입 등 유용한 지식 작성 리소스가 이 원 스톱 스토어 뉴스레터에서 제공됩니다.
+
+## 영감을 얻으십시오. 최신 정보
+
+[Dynamic](https://www.adobe.com/subscription/dynamic-media-newsletter.html) Media 뉴스레터를 받은 편지함에서 매월 받으려면 등록하십시오.
+
+## Dynamic Media 뉴스레터 문제가 누락되었습니까?
+
+* **[2019년 10월, 문제](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)** 10이 발행물의 경우:
+
+   * 방문자가 Dynamic Media 뷰어에서 수행하는 작업에 대한 고급 분석을 얻을 수 있는 방법입니다.
+   * 고품질의 이미지와 비디오를 전달하는 데 유용한 팁이 포함된 인포그래픽입니다.
+   * 오늘날의 고객의 기대에 부응하는 리치 미디어 전략을 업데이트하는 방법을 이해하는 데 도움이 되는 CMSwire 기사
+   * Skill Builder 시리즈에서 다이내믹 미디어의 On-Demand 웨비나에 액세스할 수 있습니다.
+   * Adobe Experience Manager의 사이트 신뢰성 엔지니어링 관리자 Nick Peters를 만나보십시오.
+   * Experience League에서 Dynamic Media와 Dynamic Media Classic을 빠르게 익힐 수 있습니다.
+
+* **[2019년 9월,](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_09_2019_Sept.html)**&#x200B;문제 09:
+
+   * 이러한 9가지 "고화"를 제거하여 고객 경험을 극대화하십시오.
+   * 다이내믹 미디어 팀이 일반 방문자 트래픽보다 높은 하루 일정을 준비하는 데 도움이 되는 방법을 알아봅니다.
+   * 최근 두 개의 스킬 빌더 웨비나를 접할 수 있는 두 번째 기회.
+   * 불법 복제로부터 디지털 자산을 보호하는 on-demand 웨비나를 시청하십시오.
+   * Bridge Roman, Adobe Experience Manager Assets의 수석 제품 마케팅 관리자
+   * Experience League에서 Dynamic Media와 Dynamic Media Classic을 빠르게 익힐 수 있습니다.
 
 
-Adobe Target Insider 뉴스레터를 사용하여 최적화하는 방법을 살펴보려면 [공지](https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/) 사항을 참조하십시오.
+* **[2019년 8월, 2008](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_08_2019_Aug.html)**&#x200B;호:
 
->[!IMPORTANT]
->
->[Adobe Target Insider 뉴스레터를 받은 편지함에](https://www.adobe.com/subscription/adobe_target_newsletter.html)자동으로 수신하도록 등록합니다.
+   * Dynamic Media로 업그레이드하는 경우에만 사용할 수 있는 중요한 기능을 살펴볼 수 있습니다.
+   * Adobe Experience Manager Assets와 Dynamic Media를 빠르게 익힐 수 있도록 고안된 웨비나 시리즈를 살펴보십시오.
+   * Adobe Experience League의 Dynamic Media를 통해 가치 창출
+   * 방문자가 리치 미디어와 어떻게 상호 작용하는지 분석할 수 있는 이번 9월 이후의 강력한 통합을 미리 만나보십시오.
+   * Dynamic Media 기술 지원의 귀재인 PieterJan Pieper를 만나보십시오.
 
-이전 뉴스레터를 빠뜨린 경우 다음 링크를 클릭하여 누락된 내용이 없는지 확인합니다.
 
->[!NOTE]
->
->반드시 다시 확인해 보십시오. 우리는 여기에서 모든 지난 문제를 게시하기 위해 노력하고 있습니다.
+* **[2019년 7월,](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_07_2019_July.html)**&#x200B;문제 07:
 
-| 문제 | 세부 사항 |
-|--- |--- |
-|  |  |
-| [2018년 11월(Volume 1, Issue 11)](https://expleague.azureedge.net/assets/target/newsletter-2018-november.html) | 이 호에서 Forrester의 수석 애널리스트 James McCormick과 함께 경험 최적화 플랫폼에 대한 최신 웨비나에 대해 살펴보십시오. 고객이 반복해서 사용하는 모바일 앱을 개발하는 방법을 살펴보십시오. WestJet의 Matt Ravlich가 최적화 성공과 커뮤니케이션하는 방법에 대해 조언합니다. Adobe Sensei 기반의 두 개의 강력한 AI 기능을 통해 규모에 맞게 개인화를 구현하는 방법을 살펴볼 수 있습니다. Adobe Summit에 대한 날짜를 잊지 마십시오. |
-| [2018년 10월(Volume 1, Issue 10)](https://expleague.azureedge.net/assets/target/newsletter-2018-october.html) | 최근 TechCrunch 아티클에 소개된 기능 등 Adobe Target에 많은 새로운 기능과 향상된 기능이 추가되었습니다. 관련 블로그 기사 및 최신 Adobe Target의 새로운 기능을 통해 새로운 기능에 대한 자세한 내용을 살펴볼 수 있습니다. 또한 David Parker와 그의 팀이 Teleco 대기업 회사가 자사의 웹 사이트에서 전체 고객 여정을 최적화할 수 있도록 지원했던 방법을 살펴볼 수 있습니다. |
-| [2018년 9월(Volume 1, Issue 9)](https://expleague.azureedge.net/assets/target/newsletter-2018-september.html) | Adobe Target Insider의 이 에디션에서 여름 인턴 Len Habbal은 Adobe Target 제품 마케팅 팀의 여름 인턴 경험을 공유합니다. 또한 Adobe 기술을 올바로 구현했는지 확인하는 데 도움이 되는 툴인 Adobe Cloud Platform Auditor를 소개합니다. AI를 통해 고객 여정을 한 단계 발전시키고 Adobe Target을 인증하는 방법을 설명합니다. 또한 영국의 텔레커뮤니케이션 및 미디어 회사인 Sky의 Rob McLaughlin으로부터 대규모 개인화를 고객에게 제공하는 방법 등에 대해 들었습니다. |
-| [2018년 8월(Vol 1, Issue 8)](https://expleague.azureedge.net/assets/target/newsletter-2018-august.html) | 이 Adobe Target Insider 뉴스레터에서 최적화 및 개인화 전문 지식을 구축하는 데 유용한 리소스인 Adobe Experience League for Adobe Target을 살펴볼 수 있습니다. CarMax의 Jake Mitchell이 사용자 경험 최적화를 위해 Adobe Target을 이용했는지 살펴보십시오. 마지막으로 Adobe Target Premium의 새로운 개인화 인사이트 보고서에서 데이터 과학을 살펴보십시오. |
-| [2018년 7월(Volume 1, Issue 7)](https://expleague.azureedge.net/assets/target/newsletter-2018-july.html) | 이 에디션의 Adobe Target Insider에서는 모범 사례와 팁 및 기법을 소개하는 Adobe Target Community에서 호스팅하는 새로운 웨비나 시리즈인 Adobe Target Basics를 소개합니다. 또한 Nicolas Mériel은 개인화를 위해 AI를 사용하기 위한 Swisscom의 여정, 개인화 설문 조사에서 최근 AI를 활용한 주요 정보 등에 대해 의견을 공유하고 있습니다. |
-| [2018년 6월(Volume 1, Issue 6)](https://expleague.azureedge.net/assets/target/newsletter-2018-june.html) | Adobe는 The Forrester Wave™:경험 최적화 플랫폼, 2018년 2분기 보고서에서는 Adobe 솔루션이 이 상을 받을 수 있도록 도움을 주신 고객, 여러분의 지원에 감사드립니다. 이 보고서에서 블로그 게시물을 살펴보고 최적화 프로그램을 사이드쇼와 변형하기 위한 5가지 팁을 살펴보고, 애틀랜타에 있는 Adobe Insider의 최근 둘러보기를 살펴보십시오. |
-| [2018년 5월(Volume 1, Issue 5)](https://expleague.azureedge.net/assets/target/newsletter-2018-may.html) | 이 에디션에서는 Adobe Experience Cloud가 5월 25일부터 적용되는 EU GDPR(General Data Protection Regulation)을 어떻게 준수하고 있는지 살펴보십시오. 개인화 트랙에서 최고의 Adobe Summit 세션 요약 그리고 B2B-사용자들에게는 B2B 거대 기업 Gringer로부터 인사이트를 읽어 보십시오. |
-| [2018년 4월(Volume 1, Issue 4)](https://expleague.azureedge.net/assets/target/newsletter-2018-april.html) | 본 에디션에서는 Adobe Summit의 Adobe Summit을 재조명하고 Adobe Insider Tour를 통해 Adobe 팀 및 동료와 소중한 인맥을 이어나갈 수 있는 새로운 기회를 소개합니다. Adobe Target을 사용한 개인화 성공 사례를 공유한 Adobe Experience Business Excellence Awards의 5명의 결선 진출자에 대한 자세한 내용을 살펴보십시오. 본 에디션에서는 Adobe Summit의 Adobe Summit을 재조명하고 Adobe Insider Tour를 통해 Adobe 팀 및 동료와 소중한 인맥을 이어나갈 수 있는 새로운 기회를 소개합니다. Adobe Target을 사용한 개인화 성공 사례를 공유한 Adobe Experience Business Excellence Awards의 5명의 결선 진출자에 대한 자세한 내용을 살펴보십시오. |
-| [2018년 3월 (Vol 1, Issue 3)](https://expleague.azureedge.net/assets/target/newsletter-2018-march.html) | 올해 Adobe Summit에서 발표한 Adobe Target의 혁신적인 새로운 기능을 개발하는 데 많은 노력을 기울였습니다. Adobe Target에서 더 많은 가치를 얻을 수 있는 유용한 심층 분석 기술 문서와 함께 이 문서를 읽어 보십시오. |
-| [2018년 2월(Volume 1, Issue 2)](https://expleague.azureedge.net/assets/target/newsletter-2018-february.html) | Adobe Summit에서 개인화 세션에 Cliff Notes 버전을 제공합니다. 한 번 보고, 세션을 선택하면 중요한 이벤트에 참여할 수 있습니다. 또한 아래 기술문서를 통해 개인화 설문 조사에서 2018 AI 상태에 대해 살펴보고 시작하십시오. 작은 감사의 의미로 스타벅스 커피 음료를 마셔도 좋습니다! |
-| [2018년 1월(Volume 1, Issue 1)](https://expleague.azureedge.net/assets/target/newsletter-2018-january.html) | Adobe Target Insider의 첫 번째 발행인 Adobe Target 사용자를 위한 뉴스레터가 가득한 월간 뉴스레터를 제공합니다. 이번 호에서 2018년 개인화의 향후 전략에 대한 의견을 공유하겠습니다. 즐기세요. |
+   * 고부가가치 자산을 적절하게 관리할 수 있는 리소스와 정보를 통해 방문자가 다시 방문하도록 경험을 안전하게 제공할 수 있습니다.
+   * 디지털 자산 보호에 대한 웨비나에 대해 자세히 알아보십시오.
+   * 다음으로 정보가 풍부한 Adobe Insider Tour를 방문합니다.
+   * Adobe Experience Manager Assets(AEM Assets)에 Dynamic Media가 있을 때 사용할 수 있는 흥미로운 기능입니다.
+   * 웹 사이트에 360도 비디오 및 사용자 정의 비디오 축소판 추가
+   * AEM Assets에서 다이내믹 미디어의 주요 솔루션 컨설턴트인 Andrew 해서웨이를 만나보십시오.
+
+* **[2019년 6월,](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_06_2019_June.html)**&#x200B;문제 06 이 문제:
+
+   * AEM Assets에서 Dynamic Media로 업그레이드할 수 있는 방법을 설명하는 비디오를 감상하십시오.
+   * Experience League의 주요 방법 비디오를 시청하십시오.
+   * Adobe Insider Tour에 대한 자세한 내용을 살펴보십시오.
+   * 디지털 에셋이 불법 복제되지 않도록 보호하는 방법을 살펴보십시오.
+   * AI 기반의 이미지를 위한 스마트 자르기에 대해 알아보십시오.
+   * Dynamic Media와 Dynamic Media Classic에서 혁신적인 많은 기능을 지원하고 있는 Alex Thiers를 만나보십시오.
+
+* **[2019년 5월,](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_05_2019_May.html)**&#x200B;문제 05:
+
+   * 블로그 게시물에서 Dynamic Media Classic의 숨겨진 10가지 기능 살펴보기
+   * Experience League의 주요 방법 비디오를 시청하십시오.
+   * Adobe Insider Tour에 대한 자세한 내용을 살펴보십시오.
+   * 3부로 구성된 블로그 시리즈를 통해 리치 미디어 전략을 업데이트할 수 있습니다.
+   * AI 기반의 비디오 스마트 자르기에 대한 자세한 내용을 살펴보십시오.
+
+* **[2019년 4](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_04_2019_April.html)**&#x200B;월, Adobe Experience Manager Assets와 Adobe Dynamic Media Classic에서 Dynamic Media 사용자를 위한 뉴스, 이벤트 및 리소스로 채워진 Dynamic Media 뉴스레터 발행에 오신 것을 환영합니다. 이 문제:
+   * Dynamic Media Classic 숨겨진 기능 웨비나에 등록하십시오.
+   * On-Demand 웨비나 시리즈를 통해 리치 미디어 전략을 개발할 수 있습니다.
+   * 주요 리치 미디어 사용 사례와 이를 위한 Adobe 솔루션을 살펴볼 수 있습니다.
+   * ...더 많은 것을!
