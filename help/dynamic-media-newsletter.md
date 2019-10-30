@@ -6,17 +6,16 @@ seo-title: 'Adobe Dynamic Media 뉴스레터 '
 solution: 동적 미디어
 title: 다이내믹 미디어 뉴스레터
 translation-type: tm+mt
-source-git-commit: fe982958e9954adb814fdd7cc94225a9dbe7c6b0
+source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
 
 ---
 
 
 # ![Dynamic Media 뉴스레터 로고](/help/assets/dynamic-media-newsletter-logo.png)
 
-Dynamic Media Newsletter by Experience League는 Dynamic Media와 Dynamic Media Classic을 신속하게 활용하는 데 도움이 되는 월별 뉴스레터입니다.
+Adobe Experience League의 월별 Dynamic Media 뉴스레터는 Dynamic Media 및 Dynamic Media Classic을 통해 신속하게 전환하여 바로 가치 구현을 시작할 수 있도록 고안된 것입니다.
 
-**뉴스레터에 무엇이 포함되어 있습니까?**
-사용 방법 비디오, 솔루션 개요, 이미지 사전 설정, 뷰어 사전 설정, 비디오 프로필 등과 같은 일부 주요 기능과 기능에 대한 도입 등 유용한 지식 작성 리소스가 이 원 스톱 스토어 뉴스레터에서 제공됩니다.
+이 원스톱 스토어 뉴스레터에서 사용 방법 비디오, 솔루션 개요, 이미지 사전 설정, 뷰어 사전 설정, 비디오 프로필 등과 같은 솔루션의 주요 기능과 기능에 대한 소개와 같은 중요한 지식을 구축하는 리소스를 살펴볼 수 있습니다.
 
 ## 영감을 얻으십시오. 최신 정보
 
