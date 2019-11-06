@@ -2,15 +2,15 @@
 title: 이미지 품질 최적화 우수 사례
 seo-title: 이미지 품질 최적화 우수 사례
 description: 널
-seo-description: 이미지 품질을 최적화하기 위한 모범 사례를 살펴볼 수 있습니다.
-uuid: 102 e 83 fe-ee 2 a -443 b-ba 92-6 ad 5 cc 3 daef 0
+seo-description: 이미지 품질을 최적화하기 위한 모범 사례를 살펴보십시오.
+uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: 관리
 content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/master_ files
-discoiquuid: 8164466 E -2520-482 A -88 EC -6191 FDC 77 EA 3
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -19,14 +19,14 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 허용되는 결과를 렌더링하는 데는 많은 요소가 기여하므로 이미지 품질 최적화 프로세스는 시간이 많이 소요될 수 있습니다. 또한 이미지 품질은 개인마다 다르게 생각하므로 결과는 어느 정도 주관적입니다. 따라서 구조화된 실험이 중요합니다.
 
-Dynamic Media Classic 에는 이미지 조정 및 최적화를 위한 100 개 이상의 이미지 제공 명령 및 렌더링 결과가 포함되어 있습니다. 다음 지침은 프로세스를 간소화하고 일부 필수 명령 및 우수 사례를 사용하여 좋은 결과를 빨리 얻는 데 도움이 될 수 있습니다.
+Dynamic Media Classic에는 이미지를 조정 및 최적화하고 결과를 렌더링하기 위한 100개 이상의 이미지 제공 명령이 포함되어 있습니다. 다음 지침은 프로세스를 간소화하고 일부 필수 명령 및 우수 사례를 사용하여 좋은 결과를 빨리 얻는 데 도움이 될 수 있습니다.
 
-[스마트 이미징을 참조하십시오](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html).
+스마트 [이미징을](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)참조하십시오.
 
 ## Best practices for image format (&amp;fmt=) {#best-practices-for-image-format-fmt}
 
 * JPG 또는 PNG는 양질의 이미지를 관리할 수 있는 크기 및 용량으로 제공하는 데 적합합니다.
-* URL에 형식 명령이 제공되지 않으면 Dynamic Media 이미지 제공 기본값은 배달을 위해 JPG로 설정됩니다.
+* URL에 형식 명령을 제공하지 않으면 기본적으로 JPG로 전달됩니다.
 * JPG는 10:1 비율로 압축하며 일반적으로 작은 크기의 이미지 파일을 만듭니다. PNG는 이미지에 흰색 배경이 들어 있을 때와 같이 일부 경우를 제외하면 약 2:1 비율로 압축합니다. 일반적으로 PNG 파일 크기는 JPG 파일보다 큽니다.
 * JPG는 손실 압축을 사용하며, 이것은 압축 중에 그림 요소(픽셀)가 제거됨을 의미합니다. 반면에 PNG는 비손실 압축을 사용합니다.
 * JPG는 종종 가장자리와 대비가 선명한 합성 이미지보다 원본에 더 충실한 사진 이미지를 압축하는 데 사용합니다.
@@ -36,22 +36,22 @@ As a best practice for image format, start with the most common setting `&fmt=JP
 
 ## 이미지 크기 우수 사례 {#best-practices-for-image-size}
 
-동적으로 이미지 크기를 줄이는 것은 다이내믹 미디어 이미지 제공 가장 일반적인 작업 중 하나입니다. 이 작업에는 크기 지정이 포함되며, 원할 경우 이미지의 크기를 줄이는 데 사용되는 다운샘플링 모드 지정도 포함됩니다.
+동적으로 이미지 크기를 줄이는 것은 다이내믹 미디어 이미지 제공에서 수행하는 가장 일반적인 작업 중 하나입니다. 이 작업에는 크기 지정이 포함되며, 원할 경우 이미지의 크기를 줄이는 데 사용되는 다운샘플링 모드 지정도 포함됩니다.
 
 * For image sizing, the best and most straightforward approach is to use `&wid=<value>` and `&hei=<value>` or just `&hei=<value>`. 이 매개 변수들은 종횡비에 따라 이미지 너비를 자동으로 설정합니다.
-* `&resMode=<value>` 다운샘플링에 사용되는 알고리즘을 제어합니다. `&resMode=sharp2`다음으로 시작 이 값은 최상의 이미지 품질을 제공합니다. While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
+* `&resMode=<value>` 다운샘플링에 사용되는 알고리즘을 제어합니다. 다음으로 `&resMode=sharp2`시작하십시오. 이 값은 최상의 이미지 품질을 제공합니다. While using the downsampling value `=bilin` is faster, it often results in the aliasing of artifacts.
 
-이미지 크기 `&wid=<value>&hei=<value>&resMode=sharp2` 조정, `&hei=<value>&resMode=sharp2`
+이미지 크기 조정, 사용 `&wid=<value>&hei=<value>&resMode=sharp2` 또는 `&hei=<value>&resMode=sharp2`
 
 ## 이미지 선명하게 하기 우수 사례 {#best-practices-for-image-sharpening}
 
-이미지 선명하게 하기는 웹 사이트에서 이미지를 제어하는 가장 복잡한 작업으로, 많은 실수가 발생합니다. 다음 리소스를 참조하여 Dynamic Media Classic에서 Sharpening 및 Unsharp Masking 이 작동하는 방식에 대해 자세히 알아보십시오.
+이미지 선명하게 하기는 웹 사이트에서 이미지를 제어하는 가장 복잡한 작업으로, 많은 실수가 발생합니다. 다음 유용한 리소스를 참조하여 Dynamic Media Classic에서 선명하게 하기 및 언샵 마스크가 작동하는 방식에 대해 자세히 알아보십시오.
 
-Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
+Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
 On Adobe TV, watch [Sharpening an image with unsharp mask](https://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/).
 
-Dynamic Media Classic를 사용하면 인제스트, 전달 시 또는 두 가지 모두에서 이미지를 선명하게 할 수 있습니다. 하지만 대부분의 경우, 두 가지 방식을 모두 사용하지는 않고 어느 한 가지 방법만 사용하여 이미지를 선명하게 해야 합니다. URL에서 제공 시 이미지를 선명하게 하면 일반적으로 가장 좋은 결과를 얻게 됩니다.
+Dynamic Media Classic을 사용하면 통합, 전달 시 또는 두 가지 모두에서 이미지를 선명하게 만들 수 있습니다. 하지만 대부분의 경우, 두 가지 방식을 모두 사용하지는 않고 어느 한 가지 방법만 사용하여 이미지를 선명하게 해야 합니다. URL에서 제공 시 이미지를 선명하게 하면 일반적으로 가장 좋은 결과를 얻게 됩니다.
 
 사용할 수 있는 이미지 선명하게 하기 방법에는 다음 두 가지가 있습니다.
 
@@ -70,11 +70,11 @@ Dynamic Media Classic를 사용하면 인제스트, 전달 시 또는 두 가지
          이 매개 변수는, 가장자리 픽셀로 간주되고 필터가 선명하게 하기 전에, 선명하게 되는 픽셀과 주변 영역 간의 필수 차이를 결정합니다. 임계값은 피부 톤과 같이 유사한 색상 영역을 지나치게 선명하게 하는 것을 방지하는 데 유용합니다. 예를 들어 임계값 12는 "노이즈"를 추가하지 않도록 피부 톤 밝기에서 약간의 변형을 무시하는 반면, 속눈썹이 피부와 접촉하는 지점과 같은 고대비 영역에는 여전히 가장자리 대비를 추가합니다.
       필터와 함께 사용하는 우수 사례 등 이러한 세 가지 매개 변수를 설정하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
-      Dynamic Media Classic 도움말 항목을 [](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)참조하십시오.
+      Dynamic Media Classic 도움말 항목에서는 이미지 [선명하게](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)만들기에 대해 설명합니다.
 
-      Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](https://marketing.adobe.com/resources/help/en_US/s7/sharpening/s7_sharpening_images.pdf).
+      Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
-   * Dynamic Media Classic 에서는 네 번째 매개 변수를 제어할 수도 있습니다. monochrome ( `0,1`). 이 매개 변수는 언샵 마스킹이 값 `0`을 따로따로 사용하여 각 색상 구성 요소에 적용될지, 아니면 값 `1`을 사용하여 이미지 밝기/강도에 적용될지를 결정합니다.
+   * Dynamic Media Classic에서는 네 번째 매개 변수를 제어할 수도 있습니다.단색( `0,1`). 이 매개 변수는 언샵 마스킹이 값 `0`을 따로따로 사용하여 각 색상 구성 요소에 적용될지, 아니면 값 `1`을 사용하여 이미지 밝기/강도에 적용될지를 결정합니다.
 
 
 언샵 마스크 반경 매개 변수로 시작하는 것이 좋습니다. 시작할 수 있는 반경 설정은 다음과 같습니다.
@@ -99,14 +99,14 @@ Dynamic Media Classic를 사용하면 인제스트, 전달 시 또는 두 가지
    * The `qlt=` parameter has a second setting that lets you turn on RGB chromaticity downsampling using the normal value `,0` (default), or turn it off using the value `,1`.
    * To keep it simple, start with RGB chromaticity downsampling turned off ( `,1`). 이렇게 설정하면 특히 선명한 가장자리와 대비가 많은 합성 이미지의 경우 일반적으로 나은 이미지 품질을 얻을 수 있습니다.
 
-`&qlt=85,0`를 사용하는 것이 좋습니다.
+As a best practice for JPG compression use `&qlt=85,0`.
 
 ## Best practices for JPEG sizing (&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize}
 
 `jpegSize`는 메모리가 제한된 장치에 전달할 이미지가 특정 크기를 초과하지 않도록 사용하려는 경우에 유용한 매개 변수입니다.
 
 * This parameter is set in kilobytes ( `jpegSize=<size_in_kilobytes>`). 이미지 제공에 허용되는 최대 크기를 정의합니다.
-* `&jpegSize=` jpg 압축 매개 변수와 `&qlt=`상호 작용합니다. If the JPG response with the specified JPG compression parameter ( `&qlt=`) does not exceed the `jpegSize` value, the image is returned with `&qlt=` as defined. Otherwise, `&qlt=` is gradually decreased until the image fits in the maximum allowed size, or until the system determines it cannot fit and returns an error.
+* `&jpegSize=` jpg 압축 매개 변수와 상호 작용합니다 `&qlt=`. If the JPG response with the specified JPG compression parameter ( `&qlt=`) does not exceed the `jpegSize` value, the image is returned with `&qlt=` as defined. Otherwise, `&qlt=` is gradually decreased until the image fits in the maximum allowed size, or until the system determines it cannot fit and returns an error.
 
 As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are delivering JPG images to devices with limited memory.
 
@@ -124,7 +124,7 @@ As a best practice, set `&jpegSize=` and add the parameter `&qlt=` if you are de
 
 실험을 하게 되면, 워크플로우를 최적화하는 데 유용한 다음의 일반적 제안 사항을 확인할 수도 있습니다.
 
-* Dynamic Media Classic URL에서 직접 또는 조정 작업을 위한 실시간 미리 보기를 제공하는 Scene 7 Publishing System의 이미지 조정 기능을 사용하여 다양한 매개 변수를 실시간으로 테스트하고 테스트합니다.
-* 가장 좋은 방법은 다이내믹 미디어 이미지 제공 명령을 이미지 사전 설정으로 그룹화할 수 있다는 것입니다. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. URL 경로의 사용자 지정 사전 설정 이름은 이 사전 설정을 호출합니다. 이와 같은 기능은 웹 사이트의 다양한 이미지 사용 패턴에 대한 명령 및 품질 설정을 관리하는 데 도움이 되며 URL의 전체 길이를 단축합니다.
-* 또한 Dynamic Media Classic는 통합 시 이미지를 선명하게 하는 등 이미지 품질을 조정할 수 있는 보다 고급 방법을 제공합니다. 렌더링 결과를 추가적으로 조정하고 최적화하기 위해 이 옵션을 선택할 수 있는 고급 사용 사례에서 Adobe Professional Services는 사용자 지정된 인사이트 및 우수 사례로 도움을 줄 수 있습니다.
+* Dynamic Media Classic URL에서 직접 또는 조정 작업을 위한 실시간 미리 보기를 제공하는 Scene7 Publishing System의 이미지 조정 기능을 사용하여 실시간으로 다양한 매개 변수를 테스트해 보십시오.
+* Dynamic Media 이미지 제공 명령을 이미지 사전 설정으로 그룹화할 수 있는 것이 좋습니다. An image preset is basically URL command macros with custom preset names such as `$thumb_low$` and `&product_high$`. URL 경로의 사용자 지정 사전 설정 이름은 이 사전 설정을 호출합니다. 이와 같은 기능은 웹 사이트의 다양한 이미지 사용 패턴에 대한 명령 및 품질 설정을 관리하는 데 도움이 되며 URL의 전체 길이를 단축합니다.
+* 또한 Dynamic Media Classic은 통합 시 선명하게 하기 이미지를 적용하는 등 이미지 품질을 조정할 수 있는 고급 방법을 제공합니다. 렌더링 결과를 추가적으로 조정하고 최적화하기 위해 이 옵션을 선택할 수 있는 고급 사용 사례에서 Adobe Professional Services는 사용자 지정된 인사이트 및 우수 사례로 도움을 줄 수 있습니다.
 
