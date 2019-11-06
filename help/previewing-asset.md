@@ -3,14 +3,14 @@ title: 자산 미리 보기
 seo-title: 자산 미리 보기
 description: 널
 seo-description: 자산을 미리 보는 방법을 알아봅니다.
-uuid: 4 A 01 BE 21-E 37 F -4 D 79-9220-F 4 E 177 E 9179 A
+uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: 관리
 content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/managing_ assets
-discoiquuid: 17 D 0 bfd 6-fc 62-4 ed 6-8 a 51-7 ac 1 a 6 bb 96 cc
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
+discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 매개 변수 레이어가 있는 템플릿 자산을 미리 보는 경우 매개 변수를 변경하거나 이미지 사전 설정을 변경할 수 있습니다. 인라인으로 변경되기 때문에 동일한 [미리 보기] 창에서 결과를 즉시 볼 수 있습니다.
 
-Dynamic Media Classic 뷰어 라이브러리 예제도 [참조하십시오](https://marketing.adobe.com/resources/help/en_US/s7/vlist/vlist.html).
+Adobe 뷰어 참조 라이브러리 예도 [여기](/help/assets/vlist/vlist.html) 및 [여기를](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)참조하십시오.
 
 **자산을 미리 보려면**
 
