@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 ---
 
@@ -25,7 +25,7 @@ Scene7 Publishing System은 이제 HTTP/2를 통한 모든 이미지 및 비디�
 
 게시 또는 게시 취소 상태의 자산. 기본적으로 Dynamic Media Classic에 업로드하는 모든 자산은 자동으로 게시되도록 표시됩니다.
 
-자세한 내용은 즉시 게시 [알림 PDF를 참조하십시오](https://marketing.adobe.com/resources/help/en_US/s7/rendering-instant-publish-notification.pdf).
+자세한 내용은 즉시 게시 [알림 PDF를 참조하십시오](/help/assets/rendering-instant-publish-notification.pdf).
 
 다음 기술을 사용하여 자산을 게시로 표시합니다.
 
