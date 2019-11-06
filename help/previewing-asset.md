@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 매개 변수 레이어가 있는 템플릿 자산을 미리 보는 경우 매개 변수를 변경하거나 이미지 사전 설정을 변경할 수 있습니다. 인라인으로 변경되기 때문에 동일한 [미리 보기] 창에서 결과를 즉시 볼 수 있습니다.
 
-Adobe 뷰어 참조 라이브러리 예도 [여기](/help/assets/vlist/vlist.html) 및 [여기를](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)참조하십시오.
+Adobe 뷰어 [참조 라이브러리 예도 참조하십시오](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 **자산을 미리 보려면**
 
