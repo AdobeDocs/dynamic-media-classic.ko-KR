@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c802751
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 8216ac64ba418987c7f5ed84c4cb957189645bd9
 
 ---
 
@@ -457,7 +457,7 @@ Dynamic [Media Classic 뷰어 사전 설정 호환성 매트릭스를](applicati
 
 뷰어에 따라 커뮤니티 기능을 추가할 수 있습니다. 커뮤니티 기능에는 [포함] 단추, [이메일] 단추, [링크] 단추 및 [사이트 방문] 단추가 포함됩니다. 이러한 단추를 사용하면 뷰어를 사용하는 사용자가 다른 사용자와 공유하거나 Dynamic Media Classic 웹 사이트를 열 수 있습니다.
 
-Adobe 뷰어 참조 라이브러리 예도 [여기](/help/assets/vlist/vlist.html) 및 [여기를](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)참조하십시오.
+Adobe 뷰어 [참조 라이브러리 예도 참조하십시오](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 ### 응답형 디자인의 웹 페이지에 대한 뷰어 지원 {#viewer-support-for-responsive-designed-web-pages}
 
@@ -497,7 +497,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 다음 표에서는 현재 사용 가능한 Dynamic Media Classic 뷰어 사전 설정을 식별합니다. 또한 데스크톱 및 모바일 장치와 뷰어의 호환성과 주어진 각 뷰어에 사용되는 기술을 지정합니다.
 
-Adobe 뷰어 참조 라이브러리 예도 [여기](/help/assets/vlist/vlist.html) 및 [여기를](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)참조하십시오.
+Adobe 뷰어 [참조 라이브러리 예도 참조하십시오](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 뷰어에 지원되는 웹 브라우저 및 운영 체제 버전에 대한 정보를 보려면 뷰어 릴리스 노트를 검토할 수 있습니다.
 
