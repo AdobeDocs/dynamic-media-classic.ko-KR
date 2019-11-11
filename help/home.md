@@ -5,7 +5,7 @@ description: Dynamic Media Classic 기술 설명서
 seo-description: 'Adobe Dynamic Media Classic(이전 Scene 7)에 대한 기술 설명서, 릴리스 노트 및 자체 도움말 자료 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 1c11dd719e5da1d166f43e0ab9b490464c74645f
 
 ---
 
@@ -14,19 +14,20 @@ source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
 
 Dynamic Media Classic 도움말 시작 여기에서 사용 가능한 모든 리소스에 액세스하여 Dynamic Media Classic(이전의 Scene7)을 사용하는 방법에 대해 자세히 알아볼 수 있습니다.
 
-## Dynamic Media Classic 기술 설명서
+## 2020년 상반기 출시 예정인 새로운 Dynamic Media Classic 유저 인터페이스
 
-* [릴리스 노트](https://marketing.adobe.com/resources/help/en_US/s7/release_notes/index.html)
-* [사용자 안내서](introduction.md)
+Dynamic Media Classic 사용자는 2020년 상반기에 유저 인터페이스를 새로 고칠 수 있습니다. 이 경험은 중요한 리소스에 대한 링크가 포함된 업데이트된 로그인을 제공합니다. 또한 이 업데이트는 더 이상 브라우저의 Adobe Flash 기술을 사용하지 않습니다.
 
-## Dynamic Media Classic 개발자 리소스
+FAQ [를 참조하십시오](new-ui-2020.md).
 
-* [Adobe 뷰어 참조 안내서](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/index.html)
-* [뷰어 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [이미지 제공 및 이미지 렌더링 API](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/index.html)
+## 다이내믹 미디어 개발자 리소스
 
-## Dynamic Media Classic 웨비나 및 자습서
+* [Dynamic Media 개발자 리소스 랜딩 페이지](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html) — 뷰어 참조 안내서, 이미지 제공/이미지 렌더링 API, 이미지 제작 시스템 API 및 Dynamic Media Classic 릴리스 정보가 포함되어 있습니다.
+* [뷰어 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) — 비디오, 쇼퍼블 미디어, 혼합 미디어, 스핀 세트, 인라인 확대/축소, 이미지 및 견본 집합, flyouts에 대한 뷰어 예가 포함되어 있습니다.
 
+## Dynamic Media Classic 뉴스레터, 웨비나 및 자습서
+
+* [다이내믹 미디어 뉴스레터 아카이브](dynamic-media-newsletter.md)
 * [이미지 선명하게 하기 우수 사례](/help/assets/s7_sharpening_images.pdf)
 * [에셋 ROI 극대화](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true) - 업계 모범 사례를 통해 사이트와 모바일 앱에서 리치 미디어를 전달할 수 있습니다. 이 웨비나에서는 다양한 디바이스에 비디오를 효율적으로 전달하고 마케팅 캠페인에서 동적 크리에이티브를 제공하고 이미지, 스타일 가이드 또는 룩북 쇼퍼블 제작을 통해 구매 전환율을 높이는 방법을 보여주는 예시와 데모를 제공합니다.
 * [콘텐츠 전달 라이프사이클 가속화](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/) - 이 웨비나에서는 리치 미디어 관리 및 전달을 위한 차세대 플랫폼인 On-Demand 방식의 Adobe Experience Manager Assets 소개 및 데모를 제공합니다. 크리에이티브 팀과 마케팅 팀 간의 공동 작업 및 자산 공유를 통해 자산 검토 프로세스를 간소화하는 방법을 살펴볼 수 있습니다.자산 메타데이터를 효율적으로 관리하여 에셋을 손쉽게 검색, 사용, 재사용 및 공유할 수 있고 인터랙티브한 크로스 채널 리치 미디어 경험을 전달하는 방법을 위한 모범 사례
