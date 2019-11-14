@@ -5,7 +5,7 @@ description: Dynamic Media Classic 기술 설명서
 seo-description: 'Adobe Dynamic Media Classic(이전 Scene 7)에 대한 기술 설명서, 릴리스 노트 및 자체 도움말 자료 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 51e0f618deb5e2126b2fb7d199db3c0097e15d43
+source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
 
 ---
 
@@ -14,11 +14,11 @@ source-git-commit: 51e0f618deb5e2126b2fb7d199db3c0097e15d43
 
 Dynamic Media Classic 도움말 시작 여기에서 사용 가능한 모든 리소스에 액세스하여 Dynamic Media Classic(이전의 Scene7)을 사용하는 방법에 대해 자세히 알아볼 수 있습니다.
 
-<!-- ## New Dynamic Media Classic user interface coming in first half of 2020
+## 2020년 상반기 출시 예정인 새로운 Dynamic Media Classic 유저 인터페이스
 
-Dynamic Media Classic users can expect a refresh of their user interface in the first half of 2020. The experience will deliver an updated log-in with links to valuable resources. Plus, this update will no longer rely on Adobe Flash technology in the browser.
+Dynamic Media Classic 사용자는 2020년 상반기에 유저 인터페이스를 새로 고칠 수 있습니다. 이 경험은 중요한 리소스에 대한 링크가 포함된 업데이트된 로그인을 제공합니다. 또한 이 업데이트는 더 이상 브라우저의 Adobe Flash 기술을 사용하지 않습니다.
 
-See [Frequently Asked Questions](new-ui-2020.md).-->
+FAQ [를 참조하십시오](new-ui-2020.md).
 
 ## 다이내믹 미디어 개발자 리소스
 
