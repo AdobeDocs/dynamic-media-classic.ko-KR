@@ -1,12 +1,12 @@
 ---
 description: 'Experience League의 Dynamic Media 뉴스레터는 월간 뉴스레터입니다. Dynamic Media와 Dynamic Media Classic을 통해 작업 속도를 높일 수 있도록 고안된 플러그인입니다. 비디오 방법, 솔루션 개요, 이미지 사전 설정, 뷰어 사전 설정, 비디오 프로필 등과 같은 일부 주요 기능과 기능에 대한 도입 등 유용한 지식 작성 리소스가 이 원 스톱 스토어 뉴스레터에서 제공됩니다. '
-keywords: 다이내믹 미디어;뉴스레터;제품 업데이트;팁 및 기법;이벤트;고객 성공;블로그;블로그;이미지;기능;기능;Dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;images;images;features;features
+keywords: dynamic media;newsletter;product updates;tips and tricks;events;customer success;blog;blogs;images;videos;features;capabilities
 seo-description: 비디오 방법, 솔루션 개요, 이미지 사전 설정, 뷰어 사전 설정, 비디오 프로필 등과 같은 일부 주요 기능과 기능에 대한 소개 등 이 원스톱 Shop 뉴스레터에서 지식 작성 리소스를 이용할 수 있습니다.
 seo-title: 'Adobe Dynamic Media 뉴스레터 '
-solution: 동적 미디어
+solution: Dynamic Media
 title: 다이내믹 미디어 뉴스레터
 translation-type: tm+mt
-source-git-commit: 656a9ab1b4fd0c99b612dc0e42d03b56ff213191
+source-git-commit: 83cc98c151a040031312fea7b560be9792a941ab
 
 ---
 
@@ -22,6 +22,14 @@ Adobe Experience League의 월별 Dynamic Media 뉴스레터는 Dynamic Media �
 [Dynamic](https://www.adobe.com/subscription/dynamic-media-newsletter.html) Media 뉴스레터를 받은 편지함에서 매월 받으려면 등록하십시오.
 
 ## Dynamic Media 뉴스레터 문제가 누락되었습니까?
+
+* **[2019년 11월,](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_11_2019_Nov.html)**&#x200B;문제 11:
+
+   * Dynamic Media Classic 사용자 인터페이스의 새로 고침입니다.
+   * 강력하고 새로운 보안 기능
+   * 휴가 시즌이 성공하도록 준비 중입니다.
+   * Newsletter를 동료와 공유하여 팀의 전문성을 향상시킬 수 있습니다.
+   * 다이내믹 미디어 수석 제품 관리자인 Apoorva Gupta를 만나보십시오.
 
 * **[2019년 10월, 문제](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)** 10이 발행물의 경우:
 
