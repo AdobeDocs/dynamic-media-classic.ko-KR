@@ -5,7 +5,7 @@ description: Dynamic Media Classic 기술 설명서
 seo-description: 'Adobe Dynamic Media Classic(이전 Scene 7)에 대한 기술 설명서, 릴리스 노트 및 자체 도움말 자료 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 709a28f3972fe472f7474cc595fbda440170db0f
+source-git-commit: f31df2ce32e3b30556383570a8fb97c24ab45171
 
 ---
 
@@ -40,4 +40,6 @@ FAQ [를 참조하십시오](new-ui-2020.md).
 ## Dynamic Media Classic 교육
 
 현재 사용 가능한 교육 과정을 보려면 [여기로](http://training.adobe.com/training/courses.html#product=adobe-scene7) 이동하십시오.
-[Dynamic Media Classic 교육 비디오](https://marketing.adobe.com/resources/help/en_US/s7/training-videos/).
+[Dynamic Media Classic 교육 비디오](/help/training-videos.md).
+
+<!-- old path was (https://marketing.adobe.com/resources/help/en_US/s7/training-videos/) -->
