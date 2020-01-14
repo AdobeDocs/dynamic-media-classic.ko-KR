@@ -1,8 +1,8 @@
 ---
 title: Dynamic Media Classic 교육 비디오
-description: 널
+description: 'Dynamic Media Classic 교육 비디오: 시작하기, 다이내믹 이미지, 비디오, 미디어 포털, 템플릿, 이미지 제작 및 렌더링에 대한 비디오를 참조하십시오.'
 translation-type: tm+mt
-source-git-commit: 19126573aa4fa4d313e30273f0b1af03082565c8
+source-git-commit: 3f450bea8712c304226bea1ef1d2eaa8f4fb112c
 
 ---
 
