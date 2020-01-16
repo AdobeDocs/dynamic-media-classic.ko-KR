@@ -4,13 +4,13 @@ seo-title: 이미지 품질 최적화 우수 사례
 description: 널
 seo-description: 이미지 품질을 최적화하기 위한 모범 사례를 살펴보십시오.
 uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 917ba4469b5ef22e62c572f80008e470dccdebe4
+source-git-commit: 6b0833287291f6475ab15106e8f33ed0dda0b2d4
 
 ---
 
@@ -49,7 +49,7 @@ As a best practice for image format, start with the most common setting `&fmt=JP
 
 Best practices white paper [Sharpening images in Adobe Scene7 Publishing System and on Image Server](/help/assets/s7_sharpening_images.pdf).
 
-On Adobe TV, watch [Sharpening an image with unsharp mask](https://tv.adobe.com/watch/visual-design-cs6/sharpening-an-image-with-unsharp-mask/).
+또한 [언샵 마스크로](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html)이미지 선명하게 하기를 참조하십시오.
 
 Dynamic Media Classic을 사용하면 통합, 전달 시 또는 두 가지 모두에서 이미지를 선명하게 만들 수 있습니다. 하지만 대부분의 경우, 두 가지 방식을 모두 사용하지는 않고 어느 한 가지 방법만 사용하여 이미지를 선명하게 해야 합니다. URL에서 제공 시 이미지를 선명하게 하면 일반적으로 가장 좋은 결과를 얻게 됩니다.
 
@@ -61,13 +61,13 @@ Dynamic Media Classic을 사용하면 통합, 전달 시 또는 두 가지 모�
    * `&op_sharpen=amount,radius,threshold`
 
       * `amount` (0-5, 효과의 강도)
-      * `radius` (0-250, 선명해진 개체 둘레에 그려진 "선명하게 하는 선"의 너비에 대한 픽셀 단위 측정값)
+      * `radius` (0-250, 선명해진 개체 둘레에 그려진 &quot;선명하게 하는 선&quot;의 너비에 대한 픽셀 단위 측정값)
 
          매개 변수 `radius`와 `amount`는 서로 반대로 작용합니다. Reducing `radius` can be compensated by increasing `amount`. `Radius`를 사용하면 높은 값은 넓은 범위의 픽셀을 선명하게 하는 반면, 낮은 값은 가장자리 픽셀만 선명하게 하는 방식으로 미세하게 조정할 수 있습니다.
 
       * `threshold` (0-255, 효과의 민감도)
 
-         이 매개 변수는, 가장자리 픽셀로 간주되고 필터가 선명하게 하기 전에, 선명하게 되는 픽셀과 주변 영역 간의 필수 차이를 결정합니다. 임계값은 피부 톤과 같이 유사한 색상 영역을 지나치게 선명하게 하는 것을 방지하는 데 유용합니다. 예를 들어 임계값 12는 "노이즈"를 추가하지 않도록 피부 톤 밝기에서 약간의 변형을 무시하는 반면, 속눈썹이 피부와 접촉하는 지점과 같은 고대비 영역에는 여전히 가장자리 대비를 추가합니다.
+         이 매개 변수는, 가장자리 픽셀로 간주되고 필터가 선명하게 하기 전에, 선명하게 되는 픽셀과 주변 영역 간의 필수 차이를 결정합니다. 임계값은 피부 톤과 같이 유사한 색상 영역을 지나치게 선명하게 하는 것을 방지하는 데 유용합니다. 예를 들어 임계값 12는 &quot;노이즈&quot;를 추가하지 않도록 피부 톤 밝기에서 약간의 변형을 무시하는 반면, 속눈썹이 피부와 접촉하는 지점과 같은 고대비 영역에는 여전히 가장자리 대비를 추가합니다.
       필터와 함께 사용하는 우수 사례 등 이러한 세 가지 매개 변수를 설정하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
       Dynamic Media Classic 도움말 항목에서는 이미지 [선명하게](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)만들기에 대해 설명합니다.
