@@ -6,7 +6,7 @@ seo-title: 'Adobe Dynamic Media 뉴스레터 '
 solution: Dynamic Media
 title: 다이내믹 미디어 뉴스레터
 translation-type: tm+mt
-source-git-commit: e68bef4e597e81269d863e37fcd1d1b33c842836
+source-git-commit: 15beb1fbac7e6bf2c7d593806dc84efeea37d620
 
 ---
 
@@ -22,6 +22,15 @@ Adobe Experience League의 월별 Dynamic Media 뉴스레터는 Dynamic Media �
 [Dynamic](https://www.adobe.com/subscription/dynamic-media-newsletter.html) Media 뉴스레터를 받은 편지함에서 매월 받으려면 등록하십시오.
 
 ## Dynamic Media 뉴스레터 문제가 누락되었습니까?
+
+* **[2020년 2월,](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@5lYjerUalNCDQd6ABlMufSyP3GqbFDn747uBiom3-3_efxsaEjuw8LNhJxrs89ft1vcsQzjvxTGMo55w-4k0YyBVGiL6m5AWSe9I7H7wIXKT0Efz.html)**문제 2:
+
+   * 새로운 스킬 빌더 웨비나에 참석하여 Dynamic Media Classic 전문가로 탈바꿈시킬 수 있습니다.
+   * Adobe Summit 2020에서 Dynamic Media를 만나보십시오.
+   * Dynamic Media의 자르기 기능을 사용하는 방법을 살펴볼 수 있습니다.
+   * 무료 감사를 활용하면 Dynamic Media Classic에서 더 많은 가치를 창출할 수 있습니다.
+   * Dynamic Media Classic의 새로운 사용자 인터페이스에 대해 알아봅니다.
+   * Adobe Experience Cloud 고객 성공 관리자 Georgia Myers를 만나보십시오.
 
 * **[2020년 1월,](http://amc-mkt-prod1-t.adobe-campaign.com/rest/head/mirrorPage/@NpvOA7LHuVbd-W1B5pENdSLNFZ4L4ZeEkA_bVd4reX31KUOs3uaPFEuEx2mWz-3oNkVBcY5fdimoW3RM-SzTt6QXI4l1Rd2mEwrYsWp7C1LnUMVp.html)**문제 1:
 
