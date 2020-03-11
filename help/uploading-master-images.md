@@ -4,13 +4,13 @@ seo-title: 마스터 이미지 업로드
 description: 널
 seo-description: 마스터 이미지를 업로드하는 방법을 알아봅니다.
 uuid: 50bcf2e2-852b-48f1-a7c7-5063a87ce9c1
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: dfe86e040d0acc3135fcb596c85867f2d55d9090
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 Scene7 Publishing System에 업로드하기 전에 마스터 이미지 파일을 준비합니다.
 
-* **이미지 크기**&#x200B;예상 크기의 이미지를 만듭니다. 일반적인 이미지 크기는 가장 긴 치수에서 1500-2500 픽셀입니다. 확대/축소 기능을 사용하려는 경우 가장 긴 치수의 2000픽셀 이상의 이미지를 사용하여 최적의 확대/축소 세부 사항을 지정하는 것이 좋습니다.
+* **이미지 크기**&#x200B;예상 크기의 이미지를 만듭니다. 일반적인 이미지 크기는 가장 긴 치수에서 1500-2500 픽셀입니다. 확대/축소 기능을 사용하려는 경우 가장 긴 치수의 2000픽셀 이상의 이미지를 사용하여 최적의 확대/축소 세부 사항을 지정하는 것이 좋습니다. Dynamic Media Classic에서는 이미지를 최대 25메가픽셀까지 렌더링할 수 있습니다. 예를 들어 5000 x 5000메가픽셀 이미지 또는 최대 25메가픽셀 크기의 기타 모든 크기 조합을 사용할 수 있습니다.
 
 * **파일 포맷** Dynamic Media Classic은 TIFF, BMP, JPEG, PSD, GIF, EPS 등 모든 표준 이미지 파일 포맷을 지원합니다. 손실 없는 이미지 형식(TIFF 및 PNG)이 권장됩니다. JPEG 이미지를 사용하는 경우에는 최고 품질 설정을 사용합니다.
 
