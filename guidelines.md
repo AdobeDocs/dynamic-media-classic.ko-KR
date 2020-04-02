@@ -1,5 +1,5 @@
 ---
-source-git-commit: 72af899fe787f16d79d878c59e5e193b457cefad
+source-git-commit: 648e8068125cca090a5f31a44c3795755a2b996f
 translation-type: tm+mt
 
 ---
@@ -35,9 +35,9 @@ Adobe는 설명서에 대한 기여를 환영하지만, 당사의 기여 요청�
 
 문서를 개선하기 위해 필요한 모든 아이디어는 공헌 활동입니다. 그러나 댓글, 문제 및 풀 요청은 *기여도만을* 위한 것입니다. Dynamic Media Classic 사용 방법, 프로젝트 구현 또는 기술 문제 해결 방법에 대한 질문에 답변하기 위해 고안된 것이 아닙니다.
 
-Dynamic Media Classic 사용 또는 기술 오류에 대한 모든 질문은 일반적인 지원 프로세스를 통해 보고해야 합니다.
+Dynamic Media Classic 사용 또는 기술 오류에 대한 모든 질문은 Experience Cloud 엔터프라이즈 지원 포털을 [통해 보고하거나 Experience](https://helpx.adobe.com/contact/enterprise-support.ec.html) Cloud 커뮤니티에서 [논의해야](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)합니다.
 
-***설명서 기부는 Adobe 지원을*** 대체한 것이 아니며 지원 관련 질문에 대한 답변을 요구하는 이러한 기부는 거부됩니다.
+***설명서 기부는 Adobe 고객 지원 센터를 대체한*** 것이 아니며 지원 관련 질문에 대한 답변을 요구하는 이러한 기부는 거부됩니다.
 
 ### 기여도는 해당 문서 페이지를 명확하게 참조해야 합니다.
 
