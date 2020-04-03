@@ -3,12 +3,12 @@ title: 이미지 자르기
 seo-title: 이미지 자르기
 description: 널
 seo-description: 이미지를 자르는 방법을 살펴봅니다.
-uuid: 84 f 199 de-cbfc -4 d 06-877 f -6 e 9148 e 82 e 15
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/master_ files
-discoiquuid: 99 DFA 476-4 F 11-4569-A 27 E-A 76 ED 7787674
+uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 translation-type: tm+mt
 source-git-commit: b8d245bfc8375966af314ed95e81a519c5ee6c24
 
@@ -45,7 +45,7 @@ Scene7 Publishing System에서 이미지를 자를 수 있습니다. 이미지�
 
 1. To crop an image, click its rollover Edit button and choose **Crop**, or display it in the Browse Panel in Detail view and click **Crop**.
 
-1. 잘라내기 편집기 창에서 자르기 상자에서 자르지 않을 이미지의 일부를 배치합니다. What appears inside the box remains when you click **Save** and crop the image.
+1. [자르기 편집기] 창에서 자르기 상자에 자르기를 원하지 않는 이미지 부분을 배치합니다. What appears inside the box remains when you click **Save** and crop the image.
 1. 자르기 영역을 조정하려면 다음 중 하나를 수행합니다.
 
    * 상자 측면이나 모서리를 드래그합니다. Shift 키를 누른 상태로 끌어 크기를 변경하지만 자르기 상자의 종횡비(모양)는 유지합니다.
