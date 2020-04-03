@@ -4,8 +4,8 @@ seo-title: Media Portal 사용자 역할
 description: Media Portal에서 사용할 수 있는 다양한 사용자 역할에 대해 알아봅니다.
 seo-description: Media Portal에서 사용할 수 있는 다양한 사용자 역할에 대해 알아봅니다.
 uuid: 1bf2cc85-3655-428f-81ab-5fdaa1e9401b
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
