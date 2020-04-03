@@ -3,9 +3,9 @@ title: 세부 사항 보기의 작업
 seo-title: 세부 사항 보기의 작업
 description: 널
 seo-description: 세부 사항 보기에서 작업하는 방법을 알아봅니다.
-uuid: cb62f765-9b7f-4a53-8206-9 파섹
-contentOwner: 관리
-content-type: 참조
+uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
@@ -43,7 +43,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
    * 자산을 두 번 클릭합니다.
    * 자산을 선택한 다음 세부 사항 **[!UICONTROL 보기를 클릭합니다]**.
-   * 자산을 선택한 다음 파일 &gt; **[!UICONTROL 세부 사항을 클릭합니다]**.
+   * 자산을 선택한 다음 파일 > **[!UICONTROL 세부 사항을 클릭합니다]**.
 
 >[!NOTE]
 >
@@ -59,7 +59,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 [세부 사항 보기]에서는 열린 자산으로 작업하기 위한 도구를 제공합니다. 사용 가능한 도구는 작업 중인 자산 유형에 따라 다르지만 다음 기능은 항상 [세부 사항 보기]에 제공됩니다.
 
-* **게시할**&#x200B;항목이름 **[!UICONTROL 왼쪽에 있는 게시]** 아이콘을 클릭하거나 파일 &gt; 게시 또는 파일 **** &gt; 게시 **[!UICONTROL 취소를]**&#x200B;클릭합니다.
+* **게시할**&#x200B;항목이름 **[!UICONTROL 왼쪽에 있는 게시]** 아이콘을 클릭하거나 파일 > 게시 또는 파일 **** > 게시 **[!UICONTROL 취소를]**&#x200B;클릭합니다.
 
 * **자산 이름**&#x200B;바꾸기이름을 선택하고 새 이름을 입력합니다.
 
@@ -67,7 +67,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 * **키워드 편집 및 추가키워드를**&#x200B;선택하고 원하는 대로 키워드를 추가하거나 제거합니다. [키워드 추가 또는 편집](/help/viewing-adding-exporting-metadata.md)을 참조하십시오.
 
-* **자산 삭제파일**&gt; **[!UICONTROL 삭제를 클릭합니다]**.
+* **자산 삭제파일**> **[!UICONTROL 삭제를 클릭합니다]**.
 
 불연속 파일(예: 이미지, 이미지 집합 및 글꼴)의 경우 [세부 사항 보기]에서 게시 및 편집 내역을 보고 작업 세부 사항을 확인할 수 있습니다.
 
