@@ -4,8 +4,8 @@ seo-title: Adobe Dynamic Media Classic 플랫폼 개요
 description: 널
 seo-description: Dynamic Media Classic 플랫폼 및 워크플로우 프로세스에 대한 개요입니다.
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
