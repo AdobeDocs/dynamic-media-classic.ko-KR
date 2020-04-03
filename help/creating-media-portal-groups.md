@@ -3,12 +3,12 @@ title: Media Portal 그룹 만들기 및 관리
 seo-title: Media Portal 그룹 만들기 및 관리
 description: 널
 seo-description: Media Portal 그룹을 만들고 관리하는 방법을 알아봅니다.
-uuid: 23 F 360 E 1-DDCB -491 B-AB 9 F -428 F 3 AC 9 C 316
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/media_ portal
-discoiquuid: 91524 d 36-b 77 a -4 dc 4-acba-a 7 bd 85297 e 98
+uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -31,7 +31,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 그룹 추가 {#adding-a-group}
 
-1. **[설정]** &gt; **[Media Portal 설정]** &gt; **[그룹]**&#x200B;을 클릭합니다.
+1. **[설정]** > **[Media Portal 설정]** > **[그룹]**&#x200B;을 클릭합니다.
 1. **[추가]**&#x200B;를 클릭합니다.
 1. **[그룹 추가]** 대화 상자의 [그룹 이름] 상자에 그룹 이름을 입력한 다음 [그룹 추가]를 클릭합니다.
 1. 원하는 경우 사용자 이름 옆에 있는 상자를 선택하여 새 그룹에 사용자를 추가할 수 있습니다.
@@ -47,7 +47,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 그룹의 자산 액세스 권한 설정 {#establishing-asset-access-permissions-for-a-group}
 
-1. **[설정]** &gt; **[Media Portal 설정]** &gt; **[그룹]**&#x200B;을 클릭합니다.
+1. **[설정]** > **[Media Portal 설정]** > **[그룹]**&#x200B;을 클릭합니다.
 1. [그룹] 목록 페이지에서 다음 중 하나를 수행합니다.
 
    * 그룹을 추가하고 권한을 지정하려면 **[추가]**&#x200B;를 클릭합니다. [그룹 추가] 대화 상자에서 그룹 이름을 입력하고 **[그룹 추가]**&#x200B;를 클릭한 다음 그룹에 사용자를 추가합니다.
@@ -79,7 +79,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 [Media Portal 사용자가 사용할 수 있는 내보내기 선택 사항 지정](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)을 참조하십시오.
 
-1. **[설정]** &gt; **[Media Portal 설정]** &gt; **[그룹]**&#x200B;을 클릭합니다.
+1. **[설정]** > **[Media Portal 설정]** > **[그룹]**&#x200B;을 클릭합니다.
 1. [그룹] 목록 페이지에서 다음 중 하나를 수행합니다.
 
    * 그룹을 추가하고 그룹에 사용할 수 있는 이미지 사전 설정을 지정하려면 **[추가]**&#x200B;를 클릭합니다. [그룹 추가] 대화 상자에서 그룹 이름을 입력하고 **[그룹 추가]**&#x200B;를 클릭한 다음 그룹에 사용자를 추가합니다.
@@ -91,10 +91,10 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 그룹 편집 및 삭제 {#edit-and-delete-groups}
 
-1. **[설정]** &gt; **[Media Portal 설정]** &gt; **[그룹]**&#x200B;을 클릭합니다.
+1. **[설정]** > **[Media Portal 설정]** > **[그룹]**&#x200B;을 클릭합니다.
 1. [그룹 목록] 페이지에서 그룹을 선택하고 편집하거나 삭제합니다.
 
-   **그룹 편집 편집을** 클릭한 다음 그룹 편집 대화 상자에서 옵션을 선택합니다.
+   **그룹** 편집 [편집]을 클릭한 다음 [그룹 편집] 대화 상자에서 옵션을 선택합니다.
 
    **그룹** 삭제 삭제를 클릭합니다.
 
