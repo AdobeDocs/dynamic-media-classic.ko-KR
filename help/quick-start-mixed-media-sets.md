@@ -2,13 +2,13 @@
 title: '"빠른 시작: 혼합 미디어 집합"'
 seo-title: '"빠른 시작: 혼합 미디어 집합"'
 description: 널
-seo-description: 빠르게 시작하는 데 도움이 되는 혼합 미디어 집합에 대한 소개 및 빠른 시작을 소개합니다.
-uuid: 0 ef 033 d 5-b 053-4 d 7 c-b 1 e 1-1980 f 899 fd 88
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/mixed_ media_ sets
-discoiquuid: 2708 D 077-94 FC -4045-8992-AD 3589 ED 9 CFD
+seo-description: 빠르게 시작하고 실행하는 데 유용한 소개 및 빠른 시작 혼합 미디어 집합.
+uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -23,7 +23,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 **빠른 시작**
 
-이 혼합 미디어 집합 빠른 시작은 Dynamic Media Classic의 혼합 미디어 집합 기술을 사용하여 빠르게 시작하고 실행되도록 고안되었습니다.
+이 혼합 미디어 집합 빠른 시작은 Dynamic Media Classic의 혼합 미디어 집합 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 고안되었습니다.
 
 **1. 이미지, 견본 파일 및 비디오 업로드**
 
@@ -47,7 +47,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 **4. 혼합 미디어 뷰어 사전 설정 지정**
 
-Dynamic Media Classic 에는 혼합 미디어 집합의 기본 뷰어 사전 설정이 포함되어 있습니다. 관리자는 혼합 미디어 집합 뷰어 사전 설정을 만들거나 수정할 수 있습니다.
+Dynamic Media Classic에는 혼합 미디어 집합에 대한 기본 뷰어 사전 설정이 포함되어 있습니다. 관리자는 혼합 미디어 집합 뷰어 사전 설정을 만들거나 수정할 수 있습니다.
 
 혼합 미디어 집합 뷰어 사전 설정을 지정할 때 집합에 포함된 다른 모든 자산의 뷰어 사전 설정을 추가합니다. 예를 들어 혼합 미디어 집합에 비디오가 포함되어 있는 경우 비디오 뷰어 사전 설정을 혼합 미디어 집합 뷰어 사전 설정에 추가합니다. 뷰어에 사운드트랙을 추가할 수도 있습니다. 이 사운드트랙은 뷰어가 열려 있는 동안 재생되지만 비디오가 활성 상태일 때는 재생되지 않습니다.
 
@@ -61,14 +61,14 @@ Dynamic Media Classic 에는 혼합 미디어 집합의 기본 뷰어 사전 설
 
 **6. 혼합 미디어 집합 게시**
 
-혼합 미디어 집합을 게시하면 다이내믹 미디어 클래식 서버에 배치되고 URL 문자열이 활성화됩니다.
+혼합 미디어 집합을 게시하면 Dynamic Media Classic 서버에 배치되고 URL 문자열이 활성화됩니다.
 
-혼합 미디어 집합은 **비디오 서버**&#x200B;에 게시하고 **이미지 서버**&#x200B;에도 게시해야 합니다. **비디오 서버**&#x200B;를 사용하여 게시하도록 표시한 실제 비디오를 게시합니다. 또한 **이미지 서버를** 사용하여 비디오 축소판과 같은 관련 자산을 게시하고 응용 비디오 집합에 대한 정보를 설정할 수 있습니다.
+혼합 미디어 집합은 **비디오 서버**&#x200B;에 게시하고 **이미지 서버**&#x200B;에도 게시해야 합니다. **비디오 서버**&#x200B;를 사용하여 게시하도록 표시한 실제 비디오를 게시합니다. 또한 이미지 서버를 **사용하여** 비디오 축소판과 같은 관련 자산을 게시하고 응용 비디오 세트에 대한 정보를 설정합니다.
 
 [혼합 미디어 집합 게시](publishing-mixed-media-set.md#publishing-a-mixed-media-set)를 참조하십시오.
 
 **7. 혼합 미디어 집합을 웹 페이지에 연결**
 
-Dynamic Media Classic는 혼합 미디어 집합을 게시한 후 URL 호출을 활성화합니다. [미리 보기] 화면에서 이러한 URL을 복사할 수 있습니다.
+Dynamic Media Classic에서는 혼합 미디어 집합을 게시한 후 혼합 미디어 집합에 대한 URL 호출을 활성화합니다. [미리 보기] 화면에서 이러한 URL을 복사할 수 있습니다.
 
 [혼합 미디어 집합]을 선택하고 [미리 보기]를 클릭합니다. [미리 보기] 화면에서 혼합 미디어 집합 뷰어 사전 설정을 선택하고 [URL 복사] 단추를 클릭합니다. [혼합 미디어 집합을 웹 페이지에 연결](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)을 참조하십시오.
