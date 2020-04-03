@@ -4,8 +4,8 @@ seo-title: 회전 집합 만들기
 description: 널
 seo-description: 스핀 세트를 만드는 방법을 알아봅니다.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
@@ -95,12 +95,12 @@ Scene7 Publishing System에서 스핀 세트가 만들어지는 순서는 중요
 
 ## 스핀 세트 삭제 {#deleting-a-spin-set}
 
-삭제된 세트는 휴지통으로 이동합니다. 하지만 삭제된 세트 내의 구성원(또는 "하위")은 휴지통으로 이동하지 않고, 각각 기존의 게시된 상태나 게시 취소된 상태를 유지합니다.
+삭제된 세트는 휴지통으로 이동합니다. 하지만 삭제된 세트 내의 구성원(또는 &quot;하위&quot;)은 휴지통으로 이동하지 않고, 각각 기존의 게시된 상태나 게시 취소된 상태를 유지합니다.
 
 [수동 자산 게시](publishing-files.md#manually-publishing-assets) 및 [수동 자산 게시 취소](publishing-files.md#manually-unpublishing-assets)를 참조하십시오.
 
 **스핀 세트 삭제**
 
 1. [격자 보기], [목록 보기] 또는 [상세 보기]에서 스핀 세트를 하나 이상 선택합니다.
-1. 글로벌 탐색 막대에서 **파일** &gt; **삭제** &gt; **삭제**&#x200B;를 클릭합니다.
+1. 글로벌 탐색 막대에서 **파일** > **삭제** > **삭제**&#x200B;를 클릭합니다.
 
