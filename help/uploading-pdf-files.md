@@ -4,8 +4,8 @@ seo-title: PDF 파일 업로드
 description: 널
 seo-description: eCatalog와 연관된 PDF 파일을 업로드하는 방법을 알아봅니다.
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 translation-type: tm+mt
@@ -25,7 +25,7 @@ Scene7 Publishing System에 업로드하기 전에 PDF 파일을 준비합니다
 * 파일을 업로드하기 쉽도록 모든 파일을 컴퓨터나 네트워크의 동일한 폴더에 넣습니다.
 * 페이지를 기준으로 파일 이름을 영숫자 순으로 지정합니다. 페이지를 정렬하면 파일이 업로드된 후 페이지를 올바른 순서대로 배치하기가 더 쉽습니다.
 * [PDF] 페이지를 검사하여 절단선, 등록 타겟 또는 색상 막대가 포함되어 있는지 여부를 확인합니다. 이러한 표시는 문서를 인쇄할 때 용지를 절단하는 위치를 결정하며, eCatalog를 웹에 배치하기 전에 제거해야 합니다. Dynamic Media Classic에서는 PDF 파일을 업로드할 때 자르기 표시에 대한 옵션을 제공합니다.
-* 뷰어가 키워드로 eCatalog를 검색하게 하려면 PDF 파일이 "균일화"되었는지 확인합니다. 균일화된 PDF 파일에서는 검색어를 추출할 수 없습니다. PDF가 균일화되었는지 확인하려면 PDF 내에서 텍스트 선택을 시도합니다. 텍스트를 선택할 수 없으면 PDF가 균일화된 것이며 뷰어가 eCatalog에서 키워드로 검색할 수 없습니다.
+* 뷰어가 키워드로 eCatalog를 검색하게 하려면 PDF 파일이 &quot;균일화&quot;되었는지 확인합니다. 균일화된 PDF 파일에서는 검색어를 추출할 수 없습니다. PDF가 균일화되었는지 확인하려면 PDF 내에서 텍스트 선택을 시도합니다. 텍스트를 선택할 수 없으면 PDF가 균일화된 것이며 뷰어가 eCatalog에서 키워드로 검색할 수 없습니다.
 * 원래 인쇄용이기 때문에 PDF 파일에는 대체로 CMYK 이미지가 포함되어 있습니다. 기본적으로 SPS는 이러한 CMYK 이미지를 지능적으로 검색하고 내부 CMYK 색상 프로필을 사용하여 전환합니다. 그러나 사용자 지정 색상 프로필을 사용하여 CMYK 이미지를 전환하려는 경우 이 작업도 가능합니다. 
 
    [ICC 프로필](icc-profiles.md#icc_profiles)을 참조하십시오.
@@ -56,7 +56,7 @@ Scene7 Publishing System에 업로드하기 전에 PDF 파일을 준비합니다
 
 * **원래 색상 공간**&#x200B;유지원래 색상 공간을 유지합니다.
 
-* **[사용자 정의 시작] &gt; [**&#x200B;끝] 메뉴를 열어 [변환] 및 [색상 공간으로 변환]을 선택할 수 있습니다. 표준 Photoshop 색상 공간이나 SPS로 업로드한 색상 공간을 선택할 수 있습니다.
+* **[사용자 정의 시작] > [**&#x200B;끝] 메뉴를 열어 [변환] 및 [색상 공간으로 변환]을 선택할 수 있습니다. 표준 Photoshop 색상 공간이나 SPS로 업로드한 색상 공간을 선택할 수 있습니다.
 
 [ICC 프로필](icc-profiles.md#icc_profiles)을 참조하십시오.
 
