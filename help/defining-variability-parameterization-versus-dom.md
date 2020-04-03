@@ -4,8 +4,8 @@ seo-title: '"가변성 정의: 매개 변수화 및 DOM 조작"'
 description: 널
 seo-description: 매개 변수화와 DOM 조작을 통해 가변성을 정의하는 방법을 살펴봅니다.
 uuid: dce424f2-07d8-4703-aa3a-40d2eee12f74
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
 discoiquuid: 5b844afe-ac55-4dd2-8fe8-125a9c9af948
