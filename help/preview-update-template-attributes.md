@@ -3,12 +3,12 @@ title: 템플릿 특성 미리 보기 및 업데이트
 seo-title: 템플릿 특성 미리 보기 및 업데이트
 description: 널
 seo-description: 템플릿 속성을 미리 보고 업데이트하는 방법을 알아봅니다.
-uuid: EF 5848 E 9-5302-42 A 4-8184-1 B 1151 FF 10 DB
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/template-publishing
-discoiquuid: 10397 C 2 F -0 FB 0-4580-9 BBA -009 E 8 AB 7 D 1 E 2
+uuid: ef5848e9-5302-42a4-8184-1b1151ff10db
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
+discoiquuid: 10397c2f-0fb0-4580-9bba-009e8ab7d1e2
 translation-type: tm+mt
 source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 
