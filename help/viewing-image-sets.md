@@ -3,12 +3,12 @@ title: 이미지 집합 보기
 seo-title: 이미지 집합 보기
 description: 널
 seo-description: 이미지 세트를 보는 방법을 알아봅니다.
-uuid: BB 5 B 0 fee-abc 0-4236-ac 43-09 edb 9 bb 3651
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/image_ sets
-discoiquuid: 027 AA 3 E 0-F 085-48 AE-AFF 9-7 B 805 BBDF 8 AB
+uuid: bb5b0fee-abc0-4236-ac43-09edb9bb3651
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: 027aa3e0-f085-48ae-aff9-7b805bbdf8ab
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
@@ -19,18 +19,18 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 [미리 보기] 창에서 사용 가능한 사전 설정을 사용하여 이미지 집합을 볼 수 있습니다. [확대/축소 뷰어: 사용자 지정] 뷰어 사전 설정을 이미지 집합에 사용합니다.
 
-Dynamic Media Classic 에는 기본 뷰어 사전 설정이 포함되어 있습니다. 관리자는 뷰어 사전 설정을 만들거나 수정할 수 있습니다.
+Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 있습니다. 관리자는 뷰어 사전 설정을 만들거나 수정할 수 있습니다.
 
 ## 이미지 집합에 대해 확대/축소 뷰어 사전 설정 지정 {#setting-up-zoom-viewer-presets-for-image-sets}
 
 요구에 맞게 뷰어 사전 설정을 만들고 사용자 지정할 수 있습니다.
 
-1. **[설정]** &gt; **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
+1. **[설정]** > **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
 1. [뷰어 사전 설정] 화면에서 다음 중 하나를 수행하여 뷰어 사전 설정을 만들거나 편집합니다.
 
    **만들기를** 클릭합니다. [뷰어 사전 설정 추가] 대화 상자에서 플랫폼을 선택하고 [확대/축소 뷰어: 사용자 지정]을 선택한 다음 [추가]를 클릭합니다. 기존 사전 설정에서 시작하여 확대/축소 뷰어 사전 설정을 만들 수도 있습니다. 사전 설정의 이름을 표시하고 선택한 다음 [편집] 단추를 선택합니다. [뷰어 구성] 화면에서 사전 설정의 새 이름을 입력합니다.
 
-   **편집사전 설정의** 이름을 표시하고, 선택한 다음 **편집을 클릭합니다**.
+   **편집** 사전 설정 이름을 표시하고 선택한 다음 편집을 **클릭합니다**.
 
 1. [뷰어 구성] 화면에서 선택 사항을 선택합니다.
 
@@ -51,7 +51,7 @@ Dynamic Media Classic 에는 기본 뷰어 사전 설정이 포함되어 있습�
    * [자산] 창 위의 도구 모음 오른쪽에서 **[목록 보기]**&#x200B;를 클릭합니다. In the Asset window, hover on an asset, then click **Preview**.
    * [자산] 창 위의 도구 모음 오른쪽에서 **[그리드 보기]**&#x200B;를 클릭합니다. [자산] 창의 자산 썸네일 창에서 **[미리 보기]**&#x200B;를 클릭합니다.
    * [자산] 창 위의 도구 모음 오른쪽에서 **[세부 사항 보기]**&#x200B;를 클릭합니다. 동일한 도구 모음에서 **[미리 보기]**&#x200B;를 클릭합니다.
-   * [자산] 창에서 자산을 선택합니다. On the toolbar, click **File** &gt; **Preview**.
+   * [자산] 창에서 자산을 선택합니다. On the toolbar, click **File** > **Preview**.
 
 1. (선택 사항) [미리 보기] 창 하단에 있는 드롭다운 목록에서 복사할 때 자산 URL에 적용할 URL 인코딩을 선택합니다.
 1. 뷰어 링크를 클릭하여 선택한 뷰어에서 자산을 미리 봅니다.
