@@ -3,9 +3,9 @@ title: PDF 문서 만들기
 seo-title: PDF 문서 만들기
 description: 널
 seo-description: Dynamic Media Classic에서 Web-to-Print 프로세스를 사용하여 PDF 문서를 만드는 방법을 살펴봅니다.
-uuid: 274fb06b-32 파섹
-contentOwner: 관리
-content-type: 참조
+uuid: 274fb06b-320b-40fa-8b61-c224d8aceaa1
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
 discoiquuid: 87e91e8e-10a2-4fba-87c7-aad2bd798146
@@ -27,7 +27,7 @@ PDF 작업 옵션 파일을 만들어 Dynamic Media Classic Server에 업로드�
 
 Illustrator에서 작업 선택 사항 파일을 만들려면
 
-1. [편집] &gt; [Adobe PDF 사전 설정]을 선택합니다.
+1. [편집] > [Adobe PDF 사전 설정]을 선택합니다.
 1. 대화 상자에서 사용하려는 사전 설정을 선택합니다.
 
    다음 작업 옵션 설정은 Dynamic Media Classic에서 지원됩니다.
@@ -77,7 +77,7 @@ Dynamic Media Classic 서버는 생성된 인쇄용 PDF에서 비트맵 이미�
 
 * **디자인 애플리케이션 색상 관리 설정:** 작성 애플리케이션(예: Adobe Illustrator)의 [색상 설정]에 있는 [작업 공간] 섹션에서 [RGB] 및 [CMYK] 색상 프로필을 지정합니다.
 
-* **** Dynamic Media Classic 색상 관리 설정:일반적으로 디자인 애플리케이션의 색상 관리 설정은 Dynamic Media Classic 서버의 기본 색상 프로파일과 일치해야 합니다. 이러한 설정은 [게시 설정/이미지 서버] 창에서 확인할 수 있습니다.
+* **Dynamic Media Classic 색상 관리 설정:** 일반적으로 디자인 애플리케이션의 색상 관리 설정은 Dynamic Media Classic 서버의 기본 색상 프로파일과 일치해야 합니다. 이러한 설정은 [게시 설정/이미지 서버] 창에서 확인할 수 있습니다.
 
 ## 프린터 표시 제공 {#displaying-printer-marks}
 
@@ -88,7 +88,7 @@ Dynamic Media Classic 서버는 생성된 인쇄용 PDF에서 비트맵 이미�
 
 중간 문서에는 도련 여백, 프린터 표시 등의 추가 프로덕션 컨텐츠가 포함될 수 있습니다. 이 컨텐츠는 일반적으로 완성된 페이지 경계 외부에 표시됩니다.
 
-Acrobat의 "프린터 표시 추가" 화면에서 사용할 수 있는 모든 표시가 지원됩니다. 프린터 표시는 `printerMark` 매개 변수로 제어됩니다. The syntax is `&printerMark=trim marks, bleed marks, registration marks, color bars, page information, style, line weight, layer embed`.
+Acrobat의 &quot;프린터 표시 추가&quot; 화면에서 사용할 수 있는 모든 표시가 지원됩니다. 프린터 표시는 `printerMark` 매개 변수로 제어됩니다. The syntax is `&printerMark=trim marks, bleed marks, registration marks, color bars, page information, style, line weight, layer embed`.
 
 * trim marks = 0|1
 * bleed marks = 0|1
