@@ -4,8 +4,8 @@ seo-title: 확대/축소 이미지 업로드
 description: 널
 seo-description: 확대/축소 이미지를 업로드하는 방법을 알아봅니다.
 uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
