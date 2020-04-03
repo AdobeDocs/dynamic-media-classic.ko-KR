@@ -4,8 +4,8 @@ seo-title: 유도된 확대/축소의 확대/축소 타겟 만들기
 description: 널
 seo-description: 안내 확대/축소에 대한 확대/축소 타겟을 만드는 방법을 알아봅니다.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
@@ -62,7 +62,7 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
    >[이름] 상자에 입력한 내용은 이름 이상의 의미가 있습니다. 사용자가 포인터를 확대/축소 타겟 위로 이동하면 [이름] 상자에 입력한 내용이 표시됩니다. 사용자가 확대/축소할 수 있는 타겟을 알 수 있도록 [이름] 상자에 확대/축소 타겟에 대한 간단한 설명을 입력합니다.
 
 1. 선택적으로, [사용자 데이터] 필드에 사용자 데이터를 입력합니다. 이 필드는 웹 사이트 디자이너가 확대/축소 타겟에 정보를 추가하는 데 사용됩니다.
-1. Click **[!UICONTROL Save]**.
+1. **[!UICONTROL [저장]]**&#x200B;을 클릭합니다.
 
    확대/축소 타겟의 좌표와 확대/축소 수준이 저장됩니다. 확대/축소 타겟의 썸네일이 입력한 이름과 함께 화면 오른쪽에 표시됩니다.
 
