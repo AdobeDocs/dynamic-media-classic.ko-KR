@@ -4,11 +4,11 @@ seo-title: 이미지 편집
 description: 널
 seo-description: 이미지를 편집하는 방법을 알아봅니다.
 uuid: 6e453c5b-71ab-47e4-8f3c-43357b846abc
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: efa2c56e-4543-47fa-a4e8-b9402102d01
+discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
