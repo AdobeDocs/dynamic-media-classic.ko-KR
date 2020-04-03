@@ -2,13 +2,13 @@
 title: 보다 효율적인 메타데이터 사용
 seo-title: 보다 효율적인 메타데이터 사용
 description: 널
-seo-description: 메타데이터를 보다 효율적으로 사용하는 방법을 살펴볼 수 있습니다.
-uuid: 6690 B 815-CA 5 F -491 F -94 EB -3 D 4657 FBB 8 ED
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/media_ portal
-discoiquuid: b 399 c 2 b 2-3 e 59-43 e 7-aa 7 d-dd 4 fdf 4 e 9 bad
+seo-description: 메타데이터를 보다 효율적으로 사용하는 방법을 알아봅니다.
+uuid: 6690b815-ca5f-491f-94eb-3d4657fbb8ed
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
