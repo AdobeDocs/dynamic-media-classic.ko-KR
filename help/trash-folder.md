@@ -4,8 +4,8 @@ seo-title: 휴지통 폴더 관리
 description: 널
 seo-description: 휴지통 폴더를 관리하는 방법을 알아봅니다.
 uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
@@ -43,7 +43,7 @@ Scene7 Publishing System에서 삭제한 항목은 휴지통 폴더로 이동됩
 
 1. 휴지통 아이콘을 클릭하여 휴지통 폴더를 엽니다.
 1. 복원하려는 자산을 선택합니다.
-1. [파일] &gt; [휴지통에서 복원]을 선택합니다.
+1. [파일] > [휴지통에서 복원]을 선택합니다.
 
 ## 휴지통 폴더에서 영구적으로 자산 삭제 {#permanently-deleting-assets-in-the-trash-folder}
 
@@ -51,9 +51,9 @@ Scene7 Publishing System에서 삭제한 항목은 휴지통 폴더로 이동됩
 
 휴지통 폴더에서 자산을 영구적으로 삭제하려면 [휴지통] 아이콘 을 선택하여 휴지통 폴더를 엽니다. 그런 다음 개별 자산을 삭제하거나 폴더에 있는 모든 자산을 삭제합니다.
 
-* **개별 자산** 삭제 영구적으로 삭제할 자산을 선택하고 파일 &gt; 휴지통에서 **[!UICONTROL 비우기 를 클릭합니다]**.
+* **개별 자산** 삭제 영구적으로 삭제할 자산을 선택하고 파일 > 휴지통에서 **[!UICONTROL 비우기 를 클릭합니다]**.
 
-* **모든 자산** 삭제 파일 **[!UICONTROL &gt; 빈 휴지통을 클릭합니다]**.
+* **모든 자산** 삭제 파일 **[!UICONTROL > 빈 휴지통을 클릭합니다]**.
 
 >[!MORELIKETHIS]
 >
