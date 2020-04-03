@@ -3,12 +3,12 @@ title: 이미지 집합에 확대/축소 타겟 및 이미지 맵 포함
 seo-title: 이미지 집합에 확대/축소 타겟 및 이미지 맵 포함
 description: 널
 seo-description: 이미지 세트에 확대/축소 타겟 및 이미지 맵을 포함하는 방법을 알아봅니다.
-uuid: 1 F 5 A 00 FE -3 CC 2-4668-A 051-59 E 0 BEE 50 B 35
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/image_ sets
-discoiquuid: EF 0 C 292 F -3240-4 C 62-8 F 32-25 DE 8 E 4922 AD
+uuid: 1f5a00fe-3cc2-4668-a051-59e0bee50b35
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
+discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
 translation-type: tm+mt
 source-git-commit: 0f6c8e6ac69e29aab7a48425aab76c10170d9ddf
 
