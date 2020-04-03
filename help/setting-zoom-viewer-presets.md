@@ -4,8 +4,8 @@ seo-title: 확대/축소 뷰어 사전 설정 지정
 description: 널
 seo-description: 확대/축소 뷰어 사전 설정을 설정하는 방법을 알아봅니다.
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
@@ -45,7 +45,7 @@ Dynamic Media Classic에서는 플라이아웃 확대/축소 뷰어 사전 설�
 
 확대/축소 뷰어 사전 설정을 만들거나 편집하려면 다음 단계를 수행합니다.
 
-1. **[설정]** &gt; **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
+1. **[설정]** > **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
 1. 다음 중 하나를 수행하십시오.
 
    * **사전 설정 만들기**&#x200B;추가를 클릭합니다. [뷰어 사전 설정 추가] 대화 상자에서 플랫폼을 선택하고 [확대/축소 뷰어]를 선택한 다음 [추가]를 클릭합니다. [사전 설정 이름] 상자에 사전 설정의 이름을 입력합니다.
