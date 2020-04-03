@@ -4,8 +4,8 @@ seo-title: Scene7 Publishing System에서 자산 내보내기
 description: 널
 seo-description: Scene7 Publishing System에서 자산을 내보내는 방법을 알아봅니다.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
@@ -25,7 +25,7 @@ Dynamic Media Classic은 [작업] 화면에서 내보내기 작업 기록을 유
 
 **Scene7 Publishing System에서 자산을 내보내려면**
 
-1. 내보내려는 자산을 선택한 다음 **[파일]** &gt; **[내보내기]**&#x200B;를 클릭합니다.
+1. 내보내려는 자산을 선택한 다음 **[파일]** > **[내보내기]**&#x200B;를 클릭합니다.
 1. [선택한 자산 내보내기] 창에서 **[이미지 선택 사항]**&#x200B;을 클릭하고 다음 중 원하는 선택 사항을 지정합니다. 사용자가 사용할 수 있는 선택 사항은 관리자가 결정합니다.
 
    * **사전**&#x200B;설정 선택적으로, 에셋을 내보낼 때 이미지 사전 설정을 선택하여 에셋의 형식을 지정합니다. 이미지 사전 설정을 선택하면 자산이 이미지 사전 설정에서 정의된 형식을 사용하기 때문에 다른 형식 지정 선택 사항은 사용할 수 없습니다.
@@ -63,7 +63,7 @@ Dynamic Media Classic은 [작업] 화면에서 내보내기 작업 기록을 유
 * 다중 비트 전송률 집합
 * eCatalog
 
-또한 템플릿은 "원본 파일"로 내보낼 수 없습니다.
+또한 템플릿은 &quot;원본 파일&quot;로 내보낼 수 없습니다.
 
 전환을 사용하여 다음 자산 유형을 내보낼 수 있습니다.
 
