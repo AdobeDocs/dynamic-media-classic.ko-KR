@@ -2,13 +2,13 @@
 title: 견본 집합 보기
 seo-title: 견본 집합 보기
 description: 널
-seo-description: 견본 세트를 보는 방법을 알아봅니다.
-uuid: 80 DF 403 B-B 03 F -428 F -9784-C 3 F 774567 BD 0
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/swatch_ sets
-discoiquuid: 48 de 8604-2 bb 4-4862-82 ee -0 c 7847 f 0 d 0 e 7
+seo-description: 견본 집합을 보는 방법을 알아봅니다.
+uuid: 80df403b-b03f-428f-9784-c3f774567bd0
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
+discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -19,13 +19,13 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 [미리 보기] 창에서 사용 가능한 사전 설정을 사용하여 견본 집합을 볼 수 있습니다. [확대/축소 뷰어: 사용자 지정 뷰어 사전 설정을 견본 집합에 사용합니다.
 
-Dynamic Media Classic 에는 기본 뷰어 사전 설정이 포함되어 있습니다. 관리자는 뷰어 사전 설정을 만들거나 수정할 수 있습니다.
+Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 있습니다. 관리자는 뷰어 사전 설정을 만들거나 수정할 수 있습니다.
 
 ## 견본 집합에 대해 확대/축소 뷰어 사전 설정 지정 {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
 요구에 맞게 뷰어 사전 설정을 만들고 사용자 지정할 수 있습니다.
 
-1. **[설정]** &gt; **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
+1. **[설정]** > **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
 1. 다음 중 하나를 수행하십시오.
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Swatch Set Viewer, then click **Add**.
@@ -51,7 +51,7 @@ Dynamic Media Classic 에는 기본 뷰어 사전 설정이 포함되어 있습�
    * [자산] 창 위의 도구 모음 오른쪽에서 **[목록 보기]**&#x200B;를 클릭합니다. [자산] 창에서 자산을 커서로 가리키고 **[미리 보기]**&#x200B;를 클릭합니다.
    * [자산] 창 위의 도구 모음 오른쪽에서 **[그리드 보기]**&#x200B;를 클릭합니다. [자산] 창의 자산 썸네일 창에서 **[미리 보기]**&#x200B;를 클릭합니다.
    * [자산] 창 위의 도구 모음 오른쪽에서 **[세부 사항 보기]**&#x200B;를 클릭합니다. 동일한 도구 모음에서 **[미리 보기]**&#x200B;를 클릭합니다.
-   * [자산] 창에서 자산을 선택합니다. On the toolbar, click **File** &gt; **Preview**.
+   * [자산] 창에서 자산을 선택합니다. On the toolbar, click **File** > **Preview**.
 
 1. (선택 사항) [미리 보기] 창 하단에 있는 드롭다운 목록에서 복사할 때 자산 URL에 적용할 URL 인코딩을 선택합니다.
 1. 뷰어 링크를 클릭하여 선택한 뷰어에서 자산을 미리 봅니다.
