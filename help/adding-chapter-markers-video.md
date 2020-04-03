@@ -2,13 +2,13 @@
 title: 비디오에 장 마커 추가
 seo-title: 비디오에 장 마커 추가
 description: 널
-seo-description: 비디오에 장 마커를 추가하는 방법을 살펴봅니다.
-uuid: 4 e 1 e 6 daf-afc 6-49 d 9-ac 90-183 fe 2 a 903 b 2
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/video
-discoiquuid: 8 bc 5 e 552-2 abb -41 f 0-89 d 2-bdf 3 ae 5 d 96 c 2
+seo-description: 비디오에 장 마커를 추가하는 방법을 알아봅니다.
+uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
 source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
@@ -51,7 +51,7 @@ In the example above, `Chapter 1` is the cue identifier and is optional. `00:00:
 
 HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 장 파일 이름 확장자는 .vtt입니다. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.
 
-[Webvtt를 참조하십시오. 웹 비디오 텍스트 트랙 형식](https://dev.w3.org/html5/webvtt/).
+See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/).
 
 **비디오에 장 마커 추가**
 
@@ -70,7 +70,7 @@ HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 
    [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오.
 
 1. 왼쪽의 [자산 라이브러리] 패널에서 업로드한 장 파일과 연결하려는 비디오 파일이 들어 있는 자산 폴더를 탐색합니다.
-1. [자산 찾아보기] 패널에서 단일 비디오 자산을 선택하고 자산의 썸네일 이미지 아래에서 **[미리 보기]** &gt; **[뷰어 목록]**&#x200B;을 클릭합니다.
+1. [자산 찾아보기] 패널에서 단일 비디오 자산을 선택하고 자산의 썸네일 이미지 아래에서 **[미리 보기]** > **[뷰어 목록]**&#x200B;을 클릭합니다.
 1. [뷰어 목록] 표에서 **Univeral_HTML5_Video**&#x200B;라는 HTML5 뷰어를 찾고 다음 중 하나를 수행합니다.
 
    * 팝업 비디오 뷰어 환경의 경우 이름의 오른쪽 끝에 있는 **[URL 복사]**&#x200B;를 클릭합니다.
