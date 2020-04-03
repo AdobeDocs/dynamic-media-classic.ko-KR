@@ -2,13 +2,13 @@
 title: ICC 프로필
 seo-title: ICC 프로필
 description: 널
-seo-description: ICC 프로파일에 대한 자세한 내용을 살펴보십시오.
-uuid: 708 FF 2 AD -9 A 47-4 E 3 E-B 643-5 B 19648 F 726 B
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/support_ files
-discoiquuid: 44 F 1 B 4 C 4-6 D 7 F -4 E 0 F -84 CE -11 D 26745 E 0 F 0
+seo-description: ICC 프로파일에 대해 알아봅니다.
+uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
+discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -31,10 +31,10 @@ Scene7 Publishing System에서 이미지를 업로드할 때 ICC 프로필을 �
 
 ICC 프로필을 검사하려면 찾아보기 패널에서 ICC 프로필을 선택하고 [세부 사항 보기]에 표시합니다. [세부 사항 보기]에서는 ICC 프로필에 대한 다음 정보를 제공합니다.
 
-**프로필 클래스** ICC (International Color Consortium) 는 각 클래스를 정의하여 애플리케이션 유형을 다룹니다. 예를 들어 입력 프로필은 디지털 카메라, 스캐너 등의 장치에 적용되고 출력 프로필은 프린터에 적용됩니다.
+**프로필 클래스** ICC(International Color Consortium)는 응용 프로그램 유형을 포함할 각 클래스를 정의합니다. 예를 들어 입력 프로필은 디지털 카메라, 스캐너 등의 장치에 적용되고 출력 프로필은 프린터에 적용됩니다.
 
-**색상 공간 유형** 이 숫자는 ICC에서 정의한 대로 프로파일의 "입력" 색상 공간입니다. 색상 공간 유형은 색상 공간의 구성 요소 수와 이러한 구성 요소의 해석을 정의합니다. 예를 들어 RGB는 빨간색, 녹색 및 파란색의 세 가지 구성 요소로 이루어진 색상 공간입니다. 이 색상 공간 유형은 공간의 특정 색상 특성(예: 기본 색도)을 정의하지 않습니다.
+**색상 공간** 유형 이 숫자는 ICC에서 정의한 대로 프로파일의 &quot;입력&quot; 색상 공간입니다. 색상 공간 유형은 색상 공간의 구성 요소 수와 이러한 구성 요소의 해석을 정의합니다. 예를 들어 RGB는 빨간색, 녹색 및 파란색의 세 가지 구성 요소로 이루어진 색상 공간입니다. 이 색상 공간 유형은 공간의 특정 색상 특성(예: 기본 색도)을 정의하지 않습니다.
 
-**PCS 유형** 이 PCS 유형은 프로필의 "출력" 색상 공간 (프로필 연결 공간) 입니다. 예를 들어 색상 프로필에서 RGB를 PCS로 전환한 다음 CMYK로 전환할 수 있습니다.
+**PCS** 유형 이 PCS 유형은 프로필의 &quot;출력&quot; 색상 공간(프로필 연결 공간)입니다. 예를 들어 색상 프로필에서 RGB를 PCS로 전환한 다음 CMYK로 전환할 수 있습니다.
 
 색상이나 이미지를 태그 지정하는 데 유용한 입력, 표시 또는 출력 프로필의 경우 PCS 유형은 XYZ 또는 Lab입니다. 이 프로필을 ICC 사양에 정의된 특정 색상 공간으로 해석합니다.
