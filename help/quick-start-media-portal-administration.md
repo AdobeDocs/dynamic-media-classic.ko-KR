@@ -1,14 +1,14 @@
 ---
-title: '" 빠른 시작: Media Portal "'
-seo-title: '" 빠른 시작: Media Portal "'
+title: '"빠른 시작:Media Portal"'
+seo-title: '"빠른 시작:Media Portal"'
 description: 널
-seo-description: Media Portal 기술 및 관리를 통해 신속하게 시작하는 데 유용한 Media Portal 소개 및 빠른 시작을 소개합니다.
-uuid: 0 Dbd 6146-B 392-4 E 03-955 B -0 B 323 B 654 B 9 F
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/media_ portal
-discoiquuid: 1385 A 092-0 B 2 C -4 E 05-AD 1 E-CE 3685022300
+seo-description: Media Portal 기법과 관리를 신속하게 시작하고 실행하는 데 도움이 되는 소개 및 Quick Start to Media Portal.
+uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,7 +17,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # Quick Start: Media Portal{#quick-start-media-portal}
 
-기업은 Media Portal를 통해 승인된 크리에이티브 에셋을 손쉽게 획득, 제어 및 외부 파트너와 채널 및 내부 비즈니스 사용자에게 배포할 수 있습니다. 브라우저 기반의 "셀프 서비스" 환경을 통해 Media Portal 사용자는 관리자가 제어하는 "보기" 를 다이내믹 미디어 클래식 에셋에 통해 손쉽게 액세스하여 회사에서 승인된 포맷으로 에셋을 손쉽게 검색하고 검색, 미리 보기 및 내보낼 수 있습니다.
+미디어 포털을 통해 기업은 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 외부 파트너 및 채널 및 내부 비즈니스 사용자에게 배포할 수 있습니다. 이 브라우저 기반 &quot;셀프 서비스&quot; 환경을 통해 Media Portal 사용자는 관리자가 제어하는 &quot;뷰&quot;를 Dynamic Media Classic 에셋으로 가져와 손쉽게 액세스하여 자산을 검색하고 미리 보고, 기업 승인 형식으로 내보낼 수 있습니다.
 
 관리자는 사용자가 Media Portal에서 자산을 보고 액세스하고 사용하는 방법을 제어합니다. 또한 웹 사이트 및 브랜드와 일치하도록 Media Portal 인터페이스를 사용자 지정할 수 있습니다. Media Portal 인터페이스에서 글꼴, 글꼴 색상 및 글꼴 크기를 지정하고 로고 등의 브랜딩 요소를 통합할 수 있습니다.
 
