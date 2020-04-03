@@ -4,8 +4,8 @@ seo-title: 자산 폴더 작업
 description: 널
 seo-description: 자산 폴더를 사용하여 작업하는 방법을 알아봅니다.
 uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
@@ -27,13 +27,13 @@ Scene7 Publishing System의 파일 자산은 폴더에 유지됩니다. 이러�
 
 * **하위 폴더**&#x200B;표시 폴더 확장 아이콘을 선택하여 하위 폴더를 폴더에 표시합니다. 이 아이콘은 폴더 이름 왼쪽에 있습니다.
 
-* **폴더**&#x200B;이동 새 위치에 폴더를 드래그하여 놓거나 파일 &gt; 폴더 이동을 선택하여 폴더를 이동할 수 있습니다.
+* **폴더**&#x200B;이동 새 위치에 폴더를 드래그하여 놓거나 파일 > 폴더 이동을 선택하여 폴더를 이동할 수 있습니다.
 
 * **폴더**&#x200B;숨기기폴더 축소 아이콘을 선택하여 하위 폴더를 축소합니다. 이 아이콘은 폴더 이름 왼쪽에 있습니다.
 
 * **폴더**&#x200B;열기폴더를 선택하여 찾아보기 패널에 해당 컨텐츠를 표시합니다.
 
-***팁**:왼쪽의 확장/축소 컨트롤을 클릭하여 자산 라이브러리를 숨기거나 표시할 수 있습니다. 찾아보기 패널에서 작업 공간을 늘려야 하는 경우 자산 라이브러리 패널을 축소합니다.*
+***팁&#x200B;**:왼쪽의 확장/축소 컨트롤을 클릭하여 자산 라이브러리를 숨기거나 표시할 수 있습니다. 찾아보기 패널에서 작업 공간을 늘려야 하는 경우 자산 라이브러리 패널을 축소합니다.*
 
 ## 폴더 만들기 {#creating-folders}
 
