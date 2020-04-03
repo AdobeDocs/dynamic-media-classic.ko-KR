@@ -4,8 +4,8 @@ seo-title: Adobe Analytics 보고서 구성
 description: 널
 seo-description: Adobe Analytics 보고서를 구성하는 방법을 알아봅니다.
 uuid: bf210f68-dcb0-4e86-be04-0a8b2117ef2a
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
@@ -51,13 +51,13 @@ Adobe Analytics 구성 화면을 사용하여 뷰어 이벤트를 Adobe Analytic
    저장을 클릭하면 뷰어 이벤트, Adobe Analytics 변수 및 Dynamic Media Classic 변수가 Adobe Analytics 구성 화면에 나열됩니다.
 
 1. 오른쪽 아래 모서리에서 **닫기**&#x200B;를 클릭합니다.
-1. **게시** &gt; **게시 제출**&#x200B;을 클릭하여 [이미지 제공 게시]를 실행합니다.
+1. **게시** > **게시 제출**&#x200B;을 클릭하여 [이미지 제공 게시]를 실행합니다.
 
    뷰어에 포함된 정보를 Dynamic Media Classic 서버에서 사용할 수 있도록 게시해야 합니다.
 
 ### 뷰어 이벤트 {#viewer-events}
 
-뷰어 이벤트는 Dynamic Media Classic 뷰어에서 사용자가 수행하는 작업을 설명합니다. 썸네일을 클릭하거나 비디오를 중지하는 등 사용자가 특정 작업을 시작하면 뷰어가 이벤트와 관련된 데이터와 함께 웹 페이지에 해당 이벤트를 "브로드캐스트"합니다.
+뷰어 이벤트는 Dynamic Media Classic 뷰어에서 사용자가 수행하는 작업을 설명합니다. 썸네일을 클릭하거나 비디오를 중지하는 등 사용자가 특정 작업을 시작하면 뷰어가 이벤트와 관련된 데이터와 함께 웹 페이지에 해당 이벤트를 &quot;브로드캐스트&quot;합니다.
 
 다음 표에서는 [Adobe Analytics 구성] 화면에 추가할 수 있는 뷰어 이벤트에 대해 설명합니다.
 
@@ -70,10 +70,10 @@ Adobe Analytics 구성 화면을 사용하여 뷰어 이벤트를 Adobe Analytic
 | HREF | **X**(전자 카탈로그) | 이미지 맵을 지원하는 뷰어에서는 사용자가 이미지 맵의 URL을 클릭할 때 발생합니다. |
 | TARGET |  | 타겟으로 지정된 확대/축소 뷰어에서는 사용자가 확대/축소 타겟을 클릭하여 이미지의 일부를 확대/축소할 때 발생합니다. |
 | SEARCH |  | eCatalog에서는 사용자가 단어 검색을 수행할 때 발생합니다. |
-| PLAY | **X**(비디오) | 비디오 뷰어에서는 사용자가 [재생]을 클릭하여 비디오 재생을 시작할 때 발생합니다.<br><br>**** 참고:Adobe Analytics 하트비트 기반 비디오 보고를 사용하는 경우 Dynamic Media Classic에서 Adobe Analytics를 구성할 때 이 뷰어 이벤트에 변수를 매핑할 필요가 없습니다. 비디오 하트비트는 바로 사용 가능한 Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어에서 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다. See [Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
-| PAUSE | **X**(비디오) | 비디오 뷰어에서는 사용자가 [일시 중단]을 클릭하여 비디오를 일시 중단할 때 발생합니다.<br><br>**** 참고:Adobe Analytics 하트비트 기반 비디오 보고를 사용하는 경우 Dynamic Media Classic에서 Adobe Analytics를 구성할 때 이 뷰어 이벤트에 변수를 매핑할 필요가 없습니다. 비디오 하트비트는 바로 사용 가능한 Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어에서 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다. See [Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
-| STOP | **X**(비디오) | 비디오 뷰어에서는 사용자가 [중지]를 클릭하여 비디오 재생을 중지할 때 발생합니다.<br><br>**** 참고:Adobe Analytics 하트비트 기반 비디오 보고를 사용하는 경우 Dynamic Media Classic에서 Adobe Analytics를 구성할 때 이 뷰어 이벤트에 변수를 매핑할 필요가 없습니다. 비디오 하트비트는 바로 사용 가능한 Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어에서 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다. See [Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
-| MILESTONE | **X**  (비디오) | 비디오 뷰어에서는 사용자가 비디오를 0, 25, 50, 75 또는 100% 시청할 때 중대한 이벤트가 생성됩니다.<br><br>**** 참고:Adobe Analytics 하트비트 기반 비디오 보고를 사용하는 경우 Dynamic Media Classic에서 Adobe Analytics를 구성할 때 이 뷰어 이벤트에 변수를 매핑할 필요가 없습니다. 비디오 하트비트는 바로 사용 가능한 Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어에서 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다. See [Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
+| PLAY | **X**(비디오) | 비디오 뷰어에서는 사용자가 [재생]을 클릭하여 비디오 재생을 시작할 때 발생합니다.<br><br>**참고:**Adobe Analytics 하트비트 기반 비디오 보고를 사용하는 경우 Dynamic Media Classic에서 Adobe Analytics를 구성할 때 이 뷰어 이벤트에 변수를 매핑할 필요가 없습니다. 비디오 하트비트는 바로 사용 가능한 Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어에서 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다. See[Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
+| PAUSE | **X**(비디오) | 비디오 뷰어에서는 사용자가 [일시 중단]을 클릭하여 비디오를 일시 중단할 때 발생합니다.<br><br>**참고:**Adobe Analytics 하트비트 기반 비디오 보고를 사용하는 경우 Dynamic Media Classic에서 Adobe Analytics를 구성할 때 이 뷰어 이벤트에 변수를 매핑할 필요가 없습니다. 비디오 하트비트는 바로 사용 가능한 Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어에서 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다. See[Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
+| STOP | **X**(비디오) | 비디오 뷰어에서는 사용자가 [중지]를 클릭하여 비디오 재생을 중지할 때 발생합니다.<br><br>**참고:**Adobe Analytics 하트비트 기반 비디오 보고를 사용하는 경우 Dynamic Media Classic에서 Adobe Analytics를 구성할 때 이 뷰어 이벤트에 변수를 매핑할 필요가 없습니다. 비디오 하트비트는 바로 사용 가능한 Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어에서 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다. See[Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
+| MILESTONE | **X**  (비디오) | 비디오 뷰어에서는 사용자가 비디오를 0, 25, 50, 75 또는 100% 시청할 때 중대한 이벤트가 생성됩니다.<br><br>**참고:**Adobe Analytics 하트비트 기반 비디오 보고를 사용하는 경우 Dynamic Media Classic에서 Adobe Analytics를 구성할 때 이 뷰어 이벤트에 변수를 매핑할 필요가 없습니다. 비디오 하트비트는 바로 사용 가능한 Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어에서 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다. See[Enabling Adobe Analytics Video Reports](enabling-analytics-video-reports.md). |
 | 견본 | X(플라이아웃, 확대/축소) | 이 뷰어 이벤트는 Scene7 Publishing System에서 페이지 뷰어 이벤트에 매핑됩니다. |
 | 확대/축소 | **X**(전자 카탈로그, 회전 집합, 확대/축소) | Adobe Analytics에서 추적하지 않습니다.<br> |
 | 패닝 | **X**(전자 카탈로그, 회전 집합, 확대/축소) | Adobe Analytics에서 추적하지 않습니다.<br> |
@@ -108,4 +108,4 @@ For each viewer event on Adobe Analytics Configuration screen, choose a Adobe An
 
 * **편집**&#x200B;뷰어 이벤트를 선택하고 [변수 **[!UICONTROL 보기/편집]** 회색] 단추를 클릭합니다. Dynamic Media Classic 변수 및 Adobe Analytics 변수 드롭다운 목록에서 각 목록에서 다른 변수를 선택합니다. 자세한 내용은 Dynamic Media Classic 뷰어 이벤트 및 변수에 Adobe Analytics 변수 할당을 참조하십시오.
 
-* **삭제**&#x200B;뷰어 이벤트를 선택하고 [변수 **[!UICONTROL 보기/편집]** 회색] 단추를 클릭합니다. **[!UICONTROL 삭제를 클릭합니다]**.
+* **삭제**&#x200B;뷰어 이벤트를 선택하고 [변수 **[!UICONTROL 보기/편집]** 회색] 단추를 클릭합니다. **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
