@@ -4,8 +4,8 @@ seo-title: 이미지 자산 또는 벡터 자산 업로드
 description: 널
 seo-description: 이미지 자산 또는 벡터 자산을 업로드하는 방법을 알아봅니다.
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
@@ -144,7 +144,7 @@ Last Modified Date:
 
 Firefox에서 브라우저 창을 마우스 오른쪽 버튼으로 클릭한 다음 페이지 소스 **보기를 클릭합니다**. 이 코드는 사용자가 **[전송]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
 
-Internet Explorer에서 XML 응답을 보려면 **[보기] &gt; [소스]**&#x200B;를 클릭합니다. To view XML response in Firefox, click **Tools &gt; Web Developer &gt; Page Source**. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
+Internet Explorer에서 XML 응답을 보려면 **[보기] > [소스]**&#x200B;를 클릭합니다. To view XML response in Firefox, click **Tools > Web Developer > Page Source**. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 
 다음은 성공적인 업로드에 대한 샘플 응답입니다.
 
@@ -335,7 +335,7 @@ return true;
 </body>
 ```
 
-Internet Explorer에서 XML 응답을 보려면 **[보기]** &gt; **[소스]**&#x200B;를 클릭합니다. Firefox에서 XML 응답을 보려면 **[보기]** &gt; **[페이지 소스]**&#x200B;를 클릭합니다. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
+Internet Explorer에서 XML 응답을 보려면 **[보기]** > **[소스]**&#x200B;를 클릭합니다. Firefox에서 XML 응답을 보려면 **[보기]** > **[페이지 소스]**&#x200B;를 클릭합니다. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 
 다음은 성공적인 업로드에 대한 샘플 응답입니다.
 
