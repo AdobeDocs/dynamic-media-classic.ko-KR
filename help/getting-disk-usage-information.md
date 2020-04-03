@@ -3,11 +3,11 @@ title: 디스크 사용 정보 가져오기
 seo-title: 디스크 사용 정보 가져오기
 description: 널
 seo-description: 디스크 사용 정보를 얻는 방법을 알아봅니다.
-uuid: 01361693-53 D 0-4072-B 7 C 3-F 284631 D 28 CF
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-discoiquuid: 6763546 D -83 C 4-42 DC -879 F -6 BBFC 8 B 56482
+uuid: 01361693-53d0-4072-b7c3-f284631d28cf
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
