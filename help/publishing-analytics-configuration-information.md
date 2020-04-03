@@ -2,13 +2,13 @@
 title: Adobe Analytics 구성 정보 게시
 seo-title: Adobe Analytics 구성 정보 게시
 description: 널
-seo-description: Adobe Analytics 구성 정보를 게시하는 방법을 알아봅니다.
-uuid: 39 B 1 C 2 BD -8 EB 8-43 A 8-9482-9623115 C 5374
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ Scenesevenondemand_ PK/categories/adobe_ analytics_ instrumentation_ kit
-discoiquuid: deeb 9 fed-ef 27-4 d 58-af 98-f 381 de 33 c 431
+seo-description: Adobe Analytics 구성 정보를 게시하는 방법에 대해 알아봅니다.
+uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,7 +17,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # Adobe Analytics 구성 정보 게시{#publishing-adobe-analytics-configuration-information}
 
-Adobe Analytics 보고서 구성에 대한 정보가 Dynamic Media Classic 서버로 전송되도록 다이내믹 미디어 클래식 뷰어를 게시합니다. 이 정보는 뷰어에 포함됩니다. 뷰어에 들어 있는 정보를 Dynamic Media Classic 서버에서 사용할 수 있도록 게시가 필요합니다. 사용자가 뷰어에서 활동을 수행한 후 정보가 서버에서 Adobe Analytics 릴레이될 수 있습니다.
+Adobe Analytics 보고서 구성에 대한 정보가 Dynamic Media Classic 서버로 전송되도록 Dynamic Media Classic 뷰어를 게시합니다. 이 정보는 뷰어에 포함됩니다. 뷰어에 포함된 정보를 Dynamic Media Classic 서버에서 사용할 수 있도록 게시해야 합니다. 사용자가 뷰어에서 활동을 수행한 후 정보가 서버에서 Adobe Analytics 릴레이될 수 있습니다.
 
 >[!NOTE]
 >
