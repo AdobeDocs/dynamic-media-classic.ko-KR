@@ -4,8 +4,8 @@ seo-title: Media Portal 사용자가 사용할 수 있는 내보내기 옵션 �
 description: 널
 seo-description: Media Portal 사용자가 사용할 수 있는 내보내기 옵션을 지정하는 방법을 알아봅니다.
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
@@ -27,7 +27,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 **Media Portal 사용자가 사용할 수 있는 내보내기 선택 사항을 지정하려면**
 
-1. **[설정]** &gt; **[이미지 사전 설정]**&#x200B;을 클릭합니다.
+1. **[설정]** > **[이미지 사전 설정]**&#x200B;을 클릭합니다.
 1. [이미지 사전 설정] 창에서 다음 중 원하는 선택 사항을 선택합니다.
 
    * **사용자 정의 변환**&#x200B;활성화이 옵션을 선택하면 사용자가 선택한 자산 내보내기 창의 크기 드롭다운 목록에서 다른 항목을 선택할 수 있습니다. 그런 다음 사용자는 픽셀 또는 센티미터와 같은 측정 단위를 선택하고 원하는 너비와 높이를 지정할 수 있습니다. 이러한 파일을 내보내거나 다운로드하는 경우 이미지 파일 형식이 다시 지정됩니다.
