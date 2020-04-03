@@ -2,22 +2,22 @@
 title: 시스템 요구 사항
 seo-title: 시스템 요구 사항
 description: 널
-seo-description: 'Media Portal를 사용하는 최적의 경험을 위한 시스템 요구 사항에 대해 살펴보십시오. '
-uuid: E 870 B 198-19 AE -4647-8833-2764358 DE 53 D
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/media_ portal
-discoiquuid: 43 DF 059 D -7 C 4 D -481 A -978 A-CA 4 C 74 E 604 B 4
+seo-description: 'Media Portal을 사용한 최적의 경험을 위한 시스템 요구 사항에 대해 알아보십시오. '
+uuid: e870b198-19ae-4647-8833-2764358de53d
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 43df059d-7c4d-481a-978a-ca4c74e604b4
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 ---
 
 
-# Media Portal 시스템 요구 사항 {#system-requirements}
+# 미디어 포털 시스템 요구 사항 {#system-requirements}
 
-Dynamic Media Classic Media Portal를 사용하는 최상의 환경의 경우 시스템이 다음과 같은 시스템 요구 사항 및 권장 사항을 충족하는지 확인하십시오.
+Dynamic Media Classic Media Portal을 사용하여 최상의 경험을 얻으려면 시스템이 다음 시스템 요구 사항과 권장 사항을 충족하는지 확인하십시오.
 
 * Microsoft® Windows® 7 이상 또는 Mac OS X 10.6 이상 Macintosh® Intel 프로세서 필요
 * 3GB 이상 RAM 필요(4GB 이상 권장)
