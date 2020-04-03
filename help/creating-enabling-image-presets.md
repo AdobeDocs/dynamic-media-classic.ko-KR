@@ -3,12 +3,12 @@ title: 이미지 사전 설정 만들기 및 활성화
 seo-title: 이미지 사전 설정 만들기 및 활성화
 description: 널
 seo-description: 이미지 사전 설정을 만들고 활성화하는 방법을 알아봅니다.
-uuid: 62 CFC 6 FA-DA 91-4 C 42-A 3 ED -10956384 D 633
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/media_ portal
-discoiquuid: 84257 B 2 A -681 C -4 FE 9-A 6 E 5-3633 C 1 D 61 D 8 C
+uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
+discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
