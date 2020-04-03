@@ -4,8 +4,8 @@ seo-title: 리치 미디어
 description: 널
 seo-description: Dynamic Media Classic에서 리치 미디어를 만드는 데 사용할 수 있는 다양한 도구에 대해 알아봅니다.
 uuid: b64981a3-c3c2-4010-9b65-f9982ea0a664
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
