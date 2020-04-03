@@ -4,8 +4,8 @@ seo-title: 혼합 미디어 집합 뷰어 사전 설정 지정
 description: 널
 seo-description: 혼합 미디어 집합 뷰어 사전 설정을 설정하는 방법을 알아봅니다.
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
@@ -21,7 +21,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 혼합 미디어 집합 뷰어에서 커뮤니티 기능을 전부 또는 일부 포함할 수 있습니다. 포함 기능은 사용자가 뷰어를 외부 페이지(예: 블로그, 웹 사이트 또는 소셜 네트워킹 사이트)에 표시하는 데 필요한 코드를 복사할 수 있는 뷰어에 대한 링크를 추가합니다. 링크 기능은 사용자가 이 뷰어에 다시 연결할 수 있도록 뷰어에 대한 URL을 제공합니다. 방문 기능은 지정한 웹 사이트에 대한 링크를 제공합니다.
 
-1. **[설정]** &gt; **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
+1. **[설정]** > **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
 1. [뷰어 사전 설정] 페이지에서 다음 중 하나를 수행합니다.
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
