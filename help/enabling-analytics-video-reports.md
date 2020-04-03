@@ -3,12 +3,12 @@ title: Adobe Analytics 비디오 보고서 활성화
 seo-title: Adobe Analytics 비디오 보고서 활성화
 description: 널
 seo-description: Adobe Analytics 비디오 보고서를 활성화하는 방법을 알아봅니다.
-uuid: 078594 B 2-7 D 53-4714-8128-FF 3 B 5 C 3 A 5 E 36
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ Scenesevenondemand_ PK/categories/adobe_ analytics_ instrumentation_ kit
-discoiquuid: 18644 a 53-92 DA -40 AB-B 961-318 D 8332 C 54 D
+uuid: 078594b2-7d53-4714-8128-ff3b5c3a5e36
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: 18644a53-92da-40ab-b961-318d8332c54d
 translation-type: tm+mt
 source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
@@ -17,7 +17,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 # Adobe Analytics 비디오 보고서 활성화{#enabling-adobe-analytics-video-reports}
 
-Adobe Analytics 하트비트 기반 비디오 보고를 사용하는 경우 Dynamic Media Classic에서 Adobe Analytics를 구성할 때 4 개의 비디오 뷰어 이벤트 (재생, 일시 중지, 중지, 이정표) 를 더 이상 활성화할 필요가 없습니다. 비디오 하트비트는 기본 Dynamic Media Classic HTML 5 비디오 및 mixedmedia 뷰어와 함께 사용할 수 있습니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다.
+Adobe Analytics 하트비트 기반 비디오 보고를 사용하면 Dynamic Media Classic에서 Adobe Analytics를 구성할 때 4개의 비디오 뷰어 이벤트(재생, 일시 중지, 중지, 중대한 시점)를 더 이상 활성화할 필요가 없습니다. 비디오 하트비트는 바로 사용 가능한 Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어에서 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다.
 
 * Adobe Analytics 비디오 보고서와 Dynamic Media Classic의 통합은 솔루션 변수를 지원하지만 사용자 지정 변수는 지원하지 않습니다.
 
@@ -29,5 +29,5 @@ For more information about Video Heartbeat requirements and setup, see [Measurin
 
 >[!NOTE]
 >
->Adobe Analytics의 라이센스 솔루션에 비디오 하트비트가 포함되어 있지 않은 경우 이 장에 설명된 단계를 계속 수행하여 Dynamic Media Classic 뷰어 이벤트 및 변수에 Adobe Analytics 변수를 할당해야 합니다.
+>Adobe Analytics의 라이센스 솔루션에 비디오 하트비트가 포함되어 있지 않은 경우 이 장에 설명된 단계를 계속 사용하여 Adobe Analytics 변수를 Dynamic Media Classic 뷰어 이벤트 및 변수에 할당해야 합니다.
 
