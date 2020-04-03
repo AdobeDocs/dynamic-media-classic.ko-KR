@@ -3,12 +3,12 @@ title: 로그인 및 로그아웃
 seo-title: 로그인 및 로그아웃
 description: 널
 seo-description: Dynamic Media Classic에서 로그인 및 로그아웃에 대해 자세히 알아보기
-uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bee36b
-contentOwner: 관리
-content-type: 참조
+uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
-discoiquuid: ad41881-ff31-43b1-bbb6-ab2fbcf89bea
+discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
@@ -27,7 +27,7 @@ Dynamic Media Classic을 사용하기 전에 다음 사항이 있는지 확인�
 
 * **로그인**&#x200B;이름전자 메일 주소를 로그인 이름으로 사용합니다.
 
-* **암호** Dynamic Media Classic 또는 Dynamic Media Classic 관리자의 "시작" 전자 메일에 임시 암호를 받습니다. 처음 로그인하면 이 임시 암호를 변경하라는 메시지가 표시됩니다.
+* **암호** Dynamic Media Classic 또는 Dynamic Media Classic 관리자의 &quot;시작&quot; 전자 메일에 임시 암호를 받습니다. 처음 로그인하면 이 임시 암호를 변경하라는 메시지가 표시됩니다.
 
 ## 로그인 {#sign-in}
 
