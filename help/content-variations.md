@@ -2,13 +2,13 @@
 title: 컨텐츠 변형 관리
 seo-title: 컨텐츠 변형 관리
 description: 널
-seo-description: 콘텐츠 변형 관리 방법
-uuid: 1 E 40 A 526-02 F 8-41 D 9-886 F -6 D 094546 BC 13
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ Scenesevenondemand_ pk/categories/template_ basics
-discoiquuid: AA 129 B 0 E-FC 73-4 FC 2-A 894-4560 B 3 F 46 C 4 F
+seo-description: 콘텐츠 변형을 관리하는 방법을 알아봅니다.
+uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -25,7 +25,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 목록에서 이미지 사전 설정 URL을 사용할 수 있습니다. 이미지 사전 설정 URL은 유니버설 URL과 유사합니다. 둘 이상의 이미지 사전 설정 URL이 있을 수 있습니다.
 
-1. [작성] &gt; [템플릿 집합]을 클릭합니다.
+1. [작성] > [템플릿 집합]을 클릭합니다.
 
    빌더가 열립니다.
 
