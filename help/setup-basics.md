@@ -4,8 +4,8 @@ seo-title: 설정 기본 사항
 description: 널
 seo-description: 설정 화면을 사용하여 개인 설정을 입력하는 방법을 알아봅니다. 관리자는 회사 설정을 지정합니다.
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
