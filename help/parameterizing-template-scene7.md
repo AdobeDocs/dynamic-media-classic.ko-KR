@@ -4,8 +4,8 @@ seo-title: Dynamic Media Classic에서 템플릿 매개 변수화
 description: 널
 seo-description: Dynamic Media Classic에서 템플릿을 매개 변수화하는 방법 알아보기
 uuid: 27c8c8b4-47f3-4270-a6db-d304648ba357
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template-publishing
 discoiquuid: df1a9ff5-a5ba-4480-ba0d-a19bc665f907
@@ -34,7 +34,7 @@ Dynamic Media Classic에서 다음 단계에 따라 FXG 템플릿의 매개 변�
 
    [템플릿 게시] 화면이 열립니다.
 
-1. LRCo\FXG\Welcome_Summit_10 (FXG 파일)을 선택하고 [ **작성** ] &gt; [템플릿 **게시]를 클릭합니다**.</p>
+1. LRCo\FXG\Welcome_Summit_10 (FXG 파일)을 선택하고 [ **작성** ] > [템플릿 **게시]를 클릭합니다**.</p>
 
    ![](assets/wp_fxg_edit.png)
 
