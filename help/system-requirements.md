@@ -2,13 +2,13 @@
 title: 시스템 요구 사항
 seo-title: 시스템 요구 사항
 description: 널
-seo-description: 'Dynamic Media Classic를 사용하는 최상의 경험을 위한 시스템 요구 사항에 대해 학습합니다. '
-uuid: 8 DFC 925 B -7350-41 AF -9207-3 B 2 A 743 C 0998
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/introduction_ adobe_ scene 7
-discoiquuid: 27278 FEF -8 B 0 E -41 CD-B 393-7 A 4 C 3625 D 5 C 0
+seo-description: 'Dynamic Media Classic을 사용하는 최적의 경험을 위한 시스템 요구 사항에 대해 알아봅니다. '
+uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
+discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
