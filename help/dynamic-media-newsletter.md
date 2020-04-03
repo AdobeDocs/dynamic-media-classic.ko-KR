@@ -45,7 +45,7 @@ Adobe Experience League의 월별 Dynamic Media 뉴스레터는 Dynamic Media �
    * Dynamic Media Classic 사용자 인터페이스의 새로 고침입니다.
    * 강력하고 새로운 보안 기능
    * 휴가 시즌이 성공하도록 준비 중입니다.
-   * Newsletter를 동료와 공유하여 팀의 전문성을 향상시킬 수 있습니다.
+   * 뉴스레터를 동료와 공유하여 팀의 전문성을 향상시킬 수 있습니다.
    * 다이내믹 미디어 수석 제품 관리자인 Apoorva Gupta를 만나보십시오.
 
 * **[2019년 10월, 문제](https://expleague.azureedge.net/assets/dynamic-media/Dynamic_Media_Newsletter_10_2019_Oct.html)**10이 발행물의 경우:
