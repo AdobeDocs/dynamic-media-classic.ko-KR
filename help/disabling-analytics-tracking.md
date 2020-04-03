@@ -3,12 +3,12 @@ title: Adobe Analytics 추적 비활성화
 seo-title: Adobe Analytics 추적 비활성화
 description: 널
 seo-description: Adobe Analytics 추적을 비활성화하는 방법을 알아봅니다.
-uuid: 6998 BB 18-1809-4 FC 7-A 1 B 6-D 75 C 24798620
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ Scenesevenondemand_ PK/categories/adobe_ analytics_ instrumentation_ kit
-discoiquuid: 3 F 1 F 5575-9 FE 5-436 C-B 009-99 F 3 BFF 0 B 21 F
+uuid: 6998bb18-1809-4fc7-a1b6-d75c24798620
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
+discoiquuid: 3f1f5575-9fe5-436c-b009-99f3bff0b21f
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
