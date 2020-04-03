@@ -3,12 +3,12 @@ title: 혼합 미디어 집합 게시
 seo-title: 혼합 미디어 집합 게시
 description: 널
 seo-description: 혼합 미디어 집합을 게시하는 방법을 알아봅니다.
-uuid: 4172347 c -7 bb 3-468 d-bda 2-fd 1 c 26 ccab 85
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/mixed_ media_ sets
-discoiquuid: 4 E 8694 F 7-C 1 B 5-4 D 45-A 18 B -2 B 9494 DB 1757
+uuid: 4172347c-7bb3-468d-bda2-fd1c26ccab85
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
+discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
 translation-type: tm+mt
 source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
@@ -17,9 +17,9 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 # 혼합 미디어 집합 게시{#publishing-a-mixed-media-set}
 
-Dynamic Media Classic 비디오 서버 및 이미지 서버에 게시용으로 표시한 혼합 미디어 집합을 게시하기 위한 게시 작업을 만듭니다. Dynamic Media Classic는 특정 서버에 게시할 수 있는 고급 게시 옵션과 이미 게시된 자산을 다시 게시할 수 있는 옵션을 제공합니다.
+Dynamic Media Classic 비디오 서버 및 이미지 서버에 게시하도록 표시한 혼합 미디어 집합을 게시하기 위한 게시 작업을 만듭니다. Dynamic Media Classic에서는 특정 서버에 게시하기 위한 고급 게시 옵션과 이미 게시된 자산을 다시 게시하는 옵션을 제공합니다.
 
-*****참고: 혼합 미디어 세트를 사용하려면&#x200B;**비디오 서버와****이미지 서버에도 게시해야**합니다.**비디오 서버**를 사용하여 게시하도록 표시한 실제 비디오를 게시합니다. 또한&#x200B;**이미지 서버를**사용하여 비디오 축소판과 같은 관련 자산을 게시하고 응용 비디오 집합에 대한 정보를 설정할 수 있습니다.*
+***참고&#x200B;**:혼합 미디어 집합을 사용하려면 비디오 서버에 게시하고**이미지&#x200B;**서버에도 게시해야**합니다&#x200B;**.**비디오 서버&#x200B;**를 사용하여 게시하도록 표시한 실제 비디오를 게시합니다. 또한 이미지 서버를**사용하여&#x200B;**비디오 축소판과 같은 관련 자산을 게시하고 응용 비디오 세트에 대한 정보를 설정합니다.*
 
 Scene7 Publishing System은 [작업] 화면에서 게시 작업을 추적합니다.
 
