@@ -4,10 +4,10 @@ seo-title: '"빠른 시작:eCatalogs"'
 description: 널
 seo-description: eCatalog 기술을 신속하게 시작하고 실행하는 데 도움이 되는 소개 및 빠른 시작 기능을 제공합니다.
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalog
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
@@ -39,7 +39,7 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 
 >[!NOTE]
 >
->AEM Dynamic Media - Scene7 모드 사용자이고 eCatalogs를 사용하려면 CRXDE Lite에서 `pdfbrochure` 값을 편집해야 합니다. 이렇게 하려면 AEM에서 도구 &gt; 일반 **[!UICONTROL &gt; CRXDE Lite를 클릭합니다]**. 왼쪽 패널 탐색 트리에서 로 이동합니다 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>AEM Dynamic Media - Scene7 모드 사용자이고 eCatalogs를 사용하려면 CRXDE Lite에서 `pdfbrochure` 값을 편집해야 합니다. 이렇게 하려면 AEM에서 도구 > 일반 **[!UICONTROL > CRXDE Lite를 클릭합니다]**. 왼쪽 패널 탐색 트리에서 로 이동합니다 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 오른쪽 아래 창의 속성 **[!UICONTROL 탭에서]** `jobParam` 행을 선택합니다. 에서 `pdfbrochure` 로 값을 `false` 설정합니다 `true`. CRXDE `pdfbrochure=true`Lite 페이지의 왼쪽 위 모서리에서 모두 저장을 **[!UICONTROL 클릭합니다]**.
 이제 SPS에서 eCatalog를 작성할 수 있습니다.
 
@@ -87,9 +87,9 @@ eCatalog 화면의 [정보 패널] 설정을 사용하여 이미지 맵 텍스�
 
 **4. eCatalog 뷰어 사전 설정 지정**
 
-최종 사용자는 eCatalog 뷰어에서 eCatalog를 봅니다. 관리자는 eCatalog 뷰어를 구성할 수 있습니다. 윤곽 색상을 변경하고 새 "스킨"을 선택하여 eCatalog를 브랜딩할 수 있습니다. Dynamic Media Classic에는 몇 가지 "우수 사례" eCatalog 뷰어 사전 설정이 포함되어 있습니다. 이러한 사전 설정 중 하나를 선택하여 eCatalog를 표시할 수 있습니다. 관리자는 고유한 eCatalog 뷰어 사전 설정을 만들 수도 있습니다.
+최종 사용자는 eCatalog 뷰어에서 eCatalog를 봅니다. 관리자는 eCatalog 뷰어를 구성할 수 있습니다. 윤곽 색상을 변경하고 새 &quot;스킨&quot;을 선택하여 eCatalog를 브랜딩할 수 있습니다. Dynamic Media Classic에는 몇 가지 &quot;우수 사례&quot; eCatalog 뷰어 사전 설정이 포함되어 있습니다. 이러한 사전 설정 중 하나를 선택하여 eCatalog를 표시할 수 있습니다. 관리자는 고유한 eCatalog 뷰어 사전 설정을 만들 수도 있습니다.
 
-eCatalog 뷰어 사전 설정을 만들려면 전역 탐색 막대에서 [설정]을 클릭하고 **[!UICONTROL [뷰어 사전]** 설정] **[!UICONTROL 을 선택합니다]**. 그런 다음 **[!UICONTROL 추가를]**&#x200B;클릭하고 플랫폼을 선택한 다음 [전자 카탈로그] &gt; [뷰어] **[!UICONTROL 를 클릭합니다]**.
+eCatalog 뷰어 사전 설정을 만들려면 전역 탐색 막대에서 [설정]을 클릭하고 **[!UICONTROL [뷰어 사전]** 설정] **[!UICONTROL 을 선택합니다]**. Then click **[!UICONTROL Add]**, choose a platform, then click **[!UICONTROL eCatalog > Viewer]**.
 
 [eCatalog 뷰어 사전 설정 지정](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)을 참조하십시오.
 
