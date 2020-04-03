@@ -2,13 +2,13 @@
 title: PDF 작업
 seo-title: PDF 작업
 description: 널
-seo-description: Dynamic Media Classic에서 PDF로 작업하는 방법을 살펴봅니다.
-uuid: 26 D 70 D 28-9393-49 B 1-9051-D 70456 Deca 67
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ scenesevenondemand_ pk/categories/master_ files
-discoiquuid: 5 A 073 DE 3-6 B 1 D -4 C 3 E -8 C 03-9182 F 9 F 3874 A
+seo-description: Dynamic Media Classic에서 PDF로 작업하는 방법을 알아봅니다.
+uuid: 26d70d28-9393-49b1-9051-d70456deca67
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
+discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
 source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
@@ -17,7 +17,7 @@ source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
 
 # PDF 작업{#working-with-pdfs}
 
-PDF (Portable Document Format) 파일은 Ecatalog를 만들기 위해 Dynamic Media Classic에서 가장 자주 사용됩니다. PDF 파일을 업로드할 때 Dynamic Media Classic는 페이지를 기본적으로 래스터화하거나 RIP를 래스터화하여 페이지를 리치 미디어 작성에 사용할 수 있도록 합니다.
+PDF(Portable Document Format) 파일은 eCatalogs를 만들기 위해 Dynamic Media Classic에서 가장 자주 사용됩니다. PDF 파일을 업로드할 때 Dynamic Media Classic은 기본적으로 페이지를 사용하여 리치 미디어를 만들 수 있도록 페이지를 래스터화하거나 리프합니다.
 
 ## PDF 업로드 선택 사항 {#pdf-upload-options}
 
@@ -29,13 +29,13 @@ PDF 파일 업로드 선택 사항은 [업로드] 화면의 [PDF 선택 사항] 
 
 [처리 중] 선택 사항은 다음과 같습니다.
 
-**래스터화 (** 기본값) PDF 파일의 페이지를 리핑하고 벡터 그래픽을 비트맵 이미지로 변환합니다. eCatalog를 만들려면 이 선택 사항을 선택합니다.
+**래스터화** (기본값) PDF 파일의 페이지를 리핑하고 벡터 그래픽을 비트맵 이미지로 변환합니다. eCatalog를 만들려면 이 선택 사항을 선택합니다.
 
-**검색 단어** 추출은 Ecatalog 뷰어에서 키워드로 파일을 검색할 수 있도록 PDF 파일에서 단어를 추출합니다.
+**검색 단어** 추출 PDF 파일에서 단어를 추출하여 eCatalog 뷰어에서 키워드로 파일을 검색할 수 있습니다.
 
-**링크** 추출은 PDF 파일에서 링크를 추출하여 ecatalog 뷰어에서 사용되는 이미지 맵으로 이동합니다.
+**링크** 추출 PDF 파일에서 링크를 추출하여 eCatalog 뷰어에서 사용되는 이미지 맵으로 변환합니다.
 
-**여러 페이지 PDF로 ecatalog 자동 생성 PDF 파일에서 ecatalog를** 자동으로 생성합니다. eCatalog 이름은 업로드한 PDF 파일을 따서 지정됩니다. 이 선택 사항은 업로드할 때 PDF 파일을 래스터화한 경우에만 사용할 수 있습니다.
+**여러 페이지 PDF로 e카탈로그 자동 생성** PDF 파일에서 eCatalog를 자동으로 생성합니다. eCatalog 이름은 업로드한 PDF 파일을 따서 지정됩니다. 이 선택 사항은 업로드할 때 PDF 파일을 래스터화한 경우에만 사용할 수 있습니다.
 
 **해상도**
 
@@ -45,23 +45,23 @@ PDF 파일 업로드 선택 사항은 [업로드] 화면의 [PDF 선택 사항] 
 
 [색상 공간] 메뉴를 선택한 다음 PDF 파일의 색상 공간을 선택합니다. 대부분의 PDF 파일은 [RGB] 및 [CMYK] 색상 이미지를 모두 포함합니다. 온라인 보기에서는 RGB 색상 공간이 선호됩니다.
 
-**검색은 PDF 파일의 색상 공간을 자동으로** 유지합니다.
+**자동 감지** PDF 파일의 색상 공간을 유지합니다.
 
-**force as RGB** color to the RGB color space.
+**RGB로 강제** 변환 RGB 색상 공간으로 변환
 
-**CMYK가 CMYK 색상 공간으로** 변환됩니다.
+**CMYK로** 강제 변환 CMYK 색상 공간으로 변환
 
-**회색 음영이** 회색 음영 색상 공간으로 변환됩니다.
+**[회색 음영으로** 강제 적용]을 회색 음영 색상 공간으로 변환합니다.
 
 **색상 프로필**
 
 [색상 프로필] 옵션을 선택합니다.
 
-**sRGB** 로 변환 sRGB (표준 빨강 녹색 파랑) 로 변환됩니다. sRGB는 웹 페이지에 이미지를 표시할 때 권장되는 색상 공간입니다.
+**sRGB로 변환** (표준 빨강 녹색 파랑)을 sRGB로 변환합니다. sRGB는 웹 페이지에 이미지를 표시할 때 권장되는 색상 공간입니다.
 
-**원본 색상 공간은 원래 색상 공간을** 유지합니다.
+**원래 색상 공간** 유지원래 색상 공간을 유지합니다.
 
-**사용자 지정 &gt; 메뉴를 여는 메뉴에서** 전환 및 색상 공간으로 변환을 선택할 수 있습니다. 표준 Photoshop 색상 공간이나 SPS로 업로드한 색상 공간을 선택할 수 있습니다.
+**[사용자 정의 시작** ] > [대상] 메뉴를 열어 [변환 대상] 및 [색상 공간으로 변환]을 선택할 수 있습니다. 표준 Photoshop 색상 공간이나 SPS로 업로드한 색상 공간을 선택할 수 있습니다.
 
 [ICC 프로필](icc-profiles.md#icc_profiles)을 참조하십시오.
 
@@ -70,17 +70,17 @@ PDF 파일 업로드 선택 사항은 [업로드] 화면의 [PDF 선택 사항] 
 1. 업로드할 때 PDF 파일에서 공백 픽셀을 자동으로 자르려면 [자르기] 메뉴를 선택한 다음 [트림]을 선택합니다.
 1. 다음 선택 사항을 지정합니다.
 
-   **색상 또는 투명도를 기반으로 자르기** 여부를 기반으로 잘라내기합니다.
+   **재단 기준색상** 또는 투명도를 기반으로 자를 것인지 선택합니다.
 
    **색상** 색상 옵션을 선택합니다. [모서리] 메뉴를 선택한 다음 자르려는 공백 색상을 가장 잘 나타내는 색상이 지정된 PDF 모서리를 선택합니다.
 
    **투명도** 투명도 옵션을 선택합니다.
 
-   **허용치** 슬라이더를 드래그하여 0에서 1 사이의 허용치를 지정합니다.
+   **허용치** 슬라이더를 드래그하여 0에서 1까지의 허용치를 지정합니다.
 
-   **색상 기준 트리밍pdf 모서리에서 선택한 색상과 정확하게 일치하는 경우에만 픽셀을 자르려면 0** 를 지정합니다. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다.
+   **색상을** 기반으로 트리밍 PDF 모서리에서 선택한 색상과 정확히 일치하는 경우에만 픽셀을 자르려면 0을 지정합니다. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다.
 
-   **투명도** 기준 트리밍이 완전히 투명한 경우에만 픽셀을 자르려면 0를 지정합니다. 1에 가까운 숫자는 더 많은 투명도를 허용합니다.
+   **투명도를** 기반으로 트리밍 완전히 투명한 경우에만 픽셀을 자르려면 0을 지정합니다.1에 가까운 숫자를 사용하면 투명도가 높아집니다.
 
 ## PDF 페이지 측면에서 자르기 {#cropping-from-the-sides-of-pdf-pages}
 
