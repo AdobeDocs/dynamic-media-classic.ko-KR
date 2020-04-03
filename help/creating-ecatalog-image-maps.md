@@ -4,10 +4,10 @@ seo-title: eCatalog 이미지 맵 만들기
 description: 널
 seo-description: eCatalog 이미지 맵을 만드는 방법을 알아봅니다.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
-geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalog
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 translation-type: tm+mt
 source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
