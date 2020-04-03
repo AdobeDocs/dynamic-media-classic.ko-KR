@@ -3,12 +3,12 @@ title: 템플릿 매개 변수 만들기
 seo-title: 템플릿 매개 변수 만들기
 description: 널
 seo-description: 템플릿 매개 변수를 만드는 방법을 알아봅니다.
-uuid: D 17168 A 8-4776-4761-B 022-8258 D 5997604
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-geptopics: sg_ Scenesevenondemand_ pk/categories/template_ basics
-discoiquuid: D 263 F 041-5 A 0 D -4 C 4 F -9266-AEFF 51 A 5 A 7 E 2
+uuid: d17168a8-4776-4761-b022-8258d5997604
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
+discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
@@ -31,7 +31,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. [레이어] 목록에서 매개 변수를 만들려는 레이어 이름 옆에 있는 [매개 변수] 단추 를 선택합니다. [매개 변수] 화면이 열립니다. 이 화면에는 레이어의 각 매개 변수 이름, 매개 변수 값 및 매개 변수 유형이 나열됩니다.
 1. 템플릿 이미지에 포함하려는 각 매개 변수 이름 옆에 있는 [켜짐] 선택 사항을 선택합니다.
-1. **닫기를** 선택하여 매개 변수 화면을 종료합니다.
+1. 닫기를 **선택하여** 매개 변수 화면을 종료합니다.
 
 >[!NOTE]
 >
