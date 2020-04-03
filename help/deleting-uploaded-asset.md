@@ -3,11 +3,11 @@ title: 업로드한 자산 삭제
 seo-title: 업로드한 자산 삭제
 description: 널
 seo-description: 업로드된 자산을 삭제하는 방법을 알아봅니다.
-uuid: edd 2 b 688-c 377-4 be 1-ba 16-d 2 dd 2 e 6 f 716 d
-contentOwner: 관리
-content-type: 참조
-products: sg_ Experiencemanager/dynamic-media-scene -7
-discoiquuid: DD 338 C 8 C -06 C 6-44 D 5-8493-DC 2087 EEEAFB
+uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
+contentOwner: admin
+content-type: reference
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 translation-type: tm+mt
 source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
