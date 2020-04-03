@@ -4,8 +4,8 @@ seo-title: eCatalog 뷰어 사전 설정 지정
 description: 널
 seo-description: eCatalog 뷰어 사전 설정을 설정하는 방법을 알아봅니다.
 uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 translation-type: tm+mt
@@ -20,11 +20,11 @@ eCatalog 뷰어 사전 설정은 eCatalog 뷰어의 스타일, 동작 및 모양
 
 새 사전 설정을 만들려면 처음부터 새로 만들거나 Dynamic Media Classic에서 제공하는 eCatalog 뷰어 사전 설정으로 시작하여 새 이름으로 저장할 수 있습니다. 고유한 eCatalog 뷰어 사전 설정을 만들어 회사 색상으로 인쇄물을 표시하고 톤을 설정할 수 있습니다.
 
-eCatalog 뷰어 사전 설정은 페이지 간 이동, 확대/축소, 검색 및 "스킨" 선택을 위한 다양한 설정을 제공합니다. 이러한 컨트롤의 모양과 뷰어 자체의 모양은 eCatalog 뷰어 사전 설정의 선택 항목에 따라 달라집니다.
+eCatalog 뷰어 사전 설정은 페이지 간 이동, 확대/축소, 검색 및 &quot;스킨&quot; 선택을 위한 다양한 설정을 제공합니다. 이러한 컨트롤의 모양과 뷰어 자체의 모양은 eCatalog 뷰어 사전 설정의 선택 항목에 따라 달라집니다.
 
 eCatalog 뷰어 사전 설정을 만들려면 다음 단계를 수행합니다(관리자여야 함).
 
-1. **[설정]** &gt; **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
+1. **[설정]** > **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
 1. [뷰어 사전 설정] 화면에서 새로 시작하거나 기존 eCatalog 뷰어 사전 설정에서 시작하여 eCatalog 뷰어 사전 설정을 만듭니다.
 
    * **eCatalog 뷰어 사전 설정 만들기**[추가]를 클릭합니다. In the Add Viewer Preset dialog box, choose a platform, choose eCatalog Viewer, then click **Add**.
@@ -50,7 +50,7 @@ eCatalog 뷰어 사전 설정을 만들려면 다음 단계를 수행합니다(�
 
 >[!NOTE]
 >
->eCatalog 자체에 정의된 템플릿 대신 이 응답 템플릿을 사용하려면 [정보 서버 URL] 끝에 "fmt=1"을 추가합니다. 예: `https://.../$3$/$4$/$1$/?FMT=1`.
+>eCatalog 자체에 정의된 템플릿 대신 이 응답 템플릿을 사용하려면 [정보 서버 URL] 끝에 &quot;fmt=1&quot;을 추가합니다. 예: `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. **[저장]**&#x200B;을 클릭합니다.
 1. 직접 만든 eCatalog 뷰어 사전 설정을 웹 페이지에 eCatalog를 표시하는 데 사용하려면 [기본값]을 클릭합니다.
