@@ -4,8 +4,8 @@ seo-title: PostScript 및 Illustrator 파일 작업
 description: 널
 seo-description: PostScript 및 Illustrator 파일을 사용하여 작업하는 방법을 알아봅니다.
 uuid: 36dee172-8bd4-45a9-820b-c2ca319edf20
-contentOwner: 관리
-content-type: 참조
+contentOwner: admin
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
