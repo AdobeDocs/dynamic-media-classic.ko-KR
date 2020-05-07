@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+workflow-type: tm+mt
+source-wordcount: '1209'
+ht-degree: 83%
 
 ---
 
@@ -33,25 +36,6 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 [지금 설치]를 클릭하여 Scene7 Publishing System 데스크톱 버전을 로컬 하드 드라이브에 설치합니다. 또는 [지금 재설치]를 클릭하여 데스크톱 버전을 다시 설치합니다.
 
-### W2P(Web to Print)용 Illustrator 플러그인
-
-Windows 7 또는 8을 실행 중인 컴퓨터에서 W2P(Web to Print)용 Illustrator 플러그인을 설치하려면 관리자 권한이 있어야 하며 Windows에 관리자 계정으로 로그온해야 합니다. 플러그인을 설치한 후에 Adobe Illustrator에서 사용할 수 있습니다.
-
-W2P(Web to Print)용 Illustrator 플러그인은 다음 Adobe Illustrator 버전에서 사용할 수 있습니다.
-
-* Adobe Creative Cloud 2014의 Adobe Illustrator 18
-* Adobe Creative Cloud의 Adobe Illustrator 17
-* Adobe Creative Suite 6의 Adobe Illustrator 16
-
-지원되는 Adobe Illustrator 플랫폼은 다음과 같습니다.
-
-* Apple Mac OS X 10.7 이상
-* Windows 8, 32비트 및 64비트
-* Windows 7, 32비트 및 64비트
-* Windows XP, 32비트 및 64비트(Adobe Creative Suite 6의 Adobe Illustrator 16만 해당)
-
-[템플릿 게시](quick-start-template-publishing.md)를 참조하십시오.
-
 ## 로컬 하드 드라이브에 플러그인 설치
 
 1. Scene7 Publishing System의 [개인 설정] 페이지에서 W2P(Web to Print)용 Adobe Illustrator 아래의 **지금 다운로드**&#x200B;를 클릭하여 **Illustrator Plug-in for Web-to-Print.zip** 파일을 다운로드합니다.
@@ -65,15 +49,15 @@ W2P(Web to Print)용 Illustrator 플러그인은 다음 Adobe Illustrator 버전
 
 | 실행 중인 버전 | 수행할 작업 |
 |--- |--- |
-| Adobe Creative Cloud 2014의 Adobe Illustrator 18 | <ul><li>압축을 푼 폴더의 루트에서 CC-2014를 클릭합니다.</li><li>사용하는 Adobe Illustrator의 비트 버전에 따라 win32 또는 win64를 클릭합니다.</li><li>라이브러리 > flame을 클릭한 다음 `aflame.dll`을 Adobe Illustrator의 실행 가능한 폴더에 복사합니다. (예: `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`) </li></ul><br/>**참고&#x200B;**:이 예제 경로는 64비트 위치에 대한 것입니다.32비트 위치는 프로그램 파일(x86)에 속할 수 있습니다.<br/><ul><li>동일한 라이브러리 폴더로 돌아가 flamingo를 클릭한 다음 `aflamingo.dll`을 이전 단계에서 사용한 것과 동일한 Adobe Illustrator 실행 가능한 폴더에 복사합니다. </li><li>2단계에서 선택한 win32 또는 win64 폴더로 돌아간 다음 `AdobeS7FXGFileFormat.aip`를 Adobe Illustrator의 플러그인 폴더에 복사합니다. (예: `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`) </li></ul> <br/>**참고&#x200B;**:이 예제 경로는 64비트 위치에 대한 것입니다.32비트 위치는 프로그램 파일(x86)에 속할 수 있습니다. |
-| Adobe Creative Cloud의 Adobe Illustrator 17 | <ul><li>압축을 푼 폴더의 루트에서 CC를 클릭합니다. </li><li>사용하는 Adobe Illustrator의 비트 버전에 따라 win32 또는 win64를 클릭합니다.</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator&#39;s plug-ins folder. (예: `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`)</li></ul><br/>**참고&#x200B;**:이 예제 경로는 64비트 위치에 대한 것입니다.32비트 위치는 프로그램 파일(x86)에 속할 수 있습니다. |
-| Adobe Creative Suite 6의 Adobe Illustrator 16 | <ul><li>압축을 푼 폴더의 루트에서 6.0을 클릭합니다. </li><li>사용하는 Adobe Illustrator의 비트 버전에 따라 win32 또는 win64를 클릭합니다. </li><li>AdobeS7FXGFileFormat.aip를 Adobe Illustrator의 플러그인 폴더에 복사합니다. (예: `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`)</li></ul><br/>**참고&#x200B;**:이 예제 경로는 64비트 위치에 대한 것입니다.32비트 위치는 프로그램 파일(x86)에 속할 수 있습니다. |
+| Adobe Creative Cloud 2014의 Adobe Illustrator 18 | <ul><li>압축을 푼 폴더의 루트에서 CC-2014를 클릭합니다.</li><li>사용하는 Adobe Illustrator의 비트 버전에 따라 win32 또는 win64를 클릭합니다.</li><li>라이브러리 > flame을 클릭한 다음 `aflame.dll`을 Adobe Illustrator의 실행 가능한 폴더에 복사합니다. (예: `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Support Files\Contents\Windows`) </li></ul><br/>**참고&#x200B;**: 이 예제 경로는 64비트 위치에 대한 것입니다. 32비트 위치는 프로그램 파일(x86)에 속할 수 있습니다.<br/><ul><li>동일한 라이브러리 폴더로 돌아가 flamingo를 클릭한 다음 `aflamingo.dll`을 이전 단계에서 사용한 것과 동일한 Adobe Illustrator 실행 가능한 폴더에 복사합니다. </li><li>2단계에서 선택한 win32 또는 win64 폴더로 돌아간 다음 `AdobeS7FXGFileFormat.aip`를 Adobe Illustrator의 플러그인 폴더에 복사합니다. (예: `C:\Program Files\Adobe\Adobe Illustrator CC 2014\Plug-ins\Illustrator Formats`) </li></ul> <br/>**참고&#x200B;**: 이 예제 경로는 64비트 위치에 대한 것입니다. 32비트 위치는 프로그램 파일(x86)에 속할 수 있습니다. |
+| Adobe Creative Cloud의 Adobe Illustrator 17 | <ul><li>압축을 푼 폴더의 루트에서 CC를 클릭합니다. </li><li>사용하는 Adobe Illustrator의 비트 버전에 따라 win32 또는 win64를 클릭합니다.</li><li> Copy `AdobeS7FXGFileFormat.aip` to Adobe Illustrator&#39;s plug-ins folder. (예: `C:\Program Files\Adobe\Adobe Illustrator CC (64 Bit)\Plug-ins\Illustrator Formats`)</li></ul><br/>**참고&#x200B;**: 이 예제 경로는 64비트 위치에 대한 것입니다. 32비트 위치는 프로그램 파일(x86)에 속할 수 있습니다. |
+| Adobe Creative Suite 6의 Adobe Illustrator 16 | <ul><li>압축을 푼 폴더의 루트에서 6.0을 클릭합니다. </li><li>사용하는 Adobe Illustrator의 비트 버전에 따라 win32 또는 win64를 클릭합니다. </li><li>AdobeS7FXGFileFormat.aip를 Adobe Illustrator의 플러그인 폴더에 복사합니다. (예: `C:\Program Files\Adobe\Adobe Illustrator CS6 (64 Bit)\Plug-ins\Illustrator Formats`)</li></ul><br/>**참고&#x200B;**: 이 예제 경로는 64비트 위치에 대한 것입니다. 32비트 위치는 프로그램 파일(x86)에 속할 수 있습니다. |
 
 ### Mac
 
 | 실행 중인 버전 | 수행할 작업 |
 |--- |--- |
-| Adobe Creative Cloud 2014의 Adobe Illustrator 18 | <ul><li>압축을 푼 폴더의 루트에서 CC-2014 > mac64를 클릭합니다.</li><li>라이브러리 > flame을 클릭한 다음 `aflame.framework` 폴더를 Adobe Illustrator 패키지 컨텐츠 폴더에 복사합니다. (예: `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`) (Adobe Illustrator의 패키지 내용 폴더를 열려면 Adobe illustrator CC 2014 아이콘을 마우스 오른쪽 버튼으로 클릭하고 컨텍스트 메뉴에서 패키지 내용 표시를 클릭합니다.)</li><li>동일한 라이브러리 폴더로 돌아가 `flamingo`를 클릭한 다음 `aflamingo.framework` 폴더를 이전 단계에서 사용한 것과 동일한 Adobe Illustrator 패키지 컨텐츠 폴더에 복사합니다.</li><li>1단계에서 선택한 mac64 폴더로 돌아간 다음 `AdobeS7FXGFileFormat.aip`를 Adobe Illustrator의 플러그인 폴더에 복사합니다. (예: `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`)</li></ul><br/> |
+| Adobe Creative Cloud 2014의 Adobe Illustrator 18 | <ul><li>압축을 푼 폴더의 루트에서 CC-2014 > mac64를 클릭합니다.</li><li>라이브러리 > flame을 클릭한 다음 `aflame.framework` 폴더를 Adobe Illustrator 패키지 컨텐츠 폴더에 복사합니다. (예: `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`) Adobe Illustrator의 패키지 내용 폴더를 열려면 Adobe Illustrator CC 2014 아이콘을 마우스 오른쪽 버튼으로 클릭하고 컨텍스트 메뉴에서 패키지 내용 표시를 클릭합니다.</li><li>동일한 라이브러리 폴더로 돌아가 `flamingo`를 클릭한 다음 `aflamingo.framework` 폴더를 이전 단계에서 사용한 것과 동일한 Adobe Illustrator 패키지 컨텐츠 폴더에 복사합니다.</li><li>1단계에서 선택한 mac64 폴더로 돌아간 다음 `AdobeS7FXGFileFormat.aip`를 Adobe Illustrator의 플러그인 폴더에 복사합니다. (예: `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`)</li></ul><br/> |
 | Adobe Creative Cloud의 Adobe Illustrator 17 | <ul><li>압축을 푼 폴더의 루트에서 CC > mac64를 클릭합니다</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. (예: `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`)</li></ul><br/> |
 | Adobe Creative Suite 6의 Adobe Illustrator 16 | <ul><li>압축을 푼 폴더의 루트에서 6.0 > mac}64를 클릭합니다</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. (예: `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`)</li></ul> |
 
@@ -135,10 +119,9 @@ W2P(Web to Print)용 Illustrator 플러그인은 다음 Adobe Illustrator 버전
    * 유효한 새 암호를 입력합니다. 암호는 다음 요구 사항을 충족해야 합니다.
       * 8-25자 사이
       * 하나 이상의 소문자 포함
-      * 대문자 하나 이상 포함
+      * 하나 이상의 대문자 포함
       * 하나 이상의 숫자 포함
-      * 다음 특수 문자 중 하나 이상을 포함합니다.#$&amp;-_:{}
-
+      * 다음 특수 문자 중 하나 이상을 포함합니다. #$&amp;-_:{}
 * **암호 다시 입력**
    * 입력된 암호가 정확한지 확인하기 위해 새 암호를 재입력합니다.
 * **암호 만료일**
