@@ -7,7 +7,7 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 36d716d080cf9afde2361d8fce1c9123bb085bf1
+source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
 workflow-type: tm+mt
 source-wordcount: '981'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 ## _최종 업데이트일: 2020년 5월 7일_
 
-2020년 6월 30일에 Dynamic Media Classic 사용자는 더 이상 브라우저의 Adobe Flash 기술에 의존하지 않는 새로운 로그온 경험에 액세스할 수 있습니다. 자세한 내용은 다음 FAQ를 참조하십시오.
+2020년 6월 30일에 Dynamic Media Classic 사용자는 더 이상 브라우저의 Adobe Flash 기술에 의존하지 않는 새로운 로그인 환경을 이용할 수 있습니다. 자세한 내용은 다음 FAQ를 참조하십시오.
 
 ### **_2020년 12월 31일에 브라우저가 Adobe Flash 지원을 중단하면 Dynamic Media Classic(이전 Scene7)에 영향을 미칩니까?_**
 
