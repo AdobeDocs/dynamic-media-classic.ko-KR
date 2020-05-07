@@ -2,10 +2,13 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classic Help
+user-guide-title: Dynamic Media Classic 도움말
 index: y
 translation-type: tm+mt
-source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
+source-git-commit: 7739d61eac6ca4d278e88d570e9890a67669bcb8
+workflow-type: tm+mt
+source-wordcount: '726'
+ht-degree: 78%
 
 ---
 
@@ -13,7 +16,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
 # Dynamic Media Classic 도움말 {#using}
 
 + [Dynamic Media Classic 설명서 홈](home.md)
-+ [2020년 상반기 출시 예정인 새로운 Dynamic Media Classic 유저 인터페이스](new-ui-2020.md)
++ [2020년 상반기 출시 예정인 새로운 Dynamic Media Classic 사용자 인터페이스](new-ui-2020.md)
 + [Experience League의 Dynamic Media 뉴스레터](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic 소개 {#intro}
    + [Dynamic Media Classic 정보](introduction.md)
@@ -22,7 +25,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [시스템 요구 사항](system-requirements.md)
    + [Adobe Scene7 Publishing System 데스크톱 애플리케이션](scene7-publishing-system-desktop-applications.md)
    + [지원](support.md)
-   + [Dynamic Media Classic Media Portal 도움말](help-scene7-media-portal.md)
+   + [Dynamic Media Classic 미디어 포털에 대한 도움말](help-scene7-media-portal.md)
    + [Adobe 교육 서비스](training-services.md)
    + [널리 사용되는 리소스](popular-resources.md)
    + [교육 비디오](training-videos.md)
@@ -42,7 +45,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Administration Setup](administration-setup.md)
 + Media Portal {#media-portal}
    + [시스템 요구 사항](system-requirements-1.md)
-   + [빠른 시작:미디어 포털](quick-start-media-portal-administration.md)
+   + [빠른 시작: 미디어 포털](quick-start-media-portal-administration.md)
    + [Media Portal 사용자 역할](media-portal-user-roles.md)
    + [Creating and managing Media Portal groups](creating-media-portal-groups.md)
    + [Media Portal 사용자 추가 및 관리](adding-media-portal-users.md)
@@ -87,7 +90,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [확대/축소 이미지 게시](publishing-zoom-images.md)
    + [확대/축소 뷰어를 웹 페이지에 연결](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
-   + [빠른 시작:eCatalogs](quick-start-ecatalog.md)
+   + [빠른 시작: eCatalogs](quick-start-ecatalog.md)
    + [PDF 파일 업로드](uploading-pdf-files.md)
    + [Creating an eCatalog](creating-ecatalog.md)
    + [Creating eCatalog Image Maps](creating-ecatalog-image-maps.md)
@@ -127,16 +130,6 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [템플릿 게시](publishing-templates.md)
    + [템플릿을 웹 페이지에 연결](linking-template-web-page.md)
    + [컨텐츠 변형 관리](content-variations.md)
-+ Template publishing {#template-publishing}
-   + [빠른 시작:템플릿 게시](quick-start-template-publishing.md)
-   + [Adobe Illustrator에서 초기 템플릿 만들기](create-initial-template-illustrator.md)
-   + [Upload files for Template Publishing](upload-files-template-publishing.md)
-   + [가변성 정의: 매개 변수화 및 DOM 조작](defining-variability-parameterization-versus-dom.md)
-   + [Dynamic Media Classic에서 템플릿 매개 변수화](parameterizing-template-scene7.md)
-   + [템플릿 특성 미리 보기 및 업데이트](preview-update-template-attributes.md)
-   + [DOM 조작](dom-manipulation.md)
-   + [FXG 템플릿을 웹 페이지에 연결](linking-fxg-template-web-page.md)
-   + [PDF 문서 만들기](creating-pdf-document.md)
 + 비디오 {#video}
    + [빠른 시작: 비디오](quick-start-video.md)
    + [우수 사례: HTML5 비디오 뷰어 사용](best-practice-using-html5-video.md)
@@ -153,7 +146,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [혼합 미디어 집합 게시](publishing-mixed-media-set.md)
    + [혼합 미디어 집합을 웹 페이지에 연결](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [빠른 시작:Dynamic Media Classic과 Adobe Analytics 통합](quick-start-integrating-scene7-analytics.md)
+   + [빠른 시작: Adobe Analytics와 Dynamic Media Classic 통합](quick-start-integrating-scene7-analytics.md)
    + [Adobe Analytics에 로그인](log-analytics.md)
    + [Adobe Analytics 보고서 구성](configuring-analytics-reports.md)
    + [Adobe Analytics 계측 키트를 사용하여 뷰어 계측](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -162,7 +155,7 @@ source-git-commit: 94432c916b175845e341bd4beb6d2cc96f613142
    + [Adobe Analytics 비디오 보고서 활성화](enabling-analytics-video-reports.md)
    + [Adobe Analytics 구성 정보 게시](publishing-analytics-configuration-information.md)
 + Target Classic 통합 {#target-classic}
-   + [빠른 시작:Target Classic 통합](quick-start-target-classic-integration.md)
+   + [빠른 시작: Target Classic 통합](quick-start-target-classic-integration.md)
    + [Adobe Dynamic Media Classic과 Adobe Target Classic 통합](integrating-scene7-target-classic.md)
    + [Creating an offer set](creating-offer-set.md)
    + [Adobe Target Classic으로 오퍼 집합 푸시](pushing-offer-sets-target-classic.md)
