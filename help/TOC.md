@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Media Classic 도움말
 index: y
 translation-type: tm+mt
-source-git-commit: 7739d61eac6ca4d278e88d570e9890a67669bcb8
+source-git-commit: 2ba41733263b9b186c45e97e6b2350aeb2b400ac
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '723'
 ht-degree: 78%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 78%
 # Dynamic Media Classic 도움말 {#using}
 
 + [Dynamic Media Classic 설명서 홈](home.md)
-+ [2020년 상반기 출시 예정인 새로운 Dynamic Media Classic 사용자 인터페이스](new-ui-2020.md)
++ [새로운 기능 2020년 6월 30일부터 Dynamic Media Classic 로그인 환경 이용 가능](new-ui-2020.md)
 + [Experience League의 Dynamic Media 뉴스레터](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic 소개 {#intro}
    + [Dynamic Media Classic 정보](introduction.md)
