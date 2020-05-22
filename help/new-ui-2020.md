@@ -1,15 +1,15 @@
 ---
-title: 2020년 상반기 출시 예정인 새로운 Dynamic Media Classic 사용자 인터페이스
-seo-title: 2020년 상반기 출시 예정인 새로운 Dynamic Media Classic 사용자 인터페이스
-description: Dynamic Media Classic 사용자는 2020년 상반기에 사용자 인터페이스를 새로 고칠 수 있습니다. 이 경험은 중요한 리소스에 대한 링크가 포함된 업데이트된 로그인을 제공하며 이 업데이트는 더 이상 브라우저의 Adobe Flash 기술을 사용하지 않습니다.
-seo-description: Dynamic Media Classic 사용자는 2020년 상반기에 사용자 인터페이스를 새로 고칠 수 있습니다. 이 경험은 중요한 리소스에 대한 링크가 포함된 업데이트된 로그인을 제공하며 이 업데이트는 더 이상 브라우저의 Adobe Flash 기술을 사용하지 않습니다.
+title: 2020년 6월 30일부터 새로운 Dynamic Media Classic 로그인 환경 사용 가능
+seo-title: New Dynamic Media Classic 2020년 6월 30일
+description: Dynamic Media Classic 사용자는 2020년 6월 30일에 사용자 인터페이스를 새로 고칠 수 있습니다. 이 경험은 중요한 리소스에 대한 링크가 포함된 업데이트된 로그인을 제공하며 이 업데이트는 더 이상 브라우저의 Adobe Flash 기술을 사용하지 않습니다.
+seo-description: Dynamic Media Classic 사용자는 2020년 6월 30일에 사용자 인터페이스를 새로 고칠 수 있습니다. 이 경험은 중요한 리소스에 대한 링크가 포함된 업데이트된 로그인을 제공하며 이 업데이트는 더 이상 브라우저의 Adobe Flash 기술을 사용하지 않습니다.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 718067c87239044a827c66f72f7a2d0a476a23f6
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '965'
 ht-degree: 0%
 
 ---
