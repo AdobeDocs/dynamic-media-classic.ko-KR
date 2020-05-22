@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Dynamic Media Classic 도움말
 index: y
 translation-type: tm+mt
-source-git-commit: 2ba41733263b9b186c45e97e6b2350aeb2b400ac
+source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 78%
+source-wordcount: '725'
+ht-degree: 77%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 78%
    + [개발자 리소스](developer-resources.md)
    + [What’s new](whats-new.md)
    + [시스템 요구 사항](system-requirements.md)
-   + [Adobe Scene7 Publishing System 데스크톱 애플리케이션](scene7-publishing-system-desktop-applications.md)
+   + [Adobe Dynamic Media Classic 데스크탑 앱이 곧 출시될 예정입니다!](dynamic-media-classic-desktop-app.md)
    + [지원](support.md)
    + [Dynamic Media Classic 미디어 포털에 대한 도움말](help-scene7-media-portal.md)
    + [Adobe 교육 서비스](training-services.md)
