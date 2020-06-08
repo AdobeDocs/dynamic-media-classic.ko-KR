@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Media Classic 도움말
 index: y
 translation-type: tm+mt
-source-git-commit: 3fa61a14b21b7cdc6c71d43d5ad9fd84c1ee89b4
+source-git-commit: 46285648da0e4c53c9ce08fc088705853e6a3a46
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '719'
 ht-degree: 77%
 
 ---
@@ -31,7 +31,6 @@ ht-degree: 77%
    + [교육 비디오](training-videos.md)
 + 시작하기 {#getting-started}
    + [Adobe Dynamic Media Classic 플랫폼 개요](scene7-platform-overview.md)
-   + [Scene7 Publishing System 데스크톱 버전 사용](using-scene7-publishing-system-desktop.md)
    + [Media Portal](media-portal.md)
    + [로그인 및 로그아웃](signing-out.md)
    + [탐색 기본 사항](navigation-basics.md)
