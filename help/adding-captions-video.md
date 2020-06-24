@@ -8,7 +8,10 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '909'
+ht-degree: 67%
 
 ---
 
@@ -31,9 +34,9 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets)을 참조하십시오.
 
-Dynamic Media Classic에는 캡션 파일을 JSON(JavaScript 개체 표기법) 형식으로 변환할 수 있는 기능이 있습니다. 이 변환은 JSON 텍스트를 숨겨져 있지만 완전한 비디오의 스크립트로서 웹 페이지에 포함할 수 있음을 의미합니다. 이렇게 되면 검색 엔진이 컨텐츠를 탐색하고 색인화하여 비디오를 더 쉽게 검색할 수 있도록 하고, 고객에게 비디오 컨텐츠에 대한 추가적인 세부 정보를 제공할 수 있습니다.
+Dynamic Media 클래스에는 캡션 파일을 JSON(JavaScript 개체 표기법) 형식으로 변환하는 기능이 있습니다. 이 변환은 JSON 텍스트를 숨겨져 있지만 완전한 비디오의 스크립트로서 웹 페이지에 포함할 수 있음을 의미합니다. 이렇게 되면 검색 엔진이 컨텐츠를 탐색하고 색인화하여 비디오를 더 쉽게 검색할 수 있도록 하고, 고객에게 비디오 컨텐츠에 대한 추가적인 세부 정보를 제공할 수 있습니다.
 
-See [Serving static (non-image) contents](https://marketing.adobe.com/resources/help/en_US/s7/is_ir_api/is_api/c_serving_static_nonimage_contents.html) in the *Adobe Image Serving API Help* for more information about using the JSON function in a URL.
+See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html) in the *Adobe Image Serving API Help* for more information about using the JSON function in a URL.
 
 **비디오에 캡션을 추가하려면**
 
@@ -41,7 +44,7 @@ See [Serving static (non-image) contents](https://marketing.adobe.com/resources/
 
    | 뷰어 유형 | 캡션 파일 |
    |--- |--- |
-   | HTML5 | HTML5 비디오 뷰어를 사용하는 경우, 사용자가 만드는 캡션 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 캡션 파일 이름 확장자는 .vtt입니다. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.<br><br>[WebVTT를 참조하십시오](https://dev.w3.org/html5/webvtt/).웹 비디오 텍스트 트랙 형식 <br><br>Scene7 Publishing System 외부에서 캡션 파일을 작성하는 데 사용할 수 있는 도구 및 서비스에는 무료와 유료 제품이 모두 있습니다. 예를 들어 스타일이 없는 간단한 비디오 캡션 파일을 만들려면 다음의 무료 온라인 캡션 제작 및 편집 도구를 사용할 수 있습니다.WebVTT <br><br>[Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) 최상의 결과를 <br><br>얻으려면 Internet Explorer 9 이상, Google Chrome 또는 Safari에서 이 도구를 사용하십시오. <br><br>도구에서 비디오 <b>파일의</b> URL 입력 필드에서 비디오 파일의 URL을 붙여 넣은 다음 로드를 <b>클릭합니다</b>. <br><br>예를 들어 비디오 파일에 Dynamic Media Classic URL을 사용하는 경우 SPS에서 개별 비디오 자산(응용 비디오 세트 또는 마스터 비디오가 아님)을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. [세부 사항 보기]의 오른쪽 패널에서 URL 및 포함 코드를 확장합니다. 그런 다음 [모바일] 그룹 아래의 [모바일(점진적)] 오른쪽에 있는 URL 복사를 클릭합니다. This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. 그러면 Internet Explorer, Chrome 또는 Safari가 비디오를 기본적으로 재생할 수 있습니다. 이제 사이트에서 제공하는 화면의 지침에 따라 WebVTT 파일을 작성하고 저장합니다. 끝나면, 캡션 파일 컨텐츠를 복사하여 일반 텍스트 편집기에 붙여 넣고 .vtt 파일 이름 확장자로 저장합니다. <br><br><b>참고:</b> 영어 이외의 언어로 된 비디오 캡션을 글로벌 지원하려면 WebVTT 표준을 사용하여 지원할 각 언어에 대한 별도의 .vtt 파일과 호출을 만들어야 합니다. <br><br>일반적으로 캡션 VTT 파일의 이름은 비디오 파일과 동일하게 지정하고 여기에 captions를 추가합니다. 그렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다. |
+   | HTML5 | HTML5 비디오 뷰어를 사용하는 경우, 사용자가 만드는 캡션 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 캡션 파일 이름 확장자는 .vtt입니다. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.<br><br>[WebVTT를 참조하십시오](https://dev.w3.org/html5/webvtt/). 웹 비디오 텍스트 트랙 형식 <br><br>Scene7 Publishing System 외부에서 캡션 파일을 작성하는 데 사용할 수 있는 도구 및 서비스에는 무료와 유료 제품이 모두 있습니다. 예를 들어 스타일이 없는 간단한 비디오 캡션 파일을 만들려면 다음의 무료 온라인 캡션 제작 및 편집 도구를 사용할 수 있습니다. <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) 최상의 결과를 <br><br>얻으려면 Internet Explorer 9 이상, Google Chrome 또는 Safari에서 이 도구를 사용하십시오. <br><br>도구에서 비디오 파일의 <b>URL 입력</b> 필드에서 비디오 파일의 URL을 붙여 넣은 다음 <b>로드를 클릭합니다</b>. <br><br>예를 들어 비디오 파일에 대해 Dynamic Media Classic URL을 사용하는 경우 SPS에서 개별 비디오 자산(응용 비디오 세트 또는 마스터 비디오가 아님)을 두 번 클릭하여 세부 정보 보기에서 엽니다. [세부 사항 보기]의 오른쪽 패널에서 URL 및 포함 코드를 확장합니다. 그런 다음 [모바일] 그룹 아래의 [모바일(점진적)] 오른쪽에 있는 URL 복사를 클릭합니다. This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. 그러면 Internet Explorer, Chrome 또는 Safari가 비디오를 기본적으로 재생할 수 있습니다. 이제 사이트에서 제공하는 화면의 지침에 따라 WebVTT 파일을 작성하고 저장합니다. 끝나면, 캡션 파일 컨텐츠를 복사하여 일반 텍스트 편집기에 붙여 넣고 .vtt 파일 이름 확장자로 저장합니다. <br><br><b>참고:</b> 영어 이외의 언어로 비디오 캡션을 전체적으로 지원하려면 WebVTT 표준을 사용하여 지원할 각 언어에 대해 별도의 .vtt 파일과 호출을 만들어야 합니다. <br><br>일반적으로 캡션 VTT 파일의 이름은 비디오 파일과 동일하게 지정하고 여기에 captions를 추가합니다. 그렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다. |
 
 1. Scene7 Publishing System에서 WebVTT, DFXP 또는 SMPTE XML 캡션 파일을 업로드합니다.
 
