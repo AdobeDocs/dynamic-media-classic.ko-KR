@@ -10,14 +10,17 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '679'
+ht-degree: 91%
 
 ---
 
 
 # eCatalog를 웹 페이지에 연결{#linking-an-ecatalog-to-a-web-page}
 
-웹 사이트와 애플리케이션은 URL 문자열 또는 포함된 코드를 통해 eCatalogs를 비롯한 Dynamic Media Image Server 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지와 애플리케이션에 eCatalog의 URL 문자열 또는 임베드된 코드를 배치하려면 Scene7 Publishing System에서 복사합니다.
+웹 사이트 및 응용 프로그램은 URL 문자열 또는 포함된 코드를 통해 eCatalogs를 비롯한 Dynamic Media 이미지 서버 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지와 애플리케이션에 eCatalog의 URL 문자열 또는 임베드된 코드를 배치하려면 Scene7 Publishing System에서 복사합니다.
 
 >[!NOTE]
 >
@@ -46,7 +49,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 eCatalog를 배포하는 가장 일반적인 방법은 웹 페이지에 eCatalog 썸네일 표지 페이지 형태로 링크를 배치하는 것입니다. IT 팀과 협력하여 eCatalog가 간결한 가운데 맞춤 팝업 창에서 시작되도록 합니다. IT 팀에 브라우저의 도구 모음과 주소 표시줄이 표시되지 않도록 요청합니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 [참조 안내서의 HTML5 eCatalog 뷰어 포함을 참조하십시오](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_ecatalog_viewer_about.html).
+자세한 내용 및 코드 샘플은 [Adobe 뷰어 참조 안내서의 HTML5 전자 카탈로그 뷰어 포함을 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
 
 ## eCatalog 뷰어의 임베드 코드 복사 {#copying-the-embed-code-of-an-ecatalog-viewer}
 
