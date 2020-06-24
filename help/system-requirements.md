@@ -2,7 +2,7 @@
 title: 시스템 요구 사항
 seo-title: 시스템 요구 사항
 description: 널
-seo-description: 'Dynamic Media Classic을 사용하는 최적의 경험을 위한 시스템 요구 사항에 대해 알아봅니다. '
+seo-description: 'Dynamic Media Classic을 사용하는 최적의 경험을 위한 시스템 요구 사항에 대해 알아보십시오. '
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,19 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1c4fdd6493d36be91ed015f019f5d4205d5cae41
+workflow-type: tm+mt
+source-wordcount: '95'
+ht-degree: 47%
 
 ---
 
 
 # 시스템 요구 사항 {#system-requirements}
 
-Scene7 Publishing System을 사용하는 최상의 작업 환경을 위해서는 시스템이 다음 시스템 요구 사항 및 권장 사항을 충족해야 합니다.
+Dynamic Media Classic 데스크탑 앱 사용 시 최상의 환경을 얻으려면 시스템이 다음 시스템 요구 사항과 권장 사항을 충족하는지 확인하십시오.
 
-* Microsoft® Windows® 7 이상 또는 Mac OS X 10.6 이상 Macintosh® Intel 프로세서 필요
+* Microsoft® Windows® 7 이상 또는 macOS X 10.6 이상의 Macintosh® Intel 프로세서가 필요합니다.
 * 3GB 이상 RAM 필요(4GB 이상 권장)
 * 컬러 모니터
 * 1280x1024 이상의 해상도로 트루 컬러를 지원하는 비디오 카드
