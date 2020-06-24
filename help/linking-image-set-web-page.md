@@ -2,7 +2,7 @@
 title: 이미지 집합을 웹 페이지에 연결
 seo-title: 이미지 집합을 웹 페이지에 연결
 description: 널
-seo-description: 이미지 집합을 웹 페이지에 연결하는 방법을 알아봅니다.
+seo-description: 이미지 세트를 웹 페이지에 연결하는 방법을 알아봅니다.
 uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+workflow-type: tm+mt
+source-wordcount: '680'
+ht-degree: 91%
 
 ---
 
@@ -44,9 +47,9 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 ## 웹 페이지에 이미지 집합 URL 추가 {#adding-image-set-urls-to-your-web-page}
 
-이미지 집합을 배포하는 가장 일반적인 방법은 탐색 아이콘을 통해 웹 페이지에 링크를 배치하는 것입니다. 클릭하면 링크가 팝업 확대/축소 창에 이미지 세트를 표시하는 JSP(동적 페이지)를 시작합니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
+이미지 집합을 배포하는 가장 일반적인 방법은 탐색 아이콘을 통해 웹 페이지에 링크를 배치하는 것입니다. 클릭하면 링크가 팝업 확대/축소 창에 이미지 세트를 표시하는 JSP(동적 페이지)를 실행합니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 [참조 안내서의 HTML5 확대/축소 뷰어 포함을 참조하십시오](https://marketing.adobe.com/resources/help/en_US/s7/viewers_ref/c_html5_20_zoom_viewer_about.html).
+자세한 내용 및 코드 샘플은 [Adobe 뷰어 참조 안내서의 HTML5 확대/축소 뷰어 포함을 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
 
 ## 이미지 집합 뷰어의 임베드 코드 복사 {#copying-the-embed-code-of-an-image-set-viewer}
 
