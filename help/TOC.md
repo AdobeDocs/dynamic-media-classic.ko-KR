@@ -2,21 +2,22 @@
 cloud: experience-cloud
 product: dynamic media classic
 audience: end-user
-user-guide-title: Dynamic Media Classic 도움말
+user-guide-title: Dynamic Media 클래식 도움말
 index: y
 translation-type: tm+mt
-source-git-commit: 46285648da0e4c53c9ce08fc088705853e6a3a46
+source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 77%
+source-wordcount: '730'
+ht-degree: 76%
 
 ---
 
 
-# Dynamic Media Classic 도움말 {#using}
+# Dynamic Media 클래식 도움말 {#using}
 
 + [Dynamic Media Classic 설명서 홈](home.md)
-+ [새로운 기능 2020년 6월 30일부터 Dynamic Media Classic 로그인 환경 이용 가능](new-ui-2020.md)
++ [모범 사례 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [새로운 기능 2020년 6월 30일 이용 가능한 Dynamic Media 클래식 로그인 환경](new-ui-2020.md)
 + [Experience League의 Dynamic Media 뉴스레터](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic 소개 {#intro}
    + [Dynamic Media Classic 정보](introduction.md)
@@ -25,7 +26,7 @@ ht-degree: 77%
    + [시스템 요구 사항](system-requirements.md)
    + [Adobe Dynamic Media Classic 데스크탑 앱이 곧 출시될 예정입니다!](dynamic-media-classic-desktop-app.md)
    + [지원](support.md)
-   + [Dynamic Media Classic 미디어 포털에 대한 도움말](help-scene7-media-portal.md)
+   + [Dynamic Media Classic Media Portal 도움말](help-scene7-media-portal.md)
    + [Adobe 교육 서비스](training-services.md)
    + [널리 사용되는 리소스](popular-resources.md)
    + [교육 비디오](training-videos.md)
@@ -145,7 +146,7 @@ ht-degree: 77%
    + [혼합 미디어 집합 게시](publishing-mixed-media-set.md)
    + [혼합 미디어 집합을 웹 페이지에 연결](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [빠른 시작: Adobe Analytics와 Dynamic Media Classic 통합](quick-start-integrating-scene7-analytics.md)
+   + [빠른 시작: Adobe Analytics과 Adobe Classic 통합](quick-start-integrating-scene7-analytics.md)
    + [Adobe Analytics에 로그인](log-analytics.md)
    + [Adobe Analytics 보고서 구성](configuring-analytics-reports.md)
    + [Adobe Analytics 계측 키트를 사용하여 뷰어 계측](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -153,11 +154,11 @@ ht-degree: 77%
    + [Adobe Analytics 보고서를 보고 통합 테스트](testing-integration-viewing-analytics-report.md)
    + [Adobe Analytics 비디오 보고서 활성화](enabling-analytics-video-reports.md)
    + [Adobe Analytics 구성 정보 게시](publishing-analytics-configuration-information.md)
-+ Target Classic 통합 {#target-classic}
-   + [빠른 시작: Target Classic 통합](quick-start-target-classic-integration.md)
++ Target 클래식 통합 {#target-classic}
+   + [빠른 시작: Target 클래식 통합](quick-start-target-classic-integration.md)
    + [Adobe Dynamic Media Classic과 Adobe Target Classic 통합](integrating-scene7-target-classic.md)
    + [Creating an offer set](creating-offer-set.md)
-   + [Adobe Target Classic으로 오퍼 집합 푸시](pushing-offer-sets-target-classic.md)
+   + [오퍼 집합을 Adobe Target Classic으로 푸시합니다.](pushing-offer-sets-target-classic.md)
 + 사용자 생성 컨텐츠 {#user-generated-content}
    + [사용자 생성 컨텐츠 정보](about-ugc.md)
    + [업로드한 자산 삭제](deleting-uploaded-asset.md)
