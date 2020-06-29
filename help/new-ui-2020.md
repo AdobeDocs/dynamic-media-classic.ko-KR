@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
+source-git-commit: 42d2a6e5d1a4b33149043eed590137ea826fe146
 workflow-type: tm+mt
-source-wordcount: '1139'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,6 @@ ht-degree: 0%
 ### **_2020년 12월 31일에 브라우저가 Adobe Flash 지원을 중단하면 Dynamic Media Classic(이전 Scene7)에 영향을 미칩니까?_**
 
 Adobe Flash Player는 웹 브라우저에서 Adobe Flash Platform에서 개발한 컨텐츠를 사용할 수 있는 웹 브라우저 플러그인입니다. Dynamic Media Classic(현재 레이블 [!DNL Scene7 Publishing System] 또는 제품에 있음)의 웹 사용자 인터페이스는 Adobe Flash Player [!DNL SPS] 가 필요합니다. Adobe Flash가 2020년 12월 31일 더 이상 사용되지 않게 되면, Dynamic Media Classic 고객은 더 이상 웹 사용자 인터페이스에 로그인할 수 없게 됩니다. 이러한 이유로 Adobe는 고객에게 브라우저 경험을 대체하는 데스크탑 앱을 제공했습니다.
-
-시스템 요구 사항을 검토하고, 새 앱을 다운로드하여 설치한 다음 [Adobe Dynamic Media Classic 데스크탑 앱을](/help/dynamic-media-classic-desktop-app.md) 참조하십시오.
 
 ### **_새로운 데스크탑 앱은 어떻게 액세스할 수 있습니까?_**
 
