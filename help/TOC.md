@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Media 클래식 도움말
 index: y
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
 workflow-type: tm+mt
-source-wordcount: '731'
+source-wordcount: '732'
 ht-degree: 76%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 76%
 + [Experience League의 Dynamic Media 뉴스레터](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic 소개 {#intro}
    + [Adobe Dynamic Media Classic 데스크탑 앱 - 현재 제공 중](dynamic-media-classic-desktop-app.md)
-   + [Dynamic Media Classic 정보](introduction.md)
+   + [Dynamic Media 클래식 도움말 정보](introduction.md)
    + [개발자 리소스](developer-resources.md)
    + [What’s new](whats-new.md)
    + [시스템 요구 사항](system-requirements.md)
