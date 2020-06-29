@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 59116a685629cfd788c32fb5082f35d90e66fb5a
+source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -26,7 +26,7 @@ ht-degree: 0%
 >
 >2020년 10월 1일까지 새로운 Adobe Dynamic Media Classic 데스크탑 앱을 설치하는 것이 좋습니다. 그렇게 하면 2020년 12월 31일에 Adobe Flash Player가 더 이상 사용되지 않게 되기 전에 원활하게 전환할 수 있습니다. 이 날짜에 더 이상 제품에서 Scene7 Publishing System으로 레이블이 지정된 Adobe Dynamic Media Classic 사용자 인터페이스의 브라우저 버전에 로그인할 수 없습니다.
 
-지금 사용 가능한 [새 Dynamic Media Classic 로그인 경험에 대한 FAQ를 참조하십시오](/help/new-ui-2020.md).
+지금 사용 가능한 [새 Dynamic Media Classic 로그인 환경에 대한 FAQ를 참조하십시오.](/help/new-ui-2020.md)
 
 ## Adobe Dynamic Media Classic 데스크탑 앱의 시스템 요구 사항 {#system-requirements-dmc-app}
 
@@ -40,8 +40,8 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
 1. Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드하십시오.
 
-   * macOS(.dmg) - [다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg).
-   * Windows(.exe) - [다운로드](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe).
+   * [macOS(.dmg) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows(.exe) - 다운로드](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. 다운로드한 설치 프로그램에 따라 다음 중 하나를 수행합니다.
 
