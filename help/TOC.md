@@ -5,9 +5,9 @@ audience: end-user
 user-guide-title: Dynamic Media 클래식 도움말
 index: y
 translation-type: tm+mt
-source-git-commit: c554e643d287680c34a3b0e79c8dfd7c306a0111
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '731'
 ht-degree: 76%
 
 ---
@@ -17,14 +17,14 @@ ht-degree: 76%
 
 + [Dynamic Media Classic 설명서 홈](home.md)
 + [모범 사례 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [새로운 기능 2020년 6월 30일 이용 가능한 Dynamic Media 클래식 로그인 환경](new-ui-2020.md)
++ [새로운 기능 Dynamic Media Classic 로그인 환경 사용 가능](new-ui-2020.md)
 + [Experience League의 Dynamic Media 뉴스레터](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic 소개 {#intro}
+   + [Adobe Dynamic Media Classic 데스크탑 앱 - 현재 제공 중](dynamic-media-classic-desktop-app.md)
    + [Dynamic Media Classic 정보](introduction.md)
    + [개발자 리소스](developer-resources.md)
    + [What’s new](whats-new.md)
    + [시스템 요구 사항](system-requirements.md)
-   + [Adobe Dynamic Media Classic 데스크탑 앱이 곧 출시될 예정입니다!](dynamic-media-classic-desktop-app.md)
    + [지원](support.md)
    + [Dynamic Media Classic Media Portal 도움말](help-scene7-media-portal.md)
    + [Adobe 교육 서비스](training-services.md)
