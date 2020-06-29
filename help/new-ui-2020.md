@@ -1,20 +1,20 @@
 ---
-title: 새로운 Dynamic Media Classic 로그인 환경 사용 가능
-seo-title: 새로운 Dynamic Media Classic 데스크탑 앱 사용 가능
+title: Adobe Dynamic Media Classic 데스크탑 앱
+seo-title: Adobe Dynamic Media Classic 데스크탑 앱
 description: 이제 Dynamic Media Classic 사용자는 사용자 인터페이스를 완전히 새로 고칠 수 있습니다. 이 경험은 중요한 리소스에 대한 링크가 포함된 업데이트된 로그인을 제공하며 이 업데이트는 더 이상 브라우저의 Adobe Flash 기술에 의존하지 않습니다.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: 42d2a6e5d1a4b33149043eed590137ea826fe146
+source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
 
 
-# 이제 새 Dynamic Media Classic 로그인 환경을 사용할 수 있습니다. {#new-ui-2020}
+# Adobe Dynamic Media Classic 데스크탑 앱 - 현재 제공 중 {#new-ui-2020}
 
 시스템 요구 사항을 검토하고, 새 앱을 다운로드하여 설치한 다음 [Adobe Dynamic Media Classic 데스크탑 앱을](/help/dynamic-media-classic-desktop-app.md) 참조하십시오.
 
