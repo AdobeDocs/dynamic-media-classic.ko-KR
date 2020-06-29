@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 37f9a42b89ad1ade0aa7f8fc542b03c930bd9c27
+source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 0%
@@ -47,18 +47,18 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
    * **macOS의 경우** **[!UICONTROL 드래그 앤 드롭 방식으로 설치]** 대화 상자에서 **[!UICONTROL Adobe Dynamic Media Classic]** 을 드래그하여 **[!UICONTROL 응용 프로그램에 놓습니다]**.
 
-      ![macOS에서 드래그 앤 드롭 설치](/help/assets/dragondrop-install.png)
+      ![macOS에서 드래그 앤 드롭 설치](/help/assets/dragondrop-install1.png)
 
    * 응용 프로그램 **** 폴더에서 Adobe Dynamic Media Classic 아이콘을 누릅니다.
    * 대화 상자에서 **[!UICONTROL 열기를]** 눌러 Adobe Dynamic Media Classic 데스크탑 앱을 엽니다.
 
-      ![다운로드한 앱 열기](/help/assets/open-dmclassicapp.png)
+      ![다운로드한 앱 열기](/help/assets/open-dmclassicapp1.png)
 
    * **Windows** - 설치 프로그램 바이너리를 실행하고 화면의 지침에 따라 데스크탑 앱을 설치합니다.
 
 1. 애플리케이션을 열면 새 Adobe Dynamic Media Classic 로그인 페이지가 표시됩니다.
 
-   ![Dynamic Media Classic 로그인](/help/assets/dmclassic-login.png)
+   ![Dynamic Media Classic 로그인](/help/assets/dmclassic-login1.png)
 
 1. 브라우저 자격 증명과 동일한 자격 증명을 사용하여 Adobe Dynamic Media Classic에 로그인합니다.
 
@@ -80,7 +80,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 * Dynamic Media Classic 앱의 회사 드롭다운 목록에서 새 회사를 선택합니다.
 * 팝업이 나타나면 **[!UICONTROL 확인을]** 눌러 로그아웃하고 앱을 닫습니다.
 
-   ![새 회사를 사용하려면 앱을 다시 시작하십시오](/help/assets/dmclassic-new-company.png)
+   ![새 회사를 사용하려면 앱을 다시 시작하십시오](/help/assets/dmclassic-new-company1.png)
 * Dynamic Media Classic을 다시 시작한 다음 평소대로 로그인하여 새 회사와 함께 작업하십시오.
 
 ## 팁 및 기법
@@ -89,6 +89,6 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
 **_자산의 게시 상태(녹색 표시기)가 올바르게 반영되지 않습니다._**<br>&#x200B;브라우저 UI에서 자산의 올바른 게시 상태를 보려면 UI에 다시 로그인해야 합니다. 데스크톱 앱에서는 도구 모음에 [ **[!UICONTROL 없음]** 선택] 단추 오른쪽의 **[!UICONTROL 새로 고침]** 아이콘이추가되었습니다. 지정된 페이지에 있는 모든 자산의 최신 상태를 **[!UICONTROL 보려면 새로 고침]** 아이콘을 누릅니다. 브라우저 UI와 같이 다시 로그인할 필요가 없습니다.
 
-![새로 고침 아이콘](/help/assets/refresh-icon.png)새로&#x200B;*고침 아이콘*
+![새로 고침 아이콘](/help/assets/refresh-icon1.png)새로&#x200B;*고침 아이콘*
 
 **_데스크탑 앱에서 작동하는 일괄 세트 사전 설정이 표시되지 않습니다._**<br>&#x200B;업로드 **[!UICONTROL > 작업 옵션 > 배치 집합 사전 설정을 누릅니다]**. 관련 **[!UICONTROL 배치 세트 사전 설정이]** 활성화되어 있는지 확인합니다. 저장 **[!UICONTROL 및 제출을 클릭합니다]**.
