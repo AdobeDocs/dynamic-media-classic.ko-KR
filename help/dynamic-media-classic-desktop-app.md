@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: f2b8c8a5bdac38a48157c6eaa80cd09692ee2259
+source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '684'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 1. Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드하십시오.
 
    * [macOS(.dmg) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows(.exe) - 다운로드](lhttp://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [Windows(.exe) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 1. 다운로드한 설치 프로그램에 따라 다음 중 하나를 수행합니다.
 
