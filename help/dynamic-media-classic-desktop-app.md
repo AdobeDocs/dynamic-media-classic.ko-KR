@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 8858ca1482b8a33e3294df345bc2e5fc34483e07
+source-git-commit: 88f73056803a34ef2748b19eafbe7d50933b4d6a
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -71,6 +71,10 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
    | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
 
 1. 로그인 UI를 게시하면 친숙한 브라우저 UI 환경이 표시됩니다. 데스크탑 앱 UI에서 일상적인 작업을 이제 평소대로 진행할 수 있습니다.
+
+## Dynamic Media Classic 데스크탑 앱을 사용하는 비디오 스루
+
+Dynamic Media Classic 데스크탑 앱 [](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (길이: 2분 36초).
 
 ## Dynamic Media Classic의 알려진 제한 사항
 
