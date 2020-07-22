@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Dynamic Media 클래식 도움말
 index: y
 translation-type: tm+mt
-source-git-commit: b034ef968788ff6cdd95aa261302017307df120d
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
 workflow-type: tm+mt
-source-wordcount: '732'
-ht-degree: 76%
+source-wordcount: '736'
+ht-degree: 75%
 
 ---
 
@@ -26,12 +26,12 @@ ht-degree: 76%
    + [What’s new](whats-new.md)
    + [시스템 요구 사항](system-requirements.md)
    + [지원](support.md)
-   + [Dynamic Media Classic Media Portal 도움말](help-scene7-media-portal.md)
+   + [Dynamic Media Classic Media Portal 도움말](help-dmc-media-portal.md)
    + [Adobe 교육 서비스](training-services.md)
    + [널리 사용되는 리소스](popular-resources.md)
    + [교육 비디오](training-videos.md)
 + 시작하기 {#getting-started}
-   + [Adobe Dynamic Media Classic 플랫폼 개요](scene7-platform-overview.md)
+   + [Adobe Dynamic Media Classic 플랫폼 개요](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [로그인 및 로그아웃](signing-out.md)
    + [탐색 기본 사항](navigation-basics.md)
@@ -70,7 +70,7 @@ ht-degree: 76%
    + [자산 이동, 이름 바꾸기 및 삭제](moving-renaming-deleting-assets.md)
    + [세부 사항 보기의 작업](detail-view.md)
    + [메타데이터 보기, 추가 및 내보내기](viewing-adding-exporting-metadata.md)
-   + [Scene7 Publishing System에서 자산 내보내기](exporting-assets-scene7-publishing-system.md)
+   + [Dynamic Media Classic에서 에셋 내보내기](exporting-assets-from-dmc.md)
    + [자산 변경 사항을 피어와 실시간으로 공유](sharing-asset-changes-peers-real.md)
    + [자산 인쇄](printing-assets.md)
    + [Managing the Trash folder](trash-folder.md)
@@ -146,7 +146,7 @@ ht-degree: 76%
    + [혼합 미디어 집합 게시](publishing-mixed-media-set.md)
    + [혼합 미디어 집합을 웹 페이지에 연결](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [빠른 시작: Adobe Analytics과 Adobe Classic 통합](quick-start-integrating-scene7-analytics.md)
+   + [빠른 시작: Adobe Analytics과 Adobe Classic 통합](quick-start-integrating-dmc-analytics.md)
    + [Adobe Analytics에 로그인](log-analytics.md)
    + [Adobe Analytics 보고서 구성](configuring-analytics-reports.md)
    + [Adobe Analytics 계측 키트를 사용하여 뷰어 계측](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -154,11 +154,11 @@ ht-degree: 76%
    + [Adobe Analytics 보고서를 보고 통합 테스트](testing-integration-viewing-analytics-report.md)
    + [Adobe Analytics 비디오 보고서 활성화](enabling-analytics-video-reports.md)
    + [Adobe Analytics 구성 정보 게시](publishing-analytics-configuration-information.md)
-+ Target 클래식 통합 {#target-classic}
-   + [빠른 시작: Target 클래식 통합](quick-start-target-classic-integration.md)
-   + [Adobe Dynamic Media Classic과 Adobe Target Classic 통합](integrating-scene7-target-classic.md)
++ Target Standard/Premium 통합 {#target-classic}
+   + [빠른 시작: Target Standard/Premium 통합](quick-start-target-integration.md)
+   + [Adobe Dynamic Media Classic과 Adobe Target Standard/Premium 통합](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
-   + [오퍼 집합을 Adobe Target Classic으로 푸시합니다.](pushing-offer-sets-target-classic.md)
+   + [Adobe Target Standard/Premium으로 오퍼 세트 푸시](pushing-offer-sets-target.md)
 + 사용자 생성 컨텐츠 {#user-generated-content}
    + [사용자 생성 컨텐츠 정보](about-ugc.md)
    + [업로드한 자산 삭제](deleting-uploaded-asset.md)
