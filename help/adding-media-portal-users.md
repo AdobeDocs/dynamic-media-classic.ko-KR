@@ -6,11 +6,14 @@ seo-description: Media Portal 사용자 추가 및 관리 방법 학습
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 84%
 
 ---
 
@@ -113,7 +116,7 @@ Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 
 
    **이메일** 보내기 새 사용자에게 등록한 전자 메일을 통해 알리지 않으려면 이 옵션을 선택 취소합니다.
 
-   **기본** 암호 새 사용자의 임시 암호를 입력하거나 Dynamic Media Classic에서 임의 암호를 생성하도록 필드를 비워 둡니다. 사용자가 처음 로그인하면 암호를 변경하라는 메시지가 표시됩니다.
+   **기본 암호** 새 사용자를 위해 임시 암호를 입력하거나, Dynamic Media Classic에서 임의 암호를 생성하도록 필드를 비워 둡니다. 사용자가 처음 로그인하면 암호를 변경하라는 메시지가 표시됩니다.
 
    **대체 URL** 사용자가 다른 URL을 통해 Dynamic Media Classic에 액세스하는 경우 기본값과 다른 URL을 입력합니다.
 
@@ -121,7 +124,7 @@ Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 
 
 [사용자 관리 설정] 화면에서 시작하여 다음 작업을 수행할 수도 있습니다.
 
-**사용자 목록** 필터링 및 정렬 Media Portal 사용자 목록을 필터링하여 사용자를 찾습니다. 사용자 목록 필터링 및 정렬을 참조하십시오.
+**사용자 목록** 필터링 및 정렬 사용자 목록 필터링 및 정렬을 참조하십시오.
 
 **사용자** 삭제 목록에서 사용자를 삭제합니다. 사용자 삭제를 참조하십시오.
 
@@ -129,6 +132,6 @@ Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 
 
 **사용자 정보** 편집 사용자에 대한 최신 정보를 입력합니다. 사용자 정보 편집을 참조하십시오.
 
-**사용자 정의 필드** 만들기 사용자 정의 메타데이터 필드를 만들어 Scene7 Publishing System에서 자산을 구성하는 데 도움이 됩니다. 또한 이 필드는 필요에 따라 활성화되거나 비활성화될 수 있습니다.
+**사용자 정의 필드** 만들기 사용자 정의 메타데이터 필드를 만들어 Dynamic Media Classic에서 자산을 구성하는 데 도움이 됩니다. 또한 이 필드는 필요에 따라 활성화되거나 비활성화될 수 있습니다.
 
 [사용자 지정 필드](application-setup.md#user_defined_fields)를 참조하십시오.
