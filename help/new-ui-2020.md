@@ -4,9 +4,9 @@ seo-title: Adobe Dynamic Media Classic 데스크탑 앱
 description: 이제 Dynamic Media Classic 사용자는 사용자 인터페이스를 완전히 새로 고칠 수 있습니다. 이 경험은 중요한 리소스에 대한 링크가 포함된 업데이트된 로그인을 제공하며 이 업데이트는 더 이상 브라우저의 Adobe Flash 기술에 의존하지 않습니다.
 contentOwner: rbrough
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 0%
