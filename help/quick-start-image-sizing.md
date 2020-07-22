@@ -2,24 +2,27 @@
 title: '"빠른 시작: 이미지 크기 조정"'
 seo-title: '"빠른 시작: 이미지 크기 조정"'
 description: 널
-seo-description: 이미지 크기 조정 기술을 신속하게 시작하고 실행하는 데 도움이 되는 이미지 크기 조정 소개 및 빠른 시작
+seo-description: 이미지 크기 조정 기법을 사용하여 신속하게 시작하고 실행할 수 있는 이미지 크기 조정 소개 및 빠른 시작
 uuid: 6c4ad4b7-549d-4daa-b6b9-5997a8427af8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '851'
+ht-degree: 55%
 
 ---
 
 
 # 빠른 시작: 이미지 크기 조정{#quick-start-image-sizing}
 
-이미지 크기 조정은 Dynamic Media Classic에서 단일 고해상도 이미지를 기반으로 여러 파생 이미지를 만들 수 있는 기능을 의미합니다. 축소판과 확대 보기 이미지와 같은 여러 이미지를 웹 사이트나 애플리케이션에 수동으로 만드는 대신 단일 마스터 이미지를 제공합니다. Dynamic Media Classic에서는 사용자가 요청한 모든 수정된 이미지를 생성합니다. 단일 마스터 이미지에서 동적으로 이미지를 제공할 수 있는 경우 다음과 같은 많은 장점이 있습니다.
+이미지 크기 조정은 Dynamic Media Classic에서 단일 고해상도 이미지를 기반으로 여러 파생 이미지를 만들 수 있는 기능을 의미합니다. 웹 사이트나 애플리케이션에 대해 축소판과 확대 보기 이미지 등 여러 이미지를 수동으로 만드는 대신 단일 마스터 이미지를 제공합니다. Dynamic Media Classic에서는 수정된 모든 이미지를 요청하는 대로 생성합니다. 단일 마스터 이미지에서 동적으로 이미지를 제공할 수 있는 경우 다음과 같은 많은 장점이 있습니다.
 
-* 각기 다른 크기로 여러 이미지를 수동으로 만들지 않아도 됩니다. 하나의 마스터 이미지를 Dynamic Media Classic에 제공하며 Dynamic Media Classic에서는 마스터 이미지에서 서로 다른 크기의 변형 이미지를 생성합니다.
+* 각기 다른 크기로 여러 이미지를 수동으로 만들지 않아도 됩니다. 하나의 마스터 이미지를 Dynamic Media Classic에 제공하고, Dynamic Media Classic은 마스터 이미지에서 서로 다른 크기의 파생물을 생성합니다.
 * 웹 사이트나 애플리케이션 전체에서 이미지 유형의 크기를 신속하게 변경할 수 있습니다. 예를 들어 모든 썸네일 이미지를 변경하려면 &quot;썸네일&quot; 이미지 사전 설정을 수정할 수 있습니다. 매크로와 비슷한 이미지 사전 설정은 크기 및 형식 지정 특성 모음입니다. &quot;썸네일&quot; 이미지 사전 설정을 수정하여 웹 사이트나 애플리케이션 전체에서 모든 썸네일 이미지의 크기를 변경할 수 있습니다.
 * 컨텐츠 또는 자산 관리 시스템 내부나 외부에서 마스터와 모든 파생 이미지를 관리하지 않아도 됩니다.
 
@@ -27,17 +30,17 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 **빠른 시작**
 
-이 이미지 크기 조정 빠른 시작은 Scene7 Publishing System에서 이미지 크기 조정 기술을 빨리 시작하고 실행하는 데 도움이 됩니다. 1-5단계를 따릅니다. 각 단계 뒤에는 필요한 경우 자세한 정보를 확인할 수 있는 상호 참조가 있습니다.
+이 이미지 크기 조정 빠른 시작은 Dynamic Media Classic에서 이미지 크기 조정 기법을 사용하여 빠르게 시작하고 실행하는 데 도움이 됩니다. 1-5단계를 따릅니다. 각 단계 뒤에는 필요한 경우 자세한 정보를 확인할 수 있는 상호 참조가 있습니다.
 
 **1. 마스터 이미지 업로드**
 
-먼저 마스터 이미지를 Scene7 Publishing System에 업로드합니다. Dynamic Media Classic에서는 웹 사이트 또는 애플리케이션에서 사용할 것으로 예상되는 가장 큰 크기의 이미지를 사용하는 것이 좋습니다. 예를 들어 뷰어가 이미지를 확대/축소하도록 하려면 가장 큰 치수에서 2000픽셀 이상인 이미지를 업로드합니다. Dynamic Media Classic은 많은 이미지 파일 형식을 지원하지만 손실 없는 TIFF 및 PNG 이미지가 권장됩니다.
+먼저 마스터 이미지를 Dynamic Media Classic에 업로드합니다. 크기에 대해서는 웹 사이트 또는 애플리케이션에서 사용할 것으로 예상되는 가장 큰 크기의 이미지를 사용하는 것이 좋습니다. 예를 들어 뷰어가 이미지를 확대/축소하도록 하려면 가장 큰 치수에서 2000픽셀 이상인 이미지를 업로드합니다. Dynamic Media Classic에서는 많은 이미지 파일 형식을 지원하지만 손실 없는 TIFF 및 PNG 이미지가 권장됩니다.
 
-글로벌 탐색 막대에서 [업로드] 단추를 선택하여 컴퓨터에서 Scene7 Publishing System의 폴더로 파일을 업로드합니다. [마스터 이미지 업로드](uploading-master-images.md#uploading_master_images)를 참조하십시오.
+글로벌 탐색 막대에서 업로드 단추를 선택하여 컴퓨터의 파일을 Dynamic Media Classic의 폴더로 업로드합니다. [마스터 이미지 업로드](uploading-master-images.md#uploading_master_images)를 참조하십시오.
 
 **2. 이미지 사전 설정 지정**
 
-매크로와 마찬가지로 이미지 사전 설정은 특정 이름으로 저장된 사전 정의된 크기 및 형식 지정 명령 모음입니다. 이미지 사전 설정은 Dynamic Media 이미지 서버에서 전달되는 이미지의 크기와 형식을 제어합니다. 회사 관리자 상태인 경우 고유한 이미지 사전 설정을 지정할 수 있습니다. Dynamic Media Classic에는 기본 이미지 사전 설정도 포함되어 있으므로 이미지를 동적으로 전달하는 데 사용할 수 있습니다.
+매크로와 마찬가지로 이미지 사전 설정은 특정 이름으로 저장된 사전 정의된 크기 및 형식 지정 명령 모음입니다. 이미지 사전 설정은 Dynamic Media 이미지 서버에서 전달되는 이미지의 크기와 형식을 제어합니다. 회사 관리자 상태인 경우 고유한 이미지 사전 설정을 지정할 수 있습니다. Dynamic Media Classic에는 기본 이미지 사전 설정도 포함되어 있으며, 이 사전 설정을 사용하여 이미지를 동적으로 전달할 수 있습니다.
 
 이미지 사전 설정을 만들려면(관리자인 경우) [설정] > [애플리케이션 설정]을 선택합니다. [설정] 화면에서 [애플리케이션 설정] 선택 사항을 표시하고 [이미지 사전 설정]을 선택합니다. 그런 다음 **추가** 또는 **편집을** 클릭하여 이미지 사전 설정을 만듭니다.
 
@@ -57,13 +60,13 @@ To explore Image Presets, click **Setup** > **Image Presets**, and then browse t
 
 마스터 이미지 파일을 게시하는 두 가지 필수 목적은 다음과 같습니다.
 
-* Dynamic Media 이미지 서버에 마스터 이미지를 게시하여 웹 사이트 및 애플리케이션에 이미지를 동적으로 전달할 수 있습니다.
-* 게시를 사용하면 Dynamic Media 이미지 서버에서 웹 사이트 또는 응용 프로그램으로 이미지를 호출하기 위한 URL 문자열이 활성화됩니다. 게시 후 웹 사이트 또는 애플리케이션에서 필요한 경우 Dynamic Media Classic에서 생성된 URL을 복사하고 배치할 수 있습니다.
+* 웹 사이트 및 애플리케이션에 이미지를 동적으로 전달할 수 있도록 마스터 이미지를 Dynamic Media 이미지 서버에 게시합니다.
+* 게시를 사용하면 Dynamic Media 이미지 서버의 이미지를 웹 사이트 또는 응용 프로그램으로 호출하는 URL 문자열이 활성화됩니다. 게시 후 웹 사이트나 애플리케이션에서 필요한 경우 Dynamic Media Classic에서 생성된 URL을 복사하고 배치할 수 있습니다.
 
 글로벌 탐색 막대에서 [게시] 단추를 선택하여 게시를 시작합니다. [게시] 화면에서 [게시 시작] 단추를 선택합니다. [마스터 이미지 게시](publishing-master-images.md#publishing_master_images)를 참조하십시오.
 
 **5. URL을 웹 애플리케이션에 연결**
 
-Dynamic Media Classic에서는 이미지에 대한 URL 콜아웃 문자열을 만듭니다. Dynamic Media 이미지 서버에 이미지를 게시하면 URL이 활성화됩니다. 찾아보기 패널([세부 사항 보기])이나 [미리 보기] 화면에서 이러한 URL 문자열을 복사할 수 있습니다. URL 문자열을 복사한 후 웹 사이트와 애플리케이션에서 사용할 수 있습니다. 이미지 크기 조정 URL이 웹 페이지 코드의 정적 이미지 이름 참조를 바꿉니다. URL은 표시할 각 새 이미지에 대해 데이터베이스에서 바뀌는 마스터 이미지 이름을 참조합니다.
+Dynamic Media Classic에서는 이미지의 URL 콜아웃 문자열을 만듭니다. Dynamic Media 이미지 서버에 이미지를 게시하면 URL이 활성화됩니다. 찾아보기 패널([세부 사항 보기])이나 [미리 보기] 화면에서 이러한 URL 문자열을 복사할 수 있습니다. URL 문자열을 복사한 후 웹 사이트와 애플리케이션에서 사용할 수 있습니다. 이미지 크기 조정 URL이 웹 페이지 코드의 정적 이미지 이름 참조를 바꿉니다. URL은 표시할 각 새 이미지에 대해 데이터베이스에서 바뀌는 마스터 이미지 이름을 참조합니다.
 
 이미지 사전 설정을 사용하여 생성된 URL 문자열에는 이미지 사전 설정 이름이 포함됩니다. This name is enclosed in dollar signs (`$`). For example, `$thumbnail$` can be the Image Preset designed to show master images at thumbnail size. [URL을 웹 애플리케이션에 연결](linking-urls-web-application.md#linking_urls_to_your_web_application)을 참조하십시오.
