@@ -6,11 +6,11 @@ seo-description: Adobe 트레이닝 서비스에 대한 자세한 내용을 살�
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 translation-type: tm+mt
-source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 57%
@@ -38,4 +38,4 @@ Dynamic Media Classic 뷰어 기능의 데모를 시청하십시오.
 
 도움말 시스템의 시작 섹션은 Dynamic Media Classic을 처음 사용하는 사용자를 위한 지침을 제공합니다. 플랫폼, 탐색, 설정, 자산 관리 및 리치 미디어 작성의 기본 사항에 대해 설명합니다. 
 
-[시작하기](scene7-platform-overview.md)를 참조하십시오.
+[시작하기](dmc-platform-overview.md)를 참조하십시오.
