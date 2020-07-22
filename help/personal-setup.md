@@ -6,14 +6,14 @@ seo-description: 모든 사용자는 Dynamic Media Classic의 개인 설정 화�
 uuid: 29cb825a-f158-4a1e-9d5f-7636ee411b6e
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 translation-type: tm+mt
-source-git-commit: df0c2897b9fceddde648be53b23e25b13388d6b9
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1209'
-ht-degree: 83%
+source-wordcount: '1194'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->[개인 설정] 화면에 Scene7 Publishing System에서 보유한 사용자 역할(회사 관리자, 관리자 또는 사용자)이 나열됩니다.
+>[개인 설정] 화면에는 Dynamic Media Classic에서 보유하고 있는 사용자 역할이 나열됩니다. 회사 관리자, 관리자 또는 사용자.
 
 [개인 설정] 설정은 찾아보기 패널의 기본적인 행동, 이메일을 전달받는 방식, 암호 설정을 제어합니다. 이러한 설정을 변경한 후 [저장]을 클릭해야 합니다.
 
@@ -34,11 +34,11 @@ ht-degree: 83%
 
 ### 데스크톱 버전
 
-[지금 설치]를 클릭하여 Scene7 Publishing System 데스크톱 버전을 로컬 하드 드라이브에 설치합니다. 또는 [지금 재설치]를 클릭하여 데스크톱 버전을 다시 설치합니다.
+지금 설치를 클릭하여 로컬 하드 드라이브에 데스크탑 버전의 Dynamic Media Classic을 설치합니다. 또는 [지금 재설치]를 클릭하여 데스크톱 버전을 다시 설치합니다.
 
 ## 로컬 하드 드라이브에 플러그인 설치
 
-1. Scene7 Publishing System의 [개인 설정] 페이지에서 W2P(Web to Print)용 Adobe Illustrator 아래의 **지금 다운로드**&#x200B;를 클릭하여 **Illustrator Plug-in for Web-to-Print.zip** 파일을 다운로드합니다.
+1. On the Personal Setup page in Dynamic Media Classic, under Illustrator Plug-in for Web-to-Print, click **Download Now** to download the **Illustrator Plug-in for Web-to-Print.zip** file.
 1. ZIP 파일의 압축을 임시 폴더에 해제합니다.
 
    플러그인에 대한 추가 정보를 제공하기 위해 압축을 푼 파일의 루트에 readme 파일이 포함되어 있습니다.
@@ -83,8 +83,6 @@ ht-degree: 83%
    * 이미지 뒤에 바둑판 배경 레이어를 표시하여 알파 채널을 가진 이미지의 투명한 부분을 쉽게 확인할 수 있습니다.
 * **파일 크기 표시**
    * 탐색 시 자산의 파일 크기를 표시합니다.
-* **SPS를 종료할 때 확인**
-   * Scene7 Publishing System을 종료하기 전에 확인 창을 표시합니다.
 * **검색에 UDF 포함**
    * 실행하는 대부분의 메타데이터 검색에 대한 시스템 성능 향상을 위해 선택 취소됨(기본값).
 
@@ -106,7 +104,7 @@ ht-degree: 83%
 ## 이메일
 
 * **이메일 선택 사항**
-   * 업로드 및 게시 작업이 완료되면 Dynamic Media Classic에서 이메일로 알려 줄 방법을 선택합니다. 작업 완료 알림은 경고나 오류가 발생한 경우에만 받아볼 수 있습니다.
+   * 업로드 및 게시 작업이 완료되었을 때 전자 메일을 통해 Dynamic Media Classic에 알려 줄 방법을 선택합니다. 작업 완료 알림은 경고나 오류가 발생한 경우에만 받아볼 수 있습니다.
 * **이메일 범위**
    * 회사에 대한 모든 작업 이메일을 받을지, 아니면 직접 시작한 업로드 및 게시 작업에 대한 이메일만 받을지 결정합니다.
 * **이메일 유형**
