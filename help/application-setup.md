@@ -6,14 +6,14 @@ seo-description: Dynamic Media Classic의 응용 프로그램 영역을 설정�
 uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
 workflow-type: tm+mt
-source-wordcount: '11120'
-ht-degree: 71%
+source-wordcount: '10982'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 71%
 
 >[!NOTE]
 >
->Scene7 Publishing System 관리자만 [애플리케이션 설정] 페이지에서 설정을 변경할 수 있습니다.
+>Dynamic Media Classic 관리자만 응용 프로그램 설정 페이지에서 설정을 변경할 수 있습니다.
 
 ## 일반 설정 {#general-settings}
 
@@ -36,119 +36,113 @@ ht-degree: 71%
 
 [보안 테스트 서비스 테스트](testing-assets-making-them-public.md#testing_the_secure_testing_service)를 참조하십시오.
 
-**게시된 서버 이름** 이 서버는 계정에 대한 모든 시스템 생성 URL 호출에 사용되는 실시간 CDN 서버입니다. Dynamic Media Classic 지원 기술자에 의한 지시를 받지 않는 한 이 서버 이름을 변경하지 마십시오.
+* **게시된 서버 이름** - 이 서버는 계정에 대한 모든 시스템 생성 URL 호출에 사용되는 실시간 CDN 서버입니다. Dynamic Media Classic 지원 기술자에 의한 지시를 받지 않는 한 이 서버 이름을 변경하지 마십시오.
 
-**원본 서버 이름** 이 서버는 품질 보증 테스트에만 사용됩니다. Dynamic Media Classic 지원 엔지니어가 지시를 따르지 않는 경우 이 서버 이름을 변경하지 마십시오.
+* **원본 서버 이름** - 이 서버는 품질 보증 테스트에만 사용됩니다. Dynamic Media Classic 지원 엔지니어가 지시를 따르지 않는 경우 이 서버 이름을 변경하지 마십시오.
 
-**AGM 서버 이름** 이 서버는 Web-to-Print 템플릿에 사용됩니다. 이 서버는 회사 전체에 설정됩니다. Dynamic Media Classic 지원 엔지니어가 지시를 따르지 않는 경우 이 서버 이름을 변경하지 마십시오.
+<!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
-**Test&amp;Target 서버 이름** 최대 .com까지 포함된 Test&amp;Target URL 이 URL을 얻는 방법에 대한 지침은 Dynamic Media Classic과 Target Classic 통합을 참조하십시오.
+* **Test&amp;Target 서버 이름** - 최대 .com까지 포함된 Test&amp;Target URL입니다. For instructions about obtaining this URL, see Integrating [!DNL Dynamic Media Classic] with [!DNL Target Standard/Premium].
 
-**iOS 스트리밍 서버 이름** Dynamic Media Classic iOS 스트리밍 서버에 대한 URL입니다. 이 서버는 HTTP 프로토콜을 사용하여 스트리밍 비디오를 iOS 기반 장치에 제공합니다.
+<!-- **Test Publish Context Server Name** -->
 
-**점진적 비디오 서버 이름** Dynamic Media 클래식 점진적 비디오 서버에 대한 URL입니다. 이 서버는 HTTP 프로토콜을 사용하여 점진적 비디오를 제공합니다.
+* **iOS 스트리밍 서버 이름** - [!DNL Dynamic Media Classic] iOS 스트리밍 서버의 URL입니다. 이 서버는 HTTP 프로토콜을 사용하여 스트리밍 비디오를 iOS 기반 장치에 제공합니다.
 
-**게시되지 않은 자산에 대한 URL** 표시 자산을 미리 볼 때 게시 여부를 불문하고 Dynamic Media Classic에서 URL을 표시하려면 이 옵션을 선택합니다. 자산이 게시되지 않은 경우 URL이 작동하지 않지만 계획 또는 구성 용도로 URL을 사용할 수 있습니다.
+* **점진적 비디오 서버 이름** - [!DNL Dynamic Media Classic] 점진적 비디오 서버의 URL입니다. 이 서버는 HTTP 프로토콜을 사용하여 점진적 비디오를 제공합니다.
 
-**AIR 설치** 허용 사용자가 Scene7 Publishing System 데스크탑 버전을 로컬 하드 드라이브에 다운로드할 수 있도록 하려면 이 옵션을 선택합니다. 사용자는 [개인 설정] 화면의 [데스크톱 버전] 영역에서 이러한 애플리케이션을 설치합니다.
+* **게시되지 않은 자산에 대한 URL** 표시 - 자산을 미리 볼 때 게시 여부 [!DNL Dynamic Media Classic] 에 상관없이 URL을 표시하려면 이 옵션을 선택합니다. 자산이 게시되지 않은 경우 URL이 작동하지 않지만 계획 또는 구성 용도로 URL을 사용할 수 있습니다.
 
-AIR 사용자는 [개인 설정]에서 기존 앱을 수동으로 제거하고 Scene7 Publishing System 웹 버전에서 다시 설치해야 합니다. 이 일회 다시 설치 후에 서버에 최신 버전의 Scene7 Publishing System AIR이 있으면 항상 업그레이드하라는 메시지가 표시됩니다. Scene7 Publishing System은 업그레이드 프로세스를 간소화하는 애플리케이션 업데이트 프레임워크와 통합됩니다.
+<!-- **Allow AIR install** Select this option to allow users to download Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
-**CDN 무효화 템플릿** CDN(Content Delivery Network) 캐시를 무효화하는 데 사용되는 템플릿을 지정합니다.
+<!-- AIR users must manually uninstall their existing app and reinstall from the web version of Dynamic Media Classic (in Personal Settings). After this one-time reinstallation, you are prompted to upgrade whenever the server has a newer version of Dynamic Media Classic AIR. Dynamic Media Classic is integrated with the Application Update Framework which streamlines the upgrade process. -->
 
-For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
+* **CDN 무효화 템플릿** - CDN(Content Delivery Network) 캐시를 무효화하는 데 사용되는 템플릿을 지정합니다.
 
-`https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
+   For example, suppose you enter an image URL (including image presets or modifiers) referencing `<ID>`, instead of a specific image ID as in the following example:
 
-If the Template just contains `<ID>`, then SPS fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
+   `https://sample.scene7.com/is/image/Company/<ID>?$s7product$`
 
-CDN 무효화 템플릿을 설정하고 Backpack_B라는 이미지를 선택한 다음 **파일** > **CDN 무효화**&#x200B;를 클릭하면 [CDN 무효화] 인터페이스에 다음 URL이 생성됩니다.
+   If the Template just contains `<ID>`, then Dynamic Media Classic fills in the `https://<server>/is/image`, where `<server>` is the Publish Server Name that is defined in General Settings.
 
-`https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
+   CDN 무효화 템플릿을 설정하고 Backpack_B라는 이미지를 선택한 다음 **파일** > **CDN 무효화**&#x200B;를 클릭하면 [CDN 무효화] 인터페이스에 다음 URL이 생성됩니다.
 
-[URL] 목록 상자에서 해당 특정 이미지 URL 호출에 대한 캐시를 지우려면 **계속**&#x200B;을 클릭합니다. [URL] 목록 상자에 URL을 입력하거나 붙여넣기하여 추가할 수 있습니다. 따라서 미리 템플릿을 설정할 필요가 없습니다.
+   `https://sample.scene7.com/is/image/Company/Backpack_B?$s7product$`
 
-CDN 무효화 템플릿을 선택하고 CDN 무효화 요청을 하면 사용자 인터페이스에 캐시를 지우는 데 걸리는 예상 시간을 알리는 표시기가 나타납니다.
+   [URL] 목록 상자에서 해당 특정 이미지 URL 호출에 대한 캐시를 지우려면 **계속**&#x200B;을 클릭합니다. [URL] 목록 상자에 URL을 입력하거나 붙여넣기하여 추가할 수 있습니다. 따라서 미리 템플릿을 설정할 필요가 없습니다.
 
-마찬가지로 SPS에서 여러 이미지를 선택한 상태에서 **파일** > **CDN 무효화**&#x200B;를 클릭하면 각 이미지가 저장된 템플릿 URL을 참조합니다. 그러므로 웹 사이트에서 참조되는 각 URL을 참조하는 CDN 무효화 템플릿을 정의할 수 있습니다(예: 제품 세부 사항, 검색 결과 등). 그런 다음 캐시에서 무효화하기 위해 하나 이상의 이미지를 선택하면 해당 URL이 인터페이스에 자동으로 채워집니다.
+   CDN 무효화 템플릿을 선택하고 CDN 무효화 요청을 하면 사용자 인터페이스에 캐시를 지우는 데 걸리는 예상 시간을 알리는 표시기가 나타납니다.
 
-[컨텐츠 캐싱](scene7-platform-overview.md#content_caching)을 참조하십시오.
+   Similarly, if multiple images are selected within Dynamic Media Classic when you click **File** > **Invalidate CDN**, each image is referenced in the saved Template URL. 그러므로 웹 사이트에서 참조되는 각 URL을 참조하는 CDN 무효화 템플릿을 정의할 수 있습니다(예: 제품 세부 사항, 검색 결과 등). 그런 다음 캐시에서 무효화하기 위해 하나 이상의 이미지를 선택하면 해당 URL이 인터페이스에 자동으로 채워집니다.
 
-[다시 게시한 자산 및 CDN 지연](publishing-files.md#republished_assets_and_cdn_delays)을 참조하십시오.
+   [컨텐츠 캐싱](dmc-platform-overview.md#content_caching)을 참조하십시오.
 
-**찾아보기**
+   [다시 게시한 자산 및 CDN 지연](publishing-files.md#republished_assets_and_cdn_delays)을 참조하십시오.
 
-**프로젝트** 표시 프로젝트를 Dynamic Media Classic 자산을 구성하는 방법으로 사용할 수 있는지 여부를 결정합니다. 프로젝트를 사용하여 작업 구성을 참조하십시오.
+### 찾아보기
 
-**샘플 eVideo 컨텐츠** 표시 eVideo 샘플 컨텐츠 표시를 켜거나 끕니다.
+* **프로젝트 표시** - Dynamic Media Classic 자산을 구성하는 방법으로 프로젝트를 사용할 수 있는지 여부를 결정합니다. 프로젝트를 사용하여 작업 구성을 참조하십시오.
 
-**생성된 컨텐츠** 폴더 표시. 자산에서 생성된 컨텐츠를 표시합니다. 예를 들어 PDF 파일이 업로드될 때 래스터화된 PDF 파일은 원본 PDF의 각 페이지에 대해 하나의 이미지를 만듭니다. [생성된 컨텐츠 표시]를 선택한 경우 원본 PDF를 업로드할 때 생성된 각 이미지가 PDF를 업로드한 폴더에 PDF와 함께 표시됩니다.
+* **샘플 e비디오 컨텐츠** 표시 - eVideo 샘플 컨텐츠 표시를 켜거나 끕니다.
 
-**기본적으로 인코딩된 비디오** 표시 선택 해제(꺼짐).
+* **생성된 컨텐츠** 표시 - 폴더에서 자산에서 생성된 컨텐츠를 표시합니다. 예를 들어 PDF 파일이 업로드될 때 래스터화된 PDF 파일은 원본 PDF의 각 페이지에 대해 하나의 이미지를 만듭니다. [생성된 컨텐츠 표시]를 선택한 경우 원본 PDF를 업로드할 때 생성된 각 이미지가 PDF를 업로드한 폴더에 PDF와 함께 표시됩니다.
 
-동일한 비디오의 인코딩된 다양한 파생을 탐색하지 않고 Scene7 Publishing System에서 비디오를 빠르게 검색하여 찾아보려면 이 옵션을 선택 취소(기본값) 상태로 유지합니다. 업로드하여 모든 파생 만들기에 사용한 소스 비디오인 마스터 비디오 썸네일과 인코딩된 비디오 세트의 모든 &quot;하위&quot; 파생이 들어 있는 &quot;상위&quot; 응용 비디오 세트 썸네일만 사용자 인터페이스에 표시됩니다.
+* **인코딩된 비디오** 표시 - 기본적으로 선택 해제되어 있습니다.
 
-그러나 마스터 비디오 또는 적응형 비디오 집합에서 개별 인코딩된 비디오에 여전히 액세스할 수 있습니다. 이렇게 하려면 비디오 썸네일 이미지를 두 번 클릭하여 [세부 사항 보기]를 엽니다. 그런 다음 오른쪽 패널에서 **[인코딩된 비디오]**&#x200B;를 클릭하여 모든 &quot;하위&quot; 비디오에 액세스합니다.
+   동일한 비디오의 인코딩된 여러 변형 항목을 검색하지 않고도 Dynamic Media Classic에서 비디오를 빠르게 검색하고 찾아보려면 이 옵션을 선택 해제(기본값)로 두십시오. 업로드하여 모든 파생 만들기에 사용한 소스 비디오인 마스터 비디오 썸네일과 인코딩된 비디오 세트의 모든 &quot;하위&quot; 파생이 들어 있는 &quot;상위&quot; 응용 비디오 세트 썸네일만 사용자 인터페이스에 표시됩니다.
 
-또한 **[파일] > [재처리]**&#x200B;를 통해 적응형 비디오 집합에서 직접 더 많은 인코딩된 &quot;하위&quot; 비디오를 만들 수 있습니다. Scene7 Publishing System은 자동으로 적응형 비디오 집합의 &quot;상위&quot; 마스터 비디오를 찾고 트랜스코딩을 위한 소스 비디오로 사용합니다. 그러나 새 개별 인코딩된 비디오를 저장할 때 검색 또는 탐색 시 해당 비디오는 표시되지 않습니다. 그러나 [세부 사항 보기]의 [인코딩된 비디오] 탭에서 여전히 액세스할 수 있습니다.
+   그러나 마스터 비디오 또는 적응형 비디오 집합에서 개별 인코딩된 비디오에 여전히 액세스할 수 있습니다. 이렇게 하려면 비디오 썸네일 이미지를 두 번 클릭하여 [세부 사항 보기]를 엽니다. 그런 다음 오른쪽 패널에서 **[인코딩된 비디오]**&#x200B;를 클릭하여 모든 &quot;하위&quot; 비디오에 액세스합니다.
 
-[비디오 업로드 및 트랜스코딩](uploading-encoding-videos.md#uploading_and_encoding_videos)을 참조하십시오.
+   또한 **[파일] > [재처리]**&#x200B;를 통해 적응형 비디오 집합에서 직접 더 많은 인코딩된 &quot;하위&quot; 비디오를 만들 수 있습니다. Dynamic Media Classic은 자동으로 응용 비디오 세트의 &quot;상위&quot; 기본 비디오를 찾아 트랜스코딩에 사용할 소스 비디오로 사용합니다. 그러나 새 개별 인코딩된 비디오를 저장할 때 검색 또는 탐색 시 해당 비디오는 표시되지 않습니다. 그러나 [세부 사항 보기]의 [인코딩된 비디오] 탭에서 여전히 액세스할 수 있습니다.
 
-검색 및 탐색 시 모든 인코딩된 비디오 파생에 액세스하는 기능을 계속 사용하려면 **[인코딩된 비디오 표시]**&#x200B;를 선택합니다.
+   [비디오 업로드 및 트랜스코딩](uploading-encoding-videos.md#uploading_and_encoding_videos)을 참조하십시오.
 
-[작성] 메뉴의 특정 작업은 개별 비디오에서만 작동하거나 선택적으로 작동합니다. 이 기능을 사용하려면 **[인코딩된 비디오 표시]** 설정 방법과 관계없이 선택할 수 있는 모든 인코딩된 비디오 파생을 표시해야 합니다. The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
+   검색 및 탐색 시 모든 인코딩된 비디오 파생에 액세스하는 기능을 계속 사용하려면 **[인코딩된 비디오 표시]**&#x200B;를 선택합니다.
 
->[주]
->
->Scene7 Publishing System을 사용하여 비디오 자산을 업로드 및 인코딩하지 않은 경우, Dynamic Media Classic은 개별 인코딩된 비디오를 모두 표시합니다. 이 옵션은 선택 해제되어 있습니다.
+   [작성] 메뉴의 특정 작업은 개별 비디오에서만 작동하거나 선택적으로 작동합니다. 이 기능을 사용하려면 **[인코딩된 비디오 표시]** 설정 방법과 관계없이 선택할 수 있는 모든 인코딩된 비디오 파생을 표시해야 합니다. The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-**하위 폴더 새로 고침 단추** 표시 하위 폴더 새로 고침 단추 표시를 켜거나 끕니다.
+   >[주]
+   >
+   >Display Classic을 사용하여 비디오 에셋을 업로드하고 인코딩하지 않은 경우, Dynamic Media Classic에서는 개별 인코딩된 비디오를 모두 표시합니다. 이 옵션은 선택 해제되어 있더라도 표시됩니다.
 
-**Dynamic Media 클래식 FTP 계정**
+* **하위 폴더 새로 고침 단추** 표시 - 하위 폴더 새로 고침 단추 표시를 켜거나 끕니다.
 
-**서버** FTP 계정 서버를 나열합니다.
+### Dynamic Media 클래식 FTP 계정
 
-**사용자 이름** FTP 계정 사용자 이름을 나열합니다.
+* **서버** - FTP 계정 서버를 나열합니다.
 
-**애플리케이션에 업로드**
+* **사용자 이름** - FTP 계정 사용자 이름을 나열합니다.
 
-**Overwrite Images** Dynamic Media Classic에서는 두 파일의 이름이 같을 수 없습니다. 각 항목의 Scene7 Publishing System ID(이미지 이름에서 파일 이름 확장자를 제외한 값)는 고유해야 합니다. 이 규칙 때문에 [업로드] 대화 상자에는 [덮어쓰기] 선택 사항이 있습니다. 이 선택 사항의 정확한 효과는 지정한 [이미지 덮어쓰기] 선택 사항에 따라 달라집니다. 이러한 선택 사항은 대체 이미지 업로드 방법(원본 이미지를 바꾸는지, 아니면 중복 이미지가 되는지 여부)을 지정합니다. 중복 이미지는 &quot;-1&quot;을 사용하여 이름이 바뀝니다. 예를 들어 chair.tif는 chair-1.tif로 이름이 바뀝니다. 이 선택 사항은 원본과 다른 폴더에 업로드된 이미지나 원본과 다른 파일 이름 확장자(예: JPG, TIF 또는 PNG)를 가진 이미지에 영향을 줍니다. [이미지 덮어쓰기] 선택 사항 사용을 참조하십시오.
+### 애플리케이션에 업로드
 
-**동일한 기본 이미지 이름 및 확장자로 현재 폴더에 덮어쓰기**
+* **이미지** 덮어쓰기 - Dynamic Media Classic에서는 두 파일의 이름이 같은 것을 허용하지 않습니다. 각 항목의 Dynamic Media Classic ID(이미지 이름 - 파일 이름 확장자)는 고유해야 합니다. 이 규칙 때문에 [업로드] 대화 상자에는 [덮어쓰기] 선택 사항이 있습니다. 이 선택 사항의 정확한 효과는 지정한 [이미지 덮어쓰기] 선택 사항에 따라 달라집니다. 이러한 선택 사항은 대체 이미지 업로드 방법(원본 이미지를 바꾸는지, 아니면 중복 이미지가 되는지 여부)을 지정합니다. 중복 이미지는 &quot;-1&quot;을 사용하여 이름이 바뀝니다. 예를 들어 chair.tif는 chair-1.tif로 이름이 바뀝니다. 이 선택 사항은 원본과 다른 폴더에 업로드된 이미지나 원본과 다른 파일 이름 확장자(예: JPG, TIF 또는 PNG)를 가진 이미지에 영향을 줍니다. [이미지 덮어쓰기] 선택 사항 사용을 참조하십시오.
 
-이 선택 사항은 가장 엄격한 대체 규칙입니다. 대체 이미지를 원본과 동일한 폴더에 업로드해야 하며, 대체 이미지가 원본과 동일한 파일 이름 확장자를 사용해야 합니다. 이러한 요구 사항을 충족하지 않으면 중복 항목이 만들어집니다.
+   * **현재 폴더에 덮어쓰기, 동일한 기본 이미지 이름/확장명** - 이 옵션은 교체에 가장 강력한 규칙입니다. 대체 이미지를 원본과 동일한 폴더에 업로드해야 하며, 대체 이미지가 원본과 동일한 파일 이름 확장자를 사용해야 합니다. 이러한 요구 사항을 충족하지 않으면 중복 항목이 만들어집니다.
 
-**확장에 상관없이 같은 기본 자산 이름으로 현재 폴더에 덮어쓰기**
+   * **현재 폴더에 덮어쓰기(확장명에** 관계없이 동일한 기본 자산 이름) - 대체 이미지를 원본과 동일한 폴더에 업로드해야 하지만 파일 이름 확장자는 원본과 다를 수 있습니다. 예를 들어 chair.tif가 chair.jpg를 대체합니다.
 
-대체 이미지를 원본과 동일한 폴더에 업로드해야 하지만 파일 이름 확장자는 원본과 다를 수 있습니다. 예를 들어 chair.tif가 chair.jpg를 대체합니다.
+   * **동일한 기본 자산 이름/확장자** 폴더의 덮어쓰기 - 대체 이미지의 파일 이름 확장자가 원본 이미지와 동일해야 합니다(예: chair.jpg는 chair.tif가 아니라 chair.jpg를 대체해야 합니다). 그러나 대체 이미지를 원본과 다른 폴더에 업로드할 수 있습니다. 업로드한 이미지는 새 폴더에 있으며 원래 위치에서 더 이상 파일을 찾을 수 없습니다.
 
-**같은 기본 자산 이름/확장으로 모든 폴더에 덮어쓰기**
+   * **확장자와** 상관없이 동일한 기본 자산 이름으로 모든 폴더에 덮어쓰기 - 이 옵션은 가장 포괄적인 대체 규칙입니다. 대체 이미지를 원본과 다른 폴더에 업로드하고 다른 파일 이름 확장자를 가진 파일을 업로드하여 원본 파일을 대체할 수 있습니다. 원본 파일이 다른 폴더에 있는 경우 대체 이미지는 업로드된 새 폴더에 있습니다.
 
-대체 이미지가 원본 이미지와 동일한 파일 이름 확장자를 사용해야 합니다. 예를 들어 chair.jpg는 chair.tif가 아니라 chair.jpg를 대체해야 합니다. 그러나 대체 이미지를 원본과 다른 폴더에 업로드할 수 있습니다. 업로드한 이미지는 새 폴더에 있으며 원래 위치에서 더 이상 파일을 찾을 수 없습니다.
+* **게시** 유지 - Dynamic Media Classic에 업로드된 교체 이미지가 대체되는 이미지의 게시 준비 완료 설정을 유지할지 또는 업로드 시 설정을 지정할지 여부를 지정합니다.
 
-**확장에 상관없이 같은 기본 자산 이름으로 모든 폴더에 덮어쓰기**
+* **기본 색상 프로파일** - CMYK 이미지를 추가할 때 기본 색상 프로파일 옵션의 일부로 적용된 색상 프로파일을 지정합니다.
 
-이 선택 사항은 가장 포함적인 대체 규칙입니다. 대체 이미지를 원본과 다른 폴더에 업로드하고 다른 파일 이름 확장자를 가진 파일을 업로드하여 원본 파일을 대체할 수 있습니다. 원본 파일이 다른 폴더에 있는 경우 대체 이미지는 업로드된 새 폴더에 있습니다.
+* **기본 업로드 옵션** - 기본 업로드 옵션을 지정할 수 있는 업로드 작업 옵션 대화 상자를 엽니다. 이 선택 사항에 대한 자세한 내용은 업로드 선택 사항을 참조하십시오.
 
-**게시** 유지 Dynamic Media Classic에 업로드된 교체 이미지가 대체되는 이미지의 게시 준비(Ready to Publish) 설정을 유지할지 또는 업로드 시 설정을 지정할지를 지정합니다.
+### 애플리케이션용 이미지 맵 편집기
 
-**기본 색상 프로파일** CMYK 이미지를 추가할 때 기본 색상 프로파일 옵션의 일부로 적용된 색상 프로파일을 지정합니다.
+* **기본 이미지 매핑 HREF** - 이미지 매핑 href 열에 사용되는 기본 URL을 정의합니다. 이 URL은 새 이미지 맵을 만들 때 표시되는 기본 URL입니다.
 
-**기본 업로드 옵션** 기본 업로드 옵션을 지정할 수 있는 업로드 작업 옵션 대화 상자를 엽니다. 이 선택 사항에 대한 자세한 내용은 업로드 선택 사항을 참조하십시오.
+* **기본 이미지 매핑 템플릿** - 이미지 매핑 href 템플릿에 대한 기본 Javascript를 정의합니다. 이미지 맵을 클릭할 때마다 실행할 사용자 지정 코드를 여기서 설정할 수 있습니다.
 
-**애플리케이션용 이미지 맵 편집기**
+### 애플리케이션용 기타 설정
 
-**기본 이미지 매핑 HREF** 이미지 매핑 href 열에 사용되는 기본 URL을 정의합니다. 이 URL은 새 이미지 맵을 만들 때 표시되는 기본 URL입니다.
-
-**기본 이미지 매핑 템플릿** 이미지 매핑 href 템플릿에 대한 기본 Javascript를 정의합니다. 이미지 맵을 클릭할 때마다 실행할 사용자 지정 코드를 여기서 설정할 수 있습니다.
-
-**애플리케이션용 기타 설정**
-
-**휴지통의 경고** 자산은 7일 이내에 자동으로 제거됩니다. 휴지통에 있는 자산이 영구적으로 삭제되기 4일 전에 회사 관리자에게 알림을 보내려면 &quot;휴지통 항목이 자동으로 삭제되기 전에 이메일 발송&quot;을 선택합니다. 휴지통 폴더 관리를 참조하십시오.
+* **휴지통 정리 경고** - 휴지통의 자산은 7일 이내에 자동으로 제거됩니다. 휴지통에 있는 자산이 영구적으로 삭제되기 4일 전에 회사 관리자에게 알림을 보내려면 &quot;휴지통 항목이 자동으로 삭제되기 전에 이메일 발송&quot;을 선택합니다. 휴지통 폴더 관리를 참조하십시오.
 
 ## 이미지 덮어쓰기 옵션 사용 {#using-the-overwrite-images-option}
 
-Dynamic Media Classic에서는 두 파일의 이름이 같을 수 없습니다. 각 항목의 Scene7 Publishing System ID(이미지 이름에서 파일 이름 확장자를 제외한 값)는 고유해야 합니다. 이 규칙 때문에 [업로드] 대화 상자에는 [이미지 덮어쓰기] 선택 사항이 있습니다. 이 선택 사항의 정확한 효과는 각 회사의 Scene7 Publishing System 내부 설정에 따라 달라집니다.
+Dynamic Media Classic에서는 두 파일의 이름이 같을 수 없습니다. 각 항목의 Dynamic Media Classic ID(이미지 이름 - 파일 이름 확장자)는 고유해야 합니다. 이 규칙 때문에 [업로드] 대화 상자에는 [이미지 덮어쓰기] 선택 사항이 있습니다. 이 옵션의 정확한 효과는 각 회사의 Dynamic Media Classic 내부 설정에 대한 설정에 따라 달라집니다.
 
 이전에 이미지를 업로드한 후 원본 파일을 변경(또는 교체)한 경우 선택한 덮어쓰기 옵션은 Dynamic Media Classic에서 이미지를 대체하는 방법을 지정합니다. 이미지 정보는 변경되지 않고 새 이미지가 이전 이미지를 대체합니다. 폴더에 아직 Dynamic Media Classic에 없는 이미지도 포함되어 있으면 이러한 이미지가 추가됩니다.
 
@@ -257,7 +251,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
 **색상** 다음 옵션을 선택합니다.
 
-**출력 색상 프로필** 기본값 사용을 선택하거나 Scene7 Publishing System에서 사용할 수 있는 ICC 색상 프로필 중 하나를 선택합니다.
+**출력 색상 프로파일** 기본값 사용을 선택하거나 Dynamic Media Classic에서 사용할 수 있는 ICC 색상 프로파일 중 하나를 선택합니다.
 
 [ICC 프로필](icc-profiles.md#icc_profiles)을 참조하십시오.
 
@@ -278,7 +272,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
    * Click **Delete** to remove the preset from the list.
-   * 사전 설정 이름 옆에 있는 [활성] 확인란을 선택 취소하여 MediaPortal 사용자의 전체 Scene7 Publishing System 사용자 인터페이스에서 제거합니다.
+   * MediaPortal 사용자를 위한 전체 Dynamic Media Classic 사용자 인터페이스에서 제거하려면 사전 설정 이름 옆에 있는 활성 확인란을 선택 취소합니다.
 
 ## 적응형 비디오 사전 설정 활성화 또는 비활성화 {#activating-or-deactivating-adaptive-video-presets}
 
@@ -290,7 +284,7 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 
 **적응형 비디오 사전 설정을 활성화 또는 비활성화하려면**
 
-1. Scene7 Publishing System의 오른쪽 상단에서 **설정** > **애플리케이션 설정** > **비디오 사전 설정** > **적응형 비디오 사전 설정**&#x200B;을 클릭합니다.
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Application Setup** > **Video Presets** > **Adaptive Video Presets**.
 1. 적응형 비디오 사전 설정 페이지에서 사전 설정 이름 옆에 있는 확인란을 선택 취소하여 [업로드 작업 옵션] 대화 상자의 [EVIDEO 옵션] 목록에서 사전 설정을 제거합니다.
 1. **[닫기]**&#x200B;를 클릭합니다.
 
@@ -446,7 +440,7 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 
 >[!NOTE]
 >
->**Flash 뷰어 사용 중단 알림** - 2017년 1월 31일부터 Adobe Scene7 Publishing System이 Flash 뷰어 플랫폼에 대한 지원을 공식적으로 종료했습니다. 이 중요한 변경 사항에 대한 자세한 내용은 다음 FAQ 웹 사이트를 참조하십시오. [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Flash 뷰어 사용 중단 알림** - 2017년 1월 31일부터 Adobe Dynamic Media Classic은 Flash 뷰어 플랫폼에 대한 지원을 공식적으로 종료했습니다. 이 중요한 변경 사항에 대한 자세한 내용은 다음 FAQ 웹 사이트를 참조하십시오. [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 *뷰어 사전 설정*&#x200B;은 사용자가 컴퓨터 화면과 모바일 장치에서 리치 미디어 자산을 보는 방법을 결정하는 설정 모음입니다. 관리자는 뷰어 사전 설정을 만들 수 있습니다. 뷰어 구성 선택 사항 배열에 대한 설정을 사용할 수 있습니다. 예를 들어 뷰어 표시 크기, 확대/축소 동작, 색상 구성표, 테두리 및 글꼴을 변경할 수 있습니다.
 
@@ -494,7 +488,7 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 ### Dynamic Media 클래식 뷰어 사전 설정 호환성 표 {#scene-viewer-preset-compatibility-matrix}
 
-**Flash 뷰어 사용 중단 알림**: 2017년 1월 31일부터 Adobe Scene7 Publishing System이 공식적으로 Flash 뷰어 플랫폼에 대한 지원을 종료했습니다.
+**Flash 뷰어 사용 중단 알림**: 2017년 1월 31일부터 Adobe Dynamic Media Classic은 공식적으로 Flash 뷰어 플랫폼에 대한 지원을 중단했습니다.
 
 이 중요한 변경 사항에 대한 자세한 내용은 다음 FAQ 웹 사이트를 참조하십시오. [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
@@ -613,7 +607,7 @@ HTML5 [뷰어 사전 설정 내보내기를 참조하십시오](application-setu
 
 **뷰어 사전 설정을 추가하고 편집하려면**
 
-1. Scene7 Publishing System의 오른쪽 상단에서 **설정** > **뷰어 사전 설정**&#x200B;을 클릭합니다.
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
 
    사전 설정 목록에서 필터링할 수 있습니다. 예를 들어 비디오 뷰어의 사전 설정만 표시하려면 테이블 바로 위의 도구 모음에 있는 [뷰어] 드롭다운 메뉴에서 [비디오 뷰어]를 선택합니다.
 
@@ -647,7 +641,7 @@ HTML5 [뷰어 사전 설정 내보내기를 참조하십시오](application-setu
 
 기존 HTML5 뷰어 사전 설정을 내보내어 새 HTML5 뷰어 사전 설정을 만드는 기준으로 사용할 수 있습니다. 이 내보내기 선택 사항은 뷰어를 처음부터 만들 필요가 없기 때문에 유용합니다. 대신, 원하는 사전 설정과 모양 및 동작이 비슷한 사전 설정을 내보내며, 이 사전 설정을 디자인 조정의 시작 지점으로 사용할 수 있습니다.
 
-SPS의 기본 뷰어 사전 설정 CSS 파일은 모두 위에 있는 자산을 가리키는 상대 이미지 제공 경로를 사용합니다 `Scene7SharedAssets`. 예를 들어, 다음은 에 있는 뷰어 사전 설정 CSS 파일의 이미지 자산에 대한 상대 경로입니다. `Scene7SharedAsset``.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`그러나 자체 사이트에서 뷰어 CSS 파일을 호스팅하는 경우, 자신의 환경에서 이미지 서버에 대한 명시적 경로를 사용하여 이러한 상대적 이미지 경로를 해결해야 합니다. 예를 들어 위의 상대 경로를 명시적 경로로 업데이트하는 경우 다음과 같이 표시될 수 있습니다. 여기서 이미지 서버에 대한 직접 경로 `https://s7d1.scene7.com` 는 다음과 같습니다. `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Dynamic Media Classic의 모든 기본 뷰어 사전 설정 CSS 파일은 위에 있는 자산을 가리키는 상대 이미지 제공 경로를 사용합니다 `Scene7SharedAssets`. 예를 들어, 다음은 에 있는 뷰어 사전 설정 CSS 파일의 이미지 자산에 대한 상대 경로입니다. `Scene7SharedAsset``.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`그러나 자체 사이트에서 뷰어 CSS 파일을 호스팅하는 경우, 자신의 환경에서 이미지 서버에 대한 명시적 경로를 사용하여 이러한 상대적 이미지 경로를 해결해야 합니다. 예를 들어 위의 상대 경로를 명시적 경로로 업데이트하는 경우 다음과 같이 표시될 수 있습니다. 여기서 이미지 서버에 대한 직접 경로 `https://s7d1.scene7.com` 는 다음과 같습니다. `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **HTML5 뷰어 사전 설정을 내보내려면**
 
@@ -670,7 +664,7 @@ https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite
    내보내기를 수행하면 CSS 파일이 생성됩니다. 파일을 다운로드하고 압축을 풉니다.
 
 1. CSS 편집기에서 CSS 파일을 열고 변경한 다음 파일을 저장합니다.
-1. CSS 파일을 Scene7 Publishing System에 업로드합니다.
+1. CSS 파일을 Dynamic Media Classic에 업로드합니다.
 
    [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오.
 
@@ -746,7 +740,7 @@ URL이 클립보드로 복사됩니다. 필요한 경우 이 URL을 웹 페이�
 
 ## 기본 뷰어 구성 {#configuring-default-viewers}
 
-Scene7 Publishing System의 미리 보기를 사용할 때 [기본 뷰어]를 통해 자산과 연결된 기본 뷰어를 구성할 수 있습니다. 다음 자산 유형에 대해 기본 미리 보기 환경을 설정할 수 있습니다.
+Dynamic Media Classic에서 미리 보기를 사용할 때 기본 뷰어를 사용하여 자산과 연결된 기본 뷰어를 구성할 수 있습니다. 다음 자산 유형에 대해 기본 미리 보기 환경을 설정할 수 있습니다.
 
 * 이미지
 * 비디오
@@ -822,9 +816,9 @@ Dynamic Media Classic에는 미리 정의된 메타데이터 보기가 포함되
 
 ## 사용자 지정 필드 {#user-defined-fields}
 
-미디어 포털 관리자 또는 회사 관리자는 사용자 지정, 사용자 지정 메타데이터 필드를 만들 수 있습니다. 사용자 정의 필드는 Scene7 Publishing System에서 자산을 구성하는 데 도움이 될 수 있습니다. 필요에 따라 필드를 활성으로 표시할 수 있습니다. 활성화되면 이러한 사용자 지정 메타데이터 필드의 이름이 [세부 사항 보기]의 [메타데이터] 패널에 표시됩니다. 사용자는 자산을 설명하기 위해 사용자 지정 메타데이터 필드에 정보를 입력할 수 있습니다. 또한 사용자 지정 메타데이터 필드를 검색 기준으로 설정할 수도 있습니다.
+미디어 포털 관리자 또는 회사 관리자는 사용자 지정, 사용자 지정 메타데이터 필드를 만들 수 있습니다. 사용자 정의 필드는 Dynamic Media Classic에서 자산을 구성하는 데 도움이 될 수 있습니다. 필요에 따라 필드를 활성으로 표시할 수 있습니다. 활성화되면 이러한 사용자 지정 메타데이터 필드의 이름이 [세부 사항 보기]의 [메타데이터] 패널에 표시됩니다. 사용자는 자산을 설명하기 위해 사용자 지정 메타데이터 필드에 정보를 입력할 수 있습니다. 또한 사용자 지정 메타데이터 필드를 검색 기준으로 설정할 수도 있습니다.
 
-사용자 지정 메타데이터 필드의 효과적인 한 가지 사용 예는 특정 출시 또는 판매용 자산의 활성화 시간을 지연하는 것입니다. 날짜 유형에 따라 &quot;활성화&quot; 필드를 *정의합니다*. Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Scene7 Publishing System에서는 자산의 게시 상태 및 게시 내역을 확인합니다. 활성화 시간 내에 있지 않으면 게시 상태가 &quot;게시되지 않음&quot;으로 표시됩니다.
+사용자 지정 메타데이터 필드의 효과적인 한 가지 사용 예는 특정 출시 또는 판매용 자산의 활성화 시간을 지연하는 것입니다. 날짜 유형에 따라 &quot;활성화&quot; 필드를 *정의합니다*. Then, using the **Metadata** panel in **Detail** view or **File** > **Edit Info**, you can specify when the asset is activated. Dynamic Media Classic에서는 자산의 게시 상태와 게시 내역을 확인합니다. 활성화 시간 내에 있지 않으면 게시 상태가 &quot;게시되지 않음&quot;으로 표시됩니다.
 
 >[!NOTE]
 >
@@ -886,9 +880,9 @@ Media Portal 관리자 또는 회사 관리자만 사용자 지정 필드를 관
 
 ## 파일 최적화 {#optimize-files}
 
-Scene7 Publishing System에 파일을 업로드하면 저장 및 게시를 위해 최적화됩니다. 그러나 업로드 프로세스가 중단되면 일부 이미지를 최적화할 수 없습니다. 이 경우 &quot;이미지가 아직 최적화되지 않음&quot; 메시지가 표시됩니다. 관리자는 이러한 파일을 최적화할 수 있습니다.
+파일을 Dynamic Media Classic에 업로드하면 저장 및 게시를 위해 시스템이 최적화합니다. 그러나 업로드 프로세스가 중단되면 일부 이미지를 최적화할 수 없습니다. 이 경우 &quot;이미지가 아직 최적화되지 않음&quot; 메시지가 표시됩니다. 관리자는 이러한 파일을 최적화할 수 있습니다.
 
-Scene7 Publishing System은 파일을 검색하여 이전에 완전히 최적화되지 않은 이미지만 최적화합니다.
+Dynamic Media Classic은 파일을 검색하여 이전에 완벽하게 최적화되지 않은 이미지만 최적화합니다.
 
 1. [ **설정** ] > [ **응용 프로그램 설정**]을 선택한 다음 [파일&#x200B;**최적화]를 선택합니다**.
 1. Enter information for the optimization job and click **Submit**.
@@ -897,7 +891,7 @@ Scene7 Publishing System은 파일을 검색하여 이전에 완전히 최적화
 
 ## 배치 집합 사전 설정 {#batch-set-presets}
 
-자산을 Scene7 Publishing System에 업로드하는 작업이 실행되는 동안 배치 집합 사전 설정을 사용하여 이미지 집합이나 회전 집합을 자동으로 만듭니다.
+Dynamic Media Classic에 자산을 업로드하기 위해 작업이 실행 중인 동안 일괄 처리 세트 사전 설정을 사용하여 이미지 세트 또는 스핀 세트를 자동으로 만듭니다.
 
 회사 관리자는 먼저 집합에 함께 그룹화하려는 자산에 대한 이름 지정 규칙을 정의합니다. 그러면 일괄처리 집합 사전 설정을 만들어 이 이미지를 참조할 수 있습니다. 각 사전 설명은 고유한 이름이 지정된 독립된 지침 집합으로, 사전 설명 레서피에 정의된 이름 지정 규칙과 일치하는 이미지를 사용하여 집합을 구성하는 방법을 정의합니다.
 
