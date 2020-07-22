@@ -6,11 +6,14 @@ seo-description: 이미지 세트를 만드는 방법을 알아봅니다.
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '586'
+ht-degree: 89%
 
 ---
 
@@ -34,9 +37,9 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 1. 다음 중 하나를 수행하십시오.
 
-   **먼저** 이미지 선택 찾아보기 패널에서 이미지 집합에 사용할 이미지를 선택하고 빌드 > 이미지 집합을 클릭합니다.
+   **먼저** 이미지 선택 찾아보기 패널에서 이미지 세트에 사용할 이미지를 선택하고 빌드 > 이미지 세트를 클릭합니다.
 
-   **이미지 세트 화면에서** 시작 작성 > 이미지 세트를 클릭합니다. [이미지 집합] 화면이 열립니다. 자산 라이브러리에서 폴더를 선택하고 이미지 집합에 사용할 이미지를 [이미지 집합] 화면으로 드래그합니다.
+   **이미지 세트 화면에서** 시작 [이미지 집합] 화면이 열립니다. 자산 라이브러리에서 폴더를 선택하고 이미지 집합에 사용할 이미지를 [이미지 집합] 화면으로 드래그합니다.
 
 1. 이미지 순서를 변경하려면 이미지를 새 위치로 드래그합니다.
 1. 페이지 오른쪽 하단에서 **저장 후 게시**(기본값)가 선택되어 있는지 확인합니다.
@@ -50,7 +53,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 | 세트를 이미 게시했습니까? | 편집 내용을 저장하기 전에 [저장 후 게시] 옵션을 선택했습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
 |--- |--- |--- |--- |
 | 예 | 예 | 게시됨 | 게시됨 |
-| 예 | 아니요 | 게시됨 | 기존 세트 구성원은 게시된 상태를 유지합니다.편집 중에 추가한 모든 새 세트 멤버는 게시되었거나 게시 취소된 상태를 유지합니다. |
+| 예 | 아니요 | 게시됨 | 기존 세트 멤버는 게시된 상태를 유지합니다.편집 중에 추가한 모든 새 세트 멤버는 게시되었거나 게시 취소된 상태를 유지합니다. |
 | 아니요 | 예 | 게시됨 | 게시됨 |
 | 아니요 | 아니요 | 게시 취소됨 | 기존 세트 구성원과 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
 
