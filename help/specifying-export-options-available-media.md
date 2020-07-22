@@ -6,10 +6,13 @@ seo-description: Media Portal 사용자가 사용할 수 있는 내보내기 옵
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+workflow-type: tm+mt
+source-wordcount: '376'
+ht-degree: 82%
 
 ---
 
@@ -23,20 +26,20 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 * 내보내기 작업에 대해 ZIP 압축 내보내기 파일의 최대 파일 크기는 1 GB입니다.
 * 내보내기 작업당 최대 총 500개의 자산을 가질 수 있습니다.
 
-또한 [Scene7 Publishing System에서 자산 내보내기](exporting-assets-scene7-publishing-system.md#exporting_assets_from_scene7_publishing_system)를 참조하십시오.
+Dynamic Media [Classic에서 자산 내보내기를 참조하십시오](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Media Portal 사용자가 사용할 수 있는 내보내기 선택 사항을 지정하려면**
 
 1. **[설정]** > **[이미지 사전 설정]**&#x200B;을 클릭합니다.
 1. [이미지 사전 설정] 창에서 다음 중 원하는 선택 사항을 선택합니다.
 
-   * **사용자 정의 변환**&#x200B;활성화이 옵션을 선택하면 사용자가 선택한 자산 내보내기 창의 크기 드롭다운 목록에서 다른 항목을 선택할 수 있습니다. 그런 다음 사용자는 픽셀 또는 센티미터와 같은 측정 단위를 선택하고 원하는 너비와 높이를 지정할 수 있습니다. 이러한 파일을 내보내거나 다운로드하는 경우 이미지 파일 형식이 다시 지정됩니다.
+   * **사용자 정의 전환**&#x200B;활성화 이 옵션을 선택하면 선택한 자산 내보내기 창의 크기 드롭다운 목록에서 다른 항목을 선택할 수 있습니다. 그런 다음 사용자는 픽셀 또는 센티미터와 같은 측정 단위를 선택하고 원하는 너비와 높이를 지정할 수 있습니다. 이러한 파일을 내보내거나 다운로드하는 경우 이미지 파일 형식이 다시 지정됩니다.
 
       **크기** 드롭 다운 목록에서 **픽셀**&#x200B;을 선택한 경우, 결과 이미지의 너비 x 높이가 1억 픽셀을 초과 할 수 없습니다. 이는 정사각형 이미지의 경우 10,000 x 10,000 픽셀과, 또는 2x3 종횡비 이미지의 경우 약 8,000 x 12,000 픽셀과 동일합니다. 이 크기 제한은 원본 마스터 이미지를 내보낼 경우에는 적용되지 않습니다.
 
       사용자가 파일을 다운로드할 때 형식을 다시 지정하지 않고 다운로드하게 하려는 경우 이 선택 사항을 선택 취소합니다.
 
-   * **원본 내보내기**&#x200B;활성화원본 마스터 이미지를 내보낼 수 있습니다. 사용자는 [선택한 자산 내보내기] 패널에서 [전환] 드롭다운 메뉴를 열고 [원본 내보내기]를 선택하여 원본 파일을 내보낼 수 있습니다. 사용자가 이미지를 내보낼 때 이미지 사전 설정을 선택하거나 전환 선택 사항을 선택하도록 강제하려는 경우 이 선택 사항을 선택 취소합니다.
+   * **원본 내보내기 활성화**&#x200B;원본 마스터 이미지를 내보낼 수 있습니다. 사용자는 [선택한 자산 내보내기] 패널에서 [전환] 드롭다운 메뉴를 열고 [원본 내보내기]를 선택하여 원본 파일을 내보낼 수 있습니다. 사용자가 이미지를 내보낼 때 이미지 사전 설정을 선택하거나 전환 선택 사항을 선택하도록 강제하려는 경우 이 선택 사항을 선택 취소합니다.
 
 >[!MORELIKETHIS]
 >
