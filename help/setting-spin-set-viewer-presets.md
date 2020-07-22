@@ -2,15 +2,18 @@
 title: 회전 집합 뷰어 사전 설정 지정
 seo-title: 회전 집합 뷰어 사전 설정 지정
 description: 널
-seo-description: 회전 집합 뷰어 사전 설정을 설정하는 방법을 알아봅니다.
+seo-description: 스핀 세트 뷰어 사전 설정을 설정하는 방법을 알아봅니다.
 uuid: e095f989-f3df-46ea-be62-812922805dc0
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '237'
+ht-degree: 76%
 
 ---
 
@@ -26,6 +29,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
    * To create a new preset, click **Add**, then in the Add Viewer Preset dialog box, choose a platform, and click **Spin Set Viewer**.
    * To edit an existing Spin Set Viewer preset, select the preset and click **Edit**.
+
    [뷰어 구성] 화면이 열립니다.
 
 1. 회전 집합 뷰어 사전 설정의 [사전 설정 이름] 상자에 이름을 입력합니다.
