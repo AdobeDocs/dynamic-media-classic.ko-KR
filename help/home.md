@@ -3,11 +3,11 @@ title: Dynamic Media Classic 기술 설명서
 seo-title: Adobe Dynamic Media Classic에 대한 기술 문서 및 자체 도움말
 description: Dynamic Media Classic 기술 설명서
 seo-description: 'Adobe Dynamic Media Classic(이전 Scene 7)에 대한 기술 설명서, 릴리스 노트 및 자가 도움말 자료 '
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 2fb7e34b734dba1e0bd1d150580d7d6c74ee1b79
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 10%
 
 ---
@@ -33,7 +33,7 @@ FAQ를 [참조하십시오](new-ui-2020.md). 2020년 5월 7일부터 새로운 �
 * [Dynamic Media 월별 뉴스레터](dynamic-media-newsletter.md)
 * [가이드: Dynamic Media Classic 사용을 위한 우수 사례](https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf)
 * [가이드: Best Practices Guide for Sharpening Images](/help/assets/s7_sharpening_images.pdf)
-* [가이드: Adobe Dynamic Media Classic에서 SEO를 지원하는](/help/assets/s7_seo.pdf) 방법 - 오늘날 검색 엔진을 통해 웹 사이트와 이미지를 검색할 수 있습니다. SPS는 더 많은 트래픽이 Dynamic Media Classic 사용자의 웹 사이트로 이동할 수 있도록 이미지 검색 엔진에 친근한 환경을 만들기 위한 노력을 지원합니다. PDF의 이 안내서에서는 이러한 문제를 해결하기 위한 배경 및 구현 권장 사항을 제공합니다.
+* [가이드: Adobe Dynamic Media Classic에서 SEO를 지원하는](/help/assets/s7_seo.pdf) 방법 - 오늘날 검색 엔진을 통해 웹 사이트와 이미지를 검색할 수 있습니다. Dynamic Media Classic은 이미지 검색 엔진에 익숙해지도록 지원하여 더 많은 트래픽이 Dynamic Media Classic 사용자의 웹 사이트로 유도되도록 합니다. PDF의 이 안내서에서는 이러한 문제를 해결하기 위한 배경 및 구현 권장 사항을 제공합니다.
 * [웨비나: 반응형 디자인](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) 모범 사례 - 모바일 전략을 개선하는 방법에 대한 실용적인 팁을 살펴볼 수 있습니다. 응답형 디자인이 작동하는 실제 예제를 참조하십시오. 여러 장치에서 작동하는 하나의 마스터 자산을 만들고, 이미지 해상도나 이미지 표시 방향(가로 표시 또는 세로 표시)을 동적으로 변경하여 모바일 성능을 늘릴 수 있습니다. 이미지를 동적으로 자르거나, 크기를 조절하거나 변경하는 방법에 대해서도 알아봅니다.
 * [웨비나: Best Practices Deliver Interactive Experience with Display Classic](http://seminars.adobeconnect.com/p7wb8ej3u6d/) - Dynamic Media Classic에서 컨텐츠를 얻는 방법과 최적의 성능과 경험을 위한 이미지 사전 설정을 설정하는 방법을 살펴볼 수 있습니다. 뷰어 사전 설정 및 캐싱 구성에 대해서도 배우게 됩니다.
 * [웨비나: 에셋 ROI 극대화](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true) - 다양한 사이트와 모바일 앱에 리치 미디어를 전달하는 업계 모범 사례를 살펴볼 수 있습니다. 본 웨비나에서는 다양한 디바이스에 비디오를 효율적으로 전달하고 마케팅 캠페인에서 동적 크리에이티브를 제공하며 이미지, 스타일 가이드 또는 룩북 쇼퍼블 방식으로 전환율을 높이는 방법을 보여주는 예시와 데모를 제공합니다.
