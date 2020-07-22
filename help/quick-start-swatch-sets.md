@@ -2,22 +2,25 @@
 title: '"빠른 시작: 견본 집합"'
 seo-title: '"빠른 시작: 견본 집합"'
 description: 널
-seo-description: 빠른 시작 및 견본 세트를 소개하는 소개 및 빠른 시작을 참조하십시오.
+seo-description: 빠른 시작을 지원하는 견본 집합 소개 및 빠른 시작을 참조하십시오.
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '390'
+ht-degree: 64%
 
 ---
 
 
 # 빠른 시작: 견본 집합{#quick-start-swatch-sets}
 
-Dynamic Media Classic 견본 집합을 통해 통합된 보기 환경을 제공할 수 있습니다. 동적 견본 집합 뷰어에서 사용자가 썸네일을 클릭하기만 하면 다른 색상, 재질, 텍스처, 마무리 또는 패브릭으로 렌더링된 항목을 볼 수 있습니다.
+Dynamic Media 클래식 견본 집합을 사용하면 통합된 보기 환경을 제공할 수 있습니다. 동적 견본 집합 뷰어에서 사용자가 썸네일을 클릭하기만 하면 다른 색상, 재질, 텍스처, 마무리 또는 패브릭으로 렌더링된 항목을 볼 수 있습니다.
 
 **빠른 시작**
 
@@ -27,7 +30,7 @@ Dynamic Media Classic 견본 집합을 통해 통합된 보기 환경을 제공�
 
 먼저 견본 집합에 사용할 이미지와 견본 파일을 업로드합니다.
 
-글로벌 탐색 막대에서 [업로드]를 클릭하여 컴퓨터의 파일을 Scene7 Publishing System의 폴더로 업로드합니다. [업로드할 견본 집합 자산 준비](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) 및 [파일 업로드](uploading-files.md#uploading-your-files)를 참조하십시오.
+전역 탐색 막대에서 업로드를 클릭하여 컴퓨터의 파일을 Dynamic Media Classic의 폴더로 업로드합니다. [업로드할 견본 집합 자산 준비](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) 및 [파일 업로드](uploading-files.md#uploading-your-files)를 참조하십시오.
 
 **2. 견본 집합 만들기**
 
