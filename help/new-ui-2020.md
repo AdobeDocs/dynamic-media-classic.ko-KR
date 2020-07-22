@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
 translation-type: tm+mt
-source-git-commit: d3870442babfbcc14734b4e31f9989f5e5837049
+source-git-commit: a3cd7494663337d55fa9b26b6ebe550791d32c7c
 workflow-type: tm+mt
-source-wordcount: '1109'
+source-wordcount: '1128'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Adobe Flash Player는 웹 브라우저에서 Adobe Flash Platform에서 개발�
 
 >[!IMPORTANT]
 >
->한 번에 하나의 데스크탑 앱 인스턴스만 설치하고 활성화할 수 있습니다.
+>특정 컴퓨터에서 한 번에 하나의 데스크탑 앱 인스턴스 *를 설치하고* 활성화할 수 있습니다. 그러나 여러 컴퓨터에서 사용할 수 있는 설치 수는 제한이 없습니다.
 
 ### **_Dynamic Media Classic API를 사용하여 제품에 액세스하고 웹 사용자 인터페이스를 통해 로그인하지 않으면 어떻게 됩니까?_**
 
