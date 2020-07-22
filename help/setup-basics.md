@@ -6,18 +6,21 @@ seo-description: 설정 화면을 사용하여 개인 설정을 입력하는 방
 uuid: 38f487d7-33f2-4a9e-a32e-bb08f3dd3284
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '196'
+ht-degree: 66%
 
 ---
 
 
 # 설정 기본 사항{#setup-basics}
 
-Scene7 Publishing System [설정] 화면을 사용하여 개인 설정을 입력합니다. 관리자는 회사 설정을 지정합니다. [설정] 화면을 열려면 글로벌 탐색 막대에서 [설정] 단추를 클릭합니다.
+[Dynamic Media 클래식 설정] 화면을 사용하여 개인 설정을 입력합니다. 관리자는 회사 설정을 지정합니다. [설정] 화면을 열려면 글로벌 탐색 막대에서 [설정] 단추를 클릭합니다.
 
 이 화면에서 사용할 수 있는 설정은 사용자 또는 관리자 상태에 따라 달라집니다.
 
@@ -26,13 +29,14 @@ Scene7 Publishing System [설정] 화면을 사용하여 개인 설정을 입력
 
 관리자는 [설정] 화면에서 [이미지 사전 설정] 및 [뷰어 사전 설정]을 지정할 수도 있습니다.
 
-* **이미지 사전**&#x200B;설정 이미지 사전 설정은 마스터 이미지를 다른 크기 및 형식으로 표시하기 위해 저장된 포맷입니다.
+* **Image Presets**
+Image Presets are saved formats for displaying master images at different sizes and formats.
 
-* **뷰어 사전**&#x200B;설정 뷰어 사전 설정은 뷰어에서 리치 미디어를 볼 때 어떻게 볼 수 있는지 결정합니다.
+* **뷰어 사전 설정**&#x200B;의 뷰어 사전 설정은 뷰어에서 리치 미디어를 볼 때 사용하는 방법을 결정합니다.
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media Classic 사용자 역할 및 권한](administration-setup.md#user_administration)
+>* [Dynamic Media 클래식 사용자 역할 및 권한](administration-setup.md#user_administration)
 >* [Image Presets](application-setup.md#image_presets)
 >* [Viewer Presets](application-setup.md#viewer_presets)
 
