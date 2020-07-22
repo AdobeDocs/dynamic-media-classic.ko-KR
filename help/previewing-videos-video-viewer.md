@@ -6,11 +6,14 @@ seo-description: 비디오 뷰어에서 비디오를 미리 보는 방법을 알
 uuid: 7ab4e805-6e5d-461b-bd99-5e09b9ced950
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '774'
+ht-degree: 84%
 
 ---
 
@@ -39,19 +42,19 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 >[!NOTE]
 >
->Dynamic Media Classic은 데스크탑에서 MP4 비디오를 미리 보는 편리한 방법을 제공합니다. 이 방법을 사용할 경우 모바일 장치에서 실제로 테스트하지 않고도 데스크톱에서 모바일 컨텐츠를 미리 볼 수 있습니다. 그러나 데스크톱 미리 보기에 표시되는 내용은 실제로 모바일 장치의 재생 표시와 다릅니다. 모바일 장치에서 비디오가 표시 및 재생되는 방식을 미리 보려면 [미리 보기] 화면으로 이동한 다음 [URL 복사]를 선택하고 모바일 장치의 웹 브라우저에 해당 URL을 입력합니다. 자세한 내용은 [웹 사이트 및 모바일 사이트에 비디오 배포](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)를 참조하십시오.
+>Dynamic Media Classic에서는 데스크탑에서 MP4 비디오를 미리 볼 수 있는 편리한 방법을 제공합니다. 이 방법을 사용할 경우 모바일 장치에서 실제로 테스트하지 않고도 데스크톱에서 모바일 컨텐츠를 미리 볼 수 있습니다. 그러나 데스크톱 미리 보기에 표시되는 내용은 실제로 모바일 장치의 재생 표시와 다릅니다. 모바일 장치에서 비디오가 표시 및 재생되는 방식을 미리 보려면 [미리 보기] 화면으로 이동한 다음 [URL 복사]를 선택하고 모바일 장치의 웹 브라우저에 해당 URL을 입력합니다. 자세한 내용은 [웹 사이트 및 모바일 사이트에 비디오 배포](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)를 참조하십시오.
 
 ## 비디오 뷰어 사전 설정으로 작업 {#working-with-video-viewer-presets}
 
 사용자는 비디오 뷰어에서 비디오를 봅니다. 비디오 뷰어의 동작 및 표시 모양과 재생 컨트롤 작동 방식은 비디오 재생을 위해 선택한 뷰어 사전 설정에 따라 달라집니다. [미리 보기] 화면에서 뷰어 사전 설정을 선택합니다. 사전 설정을 선택하면 선택한 뷰어 사전 설정으로 비디오를 재생하기 위한 URL 또는 포함 코드를 얻을 수 있습니다.
 
-Dynamic Media Classic에는 비디오 재생을 위한 사전 정의된 뷰어 사전 설정이 많이 포함되어 있으며, 관리자의 경우 사용자 정의 뷰어 사전 설정을 만들 수 있습니다. 비디오 뷰어를 구성하기 위한 수십 개의 설정이 있습니다. 크기, 색상, 비디오 및 오디오 컨트롤, 진행률 표시줄, 사용자 인터페이스 스킨 및 소셜 기능을 구성할 수 있습니다.
+Dynamic Media Classic에는 비디오를 재생하기 위한 사전 정의된 뷰어 사전 설정이 많이 포함되어 있으며, 관리자의 경우 사용자 정의 뷰어 사전 설정을 만들 수 있습니다. 비디오 뷰어를 구성하기 위한 수십 개의 설정이 있습니다. 크기, 색상, 비디오 및 오디오 컨트롤, 진행률 표시줄, 사용자 인터페이스 스킨 및 소셜 기능을 구성할 수 있습니다.
 
 [비디오 뷰어에서 비디오 미리 보기](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)를 참조하십시오.
 
 ### 비디오 뷰어 사전 설정 추가 또는 편집 {#adding-or-editing-a-video-viewer-preset}
 
-뷰어 사전 설정을 사용하여 다양한 뷰어 유형 및 사전 정의된 설정을 확인할 수 있습니다. 고유한 사용자 지정 뷰어 사전 설정을 추가 및 편집하거나 Scene7 Publishing System에 포함된 기존 뷰어 사전 설정을 편집할 수도 있습니다.
+뷰어 사전 설정을 사용하여 다양한 뷰어 유형 및 사전 정의된 설정을 확인할 수 있습니다. 사용자 정의된 뷰어 사전 설정을 추가 및 편집하거나 Dynamic Media Classic에 포함된 기존 뷰어 사전 설정을 편집할 수도 있습니다.
 
 [뷰어 사전 설정]에서 뷰어 사전 설정을 활성화, 필터링 및 정렬하고 미리 볼 수 있습니다.
 
@@ -59,7 +62,7 @@ Dynamic Media Classic에는 비디오 재생을 위한 사전 정의된 뷰어 �
 
 **비디오 뷰어 사전 설정을 추가 또는 편집하려면**
 
-1. Scene7 Publishing System의 오른쪽 상단에서 **설정** > **뷰어 사전 설정**&#x200B;을 클릭합니다.
+1. Near the upper-right corner of Dynamic Media Classic, click **Setup** > **Viewer Presets**.
 
    비디오 뷰어의 사전 설정만 표시하려면 테이블 바로 위의 도구 모음에 열려 있는 [뷰어] 드롭다운 목록에서 [비디오 뷰어]를 선택합니다.
 
@@ -69,7 +72,7 @@ Dynamic Media Classic에는 비디오 재생을 위한 사전 정의된 뷰어 �
 
    [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets)을 참조하십시오.
 
-   **기존 뷰어 사전 설정에서 시작** 추가 표에서 비디오 뷰어 사전 설정을 선택한 다음 도구 모음에서 편집을 클릭합니다.
+   **기존 뷰어 사전** 설정에서 시작
 
    비디오 뷰어를 다시 구성한 후 **다른 이름으로 저장**&#x200B;을 클릭하여 [사전 설정 이름] 텍스트 필드의 다른 이름으로 사전 설정을 저장합니다.
 
