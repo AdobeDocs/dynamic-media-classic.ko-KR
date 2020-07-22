@@ -6,21 +6,21 @@ seo-description: 확대/축소 뷰어를 웹 페이지에 연결하는 방법을
 uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '674'
-ht-degree: 89%
+source-wordcount: '673'
+ht-degree: 86%
 
 ---
 
 
 # 확대/축소 뷰어를 웹 페이지에 연결{#linking-zoom-viewers-to-your-web-pages}
 
-웹 사이트와 애플리케이션은 URL 문자열 또는 포함된 코드를 통해 마스터 이미지 및 관련 확대/축소 대상, 확대/축소 뷰어 사전 설정 등 Dynamic Media 이미지 서버 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지와 애플리케이션에 이 URL 문자열 또는 임베드된 코드를 배치하려면 Scene7 Publishing System에서 복사합니다.
+웹 사이트와 애플리케이션은 URL 문자열 또는 포함된 코드를 통해 마스터 이미지 및 관련 확대/축소 대상, 확대/축소 뷰어 사전 설정 등 Dynamic Media 이미지 서버 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 이러한 URL 문자열 또는 포함된 코드를 웹 페이지 및 애플리케이션에 배치하려면 Dynamic Media Classic에서 복사합니다.
 
 >[!NOTE]
 >
