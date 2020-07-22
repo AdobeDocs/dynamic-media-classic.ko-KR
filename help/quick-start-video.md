@@ -6,14 +6,14 @@ seo-description: 소개 및 빠른 비디오 시작을 통해 신속하게 작�
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 66%
+source-wordcount: '1443'
+ht-degree: 65%
 
 ---
 
@@ -42,7 +42,7 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android, Blackberry 및 
 
    응용 비디오 세트가 생성되면 MP4 비디오가 포함됩니다.
 
-   `**Note:**` 마스터/소스 비디오 및 기타 소스 형식 비디오는 응용 비디오 세트에 *추가되지 않습니다* .
+   `**Note:**` 기본/소스 비디오 및 기타 소스 형식 비디오는 응용 비디오 집합에 추가되지 *않습니다* .
 
 * Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark 및 Universal_HTML5_Video, Universal_HTML5_MixedMedia_light 뷰어 및 비디오 장 탐색(Universal_HTML5_MixedMedia_dark 및 Universal_HTML5_MixedMixed)의 비디오 비디오 캡션 media_light 뷰어.
 
@@ -82,9 +82,9 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android, Blackberry 및 
 다음 2가지 시나리오 중 하나를 사용하여 적응형 비디오 집합을 업로드하고 생성하십시오.
 
 * **미리 인코딩된 비디오 업로드**&#x200B;비디오가 이미 Dynamic Media Classic 외부에서 인코딩된 경우 
-**전역 탐색 막대에 업로드하여** MP4 비디오 파일을 찾아 Scene7 Publishing System에 직접 업로드합니다. **작성 > 적응형 비디오 집합**&#x200B;을 클릭합니다. 비디오 파일을 찾습니다. 원하는 비디오 파일을 [적응형 비디오 집합] 테이블로 끌어서 놓고 집합을 저장합니다.
+**전역 탐색 막대에 업로드하여** MP4 비디오 파일을 직접 찾아 Dynamic Media Classic에 업로드합니다. **작성 > 적응형 비디오 집합**&#x200B;을 클릭합니다. 비디오 파일을 찾습니다. 원하는 비디오 파일을 [적응형 비디오 집합] 테이블로 끌어서 놓고 집합을 저장합니다.
 * **마스터 소스 비디오 업로드**&#x200B;비디오가 인코딩되지 않은 경우 
-**전역 탐색 막대에 업로드하여** 마스터 비디오 소스 파일(MP4가 아님)을 업로드하고 Scene7 Publishing System에서 자동으로 MP4 파일로 인코딩합니다. [업로드 작업 옵션] 대화 상자의 [EVideo 옵션] 아래에서 **적응형 비디오**&#x200B;를 선택합니다.
+**전역 탐색 막대에 업로드하여** 마스터 비디오 소스 파일(MP4가 아닌 파일)을 업로드하고 Dynamic Media Classic에서 자동으로 MP4 파일로 인코딩합니다. [업로드 작업 옵션] 대화 상자의 [EVideo 옵션] 아래에서 **적응형 비디오**&#x200B;를 선택합니다.
 
    이 기본 옵션을 이용하면 16:9이든, 4:3이든 업로드한 비디오 크기에 맞게 올바른 인코딩 사전 설정을 비디오에 자동으로 적용하는 적응형 비디오 집합을 만들 수 있습니다. 업로드 작업을 제출하면 올바른 종횡비의 비디오 인코딩 3개를 포함하는 적응형 비디오 집합이 자동으로 만들어집니다.
 
@@ -112,7 +112,7 @@ Dynamic Media Classic에서는 사전 정의된 다양한 비디오 인코딩 �
 
 **선택 사항입니다**
 
-뷰어 사전 설정 사용자 정의 - Dynamic Media Classic에서는 비디오를 전달하기 위한 사전 정의된 뷰어 사전 설정을 제공합니다. 이러한 사전 설정은 뷰어의 모양과 재생 컨트롤 작동 방식을 결정합니다. 관리자는 뷰어 사전 설정 페이지에서 뷰어 사전 설정을 추가하고 관리하여 비디오 뷰어를 사용자 지정할 수 있습니다. 이 페이지를 열려면 Scene7 Publishing System의 오른쪽 위 모서리에서 [설정] > [뷰어 사전 설정]을 클릭합니다. [뷰어 사전 설정] 페이지에서는 뷰어 사전 설정을 추가, 편집, 삭제 및 활성화하는 명령을 제공합니다.
+뷰어 사전 설정 사용자 정의 - Dynamic Media Classic에서는 비디오를 전달하기 위한 사전 정의된 뷰어 사전 설정을 제공합니다. 이러한 사전 설정은 뷰어의 모양과 재생 컨트롤 작동 방식을 결정합니다. 관리자는 뷰어 사전 설정 페이지에서 뷰어 사전 설정을 추가하고 관리하여 비디오 뷰어를 사용자 지정할 수 있습니다. 이 페이지를 열려면 Dynamic Media Classic의 오른쪽 위 모서리에서 설정 > 뷰어 사전 설정을 클릭합니다. [뷰어 사전 설정] 페이지에서는 뷰어 사전 설정을 추가, 편집, 삭제 및 활성화하는 명령을 제공합니다.
 
 [비디오 뷰어 사전 설정으로 작업](previewing-videos-video-viewer.md#working_with_video_viewer_presets)을 참조하십시오.
 
