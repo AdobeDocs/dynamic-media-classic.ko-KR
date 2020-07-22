@@ -2,14 +2,17 @@
 title: 혼합 미디어 집합 만들기
 seo-title: 혼합 미디어 집합 만들기
 description: 널
-seo-description: 혼합 미디어 집합을 만드는 방법을 알아봅니다.
+seo-description: 혼합 미디어 세트를 만드는 방법을 알아봅니다.
 uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 translation-type: tm+mt
-source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 95%
 
 ---
 
@@ -60,7 +63,7 @@ source-git-commit: 2f99190eb0c346b87402e69c4067e94365042339
 | 세트를 이미 게시했습니까? | 편집 내용을 저장하기 전에 [저장 후 게시] 옵션을 선택했습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
 |--- |--- |--- |--- |
 | 예 | 예 | 게시됨 | 게시됨 |
-| 예 | 아니요 | 게시됨 | 기존 세트 구성원은 게시된 상태를 유지합니다.편집 중에 추가한 모든 새 세트 멤버는 게시되었거나 게시 취소된 상태를 유지합니다. |
+| 예 | 아니요 | 게시됨 | 기존 세트 멤버는 게시된 상태를 유지합니다.편집 중에 추가한 모든 새 세트 멤버는 게시되었거나 게시 취소된 상태를 유지합니다. |
 | 아니요 | 예 | 게시됨 | 게시됨 |
 | 아니요 | 아니요 | 게시 취소됨 | 기존 세트 구성원과 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
 
