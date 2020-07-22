@@ -6,11 +6,14 @@ seo-description: Adobe Analytics 구성 정보를 게시하는 방법에 대해 
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '149'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +24,7 @@ Adobe Analytics 보고서 구성에 대한 정보가 Dynamic Media Classic 서�
 
 >[!NOTE]
 >
->Adobe Analytics에서 Adobe Analytics 보고서 설정을 변경할 때마다 Adobe Scene7 Publishing System 내에서 Adobe Analytics에 다시 로그온하여 Adobe Analytics 구성 설정을 다시 저장한 다음 다시 게시합니다.
+>Adobe Analytics 내에서 Adobe Analytics 보고서 설정을 변경할 때마다 Dynamic Media Classic 내에서 Adobe Analytics에 다시 로그온하고 Adobe Analytics 구성 설정을 다시 저장한 다음 다시 게시해야 합니다.
 
 [Adobe Analytics에 로그인](log-analytics.md#log_in_to_adobe_analytics)을 참조하십시오.
 
