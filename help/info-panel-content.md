@@ -2,15 +2,18 @@
 title: eCatalogs의 정보 패널 컨텐츠 관리
 seo-title: eCatalogs의 정보 패널 컨텐츠 관리
 description: 널
-seo-description: eCatalogs에서 정보 패널 컨텐츠를 관리하는 방법을 알아봅니다.
+seo-description: eCatalogs에서 정보 패널 콘텐츠를 관리하는 방법을 알아봅니다.
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 translation-type: tm+mt
-source-git-commit: d5bf894d56687561c93ef08762bc19d3597225e6
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '875'
+ht-degree: 81%
 
 ---
 
@@ -43,7 +46,7 @@ Dynamic Media Classic의 다음 기능을 사용하여 InfoPanel 설정 및 데�
    * [응답 템플릿] 메뉴에서 사전 설정을 선택합니다. 템플릿 디자인의 XML이 [사용자 템플릿] 상자에 표시됩니다.
    * [사용자 지정]을 선택하여 고유한 응답 템플릿을 만듭니다. [사용자 템플릿] 상자에 템플릿 XML 정의를 입력합니다. 사전 설정 템플릿을 고유한 템플릿의 기초로 사용할 수 있습니다.
 
-1. (선택 사항) Dynamic Media Classic에서 이미지 맵에 대한 정보를 검색할 때 오류가 발생하는 경우 [기본 응답] 상자에 표시할 텍스트를 입력합니다. 예를 들어 시스템에 회사 이름과 eCatalog 이름이 수신되었지만 롤오버 식별자가 수신되지 않은 경우 이 메시지가 사용자에게 표시됩니다.
+1. (선택 사항) Dynamic Media Classic에서 이미지 맵에 대한 정보를 검색하는 동안 오류가 발생하면 표시할 텍스트를 기본 응답 상자에 입력합니다. 예를 들어 시스템에 회사 이름과 eCatalog 이름이 수신되었지만 롤오버 식별자가 수신되지 않은 경우 이 메시지가 사용자에게 표시됩니다.
 1. [응답 TTL] 상자에 데이터 캐싱 전에 대기할 시간 수를 입력합니다.
 
    * 하루 종일 데이터가 자주 업데이트되는 경우 더 작은 숫자를 설정합니다.
@@ -87,7 +90,7 @@ Last Modified Date:
 1. Click **Browse**, select the tab-delimited TXT file, CSV or SSV file you want to use, and click **Open**.
 1. **업로드**&#x200B;를 클릭합니다.
 
-Dynamic Media Classic에서 업로드에 성공했는지 여부를 알려주는 이메일 메시지를 보냅니다.
+Dynamic Media Classic에서는 업로드에 성공했는지 여부를 알려주는 이메일 메시지를 보냅니다.
 
 ## 이미지 맵의 롤오버 키 텍스트 미리 보기 {#preview-rollover-key-text-for-an-image-map}
 
