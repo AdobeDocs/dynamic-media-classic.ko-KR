@@ -6,27 +6,27 @@ seo-description: Dynamic Media에 사용할 수 있는 개발자 리소스에 �
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
 source-wordcount: '287'
-ht-degree: 36%
+ht-degree: 34%
 
 ---
 
 
 # 개발자 리소스{#developer-resources}
 
-Dynamic Media Classic에서는 각 Dynamic Media Classic 소프트웨어 모듈의 최신 주요 버전에 대한 설명서를 제공합니다. 모듈 문서는 이미지 작성, Scene7 Publishing System, 이미지 서버 및 이미지 렌더링 및 뷰어에 사용할 수 있습니다.
+Dynamic Media Classic에서는 각 Dynamic Media Classic 소프트웨어 모듈의 최신 주요 버전에 대한 설명서를 제공합니다. 모듈 문서는 이미지 작성, Dynamic Media Classic, 이미지 서버 및 이미지 렌더링 및 뷰어에 사용할 수 있습니다.
 
 일부 모듈에 대한 릴리스 노트도 사용할 수 있습니다. 릴리스 노트에서는 향상 기능, 새로운 기능, 팁, 문제 해결 조언, 알려진 미해결 문제에 대한 자세한 정보를 제공합니다. 또한 리치 미디어 기능의 대화식 예와 활성화 방법도 제공합니다. 이외에도 릴리스 노트에서는 라이센스를 획득한 소프트웨어가 있는 클라이언트를 위한 설치 및 구성 지침을 제공합니다.
 
 이미지 제공 및 이미지 렌더링에 대한 참조 안내서 및 뷰어에서는 이러한 서버 모듈에 대한 http 프로토콜을 설명합니다. 웹 사이트 또는 사용자 정의 애플리케이션에 사용할 Dynamic Media Classic 리치 미디어를 사용자 정의하고 활용하려는 웹 사이트 개발자는 이러한 가이드를 사용할 수 있습니다. Dynamic Media Classic에서는 독자가 데스크톱 앱, 일반 http 프로토콜 표준 및 규칙, 기본 이미징 용어에 익숙한 것으로 가정합니다.
 
 
-**Scene7 Publishing System API**
+**Dynamic Media Classic API**
 
 | 문서 | 웹 주소 |
 |--- |--- |
