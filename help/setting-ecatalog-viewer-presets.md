@@ -6,19 +6,22 @@ seo-description: eCatalog 뷰어 사전 설정을 설정하는 방법을 알아�
 uuid: aca66bc5-8491-4d81-9a06-1d3531860a14
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '479'
+ht-degree: 67%
 
 ---
 
 
 # eCatalog 뷰어 사전 설정 지정{#setting-up-ecatalog-viewer-presets}
 
-eCatalog 뷰어 사전 설정은 eCatalog 뷰어의 스타일, 동작 및 모양을 결정합니다. Dynamic Media Classic에서는 eCatalog 뷰어 사전 설정을 제공하며, 관리자일 경우 자신만의 eCatalog 뷰어 사전 설정을 만들 수 있습니다.
+eCatalog 뷰어 사전 설정은 eCatalog 뷰어의 스타일, 동작 및 모양을 결정합니다. Dynamic Media Classic에서는 eCatalog 뷰어 사전 설정을 제공하며, 관리자라면 직접 eCatalog 뷰어 사전 설정을 만들 수도 있습니다.
 
-새 사전 설정을 만들려면 처음부터 새로 만들거나 Dynamic Media Classic에서 제공하는 eCatalog 뷰어 사전 설정으로 시작하여 새 이름으로 저장할 수 있습니다. 고유한 eCatalog 뷰어 사전 설정을 만들어 회사 색상으로 인쇄물을 표시하고 톤을 설정할 수 있습니다.
+새 사전 설정을 만들려면 처음부터 시작하거나 Dynamic Media에서 클래식 제공된 eCatalog 뷰어 사전 설정으로 시작하고 새 이름으로 저장할 수 있습니다. 고유한 eCatalog 뷰어 사전 설정을 만들어 회사 색상으로 인쇄물을 표시하고 톤을 설정할 수 있습니다.
 
 eCatalog 뷰어 사전 설정은 페이지 간 이동, 확대/축소, 검색 및 &quot;스킨&quot; 선택을 위한 다양한 설정을 제공합니다. 이러한 컨트롤의 모양과 뷰어 자체의 모양은 eCatalog 뷰어 사전 설정의 선택 항목에 따라 달라집니다.
 
@@ -27,9 +30,11 @@ eCatalog 뷰어 사전 설정을 만들려면 다음 단계를 수행합니다(�
 1. **[설정]** > **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
 1. [뷰어 사전 설정] 화면에서 새로 시작하거나 기존 eCatalog 뷰어 사전 설정에서 시작하여 eCatalog 뷰어 사전 설정을 만듭니다.
 
-   * **eCatalog 뷰어 사전 설정 만들기**[추가]를 클릭합니다. In the Add Viewer Preset dialog box, choose a platform, choose eCatalog Viewer, then click **Add**.
+   * **eCatalog 뷰어 사전 설정 만들기**&#x200B;를 클릭합니다. [뷰어 사전 설정 추가] 대화 상자에서 플랫폼을 선택하고 [전자 카탈로그 뷰어]를 선택한 다음 
+**추가**.
 
-   * **eCatalog 뷰어 사전 설정 편집** eCatalog 뷰어 사전 설정을 선택한 다음 편집을 클릭합니다. Click **Save As** after you finish creating the preset.
+   * **eCatalog 뷰어 사전 설정 편집** eCatalog 뷰어 사전 설정을 선택한 다음 편집을 클릭합니다. 클릭 
+**사전 설정 만들기를** 마친 후 다른 이름으로 저장합니다.
 
 1. [뷰어 구성] 화면에서 eCatalog 뷰어 사전 설정의 이름을 입력합니다.
 1. [뷰어 구성] 화면에서 원하는 선택 사항을 설정합니다.
