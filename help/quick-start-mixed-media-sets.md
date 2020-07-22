@@ -2,15 +2,18 @@
 title: '"빠른 시작: 혼합 미디어 집합"'
 seo-title: '"빠른 시작: 혼합 미디어 집합"'
 description: 널
-seo-description: 빠르게 시작하고 실행하는 데 유용한 소개 및 빠른 시작 혼합 미디어 집합.
+seo-description: 빠른 시작 및 혼합 미디어 집합 빠른 시작을 참조하십시오.
 uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '649'
+ht-degree: 80%
 
 ---
 
@@ -23,13 +26,13 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 
 **빠른 시작**
 
-이 혼합 미디어 집합 빠른 시작은 Dynamic Media Classic의 혼합 미디어 집합 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 고안되었습니다.
+이 혼합 미디어 집합 빠른 시작은 Dynamic Media Classic의 혼합 미디어 집합 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 만들어졌습니다.
 
 **1. 이미지, 견본 파일 및 비디오 업로드**
 
 먼저 혼합 미디어 집합에 사용할 이미지, 견본 파일 및 비디오를 업로드합니다. 사용자가 혼합 미디어 집합 뷰어에서 이미지를 확대/축소할 수 있기 때문에 이미지를 선택할 때 확대/축소를 고려합니다. 이미지의 가장 큰 치수가 2000픽셀 이상인지 확인합니다.
 
-글로벌 탐색 막대에서 [업로드]를 클릭하여 컴퓨터의 파일을 Scene7 Publishing System의 폴더로 업로드합니다. 
+전역 탐색 막대에서 업로드를 클릭하여 컴퓨터의 파일을 Dynamic Media Classic의 폴더로 업로드합니다.
 
 [파일 업로드](uploading-files.md#uploading-your-files)를 참조하십시오.
 
@@ -63,12 +66,12 @@ Dynamic Media Classic에는 혼합 미디어 집합에 대한 기본 뷰어 사�
 
 혼합 미디어 집합을 게시하면 Dynamic Media Classic 서버에 배치되고 URL 문자열이 활성화됩니다.
 
-혼합 미디어 집합은 **비디오 서버**&#x200B;에 게시하고 **이미지 서버**&#x200B;에도 게시해야 합니다. **비디오 서버**&#x200B;를 사용하여 게시하도록 표시한 실제 비디오를 게시합니다. 또한 이미지 서버를 **사용하여** 비디오 축소판과 같은 관련 자산을 게시하고 응용 비디오 세트에 대한 정보를 설정합니다.
+혼합 미디어 집합은 **비디오 서버**&#x200B;에 게시하고 **이미지 서버**&#x200B;에도 게시해야 합니다. **비디오 서버**&#x200B;를 사용하여 게시하도록 표시한 실제 비디오를 게시합니다. 또한 **이미지 서버를** 사용하여 비디오 축소판과 같은 관련 자산을 게시하고 모든 응용 비디오 세트에 대한 정보를 설정합니다.
 
 [혼합 미디어 집합 게시](publishing-mixed-media-set.md#publishing-a-mixed-media-set)를 참조하십시오.
 
 **7. 혼합 미디어 집합을 웹 페이지에 연결**
 
-Dynamic Media Classic에서는 혼합 미디어 집합을 게시한 후 혼합 미디어 집합에 대한 URL 호출을 활성화합니다. [미리 보기] 화면에서 이러한 URL을 복사할 수 있습니다.
+Dynamic Media Classic에서는 혼합 미디어 집합에 대한 URL 호출을 게시한 후 활성화합니다. [미리 보기] 화면에서 이러한 URL을 복사할 수 있습니다.
 
 [혼합 미디어 집합]을 선택하고 [미리 보기]를 클릭합니다. [미리 보기] 화면에서 혼합 미디어 집합 뷰어 사전 설정을 선택하고 [URL 복사] 단추를 클릭합니다. [혼합 미디어 집합을 웹 페이지에 연결](linking-mixed-media-set-web.md#linking-a-mixed-media-set-to-a-web-page)을 참조하십시오.
