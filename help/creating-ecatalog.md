@@ -6,11 +6,14 @@ seo-description: eCatalog를 만드는 방법을 알아봅니다.
 uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1941567db5c154620bb0dcd12e363d7eebc61b20
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1005'
+ht-degree: 78%
 
 ---
 
@@ -36,9 +39,9 @@ eCatalog에는 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 
 1. 먼저 다음 기술 중 하나를 사용하여 eCatalog를 만듭니다.
 
-   **먼저** 파일 선택 찾아보기 패널에서 파일을 선택한 다음 빌드 > eCatalogs를 클릭합니다.
+   **먼저** 파일 선택 찾아보기 패널에서 파일을 선택한 다음 빌드 > e카탈로그를 클릭합니다.
 
-   **eCatalog 화면에서** 시작 작성 > eCatalogs를 클릭합니다. 자산 라이브러리에서 폴더를 선택하고 폴더의 파일을 전자 카탈로그 페이지의 [주문 페이지] 탭으로 드래그합니다.
+   **[전자 카탈로그] 화면에서** 시작[작성] > [e카탈로그]를 클릭합니다. 자산 라이브러리에서 폴더를 선택하고 폴더의 파일을 전자 카탈로그 페이지의 [주문 페이지] 탭으로 드래그합니다.
 
    ***note**: To view the items in the Asset Library by name instead of thumbnail, select the Name option for Default Asset Library View in Personal Setup. *
 
@@ -48,7 +51,7 @@ eCatalog에는 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 
    **드래그** 페이지 또는 페이지 스프레드를 새 위치로 드래그합니다. 세로 막대에 페이지가 이동되는 위치가 표시됩니다.
 
-   **이동 단추** 페이지 또는 페이지 스프레드를 선택하고 이동 단추 를 클릭한 다음, 페이지에 표시할 페이지를 메뉴에서 선택합니다.
+   **이동 단추** 페이지 또는 페이지 스프레드를 선택하고 이동 단추를 클릭한 다음 페이지에 표시할 페이지의 메뉴에서 페이지를 선택합니다.
 
    **시퀀스 #** 목록 보기에서 시퀀스 번호 필드에 페이지 번호를 입력합니다.
 
@@ -66,7 +69,7 @@ eCatalog에는 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 | 세트를 이미 게시했습니까? | 편집 내용을 저장하기 전에 [저장 후 게시] 옵션을 선택했습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
 |--- |--- |--- |--- |
 | 예 | 예 | 게시됨 | 게시됨 |
-| 예 | 아니요 | 게시됨 | 기존 세트 구성원은 게시된 상태를 유지합니다.편집 중에 추가한 모든 새 세트 멤버는 게시되었거나 게시 취소된 상태를 유지합니다. |
+| 예 | 아니요 | 게시됨 | 기존 세트 멤버는 게시된 상태를 유지합니다.편집 중에 추가한 모든 새 세트 멤버는 게시되었거나 게시 취소된 상태를 유지합니다. |
 | 아니요 | 예 | 게시됨 | 게시됨 |
 | 아니요 | 아니요 | 게시 취소됨 | 기존 세트 구성원과 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
 
@@ -92,7 +95,7 @@ eCatalog에는 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 
 ## TOC(목차) 사용자 지정 {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic은 eCatalog 화면의 [주문 페이지] 탭에 있는 eCatalog에서 기본 페이지 번호를 제공합니다. 사용자 지정 페이지 이름의 경우 TOC(목차)를 구성하는 페이지 레이블을 변경할 수 있습니다. 앞 표지와 뒤 표지의 이름을 바꾸는 것이 좋습니다. 예를 들어 전면 표지 페이지에서 &quot;Page 0-1&quot; 대신 &quot;Cover&quot;를 읽을 수 있습니다.
+Dynamic Media Classic은 eCatalog 화면의 주문 페이지 탭에 있는 eCatalog에서 기본 페이지 번호를 제공합니다. 사용자 지정 페이지 이름의 경우 TOC(목차)를 구성하는 페이지 레이블을 변경할 수 있습니다. 앞 표지와 뒤 표지의 이름을 바꾸는 것이 좋습니다. 예를 들어 전면 표지 페이지에서 &quot;Page 0-1&quot; 대신 &quot;Cover&quot;를 읽을 수 있습니다.
 
 CSV(Mac에만 해당) 또는 XML 파일에서 페이지 이름을 가져오거나 수동으로 eCatalog에 대한 사용자 지정 TOC(목차)를 만들 수 있습니다.
 
@@ -108,7 +111,7 @@ CSV(Mac에만 해당) 또는 XML 파일에서 페이지 이름을 가져오거�
 
 많은 페이지가 포함된 eCatalog를 다루는 경우 페이지 이름을 가져오는 것이 좋습니다. 탭으로 구분된 파일이나 XML 파일에서 이름을 가져올 수 있습니다.
 
-TOC 레이블은 이미지의 사용자 데이터 필드에 저장됩니다.이 데이터를 목록 형식으로 `name=<value>`` pairs separated by two question marks “??” `지정합니다. 예를 들어 tocEN이라는 TOC 필드에 대한 레이블 하나를 설정하려면 이미지의 사용자 데이터를 다음과 같이 설정합니다.
+TOC 레이블은 이미지의 사용자 데이터 필드에 저장됩니다. 이 데이터를 목록 형식으로 `name=<value>`` pairs separated by two question marks “??” `지정합니다. 예를 들어 tocEN이라는 TOC 필드에 대해 하나의 레이블을 설정하려면 이미지의 사용자 데이터를 다음과 같이 설정합니다.
 
 tocEN=&lt;EN_page_label>
 
