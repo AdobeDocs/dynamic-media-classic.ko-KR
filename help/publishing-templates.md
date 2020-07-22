@@ -2,22 +2,25 @@
 title: 템플릿 게시
 seo-title: 템플릿 게시
 description: 널
-seo-description: 템플릿을 게시하는 방법을 알아봅니다.
+seo-description: 템플릿을 게시하는 방법에 대해 알아봅니다.
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 41%
 
 ---
 
 
 # 템플릿 게시{#publishing-templates}
 
-템플릿을 게시하면 웹 사이트 및 애플리케이션에서 사용할 수 있는 Dynamic Media 이미지 서버에 배치됩니다. 게시 프로세스에서 Scene7 Publishing System이 웹 사이트와 애플리케이션에 필요한 URL을 활성화합니다.
+템플릿을 게시하면 웹 사이트 및 애플리케이션에서 사용할 수 있는 Dynamic Media 이미지 서버에 해당 템플릿이 배치됩니다. 게시 프로세스 동안 Dynamic Media Classic에서는 웹 사이트 및 애플리케이션에 필요한 URL을 활성화합니다.
 
 >[!NOTE]
 >
@@ -25,7 +28,7 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 ## 템플릿을 게시로 표시 {#marking-templates-for-publish}
 
-템플릿 및 모든 지원 파일을 Dynamic Media 이미지 서버에 배치하려면 게시로 표시해야 합니다. You can mark these items for publish in the Browse Panel by clicking the **Mark for Publish** icon.
+Dynamic Media 이미지 서버에 배치하려면 템플릿 및 모든 지원 파일을 게시로 표시해야 합니다. You can mark these items for publish in the Browse Panel by clicking the **Mark for Publish** icon.
 
 ## 템플릿 게시 {#publishing-your-template}
 
