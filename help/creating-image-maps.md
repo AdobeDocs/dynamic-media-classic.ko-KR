@@ -6,11 +6,14 @@ seo-description: 이미지 맵을 만드는 방법을 알아봅니다.
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '2444'
+ht-degree: 74%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
 
 이미지 맵은 이미지, eCatalog 페이지 또는 회전 집합 이미지의 영역으로, 텍스트가 있는 롤오버 패널을 표시합니다. 사용자가 이미지 맵을 클릭하면 일종의 작업이 트리거됩니다. 예를 들어 사용자가 제품에 대한 자세한 정보를 확인할 수 있도록 웹 페이지가 시작됩니다. 이미지 맵에 주의하도록 사용자가 포인터를 이미지 위로 이동할 때 이미지 맵 주위에 윤곽이 나타납니다.
 
-Dynamic Media Classic에서 이미지 맵을 만들거나 Adobe Acrobat 또는 Adobe InDesign에서 카탈로그를 디자인할 때 이미지 맵을 만들 수 있습니다.
+Dynamic Media Classic에서 이미지 맵을 만들거나 Adobe Acrobat 또는 Adobe InDesign에서 카탈로그를 디자인할 때 이미지 맵을 만들 수도 있습니다.
 
 이미지 맵을 만들 때 다음 중 원하는 작업을 수행할 수 있습니다.
 
@@ -39,17 +42,18 @@ Dynamic Media Classic에서 이미지 맵을 만들거나 Adobe Acrobat 또는 A
    * If you are working with an image in the Grid View or List View, in the Edit drop-down list click **Image Map**. Or, open it in Detail View, and then click **Image Map** above the image.
    * If you are working with a SpinSet in the Grid View or List View, click **Edit**. Or, open it in Detail View, and then click **Edit**. Select an image asset, and then click **Image Map**.
    * If you are working with an eCatalog, in the Grid View, List View, Detail View, click **Edit**. Click the **Map Pages** tab.
+
    ![](assets/ma_image_map.png)
 
 1. 사각형 또는 다각형(다변형) 이미지 맵을 그립니다.
 
-   **사각형 맵** 사각형 이미지 맵 툴을 선택하고 페이지에서 드래그하여 사각형을 만듭니다. 사각형 맵에 점을 추가하여 다각형 맵으로 변경하려면 Ctrl 키를 누르고 원하는 위치에 삽입 도구를 놓은 다음 클릭합니다.
+   **직사각형 맵** 사각형 이미지 맵 툴을 선택하고 페이지에서 드래그하여 사각형을 만듭니다. 사각형 맵에 점을 추가하여 다각형 맵으로 변경하려면 Ctrl 키를 누르고 원하는 위치에 삽입 도구를 놓은 다음 클릭합니다.
 
-   **다각형 맵** 다각형 이미지 맵 툴을 선택하고 포함할 이미지 영역의 둘레에서 점을 클릭합니다. 다각형 밀도 슬라이더를 사용하여 다각형의 점 밀도를 변경합니다. 다른 맵을 선택할 경우 원본 밀도가 저장됩니다. 다각형에서 점을 추가, 삭제 또는 이동하면 원본 밀도가 손실되고 슬라이더가 최대값으로 재설정됩니다.
+   **다각형 맵** 다각형 이미지 맵 툴을 선택하고 포함할 이미지 영역의 둘레에 있는 점을 클릭합니다. 다각형 밀도 슬라이더를 사용하여 다각형의 점 밀도를 변경합니다. 다른 맵을 선택할 경우 원본 밀도가 저장됩니다. 다각형에서 점을 추가, 삭제 또는 이동하면 원본 밀도가 손실되고 슬라이더가 최대값으로 재설정됩니다.
 
-1. 원하는 경우 [이미지 맵] 목록에 이미지 맵 이름을 입력합니다. 이미지 맵을 그리면 Dynamic Media Classic에서 이름을 할당합니다.
+1. 원하는 경우 [이미지 맵] 목록에 이미지 맵 이름을 입력합니다. 이미지 맵을 그리면 Dynamic Media Classic에서 이름을 지정합니다.
 
-   이름을 만들기 위해 Dynamic Media Classic은 작업 중인 이미지 또는 eCatalog 페이지의 이름에 순차적 번호를 추가합니다. 선택한 이름을 입력할 수 있습니다.
+   이름을 만들려면 Dynamic Media Classic에서 작업 중인 이미지 또는 eCatalog 페이지의 이름에 순차적 번호를 추가합니다. 선택한 이름을 입력할 수 있습니다.
 
 1. 사용자가 [이미지 맵]을 클릭할 때 새 웹 페이지를 열려면 [이미지 맵] 목록에 URL을 입력합니다.
 
@@ -70,15 +74,15 @@ Dynamic Media Classic에서 이미지 맵을 만들거나 Adobe Acrobat 또는 A
 
 ### 이미지 맵의 위치, 모양 및 크기 조정 {#adjusting-the-position-shape-and-size-of-image-maps}
 
-이미지 맵의 위치, 모양 및 크기를 변경하려면 [이미지 맵] 단추 를 선택합니다. 그런 다음 [이동] 도구를 선택하고 다음 지침을 따릅니다.
+이미지 맵의 위치, 모양 및 크기를 변경하려면 [이미지 맵] 단추 를 선택합니다. 그런 다음 이동 툴을 선택하고 다음 지침을 따릅니다.
 
-**위치** 변경 포인터를 이미지 맵의 테두리 근처로 이동합니다. 십자형 화살표 아이콘이 표시되면 맵을 새 위치로 드래그합니다.
+**위치** 변경 포인터를 이미지 맵의 테두리 위로 이동하지 말고 다음으로 이동합니다. 십자형 화살표 아이콘이 표시되면 맵을 새 위치로 드래그합니다.
 
 **크기 및 모양** 변경 이미지 맵의 모양과 크기를 변경하는 방법은 사각형 또는 다각형 이미지 맵을 사용하여 작업하는지 여부에 따라 달라집니다.
 
-***팁&#x200B;**:화면 하단에 있는 크기 슬라이더를 드래그하여 보기를 변경하고 이미지 맵을 더 잘 볼 수 있습니다.*
+***팁&#x200B;**: 화면 하단에 있는 크기 슬라이더를 드래그하여 보기를 변경하고 이미지 맵을 더 잘 볼 수 있습니다.*
 
-**사각형 이미지** 맵 포인터를 이미지 맵의 측면 또는 모서리 위로 이동합니다. 양면 화살표 아이콘이 표시되면 끌기를 시작합니다. Shift 키를 누른 상태로 끌어 크기를 변경하지만 종횡비(모양)는 유지합니다.
+**사각형 이미지 맵** 이미지 맵의 측면 또는 모서리 위로 포인터를 이동합니다. 양면 화살표 아이콘이 표시되면 끌기를 시작합니다. Shift 키를 누른 상태로 끌어 크기를 변경하지만 종횡비(모양)는 유지합니다.
 
 **다각형 이미지 맵** 정사각형 선택 핸들을 드래그합니다. 선택 핸들을 만들려면 이미지 맵의 테두리를 클릭하고 끌기를 시작합니다.
 
@@ -136,7 +140,7 @@ Javascript:loadProduct(‘$$’);void(0);
 
 이미지 맵 간에 변경되지 않는 모든 값을 URL 템플릿에 배치합니다. 변경되는 값만 [이미지 맵] 목록의 URL 열에 추가합니다. 예:
 
-* URL 템플릿:j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
+* URL 템플릿: j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
 * URL 값: `product.htm`
 * 생성된 실제 URL: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
@@ -150,7 +154,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
    : URL 열에 지정된 URL 타겟을 상위 창(현재 창을 연 페이지)에 표시합니다. 현재 창은 열려 있지만 상위 창이 URL 타겟을 표시하도록 변경됩니다.
 
-   ***참고&#x200B;**:처리기는 DHTML 및 HTML5 뷰어를 지원하지`loadProductPW`않습니다.*
+   ***참고&#x200B;**: 핸들러는 DHTML 및 HTML5 뷰어를 지원하지`loadProductPW`않습니다.*
 
 ### URL 템플릿 만들기 {#creating-a-url-template}
 
@@ -172,11 +176,11 @@ URL 템플릿을 만들려면:
 
 [표시] 메뉴를 선택한 다음 [다른 작업]을 선택하여 롤오버 텍스트와 웹 페이지 시작 이외의 작업을 트리거할 수 있습니다. 사용자가 포인터를 이미지 맵 위로 이동할 때 작업을 시작할 수 있습니다. 이러한 작업은 World Wide Web Consortium HTML 사양에서 클라이언트측 이미지 맵에 대해 정의된 특성입니다. 그러한 보고서는 아래와 같습니다.
 
-**액세스** 키 사용자가 키보드에서 지정된 키를 누를 때 동작을 트리거합니다.
+**접근키** 사용자가 키보드에서 지정된 키를 누를 때 동작을 트리거합니다.
 
-**onfocus** 이미지 맵이 포커스를 받을 때 커서, 탭 또는 액세스 키를 눌러 이벤트를 트리거합니다. 예를 들어 이미지 맵에 포커스가 있을 때 웹 페이지를 시작하고 이미지 맵이 포커스를 잃을 때 웹 페이지를 닫을 수 있습니다.
+**onfocus** 이미지 맵에서 포커스를 받으면 커서, 탭, 액세스 키를 눌러 이벤트를 트리거합니다. 예를 들어 이미지 맵에 포커스가 있을 때 웹 페이지를 시작하고 이미지 맵이 포커스를 잃을 때 웹 페이지를 닫을 수 있습니다.
 
-**onblur** 이미지 맵이 커서 또는 탭하여 초점을 잃으면 이벤트를 트리거합니다.
+**onblur** 이미지 맵에서 커서 또는 탭 방식으로 초점이 사라지면 이벤트를 트리거합니다.
 
 **이미지 맵의 다른 작업을 정의하려면**
 
@@ -190,7 +194,7 @@ URL 템플릿을 만들려면:
 
 Adobe Acrobat 또는 Adobe InDesign에서 eCatalog를 디자인하는 동안 이미지 맵을 만들 수 있습니다.
 
-Acrobat 또는 InDesign에서 이미지 맵을 표시할 하이퍼링크 참조를 만들고 이미지 맵의 URL 위치를 지정합니다. PDF 파일을 Dynamic Media Classic으로 업로드할 때 링크 추출 옵션을 선택하면 링크가 이미지 맵으로 자동 변환됩니다.
+Acrobat 또는 InDesign에서 이미지 맵을 표시할 하이퍼링크 참조를 만들고 이미지 맵의 URL 위치를 지정합니다. PDF 파일을 Dynamic Media Classic으로 업로드할 때 링크 추출 옵션을 선택하면 링크가 이미지 맵에 자동으로 변환됩니다.
 
 자세한 내용은 InDesign 도움말이나 Acrobat 도움말을 참조하십시오.
 
@@ -216,11 +220,11 @@ Acrobat 또는 InDesign에서 이미지 맵을 표시할 하이퍼링크 참조�
 1. 마우스를 끌어 이미지 맵을 만듭니다. [링크 만들기] 상자가 열립니다.
 1. [사용자 지정 링크]를 선택하고 [다음]을 클릭합니다.
 
-   ***참고&#x200B;**:Acrobat에서 모양 옵션을 설정할 필요는 없습니다. Dynamic Media Classic에서 모양을 지정할 수 있습니다.*
+   ***참고&#x200B;**: Acrobat에서 모양 옵션을 설정할 필요는 없습니다. Dynamic Media Classic에서 모양을 지정할 수 있습니다.*
 
 1. [링크 속성] 상자에서 [작업]을 클릭합니다.
 1. [작업 선택] 메뉴에서 [웹 링크 열기]를 선택하고 [추가]를 클릭합니다.
-1. [URL 편집] 상자에 이미지 맵의 제품 ID를 입력하고 [확인]을 클릭합니다. Dynamic Media Classic에서는 이미지 맵 URL 템플릿을 사용하여 URL을 완료합니다.
+1. [URL 편집] 상자에 이미지 맵의 제품 ID를 입력하고 [확인]을 클릭합니다. (Dynamic Media Classic에서는 이미지 맵 URL 템플릿을 사용하여 URL을 완료합니다.)
 1. 만들려는 모든 이미지 맵에 대해 1-7 단계를 반복합니다.
 1. 파일을 저장합니다.
 1. PDF를 Dynamic Media Classic에 업로드하고 PDF 옵션에서 링크 추출을 선택합니다.
