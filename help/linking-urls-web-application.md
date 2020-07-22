@@ -6,26 +6,29 @@ seo-description: 웹 애플리케이션에 URL을 연결하는 방법을 알아�
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '841'
+ht-degree: 72%
 
 ---
 
 
 # URL을 웹 애플리케이션에 연결{#linking-urls-to-your-web-application}
 
-웹 사이트와 애플리케이션은 URL 문자열을 통해 Dynamic Media Image Server 컨텐츠에 액세스합니다. 이미지를 게시하면 Dynamic Media Classic에서 다이내믹 미디어 이미지 서버의 이미지 사전 설정을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 이 URL을 웹 브라우저에 붙여 넣을 수 있습니다.
+웹 사이트 및 응용 프로그램은 URL 문자열을 통해 Dynamic Media 이미지 서버 컨텐츠에 액세스합니다. 이미지를 게시하면 Dynamic Media Classic에서 Dynamic Media 이미지 서버의 이미지 사전 설정을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 이 URL을 웹 브라우저에 붙여 넣을 수 있습니다.
 
-웹 페이지와 애플리케이션에 이 URL 문자열을 배치하려면 Scene7 Publishing System에서 복사합니다. 이미지 사전 설정을 사용하여 생성된 URL 문자열을 얻으려면 [미리 보기] 화면이나 찾아보기 패널([세부 사항 보기])로 이동합니다.
+웹 페이지 및 응용 프로그램에 이러한 URL 문자열을 배치하려면 Dynamic Media Classic에서 복사합니다. 이미지 사전 설정을 사용하여 생성된 URL 문자열을 얻으려면 [미리 보기] 화면이나 찾아보기 패널([세부 사항 보기])로 이동합니다.
 
 ## 이미지 사전 설정 URL 얻기 {#obtaining-an-image-preset-url}
 
 [미리 보기] 또는 [세부 사항 보기]에서 이미지 사전 설정에 의해 생성된 URL 문자열을 얻을 수 있습니다. URL을 복사하면 필요한 경우 붙여 넣을 수 있도록 클립보드에 저장됩니다.
 
-***참고&#x200B;**:자산을 게시하기 전까지는 URL이 활성화되지 않습니다.*
+***참고&#x200B;**: 자산을 게시하기 전에는 URL이 활성화되지 않습니다.*
 
 ### 미리 보기에서 이미지 사전 설정 URL 얻기 {#obtaining-an-image-preset-url-from-preview}
 
@@ -50,11 +53,11 @@ source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
 
 ## 이미지 사전 설정 URL 문자열 정보 {#about-image-preset-url-strings}
 
-다이내믹 미디어 이미지 서버에 대한 이미지 크기 지정에 대한 URL 호출에는 다음과 같은 기본 구문이 있습니다.
+Dynamic Media 이미지 서버에 대한 이미지 크기 조정을 위한 URL 호출에는 다음과 같은 기본 구문이 있습니다.
 
 *path*/*name of Image Server*/*account name*/*image name*?*modifier1*&amp;*modifier2*&amp;...
 
-Dynamic Media 이미지 서버 URL에서 이미지를 표시하기 위한 서버 지침이 물음표(?) 뒤에 표시됩니다. 예를 들어 다음 URL 호출은 &quot;backpack&quot;이라는 이미지를 250픽셀 너비로 제공합니다.
+Dynamic Media 이미지 서버 URL에서 이미지를 표시하기 위한 서버에 대한 지침이 물음표(?) 뒤에 나타납니다. 예를 들어 다음 URL 호출은 &quot;backpack&quot;이라는 이미지를 250픽셀 너비로 제공합니다.
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
