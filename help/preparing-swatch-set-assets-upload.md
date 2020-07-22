@@ -2,15 +2,18 @@
 title: 업로드할 견본 집합 자산 준비
 seo-title: 업로드할 견본 집합 자산 준비
 description: 널
-seo-description: 업로드할 견본 집합 자산을 준비하는 방법을 알아봅니다.
+seo-description: 업로드할 견본 집합 에셋을 준비하는 방법을 알아봅니다.
 uuid: ed78da8c-d708-418b-97ce-3c37d9df9c90
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0c851ecd-be05-46a9-8654-3d028f3217a4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '179'
+ht-degree: 85%
 
 ---
 
@@ -24,7 +27,7 @@ source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
 * 동일한 재킷의 검정색, 갈색 및 녹색 촬영
 * 검정색, 갈색 및 녹색 색상 견본
 
-사용자가 견본 집합의 이미지를 확대/축소할 수 있기 때문에 이미지의 가장 큰 치수가 2000픽셀 이상인지 확인합니다. Dynamic Media Classic은 많은 이미지 파일 형식을 지원하지만 손실 없는 TIFF, PNG 및 EPS 이미지가 권장됩니다.
+사용자가 견본 집합의 이미지를 확대/축소할 수 있기 때문에 이미지의 가장 큰 치수가 2000픽셀 이상인지 확인합니다. Dynamic Media Classic에서는 많은 이미지 파일 형식을 지원하지만 손실 없는 TIFF, PNG 및 EPS 이미지가 권장됩니다.
 
 자산 업로드에 대한 자세한 내용은 [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오.
 
