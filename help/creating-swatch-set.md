@@ -6,11 +6,14 @@ seo-description: 견본 세트를 만드는 방법을 알아봅니다.
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '706'
+ht-degree: 84%
 
 ---
 
@@ -23,8 +26,11 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
 ## 견본 집합 만들기 {#create}
 
-세트를 만들 때 [저장 **후 게시** ] 옵션은 다음과 같은 방법으로 세트와 세트 구성원에 영향을 줍니다.
-|&quot;저장 후 게시&quot; 옵션을 선택한 후?|저장 후 설정 상태|저장 후 세트 멤버 상태||—|—|—||Yes|Published|Published||No|Unpublished|Set 멤버는 게시되었거나 게시 취소된 상태를 유지합니다.|
+세트를 만들 때 [저장 후 **게시** ] 옵션은 다음과 같은 방법으로 세트 및 설정 멤버에 영향을 줍니다.
+|&quot;저장 후 게시&quot; 옵션을 선택한 경우?|저장 후 설정 상태|저장 후 집합 구성원의 상태|
+|— |— |— |
+|Yes|Published|Published|
+|No|Unpublished|Set 구성원이 게시 또는 게시 취소된 상태를 유지합니다.|
 
 [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
@@ -34,7 +40,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 
    **먼저** 이미지 선택 찾아보기 패널에서 이미지를 선택한 다음 작성 > 견본 집합을 클릭합니다.
 
-   **견본 집합 화면에서** 시작 작성 > 견본 집합을 클릭합니다. 자산 라이브러리에서 폴더를 선택하고 이미지를 [견본 집합] 페이지의 [보기] 섹션으로 드래그합니다.
+   **견본 집합 화면에서** 시작[작성] > [견본 집합]을 클릭합니다. 자산 라이브러리에서 폴더를 선택하고 이미지를 [견본 집합] 페이지의 [보기] 섹션으로 드래그합니다.
 
 1. 견본 색상, 패턴 또는 마무리를 [견본 집합] 페이지의 [견본] 자리 표시자 상자로 드래그합니다.
 
@@ -52,7 +58,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 | 세트를 이미 게시했습니까? | 편집 내용을 저장하기 전에 [저장 후 게시] 옵션을 선택했습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
 |--- |--- |--- |--- |
 | 예 | 예 | 게시됨 | 게시됨 |
-| 예 | 아니요 | 게시됨 | 기존 세트 구성원은 게시된 상태를 유지합니다.편집 중에 추가한 모든 새 세트 멤버는 게시되었거나 게시 취소된 상태를 유지합니다. |
+| 예 | 아니요 | 게시됨 | 기존 세트 멤버는 게시된 상태를 유지합니다.편집 중에 추가한 모든 새 세트 멤버는 게시되었거나 게시 취소된 상태를 유지합니다. |
 | 아니요 | 예 | 게시됨 | 게시됨 |
 | 아니요 | 아니요 | 게시 취소됨 | 기존 세트 구성원과 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
 
