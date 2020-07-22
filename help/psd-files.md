@@ -2,24 +2,27 @@
 title: PSD 파일 작업
 seo-title: PSD 파일 작업
 description: 널
-seo-description: PSD 파일을 사용하여 작업하는 방법을 살펴봅니다.
+seo-description: PSD 파일을 사용하여 작업하는 방법을 알아봅니다.
 uuid: 5836b660-6bca-46e7-ab39-1a31d1e0cff2
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '1030'
+ht-degree: 64%
 
 ---
 
 
 # PSD 파일 작업{#working-with-psd-files}
 
-PSD(Photoshop Document 파일)는 Dynamic Media Classic에서 템플릿을 만드는 데 가장 많이 사용됩니다. PSD 파일을 업로드할 때 파일에서 자동으로 Dynamic Media Classic 템플릿을 만들 수 있습니다(업로드 화면에서 템플릿 만들기 옵션 선택).
+PSD(Photoshop Document 파일)는 템플릿을 만드는 데 주로 Dynamic Media Classic에서 사용됩니다. PSD 파일을 업로드할 때 파일에서 자동으로 Dynamic Media Classic 템플릿을 만들 수 있습니다(업로드 화면에서 템플릿 만들기 옵션 선택).
 
-레이어가 있는 PSD 파일을 사용하여 템플릿을 만드는 경우 SPS는 해당 파일에서 여러 이미지를 만듭니다. 각 레이어에 대해 하나의 이미지가 만들어집니다.
+Dynamic Media Classic에서는 파일을 사용하여 템플릿을 만드는 경우 레이어가 포함된 PSD 파일에서 여러 이미지를 만듭니다. 각 레이어에 대해 하나의 이미지를 만듭니다.
 
 ## PSD 업로드 선택 사항 {#psd-upload-options}
 
@@ -45,35 +48,35 @@ PSD 파일을 업로드할 때 사용할 수 있는 선택 사항은 다음과 �
 
 **sRGB로 변환(기본값)** sRGB로 변환합니다(표준 빨강 녹색 파랑). sRGB는 웹 페이지에 이미지를 표시할 때 권장되는 색상 공간입니다.
 
-**원본 색상 공간** 유지 이미지의 원래 색상 공간을 유지합니다.
+**원본 색상 공간 유지** 이미지의 원래 색상 공간을 유지합니다.
 
-**[사용자 정의 시작** ] > [대상] 메뉴를 열어 [변환 대상] 및 [색상 공간으로 변환]을 선택할 수 있습니다. 표준 Photoshop 색상 공간이나 SPS로 업로드한 색상 공간을 선택할 수 있습니다. ICC 프로필을 참조하십시오.
+**[사용자 정의 시작] > [열기]** 메뉴를 열어 [전환] 및 [색상 공간으로 변환]을 선택할 수 있습니다. 표준 Photoshop 색상 공간 또는 Dynamic Media Classic에 업로드한 색상 공간을 선택할 수 있습니다. ICC 프로필을 참조하십시오.
 
 **레이어 유지** PSD의 레이어(있는 경우)를 개별 에셋으로 리핑합니다. 자산 레이어의 PSD 연결은 유지됩니다. [세부 사항 보기]에서 PSD 파일을 열고 레이어 패널을 선택하면 레이어를 볼 수 있습니다. PSD 파일에서 레이어 보기 및 편집을 참조하십시오.
 
 **템플릿** 만들기 PSD 파일의 레이어에서 템플릿을 만듭니다.
 
-**텍스트** 추출사용자가 뷰어에서 텍스트를 검색할 수 있도록 텍스트를 추출합니다.
+**텍스트** 추출 사용자가 뷰어에서 텍스트를 검색할 수 있도록 텍스트를 추출합니다.
 
-**레이어를 배경 크기로** 확장 리핑된 이미지 레이어의 크기를 배경 레이어의 크기로 확장합니다.
+**레이어를 배경 크기로 확장** 리핑된 이미지 레이어의 크기를 배경 레이어의 크기로 확장합니다.
 
-**PSD** 파일의 레이어 이름 지정 레이어는 별도의 이미지로 업로드됩니다. Scene7 Publishing System에서 이러한 이미지의 이름을 지정하는 선택 사항을 선택합니다.
+**PSD 파일의 레이어 이름** 지정 레이어는 개별 이미지로 업로드됩니다. Dynamic Media Classic에서 이러한 이미지의 이름을 지정하는 옵션을 선택합니다.
 
-**레이어 이름** PSD 파일에서 레이어 이름 다음에 이미지 이름을 지정합니다. 예를 들어 원본 PSD 파일에서 이름이 Price Tag인 레이어는 이미지 이름도 Price Tag가 됩니다. 그러나 PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름(배경, 레이어 1, 레이어 2 등)인 경우 기본 레이어 이름이 아니라 PSD 파일의 레이어 이름에 따라 이미지 이름이 지정됩니다.
+**레이어 이름** PSD 파일에서 해당 레이어 이름 뒤에 이미지 이름을 지정합니다. 예를 들어 원본 PSD 파일에서 이름이 Price Tag인 레이어는 이미지 이름도 Price Tag가 됩니다. 그러나 PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름(배경, 레이어 1, 레이어 2 등)인 경우 기본 레이어 이름이 아니라 PSD 파일의 레이어 이름에 따라 이미지 이름이 지정됩니다.
 
-**Photoshop 및 레이어** 번호 PSD 파일에서 레이어 번호 다음에 이미지 이름을 지정하여 원본 레이어 이름을 무시합니다. Photoshop 파일 이름 뒤에 레이어 번호가 붙어 이미지의 이름이 지정됩니다. 예를 들어 Spring Ad.psd라는 파일의 두 번째 레이어 이름은 Photoshop에서 기본 이름을 사용하지 않은 경우에도 Spring Ad_2로 지정됩니다.
+**Photoshop 및 레이어 번호** PSD 파일에서 레이어 번호 뒤에 이미지를 지정하고 원본 레이어 이름은 무시합니다. Photoshop 파일 이름 뒤에 레이어 번호가 붙어 이미지의 이름이 지정됩니다. 예를 들어 Spring Ad.psd라는 파일의 두 번째 레이어 이름은 Photoshop에서 기본 이름을 사용하지 않은 경우에도 Spring Ad_2로 지정됩니다.
 
-**Photoshop 및** 레이어 이름 PSD 파일 다음에 레이어 이름 또는 레이어 번호가 오는 이미지 이름을 지정합니다. 레이어 번호는 PSD 파일의 레이어 이름이 Photoshop 기본 레이어 이름인 경우 사용됩니다. 예를 들어 SpringAd로 지정된 PSD 파일의 레이어 이름이 Price Tag라면 Spring Ad_Price Tag가 됩니다. 기본 이름 레이어 2를 가진 레이어는 Spring Ad_2가 됩니다.
+**Photoshop 및 레이어 이름** PSD 파일 뒤에 레이어 이름이나 레이어 번호가 나오는 이미지 이름을 지정합니다. 레이어 번호는 PSD 파일의 레이어 이름이 Photoshop 기본 레이어 이름인 경우 사용됩니다. 예를 들어 SpringAd로 지정된 PSD 파일의 레이어 이름이 Price Tag라면 Spring Ad_Price Tag가 됩니다. 기본 이름 레이어 2를 가진 레이어는 Spring Ad_2가 됩니다.
 
 **앵커** PSD 파일에서 생성된 레이어로 구성된 컴포지션에서 생성된 템플릿에서 이미지가 고정되는 방식을 지정합니다. 기본 앵커는 가운데입니다. 가운데 앵커를 통해 대체 이미지의 종횡비에 상관없이 같은 공간을 대체 이미지로 가장 알맞게 채울 수 있도록 합니다. 템플릿 참조 및 매개 변수 대체 사용 시 해당 이미지를 다른 종횡비의 이미지로 대체할 때 효과적으로 같은 공간을 점유합니다. 템플릿의 지정된 공간을 채울 대체 이미지가 애플리케이션에 필요한 경우 다른 설정으로 변경합니다.
 
 ## PSD 파일에서 레이어 보기 및 편집 {#viewing-and-editing-layers-in-a-psd-file}
 
-PSD를 업로드할 때 레이어 유지 옵션을 선택한 경우 Dynamic Media Classic에서 개별 레이어를 에셋으로 리핑했습니다. [세부 사항 보기]의 찾아보기 패널에서 파일을 열어 PSD 파일에 속하는 자산 레이어를 보고 편집할 수 있습니다.
+PSD를 업로드할 때 레이어 유지 옵션을 선택한 경우 Dynamic Media Classic에서는 개별 레이어를 에셋으로 리핑했습니다. [세부 사항 보기]의 찾아보기 패널에서 파일을 열어 PSD 파일에 속하는 자산 레이어를 보고 편집할 수 있습니다.
 
 1. 찾아보기 패널에서 전체 PSD 파일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다.
 
-   ***참고&#x200B;**:PSD 레이어 중 하나가 아닌 전체 에셋을 열어야 합니다.*
+   ***참고&#x200B;**: PSD 레이어 중 하나가 아닌 전체 에셋을 열어야 합니다.*
 
 1. [레이어]를 클릭하여 [레이어] 패널을 엽니다. 모든 레이어가 [레이어] 패널에 개별 이미지로 표시됩니다.
 1. 레이어를 두 번 클릭하여 열고 다음 중 원하는 작업을 수행합니다.
