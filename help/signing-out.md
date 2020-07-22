@@ -2,32 +2,37 @@
 title: 로그인 및 로그아웃
 seo-title: 로그인 및 로그아웃
 description: 널
-seo-description: Dynamic Media Classic에서 로그인 및 로그아웃에 대해 자세히 알아보기
+seo-description: Dynamic Media Classic에서 로그인 및 로그아웃에 대한 자세한 내용
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '311'
+ht-degree: 39%
 
 ---
 
 
+<!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
+
 # 로그인 및 로그아웃{#signing-in-and-out}
 
-Scene7 Publishing System에서 업로드, 작성 및 게시하려면 특정 사용자 사전 요구 사항과 시스템 요구 사항을 충족해야 합니다. 로그인하여 SPS에 자신을 식별합니다. Dynamic Media Classic 사용을 완료하면 로그아웃합니다.
+Dynamic Media Classic을 사용하여 업로드, 빌드 및 게시하려면 특정 사용자 요구 사항과 시스템 요구 사항을 충족해야 합니다. 로그인하면 Dynamic Media Classic에 자신을 식별할 수 있습니다. Dynamic Media Classic 사용을 마치면 로그아웃하십시오.
 
 Dynamic Media Classic을 사용하기 전에 다음 사항이 있는지 확인하십시오.
 
 * **설정**&#x200B;관리자가 Dynamic Media Classic을 사용하도록 설정해야 합니다.
 
-* **URL** Dynamic Media Classic에 액세스할 수 있는 URL 위치가 있어야 합니다. 이 URL 파섹
+* **URL** Dynamic Media Classic에 액세스하기 위한 URL 위치가 있어야 합니다. 이 URL은 &quot;환영&quot; 이메일 또는 Dynamic Media Classic 관리자를 통해 얻습니다.
 
-* **로그인**&#x200B;이름전자 메일 주소를 로그인 이름으로 사용합니다.
+* **로그인 이름**&#x200B;이메일 주소를 로그인 이름으로 사용합니다.
 
-* **암호** Dynamic Media Classic 또는 Dynamic Media Classic 관리자의 &quot;시작&quot; 전자 메일에 임시 암호를 받습니다. 처음 로그인하면 이 임시 암호를 변경하라는 메시지가 표시됩니다.
+* **암호** Dynamic Media Classic 또는 Dynamic Media Classic 관리자의 &quot;시작&quot; 전자 메일에 임시 암호를 가져옵니다. 처음 로그인하면 이 임시 암호를 변경하라는 메시지가 표시됩니다.
 
 ## 로그인 {#sign-in}
 
