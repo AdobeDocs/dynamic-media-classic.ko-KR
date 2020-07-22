@@ -6,11 +6,14 @@ seo-description: 비디오 SEO 설정을 구성하는 방법을 알아봅니다.
 uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 translation-type: tm+mt
-source-git-commit: de7d2608f94935f238a11d8310b97dddc5476f57
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '984'
+ht-degree: 66%
 
 ---
 
@@ -19,11 +22,11 @@ source-git-commit: de7d2608f94935f238a11d8310b97dddc5476f57
 
 SEO는 검색 엔진에서 웹 사이트로의 트래픽 볼륨을 향상시키는 프로세스입니다. 검색 엔진은 텍스트 기반 컨텐츠에서 정보를 수집하는 기능은 우수하지만 정보가 제공되지 않은 경우 비디오 정보를 제대로 가져올 수 없습니다.
 
-Dynamic Media Classic 비디오 SEO를 사용하면 비디오 메타데이터를 활용하여 검색 엔진에 비디오에 대한 설명을 제공할 수 있습니다. Dynamic Media Classic에서는 비디오 사이트 맵과 mRSS 피드를 만들 수 있습니다. 이러한 항목은 비디오 정보를 검색 엔진에 전송하기 위한 표준 XML 파일입니다.
+Dynamic Media Classic 비디오 SEO를 사용하면 비디오 메타데이터를 활용하여 검색 엔진에 비디오에 대한 설명을 제공할 수 있습니다. Dynamic Media Classic에서는 비디오 사이트 맵과 mRSS 피드를 만드는 기능을 제공합니다. 이러한 항목은 비디오 정보를 검색 엔진에 전송하기 위한 표준 XML 파일입니다.
 
-**비디오 사이트** 맵 사이트에서 비디오 컨텐츠의 위치와 내용을 Google에 정확히 알려줍니다. 이 기능을 통해 Google에서 비디오를 완벽하게 검색할 수 있습니다. 예를 들어 비디오 사이트 맵은 비디오의 실행 시간과 범주를 지정할 수 있습니다. 비디오 사이트 맵에 대한 자세한 내용은 https://www.google.com/support/webmasters/bin/answer.py?answer=80471을 참조하십시오.
+**비디오 사이트 맵** 사이트에서 비디오 컨텐츠의 위치와 내용을 Google에 정확히 알려줍니다. 이 기능을 통해 Google에서 비디오를 완벽하게 검색할 수 있습니다. 예를 들어 비디오 사이트 맵은 비디오의 실행 시간과 범주를 지정할 수 있습니다. 비디오 사이트 맵에 대한 자세한 내용은 https://www.google.com/support/webmasters/bin/answer.py?answer=80471을 참조하십시오.
 
-**mRSS(Media Really Simple Syndication) 피드** 컨텐츠 제공자가 미디어 파일을 Yahoo! 사용합니다. mRSS 피드에 대한 자세한 내용은 https://www.rssboard.org/media-rss을 참조하십시오.
+**mRSS(Media Really Simple Syndication) 피드** 컨텐츠 제공업체가 미디어 파일을 Yahoo!에 제공하는 데 사용됨 사용합니다. mRSS 피드에 대한 자세한 내용은 https://www.rssboard.org/media-rss을 참조하십시오.
 
 >[!NOTE]
 >
@@ -39,7 +42,7 @@ Dynamic Media Classic에서는 비디오 사이트 맵과 mRSS 피드에 대한 
 
 >[!NOTE]
 >
->비디오 사이트 맵과 mRSS 피드의 경우 Dynamic Media Classic은 게시로 표시된 비디오의 메타데이터만 캡처합니다. 비디오를 게시로 표시하여 해당 메타데이터를 비디오 사이트 맵과 mRSS 피드에 포함하십시오.
+>비디오 사이트 맵 및 mRSS 피드의 경우 Dynamic Media Classic은 게시로 표시된 비디오의 메타데이터만 캡처합니다. 비디오를 게시로 표시하여 해당 메타데이터를 비디오 사이트 맵과 mRSS 피드에 포함하십시오.
 
 ## Choosing video SEO settings {#choosing-video-seo-settings}
 
@@ -53,25 +56,25 @@ Dynamic Media Classic에서는 비디오 사이트 맵과 mRSS 피드에 대한 
 
 [생성 모드] 드롭다운 목록에서 보고서 모드를 선택합니다.
 
-**비디오 사이트** 맵 비디오 사이트 맵 만들기.
+**비디오 사이트 맵** 비디오 사이트 맵을 만듭니다.
 
-**RSS 피드** 미디어 RSS(mRSS) 피드를 만듭니다.
+**mRSS 피드** 미디어 RSS(mRSS) 피드를 만듭니다.
 
-**두** 가지 모두 XML 파일을 만듭니다.
+**모두** 두 유형의 XML 파일을 만듭니다.
 
 **꺼짐** 비디오 사이트 맵과 미디어 RSS(mRSS) 피드 생성을 중지하려면 이 옵션을 선택합니다.
 
 [자동/수동 모드] 드롭다운 목록에서 자동 또는 수동으로 생성할지 여부를 선택합니다.
 
-**자동 모드** Dynamic Media Classic은 매일 하나의 비디오 사이트 맵, 미디어 RSS(mRSS) 피드 또는 둘 다를 자동으로 생성합니다. Dynamic Media Classic에서 생성하는 XML 파일을 게시하도록 자동으로 표시하려면 [게시로 표시] 옵션을 선택합니다.
+**자동 모드** Dynamic Media Classic에서는 매일 하나의 비디오 사이트 맵, 미디어 RSS(mRSS) 피드 또는 둘 다를 자동으로 생성합니다. Classic에서 생성하는 XML 파일을 게시하도록 자동으로 표시하려면 [게시로 표시] 옵션을 선택합니다.
 
 **수동 모드** Dynamic Media Classic에서는 비디오 검색 최적화 설정 화면에서 생성 또는 저장 및 생성을 클릭하면 비디오 사이트 맵, 미디어 RSS(mRSS) 피드 또는 둘 다를 생성합니다. 다음 선택 사항도 선택합니다.
 
-**추가 설정** 없음 생성된 XML 파일을 게시로 표시하지 않습니다.
+**추가 설정** 없음 생성된 XML 파일을 게시하도록 표시되지 않습니다.
 
 **생성된 XML** 파일을 게시하려면 게시 표시로 표시를 선택합니다.
 
-**일부 생성** 허용 검색 엔진은 모든 비디오에 대한 전체 메타데이터 정보가 포함되지 않은 경우 XML 파일을 거부할 수 있습니다. 이 선택 사항은 일부 비디오에 대한 메타데이터를 사용할 수 없는 경우에도 XML 파일을 생성합니다. [보고서] 화면에 경고가 생성됩니다. XML 파일을 내보내고 누락된 정보를 수동으로 처리하려는 경우 이 선택 사항을 선택합니다.
+**일부 생성** 검색 엔진은 모든 비디오에 대한 전체 메타데이터 정보가 포함되지 않은 경우 XML 파일을 거부할 수 있습니다. 이 선택 사항은 일부 비디오에 대한 메타데이터를 사용할 수 없는 경우에도 XML 파일을 생성합니다. [보고서] 화면에 경고가 생성됩니다. XML 파일을 내보내고 누락된 정보를 수동으로 처리하려는 경우 이 선택 사항을 선택합니다.
 
 ### 생성 설정 선택 {#choosing-generation-settings}
 
@@ -103,6 +106,6 @@ Dynamic Media Classic에서는 비디오 사이트 맵과 mRSS 피드에 대한 
 
 ## 비디오 SEO 보고서 보기 {#viewing-video-seo-reports}
 
-[비디오 검색 엔진 최적화 보고서] 화면에서 비디오 SEO 보고서를 봅니다. 이 화면을 열려면 설정 > 응용 프로그램 설정 > 비디오 SEO > 보고서를 클릭합니다.
+[비디오 검색 엔진 최적화 보고서] 화면에서 비디오 SEO 보고서를 봅니다. 이 화면을 열려면 설정 > 애플리케이션 설정 > 비디오 SEO > 보고서를 클릭합니다.
 
 보고서를 생성할 때 오류가 발생한 경우 [보고서] 화면에 나열됩니다.
