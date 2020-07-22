@@ -6,11 +6,14 @@ seo-description: 비디오에 장 마커를 추가하는 방법을 알아봅니�
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '625'
+ht-degree: 87%
 
 ---
 
@@ -55,7 +58,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **비디오에 장 마커 추가**
 
-1. Scene7 Publishing System 외부의 간단한 텍스트 편집기를 사용하여 비디오 장 파일을 만듭니다.
+1. Dynamic Media Classic 외부의 간단한 텍스트 편집기를 사용하여 비디오 장 파일을 만듭니다.
 
    >[!NOTE]
    >
@@ -65,7 +68,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
    일반적으로 장 VTT 파일의 이름은 비디오 파일과 동일하게 지정하고 여기에 `chapters`를 추가합니다. 그렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다.
 
-1. Scene7 Publishing System에서 WebVTT 장 파일을 업로드합니다.
+1. Dynamic Media Classic에서 WebVTT 장 파일을 업로드합니다.
 
    [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오.
 
