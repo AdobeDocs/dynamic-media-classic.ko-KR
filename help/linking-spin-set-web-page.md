@@ -6,18 +6,21 @@ seo-description: 스핀 세트를 웹 페이지에 연결하는 방법을 알아
 uuid: d3c5773e-60c4-4e8b-9c48-e1e3eb8028d0
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
 translation-type: tm+mt
-source-git-commit: e3c64b90e0af0129571a21b132477c0c86d06405
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '723'
+ht-degree: 88%
 
 ---
 
 
 # 회전 집합을 웹 페이지에 연결{#linking-a-spin-set-to-a-web-page}
 
-웹 사이트 및 애플리케이션은 URL 문자열 또는 포함된 코드를 통해 스핀 세트를 비롯한 Dynamic Media Image Server 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지와 애플리케이션에 회전 집합의 URL 문자열 또는 임베드 코드를 배치하려면 Scene7 Publishing System에서 복사합니다.
+웹 사이트 및 응용 프로그램은 URL 문자열 또는 포함된 코드를 통해 회전 집합을 비롯한 이미지 서버 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지 및 애플리케이션에 스핀 세트에 대한 URL 문자열 또는 포함 코드를 배치하려면 Dynamic Media Classic에서 복사합니다.
 
 >[!NOTE]
 >
