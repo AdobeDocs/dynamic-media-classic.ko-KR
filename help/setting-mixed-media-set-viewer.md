@@ -6,11 +6,14 @@ seo-description: 혼합 미디어 집합 뷰어 사전 설정을 설정하는 �
 uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '611'
+ht-degree: 82%
 
 ---
 
@@ -26,6 +29,7 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
    * To create a new preset, click **Add**. In the Add Viewer Preset dialog box, choose a platform, choose Mixed Media Set Viewer, then click **Add**.
    * To edit a Mixed Media Set Viewer preset, select it, then click **Edit**.
+
    [뷰어 구성] 화면이 열립니다.
 
 1. 혼합 미디어 집합 뷰어 사전 설정의 [사전 설정 이름] 상자에 이름을 입력합니다.
@@ -51,13 +55,16 @@ source-git-commit: 6fff3699f8a08af433df3f3a7790a11bf9d05b00
 
 1. 커뮤니티 기능(포함, 링크, 방문)을 뷰어에 추가하려면 다음 중 하나의 선택 사항을 지정합니다.
 
-   * **전자**&#x200B;메일 단추를 클릭하여 뷰어에서 [전자 메일] 단추를 활성화합니다. 사용자가 집합을 보는 동안 [이메일] 단추를 클릭하면 집합에 대한 링크가 포함된 이메일이 열립니다.
+   * **이메일**[켜기]를 클릭하여 뷰어에서 [이메일] 단추를 활성화합니다. 사용자가 집합을 보는 동안 [이메일] 단추를 클릭하면 집합에 대한 링크가 포함된 이메일이 열립니다.
 
-   * **포함라이브**&#x200B;를 클릭합니다. [포함 단추 레이블] 상자에 뷰어에서 [포함 단추]에 대해 표시할 이름을 입력합니다. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **포함라이브**&#x200B;를 클릭합니다. [포함 단추 레이블] 상자에 뷰어에서 [포함 단추]에 대해 표시할 이름을 입력합니다. 원하는 경우 
+**단추에** 대한 사용자 정의 스킨을 찾아 선택합니다.
 
-   * **연결라이브를**&#x200B;클릭합니다. [링크 단추 레이블] 상자에 뷰어에서 [링크 단추]에 대해 표시할 이름을 입력합니다. If desired, click **Browse** to locate and select a custom skin for the button.
+   * **링크**&#x200B;라이브를 클릭합니다. [링크 단추 레이블] 상자에 뷰어에서 [링크 단추]에 대해 표시할 이름을 입력합니다. 원하는 경우 
+**단추에** 대한 사용자 정의 스킨을 찾아 선택합니다.
 
-   * **방문**&#x200B;라이브 **를 클릭합니다**. [방문 단추 레이블] 상자에 뷰어에서 [방문 단추]에 대해 표시할 이름을 입력합니다. [방문 URL] 상자에 링크를 클릭할 때 열려는 웹 사이트의 URL을 입력합니다.
+   * **방문**&#x200B;클릭 
+**라이브 버전**. [방문 단추 레이블] 상자에 뷰어에서 [방문 단추]에 대해 표시할 이름을 입력합니다. [방문 URL] 상자에 링크를 클릭할 때 열려는 웹 사이트의 URL을 입력합니다.
 
 1. 원하는 대로 기타 선택 사항을 지정합니다. 선택 사항에 대한 설명을 보려면 선택 사항에 인접한 [정보 팁] 아이콘 을 클릭합니다.
 
