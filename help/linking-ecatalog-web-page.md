@@ -6,21 +6,21 @@ seo-description: eCatalog를 웹 페이지에 연결하는 방법을 알아봅�
 uuid: 90098a90-180b-477a-8533-24a52a93200b
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 74238f90f45f0fb9a4566915a20a1d41dfb69fe1
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 91%
+source-wordcount: '678'
+ht-degree: 87%
 
 ---
 
 
 # eCatalog를 웹 페이지에 연결{#linking-an-ecatalog-to-a-web-page}
 
-웹 사이트 및 응용 프로그램은 URL 문자열 또는 포함된 코드를 통해 eCatalogs를 비롯한 Dynamic Media 이미지 서버 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지와 애플리케이션에 eCatalog의 URL 문자열 또는 임베드된 코드를 배치하려면 Scene7 Publishing System에서 복사합니다.
+웹 사이트 및 응용 프로그램은 URL 문자열 또는 포함된 코드를 통해 eCatalogs를 비롯한 Dynamic Media 이미지 서버 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지 및 응용 프로그램에 eCatalog에 대한 URL 문자열 또는 포함된 코드를 배치하려면 Dynamic Media Classic에서 복사합니다.
 
 >[!NOTE]
 >
