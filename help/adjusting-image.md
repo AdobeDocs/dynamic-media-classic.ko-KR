@@ -2,22 +2,25 @@
 title: 이미지 조정
 seo-title: 이미지 조정
 description: 널
-seo-description: 이미지 조정 방법 살펴보기
+seo-description: 이미지 조정 방법 학습
 uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 translation-type: tm+mt
-source-git-commit: 32f5e03766466ceaafe58780e9e80dbdd4a0c3dd
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '554'
+ht-degree: 95%
 
 ---
 
 
 # 이미지 조정{#adjusting-an-image}
 
-Dynamic Media Classic에서는 이미지의 모양을 조정하는 다양한 명령을 제공합니다. 이미지를 뒤집고, 흐리게 하고, 색상 균형을 변경하고, 이미지를 색상화할 수 있습니다. 이러한 명령을 실험할 때 작업 중인 이미지에서 해당 효과를 확인할 수 있습니다.
+Dynamic Media 클래스에서는 이미지의 모양을 조정하는 다양한 명령을 제공합니다. 이미지를 뒤집고, 흐리게 하고, 색상 균형을 변경하고, 이미지를 색상화할 수 있습니다. 이러한 명령을 실험할 때 작업 중인 이미지에서 해당 효과를 확인할 수 있습니다.
 
 [이미지의 별칭 만들기](adjusting-image.md#creating_an_alias_for_an_image)를 참조하십시오.
 
