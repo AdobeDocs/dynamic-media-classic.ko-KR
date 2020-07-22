@@ -2,14 +2,17 @@
 title: 자산 관리 정보
 seo-title: 자산 관리 정보
 description: 널
-seo-description: Dynamic Media Classic에서 자산 관리에 대한 소개
+seo-description: Dynamic Media Classic의 에셋 관리 소개
 uuid: 875e3227-d8a9-4e6c-be4e-6f0328eb4ef8
 contentOwner: rbrough
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: b362959d-f997-4877-b470-fffa23bc22a4
 translation-type: tm+mt
-source-git-commit: a1722c15d3c049f05959d895e85297d47d730872
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '156'
+ht-degree: 82%
 
 ---
 
