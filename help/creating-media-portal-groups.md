@@ -6,11 +6,14 @@ seo-description: Media Portal 그룹을 만들고 관리하는 방법을 알아�
 uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 translation-type: tm+mt
-source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '829'
+ht-degree: 96%
 
 ---
 
@@ -94,7 +97,7 @@ source-git-commit: 75f006fd81b0fe2dad5479cdd98e45eaada46b2a
 1. **[설정]** > **[Media Portal 설정]** > **[그룹]**&#x200B;을 클릭합니다.
 1. [그룹 목록] 페이지에서 그룹을 선택하고 편집하거나 삭제합니다.
 
-   **그룹** 편집 [편집]을 클릭한 다음 [그룹 편집] 대화 상자에서 옵션을 선택합니다.
+   **그룹** 편집 편집을 클릭한 다음 그룹 편집 대화 상자에서 옵션을 선택합니다.
 
    **그룹** 삭제 삭제를 클릭합니다.
 
