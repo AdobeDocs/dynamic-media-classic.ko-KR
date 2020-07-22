@@ -6,11 +6,14 @@ seo-description: 세부 사항 보기에서 작업하는 방법을 알아봅니�
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
-products: SG_EXPERIENCEMANAGER/Dynamic-Media-Scene-7
+products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
-source-git-commit: 52f51c59bcc03444e5e751b7b33d20bed9aaaddb
+source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+workflow-type: tm+mt
+source-wordcount: '588'
+ht-degree: 79%
 
 ---
 
@@ -43,7 +46,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
    * 자산을 두 번 클릭합니다.
    * 자산을 선택한 다음 세부 사항 **[!UICONTROL 보기를 클릭합니다]**.
-   * 자산을 선택한 다음 파일 > **[!UICONTROL 세부 사항을 클릭합니다]**.
+   * 자산을 선택한 다음 **[!UICONTROL 파일 > 세부 사항을 클릭합니다]**.
 
 >[!NOTE]
 >
@@ -51,7 +54,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 세부 사항 보기의 정보 가져오기 {#getting-information-in-detail-view}
 
-[세부 사항 보기]에서는 자산이나 파일에 대한 정보를 제공합니다. 각·항목과·관련하여·항목이·저장된·폴더,·파일·이름,·항목이·Scene7·Publishing System에 업로드된 날짜, 게시 내역 등의 정보가 표시됩니다. [세부 사항 보기]에서 자산의 메타데이터를 보고 편집하며 키워드를 추가할 수도 있습니다.
+[세부 사항 보기]에서는 자산이나 파일에 대한 정보를 제공합니다. 항목에 대한 다음 정보가 표시됩니다. 저장할 폴더, 해당 파일 이름, 항목을 Dynamic Media Classic에 업로드한 날짜 및 게시 내역. [세부 사항 보기]에서 자산의 메타데이터를 보고 편집하며 키워드를 추가할 수도 있습니다.
 
 [세부 사항 보기]에서 자산 URL을 얻을 수 있지만 이 URL은 자산을 게시하기 전에는 활성화되지 않습니다. 이미지의 경우 [세부 사항 보기]에 확대/축소 타겟 및 이미지 집합과 같은 작성 및 파생된 자산과 메타데이터 목록도 제공됩니다.
 
@@ -59,15 +62,15 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 [세부 사항 보기]에서는 열린 자산으로 작업하기 위한 도구를 제공합니다. 사용 가능한 도구는 작업 중인 자산 유형에 따라 다르지만 다음 기능은 항상 [세부 사항 보기]에 제공됩니다.
 
-* **게시할**&#x200B;항목이름 **[!UICONTROL 왼쪽에 있는 게시]** 아이콘을 클릭하거나 파일 > 게시 또는 파일 **** > 게시 **[!UICONTROL 취소를]**&#x200B;클릭합니다.
+* **게시할 항목**&#x200B;이름 **[!UICONTROL 왼쪽에 있는]** 게시 **[!UICONTROL 아이콘을 클릭하거나]** 파일 > 게시 **[!UICONTROL 또는]**&#x200B;파일 > 게시 취소를클릭합니다.
 
-* **자산 이름**&#x200B;바꾸기이름을 선택하고 새 이름을 입력합니다.
+* **자산 이름**&#x200B;을 선택하고 새 이름을 입력합니다.
 
-* **메타데이터**&#x200B;편집 및 추가 메타데이터 패널을 선택하고 원하는 대로 변경합니다. [메타데이터 보기, 추가 및 내보내기](/help/viewing-adding-exporting-metadata.md)를 참조하십시오.
+* **메타데이터 편집 및 추가**&#x200B;메타데이터 패널을 선택하고 원하는 대로 변경합니다. [메타데이터 보기, 추가 및 내보내기](/help/viewing-adding-exporting-metadata.md)를 참조하십시오.
 
-* **키워드 편집 및 추가키워드를**&#x200B;선택하고 원하는 대로 키워드를 추가하거나 제거합니다. [키워드 추가 또는 편집](/help/viewing-adding-exporting-metadata.md)을 참조하십시오.
+* **키워드 편집 및 추가**&#x200B;키워드를 선택하고 원하는 대로 추가 또는 제거합니다. [키워드 추가 또는 편집](/help/viewing-adding-exporting-metadata.md)을 참조하십시오.
 
-* **자산 삭제파일**> **[!UICONTROL 삭제를 클릭합니다]**.
+* **자산 삭제**&#x200B;파일 **[!UICONTROL > 삭제를 클릭합니다]**.
 
 불연속 파일(예: 이미지, 이미지 집합 및 글꼴)의 경우 [세부 사항 보기]에서 게시 및 편집 내역을 보고 작업 세부 사항을 확인할 수 있습니다.
 
@@ -75,7 +78,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 | 자산 유형 | 편집/조정 | 미리 보기 |
 |--- |--- |--- |
-| 이미지 | 이미지 맵 추가 확대/축소 타겟 추가 자르기 선명 조정 보기 만들기 | 예. 확대/축소 및 이미지 사전 설정. |
+| 이미지 | 이미지 맵 추가 확대/축소 대상 추가 자르기 선명 조정 보기 만들기 | 예. 확대/축소 및 이미지 사전 설정. |
 | 캐비닛 및 창 커버링 이미지 | 아니요 | 썸네일. |
 | eCatalog | 편집 | 예. 정보 패널도 사용할 수 있음. |
 | 글꼴 | 글꼴 정보 편집 | 아니요. |
