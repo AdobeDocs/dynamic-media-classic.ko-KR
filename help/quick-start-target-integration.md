@@ -10,15 +10,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
 discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '481'
 ht-degree: 19%
 
 ---
 
 
-# 빠른 시작: Target Standard/Premium 통합{#quick-start-target-integration}
+# 빠른 시작: Adobe Target Standard/Premium 통합{#quick-start-target-integration}
 
 Adobe Target Standard/Premium을 사용하면 마케터는 세분화, 타깃팅 및 자동화된 개인화를 통해 다양한 A/B 및 다변량 테스트를 신속하고 지속적으로 실행하고 효과를 측정하며 온라인 컨텐츠의 연관성을 높일 수 있습니다.
 
@@ -34,7 +34,7 @@ Dynamic Media Classic에서는 Target Standard/프리미엄 캠페인에 대한 
 
 이 빠른 시작은 Target Standard/프리미엄 HTML 오퍼 세트를 사용하여 빠르게 시작할 수 있도록 고안되었습니다. 1-3 단계를 수행하십시오. 각 단계 뒤에는 자세한 정보를 확인할 수 있는 항목 제목의 상호 참조가 있습니다.
 
-**1. Enter your Target Standard/Premium URL in the Application General Settings screen.**
+**1. Enter your Adobe Target Standard/Premium URL in the Application General Settings screen.**
 
 Target Standard/Premium과 통합하려면 Dynamic Media/프리미엄 URL이 필요합니다. Copy the portion of your Target Standard/Premium URL up to and including *.com*, and enter it in the Dynamic Media Classic Application General Settings screen. Dynamic Media [Classic과 Target Standard/Premium 통합을 참조하십시오](integrating-dmc-with-target.md#integrating-dmc-with-target).
 
@@ -50,6 +50,6 @@ Target Standard/Premium과 통합하려면 Dynamic Media/프리미엄 URL이 필
 
 [오퍼 집합 만들기](creating-offer-set.md#creating_an_offer_set)를 참조하십시오.
 
-**3. 오퍼를 Target Standard/Premium으로 푸시합니다.**
+**3. 오퍼 세트를 Adobe Target Standard/Premium으로 푸시합니다.**
 
 In the Test&amp;Target Offer Set screen, click **Push Offers**, and enter your login credentials in the Test&amp;Target Login dialog box. 오퍼 [집합을 Target Standard/Premium으로 푸시를 참조하십시오](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
