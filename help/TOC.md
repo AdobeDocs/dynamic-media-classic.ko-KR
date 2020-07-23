@@ -5,10 +5,10 @@ audience: end-user
 user-guide-title: Dynamic Media 클래식 도움말
 index: y
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 75%
+source-wordcount: '737'
+ht-degree: 74%
 
 ---
 
@@ -154,9 +154,9 @@ ht-degree: 75%
    + [Adobe Analytics 보고서를 보고 통합 테스트](testing-integration-viewing-analytics-report.md)
    + [Adobe Analytics 비디오 보고서 활성화](enabling-analytics-video-reports.md)
    + [Adobe Analytics 구성 정보 게시](publishing-analytics-configuration-information.md)
-+ Target Standard/Premium 통합 {#target-classic}
-   + [빠른 시작: Target Standard/Premium 통합](quick-start-target-integration.md)
-   + [Adobe Dynamic Media Classic과 Adobe Target Standard/Premium 통합](integrating-dmc-with-target.md)
++ Adobe Target Standard/Premium 통합 {#target-classic}
+   + [빠른 시작: Adobe Target Standard/Premium 통합](quick-start-target-integration.md)
+   + [Adobe Target Standard/Premium과 Dynamic Media Classic 통합](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
    + [Adobe Target Standard/Premium으로 오퍼 세트 푸시](pushing-offer-sets-target.md)
 + 사용자 생성 컨텐츠 {#user-generated-content}
