@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -37,7 +37,7 @@ Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설�
 
 **카탈로그 관리** 이러한 설정은 Dynamic Media Classic과 카탈로그가 상호 작용하는 방식을 결정합니다. 대부분의 웹 서버와 달리 Dynamic Media 이미지 서버 URL 호출은 이미지 파일이 적합한 파일이 아닌 매니페스트 또는 카탈로그 파일로 이동합니다. 카탈로그 파일(eCatalog 아님)에는 각 이미지의 경로와 함께 이미지 서버에 게시되는 모든 컨텐츠 목록이 들어 있습니다. Digimarc ID가 있는 경우 [Digimarc 사용자 정보] 섹션에서 사용자 정보를 입력합니다.
 
-**요청 속성** 이러한 설정은 서버에서 전달할 수 있는 이미지에 제한을 적용합니다.
+**요청 속성** 이러한 설정은 서버에서 전달할 수 있는 이미지에 제한을 적용합니다. 예를 들어, *최대* 응답 이미지 크기 제한은 **** 너비 **[!UICONTROL 5000]** 및 높이 **[!UICONTROL 5]** 00입니다.
 
 **기본 요청 속성** 이 설정은 이미지의 기본 모양과 관련이 있습니다.
 
@@ -54,7 +54,7 @@ Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설�
 예를 들어 여러 국가에서 팔리는 다국적 브랜드인 경우 각 국가에서 자체 로케일별 뷰어를 사용하도록 할 수 있습니다. 이 기능을 수행하려면 로케일 맵 문자열을 지정합니다. 그런 다음 원하는 언어로 번역된 텍스트 문자열을 추가하여 뷰어의 사전 설정에서 도구 설명 텍스트를 편집합니다.
 
 >[!NOTE]
-> 로컬라이제이션 지원 옵션을 설정하려면 Adobe Dynamic Media Classic 기술 지원에 문의하거나 s7support@adobe.com설치 도움말을 요청하는 이메일을 보내주십시오.
+> 현지화 지원 옵션을 설정하려면 Adobe Dynamic Media Classic 기술 지원에 문의하거나 s7support@adobe.com설치 도움말을 요청하는 이메일을 보내십시오.
 
 **현지화 지원** 설정에 대한 자세한 내용은 [자산 현지화를 설정할 때 고려 사항](publish-setup.md#considerations_when_setting_up_localization_of_assets)을 참조하십시오.
 
@@ -62,7 +62,7 @@ Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설�
 
 >[!NOTE]
 >
->로케일 맵 필드와 같은 Dynamic Media Classic에서 현지화 지원 옵션을 설정하려면 Adobe Dynamic Media Classic 기술 지원에 문의하십시오. 또는, 설정 관련 도움을 요청하는 이메일을 s7support@adobe.com으로 보내 주십시오.
+>로케일 맵 필드와 같은 Dynamic Media Classic에서 현지화 지원 옵션을 설정하려면 Adobe Dynamic Media 클래식 기술 지원에 문의하십시오. 또는, 설정 관련 도움을 요청하는 이메일을 s7support@adobe.com으로 보내 주십시오.
 
 Dynamic Media Classic을 사용하는 일반적인 방법은 전자 상거래 웹 사이트에서 제품 이미지를 관리하는 것입니다. 국제 산업은 유사한 제품에 대한 자산이 나라마다 다르게 보이는 문제에 직면하고 있습니다. 보통 차이는 전체 미디어에서 매우 작은 부분에 대한 것입니다. 이러한 차이를 각 국가의 모든 자산을 복사하고 차이만 다시 써서 해결하는 것은 엄청난 노력을 요하는 일이며 하나의 마스터 자산이라는 표현과 모순됩니다. 이와 같은 자산의 차이점은 서로 다른 오디오 트랙을 사용하는 국가별 비디오에서부터 제품과 함께 사용되는 전원 코드의 미묘하지만 중요한 차이에 이르기까지 다양할 수 있습니다. Dynamic Media Classic에서는 기본 조회 메커니즘을 사용합니다. 사용자는 필요한 로케일에서 시작하여 이미지 서버가 검색하는 자산 접미어 순서를 정의합니다.
 
