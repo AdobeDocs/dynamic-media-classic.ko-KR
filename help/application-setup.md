@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 7c9b1976ced6ef5ad48b624b99aeeffed380168a
+source-git-commit: ffb8113750e526fe9124a06ac071ceadf23f9f5c
 workflow-type: tm+mt
-source-wordcount: '10982'
+source-wordcount: '10979'
 ht-degree: 68%
 
 ---
@@ -36,9 +36,9 @@ ht-degree: 68%
 
 [보안 테스트 서비스 테스트](testing-assets-making-them-public.md#testing_the_secure_testing_service)를 참조하십시오.
 
-* **게시된 서버 이름** - 이 서버는 계정에 대한 모든 시스템 생성 URL 호출에 사용되는 실시간 CDN 서버입니다. Dynamic Media Classic 지원 기술자에 의한 지시를 받지 않는 한 이 서버 이름을 변경하지 마십시오.
+* **게시된 서버 이름** - 이 서버는 계정에 대한 모든 시스템 생성 URL 호출에 사용되는 실시간 CDN 서버입니다. Dynamic Media Classic 지원 엔지니어가 지시를 받는 경우를 제외하고 이 서버 이름을 변경하지 마십시오.
 
-* **원본 서버 이름** - 이 서버는 품질 보증 테스트에만 사용됩니다. Dynamic Media Classic 지원 엔지니어가 지시를 따르지 않는 경우 이 서버 이름을 변경하지 마십시오.
+* **원본 서버 이름** - 이 서버는 품질 보증 테스트에만 사용됩니다. Dynamic Media Classic 지원 기술자가 지시를 따르지 않는 한 이 서버 이름을 변경하지 마십시오.
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by a Dynamic Media Classic support technician. -->
 
@@ -80,11 +80,11 @@ ht-degree: 68%
 
 ### 찾아보기
 
-* **프로젝트 표시** - Dynamic Media Classic 자산을 구성하는 방법으로 프로젝트를 사용할 수 있는지 여부를 결정합니다. 프로젝트를 사용하여 작업 구성을 참조하십시오.
+* **프로젝트 표시** - 프로젝트를 Dynamic Media Classic 자산을 구성하는 방법으로 사용할 수 있는지 여부를 결정합니다. 프로젝트를 사용하여 작업 구성을 참조하십시오.
 
 * **샘플 e비디오 컨텐츠** 표시 - eVideo 샘플 컨텐츠 표시를 켜거나 끕니다.
 
-* **생성된 컨텐츠** 표시 - 폴더에서 자산에서 생성된 컨텐츠를 표시합니다. 예를 들어 PDF 파일이 업로드될 때 래스터화된 PDF 파일은 원본 PDF의 각 페이지에 대해 하나의 이미지를 만듭니다. [생성된 컨텐츠 표시]를 선택한 경우 원본 PDF를 업로드할 때 생성된 각 이미지가 PDF를 업로드한 폴더에 PDF와 함께 표시됩니다.
+* **생성된 컨텐츠** 표시 - 폴더에서 자산에서 생성된 컨텐츠를 표시합니다. 예를 들어 PDF 파일이 업로드되면 Dynamic Media Classic에서는 원본 PDF의 각 페이지에 대해 하나의 이미지를 만듭니다. [생성된 컨텐츠 표시]를 선택한 경우 원본 PDF를 업로드할 때 생성된 각 이미지가 PDF를 업로드한 폴더에 PDF와 함께 표시됩니다.
 
 * **인코딩된 비디오** 표시 - 기본적으로 선택 해제되어 있습니다.
 
@@ -100,13 +100,13 @@ ht-degree: 68%
 
    [작성] 메뉴의 특정 작업은 개별 비디오에서만 작동하거나 선택적으로 작동합니다. 이 기능을 사용하려면 **[인코딩된 비디오 표시]** 설정 방법과 관계없이 선택할 수 있는 모든 인코딩된 비디오 파생을 표시해야 합니다. The Build actions that over-ride the **Show Encoded Videos** setting include **Adaptive Video Sets**, and **eCatalogs**.
 
-   >[주]
+   >[!NOTE]
    >
-   >Display Classic을 사용하여 비디오 에셋을 업로드하고 인코딩하지 않은 경우, Dynamic Media Classic에서는 개별 인코딩된 비디오를 모두 표시합니다. 이 옵션은 선택 해제되어 있더라도 표시됩니다.
+   >Dynamic Media Classic을 사용하여 비디오 에셋을 업로드하고 인코딩하지 않은 경우 Dynamic Media Classic에서는 개별 인코딩된 비디오를 모두 표시합니다. 이 옵션은 선택 해제되어 있어도 됩니다.
 
 * **하위 폴더 새로 고침 단추** 표시 - 하위 폴더 새로 고침 단추 표시를 켜거나 끕니다.
 
-### Dynamic Media 클래식 FTP 계정
+### Dynamic Media Classic FTP 계정
 
 * **서버** - FTP 계정 서버를 나열합니다.
 
@@ -120,7 +120,7 @@ ht-degree: 68%
 
    * **현재 폴더에 덮어쓰기(확장명에** 관계없이 동일한 기본 자산 이름) - 대체 이미지를 원본과 동일한 폴더에 업로드해야 하지만 파일 이름 확장자는 원본과 다를 수 있습니다. 예를 들어 chair.tif가 chair.jpg를 대체합니다.
 
-   * **동일한 기본 자산 이름/확장자** 폴더의 덮어쓰기 - 대체 이미지의 파일 이름 확장자가 원본 이미지와 동일해야 합니다(예: chair.jpg는 chair.tif가 아니라 chair.jpg를 대체해야 합니다). 그러나 대체 이미지를 원본과 다른 폴더에 업로드할 수 있습니다. 업로드한 이미지는 새 폴더에 있으며 원래 위치에서 더 이상 파일을 찾을 수 없습니다.
+   * **동일한 기본 에셋 이름/확장명으로** 모든 폴더에 덮어쓰기 - 대체 이미지의 파일 이름 확장명이 원본 이미지와 동일해야 합니다(예: chair.jpg는 chair.tif가 아니라 chair.jpg를 대체해야 합니다). 그러나 대체 이미지를 원본과 다른 폴더에 업로드할 수 있습니다. 업로드한 이미지는 새 폴더에 있으며 원래 위치에서 더 이상 파일을 찾을 수 없습니다.
 
    * **확장자와** 상관없이 동일한 기본 자산 이름으로 모든 폴더에 덮어쓰기 - 이 옵션은 가장 포괄적인 대체 규칙입니다. 대체 이미지를 원본과 다른 폴더에 업로드하고 다른 파일 이름 확장자를 가진 파일을 업로드하여 원본 파일을 대체할 수 있습니다. 원본 파일이 다른 폴더에 있는 경우 대체 이미지는 업로드된 새 폴더에 있습니다.
 
@@ -148,7 +148,7 @@ Dynamic Media Classic에서는 두 파일의 이름이 같을 수 없습니다. 
 
 업로드한 이미지가 어떤 방식으로든 변경되었지만(이미지가 수정됨) 이미지 참조가 동일한 경우 이 선택 사항을 사용합니다. [덮어쓰기]는 Adobe® PDF를 업로드하고 리핑할 때도 유용합니다. To fine-tune how Dynamic Media Classic *rips* the image, adjust the ICC color profile options in the Upload dialog box and re-upload using the Overwrite feature.
 
-프로덕션 서버의 이미지에 액세스하는 데 사용되는 Dynamic Media Classic ID는 이미지 파일 이름에서 파생됩니다. 파일 이름에서 대문자 및 소문자 사용은 기존 파일을 대체하거나 이미지에 액세스하는 데 사용되는 Dynamic Media Classic ID에 모두 중요합니다. Dynamic Media Classic ID에 업로드하기 전에 파일 이름에 대문자 및 소문자 문자가 올바르게 사용되어야 동일한 이미지에 대해서만 다른 Dynamic Media의 Classic ID를 방지할 수 있습니다.
+프로덕션 서버의 이미지에 액세스하는 데 사용되는 Dynamic Media Classic ID는 이미지 파일 이름에서 파생됩니다. 파일 이름에서 대문자 및 소문자 사용은 기존 파일을 대체하거나 이미지에 액세스하는 데 사용되는 Dynamic Media Classic ID에 모두 중요합니다. 동일한 이미지의 경우에만 다른 Dynamic Media Classic ID를 방지하려면 파일 이름에 대문자 및 소문자 문자가 올바르게 사용되어야 Dynamic Media Classic ID가 업로드됩니다.
 
 이 선택 사항을 선택 취소하면 기존 이미지와 동일한 파일 이름을 가진 모든 이미지가 중복 항목으로 처리되고 추가되지 않습니다.
 
@@ -231,13 +231,13 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
 **리샘플링 모드** 리샘플링 모드 옵션을 선택합니다. 이미지를 다운샘플링할 때 다음 선택 사항은 이미지를 선명하게 합니다.
 
-**B-Linear** 가장 빠른 리샘플링 방식 일부 앨리어스 가공물이 눈에 띄고
+**B-Linear** 가장 빠른 리샘플링 방식일부 앨리어스 가공물이 눈에 띄고
 
 **Bi-Cubic은 이미지** 서버의 CPU 사용을 증가시키지만, 앨리어싱 가공물이 덜 두드러져 더 선명한 이미지를 생성합니다.
 
 **Sharp2** Bi-Cubic 옵션보다 약간 더 선명하게 결과를 얻을 수 있지만 이미지 서버의 CPU 비용은 더 높습니다.
 
-**3선형** 사용 가능한 경우 더 높은 해상도와 낮은 해상도를 모두 사용합니다. 앨리어싱이 문제가 되는 경우에만 권장됩니다. 이 방법을 사용하면 고주파수 데이터가 감소하기 때문에 JPEG 크기가 줄어듭니다.
+**3선형** 사용 가능한 경우 더 높은 해상도와 낮은 해상도를 모두 사용합니다.앨리어싱이 문제가 되는 경우에만 권장됩니다. 이 방법을 사용하면 고주파수 데이터가 감소하기 때문에 JPEG 크기가 줄어듭니다.
 
 **언샵 마스킹** 다음 옵션을 선택하여 선명하게 하기 옵션을 세밀하게 조정할 수 있습니다.
 
@@ -259,11 +259,11 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
 **프로필** 포함 이 옵션을 선택하면 Adobe® Photoshop®에서 이 이미지를 열면 이 프로필이 사용됩니다.
 
-**인쇄 해상도** 이 이미지 인쇄를 위한 해상도를 선택하십시오. 기본값은 72픽셀입니다.
+**인쇄 해상도** 이 이미지 인쇄를 위한 해상도를 선택하십시오.기본값은 72픽셀입니다.
 
 **URL 수정자** 설정 대신 이미지 사전 설정을 정의하는 URL 수정자를 지정하려면 여기에 수정자를 입력합니다.
 
-**샘플 이미지 URL** 이미지 서버가 추가 또는 편집 중인 이미지 사전 설정으로 이미지를 전달하는 데 사용하는 &quot;원시&quot; URL 문자열을 나열합니다. 이 URL 문자열은 [사전 설정 추가] 또는 [사전 설정 편집] 화면에서 선택한 모든 형식 설정을 인코딩합니다.
+**샘플 이미지 URL** Dynamic Media 이미지 서버가 추가 또는 편집 중인 이미지 사전 설정으로 이미지를 전달하는 데 사용하는 &quot;원시&quot; URL 문자열을 나열합니다. 이 URL 문자열은 [사전 설정 추가] 또는 [사전 설정 편집] 화면에서 선택한 모든 형식 설정을 인코딩합니다.
 
 ### 이미지 사전 설정 편집, 제거 또는 비활성화 {#editing-removing-or-deactivating-an-image-preset}
 
@@ -272,7 +272,7 @@ To open the Image Preset screen, on the Global Navigation bar, click **Setup** >
 
    * Click **Edit** and then specify new options in the Edit Preset dialog box.
    * Click **Delete** to remove the preset from the list.
-   * MediaPortal 사용자를 위한 전체 Dynamic Media Classic 사용자 인터페이스에서 제거하려면 사전 설정 이름 옆에 있는 활성 확인란을 선택 취소합니다.
+   * MediaPortal 사용자를 위한 전체 Dynamic Media Classic 사용자 인터페이스에서 제거하려면 사전 설정 이름 옆에 있는 활성 확인란을 선택 해제합니다.
 
 ## 적응형 비디오 사전 설정 활성화 또는 비활성화 {#activating-or-deactivating-adaptive-video-presets}
 
@@ -294,7 +294,7 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 
 >[!NOTE]
 >
->기본적으로 활성화되는 &quot;적응형 비디오&quot;를 제외하면, [업로드 작업 옵션] 대화 상자에 다른 적응형 비디오나 또는 단일 비디오 인코딩 사전 설정이 일부만 표시될 수 있습니다. Dynamic Media 클래식 관리자는 업로드 작업 옵션 대화 상자에 표시되는 비디오 인코딩 사전 설정을 결정합니다.
+>기본적으로 활성화되는 &quot;적응형 비디오&quot;를 제외하면, [업로드 작업 옵션] 대화 상자에 다른 적응형 비디오나 또는 단일 비디오 인코딩 사전 설정이 일부만 표시될 수 있습니다. Dynamic Media Classic 관리자는 업로드 작업 옵션 대화 상자에 표시되는 비디오 인코딩 사전 설정을 결정합니다.
 
 * 다음 적응형 비디오 사전 설정이나 단일 인코딩 사전 설정 중에서 선택합니다.
 
@@ -322,7 +322,7 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 
    **단일 인코딩 사전 설정**
 
-   >[주]
+   >[!NOTE]
    >
    >비디오를 iPad에 제공하려면 모바일 인코딩 사전 설정이나 태블릿 인코딩 사전 설정을 선택할 수 있습니다. 태블릿 사전 설정은 특히 iPad용으로 디자인되었으며, 일반적으로 큰 화면 크기와 대역폭 연결을 활용하기 위해 고해상도와 품질을 지정합니다. 태블릿 사전 설정으로 인코딩된 비디오 파일을 제공하려면 모바일 사이트나 애플리케이션에 장치 검색 코드를 포함해야 합니다. 이 코드는 재생 장치에 따라 iPhone 또는 iPad 비디오 환경을 전환합니다. 비디오 파일을 iPad에 제공하기 위한 모바일 사전 설정 선택이 보다 간소화됩니다. iPhone과 iPad에 동일한 비디오 파일을 사용할 수 있기 때문입니다. 그러나 품질은 더 낮은 해상도의 iPhone 환경으로 표준화됩니다.
 
@@ -342,7 +342,7 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 
 **비디오 비트 전송률(데이터 속도)** 비디오 재생 1초(kbit/초)을 구성하기 위해 인코딩된 데이터의 양입니다.
 
-**픽셀 너비/높이** 화면 이미지의 너비 차원(픽셀 단위) 화면 이미지의 높이 크기(픽셀 단위).
+**픽셀 너비/높이** 화면 이미지의 너비 차원(픽셀 단위)화면 이미지의 높이 크기(픽셀 단위).
 
 **프레임/초(fps)** 비디오 초당 프레임 또는 스틸 이미지 수입니다. 미국과 일본에서는 대부분의 비디오가 29.97fps로 촬영되고, 유럽 및 아시아(일본 제외)에서는 대부분의 비디오가 25fps로 촬영됩니다. 영화는 24fps로 촬영됩니다.
 
@@ -440,15 +440,15 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 
 >[!NOTE]
 >
->**Flash 뷰어 사용 중단 알림** - 2017년 1월 31일부터 Adobe Dynamic Media Classic은 Flash 뷰어 플랫폼에 대한 지원을 공식적으로 종료했습니다. 이 중요한 변경 사항에 대한 자세한 내용은 다음 FAQ 웹 사이트를 참조하십시오. [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Flash 뷰어 종단 알림** - 2017년 1월 31일부터 Adobe Dynamic Media Classic이 Flash 뷰어 플랫폼에 대한 지원을 공식적으로 종료했습니다. 이 중요한 변경 사항에 대한 자세한 내용은 다음 FAQ 웹 사이트를 참조하십시오. [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
 *뷰어 사전 설정*&#x200B;은 사용자가 컴퓨터 화면과 모바일 장치에서 리치 미디어 자산을 보는 방법을 결정하는 설정 모음입니다. 관리자는 뷰어 사전 설정을 만들 수 있습니다. 뷰어 구성 선택 사항 배열에 대한 설정을 사용할 수 있습니다. 예를 들어 뷰어 표시 크기, 확대/축소 동작, 색상 구성표, 테두리 및 글꼴을 변경할 수 있습니다.
 
-Dynamic Media 클래식 HTML5 비디오 뷰어를 사용하는 것이 좋습니다. HTML5 비디오 뷰어에 사용된 사전 설정은 강력한 비디오 플레이어입니다. HTML5 및 CSS를 사용하여 재생 구성 요소를 디자인하고 포함 재생을 제공하며 브라우저의 기능에 따라 적응형 및 점진적 스트리밍을 사용하는 기능을 단일 플레이어에 결합하여 리치 미디어 컨텐츠의 범위를 데스크톱, 태블릿 및 모바일 사용자로 확장하고 스트리밍된 비디오 환경을 보장할 수 있습니다.
+Dynamic Media Classic HTML5 비디오 뷰어를 사용하는 것이 좋습니다. HTML5 비디오 뷰어에 사용된 사전 설정은 강력한 비디오 플레이어입니다. HTML5 및 CSS를 사용하여 재생 구성 요소를 디자인하고 포함 재생을 제공하며 브라우저의 기능에 따라 적응형 및 점진적 스트리밍을 사용하는 기능을 단일 플레이어에 결합하여 리치 미디어 컨텐츠의 범위를 데스크톱, 태블릿 및 모바일 사용자로 확장하고 스트리밍된 비디오 환경을 보장할 수 있습니다.
 
-Adobe 뷰어 [참조](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) 안내서에서 HTML5 뷰어 정보를 참조하십시오.
+Adobe 뷰어 참조 안내서 [에서 HTML5 뷰어](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html) 정보를 참조하십시오.
 
-Dynamic Media [Classic Viewer 사전 설정 호환성 매트릭스를 참조하십시오](application-setup.md#scene7_viewer_preset_compatibility_matrix).
+Dynamic [Media Classic 뷰어 사전 설정 호환성 매트릭스를 참조하십시오](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
 [우수 사례: HTML5 비디오 뷰어 사용](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer)을 참조하십시오.
 
@@ -480,25 +480,25 @@ See [Responsive Static Image library](https://marketing.adobe.com.com/resources/
 
 **확대/축소 뷰어** 사용자가 해당 영역을 클릭하여 확대할 수 있습니다. 컨트롤을 클릭하여 이미지를 확대 및 축소하고 기본 크기로 재설정할 수 있습니다.
 
-**확대/축소 뷰어: 플라이아웃** 원본 이미지 옆에 확대된 영역의 두 번째 이미지를 표시합니다. 사용할 컨트롤은 없습니다. 사용자가 보려는 영역으로 선택을 이동하면 됩니다.
+**확대/축소 뷰어:플라이아웃** 원본 이미지 옆에 확대된 영역의 두 번째 이미지를 표시합니다. 사용할 컨트롤은 없습니다. 사용자가 보려는 영역으로 선택을 이동하면 됩니다.
 
 이 뷰어의 전체 대역폭 사용을 결정하는 경우 기본 이미지와 플라이아웃 이미지가 뷰어에 모두 제공된다는 것을 고려합니다. 기본 이미지 크기(단계 [너비] 및 [높이])와 확대/축소 비율에 의해 플라이아웃 이미지 크기가 결정됩니다. 플라이아웃 파일 크기가 너무 커지지 않도록 하려면 이러한 두 값의 균형을 조정합니다. 기본 이미지가 크면 확대/축소 비율 값을 줄입니다. [플라이아웃 너비] 및 [플라이아웃 높이]는 뷰어에 제공되는 플라이아웃 이미지의 크기가 아니라 플라이아웃 창의 크기를 결정합니다.
 
 예를 들어 기본 이미지 크기가 350x350 픽셀이고 확대/축소 비율이 3이면 결과 플라이아웃 이미지는 1050x1050 픽셀이 됩니다. 기본 이미지 크기가 300x300 픽셀이고 확대/축소 비율이 4이면 플라이아웃 이미지는 1200x1200 픽셀이 됩니다. JPEG 품질 설정(권장 설정은 80-90 사이임)에 따라 파일 크기를 훨씬 줄일 수 있습니다. 기본 이미지 크기에 따라 권장되는 확대/축소 비율은 2.5에서 4 사이입니다.
 
-### Dynamic Media 클래식 뷰어 사전 설정 호환성 표 {#scene-viewer-preset-compatibility-matrix}
+### Dynamic Media Classic 뷰어 사전 설정 호환성 표 {#scene-viewer-preset-compatibility-matrix}
 
-**Flash 뷰어 사용 중단 알림**: 2017년 1월 31일부터 Adobe Dynamic Media Classic은 공식적으로 Flash 뷰어 플랫폼에 대한 지원을 중단했습니다.
+**Flash 뷰어 사용 종료 알림**:2017년 1월 31일부터 Flash 뷰어 플랫폼에 대한 Adobe Dynamic Media Classic의 지원이 공식적으로 종료되었습니다.
 
 이 중요한 변경 사항에 대한 자세한 내용은 다음 FAQ 웹 사이트를 참조하십시오. [https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
 
-다음 표는 현재 사용 가능한 Dynamic Media 클래식 뷰어 사전 설정을 나타냅니다. 또한 데스크톱 및 모바일 장치와 뷰어의 호환성과 주어진 각 뷰어에 사용되는 기술을 지정합니다.
+다음 표는 현재 사용 가능한 Dynamic Media Classic 뷰어 사전 설정을 나타냅니다. 또한 데스크톱 및 모바일 장치와 뷰어의 호환성과 주어진 각 뷰어에 사용되는 기술을 지정합니다.
 
 Adobe 뷰어 [참조 라이브러리 예도 참조하십시오](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
 뷰어에 지원되는 웹 브라우저 및 운영 체제 버전에 대한 정보를 보려면 뷰어 릴리스 노트를 검토할 수 있습니다.
 
-Adobe [뷰어 참조 릴리스 정보를 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+Adobe 뷰어 [참조 릴리스 정보를 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
 |  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android 스마트폰 | Android 태블릿 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -537,7 +537,7 @@ Adobe [뷰어 참조 릴리스 정보를 참조하십시오](https://docs.adobe.
 
 **eVideo 뷰어**
 
-Dynamic Media Classic은 MP4 H.264 비디오에 대한 모바일 비디오 재생을 지원합니다.
+Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다.
 
 * 다음 위치에서 이 비디오 형식을 지원하는 Blackberry 장치를 찾을 수 있습니다. [Blackberry에서 지원되는 비디오 포맷](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
 * 이 비디오 형식을 지원하는 Windows 장치도 찾을 수 있습니다.Windows Phone에서[지원되는 비디오 형식](https://docs.microsoft.com/en-us/previous-versions/windows/apps/ff462087(v=vs.105)?redirectedfrom=MSDN)
@@ -589,7 +589,7 @@ HTML5 [뷰어 사전 설정 내보내기를 참조하십시오](application-setu
 * **[활성/비활성]** 드롭다운 목록을 열고 선택 사항을 선택하여 활성 사전 설정, 비활성 사전 설정 또는 모든 사전 설정을 표시합니다.
 * **[뷰어]** 드롭다운 목록을 열고 선택 사항을 선택하여 특정 종류의 뷰어만 표시합니다. 모든 뷰어를 표시하려면 **[모든 뷰어]**&#x200B;를 선택합니다.
 
-**정렬 사전 설정** 열 제목(활성, 유형, 사전 설정 또는 Platform)을 클릭하여 열의 목록을 정렬합니다. 목록을 내림차순(또는 오름차순)으로 정렬하려면 열 머리글을 다시 클릭합니다.
+**정렬 사전 설정** 열 제목(활성, 유형, 사전 설정 또는 플랫폼)을 클릭하여 열을 기준으로 목록을 정렬합니다. 목록을 내림차순(또는 오름차순)으로 정렬하려면 열 머리글을 다시 클릭합니다.
 
 **사전 설정 활성화** 및 비활성화 사전 설정을 선택하고 활성 옵션을 클릭하여 사전 설정을 활성화하거나 비활성화합니다.
 
@@ -626,7 +626,7 @@ HTML5 [뷰어 사전 설정 내보내기를 참조하십시오](application-setu
 1. [뷰어 구성] 화면의 [사전 설정 이름] 필드에서 사전 설정 이름을 입력하거나 편집합니다.
 1. 원하는 나머지 선택 사항을 설정합니다.
 
-   >[주]
+   >[!NOTE]
    >
    >비디오 뷰어의 크기를 인코딩된 비디오 자체의 해상도 크기로 자동으로 지정하려면 [소스와 동일]을 선택합니다. 이 선택 사항을 선택하면 [단계 너비]와 [단계 높이]를 입력할 수 없습니다. 대신 비디오 자체에서 이 선택 사항이 제공됩니다. [소스와 동일]을 선택하는 경우 비디오 재생 영역 외부의 스킨 치수를 반영하도록 [여백 크기] 선택 사항을 설정합니다. 이 여백 크기는 비디오 컨트롤의 픽셀 높이와 너비입니다. 다음 그림은 사용하려는 여백 크기를 결정하는 데 도움이 됩니다.*
 
@@ -641,7 +641,7 @@ HTML5 [뷰어 사전 설정 내보내기를 참조하십시오](application-setu
 
 기존 HTML5 뷰어 사전 설정을 내보내어 새 HTML5 뷰어 사전 설정을 만드는 기준으로 사용할 수 있습니다. 이 내보내기 선택 사항은 뷰어를 처음부터 만들 필요가 없기 때문에 유용합니다. 대신, 원하는 사전 설정과 모양 및 동작이 비슷한 사전 설정을 내보내며, 이 사전 설정을 디자인 조정의 시작 지점으로 사용할 수 있습니다.
 
-Dynamic Media Classic의 모든 기본 뷰어 사전 설정 CSS 파일은 위에 있는 자산을 가리키는 상대 이미지 제공 경로를 사용합니다 `Scene7SharedAssets`. 예를 들어, 다음은 에 있는 뷰어 사전 설정 CSS 파일의 이미지 자산에 대한 상대 경로입니다. `Scene7SharedAsset``.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`그러나 자체 사이트에서 뷰어 CSS 파일을 호스팅하는 경우, 자신의 환경에서 이미지 서버에 대한 명시적 경로를 사용하여 이러한 상대적 이미지 경로를 해결해야 합니다. 예를 들어 위의 상대 경로를 명시적 경로로 업데이트하는 경우 다음과 같이 표시될 수 있습니다. 여기서 이미지 서버에 대한 직접 경로 `https://s7d1.scene7.com` 는 다음과 같습니다. `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+Dynamic Media Classic의 기본 뷰어 사전 설정 CSS 파일은 모두 위에 있는 자산을 가리키는 상대 이미지 제공 경로를 사용합니다 `Scene7SharedAssets`. 예를 들어, 다음은 에 있는 뷰어 사전 설정 CSS 파일의 이미지 자산에 대한 상대 경로입니다. `Scene7SharedAsset``.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`그러나 자체 사이트에서 뷰어 CSS 파일을 호스팅하는 경우, 자신의 환경에서 이미지 서버에 대한 명시적 경로를 사용하여 이러한 상대적 이미지 경로를 해결해야 합니다. 예를 들어 위의 상대 경로를 명시적 경로로 업데이트하는 경우 다음과 같이 표시될 수 있습니다. 여기서 이미지 서버에 대한 직접 경로 `https://s7d1.scene7.com` 는 다음과 같습니다. `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **HTML5 뷰어 사전 설정을 내보내려면**
 
@@ -761,9 +761,9 @@ Dynamic Media Classic에서 미리 보기를 사용할 때 기본 뷰어를 사�
 
 ## 메타데이터 보기 {#metadata-views}
 
-*메타데이터*&#x200B;는 자산에 대한 표준화된 정보입니다. 메타데이터를 사용하여 워크플로를 간소화하고, 자산을 구성하고, 검색을 향상시킬 수 있습니다. Dynamic Media Classic은 IPTC(International Press Telecommunications Council) 표준 및 XMP(확장 가능한 메타데이터 플랫폼) 표준을 지원합니다. 사용자는 [세부 사항 보기]에서 자산에 대한 메타데이터를 보거나 입력하기 전에 [메타데이터 보기] 메뉴를 열고 자산을 설명하는 데 사용하거나 표시할 메타데이터 필드 집합을 선택할 수 있습니다.
+*메타데이터*&#x200B;는 자산에 대한 표준화된 정보입니다. 메타데이터를 사용하여 워크플로를 간소화하고, 자산을 구성하고, 검색을 향상시킬 수 있습니다. Dynamic Media Classic은 IPTC(International Press Telecommunications Council) 표준과 XMP(확장 가능한 메타데이터 플랫폼) 표준을 지원합니다. 사용자는 [세부 사항 보기]에서 자산에 대한 메타데이터를 보거나 입력하기 전에 [메타데이터 보기] 메뉴를 열고 자산을 설명하는 데 사용하거나 표시할 메타데이터 필드 집합을 선택할 수 있습니다.
 
-Dynamic Media Classic에는 미리 정의된 메타데이터 보기가 포함되어 있으며, 관리자는 사용자가 메타데이터를 입력할 때 선택할 수 있는 고유한 메타데이터 보기를 만들 수 있습니다.
+Dynamic Media Classic에는 미리 정의된 메타데이터 보기가 포함되어 있으며 관리자는 사용자가 메타데이터를 입력할 때 선택할 수 있는 고유한 메타데이터 보기를 만들 수 있습니다.
 
 ### 메타데이터 보기 만들기 {#creating-a-metadata-view}
 
@@ -852,7 +852,7 @@ Dynamic Media Classic에는 미리 정의된 메타데이터 보기가 포함되
 
    **색상** 색상의 이름입니다.
 
-   **차원자산의 폭과 높이입니다** .
+   **Dimension** 자산의 폭과 높이입니다.
 
    **입력** 안 됨 이전 버전과의 호환성을 위해 이 선택 사항을 선택하지 마십시오.
 
@@ -880,7 +880,7 @@ Media Portal 관리자 또는 회사 관리자만 사용자 지정 필드를 관
 
 ## 파일 최적화 {#optimize-files}
 
-파일을 Dynamic Media Classic에 업로드하면 저장 및 게시를 위해 시스템이 최적화합니다. 그러나 업로드 프로세스가 중단되면 일부 이미지를 최적화할 수 없습니다. 이 경우 &quot;이미지가 아직 최적화되지 않음&quot; 메시지가 표시됩니다. 관리자는 이러한 파일을 최적화할 수 있습니다.
+Dynamic Media Classic에 파일을 업로드하면 저장 및 게시가 최적화됩니다. 그러나 업로드 프로세스가 중단되면 일부 이미지를 최적화할 수 없습니다. 이 경우 &quot;이미지가 아직 최적화되지 않음&quot; 메시지가 표시됩니다. 관리자는 이러한 파일을 최적화할 수 있습니다.
 
 Dynamic Media Classic은 파일을 검색하여 이전에 완벽하게 최적화되지 않은 이미지만 최적화합니다.
 
@@ -891,11 +891,11 @@ Dynamic Media Classic은 파일을 검색하여 이전에 완벽하게 최적화
 
 ## 배치 집합 사전 설정 {#batch-set-presets}
 
-Dynamic Media Classic에 자산을 업로드하기 위해 작업이 실행 중인 동안 일괄 처리 세트 사전 설정을 사용하여 이미지 세트 또는 스핀 세트를 자동으로 만듭니다.
+Dynamic Media Classic에 자산을 업로드하기 위해 작업이 실행 중인 동안 일괄 세트 사전 설정을 사용하여 이미지 세트 또는 스핀 세트를 자동으로 만듭니다.
 
 회사 관리자는 먼저 집합에 함께 그룹화하려는 자산에 대한 이름 지정 규칙을 정의합니다. 그러면 일괄처리 집합 사전 설정을 만들어 이 이미지를 참조할 수 있습니다. 각 사전 설명은 고유한 이름이 지정된 독립된 지침 집합으로, 사전 설명 레서피에 정의된 이름 지정 규칙과 일치하는 이미지를 사용하여 집합을 구성하는 방법을 정의합니다.
 
-회사의 모든 활성 일괄처리 집합 사전 설정이 [업로드 작업 선택 사항] 대화 상자에 나열되므로 각 업로드 세션 중에 적용할 사전 설정을 지정할 수 있습니다. 회사 관리자는 모든 활성 및 비활성 배치 집합 사전 설정을 볼 수 있습니다. 파일을 업로드하면 활성 사전 설정에서 정의된 명명 규칙과 일치하는 모든 파일이 포함된 세트가 자동으로 만들어집니다.
+회사의 모든 활성 일괄처리 집합 사전 설정이 [업로드 작업 선택 사항] 대화 상자에 나열되므로 각 업로드 세션 중에 적용할 사전 설정을 지정할 수 있습니다. 회사 관리자는 모든 활성 및 비활성 배치 집합 사전 설정을 볼 수 있습니다. 파일을 업로드하면 Dynamic Media Classic에서 활성 사전 설정에서 정의된 이름 지정 규칙과 일치하는 모든 파일이 포함된 세트를 자동으로 만듭니다.
 
 ### 기본 이름 지정 {#default-naming}
 
@@ -921,7 +921,7 @@ Dynamic Media Classic에 자산을 업로드하기 위해 작업이 실행 중�
 
 ### 일괄처리 집합 사전 설정 만들기 {#creating-a-batch-set-preset}
 
-Dynamic Media Classic에서는 일괄 처리 세트 사전 설정을 사용하여 일부 일반적인 정보나 컨텐츠를 공유하는 에셋을 뷰어 화면에 표시할 이미지 세트로 구성합니다. 배치 세트 사전 설정 레서피는 Dynamic Media Classic에서 예약한 자산 가져오기 작업과 함께 자동으로 실행됩니다.
+Dynamic Media Classic에서는 일괄 처리 집합 사전 설정을 사용하여 일부 일반적인 정보나 내용을 공유하는 에셋을 뷰어에 표시할 이미지 세트로 구성합니다. Dynamic Media Classic에서 예약한 자산 가져오기 작업과 함께 일괄 세트 사전 설정 레서피가 자동으로 실행됩니다.
 
 [배치 집합 사전 설정]을 사용하여 배치 집합 사전 설정을 만들고 편집 및 관리합니다. 배치 집합 사전 설정을 필요한 개수만큼 만들어 필요한 자산 가져오기 작업을 모두 처리할 수 있습니다. 두 가지 양식의 일괄처리 집합 사전 설정 정의가 있습니다. 하나는 직접 설정한 기본 이름 지정 규칙에 사용되고 다른 하나는 즉석에서 만든 사용자 지정 이름 지정 규칙에 사용됩니다.
 
