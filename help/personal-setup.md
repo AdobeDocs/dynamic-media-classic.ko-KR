@@ -59,7 +59,7 @@ ht-degree: 78%
 |--- |--- |
 | Adobe Creative Cloud 2014의 Adobe Illustrator 18 | <ul><li>압축을 푼 폴더의 루트에서 CC-2014 > mac64를 클릭합니다.</li><li>라이브러리 > flame을 클릭한 다음 `aflame.framework` 폴더를 Adobe Illustrator 패키지 컨텐츠 폴더에 복사합니다. (예: `/Applications/Adobe Illustrator CC 2014/ Illustrator.app/Contents/Frameworks/`) Adobe Illustrator의 패키지 내용 폴더를 열려면 Adobe Illustrator CC 2014 아이콘을 마우스 오른쪽 버튼으로 클릭하고 컨텍스트 메뉴에서 패키지 내용 표시를 클릭합니다.</li><li>동일한 라이브러리 폴더로 돌아가 `flamingo`를 클릭한 다음 `aflamingo.framework` 폴더를 이전 단계에서 사용한 것과 동일한 Adobe Illustrator 패키지 컨텐츠 폴더에 복사합니다.</li><li>1단계에서 선택한 mac64 폴더로 돌아간 다음 `AdobeS7FXGFileFormat.aip`를 Adobe Illustrator의 플러그인 폴더에 복사합니다. (예: `/Applications/Adobe Illustrator CC 2014/Plug-ins/Illustrator Formats/`)</li></ul><br/> |
 | Adobe Creative Cloud의 Adobe Illustrator 17 | <ul><li>압축을 푼 폴더의 루트에서 CC > mac64를 클릭합니다</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. (예: `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`)</li></ul><br/> |
-| Adobe Creative Suite 6의 Adobe Illustrator 16 | <ul><li>압축을 푼 폴더의 루트에서 6.0 > mac}64를 클릭합니다</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. (예: `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`)</li></ul> |
+| Adobe Creative Suite 6의 Adobe Illustrator 16 | <ul><li>압축을 푼 폴더의 루트에서 6.0 > mac64를 클릭합니다</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator’s plug-in folder. (예: `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`)</li></ul> |
 
 이제 Adobe Illustrator에서 이 플러그인을 사용할 수 있습니다.
 
