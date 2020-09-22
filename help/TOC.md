@@ -1,32 +1,32 @@
 ---
 cloud: experience-cloud
-product: dynamic media classic
+product: Adobe Dynamic Media Classic
 audience: end-user
-user-guide-title: Dynamic Media 클래식 도움말
+user-guide-title: Adobe Dynamic Media Classic 안내서
 index: y
 translation-type: tm+mt
-source-git-commit: 1ed0c74e3d2c94b22daa2fe2ac5c2a051e6768bc
+source-git-commit: 17e152e3768f527a9db2eadb664ca420778372ae
 workflow-type: tm+mt
-source-wordcount: '737'
+source-wordcount: '739'
 ht-degree: 74%
 
 ---
 
 
-# Dynamic Media 클래식 도움말 {#using}
+# Adobe Dynamic Media Classic 안내서 {#using}
 
-+ [Dynamic Media Classic 설명서 홈](home.md)
++ [Adobe Dynamic Media Classic 안내서](home.md)
 + [모범 사례 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [새로운 기능 Dynamic Media Classic 로그인 환경 사용 가능](new-ui-2020.md)
 + [Experience League의 Dynamic Media 뉴스레터](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic 소개 {#intro}
    + [Adobe Dynamic Media Classic 데스크탑 앱 - 현재 제공 중](dynamic-media-classic-desktop-app.md)
-   + [Dynamic Media 클래식 도움말 정보](introduction.md)
+   + [Dynamic Media Classic 도움말 정보](introduction.md)
    + [개발자 리소스](developer-resources.md)
    + [What’s new](whats-new.md)
    + [시스템 요구 사항](system-requirements.md)
    + [지원](support.md)
-   + [Dynamic Media Classic Media Portal 도움말](help-dmc-media-portal.md)
+   + [Dynamic Media Classic 미디어 포털에 대한 도움말](help-dmc-media-portal.md)
    + [Adobe 교육 서비스](training-services.md)
    + [널리 사용되는 리소스](popular-resources.md)
    + [교육 비디오](training-videos.md)
@@ -45,7 +45,7 @@ ht-degree: 74%
    + [Administration Setup](administration-setup.md)
 + Media Portal {#media-portal}
    + [시스템 요구 사항](system-requirements-1.md)
-   + [빠른 시작: 미디어 포털](quick-start-media-portal-administration.md)
+   + [빠른 시작:미디어 포털](quick-start-media-portal-administration.md)
    + [Media Portal 사용자 역할](media-portal-user-roles.md)
    + [Creating and managing Media Portal groups](creating-media-portal-groups.md)
    + [Media Portal 사용자 추가 및 관리](adding-media-portal-users.md)
@@ -70,7 +70,7 @@ ht-degree: 74%
    + [자산 이동, 이름 바꾸기 및 삭제](moving-renaming-deleting-assets.md)
    + [세부 사항 보기의 작업](detail-view.md)
    + [메타데이터 보기, 추가 및 내보내기](viewing-adding-exporting-metadata.md)
-   + [Dynamic Media Classic에서 에셋 내보내기](exporting-assets-from-dmc.md)
+   + [Dynamic Media Classic에서 자산 내보내기](exporting-assets-from-dmc.md)
    + [자산 변경 사항을 피어와 실시간으로 공유](sharing-asset-changes-peers-real.md)
    + [자산 인쇄](printing-assets.md)
    + [Managing the Trash folder](trash-folder.md)
@@ -90,7 +90,7 @@ ht-degree: 74%
    + [확대/축소 이미지 게시](publishing-zoom-images.md)
    + [확대/축소 뷰어를 웹 페이지에 연결](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
-   + [빠른 시작: eCatalogs](quick-start-ecatalog.md)
+   + [빠른 시작:eCatalogs](quick-start-ecatalog.md)
    + [PDF 파일 업로드](uploading-pdf-files.md)
    + [Creating an eCatalog](creating-ecatalog.md)
    + [Creating eCatalog Image Maps](creating-ecatalog-image-maps.md)
@@ -146,7 +146,7 @@ ht-degree: 74%
    + [혼합 미디어 집합 게시](publishing-mixed-media-set.md)
    + [혼합 미디어 집합을 웹 페이지에 연결](linking-mixed-media-set-web.md)
 + Adobe Analytics instrumentation kit {#analytics-kit}
-   + [빠른 시작: Adobe Analytics과 Adobe Classic 통합](quick-start-integrating-dmc-analytics.md)
+   + [빠른 시작:Dynamic Media Classic과 Adobe Analytics 통합](quick-start-integrating-dmc-analytics.md)
    + [Adobe Analytics에 로그인](log-analytics.md)
    + [Adobe Analytics 보고서 구성](configuring-analytics-reports.md)
    + [Adobe Analytics 계측 키트를 사용하여 뷰어 계측](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -155,10 +155,10 @@ ht-degree: 74%
    + [Adobe Analytics 비디오 보고서 활성화](enabling-analytics-video-reports.md)
    + [Adobe Analytics 구성 정보 게시](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premium 통합 {#target-classic}
-   + [빠른 시작: Adobe Target Standard/Premium 통합](quick-start-target-integration.md)
-   + [Adobe Target Standard/Premium과 Dynamic Media Classic 통합](integrating-dmc-with-target.md)
+   + [빠른 시작:Adobe Target Standard/Premium 통합](quick-start-target-integration.md)
+   + [Dynamic Media Classic과 Adobe Target Standard/Premium 통합](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
-   + [Adobe Target Standard/Premium으로 오퍼 세트 푸시](pushing-offer-sets-target.md)
+   + [Adobe Target Standard/Premium으로 오퍼 세트 밀어넣기](pushing-offer-sets-target.md)
 + 사용자 생성 컨텐츠 {#user-generated-content}
    + [사용자 생성 컨텐츠 정보](about-ugc.md)
    + [업로드한 자산 삭제](deleting-uploaded-asset.md)
