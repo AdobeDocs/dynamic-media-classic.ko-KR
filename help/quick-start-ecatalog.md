@@ -1,6 +1,6 @@
 ---
-title: '"빠른 시작: eCatalogs"'
-seo-title: '"빠른 시작: eCatalogs"'
+title: '"빠른 시작:eCatalogs"'
+seo-title: '"빠른 시작:eCatalogs"'
 description: 널
 seo-description: eCatalog 기법을 빠르게 익히고 실행하는 데 도움이 되는 eCatalogs 소개 및 빠른 시작
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 83b88623b898fdadd1b334b1c12901830c831c5c
 workflow-type: tm+mt
 source-wordcount: '1450'
 ht-degree: 64%
@@ -18,14 +18,14 @@ ht-degree: 64%
 ---
 
 
-# 빠른 시작: eCatalogs{#quick-start-ecatalogs}
+# 빠른 시작:eCatalogs{#quick-start-ecatalogs}
 
 eCatalog는 카탈로그, 브로셔, 전단, 제품 설명서 또는 광고 전단과 같은 인쇄물의 디지털 웹 버전입니다. eCatalog는 웹 사이트의 eCatalog 뷰어에 표시됩니다. 이 뷰어는 인쇄물을 읽는 경험을 시뮬레이션합니다. eCatalog에 대해 선택하는 설정에 따라 뷰어에서 다음을 수행할 수 있습니다.
 
 * 카탈로그에서 키워드 또는 키워드를 검색합니다. 검색 결과는 카탈로그 왼쪽의 검색 패널에 축소판 목록으로 표시됩니다. 클릭할 수 있는 각 축소판은 강조 표시된 검색어가 있는 카탈로그 스프레드를 나타냅니다.
 
-* 소셜 미디어를 통해 카탈로그 공유 카탈로그를 다운로드하여 오프라인에서 보기 즐겨찾기를 사용하여 빠르게 돌아갈 항목을 표시하거나 카탈로그를 인쇄합니다.
-* 목차 또는 페이지 그리드 보기를 사용하여 카탈로그를 탐색합니다. 페이지의 가운데 가장자리를 클릭하여 페이지 앞 또는 뒤로 이동시킬 수 있습니다.
+* 소셜 미디어를 통해 카탈로그 공유카탈로그를 다운로드하여 오프라인에서 보기즐겨찾기를 사용하여 빠르게 돌아갈 항목을 표시하거나 카탈로그를 인쇄합니다.
+* 목차 또는 페이지 그리드 보기를 사용하여 카탈로그를 탐색합니다.페이지의 가운데 가장자리를 클릭하여 페이지 앞 또는 뒤로 이동시킬 수 있습니다.
 * 확대, 축소 및 패닝하여 페이지의 항목을 검사합니다.
 * 포인터를 페이지 영역(이미지 맵이라고 함) 위로 이동하여 항목에 대한 정보가 포함된 팝업 창을 표시합니다.
 * 페이지 영역을 클릭하여 항목에 대한 자세한 정보가 포함된 새 웹 페이지를 엽니다.
@@ -42,9 +42,13 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 
 >[!NOTE]
 >
->AEM Dynamic Media - Scene7 모드 사용자이고 eCatalogs를 사용하려면 CRXDE Lite에서 `pdfbrochure` 값을 편집해야 합니다. 이렇게 하려면 AEM에서 **[!UICONTROL 도구 > 일반 > CRXDE Lite를 클릭합니다]**. 왼쪽 패널 탐색 트리에서 로 이동합니다 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
-오른쪽 아래 창의 **[!UICONTROL 속성]** 탭에서 `jobParam` 행을 선택합니다. 에서 `pdfbrochure` 로 값을 `false` 설정합니다 `true`. CRXDE `pdfbrochure=true`Lite 페이지의 왼쪽 위 모서리에서 모두 **[!UICONTROL 저장을 클릭합니다]**.
-이제 Dynamic Media Classic에서 eCatalogs를 작성할 수 있습니다.
+>AEM Dynamic Media - Scene7 모드 사용자이고 eCatalogs를 사용하려면 CRXDE Lite에서 `pdfbrochure` 값을 편집해야 합니다. 이렇게 하려면 AEM에서 **[!UICONTROL 도구 > 일반 > CRXDE Lite을 클릭합니다]**. 왼쪽 패널 탐색 트리에서 로 이동합니다 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>
+>오른쪽 아래 창의 **[!UICONTROL 속성]** 탭에서 `jobParam` 행을 선택합니다. 에서 `pdfbrochure` 로 값을 `false` 설정합니다 `true`. As in `pdfbrochure=true`
+>
+>CRXDE Lite 페이지의 왼쪽 위 모서리에서 모두 **[!UICONTROL 저장을 클릭합니다]**.
+>
+>이제 Dynamic Media Classic에서 eCatalogs를 작성할 수 있습니다.
 
 **빠른 시작**
 
@@ -108,7 +112,7 @@ To find out how eCatalog Viewer Presets display your eCatalog, select your eCata
 
 **6. eCatalog 및 관련 PDF 게시**
 
-eCatalog 및 관련 PDF를 게시하면 웹 사이트 및 애플리케이션에 전달할 수 있도록 Dynamic Media 이미지 서버에 해당 eCatalog를 배치할 수 있습니다. 게시 프로세스의 일부로 Dynamic Media Classic은 eCatalog에 대한 URL 문자열을 활성화합니다. 이 URL을 사용하여 Dynamic Media 이미지 서버에서 웹 사이트 또는 응용 프로그램으로 eCatalog를 호출합니다.
+eCatalog 및 관련 PDF를 게시하면 웹 사이트 및 애플리케이션에 전달할 수 있도록 Dynamic Media 이미지 서버에 해당 eCatalog를 배치할 수 있습니다. 게시 프로세스의 일부로 Dynamic Media Classic은 eCatalog에 대한 URL 문자열을 활성화합니다. 이 URL을 사용하여 다이내믹 미디어 이미지 서버에서 웹 사이트 또는 응용 프로그램으로 eCatalog를 호출합니다.
 
 검색 패널에서 eCatalog 및 PDF를 게시로 표시한 후 글로벌 탐색 막대에서 [게시] 단추를 선택하여 게시를 시작합니다. On the Publish screen, click **[!UICONTROL Start Publish]**.
 
@@ -116,7 +120,7 @@ e카탈로그 [및 관련 PDF 게시를 참조하십시오](publishing-ecatalogs
 
 **7. eCatalog를 웹 페이지에 연결**
 
-Dynamic Media Classic에서는 Dynamic Media 이미지 서버에 게시할 때 eCatalog를 표시하는 데 필요한 URL 콜아웃 문자열을 활성화합니다. 패널에서 URL을 선택하면 [미리 보기] 화면과 찾아보기 패널(세부 사항 보기)에서 이 URL 문자열을 복사할 수 있습니다. 복사한 URL 문자열은 웹 사이트와 애플리케이션에서 사용할 수 있습니다.
+Dynamic Media Classic에서는 eCatalog를 Dynamic Media 이미지 서버에 게시할 때 eCatalog를 표시하는 데 필요한 URL 콜아웃 문자열을 활성화합니다. 패널에서 URL을 선택하면 [미리 보기] 화면과 찾아보기 패널(세부 사항 보기)에서 이 URL 문자열을 복사할 수 있습니다. 복사한 URL 문자열은 웹 사이트와 애플리케이션에서 사용할 수 있습니다.
 
 IT 팀과 협력하여 eCatalog 링크를 웹 사이트의 적절한 위치에 배치합니다. 사용자가 링크를 클릭하면 eCatalog 뷰어가 나타나고 사용자가 eCatalog를 찾을 수 있습니다. 
 
