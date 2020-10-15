@@ -3,14 +3,14 @@ cloud: experience-cloud
 product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic 안내서
-breadcrumb-title: Dynamic Media Classic Guide
-user-guide-description: Learn more about using Dynamic Media Classic (formerly known as Scene7)
+breadcrumb-title: Dynamic Media Classic 안내서
+user-guide-description: Dynamic Media Classic(이전 Scene7)을 사용하는 방법에 대한 자세한 내용
 index: y
 translation-type: tm+mt
 source-git-commit: 4d2052f1ddb2394a08fbaa5cb3b8b8fd9d5c5217
 workflow-type: tm+mt
-source-wordcount: '739'
-ht-degree: 74%
+source-wordcount: '754'
+ht-degree: 77%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 74%
 + [Adobe Dynamic Media Classic 안내서](home.md)
 + [모범 사례 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [새로운 기능 Dynamic Media Classic 로그인 환경 사용 가능](new-ui-2020.md)
-+ [Experience League의 Dynamic Media 뉴스레터](dynamic-media-newsletter.md)
++ [Dynamic Media 뉴스레터 - Experience League](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic 소개 {#intro}
    + [Adobe Dynamic Media Classic 데스크탑 앱 - 현재 제공 중](dynamic-media-classic-desktop-app.md)
    + [Dynamic Media Classic 도움말 정보](introduction.md)
