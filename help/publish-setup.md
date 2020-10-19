@@ -2,24 +2,24 @@
 title: 게시 설정
 seo-title: 게시 설정
 description: 널
-seo-description: '[게시 설정] 화면 설정은 Dynamic Media Classic 서버에서 웹 사이트 또는 응용 프로그램으로 자산이 기본적으로 제공되는 방식을 결정합니다.'
+seo-description: '[게시 설정] 화면 설정에 따라 자산이 Dynamic Media Classic 서버에서 웹 사이트 또는 애플리케이션으로 기본적으로 제공되는 방법이 결정됩니다.'
 uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: 5622464ae7ae9cd47b7674449c7d1f7897bf4319
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2421'
+ht-degree: 64%
 
 ---
 
 
 # 게시 설정 {#publish-setup}
 
-[게시 설정] 화면 설정은 Dynamic Media Classic 서버에서 웹 사이트 또는 응용 프로그램으로 자산이 기본적으로 제공되는 방식을 결정합니다. 설정이 지정되지 않은 경우 Dynamic Media Classic 서버는 [게시 설정] 화면의 기본 설정에 따라 자산을 전달합니다. 예를 들어 해상도 특성을 포함하지 않는 이미지를 제공하는 요청은 [이미지 서버] 화면의 [기본 개체 해상도] 설정을 사용하여 이미지를 만듭니다.
+[게시 설정] 화면 설정에 따라 자산이 Dynamic Media Classic 서버에서 웹 사이트 또는 애플리케이션으로 기본적으로 제공되는 방법이 결정됩니다. 설정이 지정되지 않은 경우 Dynamic Media Classic 서버는 [게시 설정] 화면의 기본 설정에 따라 자산을 제공합니다. 예를 들어 해상도 특성을 포함하지 않는 이미지를 제공하는 요청은 [이미지 서버] 화면의 [기본 개체 해상도] 설정을 사용하여 이미지를 만듭니다.
 
 관리자는 [이미지 서버], [이미지 렌더러] 및 [비네팅] 화면의 기본 설정을 변경하여 서버의 자산 제공에 대한 기본 설정을 지정할 수 있습니다.
 
@@ -35,7 +35,7 @@ ht-degree: 0%
 
 Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설정을 변경합니다.
 
-**카탈로그 관리** 이러한 설정은 Dynamic Media Classic과 카탈로그가 상호 작용하는 방식을 결정합니다. 대부분의 웹 서버와 달리 Dynamic Media 이미지 서버 URL 호출은 이미지 파일이 적합한 파일이 아닌 매니페스트 또는 카탈로그 파일로 이동합니다. 카탈로그 파일(eCatalog 아님)에는 각 이미지의 경로와 함께 이미지 서버에 게시되는 모든 컨텐츠 목록이 들어 있습니다. Digimarc ID가 있는 경우 [Digimarc 사용자 정보] 섹션에서 사용자 정보를 입력합니다.
+**카탈로그 관리** 이러한 설정에 따라 Dynamic Media Classic 및 카탈로그가 상호 작용하는 방법이 결정됩니다. 대부분의 웹 서버와 달리 다이내믹 미디어 이미지 서버 URL 호출은 이미지 파일이 적합한 파일이 아닌 매니페스트 또는 카탈로그 파일로 이동합니다. 카탈로그 파일(eCatalog 아님)에는 각 이미지의 경로와 함께 이미지 서버에 게시되는 모든 컨텐츠 목록이 들어 있습니다. Digimarc ID가 있는 경우 [Digimarc 사용자 정보] 섹션에서 사용자 정보를 입력합니다.
 
 **요청 속성** 이러한 설정은 서버에서 전달할 수 있는 이미지에 제한을 적용합니다. 예를 들어, *최대* 응답 이미지 크기 제한은 **** 너비 **[!UICONTROL 5000]** 및 높이 **[!UICONTROL 5]** 00입니다.
 
@@ -54,7 +54,7 @@ Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설�
 예를 들어 여러 국가에서 팔리는 다국적 브랜드인 경우 각 국가에서 자체 로케일별 뷰어를 사용하도록 할 수 있습니다. 이 기능을 수행하려면 로케일 맵 문자열을 지정합니다. 그런 다음 원하는 언어로 번역된 텍스트 문자열을 추가하여 뷰어의 사전 설정에서 도구 설명 텍스트를 편집합니다.
 
 >[!NOTE]
-> 현지화 지원 옵션을 설정하려면 Adobe Dynamic Media Classic 기술 지원에 문의하거나 s7support@adobe.com설치 도움말을 요청하는 이메일을 보내십시오.
+> 로컬라이제이션 지원 옵션을 설정하려면 Admin Console을 [사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 케이스에 설치 도움말을 요청합니다.
 
 **현지화 지원** 설정에 대한 자세한 내용은 [자산 현지화를 설정할 때 고려 사항](publish-setup.md#considerations_when_setting_up_localization_of_assets)을 참조하십시오.
 
@@ -62,7 +62,7 @@ Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설�
 
 >[!NOTE]
 >
->로케일 맵 필드와 같은 Dynamic Media Classic에서 현지화 지원 옵션을 설정하려면 Adobe Dynamic Media 클래식 기술 지원에 문의하십시오. 또는, 설정 관련 도움을 요청하는 이메일을 s7support@adobe.com으로 보내 주십시오.
+>로케일 맵 필드와 같이 Dynamic Media Classic에서 현지화 지원 옵션을 설정하려면 Admin Console을 [사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 케이스에 설치 도움말을 요청합니다.
 
 Dynamic Media Classic을 사용하는 일반적인 방법은 전자 상거래 웹 사이트에서 제품 이미지를 관리하는 것입니다. 국제 산업은 유사한 제품에 대한 자산이 나라마다 다르게 보이는 문제에 직면하고 있습니다. 보통 차이는 전체 미디어에서 매우 작은 부분에 대한 것입니다. 이러한 차이를 각 국가의 모든 자산을 복사하고 차이만 다시 써서 해결하는 것은 엄청난 노력을 요하는 일이며 하나의 마스터 자산이라는 표현과 모순됩니다. 이와 같은 자산의 차이점은 서로 다른 오디오 트랙을 사용하는 국가별 비디오에서부터 제품과 함께 사용되는 전원 코드의 미묘하지만 중요한 차이에 이르기까지 다양할 수 있습니다. Dynamic Media Classic에서는 기본 조회 메커니즘을 사용합니다. 사용자는 필요한 로케일에서 시작하여 이미지 서버가 검색하는 자산 접미어 순서를 정의합니다.
 
@@ -100,7 +100,7 @@ Some of the benefits of using `locale=` and `attribute::DefaultLocale` include t
 
 **자산 현지화 구현**
 
-Dynamic Media 클래식 및 이미지 제공 기능에는 이미지 및 정적 컨텐츠의 지역화를 허용하는 인터페이스가 있습니다.
+Dynamic Media Classic 및 이미지 서비스에는 이미지와 정적 컨텐츠의 지역화를 허용하는 인터페이스가 있습니다.
 
 현지화를 하지 않는 이미지 서버 URL은 다음과 같은 모습입니다.
 
@@ -140,7 +140,7 @@ If an unknown or empty locale parameter is supplied with `locale=`, then the loc
 
 **defaultImage 정보**
 
-이미지 서버는 요청된 로케일에 대한 선택 사항을 번갈아 시도합니다. 일치 항목이 없는 경우, 로케일 선택 사항은 defaultImage에 적용되며, 일치 버전이 반환됩니다. 따라서 각 로케일에 현지화 없이 이미지에 대한 옵션이 포함되거나, 현지화된 defaultImage 버전은 Dynamic Media Classic에서 사용할 수 있어야 합니다.
+이미지 서버는 요청된 로케일에 대한 선택 사항을 번갈아 시도합니다. 일치 항목이 없는 경우, 로케일 선택 사항은 defaultImage에 적용되며, 일치 버전이 반환됩니다. 따라서 각 로케일에 현지화 없이 이미지에 대한 옵션이 포함되거나, 현지화된 기본 이미지 버전은 Dynamic Media Classic에서 사용할 수 있어야 합니다.
 
 **localeMap을 찾는 시나리오**
 
@@ -223,7 +223,7 @@ Using the first example as a basis, images for all languages may have the suffix
 
 [이미지 렌더러] 화면에서는 이미지 렌더링 서버의 이미지 집합 제공에 대한 기본 설정을 지정합니다. 다음 5가지 범주로 설정을 사용할 수 있습니다. 설정에 대한 자세한 내용은 [이미지 서버] 화면 자체를 참조하십시오.
 
-**카탈로그 관리** 이러한 설정에 따라 Dynamic Media Classic과 카탈로그 파일의 상호 작용이 결정됩니다. Dynamic Media Classic Render Server URL 호출은 카탈로그에 대해 수행되므로 서버에서 이미지를 전달하는 것이 호출됩니다. Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설정을 변경합니다.
+**카탈로그 관리** 이러한 설정에 따라 Dynamic Media Classic 및 카탈로그 파일의 상호 작용 방식이 결정됩니다. Dynamic Media Classic Render 서버 URL 호출은 카탈로그에 대해 수행되므로 서버에서 이미지를 전달하는 호출이 수행됩니다. Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설정을 변경합니다.
 
 **세션 속성** 이 설정은 오류 매개 변수, 상대 이미지 URL에 대한 URL 및 개체 겹침 허용 여부를 설정합니다.
 
