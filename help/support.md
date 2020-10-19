@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 05e443b2-ac15-4d87-859a-271699593304
 translation-type: tm+mt
-source-git-commit: a77f7544b5b29cb73afcee2c250b6f22af08c249
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 36%
+source-wordcount: '187'
+ht-degree: 35%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 36%
 | 지원되는 사용자 | 조직당 최대 10명의 사용자가 지원 사용자로 지정될 수 있으며, 이 사용자는 고객 지원 센터에서 사례를 열 수 있습니다. |
 | 소셜 지원 | https://helpx.adobe.com/contact/enterprise-support.ec.html에서 FAQ를 [참조하십시오](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html). |
 | 무료 라이브 웹 교육 및 비디오 자습서 | 포함. |
-| 이메일 지원 | <ul><li>미국/캐나다:s7support@adobe.com</li> <li>일본:s7support_jp@adobe.com</li><li>유럽/중동/아프리카:s7intsupport@adobe.com</li></ul> |
+| 지원 사례 만들기 | [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) |
 | 전화 지원 | <ul><li>미국/캐나다:(800) 898-9743, (800)497-033, (408)454-5910 </li> <li>일본:+81-3-6743-9632 </li><li>영국:+44 (0)20 35641782</li><li>독일:+49 (0)69 51709005</li><li>프랑스:+33 157324085</li><li>네덜란드:+31 (0)20 2035138 (영어 주말지원)</li></ul> |
 
 기술 지원에 문제를 보고할 경우 다음 정보를 포함하십시오.
