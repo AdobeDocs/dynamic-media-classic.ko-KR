@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: df88ca77d3f9c40c59d796e6854942b93cef5729
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 86%
+source-wordcount: '1536'
+ht-degree: 84%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 86%
 
 ## 공유 보안 키 요청 {#requesting-a-shared-secret-key}
 
-Scene 7 기술 지원팀(7support@adobe.com)에 이메일을 보내 *공유 보안 키*&#x200B;를 요청합니다.
+Admin Console을 *사용하여 지원 사례를 만들어* 공유 암호 [키를 요청합니다.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 케이스에 공유 암호 키를 요청합니다.
 
 이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Dynamic Media Classic에서 키를 받은 후 나중에 사용할 수 있도록 로컬에 저장합니다.
 
