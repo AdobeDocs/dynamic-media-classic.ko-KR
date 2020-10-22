@@ -8,7 +8,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: bc79edcdb378fab906df851971acd33f8af18105
+source-git-commit: bfe4bc1898e781780202dc311b643dc7a4c7b146
 workflow-type: tm+mt
 source-wordcount: '1422'
 ht-degree: 0%
@@ -58,13 +58,13 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
    최신 버전은 20.20.2입니다.
 
-   * [macOS(.DMG) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-   * [Windows(.EXE) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+   * [macOS(.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [Windows(.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
    GA(General Availability) 버전은 20.20.1에서 제공됩니다.
 
-   * [macOS(.DMG) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows(.EXE) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [macOS(.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows(.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
 
 
 
@@ -111,7 +111,7 @@ macOS에서 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 다
 
 1. macOS용 Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드합니다.
 
-   * [macOS(.DMG) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [macOS(.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
 
 1. 다음 명령을 사용하여 다운로드한 디스크 이미지(.DMG)를 마운트 위치 위치에 마운트합니다.
 
@@ -151,7 +151,7 @@ Windows에서 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 �
 
 1. Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드합니다.
 
-   * [Windows(.EXE) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.exe)
+   * [Windows(.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
 
 1. 다음 명령을 사용하여 기록 모드에서 설치 프로그램을 실행합니다.
 
