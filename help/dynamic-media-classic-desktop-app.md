@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 3f79517399e9f242149b66c1b71f6cca26bdb37d
+source-git-commit: e6deebcd9acd2125629f65d1d21171f5ac2ce696
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
 참조:
 
-* [Mac 또는 Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치](#installation-dmc-app)
+* [Mac에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 자동 설치](#install-silent-mac-dmc-app)
 * [Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 자동 설치](#install-silent-windows-dmc-app)
 
 1. 시스템에서 이전 Dynamic Media Classic 데스크탑 앱 버전을 제거합니다.
@@ -143,7 +143,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 참조:
 
 * [Mac 또는 Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치](#installation-dmc-app)
-* [Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 자동 설치](#install-silent-windows-dmc-app)
+* [macOS에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 자동 설치](#install-silent-mac-dmc-app)
 
 Windows에서 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 *자동* 설치하려면:
 
