@@ -8,9 +8,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 477a8fd6ffee00cd586d91f6eeda8e676753a90f
+source-git-commit: 8d226f9b68e8f4d756825b26599bae37e06cf088
 workflow-type: tm+mt
-source-wordcount: '1244'
+source-wordcount: '1422'
 ht-degree: 0%
 
 ---
@@ -34,19 +34,39 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 * macOS X 10.10 이상
 * Windows 7 이상
 
-## macOS 또는 Windows에서 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치 {#installation-dmc-app}
+## 최신 버전 20.20.2의 수정 사항 {#latest-fixes-desktop-app}
+
+* macOS와 Windows용 데스크탑 앱 사용자 인터페이스를 통해 업로드할 수 있는 파일 수에는 제한이 없습니다.
+* 회사 간을 전환하기 위해 데스크탑 앱에서 로그아웃할 필요가 없습니다.
+* 이제 Windows에서 붙여넣기 작업을 위한 Ctrl+V가 작동합니다.
+* 향후 새로운 버전의 데스크탑 앱이 릴리스되면 사용자는 데스크탑 앱 자체 내에서 알림을 받게 됩니다.
+
+## macOS 또는 Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치 {#installation-dmc-app}
 
 참조:
 
-* [macOS에서 *Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 자동* 설치](#install-silent-mac-dmc-app)
-* [Windows에서 *Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 자동* 설치](#install-silent-windows-dmc-app)
+* [macOS에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 *자동* 설치](#install-silent-mac-dmc-app)
+* [Windows에서 최신 Adobe Dynamic Media *Classic 데스크탑 앱 다운로드 및 자동* 설치](#install-silent-windows-dmc-app)
 
 1. 시스템에서 이전 Dynamic Media Classic 데스크탑 앱 버전을 제거합니다.
 
 1. Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드합니다.
 
-   * [macOS(.DMG) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
-   * [Windows(.EXE) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   >[!NOTE]
+   >
+   >GA 버전을 이미 설치한 사용자는 최신 버전을 설치하기 전에 로컬 Windows 시스템에서 *제거해야* 합니다. 또는 로컬 macOS 시스템에 설치된 GA 버전을 최신 버전으로 간단히 *교체할* 수 있습니다. 새 사용자는 최신 버전 20.20.2를 직접 설치해야 합니다.
+
+   최신 버전은 20.20.2입니다.
+
+   * [macOS(.DMG) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
+   * [Windows(.EXE) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe)
+
+   GA(General Availability) 버전은 20.20.1에서 제공됩니다.
+
+   * [macOS(.DMG) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [Windows(.EXE) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.1.exe)
+
+
 
 1. 다운로드한 설치 프로그램에 따라 다음 중 하나를 수행합니다.
 
@@ -77,24 +97,24 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
 1. 로그인 UI를 게시하면 친숙한 브라우저 UI 환경이 표시됩니다. 데스크탑 앱 UI에서 일상적인 작업을 이제 평소대로 진행할 수 있습니다.
 
-## macOS에서 *Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 자동* 설치 {#install-silent-mac-dmc-app}
+## macOS에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 *자동* 설치 {#install-silent-mac-dmc-app}
 
 참조:
 
-* [Mac 또는 Windows에서 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치](#installation-dmc-app)
-* [Windows에서 *Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 자동* 설치](#install-silent-windows-dmc-app)
+* [Mac 또는 Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치](#installation-dmc-app)
+* [Windows에서 최신 Adobe Dynamic Media *Classic 데스크탑 앱 다운로드 및 자동* 설치](#install-silent-windows-dmc-app)
 
-macOS에서 *Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동* 설치하려면:
+macOS에서 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 *자동* 설치하려면:
 
 1. 시스템에서 이전 Dynamic Media Classic 데스크탑 앱 버전을 제거합니다.
 
 1. macOS용 Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드합니다.
 
-   * [macOS(.DMG) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.dmg)
+   * [macOS(.DMG) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.dmg)
 
 1. 다음 명령을 사용하여 다운로드한 디스크 이미지(.DMG)를 마운트 위치 위치에 마운트합니다.
 
-   `hdiutil attach adobe-dynamic-media-classic-20.20.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.20.2.dmg -mountpoint <mount_point_path>`
 
 1. 다음 명령을 사용하여 .APP 파일을 **[!UICONTROL 응용]** 프로그램에 복사합니다.
 
@@ -115,34 +135,34 @@ Unmount DMG - hdiutil detach <mount_point_path>`
    | https://s7sps3.scene7.com/ | EMEA(유럽, 중동 및 아프리카) 프로덕션 |
    | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
 
-## Windows에서 *Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 자동* 설치 {#install-silent-windows-dmc-app}
+## Windows에서 최신 Adobe Dynamic Media *Classic 데스크탑 앱 다운로드 및 자동* 설치 {#install-silent-windows-dmc-app}
 
 사용하는 명령은 기본 MSI 자동 설치에 사용됩니다. 그러나 Dynamic Media Classic 데스크탑 앱 설치 프로그램은 InstallShield를 사용하여 만든 InstallScript MSI 설치 프로그램입니다. 설치 프로그램을 기록 모드로 실행하면 모든 사용자 상호 작용이 응답 파일에 기록됩니다. 그런 다음 이 응답 파일은 자동 모드에서 설치 실행 [에 설명된 자동 설치에 사용됩니다.](https://docs.flexera.com/installshield19helplib/helplibrary/SilentInstall.htm)
 
 참조:
 
-* [Mac 또는 Windows에서 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치](#installation-dmc-app)
-* [Windows에서 *Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 자동* 설치](#install-silent-windows-dmc-app)
+* [Mac 또는 Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치](#installation-dmc-app)
+* [Windows에서 최신 Adobe Dynamic Media *Classic 데스크탑 앱 다운로드 및 자동* 설치](#install-silent-windows-dmc-app)
 
-Windows에서 *Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동* 설치하려면:
+Windows에서 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 *자동* 설치하려면:
 
 1. 시스템에서 이전 Dynamic Media Classic 데스크탑 앱 버전을 제거합니다.
 
 1. Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드합니다.
 
-   * [Windows(.EXE) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.1.exe)
+   * [Windows(.EXE) - 다운로드](http://download.macromedia.com/dynamic-media-classic/20.20.1/adobe-dynamic-media-classic-20.20.2.exe)
 
 1. 다음 명령을 사용하여 기록 모드에서 설치 프로그램을 실행합니다.
 
-   `adobe-dynamic-media-classic-20.20.1.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.20.2.exe /r /f1"C:\Setup.iss"`
 
 1. GUI 설치 프로그램 창에서 설치 단계에 따라 설치 위치와 같은 상호 작용/입력이 `Setup.iss` 파일에 기록되도록 설치합니다.
 
-1. 만든 `Setup.iss` 파일을 다른 컴퓨터 `adobe-dynamic-media-classic-20.20.1.exe` 에 복사합니다.
+1. 만든 `Setup.iss` 파일을 다른 컴퓨터 `adobe-dynamic-media-classic-20.20.2.exe` 에 복사합니다.
 
 1. 자동 설치에 대해 다음 명령을 실행합니다.
 
-   `adobe-dynamic-media-classic-20.20.1.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.20.2.exe /s /f1"C:\Setup.iss"`
 
    명령줄 매개 변수에 대한 자세한 내용은 [Setup.exe 및 Update.exe 명령줄 매개 변수를 참조하십시오.](https://docs.flexera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -165,7 +185,7 @@ Windows에서 *Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하�
 
 Dynamic Media Classic 데스크탑 앱 [](https://docs.adobe.com/content/help/en/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html) (길이:2분 36초).
 
-## Dynamic Media Classic의 알려진 제한 사항
+## Dynamic Media Classic 20.20.1의 알려진 제한 사항(20.20.2에서 해결됨)
 
 **_Windows에만 적용 - 데스크탑 앱 UI를 통해 업로드할 수 있는 파일 수에 제한이 있습니까?_**<br>예. 데스크탑 앱 UI를 통해 한 번에 최대 150개의 파일을 업로드할 수 있습니다.
 
