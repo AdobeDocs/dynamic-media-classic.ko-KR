@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '573'
 ht-degree: 66%
@@ -40,7 +40,7 @@ ht-degree: 66%
    * 이름을 선택하고 새 이름을 입력한 다음 Enter 키를 누르거나 이름에서 떨어진 곳을 클릭합니다.
    * [파일] > [이름 변경]을 선택합니다. 자산 이름이 강조 표시됩니다. 새 이름을 입력하고 Enter 키를 누릅니다.
 
-기존 Dynamic Media Classic 자산의 이름을 입력하지 않도록 하십시오.
+기존 Dynamic Media Classic 자산의 이름을 입력하지 마십시오.
 
 ## 자산 삭제 {#delete-assets}
 
@@ -61,7 +61,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->Dynamic Media Classic에서는 자산 파일을 삭제한 이유가 동일한 이름으로 다른 파일로 대체하려는 경우 자산 파일을 삭제하는 대신 덮어쓰는 것이 좋습니다.
+>자산 파일을 삭제하는 이유는 같은 이름으로 다른 파일로 대체하기 위한 경우 자산 파일을 삭제하지 않고 덮어쓰는 것이 좋습니다.
 
 ## 텍스트 파일을 사용하여 여러 자산 삭제 {#delete-multiple-assets-with-a-text-file}
 
@@ -75,7 +75,7 @@ Dynamic Media Classic ID 목록을 만들고 텍스트(.txt) 파일로 저장합
 1. [자산 목록 삭제] 대화 상자에서 삭제하려는 자산 목록이 포함된 텍스트 파일을 찾거나 경로를 입력합니다.
 1. [삭제] 단추를 클릭합니다.
 
-텍스트 파일이 있는 에셋을 삭제할 때 Dynamic Media Classic ID가 목록에 없으면 항목 목록과 함께 Dynamic Media Classic에서 &quot;목록에 있는 항목을 확인할 수 없습니다.&quot;라는 메시지가 표시됩니다. 그러나 Dynamic Media Classic에서는 [작업] 화면에 오류가 생성되지 않습니다.
+텍스트 파일이 있는 자산을 삭제할 때 Dynamic Media Classic ID가 목록에 없으면 항목 목록과 함께 Dynamic Media Classic에서 &quot;목록에 있는 항목의 유효성을 검사할 수 없습니다.&quot;라는 메시지가 표시됩니다. 그러나 Dynamic Media Classic에서는 작업 화면에 오류가 생성되지 않습니다.
 
 >[!MORELIKETHIS]
 >
