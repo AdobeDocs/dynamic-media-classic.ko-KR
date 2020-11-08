@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
 discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1220'
 ht-degree: 57%
@@ -28,11 +28,11 @@ ht-degree: 57%
 
 For templates, click **Add and Preview**, then set the parameters you choose. 다른 오퍼 집합 유형에는 매개 변수가 포함되지 않지만 **미리 보기**&#x200B;를 클릭하고 사용 가능한 사전 설정을 변경하여 사용자 지정할 수 있습니다.
 
-Dynamic Media Classic은 오퍼 집합을 만들 뿐만 아니라 편집용 도구를 제공합니다.
+Dynamic Media Classic에서는 편집 및 오퍼 세트 작성을 위한 도구를 제공합니다.
 
 >[!NOTE]
 >
->오퍼 세트를 만들기 전에 Dynamic Media Classic으로 설정하는 데 사용할 모든 자산을 게시해야 합니다. [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
+>오퍼 세트를 만들기 전에 세트에 사용할 모든 자산을 Dynamic Media Classic으로 게시해야 합니다. [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
 ## 오퍼 집합 유형 {#types-of-offer-sets}
 
@@ -134,7 +134,7 @@ Test&amp;Target 오퍼 세트 페이지를 닫기 전에 오퍼 세트를 Target
    * **이미지 및 비디오**&#x200B;이미지 또는 비디오를 [Test&amp;Target 오퍼 세트] 페이지로 드래그합니다.
    >[!NOTE]
    >
-   >캠페인과 연결된 오퍼 집합은 삭제할 수 없습니다. 캠페인과 연관된 오퍼 세트를 삭제하려면 Target Standard/Premium에 로그인하고 캠페인 연결을 먼저 제거합니다. 캠페인에서 연관을 취소한 후에도 자산은 Dynamic Media Classic에서만 삭제할 수 있으며, Target Standard/Premium 내에서가 아니라 Target Standard/Premium에 로그인해야 합니다.
+   >캠페인과 연결된 오퍼 집합은 삭제할 수 없습니다. 캠페인과 연관된 오퍼 세트를 삭제하려면 Target Standard/Premium에 로그인하고 캠페인 연결을 먼저 제거합니다. 캠페인에서 연관을 취소한 후에도 자산은 Dynamic Media Classic에서만 삭제할 수 있으므로 Target Standard/Premium에 로그인하지 않아도 되고 Target Standard/Premium에서는 삭제할 수 없습니다.
 
 1. When you finish editing, near the lower-right corner of the page, ensure that **Publish after save** is selected (default).
 1. **저장**&#x200B;을 클릭하고 저장 폴더를 선택한 다음에 세트 이름을 입력하고 **저장**&#x200B;을 클릭합니다.
