@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1005'
 ht-degree: 78%
@@ -95,7 +95,7 @@ eCatalog에는 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 
 ## TOC(목차) 사용자 지정 {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic은 eCatalog 화면의 주문 페이지 탭에 있는 eCatalog에서 기본 페이지 번호를 제공합니다. 사용자 지정 페이지 이름의 경우 TOC(목차)를 구성하는 페이지 레이블을 변경할 수 있습니다. 앞 표지와 뒤 표지의 이름을 바꾸는 것이 좋습니다. 예를 들어 전면 표지 페이지에서 &quot;Page 0-1&quot; 대신 &quot;Cover&quot;를 읽을 수 있습니다.
+Dynamic Media Classic에서는 eCatalog 화면의 [주문 페이지] 탭에 있는 eCatalog에서 기본 페이지 번호를 제공합니다. 사용자 지정 페이지 이름의 경우 TOC(목차)를 구성하는 페이지 레이블을 변경할 수 있습니다. 앞 표지와 뒤 표지의 이름을 바꾸는 것이 좋습니다. 예를 들어 전면 표지 페이지에서 &quot;Page 0-1&quot; 대신 &quot;Cover&quot;를 읽을 수 있습니다.
 
 CSV(Mac에만 해당) 또는 XML 파일에서 페이지 이름을 가져오거나 수동으로 eCatalog에 대한 사용자 지정 TOC(목차)를 만들 수 있습니다.
 
@@ -111,7 +111,7 @@ CSV(Mac에만 해당) 또는 XML 파일에서 페이지 이름을 가져오거�
 
 많은 페이지가 포함된 eCatalog를 다루는 경우 페이지 이름을 가져오는 것이 좋습니다. 탭으로 구분된 파일이나 XML 파일에서 이름을 가져올 수 있습니다.
 
-TOC 레이블은 이미지의 사용자 데이터 필드에 저장됩니다. 이 데이터를 목록 형식으로 `name=<value>`` pairs separated by two question marks “??” `지정합니다. 예를 들어 tocEN이라는 TOC 필드에 대해 하나의 레이블을 설정하려면 이미지의 사용자 데이터를 다음과 같이 설정합니다.
+TOC 레이블은 이미지의 사용자 데이터 필드에 저장됩니다.이 데이터를 목록 형식으로 `name=<value>`` pairs separated by two question marks “??” `지정합니다. 예를 들어 tocEN이라는 TOC 필드에 대해 하나의 레이블을 설정하려면 이미지의 사용자 데이터를 다음과 같이 설정합니다.
 
 tocEN=&lt;EN_page_label>
 
