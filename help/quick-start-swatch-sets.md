@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '390'
 ht-degree: 64%
@@ -20,11 +20,11 @@ ht-degree: 64%
 
 # 빠른 시작: 견본 집합{#quick-start-swatch-sets}
 
-Dynamic Media 클래식 견본 집합을 사용하면 통합된 보기 환경을 제공할 수 있습니다. 동적 견본 집합 뷰어에서 사용자가 썸네일을 클릭하기만 하면 다른 색상, 재질, 텍스처, 마무리 또는 패브릭으로 렌더링된 항목을 볼 수 있습니다.
+Dynamic Media Classic 견본 세트를 사용하면 통합된 보기 환경을 경험할 수 있습니다. 동적 견본 집합 뷰어에서 사용자가 썸네일을 클릭하기만 하면 다른 색상, 재질, 텍스처, 마무리 또는 패브릭으로 렌더링된 항목을 볼 수 있습니다.
 
 **빠른 시작**
 
-이 견본 집합 빠른 시작은 Dynamic Media Classic의 견본 집합 기술을 사용하여 빠르게 시작하고 실행하도록 만들어졌습니다.
+이 견본 집합 빠른 시작은 Dynamic Media Classic의 견본 집합 기술을 사용하여 빠르게 시작하고 실행되도록 만들어졌습니다.
 
 **1. 이미지 및 견본 파일 업로드**
 
