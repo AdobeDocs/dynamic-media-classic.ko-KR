@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '354'
 ht-degree: 42%
@@ -20,7 +20,7 @@ ht-degree: 42%
 
 # Adobe Analytics 보고서를 보고 통합 테스트{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Adobe Analytics에서 필요한 변수를 만들고 Dynamic Media Classic 이벤트에 연결하며 필요한 구현 단계를 완료한 후 설정을 테스트해야 합니다. Adobe Analytics 자체 내에서 데이터가 캡처되고 있는지 테스트하고 확인할 수 있습니다. 여기에서 설정이 작동하는 경우, 추가 단계가 필요하지 않습니다. 위의 단계를 따르고 Dynamic Media Classic 이벤트 데이터를 하나 이상의 사용자 지정 트래픽 변수에 연결했다고 가정하고, 이 워크플로에 따라 Adobe Analytics 내에서 데이터를 테스트합니다.
+Adobe Analytics에서 필요한 변수를 만든 후 Dynamic Media Classic 이벤트에 연결하고 필요한 구현 단계를 완료한 후 설정을 테스트해야 합니다. Adobe Analytics 자체 내에서 데이터가 캡처되고 있는지 테스트하고 확인할 수 있습니다. 여기에서 설정이 작동하는 경우, 추가 단계가 필요하지 않습니다. 위의 단계를 수행하고 Dynamic Media Classic 이벤트 데이터를 하나 이상의 사용자 지정 트래픽 변수에 연결했다고 가정하고 이 워크플로에 따라 Adobe Analytics 내에서 데이터를 테스트합니다.
 
 **Adobe Analytics 보고서를 보고 통합을 테스트하려면**
 
