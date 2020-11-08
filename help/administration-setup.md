@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 1ee586fab6a4e10a946848fd079438ade38490d9
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1945'
 ht-degree: 64%
@@ -98,7 +98,7 @@ Dynamic Media Classic에서 사용자를 잘못된 사용자로 만들어 삭제
 
 ### 사용자 목록 필터링 및 정렬 {#filtering-and-sorting-the-user-list}
 
-사용자 목록을 필터링 및 정렬하여 사용자를 찾을 수 있습니다. [액세스할 계정 선택] 메뉴에서 선택한 계정에 관계없이 관리하는 모든 계정의 모든 사용자가 [사용자 목록에 표시됩니다.
+사용자 목록을 필터링 및 정렬하여 사용자를 찾을 수 있습니다. [액세스할 계정 선택] 메뉴에서 선택한 계정에 관계없이 관리하는 모든 계정의 모든 사용자가 [사용자 목록]에 표시됩니다.
 
 다음 사용자 목록 필터링 기술을 사용할 수 있습니다.
 
@@ -134,7 +134,7 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
 
    Do one of the following:
 
-    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** &gt; **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
     * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
