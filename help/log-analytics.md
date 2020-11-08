@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: ff112497b41f71b77f4afa47d331a1a9bc1e2d07
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 37%
@@ -20,9 +20,9 @@ ht-degree: 37%
 
 # Adobe Analytics에 로그인{#log-in-to-adobe-analytics}
 
-Adobe Analytics 보고서를 구성하고 Adobe Analytics 보고서 변수를 Dynamic Media Classic 이벤트에 연결하기 전에 Adobe Analytics에서 웹 서비스 액세스 그룹의 구성원으로 추가되었는지 확인하십시오. 이 그룹의 구성원은 인터페이스에 설정된 권한에 상관없이 Marketing Cloud의 웹 서비스 API를 통해 지정된 보고서 세트의 모든 보고서에 액세스할 수 있습니다. 그룹에 구성원을 추가하려면, Adobe Analytics에서 **관리 도구** > **사용자 관리** > **그룹 편집**&#x200B;을 클릭합니다.
+Adobe Analytics 보고서를 구성하고 Adobe Analytics 보고서 변수를 Dynamic Media Classic 이벤트에 일치시키기 위해 로그인하기 전에 Adobe Analytics에서 웹 서비스 액세스 그룹의 구성원으로 추가되었는지 확인하십시오. 이 그룹의 구성원은 인터페이스에 설정된 권한에 상관없이 Marketing Cloud의 웹 서비스 API를 통해 지정된 보고서 세트의 모든 보고서에 액세스할 수 있습니다. 그룹에 구성원을 추가하려면, Adobe Analytics에서 **관리 도구** > **사용자 관리** > **그룹 편집**&#x200B;을 클릭합니다.
 
-로그인하면 Marketing Cloud 조직 ID를 입력하여 최신 비디오 분석 구현을 사용할 수 있습니다. ID를 입력하지 않기로 선택한 경우 비디오 보고가 계속 작동합니다. 그러나 데이터가 Dynamic Media Classic 외부의 해당 클라이언트에 대한 다른 데이터와 제대로 통합되지 않을 수 있습니다.
+로그인하면 Marketing Cloud 조직 ID를 입력하여 최신 비디오 분석 구현을 사용할 수 있습니다. ID를 입력하지 않기로 선택한 경우 비디오 보고가 계속 작동합니다. 그러나 데이터가 Dynamic Media Classic 외부에서 해당 클라이언트에 대한 다른 데이터와 제대로 통합되지 않을 수 있습니다.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Adobe Analytics 보고서를 구성하고 Adobe Analytics 보고서 변수를 Dy
 
 **Adobe Analytics에 로그인하려면**
 
-1. Dynamic Media 클래식 페이지의 오른쪽 위 모서리 근처에 있는 설정 > **[!UICONTROL 애플리케이션 설정을 누릅니다]**.
+1. Dynamic Media Classic 페이지의 오른쪽 위 모서리 근처에 있는 **[!UICONTROL 설정 > 애플리케이션 설정을 누릅니다]**.
 1. In the left pane, under **[!UICONTROL Application Setup]**, tap **[!UICONTROL Adobe Analytics]**.
 1. In the Adobe Analytics Configuration page, tap **[!UICONTROL Adobe Analytics Login]**.
 1. [ **[!UICONTROL Adobe Analytics 로그인]** ] 대화 상자에서 [ *암호] 텍스트 필드에 회사 이름, Marketing Cloud 조직 ID(선택 사항), 사용자 이름 및* 공유 암호 **[!UICONTROL 키를]** 입력합니다.
