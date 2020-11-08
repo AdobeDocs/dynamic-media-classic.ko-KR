@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 86%
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 # 확대/축소 뷰어를 웹 페이지에 연결{#linking-zoom-viewers-to-your-web-pages}
 
-웹 사이트와 애플리케이션은 URL 문자열 또는 포함된 코드를 통해 마스터 이미지 및 관련 확대/축소 대상, 확대/축소 뷰어 사전 설정 등 Dynamic Media 이미지 서버 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 이러한 URL 문자열 또는 포함된 코드를 웹 페이지 및 애플리케이션에 배치하려면 Dynamic Media Classic에서 복사합니다.
+웹 사이트와 애플리케이션은 URL 문자열 또는 포함된 코드를 통해 마스터 이미지 및 관련 확대/축소 대상, 확대/축소 뷰어 사전 설정 등 Dynamic Media Image Server 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 이러한 URL 문자열 또는 포함된 코드를 웹 페이지 및 애플리케이션에 배치하려면 Dynamic Media Classic에서 복사합니다.
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ ht-degree: 86%
 
 일반적으로 웹 사이트 방문자는 [확대/축소] 아이콘을 먼저 선택하여 이미지를 확대/축소합니다. 대체로 이 아이콘은 돋보기 이미지를 표시합니다. 이 아이콘을 선택하면 팝업 창에서 이미지를 표시하는 동적 웹 페이지(ASP 또는 JSP)가 시작됩니다. 방문자는 실제로 이 팝업 창에서 이미지를 확대/축소합니다.
 
-자세한 내용 및 코드 샘플은 [Adobe 뷰어 참조 안내서의 HTML5 기본 확대/축소 뷰어 포함을 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
+자세한 내용 및 코드 샘플은 Adobe 뷰어 [참조 안내서의 HTML5 기본 확대/축소 뷰어 포함을 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html).
 
 ## 확대/축소 뷰어의 임베드 사본 복사 {#copying-the-embed-copy-of-a-zoom-viewer}
 
