@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '674'
 ht-degree: 56%
@@ -20,7 +20,7 @@ ht-degree: 56%
 
 # PDF 작업{#working-with-pdfs}
 
-PDF(Portable Document Format) 파일은 eCatalogs를 만들기 위해 Dynamic Media Classic에서 가장 많이 사용됩니다. PDF 파일을 업로드할 때 기본적으로 Dynamic Media Classic은 페이지를 사용하여 리치 미디어를 만들 수 있도록 페이지를 래스터화합니다.
+PDF(Portable Document Format) 파일은 eCatalogs를 만드는 데 Dynamic Media Classic에서 가장 많이 사용됩니다. PDF 파일을 업로드할 때 Dynamic Media Classic은 기본적으로 페이지를 래스터화하여 페이지를 리치 미디어를 만드는 데 사용할 수 있도록 합니다.
 
 ## PDF 업로드 선택 사항 {#pdf-upload-options}
 
@@ -83,7 +83,7 @@ PDF 파일 업로드 선택 사항은 [업로드] 화면의 [PDF 선택 사항] 
 
    **색상** 기반 트리밍 픽셀이 PDF 모서리에서 선택한 색상과 정확히 일치하는 경우에만 픽셀을 자르려면 0을 지정합니다. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다.
 
-   **투명도를** 기반으로 트리밍픽셀이 완전히 투명한 경우에만 픽셀을 자르도록 0을 지정합니다. 1에 가깝게 있는 숫자는 더 많은 투명성을 허용합니다.
+   **투명도를** 기반으로 트리밍픽셀이 완전히 투명한 경우에만 픽셀을 자르도록 0을 지정합니다.1에 가깝게 있는 숫자는 더 많은 투명성을 허용합니다.
 
 ## PDF 페이지 측면에서 자르기 {#cropping-from-the-sides-of-pdf-pages}
 
