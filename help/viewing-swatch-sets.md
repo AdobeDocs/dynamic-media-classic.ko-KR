@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '434'
 ht-degree: 86%
@@ -20,7 +20,7 @@ ht-degree: 86%
 
 # 견본 집합 보기{#viewing-swatch-sets}
 
-[미리 보기] 창에서 사용 가능한 사전 설정을 사용하여 견본 집합을 볼 수 있습니다. 확대/축소 뷰어: 사용자 지정 뷰어 사전 설정을 견본 집합에 사용합니다.
+[미리 보기] 창에서 사용 가능한 사전 설정을 사용하여 견본 집합을 볼 수 있습니다. [확대/축소 뷰어: 사용자 지정 뷰어 사전 설정]을 [견본 집합]에 사용합니다.
 
 Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 있습니다. 관리자는 뷰어 사전 설정을 만들거나 수정할 수 있습니다.
 
