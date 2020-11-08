@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 40%
@@ -20,21 +20,21 @@ ht-degree: 40%
 
 # 글꼴{#fonts}
 
-경우에 따라, Dynamic Media Classic에서는 특정 글꼴의 텍스트를 입력하거나 렌더링하기 위해 글꼴 파일을 업로드해야 합니다. 예를 들어 템플릿 레이어의 텍스트에 특정 글꼴을 사용하려면 글꼴 파일을 업로드합니다. eCatalog 뷰어 페이지 번호를 특정 글꼴로 표시하려면 글꼴 파일을 업로드합니다.
+경우에 따라 Dynamic Media Classic에서는 특정 글꼴의 텍스트를 입력하거나 렌더링하기 위해 글꼴 파일을 업로드해야 합니다. 예를 들어 템플릿 레이어의 텍스트에 특정 글꼴을 사용하려면 글꼴 파일을 업로드합니다. eCatalog 뷰어 페이지 번호를 특정 글꼴로 표시하려면 글꼴 파일을 업로드합니다.
 
 Dynamic Media Classic에서는 다음 글꼴 유형을 지원합니다.
 
 * 모든 TrueType 글꼴
-* PostScript® 글꼴
+* PostScript ® 글꼴
 * OpenType/TrueType 글꼴
 * OpenType/PostScript 글꼴
 * PhotoFonts
 
-글꼴 파일이 업로드되면 [정보 편집] 화면에서 해당 Dynamic Media Classic ID, 글꼴 이름 및 문자 정보를 변경할 수 있습니다.
+글꼴 파일이 업로드되면 Dynamic Media Classic ID, 글꼴 이름 및 정보 편집 화면에서 문자 정보를 변경할 수 있습니다.
 
 >[!NOTE]
 >
->템플릿 레이어에서 글꼴을 사용하려면 모든 글꼴 스타일(굵게, 기울임꼴, 굵게/기울임꼴 및 보통)을 업로드하는 것이 좋습니다. Dynamic Media Classic에서는 요청을 처리하기 위해 이러한 글꼴 스타일이 필요합니다. 일부 글꼴에는 자세한 커닝 정보가 포함되어 있으므로 글꼴과 관련된 모든 PostScript/Adobe Type 1 파일을 업로드하는 것이 좋습니다.
+>템플릿 레이어에서 글꼴을 사용하려면 모든 글꼴 스타일(굵게, 기울임체, 굵게/기울임체 및 일반)을 업로드하는 것이 좋습니다. Dynamic Media Classic에서는 요청을 처리하려면 이러한 글꼴 스타일이 필요합니다. 일부 글꼴에는 자세한 커닝 정보가 포함되어 있으므로 글꼴과 관련된 모든 PostScript/Adobe Type 1 파일을 업로드하는 것이 좋습니다.
 
 ## 글꼴 파일 업로드 {#uploading-font-files}
 
@@ -62,8 +62,8 @@ Dynamic Media Classic에서는 다음 글꼴 유형을 지원합니다.
 
 **PDF** /PostScript 렌더링 및 이미지 제공에 사용되는 TTF TrueType 글꼴 파일입니다.
 
-**AFM** Adobe Font Metrics 정보가 포함되어 있고 이미지 제공에 사용되는 Adobe PostScript 글꼴 파일입니다.
+**Adobe 글꼴 지표 정보가 들어 있고 이미지 제공을 위해 사용되는 AFM** Adobe PostScript 글꼴 파일입니다.
 
-**PFM** 이진 글꼴 지표 정보가 포함된 Adobe PostScript 글꼴 파일입니다.
+**이진 글꼴 지표 정보가 포함된 PFM** Adobe PostScript 글꼴 파일입니다.
 
-**PFB** 이진 글꼴 외곽선 정보가 포함되어 있고 PDF/PostScript 렌더링 및 이미지 제공에 사용되는 Adobe PostScript 글꼴 파일입니다.
+**바이너리 글꼴 외곽선 정보가 들어 있고 PDF/PostScript 렌더링 및 이미지 제공에 사용되는 PFB** Adobe PostScript 글꼴 파일입니다.
