@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 74%
@@ -24,7 +24,7 @@ ht-degree: 74%
 
 >[!NOTE]
 >
->이전 버전의 Dynamic Media Classic에서는 2차원 스핀 세트를 제공하지 않았습니다. 이전 버전의 Dynamic Media Classic에서 스핀 세트를 생성한 경우, 1차원 스핀 세트를 먼저 다른 이름으로 저장하지 않으면 저장할 수 없습니다. [스핀 세트] 화면에서 [다른 이름으로 저장]을 클릭하고 새 이름을 입력하여 Dynamic Media Classic에서 편집할 수 있습니다.
+>이전 버전의 Dynamic Media Classic에서는 2차원 스핀 세트를 제공하지 않았습니다. 이전 버전의 Dynamic Media Classic에서 스핀 세트를 생성한 경우, 1차원 스핀 세트를 먼저 다른 이름으로 저장하지 않으면 저장할 수 없습니다. 스핀 세트 화면에서 다른 이름으로 저장을 클릭하고 Dynamic Media Classic에서 편집할 수 있도록 새 이름을 입력합니다.
 
 ## 회전 집합 이미지 촬영에 대한 지침 {#guidelines-for-shooting-spin-set-images}
 
@@ -38,7 +38,7 @@ ht-degree: 74%
 
 ## 회전 집합 만들기 {#create}
 
-Dynamic Media Classic에서 회전 집합을 작성하거나 만드는 순서는 중요합니다. 이미지를 [스핀 세트] 페이지의 그리드에 드래그 앤 드롭할 때 자산의 순서를 지정한 방법에 따라 스핀 세트가 특정 방향으로 회전합니다. 그러므로 빌더에서 시각적으로 표시되는 순서는 사용자가 해당 마우스 포인터 또는 해당 손가락을 움직일 때 자산이 회전하는 방법으로, 왼쪽에서 오른쪽입니다.
+Dynamic Media Classic에서 스핀 세트가 작성되거나 만들어지는 순서는 중요합니다. 이미지를 [스핀 세트] 페이지의 그리드에 드래그 앤 드롭할 때 자산의 순서를 지정한 방법에 따라 스핀 세트가 특정 방향으로 회전합니다. 그러므로 빌더에서 시각적으로 표시되는 순서는 사용자가 해당 마우스 포인터 또는 해당 손가락을 움직일 때 자산이 회전하는 방법으로, 왼쪽에서 오른쪽입니다.
 
 세트를 만들 때, **저장 후 게시** 옵션은 다음과 같이 세트와 세트 구성원에 영향을 줍니다.
 
