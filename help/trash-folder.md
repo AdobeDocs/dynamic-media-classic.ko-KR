@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '542'
 ht-degree: 61%
@@ -24,7 +24,7 @@ Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동합니
 
 모든 사용자가 휴지통 폴더의 항목을 삭제되기 전의 폴더로 복원할 수 있습니다. 모든 사용자가 휴지통 폴더의 모든 내용을 비울 수도 있습니다.
 
-휴지통 폴더에서 항목을 삭제하면 Dynamic Media Classic에서 항목이 영구적으로 삭제됩니다. 휴지통 폴더에서 삭제된 항목은 더 이상 복원할 수 없습니다. 휴지통에서 자산이 자동으로 삭제될 때 회사 관리자에게 알림을 보내도록 설정하는 방법에 대한 자세한 내용은 [[애플리케이션 일반 설정]](application-setup.md#general_settings)을 참조하십시오.
+휴지통 폴더에서 항목을 삭제하면 Dynamic Media Classic에서 항목이 영구적으로 삭제됩니다.휴지통 폴더에서 삭제된 항목은 더 이상 복원할 수 없습니다. 휴지통에서 자산이 자동으로 삭제될 때 회사 관리자에게 알림을 보내도록 설정하는 방법에 대한 자세한 내용은 [[애플리케이션 일반 설정]](application-setup.md#general_settings)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -34,13 +34,13 @@ Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동합니
 
 폴더에서 삭제한 항목은 휴지통 폴더에 배치됩니다. 항목을 삭제하고 휴지통 폴더로 이동하는 경우 다음 동작이 발생합니다.
 
-* 항목을 Dynamic Media Classic 폴더에서 제거했지만 휴지통 폴더에 있는 동안에는 해당 ID를 다른 자산에 할당할 수 없습니다. 휴지통 폴더에 있는 파일과 동일한 이름의 자산을 업로드하려고 하면, Dynamic Media Classic은 자산의 이름에 숫자를 추가합니다.
+* 항목이 Dynamic Media Classic 폴더에서 제거되었지만 휴지통 폴더에 있는 동안에는 해당 ID를 다른 자산에 할당할 수 없습니다. 휴지통 폴더에 있는 파일과 동일한 이름의 자산을 업로드하려고 하면, Dynamic Media Classic은 자산의 이름에 숫자를 추가합니다.
 * 항목을 게시할 수 없습니다. 항목을 삭제할 때 게시로 표시된 경우에도 항목이 게시되지 않습니다.
 * 항목은 복원되거나 7일이 경과하거나 [휴지통 비우기] 명령을 선택할 때까지 휴지통 폴더에 유지됩니다. 7일 후에는 자동 정리 작업에 의해 항목이 영구적으로 삭제됩니다.
 
 ## 휴지통 폴더에서 자산 복원 {#restoring-assets-from-the-trash-folder}
 
-자산을 삭제한 사람이 복원해야 하는 것은 아니며 누구든지 휴지통 폴더에서 자산을 복원할 수 있습니다. 복원한 자산은 삭제되기 전의 폴더에 배치됩니다. 이러한 폴더가 더 이상 존재하지 않으면 Dynamic Media Classic에서 해당 폴더를 다시 생성하고 복원된 에셋이 다시 생성된 폴더에 배치됩니다.
+자산을 삭제한 사람이 복원해야 하는 것은 아니며 누구든지 휴지통 폴더에서 자산을 복원할 수 있습니다. 복원한 자산은 삭제되기 전의 폴더에 배치됩니다. 이러한 폴더가 더 이상 존재하지 않으면 Dynamic Media Classic에서 해당 폴더가 다시 만들어지고 복원된 자산이 다시 작성된 폴더에 배치됩니다.
 
 휴지통 폴더의 자산을 삭제되기 전의 폴더로 복원하려면 다음 단계를 수행합니다.
 
