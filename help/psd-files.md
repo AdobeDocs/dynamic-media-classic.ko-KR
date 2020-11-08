@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1030'
 ht-degree: 64%
@@ -20,9 +20,9 @@ ht-degree: 64%
 
 # PSD 파일 작업{#working-with-psd-files}
 
-PSD(Photoshop Document 파일)는 템플릿을 만드는 데 주로 Dynamic Media Classic에서 사용됩니다. PSD 파일을 업로드할 때 파일에서 자동으로 Dynamic Media Classic 템플릿을 만들 수 있습니다(업로드 화면에서 템플릿 만들기 옵션 선택).
+PSD(Photoshop 문서 파일)는 Dynamic Media Classic에서 템플릿을 만드는 데 가장 많이 사용됩니다. PSD 파일을 업로드할 때 파일에서 자동으로 Dynamic Media Classic 템플릿을 만들 수 있습니다(업로드 화면에서 템플릿 만들기 옵션 선택).
 
-Dynamic Media Classic에서는 파일을 사용하여 템플릿을 만드는 경우 레이어가 포함된 PSD 파일에서 여러 이미지를 만듭니다. 각 레이어에 대해 하나의 이미지를 만듭니다.
+템플릿을 만드는 데 파일을 사용하는 경우 Dynamic Media Classic에서 레이어가 포함된 PSD 파일에서 여러 이미지를 만듭니다.각 레이어에 대해 하나의 이미지를 만듭니다.
 
 ## PSD 업로드 선택 사항 {#psd-upload-options}
 
@@ -76,7 +76,7 @@ PSD를 업로드할 때 레이어 유지 옵션을 선택한 경우 Dynamic Medi
 
 1. 찾아보기 패널에서 전체 PSD 파일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다.
 
-   ***참고&#x200B;**: PSD 레이어 중 하나가 아닌 전체 에셋을 열어야 합니다.*
+   ***참고&#x200B;**:PSD 레이어 중 하나가 아닌 전체 에셋을 열어야 합니다.*
 
 1. [레이어]를 클릭하여 [레이어] 패널을 엽니다. 모든 레이어가 [레이어] 패널에 개별 이미지로 표시됩니다.
 1. 레이어를 두 번 클릭하여 열고 다음 중 원하는 작업을 수행합니다.
