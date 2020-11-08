@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '984'
 ht-degree: 66%
@@ -22,7 +22,7 @@ ht-degree: 66%
 
 SEO는 검색 엔진에서 웹 사이트로의 트래픽 볼륨을 향상시키는 프로세스입니다. 검색 엔진은 텍스트 기반 컨텐츠에서 정보를 수집하는 기능은 우수하지만 정보가 제공되지 않은 경우 비디오 정보를 제대로 가져올 수 없습니다.
 
-Dynamic Media Classic 비디오 SEO를 사용하면 비디오 메타데이터를 활용하여 검색 엔진에 비디오에 대한 설명을 제공할 수 있습니다. Dynamic Media Classic에서는 비디오 사이트 맵과 mRSS 피드를 만드는 기능을 제공합니다. 이러한 항목은 비디오 정보를 검색 엔진에 전송하기 위한 표준 XML 파일입니다.
+Dynamic Media Classic 비디오 SEO를 사용하면 비디오 메타데이터를 활용하여 검색 엔진에 비디오에 대한 설명을 제공할 수 있습니다. Dynamic Media Classic에서는 비디오 사이트 맵과 mRSS 정보를 만드는 기능을 제공합니다. 이러한 항목은 비디오 정보를 검색 엔진에 전송하기 위한 표준 XML 파일입니다.
 
 **비디오 사이트 맵** 사이트에서 비디오 컨텐츠의 위치와 내용을 Google에 정확히 알려줍니다. 이 기능을 통해 Google에서 비디오를 완벽하게 검색할 수 있습니다. 예를 들어 비디오 사이트 맵은 비디오의 실행 시간과 범주를 지정할 수 있습니다. 비디오 사이트 맵에 대한 자세한 내용은 https://www.google.com/support/webmasters/bin/answer.py?answer=80471을 참조하십시오.
 
@@ -32,7 +32,7 @@ Dynamic Media Classic 비디오 SEO를 사용하면 비디오 메타데이터를
 >
 >Google은 검색 엔진에 정보 전송 시 비디오 사이트 맵과 mRSS 피드 프로토콜을 모두 지원합니다.
 
-Dynamic Media Classic에서는 각 비디오와 함께 저장된 메타데이터에서 비디오 사이트 맵과 mRSS 피드를 생성할 수 있습니다. 비디오 사이트 맵과 mRSS 피드를 만드는 경우 비디오 파일에서 포함할 메타데이터 필드를 결정합니다. 이런 방식으로 각 엔진이 트래픽을 웹 사이트의 비디오로 보다 정확하게 보낼 수 있도록 검색 엔진에 비디오를 설명합니다.
+Dynamic Media Classic에서는 각 비디오와 함께 저장된 메타데이터에서 비디오 사이트 맵과 mRSS 정보를 생성할 수 있습니다. 비디오 사이트 맵과 mRSS 피드를 만드는 경우 비디오 파일에서 포함할 메타데이터 필드를 결정합니다. 이런 방식으로 각 엔진이 트래픽을 웹 사이트의 비디오로 보다 정확하게 보낼 수 있도록 검색 엔진에 비디오를 설명합니다.
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ Dynamic Media Classic에서는 비디오 사이트 맵과 mRSS 피드에 대한 
 
 [자동/수동 모드] 드롭다운 목록에서 자동 또는 수동으로 생성할지 여부를 선택합니다.
 
-**자동 모드** Dynamic Media Classic에서는 매일 하나의 비디오 사이트 맵, 미디어 RSS(mRSS) 피드 또는 둘 다를 자동으로 생성합니다. Classic에서 생성하는 XML 파일을 게시하도록 자동으로 표시하려면 [게시로 표시] 옵션을 선택합니다.
+**자동 모드** Dynamic Media Classic에서는 매일 하나의 비디오 사이트 맵, 미디어 RSS(mRSS) 피드 또는 둘 다를 자동으로 생성합니다. Dynamic Media Classic에서 생성하는 XML 파일을 게시하도록 자동으로 표시하려면 [게시로 표시] 옵션을 선택합니다.
 
 **수동 모드** Dynamic Media Classic에서는 비디오 검색 최적화 설정 화면에서 생성 또는 저장 및 생성을 클릭하면 비디오 사이트 맵, 미디어 RSS(mRSS) 피드 또는 둘 다를 생성합니다. 다음 선택 사항도 선택합니다.
 
