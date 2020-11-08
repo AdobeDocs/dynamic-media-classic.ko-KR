@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '3855'
 ht-degree: 44%
@@ -19,15 +19,15 @@ ht-degree: 44%
 
 # 파일 업로드{#uploading-files}
 
-에셋 파일을 Dynamic Media Classic에 업로드하기 전에 에셋 파일의 이름이 올바르게 지정되었는지, 그리고 폴더 구조가 원하는 방식으로 설정되고 구성되었는지 확인하십시오. Dynamic Media Classic 제공 FTP 사이트나 컴퓨터 또는 네트워크에서 직접 파일을 업로드할 수 있습니다. Dynamic Media Classic offers options for optimizing files as you upload them. Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 설치한 경우 데스크탑에서 직접 파일과 폴더를 드래그하여 업로드할 수 있습니다. [[애플리케이션 일반 설정]](application-setup.md#general_settings)을 참조하십시오.
+자산 파일을 Dynamic Media Classic에 업로드하기 전에 자산 파일의 이름이 올바르게 지정되었는지, 그리고 폴더 구조가 원하는 방식으로 설정 및 구성되었는지 확인하십시오. Dynamic Media Classic 제공 FTP 사이트나 컴퓨터 또는 네트워크에서 직접 파일을 업로드할 수 있습니다. Dynamic Media Classic에서는 파일을 업로드할 때 파일을 최적화하는 옵션을 제공합니다. Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 설치한 경우 데스크탑에서 직접 파일과 폴더를 드래그하여 업로드할 수 있습니다. [[애플리케이션 일반 설정]](application-setup.md#general_settings)을 참조하십시오.
 
 ## 업로드할 자산 및 폴더 준비 {#preparing-your-assets-and-folders-for-uploading}
 
-Dynamic Media Classic에 에셋을 업로드하기 전에 올바른 형식과 크기인지 확인하십시오. 자산 이름을 지정하려면 Dynamic Media Classic 규칙을 준수해야 합니다. 폴더 구성 및 파일 구조를 설정함으로써 간편하게 파일을 찾고 작업할 수 있습니다.
+Dynamic Media Classic에 자산을 업로드하기 전에 올바른 형식과 크기인지 확인하십시오. 또한 자산 이름을 지정하기 위해 Dynamic Media Classic 규칙을 준수해야 합니다. 폴더 구성 및 파일 구조를 설정함으로써 간편하게 파일을 찾고 작업할 수 있습니다.
 
 ### 지원되는 자산 파일 형식 {#supported-asset-file-formats}
 
-이 표에는 Classic에서 지원하는 자산 파일 형식이 나열됩니다. For information on supported Camera Raw files, see [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
+이 표는 Dynamic Media Classic에서 지원하는 자산 파일 형식을 나열합니다. For information on supported Camera Raw files, see [www.adobe.com/go/learn_s7_cameraraw_en](https://www.adobe.com/go/learn_s7_cameraraw_en).
 
 | 자산 파일 형식 | 설명 |
 |--- |--- |
@@ -43,7 +43,7 @@ Dynamic Media Classic에 에셋을 업로드하기 전에 올바른 형식과 �
 | PDF | PDF |
 | Photoshop | PSD, FXG 및 카메라 원시 |
 | PostScript | EPS, PS |
-| Dynamic Media 클래식 이미지 작성 | VNC, VNT, VNW |
+| Dynamic Media Classic 이미지 제작 | VNC, VNT, VNW |
 | SVG | SVG, SVGX |
 | TAR | TAR |
 | 비디오 | 3GP, AVI, M2P, M2T, M2TS, M2V, M4V, MOV, MP4, MPEG, MPG, MTS, OGV, TS, VOB, WMV/ASF |
@@ -54,9 +54,9 @@ TAR 및 ZIP 업로드 지원에는 파일 압축을 풀 때 선택하는 확인�
 
 ### Dynamic Media에서 지원되지 않는 이미지 형식 {#unsupported-image-formats-dynamic-media}
 
-다음 목록은 Dynamic Media에서 지원되지 *않는* 래스터 이미지 파일 형식의 하위 유형에 대해 설명합니다.
+다음 목록은 Dynamic Media에서 지원되지 *않는* 래스터 이미지 파일 포맷의 하위 유형에 대해 설명합니다.
 
-Dynamic Media에 대해 지원되지 [않는 파일 형식 감지를 참조하십시오](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
+Dynamic [Media에서 지원되지 않는 파일 형식 감지를 참조하십시오](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html).
 
 * IDAT 청크 크기가 100MB보다 큰 PNG 파일
 * PSB 파일.
@@ -90,7 +90,7 @@ Dynamic Media Classic 플랫폼을 사용하여 최적의 결과를 얻으려면
 
 >[!NOTE]
 >
->이미지 파일 및 PDF를 Dynamic Media Classic에 업로드하면 시스템은 이러한 소스 파일을 P-TIFF(Pyramid TIFF) 파일로 변환합니다. 이러한 P-TIFF는 나중에 Dynamic Media 이미지 서버에 게시되는 파일입니다. Dynamic Media Classic에서는 Dynamic Media Classic Zoom 뷰어로 볼 때 빠르게 확대/축소할 수 있는 다양한 확대/축소 비율이 포함되어 있기 때문에 Pyramid Tiff 파일 형식을 사용합니다.
+>이미지 파일과 PDF를 Dynamic Media Classic으로 업로드하면 시스템은 이러한 소스 파일을 P-TIFF(Pyramid TIFF) 파일로 변환합니다. 이러한 P-TIFF는 나중에 Dynamic Media 이미지 서버에 게시되는 파일입니다. Dynamic Media Classic에서는 Dynamic Media Classic 확대/축소 뷰어로 볼 때 빠르게 확대/축소할 수 있는 다양한 확대/축소 비율이 포함되어 있으므로 Pyramid Tiff 파일 형식을 사용합니다.
 
 ### 지원되는 정적 파일 형식 {#supported-static-file-formats}
 
@@ -113,13 +113,13 @@ Dynamic Media Classic에서는 정적 컨텐츠의 미리 보기 URL을 생성�
 
 ### 파일 이름 요구 사항 {#filename-requirements}
 
-업로드 프로세스 동안 파일 이름에서 파일 이름 확장자가 제거되므로 파일에 동일한 루트 이름을 사용할 수 없습니다. Dynamic Media Classic 시스템에서 자산 파일 이름에 파일 이름 확장명을 제외한 파일 이름은 자산의 자산 ID가 됩니다. 이 때문에 동일한 이름을 가진 자산이 있으면 안 됩니다.
+업로드 프로세스 동안 파일 이름에서 파일 이름 확장자가 제거되므로 파일에 동일한 루트 이름을 사용할 수 없습니다. Dynamic Media Classic 시스템에서 자산 파일 이름 확장명을 제외한 파일 이름은 자산의 자산 ID가 됩니다. 이 때문에 동일한 이름을 가진 자산이 있으면 안 됩니다.
 
 회사의 모든 사용자가 다음과 같은 파일 이름 지정 규칙을 이해해야 합니다.
 
 * 시스템에서 이름과 정확하게 일치하는 자산 ID는 허용되지 않습니다.
 * 자산 ID는 대/소문자를 구분합니다.
-* 우수 사례로, 자산 ID에 공백이 포함되지 않도록 합니다(예: black jacket.tif 및 blue jacket.jpg). Dynamic Media 클래식 ASCII는 에셋 이름을 사용하여 URL 문자열을 만들 때 에셋 이름에 빈 공백을 인코딩합니다. 이러한 ASCII 코드는 읽기 어려우며 URL 읽기가 더 어려워질 수 있습니다.
+* 우수 사례로, 자산 ID에 공백이 포함되지 않도록 합니다(예: black jacket.tif 및 blue jacket.jpg). Dynamic Media Classic ASCII는 에셋 이름을 사용하여 URL 문자열을 만들 때 에셋 이름의 빈 공백을 인코딩합니다. 이러한 ASCII 코드는 읽기 어려우며 URL 읽기가 더 어려워질 수 있습니다.
 * 언어 관련 문자는 파일 이름에 허용됩니다. 그러나 다음 문자는 파일 이름에 허용되지 않습니다.
 
    \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
@@ -135,12 +135,12 @@ Dynamic Media Classic에서는 정적 컨텐츠의 미리 보기 URL을 생성�
 
 ### 폴더 구성 및 구조 {#folder-organization-and-structure}
 
-컨텐츠를 시스템에 업로드하기 전에 Dynamic Media Classic에서 컨텐츠에 대한 폴더 및 하위 폴더를 구성하고 구성할 수 있습니다. 이렇게 미리 계획하면 다음과 같은 두 가지 주요 장점이 있습니다.
+컨텐츠를 시스템에 업로드하기 전에 Dynamic Media Classic에서 컨텐츠의 폴더 및 하위 폴더를 구성하고 구성할 수 있습니다. 이렇게 미리 계획하면 다음과 같은 두 가지 주요 장점이 있습니다.
 
-* FTP를 통해 컨텐츠를 Dynamic Media Classic에 업로드할 때 업로드 도중 폴더 구조를 복제하도록 시스템에 지시할 수 있습니다. 이렇게 하면 콘텐트가 컴퓨터 또는 네트워크에서와 마찬가지로 Dynamic Media Classic의 동일한 폴더 및 하위 폴더에 구성됩니다. (Dynamic Media Classic에서 폴더 구조를 복제하려면 FTP를 통해 자산을 업로드할 때 하위 폴더 포함 옵션을 선택합니다.)
+* FTP를 통해 Dynamic Media Classic에 컨텐츠를 업로드할 때 업로드 도중 폴더 구조를 복제하도록 시스템에 지시할 수 있습니다. 이렇게 하면 컴퓨터 또는 네트워크에서와 마찬가지로 Dynamic Media Classic의 동일한 폴더 및 하위 폴더에 콘텐트가 구성됩니다. Dynamic Media Classic에서 폴더 구조를 복제하려면 FTP를 통해 자산을 업로드할 때 하위 폴더 포함 옵션을 선택합니다.
 * 파일을 업로드한 후 시스템 내에서 폴더를 다시 구성하는 것이 신중하게 고려된 폴더 구조로 시작하는 것보다 훨씬 더 어렵습니다.
 
- 다음은 몇 가지 샘플 폴더 구조입니다.
+Dynamic Media Classic에 내용을 저장하기 위해 선택하는 폴더 이름 지정 방법 및 구조는 조직의 요구 사항에 따라 달라집니다. 다음은 몇 가지 샘플 폴더 구조입니다.
 
 **SKU 기반** 폴더는 SKU 또는 항목 번호에 따라 이름이 지정됩니다. 예를 들어 모든 0-, 20-, 30- 번호 시리즈에 대해 별도의 폴더가 만들어집니다.
 
@@ -156,7 +156,7 @@ Dynamic Media Classic에서는 정적 컨텐츠의 미리 보기 URL을 생성�
 
 Dynamic Media Classic에서는 업로드 작업이 시작되고 종료되는 시간을 확인하고 문제를 알리는 이메일 메시지를 보냅니다.
 
-큰 업로드 작업 중이나 직후에 일부 새 항목이 &quot;이미지가 아직 최적화되지 않음&quot; 메시지를 표시할 수도 있습니다. 이 메시지는 파일이 아직 완전히 처리되지 않고 Dynamic Media Classic에 추가되지 않았기 때문에 나타납니다. 이러한 파일은 나중에 최적화할 수 있습니다. [파일 최적화](application-setup.md#optimize_files)를 참조하십시오.
+큰 업로드 작업 중이나 직후에 일부 새 항목이 &quot;이미지가 아직 최적화되지 않음&quot; 메시지를 표시할 수도 있습니다. 이 메시지는 파일이 아직 완전히 처리 및 Dynamic Media Classic에 추가되지 않았기 때문에 나타납니다. 이러한 파일은 나중에 최적화할 수 있습니다. [파일 최적화](application-setup.md#optimize_files)를 참조하십시오.
 
 ### FROM DESKTOP 탭을 사용하여 파일 업로드 {#upload-files-using-sps-desktop-application}
 
@@ -164,11 +164,11 @@ Dynamic Media Classic 데스크톱 응용 프로그램을 사용하면 드래그
 
 1. In the Dynamic Media Classic Desktop application, on the Global Navigation bar, click **Upload**.
 1. On the Upload page, click the **FROM DESKTOP** tab.
-1. 업로드 페이지의 왼쪽에 있는 업로드할 파일 **선택** 영역에서 **찾아보기를** 클릭하여 **업로드할 파일이나 폴더를 선택한 다음**&#x200B;열기를 클릭합니다.
+1. 업로드 페이지의 왼쪽에 있는 업로드할 파일 **선택** 영역에서 **찾아보기를** 클릭하여 **업로드할 파일**&#x200B;또는 폴더를 선택한 다음열기를 클릭합니다.
 1. 업로드 페이지 오른쪽의 폴더 대상 **선택** 영역에서 업로드된 파일이나 폴더를 추가할 대상 폴더로 이동합니다.
-1. (선택 사항) 업로드 페이지 하단의 **작업 이름** 필드에 업로드 작업의 새 이름을 지정합니다. 또는 간단히 Dynamic Media Classic에서 제공하는 시스템 생성 기본 이름을 사용할 수 있습니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다.
+1. (선택 사항) 업로드 페이지 하단의 **작업 이름** 필드에 업로드 작업의 새 이름을 지정합니다. 또는 간단하게 Dynamic Media Classic에서 제공하는 시스템 생성 기본 이름을 사용할 수 있습니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다.
 [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
-1. (Optional) Near the bottom of the Upload page, select **Publish After Uploading** if you want to automatically publish the assets that you upload.
+1. (선택 사항) 업로드한 자산을 자동으로 게시하려면 업로드 페이지 하단 **에서 업로드** 후 게시를 선택합니다.
 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. [작업 옵션] 대화 상자에서도 동일한 옵션을 사용할 수 있습니다.
 1. (선택 사항) 업로드 페이지 하단 **에서, 업로드한 파일이 동일한 이름으로 기존 파일을 대체하도록 하려는 경우, 확장과** 상관없이 동일한 기본 자산 이름으로 모든 폴더에서 덮어쓰기를 선택합니다. [작업 옵션] 대화 상자에서도 동일한 옵션을 사용할 수 있습니다.
 The name of this option could be different, depending on the settings in **Application Setup > General Settings > Upload to Application > Overwrite Images**.
@@ -182,18 +182,18 @@ The name of this option could be different, depending on the settings in **Appli
 
 ### FTP 탭을 사용하여 파일 업로드 {#upload-files-using-via-ftp}
 
-1. 특정 지역 특정 Dynamic Media Classic FTP 사이트에 로그인합니다. 관리자로부터 받은 FTP 사용자 이름과 암호를 사용합니다.
+1. 특정 지역 고유의 Dynamic Media Classic FTP 사이트에 로그인합니다. 관리자로부터 받은 FTP 사용자 이름과 암호를 사용합니다.
 1. Dynamic Media Classic의 전역 탐색 막대에서 **업로드를 클릭합니다**.
 1. On the Upload page, click the **VIA FTP** tab.
 1. 업로드 페이지 왼쪽의 [업로드할 FTP 폴더 **선택** ] 영역에서 파일을 업로드할 FTP 폴더를 선택합니다.
-1. 업로드 페이지 오른쪽의 [Adobe Dynamic Media 폴더 대상 **선택** ] 영역에서 Dynamic Media Classic에서 대상 폴더를 선택합니다.
-1. (선택 사항) 업로드 페이지 하단의 **작업 이름** 필드에 업로드 작업의 새 이름을 지정합니다. 또는 간단히 Dynamic Media Classic에서 제공하는 시스템 생성 기본 이름을 사용할 수 있습니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다.
+1. 업로드 페이지 오른쪽의 [Adobe **Dynamic Media 폴더 대상** 선택] 영역에서 Dynamic Media Classic의 대상 폴더를 선택합니다.
+1. (선택 사항) 업로드 페이지 하단의 **작업 이름** 필드에 업로드 작업의 새 이름을 지정합니다. 또는 간단하게 Dynamic Media Classic에서 제공하는 시스템 생성 기본 이름을 사용할 수 있습니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다.
 [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
 1. (선택 사항) 업로드한 자산을 자동으로 게시하려면 업로드 페이지 하단 **에서** 업로드 후 게시를 선택합니다.
 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. [작업 옵션] 대화 상자에서도 동일한 옵션을 사용할 수 있습니다.
 1. (선택 사항) 업로드 페이지 하단 **에서, 업로드한 파일이 동일한 이름으로 기존 파일을 대체하도록 하려는 경우, 확장과** 상관없이 동일한 기본 자산 이름으로 모든 폴더에서 덮어쓰기를 선택합니다. [작업 옵션] 대화 상자에서도 동일한 옵션을 사용할 수 있습니다.
 The name of this option could be different, depending on the settings in **Application Setup > General Settings > Upload to Application > Overwrite Images**.
-1. (선택 사항) (VIA FTP **탭** 을 클릭한 경우에만 사용 가능) 업로드 페이지 하단의 **에서 업로드된 ZIP 또는 TAR 파일에서 모든 파일을 자동으로 추출하려면 Zip 또는 Tar** 파일 압축 해제를 선택합니다. [작업 옵션] 대화 상자에서도 동일한 옵션을 사용할 수 있습니다.
+1. (선택 사항)(VIA FTP **탭** 을 클릭한 경우에만 사용 가능) 업로드 페이지 하단의 **에서 업로드된 ZIP 또는 TAR 파일에서 모든 파일을 자동으로 추출하려면 Zip 또는 Tar 파일 압축을** 해제합니다. [작업 옵션] 대화 상자에서도 동일한 옵션을 사용할 수 있습니다.
 1. Near the lower-right corner of the Upload page, click **Job Options**, then specify the options you want.
 
    [업로드 선택 사항](uploading-files.md#upload_options)을 참조하십시오.
@@ -235,7 +235,7 @@ The name of this option could be different, depending on the settings in **Appli
    * **메타데이터 파일** 처리 — FTP **사용** 탭 중 하나를 선택한 경우에만 사용할 수 있습니다. 탭으로 구분된 파일이나 XML 파일을 업로드하여 여러 자산에 메타데이터를 추가하려는 경우 이 선택 사항을 선택합니다. [메타데이터 가져오기(FTP 사용)](viewing-adding-exporting-metadata.md#import-metadata)를 참조하십시오.
 
 
-* **자르기 옵션** — 이미지에서 공백 픽셀을 자동으로 자르려면 자르기 메뉴를 열고 수동을 선택한 다음 [위쪽], [오른쪽], [아래쪽] 및 [왼쪽] 필드에 픽셀 측정을 입력하여 양쪽에서 자를 수 있습니다. [자르기] 메뉴에서 [트림]을 선택하고 다음 선택 사항을 선택할 수도 있습니다.
+* **자르기 OPTIONS** — 이미지에서 공백 픽셀을 자동으로 자르려면 자르기 메뉴를 열고 수동을 선택한 다음 [위쪽], [오른쪽], [아래쪽] 및 [왼쪽] 필드에 픽셀 측정을 입력하여 양쪽에서 자를 수 있습니다. [자르기] 메뉴에서 [트림]을 선택하고 다음 선택 사항을 선택할 수도 있습니다.
 
    * **기준 재단** — 색상 또는 투명도를 기반으로 자르기 여부를 선택합니다.
 
@@ -249,30 +249,30 @@ The name of this option could be different, depending on the settings in **Appli
 
       * **허용치** — 슬라이더를 드래그하여 0에서 1까지의 허용치를 지정합니다.
 
-* **COLOR PROFILE OPTIONS** — Dynamic Media Classic 동적 전달에 사용되는 최적화된 파일을 만들 때 색상 변환을 선택합니다.
+* **COLOR 프로필 OPTIONS** — Dynamic Media Classic 동적 전달에 사용되는 최적화된 파일을 만들 때 색상 변환을 선택합니다.
 
-   * **기본 색상 보존** — 이미지에 색상 공간 정보가 포함될 때마다 소스 이미지 색상을 유지합니다. 색상 변환은 없습니다. 거의 모든 이미지에는 현재 적절한 색상 프로필이 이미 포함되어 있습니다. 그러나 CMYK 소스 이미지에 포함된 색상 프로필이 없는 경우, 색상이 sRGB(표준 빨강 녹색 파랑) 색상 공간으로 변환됩니다. sRGB는 웹 페이지에 이미지를 표시할 때 권장되는 색상 공간입니다.
+   * **기본 색상 보존** — 이미지에 색상 공간 정보가 포함될 때마다 소스 이미지 색상을 유지합니다.색상 변환은 없습니다. 거의 모든 이미지에는 현재 적절한 색상 프로필이 이미 포함되어 있습니다. 그러나 CMYK 소스 이미지에 포함된 색상 프로필이 없는 경우, 색상이 sRGB(표준 빨강 녹색 파랑) 색상 공간으로 변환됩니다. sRGB는 웹 페이지에 이미지를 표시할 때 권장되는 색상 공간입니다.
 
-   * **원본 색상 공간** 유지 — Dynamic Media Classic으로 인제스트할 때 색상을 변환하지 않고 원본 색상을 유지합니다. 포함된 색상 프로필이 없는 이미지의 경우, 이미지 요청을 처리하기 위한 필수 색상 변환은 게시 설정에서 구성된 대로 기본 색상 프로필을 사용하여 수행됩니다. 이 색상 프로필은 이 옵션으로 만든 파일에 있는 색상과 맞지 않을 수 있습니다. 따라서 [기본 색상 유지] 옵션을 사용하는 것이 좋습니다.
+   * **원본 색상 공간** 유지 — Dynamic Media Classic으로 인제스트할 때 색상 변환 없이 원본 색상을 유지합니다. 포함된 색상 프로필이 없는 이미지의 경우, 이미지 요청을 처리하기 위한 필수 색상 변환은 게시 설정에서 구성된 대로 기본 색상 프로필을 사용하여 수행됩니다. 이 색상 프로필은 이 옵션으로 만든 파일에 있는 색상과 맞지 않을 수 있습니다. 따라서 [기본 색상 유지] 옵션을 사용하는 것이 좋습니다.
 
    * **사용자 정의 시작 > 끝** — 메뉴를 열어 변환 및 색상 공간으로 변환할 수 있습니다. 이 고급 옵션은 소스 파일에 포함된 모든 색상 정보를 무시합니다. 제출하는 모든 이미지에 잘못된 색상 프로파일 데이터가 있거나 누락된 경우에만 이 옵션을 선택해야 합니다.
 
-* **이미지 편집 옵션** — 이미지의 클리핑 &lt;> 마스크를 유지하고 색상 프로파일을 선택할 수 있습니다.
+* **이미지 편집 OPTIONS** — 이미지의 클리핑 &lt;> 마스크를 유지하고 색상 프로파일을 선택할 수 있습니다.
 [업로드 시 이미지 편집 선택 사항](image-editing-options-upload.md#image-editing-options-at-upload)을 참조하십시오.
 
-* **POSTSCRIPT 옵션** — PostScript® 파일을 래스터화하고, 파일을 자르고, 투명한 배경을 유지하고, 해상도를 선택하고, 색상 공간을 선택할 수 있습니다.
+* **POSTSCRIPT OPTIONS** — PostScript ® 파일을 래스터화하고 파일을 자르고 투명한 배경을 유지하며 해상도를 선택하고 색상 공간을 선택할 수 있습니다.
 [PostScript 및 Illustrator 파일 작업](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)을 참조하십시오.
 
-* **PHOTOSHOP OPTIONS** — Adobe® Photoshop® 파일에서 템플릿을 만들고, 레이어를 유지하며, 레이어 이름을 지정하고, 텍스트를 추출하며, 이미지가 템플릿에 고정되는 방식을 지정할 수 있습니다.
+* **PHOTOSHOP OPTIONS** — Adobe® Photoshop® 파일에서 템플릿을 만들고, 레이어를 유지하며, 레이어 이름을 지정하고, 텍스트를 추출하고, 이미지가 템플릿에 고정된 방식을 지정할 수 있습니다.
 [PSD 업로드 선택 사항](psd-files.md#psd_upload_options)을 참조하십시오.
 
-* **PDF 옵션** — 파일을 래스터화하고, 검색어와 링크를 추출하고, eCatalog를 자동 생성하고, 해상도를 설정하고, 색상 공간을 선택할 수 있습니다.
+* **PDF OPTIONS** — 파일을 래스터화하고, 검색어와 링크를 추출하고, eCatalog를 자동 생성하고, 해상도를 설정하고, 색상 공간을 선택할 수 있습니다.
 [PDF 업로드 선택 사항](pdfs.md#pdf_upload_options)을 참조하십시오.
 
-* **ILLUSTRATOR 옵션** — Adobe Illustrator® 파일을 래스터화하고 투명한 배경을 유지하며 해상도를 선택하고 색상 공간을 선택할 수 있습니다.
+* **ILLUSTRATOR OPTIONS** — Adobe Illustrator® 파일을 래스터화하고 투명한 배경을 유지하며 해상도를 선택하고 색상 공간을 선택할 수 있습니다.
 [PostScript 및 Illustrator 파일 작업](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)을 참조하십시오.
 
-* **EVIDEO 옵션** — 비디오 사전 설정을 선택하여 비디오 파일을 트랜스코딩할 수 있습니다.
+* **EVIDEO OPTIONS** — 비디오 사전 설정을 선택하여 비디오 파일을 트랜스코딩할 수 있습니다.
 [비디오 인코딩 사전 설정으로 작업](uploading-encoding-videos.md#working_with_video_encoding_presets)을 참조하십시오.
 
 * **추가 메타데이터** — 업로드할 파일을 설명하는 키워드를 입력합니다. 키워드를 쉼표로 구분합니다. 키워드를 사용하면 자산을 쉽게 검색할 수 있습니다. [고급 검색 수행](searching-assets.md#conducting_an_advanced_search)을 참조하십시오.
