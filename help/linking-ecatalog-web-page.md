@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 140640f2-3ca4-4b6c-a240-5f01be87fa9c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '678'
 ht-degree: 87%
@@ -20,7 +20,7 @@ ht-degree: 87%
 
 # eCatalog를 웹 페이지에 연결{#linking-an-ecatalog-to-a-web-page}
 
-웹 사이트 및 응용 프로그램은 URL 문자열 또는 포함된 코드를 통해 eCatalogs를 비롯한 Dynamic Media 이미지 서버 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지 및 응용 프로그램에 eCatalog에 대한 URL 문자열 또는 포함된 코드를 배치하려면 Dynamic Media Classic에서 복사합니다.
+웹 사이트와 애플리케이션은 URL 문자열 또는 포함된 코드를 통해 eCatalogs를 비롯한 Dynamic Media Image Server 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지 및 응용 프로그램에 eCatalog에 대한 URL 문자열 또는 포함된 코드를 배치하려면 Dynamic Media Classic에서 복사합니다.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ ht-degree: 87%
 
 ## eCatalog URL 복사 {#copying-an-ecatalog-url}
 
-1. [자산 찾아보기] 패널의 [표시] 드롭다운 목록에서 **카탈로그**&#x200B;를 클릭합니다.
+1. [자산 찾아보기] 패널의 [표시] 드롭다운 목록에서 [**카탈로그**]를 클릭합니다.
 1. 왼쪽의 [자산 라이브러리] 패널에서 임베드 코드를 복사하려는 eCatalog가 들어 있는 자산 폴더를 탐색합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.
 
@@ -49,7 +49,7 @@ ht-degree: 87%
 
 eCatalog를 배포하는 가장 일반적인 방법은 웹 페이지에 eCatalog 썸네일 표지 페이지 형태로 링크를 배치하는 것입니다. IT 팀과 협력하여 eCatalog가 간결한 가운데 맞춤 팝업 창에서 시작되도록 합니다. IT 팀에 브라우저의 도구 모음과 주소 표시줄이 표시되지 않도록 요청합니다.
 
-자세한 내용 및 코드 샘플은 [Adobe 뷰어 참조 안내서의 HTML5 전자 카탈로그 뷰어 포함을 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
+자세한 내용 및 코드 샘플은 Adobe 뷰어 [참조 안내서의 HTML5 전자 카탈로그 뷰어 포함을 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
 
 ## eCatalog 뷰어의 임베드 코드 복사 {#copying-the-embed-code-of-an-ecatalog-viewer}
 
@@ -57,7 +57,7 @@ eCatalog를 배포하는 가장 일반적인 방법은 웹 페이지에 eCatalog
 
 **eCatalog 뷰어의 임베드 코드를 복사하려면**
 
-1. [자산 찾아보기] 패널의 [표시] 드롭다운 목록에서 **카탈로그**&#x200B;를 클릭합니다.
+1. [자산 찾아보기] 패널의 [표시] 드롭다운 목록에서 [**카탈로그**]를 클릭합니다.
 1. 왼쪽의 [자산 라이브러리] 패널에서 임베드 코드를 복사하려는 eCatalog가 들어 있는 자산 폴더를 탐색합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.
 
