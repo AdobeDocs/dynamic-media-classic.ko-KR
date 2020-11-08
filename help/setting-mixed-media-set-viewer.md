@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '611'
 ht-degree: 82%
@@ -60,7 +60,7 @@ ht-degree: 82%
    * **포함라이브**&#x200B;를 클릭합니다. [포함 단추 레이블] 상자에 뷰어에서 [포함 단추]에 대해 표시할 이름을 입력합니다. 원하는 경우 
 **단추에** 대한 사용자 정의 스킨을 찾아 선택합니다.
 
-   * **링크**&#x200B;라이브를 클릭합니다. [링크 단추 레이블] 상자에 뷰어에서 [링크 단추]에 대해 표시할 이름을 입력합니다. 원하는 경우 
+   * **링크**&#x200B;를 클릭합니다. [링크 단추 레이블] 상자에 뷰어에서 [링크 단추]에 대해 표시할 이름을 입력합니다. 원하는 경우 
 **단추에** 대한 사용자 정의 스킨을 찾아 선택합니다.
 
    * **방문**&#x200B;클릭 
