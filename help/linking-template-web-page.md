@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 70%
@@ -20,7 +20,7 @@ ht-degree: 70%
 
 # 템플릿을 웹 페이지에 연결{#linking-a-template-to-a-web-page}
 
-웹 사이트 및 응용 프로그램은 URL 문자열을 통해 Dynamic Media 이미지 서버 컨텐츠에 액세스합니다. 템플릿을 게시한 후 Dynamic Media Classic에서는 Dynamic Media 이미지 서버의 템플릿을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 이 URL을 웹 브라우저에 붙여 넣을 수 있습니다.
+웹 사이트 및 응용 프로그램은 URL 문자열을 통해 Dynamic Media 이미지 서버 컨텐츠에 액세스합니다. 템플릿을 게시하면 Dynamic Media Classic에서 Dynamic Media 이미지 서버의 템플릿을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 이 URL을 웹 브라우저에 붙여 넣을 수 있습니다.
 
 웹 페이지 및 응용 프로그램에 URL 문자열을 배치하려면 Dynamic Media Classic에서 복사합니다. 이미지 사전 설정을 사용하여 생성된 템플릿 URL 문자열을 얻으려면 [미리 보기] 화면이나 찾아보기 패널([세부 사항 보기])로 이동합니다. 이미지 사전 설정을 선택한 다음 [URL 복사] 단추를 선택합니다.
 
