@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 62%
@@ -20,17 +20,17 @@ ht-degree: 62%
 
 # 빠른 시작: 이미지 집합{#quick-start-image-sets}
 
-Dynamic Media 클래식 이미지 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 이미지 집합 뷰어에서는 사용자가 썸네일 이미지를 클릭하여 항목의 여러 보기를 확인할 수 있습니다. 이미지 세트를 사용하면 항목의 대체 고해상도 보기를 표시할 수 있습니다.
+Dynamic Media Classic 이미지 세트는 사용자에게 통합 보기 환경을 제공합니다. 동적 이미지 집합 뷰어에서는 사용자가 썸네일 이미지를 클릭하여 항목의 여러 보기를 확인할 수 있습니다. 이미지 세트를 사용하면 항목의 대체 고해상도 보기를 표시할 수 있습니다.
 
 이미지 집합 뷰어에서는 이미지를 자세히 검사하기 위해 확대/축소 도구를 제공합니다. 필요한 경우 유도된 확대/축소 타겟과 이미지 맵을 이미지 집합에 포함할 수 있습니다. 이미지 집합은 보다 조화롭고 친근한 보기 환경을 제공합니다.
 
-이 이미지 집합 빠른 시작은 Dynamic Media Classic의 이미지 집합 기술을 사용하여 빠르게 시작하고 실행하도록 만들어졌습니다.
+이 이미지 집합 빠른 시작은 Dynamic Media Classic의 이미지 집합 기술을 사용하여 빠르게 시작하고 실행되도록 디자인되었습니다.
 
 **1. 다중 보기 및 견본을 위해 마스터 이미지 업로드**
 
 먼저 이미지 집합에 사용할 이미지를 업로드합니다. 사용자가 이미지 집합 뷰어에서 이미지를 확대/축소할 수 있기 때문에 이미지를 선택할 때 확대/축소를 고려합니다. 이미지의 가장 큰 치수가 2000픽셀 이상인지 확인합니다. Dynamic Media Classic에서는 많은 이미지 파일 형식을 지원하지만 손실 없는 TIFF, PNG 및 EPS 이미지가 권장됩니다.
 
-글로벌 탐색 막대에서 업로드 단추를 선택하여 컴퓨터의 파일을 Dynamic Media Classic의 폴더로 업로드합니다.
+전역 탐색 막대에서 업로드 단추를 선택하여 컴퓨터의 파일을 Dynamic Media Classic의 폴더로 업로드합니다.
 
 [업로드할 이미지 집합 자산 준비](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) 및 [파일 업로드](uploading-files.md#uploading-your-files)를 참조하십시오.
 
@@ -72,7 +72,7 @@ Click the Mark for Publish icon to the left of its name in the Browse Panel. The
 
 **6. 웹 사이트에 이미지 집합 연결**
 
-Dynamic Media Classic은 이미지 세트에 대한 URL 호출을 만들고 게시한 후 활성화합니다. [미리 보기] 화면에서 이러한 URL을 복사할 수 있습니다.
+Dynamic Media Classic에서는 이미지 세트에 대한 URL 호출을 만들고 게시한 후 활성화합니다. [미리 보기] 화면에서 이러한 URL을 복사할 수 있습니다.
 
 이미지 집합을 선택하고 [미리 보기] 단추를 클릭합니다. [미리 보기] 화면이 열립니다. Select an Image Set Viewer Preset and click **Copy URL**.
 
