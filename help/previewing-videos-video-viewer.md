@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '774'
 ht-degree: 84%
@@ -48,13 +48,13 @@ ht-degree: 84%
 
 사용자는 비디오 뷰어에서 비디오를 봅니다. 비디오 뷰어의 동작 및 표시 모양과 재생 컨트롤 작동 방식은 비디오 재생을 위해 선택한 뷰어 사전 설정에 따라 달라집니다. [미리 보기] 화면에서 뷰어 사전 설정을 선택합니다. 사전 설정을 선택하면 선택한 뷰어 사전 설정으로 비디오를 재생하기 위한 URL 또는 포함 코드를 얻을 수 있습니다.
 
-Dynamic Media Classic에는 비디오를 재생하기 위한 사전 정의된 뷰어 사전 설정이 많이 포함되어 있으며, 관리자의 경우 사용자 정의 뷰어 사전 설정을 만들 수 있습니다. 비디오 뷰어를 구성하기 위한 수십 개의 설정이 있습니다. 크기, 색상, 비디오 및 오디오 컨트롤, 진행률 표시줄, 사용자 인터페이스 스킨 및 소셜 기능을 구성할 수 있습니다.
+Dynamic Media Classic에는 비디오 재생을 위한 사전 정의된 뷰어 사전 설정이 많이 포함되어 있으며, 관리자의 경우 사용자 정의 뷰어 사전 설정을 만들 수 있습니다. 비디오 뷰어를 구성하기 위한 수십 개의 설정이 있습니다. 크기, 색상, 비디오 및 오디오 컨트롤, 진행률 표시줄, 사용자 인터페이스 스킨 및 소셜 기능을 구성할 수 있습니다.
 
 [비디오 뷰어에서 비디오 미리 보기](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)를 참조하십시오.
 
 ### 비디오 뷰어 사전 설정 추가 또는 편집 {#adding-or-editing-a-video-viewer-preset}
 
-뷰어 사전 설정을 사용하여 다양한 뷰어 유형 및 사전 정의된 설정을 확인할 수 있습니다. 사용자 정의된 뷰어 사전 설정을 추가 및 편집하거나 Dynamic Media Classic에 포함된 기존 뷰어 사전 설정을 편집할 수도 있습니다.
+뷰어 사전 설정을 사용하여 다양한 뷰어 유형 및 사전 정의된 설정을 확인할 수 있습니다. 또한 사용자 정의된 뷰어 사전 설정을 추가 및 편집하거나 Dynamic Media Classic에 포함된 기존 뷰어 사전 설정을 편집할 수도 있습니다.
 
 [뷰어 사전 설정]에서 뷰어 사전 설정을 활성화, 필터링 및 정렬하고 미리 볼 수 있습니다.
 
