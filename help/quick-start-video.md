@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 65%
@@ -24,7 +24,7 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android, Blackberry 및 
 
 예를 들어 iOS 모바일 장치에서는 3G, 4G 또는 Wi-Fi와 같은 대역폭을 검색합니다. 그런 다음 적응형 비디오 집합 내의 다양한 비디오 비트 전송률 중에서 적합한 인코딩된 비디오를 자동으로 선택합니다. 이 비디오는 데스크톱, 모바일 장치 또는 태블릿으로 스트리밍됩니다.
 
-또한 데스크톱이나 모바일 장치에서 네트워크 상태가 변경될 경우 비디오 품질이 자동으로 동적으로 전환됩니다. 고객이 데스크톱에서 전체 화면 모드로 전환하면 적응형 비디오 집합이 더 나은 해상도로 응답하므로 고객의 보기 환경이 향상됩니다. 응용 비디오 세트를 사용하면 여러 화면 및 디바이스에서 Dynamic Media Classic 비디오를 재생하는 고객에게 최상의 재생이 가능합니다.
+또한 데스크톱이나 모바일 장치에서 네트워크 상태가 변경될 경우 비디오 품질이 자동으로 동적으로 전환됩니다. 고객이 데스크톱에서 전체 화면 모드로 전환하면 적응형 비디오 집합이 더 나은 해상도로 응답하므로 고객의 보기 환경이 향상됩니다. 응용 비디오 세트를 사용하면 다양한 화면 및 디바이스에서 Dynamic Media Classic 비디오를 재생하는 고객에게 최상의 재생 방법을 제공합니다.
 
 재생하는 동안 재생하거나 선택할 인코딩된 비디오를 결정하기 위해 비디오 플레이어가 사용하는 논리는 다음 알고리즘을 기준으로 합니다.
 
@@ -55,9 +55,9 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android, Blackberry 및 
 
    적응형 비디오 스트리밍은 다양한 iOS 플랫폼에서 지원됩니다.
 
-   Adobe 뷰어 참조 안내서의 최신 [지원을 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+   Adobe 뷰어 참조 안내서에서 최신 [지원을 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
 
-   Dynamic Media Classic은 MP4 H.264 비디오에 대한 모바일 비디오 재생을 지원합니다. 다음 웹 사이트에서 이 비디오 형식을 지원하는 Blackberry 장치를 찾을 수 있습니다.
+   Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다. 다음 웹 사이트에서 이 비디오 형식을 지원하는 Blackberry 장치를 찾을 수 있습니다.
 
    Blackberry [에서 지원되는 비디오 포맷을 참조하십시오](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
@@ -75,16 +75,16 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android, Blackberry 및 
 
 **빠른 시작**
 
-다음 단계별 작업 과정 설명은 Dynamic Media Classic에서 응용 비디오 세트를 빠르게 실행하고 시작할 수 있도록 고안되었습니다. 각 단계 뒤에는 자세한 정보를 확인할 수 있는 항목 제목의 상호 참조가 있습니다.
+다음 단계별 작업 과정 설명은 Dynamic Media Classic의 응용 비디오 세트를 빠르게 시작하고 실행하는 데 도움이 되도록 설계되었습니다. 각 단계 뒤에는 자세한 정보를 확인할 수 있는 항목 제목의 상호 참조가 있습니다.
 
 **1. 비디오 업로드 및 인코딩**
 
 다음 2가지 시나리오 중 하나를 사용하여 적응형 비디오 집합을 업로드하고 생성하십시오.
 
-* **미리 인코딩된 비디오 업로드**&#x200B;비디오가 이미 Dynamic Media Classic 외부에서 인코딩된 경우 
-**전역 탐색 막대에 업로드하여** MP4 비디오 파일을 직접 찾아 Dynamic Media Classic에 업로드합니다. **작성 > 적응형 비디오 집합**&#x200B;을 클릭합니다. 비디오 파일을 찾습니다. 원하는 비디오 파일을 [적응형 비디오 집합] 테이블로 끌어서 놓고 집합을 저장합니다.
+* **미리 인코딩된 비디오 업로드**&#x200B;비디오가 Dynamic Media Classic 외부에서 이미 인코딩된 경우 
+**전역 탐색 막대에 업로드하여** MP4 비디오 파일을 찾아 Dynamic Media Classic에 직접 업로드합니다. **작성 > 적응형 비디오 집합**&#x200B;을 클릭합니다. 비디오 파일을 찾습니다. 원하는 비디오 파일을 [적응형 비디오 집합] 테이블로 끌어서 놓고 집합을 저장합니다.
 * **마스터 소스 비디오 업로드**&#x200B;비디오가 인코딩되지 않은 경우 
-**전역 탐색 막대에 업로드하여** 마스터 비디오 소스 파일(MP4가 아닌 파일)을 업로드하고 Dynamic Media Classic에서 자동으로 MP4 파일로 인코딩합니다. [업로드 작업 옵션] 대화 상자의 [EVideo 옵션] 아래에서 **적응형 비디오**&#x200B;를 선택합니다.
+**전역 탐색 막대에 업로드하여** 마스터 비디오 소스 파일(MP4가 아님)을 업로드하고 Dynamic Media Classic에서 자동으로 MP4 파일로 인코딩합니다. [업로드 작업 옵션] 대화 상자의 [EVideo 옵션] 아래에서 **적응형 비디오**&#x200B;를 선택합니다.
 
    이 기본 옵션을 이용하면 16:9이든, 4:3이든 업로드한 비디오 크기에 맞게 올바른 인코딩 사전 설정을 비디오에 자동으로 적용하는 적응형 비디오 집합을 만들 수 있습니다. 업로드 작업을 제출하면 올바른 종횡비의 비디오 인코딩 3개를 포함하는 적응형 비디오 집합이 자동으로 만들어집니다.
 
