@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '851'
 ht-degree: 55%
@@ -22,7 +22,7 @@ ht-degree: 55%
 
 이미지 크기 조정은 Dynamic Media Classic에서 단일 고해상도 이미지를 기반으로 여러 파생 이미지를 만들 수 있는 기능을 의미합니다. 웹 사이트나 애플리케이션에 대해 축소판과 확대 보기 이미지 등 여러 이미지를 수동으로 만드는 대신 단일 마스터 이미지를 제공합니다. Dynamic Media Classic에서는 수정된 모든 이미지를 요청하는 대로 생성합니다. 단일 마스터 이미지에서 동적으로 이미지를 제공할 수 있는 경우 다음과 같은 많은 장점이 있습니다.
 
-* 각기 다른 크기로 여러 이미지를 수동으로 만들지 않아도 됩니다. 하나의 마스터 이미지를 Dynamic Media Classic에 제공하고, Dynamic Media Classic은 마스터 이미지에서 서로 다른 크기의 파생물을 생성합니다.
+* 각기 다른 크기로 여러 이미지를 수동으로 만들지 않아도 됩니다. 하나의 마스터 이미지를 Dynamic Media Classic에 제공하면 Dynamic Media Classic에서 마스터 이미지에서 서로 다른 크기의 파생물을 생성합니다.
 * 웹 사이트나 애플리케이션 전체에서 이미지 유형의 크기를 신속하게 변경할 수 있습니다. 예를 들어 모든 썸네일 이미지를 변경하려면 &quot;썸네일&quot; 이미지 사전 설정을 수정할 수 있습니다. 매크로와 비슷한 이미지 사전 설정은 크기 및 형식 지정 특성 모음입니다. &quot;썸네일&quot; 이미지 사전 설정을 수정하여 웹 사이트나 애플리케이션 전체에서 모든 썸네일 이미지의 크기를 변경할 수 있습니다.
 * 컨텐츠 또는 자산 관리 시스템 내부나 외부에서 마스터와 모든 파생 이미지를 관리하지 않아도 됩니다.
 
@@ -34,9 +34,9 @@ ht-degree: 55%
 
 **1. 마스터 이미지 업로드**
 
-먼저 마스터 이미지를 Dynamic Media Classic에 업로드합니다. 크기에 대해서는 웹 사이트 또는 애플리케이션에서 사용할 것으로 예상되는 가장 큰 크기의 이미지를 사용하는 것이 좋습니다. 예를 들어 뷰어가 이미지를 확대/축소하도록 하려면 가장 큰 치수에서 2000픽셀 이상인 이미지를 업로드합니다. Dynamic Media Classic에서는 많은 이미지 파일 형식을 지원하지만 손실 없는 TIFF 및 PNG 이미지가 권장됩니다.
+먼저 마스터 이미지를 Dynamic Media Classic에 업로드합니다. 크기 측면에서 Dynamic Media Classic에서는 웹 사이트나 애플리케이션에서 사용할 것으로 예상되는 가장 큰 크기의 이미지를 사용하는 것이 좋습니다. 예를 들어 뷰어가 이미지를 확대/축소하도록 하려면 가장 큰 치수에서 2000픽셀 이상인 이미지를 업로드합니다. Dynamic Media Classic에서는 많은 이미지 파일 형식을 지원하지만 손실 없는 TIFF 및 PNG 이미지가 권장됩니다.
 
-글로벌 탐색 막대에서 업로드 단추를 선택하여 컴퓨터의 파일을 Dynamic Media Classic의 폴더로 업로드합니다. [마스터 이미지 업로드](uploading-master-images.md#uploading_master_images)를 참조하십시오.
+전역 탐색 막대에서 업로드 단추를 선택하여 컴퓨터의 파일을 Dynamic Media Classic의 폴더로 업로드합니다. [마스터 이미지 업로드](uploading-master-images.md#uploading_master_images)를 참조하십시오.
 
 **2. 이미지 사전 설정 지정**
 
@@ -61,7 +61,7 @@ To explore Image Presets, click **Setup** > **Image Presets**, and then browse t
 마스터 이미지 파일을 게시하는 두 가지 필수 목적은 다음과 같습니다.
 
 * 웹 사이트 및 애플리케이션에 이미지를 동적으로 전달할 수 있도록 마스터 이미지를 Dynamic Media 이미지 서버에 게시합니다.
-* 게시를 사용하면 Dynamic Media 이미지 서버의 이미지를 웹 사이트 또는 응용 프로그램으로 호출하는 URL 문자열이 활성화됩니다. 게시 후 웹 사이트나 애플리케이션에서 필요한 경우 Dynamic Media Classic에서 생성된 URL을 복사하고 배치할 수 있습니다.
+* 게시를 사용하면 Dynamic Media 이미지 서버의 이미지를 웹 사이트 또는 응용 프로그램으로 호출하는 URL 문자열이 활성화됩니다. 게시 후 웹 사이트 또는 애플리케이션에서 필요한 경우 Dynamic Media Classic에서 생성된 URL을 복사하고 배치할 수 있습니다.
 
 글로벌 탐색 막대에서 [게시] 단추를 선택하여 게시를 시작합니다. [게시] 화면에서 [게시 시작] 단추를 선택합니다. [마스터 이미지 게시](publishing-master-images.md#publishing_master_images)를 참조하십시오.
 
