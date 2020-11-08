@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '625'
 ht-degree: 87%
@@ -58,7 +58,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
 **비디오에 장 마커 추가**
 
-1. Dynamic Media Classic 외부의 간단한 텍스트 편집기를 사용하여 비디오 장 파일을 만듭니다.
+1. Dynamic Media Classic 외부에서 간단한 텍스트 편집기를 사용하여 비디오 장 파일을 만듭니다.
 
    >[!NOTE]
    >
@@ -73,18 +73,18 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
    [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오.
 
 1. 왼쪽의 [자산 라이브러리] 패널에서 업로드한 장 파일과 연결하려는 비디오 파일이 들어 있는 자산 폴더를 탐색합니다.
-1. [자산 찾아보기] 패널에서 단일 비디오 자산을 선택하고 자산의 썸네일 이미지 아래에서 **[미리 보기]** > **[뷰어 목록]**&#x200B;을 클릭합니다.
+1. [자산 찾아보기] 패널에서 단일 비디오 자산을 선택하고 자산의 썸네일 이미지 아래에서 **[!UICONTROL [미리 보기]]** > **[!UICONTROL [뷰어 목록]]**&#x200B;을 클릭합니다.
 1. [뷰어 목록] 표에서 **Univeral_HTML5_Video**&#x200B;라는 HTML5 뷰어를 찾고 다음 중 하나를 수행합니다.
 
-   * 팝업 비디오 뷰어 환경의 경우 이름의 오른쪽 끝에 있는 **[URL 복사]**&#x200B;를 클릭합니다.
+   * 팝업 비디오 뷰어 환경의 경우 이름의 오른쪽 끝에 있는 **[!UICONTROL [URL 복사]]**&#x200B;를 클릭합니다.
 
       복사한 비디오 URL을 다음 구문에 추가하여 복사한 캡션 파일 URL과 연결합니다.
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * 임베드된 비디오 뷰어 환경의 경우 이름의 오른쪽 끝에 있는 **[임베드 코드]**&#x200B;를 클릭합니다.
+   * 임베드된 비디오 뷰어 환경의 경우 이름의 오른쪽 끝에 있는 **[!UICONTROL [임베드 코드]]**&#x200B;를 클릭합니다.
 
-      [임베드 코드] 대화 상자에서 **[클립보드에 복사]**&#x200B;를 클릭합니다.
+      [임베드 코드] 대화 상자에서 **[!UICONTROL [클립보드에 복사]]**&#x200B;를 클릭합니다.
 
       For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
 
