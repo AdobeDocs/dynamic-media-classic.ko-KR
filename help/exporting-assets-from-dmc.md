@@ -1,8 +1,8 @@
 ---
-title: Dynamic Media Classic에서 에셋 내보내기
-seo-title: Dynamic Media Classic에서 에셋 내보내기
+title: Dynamic Media Classic에서 자산 내보내기
+seo-title: Dynamic Media Classic에서 자산 내보내기
 description: 널
-seo-description: Dynamic Media Classic에서 에셋을 내보내는 방법을 알아봅니다.
+seo-description: Dynamic Media Classic에서 자산을 내보내는 방법을 알아봅니다.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '431'
 ht-degree: 69%
@@ -18,9 +18,9 @@ ht-degree: 69%
 ---
 
 
-# Dynamic Media Classic에서 에셋 내보내기{#exporting-assets-from-dmc}
+# Dynamic Media Classic에서 자산 내보내기{#exporting-assets-from-dmc}
 
-Dynamic Media Classic에서 편집한 에셋을 로컬 네트워크 드라이브에 저장할 수 있습니다. 내보낸 자산은 이메일로 전송하거나 다운로드하기 위해 ZIP 파일로 번들됩니다.
+Dynamic Media Classic에서 편집한 자산을 로컬 네트워크 드라이브에 저장할 수 있습니다. 내보낸 자산은 이메일로 전송하거나 다운로드하기 위해 ZIP 파일로 번들됩니다.
 
 내보내기 작업에 대해 ZIP 압축 파일의 최대 파일 크기는 1 GB입니다. 또한 내보내기 작업 당 최대 500 개의 자산을 내보낼 수 있습니다.
 
