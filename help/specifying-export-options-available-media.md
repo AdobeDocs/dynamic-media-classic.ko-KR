@@ -9,7 +9,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 82%
@@ -26,7 +26,7 @@ ht-degree: 82%
 * 내보내기 작업에 대해 ZIP 압축 내보내기 파일의 최대 파일 크기는 1 GB입니다.
 * 내보내기 작업당 최대 총 500개의 자산을 가질 수 있습니다.
 
-Dynamic Media [Classic에서 자산 내보내기를 참조하십시오](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
+Dynamic [Media Classic에서 자산 내보내기를 참조하십시오](exporting-assets-from-dmc.md#exporting-assets-from_dmc).
 
 **Media Portal 사용자가 사용할 수 있는 내보내기 선택 사항을 지정하려면**
 
