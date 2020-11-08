@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1407'
 ht-degree: 77%
@@ -20,7 +20,7 @@ ht-degree: 77%
 
 # 자산 검색{#searching-assets}
 
-Dynamic Media Classic에서 파일 자산을 찾으려면 유형별로 자산을 보고, 찾아보기 패널에서 자산을 정렬하고, 간단한 검색을 수행하고, 고급 검색을 수행하고, 자산을 필터링할 수 있습니다.
+Dynamic Media Classic에서 파일 자산을 찾으려면 유형별로 자산을 보고, 검색 패널에서 자산을 정렬하고, 간단한 검색을 수행하고, 고급 검색을 수행하고, 자산을 필터링할 수 있습니다.
 
 >[!NOTE]
 >
@@ -63,7 +63,7 @@ Dynamic Media Classic에서 파일 자산을 찾으려면 유형별로 자산을
 
 **자산 유형별** 필터링 메뉴에서 자산 유형을 선택하여 검색 범위를 하나의 자산 유형으로만 제한합니다.
 
-**파일 및 폴더** 검색할 위치를 선택합니다. 모든 파일 및 폴더, 선택한 폴더 또는 선택한 폴더 및 하위 폴더 내에서
+**파일 및 폴더** 검색할 위치를 선택합니다.모든 파일 및 폴더, 선택한 폴더 또는 선택한 폴더 및 하위 폴더 내에서
 
 **모든 게시 상태** 게시 준비가 된 파일, 게시 준비가 되지 않은 파일 또는 모든 파일을 검색합니다.
 
@@ -111,7 +111,7 @@ Dynamic Media Classic에서 파일 자산을 찾으려면 유형별로 자산을
 
    **메타데이터 필드** 선택
 
-   ***참고&#x200B;**: 기본 메타데이터 보기의 메타데이터 필드 이름만 필터링 메뉴에 표시됩니다.*
+   ***참고&#x200B;**:기본 메타데이터 보기의 메타데이터 필드 이름만 필터링 메뉴에 표시됩니다.*
 
    [메타데이터 보기](application-setup.md#metadata_views)를 참조하십시오.
 
@@ -155,7 +155,7 @@ Dynamic Media Classic에서 파일 자산을 찾으려면 유형별로 자산을
 
 **즉시 게시** 새로운 에셋, 키워드 변경 등 모든 메타데이터 변경 사항을 자동으로 푸시합니다.
 
-**XMP 패킷이** XMP 패킷을 게시합니다. 이 패킷은 검색에 사용되지 않고 최신 XMP를 제공합니다.
+**XMP 패킷** XMP 패킷을 게시합니다. 이 패킷은 검색에 사용되지 않고 최신 XMP를 제공합니다.
 
 **키워드** 검색에 사용할 키워드를 메타데이터 서버에 게시합니다.
 
