@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '1689'
 ht-degree: 69%
@@ -28,19 +28,19 @@ ht-degree: 69%
 
 ## 비디오 게시 {#publishing-video}
 
-Dynamic Media Classic Server는 비디오를 게시하여 웹 사이트, 모바일 사이트 또는 애플리케이션에 비디오를 전달할 수 있습니다.
+비디오를 게시하면 Dynamic Media Classic 서버가 웹 사이트, 모바일 사이트 또는 애플리케이션에 비디오를 전달할 수 있습니다.
 
 비디오를 게시하는 데 사용할 수 있는 2가지 서로 다른 방법이 있습니다.
 
 * **업로드 시 비디오를 즉시 자동으로 게시**
 
-   비디오 업로드 과정의 일부로, Dynamic Media Classic은 비디오를 업로드하고 인코딩할 때 자동으로 게시할 수 있습니다. 즉시 게시하는 이 기능은 비디오를 나중에 별도로 게시할 필요가 없음을 의미합니다.
+   비디오 업로드 프로세스의 일부로 Dynamic Media Classic은 비디오를 업로드하고 인코딩할 때 자동으로 게시할 수 있습니다. 즉시 게시하는 이 기능은 비디오를 나중에 별도로 게시할 필요가 없음을 의미합니다.
 
 * **비디오를 업로드 후 수동으로 게시**
 
    비디오를 즉시 게시하지 않으려는 경우 수동으로 언제든지 비디오를 게시할 수 있습니다.
 
-비디오를 게시한 후 Dynamic Media Classic에서 HTML 페이지 또는 애플리케이션 코드에 대한 URL 문자열을 활성화합니다.
+비디오를 게시하면 Dynamic Media Classic에서 HTML 페이지 또는 애플리케이션 코드에 대한 URL 문자열을 활성화합니다.
 
 **비디오를 게시하려면**
 
