@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
 workflow-type: tm+mt
 source-wordcount: '2444'
 ht-degree: 74%
@@ -80,7 +80,7 @@ Dynamic Media Classic에서 이미지 맵을 만들거나 Adobe Acrobat 또는 A
 
 **크기 및 모양** 변경 이미지 맵의 모양과 크기를 변경하는 방법은 사각형 또는 다각형 이미지 맵을 사용하여 작업하는지 여부에 따라 달라집니다.
 
-***팁&#x200B;**: 화면 하단에 있는 크기 슬라이더를 드래그하여 보기를 변경하고 이미지 맵을 더 잘 볼 수 있습니다.*
+***팁&#x200B;**:화면 하단에 있는 크기 슬라이더를 드래그하여 보기를 변경하고 이미지 맵을 더 잘 볼 수 있습니다.*
 
 **사각형 이미지 맵** 이미지 맵의 측면 또는 모서리 위로 포인터를 이동합니다. 양면 화살표 아이콘이 표시되면 끌기를 시작합니다. Shift 키를 누른 상태로 끌어 크기를 변경하지만 종횡비(모양)는 유지합니다.
 
@@ -114,7 +114,7 @@ Dynamic Media Classic에서 이미지 맵을 만들거나 Adobe Acrobat 또는 A
 **이미지 맵을 복사하려면**
 
 1. 이미지 맵 편집기 페이지(이미지 또는 회전 집합의 이미지) 또는 eCatalog 편집 화면의 [맵 페이지] 탭으로 이동합니다.
-1. 다음 위치에 [맵 복사]를 클릭합니다.
+1. [다음 위치에 맵 복사]를 클릭합니다.
 1. 이미지에서 이미지 맵을 복사하는지, 아니면 eCatalog에서 이미지 맵을 복사하는지에 따라 다음 중 하나를 수행합니다.
 
    * (이미지) [이미지 선택] 화면에서 이미지 맵을 복사할 타겟 이미지를 선택합니다.
@@ -140,7 +140,7 @@ Javascript:loadProduct(‘$$’);void(0);
 
 이미지 맵 간에 변경되지 않는 모든 값을 URL 템플릿에 배치합니다. 변경되는 값만 [이미지 맵] 목록의 URL 열에 추가합니다. 예:
 
-* URL 템플릿: j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
+* URL 템플릿:j `avascript:loadProduct(‘https://www.examplesitehere.com/$$’);void(0);`
 * URL 값: `product.htm`
 * 생성된 실제 URL: `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
@@ -154,7 +154,7 @@ By default, the URL template includes a proprietary Dynamic Media Classic JavaSc
 
    : URL 열에 지정된 URL 타겟을 상위 창(현재 창을 연 페이지)에 표시합니다. 현재 창은 열려 있지만 상위 창이 URL 타겟을 표시하도록 변경됩니다.
 
-   ***참고&#x200B;**: 핸들러는 DHTML 및 HTML5 뷰어를 지원하지`loadProductPW`않습니다.*
+   ***참고&#x200B;**:핸들러는 DHTML 및 HTML5 뷰어를 지원하지 `loadProductPW` 않습니다.*
 
 ### URL 템플릿 만들기 {#creating-a-url-template}
 
@@ -194,7 +194,7 @@ URL 템플릿을 만들려면:
 
 Adobe Acrobat 또는 Adobe InDesign에서 eCatalog를 디자인하는 동안 이미지 맵을 만들 수 있습니다.
 
-Acrobat 또는 InDesign에서 이미지 맵을 표시할 하이퍼링크 참조를 만들고 이미지 맵의 URL 위치를 지정합니다. PDF 파일을 Dynamic Media Classic으로 업로드할 때 링크 추출 옵션을 선택하면 링크가 이미지 맵에 자동으로 변환됩니다.
+Acrobat 또는 InDesign에서 이미지 맵을 표시할 하이퍼링크 참조를 만들고 이미지 맵의 URL 위치를 지정합니다. PDF 파일을 Dynamic Media Classic으로 업로드할 때 링크 추출 옵션을 선택하면 링크가 이미지 맵으로 자동 변환됩니다.
 
 자세한 내용은 InDesign 도움말이나 Acrobat 도움말을 참조하십시오.
 
@@ -220,7 +220,7 @@ Acrobat 또는 InDesign에서 이미지 맵을 표시할 하이퍼링크 참조�
 1. 마우스를 끌어 이미지 맵을 만듭니다. [링크 만들기] 상자가 열립니다.
 1. [사용자 지정 링크]를 선택하고 [다음]을 클릭합니다.
 
-   ***참고&#x200B;**: Acrobat에서 모양 옵션을 설정할 필요는 없습니다. Dynamic Media Classic에서 모양을 지정할 수 있습니다.*
+   ***참고&#x200B;**:Acrobat에서 모양 옵션을 설정할 필요는 없습니다. Dynamic Media Classic에서 모양을 지정할 수 있습니다.*
 
 1. [링크 속성] 상자에서 [작업]을 클릭합니다.
 1. [작업 선택] 메뉴에서 [웹 링크 열기]를 선택하고 [추가]를 클릭합니다.
