@@ -4,13 +4,13 @@ product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
-user-guide-description: Dynamic Media Classic(이전 Scene7)을 사용하는 방법에 대한 자세한 내용
+user-guide-description: Dynamic Media Classic 사용에 대한 자세한 내용
 index: y
 translation-type: tm+mt
-source-git-commit: 4d2052f1ddb2394a08fbaa5cb3b8b8fd9d5c5217
+source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 77%
+source-wordcount: '750'
+ht-degree: 76%
 
 ---
 
