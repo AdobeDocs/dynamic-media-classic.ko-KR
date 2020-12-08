@@ -1,16 +1,12 @@
 ---
-source-git-commit: 9168ecfc0871874c71f9338e27a48e04aea47804
+source-git-commit: 2e36fc555c7e16406e68d289a97be72b87be8036
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '155'
-ht-degree: 3%
+source-wordcount: '73'
+ht-degree: 0%
 
 ---
 # Adobe Dynamic Media Classic 설명서
-
-| EXL-PR | EXL | 미리 보기 | 활성화 | 게시됨 | 도움말 |
-|--- |--- |--- |--- |--- |--- |
-| [![빌드 상태](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_pr-exl/lastBuild/) | [![빌드 상태](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/dynamic-media-classic.en_exl/lastBuild/lastBuild) | [미리 보기 URL](https://experienceleague.corp.adobe.com/docs/dynamic-media-classic/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [라이브 URL](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/home.html?lang=en) | [Authoring 안내서](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Adobe Dynamic Media Classic 설명서를 위한 보관소입니다.
 
