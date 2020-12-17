@@ -1,8 +1,8 @@
 ---
-title: 다양한 확대/축소 뷰어를 사용하여 이미지 에셋 미리 보기
-seo-title: 다양한 확대/축소 뷰어를 사용하여 이미지 에셋 미리 보기
+title: 다른 확대/축소 뷰어를 사용하여 이미지 자산 미리 보기
+seo-title: 다른 확대/축소 뷰어를 사용하여 이미지 자산 미리 보기
 description: 널
-seo-description: 다양한 확대/축소 뷰어로 이미지 에셋을 미리 보는 방법을 알아봅니다.
+seo-description: 다양한 확대/축소 뷰어를 사용하여 이미지 자산을 미리 보는 방법을 알아봅니다.
 uuid: 244c0faa-2a33-416f-8987-bdc0c85f5c2e
 contentOwner: admin
 content-type: reference
@@ -18,7 +18,7 @@ ht-degree: 87%
 ---
 
 
-# Previewing image assets with different Zoom viewers{#previewing-image-assets-with-different-zoom-viewers}
+# 다른 확대/축소 뷰어를 사용하여 이미지 자산 미리 보기{#previewing-image-assets-with-different-zoom-viewers}
 
 [뷰어 목록] 화면에서 다른 확대/축소 뷰어 사전 설정을 사용하여 이미지를 미리 볼 수 있습니다.
 
