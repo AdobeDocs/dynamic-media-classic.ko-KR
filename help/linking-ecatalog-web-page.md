@@ -45,11 +45,11 @@ ht-degree: 87%
 
       [뷰어 목록] 페이지에 있는 테이블의 [작업] 열에서 **[URL 복사]**&#x200B;를 클릭합니다.
 
-## 웹 페이지에 eCatalog URL 추가 {#adding-ecatalog-urls-to-your-web-page}
+## 웹 페이지에 eCatalog URL 추가  {#adding-ecatalog-urls-to-your-web-page}
 
 eCatalog를 배포하는 가장 일반적인 방법은 웹 페이지에 eCatalog 썸네일 표지 페이지 형태로 링크를 배치하는 것입니다. IT 팀과 협력하여 eCatalog가 간결한 가운데 맞춤 팝업 창에서 시작되도록 합니다. IT 팀에 브라우저의 도구 모음과 주소 표시줄이 표시되지 않도록 요청합니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 [참조 안내서의 HTML5 전자 카탈로그 뷰어 포함을 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html).
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about.html)에서 [HTML5 전자 카탈로그 뷰어 포함을 참조하십시오.
 
 ## eCatalog 뷰어의 임베드 코드 복사 {#copying-the-embed-code-of-an-ecatalog-viewer}
 
