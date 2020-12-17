@@ -1,8 +1,8 @@
 ---
-title: '"빠른 시작: 미디어 포털"'
-seo-title: '"빠른 시작: 미디어 포털"'
+title: '"빠른 시작:Media Portal"'
+seo-title: '"빠른 시작:Media Portal"'
 description: 널
-seo-description: Media Portal 기법과 관리를 신속하게 시작할 수 있는 소개 및 빠른 시작 미디어 포털입니다.
+seo-description: Media Portal 기법과 관리를 신속하게 시작하고 실행하는 데 도움이 되는 소개 및 Quick Start to Media Portal.
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -18,9 +18,9 @@ ht-degree: 84%
 ---
 
 
-# Quick Start: Media Portal{#quick-start-media-portal}
+# 빠른 시작:미디어 포털{#quick-start-media-portal}
 
-미디어 포털을 통해 기업은 승인된 크리에이티브 자산을 손쉽게 확보, 제어 및 외부 파트너 및 채널 및 내부 비즈니스 사용자에게 배포할 수 있습니다. 이 브라우저 기반 &quot;셀프 서비스&quot; 환경을 통해 Media Portal 사용자는 관리자가 제어하는 &quot;뷰&quot;를 Dynamic Media Classic 에셋으로 가져와 손쉽게 액세스하여 기업이 승인한 포맷으로 에셋을 검색하고 미리 보고 내보낼 수 있습니다.
+미디어 포털에서 승인된 크리에이티브 에셋을 외부 파트너 및 채널 및 내부 비즈니스 사용자에게 쉽게 획득, 제어 및 배포할 수 있습니다. 이 브라우저 기반의 &quot;셀프 서비스&quot; 환경은 Media Portal 사용자에게 Dynamic Media Classic 에셋에 관리자가 제어하는 &quot;뷰&quot;를 제공하여 기업 승인 형식으로 에셋을 쉽게 액세스하고, 찾아보고, 검색하고, 미리 보고, 내보낼 수 있습니다.
 
 관리자는 사용자가 Media Portal에서 자산을 보고 액세스하고 사용하는 방법을 제어합니다. 또한 웹 사이트 및 브랜드와 일치하도록 Media Portal 인터페이스를 사용자 지정할 수 있습니다. Media Portal 인터페이스에서 글꼴, 글꼴 색상 및 글꼴 크기를 지정하고 로고 등의 브랜딩 요소를 통합할 수 있습니다.
 
@@ -48,7 +48,7 @@ Media Portal 사용자는 사용자, 기여자 및 기여자-사용자의 세 �
 
 **4. FTP 계정 관리**
 
-미디어 포털과 연결되어 있고 Dynamic Media Classic 계정의 특정 폴더에 매핑되는 별도의 FTP 계정을 보유할 수 있습니다. 이러한 기능으로 사용자가 개별 FTP 계정을 사용하여 디지털 자산을 해당 계정으로 업로드하도록 할 수 있습니다.
+Media Portal과 연결되어 있고 Dynamic Media Classic 계정의 특정 폴더에 매핑되는 별도의 FTP 계정을 보유할 수 있습니다. 이러한 기능으로 사용자가 개별 FTP 계정을 사용하여 디지털 자산을 해당 계정으로 업로드하도록 할 수 있습니다.
 
 [FTP 계정 관리](ftp-accounts.md#managing_ftp_accounts)를 참조하십시오.
 
