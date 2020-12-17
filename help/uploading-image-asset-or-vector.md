@@ -2,7 +2,7 @@
 title: 이미지 자산 또는 벡터 자산 업로드
 seo-title: 이미지 자산 또는 벡터 자산 업로드
 description: 널
-seo-description: 이미지 자산 또는 벡터 자산을 업로드하는 방법을 알아봅니다.
+seo-description: 이미지 자산 또는 벡터 에셋을 업로드하는 방법을 알아봅니다.
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
 content-type: reference
@@ -23,7 +23,7 @@ ht-degree: 84%
 
 ## 공유 보안 키 요청 {#requesting-a-shared-secret-key}
 
-Admin Console을 *사용하여 지원 사례를 만들어* 공유 암호 [키를 요청합니다.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 케이스에 공유 암호 키를 요청합니다.
+지원 사례를 만들기 위해 Admin Console을 사용하여 [에서 *공유 비밀 키*&#x200B;를 요청합니다.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 케이스에서 공유 비밀 키를 요청합니다.
 
 이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Dynamic Media Classic에서 키를 받은 후 나중에 사용할 수 있도록 로컬에 저장합니다.
 
@@ -34,10 +34,10 @@ Admin Console을 *사용하여 지원 사례를 만들어* 공유 암호 [키를
 업로드 토큰은 특정 시간 동안만 사용할 수 있는 영숫자 문자열입니다. 해당 공유 보안 키로 대체하고 다음 URL을 사용하여 업로드 토큰을 검색합니다.
 
 * 이미지
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`이 예에서는 shared-secret 키가 `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`이 예에서 공유 비밀 키는  `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 * 벡터
-   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`이 예에서는 shared-secret 키가 `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
+   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`이 예에서 공유 비밀 키는  `2d19f60e-890a-4e79-a1a5-9ac2875429b9`
 
 기본적으로 업로드 토큰은 검색한 지 5분(300초) 후에 만료됩니다. 추가 시간을 요청하려면 URL에 `expires`와 요청하는 시간(초)을 포함합니다. 예를 들어 다음 샘플 이미지 URL은 1800초 동안 유효한 업로드 토큰을 검색합니다.
 
@@ -90,7 +90,7 @@ URL 쿼리 문자열에 다음 필드를 사용하여 업로드 토큰을 검색
 
 [이미지 자산 업로드](uploading-image-asset-or-vector.md#uploading_an_image_asset)를 참조하십시오.
 
-## 이미지 자산 업로드 {#uploading-an-image-asset}
+## 이미지 자산 업로드  {#uploading-an-image-asset}
 
 특정 시간 동안 유효한 업로드 토큰을 검색한 후 이미지 자산을 업로드할 수 있습니다. 다음 예와 같이 자산을 멀티파트/양식 게시로 업로드하고 나머지 값을 URL 쿼리 문자열로 보냅니다.
 
@@ -98,7 +98,7 @@ URL 쿼리 문자열에 다음 필드를 사용하여 업로드 토큰을 검색
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+`upload_token` 및 `company_name` 필드가 필요합니다.
 
 [업로드 토큰 검색](uploading-image-asset-or-vector.md#retrieving_the_upload_token)을 참조하십시오.
 
@@ -110,7 +110,7 @@ The `upload_token` and `company_name` fields are required.
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` 매개 변수는 업로드할 수 있는 파일 이름 확장자를 지정합니다. 두 값은 모두 선택 사항입니다.
+`file_limit` 매개 변수는 파일 크기 제한을 바이트 단위로 지정합니다. `file_exts` 매개 변수는 업로드할 수 있는 파일 이름 확장자를 지정합니다. 두 값은 모두 선택 사항입니다.
 
 허용되는 파일 이름 확장자와 파일 크기 제한에 대해 애플리케이션에서 글로벌 제한이 설정됩니다. 요청에 보내는 내용이 글로벌 제한의 하위 집합이면 허용됩니다. 글로벌 제한은 다음과 같습니다.
 
@@ -125,8 +125,8 @@ The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` �
 * 업로드 토큰.
 * 파일 크기 제한.
 * 파일 이름 확장자 목록.
-* 자산과 연관된 색상 프로필 및 파일 이름을 유지할지 여부.
-* 녹아웃 배경을 사용할지 여부를 지정합니다. 배경 녹아웃 기능을 활성화하면 모서리, 허용치 및 채우기 방법을 설정합니다. 업로드에서 [이미지 편집 옵션에서 배경 녹아웃을 참조하십시오](image-editing-options-upload.md#image-editing-options-at-upload).
+* 에셋과 연결된 색상 프로필 및 파일 이름을 유지할지 여부.
+* 녹아웃 배경 사용 여부. [배경 녹아웃]을 활성화하면 [모퉁이], [허용치] 및 [칠 방법]을 설정합니다. 업로드](image-editing-options-upload.md#image-editing-options-at-upload)의 [이미지 편집 옵션에서 배경 녹아웃을 참조하십시오.
 * 업로드할 파일 이름
 
 <!-- 
@@ -145,9 +145,9 @@ Last Modified Date:
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Firefox에서 브라우저 창을 마우스 오른쪽 버튼으로 클릭한 다음 페이지 소스 **보기를 클릭합니다**. 이 코드는 사용자가 **[전송]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
+Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭한 다음 **페이지 소스 보기**&#x200B;를 클릭합니다. 이 코드는 사용자가 **[전송]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
 
-Internet Explorer에서 XML 응답을 보려면 **[보기] > [소스]**&#x200B;를 클릭합니다. To view XML response in Firefox, click **Tools > Web Developer > Page Source**. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
+Internet Explorer에서 XML 응답을 보려면 **[보기] > [소스]**&#x200B;를 클릭합니다. Firefox에서 XML 응답을 보려면 **도구 > 웹 개발자 > 페이지 소스**&#x200B;를 클릭합니다. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 
 다음은 성공적인 업로드에 대한 샘플 응답입니다.
 
@@ -205,7 +205,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 POST
 
-### 이미지의 자산 메타데이터 가져오기 {#getting-asset-metadata-for-images}
+### 이미지의 자산 메타데이터 가져오기  {#getting-asset-metadata-for-images}
 
 다음 예와 같이 `image_info`를 사용하여 업로드한 자산의 메타데이터를 검색할 수 있습니다.
 
@@ -253,7 +253,7 @@ URL 쿼리 문자열에 다음 필드를 사용하여 자산에 대한 정보를
 
 GET 및 POST
 
-## 벡터 자산 업로드 {#uploading-a-vector-asset}
+## 벡터 자산 업로드  {#uploading-a-vector-asset}
 
 특정 시간 동안 유효한 업로드 토큰을 검색한 후 벡터 자산을 업로드할 수 있습니다. 다음 예와 같이 자산을 멀티파트/양식 게시로 업로드하고 나머지 값을 URL 쿼리 문자열로 보냅니다.
 
@@ -261,7 +261,7 @@ GET 및 POST
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company
 ```
 
-The `upload_token` and `company_name` fields are required.
+`upload_token` 및 `company_name` 필드가 필요합니다.
 
 [업로드 토큰 검색](uploading-image-asset-or-vector.md#retrieving_the_upload_token)을 참조하십시오.
 
@@ -273,13 +273,13 @@ The `upload_token` and `company_name` fields are required.
 https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-994d- 312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=ai,pdf
 ```
 
-The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` 매개 변수는 업로드할 수 있는 파일 이름 확장자를 지정합니다. 두 값은 모두 선택 사항입니다.
+`file_limit` 매개 변수는 파일 크기 제한을 바이트 단위로 지정합니다. `file_exts` 매개 변수는 업로드할 수 있는 파일 이름 확장자를 지정합니다. 두 값은 모두 선택 사항입니다.
 
 허용되는 파일 이름 확장자와 파일 크기 제한에 대해 애플리케이션에서 글로벌 제한이 설정됩니다. 요청에 보내는 내용이 글로벌 제한의 하위 집합이면 허용됩니다. 글로벌 제한은 다음과 같습니다.
 
 | 글로벌 제한 | 값 |
 |--- |--- |
-| 모든 클라이언트의 파일 크기 | 20 MB |
+| 모든 클라이언트의 파일 크기 | 20MB |
 | 업로드가 지원되는 벡터 파일 형식 | AI, EPS, PDF(PDF가 이전에 열리고 Adobe Illustrator CS6에 저장된 경우에만) |
 
 다음 HTML 양식을 사용하여 자산을 업로드할 수 있습니다. 이 양식에서 사용자는 다음 정보를 입력해야 합니다.
@@ -288,8 +288,8 @@ The `file_limit` parameter specifies the file-size limit in bytes. `file_exts` �
 * 업로드 토큰.
 * 파일 크기 제한.
 * 파일 이름 확장자 목록.
-* 자산과 연관된 색상 프로필 및 파일 이름을 유지할지 여부.
-* 녹아웃 배경을 사용할지 여부를 지정합니다. 배경 녹아웃 기능을 활성화하면 모서리, 허용치 및 채우기 방법을 설정합니다. 업로드에서 [이미지 편집 옵션에서 배경 녹아웃을 참조하십시오](image-editing-options-upload.md#image-editing-options-at-upload).
+* 에셋과 연결된 색상 프로필 및 파일 이름을 유지할지 여부.
+* 녹아웃 배경 사용 여부. [배경 녹아웃]을 활성화하면 [모퉁이], [허용치] 및 [칠 방법]을 설정합니다. 업로드](image-editing-options-upload.md#image-editing-options-at-upload)의 [이미지 편집 옵션에서 배경 녹아웃을 참조하십시오.
 * 업로드할 파일 이름
 
 <!-- 
