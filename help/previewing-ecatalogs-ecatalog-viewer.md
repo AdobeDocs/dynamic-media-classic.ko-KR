@@ -2,7 +2,7 @@
 title: eCatalog 뷰어에서 eCatalog 미리 보기
 seo-title: eCatalog 뷰어에서 eCatalog 미리 보기
 description: 널
-seo-description: eCatalog 뷰어에서 e카탈로그를 미리 보는 방법을 알아봅니다.
+seo-description: eCatalog 뷰어에서 eCatalog를 미리 보는 방법을 알아봅니다.
 uuid: fdaf2129-e558-4f27-b30f-564126b6b3f2
 contentOwner: admin
 content-type: reference
