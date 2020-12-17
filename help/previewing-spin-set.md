@@ -2,7 +2,7 @@
 title: 회전 집합 미리 보기
 seo-title: 회전 집합 미리 보기
 description: 널
-seo-description: 스핀 세트를 미리 보는 방법을 알아봅니다.
+seo-description: 회전 집합을 미리 보는 방법을 알아봅니다.
 uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
 contentOwner: admin
 content-type: reference
