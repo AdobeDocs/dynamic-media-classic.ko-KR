@@ -50,11 +50,11 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-In the example above, `Chapter 1` is the cue identifier and is optional. `00:00:000 --> 01:04:364`라는 큐 시간은 장의 시작 시간과 종료 시간을 00:00:000 형식으로 지정합니다. 마지막 세 개의 숫자는 밀리초이며, 원하는 경우 000으로 둘 수 있습니다. The chapter title of `The bicycle store behind it all` is the actual description of the chapter’s contents. 큐 식별자, 큐 시작 시간, 장 제목은 모두 사용자가 마우스 포인터를 비디오의 타임라인에 있는 시각적 큐 포인트 위로 가져가면 비디오 플레이어의 팝업에 나타납니다.
+위의 예에서 `Chapter 1`은 큐 식별자이며 선택 사항입니다. `00:00:000 --> 01:04:364`라는 큐 시간은 장의 시작 시간과 종료 시간을 00:00:000 형식으로 지정합니다. 마지막 세 개의 숫자는 밀리초이며, 원하는 경우 000으로 둘 수 있습니다. `The bicycle store behind it all`의 장 제목은 장 내용의 실제 설명입니다. 큐 식별자, 큐 시작 시간, 장 제목은 모두 사용자가 마우스 포인터를 비디오의 타임라인에 있는 시각적 큐 포인트 위로 가져가면 비디오 플레이어의 팝업에 나타납니다.
 
 HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 장 파일 이름 확장자는 .vtt입니다. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.
 
-See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/).
+[WebVTT 참조:웹 비디오 텍스트 트랙 형식](https://dev.w3.org/html5/webvtt/)입니다.
 
 **비디오에 장 마커 추가**
 
@@ -86,7 +86,7 @@ See [WebVTT: The Web Video Text Tracks format](https://dev.w3.org/html5/webvtt/)
 
       [임베드 코드] 대화 상자에서 **[!UICONTROL [클립보드에 복사]]**&#x200B;를 클릭합니다.
 
-      For the HTML5 `Universal_HTML5_Video` viewer, append the copied embed code with the following:
+      HTML5 `Universal_HTML5_Video` 뷰어의 경우 복사한 포함 코드를 다음과 같이 추가합니다.
 
       `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
 
