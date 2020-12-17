@@ -2,7 +2,7 @@
 title: 비디오에 캡션 추가
 seo-title: 비디오에 캡션 추가
 description: 널
-seo-description: 비디오에 캡션을 추가하는 방법 살펴보기
+seo-description: 비디오에 캡션을 추가하는 방법 알아보기
 uuid: 4cc64469-4369-44a9-83db-63bad51aba8a
 contentOwner: admin
 content-type: reference
@@ -36,15 +36,15 @@ ht-degree: 61%
 
 Dynamic Media Classic에는 캡션 파일을 JSON(JavaScript 개체 표기법) 형식으로 변환하는 기능이 있습니다. 이 변환은 JSON 텍스트를 숨겨져 있지만 완전한 비디오의 스크립트로서 웹 페이지에 포함할 수 있음을 의미합니다. 이렇게 되면 검색 엔진이 컨텐츠를 탐색하고 색인화하여 비디오를 더 쉽게 검색할 수 있도록 하고, 고객에게 비디오 컨텐츠에 대한 추가적인 세부 정보를 제공할 수 있습니다.
 
-See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html) in the *Adobe Image Serving API Help* for more information about using the JSON function in a URL.
+URL에서 JSON 함수 사용에 대한 자세한 내용은 *Adobe 이미지 제공 API 도움말*&#x200B;의 [정적(이미지가 아님) 컨텐츠 제공](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html)을 참조하십시오.
 
 **비디오에 캡션을 추가하려면**
 
-1. Dynamic Media Classic 외부의 타사 응용 프로그램을 사용하여 사용 중인 뷰어 유형을 기반으로 비디오 캡션 파일을 만듭니다.
+1. Dynamic Media Classic 외부의 제3자 응용 프로그램을 사용하여 사용 중인 뷰어 유형을 기반으로 비디오 캡션 파일을 만듭니다.
 
    | 뷰어 유형 | 캡션 파일 |
    |--- |--- |
-   | HTML5 | HTML5 비디오 뷰어를 사용하는 경우, 사용자가 만드는 캡션 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 캡션 파일 이름 확장자는 .vtt입니다. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.<br><br>[WebVTT를 참조하십시오](https://dev.w3.org/html5/webvtt/).웹 비디오 텍스트 트랙 형식 <br><br>Dynamic Media Classic 외부에서 캡션 파일을 작성하는 데 사용할 수 있는 도구 및 서비스에는 무료로 제공되고 유료 제공됩니다. 예를 들어 스타일이 없는 간단한 비디오 캡션 파일을 만들려면 다음의 무료 온라인 캡션 제작 및 편집 도구를 사용할 수 있습니다. <br><br>[WebVTT Caption Maker](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) 최상의 결과를 <br><br>얻으려면 Internet Explorer 9 이상, Google Chrome 또는 Safari에서 이 도구를 사용하십시오. <br><br>도구에서 비디오 파일의 <b>URL 입력</b> 필드에서 비디오 파일의 URL을 붙여 넣은 다음 <b>로드를 클릭합니다</b>. <br><br>예를 들어 비디오 파일에 대해 Dynamic Media Classic URL을 사용하는 경우 DMC에서 개별 비디오 자산(응용 비디오 세트 또는 기본 비디오가 아님)을 두 번 클릭하여 세부 정보 보기에서 엽니다. [세부 사항 보기]의 오른쪽 패널에서 URL 및 포함 코드를 확장합니다. 그런 다음 [모바일] 그룹 아래의 [모바일(점진적)] 오른쪽에 있는 URL 복사를 클릭합니다. This process gives you the URL to the video file itself which you can then paste into the <b>Enter URL of video file</b> field. 그러면 Internet Explorer, Chrome 또는 Safari가 비디오를 기본적으로 재생할 수 있습니다. 이제 사이트에서 제공하는 화면의 지침에 따라 WebVTT 파일을 작성하고 저장합니다. 끝나면, 캡션 파일 컨텐츠를 복사하여 일반 텍스트 편집기에 붙여 넣고 .vtt 파일 이름 확장자로 저장합니다. <br><br><b>참고:</b> 영어 이외의 언어로 비디오 캡션을 전체적으로 지원하려면 WebVTT 표준을 사용하여 지원할 각 언어에 대해 별도의 .vtt 파일과 호출을 만들어야 합니다. <br><br>일반적으로 캡션 VTT 파일의 이름은 비디오 파일과 동일하게 지정하고 여기에 captions를 추가합니다. 그렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다. |
+   | HTML5 | HTML5 비디오 뷰어를 사용하는 경우, 사용자가 만드는 캡션 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 캡션 파일 이름 확장자는 .vtt입니다. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.<br><br>[WebVTT를 참조하십시오](https://dev.w3.org/html5/webvtt/).웹 비디오 텍스트 트랙 형식. <br><br>Dynamic Media Classic 외부에서 캡션 파일을 작성하는 데 사용할 수 있는 도구 및 서비스에는 무료로 제공되는 것과 유료 것이 모두 있습니다. 예를 들어 스타일이 없는 간단한 비디오 캡션 파일을 만들려면 다음 무료 온라인 캡션 제작 및 편집 도구를 사용할 수 있습니다.<br><br>[WebVTT 캡션 작성기](https://testdrive-archive.azurewebsites.net/Graphics/CaptionMaker/Default.html) <br><br>최상의 결과를 얻으려면 Internet Explorer 9 이상, Google Chrome 또는 Safari에서 도구를 사용하십시오. <br><br>도구에서 비디오 파일 <b>의 URL </b> 입력 필드에서 비디오 파일의 URL을 붙여 넣은 다음 로드를  <b>클릭합니다</b>. <br><br>예를 들어 비디오 파일에 대해 Dynamic Media Classic URL을 사용하는 경우 DMC에서 개별 비디오 자산(적응형 비디오 세트 또는 비디오기본이 아님)을 두 번 클릭하여 세부 정보 보기에서 엽니다. [세부 사항 보기]의 오른쪽 패널에서 URL 및 포함 코드를 확장합니다. 그런 다음 [모바일] 그룹 아래의 [모바일(점진적)] 오른쪽에 있는 URL 복사를 클릭합니다. 이 프로세스에서는 비디오 파일 자체에 대한 URL을 제공하므로 비디오 파일</b> 필드의 <b>URL 입력 필드에 붙여넣을 수 있습니다. 그러면 Internet Explorer, Chrome 또는 Safari가 비디오를 기본적으로 재생할 수 있습니다. 이제 사이트에서 제공하는 화면의 지침에 따라 WebVTT 파일을 작성하고 저장합니다. 끝나면, 캡션 파일 컨텐츠를 복사하여 일반 텍스트 편집기에 붙여 넣고 .vtt 파일 이름 확장자로 저장합니다. <br><br><b>참고:</b> 영어 이외의 언어로 비디오 캡션을 글로벌 지원하려면 WebVTT 표준을 사용하여 지원할 각 언어에 대한 .vtt 파일과 호출을 별도로 만들어야 합니다. <br><br>일반적으로 캡션 VTT 파일의 이름은 비디오 파일과 동일하게 지정하고 여기에 captions를 추가합니다. 그렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다. |
 
 1. Dynamic Media Classic에서 WebVTT, DFXP 또는 SMPTE XML 캡션 파일을 업로드합니다.
 
@@ -52,7 +52,7 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
 
 1. 왼쪽의 [자산 라이브러리] 패널에서 업로드한 캡션 파일과 연결하려는 비디오 파일이 들어 있는 자산 폴더를 탐색합니다.
 1. [자산 찾아보기] 패널에서 단일 비디오 자산을 선택하고 자산의 썸네일 이미지 아래에서 **[!UICONTROL [미리 보기]]** > **[!UICONTROL [뷰어 목록]]**&#x200B;을 클릭합니다.
-1. In the Viewer List table, find the HTML5 viewer named **Univeral_HTML5_Video**, **Universal_HTML5_MixedMedia_dark**, or **Universal_HTML5_MixedMedia_light**, then do one of the following:
+1. [뷰어 목록] 테이블에서 **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** 또는 **Universal_HTML5_MixedMedia_light**&#x200B;라는 HTML5 뷰어를 찾은 다음 중 하나를 수행합니다.
 
    * 팝업 비디오 뷰어 환경의 경우 이름의 오른쪽 끝에 있는 **[!UICONTROL [URL 복사]]**&#x200B;를 클릭합니다.
 
@@ -60,15 +60,15 @@ See [Serving static (non-image) contents](https://docs.adobe.com/content/help/en
 
       `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      Note the `,1` at the end of the caption URL path. 경로에서 .vtt 파일 이름 확장자 바로 뒤에 나오는 이것은 각각 `1` 또는 `0`으로 설정하여 비디오 플레이어 막대에 있는 폐쇄 캡션 단추를 활성화 또는 비활성화하는 옵션입니다.
+      캡션 URL 경로의 끝에 있는 `,1`을 확인하십시오. 경로에서 .vtt 파일 이름 확장자 바로 뒤에 나오는 이것은 각각 `1` 또는 `0`으로 설정하여 비디오 플레이어 막대에 있는 폐쇄 캡션 단추를 활성화 또는 비활성화하는 옵션입니다.
 
    * 임베드된 비디오 뷰어 환경의 경우 이름의 오른쪽 끝에 있는 **[!UICONTROL [임베드 코드]]**&#x200B;를 클릭합니다.
 
       [임베드 코드] 대화 상자에서 **[!UICONTROL [클립보드에 복사]]**&#x200B;를 클릭합니다.
 
-      For the HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, or `Universal_HTML5_MixedMedia_light` viewers, append the copied embed code with the following:
+      HTML5 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark` 또는 `Universal_HTML5_MixedMedia_light` 뷰어의 경우 복사한 포함 코드를 다음과 같이 추가합니다.
 
       `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      Note the `,1` at the end of the URL path. URL 경로에서 .vtt 파일 이름 확장자 바로 뒤에 나오는 이것은 각각 `1` 또는 `0`으로 설정하여 비디오 플레이어 막대에 있는 캡션 단추를 활성화 또는 비활성화하는 옵션입니다.
+      URL 경로 끝에 있는 `,1`을 확인하십시오. URL 경로에서 .vtt 파일 이름 확장자 바로 뒤에 나오는 이것은 각각 `1` 또는 `0`으로 설정하여 비디오 플레이어 막대에 있는 캡션 단추를 활성화 또는 비활성화하는 옵션입니다.
 
