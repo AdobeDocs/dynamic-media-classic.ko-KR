@@ -25,5 +25,5 @@ ht-degree: 54%
 1. Dynamic Media Classic의 Adobe Analytics 구성 페이지에서 모든 이벤트를 끕니다.
 1. 저장 후 게시합니다.
 
-This turns off the support through Dynamic Media Classic and through URLs obtained from the **CopyURL** feature. 사용자 지정 추적을 구현하는 경우 사용자 지정 구현과의 충돌을 방지하기 위해 구성 페이지에 설정된 Adobe Analytics 추적을 비활성화합니다.
+이렇게 하면 Dynamic Media Classic 및 **CopyURL** 기능에서 얻은 URL을 통해 지원이 꺼집니다. 사용자 지정 추적을 구현하는 경우 사용자 지정 구현과의 충돌을 방지하기 위해 구성 페이지에 설정된 Adobe Analytics 추적을 비활성화합니다.
 
