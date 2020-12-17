@@ -2,7 +2,7 @@
 title: 이미지 집합에 확대/축소 타겟 및 이미지 맵 포함
 seo-title: 이미지 집합에 확대/축소 타겟 및 이미지 맵 포함
 description: 널
-seo-description: 이미지 세트에 확대/축소 대상 및 이미지 맵을 포함하는 방법을 알아봅니다.
+seo-description: 이미지 세트에 확대/축소 타겟 및 이미지 맵을 포함하는 방법을 알아봅니다.
 uuid: 1f5a00fe-3cc2-4668-a051-59e0bee50b35
 contentOwner: admin
 content-type: reference
