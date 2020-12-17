@@ -2,7 +2,7 @@
 title: 자산 인쇄
 seo-title: 자산 인쇄
 description: 널
-seo-description: 에셋을 인쇄하는 방법을 살펴보십시오.
+seo-description: 에셋을 인쇄하는 방법을 알아봅니다.
 uuid: 6cd5ba38-ec80-461f-b095-6cd4d7ea7814
 contentOwner: admin
 content-type: reference
