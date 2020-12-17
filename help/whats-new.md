@@ -2,7 +2,7 @@
 title: 새로운 기능
 seo-title: 새로운 기능
 description: 널
-seo-description: 현재 릴리스 노트를 통해 새로운 Dynamic Media Classic에 대해 알아보십시오.
+seo-description: 최신 릴리스 정보를 통해 새로운 Dynamic Media Classic에 대해 알아보십시오.
 uuid: 78b88ec0-69fc-481b-af54-4c2d0a31057f
 contentOwner: admin
 content-type: reference
@@ -20,4 +20,4 @@ ht-degree: 12%
 
 # 새로운 기능 {#what-s-new}
 
-새로운 기능, 개선 사항 및 수정 사항을 비롯한 최신 Adobe Dynamic Media Classic 릴리스 정보를 검토하려면 [Dynamic Media Classic 릴리스 정보를 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html).
+새로운 기능, 개선 사항 및 수정 사항을 비롯한 최신 Adobe Dynamic Media Classic 릴리스 정보를 검토하려면 [Dynamic Media Classic 릴리스 노트](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html)를 참조하십시오.
