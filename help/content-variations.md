@@ -2,7 +2,7 @@
 title: 컨텐츠 변형 관리
 seo-title: 컨텐츠 변형 관리
 description: 널
-seo-description: 콘텐츠 변형 관리 방법을 알아봅니다.
+seo-description: 콘텐츠 변형을 관리하는 방법을 알아봅니다.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
