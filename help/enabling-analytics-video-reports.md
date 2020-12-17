@@ -20,17 +20,17 @@ ht-degree: 26%
 
 # Adobe Analytics 비디오 보고서 활성화{#enabling-adobe-analytics-video-reports}
 
-Adobe Analytics 하트비트 기반 비디오 보고를 사용하면 Dynamic Media Classic에서 Adobe Analytics을 구성할 때 4개의 비디오 뷰어 이벤트(재생, 일시 중지, 중지, 마일스톤)를 더 이상 활성화할 필요가 없습니다. 비디오 하트비트는 즉시 사용 가능한 Dynamic Media 클래식 HTML5 비디오 및 혼합 미디어 뷰어에서 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다.
+Adobe Analytics 하트비트 기반 비디오 보고를 사용하면 Dynamic Media Classic에서 Adobe Analytics을 구성할 때 4개의 비디오 뷰어 이벤트(재생, 일시 중지, 중지, 마일스톤)를 더 이상 활성화할 필요가 없습니다. 비디오 하트비트는 즉시 사용 가능한 Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어에서 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다.
 
 * Adobe Analytics 비디오 보고서와 Dynamic Media Classic의 통합은 솔루션 변수를 지원하지만 사용자 지정 변수는 지원하지 않습니다.
 
-   See [Configure Analytics Video Reporting](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/video_analytics_config.html) for more information about solution variables and custom variables.
+   솔루션 변수 및 사용자 지정 변수에 대한 자세한 내용은 [분석 비디오 보고 구성](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/video_analytics_config.html)을 참조하십시오.
 
 * 1분 간격으로 증분되는 기본 세그먼트가 지원됩니다. 그러나 시간 증분을 기반으로 고객이 정의한 중대한 이벤트, % 중대한 이벤트 또는 오프셋 중대한 이벤트와 같은 사용자 지정 세그먼트 보고는 지원되지 않습니다.
 
-For more information about Video Heartbeat requirements and setup, see [Measuring Video in Adobe Analytics using Video Heartbeat](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/).
+비디오 하트비트 요구 사항 및 설정에 대한 자세한 내용은 비디오 하트비트](https://microsite.omniture.com/t2/help/en_US/sc/appmeasurement/hbvideo/)를 사용하여 Adobe Analytics에서 비디오 측정을 참조하십시오.[
 
 >[!NOTE]
 >
->Adobe Analytics의 라이센스 솔루션에 비디오 하트비트가 포함되어 있지 않은 경우, 이 장에 설명된 단계를 계속 사용하여 Adobe Analytics 변수를 Dynamic Media Classic 뷰어 이벤트 및 변수에 지정해야 합니다.
+>Adobe Analytics의 라이센스 솔루션에 비디오 하트비트가 포함되어 있지 않으면 이 장에 설명된 절차를 계속 사용하여 Adobe Analytics 변수를 Dynamic Media Classic 뷰어 이벤트 및 변수에 할당해야 합니다.
 
