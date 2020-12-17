@@ -20,16 +20,16 @@ ht-degree: 11%
 
 # Adobe Dynamic Media Classic과 Adobe Target Standard/Premium 통합 {#integrating-dmc-with-target}
 
-Before you can integrate [!DNL Dynamic Media Classic] with [!DNL Target Standard/Premium], you must enter your Target URL in the [!DNL Dynamic Media Classic] Application General Settings screen. 다음 단계에 따라 Target URL을 받아 [응용 프로그램 일반 설정] 화면에 입력합니다.
+[!DNL Dynamic Media Classic]을(를) [!DNL Target Standard/Premium]과(와) 통합하려면 먼저 [!DNL Dynamic Media Classic] 응용 프로그램 일반 설정 화면에 Target URL을 입력해야 합니다. 다음 단계에 따라 Target URL을 얻고 [응용 프로그램 일반 설정] 화면에 입력합니다.
 
-1. 로그인 [!DNL Adobe Experience Cloud]을 [!DNL Target Standard/Premium] 참조하십시오.
+1. [!DNL Adobe Experience Cloud]에서 [!DNL Target Standard/Premium] 계정에 로그인합니다.
 1. 로그인한 후 브라우저의 주소 표시줄에서 *.com*&#x200B;까지 포함하여 URL을 복사합니다.
 
-   예를 들어, 주소 표시줄의 *가상* URL(URL 경로에 항상 슬래시가 포함되지만 이 예에서처럼 백슬래시가 아님)이 다음 `https:\\www.myfictionalsite.com/categories/admin/home.do`인 경우 *가상* URL의 이 부분만 복사하십시오. `https:\\www.myfictionalsite.com`.
+   예를 들어 주소 표시줄의 *가상의* URL(이 예에서처럼 뒤로 슬래시가 아닌 항상 URL 경로에 슬래시가 들어 있는 경우)가 `https:\\www.myfictionalsite.com/categories/admin/home.do`이면 *가상의* URL의 이 부분만 복사합니다.`https:\\www.myfictionalsite.com`.
 
-   In step 5, you paste the portion of the URL you copied into the [!DNL Dynamic Media Classic] Application General Settings screen.
+   5단계에서 복사한 URL의 일부를 [응용 프로그램 일반 설정] 화면에 붙여 넣습니다.[!DNL Dynamic Media Classic]
 
-1. 에서 [!DNL Dynamic Media Classic]설정 **>** 애플리케이션 설정 **을 클릭합니다**.
-1. 5 [응용 프로그램 일반 설정] 페이지의 [ **[!UICONTROL Test&amp;Target 서버 이름]** ] 필드에 복사한 URL을 2단계에서 붙여 넣습니다.
+1. [!DNL Dynamic Media Classic]에서 **설정** > **응용 프로그램 설정**&#x200B;을 클릭합니다.
+1. 5 응용 프로그램 일반 설정 페이지의 **[!UICONTROL Test&amp;Target 서버 이름]** 필드에 2단계에서 복사한 URL을 붙여 넣습니다.
 1. **[닫기]**&#x200B;를 클릭합니다.
 
