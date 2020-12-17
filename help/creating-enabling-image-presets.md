@@ -2,7 +2,7 @@
 title: 이미지 사전 설정 만들기 및 활성화
 seo-title: 이미지 사전 설정 만들기 및 활성화
 description: 널
-seo-description: 이미지 사전 설정을 만들고 사용하는 방법을 알아봅니다.
+seo-description: 이미지 사전 설정을 만들고 활성화하는 방법을 알아봅니다.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
@@ -22,7 +22,7 @@ ht-degree: 89%
 
 사용자는 Media Portal을 사용하여 이미지 자산을 내보낼 때 [선택한 자산 내보내기] 대화 상자에서 이미지 사전 설정을 선택할 수 있습니다. 이미지 사전 설정은 이미지를 내보낼 때 크기, 이미지 품질, 형식, 해상도 및 이미지 모양의 기타 측면을 변경하는 사전 정의된 설정 모음입니다.
 
-Media Portal 관리자는 이미지 사전 설정을 만들어 이미지를 내보낼 때 형식을 다시 지정하는 방법을 제어할 수 있습니다. Image Presets reformat images to the specifications of your company when users export images from the Dynamic Media Classic. 사용자는 직접 이미지 형식을 다시 지정하는 대신 이미지 사전 설정의 정확한 사양으로 이미지를 내보냅니다.
+Media Portal 관리자는 이미지 사전 설정을 만들어 이미지를 내보낼 때 형식을 다시 지정하는 방법을 제어할 수 있습니다. 이미지 사전 설정은 사용자가 Dynamic Media Classic에서 이미지를 내보낼 때 회사 사양에 맞게 이미지를 다시 포맷합니다. 사용자는 직접 이미지 형식을 다시 지정하는 대신 이미지 사전 설정의 정확한 사양으로 이미지를 내보냅니다.
 
 이미지 자산을 내보낼 때 다음 제한이 적용됩니다.
 
