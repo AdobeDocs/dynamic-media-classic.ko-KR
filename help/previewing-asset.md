@@ -26,7 +26,7 @@ ht-degree: 98%
 
 매개 변수 레이어가 있는 템플릿 자산을 미리 보는 경우 매개 변수를 변경하거나 이미지 사전 설정을 변경할 수 있습니다. 인라인으로 변경되기 때문에 동일한 [미리 보기] 창에서 결과를 즉시 볼 수 있습니다.
 
-Adobe 뷰어 [참조 라이브러리 예도 참조하십시오](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
+[Adobe 뷰어 참조 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)도 참조하십시오.
 
 **자산을 미리 보려면**
 
@@ -79,7 +79,7 @@ Adobe 뷰어 [참조 라이브러리 예도 참조하십시오](https://landing.
 
 1. [뷰어 목록] 창의 오른쪽 아래 모서리에서 [닫기]를 클릭하여 [자산] 화면으로 돌아갑니다.
 
-## 이미지 사전 설정을 기준으로 이미지 자산 미리 보기 {#previewing-an-image-asset-based-on-its-image-preset}
+## 이미지 사전 설정을 기준으로 이미지 자산 미리 보기  {#previewing-an-image-asset-based-on-its-image-preset}
 
 이미지 사전 설정을 기준으로 이미지 자산을 미리 보고 각기 다른 크기로 웹 사이트나 애플리케이션에 동적으로 제공될 때 등의 이미지 모양을 확인할 수 있습니다.
 
