@@ -2,7 +2,7 @@
 title: 혼합 미디어 집합 만들기
 seo-title: 혼합 미디어 집합 만들기
 description: 널
-seo-description: 혼합 미디어 세트를 만드는 방법을 알아봅니다.
+seo-description: 혼합 미디어 집합을 만드는 방법을 알아봅니다.
 uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
 content-type: reference
@@ -80,7 +80,7 @@ ht-degree: 95%
 1. 세트 편집을 완료하면 페이지 오른쪽 하단에서 **저장 후 게시**(기본값)가 선택되어 있는지 확인합니다.
 1. **저장** 또는 **다른 이름으로 저장**&#x200B;을 클릭합니다.
 
-## 혼합 미디어 집합 삭제 {#deleting-a-mixed-media-set}
+## 혼합 미디어 집합 삭제  {#deleting-a-mixed-media-set}
 
 삭제된 세트는 휴지통으로 이동합니다. 하지만 삭제된 세트 내의 구성원(또는 &quot;하위&quot;)은 휴지통으로 이동하지 않고, 각각 기존의 게시된 상태나 게시 취소된 상태를 유지합니다.
 
