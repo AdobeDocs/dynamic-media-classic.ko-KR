@@ -2,7 +2,7 @@
 title: 마스터 이미지 게시
 seo-title: 마스터 이미지 게시
 description: 널
-seo-description: 마스터 이미지를 게시하는 방법에 대해 학습합니다.
+seo-description: 마스터 이미지를 게시하는 방법에 대해 알아봅니다.
 uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: admin
 content-type: reference
@@ -24,11 +24,11 @@ ht-degree: 30%
 
 ## 마스터 이미지를 게시로 표시 {#marking-master-images-for-publish}
 
-Dynamic Media 이미지 서버에 복사하려면 이미지기본을 게시로 표시해야 합니다. [게시로 표시] 아이콘을 클릭하여 검색 패널에서 게시로 마스터 이미지를 표시할 수 있습니다. Dynamic Media Classic에 이미지를 업로드할 때 이미지를 게시로 표시할 수도 있습니다.
+이미지를 Dynamic Media 이미지 서버에 복사하려면 이미지를 게시로 기본 표시해야 합니다. [게시로 표시] 아이콘을 클릭하여 찾아보기 패널에서 게시로 마스터 이미지를 표시할 수 있습니다. Dynamic Media Classic에 이미지를 업로드할 때 게시할 이미지를 표시할 수도 있습니다.
 
 ## 마스터 이미지 게시 {#publishing-your-master-images}
 
-마스터 이미지를 Dynamic Media 이미지 서버에 게시하려면 먼저 전역 탐색 막대에서 [게시] 단추를 선택합니다. [시기] 선택 사항(일회 또는 반복)을 선택하고, 선택적으로 게시 작업의 이름을 입력한 다음 [게시 시작] 단추를 선택합니다.
+Dynamic Media 이미지 서버에 마스터 이미지를 게시하려면 전역 탐색 막대에서 [게시] 단추를 선택하여 시작합니다. [시기] 선택 사항(일회 또는 반복)을 선택하고, 선택적으로 게시 작업의 이름을 입력한 다음 [게시 시작] 단추를 선택합니다.
 
 >[!NOTE]
 >
