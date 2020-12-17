@@ -2,7 +2,7 @@
 title: 시스템 요구 사항
 seo-title: 시스템 요구 사항
 description: 널
-seo-description: 'Dynamic Media Classic을 사용하는 최적의 경험을 위한 시스템 요구 사항에 대해 알아보십시오. '
+seo-description: 'Dynamic Media Classic을 사용하는 최적의 환경을 위한 시스템 요구 사항에 대해 알아보십시오. '
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: admin
 content-type: reference
@@ -20,7 +20,7 @@ ht-degree: 47%
 
 # 시스템 요구 사항 {#system-requirements}
 
-Dynamic Media Classic 데스크탑 앱 사용 시 최상의 환경을 얻으려면 시스템이 다음 시스템 요구 사항과 권장 사항을 충족하는지 확인하십시오.
+Dynamic Media Classic 데스크탑 앱 사용 시 최상의 경험을 얻으려면 시스템이 다음 시스템 요구 사항과 권장 사항을 충족하는지 확인하십시오.
 
 * Microsoft® Windows® 7 이상 또는 macOS X 10.6 이상의 Macintosh® Intel 프로세서가 필요합니다.
 * 3GB 이상 RAM 필요(4GB 이상 권장)
