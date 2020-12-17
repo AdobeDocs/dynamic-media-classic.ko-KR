@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 40105974e344859b7aa92a591f63d02f880eb1ef
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 60%
@@ -71,14 +71,14 @@ Dynamic Media Classic을 사용하면 통합, 전달 시 또는 두 가지 모�
       * `threshold` (0-255, 효과의 민감도)
 
          이 매개 변수는, 가장자리 픽셀로 간주되고 필터가 선명하게 하기 전에, 선명하게 되는 픽셀과 주변 영역 간의 필수 차이를 결정합니다. 임계값은 피부 톤과 같이 유사한 색상 영역을 지나치게 선명하게 하는 것을 방지하는 데 유용합니다. 예를 들어 임계값 12는 &quot;노이즈&quot;를 추가하지 않도록 피부 톤 밝기에서 약간의 변형을 무시하는 반면, 속눈썹이 피부와 접촉하는 지점과 같은 고대비 영역에는 여전히 가장자리 대비를 추가합니다.
-      필터와 함께 사용하는 우수 사례 등 이러한 세 가지 매개 변수를 설정하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
-      [이미지 선명하게 하기](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)에 대한 Dynamic Media Classic 도움말 항목입니다.
+         필터와 함께 사용하는 우수 사례 등 이러한 세 가지 매개 변수를 설정하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
-      우수 사례 백서 [Adobe Scene7 Publishing System 및 이미지 서버에서 이미지 선명하게 하기](/help/assets/s7_sharpening_images.pdf)입니다.
+         [이미지 선명하게 하기](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)에 대한 Dynamic Media Classic 도움말 항목입니다.
 
-   * Dynamic Media Classic에서는 네 번째 매개 변수를 제어할 수도 있습니다.단색( `0,1`). 이 매개 변수는 언샵 마스킹이 값 `0`을 따로따로 사용하여 각 색상 구성 요소에 적용될지, 아니면 값 `1`을 사용하여 이미지 밝기/강도에 적용될지를 결정합니다.
+         우수 사례 백서 [Adobe Scene7 Publishing System 및 이미지 서버에서 이미지 선명하게 하기](/help/assets/s7_sharpening_images.pdf)입니다.
 
+      * Dynamic Media Classic에서는 네 번째 매개 변수를 제어할 수도 있습니다.단색( `0,1`). 이 매개 변수는 언샵 마스킹이 값 `0`을 따로따로 사용하여 각 색상 구성 요소에 적용될지, 아니면 값 `1`을 사용하여 이미지 밝기/강도에 적용될지를 결정합니다.
 
 언샵 마스크 반경 매개 변수로 시작하는 것이 좋습니다. 시작할 수 있는 반경 설정은 다음과 같습니다.
 
@@ -130,4 +130,3 @@ JPG 이미지를 메모리가 제한된 장치에 제공하는 경우 `&jpegSize
 * Dynamic Media Classic URL에서 직접 확인하거나 조정 작업을 위한 실시간 미리 보기를 제공하는 Dynamic Media Classic의 이미지 조정 기능을 사용하여 실시간으로 다양한 매개 변수를 테스트해 봅니다.
 * Dynamic Media 이미지 제공 명령을 이미지 사전 설정으로 그룹화할 수 있는 것이 좋습니다. 이미지 사전 설정은 기본적으로 `$thumb_low$` 및 `&product_high$` 등의 사용자 정의 사전 설정 이름을 가진 URL 명령 매크로입니다. URL 경로의 사용자 지정 사전 설정 이름은 이 사전 설정을 호출합니다. 이와 같은 기능은 웹 사이트의 다양한 이미지 사용 패턴에 대한 명령 및 품질 설정을 관리하는 데 도움이 되며 URL의 전체 길이를 단축합니다.
 * 또한 Dynamic Media Classic에서는 인제스트에 선명하게 하기 이미지를 적용하는 등 이미지 품질을 조정하는 고급 방법을 제공합니다. 렌더링 결과를 추가적으로 조정하고 최적화하기 위해 이 옵션을 선택할 수 있는 고급 사용 사례에서 Adobe Professional Services는 사용자 지정된 인사이트 및 우수 사례로 도움을 줄 수 있습니다.
-
