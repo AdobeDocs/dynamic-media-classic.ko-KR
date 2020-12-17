@@ -44,11 +44,11 @@ Dynamic Media Classic에서 이미지를 자를 수 있습니다. 이미지를 �
 >
 >이미지를 자른 후 원래 상태로 복원하려면 [자르기 편집기] 화면에 이미지를 표시하고 [재설정] 단추를 선택합니다.
 
-## 자를 영역 선택 {#select-an-area-to-crop}
+## 자를 영역 선택  {#select-an-area-to-crop}
 
-1. To crop an image, click its rollover Edit button and choose **Crop**, or display it in the Browse Panel in Detail view and click **Crop**.
+1. 이미지를 자르려면 롤오버 [편집] 단추를 클릭하고 **자르기**&#x200B;를 선택하거나 [세부 사항] 보기의 찾아보기 패널에 표시하고 **자르기**&#x200B;를 클릭합니다.
 
-1. [자르기 편집기] 창에서 자르기 상자에 자르기를 원하지 않는 이미지 부분을 배치합니다. What appears inside the box remains when you click **Save** and crop the image.
+1. [자르기 편집기] 창에서 자르기 상자에 자르기를 원하지 않는 이미지 부분을 배치합니다. **저장**&#x200B;을 클릭하고 이미지를 자를 때 상자 내부에 나타나는 항목은 그대로 유지됩니다.
 1. 자르기 영역을 조정하려면 다음 중 하나를 수행합니다.
 
    * 상자 측면이나 모서리를 드래그합니다. Shift 키를 누른 상태로 끌어 크기를 변경하지만 자르기 상자의 종횡비(모양)는 유지합니다.
