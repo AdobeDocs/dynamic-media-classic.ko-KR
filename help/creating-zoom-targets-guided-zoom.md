@@ -2,7 +2,7 @@
 title: 유도된 확대/축소의 확대/축소 타겟 만들기
 seo-title: 유도된 확대/축소의 확대/축소 타겟 만들기
 description: 널
-seo-description: 안내 확대/축소를 위한 확대/축소 타겟을 만드는 방법을 알아봅니다.
+seo-description: 안내 확대/축소에 대한 확대/축소 타겟을 만드는 방법을 알아봅니다.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -39,24 +39,26 @@ ht-degree: 69%
 
 [확대/축소 타겟 편집기] 화면에서 확대/축소 타겟을 만들고 편집합니다. 이 화면을 열려면 이미지를 선택하고 다음 중 하나를 수행합니다.
 
-* Click the rollover **[!UICONTROL Edit]** button and choose Zoom Targets.
-* In the Browse Panel, display the image in **[!UICONTROL Detail View]**, then click **[!UICONTROL Zoom Targets]**.
+* 롤오버 **[!UICONTROL 편집]** 단추를 클릭하고 Target 확대/축소를 선택합니다.
+* 찾아보기 패널에서 **[!UICONTROL 세부 사항 보기]**&#x200B;에 이미지를 표시한 다음 **[!UICONTROL Target 확대/축소]**&#x200B;를 클릭합니다.
 
-On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (arrow) to select a target before changing its size or position. Click **[!UICONTROL Add Targets]** (rectangle) to create a zoom target on the image. [확대/축소 타겟 편집기] 화면에서는 확대/축소 타겟을 삭제 및 복사하고 이름을 지정하는 도구도 제공합니다.
+확대/축소 Target 편집기 화면에서 **[!UICONTROL Target 선택]** 단추(화살표)를 클릭하여 대상 크기나 위치를 변경하기 전에 대상을 선택합니다. **[!UICONTROL Target 추가]**(사각형)를 클릭하여 이미지에 확대/축소 대상을 만듭니다. [확대/축소 타겟 편집기] 화면에서는 확대/축소 타겟을 삭제 및 복사하고 이름을 지정하는 도구도 제공합니다.
 
-### 확대/축소 타겟 만들기 {#creating-a-zoom-target}
+### 확대/축소 타겟 만들기  {#creating-a-zoom-target}
 
 확대/축소 타겟을 만들려면 [확대/축소 타겟 편집기] 화면을 열고 다음 단계를 수행합니다.
 
-1. Click **[!UICONTROL Add Targets]** (rectangle), move the pointer over the image, and click where you want to the zoom target to be.
+1. **[!UICONTROL Target 추가]**(사각형)를 클릭하고 포인터를 이미지 위로 이동한 다음 확대/축소 대상이 될 위치를 클릭합니다.
 
    확대/축소 타겟의 썸네일 이미지가 화면 오른쪽 패널에 표시됩니다.
 
-1. Click **[!UICONTROL Select Target]** (arrow), click to select the zoom target you created, and adjust the size and position of the target.
+1. **[!UICONTROL Target 선택]**(화살표)을 클릭하고, 만든 확대/축소 대상을 클릭하여 선택하고 대상의 크기 및 위치를 조정합니다.
 
-   * **크기 조정**&#x200B;확대/축소 대상의 모서리 위로 포인터를 이동하고 드래그하여 대상을 확대하거나 축소할 수 있습니다.
+   * **크기**
+조정확대/축소 대상의 모서리 위로 포인터를 이동하고 드래그하여 대상을 확대하거나 축소합니다.
 
-   * **배치**&#x200B;확대/축소 대상 위로 포인터를 이동하고 다른 위치로 드래그합니다.
+   * **위치**
+지정포인터를 확대/축소 대상 위로 이동하고 다른 위치로 드래그합니다.
 
 1. [이름] 상자에 확대/축소 타겟의 이름을 입력합니다.
 
@@ -73,23 +75,27 @@ On the Zoom Target Editor screen, click **[!UICONTROL Select Target]** button (a
 >
 >확대/축소 뷰어에서 확대/축소 타겟이 표시되는 모양을 확인하려면 [확대/축소 타겟 편집기] 화면에서 [미리 보기] 단추를 클릭하고 [미리 보기] 화면에서 확대/축소 뷰어를 선택합니다. 이 화면에 대한 자세한 내용은 [다른 확대/축소 뷰어에서 이미지 미리 보기](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers)를 참조하십시오.
 
-### 확대/축소 타겟 편집 {#editing-zoom-targets}
+### 확대/축소 타겟 편집  {#editing-zoom-targets}
 
 [확대/축소 타겟 편집기] 화면에서 다음 기술을 사용하여 확대/축소 타겟을 편집합니다.
 
-* **위치 변경** Target 선택 단추(화살표)로 대상을 클릭하여 선택합니다. 타겟을 다른 위치로 드래그합니다.
+* **위치**
+변경Target 선택 단추(화살표)로 대상을 클릭하여 선택합니다. 타겟을 다른 위치로 드래그합니다.
 
-* **크기 조정** Target 선택 단추(화살표)로 대상을 클릭하여 선택합니다. 포인터를 확대/축소 타겟의 모서리 위로 이동하고 드래그하여 타겟을 확대하거나 축소합니다.
+* **크기**
+조정Target 선택 단추(화살표)로 대상을 클릭하여 선택합니다. 포인터를 확대/축소 타겟의 모서리 위로 이동하고 드래그하여 타겟을 확대하거나 축소합니다.
 
-* **삭제**&#x200B;화면 오른쪽에 있는 대상의 축소판 이미지를 클릭합니다. 그런 다음 Target **[!UICONTROL 삭제를 클릭합니다]**.
+* ****
+삭제화면 오른쪽에 있는 대상의 축소판 이미지를 클릭합니다. 그런 다음 **[!UICONTROL Target 삭제]**&#x200B;를 클릭합니다.
 
-* **이름 바꾸기**&#x200B;화면 오른쪽에 있는 대상의 축소판 이미지를 클릭합니다. Then enter a name in the **[!UICONTROL Name]** text field and click **[!UICONTROL Save]**.
+* **이름**
+바꾸기화면 오른쪽에 있는 대상의 축소판 이미지를 클릭합니다. 그런 다음 **[!UICONTROL 이름]** 텍스트 필드에 이름을 입력하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ### 확대/축소 타겟 복사 {#copying-zoom-targets}
 
 한 이미지에서 다른 이미지로 확대/축소 타겟을 복사할 수 있습니다. 두 이미지가 비슷한 컨텐츠를 제공하고 확대/축소 타겟이 동일한 위치에 속하는 경우 타겟을 복사합니다. 확대/축소 타겟을 다른 이미지로 복사하려면 다음 단계를 수행합니다.
 
 1. [확대/축소 타겟 편집기] 화면에서 복사하려는 확대/축소 타겟이 있는 이미지를 엽니다.
-1. Target **[!UICONTROL 복사 대상을 클릭합니다]**.
-1. In the Select Images dialog box, select an image and click **[!UICONTROL Select]**.
+1. **[!UICONTROL Target 복사 위치]**&#x200B;를 클릭합니다.
+1. [이미지 선택] 대화 상자에서 이미지를 선택하고 **[!UICONTROL 선택]**&#x200B;을 클릭합니다.
 
