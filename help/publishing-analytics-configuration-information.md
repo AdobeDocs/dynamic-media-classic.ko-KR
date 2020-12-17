@@ -24,7 +24,7 @@ Adobe Analytics 보고서 구성에 대한 정보가 Dynamic Media Classic 서�
 
 >[!NOTE]
 >
->Adobe Analytics 내에서 Adobe Analytics 보고서 설정을 변경할 때마다 Dynamic Media Classic 내에서 Adobe Analytics에 다시 로그온하고 Adobe Analytics 구성 설정을 다시 저장한 다음 다시 게시해야 합니다.
+>Adobe Analytics 내에서 Adobe Analytics 보고서 설정을 변경할 때마다 Dynamic Media Classic 내에서 Adobe Analytics으로 다시 로그온하고 Adobe Analytics 구성 설정을 다시 저장한 다음 다시 게시해야 합니다.
 
 [Adobe Analytics에 로그인](log-analytics.md#log_in_to_adobe_analytics)을 참조하십시오.
 
