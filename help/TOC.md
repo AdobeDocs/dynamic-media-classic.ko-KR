@@ -4,13 +4,13 @@ product: Adobe Dynamic Media Classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
-user-guide-description: Dynamic Media Classic 사용에 대한 자세한 내용
+user-guide-description: Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
 translation-type: tm+mt
 source-git-commit: 98d5363c1a692cff234903b9ab0417ca803b5f96
 workflow-type: tm+mt
 source-wordcount: '750'
-ht-degree: 76%
+ht-degree: 77%
 
 ---
 
@@ -20,15 +20,15 @@ ht-degree: 76%
 + [Adobe Dynamic Media Classic 안내서](home.md)
 + [모범 사례 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [새로운 기능 Dynamic Media Classic 로그인 환경 사용 가능](new-ui-2020.md)
-+ [Dynamic Media 뉴스레터 - Experience League](dynamic-media-newsletter.md)
-+ Adobe Dynamic Media Classic 소개 {#intro}
++ [Experience League의 Dynamic Media 뉴스레터](dynamic-media-newsletter.md)
++ Adobe Dynamic Media Classic {#intro} 소개
    + [Adobe Dynamic Media Classic 데스크탑 앱 - 현재 제공 중](dynamic-media-classic-desktop-app.md)
    + [Dynamic Media Classic 도움말 정보](introduction.md)
    + [개발자 리소스](developer-resources.md)
    + [What’s new](whats-new.md)
    + [시스템 요구 사항](system-requirements.md)
    + [지원](support.md)
-   + [Dynamic Media Classic 미디어 포털에 대한 도움말](help-dmc-media-portal.md)
+   + [Dynamic Media Classic Media Portal 도움말](help-dmc-media-portal.md)
    + [Adobe 교육 서비스](training-services.md)
    + [널리 사용되는 리소스](popular-resources.md)
    + [교육 비디오](training-videos.md)
@@ -72,12 +72,12 @@ ht-degree: 76%
    + [자산 이동, 이름 바꾸기 및 삭제](moving-renaming-deleting-assets.md)
    + [세부 사항 보기의 작업](detail-view.md)
    + [메타데이터 보기, 추가 및 내보내기](viewing-adding-exporting-metadata.md)
-   + [Dynamic Media Classic에서 자산 내보내기](exporting-assets-from-dmc.md)
+   + [Dynamic Media Classic에서 에셋 내보내기](exporting-assets-from-dmc.md)
    + [자산 변경 사항을 피어와 실시간으로 공유](sharing-asset-changes-peers-real.md)
    + [자산 인쇄](printing-assets.md)
    + [Managing the Trash folder](trash-folder.md)
    + [프로젝트를 사용하여 작업 구성](organizing-projects.md)
-+ Image sizing {#image-sizing}
++ 이미지 크기 {#image-sizing}
    + [빠른 시작: 이미지 크기 조정](quick-start-image-sizing.md)
    + [마스터 이미지 업로드](uploading-master-images.md)
    + [마스터 이미지 게시](publishing-master-images.md)
@@ -88,7 +88,7 @@ ht-degree: 76%
    + [확대/축소 이미지 업로드](uploading-zoom-images.md)
    + [Creating zoom targets for Guided Zoom](creating-zoom-targets-guided-zoom.md)
    + [확대/축소 뷰어 사전 설정 지정](setting-zoom-viewer-presets.md)
-   + [다양한 확대/축소 뷰어를 사용하여 이미지 에셋 미리 보기](previewing-image-assets-different-zoom.md)
+   + [다른 확대/축소 뷰어를 사용하여 이미지 자산 미리 보기](previewing-image-assets-different-zoom.md)
    + [확대/축소 이미지 게시](publishing-zoom-images.md)
    + [확대/축소 뷰어를 웹 페이지에 연결](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
@@ -124,7 +124,7 @@ ht-degree: 76%
    + [회전 집합 게시](publishing-spin-set.md)
    + [회전 집합 뷰어 사전 설정 지정](setting-spin-set-viewer-presets.md)
    + [회전 집합을 웹 페이지에 연결](linking-spin-set-web-page.md)
-+ Template basics {#template-basics}
++ 템플릿 기본 사항 {#template-basics}
    + [Quick Start: Template Basics](quick-start-template-basics.md)
    + [템플릿 파일 업로드](uploading-template-files.md)
    + [템플릿 만들기](creating-template.md)
@@ -141,13 +141,13 @@ ht-degree: 76%
    + [비디오에 장 마커 추가](adding-chapter-markers-video.md)
    + [웹 사이트 및 모바일 사이트에 비디오 배포](deploying-video-websites-mobile-sites.md)
    + [소스 및 인코딩된 비디오 내보내기](exporting-source-encoded-videos.md)
-+ Mixed media sets {#mixed-media-sets}
++ 혼합 미디어 집합 {#mixed-media-sets}
    + [빠른 시작: 혼합 미디어 집합](quick-start-mixed-media-sets.md)
    + [혼합 미디어 집합 뷰어 사전 설정 지정](setting-mixed-media-set-viewer.md)
    + [혼합 미디어 집합 만들기](creating-mixed-media-set.md)
    + [혼합 미디어 집합 게시](publishing-mixed-media-set.md)
    + [혼합 미디어 집합을 웹 페이지에 연결](linking-mixed-media-set-web.md)
-+ Adobe Analytics instrumentation kit {#analytics-kit}
++ Adobe Analytics 계측 키트 {#analytics-kit}
    + [빠른 시작:Dynamic Media Classic과 Adobe Analytics 통합](quick-start-integrating-dmc-analytics.md)
    + [Adobe Analytics에 로그인](log-analytics.md)
    + [Adobe Analytics 보고서 구성](configuring-analytics-reports.md)
@@ -160,7 +160,7 @@ ht-degree: 76%
    + [빠른 시작:Adobe Target Standard/Premium 통합](quick-start-target-integration.md)
    + [Dynamic Media Classic과 Adobe Target Standard/Premium 통합](integrating-dmc-with-target.md)
    + [Creating an offer set](creating-offer-set.md)
-   + [Adobe Target Standard/Premium으로 오퍼 세트 밀어넣기](pushing-offer-sets-target.md)
+   + [Adobe Target Standard/Premium으로 오퍼 세트 푸시](pushing-offer-sets-target.md)
 + 사용자 생성 컨텐츠 {#user-generated-content}
    + [사용자 생성 컨텐츠 정보](about-ugc.md)
    + [업로드한 자산 삭제](deleting-uploaded-asset.md)
