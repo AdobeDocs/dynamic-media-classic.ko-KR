@@ -20,7 +20,7 @@ ht-degree: 89%
 
 # FTP 계정 관리{#managing-ftp-accounts}
 
-Media Portal 관리자만 FTP 계정을 관리할 수 있습니다. In addition, only users with the role of *Media Portal Contributor-User *or *Media Portal Contributor* can upload digital assets.
+Media Portal 관리자만 FTP 계정을 관리할 수 있습니다. 또한 *Media Portal 기고자-사용자 *또는 *Media Portal 기고자* 역할을 가진 사용자만 디지털 자산을 업로드할 수 있습니다.
 
 [관리 설정]에서 [사용자 관리] 페이지를 통해 기존 Media Portal 사용자를 활성화하거나 비활성화할 수 있습니다.
 
