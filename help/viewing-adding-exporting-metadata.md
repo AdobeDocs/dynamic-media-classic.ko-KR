@@ -20,23 +20,26 @@ ht-degree: 78%
 
 # 메타데이터 보기, 추가 및 내보내기{#viewing-adding-and-exporting-metadata}
 
-You can store information specific to the files you work with in Dynamic Media Classic; this information is called *metadata*. Dynamic Media Classic의 메타데이터를 사용하여 자산을 구성, 검색, 필터링 및 정렬할 수 있습니다.
+Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저장할 수 있습니다.이 정보는 *metadata*&#x200B;라고 합니다. Dynamic Media Classic의 메타데이터를 사용하여 에셋을 구성, 검색, 필터링 및 정렬할 수 있습니다.
 
-메타데이터는 파일 생성 날짜, 게시 날짜 및 키워드와 같은 Dynamic Media Classic에서 생성된 정보와 함께 세부 사항 보기에 나타납니다. 메타데이터를 보려면 [세부 사항 보기]에서 자산을 열고 [메타데이터] 패널을 선택합니다. [세부 사항 보기]에서 메타데이터를 입력하고 편집할 수 있습니다.
+메타데이터는 파일 생성 날짜, 게시 날짜 및 키워드와 같은 Dynamic Media Classic에서 생성된 정보와 함께 세부 사항 보기에 표시됩니다. 메타데이터를 보려면 [세부 사항 보기]에서 자산을 열고 [메타데이터] 패널을 선택합니다. [세부 사항 보기]에서 메타데이터를 입력하고 편집할 수 있습니다.
 
-일부 메타데이터는 파일에 직접 포함됩니다. 파일에 이 메타데이터가 포함되어 있으면 Dynamic Media Classic에서 파일과 함께 자동으로 업로드합니다. Adobe Photoshop, InDesign, Illustrator 및 기타 애플리케이션의 소스 에셋에 메타데이터를 포함할 수 있습니다.Dynamic Media Classic은 이 메타데이터를 인식합니다. 세부 사항 보기의 [메타데이터] 패널에서 개별 파일에 메타데이터를 추가할 수도 있습니다. 자산 간에 일관성을 유지하기 위해 회사 관리자는 입력할 수 있는 메타데이터 필드를 제공하는 메타데이터 템플릿을 만듭니다.
+일부 메타데이터는 파일에 직접 포함됩니다. 파일에 이 메타데이터가 포함되어 있으면 Dynamic Media Classic에서 해당 메타데이터를 파일과 함께 자동으로 업로드합니다. Adobe Photoshop, InDesign, Illustrator 및 기타 애플리케이션의 소스 에셋에 메타데이터를 포함할 수 있습니다.Dynamic Media Classic은 이 메타데이터를 인식합니다. 세부 사항 보기의 [메타데이터] 패널에서 개별 파일에 메타데이터를 추가할 수도 있습니다. 자산 간에 일관성을 유지하기 위해 회사 관리자는 입력할 수 있는 메타데이터 필드를 제공하는 메타데이터 템플릿을 만듭니다.
 
-For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en).
+포함된 메타데이터에 대한 자세한 내용은 [www.adobe.com/go/learn_s7_xmp_en](https://www.adobe.com/go/learn_s7_xmp_en)을 참조하십시오.
 
 ## 메타데이터 보기 {#view-metadata}
 
-자산의 메타데이터를 보려면 [세부 사항 보기]에서 자산을 열고 [메타데이터] 패널을 클릭합니다. [메타데이터 보기] 메뉴에서 선택 사항을 선택하여 메타데이터 필드 집합을 선택합니다. Dynamic Media Classic에서는 다음 메타데이터 보기를 제공합니다.
+자산의 메타데이터를 보려면 [세부 사항 보기]에서 자산을 열고 [메타데이터] 패널을 클릭합니다. [메타데이터 보기] 메뉴에서 선택 사항을 선택하여 메타데이터 필드 집합을 선택합니다. Dynamic Media Classic에서는 다음과 같은 메타데이터 보기를 제공합니다.
 
-* **축소 보기기본**&#x200B;값 목록입니다.
+* **축소**
+보기값의 기본 목록입니다.
 
-* **IPTC**&#x200B;는 국제 통신 통신 협의회에서 정의한 대로,
+* ****
+IPTCV국제 언론 통신 심의회에서 정의한 값.
 
-* **XMP** Values as defined by the extensible metadata platform.
+* **확장**
+가능한 메타데이터 플랫폼에서 정의된 값.
 
 관리자는 메타데이터 보기를 만들 수 있습니다. 이러한 보기는 [메타데이터 보기] 메뉴에도 표시됩니다. 메타데이터 보기를 만드는 방법에 대한 자세한 내용은 [메타데이터 보기](application-setup.md#metadata_views)를 참조하십시오.
 
@@ -54,7 +57,7 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 >
 >여러 자산의 메타데이터를 동시에 편집하려면 자산을 선택한 다음 [파일] > [정보 편집]을 선택합니다. [정보 편집] 창에서 메타데이터를 편집한 내용은 선택한 모든 자산에 적용됩니다.
 
-## 키워드 추가 또는 편집 {#add-or-edit-keywords}
+## 키워드 추가 또는 편집  {#add-or-edit-keywords}
 
 메타데이터 외에도 키워드를 사용하여 자산을 검색하고 관리할 수 있습니다.
 
@@ -71,17 +74,17 @@ For more information about embedded metadata, see [www.adobe.com/go/learn_s7_xmp
 
 >[!NOTE]
 >
->Dynamic Media Classic에 키워드를 업로드할 때 파일에 추가할 수 있습니다. [업로드 작업 선택 사항] 대화 상자에서 [추가 메타데이터]를 선택하고 키워드를 입력합니다. [업로드 선택 사항](uploading-files.md#upload_options)을 참조하십시오.
+>Dynamic Media Classic에 업로드할 때 파일에 키워드를 추가할 수 있습니다. [업로드 작업 선택 사항] 대화 상자에서 [추가 메타데이터]를 선택하고 키워드를 입력합니다. [업로드 선택 사항](uploading-files.md#upload_options)을 참조하십시오.
 
-## 메타데이터 가져오기 {#import-metadata}
+## 메타데이터 가져오기  {#import-metadata}
 
 한 번에 하나씩 자산 메타데이터를 수동으로 입력하는 대신 탭으로 구분된 파일이나 XML 파일에서 여러 자산의 메타데이터를 가져올 수 있습니다. 탭으로 구분된 파일이나 XML 파일에 메타데이터를 입력하고 파일을 가져오면 개별 자산에 메타데이터를 입력하는 것보다 시간이 단축됩니다. 탭으로 구분된 파일의 첫 번째 행에 메타데이터를 기록하려는 필드의 이름과 ID를 입력합니다. 각 후속 행에 자산 ID 이름과 메타데이터 값을 순서대로 입력합니다. 탭으로 구분된 파일이나 XML 파일에 포함되지 않은 필드는 수정되지 않습니다. XML 파일에서 메타데이터를 가져오려면 DTD를 준수해야 합니다.
 
 >[!NOTE]
 >
->Dynamic Media Classic으로 올바르게 가져올 수 있도록 메타데이터를 입력하는 템플릿을 만들 수 있습니다. 템플릿을 만든 후 메타데이터를 입력하는 데 사용할 수 있습니다. [업로드할 메타데이터를 입력하는 데 사용할 템플릿 만들기](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)를 참조하십시오.
+>Dynamic Media Classic으로 올바르게 가져올 수 있도록 메타데이터를 입력할 수 있는 템플릿을 만들 수 있습니다. 템플릿을 만든 후 메타데이터를 입력하는 데 사용할 수 있습니다. [업로드할 메타데이터를 입력하는 데 사용할 템플릿 만들기](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)를 참조하십시오.
 
-표준화된 속성에 대한 자세한 내용은https://www.adobe.com/devnet/xmp.html
+표준 속성에 대한 자세한 내용은 다음 링크를 참조하십시오.https://www.adobe.com/devnet/xmp.html
 
 1. 찾아보기 패널에서 탭으로 구분된 파일이나 XML 파일에서 메타데이터를 추가하려는 이미지를 선택합니다.
 1. **파일** > **메타데이터 가져오기**&#x200B;를 클릭합니다.
@@ -122,7 +125,7 @@ XML 가져오기는 유효한 XML만 허용합니다. XMP 또는 메타데이터
 
 접두어가 가져오기 필드의 관련 열 헤더에 추가되어야 합니다.
 
-## 메타데이터 가져오기(FTP 사용) {#import-metadata-via-ftp}
+## 메타데이터 가져오기(FTP 사용)  {#import-metadata-via-ftp}
 
 탭으로 구분된 파일이나 XML 파일에 메타데이터를 입력한 다음 [업로드(FTP 사용)] 화면에서 [메타데이터 파일 처리] 선택 사항을 선택하여 여러 파일의 메타데이터를 가져올 수 있습니다.
 
@@ -130,11 +133,11 @@ XML 가져오기는 유효한 XML만 허용합니다. XMP 또는 메타데이터
 
 글로벌 탐색 막대에서 [업로드] 단추를 클릭하고 [작업] 화면에서 [FTP 사용] 탭을 선택하여 메타데이터를 가져옵니다. [작업 선택 사항]을 클릭합니다. [업로드 작업 선택 사항] 대화 상자에서 [메타데이터 파일 처리]를 선택합니다.
 
-## 메타데이터를 사용하여 ID 이름 일괄 바꾸기 {#batch-rename-ids-using-metadata}
+## 메타데이터를 사용하여 ID 이름 일괄 바꾸기  {#batch-rename-ids-using-metadata}
 
-탭으로 구분된 파일 또는 XML 파일에서 가져온 메타데이터를 사용하여 Dynamic Media Classic ID의 이름을 변경할 수 있습니다. 가져온 메타데이터는 메타데이터 파일 자체에 지정된 이미지에만 적용됩니다. 찾아보기 패널에서 이미지를 선택했는지 여부는 중요하지 않습니다.
+탭으로 구분된 파일이나 XML 파일에서 가져온 메타데이터를 사용하여 Dynamic Media Classic ID의 이름을 바꿀 수 있습니다. 가져온 메타데이터는 메타데이터 파일 자체에 지정된 이미지에만 적용됩니다. 찾아보기 패널에서 이미지를 선택했는지 여부는 중요하지 않습니다.
 
-To rename an image’s Dynamic Media Classic ID, add a column labeled *newipsid* to the tab-delimited file, or add a field called* new_vc_objectname* to the XML data.
+이미지의 Dynamic Media Classic ID의 이름을 바꾸려면 탭으로 구분된 파일에 *newipsid* 레이블이 지정된 열을 추가하거나* new_vc_objectname*이라는 필드를 XML 데이터에 추가합니다.
 
 예:
 
@@ -146,9 +149,9 @@ To rename an image’s Dynamic Media Classic ID, add a column labeled *newipsid*
 
 메타데이터 작업의 작업 로그에 성공적으로 이름이 바뀐 ID와 바뀌지 않은 ID가 표시됩니다.
 
-## 업로드할 메타데이터를 입력하는 데 사용할 템플릿 만들기 {#create-a-template-for-entering-metadata-to-upload}
+## 업로드할 메타데이터를 입력하는 데 사용할 템플릿 만들기  {#create-a-template-for-entering-metadata-to-upload}
 
-Dynamic Media Classic에서는 메타데이터 기록용 템플릿을 만드는 명령을 제공합니다. 템플릿을 사용하면 메타데이터가 올바른 형식으로 입력되므로 Dynamic Media Classic에 올바르게 업로드할 수 있습니다. 메타데이터를 기록하고 Dynamic Media Classic으로 가져오는 데 사용할 템플릿을 만들려면 다음 단계를 따르십시오.
+Dynamic Media Classic에서는 메타데이터 기록용 템플릿을 만드는 명령을 제공합니다. 템플릿을 사용하면 메타데이터가 올바른 형식으로 입력되므로 Dynamic Media Classic에 올바르게 업로드할 수 있습니다. Dynamic Media Classic에 메타데이터를 기록하고 가져오는 데 사용할 템플릿을 만들려면 다음 단계를 수행합니다.
 
 1. 템플릿에 사용할 메타데이터 필드가 포함된 이미지 자산을 선택합니다.
 1. [파일] > [메타데이터 가져오기]를 선택합니다.
@@ -179,9 +182,9 @@ Dynamic Media Classic에서는 메타데이터 기록용 템플릿을 만드는 
 
 >[!NOTE]
 >
->스키마를 변경해도 자산 메타데이터 자체는 변경되지 않습니다. 하지만 모든 Dynamic Media Classic 및 메타데이터 서버 기능에는 표시되지 않으며 변경한 후에는 액세스할 수 없습니다. 마찬가지로, 자산에 대한 메타데이터가 존재하는 경우 일치하는 스키마를 만들면 메타데이터를 Dynamic Media Classic 및 메타데이터 서버에서 사용할 수 있습니다.
+>스키마를 변경해도 자산 메타데이터 자체는 변경되지 않습니다. 그러나 모든 Dynamic Media Classic 및 메타데이터 서버 기능에는 표시되지 않으며 변경한 후에는 액세스할 수 없습니다. 마찬가지로 에셋에 대한 메타데이터가 있는 경우 일치하는 스키마를 만들면 Dynamic Media Classic 및 메타데이터 서버에서 메타데이터를 사용할 수 있습니다.
 
-메타데이터 스키마 편집기는 Dynamic Media Classic 내에서 사용자 지정 회사 스키마를 추가하거나 편집하는 그래픽 방법을 제공합니다. 스키마는 접두어, 네임스페이스 및 속성 목록에 의해 정의됩니다.
+메타데이터 스키마 편집기는 Dynamic Media Classic 내에서 사용자 정의 회사 스키마를 추가하거나 편집하는 그래픽 방법을 제공합니다. 스키마는 접두어, 네임스페이스 및 속성 목록에 의해 정의됩니다.
 
 * 이름
 
@@ -189,11 +192,11 @@ Dynamic Media Classic에서는 메타데이터 기록용 템플릿을 만드는 
 
 * 접두어
 
-   스키마에 대한 기술적 고유 식별자입니다. a-z 및 A-Z 문자로 제한됩니다.접두사는 Dynamic Media Classic UI에는 표시되지 않지만, 자산의 메타데이터가 XMP 블록과 데이터베이스에 저장될 때 사용됩니다. 접두어는 메타데이터 서버 또는 가져오기의 메타데이터 검색 쿼리에서 메타데이터 필드를 고유하게 식별하기 위해 사용됩니다.
+   스키마에 대한 기술적 고유 식별자입니다. a-z 및 A-Z 문자로 제한됩니다.접두어는 Dynamic Media Classic UI에 표시되지 않지만, 에셋의 메타데이터가 XMP 블록과 데이터베이스에 저장될 때 사용됩니다. 접두어는 메타데이터 서버 또는 가져오기의 메타데이터 검색 쿼리에서 메타데이터 필드를 고유하게 식별하기 위해 사용됩니다.
 
 * 네임스페이스
 
-   Technical unique identifier for the schema, typically a URL in the form `https://your.company.com/name/version/`. 예를 보려면 표준 스키마 목록을 참조하십시오. 네임스페이스는 Dynamic Media Classic UI에 표시되지 않지만 XMP 블록에 메타데이터를 저장하는 데 사용됩니다.
+   스키마에 대한 기술 고유 식별자(일반적으로 `https://your.company.com/name/version/` 형식의 URL). 예를 보려면 표준 스키마 목록을 참조하십시오. 네임스페이스는 Dynamic Media Classic UI에 표시되지 않지만 XMP 블록에 메타데이터를 저장하는 데 사용됩니다.
 
 * 설명
 
@@ -207,7 +210,7 @@ Dynamic Media Classic에서는 메타데이터 기록용 템플릿을 만드는 
 
 | 속성 | 설명 |
 |--- |--- |
-| ID | 이 속성에 대한 기술적 식별자입니다. ID는 Dynamic Media Classic UI에 표시되지 않지만, 자산의 메타데이터가 XMP 블록과 데이터베이스에 저장될 때 사용됩니다. ID는 메타데이터 서버에서 검색 쿼리를 만드는 데 사용됩니다. ID는 다음과 같은 몇 가지 제한이 있습니다. <ul><li>공백이 없어야 함</li><li>아니요 &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>처음 문자로 숫자를 사용할 수 없음</li><li>처음 문자로 a-z 또는 A-Z를 사용하는 것이 좋음</li></ul> <br>만든 다음에는 ID를 변경할 수 없습니다. |
+| ID | 이 속성에 대한 기술적 식별자입니다. ID는 Dynamic Media Classic UI에 표시되지 않지만, 에셋의 메타데이터가 XMP 블록과 데이터베이스에 저장될 때 사용됩니다. ID는 메타데이터 서버에서 검색 쿼리를 만드는 데 사용됩니다. ID는 다음과 같은 몇 가지 제한이 있습니다. <ul><li>공백이 없어야 함</li><li>아니요 &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>처음 문자로 숫자를 사용할 수 없음</li><li>처음 문자로 a-z 또는 A-Z를 사용하는 것이 좋음</li></ul> <br>만든 다음에는 ID를 변경할 수 없습니다. |
 | 레이블 | 이 속성의 UI의 이름입니다. |
 | 구조 | 데이터 유형과 함께 속성 유형을 결정합니다. 구조는 다음 중 하나일 수 있습니다.<ul><li>단순 유형: 데이터 유형의 단일 값</li><li>순서: 동일한 데이터 유형의 값 목록</li><li>개방 선택 사항: 사전 정의된 값 목록에서 한 항목을 선택하거나 텍스트를 자유롭게 입력. 문자열 또는 정수 데이터 유형만 가능함</li><li>고정 선택 사항: 사전 정의된 값 목록에서 하나의 항목 선택(팝업 또는 콤보 상자)</li></ul> |
 | 데이터 유형 | 다음 사용 가능한 유형에서 선택합니다. <ul><li>문자열</li><li>정수</li><li>부동</li><li>예/아니오(부울)</li><li>날짜</li></ul> |
@@ -217,7 +220,7 @@ Dynamic Media Classic에서는 메타데이터 기록용 템플릿을 만드는 
 
 | 속성 | 설명 |
 |--- |--- |
-| ID | 이 값에 대한 기술적 식별자입니다. ID는 Dynamic Media Classic UI에 표시되지 않지만, 자산의 메타데이터가 XMP 블록과 데이터베이스에 저장될 때 사용됩니다. ID는 메타데이터 서버의 검색 쿼리에 사용됩니다. ID는 공백을 포함할 수 없습니다. 만든 다음에는 ID를 변경할 수 없습니다. |
+| ID | 이 값에 대한 기술적 식별자입니다. ID는 Dynamic Media Classic UI에 표시되지 않지만, 자산에 대한 메타데이터가 XMP 블록과 데이터베이스에 저장될 때 사용됩니다. ID는 메타데이터 서버의 검색 쿼리에 사용됩니다. ID는 공백을 포함할 수 없습니다. 만든 다음에는 ID를 변경할 수 없습니다. |
 | 레이블 | 이 값의 UI 이름입니다. |
 
 >[!MORELIKETHIS]
