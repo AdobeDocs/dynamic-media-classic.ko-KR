@@ -2,7 +2,7 @@
 title: 보다 효율적인 메타데이터 사용
 seo-title: 보다 효율적인 메타데이터 사용
 description: 널
-seo-description: 메타데이터를 보다 효율적으로 사용하는 방법을 알아봅니다.
+seo-description: 메타데이터를 보다 효율적으로 사용하는 방법을 살펴볼 수 있습니다.
 uuid: 6690b815-ca5f-491f-94eb-3d4657fbb8ed
 contentOwner: admin
 content-type: reference
