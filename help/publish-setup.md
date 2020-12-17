@@ -2,7 +2,7 @@
 title: 게시 설정
 seo-title: 게시 설정
 description: 널
-seo-description: '[게시 설정] 화면 설정에 따라 자산이 Dynamic Media Classic 서버에서 웹 사이트 또는 애플리케이션으로 기본적으로 제공되는 방법이 결정됩니다.'
+seo-description: '[제작 설정] 화면 설정은 Dynamic Media Classic 서버에서 웹 사이트 또는 응용 프로그램으로 자산을 기본적으로 제공하는 방법을 결정합니다.'
 uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
@@ -19,7 +19,7 @@ ht-degree: 64%
 
 # 게시 설정 {#publish-setup}
 
-[게시 설정] 화면 설정에 따라 자산이 Dynamic Media Classic 서버에서 웹 사이트 또는 애플리케이션으로 기본적으로 제공되는 방법이 결정됩니다. 설정이 지정되지 않은 경우 Dynamic Media Classic 서버는 [게시 설정] 화면의 기본 설정에 따라 자산을 제공합니다. 예를 들어 해상도 특성을 포함하지 않는 이미지를 제공하는 요청은 [이미지 서버] 화면의 [기본 개체 해상도] 설정을 사용하여 이미지를 만듭니다.
+[제작 설정] 화면 설정은 Dynamic Media Classic 서버에서 웹 사이트 또는 응용 프로그램으로 자산을 기본적으로 제공하는 방법을 결정합니다. 설정이 지정되지 않은 경우 Dynamic Media Classic 서버는 [제작 설정] 화면의 기본 설정에 따라 자산을 제공합니다. 예를 들어 해상도 특성을 포함하지 않는 이미지를 제공하는 요청은 [이미지 서버] 화면의 [기본 개체 해상도] 설정을 사용하여 이미지를 만듭니다.
 
 관리자는 [이미지 서버], [이미지 렌더러] 및 [비네팅] 화면의 기본 설정을 변경하여 서버의 자산 제공에 대한 기본 설정을 지정할 수 있습니다.
 
@@ -27,34 +27,34 @@ ht-degree: 64%
 
 >[!NOTE]
 >
->[게시 설정] 화면은 숙련된 웹 사이트 개발자와 프로그래머를 위한 것입니다. Dynamic Media Classic에서는 이러한 화면에서 설정을 변경하는 사용자가 Dynamic Media Classic, HTTP 프로토콜 표준 및 규칙 및 기본 이미징 기술에 익숙하다고 가정합니다.
+>[게시 설정] 화면은 숙련된 웹 사이트 개발자와 프로그래머를 위한 것입니다. Dynamic Media Classic에서는 이러한 화면에서 설정을 변경하는 사용자가 Dynamic Media Classic, HTTP 프로토콜 표준 및 규칙, 기본 이미징 기술에 익숙하다고 가정합니다.
 
 ## 이미지 서버 {#image-server}
 
 1 [이미지 서버] 화면에서는 이미지 서버의 이미지 제공에 대한 기본 설정을 지정합니다. 다음 5가지 범주로 설정을 사용할 수 있습니다. 설정에 대한 자세한 내용은 [이미지 서버] 화면 자체를 참조하십시오.
 
-Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설정을 변경합니다.
+Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설정을 변경할 수 있습니다.
 
-**카탈로그 관리** 이러한 설정에 따라 Dynamic Media Classic 및 카탈로그가 상호 작용하는 방법이 결정됩니다. 대부분의 웹 서버와 달리 다이내믹 미디어 이미지 서버 URL 호출은 이미지 파일이 적합한 파일이 아닌 매니페스트 또는 카탈로그 파일로 이동합니다. 카탈로그 파일(eCatalog 아님)에는 각 이미지의 경로와 함께 이미지 서버에 게시되는 모든 컨텐츠 목록이 들어 있습니다. Digimarc ID가 있는 경우 [Digimarc 사용자 정보] 섹션에서 사용자 정보를 입력합니다.
+**카탈로그** 관리이 설정은 Dynamic Media Classic 및 카탈로그가 상호 작용하는 방식을 결정합니다. 대부분의 웹 서버와 달리 Dynamic Media 이미지 서버 URL 호출은 이미지 파일이 적합한 파일이 아닌 매니페스트 또는 카탈로그 파일로 이동합니다. 카탈로그 파일(eCatalog 아님)에는 각 이미지의 경로와 함께 이미지 서버에 게시되는 모든 컨텐츠 목록이 들어 있습니다. Digimarc ID가 있는 경우 [Digimarc 사용자 정보] 섹션에서 사용자 정보를 입력합니다.
 
-**요청 속성** 이러한 설정은 서버에서 전달할 수 있는 이미지에 제한을 적용합니다. 예를 들어, *최대* 응답 이미지 크기 제한은 **** 너비 **[!UICONTROL 5000]** 및 높이 **[!UICONTROL 5]** 00입니다.
+**요청** 속성이 설정은 서버에서 전달할 수 있는 이미지에 제한을 적용합니다. 예를 들어 *최대* **[!UICONTROL 응답 이미지 크기 제한]**&#x200B;은 **[!UICONTROL 너비]** 5000 및 **[!UICONTROL 높이]** 5000입니다.
 
-**기본 요청 속성** 이 설정은 이미지의 기본 모양과 관련이 있습니다.
+**기본 요청** 속성이 설정은 이미지의 기본 모양과 관련이 있습니다.
 
-**공통 축소판 속성** 이러한 설정은 축소판 이미지의 기본 모양 및 정렬과 관련이 있습니다.
+**공통 축소판** 속성축소판 이미지의 기본 모양 및 정렬과 관련된 설정입니다.
 
 **카탈로그 필드 기본값** 이 설정은 이미지의 해상도 및 기본 축소판 유형과 관련이 있습니다.
 
-**색상 관리 속성** 이 설정에 따라 사용되는 ICC 색상 프로필이 결정됩니다.
+**색상 관리** 속성이 설정은 사용할 ICC 색상 프로파일을 결정합니다.
 
-**호환성 속성** 이 설정을 사용하면 텍스트 레이어의 맨 앞 및 뒤에 있는 단락이 이전 버전과의 호환성을 위해 버전 3.6에서와 같이 처리됩니다.
+**호환성** 속성이 설정을 사용하면 텍스트 레이어의 선행 및 후행 단락을 이전 버전과의 호환성을 위해 버전 3.6에서와 같이 처리할 수 있습니다.
 
-**현지화 지원** 이 설정을 사용하면 여러 로케일 특성을 관리할 수 있습니다. 또한 로케일 맵 문자열을 지정할 수 있으므로 뷰어에서 여러 도구 설명을 지원하려는 언어를 정의할 수 있습니다.
+**현지화** 지원이 설정을 사용하면 여러 로케일 특성을 관리할 수 있습니다. 또한 로케일 맵 문자열을 지정할 수 있으므로 뷰어에서 여러 도구 설명을 지원하려는 언어를 정의할 수 있습니다.
 
 예를 들어 여러 국가에서 팔리는 다국적 브랜드인 경우 각 국가에서 자체 로케일별 뷰어를 사용하도록 할 수 있습니다. 이 기능을 수행하려면 로케일 맵 문자열을 지정합니다. 그런 다음 원하는 언어로 번역된 텍스트 문자열을 추가하여 뷰어의 사전 설정에서 도구 설명 텍스트를 편집합니다.
 
 >[!NOTE]
-> 로컬라이제이션 지원 옵션을 설정하려면 Admin Console을 [사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 케이스에 설치 도움말을 요청합니다.
+> 현지화 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 케이스에 설치 도움말을 요청합니다.
 
 **현지화 지원** 설정에 대한 자세한 내용은 [자산 현지화를 설정할 때 고려 사항](publish-setup.md#considerations_when_setting_up_localization_of_assets)을 참조하십시오.
 
@@ -62,7 +62,7 @@ Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설�
 
 >[!NOTE]
 >
->로케일 맵 필드와 같이 Dynamic Media Classic에서 현지화 지원 옵션을 설정하려면 Admin Console을 [사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 케이스에 설치 도움말을 요청합니다.
+>로케일 맵 필드와 같은 Dynamic Media Classic에서 현지화 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 케이스에 설치 도움말을 요청합니다.
 
 Dynamic Media Classic을 사용하는 일반적인 방법은 전자 상거래 웹 사이트에서 제품 이미지를 관리하는 것입니다. 국제 산업은 유사한 제품에 대한 자산이 나라마다 다르게 보이는 문제에 직면하고 있습니다. 보통 차이는 전체 미디어에서 매우 작은 부분에 대한 것입니다. 이러한 차이를 각 국가의 모든 자산을 복사하고 차이만 다시 써서 해결하는 것은 엄청난 노력을 요하는 일이며 하나의 마스터 자산이라는 표현과 모순됩니다. 이와 같은 자산의 차이점은 서로 다른 오디오 트랙을 사용하는 국가별 비디오에서부터 제품과 함께 사용되는 전원 코드의 미묘하지만 중요한 차이에 이르기까지 다양할 수 있습니다. Dynamic Media Classic에서는 기본 조회 메커니즘을 사용합니다. 사용자는 필요한 로케일에서 시작하여 이미지 서버가 검색하는 자산 접미어 순서를 정의합니다.
 
@@ -74,11 +74,11 @@ IS(이미지 제공) 요청에 대한 로케일은 다음의 IS/IR(이미지 렌
 
 이 명령은 대소문자를 구분하지 않는 로케일 ID(locId) 문자열을 허용합니다. 로케일 ID는 보통 문자 및 &quot;_&quot;으로 구성된 2-6자의 문자열입니다.
 
-IS supports arbitrary printable ASCII strings.The `locale=` command has a global scope, meaning that it is applied to the entire request, including all nested IS and IR requests, referenced templates, and image layers. 각 레이어의 다른 로케일과 같이, 요청에 대해 여러 로케일은 지원되지 않습니다. 하지만, 중첩된 요청에서 명시적 무시의 허용은 가능할 수 있습니다.
+IS는 임의의 인쇄 가능한 ASCII 문자열을 지원합니다. `locale=` 명령에는 전역 범위가 있으며, 이것은 모든 중첩 IS 및 IR 요청, 참조된 템플릿 및 이미지 레이어를 포함하여 전체 요청에 적용됩니다. 각 레이어의 다른 로케일과 같이, 요청에 대해 여러 로케일은 지원되지 않습니다. 하지만, 중첩된 요청에서 명시적 무시의 허용은 가능할 수 있습니다.
 
-If `locale=` is not specified, `attribute::DefaultLocale` is passed to the translation engines. Limited input validation is applied to the `locale=` value. Empty `locale=` values are permitted. Because `locale=` has a global scope, `attribute::DefaultLocale` is provided by the main catalog for the entire request.
+`locale=`을(를) 지정하지 않으면 `attribute::DefaultLocale`이(가) 번역 엔진에 전달됩니다. 제한된 입력 유효성 검사가 `locale=` 값에 적용됩니다. 빈 `locale=` 값이 허용됩니다. `locale=`에는 글로벌 범위가 있으므로 전체 요청에 대한 기본 카탈로그에서 `attribute::DefaultLocale`을(를) 제공합니다.
 
-Some of the benefits of using `locale=` and `attribute::DefaultLocale` include the following:
+`locale=` 및 `attribute::DefaultLocale`을(를) 사용할 때 다음과 같은 이점이 있습니다.
 
 * 여러 로케일에 대한 컨텐츠 공유.
 * 일반 ID를 사용하여 로케일별 컨텐츠 액세스.
@@ -96,25 +96,25 @@ Some of the benefits of using `locale=` and `attribute::DefaultLocale` include t
 |--- |--- |
 | 뷰어 현지화 | 정적 컨텐츠 카탈로그가 구현되면 현지화는 IS에 수행되는 모든 요청에 추가되는 locale= 매개 변수로 제어됩니다. 구성 레코드, 스킨, 시작 화면 등에는 로케일별 차이가 있을 수도 있고 없을 수도 있습니다. 현지화되는 컨텐츠와 ID를 아는 데 필요한 뷰어 없이도 IS에 의해 올바른 컨텐츠가 제공됩니다. |
 | 이미지 및 비디오 | 다국어 회사에는 종종 일반적인 컨텐츠와 로케일별 컨텐츠가 혼합되어 있습니다. 이러한 메커니즘에서, 이미지나 비디오 참조는 일반적일 수 있으며, IS는 사용 가능할 경우 로케일별 컨텐츠를 제공합니다. |
-| 이미지 집합 및 미디어 집합 | eCatalog가 완전히 다른 경우처럼 전체 이미지 세트가 일반에서 로케일별 이미지 세트로 변환하는 경우 등 일부 로케일에 대해 다를 수 있습니다. 일반적으로 일반 세트의 개별 ID는 지역화된 내용을 참조할 수 있습니다. 예를 들어, 대부분의 가전 제품 사진은 제어판 사진을 제외하면 모든 언어에서 동일할 수 있습니다. IS는 자동으로 ID를 전환하므로, 로케일별 이미지 집합을 생성할 필요가 없습니다. |
+| 이미지 집합 및 미디어 집합 | eCatalog가 완전히 다른 경우 등 일부 로캘의 경우 전체 이미지 세트가 다를 수 있습니다. 일반 ID에서 로케일별 이미지 세트로 변환하는 작업은 뷰어에서 처리합니다. 일반적으로 일반 세트의 개별 ID는 지역화된 컨텐츠를 나타낼 수 있습니다. 예를 들어, 대부분의 가전 제품 사진은 제어판 사진을 제외하면 모든 언어에서 동일할 수 있습니다. IS는 자동으로 ID를 전환하므로, 로케일별 이미지 집합을 생성할 필요가 없습니다. |
 
 **자산 현지화 구현**
 
-Dynamic Media Classic 및 이미지 서비스에는 이미지와 정적 컨텐츠의 지역화를 허용하는 인터페이스가 있습니다.
+Dynamic Media Classic 및 Image Serving에는 이미지 및 정적 컨텐츠의 지역화를 허용하는 인터페이스가 있습니다.
 
 현지화를 하지 않는 이미지 서버 URL은 다음과 같은 모습입니다.
 
 `https://server/is/image/company/image`
 
-With localization, an Image Server URL adds the `locale=` parameter to the path, as in the following:
+현지화를 사용하는 이미지 서버 URL은 다음과 같이 경로에 `locale=` 매개 변수를 추가합니다.
 
 `https://server/is/image/company/image?locale=de_DE`
 
-On receipt of the http call by the Image Server, the `locale=` parameter is parsed through the localeMap field found in **Setup** > **Application Setup** > **Publish Setup** > **Image Server** > **Localization Support** group.
+이미지 서버에서 http 호출을 받은 경우 `locale=` 매개 변수는 **설정** > **응용 프로그램 설정** > **게시 설정** > **이미지 서버** > **현지화 지원 a10/> 그룹.**
 
 로케일 맵 필드에는 파이프 기호(|)를 사용하여 구별되는 항목 목록이 들어 있습니다.
 
-각 항목은 쉼표로 구분된 값 목록으로 구성됩니다. The first value is the search value that is passed by the `locale=` parameter. 나머지 값은 기존 이미지가 나올 때까지 연속적으로 시도되는 접미어/대체 값입니다.
+각 항목은 쉼표로 구분된 값 목록으로 구성됩니다. 첫 번째 값은 `locale=` 매개 변수로 전달되는 검색 값입니다. 나머지 값은 기존 이미지가 나올 때까지 연속적으로 시도되는 접미어/대체 값입니다.
 
 접미어 값 또는 대체 값의 적용 여부는 **설정** > **애플리케이션 설정** > **게시 설정** > **이미지 서버** > **현지화 지원** 그룹에 있는 [전역 로케일] 설정에 따라 결정됩니다.
 
@@ -136,7 +136,7 @@ On receipt of the http call by the Image Server, the `locale=` parameter is pars
 
 URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 정의되어 있는 경우 DefaultLocale을 가져오고, URL에 적용합니다.
 
-If an unknown or empty locale parameter is supplied with `locale=`, then the localeMap is scanned for the empty value “starting with,”. 기본 로케일을 알 수 없는 로케일에 적용하기 위해서는 이것을 구성해야 합니다.
+알 수 없거나 빈 로케일 매개 변수가 `locale=`에 제공되면 localeMap에서 빈 값 &quot;다음으로 시작,&quot;에 대해 스캔합니다. 기본 로케일을 알 수 없는 로케일에 적용하기 위해서는 이것을 구성해야 합니다.
 
 **defaultImage 정보**
 
@@ -148,7 +148,7 @@ If an unknown or empty locale parameter is supplied with `locale=`, then the loc
 
 `en, en_us, en_uk, de, de_at, de_de, fr`
 
-You map these locales to the suffixes `_E`, `_G`, and `_F`, for English, German, and French, respectively. 모든 예의 경우, 일반 입력 이미지 ID는 `myImg`입니다.
+이러한 로케일을 각각 영어, 독일어 및 프랑스어의 경우 접미어 `_E`, `_G` 및 `_F`에 매핑합니다. 모든 예의 경우, 일반 입력 이미지 ID는 `myImg`입니다.
 
 *localeMap을 찾기 위한 표준 동작*
 
@@ -175,7 +175,7 @@ You map these locales to the suffixes `_E`, `_G`, and `_F`, for English, German,
 | fr | myImg_F,myImg |
 | 기타 모든 항목 | myImg_E,myImg |
 
-You could also have a dedicated locSuffix, such as U, just for unknown locales, and force to the default image if no `_U` exists, as in the following:
+또한 알 수 없는 로케일에만 U와 같은 전용 locSuffix를 사용할 수 있으며, 다음과 같이 `_U`이(가) 없는 경우 기본 이미지를 강제 적용할 수 있습니다.
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,U`
 
@@ -187,7 +187,7 @@ You could also have a dedicated locSuffix, such as U, just for unknown locales, 
 
 종종 스킨 노출과 같이, 유럽, 중동 및 북아메리카 영역과 같이 로케일을 지역 표준을 나타내도록 그룹화하는 것이 유용할 수 있습니다. 다중 계층 조회를 사용하여 이러한 작업을 수행할 수 있습니다.
 
-이 예제의 경우, 서구 및 중동에 사용할 컬렉션을 지원하려 한다고 가정합니다. 두 컬렉션은 모두 일반 이미지 컬렉션을 기반으로 하며, 모두 여러 이미지를 추가하거나 수정합니다. Both collections are then further refined for specific locales, such as `m1, m2` for two middle-eastern variants, and `w1, w2,` and `w3` for three Western locales, except that images are shared for `w1` and `w3`. 알 수 없는 로케일은 일반 컬렉션에만 매핑되고, 로케일별 이미지에는 액세스하지 못했습니다. 다음은 맵이 표시되는 모습입니다.
+이 예제의 경우, 서구 및 중동에 사용할 컬렉션을 지원하려 한다고 가정합니다. 두 컬렉션은 모두 일반 이미지 컬렉션을 기반으로 하며, 모두 여러 이미지를 추가하거나 수정합니다. 두 컬렉션은 이후 두 개의 중동 지역 변형에 대해 `m1, m2`, 세 개의 서양 로캘에 대해 `w1, w2,` 및 `w3` 등의 특정 로캘에 대해 추가로 세분화되며 `w1` 및 `w3`에 대해 이미지를 공유한다는 점을 제외하고 나머지 로캘에 대해서도 추가로 세분화됩니다. 알 수 없는 로케일은 일반 컬렉션에만 매핑되고, 로케일별 이미지에는 액세스하지 못했습니다. 다음은 맵이 표시되는 모습입니다.
 
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
@@ -203,7 +203,7 @@ You could also have a dedicated locSuffix, such as U, just for unknown locales, 
 
 일부 이미지 이름 지정 규칙은 일반 이미지 ID를 지원하지 않습니다. 요청의 일반 ID는 카탈로그에서 특정 ID에 매핑해야 합니다. 그러나, 특정 ID를 정확히 모르는 경우가 있을 수 있습니다.
 
-Using the first example as a basis, images for all languages may have the suffixes `_1`, `_2`, or `_3`. Images that are specific to French locales may have the suffixes `_22` or `_23` suffix. And images that are specific to German locales may have the suffixes `_470` or `_480`.
+첫 번째 예를 기준으로 사용할 경우 모든 언어의 이미지에는 접미어 `_1`, `_2` 또는 `_3`가 있을 수 있습니다. 프랑스어 로케일 전용 이미지에는 접미어 `_22` 또는 `_23` 접미어가 있을 수 있습니다. 그리고 독일어 로케일에 해당하는 이미지에는 접미어 `_470` 또는 `_480`이 있을 수 있습니다.
 
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
@@ -217,21 +217,21 @@ Using the first example as a basis, images for all languages may have the suffix
 
 * 현지화는 ID 기반 자산 호출에 제한되며, 경로 기반 자산 호출에서는 사용할 수 없습니다. 따라서, 로케일로 비디오를 호출할 경우, 회사/자산 ID로 호출해야 하며, 비디오의 전체 경로는 없습니다. 이것은 해당 메서드가 경로 기반 비디오에만 사용하기 위한 것이므로 현지화에는 rtmp를 사용할 수 없음을 의미합니다.
 * localeMap이 활성화된 경우 단일 비디오가 들어 있는 혼합 미디어 집합은 사용할 수 없으며, 다른 경우 이 집합의 컨텐츠 호출은 실패합니다. 이 문제를 해결하려면 단일 비디오를 적응형 비디오 집합에 추가하면 됩니다. 그런 다음, 혼합 미디어 집합에 적응형 비디오 집합을 추가합니다.
-* 적응형 비디오 집합의 컨텐츠에 대한 요청과 같은 특정 요청은 현지화되지 않습니다. 따라서 현지화에 적응형 비디오 집합을 사용할 생각이라면, 적응형 비디오 집합을 혼합 미디어 집합 내에 배치해야 합니다. Then, call the set into a Mixed Media viewer with the `locale=` parameter.
+* 적응형 비디오 집합의 컨텐츠에 대한 요청과 같은 특정 요청은 현지화되지 않습니다. 따라서 현지화에 적응형 비디오 집합을 사용할 생각이라면, 적응형 비디오 집합을 혼합 미디어 집합 내에 배치해야 합니다. 그런 다음 `locale=` 매개 변수를 사용하여 혼합 미디어 뷰어로 집합을 호출합니다.
 
 ## 이미지 렌더러 {#image-renderer}
 
 [이미지 렌더러] 화면에서는 이미지 렌더링 서버의 이미지 집합 제공에 대한 기본 설정을 지정합니다. 다음 5가지 범주로 설정을 사용할 수 있습니다. 설정에 대한 자세한 내용은 [이미지 서버] 화면 자체를 참조하십시오.
 
-**카탈로그 관리** 이러한 설정에 따라 Dynamic Media Classic 및 카탈로그 파일의 상호 작용 방식이 결정됩니다. Dynamic Media Classic Render 서버 URL 호출은 카탈로그에 대해 수행되므로 서버에서 이미지를 전달하는 호출이 수행됩니다. Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설정을 변경합니다.
+**카탈로그** 관리이 설정은 Dynamic Media Classic 및 카탈로그 파일의 상호 작용 방식을 결정합니다. Dynamic Media Classic Render Server URL 호출은 카탈로그에 대해 수행되며, 이 호출은 서버에서 이미지를 전달하는 호출을 전달합니다. Dynamic Media Classic 지원 담당자의 지원을 통해서만 이러한 설정을 변경할 수 있습니다.
 
-**세션 속성** 이 설정은 오류 매개 변수, 상대 이미지 URL에 대한 URL 및 개체 겹침 허용 여부를 설정합니다.
+**세션** 속성이 설정은 오류 매개 변수, 상대 이미지 URL에 대한 URL, 오브젝트 겹침 허용 여부를 설정합니다.
 
-**기본 재료 속성** 이 설정은 이미지의 기본 해상도 및 선명하게 하기 설정을 설정합니다.
+**기본 재료** 속성이 설정은 이미지의 기본 해상도 및 선명하게 하기 설정을 설정합니다.
 
-**응답 이미지 속성** 이 설정은 이미지의 기본 모양과 관련이 있습니다.
+**응답 이미지** 속성이 설정은 이미지의 기본 모양과 관련이 있습니다.
 
-**색상 관리 속성** 이 설정은 이미지의 기본 색상 설정과 관련이 있습니다.
+**색상 관리** 속성이 설정은 이미지의 기본 색상 설정과 관련이 있습니다.
 
 ## 비네팅 {#vignette}
 
