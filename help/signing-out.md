@@ -1,8 +1,6 @@
 ---
-title: 로그인 및 로그아웃
-seo-title: 로그인 및 로그아웃
-description: 널
-seo-description: Dynamic Media Classic에서 로그인 및 로그아웃에 대해 자세히 알아보기
+title: Adobe Dynamic Media Classic에 로그인 및 로그아웃함
+description: Adobe Dynamic Media Classic에 로그인하여 북미(NA) 또는 유럽, 중동, 아프리카(EMEA) 또는 아시아 태평양(APAC)의 프로덕션 환경 서버에 연결하는 방법에 대해 학습합니다.
 uuid: eaf51ab7-d17a-4b7b-b6a4-1ec78bfee36b
 contentOwner: admin
 content-type: reference
@@ -10,23 +8,23 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: ad418881-ff31-43b1-bbb6-ab2fbcf89bea
 translation-type: tm+mt
-source-git-commit: 436717a3a5326477b5507db0893892342c54dcef
+source-git-commit: d3c9b805f5d17c130fe5b4590bd7864351dc9d24
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 4%
 
 ---
 
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Dynamic Media Classic 로그인 {#sign-in}
+# Adobe Dynamic Media Classic 로그인 {#sign-in}
 
-Dynamic Media Classic에 로그인하고 로그아웃하는 방법은 데스크톱 응용 프로그램을 사용하는지 또는 웹 브라우저를 사용하는지에 따라 다릅니다.
+Dynamic Media Classic에 로그인하고 로그아웃하는 방법은 [데스크톱 응용 프로그램](#sign-in-dmc-app) 또는 [웹 브라우저](#sign-out)를 사용하는지에 따라 결정됩니다.
 
 로그인 방법에 상관없이 Dynamic Media Classic을 사용하기 전에 다음 사항을 반드시 갖추어야 합니다.
 
-* **로그인**
+* **사용자**
 이름이메일 주소를 로그인 이름으로 사용합니다.
 
 * **암호**
