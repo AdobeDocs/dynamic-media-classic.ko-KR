@@ -47,9 +47,9 @@ ht-degree: 91%
 
 ## 웹 페이지에 이미지 집합 URL 추가 {#adding-image-set-urls-to-your-web-page}
 
-이미지 집합을 배포하는 가장 일반적인 방법은 탐색 아이콘을 통해 웹 페이지에 링크를 배치하는 것입니다. 클릭하면 링크가 팝업 확대/축소 창에 이미지 세트를 표시하는 JSP(동적 페이지)를 실행합니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
+이미지 집합을 배포하는 가장 일반적인 방법은 탐색 아이콘을 통해 웹 페이지에 링크를 배치하는 것입니다. 클릭하면 링크가 팝업 확대/축소 창에 이미지 세트를 표시하는 동적 페이지(JSP)를 시작합니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 [참조 안내서의 HTML5 확대/축소 뷰어 포함을 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)에서 [HTML5 확대/축소 뷰어 포함을 참조하십시오.
 
 ## 이미지 집합 뷰어의 임베드 코드 복사 {#copying-the-embed-code-of-an-image-set-viewer}
 
