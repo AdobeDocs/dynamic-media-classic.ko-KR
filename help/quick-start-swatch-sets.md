@@ -2,7 +2,7 @@
 title: '"빠른 시작: 견본 집합"'
 seo-title: '"빠른 시작: 견본 집합"'
 description: 널
-seo-description: 빠른 시작을 지원하는 견본 집합 소개 및 빠른 시작을 참조하십시오.
+seo-description: 빠르게 시작하고 실행하는 데 도움이 되는 소개 및 빠른 견본 집합 만들기.
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: admin
 content-type: reference
@@ -20,11 +20,11 @@ ht-degree: 64%
 
 # 빠른 시작: 견본 집합{#quick-start-swatch-sets}
 
-Dynamic Media Classic 견본 세트를 사용하면 통합된 보기 환경을 경험할 수 있습니다. 동적 견본 집합 뷰어에서 사용자가 썸네일을 클릭하기만 하면 다른 색상, 재질, 텍스처, 마무리 또는 패브릭으로 렌더링된 항목을 볼 수 있습니다.
+Dynamic Media 클래식 견본 세트를 사용하면 통합된 보기 환경을 경험할 수 있습니다. 동적 견본 집합 뷰어에서 사용자가 썸네일을 클릭하기만 하면 다른 색상, 재질, 텍스처, 마무리 또는 패브릭으로 렌더링된 항목을 볼 수 있습니다.
 
 **빠른 시작**
 
-이 견본 집합 빠른 시작은 Dynamic Media Classic의 견본 집합 기술을 사용하여 빠르게 시작하고 실행되도록 만들어졌습니다.
+이 견본 집합 빠른 시작은 Dynamic Media Classic의 견본 집합 기술을 사용하여 빠르게 시작하고 실행하도록 설계되었습니다.
 
 **1. 이미지 및 견본 파일 업로드**
 
@@ -52,7 +52,7 @@ Dynamic Media Classic 견본 세트를 사용하면 통합된 보기 환경을 �
 
 견본 집합을 게시하면 Dynamic Media Classic 서버에 배치되고 URL 문자열이 활성화됩니다.
 
-Click the **Mark For Publish** icon to the left of its name in the Browse Panel. Then, click **Publish**. On the Publish screen, click **Start Publish**.
+찾아보기 패널에서 이름 왼쪽에 있는 **게시로 표시** 아이콘을 클릭합니다.그런 다음 **게시**&#x200B;를 클릭합니다. 게시 화면에서 **게시 시작**&#x200B;을 클릭합니다.
 
 [게시](publishing-files.md#publishing-files)를 참조하십시오.
 
