@@ -20,7 +20,7 @@ ht-degree: 41%
 
 # 템플릿 게시{#publishing-templates}
 
-템플릿을 게시하면 웹 사이트 및 애플리케이션에서 사용할 수 있는 Dynamic Media 이미지 서버에 해당 템플릿이 배치됩니다. 게시 프로세스 동안 Dynamic Media Classic에서는 웹 사이트 및 애플리케이션에 필요한 URL을 활성화합니다.
+템플릿을 게시하면 웹 사이트 및 애플리케이션에서 사용할 수 있는 Dynamic Media 이미지 서버에 해당 템플릿을 배치할 수 있습니다. 게시 프로세스 동안 Dynamic Media Classic에서는 웹 사이트 및 애플리케이션에 필요한 URL을 활성화합니다.
 
 >[!NOTE]
 >
@@ -28,11 +28,11 @@ ht-degree: 41%
 
 ## 템플릿을 게시로 표시 {#marking-templates-for-publish}
 
-Dynamic Media 이미지 서버에 배치하려면 템플릿 및 모든 지원 파일을 게시로 표시해야 합니다. You can mark these items for publish in the Browse Panel by clicking the **Mark for Publish** icon.
+템플릿 및 모든 지원 파일을 Dynamic Media 이미지 서버에 배치하려면 게시로 표시해야 합니다. **게시로 표시** 아이콘을 클릭하여 찾아보기 패널에서 게시로 표시할 항목을 표시할 수 있습니다.
 
 ## 템플릿 게시 {#publishing-your-template}
 
-Dynamic Media 이미지 서버에 템플릿을 게시하려면 먼저 전역 탐색 막대에서 게시 단추를 선택합니다. [시기] 선택 사항을 선택하고, 선택적으로 게시 작업의 이름을 입력한 다음 [게시 시작] 단추를 선택합니다.
+템플릿을 Dynamic Media 이미지 서버에 게시하려면 전역 탐색 막대에서 [게시] 단추를 선택하여 시작합니다. [시기] 선택 사항을 선택하고, 선택적으로 게시 작업의 이름을 입력한 다음 [게시 시작] 단추를 선택합니다.
 
 >[!MORELIKETHIS]
 >
