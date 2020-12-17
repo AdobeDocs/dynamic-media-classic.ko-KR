@@ -20,31 +20,31 @@ ht-degree: 65%
 
 # 빠른 시작: 비디오{#quick-start-video}
 
-Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android, Blackberry 및 Windows 모바일 디바이스를 비롯한 다양한 화면에서 스트리밍할 수 있는 고품질 응용 비디오를 손쉽게 퍼블리싱할 수 있는 엔드 투 엔드 솔루션입니다. 적응형 비디오 집합은 다른 비트 전송률 및 형식으로 인코딩된 동일한 비디오의 여러 버전(예: 400kbps, 800kbps 및 1000kbps)을 그룹화합니다. 데스크톱 컴퓨터나 모바일 장치가 사용 가능한 대역폭을 검색합니다.
+Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android, Blackberry 및 Windows 모바일 디바이스를 비롯한 다양한 화면에서 스트리밍할 수 있는 고품질 적응형 비디오를 손쉽게 퍼블리싱할 수 있는 엔드 투 엔드 솔루션입니다. 적응형 비디오 집합은 다른 비트 전송률 및 형식으로 인코딩된 동일한 비디오의 여러 버전(예: 400kbps, 800kbps 및 1000kbps)을 그룹화합니다. 데스크톱 컴퓨터나 모바일 장치가 사용 가능한 대역폭을 검색합니다.
 
 예를 들어 iOS 모바일 장치에서는 3G, 4G 또는 Wi-Fi와 같은 대역폭을 검색합니다. 그런 다음 적응형 비디오 집합 내의 다양한 비디오 비트 전송률 중에서 적합한 인코딩된 비디오를 자동으로 선택합니다. 이 비디오는 데스크톱, 모바일 장치 또는 태블릿으로 스트리밍됩니다.
 
-또한 데스크톱이나 모바일 장치에서 네트워크 상태가 변경될 경우 비디오 품질이 자동으로 동적으로 전환됩니다. 고객이 데스크톱에서 전체 화면 모드로 전환하면 적응형 비디오 집합이 더 나은 해상도로 응답하므로 고객의 보기 환경이 향상됩니다. 응용 비디오 세트를 사용하면 다양한 화면 및 디바이스에서 Dynamic Media Classic 비디오를 재생하는 고객에게 최상의 재생 방법을 제공합니다.
+또한 데스크톱이나 모바일 장치에서 네트워크 상태가 변경될 경우 비디오 품질이 자동으로 동적으로 전환됩니다. 고객이 데스크톱에서 전체 화면 모드로 전환하면 적응형 비디오 집합이 더 나은 해상도로 응답하므로 고객의 보기 환경이 향상됩니다. 응용 비디오 세트를 사용하면 여러 화면 및 장치에서 Dynamic Media Classic 비디오를 재생하는 고객에게 최상의 재생 방법을 제공합니다.
 
 재생하는 동안 재생하거나 선택할 인코딩된 비디오를 결정하기 위해 비디오 플레이어가 사용하는 논리는 다음 알고리즘을 기준으로 합니다.
 
 1. 비디오 플레이어는 플레이어 자체에서 &quot;초기 비트 전송률&quot;에 설정된 값에 가장 가까운 비트 전송률을 기반으로 초기 비디오 조각을 로드합니다.
-1. 비디오 플레이어는 다음 기준을 사용하여 대역폭 속도 변경 사항을 기반으로 전환됩니다.
+1. 다음 기준을 사용하여 대역폭 속도 변경 사항을 기반으로 비디오 플레이어를 전환합니다.
 
-   1. 플레이어가 아래에서 가장 높은 대역폭 스트림을 선택하거나 예상 대역폭과 동일하게 선택합니다.
-   1. 플레이어는 사용 가능한 대역폭의 80%만 고려합니다. 그러나 업그레이드하면 과대평가하고 즉시 다시 전환해야 하는 문제를 방지하는 것은 70%에 불과합니다.
+   1. 플레이어는 낮은 대역폭 스트림을 선택하거나 예상 대역폭과 동일한 높은 대역폭 스트림을 선택합니다.
+   1. 플레이어는 사용 가능한 대역폭의 80%만 고려합니다. 그러나 업그레이드하고 있는 경우, 과대평가하고 즉시 다시 전환하지 않아도 되는 것은 70%에 불과합니다.
 
-이 알고리즘에 대한 기술 정보는 [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp에서](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) 알고리즘의 로직을 참조하십시오.
+알고리즘에 대한 기술 정보는 [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)에서 알고리즘의 로직을 참조하십시오.
 
 단일 비디오 및 응용 비디오 세트를 관리하기 위해 Dynamic Media Classic에서는 다음을 지원합니다.
 
-* 지원되는 많은 비디오 형식 및 오디오 형식에서 비디오를 업로드하고 여러 화면에서 재생할 수 있도록 비디오를 MP4 H.264 형식으로 인코딩. 사전 정의된 Dynamic Media Classic 응용 비디오 사전 설정, 단일 비디오 인코딩 사전 설정을 사용하거나 자체 인코딩을 사용자 지정하여 비디오의 품질과 크기를 제어할 수 있습니다.
+* 지원되는 많은 비디오 형식 및 오디오 형식에서 비디오를 업로드하고 여러 화면에서 재생할 수 있도록 비디오를 MP4 H.264 형식으로 인코딩. 사전 정의된 Dynamic Media Classic 응용 비디오 사전 설정, 단일 비디오 인코딩 사전 설정을 사용하거나 자체 인코딩을 사용자 정의하여 비디오의 품질과 크기를 제어할 수 있습니다.
 
    응용 비디오 세트가 생성되면 MP4 비디오가 포함됩니다.
 
-   `**Note:**` 기본/소스 비디오 및 기타 소스 형식 비디오는 응용 비디오 집합에 추가되지 *않습니다* .
+   `**Note:**` 기본/소스 비디오 및 기타 소스 형식 비디오는 응용 비디오 집합에  ** 추가되지 않습니다.
 
-* Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark 및 Universal_HTML5_Video, Universal_HTML5_MixedMedia_light 뷰어 및 비디오 장 탐색(Universal_HTML5_MixedMedia_dark 및 Universal_HTML5_MixedMixed)의 비디오 비디오 캡션 media_light 뷰어.
+* Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark 및 Universal_HTML5_MixedMedia_light 뷰어의 비디오 캡션 및 Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark 및 Universal_HTML5_MixedMixed의 비디오 장 탐색 media_light 뷰어.
 
    [비디오에 캡션 추가](adding-captions-video.md)를 참조하십시오.
 
@@ -55,15 +55,15 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android, Blackberry 및 
 
    적응형 비디오 스트리밍은 다양한 iOS 플랫폼에서 지원됩니다.
 
-   Adobe 뷰어 참조 안내서에서 최신 [지원을 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html).
+   [Adobe 뷰어 참조 안내서](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)에서 최신 지원을 참조하십시오.
 
-   Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다. 다음 웹 사이트에서 이 비디오 형식을 지원하는 Blackberry 장치를 찾을 수 있습니다.
+   Dynamic Media Classic에서는 MP4 H.264 비디오에 대한 모바일 비디오 재생을 지원합니다. 다음 웹 사이트에서 이 비디오 형식을 지원하는 Blackberry 장치를 찾을 수 있습니다.
 
-   Blackberry [에서 지원되는 비디오 포맷을 참조하십시오](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+   Blackberry[에서 지원되는 비디오 형식을 참조하십시오.](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482)
 
    다음 웹 사이트에서 이 비디오 형식을 지원하는 Windows 장치를 찾을 수 있습니다.
 
-   Windows [Phone에서 지원되는 비디오 형식을 참조하십시오](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx).
+   Windows Phone[에서 지원되는 비디오 형식을 참조하십시오.](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)
 
 * 다음을 포함한 Dynamic Media Classic 뷰어 사전 설정을 사용하여 비디오를 재생합니다.
 
@@ -81,10 +81,12 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android, Blackberry 및 
 
 다음 2가지 시나리오 중 하나를 사용하여 적응형 비디오 집합을 업로드하고 생성하십시오.
 
-* **미리 인코딩된 비디오 업로드**&#x200B;비디오가 Dynamic Media Classic 외부에서 이미 인코딩된 경우 
-**전역 탐색 막대에 업로드하여** MP4 비디오 파일을 찾아 Dynamic Media Classic에 직접 업로드합니다. **작성 > 적응형 비디오 집합**&#x200B;을 클릭합니다. 비디오 파일을 찾습니다. 원하는 비디오 파일을 [적응형 비디오 집합] 테이블로 끌어서 놓고 집합을 저장합니다.
-* **마스터 소스 비디오 업로드**&#x200B;비디오가 인코딩되지 않은 경우 
-**전역 탐색 막대에 업로드하여** 마스터 비디오 소스 파일(MP4가 아님)을 업로드하고 Dynamic Media Classic에서 자동으로 MP4 파일로 인코딩합니다. [업로드 작업 옵션] 대화 상자의 [EVideo 옵션] 아래에서 **적응형 비디오**&#x200B;를 선택합니다.
+* **미리 인코딩된**
+비디오 업로드비디오가 Dynamic Media Classic 외부에서 이미 인코딩된 경우 
+**전역** 탐색 막대에 업로드하여 MP4 비디오 파일을 찾아 Dynamic Media Classic에 직접 업로드합니다. **작성 > 적응형 비디오 집합**&#x200B;을 클릭합니다. 비디오 파일을 찾습니다. 원하는 비디오 파일을 [적응형 비디오 집합] 테이블로 끌어서 놓고 집합을 저장합니다.
+* **마스터 소스**
+비디오 업로드비디오가 인코딩되지 않은 경우 
+**전역** 탐색 막대에 업로드하여 마스터 비디오 소스 파일(MP4 아님)을 업로드하고 Dynamic Media Classic에서 자동으로 MP4 파일로 인코딩하도록 합니다. [업로드 작업 옵션] 대화 상자의 [EVideo 옵션] 아래에서 **적응형 비디오**&#x200B;를 선택합니다.
 
    이 기본 옵션을 이용하면 16:9이든, 4:3이든 업로드한 비디오 크기에 맞게 올바른 인코딩 사전 설정을 비디오에 자동으로 적용하는 적응형 비디오 집합을 만들 수 있습니다. 업로드 작업을 제출하면 올바른 종횡비의 비디오 인코딩 3개를 포함하는 적응형 비디오 집합이 자동으로 만들어집니다.
 
@@ -112,7 +114,7 @@ Dynamic Media Classic에서는 사전 정의된 다양한 비디오 인코딩 �
 
 **선택 사항입니다**
 
-뷰어 사전 설정 사용자 정의 - Dynamic Media Classic에서는 비디오를 전달하기 위한 사전 정의된 뷰어 사전 설정을 제공합니다. 이러한 사전 설정은 뷰어의 모양과 재생 컨트롤 작동 방식을 결정합니다. 관리자는 뷰어 사전 설정 페이지에서 뷰어 사전 설정을 추가하고 관리하여 비디오 뷰어를 사용자 지정할 수 있습니다. 이 페이지를 열려면 Dynamic Media Classic의 오른쪽 위 모서리에서 설정 > 뷰어 사전 설정을 클릭합니다. [뷰어 사전 설정] 페이지에서는 뷰어 사전 설정을 추가, 편집, 삭제 및 활성화하는 명령을 제공합니다.
+뷰어 사전 설정 사용자 정의 - Dynamic Media Classic에서는 비디오를 전달하기 위한 사전 정의된 뷰어 사전 설정을 제공합니다. 이러한 사전 설정은 뷰어의 모양과 재생 컨트롤 작동 방식을 결정합니다. 관리자는 뷰어 사전 설정 페이지에서 뷰어 사전 설정을 추가하고 관리하여 비디오 뷰어를 사용자 지정할 수 있습니다. 이 페이지를 열려면 Dynamic Media Classic의 오른쪽 위 모서리에서 [설정] > [뷰어 사전 설정]을 클릭합니다. [뷰어 사전 설정] 페이지에서는 뷰어 사전 설정을 추가, 편집, 삭제 및 활성화하는 명령을 제공합니다.
 
 [비디오 뷰어 사전 설정으로 작업](previewing-videos-video-viewer.md#working_with_video_viewer_presets)을 참조하십시오.
 
@@ -122,7 +124,7 @@ Dynamic Media Classic에서는 사전 정의된 다양한 비디오 인코딩 �
 
 * 자체 팝업 또는 모달 창에 비디오를 표시합니다. 이 경우 URL 복사 기능을 사용해야 합니다.
 
-   비디오의 URL을 얻으려면 격자 보기나 목록 보기의 [찾아보기 패널]에서 선택합니다. Click Preview, and then click Copy URL to the right of `Universal_HTML5_Viewer`.
+   비디오의 URL을 얻으려면 격자 보기나 목록 보기의 [찾아보기 패널]에서 선택합니다. 미리 보기를 클릭한 다음 `Universal_HTML5_Viewer` 오른쪽에 있는 URL 복사를 클릭합니다.
 
    [URL 복사]를 클릭하면 URL이 클립보드로 복사됩니다. 이 코드를 웹 사이트, 모바일 사이트 또는 애플리케이션의 HTML에 배치합니다.
 
