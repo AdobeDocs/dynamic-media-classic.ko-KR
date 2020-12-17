@@ -49,7 +49,7 @@ ht-degree: 94%
 
 견본 집합을 배포하는 가장 일반적인 방법은 탐색 아이콘을 통해 웹 페이지에 링크를 배치하는 것입니다. 링크를 클릭하면 팝업 확대/축소 창에서 견본 집합을 표시하는 동적 페이지(ASP 또는 JSP)가 시작됩니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 [참조 안내서의 HTML5 확대/축소 뷰어 포함을 참조하십시오](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html).
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html)에서 [HTML5 확대/축소 뷰어 포함을 참조하십시오.
 
 ## 견본 집합 뷰어의 임베드 코드 복사 {#copying-the-embed-code-of-a-swatch-set-viewer}
 
