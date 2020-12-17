@@ -40,7 +40,7 @@ ht-degree: 66%
    * 이름을 선택하고 새 이름을 입력한 다음 Enter 키를 누르거나 이름에서 떨어진 곳을 클릭합니다.
    * [파일] > [이름 변경]을 선택합니다. 자산 이름이 강조 표시됩니다. 새 이름을 입력하고 Enter 키를 누릅니다.
 
-기존 Dynamic Media Classic 자산의 이름을 입력하지 마십시오.
+기존 Dynamic Media Classic 자산의 이름을 입력하지 않아야 합니다.
 
 ## 자산 삭제 {#delete-assets}
 
@@ -55,19 +55,19 @@ ht-degree: 66%
 1. 다음 중 하나를 수행합니다.
 
    * 자산을 하나 이상 삭제하려면 찾아보기 패널에서 자산을 선택하고 Delete 키를 누르거나 [파일] > [삭제]를 선택합니다.
-   * To delete a folder, select the folder in the Asset Library, and click **Remove Folder**.
+   * 폴더를 삭제하려면 자산 라이브러리에서 폴더를 선택하고 **폴더 제거**&#x200B;를 클릭합니다.
 
       폴더를 삭제하면 폴더, 폴더의 모든 자산 및 하위 폴더의 모든 자산이 삭제됩니다.
 
 >[!NOTE]
 >
->자산 파일을 삭제하는 이유는 같은 이름으로 다른 파일로 대체하기 위한 경우 자산 파일을 삭제하지 않고 덮어쓰는 것이 좋습니다.
+>자산 파일을 삭제하는 이유는 동일한 이름으로 다른 파일로 대체하기 위한 경우 자산 파일을 삭제하는 대신 덮어쓰는 것이 좋습니다.
 
 ## 텍스트 파일을 사용하여 여러 자산 삭제 {#delete-multiple-assets-with-a-text-file}
 
-자산 라이브러리 전체에서 한 번에 많은 자산을 삭제하려면 텍스트 파일에서 삭제할 자산을 나열하고 목록을 Dynamic Media Classic에 제출할 수 있습니다.
+에셋 라이브러리 전체에서 한 번에 많은 에셋을 삭제하려면 텍스트 파일에서 삭제할 에셋을 나열하고 목록을 Dynamic Media Classic에 제출할 수 있습니다.
 
-Dynamic Media Classic ID 목록을 만들고 텍스트(.txt) 파일로 저장합니다. 각 Dynamic Media Classic ID는 자체 줄에 있어야 합니다(뒤에 하드 리턴).
+Dynamic Media Classic ID 목록을 만들고 텍스트(.txt) 파일로 저장합니다. 각 Dynamic Media Classic ID는 자체 줄에 있어야 하며, 그 뒤에 하드 리턴이 와야 합니다.
 
 목록을 만든 후 다음 단계를 수행하여 자산을 삭제하는 데 사용합니다.
 
@@ -75,7 +75,7 @@ Dynamic Media Classic ID 목록을 만들고 텍스트(.txt) 파일로 저장합
 1. [자산 목록 삭제] 대화 상자에서 삭제하려는 자산 목록이 포함된 텍스트 파일을 찾거나 경로를 입력합니다.
 1. [삭제] 단추를 클릭합니다.
 
-텍스트 파일이 있는 자산을 삭제할 때 Dynamic Media Classic ID가 목록에 없으면 항목 목록과 함께 Dynamic Media Classic에서 &quot;목록에 있는 항목의 유효성을 검사할 수 없습니다.&quot;라는 메시지가 표시됩니다. 그러나 Dynamic Media Classic에서는 작업 화면에 오류가 생성되지 않습니다.
+텍스트 파일이 있는 에셋을 삭제하면 Dynamic Media Classic ID가 목록에 없으면 항목 목록과 함께 Dynamic Media Classic에서 &quot;목록에 있는 항목의 유효성을 검사할 수 없습니다.&quot;라는 메시지가 표시됩니다. 그러나 Dynamic Media Classic에서는 [작업] 화면에 오류가 생성되지 않습니다.
 
 >[!MORELIKETHIS]
 >
