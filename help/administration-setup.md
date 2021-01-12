@@ -9,10 +9,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
 workflow-type: tm+mt
-source-wordcount: '1945'
-ht-degree: 64%
+source-wordcount: '1947'
+ht-degree: 63%
 
 ---
 
@@ -61,9 +61,9 @@ Dynamic Media Classic에서는 여러 사용자 역할을 지원합니다. 이�
 
    저장하면 사용자를 다른 회사에 추가할 것인지 묻는 메시지가 나타납니다. 사용자를 회사에 추가하려면 [추가]를 클릭합니다.
 
-   모든 새 사용자에게 임의로 생성된 암호가 주어집니다.사용자는 Dynamic Media Classic에 처음 로그인할 때 암호를 변경해야 합니다.
+   모든 새 사용자에게 임의로 생성된 암호가 주어집니다.사용자는 Dynamic Media Classic 데스크톱 응용 프로그램에 처음 로그인할 때 암호를 변경해야 합니다.
 
-   새 사용자를 추가하면 환영 이메일이 전송됩니다. 이 이메일은 임시 암호를 제공하며 Scene 7 Publishing System에 로그온하는 방법에 대해 설명합니다.
+   새 사용자를 추가하면 환영 이메일이 전송됩니다. 전자 메일은 임시 암호를 제공하며 Dynamic Media Classic에 로그인하는 방법에 대해 설명합니다.
 
    환영 전자 메일을 받지 못한 경우 Dynamic Media Classic 로그인 페이지(https://s7sps1.scene7.com)으로 이동하여 내 암호 분실을 클릭합니다. 암호가 재설정되고 새 이메일이 전송됩니다. 사용자가 이메일을 받지 못하고 스팸 폴더에도 없는 경우 기술 지원에 문의하십시오.
 
