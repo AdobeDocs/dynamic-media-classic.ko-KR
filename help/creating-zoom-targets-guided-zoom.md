@@ -1,8 +1,6 @@
 ---
 title: 유도된 확대/축소의 확대/축소 타겟 만들기
-seo-title: 유도된 확대/축소의 확대/축소 타겟 만들기
-description: 널
-seo-description: 안내 확대/축소에 대한 확대/축소 타겟을 만드는 방법을 알아봅니다.
+description: 안내 확대/축소에 대한 확대/축소 타겟을 만드는 방법을 알아봅니다.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 69%
+source-wordcount: '731'
+ht-degree: 68%
 
 ---
 
