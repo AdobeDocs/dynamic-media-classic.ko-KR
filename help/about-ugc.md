@@ -1,18 +1,16 @@
 ---
 title: 사용자 생성 컨텐츠 정보
-seo-title: 사용자 생성 컨텐츠 정보
-description: 널
-seo-description: 사용자가 생성한 콘텐츠에 대한 소개입니다.
+description: 사용자가 생성한 콘텐츠에 대한 소개입니다.
 uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
 discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '139'
-ht-degree: 56%
+source-wordcount: '135'
+ht-degree: 57%
 
 ---
 
