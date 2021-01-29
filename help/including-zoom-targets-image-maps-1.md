@@ -1,8 +1,6 @@
 ---
 title: 견본 집합에 확대/축소 타겟 및 이미지 맵 포함
-seo-title: 견본 집합에 확대/축소 타겟 및 이미지 맵 포함
-description: 널
-seo-description: 견본 집합에 확대/축소 대상 및 이미지 맵을 포함하는 방법을 알아봅니다.
+description: 견본 집합에 확대/축소 대상 및 이미지 맵을 포함하는 방법을 알아봅니다.
 uuid: e46ebebd-b086-450c-9812-22290a92db8c
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: f75f6d5b-d689-4640-838f-a32d77859f62
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '170'
+source-wordcount: '160'
 ht-degree: 92%
 
 ---
