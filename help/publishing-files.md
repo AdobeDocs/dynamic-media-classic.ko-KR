@@ -1,8 +1,6 @@
 ---
 title: 파일 게시
-seo-title: 파일 게시
-description: 널
-seo-description: 파일을 게시하는 방법에 대해 알아봅니다.
+description: 파일을 게시하는 방법에 대해 알아봅니다.
 uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1654'
 ht-degree: 76%
 
 ---
