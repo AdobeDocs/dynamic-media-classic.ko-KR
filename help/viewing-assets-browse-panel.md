@@ -1,8 +1,6 @@
 ---
 title: 찾아보기 패널에서 에셋 보기
-seo-title: 찾아보기 패널에서 에셋 보기
-description: 널
-seo-description: '[찾아보기] 패널을 사용하여 자산을 보는 방법을 알아봅니다.'
+description: '[찾아보기] 패널을 사용하여 자산을 보는 방법을 알아봅니다.'
 uuid: 677b1838-0bbe-4922-92a5-6e7d9030edb9
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: feab1194-a98c-4a18-812c-7e2e537ca488
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 65%
+source-wordcount: '216'
+ht-degree: 67%
 
 ---
 
