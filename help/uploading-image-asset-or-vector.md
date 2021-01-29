@@ -1,17 +1,15 @@
 ---
 title: 이미지 자산 또는 벡터 자산 업로드
-seo-title: 이미지 자산 또는 벡터 자산 업로드
-description: 널
-seo-description: 이미지 자산 또는 벡터 에셋을 업로드하는 방법을 알아봅니다.
+description: 이미지 자산 또는 벡터 에셋을 업로드하는 방법을 알아봅니다.
 uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1527'
 ht-degree: 84%
 
 ---
