@@ -1,8 +1,6 @@
 ---
 title: eCatalogs의 정보 패널 컨텐츠 관리
-seo-title: eCatalogs의 정보 패널 컨텐츠 관리
-description: 널
-seo-description: eCatalogs에서 정보 패널 콘텐트를 관리하는 방법을 알아봅니다.
+description: eCatalogs에서 정보 패널 콘텐트를 관리하는 방법을 알아봅니다.
 uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '875'
-ht-degree: 81%
+source-wordcount: '868'
+ht-degree: 82%
 
 ---
 
