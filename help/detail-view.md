@@ -1,8 +1,6 @@
 ---
 title: 세부 사항 보기의 작업
-seo-title: 세부 사항 보기의 작업
-description: 널
-seo-description: 세부 사항 보기에서 작업하는 방법을 알아봅니다.
+description: 세부 사항 보기에서 작업하는 방법을 알아봅니다.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '583'
 ht-degree: 79%
 
 ---
