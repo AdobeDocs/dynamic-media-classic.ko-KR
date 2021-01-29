@@ -6,9 +6,9 @@ contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
@@ -99,6 +99,12 @@ Dynamic Media Classic은 리치 미디어 전략을 향상시키기 위해 고�
 ### **_AEM Assets을 사용하여 Dynamic Media으로 업그레이드하는 방법에 대해 자세히 알고 싶습니다. 자세한 내용은 어디에서 찾을 수 있습니까?_**
 
 차세대 리치 미디어 저작, 퍼블리싱 및 다이내믹한 전달으로 업그레이드할 수 있는 이점을 자세히 살펴보려면 [Dynamic Media 업그레이드 포털](http://exploreadobe.com/dynamic-media-upgrade/)을 참조하십시오.
+
+>[!MORELIKETHIS]
+>
+>* [Dynamic Media Classic 데스크탑 응용 프로그램 로그인 및 로그아웃](/help/signing-out.md)
+>* [Dynamic Media Classic 데스크톱 응용 프로그램 다운로드 및 설치](/help/dynamic-media-classic-desktop-app.md)
+
 
 
 <!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
