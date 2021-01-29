@@ -1,8 +1,6 @@
 ---
 title: 견본 집합을 웹 페이지에 연결
-seo-title: 견본 집합을 웹 페이지에 연결
-description: 널
-seo-description: 견본 집합을 웹 페이지에 연결하는 방법을 알아봅니다.
+description: 견본 집합을 웹 페이지에 연결하는 방법을 알아봅니다.
 uuid: 1f623bf2-3bb0-481f-b063-79e4ce125424
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 0edab47b-531c-41a9-89c3-2e179c4f9fa4
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '679'
 ht-degree: 94%
 
 ---
