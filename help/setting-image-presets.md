@@ -1,8 +1,6 @@
 ---
 title: 이미지 사전 설정 지정
-seo-title: 이미지 사전 설정 지정
-description: 널
-seo-description: 이미지 사전 설정을 설정하는 방법을 알아봅니다.
+description: 이미지 사전 설정을 설정하는 방법을 알아봅니다.
 uuid: 90530948-dee9-41bd-b39e-684140446abc
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '649'
 ht-degree: 66%
 
 ---
@@ -65,7 +63,7 @@ Dynamic Media Classic에는 이미 사용할 수 있도록 설정되어 있는 �
    |--- |--- |--- |--- |--- |
    | 크로스셀(미니 썸네일) | 75x75 | 1.5 | 0.8 | 5 |
    | 썸네일 | 150x150 | 1.1 | 1 | 5 |
-   | 주 | 350x350 | 1 | 1 | 6 |
+   | 주 | 350x350 | 1 | 3 | 6 |
    | 확대 | 500x500 | 1.2 | 1.2 | 5 |
 
 1. **[저장]**&#x200B;을 클릭합니다.
