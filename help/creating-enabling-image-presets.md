@@ -1,8 +1,6 @@
 ---
 title: 이미지 사전 설정 만들기 및 활성화
-seo-title: 이미지 사전 설정 만들기 및 활성화
-description: 널
-seo-description: 이미지 사전 설정을 만들고 활성화하는 방법을 알아봅니다.
+description: 이미지 사전 설정을 만들고 활성화하는 방법을 알아봅니다.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '252'
 ht-degree: 89%
 
 ---
