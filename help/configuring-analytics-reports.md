@@ -1,8 +1,6 @@
 ---
 title: Adobe Analytics 보고서 구성
-seo-title: Adobe Analytics 보고서 구성
-description: 널
-seo-description: Adobe Analytics 보고서 구성 방법을 알아봅니다.
+description: Adobe Analytics 보고서 구성 방법을 알아봅니다.
 uuid: bf210f68-dcb0-4e86-be04-0a8b2117ef2a
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1199'
 ht-degree: 51%
 
 ---
