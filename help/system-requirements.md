@@ -1,8 +1,6 @@
 ---
 title: 시스템 요구 사항
-seo-title: 시스템 요구 사항
-description: 널
-seo-description: 'Dynamic Media Classic을 사용하는 최적의 환경을 위한 시스템 요구 사항에 대해 알아보십시오. '
+description: 'Dynamic Media Classic을 사용하는 최적의 환경을 위한 시스템 요구 사항에 대해 알아보십시오. '
 uuid: 8dfc925b-7350-41af-9207-3b2a743c0998
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 47%
+source-wordcount: '92'
+ht-degree: 45%
 
 ---
 
