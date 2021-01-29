@@ -1,8 +1,6 @@
 ---
 title: 시스템 요구 사항
-seo-title: 시스템 요구 사항
-description: 널
-seo-description: 'Media Portal을 사용한 최적의 환경을 위한 시스템 요구 사항에 대해 알아보십시오. '
+description: 'Media Portal을 사용한 최적의 환경을 위한 시스템 요구 사항에 대해 알아보십시오. '
 uuid: e870b198-19ae-4647-8833-2764358de53d
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 43df059d-7c4d-481a-978a-ca4c74e604b4
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 44%
+source-wordcount: '93'
+ht-degree: 43%
 
 ---
 
