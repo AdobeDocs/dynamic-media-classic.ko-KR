@@ -1,8 +1,6 @@
 ---
 title: '"빠른 시작: 이미지 크기 조정"'
-seo-title: '"빠른 시작: 이미지 크기 조정"'
-description: 널
-seo-description: 이미지 크기 조정 기법을 신속하게 시작하고 실행할 수 있는 소개 및 빠른 이미지 크기 조정 기능을 소개합니다.
+description: 이미지 크기 조정 기법을 신속하게 시작하고 실행할 수 있는 소개 및 빠른 이미지 크기 조정 기능을 소개합니다.
 uuid: 6c4ad4b7-549d-4daa-b6b9-5997a8427af8
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '846'
 ht-degree: 55%
 
 ---
