@@ -1,8 +1,6 @@
 ---
 title: 회전 집합 만들기
-seo-title: 회전 집합 만들기
-description: 널
-seo-description: 회전 집합을 만드는 방법을 알아봅니다.
+description: 회전 집합을 만드는 방법을 알아봅니다.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '906'
+source-wordcount: '901'
 ht-degree: 74%
 
 ---
