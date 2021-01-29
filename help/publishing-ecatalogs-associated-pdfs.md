@@ -1,8 +1,6 @@
 ---
 title: e카탈로그 및 관련 PDF 게시
-seo-title: e카탈로그 및 관련 PDF 게시
-description: 널
-seo-description: e카탈로그 및 관련 PDF를 게시하는 방법에 대해 알아봅니다.
+description: e카탈로그 및 관련 PDF를 게시하는 방법에 대해 알아봅니다.
 uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 34%
+source-wordcount: '182'
+ht-degree: 35%
 
 ---
 
