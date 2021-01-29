@@ -1,8 +1,6 @@
 ---
 title: 다른 확대/축소 뷰어를 사용하여 이미지 자산 미리 보기
-seo-title: 다른 확대/축소 뷰어를 사용하여 이미지 자산 미리 보기
-description: 널
-seo-description: 다양한 확대/축소 뷰어를 사용하여 이미지 자산을 미리 보는 방법을 알아봅니다.
+description: 다양한 확대/축소 뷰어를 사용하여 이미지 자산을 미리 보는 방법을 알아봅니다.
 uuid: 244c0faa-2a33-416f-8987-bdc0c85f5c2e
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: b072d3b7-0d30-4903-9c87-5fbbcc89bd51
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 87%
+source-wordcount: '247'
+ht-degree: 90%
 
 ---
 
