@@ -1,8 +1,6 @@
 ---
 title: '"빠른 시작:eCatalogs"'
-seo-title: '"빠른 시작:eCatalogs"'
-description: 널
-seo-description: eCatalog 기법을 신속하게 시작하고 실행하는 데 도움이 되는 소개 및 빠른 eCatalogs 시작
+description: eCatalog 기법을 신속하게 시작하고 실행하는 데 도움이 되는 소개 및 빠른 eCatalogs 시작
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 translation-type: tm+mt
-source-git-commit: 83b88623b898fdadd1b334b1c12901830c831c5c
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1450'
+source-wordcount: '1446'
 ht-degree: 64%
 
 ---
