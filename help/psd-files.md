@@ -1,8 +1,6 @@
 ---
 title: PSD 파일 작업
-seo-title: PSD 파일 작업
-description: 널
-seo-description: PSD 파일을 사용하여 작업하는 방법을 살펴봅니다.
+description: PSD 파일을 사용하여 작업하는 방법을 살펴봅니다.
 uuid: 5836b660-6bca-46e7-ab39-1a31d1e0cff2
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1025'
 ht-degree: 64%
 
 ---
