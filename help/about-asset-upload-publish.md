@@ -1,17 +1,14 @@
 ---
 title: 자산 업로드 및 게시 정보
-seo-title: 자산 업로드 및 게시 정보
-description: 널
-seo-description: Dynamic Media Classic에서 자산 업로드 및 게시에 대한 소개입니다.
-uuid: 01a9c2d7-16bf-4fb2-9001-cb07a6233692
+description: Dynamic Media Classic에서 자산 업로드 및 게시에 대한 소개입니다.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 47dcbb26-b90f-40d7-964e-f08fe98fcdbb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '221'
+source-wordcount: '215'
 ht-degree: 35%
 
 ---
