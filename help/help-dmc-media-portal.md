@@ -1,8 +1,6 @@
 ---
 title: Dynamic Media Classic Media Portal 도움말
-seo-title: Dynamic Media Classic Media Portal 도움말
-description: 널
-seo-description: Dynamic Media Classic Media Portal에 대한 도움말을 가져오는 방법을 알아봅니다.
+description: Dynamic Media Classic Media Portal에 대한 도움말을 가져오는 방법을 알아봅니다.
 uuid: d8d2ebe1-0228-43c3-8321-c51ffac7fd58
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: a55f7279-6bba-43f1-99fa-88e922ac1803
 translation-type: tm+mt
-source-git-commit: 38f5cf5264f9775a225d354ed9dc2f6caee236f2
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '90'
-ht-degree: 1%
+source-wordcount: '82'
+ht-degree: 0%
 
 ---
 
