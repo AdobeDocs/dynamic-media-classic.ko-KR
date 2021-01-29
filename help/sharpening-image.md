@@ -1,8 +1,6 @@
 ---
 title: 이미지를 선명하게 하기
-seo-title: 이미지를 선명하게 하기
-description: 널
-seo-description: 이미지를 선명하게 하는 방법을 알아봅니다.
+description: 이미지를 선명하게 하는 방법을 알아봅니다.
 uuid: d86af74a-89c5-4f2b-96ba-f2e7da600bca
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2155'
 ht-degree: 73%
 
 ---
@@ -40,7 +38,7 @@ Dynamic Media Classic에서는 뷰어 사전 설정에 선명하게 하기를 �
 
 Dynamic Media Classic 및 Dynamic Media Image Server에서 이미지의 선명하게 하기를 최적화하기 위해 수행할 수 있는 우수 사례가 있습니다.
 
-Dynamic Media Classic 및 Dynamic Media 이미지 서버에서 이미지를 선명하게 하기 위한 모범 사례[를 참조하십시오.](/help/assets/s7_sharpening_images.pdf)
+Dynamic Media Classic 및 Dynamic Media 이미지 서버에서 이미지를 선명하게 하기 위한 모범 사례](/help/assets/s7_sharpening_images.pdf)를 참조하십시오.[
 
 **이미지를 선명하게 하려면**
 
