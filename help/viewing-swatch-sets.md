@@ -1,8 +1,6 @@
 ---
 title: 견본 집합 보기
-seo-title: 견본 집합 보기
-description: 널
-seo-description: 견본 집합을 보는 방법에 대해 알아봅니다.
+description: 견본 집합을 보는 방법에 대해 알아봅니다.
 uuid: 80df403b-b03f-428f-9784-c3f774567bd0
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 48de8604-2bb4-4862-82ee-0c7847f0d0e7
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '430'
 ht-degree: 86%
 
 ---
