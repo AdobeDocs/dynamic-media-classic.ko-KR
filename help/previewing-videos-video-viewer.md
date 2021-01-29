@@ -1,8 +1,6 @@
 ---
 title: 비디오 뷰어에서 비디오 미리 보기
-seo-title: 비디오 뷰어에서 비디오 미리 보기
-description: 널
-seo-description: 비디오 뷰어에서 비디오를 미리 보는 방법을 알아봅니다.
+description: 비디오 뷰어에서 비디오를 미리 보는 방법을 알아봅니다.
 uuid: 7ab4e805-6e5d-461b-bd99-5e09b9ced950
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '767'
 ht-degree: 84%
 
 ---
