@@ -1,8 +1,6 @@
 ---
 title: 템플릿 만들기
-seo-title: 템플릿 만들기
-description: 널
-seo-description: Dynamic Media Classic에서 템플릿을 만드는 방법을 알아봅니다.
+description: Dynamic Media Classic에서 템플릿을 만드는 방법을 알아봅니다.
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '3441'
+source-wordcount: '3437'
 ht-degree: 65%
 
 ---
@@ -173,7 +171,7 @@ ht-degree: 65%
 
    **정렬** 을 클릭하여 정렬 유형을 지정합니다.왼쪽 정렬, 가운데 정렬, 오른쪽 정렬 또는 양쪽 정렬
 
-   **단락 양쪽 맞춤** 끝단락의 마지막 줄에 대한 정렬 유형을 지정하려면 다음을 클릭합니다.마지막 줄 왼쪽 정렬마지막 줄 가운데 정렬마지막 줄이 오른쪽으로 정렬됩니다.
+   **단락 양쪽 맞춤** 끝단락의 마지막 행에 대한 정렬 유형을 지정하려면 다음을 클릭합니다.마지막 줄 왼쪽 정렬마지막 줄 가운데 정렬마지막 줄이 오른쪽으로 정렬됩니다.
 
    **줄** 간격 유형단락의 모든 행 사이의 간격 크기를 조정할 숫자 값을 선택하거나 선택합니다.
 
