@@ -1,8 +1,6 @@
 ---
 title: 템플릿 게시
-seo-title: 템플릿 게시
-description: 널
-seo-description: 템플릿을 게시하는 방법에 대해 알아봅니다.
+description: 템플릿을 게시하는 방법에 대해 알아봅니다.
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 41%
+source-wordcount: '172'
+ht-degree: 40%
 
 ---
 
