@@ -1,15 +1,13 @@
 ---
 title: 널리 사용되는 리소스
-seo-title: 널리 사용되는 리소스
-description: 널
-seo-description: 웨비나, 교육 비디오, 모범 사례 정보 및 개발자 리소스에 대한 링크입니다.
+description: 웨비나, 교육 비디오, 모범 사례 정보 및 개발자 리소스에 대한 링크입니다.
 uuid: a2ef0e50-056c-4528-96d8-343c24f944a2
 contentOwner: Rick Brough
 discoiquuid: 094f1894-59f9-4e66-aa0a-1e0c4d7cc452
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '565'
 ht-degree: 15%
 
 ---
