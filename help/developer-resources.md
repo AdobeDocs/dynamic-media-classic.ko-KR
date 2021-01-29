@@ -1,17 +1,15 @@
 ---
 title: 개발자 리소스
-seo-title: 개발자 리소스
-description: 널
-seo-description: Dynamic Media에 사용할 수 있는 개발자 리소스에 대해 알아봅니다.
+description: Dynamic Media에 사용할 수 있는 개발자 리소스에 대해 알아봅니다.
 uuid: 97702f33-fb9c-4ba7-9c42-757dec7e6645
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '284'
 ht-degree: 34%
 
 ---
