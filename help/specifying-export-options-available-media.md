@@ -1,18 +1,16 @@
 ---
 title: Media Portal 사용자가 사용할 수 있는 내보내기 옵션 지정
-seo-title: Media Portal 사용자가 사용할 수 있는 내보내기 옵션 지정
-description: 널
-seo-description: Media Portal 사용자가 사용할 수 있는 내보내기 옵션을 지정하는 방법을 알아봅니다.
+description: Media Portal 사용자가 사용할 수 있는 내보내기 옵션을 지정하는 방법을 알아봅니다.
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 82%
+source-wordcount: '368'
+ht-degree: 83%
 
 ---
 
@@ -26,7 +24,7 @@ ht-degree: 82%
 * 내보내기 작업에 대해 ZIP 압축 내보내기 파일의 최대 파일 크기는 1 GB입니다.
 * 내보내기 작업당 최대 총 500개의 자산을 가질 수 있습니다.
 
-Dynamic Media Classic[에서 자산 내보내기를 참조하십시오.](exporting-assets-from-dmc.md#exporting-assets-from_dmc)
+Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from_dmc)에서 자산 내보내기를 참조하십시오.[
 
 **Media Portal 사용자가 사용할 수 있는 내보내기 선택 사항을 지정하려면**
 
