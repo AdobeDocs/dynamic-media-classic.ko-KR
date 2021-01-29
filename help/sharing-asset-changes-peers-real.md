@@ -1,8 +1,6 @@
 ---
 title: 자산 변경 사항을 피어와 실시간으로 공유
-seo-title: 자산 변경 사항을 피어와 실시간으로 공유
-description: 널
-seo-description: 에셋 변경 내용을 동료와 실시간으로 공유하는 방법을 살펴볼 수 있습니다.
+description: 에셋 변경 내용을 동료와 실시간으로 공유하는 방법을 살펴볼 수 있습니다.
 uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
 contentOwner: admin
 content-type: reference
@@ -10,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 translation-type: tm+mt
-source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 71%
+source-wordcount: '270'
+ht-degree: 70%
 
 ---
 
