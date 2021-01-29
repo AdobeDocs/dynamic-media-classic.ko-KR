@@ -1,8 +1,6 @@
 ---
-title: '"우수 사례: HTML5 비디오 뷰어 사용"'
-seo-title: '"우수 사례: HTML5 비디오 뷰어 사용"'
-description: 널
-seo-description: HTML5 비디오 뷰어 사용에 대한 우수 사례에 대해 알아봅니다.
+title: HTML5 비디오 뷰어 사용 우수 사례
+description: HTML5 비디오 뷰어 사용에 대한 우수 사례에 대해 알아봅니다.
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
 contentOwner: admin
 content-type: reference
@@ -10,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 30%
+source-wordcount: '422'
+ht-degree: 26%
 
 ---
 
 
-# 우수 사례: HTML5 비디오 뷰어 사용{#best-practice-using-the-html-video-viewer}
+# HTML5 비디오 뷰어 사용 우수 사례{#best-practice-using-the-html-video-viewer}
 
 Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 강력한 비디오 플레이어입니다. 플레이어의 디자인 측면에서는 표준 웹 개발 도구를 사용하여 비디오 플레이어의 모든 기능을 만들 수 있습니다. 예를 들어 HTML5 및 CSS를 사용하여 단추, 컨트롤 및 사용자 지정 포스터 이미지 배경을 디자인하면 사용자 지정된 모습으로 고객 범위를 넓힐 수 있습니다.
 
