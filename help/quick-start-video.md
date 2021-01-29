@@ -1,8 +1,6 @@
 ---
 title: '"빠른 시작: 비디오"'
-seo-title: '"빠른 시작: 비디오"'
-description: 널
-seo-description: 소개 및 빠른 비디오 시작을 통해 신속하게 작업을 시작할 수 있습니다.
+description: 소개 및 빠른 비디오 시작을 통해 신속하게 작업을 시작할 수 있습니다.
 uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
 contentOwner: admin
 content-type: reference
@@ -10,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1439'
 ht-degree: 65%
 
 ---
@@ -59,11 +57,11 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android, Blackberry 및 
 
    Dynamic Media Classic에서는 MP4 H.264 비디오에 대한 모바일 비디오 재생을 지원합니다. 다음 웹 사이트에서 이 비디오 형식을 지원하는 Blackberry 장치를 찾을 수 있습니다.
 
-   Blackberry[에서 지원되는 비디오 형식을 참조하십시오.](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482)
+   Blackberry](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482)에서 지원되는 비디오 형식을 참조하십시오.[
 
    다음 웹 사이트에서 이 비디오 형식을 지원하는 Windows 장치를 찾을 수 있습니다.
 
-   Windows Phone[에서 지원되는 비디오 형식을 참조하십시오.](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)
+   Windows Phone](https://msdn.microsoft.com/en-us/library/ff462087(v=vs.92).aspx)에서 지원되는 비디오 형식을 참조하십시오.[
 
 * 다음을 포함한 Dynamic Media Classic 뷰어 사전 설정을 사용하여 비디오를 재생합니다.
 
