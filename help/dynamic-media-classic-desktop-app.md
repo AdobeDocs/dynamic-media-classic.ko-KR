@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 84a36e45ecf5fb027645e0f9da40b00ad3ce29e0
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -22,21 +22,22 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->2020년 10월 1일까지 새로운 Adobe Dynamic Media Classic 데스크탑 앱을 설치하는 것이 좋습니다. 그렇게 하면 2020년 12월 31일 Adobe Flash Player이 중단되기 전에 원활한 전환을 수행할 수 있습니다. 이 날짜에 더 이상 제품에서 Dynamic Media Classic으로 레이블이 지정된 Adobe Dynamic Media Classic 사용자 인터페이스의 브라우저 버전에 로그인할 수 없습니다.
+>Adobe은 2020년 10월 1일까지 새로운 Adobe Dynamic Media Classic 데스크탑 앱을 설치할 것을 권장합니다. 그렇게 하면 2020년 12월 31일 Adobe Flash Player이 중단되기 전에 원활한 전환을 수행할 수 있습니다. 이 날짜 이후에는 제품에서 Dynamic Media Classic으로 레이블이 지정된 Adobe Dynamic Media Classic 사용자 인터페이스의 브라우저 버전에 로그인할 수 없습니다.
 
 지금 사용 가능한 [새 Dynamic Media Classic 로그인 환경에 대한 FAQ를 참조하십시오.](/help/new-ui-2020.md)
 
 ## Adobe Dynamic Media Classic 데스크톱 앱 {#system-requirements-dmc-app} 시스템 요구 사항
 
 Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환됩니다.
-* macOS X 10.10 이상.
+
+* macOS 10.10 이상.
 * Windows 7 이상
 
 ## 최신 버전 수정 사항(20.21.1) {#latest-fixes-desktop-app}
 
-* 시간 초과로 인해 다음 메시지가 발생하여 로그인 문제가 발생했습니다.*이 사용자는 권한 없이 그룹에 할당될 수 있습니다. 관리자에게 문의하십시오.*
+* 시간 초과로 인해 다음 메시지가 발생하여 로그인 문제가 발생했습니다.*이 사용자는 권한이 없는 그룹 또는 그룹에 할당될 수 있습니다. 관리자에게 문의하십시오.*
 * 잘못된 암호를 시도할 때마다 뷰어 사전 설정이 중복됩니다.
-* 루트 폴더의 많은 에셋으로 인해 데스크톱 응용 프로그램이 응답하지 않습니다. (Windows에서 수정됨)macOS에서 원하는 대로 작업하십시오.)
+* 루트 폴더에 많은 에셋이 있어 데스크톱 응용 프로그램이 응답하지 않습니다. (Windows에서 수정됨)macOS에서 원하는 대로 작업하십시오.)
 
 ## 이전 버전의 수정 사항(20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -84,7 +85,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
    ![Dynamic Media Classic 로그인](/help/assets/dmclassic-login1.png)
 
-1. 브라우저 자격 증명과 동일한 자격 증명을 사용하여 Adobe Dynamic Media Classic에 로그인합니다.
+1. Adobe Dynamic Media Classic 데스크톱 앱에 로그인하려면 브라우저에서 Dynamic Media Classic에 로그온하는 데 사용한 자격 증명을 사용합니다.
 
    **[!UICONTROL 서버]**&#x200B;에서 사용하려면 프로덕션 환경에 대한 다음 매핑을 참조하십시오.
 
@@ -94,7 +95,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
    | https://s7sps3.scene7.com/ | EMEA(유럽, 중동 및 아프리카) 프로덕션 |
    | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
 
-1. 로그인 UI를 게시하면 친숙한 브라우저 UI 환경이 표시됩니다. 이제 데스크탑 앱 UI에서 평소대로 일상적인 작업을 수행할 수 있습니다.
+1. 로그인하면 친숙한 브라우저 사용자 인터페이스 환경을 알 수 있습니다. 데스크톱 앱에서 평소대로 Dynamic Media Classic 활동을 계속할 수 있습니다.
 
 ## macOS {#install-silent-mac-dmc-app}에 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하고 *silent* 설치
 
@@ -124,7 +125,7 @@ Unmount DMG - hdiutil detach <mount_point_path>`
 
    ![Dynamic Media Classic 로그인](/help/assets/dmclassic-login1.png)
 
-1. 브라우저 자격 증명과 동일한 자격 증명을 사용하여 Adobe Dynamic Media Classic에 로그인합니다.
+1. Adobe Dynamic Media Classic 데스크톱 앱에 로그인하려면 브라우저에서 Dynamic Media Classic에 로그온하는 데 사용한 자격 증명을 사용합니다.
 
    **[!UICONTROL 서버]**&#x200B;에서 사용하려면 프로덕션 환경에 대한 다음 매핑을 참조하십시오.
 
@@ -169,7 +170,7 @@ Windows에서 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 �
 
    ![Dynamic Media Classic 로그인](/help/assets/dmclassic-login1.png)
 
-1. 브라우저 자격 증명과 동일한 자격 증명을 사용하여 Adobe Dynamic Media Classic에 로그인합니다.
+1. Adobe Dynamic Media Classic 데스크톱 앱에 로그인하려면 브라우저에서 Dynamic Media Classic에 로그온하는 데 사용한 자격 증명을 사용합니다.
 
    **[!UICONTROL 서버]**&#x200B;에서 사용하려면 프로덕션 환경에 대한 다음 매핑을 참조하십시오.
 
@@ -194,7 +195,7 @@ Dynamic Media Classic 데스크톱 앱 사용](https://docs.adobe.com/content/he
 
 ### 수동으로 이미지 캐시 및 자산 캐시 지우기
 
-데스크톱 앱을 사용하여 이미지 및 자산 캐시를 지우는 것 외에도, 파일 시스템에서 직접 캐시를 지워서 이 작업을 수동으로 수행할 수도 있습니다.
+데스크탑 앱을 사용하여 이미지 및 자산 캐시를 지울 뿐만 아니라 파일 시스템에서 직접 캐시를 수동으로 지울 수 있습니다.
 
 1. 운영 체제에 따라 다음 항목으로 이동합니다.
 
@@ -207,7 +208,7 @@ Dynamic Media Classic 데스크톱 앱 사용](https://docs.adobe.com/content/he
 
 **_Windows 및 macOS에 적용 - 회사 간에 전환하려면 어떻게 해야 합니까?_**<br>회사 간에 전환하려면 다음을 수행합니다.
 * Dynamic Media Classic 앱의 회사 드롭다운 목록에서 새 회사를 선택합니다.
-* 팝업이 나타나면 **[!UICONTROL OK]**&#x200B;을 탭하여 로그아웃하고 앱을 닫습니다.
+* 팝업 창이 나타나면 **[!UICONTROL OK]**&#x200B;을 눌러 로그아웃하고 앱을 닫습니다.
 
    ![새 회사를 사용하려면 앱을 다시 시작합니다.](/help/assets/dmclassic-new-company1.png)
 * Dynamic Media Classic을 다시 시작한 다음 평소대로 로그인하여 새 회사와 함께 작업하십시오.
@@ -216,7 +217,7 @@ Dynamic Media Classic 데스크톱 앱 사용](https://docs.adobe.com/content/he
 
 **_Dynamic Media Classic의 랜딩 페이지에서 미디어 장바구니 패널을 볼 수 없습니다._**<br>Dynamic Media Classic에서 설정**[!UICONTROL > 개인 설정을 누릅니다&#x200B;]**. 브라우저 섹션에서**[!UICONTROL MediaPortal 기능 표시&#x200B;]**가 선택(선택)되었는지 확인합니다.**[!UICONTROL 저장 > 닫기&#x200B;]**를 누릅니다.
 
-**_자산의 게시 상태(녹색 표시기)가 올바르게 반영되지 않습니다._**<br>브라우저 UI에서 자산의 올바른 게시 상태를 보려면 UI에 다시 로그인해야 합니다. 데스크톱 앱에서는**[!UICONTROL 없음&#x200B;]**단추 오른쪽에**[!UICONTROL 새로 고침&#x200B;]**아이콘이 도구 모음에 표시됩니다. 지정된 페이지에 있는 모든 자산의 최신 상태를 보려면**[!UICONTROL 새로 고침&#x200B;]**아이콘을 누릅니다. 브라우저 UI에 다시 로그인할 필요가 없습니다.
+**_자산의 게시 상태(녹색 표시기)가 올바르게 반영되지 않습니다._**<br>브라우저 사용자 인터페이스에서 자산의 올바른 게시 상태를 보려면 UI에 다시 로그인해야 합니다. 데스크톱 앱에서 Adobe은**[!UICONTROL 선택 없음&#x200B;]**단추 오른쪽에 도구 모음에**[!UICONTROL 새로 고침&#x200B;]**아이콘을 도입했습니다. 지정된 페이지에 있는 모든 자산의 최신 상태를 보려면**[!UICONTROL 새로 고침&#x200B;]**아이콘을 누릅니다. 브라우저 UI에 다시 로그인할 필요가 없습니다.
 
 ![새로 고침 ](/help/assets/refresh-icon1.png)
 *아이콘새로 고침 아이콘*
