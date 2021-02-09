@@ -1,14 +1,12 @@
 ---
 title: 지원
 description: 기술 지원 옵션에 대한 자세한 내용을 살펴보십시오.
-uuid: b4927dc0-3a58-43da-b967-d00e2582cb15
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
-discoiquuid: 05e443b2-ac15-4d87-859a-271699593304
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
 source-wordcount: '185'
 ht-degree: 34%
