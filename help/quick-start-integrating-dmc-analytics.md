@@ -1,16 +1,14 @@
 ---
 title: '"빠른 시작:Dynamic Media Classic 및 Adobe Analytics 통합"'
-description: 빠르게 시작하고 실행하는 데 도움이 되는 Dynamic Media Classic 및 Adobe 분석 통합을 소개하는 소개 및 빠른 시작.
-uuid: 3f9e2c91-15d4-4b53-8220-9b1ca57c0b1d
+description: Dynamic Media Classic 및 Adobe Analytics의 통합을 소개하는 소개 및 빠른 시작을 통해 신속하게 작업을 시작하고 실행할 수 있습니다.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: abec9a85-013c-4030-b129-bf27a89cb464
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '671'
 ht-degree: 45%
 
 ---
@@ -24,7 +22,7 @@ Adobe Analytics을 Dynamic Media Classic과 통합한 후 웹 사이트에서 Dy
 
 Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명확하게 파악할 수 있습니다. 전환을 발생시키는 제품 프레젠테이션과 고객의 관심을 끌지 못한 제품 프레젠테이션을 확인할 수 있습니다.
 
-[Adobe Analytics에서 비디오 측정](https://docs.adobe.com/content/help/en/media-analytics/using/media-overview.html)을 참조하십시오.
+[Adobe Analytics에서 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html)을 참조하십시오.
 
 >[!NOTE]
 >
