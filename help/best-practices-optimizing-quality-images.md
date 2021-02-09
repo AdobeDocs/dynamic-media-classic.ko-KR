@@ -1,16 +1,14 @@
 ---
 title: 이미지 품질 최적화 우수 사례
 description: 이미지 품질을 최적화하기 위한 모범 사례를 살펴봅니다.
-uuid: 102e83fe-ee2a-443b-ba92-6ad5cc3daef0
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 8164466e-2520-482a-88ec-6191fdc77ea3
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1517'
+source-wordcount: '1474'
 ht-degree: 60%
 
 ---
@@ -22,7 +20,7 @@ ht-degree: 60%
 
 Dynamic Media Classic에는 이미지를 조정 및 최적화하고 결과를 렌더링하기 위한 100개 이상의 이미지 제공 명령이 포함되어 있습니다. 다음 지침은 프로세스를 간소화하고 일부 필수 명령 및 우수 사례를 사용하여 좋은 결과를 빨리 얻는 데 도움이 될 수 있습니다.
 
-[스마트 이미징](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)도 참조하십시오.
+[스마트 이미징](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)도 참조하십시오.
 
 ## 이미지 형식(&amp;fmt=) {#best-practices-for-image-format-fmt} 우수 사례
 
@@ -50,7 +48,7 @@ Dynamic Media Classic에는 이미지를 조정 및 최적화하고 결과를 �
 
 우수 사례 백서 [Adobe Dynamic Media Classic 및 이미지 서버에서 이미지 선명하게 하기](/help/assets/s7_sharpening_images.pdf)입니다.
 
-[언샵 마스크가 있는 이미지 선명하게 하기를 참조하십시오](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html).
+<!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
 Dynamic Media Classic을 사용하면 통합, 전달 시 또는 두 가지 모두를 통해 이미지를 선명하게 만들 수 있습니다. 하지만 대부분의 경우, 두 가지 방식을 모두 사용하지는 않고 어느 한 가지 방법만 사용하여 이미지를 선명하게 해야 합니다. URL에서 제공 시 이미지를 선명하게 하면 일반적으로 가장 좋은 결과를 얻게 됩니다.
 
@@ -70,11 +68,7 @@ Dynamic Media Classic을 사용하면 통합, 전달 시 또는 두 가지 모�
 
          이 매개 변수는, 가장자리 픽셀로 간주되고 필터가 선명하게 하기 전에, 선명하게 되는 픽셀과 주변 영역 간의 필수 차이를 결정합니다. 임계값은 피부 톤과 같이 유사한 색상 영역을 지나치게 선명하게 하는 것을 방지하는 데 유용합니다. 예를 들어 임계값 12는 &quot;노이즈&quot;를 추가하지 않도록 피부 톤 밝기에서 약간의 변형을 무시하는 반면, 속눈썹이 피부와 접촉하는 지점과 같은 고대비 영역에는 여전히 가장자리 대비를 추가합니다.
 
-         필터와 함께 사용하는 우수 사례 등 이러한 세 가지 매개 변수를 설정하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
-
-         [이미지 선명하게 하기](https://help.adobe.com/en_US/scene7/using/WS389B162D-2981-41e5-9253-15D22D2ECBC8.html)에 대한 Dynamic Media Classic 도움말 항목입니다.
-
-         우수 사례 백서 [Adobe Scene7 Publishing System 및 이미지 서버에서 이미지 선명하게 하기](/help/assets/s7_sharpening_images.pdf)입니다.
+         필터와 함께 사용하는 모범 사례를 비롯하여 이러한 3개의 매개 변수를 설정하는 방법에 대한 자세한 내용은 Adobe Scene7 Publishing System 및 이미지 서버의 이미지 선명하게 하기](/help/assets/s7_sharpening_images.pdf)를 참조하십시오.[
 
       * Dynamic Media Classic에서는 네 번째 매개 변수를 제어할 수도 있습니다.단색( `0,1`). 이 매개 변수는 언샵 마스킹이 값 `0`을 따로따로 사용하여 각 색상 구성 요소에 적용될지, 아니면 값 `1`을 사용하여 이미지 밝기/강도에 적용될지를 결정합니다.
 
