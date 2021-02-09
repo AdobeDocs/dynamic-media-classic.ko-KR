@@ -1,16 +1,14 @@
 ---
 title: '"빠른 시작: 비디오"'
-description: 소개 및 빠른 비디오 시작을 통해 신속하게 작업을 시작할 수 있습니다.
-uuid: bf0ecf87-a1f2-4e83-8041-df5192dd26a1
+description: Dynamic Media Classic 비디오를 빠르게 시작하고 실행하는 데 도움이 되는 소개 및 빠른 시작을 참조하십시오.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6cef541b-e9df-48eb-9a16-ca3e1f07238e
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1441'
 ht-degree: 65%
 
 ---
@@ -53,7 +51,7 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android, Blackberry 및 
 
    적응형 비디오 스트리밍은 다양한 iOS 플랫폼에서 지원됩니다.
 
-   [Adobe 뷰어 참조 안내서](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)에서 최신 지원을 참조하십시오.
+   [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)에서 최신 지원을 참조하십시오.
 
    Dynamic Media Classic에서는 MP4 H.264 비디오에 대한 모바일 비디오 재생을 지원합니다. 다음 웹 사이트에서 이 비디오 형식을 지원하는 Blackberry 장치를 찾을 수 있습니다.
 
