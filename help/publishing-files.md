@@ -1,17 +1,15 @@
 ---
 title: 파일 게시
-description: 파일을 게시하는 방법에 대해 알아봅니다.
-uuid: cdcf519b-4c1e-430b-b43a-2f20f75071b1
+description: 자산을 Dynamic Media 이미지 서버에 게시합니다. 자산을 한 번에 게시하거나 Dynamic Media Classic에서 반복적으로 자산을 게시하도록 정렬할 수 있습니다. 자산이 게시되면 제공할 수 있습니다. Dynamic Media Classic에서 URL 호출을 복사하고 웹 사이트 또는 애플리케이션에 추가할 수 있습니다.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: 39099bc0-9228-46f0-9bee-3542059f4695
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1654'
-ht-degree: 76%
+source-wordcount: '1706'
+ht-degree: 75%
 
 ---
 
@@ -20,7 +18,7 @@ ht-degree: 76%
 
 자산을 Dynamic Media 이미지 서버에 게시합니다. 자산을 한 번에 게시하거나 Dynamic Media Classic에서 반복적으로 자산을 게시하도록 정렬할 수 있습니다. 자산이 게시되면 제공할 수 있습니다. Dynamic Media Classic에서 URL 호출을 복사하고 웹 사이트 또는 애플리케이션에 추가할 수 있습니다.
 
-이제 Dynamic Media Classic에서는 HTTP/2를 통한 모든 이미지 및 비디오 제공을 지원합니다. 즉, 이미지 또는 비디오에 대해 게시된 URL 또는 포함 코드는 호스팅된 자산을 허용하는 모든 응용 프로그램과 통합할 수 있습니다. 이렇게 게시된 자산은 HTTP/2 프로토콜을 통해 전달됩니다. 이 방식의 전달은 브라우저 및 서버의 통신 방식을 개선하여 모든 Dynamic Media Classic 에셋의 응답과 로드 시간을 향상시킵니다. [콘텐츠 FAQ ](https://docs.adobe.com/content/docs/en/aem/6-2/administer/integration/marketing-cloud/scene7/http2faq.html)의 HTTP2 제공을 참조하십시오.
+이제 Dynamic Media Classic에서는 HTTP/2를 통한 모든 이미지 및 비디오 제공을 지원합니다. 즉, 이미지 또는 비디오에 대해 게시된 URL 또는 포함 코드는 호스팅된 자산을 허용하는 모든 응용 프로그램과 통합할 수 있습니다. 이렇게 게시된 자산은 HTTP/2 프로토콜을 통해 전달됩니다. 이 방식의 전달은 브라우저 및 서버의 통신 방식을 개선하여 모든 Dynamic Media Classic 에셋의 응답과 로드 시간을 향상시킵니다. [콘텐츠 FAQ ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic)의 HTTP2 제공을 참조하십시오.
 
 ## 업로드 후 게시 {#publish-after-uploading}
 
