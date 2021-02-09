@@ -8,9 +8,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 26%
 
 ---
@@ -24,7 +24,7 @@ Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 강력한 비디�
 
 HTML5 및 CSS를 사용하여 재생 구성 요소를 디자인하고 포함 재생을 제공하며 브라우저의 기능에 따라 응용 및 점진적 스트리밍을 사용하는 기능을 단일 플레이어에 결합하여 리치 미디어 컨텐츠의 범위를 데스크톱 및 모바일 사용자로 확장하고 스트리밍된 비디오 환경을 보장할 수 있습니다.
 
-Adobe 뷰어 참조 안내서의 [HTML5 뷰어 정보](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html)도 참조하십시오.
+Adobe 뷰어 참조 안내서의 [HTML5 뷰어 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)도 참조하십시오.
 
 ## Dynamic Media Classic 비디오 뷰어 {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}를 사용하여 데스크톱 컴퓨터와 모바일 장치에서 비디오 재생
 
