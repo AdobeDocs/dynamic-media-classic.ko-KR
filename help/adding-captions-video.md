@@ -6,9 +6,9 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '905'
 ht-degree: 61%
 
 ---
@@ -34,7 +34,7 @@ ht-degree: 61%
 
 Dynamic Media Classic에는 캡션 파일을 JSON(JavaScript 개체 표기법) 형식으로 변환하는 기능이 있습니다. 이 변환은 JSON 텍스트를 숨겨져 있지만 완전한 비디오의 스크립트로서 웹 페이지에 포함할 수 있음을 의미합니다. 이렇게 되면 검색 엔진이 컨텐츠를 탐색하고 색인화하여 비디오를 더 쉽게 검색할 수 있도록 하고, 고객에게 비디오 컨텐츠에 대한 추가적인 세부 정보를 제공할 수 있습니다.
 
-URL에서 JSON 함수 사용에 대한 자세한 내용은 *Adobe 이미지 제공 API 도움말*&#x200B;의 [정적(이미지가 아님) 컨텐츠 제공](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html)을 참조하십시오.
+URL에서 JSON 함수 사용에 대한 자세한 내용은 *Adobe 이미지 제공 API 도움말*&#x200B;의 [정적(이미지가 아님) 컨텐츠 제공](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api)을 참조하십시오.
 
 **비디오에 캡션을 추가하려면**
 
