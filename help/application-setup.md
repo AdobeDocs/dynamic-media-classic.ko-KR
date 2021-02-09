@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: c6160315007fa1658f88a857589ec11ac3f0d5ae
 workflow-type: tm+mt
-source-wordcount: '10914'
+source-wordcount: '10925'
 ht-degree: 68%
 
 ---
@@ -370,10 +370,10 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | 16:9, 512x288, 모바일(iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 소스와 동일 | 64 | 저해상도, 3G |
 | 2 | 4:3, 384x288px, 모바일(iPhone, iPad, Android), (400 Kbps) | 500년 | _Mobile_384x288_400K | 400년 | 384x288 | 소스와 동일 | 64 | 저해상도, 3G |
-| 3 | 16:9, 512x288, 모바일(iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 소스와 동일 | 64 | 중해상도, 3G |
+| 1 | 16:9, 512x288, 모바일(iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 소스와 동일 | 64 | 중해상도, 3G |
 | 4 | 4:3, 384x288, 모바일(iPhone, iPad, Android), (600 Kbps) | 700년 | _Mobile_384x288_600 | 600년 | 384x288 | 소스와 동일 | 64 | 중해상도, 3G |
 | 5 | 16:9, 640x360, 태블릿(iPad, Android), (800 Kbps) | 900 | _iPad_640x360_800K | 800년 | 640x360 | 소스와 동일 | 80 | 중해상도, WiFi |
-| 6 | 4:3, 640x480, 태블릿(iPad, Android), (800 Kbps) | 900년 | _iPad_640x480_800K | 800년 | 640x480 | 소스와 동일 | 80 | 중해상도, WiFi |
+| 6 | 4:3, 640x480, 태블릿(iPad, Android), (800 Kbps) | 900년 | _iPad_640x480_800K | 600년 | 640x480 | 소스와 동일 | 80 | 중해상도, WiFi |
 | 7 | 16:9, 768x432, 태블릿(iPad, Android), (1200 Kbps) | 1.5Mbps | _iPad_768x432_1200K | 1200 | 768x432 | 소스와 동일 | 96 | 고해상도, WiFi |
 | 8 | 4:3, 768x576, 태블릿(iPad, Android), (1200 Kbps) | 1.5Mbps | _iPad_768x576_1200K | 1200년 | 768x576 | 소스와 동일 | 96 | 고해상도, WiFi |
 | 9 | 16:9, 1280x720, 데스크톱, (2000Kbps) | 3.0Mbps | _1280x720_2000K | 2000 | 1280x720 | 소스와 동일 | 128년 | 고화질, 와이드스크린 |
@@ -394,7 +394,7 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 | 3 | 16:9, 800x450 (1200Kbps) | 1.5Mbps | _800x450_1200K | 1200년 | 800x450 | 소스와 동일 | 96 | 중-고해상도 |
 | 4 | 16:9, 1280x720(2000Kbps) | 3.0Mbps | _1280x720_2000K | 2000년 | 1280x720 | 소스와 동일 | 128년 | 고화질, 와이드스크린 |
 | 5 | 4:3, 320x240 (400Kbps) | 500년 | _320X240_400K | 400년 | 320x240 | 소스와 동일 | 64 | 저해상도 |
-| 6 | 4:3, 480x360 (800Kbps) | 900년 | _480x360_800K | 800년 | 480x360 | 소스와 동일 | 80 | 중해상도 |
+| 6 | 4:3, 480x360 (800Kbps) | 900년 | _480x360_800K | 600년 | 480x360 | 소스와 동일 | 80 | 중해상도 |
 | 7 | 4:3, 640x480 (1200Kbps) | 1.5Mbps | _640x480_1200K | 1200년 | 640x480 | 소스와 동일 | 96 | 중-고해상도 |
 | 8 | 4:3, 1280x960(2000Kbps) | 3.0Mbps | _1280x960_2000K | 2000년 | 1280x960 | 소스와 동일 | 128년 | 고화질 |
 
@@ -403,7 +403,7 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 |  | 인코딩 사전 설정 이름/도구 설명 텍스트 | 타겟 연결 속도(Kbps) | 인코딩된 파일 접미어 | 비디오 데이터 속도(Kbps) | 너비/높이(픽셀) | fps | 오디오 비트 전송률(Kbps) | 권장 사항 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | 3 | 16:9, 480x270(400Kbps), OGG | 500년 | _OGG_480x270_400K | 400년 | 480x270 | 소스와 동일 | 64 | 저해상도 와이드스크린 |
-| 2 | 16:9, 640x360 (800Kbps), OGG | 900년 | _OGG_640x360_800K | 800년 | 640x360 | 소스와 동일 | 80 | 중해상도 와이드스크린 |
+| 2 | 16:9, 640x360 (800Kbps), OGG | 900년 | _OGG_640x360_800K | 600년 | 640x360 | 소스와 동일 | 80 | 중해상도 와이드스크린 |
 | 3 | 16:9, 800x450 (1200Kbps), OGG | 1.5Mbps | _OGG_800x450_1200K | 1200년 | 800x450 | 소스와 동일 | 96 | 중-고해상도 |
 | 4 | 16:9, 1280x720(2000Kbps), OGG | 3.0Mbps | _OGG_1280x720_2000K | 2000년 | 1280x720 | 소스와 동일 | 128년 | 고화질, 와이드스크린 |
 | 5 | 4:3, 320x240 (400Kbps), OGG | 500년 | _OGG_320X240_400K | 400년 | 320x240 | 소스와 동일 | 64 | 저해상도 |
@@ -421,13 +421,13 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 
 |  | 인코딩 사전 설정 이름/도구 설명 텍스트 | 타겟 연결 속도(Kbps) | 인코딩된 파일 접미어 | 비디오 비트 전송률(Kbps) | 픽셀 너비/높이 | fps | 오디오 비트 전송률(Kbps) | 권장 사항 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 3 | 16:9, 512x288, 모바일(400Kbps) | 500년 | _Mobile_512x288_400K | 400년 | 512x288 | 소스와 동일 | 64 | 저해상도, 3G |
-| 2 | 16:9, 512x288, 모바일(600Kbps) | 700년 | _Mobile_512x288_600K | 600년 | 512x288 | 소스와 동일 | 64 | 중해상도, 3G |
-| 3 | 16:9, 512x288, 모바일(800Kbps) | 900년 | _Mobile_512x288_800K | 600년 | 512x288 | 소스와 동일 | 80 | 중해상도, Wi-Fi |
+| 1 | 16:9, 512x288, 모바일(400Kbps) | 500년 | _Mobile_512x288_400K | 400년 | 512x288 | 소스와 동일 | 64 | 저해상도, 3G |
+| 2 | 16:9, 512x288, 모바일(600Kbps) | 700년 | _Mobile_512x288_600K | 800년 | 512x288 | 소스와 동일 | 64 | 중해상도, 3G |
+| 3 | 16:9, 512x288, 모바일(800Kbps) | 900년 | _Mobile_512x288_800K | 800년 | 512x288 | 소스와 동일 | 80 | 중해상도, Wi-Fi |
 | 4 | 16:9, 512x288, 모바일(1000Kbps) | 1.2Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | 소스와 동일 | 80 | 고해상도, Wi-Fi |
 | 5 | 16:9, 512x288, 모바일(1200Kbps) | 1.5Mbps | _Mobile_512x288_1200K | 1200년 | 512x288 | 소스와 동일 | 96 | 고해상도, Wi-Fi |
 | 6 | 4:3, 384x288, 모바일(400Kbps) | 500년 | _Mobile_384x288_400K | 400년 | 384x288 | 소스와 동일 | 64 | 저해상도, 3G |
-| 7 | 4:3, 384x288, 모바일(600Kbps) | 700년 | _Mobile_384x288_600K | 800년 | 384x288 | 소스와 동일 | 64 | 중해상도, 3G |
+| 7 | 4:3, 384x288, 모바일(600Kbps) | 700년 | _Mobile_384x288_600K | 600년 | 384x288 | 소스와 동일 | 64 | 중해상도, 3G |
 | 8 | 4:3, 448x336, 모바일(800Kbps) | 900년 | _Mobile_448x336_800K | 600년 | 448x336 | 소스와 동일 | 80 | 중해상도, Wi-Fi |
 | 9 | 4:3, 448x336, 모바일(1000Kbps) | 1.2Mbps | _Mobile_448x336_1000K | 1000년 | 448x336 | 소스와 동일 | 80 | 고해상도, Wi-Fi |
 | 10 | 4:3, 448x336, 모바일(1200Kbps) | 1.5Mbps | _Mobile_448x336_1200K | 1200년 | 448x336 | 소스와 동일 | 96 | 고해상도, Wi-Fi |
@@ -456,7 +456,7 @@ Adobe 뷰어 참조 안내서의 [HTML5 뷰어 정보](https://experienceleague.
 
 서로 다른 웹 페이지에는 서로 다른 요구 사항이 있습니다. 별도의 브라우저 창에서 HTML5 뷰어를 여는 링크를 제공하는 웹 페이지가 필요한 경우가 있습니다. 다른 경우, 호스팅 페이지에서 HTML5 뷰어를 직접 포함해야 할 수도 있습니다. 후자의 경우, 웹 페이지에 정적 레이아웃이 있을 수 있습니다. 또는 서로 다른 장치나 서로 다른 브라우저 창 크기에서 다르게 &quot;응답&quot;하고 표시할 수 있습니다. 이러한 요구 사항을 충족하기 위해 Dynamic Media Classic과 함께 제공되는 HTML5 뷰어는 정적 웹 페이지와 반응형 디자인 웹 페이지를 모두 지원합니다.
 
-웹 페이지에 응답형 뷰어를 포함하는 방법에 대한 자세한 내용은 *Adobe 이미지 제공 API 도움말*&#x200B;의 [응답형 정적 이미지 라이브러리](https://marketing.adobe.com.com/resources/help/en_US/s7/is_ir_api/is_api/c_about_responsive_static_image_library.html)를 참조하십시오.
+웹 페이지에 응답형 뷰어를 포함하는 방법에 대한 자세한 내용은 [응답형 이미지 라이브러리 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [응답형 이미지 라이브러리 사용](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api) 및 [명령 참조 - 명령 특성](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library)을 참조하십시오.
 
 ### 뷰어 사전 설정 유형 {#viewer-preset-types}
 
