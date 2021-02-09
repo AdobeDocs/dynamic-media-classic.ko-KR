@@ -5,9 +5,9 @@ description: Adobe Dynamic Media Classic 기술 설명서
 seo-description: 'Adobe Dynamic Media Classic(이전 Scene 7)에 대한 기술 설명서, 릴리스 노트 및 자체 도움말 자료 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 3a8283196c9c99a5709cf4995c426da7e4f6c83b
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '668'
 ht-degree: 12%
 
 ---
@@ -25,7 +25,7 @@ Dynamic Media Classic 도움말 시작 여기에서 사용 가능한 모든 리�
 
 ## Dynamic Media 개발자 리소스
 
-* [Dynamic Media 개발자 리소스 랜딩 페이지](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/landing/home.html) — 뷰어 참조 안내서, 이미지 제공/이미지 렌더링 API, 이미지 제작 시스템 API 및 Dynamic Media Classic 릴리스 정보가 포함되어 있습니다.
+* [Dynamic Media 개발자 리소스 랜딩 페이지](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html) — 뷰어 참조 안내서, 이미지 제공/이미지 렌더링 API, 이미지 제작 시스템 API 및 Dynamic Media Classic 릴리스 정보가 포함되어 있습니다.
 * [뷰어 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) — 비디오, 쇼퍼블 미디어, 혼합 미디어, 스핀 세트, 인라인 확대/축소, 이미지 및 견본 집합, flyouts에 대한 뷰어 예를 포함합니다.
 
 ## Dynamic Media Classic 사용자 리소스
