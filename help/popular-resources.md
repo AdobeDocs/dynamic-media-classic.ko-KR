@@ -1,13 +1,11 @@
 ---
 title: 널리 사용되는 리소스
 description: 웨비나, 교육 비디오, 모범 사례 정보 및 개발자 리소스에 대한 링크입니다.
-uuid: a2ef0e50-056c-4528-96d8-343c24f944a2
 contentOwner: Rick Brough
-discoiquuid: 094f1894-59f9-4e66-aa0a-1e0c4d7cc452
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '558'
 ht-degree: 15%
 
 ---
@@ -17,14 +15,14 @@ ht-degree: 15%
 
 ## Dynamic Media Classic 기술 설명서
 
-* [릴리스 노트](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/release-notes/s7rn2017.html)
+* [릴리스 노트](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html)
 * [사용자 안내서](introduction.md)
 
 ## Dynamic Media Classic 개발자 리소스
 
-* [Adobe 뷰어 참조 안내서](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)
+* [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)
 * [뷰어 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [이미지 제공 및 이미지 렌더링 API](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/image-serving-api/home.html)
+* [이미지 제공 및 이미지 렌더링 API](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/home.html)
 
 ## Dynamic Media Classic 웨비나 및 Tutorials
 
@@ -40,6 +38,6 @@ ht-degree: 15%
 ## Dynamic Media Classic Training
 
 현재 사용 가능한 교육 강좌를 보려면 [여기](https://training.adobe.com/training/courses.html#product=adobe-scene7)로 이동하십시오.
-[Dynamic Media Classic 교육 비디오](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/intro/training-videos.html).
+[Dynamic Media Classic 교육 비디오](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/training-videos.html#intro).
 
 [Dynamic Media Classic](home.md)에 사용할 수 있는 인기 있는 모든 리소스를 참조하십시오.
