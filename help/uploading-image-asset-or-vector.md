@@ -1,13 +1,11 @@
 ---
 title: 이미지 자산 또는 벡터 자산 업로드
 description: 이미지 자산 또는 벡터 에셋을 업로드하는 방법을 알아봅니다.
-uuid: d0e4a754-8a49-4b0f-b202-e9003bdb8f20
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: de21dca9-99fe-4183-b647-debfe112fda4
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
 source-wordcount: '1527'
 ht-degree: 84%
