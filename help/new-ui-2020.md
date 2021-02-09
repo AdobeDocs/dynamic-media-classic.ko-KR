@@ -1,14 +1,13 @@
 ---
 title: Adobe Dynamic Media Classic 데스크탑 앱
-seo-title: Adobe Dynamic Media Classic 데스크탑 앱
 description: 이제 Dynamic Media Classic 사용자는 사용자 인터페이스를 완전히 새로 고칠 수 있습니다. 이 경험은 중요한 리소스의 링크가 있는 업데이트된 로그인을 제공하며 이 업데이트는 더 이상 브라우저의 Adobe Flash 기술에 의존하지 않습니다.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 translation-type: tm+mt
-source-git-commit: 60aedff7e46d134537e2a0639d1c28c3a7909b90
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -90,11 +89,11 @@ Windows에서 새 Dynamic Media Classic 데스크톱 앱을 사용하는 경우 
 
 Dynamic Media Classic은 리치 미디어 전략을 향상시키기 위해 고안된 다양한 기능을 갖춘 강력한 솔루션입니다. 모든 기능을 활용하려면 다음 실용적인 리소스를 반드시 살펴보십시오.
 
-* [Dynamic Media 우수 사례 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Dynamic Media 우수 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Dynamic Media 블로그 게시물](https://theblog.adobe.com/tag/dynamic-media/)
-* [Dynamic Media 뉴스레터 아카이브](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [Dynamic Media 뉴스레터 아카이브](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
-또한 [Dynamic Media 뉴스레터](https://www.adobe.com/subscription/dynamic-media-newsletter.html)에 가입하여 최신 뉴스, 정보, 트레이닝 기회, [스마트 이미징](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html) 및 보완적인 감사 프로그램과 같은 강력한 기능을 최신 뉴스레터에 대한 정보를 얻을 수 있습니다.
+또한 [Dynamic Media 뉴스레터](https://www.adobe.com/subscription/dynamic-media-newsletter.html)에 가입하여 최신 뉴스, 정보, 트레이닝 기회, [스마트 이미징](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic) 및 보완적인 감사 프로그램과 같은 강력한 기능을 최신 뉴스레터에 대한 정보를 얻을 수 있습니다.
 
 ### **_AEM Assets을 사용하여 Dynamic Media으로 업그레이드하는 방법에 대해 자세히 알고 싶습니다. 자세한 내용은 어디에서 찾을 수 있습니까?_**
 
