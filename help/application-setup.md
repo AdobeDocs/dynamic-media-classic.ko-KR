@@ -1,18 +1,14 @@
 ---
 title: 애플리케이션 설정
-seo-title: 애플리케이션 설정
 description: Dynamic Media Classic의 응용 프로그램 영역을 설정하는 방법을 알아봅니다.
-seo-description: Dynamic Media Classic의 응용 프로그램 영역을 설정하는 방법을 알아봅니다.
-uuid: 3e2f1d30-8f33-4a9d-bbe4-e8c3dbc968f8
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: ae2d1895-a437-4463-bfac-3960c8027551
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '10979'
+source-wordcount: '10914'
 ht-degree: 68%
 
 ---
@@ -160,7 +156,7 @@ Dynamic Media Classic에서는 두 파일의 이름이 같을 수 없습니다. 
 
 이미지 사전 설정 화면을 열려면 글로벌 탐색 막대에서 **설정** > **이미지 사전 설정**&#x200B;을 클릭합니다.
 
-[스마트 이미징](https://helpx.adobe.com/experience-manager/6-3/assets/using/imaging-faq.html)을 참조하십시오.
+[스마트 이미징](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)을 참조하십시오.
 
 ### 이미지 사전 설정 만들기 및 편집 {#creating-and-editing-image-presets}
 
@@ -372,12 +368,12 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 
 |  | 인코딩 사전 설정 이름/도구 설명 텍스트 | 타겟 연결 속도(Kbps) | 인코딩된 파일 접미어 | 비디오 데이터 속도(Kbps) | 너비/높이(픽셀) | fps | 오디오 비트 전송률(Kbps) | 권장 사항 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 512x288, 모바일(iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 소스와 동일 | 64 | 저해상도, 3G |
+| 3 | 16:9, 512x288, 모바일(iPhone, iPad, Android), (400 Kbps) | 500 | _Mobile_512x288_400K | 400 | 512x288 | 소스와 동일 | 64 | 저해상도, 3G |
 | 2 | 4:3, 384x288px, 모바일(iPhone, iPad, Android), (400 Kbps) | 500년 | _Mobile_384x288_400K | 400년 | 384x288 | 소스와 동일 | 64 | 저해상도, 3G |
-| 1 | 16:9, 512x288, 모바일(iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 소스와 동일 | 64 | 중해상도, 3G |
+| 3 | 16:9, 512x288, 모바일(iPhone, iPad, Android), (600 Kbps) | 700 | _Mobile_512x288_600K | 600 | 512x288 | 소스와 동일 | 64 | 중해상도, 3G |
 | 4 | 4:3, 384x288, 모바일(iPhone, iPad, Android), (600 Kbps) | 700년 | _Mobile_384x288_600 | 600년 | 384x288 | 소스와 동일 | 64 | 중해상도, 3G |
 | 5 | 16:9, 640x360, 태블릿(iPad, Android), (800 Kbps) | 900 | _iPad_640x360_800K | 800년 | 640x360 | 소스와 동일 | 80 | 중해상도, WiFi |
-| 6 | 4:3, 640x480, 태블릿(iPad, Android), (800 Kbps) | 900년 | _iPad_640x480_800K | 600년 | 640x480 | 소스와 동일 | 80 | 중해상도, WiFi |
+| 6 | 4:3, 640x480, 태블릿(iPad, Android), (800 Kbps) | 900년 | _iPad_640x480_800K | 800년 | 640x480 | 소스와 동일 | 80 | 중해상도, WiFi |
 | 7 | 16:9, 768x432, 태블릿(iPad, Android), (1200 Kbps) | 1.5Mbps | _iPad_768x432_1200K | 1200 | 768x432 | 소스와 동일 | 96 | 고해상도, WiFi |
 | 8 | 4:3, 768x576, 태블릿(iPad, Android), (1200 Kbps) | 1.5Mbps | _iPad_768x576_1200K | 1200년 | 768x576 | 소스와 동일 | 96 | 고해상도, WiFi |
 | 9 | 16:9, 1280x720, 데스크톱, (2000Kbps) | 3.0Mbps | _1280x720_2000K | 2000 | 1280x720 | 소스와 동일 | 128년 | 고화질, 와이드스크린 |
@@ -393,9 +389,9 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 
 |  | 인코딩 사전 설정 이름/도구 설명 텍스트 | 타겟 연결 속도(Kbps) | 인코딩된 파일 접미어 | 비디오 데이터 속도(Kbps) | 너비/높이(픽셀) | fps | 오디오 비트 전송률(Kbps) | 권장 사항 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 480x270 (400Kbps) | 500년 | _480x270_400K | 400년 | 480x270 | 소스와 동일 | 64 | 저해상도 와이드스크린 |
-| 2 | 16:9, 640x360 (800Kbps) | 900년 | _640x360_800K | 600년 | 640x360 | 소스와 동일 | 80 | 중해상도 와이드스크린 |
-| 1 | 16:9, 800x450 (1200Kbps) | 1.5Mbps | _800x450_1200K | 1200년 | 800x450 | 소스와 동일 | 96 | 중-고해상도 |
+| 3 | 16:9, 480x270 (400Kbps) | 500년 | _480x270_400K | 400년 | 480x270 | 소스와 동일 | 64 | 저해상도 와이드스크린 |
+| 2 | 16:9, 640x360 (800Kbps) | 900년 | _640x360_800K | 800년 | 640x360 | 소스와 동일 | 80 | 중해상도 와이드스크린 |
+| 3 | 16:9, 800x450 (1200Kbps) | 1.5Mbps | _800x450_1200K | 1200년 | 800x450 | 소스와 동일 | 96 | 중-고해상도 |
 | 4 | 16:9, 1280x720(2000Kbps) | 3.0Mbps | _1280x720_2000K | 2000년 | 1280x720 | 소스와 동일 | 128년 | 고화질, 와이드스크린 |
 | 5 | 4:3, 320x240 (400Kbps) | 500년 | _320X240_400K | 400년 | 320x240 | 소스와 동일 | 64 | 저해상도 |
 | 6 | 4:3, 480x360 (800Kbps) | 900년 | _480x360_800K | 800년 | 480x360 | 소스와 동일 | 80 | 중해상도 |
@@ -406,12 +402,12 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 
 |  | 인코딩 사전 설정 이름/도구 설명 텍스트 | 타겟 연결 속도(Kbps) | 인코딩된 파일 접미어 | 비디오 데이터 속도(Kbps) | 너비/높이(픽셀) | fps | 오디오 비트 전송률(Kbps) | 권장 사항 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 480x270(400Kbps), OGG | 500년 | _OGG_480x270_400K | 400년 | 480x270 | 소스와 동일 | 64 | 저해상도 와이드스크린 |
+| 3 | 16:9, 480x270(400Kbps), OGG | 500년 | _OGG_480x270_400K | 400년 | 480x270 | 소스와 동일 | 64 | 저해상도 와이드스크린 |
 | 2 | 16:9, 640x360 (800Kbps), OGG | 900년 | _OGG_640x360_800K | 800년 | 640x360 | 소스와 동일 | 80 | 중해상도 와이드스크린 |
-| 1 | 16:9, 800x450 (1200Kbps), OGG | 1.5Mbps | _OGG_800x450_1200K | 1200년 | 800x450 | 소스와 동일 | 96 | 중-고해상도 |
+| 3 | 16:9, 800x450 (1200Kbps), OGG | 1.5Mbps | _OGG_800x450_1200K | 1200년 | 800x450 | 소스와 동일 | 96 | 중-고해상도 |
 | 4 | 16:9, 1280x720(2000Kbps), OGG | 3.0Mbps | _OGG_1280x720_2000K | 2000년 | 1280x720 | 소스와 동일 | 128년 | 고화질, 와이드스크린 |
 | 5 | 4:3, 320x240 (400Kbps), OGG | 500년 | _OGG_320X240_400K | 400년 | 320x240 | 소스와 동일 | 64 | 저해상도 |
-| 6 | 4:3, 480x360 (800Kbps), OGG | 900년 | _OGG_480x360_800K | 600년 | 480x360 | 소스와 동일 | 80 | 중해상도 |
+| 6 | 4:3, 480x360 (800Kbps), OGG | 900년 | _OGG_480x360_800K | 800년 | 480x360 | 소스와 동일 | 80 | 중해상도 |
 | 7 | 4:3, 640x480 (1200Kbps), OGG | 1.5Mbps | _OGG_640x480_1200K | 1200년 | 640x480 | 소스와 동일 | 96 | 중-고해상도 |
 | 8 | 4:3, 1280x960(2000Kbps), OGG | 3.0Mbps | _OGG_1280x960_2000K | 2000년 | 1280x960 | 소스와 동일 | 128년 | 고화질 |
 
@@ -425,14 +421,14 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 
 |  | 인코딩 사전 설정 이름/도구 설명 텍스트 | 타겟 연결 속도(Kbps) | 인코딩된 파일 접미어 | 비디오 비트 전송률(Kbps) | 픽셀 너비/높이 | fps | 오디오 비트 전송률(Kbps) | 권장 사항 |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 16:9, 512x288, 모바일(400Kbps) | 500년 | _Mobile_512x288_400K | 400년 | 512x288 | 소스와 동일 | 64 | 저해상도, 3G |
-| 2 | 16:9, 512x288, 모바일(600Kbps) | 700년 | _Mobile_512x288_600K | 800년 | 512x288 | 소스와 동일 | 64 | 중해상도, 3G |
-| 1 | 16:9, 512x288, 모바일(800Kbps) | 900년 | _Mobile_512x288_800K | 600년 | 512x288 | 소스와 동일 | 80 | 중해상도, Wi-Fi |
+| 3 | 16:9, 512x288, 모바일(400Kbps) | 500년 | _Mobile_512x288_400K | 400년 | 512x288 | 소스와 동일 | 64 | 저해상도, 3G |
+| 2 | 16:9, 512x288, 모바일(600Kbps) | 700년 | _Mobile_512x288_600K | 600년 | 512x288 | 소스와 동일 | 64 | 중해상도, 3G |
+| 3 | 16:9, 512x288, 모바일(800Kbps) | 900년 | _Mobile_512x288_800K | 600년 | 512x288 | 소스와 동일 | 80 | 중해상도, Wi-Fi |
 | 4 | 16:9, 512x288, 모바일(1000Kbps) | 1.2Mbps | _Mobile_512x288_1000K | 1000 | 512x288 | 소스와 동일 | 80 | 고해상도, Wi-Fi |
 | 5 | 16:9, 512x288, 모바일(1200Kbps) | 1.5Mbps | _Mobile_512x288_1200K | 1200년 | 512x288 | 소스와 동일 | 96 | 고해상도, Wi-Fi |
 | 6 | 4:3, 384x288, 모바일(400Kbps) | 500년 | _Mobile_384x288_400K | 400년 | 384x288 | 소스와 동일 | 64 | 저해상도, 3G |
-| 7 | 4:3, 384x288, 모바일(600Kbps) | 700년 | _Mobile_384x288_600K | 600년 | 384x288 | 소스와 동일 | 64 | 중해상도, 3G |
-| 8 | 4:3, 448x336, 모바일(800Kbps) | 900년 | _Mobile_448x336_800K | 800년 | 448x336 | 소스와 동일 | 80 | 중해상도, Wi-Fi |
+| 7 | 4:3, 384x288, 모바일(600Kbps) | 700년 | _Mobile_384x288_600K | 800년 | 384x288 | 소스와 동일 | 64 | 중해상도, 3G |
+| 8 | 4:3, 448x336, 모바일(800Kbps) | 900년 | _Mobile_448x336_800K | 600년 | 448x336 | 소스와 동일 | 80 | 중해상도, Wi-Fi |
 | 9 | 4:3, 448x336, 모바일(1000Kbps) | 1.2Mbps | _Mobile_448x336_1000K | 1000년 | 448x336 | 소스와 동일 | 80 | 고해상도, Wi-Fi |
 | 10 | 4:3, 448x336, 모바일(1200Kbps) | 1.5Mbps | _Mobile_448x336_1200K | 1200년 | 448x336 | 소스와 동일 | 96 | 고해상도, Wi-Fi |
 
@@ -440,13 +436,13 @@ Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제�
 
 >[!NOTE]
 >
->**Flash 뷰어 종단 알림**  - 2017년 1월 31일부터 Adobe Dynamic Media Classic은 Flash 뷰어 플랫폼에 대한 지원을 공식적으로 종료했습니다. 이 중요한 변경 사항에 대한 자세한 내용은 다음 FAQ 웹 사이트를 참조하십시오.[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
+>**Flash 뷰어 종단 알림**  - 2017년 1월 31일부터 Adobe Dynamic Media Classic은 Flash 뷰어 플랫폼에 대한 지원을 공식적으로 종료했습니다.
 
 *뷰어 사전 설정*&#x200B;은 사용자가 컴퓨터 화면과 모바일 장치에서 리치 미디어 자산을 보는 방법을 결정하는 설정 모음입니다. 관리자는 뷰어 사전 설정을 만들 수 있습니다. 뷰어 구성 선택 사항 배열에 대한 설정을 사용할 수 있습니다. 예를 들어 뷰어 표시 크기, 확대/축소 동작, 색상 구성표, 테두리 및 글꼴을 변경할 수 있습니다.
 
 Dynamic Media Classic HTML5 비디오 뷰어를 사용하는 것이 좋습니다. HTML5 비디오 뷰어에 사용된 사전 설정은 강력한 비디오 플레이어입니다. HTML5 및 CSS를 사용하여 재생 구성 요소를 디자인하고 포함 재생을 제공하며 브라우저의 기능에 따라 적응형 및 점진적 스트리밍을 사용하는 기능을 단일 플레이어에 결합하여 리치 미디어 컨텐츠의 범위를 데스크톱, 태블릿 및 모바일 사용자로 확장하고 스트리밍된 비디오 환경을 보장할 수 있습니다.
 
-Adobe 뷰어 참조 안내서의 [HTML5 뷰어 정보](hhttps://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html)를 참조하십시오.
+Adobe 뷰어 참조 안내서의 [HTML5 뷰어 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)를 참조하십시오.
 
 [Dynamic Media Classic 뷰어 사전 설정 호환성 표](application-setup.md#scene7_viewer_preset_compatibility_matrix)를 참조하십시오.
 
@@ -490,15 +486,13 @@ Adobe 뷰어 참조 안내서의 [HTML5 뷰어 정보](hhttps://docs.adobe.com/c
 
 **Flash 뷰어 사용 종료 알림**:2017년 1월 31일부터 Adobe Dynamic Media Classic은 공식적으로 Flash 뷰어 플랫폼에 대한 지원을 중단했습니다.
 
-이 중요한 변경 사항에 대한 자세한 내용은 다음 FAQ 웹 사이트를 참조하십시오.[https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html](https://docs.adobe.com/content/docs/en/aem/6-1/administer/integration/marketing-cloud/scene7/flash-eol.html).
-
 다음 표는 현재 사용 가능한 Dynamic Media Classic 뷰어 사전 설정을 식별합니다. 또한 데스크톱 및 모바일 장치와 뷰어의 호환성과 주어진 각 뷰어에 사용되는 기술을 지정합니다.
 
 [Adobe 뷰어 참조 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)도 참조하십시오.
 
 뷰어에 지원되는 웹 브라우저 및 운영 체제 버전에 대한 정보를 보려면 뷰어 릴리스 노트를 검토할 수 있습니다.
 
-[Adobe 뷰어 참조 릴리스 노트](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/home.html)를 참조하십시오.
+[Adobe 뷰어 참조 릴리스 노트](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/home.html)를 참조하십시오.
 
 |  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android 스마트폰 | Android 태블릿 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -630,7 +624,7 @@ Dynamic Media Classic에서는 MP4 H.264 비디오에 대한 모바일 비디오
    >
    >비디오 뷰어의 크기를 인코딩된 비디오 자체의 해상도 크기로 자동으로 지정하려면 [소스와 동일]을 선택합니다. 이 선택 사항을 선택하면 [단계 너비]와 [단계 높이]를 입력할 수 없습니다. 대신 비디오 자체에서 이 선택 사항이 제공됩니다. [소스와 동일]을 선택하는 경우 비디오 재생 영역 외부의 스킨 치수를 반영하도록 [여백 크기] 선택 사항을 설정합니다. 이 여백 크기는 비디오 컨트롤의 픽셀 높이와 너비입니다. 다음 그림은 사용하려는 여백 크기를 결정하는 데 도움이 됩니다.*
 
-   ![](assets/vs_video_viewer_configure_margin.png)
+   ![비디오 뷰어의 여백 구성](assets/vs_video_viewer_configure_margin.png)
 
 1. 다음 중 하나를 수행하십시오.
 
