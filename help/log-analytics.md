@@ -8,10 +8,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 36%
+source-wordcount: '354'
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics 보고서를 구성하고 Adobe Analytics 보고서 변수를 Dy
 1. Adobe Analytics 구성 페이지에서 **[!UICONTROL Adobe Analytics 로그인]**&#x200B;을 탭합니다.
 1. **[!UICONTROL Adobe Analytics 로그인]** 대화 상자에 회사 이름, Marketing Cloud 조직 ID(선택 사항), 사용자 이름 및 **[!UICONTROL 암호]** 텍스트 필드에 *공유 암호* 키를 입력합니다.
 
-   Analytics 관리 콘솔에서 *공유 비밀* 키를 검색할 수 있습니다. 사용자 계정](https://helpx.adobe.com/analytics/kb/how-to-get-api-credentials-for-user-accounts-.html)에 대한 API 자격 증명을 가져오는 방법을 참조하십시오.[
+   Analytics 관리 콘솔에서 *공유 비밀* 키를 검색할 수 있습니다. 사용자 계정](https://github.com/AdobeDocs/analytics-2.0-apis/blob/master/create-oauth-client.md)에 대한 API 자격 증명을 가져오는 방법을 참조하십시오.[
 
 1. **[!UICONTROL 로그인]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 보고서 세트]** 드롭다운 메뉴에서 보고서 세트를 선택한 다음 **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
