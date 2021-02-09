@@ -1,17 +1,15 @@
 ---
 title: 확대/축소 뷰어를 웹 페이지에 연결
 description: 확대/축소 뷰어를 웹 페이지에 연결하는 방법을 알아봅니다.
-uuid: cd350ea4-267e-4a8a-aed8-7553df86b438
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: df5471c1-ccda-4dd4-a7f1-5b9193b41f98
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 86%
+source-wordcount: '674'
+ht-degree: 85%
 
 ---
 
@@ -46,7 +44,7 @@ ht-degree: 86%
 
 일반적으로 웹 사이트 방문자는 [확대/축소] 아이콘을 먼저 선택하여 이미지를 확대/축소합니다. 대체로 이 아이콘은 돋보기 이미지를 표시합니다. 이 아이콘을 선택하면 팝업 창에서 이미지를 표시하는 동적 웹 페이지(ASP 또는 JSP)가 시작됩니다. 방문자는 실제로 이 팝업 창에서 이미지를 확대/축소합니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서](https://docs.adobe.com/content/help/en/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html)에서 [HTML5 기본 확대/축소 뷰어 포함을 참조하십시오.
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)에서 [HTML5 기본 확대/축소 뷰어 포함을 참조하십시오.
 
 ## 확대/축소 뷰어의 임베드 사본 복사 {#copying-the-embed-copy-of-a-zoom-viewer}
 
@@ -74,5 +72,4 @@ ht-degree: 86%
 
    코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
 
-1. [닫기]를 클릭합니다.
-
+1. **[닫기]**&#x200B;를 클릭합니다.
