@@ -1,13 +1,11 @@
 ---
 title: 게시 설정
 description: '[제작 설정] 화면 설정은 Dynamic Media Classic 서버에서 웹 사이트 또는 응용 프로그램으로 자산을 기본적으로 제공하는 방법을 결정합니다.'
-uuid: 196f25c8-abf5-4c5d-8f6f-bc70007a0301
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: cba59093-28b6-4490-b838-d942b72ad1ec
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
 workflow-type: tm+mt
 source-wordcount: '2418'
 ht-degree: 64%
@@ -21,7 +19,7 @@ ht-degree: 64%
 
 관리자는 [이미지 서버], [이미지 렌더러] 및 [비네팅] 화면의 기본 설정을 변경하여 서버의 자산 제공에 대한 기본 설정을 지정할 수 있습니다.
 
-[게시 설정] 화면을 열려면 [설정] > [애플리케이션 설정] > [게시 설정]을 클릭합니다.
+제작 설정 화면을 열려면 **설정** > **응용 프로그램 설정** > **제작 설정**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
