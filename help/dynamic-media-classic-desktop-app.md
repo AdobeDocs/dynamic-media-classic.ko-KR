@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 0aad46c6fd3c520e0e40e177be0bd0cb25188719
 workflow-type: tm+mt
-source-wordcount: '1584'
+source-wordcount: '1658'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 * 시간 초과로 인해 다음 메시지가 발생하여 로그인 문제가 발생했습니다.*이 사용자는 권한이 없는 그룹 또는 그룹에 할당될 수 있습니다. 관리자에게 문의하십시오.*
 * 잘못된 암호를 시도할 때마다 뷰어 사전 설정이 중복됩니다.
 * 루트 폴더에 많은 에셋이 있어 데스크톱 응용 프로그램이 응답하지 않습니다. (Windows에서 수정됨)macOS에서 원하는 대로 작업하십시오.)
+* jlkjlkj
 
 ## 이전 버전의 수정 사항(20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -189,11 +190,11 @@ Dynamic Media Classic 데스크톱 앱 사용](https://experienceleague.adobe.co
 
 1. Dynamic Media Classic 데스크톱 앱의 오른쪽 위 모서리에서 **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**&#x200B;을 탭합니다.
 1. **[!UICONTROL 개인 설정]** 페이지의 **[!UICONTROL 데스크톱]** 머리글 아래에서 다음 중 하나를 수행합니다.
-   * **[!UICONTROL 이미지 캐시 지우기]**&#x200B;를 눌러 컴퓨터에서 Dynamic Media 캐시된 이미지 파일을 모두 제거합니다. **[!UICONTROL OK]**&#x200B;을 누릅니다.
-   * **[!UICONTROL 에셋 캐시 지우기]**&#x200B;를 눌러 컴퓨터에서 Dynamic Media 캐시된 에셋 파일을 모두 제거합니다. **[!UICONTROL OK]**&#x200B;을 누릅니다.
+   * 컴퓨터에서 Dynamic Media 캐시된 이미지 파일을 모두 제거하려면 **[!UICONTROL 이미지 캐시 지우기]**&#x200B;를 누른 다음 **[!UICONTROL 확인]**&#x200B;을 탭합니다.
+   * 컴퓨터에서 Dynamic Media 캐시된 자산 파일을 모두 제거하려면 **[!UICONTROL 자산 캐시 지우기]**&#x200B;를 누른 다음 **[!UICONTROL 확인]**&#x200B;을 탭합니다.
 1. 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 닫기]**&#x200B;를 누릅니다.
 
-### 수동으로 이미지 캐시 및 자산 캐시 지우기
+### 이미지 캐시 및 자산 캐시를 수동으로 {#clear-cache} 지우기
 
 데스크탑 앱을 사용하여 이미지 및 자산 캐시를 지울 뿐만 아니라 파일 시스템에서 직접 캐시를 수동으로 지울 수 있습니다.
 
@@ -201,6 +202,10 @@ Dynamic Media Classic 데스크톱 앱 사용](https://experienceleague.adobe.co
 
    * macOS:`~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
+
+## Dynamic Media Classic 2021.1의 알려진 제한 사항
+
+* Dynamic Media Classic 데스크톱 응용 프로그램 20.21.1으로 업데이트한 후 **[!UICONTROL 서버]** 드롭다운 목록이 비어 있습니다. - 시나리오:Dynamic Media Classic 20.20.1 또는 20.20.2을 설치하고 로그인한 다음 응용 프로그램을 닫습니다. 그런 다음 Dynamic Media Classic 20.21.1으로 업데이트하십시오. 로그인하려고 하면 **[!UICONTROL 계정 로그인]** 대화 상자의 **[!UICONTROL 서버]** 드롭다운 목록이 비어 있습니다. 이 문제를 해결하려면 [캐시](#clear-cache)를 수동으로 지웁니다.
 
 ## Dynamic Media Classic 20.20.1의 알려진 제한 사항(20.20.2에서 해결됨)
 
@@ -210,7 +215,8 @@ Dynamic Media Classic 데스크톱 앱 사용](https://experienceleague.adobe.co
 * Dynamic Media Classic 앱의 회사 드롭다운 목록에서 새 회사를 선택합니다.
 * 팝업 창이 나타나면 **[!UICONTROL OK]**&#x200B;을 눌러 로그아웃하고 앱을 닫습니다.
 
-   ![새 회사를 사용하려면 앱을 다시 시작합니다.](/help/assets/dmclassic-new-company1.png)
+   ![새 회사를 사용하려면 앱을 다시 시작하십시오](/help/assets/dmclassic-new-company1.png)
+
 * Dynamic Media Classic을 다시 시작한 다음 평소대로 로그인하여 새 회사와 함께 작업하십시오.
 
 ## 팁 및 기법
