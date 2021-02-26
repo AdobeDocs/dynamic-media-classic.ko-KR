@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
+source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -203,7 +203,7 @@ Dynamic Media Classic 데스크톱 앱 사용](https://experienceleague.adobe.co
    * macOS:`~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
-## Dynamic Media Classic 2021.1의 알려진 제한 사항
+## Dynamic Media Classic 20.21.1의 알려진 제한 사항
 
 * Dynamic Media Classic 데스크톱 응용 프로그램 20.21.1으로 업데이트한 후 **[!UICONTROL 서버]** 드롭다운 목록이 비어 있습니다. - 시나리오:Dynamic Media Classic 20.20.1 또는 20.20.2을 설치하고 로그인한 다음 응용 프로그램을 닫습니다. 그런 다음 Dynamic Media Classic 20.21.1으로 업데이트합니다. 로그인을 시도하면 **[!UICONTROL 계정 로그인]** 대화 상자의 **[!UICONTROL 서버]** 드롭다운 목록이 비어 있습니다. 이 문제를 해결하려면 [수동으로 캐시](#clear-cache)를 지워야 합니다(위 단계 참조).
 
