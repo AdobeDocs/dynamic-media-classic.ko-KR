@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 077f6cc18f6cd88ef18a7555e7df49a975b6f229
+source-git-commit: 556deae011dd82e847b72c00981a84190f9a5805
 workflow-type: tm+mt
 source-wordcount: '1664'
 ht-degree: 0%
@@ -186,7 +186,7 @@ Windows에서 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 �
 
 Dynamic Media Classic 데스크톱 앱 사용](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media)(길이:2분 36초).[
 
-## 데스크탑 앱을 사용하여 컴퓨터의 이미지 캐시 및 자산 캐시 지우기
+## 데스크톱 앱 {#clear-cache}을 사용하여 컴퓨터의 이미지 캐시 및 자산 캐시를 지웁니다.
 
 1. Dynamic Media Classic 데스크톱 앱의 오른쪽 위 모서리에서 **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**&#x200B;을 탭합니다.
 1. **[!UICONTROL 개인 설정]** 페이지의 **[!UICONTROL 데스크톱]** 머리글 아래에서 다음 중 하나를 수행합니다.
@@ -194,7 +194,7 @@ Dynamic Media Classic 데스크톱 앱 사용](https://experienceleague.adobe.co
    * 컴퓨터에서 Dynamic Media 캐시된 자산 파일을 모두 제거하려면 **[!UICONTROL 자산 캐시 지우기]**&#x200B;를 누른 다음 **[!UICONTROL 확인]**&#x200B;을 탭합니다.
 1. 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 닫기]**&#x200B;를 누릅니다.
 
-### 이미지 캐시 및 자산 캐시를 수동으로 {#clear-cache} 지우기
+### 수동으로 이미지 캐시 및 자산 캐시 지우기
 
 데스크탑 앱을 사용하여 이미지 및 자산 캐시를 지울 뿐만 아니라 파일 시스템에서 직접 캐시를 수동으로 지울 수 있습니다.
 
