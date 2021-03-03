@@ -2,9 +2,9 @@
 title: Dynamic Media Classic 교육 비디오
 description: 시작하기, 다이내믹 이미지, 비디오, 미디어 포털, 템플릿, 이미지 저작 및 렌더링에 대한 Dynamic Media Classic 교육 비디오입니다.
 translation-type: tm+mt
-source-git-commit: 1df4f88ef856160ee06c43dc6ec430df122f2408
+source-git-commit: 1e7635e1e8c1e9da09b22b8bdc0a71a39cd53088
 workflow-type: tm+mt
-source-wordcount: '6490'
+source-wordcount: '6544'
 ht-degree: 0%
 
 ---
@@ -100,17 +100,19 @@ ht-degree: 0%
 
 다음과 같은 다양한 측면을 다루는 교육 비디오:
 
-* 색상화
-* 패턴 매핑
-* 조명 맵
-* 재질 반복 도구
-* 개체 오버랩
-* 3D 방 장면
-* 의류 제작
-* 마스크
-* 렌더링
+* [색상화](#colorizing)
+* [패턴 매핑](#pattern-mapping)
+* [조명 맵](#illumination-map)
+* [재질 반복 도구](#material-repeat-tool)
+* [개체 오버랩](#overlap-objects)
+* [3D 방 장면](#three-dimensional-room-scenes)
+* [의류 제작](#apparel-authoring)
+* [마스크](#masking)
+* [렌더링](#rendering)
 
 ### {#colorizing} 색상화
+
+[이미지 작성 및 렌더링](#image-authoring-rendering-training)으로 돌아가기
 
 * [색상화 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/500_01_overview1_ia_01colorizing-AVS)
 
@@ -154,6 +156,8 @@ ht-degree: 0%
 
 ### 패턴 매핑 {#pattern-mapping}
 
+[이미지 작성 및 렌더링](#image-authoring-rendering-training)으로 돌아가기
+
 * [패턴 매핑 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/578_01_pattern_mapping_ov_ia_02pattern-AVS)
 
 * [메쉬 편집 전 단계](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/579_02_steps_before_mesh_editing_ia_02pattern-AVS)
@@ -196,6 +200,8 @@ ht-degree: 0%
 
 ### 조명 맵 {#illumination-map}
 
+[이미지 작성 및 렌더링](#image-authoring-rendering-training)으로 돌아가기
+
 * [Adobe Photoshop으로 내보내기](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/598_01_export_to_photoshop_ia_03illum-AVS)
 
 * [수정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/599_02_RETOUCHING_ia_03illum-AVS)
@@ -208,6 +214,8 @@ ht-degree: 0%
 
 ### 재료 반복 도구 {#material-repeat-tool}
 
+[이미지 작성 및 렌더링](#image-authoring-rendering-training)으로 돌아가기
+
 * [재질 반복 도구](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/603_01_MRT_ia_04mrt-AVS)
 
 * [조명 조정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/604_02_lighting_adjust_ia_04mrt-AVS)
@@ -215,6 +223,8 @@ ht-degree: 0%
 * [올바른 PPI 값](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/605_03_correct%20PPI%20value_ia_04mrt-AVS)
 
 ### 개체 오버랩 {#overlap-objects}
+
+[이미지 작성 및 렌더링](#image-authoring-rendering-training)으로 돌아가기
 
 * [겹치기 기본 사항](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/607_01_overlap_basics_ia_05overlap-AVS)
 
@@ -225,6 +235,8 @@ ht-degree: 0%
 * [겹치는 개체 소개](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/610_IA005-Intro-Overlap_ia_05overlap-AVS)
 
 ### 3D 회의실 장면 {#three-dimensional-room-scenes}
+
+[이미지 작성 및 렌더링](#image-authoring-rendering-training)으로 돌아가기
 
 * [3D 프로젝트 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/611_01_3D_project_ov_ia_06room3d-AVS)
 
@@ -244,6 +256,8 @@ ht-degree: 0%
 
 ### 의류 제작 {#apparel-authoring}
 
+[이미지 작성 및 렌더링](#image-authoring-rendering-training)으로 돌아가기
+
 * [의류 색상화 검토](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/620_700_apparel_colorization_review_ia_07apparel-AVS)
 
 * [패턴 매핑 노력 평가](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/621_701_assessing_pattern_mapping_effort_ia_07apparel-AVS)
@@ -258,6 +272,8 @@ ht-degree: 0%
 
 ### 마스크 {#masking}
 
+[이미지 작성 및 렌더링](#image-authoring-rendering-training)으로 돌아가기
+
 * [Adobe Photoshop 마스크 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/626_800_overview_of_photoshop_masking_ia_08masking-AVS)
 
 * [Adobe Photoshop에서 마스크 내보내기](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/627_801_exporting_masks_from_photoshop_ia_08masking-AVS)
@@ -269,6 +285,8 @@ ht-degree: 0%
 * [마스크 소개](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/630_IA008-Intro-Masking_ia_08masking-AVS)
 
 ### {#rendering} 렌더링
+
+[이미지 작성 및 렌더링](#image-authoring-rendering-training)으로 돌아가기
 
 * [수학 렌더링](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/632_900_render_math_ia_09rendering-AVS)
 
