@@ -6,9 +6,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 5b9529a03e6d3c84b81088493be00a8063163f42
+source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
 workflow-type: tm+mt
-source-wordcount: '1664'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,6 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 * 시간 초과로 인해 다음 메시지가 발생하여 로그인 문제가 발생했습니다.*이 사용자는 권한이 없는 그룹 또는 그룹에 할당될 수 있습니다. 관리자에게 문의하십시오.*
 * 잘못된 암호를 시도할 때마다 뷰어 사전 설정이 중복됩니다.
 * 루트 폴더에 많은 에셋이 있어 데스크톱 응용 프로그램이 응답하지 않습니다. (Windows에서 수정됨)macOS에서 원하는 대로 작업하십시오.)
-* jlkjlkj
 
 ## 이전 버전의 수정 사항(20.20.2) {#previous-version-fixes-desktop-app}
 
