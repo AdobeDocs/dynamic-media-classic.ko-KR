@@ -6,7 +6,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 translation-type: tm+mt
-source-git-commit: 9f93993fe1d3a94e3dcf23b5a151432346b09726
+source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
 workflow-type: tm+mt
 source-wordcount: '1663'
 ht-degree: 0%
@@ -44,7 +44,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 * macOS 및 Windows용 데스크탑 앱 사용자 인터페이스를 통해 업로드할 수 있는 파일 수에 제한이 없습니다.
 * 회사 간을 전환하기 위해 데스크탑 앱에서 로그아웃할 필요가 없습니다.
 * 이제 Windows에서 붙여넣기 작업을 위한 Ctrl+V가 작동합니다.
-* 향후 새로운 버전의 데스크탑 앱이 릴리스되면 사용자에게 데스크탑 앱 자체 내에서 알림이 발송됩니다. —>
+* 향후 새로운 버전의 데스크탑 앱이 릴리스되면 사용자에게 데스크탑 앱 자체 내에서 알림이 발송됩니다.
 
 ## macOS 또는 Windows {#installation-dmc-app}에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 설치합니다.
 
