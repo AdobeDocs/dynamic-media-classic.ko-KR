@@ -8,10 +8,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
+feature: Dynamic Media Classic,뷰어,비디오
+role: 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 9424b392f85536dc75083d0ade255e4824755ed1
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3938'
+source-wordcount: '3945'
 ht-degree: 81%
 
 ---
@@ -246,9 +248,9 @@ Dynamic Media Classic에서 해당 메타데이터를 보거나, 비디오 편�
 
 | 비디오 유형 | 너비 x 높이 | 너비 비율 | 높이 비율 |
 |--- |--- |--- |--- |
-| 출처 | 1920 x 1080 | 1 | 1 |
+| 출처 | 1920 x 1080 | 1 | 3 |
 | 인코딩됨 | 960 x 540 | 2 | 2 |
-| 인코딩됨 | 640x360 | 3 | 1 |
+| 인코딩됨 | 640x360 | 3 | 3 |
 | 인코딩됨 | 480x270 | 4 | 4 |
 
 ### 인코딩된 비디오 파일 형식  {#encoded-video-file-format}
