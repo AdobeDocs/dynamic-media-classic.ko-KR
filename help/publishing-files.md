@@ -1,15 +1,17 @@
 ---
 title: 파일 게시
-description: 자산을 Dynamic Media 이미지 서버에 게시합니다. 자산을 한 번에 게시하거나 Dynamic Media Classic에서 반복적으로 자산을 게시하도록 정렬할 수 있습니다. 자산이 게시되면 제공할 수 있습니다. Dynamic Media Classic에서 URL 호출을 복사하고 웹 사이트 또는 애플리케이션에 추가할 수 있습니다.
+description: '"Dynamic Media 이미지 서버에 자산을 게시하는 방법에 대해 알아봅니다. 자산을 한 번에 게시하거나 Dynamic Media Classic에서 반복적으로 자산을 게시하도록 정렬할 수 있습니다. 자산이 게시되면 제공할 수 있습니다. Dynamic Media Classic에서 URL 호출을 복사하고 웹 사이트 또는 애플리케이션에 추가할 수 있습니다."'
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
+feature: Dynamic Media Classic,자산 관리
+role: 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 75%
+source-wordcount: '1715'
+ht-degree: 74%
 
 ---
 
