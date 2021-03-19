@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
+feature: Dynamic Media Classic
+role: 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3437'
+source-wordcount: '3442'
 ht-degree: 65%
 
 ---
@@ -196,7 +198,7 @@ ht-degree: 65%
 
    **텍스트 축소(텍스트 편집기 v4.2만 해당)텍스트** 상자에 맞게 텍스트를 축소하려면 선택합니다.
 
-   **텍스트 감싸기(텍스트 편집기 v4.2만 해당)텍스트** 가 줄바꿈되는지 또는 어떻게 줄 바꿈되는지를 지정하려면 줄 바꿈 옵션을 선택합니다.
+   **텍스트 감싸기(텍스트 편집기 v4.2만 해당)텍스트 감싸기 옵션** 을 선택하여 텍스트가 줄바꿈되는지 또는 어떻게 줄 바꿈되는지를 지정합니다.
 
    **** 줄바꿈텍스트를 가로로 너무 작은 텍스트 상자에 맞게 래핑합니다.
 
