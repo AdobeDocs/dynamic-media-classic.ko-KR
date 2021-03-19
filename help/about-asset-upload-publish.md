@@ -1,15 +1,17 @@
 ---
 title: 자산 업로드 및 게시 정보
-description: Dynamic Media Classic에서 자산 업로드 및 게시에 대한 소개입니다.
+description: Dynamic Media Classic에서 자산을 업로드하고 게시하는 방법에 대해 알아봅니다.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 47dcbb26-b90f-40d7-964e-f08fe98fcdbb
+feature: Dynamic Media Classic,자산 관리
+role: 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 35%
+source-wordcount: '222'
+ht-degree: 34%
 
 ---
 
