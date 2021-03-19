@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
+feature: Dynamic Media Classic,자산 관리
+role: 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '2440'
+source-wordcount: '2447'
 ht-degree: 74%
 
 ---
@@ -51,7 +53,7 @@ Dynamic Media Classic에서 이미지 맵을 만드는 기능 외에, Adobe Acro
 
 1. 원하는 경우 [이미지 맵] 목록에 이미지 맵 이름을 입력합니다. 이미지 맵을 그린 후 Dynamic Media Classic에서 이름을 지정합니다.
 
-   이름을 만들기 위해 Dynamic Media Classic에서는 작업 중인 이미지 또는 eCatalog 페이지의 이름에 순차적 번호를 추가합니다. 선택한 이름을 입력할 수 있습니다.
+   이름을 만들려면 Dynamic Media Classic에서 작업 중인 이미지 또는 eCatalog 페이지의 이름에 순차적 번호를 추가합니다. 선택한 이름을 입력할 수 있습니다.
 
 1. 사용자가 [이미지 맵]을 클릭할 때 새 웹 페이지를 열려면 [이미지 맵] 목록에 URL을 입력합니다.
 
