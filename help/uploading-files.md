@@ -6,10 +6,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
+feature: Dynamic Media Classic,자산 관리
+role: 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '3852'
+source-wordcount: '3859'
 ht-degree: 44%
 
 ---
@@ -164,7 +166,7 @@ Dynamic Media Classic 데스크톱 응용 프로그램을 사용하면 드래그
 1. 업로드 페이지에서 **FROM DESKTOP** 탭을 클릭합니다.
 1. 업로드 페이지 왼쪽의 **업로드할 파일 선택** 영역에서 **찾아보기**&#x200B;를 클릭하여 업로드할 파일 또는 폴더를 선택한 다음 **열기**&#x200B;를 클릭합니다.
 1. 업로드 페이지의 오른쪽의 **폴더 대상 선택** 영역에서 업로드된 파일이나 폴더를 추가할 대상 폴더로 이동합니다.
-1. (선택 사항) 업로드 페이지 하단의 **작업 이름** 필드에서 업로드 작업의 새 이름을 지정합니다. 또는 Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용하면 됩니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다.
+1. (선택 사항) 업로드 페이지 하단의 **작업 이름** 필드에서 업로드 작업의 새 이름을 지정합니다. 또는 Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 간단하게 사용할 수 있습니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다.
 [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
 1. (선택 사항) 업로드한 자산을 자동으로 게시하려면 [업로드] 페이지 하단에서 **업로드 후 게시**를 선택합니다.
 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. [작업 옵션] 대화 상자에서도 동일한 옵션을 사용할 수 있습니다.
@@ -185,7 +187,7 @@ Dynamic Media Classic 데스크톱 응용 프로그램을 사용하면 드래그
 1. 업로드 페이지에서 **VIA FTP** 탭을 클릭합니다.
 1. 업로드 페이지 왼쪽의 **업로드할 FTP 폴더 선택** 영역에서 파일을 업로드할 FTP 폴더를 선택합니다.
 1. 업로드 페이지 오른쪽의 **Adobe Dynamic Media 폴더 대상 선택** 영역에서 Dynamic Media Classic에서 대상 폴더를 선택합니다.
-1. (선택 사항) 업로드 페이지 하단의 **작업 이름** 필드에서 업로드 작업의 새 이름을 지정합니다. 또는 Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용하면 됩니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다.
+1. (선택 사항) 업로드 페이지 하단의 **작업 이름** 필드에서 업로드 작업의 새 이름을 지정합니다. 또는 Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 간단하게 사용할 수 있습니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다.
 [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
 1. (선택 사항) 업로드한 자산을 자동으로 게시하려면 [업로드] 페이지 하단에서 **업로드 후 게시**를 선택합니다.
 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. [작업 옵션] 대화 상자에서도 동일한 옵션을 사용할 수 있습니다.
@@ -216,7 +218,7 @@ Dynamic Media Classic 데스크톱 응용 프로그램을 사용하면 드래그
          * **지금** — 업로드 작업 옵션 대화 상자에서  **** 저장을 클릭한 다음 업로드 페이지에서  **업로드** 제출을 클릭하면 업로드 작업이 즉시 실행됩니다.
          * **나중에 예약**  — 업로드 작업을 실행할 연도, 월, 일 및 시간(15분씩)을 선택합니다.
       * **반복**  — 일별, 주별 또는 월별로 실행되는 업로드 작업을 지정합니다. 또는 업로드 작업을 사용자 고유의 사양에 맞게 사용자 정의합니다.
-         * **일별**  — 작업을 매일 실행할 시간을 설정합니다. 월요일에서 금요일에만 작업을 실행하려면 **주일만**&#x200B;을 선택합니다.
+         * **일별**  — 작업을 매일 실행할 시간을 설정합니다. 월요일에서 금요일까지 작업을 실행하려면 **주일만**&#x200B;을 선택합니다.
          * **주별** — 작업을 실행할 특정 요일과 시간을 선택합니다.
          * **월별** — 작업을 실행할 특정 요일을 시작 시간을 비롯하여 해당 월의 특정 요일을 선택합니다.
          * **사용자 지정** — 고유한 사양에 맞게 업로드 또는 게시 작업 시간 간격을 사용자 지정합니다. [사용자 지정 업로드 또는 게시 작업 시간 간격 만들기](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval)를 참조하십시오.
@@ -261,13 +263,13 @@ Dynamic Media Classic 데스크톱 응용 프로그램을 사용하면 드래그
 * **POSTSCRIPT OPTIONS**  — PostScript® 파일을 래스터화하고 파일을 자르고 투명한 배경을 유지하며 해상도를 선택하고 색상 공간을 선택할 수 있습니다.
 [PostScript 및 Illustrator 파일 작업](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)을 참조하십시오.
 
-* **PHOTOSHOP OPTIONS**  — Adobe® Photoshop® 파일에서 템플릿을 만들고, 레이어를 유지하고, 레이어 이름을 지정하는 방법을 지정하고, 텍스트를 추출하고, 이미지를 템플릿에 연결하는 방법을 지정할 수 있습니다.
+* **Photoshop OPTIONS**  — Adobe® Photoshop® 파일에서 템플릿을 만들고, 레이어를 유지하고, 레이어 이름을 지정하는 방법을 지정하고, 텍스트를 추출하고, 이미지를 템플릿에 연결하는 방법을 지정할 수 있습니다.
 [PSD 업로드 선택 사항](psd-files.md#psd_upload_options)을 참조하십시오.
 
 * **PDF OPTIONS**  — 파일을 래스터화하고 검색 단어 및 링크를 추출하며 eCatalog를 자동으로 생성하고 해상도를 설정하고 색상 공간을 선택할 수 있습니다.
 [PDF 업로드 선택 사항](pdfs.md#pdf_upload_options)을 참조하십시오.
 
-* **ILLUSTRATOR OPTIONS**  — Adobe Illustrator® 파일을 래스터화하고 투명한 배경을 유지하며 해상도를 선택하고 색상 공간을 선택할 수 있습니다.
+* **Illustrator OPTIONS**  — Adobe Illustrator® 파일을 래스터화하고 투명한 배경을 유지하며 해상도를 선택하고 색상 공간을 선택할 수 있습니다.
 [PostScript 및 Illustrator 파일 작업](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)을 참조하십시오.
 
 * **EVIDEO OPTIONS** — 비디오 사전 설정을 선택하여 비디오 파일을 트랜스코딩할 수 있습니다.
