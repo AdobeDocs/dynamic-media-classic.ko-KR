@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/support_files
 discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
+feature: Dynamic Media Classic
+role: 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 40%
+source-wordcount: '432'
+ht-degree: 39%
 
 ---
 
@@ -54,13 +56,13 @@ Dynamic Media Classic에서는 다음 글꼴 유형을 지원합니다.
 
 **글꼴** 스타일옵션은 일반, 굵게, 기울임체 및 굵은 기울임체입니다.
 
-**글꼴** 유형옵션은 TrueType 및 Adobe 유형 1입니다. 이러한 글꼴을 다른 이름으로 호출하는 경우 해당 이름을 입력할 수 있습니다.
+**글꼴** 유형옵션은 TrueType 및 Adobe Type 1입니다. 이러한 글꼴을 다른 이름으로 호출하는 경우 해당 이름을 입력할 수 있습니다.
 
 **글꼴 유형 약어** 이 옵션은 다음과 같습니다.
 
 **PDF/** PostScript 렌더링 및 이미지 제공에 사용되는 TTFTrueType 글꼴 파일입니다.
 
-**adobe** 글꼴 지표 정보가 들어 있고 이미지 제공을 위해 사용되는 AFMAdobe PostScript 글꼴 파일입니다.
+**Adobe** 글꼴 지표 정보가 들어 있고 이미지 제공을 위해 사용되는 AFMAdobe PostScript 글꼴 파일입니다.
 
 **PFMAdobe** PostScript 글꼴 파일에 바이너리 글꼴 지표 정보가 포함되어 있습니다.
 
