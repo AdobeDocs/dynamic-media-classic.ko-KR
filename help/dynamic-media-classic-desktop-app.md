@@ -1,14 +1,16 @@
 ---
 title: Adobe Dynamic Media Classic 데스크탑 앱 - 현재 제공 중
-description: Dynamic Media Classic 데스크탑 앱에 대한 자세한 내용을 살펴보십시오.
+description: Dynamic Media Classic 데스크톱 응용 프로그램에 대해 자세히 알아보십시오.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
+feature: Dynamic Media Classic
+role: 관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 22536021ff68704173b5c1fc7eb9018b9e19f2aa
+source-git-commit: 24f8d9f6e997269d879562d777199d3d86d8114a
 workflow-type: tm+mt
-source-wordcount: '1663'
+source-wordcount: '1669'
 ht-degree: 0%
 
 ---
