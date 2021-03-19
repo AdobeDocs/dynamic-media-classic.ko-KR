@@ -7,11 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
+feature: Dynamic Media Classic
+role: 데이터 엔지니어, 관리자, 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1199'
-ht-degree: 51%
+source-wordcount: '1207'
+ht-degree: 50%
 
 ---
 
@@ -106,7 +108,7 @@ Adobe Analytics 구성 화면의 각 뷰어 이벤트에 대해 Adobe Analytics 
 [Adobe Analytics 구성] 화면에서 뷰어 이벤트를 활성화, 편집 및 삭제할 수 있습니다.
 
 * **Activating**
-Enable **** 을 클릭하여 선택한 뷰어 이벤트 **** 를 활성화하거나 비활성화하려면 클릭합니다.
+Enable **** 을 클릭하여 선택한 뷰어 이벤트 **** 를 활성화하거나 비활성화하십시오.
 
 * **편집**
 뷰어 이벤트를 선택하고 [ **[!UICONTROL 변수 보기/]** 편집] 회색 단추를 클릭합니다. Dynamic Media Classic 변수 및 Adobe Analytics 변수 드롭다운 목록에서 각 목록에서 다른 변수를 선택합니다. 자세한 내용은 Dynamic Media Classic 뷰어 이벤트 및 변수에 Adobe Analytics 변수 할당을 참조하십시오.
