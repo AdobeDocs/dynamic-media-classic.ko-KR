@@ -7,10 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
+feature: Dynamic Media Classic,뷰어,eCatalog
+role: 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1453'
 ht-degree: 64%
 
 ---
@@ -78,7 +80,7 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 
 이미지 맵은 eCatalog 페이지에 다른 차원을 추가합니다. 이미지 맵은 항목에 대한 자세한 정보를 제공하는 페이지의 한 영역입니다. 뷰어가 포인터를 이미지 맵 위로 롤오버하면 항목에 대한 설명이 표시됩니다. 이미지 맵을 클릭하면 새 웹 페이지를 여는 외부 참조가 활성화되고, 이 페이지에서 항목에 대한 자세한 정보를 확인할 수 있습니다.
 
-이미지 맵을 만들려면 eCatalog 화면을 엽니다. 그런 다음 eCatalog 화면의 **[!UICONTROL 페이지 매핑]** 탭으로 이동하여 사각형 이미지 맵 도구 또는 다각형 이미지 맵 도구로 지도를 그립니다. [패닝] 도구 로 맵 테두리를 끌어 이미지 맵의 위치와 크기를 조정할 수 있습니다.
+이미지 맵을 만들려면 eCatalog 화면을 엽니다. 그런 다음 eCatalog 화면의 **[!UICONTROL 페이지 매핑]** 탭으로 이동하여 사각형 이미지 맵 도구 또는 다각형 이미지 맵 도구를 사용하여 맵을 그립니다. [패닝] 도구 로 맵 테두리를 끌어 이미지 맵의 위치와 크기를 조정할 수 있습니다.
 
 이미지 맵을 그린 후 [이미지 맵]을 클릭할 때 이동하려는 URL 주소를 입력합니다. 포인터를 이미지 맵 위로 이동할 때 표시되는 롤오버 텍스트를 입력할 수도 있습니다.
 
