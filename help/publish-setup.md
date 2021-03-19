@@ -1,13 +1,15 @@
 ---
 title: 게시 설정
-description: '[제작 설정] 화면 설정은 Dynamic Media Classic 서버에서 웹 사이트 또는 응용 프로그램으로 자산을 기본적으로 제공하는 방법을 결정합니다.'
+description: 제작 설정 설정을 사용하면 Dynamic Media Classic 서버에서 웹 사이트 또는 응용 프로그램으로 자산을 기본적으로 제공하는 방법을 지정할 수 있습니다.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: 관리자
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2422'
 ht-degree: 64%
 
 ---
