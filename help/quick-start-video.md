@@ -5,11 +5,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
+feature: Dynamic Media Classic,뷰어,비디오
+role: 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1441'
-ht-degree: 65%
+source-wordcount: '1448'
+ht-degree: 64%
 
 ---
 
