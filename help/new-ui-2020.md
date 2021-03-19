@@ -4,10 +4,12 @@ description: 이제 Dynamic Media Classic 사용자는 사용자 인터페이스
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: 관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
-source-wordcount: '1140'
+source-wordcount: '1146'
 ht-degree: 0%
 
 ---
