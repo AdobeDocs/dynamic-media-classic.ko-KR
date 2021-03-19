@@ -4,11 +4,13 @@ description: XML 기반 시스템을 사용하여 이미지 및 이미지 정보
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
+feature: Dynamic Media Classic
+role: 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: ca12c96d3a76cfa52fd930d190476cb6fc4f4ac7
+source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 61%
+source-wordcount: '126'
+ht-degree: 58%
 
 ---
 
