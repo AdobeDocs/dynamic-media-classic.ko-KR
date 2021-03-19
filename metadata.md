@@ -1,20 +1,14 @@
 ---
 cloud: experience-cloud
 solution: Dynamic Media Classic
-type: Documentation
-solution-title: 학습 및 지원
-solution-hub-url: https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html#guides
-solution-image: null
-getting-started-title: 시작하기
-getting-started-url: https://experienceleague.adobe.com/docs/dynamic-media-classic/using/getting-started/dmc-platform-overview.html#workflow-process
-tutorials-title: 자습서
-tutorials-url: https://experienceleague.adobe.com/docs/dynamic-media-classic/using/intro/training-videos.html#intro
+type: 문서
+feature-set: Experience Manager Assets
 git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-classic.ko-KR
 translation-type: tm+mt
-source-git-commit: 2f7366a77c0fa5f3953721cdd5328123d9c2a052
+source-git-commit: 3eff8818ff9c8acb100ebb6aa7edeee0f84a85f1
 workflow-type: tm+mt
-source-wordcount: '137'
-ht-degree: 2%
+source-wordcount: '112'
+ht-degree: 1%
 
 ---
 
