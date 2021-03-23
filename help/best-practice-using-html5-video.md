@@ -10,21 +10,27 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,뷰어,비디오
 role: 비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 25%
+source-wordcount: '427'
+ht-degree: 13%
 
 ---
 
 
 # HTML5 비디오 뷰어 사용 우수 사례{#best-practice-using-the-html-video-viewer}
 
-Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 강력한 비디오 플레이어입니다. 플레이어의 디자인 측면에서는 표준 웹 개발 도구를 사용하여 비디오 플레이어의 모든 기능을 만들 수 있습니다. 예를 들어 HTML5 및 CSS를 사용하여 단추, 컨트롤 및 사용자 지정 포스터 이미지 배경을 디자인하면 사용자 지정된 모습으로 고객 범위를 넓힐 수 있습니다.
+Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 강력한 비디오 플레이어입니다. 플레이어의 디자인 측면에서는 표준 웹 개발 도구를 사용하여 비디오 플레이어의 전체 기능을 만들 수 있습니다. 예를 들어 HTML5 및 CSS를 사용하여 단추, 컨트롤 및 사용자 지정 포스터 이미지 배경을 디자인하면 사용자 지정된 모습으로 고객 범위를 넓힐 수 있습니다.
 
 뷰어의 재생 측면에서 브라우저의 비디오 기능을 자동으로 검색합니다. 그런 다음 HLS(응용 비디오 스트리밍)를 사용하여 비디오를 제공합니다. 또는 해당 전달 방법이 없는 경우 HTML5 점진적 기능이 대신 사용됩니다.
 
-HTML5 및 CSS를 사용하여 재생 구성 요소를 디자인하고 포함 재생을 제공하며 브라우저의 기능에 따라 응용 및 점진적 스트리밍을 사용하는 기능을 단일 플레이어에 결합하여 리치 미디어 컨텐츠의 범위를 데스크톱 및 모바일 사용자로 확장하고 스트리밍된 비디오 환경을 보장할 수 있습니다.
+다음과 같은 기능을 단일 플레이어로 결합합니다.
+
+* HTML5 및 CSS를 사용하여 디자인된 재생 구성 요소
+* 포함된 재생
+* 브라우저 기능을 기반으로 하는 응용 및 점진적 스트리밍 사용
+
+리치 미디어 컨텐츠를 데스크탑 및 모바일 사용자로 확장할 수 있습니다. 또한 간소화된 비디오 경험을 제공할 수 있습니다.
 
 Adobe 뷰어 참조 안내서의 [HTML5 뷰어 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)도 참조하십시오.
 
@@ -38,15 +44,15 @@ HLS 또는 점진적 비디오를 사용하여 비디오를 재생합니다. HLS
 
 | 장치 | 브라우저 | 비디오 재생 모드 |
 |--- |--- |--- |
-| 데스크탑 | Internet Explorer 9 및 10 | 점진적 다운로드. |
+| 데스크톱 | Internet Explorer 9 및 10 | 점진적 다운로드. |
 | 데스크톱 | Internet Explorer 11+ | HLS 비디오 스트리밍. |
 | 데스크톱 | Firefox 23-44 | 점진적 다운로드. |
 | 데스크톱 | Firefox 45 이상 | HLS 비디오 스트리밍. |
 | 데스크톱 | Chrome | HLS 비디오 스트리밍. |
 | 데스크톱 | Safari(Mac) | HLS 비디오 스트리밍. |
-| 모바일 | Chrome(Android 6 또는 이전 버전) | 점진적 다운로드. |
-| 모바일 | Chrome(Android 7 이상) | HLS 비디오 스트리밍. |
-| 모바일 | Android(기본 브라우저) | 점진적 다운로드. |
+| 모바일 | Chrome(Android™ 6 또는 이전 버전) | 점진적 다운로드. |
+| 모바일 | Chrome(Android™ 7 이상) | HLS 비디오 스트리밍. |
+| 모바일 | Android™(기본 브라우저) | 점진적 다운로드. |
 | 모바일 | Safari(iOS) | HLS 비디오 스트리밍. |
 | 모바일 | Chrome(iOS) | HLS 비디오 스트리밍. |
-| 모바일 | Blackberry | HLS 비디오 스트리밍. |
+| 모바일 | BlackBerry® | HLS 비디오 스트리밍. |
