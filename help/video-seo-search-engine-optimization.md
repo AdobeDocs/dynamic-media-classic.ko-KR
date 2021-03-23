@@ -10,10 +10,10 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: 관리자
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt
 source-wordcount: '982'
-ht-degree: 66%
+ht-degree: 62%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 66%
 
 SEO는 검색 엔진에서 웹 사이트로의 트래픽 볼륨을 향상시키는 프로세스입니다. 검색 엔진은 텍스트 기반 컨텐츠에서 정보를 수집하는 기능은 우수하지만 정보가 제공되지 않은 경우 비디오 정보를 제대로 가져올 수 없습니다.
 
-Dynamic Media Classic 비디오 SEO를 사용하면 비디오 메타데이터를 활용하여 비디오 설명이 포함된 검색 엔진을 제공할 수 있습니다. Dynamic Media Classic에서는 비디오 사이트 맵과 mRSS 피드를 만드는 기능을 제공합니다. 이러한 항목은 비디오 정보를 검색 엔진에 전송하기 위한 표준 XML 파일입니다.
+Dynamic Media Classic 비디오 SEO를 사용하여 비디오 메타데이터를 적용하여 비디오 설명이 포함된 검색 엔진을 제공할 수 있습니다. Dynamic Media Classic에서는 비디오 사이트 맵과 mRSS 피드를 만들 수 있습니다. 다음과 같은 표준 XML 파일은 비디오 정보를 검색 엔진에 제출하는 데 사용됩니다.
 
-**비디오** 사이트 맵사이트에서 비디오 컨텐츠의 위치와 내용을 Google에 정확히 알려줍니다. 이 기능을 통해 Google에서 비디오를 완벽하게 검색할 수 있습니다. 예를 들어 비디오 사이트 맵은 비디오의 실행 시간과 범주를 지정할 수 있습니다. 비디오 사이트 맵에 대한 자세한 내용은 https://www.google.com/support/webmasters/bin/answer.py?answer=80471을 참조하십시오.
+**비디오** 사이트 맵사이트에서 비디오 컨텐츠의 위치와 내용을 Google에 정확히 알려줍니다. 비디오는 Google에서 검색 가능합니다. 예를 들어 비디오 사이트 맵은 비디오의 실행 시간과 범주를 지정할 수 있습니다. 비디오 사이트 맵에 대한 자세한 내용은 https://www.google.com/support/webmasters/bin/answer.py?answer=80471을 참조하십시오.
 
 **mRSS(Media Really Simple Syndication)** 피드컨텐츠 제공자가 미디어 파일을 Yahoo! 사용합니다. mRSS 피드에 대한 자세한 내용은 https://www.rssboard.org/media-rss을 참조하십시오.
 
@@ -62,7 +62,7 @@ Dynamic Media Classic에서는 비디오 사이트 맵과 mRSS 피드에 대한 
 
 **두** 가지 모두 XML 파일 유형을 모두 만듭니다.
 
-**** 해제비디오 사이트 맵과 미디어 RSS(mRSS) 피드 생성을 중지하려면 이 옵션을 선택합니다.
+**꺼짐** 비디오 사이트 맵과 미디어 RSS(mRSS) 피드 생성을 중지하려면 이 옵션을 선택합니다.
 
 [자동/수동 모드] 드롭다운 목록에서 자동 또는 수동으로 생성할지 여부를 선택합니다.
 
@@ -93,7 +93,7 @@ Dynamic Media Classic에서는 비디오 사이트 맵과 mRSS 피드에 대한 
 
 >[!NOTE]
 >
->검색 엔진에 전송하려면 먼저 비디오 사이트 맵이나 mRSS 피드를 게시해야 합니다. 비디오 사이트 맵과 미디어 RSS(mRSS) 피드 파일은 회사의 루트 폴더에 저장됩니다. 필요한 경우 이러한 XML 파일을 게시로 표시하고 [게시]를 클릭합니다.
+>비디오 사이트 맵 또는 mRSS 피드를 게시한 후 검색 엔진에 제출할 수 있습니다. 비디오 사이트 맵과 미디어 RSS(mRSS) 피드 파일은 회사의 루트 폴더에 저장됩니다. 필요한 경우 이러한 XML 파일을 게시로 표시하고 [게시]를 클릭합니다.
 
 ## 검색 엔진에 비디오 사이트 맵과 mRSS 피드 파일 전송  {#submitting-video-sitemap-and-mrss-feed-files-to-search-engines}
 
