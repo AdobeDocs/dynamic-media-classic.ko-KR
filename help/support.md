@@ -8,13 +8,12 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: 관리자,비즈니스 전문가
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9801d5707bef099da72f9163826188b703e75168
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 33%
+source-wordcount: '189'
+ht-degree: 28%
 
 ---
-
 
 # 지원 {#support}
 
@@ -23,13 +22,15 @@ ht-degree: 33%
 | 지원 | 가입 |
 |--- |--- |
 | 횟수 제한 | 제한 없음. |
-| 응답 시간 | [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)의 FAQ를 참조하십시오. |
-| SLA(서비스 수준 계약) | [https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
+| Adobe 시스템 상태 확인 | [Dynamic Media Classic 시스템 상태](https://status.adobe.com/products/1175). |
+| 답을 찾을 수 없습니까? | [지원 센터에서 도움을 받으려면 티켓을 엽니다](https://experienceleague.adobe.com/?support-solution=General#support). |
+| 커뮤니티 포럼 | [Experience Manager 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
+| SLA(서비스 수준 계약) | [지원 서비스/약관](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | 지원되는 사용자 | 조직당 최대 10명의 사용자를 지원 사용자로 지정할 수 있으며, 이 사용자는 고객 지원 센터에서 사례를 열 수 있습니다. |
-| 소셜 지원 | [https://helpx.adobe.com/contact/enterprise-support.ec.html](https://helpx.adobe.com/contact/enterprise-support.ec.html)의 FAQ를 참조하십시오. |
 | 무료 라이브 웹 교육 및 비디오 자습서 | 포함. |
-| 지원 사례 만들기 | [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) |
-| 전화 지원 | <ul><li>미국/캐나다:(800) 898-9743, (800)497-033, (408)454-5910 </li> <li>일본:+81-3-6743-9632 </li><li>영국:+44 (0)20 35641782</li><li>독일:+49 (0)69 51709005</li><li>프랑스:+33 157324085</li><li>네덜란드:+31 (0)20 2035138 (영어로 주말 지원)</li></ul> |
+| 전화 지원 | <ul><li>미국 및 캐나다:1-800-497-0335 </li><li>[다른 지역의 전화 번호](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html).</li></ul> |
+
+<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 기술 지원에 문제를 보고할 경우 다음 정보를 포함하십시오.
 
@@ -39,4 +40,3 @@ ht-degree: 33%
 * 문제 설명 및 문제를 재현하는 데 필요한 단계.
 * 오류 메시지(있는 경우).
 * 해당되는 경우 브라우저 유형 및 버전입니다.
-
