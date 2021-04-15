@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,공동 작업,자산 관리
-role: 관리자,비즈니스 전문가
+role: Administrator,Business Practitioner
+exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 82%
+source-wordcount: '1009'
+ht-degree: 81%
 
 ---
-
 
 # Media Portal 사용자 추가 및 관리{#adding-and-managing-media-portal-users}
 
@@ -83,8 +83,8 @@ ht-degree: 82%
 
 | 이름 | 성 | 이메일 | 암호 | 사용자 역할 | 그룹 |
 |--- |--- |--- |--- |--- |--- |
-| Peter | Peterson | `petep@company.com` | 시작 | Media Portal 관리자 | PortalCo/IT,PortalCo/Admin |
-| Kevin | Marks | `kevinm@myco.com` | 시작 | Media Portal 사용자 | PortalCo/MktgGroup, PortalCo/test |
+| 프레리 | Kat | `prairiek@company.com` | 시작 | Media Portal 관리자 | PortalCo/IT,PortalCo/Admin |
+| Rick | 브러 | `rickb@myco.com` | 시작 | Media Portal 사용자 | PortalCo/MktgGroup, PortalCo/test |
 
 
 ### CSV 파일 업로드  {#uploading-the-csv-file}
@@ -105,9 +105,9 @@ Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 
 
 1. **[!UICONTROL [설정]]** > **[!UICONTROL [애플리케이션 설정]]** > **[!UICONTROL [관리 설정]]** > **[!UICONTROL [사용자 관리]]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL [사용자 역할별]]** 드롭다운 목록에서 Media Portal 사용자 역할의 이름을 선택한 다음 **[!UICONTROL [새로 고침]]**&#x200B;을 클릭하여 하나의 Media Portal 사용자 클래스의 이름을 표시합니다.
-1. **[!UICONTROL [팝업 목록]]**&#x200B;을 클릭하여 팝업 창을 엽니다. 이 목록을 복사하고 붙여 넣을 수 있습니다.
+1. **[!UICONTROL [팝업 목록]]**&#x200B;을 클릭하여 팝업 창을 엽니다. 이 목록을 복사하여 붙여 넣습니다.
 
-## Media Portal 사용자에 대한 환영 이메일 메시지 설정  {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
+## Media Portal 사용자에 대한 환영 이메일 메시지 설정 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
 새 Media Portal 사용자, 기여자 및 기여자-사용자를 추가할 때 환영 이메일을 보낼 수 있습니다. 이 전자 메일 메시지를 구성하거나 Dynamic Media Classic에서 보내지 않도록 지정할 수 있습니다.
 
@@ -115,24 +115,24 @@ Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 
 1. [사용자 관리 설정] 화면에서 **[!UICONTROL 이메일 설정]**&#x200B;을 클릭합니다.
 1. [이메일 설정] 대화 상자에서 다음 중 원하는 설정을 지정합니다.
 
-   **[!UICONTROL 이메일]** 보내기새 사용자에게 등록한 전자 메일을 통해 알리지 않으려면 이 옵션을 선택 취소합니다.
+   * **[!UICONTROL 이메일]**  보내기 - 신규 사용자에게 등록한 전자 메일을 통해 알리지 않으려면 이 옵션을 선택 취소합니다.
 
-   **[!UICONTROL 기본]** 암호새 사용자의 임시 암호를 입력하거나 Dynamic Media Classic에서 임의 암호를 생성하도록 필드를 비워 둡니다. 처음 로그인할 때 암호를 변경하라는 메시지가 표시됩니다.
+   * **[!UICONTROL 기본 암호]**  - 새 사용자의 임시 암호를 입력하거나 Dynamic Media Classic에서 임의 암호를 생성하도록 필드를 비워 둡니다. 처음 로그인할 때 암호를 변경하라는 메시지가 표시됩니다.
 
-   **[!UICONTROL 대체]** URL사용자가 다른 URL을 통해 Dynamic Media Classic에 액세스하는 경우 기본값과 다른 URL을 입력합니다.
+   * **[!UICONTROL 대체 URL]**  - 사용자가 다른 URL을 통해 Dynamic Media Classic에 액세스하는 경우 기본값과 다른 URL을 입력합니다.
 
 ## 다른 사용자 관리 작업 {#other-user-management-tasks}
 
 [사용자 관리 설정] 화면에서 시작하여 다음 작업을 수행할 수도 있습니다.
 
-**[!UICONTROL 사용자 목록 필터링]** 및 정렬Media Portal 사용자 목록을 필터링하여 사용자를 찾습니다. 사용자 목록 필터링 및 정렬을 참조하십시오.
+* **[!UICONTROL 사용자 목록]**  필터링 및 정렬 - Media Portal 사용자 목록을 필터링하여 사용자를 찾습니다.
 
-**[!UICONTROL 사용자]** 삭제목록에서 사용자를 삭제합니다. 사용자 삭제를 참조하십시오.
+* **[!UICONTROL 사용자]**  삭제 - 목록에서 사용자를 제거합니다.
 
-**[!UICONTROL 사용자 활성화 및]** 비활성화사용자 액세스를 일시 중단합니다. 사용자 활성화 및 비활성화를 참조하십시오.
+* **[!UICONTROL 사용자]**  활성화 및 비활성화 - 사용자가 폴더에 액세스하지 못하도록 일시 중단합니다.
 
-**[!UICONTROL 사용자]** 정보 편집사용자에 대한 최신 정보를 입력합니다. 사용자 정보 편집을 참조하십시오.
+* **[!UICONTROL 사용자 정보]**  편집 - 사용자에 대한 최신 정보를 입력합니다.
 
-**[!UICONTROL 사용자 정의 필드]** 만들기사용자 정의 메타데이터 필드를 만들어 Dynamic Media Classic에서 자산을 구성하는 데 도움이 됩니다. 또한 이 필드는 필요에 따라 활성화되거나 비활성화될 수 있습니다.
+* **[!UICONTROL 사용자 정의 필드]**  만들기 - 사용자 정의 메타데이터 필드를 만들어 Dynamic Media Classic에서 자산을 구성하는 데 도움이 됩니다. 또한 이 필드는 필요에 따라 활성화되거나 비활성화될 수 있습니다.
 
 [사용자 지정 필드](application-setup.md#user_defined_fields)를 참조하십시오.
