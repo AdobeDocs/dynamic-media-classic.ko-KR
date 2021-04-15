@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 1a9b525e-6120-44c7-b11a-e56bfb7cd017
 feature: Dynamic Media Classic,뷰어,이미지 세트
-role: 비즈니스 전문가
+role: Business Practitioner
+exl-id: e2c22d93-061e-4e57-9999-120592dbd56a
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 83%
+source-wordcount: '101'
+ht-degree: 85%
 
 ---
-
 
 # 자동화된 이미지 집합 생성{#automated-image-set-generation}
 
@@ -34,12 +34,11 @@ Last Modified Date:
 
 **이미지 세트 생성 자동화**
 
-1. **파일** > **세트 생성**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 파일]** > **[!UICONTROL 세트 생성]**&#x200B;을 클릭합니다.
 1. [집합 생성] 대화 상자에서 작업 이름을 지정합니다.
 
    기본적으로 작업에는 생성된 작업임을 나타내는 이름과 작업이 생성된 시기가 지정됩니다.
 
 1. 적용하려는 사전 설정을 선택합니다.
-1. **대상 폴더**&#x200B;를 클릭하고 사용하려는 폴더를 지정합니다.
-1. **제출**&#x200B;을 클릭합니다.
-
+1. **[!UICONTROL 대상 폴더]**&#x200B;를 클릭하고 사용하려는 폴더를 지정합니다.
+1. **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
