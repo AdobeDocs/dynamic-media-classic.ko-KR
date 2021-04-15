@@ -8,21 +8,21 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,뷰어,비디오
-role: 비즈니스 전문가
+role: Business Practitioner
+exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '431'
 ht-degree: 13%
 
 ---
-
 
 # HTML5 비디오 뷰어 사용 우수 사례{#best-practice-using-the-html-video-viewer}
 
 Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 강력한 비디오 플레이어입니다. 플레이어의 디자인 측면에서는 표준 웹 개발 도구를 사용하여 비디오 플레이어의 전체 기능을 만들 수 있습니다. 예를 들어 HTML5 및 CSS를 사용하여 단추, 컨트롤 및 사용자 지정 포스터 이미지 배경을 디자인하면 사용자 지정된 모습으로 고객 범위를 넓힐 수 있습니다.
 
-뷰어의 재생 측면에서 브라우저의 비디오 기능을 자동으로 검색합니다. 그런 다음 HLS(응용 비디오 스트리밍)를 사용하여 비디오를 제공합니다. 또는 해당 전달 방법이 없는 경우 HTML5 점진적 기능이 대신 사용됩니다.
+뷰어의 재생 측면에서 브라우저의 비디오 기능을 자동으로 검색합니다. 응용 비디오 스트리밍이라고도 하는 HLS(HTTP Live Streaming)를 사용하여 비디오를 제공합니다. 또는 해당 전달 방법이 없는 경우 HTML5 점진적 기능이 대신 사용됩니다.
 
 다음과 같은 기능을 단일 플레이어로 결합합니다.
 
