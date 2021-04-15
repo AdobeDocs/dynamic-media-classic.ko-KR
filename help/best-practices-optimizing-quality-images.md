@@ -6,15 +6,15 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,자산 관리
-role: 비즈니스 전문가
+role: Business Practitioner
+exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 60%
+source-wordcount: '1465'
+ht-degree: 54%
 
 ---
-
 
 # 이미지 품질 최적화 우수 사례{#best-practices-for-optimizing-the-quality-of-your-images}
 
@@ -28,7 +28,7 @@ Dynamic Media Classic에는 이미지를 조정 및 최적화하고 결과를 �
 
 * JPG 또는 PNG는 양질의 이미지를 관리할 수 있는 크기 및 용량으로 제공하는 데 적합합니다.
 * URL에 형식 명령을 제공하지 않으면 Dynamic Media 이미지 제공 기본값은 배달을 위해 JPG로 설정됩니다.
-* JPG는 10:1 비율로 압축하며 일반적으로 작은 크기의 이미지 파일을 만듭니다. 이미지에 빈 배경이 포함되어 있는 경우 등 일부 경우를 제외하고 PNG는 약 2:1의 비율로 압축됩니다. 일반적으로 PNG 파일 크기는 JPG 파일보다 큽니다.
+* JPG는 10:1 비율로 압축하며 일반적으로 작은 크기의 이미지 파일을 만듭니다. 이미지에 빈 배경이 포함되어 있는 경우를 제외하고 PNG는 약 2:1의 비율로 압축됩니다. 일반적으로 PNG 파일 크기는 JPG 파일보다 큽니다.
 * JPG는 손실 압축을 사용하며, 이것은 압축 중에 그림 요소(픽셀)가 제거됨을 의미합니다. 반면에 PNG는 비손실 압축을 사용합니다.
 * JPG는 종종 가장자리와 대비가 선명한 합성 이미지보다 원본에 더 충실한 사진 이미지를 압축하는 데 사용합니다.
 * 이미지에 투명도가 포함되어 있는 경우, JPG는 투명도를 지원하지 않으므로 PNG를 사용합니다.
@@ -52,7 +52,7 @@ Dynamic Media Classic에는 이미지를 조정 및 최적화하고 결과를 �
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Dynamic Media Classic을 사용하면 통합, 전달 시 또는 두 가지 모두를 통해 이미지를 선명하게 만들 수 있습니다. 하지만 대부분의 경우, 두 가지 방식을 모두 사용하지는 않고 어느 한 가지 방법만 사용하여 이미지를 선명하게 해야 합니다. URL에서 제공 시 이미지를 선명하게 하면 일반적으로 가장 좋은 결과를 얻게 됩니다.
+Dynamic Media Classic을 사용하면 통합, 전달 시 또는 두 가지 모두를 통해 이미지를 선명하게 만들 수 있습니다. 그러나 일반적으로 한 가지 방식이나 다른 방법을 사용하여 이미지를 선명하게 하지만 두 가지 방법 모두 사용할 수는 없습니다. URL에서 제공 시 이미지를 선명하게 하면 일반적으로 가장 좋은 결과를 얻게 됩니다.
 
 사용할 수 있는 이미지 선명하게 하기 방법에는 다음 두 가지가 있습니다.
 
@@ -100,7 +100,7 @@ JPG 압축에 대한 우수 사례로 `&qlt=85,0`을 사용합니다.
 
 ## JPEG 크기 조정(&amp;jpegSize=) {#best-practices-for-jpeg-sizing-jpegsize} 우수 사례
 
-`jpegSize`는 메모리가 제한된 장치에 전달할 이미지가 특정 크기를 초과하지 않도록 사용하려는 경우에 유용한 매개 변수입니다.
+`jpegSize` 매개 변수는 이미지가 메모리가 제한된 장치에 배달할 특정 크기를 초과하지 않도록 보장하기 위해 유용합니다.
 
 * 이 매개 변수는 KB( `jpegSize=<size_in_kilobytes>`)로 설정됩니다. 이미지 제공에 허용되는 최대 크기를 정의합니다.
 * `&jpegSize=` JPG 압축 매개 변수와 상호 작용합니다 `&qlt=`. 지정된 JPG 압축 매개 변수( `&qlt=`)의 JPG 응답이 `jpegSize` 값을 초과하지 않으면 정의된 대로 `&qlt=` 이미지가 반환됩니다. 그렇지 않은 경우 이미지가 최대 허용 크기로 맞춰질 때까지 또는 시스템에 맞지 않거나 오류가 반환될 수 없다고 판단될 때까지 `&qlt=`이(가) 점진적으로 감소됩니다.
@@ -119,8 +119,8 @@ JPG 이미지를 메모리가 제한된 장치에 제공하는 경우 `&jpegSize
 
 선명하기 하기 결과가 여전히 만족스럽지 않으면, 반경을 소수점 크기로 증가시킵니다. 모든 소수점 증분의 경우, 양을 1.75에서 다시 시작하여 4까지 점진적으로 증가시킵니다. 원하는 결과를 얻을 때까지 이 프로세스를 반복하십시오. 위의 값은 크리에이티브 스튜디오에서 확인한 접근 방법이며, 다른 값으로 시작하고 다른 전략을 수행할 수 있습니다. 결과가 만족스러운지 여부는 주관적인 문제이므로, 구조화된 실험이 핵심입니다.
 
-실험을 하게 되면, 워크플로우를 최적화하는 데 유용한 다음의 일반적 제안 사항을 확인할 수도 있습니다.
+여러 가지를 실험하면서 다음의 일반적인 제안은 워크플로우를 최적화하는 데 유용합니다.
 
-* Dynamic Media Classic URL에서 직접 확인하거나 조정 작업을 위한 실시간 미리 보기를 제공하는 Dynamic Media Classic의 이미지 조정 기능을 사용하여 실시간으로 다양한 매개 변수를 테스트해 봅니다.
-* Dynamic Media 이미지 제공 명령을 이미지 사전 설정으로 그룹화할 수 있는 것이 좋습니다. 이미지 사전 설정은 기본적으로 `$thumb_low$` 및 `&product_high$` 등의 사용자 정의 사전 설정 이름을 가진 URL 명령 매크로입니다. URL 경로의 사용자 지정 사전 설정 이름은 이 사전 설정을 호출합니다. 이와 같은 기능은 웹 사이트의 다양한 이미지 사용 패턴에 대한 명령 및 품질 설정을 관리하는 데 도움이 되며 URL의 전체 길이를 단축합니다.
-* 또한 Dynamic Media Classic에서는 인제스트에 선명하게 하기 이미지를 적용하는 등 이미지 품질을 조정하는 고급 방법을 제공합니다. 렌더링 결과를 추가적으로 조정하고 최적화하기 위해 이 옵션을 선택할 수 있는 고급 사용 사례에서 Adobe Professional Services는 사용자 지정된 인사이트 및 우수 사례로 도움을 줄 수 있습니다.
+* Dynamic Media Classic URL에서 직접 확인하거나 Dynamic Media Classic의 이미지 조정 기능을 사용하여 실시간으로 다양한 매개 변수를 테스트해 봅니다. 조정 작업에 대한 실시간 미리 보기를 제공합니다.
+* Dynamic Media 이미지 제공 명령을 이미지 사전 설정으로 그룹화할 수 있는 것이 좋습니다. 이미지 사전 설정은 기본적으로 `$thumb_low$` 및 `&product_high$` 등의 사용자 정의 사전 설정 이름을 가진 URL 명령 매크로입니다. URL 경로의 사용자 정의 사전 설정 이름은 이러한 사전 설정을 호출합니다. 이와 같은 기능은 웹 사이트의 다양한 이미지 사용 패턴에 대한 명령 및 품질 설정을 관리하는 데 도움이 되며 URL의 전체 길이를 단축합니다.
+* 또한 Dynamic Media Classic에서는 인제스트에 이미지 선명하게 하기 적용 등 이미지 품질을 조정하는 고급 방법을 제공합니다. 렌더링된 결과를 보다 세부적으로 조정하고 최적화하는 것이 선택 사항인 고급 사용 사례를 위해 Adobe Professional Services을 사용하면 사용자 정의된 통찰력과 최상의 작업 방법을 활용할 수 있습니다.
