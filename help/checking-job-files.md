@@ -8,15 +8,15 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,자산 관리
-role: 비즈니스 전문가
+role: Business Practitioner
+exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1584'
 ht-degree: 60%
 
 ---
-
 
 # 작업 파일 확인{#checking-job-files}
 
@@ -121,7 +121,7 @@ Dynamic Media Classic 및 Dynamic Media Classic 서버에 게시하는 파일에
 | 시간 | 0-23 | 24시간 시계를 사용합니다. | `, - * /` |
 | 날짜 | 1-31 | &quot;날짜&quot;와 &quot;요일&quot;에 모두 숫자 값을 지정할 수는 없습니다. 이러한 필드 중 하나는 `?` 와일드카드 문자를 사용해야 합니다. | `, - * / ? L C` |
 | 월 | 1-12 또는 1월, 2월, 3월, 4월, 5월, 6월, 7월, 8월, 9월, 10월, 11월, 12월 | 값은 대/소문자를 구분합니다. | `, - * /` |
-| 요일 | 월, 화, 수, 목, 금, 토, 일 | 값은 대/소문자를 구분합니다. &quot;날짜&quot;와 &quot;요일&quot;에 모두 숫자 값을 지정할 수는 없습니다. 두 필드 중 하나는 ? 와일드카드 문자를 사용해야 합니다. | `, - * / ? L C #` |
+| 요일 | 월, 화, 수, 목, 금, 토, 일 | 값은 대/소문자를 구분합니다. &quot;날짜&quot;와 &quot;요일&quot;에 모두 숫자 값을 지정할 수는 없습니다. 이러한 필드 중 하나는 `?` 와일드카드 문자를 사용해야 합니다. | `, - * / ? L C #` |
 | 연도(선택 사항) | 비어 있거나 1970-2099 |  | `, - * /` |
 
 
