@@ -8,25 +8,25 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 discoiquuid: f4c8c2b3-cc95-416f-9a5d-da81c231dfc2
 feature: Dynamic Media Classic
-role: 데이터 엔지니어, 관리자, 비즈니스 전문가
+role: Data Engineer,Administrator,Business Practitioner
+exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
 workflow-type: tm+mt
-source-wordcount: '1207'
-ht-degree: 50%
+source-wordcount: '1196'
+ht-degree: 46%
 
 ---
-
 
 # Adobe Analytics 보고서 구성{#configuring-adobe-analytics-reports}
 
 Adobe Analytics 보고서에 포함할 정보를 Adobe Analytics에 알려 주려면, Adobe Analytics 구성 화면으로 이동합니다. 보고서를 구성한 후 이 화면에는 원하는 각 뷰어 이벤트에 대한 해당 Adobe Analytics 변수 및 Dynamic Media Classic 변수가 나열됩니다. 이러한 뷰어 이벤트-Adobe Analytics 변수-Dynamic Media Classic 변수 조합은 보고되는 정보를 결정합니다.
 
-뷰어 이벤트를 변수와 연결하는 것은 물론 [Adobe Analytics 구성] 화면에서는 뷰어 이벤트를 활성화, 편집 및 삭제하는 도구도 제공합니다.
+뷰어 이벤트를 변수와 연결하는 것 외에도 Adobe Analytics 구성 화면에서는 뷰어 이벤트를 활성화, 편집 및 삭제하는 도구를 제공합니다.
 
 >[!NOTE]
 >
->Adobe Analytics 내에서 Adobe Analytics 보고서 설정을 변경할 때마다 Adobe Dynamic Media Classic 내에서 Adobe Analytics에 다시 로그온하고 Adobe Analytics 구성 설정을 다시 저장한 다음 다시 게시해야 합니다.
+>Adobe Analytics 내에서 Adobe Analytics 보고서 설정을 변경할 때마다 Adobe Dynamic Media Classic 내에서 Adobe Analytics으로 다시 로그온하고 Adobe Analytics 구성 설정을 다시 저장한 다음 다시 게시해야 합니다.
 
 [Adobe Analytics에 로그인](log-analytics.md#log_in_to_adobe_analytics)을 참조하십시오.
 
@@ -38,7 +38,7 @@ Adobe Analytics 구성 화면을 사용하여 뷰어 이벤트를 Adobe Analytic
 
 **Dynamic Media Classic 뷰어 이벤트 및 변수에 Adobe Analytics 변수를 할당하려면**
 
-1. Dynamic Media Classic 내에서 Adobe Analytics에 로그인하고 보고서 세트를 선택한 후, Adobe Analytics 구성 페이지의 표의 맨 오른쪽 열에서 **Enable**&#x200B;을 클릭하여 뷰어 이벤트를 활성화합니다.
+1. Dynamic Media Classic 내에서 Adobe Analytics에 로그인하고 보고서 세트를 선택한 후, Adobe Analytics 구성 페이지의 오른쪽 테이블 열에서 **[!UICONTROL 활성화]**&#x200B;를 클릭하여 뷰어 이벤트를 활성화합니다.
 1. 변수 열에서 원하는 뷰어 이벤트의 화살표 단추를 클릭하여 변수 쌍 선택을 표시합니다.
 
    [뷰어 이벤트](configuring-analytics-reports.md#viewer_events)를 참조하십시오.
@@ -60,7 +60,7 @@ Adobe Analytics 구성 화면을 사용하여 뷰어 이벤트를 Adobe Analytic
 
 ### 뷰어 이벤트 {#viewer-events}
 
-뷰어 이벤트는 사용자가 Dynamic Media Classic 뷰어로 수행하는 작업에 대해 설명합니다. 썸네일을 클릭하거나 비디오를 중지하는 등 사용자가 특정 작업을 시작하면 뷰어가 이벤트와 관련된 데이터와 함께 웹 페이지에 해당 이벤트를 &quot;브로드캐스트&quot;합니다.
+뷰어 이벤트는 사용자가 Dynamic Media Classic 뷰어로 수행하는 작업에 대해 설명합니다. 축소판을 클릭하거나 비디오를 시작 또는 중지하는 등 특정 작업을 시작하는 경우 뷰어는 이벤트와 연관된 데이터와 함께 이벤트를 웹 페이지에 &quot;브로드캐스트&quot;합니다.
 
 다음 표에서는 [Adobe Analytics 구성] 화면에 추가할 수 있는 뷰어 이벤트에 대해 설명합니다.
 
