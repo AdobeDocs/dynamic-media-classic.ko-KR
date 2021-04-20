@@ -3,7 +3,7 @@ description: 'Experience League의 Dynamic Media 뉴스레터는 월간 뉴스�
 keywords: 다이내믹 미디어;뉴스레터;제품 업데이트;팁과 트릭;이벤트;고객 성공;블로그;블로그;이미지;비디오;기능;features
 title: Dynamic Media 뉴스레터
 feature: Dynamic Media Classic
-role: 관리자,비즈니스 전문가
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

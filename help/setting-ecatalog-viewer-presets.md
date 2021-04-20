@@ -6,8 +6,8 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
-feature: Dynamic Media Classic,뷰어,뷰어 사전 설정,전자 카탈로그
-role: 비즈니스 전문가
+feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
+role: Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

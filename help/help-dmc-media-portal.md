@@ -7,8 +7,8 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 discoiquuid: a55f7279-6bba-43f1-99fa-88e922ac1803
-feature: Dynamic Media Classic,브랜드 포털
-role: 관리자,비즈니스 전문가
+feature: Dynamic Media Classic,Brand Portal
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

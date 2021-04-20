@@ -3,7 +3,7 @@ title: 널리 사용되는 리소스
 description: 웨비나, 교육 비디오, 모범 사례 정보 및 개발자 리소스에 대한 링크입니다.
 contentOwner: Rick Brough
 feature: Dynamic Media Classic
-role: 관리자,비즈니스 전문가
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

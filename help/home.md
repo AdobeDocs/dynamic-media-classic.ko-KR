@@ -5,7 +5,7 @@ description: Adobe Dynamic Media Classic 기술 설명서
 seo-description: 'Adobe Dynamic Media Classic(이전 Scene 7)에 대한 기술 설명서, 릴리스 노트 및 자체 도움말 자료 '
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
-role: 관리자,비즈니스 전문가
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
 workflow-type: tm+mt

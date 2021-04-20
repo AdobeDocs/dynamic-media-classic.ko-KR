@@ -2,7 +2,7 @@
 title: Dynamic Media Classic 교육 비디오
 description: 시작하기, 다이내믹 이미지, 비디오, 미디어 포털, 템플릿, 이미지 저작 및 렌더링에 대한 Dynamic Media Classic 교육 비디오입니다.
 feature: Dynamic Media Classic
-role: 관리자,비즈니스 전문가
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt

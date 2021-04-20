@@ -1,7 +1,7 @@
 ---
 cloud: Experience Cloud
 solution: Dynamic Media Classic
-type: 문서
+type: Documentation
 feature-set: Experience Manager Assets
 git-repo: https://git.corp.adobe.com/AdobeDocs/dynamic-media-classic.ko-KR
 translation-type: tm+mt

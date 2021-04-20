@@ -5,7 +5,7 @@ description: Dynamic Media Classic 개요
 seo-description: Dynamic Media Classic 개요
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
-role: 관리자,비즈니스 전문가
+role: Administrator,Business Practitioner
 translation-type: tm+mt
 source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
 workflow-type: tm+mt
