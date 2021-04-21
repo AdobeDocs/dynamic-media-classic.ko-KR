@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
-feature: Dynamic Media Classic,Image Presets
+feature: Dynamic Media Classic,이미지 사전 설정
 role: Business Practitioner
+exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '654'
 ht-degree: 66%
 
 ---
-
 
 # 이미지 사전 설정 지정{#setting-up-image-presets}
 
@@ -30,7 +30,7 @@ Dynamic Media Classic에는 이미 사용할 수 있도록 설정되어 있는 �
 
 회사 관리자는 고유한 이미지 사전 설정을 만들 수 있습니다. 새 이미지 사전 설정을 만들거나 Dynamic Media Classic에서 제공하는 기본 이미지 사전 설정으로 시작하여 편집하고 새 이름으로 저장할 수 있습니다.
 
-**이미지 사전 설정을 만들려면**
+**이미지 사전 설정을 만들려면:**
 
 1. **[설정]** > **[이미지 사전 설정]**&#x200B;을 클릭합니다.
 
@@ -65,7 +65,7 @@ Dynamic Media Classic에는 이미 사용할 수 있도록 설정되어 있는 �
    |--- |--- |--- |--- |--- |
    | 크로스셀(미니 썸네일) | 75x75 | 1.5 | 0.8 | 5 |
    | 썸네일 | 150x150 | 1.1 | 1 | 5 |
-   | 주 | 350x350 | 1 | 3 | 6 |
+   | 주 | 350x350 | 1 | 1 | 6 |
    | 확대 | 500x500 | 1.2 | 1.2 | 5 |
 
 1. **[저장]**&#x200B;을 클릭합니다.
