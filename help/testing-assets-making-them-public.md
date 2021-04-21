@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,자산 관리
 role: Business Practitioner
+exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '1103'
-ht-degree: 54%
+source-wordcount: '1100'
+ht-degree: 55%
 
 ---
-
 
 # 공개하기 전에 자산 테스트 {#testing-assets-before-making-them-public}
 
@@ -46,7 +46,9 @@ ht-degree: 54%
 
 게시되지 않은 자산은 게시하지 않아도 보안 테스트 서비스에서 즉시 사용할 수 있습니다. 따라서 자산이 공개 이미지 서버에 게시되기 전에 미리 보기를 실행할 수 있습니다.
 
-***참고&#x200B;**:보안 테스트 서비스는 내부 게시 컨텍스트로 구성된 카탈로그 서버를 사용합니다. 따라서 회사가 보안 테스트에 게시하도록 구성된 경우 Dynamic Media Classic에 업로드된 모든 자산을 보안 테스트 서비스에서 즉시 사용할 수 있게 됩니다. 업로드 시 자산이 게시로 표시되었는지 여부에 관계없이 이 기능이 적용됩니다.*
+>[!NOTE]
+>
+>보안 테스트 서비스는 내부 게시 컨텍스트로 구성된 카탈로그 서버를 이용합니다. 따라서 회사가 보안 테스트에 게시하도록 구성된 경우 Dynamic Media Classic에 업로드된 모든 자산을 보안 테스트 서비스에서 즉시 사용할 수 있게 됩니다. 업로드 시 자산이 게시로 표시되었는지 여부에 관계없이 이 기능이 적용됩니다.
 
 Secure Testing Services는 현재 다음과 같은 자산 유형 및 기능을 지원합니다.
 
@@ -145,4 +147,3 @@ Last Modified Date:
    외부(예: 가정의 컴퓨터 또는 3G 연결)에서 네트워크에 액세스한 다음 사이트의 공개 버전이 모든 게시된 자산을 표시하고 게시되지 않은 컨텐츠는 표시하지 않는지 확인합니다.
 
    승인되지 않은 IP 주소에서 보안 테스트 서비스에 액세스 중이기 때문에 스테이징 버전이 모든 자산을 표시하지 않는지 확인합니다.
-
