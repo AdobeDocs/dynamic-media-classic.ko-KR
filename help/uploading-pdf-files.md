@@ -6,16 +6,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,뷰어,eCatalog
 role: Business Practitioner
+exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '699'
 ht-degree: 56%
 
 ---
-
 
 # PDF 파일 업로드{#uploading-the-pdf-files}
 
@@ -76,4 +76,3 @@ Dynamic Media Classic에서는 [자동 감지]를 선택하는 것이 좋습니�
 >[!NOTE]
 >
 >모든 PDF 선택 사항에 대한 자세한 내용은 [PDF 업로드 선택 사항](pdfs.md#pdf_upload_options)을 참조하십시오.
-
