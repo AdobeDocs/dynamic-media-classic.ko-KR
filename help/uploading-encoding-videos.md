@@ -8,16 +8,16 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: a0941823-850c-4373-9e37-f32032de3805
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,뷰어,비디오
 role: Business Practitioner
+exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '3945'
-ht-degree: 81%
+source-wordcount: '3942'
+ht-degree: 82%
 
 ---
-
 
 # 비디오 업로드 및 인코딩{#uploading-and-encoding-videos}
 
@@ -248,9 +248,9 @@ Dynamic Media Classic에서 해당 메타데이터를 보거나, 비디오 편�
 
 | 비디오 유형 | 너비 x 높이 | 너비 비율 | 높이 비율 |
 |--- |--- |--- |--- |
-| 출처 | 1920 x 1080 | 1 | 3 |
+| 출처 | 1920 x 1080 | 1 | 1 |
 | 인코딩됨 | 960 x 540 | 2 | 2 |
-| 인코딩됨 | 640x360 | 3 | 3 |
+| 인코딩됨 | 640x360 | 3 | 1 |
 | 인코딩됨 | 480x270 | 4 | 4 |
 
 ### 인코딩된 비디오 파일 형식  {#encoded-video-file-format}
@@ -313,22 +313,24 @@ Dynamic Media Classic에서 업로드하고 인코딩하는 비디오 에셋의 
 
 활성화된 비디오 사전 설정은 [업로드 작업 옵션] 대화 상자에 나타납니다. 이 대화 상자는 사용자가 업로드 프로세스 중에 비디오 파일을 업로드할 때 나타납니다. 모든 활성화된 인코딩 사전 설정 목록에서 선택할 수 있습니다.
 
-**비디오 인코딩 사전 설정을 활성화 또는 비활성화하려면**
+**비디오 인코딩 사전 설정을 활성화 또는 비활성화하려면:**
 
-1. Dynamic Media Classic에서 **설정** > **응용 프로그램 설정** > **비디오 사전 설정**&#x200B;을 클릭합니다.
+1. Dynamic Media Classic에서 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 비디오 사전 설정]**&#x200B;을 클릭합니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * **적응형 비디오 사전 설정**&#x200B;을 클릭합니다.
-   * **단일 인코딩 사전 설정**&#x200B;을 클릭합니다.
+   * **[!UICONTROL 적응형 비디오 사전 설정]**&#x200B;을 클릭합니다.
+   * **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 클릭합니다.
 
 1. 다음 중 하나를 수행하십시오.
 
    * 비디오 사전 설정을 활성화하려면 사전 설정 페이지의 [활성] 열에서 사전 설정 이름 옆에 있는 상자를 선택합니다.
    * 비디오 사전 설정을 비활성화하려면 비활성화할 비디오 사전 설정의 옆에 있는 상자를 선택 취소합니다.
 
-      ***참고**:비활성 비디오 사전 설정이 [업로드 작업 옵션] 대화 상자에 나타나지 않습니다.*
+      >[!NOTE]
+      >
+      >비활성화된 비디오 사전 설정은 [업로드 작업 옵션] 대화 상자에 나타나지 않습니다.
 
-1. 페이지의 오른쪽 하단에서 **닫기**&#x200B;를 클릭합니다.
+1. 페이지의 오른쪽 하단에서 **[!UICONTROL 닫기]**&#x200B;를 클릭합니다.
 
 ### 비디오 인코딩 사전 설정 추가 또는 편집  {#adding-or-editing-a-video-encoding-preset}
 
