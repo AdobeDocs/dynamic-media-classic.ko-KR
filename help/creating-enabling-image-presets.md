@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
-feature: Dynamic Media Classic,Collaboration,Image Presets,Asset Management
+feature: Dynamic Media Classic,공동 작업,이미지 사전 설정,자산 관리
 role: Administrator,Business Practitioner
+exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 81%
 
 ---
-
 
 # 이미지 사전 설정 만들기 및 활성화{#creating-and-enabling-image-presets}
 
@@ -27,7 +27,7 @@ Media Portal 관리자는 이미지 사전 설정을 만들어 이미지를 내�
 이미지 자산을 내보낼 때 다음 제한이 적용됩니다.
 
 * 너비x높이는 이미지당 100MB 이하여야 합니다. 예를 들어 이미지는 10Kx10K 또는 8Kx12K와 같은 아래 종횡비 변형을 초과할 수 없습니다.
-* 내보내기 작업당 최대 총 파일 크기는 1GB입니다.
+* 내보내기 작업당 최대 1GB의 총 파일 크기가 있습니다.
 * 내보내기 작업당 최대 총 500개의 자산을 가질 수 있습니다.
 
 >[!NOTE]
