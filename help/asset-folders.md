@@ -7,11 +7,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,자산 관리
 role: Business Practitioner
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 translation-type: tm+mt
-source-git-commit: 31ac96e6fd11c47284d58540f5ec0135f0e6223b
+source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '442'
 ht-degree: 49%
@@ -36,7 +36,9 @@ Dynamic Media Classic의 파일 자산은 폴더에 보관됩니다. 이러한 �
 
 * **폴더**  열기 - [찾아보기] 패널에 해당 컨텐츠를 표시할 폴더를 선택합니다.
 
-***팁&#x200B;**:왼쪽의 확장/축소 컨트롤을 클릭하여 자산 라이브러리를 숨기거나 표시할 수 있습니다. 찾아보기 패널에서 작업 공간을 늘려야 하는 경우 자산 라이브러리 패널을 축소합니다.*
+>[!TIP]
+>
+>왼쪽의 **[!UICONTROL 확장]** 또는 **[!UICONTROL 축소]** 컨트롤을 클릭하여 자산 라이브러리를 숨기거나 표시할 수 있습니다. 찾아보기 패널에서 작업 공간을 늘려야 하는 경우 자산 라이브러리 패널을 축소합니다.
 
 ## 폴더 만들기 {#creating-folders}
 
@@ -50,7 +52,7 @@ Dynamic Media Classic의 파일 자산은 폴더에 보관됩니다. 이러한 �
    >
    >FTP를 통해 파일을 업로드할 때 Dynamic Media Classic에서 폴더를 만들 수도 있습니다. FTP를 통해 업로드할 때 [하위 폴더 포함] 선택 사항을 선택하면 컴퓨터의 폴더 구조가 시스템에 복제됩니다. 컴퓨터나 네트워크에 있는 파일과 하위 폴더가 자산 라이브러리에 복제되고 업로드한 자산이 해당 폴더에 배치됩니다.
 
-## 폴더 삭제 및 이름 바꾸기 {#deleting-and-renaming-folders}
+## 폴더 삭제 및 이름 바꾸기  {#deleting-and-renaming-folders}
 
 폴더를 선택하고 다음 기술을 사용하여 폴더를 삭제하거나 이름을 바꿉니다.
 
