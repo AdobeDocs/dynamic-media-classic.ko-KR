@@ -7,14 +7,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,자산 관리
 role: Business Practitioner
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 translation-type: tm+mt
-source-git-commit: 98463dbc24e141547d01bd3f71b1b9fe3a692c14
+source-git-commit: bd0659c015f259e25d6d07b620f5b1e948cabcbf
 workflow-type: tm+mt
-source-wordcount: '1584'
-ht-degree: 60%
+source-wordcount: '1583'
+ht-degree: 61%
 
 ---
 
@@ -54,7 +54,9 @@ Dynamic Media Classic 및 Dynamic Media Classic 서버에 게시하는 파일에
 
 **제출자** 자산을 업로드한 목록을 표시합니다.
 
-***참고&#x200B;**:진행률 표시줄 옆에 있는 [취소] 단추를 클릭하여 진행 중인 게시 및 업로드 작업을 취소할 수 있습니다.*
+>[!NOTE]
+>
+>진행률 표시줄 옆에 있는 [취소] 단추 를 클릭하여 진행 중인 게시 및 업로드 작업을 취소할 수 있습니다.
 
 ## 작업 페이지에서 보기 변경 {#changing-views-on-the-jobs-page}
 
@@ -88,7 +90,7 @@ Dynamic Media Classic 및 Dynamic Media Classic 서버에 게시하는 파일에
 >
 >[작업 유형] 및 [표시] 메뉴를 사용하여 [예약됨] 탭의 작업 목록을 필터링할 수 있습니다. 작업 유형을 선택하여 목록 범위를 특정 종류의 게시 작업으로 좁힙니다. [표시] 선택 사항을 선택하여 직접 만든 작업을 표시하거나 회사의 모든 사용자가 만든 작업을 표시합니다.
 
-### 반복 작업 편집, 삭제, 일시 중단 및 재시작 {#editing-deleting-pausing-and-resuming-recurring-jobs}
+### 반복 작업 편집, 삭제, 일시 중단 및 재시작  {#editing-deleting-pausing-and-resuming-recurring-jobs}
 
 작업 페이지에서 반복 작업을 선택하고 다음 지침에 따라 작업을 편집하거나 삭제합니다.
 
