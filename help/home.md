@@ -6,14 +6,14 @@ seo-description: 'Adobe Dynamic Media Classic(이전 Scene 7)에 대한 기술 �
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 translation-type: tm+mt
-source-git-commit: 3def4a02eda8dc36f2811b3d4f0e870fff1994e4
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '585'
 ht-degree: 5%
 
 ---
-
 
 # Adobe Dynamic Media Classic 안내서 {#scene7-overview}
 
@@ -27,8 +27,8 @@ Dynamic Media Classic 도움말 시작 여기에서 사용 가능한 모든 리�
 
 ## Dynamic Media 개발자 리소스
 
-* [Dynamic Media 개발자 리소스 랜딩 페이지](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html) — 뷰어 참조 안내서, 이미지 제공/이미지 렌더링 API, 이미지 제작 시스템 API 및 Dynamic Media Classic 릴리스 정보가 포함되어 있습니다.
-* [뷰어 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) — 비디오, 쇼퍼블 미디어, 혼합 미디어, 스핀 세트, 인라인 확대/축소, 이미지 및 견본 집합, flyouts에 대한 뷰어 예를 포함합니다.
+* [Dynamic Media 개발자 리소스 랜딩 페이지](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/landing/home.html)  - 뷰어 참조 안내서, 이미지 제공/이미지 렌더링 API, 이미지 제작 시스템 API 및 Dynamic Media Classic 릴리스 정보가 포함되어 있습니다.
+* [뷰어 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)  - 비디오, 쇼퍼블 미디어, 혼합 미디어, 스핀 세트, 인라인 확대/축소, 이미지 및 견본 집합, flyouts에 대한 뷰어 예를 포함합니다.
 
 ## Dynamic Media Classic 사용자 리소스
 
