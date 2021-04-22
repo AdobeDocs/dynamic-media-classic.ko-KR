@@ -7,20 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
-feature: Dynamic Media Classic,Viewers,Video
+feature: Dynamic Media Classic,뷰어,비디오
 role: Business Practitioner
+exl-id: fab1f618-5370-4049-b6e0-69264afa933c
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 70%
+source-wordcount: '71'
+ht-degree: 40%
 
 ---
 
-
 # 소스 및 인코딩된 비디오 내보내기{#exporting-source-and-encoded-videos}
 
-찾아보기 패널에서 소스 비디오는 &quot;마스터 비디오&quot;라는 레이블이 지정됩니다. 인코딩된 비디오는 &quot;비디오&quot;라는 레이블이 지정됩니다. 소스 비디오와 마스터 비디오를 내보낼 수 있습니다. 비디오 파일을 내보내려면 찾아보기 패널에서 파일을 선택한 다음 [파일] > [내보내기]를 선택합니다.
+찾아보기 패널에서 소스 비디오는 &quot;마스터 비디오&quot;라는 레이블이 지정됩니다. 인코딩된 비디오는 &quot;비디오&quot;라는 레이블이 지정됩니다. 소스 비디오와 마스터 비디오를 내보낼 수 있습니다. 비디오 파일을 내보내려면 [찾아보기] 패널에서 비디오 파일을 선택하고 **[!UICONTROL 파일]** > **[!UICONTROL 내보내기]**&#x200B;를 클릭합니다.
 
 Dynamic Media Classic](exporting-assets-from-dmc.md#exporting-assets-from-dmc)에서 자산 내보내기를 참조하십시오.[
 
