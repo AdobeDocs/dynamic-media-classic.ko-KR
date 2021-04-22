@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: 2b134cfa-7f46-4f5f-959e-b30aae610bb9
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 32%
+source-wordcount: '436'
+ht-degree: 31%
 
 ---
-
 
 # Adobe Dynamic Media Classic 플랫폼 개요{#adobe-scene-platform-overview}
 
@@ -26,17 +26,13 @@ Dynamic Media Classic은 통합 리치 미디어 관리, 게시 및 서비스 �
 
 Dynamic Media Classic의 주요 워크플로우 단계는 다음과 같습니다.
 
-* **에셋 업로드 및**
-관리미디어 에셋을 Dynamic Media Classic에 업로드합니다. 시스템의 자산을 구성하고, 찾아보고, 검색할 수 있습니다. 메타데이터를 자산에 적용할 수도 있습니다.
+* **에셋 업로드 및 관리**  - 미디어 에셋을 Dynamic Media Classic에 업로드합니다. 시스템의 자산을 구성하고, 찾아보고, 검색할 수 있습니다. 메타데이터를 자산에 적용할 수도 있습니다.
 
-* **리치**
-미디어 제작eCatalog, 이미지 세트, 스핀 세트, 견본 세트, 혼합 미디어 집합, 기본 템플릿 및 FXG 템플릿과 같은 다양한 에셋 구성을 만듭니다. 자세한 내용은 리치 미디어 정보를 참조하십시오.
+* **리치 미디어**  만들기 - eCatalogs, 이미지 세트, 스핀 세트, 견본 세트, 혼합 미디어 세트, 기본 템플릿 및 FXG 템플릿과 같은 다양한 에셋 구성을 만들 수 있습니다.
 
-* **자산 게시 및**
-관리자산을 Dynamic Media Classic Saas 네트워크에 게시하고 자산 게시 시 상태를 모니터링하며 사용자 권한을 관리하고 보안을 유지합니다.
+* **게시 및 관리**  - 자산을 Dynamic Media Classic SaaS 네트워크에 게시하고 자산 게시 시 상태를 모니터링하며 사용자 권한을 관리하고 보안을 유지합니다.
 
-* ****
-ServerDynamic Media Classic SaaS 네트워크에서 웹 페이지, 애플리케이션 및 모바일 디바이스로 미디어 전달;미디어는 성능이 최적화되어 있으며 CDN 캐싱을 통해 전달됩니다. Dynamic Media Classic에서는 각 자산에 대한 URL을 제공합니다. 자산을 게시하면 URL이 활성화됩니다.
+* **서비스**  - Dynamic Media Classic SaaS 네트워크에서 웹 페이지, 애플리케이션 및 모바일 디바이스로 미디어를 전달하고,미디어는 성능이 최적화되어 있으며 CDN 캐싱을 통해 전달됩니다. Dynamic Media Classic에서는 각 자산에 대한 URL을 제공합니다. 자산을 게시하면 URL이 활성화됩니다.
 
 ![Dynamic Media Classic 워크플로우 프로세스](/help/assets/gs_workflow.png)
 
@@ -50,4 +46,4 @@ Dynamic Media Classic으로 생성하는 URL 문자열에는 자산이 전달될
 
 ## 컨텐츠 캐싱 {#content-caching}
 
-Dynamic Media Classic에서 동적으로 생성하는 이미지는 캐시 친화적입니다.대부분의 경우 URL 호출을 식별하는 JPEG 이미지입니다. 이미지는 컨텐츠를 더 빨리 제공하기 위해 인터넷에서 네트워크로 연결된 서버 시스템인 CDN(Content Delivery Network)을 통해 제공됩니다. 전 세계에 있는 서버에서 컴퓨터로 이미지가 배포됩니다. CDN 공급자를 사용하여 캐싱 메커니즘을 구현할 때 CDN 지원 Dynamic Media 이미지 서버를 가리키도록 서버 이름을 변경하면 됩니다. 모든 Dynamic Media Classic 에디션에는 번들로 제공되는 CDN 캐싱이 포함되어 있습니다.
+Dynamic Media Classic에서 동적으로 생성하는 이미지는 캐시 친화적입니다.일반적으로 URL 호출을 식별하는 JPEG 이미지입니다. 이미지는 컨텐츠를 더 빨리 제공하기 위해 인터넷에서 네트워크로 연결된 서버 시스템인 CDN(Content Delivery Network)을 통해 제공됩니다. 전 세계에 있는 서버에서 컴퓨터로 이미지가 배포됩니다. CDN 공급자를 사용하여 캐싱 메커니즘을 구현할 때 CDN 지원 Dynamic Media 이미지 서버를 가리키도록 서버 이름을 변경하면 됩니다. 모든 Dynamic Media Classic 에디션에는 번들로 제공되는 CDN 캐싱이 포함되어 있습니다.
