@@ -7,20 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 discoiquuid: bdd0742e-902c-48f7-93e6-6e50d2a7628b
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,자산 관리
 role: Administrator,Business Practitioner
+exl-id: 41995df7-fb67-4d40-aa42-76c507abaa9a
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 40%
+source-wordcount: '103'
+ht-degree: 15%
 
 ---
 
-
 # Media Portal{#media-portal}
 
-Adobe Media Portal에서는 승인된 크리에이티브 자산을 쉽게 획득 및 제어하고 내부 비즈니스 사용자는 물론 외부 파트너와 채널에 배포하는 기능을 회사에 제공합니다. 이 브라우저 기반의 &quot;셀프 서비스&quot; 환경은 포털 사용자에게 Dynamic Media Classic 에셋에 대한 관리자가 제어하는 &quot;보기&quot;를 제공하여 기업에서 승인한 형식으로 에셋을 업로드, 탐색, 검색, 미리 보기 및 내보낼 수 있는 간편한 액세스를 제공합니다.
+Adobe Medium 포털은 승인된 자산을 외부 파트너 및 내부 사용자뿐만 아니라 외부 파트너 및 채널에 쉽게 획득, 제어 및 배포할 수 있는 기능을 회사에 제공합니다. 브라우저 기반의 &quot;셀프 서비스&quot; 환경은 포털 사용자에게 Dynamic Media Classic 에셋에 관리자가 제어하는 &quot;뷰&quot;를 제공하여 기업에서 승인한 형식으로 에셋을 업로드, 탐색, 검색, 미리 보기 및 내보낼 수 있는 간편한 액세스를 제공합니다.
 
 시스템 요구 사항을 포함한 Media Portal에 대한 자세한 내용은 [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en)을 참조하십시오.
 
