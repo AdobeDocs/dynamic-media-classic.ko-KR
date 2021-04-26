@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 6305c287-360f-48c2-b456-58be0791c7af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 68%
+source-wordcount: '331'
+ht-degree: 50%
 
 ---
-
 
 # 템플릿을 웹 페이지에 연결{#linking-a-template-to-a-web-page}
 
@@ -30,15 +30,15 @@ ht-degree: 68%
 
 ## 템플릿 URL 얻기 {#obtaining-a-template-url}
 
-[템플릿 미리 보기] 화면에서 이미지 사전 설정에 의해 생성된 템플릿 URL 문자열을 얻을 수 있습니다. URL을 복사하면 필요한 경우 붙여 넣을 수 있도록 클립보드에 저장됩니다. [템플릿 미리 보기] 화면에서 이미지 사전 설정을 사용하여 생성된 템플릿 URL 문자열을 얻으려면 다음 단계를 수행합니다.
+[템플릿 미리 보기] 화면에서 이미지 사전 설정에 의해 생성된 템플릿 URL 문자열을 얻을 수 있습니다. URL을 복사하면 필요한 경우 붙여 넣을 수 있도록 클립보드에 저장됩니다. 템플릿 미리 보기 페이지에서 이미지 사전 설정으로 생성된 템플릿 URL 문자열을 가져오려면 다음을 수행합니다.
 
-1. 템플릿의 롤오버 [미리 보기] 단추를 클릭하거나 [파일] > [미리 보기]를 선택합니다. [미리 보기] 화면이 열립니다.
-1. 사전 설정 메뉴를 사용하여 템플릿 이미지를 제공하는 데 사용할 이미지 사전 설정을 선택합니다. 서버에서 템플릿이 제공될 때의 템플릿 모양이 [미리 보기] 화면에 표시됩니다.
-1. [URL 복사] 단추를 클릭하여 URL을 클립보드로 복사합니다.
+1. 템플릿의 롤오버 **[!UICONTROL 미리 보기]** 단추를 클릭하거나 **[!UICONTROL 파일]** > **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다.
+1. 사전 설정 메뉴를 사용하여 템플릿 이미지를 제공하는 데 사용할 이미지 사전 설정을 선택합니다. [미리 보기] 페이지는 서버에서 템플릿을 전달할 때 어떻게 표시되는지 보여줍니다.
+1. **[!UICONTROL URL 복사]**&#x200B;를 클릭하여 URL을 클립보드에 복사합니다.
 
-## 웹 페이지에 템플릿 URL 추가  {#adding-template-urls-to-your-web-page}
+## 웹 페이지에 템플릿 URL 추가 {#adding-template-urls-to-your-web-page}
 
-웹 페이지에 템플릿을 추가하려면 웹 페이지 개발 팀과 협의하여 Dynamic Media Classic URL 문자열을 사용하여 HTML 웹 페이지 코드의 `<IMG>` 태그를 수정하여 Dynamic Media 이미지 서버에 요청합니다. 상거래 엔진이나 동적 웹 페이지 코드는 템플릿에 대해 선택한 이미지 사전 설정에 정의된 크기 및 형식 지정 사양에 따라 템플릿 이미지를 삽입합니다.
+웹 페이지에 템플릿을 추가하려면 HTML 웹 페이지 코드에서 `<IMG>` 태그를 수정하려면 웹 페이지 개발 팀과 상의하십시오. Dynamic Media Classic URL 문자열을 사용하여 Dynamic Media 이미지 서버에 요청합니다. 상거래 엔진이나 동적 웹 페이지 코드는 템플릿에 대해 선택한 이미지 사전 설정에 정의된 크기 및 형식 지정 사양에 따라 템플릿 이미지를 삽입합니다.
 
 >[!MORELIKETHIS]
 >
