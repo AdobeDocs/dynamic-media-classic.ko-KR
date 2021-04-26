@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
+exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
-source-wordcount: '1146'
+source-wordcount: '1121'
 ht-degree: 0%
 
 ---
-
 
 # Adobe Dynamic Media Classic 데스크톱 앱 - 현재 {#new-ui-2020} 사용 가능
 
@@ -21,23 +21,23 @@ ht-degree: 0%
 
 ## _최종 업데이트일: 2020년 6월 30일_
 
-이제 Dynamic Media Classic 사용자는 브라우저의 Adobe Flash 기술에 더 이상 의존하지 않는 새로운 로그인 환경에 액세스할 수 있습니다. 자세한 내용은 다음 FAQ를 참조하십시오.
+이제 Dynamic Media Classic 사용자는 브라우저의 Adobe Flash 기술에 더 이상 의존하지 않는 새로운 로그인 환경에 액세스할 수 있습니다.
 
 ### **_2020년 12월 31일 브라우저가 Adobe Flash 지원을 중단하는 경우 Dynamic Media Classic(이전 Scene7)에 영향을 미칩니까?_**
 
-Adobe Flash Player은 웹 브라우저에서 Adobe Flash 플랫폼에서 개발된 컨텐츠를 사용할 수 있는 웹 브라우저 플러그인입니다. Dynamic Media Classic의 웹 사용자 인터페이스(현재 제품의 [!DNL Scene7 Publishing System] 또는 [!DNL SPS] 레이블이 지정됨)에는 Adobe Flash Player이 필요합니다. Adobe Flash이 2020년 12월 31일 더 이상 사용되지 않는 경우 Dynamic Media Classic 고객은 더 이상 웹 사용자 인터페이스에 로그인할 수 없습니다. 이러한 이유로 Adobe은 고객에게 브라우저 경험을 대체하는 데스크탑 앱을 제공했습니다.
+Adobe Flash Player은 웹 브라우저에서 Adobe Flash Platform에서 개발한 컨텐츠를 사용할 수 있는 웹 브라우저 플러그인입니다. Dynamic Media Classic의 웹 사용자 인터페이스(현재 제품의 [!DNL Scene7 Publishing System] 또는 [!DNL SPS] 레이블이 지정됨)에는 Adobe Flash Player이 필요합니다. Adobe Flash이 2020년 12월 31일 더 이상 사용되지 않는 경우 Dynamic Media Classic 고객은 더 이상 웹 사용자 인터페이스에 로그인할 수 없습니다. 이러한 변경 사항으로 인해 Adobe은 고객에게 브라우저 경험을 대체하는 데스크탑 앱을 제공했습니다.
 
 ### **_새로운 데스크탑 앱은 어떻게 이용할 수 있습니까?_**
 
-새 데스크탑 앱은 macOS용 `.dmg` 설치 프로그램으로 또는 Windows용 `.exe` 설치 프로그램으로 사용할 수 있습니다.
+새 데스크탑 앱은 macOS용 `.dmg` 설치 프로그램으로 또는 Windows®용 `.exe` 설치 프로그램으로 사용할 수 있습니다.
 
 시스템 요구 사항을 검토하고 새 앱을 다운로드하여 설치한 다음 로그인하려면 [Adobe Dynamic Media Classic 데스크탑 앱](/help/dynamic-media-classic-desktop-app.md)을 참조하십시오.
 
-다운로드 링크는 [Dynamic Media Classic 뉴스레터 구독 페이지를 통해서도 공유됩니다.](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
+다운로드 링크는 [Dynamic Media Classic 뉴스레터 구독 페이지를 통해서도 사용할 수 있습니다.](https://www.adobe.com/subscription/dynamic-media-newsletter.html)
 
 ### **_새로운 데스크탑 앱은 어떻게 작동합니까?_**
 
-데스크탑 앱을 다운로드, 설치 및 실행하면 새로 고쳐진 로그인 환경이 표시됩니다. 기존 사용자 이름과 암호를 입력하고 지역을 기준으로 적절한 서버를 선택하면 Dynamic Media Classic에서 서명됩니다. 전체 경험이 익숙한 웹 브라우저 버전과 동일함을 알 수 있습니다. 데스크탑 앱에서 Dynamic Media Classic 프로덕션 및 스테이징 환경에 액세스할 수 있습니다. 이 기능에 대한 자격 증명을 받은 경우 Media Portal에 액세스할 수도 있습니다.
+데스크탑 앱을 다운로드, 설치 및 실행하면 새로 고쳐진 로그인 환경이 표시됩니다. 기존 사용자 이름과 암호를 입력하고 지역을 기준으로 적절한 서버를 선택하면 Dynamic Media Classic에 로그인할 수 있습니다. 전체 경험은 익숙한 웹 브라우저 버전과 동일합니다. 데스크탑 앱에서 Dynamic Media Classic 프로덕션 및 스테이징 환경에 액세스할 수 있습니다. 이 기능에 대한 자격 증명을 받은 경우 Media Portal에 액세스할 수도 있습니다.
 
 >[!IMPORTANT]
 >
@@ -57,13 +57,13 @@ Dynamic Media Classic에 대한 기본 API는 변경되지 않습니다.
 
 ### **_새로운 Dynamic Media Classic 데스크탑 앱이 Mac 및 PC에서 작동됩니까?_**
 
-예. 새로운 데스크탑 앱은 크로스 플랫폼 솔루션이며 Mac 및 PC에서 작동합니다. Linux는 *지원되지 않습니다*.
+예. 새로운 데스크탑 앱은 크로스 플랫폼 솔루션이며 Mac 및 PC에서 작동합니다. Linux®는 *지원되지 않음*&#x200B;입니다.
 
 ### **_우리 회사는 철저한 보안 요건을 갖추고 있다. 새로운 Dynamic Media Classic 데스크탑 앱은 이러한 요구 사항을 어떻게 처리합니까?_**
 
-Adobe은 우리 제품이 고객의 보안 요구 사항을 충족하도록 하기 위해 노력한다. 새로운 Dynamic Media Classic 데스크탑 앱은 모든 Adobe 보안 표준을 준수하는 안전한 환경을 고객에게 지속적으로 제공할 것입니다.
+Adobe은 제품이 고객의 보안 요구 사항을 충족하도록 하기 위해 최선을 다하고 있습니다. 새로운 Dynamic Media Classic 데스크탑 앱은 모든 Adobe 보안 표준을 준수하는 안전한 환경을 고객에게 계속 제공합니다.
 
-### **_우리 회사는 Adobe 컴퓨터에 소프트웨어와 앱을 설치하도록 허용하지 않습니다. 새로운 데스크탑 앱을 이용하려면 어떻게 해야 합니까?_**
+### **_회사에서 컴퓨터에 소프트웨어와 앱을 설치하도록 허용하지 않습니다. 새로운 데스크탑 앱을 이용하려면 어떻게 해야 합니까?_**
 
 회사에서 승인 없이 소프트웨어와 앱을 다운로드 및 시스템에 설치하지 못하도록 하는 경우 IT 팀과 조기에 작업하여 새로운 Dynamic Media Classic 데스크탑 앱을 이용할 수 있는 권한을 받으십시오. 2020년 12월 31일 이후에는 브라우저 버전이 더 이상 사용되지 않게 됩니다. 새로운 데스크탑 앱을 다운로드하기 위해 마지막 순간까지 기다리지 않아도 됩니다.
 
@@ -73,7 +73,7 @@ Adobe은 우리 제품이 고객의 보안 요구 사항을 충족하도록 하�
 
 ### **_로컬 컴퓨터를 통해 Dynamic Media Classic에 업로드할 수 있는 파일 수에 대한 제한 사항이 있습니까?_**
 
-Windows에서 새 Dynamic Media Classic 데스크톱 앱을 사용하는 경우 **[!UICONTROL 업로드]** 대화 상자를 사용하여 한 번에 최대 150개의 파일을 업로드할 수 있습니다. 이 제한은 2020년 말 전에 해결될 예정입니다. macOS 플랫폼에 *업로드 제한 사항이 없습니다.*
+Windows®에서 새 Dynamic Media Classic 데스크톱 앱을 사용하는 경우 **[!UICONTROL 업로드]** 대화 상자를 사용하여 한 번에 최대 150개의 파일을 업로드할 수 있습니다. 이 제한은 2020년 말 전에 이미 해결되었습니다. macOS 플랫폼에 *업로드 제한 사항이 없습니다.*
 
 ### **_새로운 Dynamic Media Classic 데스크탑 앱에는 새로운 SKU가 필요합니까? 라이선스 비용이 포함되어 있습니까?_**
 
@@ -81,7 +81,7 @@ Windows에서 새 Dynamic Media Classic 데스크톱 앱을 사용하는 경우 
 
 ### **_Dynamic Media Classic 데스크탑 앱으로의 업그레이드는 어떻게 활성화됩니까?_**
 
-2020년 6월 30일 Adobe Dynamic Media Classic 데스크톱 앱이 릴리스된 후 Adobe에서 새 버전을 릴리스하는 경우, 고객은 새 버전을 다운로드하고 평소대로 설치해야 합니다(기존 앱을 **[!UICONTROL Applications]**&#x200B;에서 교체). 고객은 Dynamic Media 뉴스레터 또는 CSM을 통해 새로운 릴리스에 대한 알림을 받게 됩니다. 또한 Adobe은 사용자에게 업그레이드를 통보하는 인앱 업그레이드 알림 메커니즘도 작동 중입니다.
+2020년 6월 30일 Adobe Dynamic Media Classic 데스크톱 앱이 릴리스된 후 Adobe에서 새 버전을 릴리스하는 경우, 고객은 새 버전을 다운로드하고 평소대로 설치해야 합니다(기존 앱을 **[!UICONTROL Applications]**&#x200B;에서 교체). Dynamic Media 뉴스레터, CSM(Customer Success Manager) 및 사용자에게 업그레이드를 알리는 인앱 업그레이드 알림 메커니즘을 통해 새로운 릴리스에 대한 알림을 받습니다.
 
 ### **_Dynamic Media Classic 데스크탑 앱 관련 모든 문제에 대한 도움말은 어떻게 받습니까?_**
 
@@ -92,7 +92,7 @@ Windows에서 새 Dynamic Media Classic 데스크톱 앱을 사용하는 경우 
 Dynamic Media Classic은 리치 미디어 전략을 향상시키기 위해 고안된 다양한 기능을 갖춘 강력한 솔루션입니다. 모든 기능을 활용하려면 다음 실용적인 리소스를 반드시 살펴보십시오.
 
 * [Dynamic Media 우수 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-* [Dynamic Media 블로그 게시물](https://theblog.adobe.com/tag/dynamic-media/)
+* [Adobe 블로그 게시물](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
 * [Dynamic Media 뉴스레터 아카이브](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
 또한 [Dynamic Media 뉴스레터](https://www.adobe.com/subscription/dynamic-media-newsletter.html)에 가입하여 최신 뉴스, 정보, 트레이닝 기회, [스마트 이미징](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic) 및 보완적인 감사 프로그램과 같은 강력한 기능을 최신 뉴스레터에 대한 정보를 얻을 수 있습니다.
@@ -109,4 +109,3 @@ Dynamic Media Classic은 리치 미디어 전략을 향상시키기 위해 고�
 
 
 <!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
-
