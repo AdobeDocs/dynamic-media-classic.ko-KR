@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,자산 관리
 role: Business Practitioner
+exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '853'
-ht-degree: 55%
+source-wordcount: '850'
+ht-degree: 54%
 
 ---
-
 
 # 빠른 시작: 이미지 크기 조정{#quick-start-image-sizing}
 
@@ -63,9 +63,9 @@ ht-degree: 55%
 * 웹 사이트 및 애플리케이션에 이미지를 동적으로 전달할 수 있도록 마스터 이미지를 Dynamic Media 이미지 서버에 게시합니다.
 * 게시를 사용하면 Dynamic Media 이미지 서버에서 웹 사이트 또는 응용 프로그램으로 이미지를 호출하기 위한 URL 문자열이 활성화됩니다. 게시 후 웹 사이트 또는 애플리케이션에서 필요한 경우 Dynamic Media Classic에서 생성된 URL을 복사하고 배치할 수 있습니다.
 
-글로벌 탐색 막대에서 [게시] 단추를 선택하여 게시를 시작합니다. [게시] 화면에서 [게시 시작] 단추를 선택합니다. [마스터 이미지 게시](publishing-master-images.md#publishing_master_images)를 참조하십시오.
+글로벌 탐색 막대에서 [게시] 단추를 선택하여 게시를 시작합니다. 게시 대화 상자에서 **[!UICONTROL 게시 제출]**&#x200B;을 클릭합니다. [마스터 이미지 게시](publishing-master-images.md#publishing_master_images)를 참조하십시오.
 
-**5. URL을 웹 애플리케이션에 연결**
+**5. URL을 웹 애플리케이션에 연결:**
 
 Dynamic Media Classic에서는 이미지의 URL 콜아웃 문자열을 만듭니다. Dynamic Media 이미지 서버에 이미지를 게시하면 URL이 활성화됩니다. 찾아보기 패널([세부 사항 보기])이나 [미리 보기] 화면에서 이러한 URL 문자열을 복사할 수 있습니다. URL 문자열을 복사한 후 웹 사이트와 애플리케이션에서 사용할 수 있습니다. 이미지 크기 조정 URL이 웹 페이지 코드의 정적 이미지 이름 참조를 바꿉니다. URL은 표시할 각 새 이미지에 대해 데이터베이스에서 바뀌는 마스터 이미지 이름을 참조합니다.
 
