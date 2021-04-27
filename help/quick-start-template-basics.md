@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 71%
+source-wordcount: '785'
+ht-degree: 70%
 
 ---
-
 
 # Quick Start: Template Basics{#quick-start-template-basics}
 
@@ -64,7 +64,7 @@ PSD 파일에서 템플릿을 만들려면 파일을 업로드할 때 [템플릿
 
 템플릿과 관련된 모든 이미지를 게시해야 합니다.
 
-템플릿을 게시하려면 게시로 표시하고 글로벌 탐색 막대에서 [게시] 단추를 선택합니다. 그런 다음 [게시 시작] 단추를 선택합니다. [템플릿 게시](publishing-templates.md#publishing_templates)를 참조하십시오.
+템플릿을 게시하려면 게시로 표시하고 글로벌 탐색 막대에서 [게시] 단추를 선택합니다. 그런 다음 **[!UICONTROL 게시 제출]**&#x200B;을 클릭합니다. [템플릿 게시](publishing-templates.md#publishing_templates)를 참조하십시오.
 
 **5. 템플릿을 웹 페이지에 연결**
 
