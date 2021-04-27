@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,뷰어,미디어 집합 혼합
 role: Business Practitioner
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 translation-type: tm+mt
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '258'
-ht-degree: 63%
+ht-degree: 55%
 
 ---
 
@@ -40,7 +40,7 @@ Last Modified Date:
 
  -->
 
-**혼합 미디어 집합을 게시하려면**
+**혼합 미디어 집합을 게시하려면:**
 
 1. 다음 중 하나를 수행하십시오.
 
@@ -52,12 +52,12 @@ Last Modified Date:
 1. (선택 사항) **[!UICONTROL [작업 이름]]** 필드에 게시 작업의 이름을 입력합니다.
 1. **[!UICONTROL [고급]]** 선택 사항의 **[!UICONTROL [게시 위치]]** 드롭다운 목록에서 **[!UICONTROL [비디오 서버]]**&#x200B;를 선택합니다.
 
-   설정할 수 있는 추가 선택 사항은 [고급 게시 선택 사항](publishing-files.md#advanced_publish_options)을 참조하십시오.
+   설정할 수 있는 추가 옵션은 [고급 게시 옵션](publishing-files.md#advanced_publish_options)을 참조하십시오.
 
 1. **[!UICONTROL [게시 제출]]**&#x200B;을 클릭합니다.
 1. 위의 2 - 4단계를 반복합니다.
 1. **[!UICONTROL [고급]]**&#x200B;의 **[!UICONTROL [게시 위치]]** 드롭다운 목록에서 **[!UICONTROL [이미지 서버]]**&#x200B;를 선택합니다.
 
-   설정할 수 있는 추가 선택 사항은 [고급 게시 선택 사항](publishing-files.md#advanced_publish_options)을 참조하십시오.
+   설정할 수 있는 추가 옵션은 [고급 게시 옵션](publishing-files.md#advanced_publish_options)을 참조하십시오.
 
 1. **[!UICONTROL [게시 제출]]**&#x200B;을 클릭합니다.
