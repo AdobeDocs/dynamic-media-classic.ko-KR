@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
-feature: Dynamic Media Classic,Viewers,Zoom
+feature: Dynamic Media Classic,뷰어,확대/축소
 role: Business Practitioner
+exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 64%
+source-wordcount: '835'
+ht-degree: 63%
 
 ---
-
 
 # 빠른 시작: 확대/축소{#quick-start-zoom}
 
@@ -62,7 +62,7 @@ Dynamic Media Classic에서는 단추 스타일과 뷰어의 전체 모양을 �
 
 확대/축소 이미지를 게시하면 Dynamic Media 이미지 서버에 배치되므로 웹 사이트 및 애플리케이션에 이미지를 전달할 수 있습니다. 게시 프로세스의 일부로 Dynamic Media Classic에서 URL 문자열을 활성화합니다. 이러한 URL 문자열은 Dynamic Media 이미지 서버의 확대/축소 이미지를 웹 사이트 또는 응용 프로그램으로 호출합니다.
 
-글로벌 탐색 막대에서 [게시] 단추를 선택하여 게시를 시작합니다. [게시] 화면에서 [게시 시작] 단추를 선택합니다. [확대/축소 이미지 게시](publishing-zoom-images.md#publishing_zoom_images)를 참조하십시오.
+글로벌 탐색 막대에서 **[!UICONTROL [게시]]**&#x200B;를 클릭합니다. 게시 대화 상자에서 게시 제출을 클릭합니다. [확대/축소 이미지 게시](publishing-zoom-images.md#publishing_zoom_images)를 참조하십시오.
 
 **6. 확대/축소 뷰어를 웹 페이지에 연결**
 
