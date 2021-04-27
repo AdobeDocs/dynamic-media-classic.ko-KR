@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
 discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
-feature: Dynamic Media Classic,Viewers,Image Sets
+feature: Dynamic Media Classic,뷰어,이미지 세트
 role: Business Practitioner
+exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '566'
 ht-degree: 61%
 
 ---
-
 
 # 빠른 시작: 이미지 집합{#quick-start-image-sets}
 
@@ -66,11 +66,11 @@ Dynamic Media Classic 이미지 세트를 사용하면 통합 보기 환경을 �
 >
 >이미지 세트를 만들고 저장할 때 **저장 후 게시(기본값)를 선택한 경우에는 이 단계가 필요하지 않습니다.
 
-[찾아보기] 패널에서 해당 이름 왼쪽에 있는 [게시로 표시] 아이콘을 클릭합니다.그런 다음 **게시**&#x200B;를 클릭합니다. 게시 화면에서 **게시 시작**&#x200B;을 클릭합니다.
+[찾아보기] 패널에서 해당 이름 왼쪽에 있는 [게시로 표시] 아이콘을 클릭합니다.그런 다음 **게시**&#x200B;를 클릭합니다. 게시 화면에서 **게시 제출**&#x200B;을 클릭합니다.
 
 [게시](publishing-files.md#publishing-files)를 참조하십시오.
 
-**6. 웹 사이트에 이미지 집합 연결**
+**6. 웹 사이트에 이미지 집합 연결:**
 
 Dynamic Media Classic에서는 이미지 집합에 대한 URL 호출을 만들고 게시한 후 활성화합니다. [미리 보기] 화면에서 이러한 URL을 복사할 수 있습니다.
 
