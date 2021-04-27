@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 41%
+source-wordcount: '146'
+ht-degree: 37%
 
 ---
-
 
 # Adobe Analytics 구성 정보 게시{#publishing-adobe-analytics-configuration-information}
 
@@ -30,8 +30,7 @@ Adobe Analytics 보고서 구성에 대한 정보가 Dynamic Media Classic 서�
 
 [Adobe Analytics 보고서 구성](configuring-analytics-reports.md#configuring_adobe_analytics_reports)을 참조하십시오.
 
-**구성 정보를 게시하려면**
+**구성 정보를 게시하려면:**
 
-1. 글로벌 탐색 막대에서 **[게시]**&#x200B;를 클릭합니다.
-1. [게시] 대화 상자에서 **[게시 시작]**&#x200B;을 클릭합니다.
-
+1. 글로벌 탐색 막대에서 **[!UICONTROL [게시]]**&#x200B;를 클릭합니다.
+1. 게시 대화 상자에서 **[!UICONTROL 게시 제출]**&#x200B;을 클릭합니다.
