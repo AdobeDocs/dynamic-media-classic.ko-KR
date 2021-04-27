@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
-feature: Dynamic Media Classic,Viewers,eCatalog
+feature: Dynamic Media Classic,뷰어,eCatalog
 role: Business Practitioner
+exl-id: 00b70162-2394-433d-a46c-1d90667030af
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 33%
+source-wordcount: '190'
+ht-degree: 26%
 
 ---
-
 
 # eCatalogs 및 관련 PDF 게시{#publishing-ecatalogs-and-associated-pdfs}
 
@@ -26,15 +26,15 @@ ht-degree: 33%
 >
 >eCatalog 및 PDF가 동일한 폴더에 있으며 해당 eCatalog와 PDF는 게시하기 전에 [찾아보기] 패널 또는 [에셋 세부 사항] 페이지에 게시하도록 표시되어 있는지 확인합니다.
 
-eCatalog를 Dynamic Media 이미지 서버에 게시하려면:
+**eCatalogs 및 관련 PDF를 게시하려면:**
 
-1. 전역 탐색 막대에서 **게시**&#x200B;를 클릭합니다.
-1. [게시] 화면에서 [시기] 선택 사항(일회 또는 반복)을 선택합니다.
-1. (선택 사항) 게시 작업의 이름을 입력하고 시간 및 날짜 스탬프는 유지합니다.
+1. 글로벌 탐색 막대에서 **[!UICONTROL [게시]]**&#x200B;를 클릭합니다.
+1. [게시] 화면에서 **[!UICONTROL 1회]** 또는 **[!UICONTROL 반복]**&#x200B;을 클릭합니다.
+1. (선택 사항) [작업 이름] 필드에 게시 작업의 이름을 입력하고 사전 정의된 날짜 및 시간 텍스트를 유지합니다.
 
-   뷰어가 키워드 검색을 수행할 수 있도록 eCatalog를 설정하는 경우 키워드 데이터가 게시되었는지 확인합니다. 고급을 클릭한 다음 고급 옵션을 클릭합니다. 게시 드롭다운 메뉴에서 전체 검색 데이터를 클릭합니다. 이 선택 사항은 기본적으로 선택됩니다.
+   뷰어가 키워드 검색을 수행할 수 있도록 eCatalog를 설정하는 경우 키워드 데이터가 게시되었는지 확인합니다. 게시 대화 상자에서 **[!UICONTROL 고급]**&#x200B;을 클릭합니다. **[!UICONTROL 게시]** 드롭다운 메뉴에서 **[!UICONTROL 검색 데이터가 포함된 전체]**&#x200B;를 클릭합니다. 이 선택 사항은 기본적으로 선택됩니다.
 
-1. **게시 시작**&#x200B;을 클릭합니다.
+1. ****[!UICONTROL [게시 제출]]****&#x200B;을 클릭합니다.
 
 >[!MORELIKETHIS]
 >
