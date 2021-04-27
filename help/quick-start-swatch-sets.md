@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
-feature: Dynamic Media Classic,Viewers
+feature: Dynamic Media Classic,뷰어
 role: Business Practitioner
+exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '389'
 ht-degree: 62%
 
 ---
-
 
 # 빠른 시작: 견본 집합{#quick-start-swatch-sets}
 
@@ -52,7 +52,7 @@ Dynamic Media 클래식 견본 세트를 사용하면 통합된 보기 환경을
 
 견본 집합을 게시하면 Dynamic Media Classic 서버에 배치되고 URL 문자열이 활성화됩니다.
 
-찾아보기 패널에서 이름 왼쪽에 있는 **게시로 표시** 아이콘을 클릭합니다.그런 다음 **게시**&#x200B;를 클릭합니다. 게시 화면에서 **게시 시작**&#x200B;을 클릭합니다.
+찾아보기 패널에서 이름 왼쪽에 있는 **게시로 표시** 아이콘을 클릭합니다.그런 다음 **게시**&#x200B;를 클릭합니다. 게시 화면에서 **게시 제출**&#x200B;을 클릭합니다.
 
 [게시](publishing-files.md#publishing-files)를 참조하십시오.
 
