@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 38%
+source-wordcount: '171'
+ht-degree: 22%
 
 ---
-
 
 # 템플릿 게시{#publishing-templates}
 
@@ -24,15 +24,15 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->템플릿을 사용하려면 글꼴과 이미지를 포함하여 템플릿을 만드는 데 사용된 모든 컨텐츠를 게시합니다. 필수 파일을 모두 포함하지 않으면 게시할 때 오류 메시지가 나타납니다.
+>템플릿을 사용하려면 글꼴과 이미지를 포함하여 템플릿을 만드는 데 사용된 모든 컨텐츠를 게시합니다. 필요한 파일을 모두 포함하지 않으면 게시할 때 오류 메시지가 표시됩니다.
 
 ## 템플릿을 게시로 표시 {#marking-templates-for-publish}
 
-템플릿 및 모든 지원 파일을 Dynamic Media 이미지 서버에 배치하려면 게시로 표시해야 합니다. **게시로 표시** 아이콘을 클릭하여 찾아보기 패널에서 게시로 표시할 항목을 표시할 수 있습니다.
+템플릿 및 모든 지원 파일을 Dynamic Media 이미지 서버에 배치하려면 게시로 표시해야 합니다. **[!UICONTROL 게시로 표시]** 아이콘을 클릭하여 찾아보기 패널에서 게시로 표시할 항목을 표시할 수 있습니다.
 
 ## 템플릿 게시 {#publishing-your-template}
 
-템플릿을 Dynamic Media 이미지 서버에 게시하려면 전역 탐색 막대에서 [게시] 단추를 선택하여 시작합니다. [시기] 선택 사항을 선택하고, 선택적으로 게시 작업의 이름을 입력한 다음 [게시 시작] 단추를 선택합니다.
+템플릿을 Dynamic Media 이미지 서버에 게시하려면 글로벌 탐색 막대에서 **[!UICONTROL 게시]**&#x200B;를 클릭한 다음 **[!UICONTROL When]** 옵션을 선택합니다. 선택적으로 게시 작업의 이름을 입력할 수 있습니다. **[!UICONTROL [게시 제출]]**&#x200B;을 클릭합니다.
 
 >[!MORELIKETHIS]
 >
