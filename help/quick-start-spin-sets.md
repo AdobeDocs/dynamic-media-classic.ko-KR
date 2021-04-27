@@ -7,16 +7,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
-feature: Dynamic Media Classic,Viewers,Spin Sets
+feature: Dynamic Media Classic,뷰어,회전 집합
 role: Business Practitioner
+exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '758'
 ht-degree: 67%
 
 ---
-
 
 # 빠른 시작: 회전 집합{#quick-start-spin-sets}
 
@@ -90,7 +90,7 @@ Last Modified Date:
 
 스핀 세트를 게시하면 Dynamic Media Classic 서버에 배치되므로 웹 사이트나 애플리케이션에 동적으로 전달할 수 있습니다. 또한 Dynamic Media 이미지 서버에서 웹 사이트 또는 애플리케이션으로 스핀 세트를 호출하는 URL 문자열을 활성화합니다.
 
-스핀 세트를 게시하려면 찾아보기 패널에서 해당 이름 옆에 있는 **게시용으로 표시** 아이콘을 선택하여 게시로 표시합니다. 글로벌 탐색 막대에서 **게시**&#x200B;를 클릭하여 게시를 시작합니다. 게시 화면에서 **게시 시작**&#x200B;을 클릭합니다.
+스핀 세트를 게시하려면 찾아보기 패널에서 해당 이름 옆에 있는 **게시용으로 표시** 아이콘을 선택하여 게시로 표시합니다. 글로벌 탐색 막대에서 **게시**&#x200B;를 클릭하여 게시를 시작합니다. 게시 화면에서 **게시 제출**&#x200B;을 클릭합니다.
 
 [회전 집합 게시](publishing-spin-set.md#publishing-a-spin-set)를 참조하십시오.
 
