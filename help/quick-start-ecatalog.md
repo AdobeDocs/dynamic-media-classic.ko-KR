@@ -11,9 +11,9 @@ feature: Dynamic Media Classic,뷰어,eCatalog
 role: Business Practitioner
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 translation-type: tm+mt
-source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
+source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1427'
 ht-degree: 51%
 
 ---
@@ -50,11 +50,9 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 >
 >이제 Dynamic Media Classic에서 eCatalog를 작성할 수 있습니다.
 
-## 빠른 시작
-
 이 eCatalog 빠른 시작은 eCatalog를 빨리 시작하고 실행하는 데 도움이 됩니다. 1-7 단계를 수행하십시오. 각 단계 뒤에는 자세한 정보를 확인할 수 있는 항목 제목의 상호 참조가 있습니다.
 
-### 1. PDF 파일 업로드
+## 1. PDF 파일 업로드
 
 일반적으로 Adobe PDF 파일이 eCatalog의 소스입니다. 원래 인쇄용이기 때문에 PDF 파일에는 대체로 CMYK 이미지가 포함되어 있습니다. Dynamic Media Classic에서는 이러한 이미지를 감지하고 표준 CMYK 색상 프로파일을 사용하여 변환합니다. 그러나 사용자 지정 색상 프로필을 업로드하고 사용해야 합니다.
 
@@ -64,7 +62,7 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 
 [PDF 파일 업로드](uploading-pdf-files.md#uploading_the_pdf_files)를 참조하십시오.
 
-### 2. eCatalog 만들기
+## 2. eCatalog 만들기
 
 찾아보기 패널에서 PDF 또는 이미지 파일을 선택하여 eCatalog를 만듭니다. **[!UICONTROL 빌드]**&#x200B;를 클릭한 다음 **[!UICONTROL eCatalogs]**&#x200B;를 선택합니다.
 
@@ -76,7 +74,7 @@ eCatalog 페이지의 **[!UICONTROL 페이지 주문]** 탭에서 레이아웃 �
 
 [eCatalog 만들기](creating-ecatalog.md)를 참조하십시오.
 
-### 3. 이미지 맵 만들기
+## 3. 이미지 맵 만들기
 
 이미지 맵은 eCatalog 페이지에 다른 측면을 추가합니다. 이미지 맵은 항목에 대한 자세한 정보를 제공하는 페이지의 한 영역입니다. 뷰어가 포인터를 이미지 맵 위로 롤오버하면 항목에 대한 설명이 표시됩니다. 이미지 맵을 클릭하면 새 웹 페이지를 여는 외부 참조가 활성화되고, 이 페이지에서 항목에 대한 자세한 정보를 확인할 수 있습니다.
 
@@ -92,7 +90,7 @@ eCatalog 화면의 [정보 패널] 설정을 사용하여 이미지 맵 텍스�
 
 [정보 패널 컨텐츠 관리](info-panel-content.md#managing-info-panel-content)를 참조하십시오.
 
-### 4. eCatalog 뷰어 사전 설정 설정
+## 4. eCatalog 뷰어 사전 설정 설정
 
 최종 사용자는 eCatalog 뷰어에서 eCatalog를 봅니다. 관리자는 eCatalog 뷰어를 구성할 수 있습니다. 윤곽 색상을 변경하고 새 &quot;스킨&quot;을 선택하여 eCatalog를 브랜딩할 수 있습니다. Dynamic Media Classic에는 여러 가지 &quot;우수 사례&quot; eCatalog 뷰어 사전 설정이 포함되어 있습니다. 이러한 사전 설정 중 하나를 선택하여 eCatalog를 표시할 수 있습니다. 관리자는 고유한 eCatalog 뷰어 사전 설정을 만들 수도 있습니다.
 
@@ -100,7 +98,7 @@ eCatalog 뷰어 사전 설정을 만들려면 전역 탐색 막대에서 **[!UIC
 
 [eCatalog 뷰어 사전 설정 지정](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)을 참조하십시오.
 
-### 5. eCatalog 뷰어에서 e카탈로그 미리 보기
+## 5. eCatalog 뷰어에서 e카탈로그 미리 보기
 
 eCatalog 뷰어 사전 설정은 eCatalog 뷰어의 스타일과 동작을 결정합니다.
 
@@ -110,7 +108,7 @@ eCatalog 뷰어 사전 설정이 eCatalog를 표시하는 방법을 확인하려
 
 [eCatalog 뷰어에서 eCatalog 미리 보기](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer)를 참조하십시오.
 
-### 6. eCatalog 및 관련 PDF 게시
+## 6. eCatalog 및 관련 PDF 게시
 
 eCatalog 및 관련 PDF를 게시하면 웹 사이트 및 애플리케이션에 제공할 수 있도록 eCatalog를 Dynamic Media 이미지 서버에 배치할 수 있습니다. 게시 프로세스의 일부로 Dynamic Media Classic에서는 eCatalog에 대한 URL 문자열을 활성화합니다. 이 URL을 사용하여 Dynamic Media 이미지 서버에서 웹 사이트 또는 응용 프로그램으로 eCatalog를 호출합니다.
 
@@ -118,7 +116,7 @@ eCatalog 및 관련 PDF를 게시하면 웹 사이트 및 애플리케이션에 
 
 [eCatalogs 및 관련 PDF 게시](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)를 참조하십시오.
 
-### 7. eCatalog를 웹 페이지에 연결
+## 7. eCatalog를 웹 페이지에 연결
 
 Dynamic Media Classic에서는 Dynamic Media 이미지 서버에 게시할 때 eCatalog를 표시하는 데 필요한 URL 콜아웃 문자열을 활성화합니다. 패널에서 URL을 선택하면 [미리 보기] 화면과 찾아보기 패널(세부 사항 보기)에서 이 URL 문자열을 복사할 수 있습니다. 복사한 URL 문자열은 웹 사이트와 애플리케이션에서 사용할 수 있습니다.
 
