@@ -9,10 +9,10 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 translation-type: tm+mt
-source-git-commit: ed39a8f7febe194a70fb00acbb9d346f6e9a57ca
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '189'
-ht-degree: 28%
+source-wordcount: '186'
+ht-degree: 25%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 28%
 | 커뮤니티 포럼 | [Experience Manager 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
 | SLA(서비스 수준 계약) | [지원 서비스/약관](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | 지원되는 사용자 | 조직당 최대 10명의 사용자를 지원 사용자로 지정할 수 있으며, 이 사용자는 고객 지원 센터에서 사례를 열 수 있습니다. |
-| 무료 라이브 웹 교육 및 비디오 자습서 | 포함. |
+| 무료 라이브 웹 트레이닝 및 교육 비디오 | 포함. |
 | 전화 지원 | <ul><li>미국 및 캐나다:1-800-497-0335 </li><li>[다른 지역의 전화 번호](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html).</li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
