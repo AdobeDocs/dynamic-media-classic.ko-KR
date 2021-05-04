@@ -7,43 +7,41 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
-feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
+feature: Dynamic Media Classic,뷰어,회전 집합,뷰어 사전 설정
 role: Business Practitioner
+exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 9d73e74ffc4a1e7e31c84720a9bae105b6afb1ae
 workflow-type: tm+mt
 source-wordcount: '240'
-ht-degree: 72%
+ht-degree: 31%
 
 ---
-
 
 # 회전 집합 뷰어 사전 설정 지정{#setting-up-spin-set-viewer-presets}
 
 회전 집합 뷰어 사전 설정은 뷰어의 스타일, 동작 및 모양을 결정합니다. Dynamic Media Classic에는 기본 회전 집합 뷰어 사전 설정이 포함되어 있습니다. 관리자는 고유한 회전 집합 뷰어 사전 설정을 만들 수도 있습니다. 다른 색상, 테두리, 글꼴 및 이미지 설정을 사용하여 회전 집합 뷰어 사전 설정을 구성할 수 있습니다.
 
-회전 집합 뷰어 사전 설정을 만들려면 다음 단계를 수행합니다.
+**회전 집합 뷰어 사전 설정을 만들려면:**
 
-1. **[설정]** > **[뷰어 사전 설정]**&#x200B;을 클릭합니다.
+1. 전역 탐색 막대에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**&#x200B;을 클릭합니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * 새 사전 설정을 만들려면 **추가**&#x200B;를 클릭한 다음 [뷰어 사전 설정 추가] 대화 상자에서 플랫폼을 선택하고 **회전 집합 뷰어**&#x200B;를 클릭합니다.
-   * 기존 회전 집합 뷰어 사전 설정을 편집하려면 사전 설정을 선택하고 **편집**&#x200B;을 클릭합니다.
+   * 사전 설정을 만들려면 **[!UICONTROL 추가]**&#x200B;를 클릭한 다음 [뷰어 사전 설정 추가] 대화 상자에서 플랫폼을 선택한 다음 **[!UICONTROL 회전 집합 뷰어]**&#x200B;를 클릭합니다.
+   * 기존 회전 집합 뷰어 사전 설정을 편집하려면 사전 설정을 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
-   [뷰어 구성] 화면이 열립니다.
+1. [뷰어 구성] 페이지에서 [회전 집합 뷰어] 사전 설정의 [사전 설정 이름] 상자에 이름을 입력합니다.
+1. 원하는 대로 기타 선택 사항을 지정합니다. 옵션에 대한 설명을 보려면 옵션 옆에 있는 **[!UICONTROL 정보 팁]** 아이콘을 클릭합니다.
 
-1. 회전 집합 뷰어 사전 설정의 [사전 설정 이름] 상자에 이름을 입력합니다.
-1. 원하는 대로 기타 선택 사항을 지정합니다. 선택 사항에 대한 설명을 보려면 선택 사항에 인접한 [정보 팁] 아이콘 을 클릭합니다.
+   [미리 보기] 페이지는 설정을 업데이트 및 변경하면 뷰어를 표시합니다.
 
-   설정을 업데이트하고 변경하면 [미리 보기] 화면에 뷰어가 표시됩니다.
+1. **[!UICONTROL [저장]]**&#x200B;을 클릭합니다.
 
-1. **[저장]**&#x200B;을 클릭합니다.
-
-[기본값으로 설정]을 클릭하여 직접 만든 스핀 세트 뷰어 사전 설정을 스핀 세트 표시에 사용할 회사 기본값으로 지정합니다.
+**[!UICONTROL 기본값 만들기]**&#x200B;를 클릭하여 사용자가 만든 스핀 세트 뷰어 사전 설정을 스핀 세트 표시에 대한 회사 기본값으로 설정합니다.
 
 [기본 뷰어 구성](application-setup.md#configuring_default_viewers)을 참조하십시오.
 
-회전 집합 뷰어 사전 설정을 삭제하려면 [뷰어 사전 설정] 화면에서 사전 설정을 선택하고 [삭제] 단추를 클릭합니다.
+회전 집합 뷰어 사전 설정을 삭제하려면 [뷰어 사전 설정] 페이지에서 해당 사전 설정을 선택한 다음 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
 
 >[!MORELIKETHIS]
 >
