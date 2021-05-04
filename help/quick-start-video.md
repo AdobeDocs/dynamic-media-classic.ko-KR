@@ -9,7 +9,7 @@ feature: Dynamic Media Classic,뷰어,비디오
 role: Business Practitioner
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 translation-type: tm+mt
-source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '1425'
 ht-degree: 43%
@@ -40,7 +40,9 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android™, BlackBerry®
 
    응용 비디오 세트가 생성되면 MP4 비디오가 포함됩니다.
 
-   `**Note:**` 기본/소스 비디오 및 기타 소스 형식 비디오는 응용 비디오 집합에  ** 추가되지 않습니다.
+   >[!NOTE]
+   >
+   >/기본 소스 비디오 및 기타 소스 형식 비디오는 응용 비디오 집합에 추가된 *이(가) 아닙니다.*
 
 * Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark 및 Universal_HTML5_MixedMedia_light 뷰어의 비디오 캡션 및 Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark 및 Universal_HTML5_MixedMixed의 비디오 장 탐색 media_light 뷰어.
 
