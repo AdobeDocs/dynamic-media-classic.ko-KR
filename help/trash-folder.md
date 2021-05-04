@@ -7,20 +7,20 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
-feature: Dynamic Media Classic,Asset Management
+feature: Dynamic Media Classic,자산 관리
 role: Business Practitioner
+exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '544'
-ht-degree: 60%
+source-wordcount: '545'
+ht-degree: 39%
 
 ---
 
-
 # 휴지통 폴더 관리{#managing-the-trash-folder}
 
-Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동됩니다. 이러한 항목은 복원하거나 영구적으로 삭제할 때까지 이 폴더에 7일 동안 유지됩니다. 자산 라이브러리 하단에 있는 [휴지통] 아이콘 을 선택하고 휴지통 폴더에서 확인하여 삭제한 항목을 검사할 수 있습니다.
+Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동됩니다. 삭제된 항목은 복원되거나 영구적으로 삭제될 때까지 7일 동안 이 폴더에 남아 있습니다. 자산 라이브러리 아래쪽에 있는 **[!UICONTROL 휴지통]** 아이콘을 클릭하고 휴지통 폴더 페이지에서 항목을 보면 삭제된 항목을 검사할 수 있습니다.
 
 모든 사용자가 휴지통 폴더의 항목을 삭제되기 전의 폴더로 복원할 수 있습니다. 모든 사용자가 휴지통 폴더의 모든 내용을 비울 수도 있습니다.
 
@@ -36,27 +36,27 @@ Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동됩니
 
 * 항목이 Dynamic Media Classic 폴더에서 제거되었지만 휴지통 폴더에 있는 동안에는 해당 ID를 다른 자산에 할당할 수 없습니다. 휴지통 폴더에 있는 파일과 동일한 이름의 자산을 업로드하려고 하면, Dynamic Media Classic에서는 자산의 이름에 숫자를 추가합니다.
 * 항목을 게시할 수 없습니다. 항목을 삭제할 때 게시로 표시된 경우에도 항목이 게시되지 않습니다.
-* 항목은 복원되거나 7일이 경과하거나 [휴지통 비우기] 명령을 선택할 때까지 휴지통 폴더에 유지됩니다. 7일 후에는 자동 정리 작업에 의해 항목이 영구적으로 삭제됩니다.
+* 항목이 복원될 때까지 휴지통 폴더에 남아 있거나, 7일이 지나거나, **[!UICONTROL 휴지통 비우기]** 명령을 선택한 사람이 있습니다. 7일 후에는 자동 정리 작업에 의해 항목이 영구적으로 삭제됩니다.
 
 ## 휴지통 폴더에서 자산 복원 {#restoring-assets-from-the-trash-folder}
 
 자산을 삭제한 사람이 복원해야 하는 것은 아니며 누구든지 휴지통 폴더에서 자산을 복원할 수 있습니다. 복원한 자산은 삭제되기 전의 폴더에 배치됩니다. 이러한 폴더가 더 이상 존재하지 않으면 Dynamic Media Classic에서 해당 폴더를 다시 생성하고 복원된 에셋이 다시 생성된 폴더에 배치됩니다.
 
-휴지통 폴더의 자산을 삭제되기 전의 폴더로 복원하려면 다음 단계를 수행합니다.
+휴지통 폴더에서 삭제된 폴더로 자산을 복원하려면 다음을 수행합니다.
 
-1. 휴지통 아이콘을 클릭하여 휴지통 폴더를 엽니다.
+1. [에셋 라이브러리] 패널 하단에서 **[!UICONTROL 휴지통]** 아이콘을 클릭하여 휴지통 폴더를 엽니다.
 1. 복원하려는 자산을 선택합니다.
-1. [파일] > [휴지통에서 복원]을 선택합니다.
+1. **[!UICONTROL 파일]** > **[!UICONTROL 휴지통에서 복원]**&#x200B;을 클릭합니다.
 
-## 휴지통 폴더에서 영구적으로 자산 삭제  {#permanently-deleting-assets-in-the-trash-folder}
+## 휴지통 폴더에서 영구적으로 자산 삭제 {#permanently-deleting-assets-in-the-trash-folder}
 
 휴지통 폴더에서 삭제한 자산은 영구적으로 삭제됩니다. 7일 후에는 휴지통 폴더에서 자산이 자동으로 삭제됩니다.
 
-휴지통 폴더에서 자산을 영구적으로 삭제하려면 [휴지통] 아이콘 을 선택하여 휴지통 폴더를 엽니다. 그런 다음 개별 자산을 삭제하거나 폴더에 있는 모든 자산을 삭제합니다.
+휴지통 폴더에서 자산을 영구적으로 삭제하려면 **[!UICONTROL 휴지통]** 아이콘을 클릭합니다. 휴지통 폴더 페이지에서 다음 중 하나를 수행합니다.
 
-* **개별** 자산 삭제영구적으로 삭제할 자산을 선택하고 파일 > 휴지통에서  **[!UICONTROL 비우기]**&#x200B;를 클릭합니다.
+* **개별 자산**  삭제 - 영구히 삭제할 자산을 선택한 다음  **[!UICONTROL 파일]** > 휴지통에서  **[!UICONTROL 빈 공간을 클릭합니다]**.
 
-* **모든** 자산 삭제파일  **[!UICONTROL > 빈 휴지통을 클릭합니다]**.
+* **모든 자산**  삭제 -  **[!UICONTROL 파일]**  >  **[!UICONTROL 빈 휴지통을 클릭합니다]**.
 
 >[!MORELIKETHIS]
 >
