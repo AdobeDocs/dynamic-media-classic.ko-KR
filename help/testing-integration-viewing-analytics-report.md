@@ -9,33 +9,33 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
+exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 39%
+source-wordcount: '334'
+ht-degree: 15%
 
 ---
 
-
 # Adobe Analytics 보고서를 보고 통합 테스트{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Adobe Analytics에서 필요한 변수를 만든 후 Dynamic Media Classic 이벤트에 연결하고 필요한 구현 단계를 완료한 후 설정을 테스트해야 합니다. Adobe Analytics 자체 내에서 데이터가 캡처되고 있는지 테스트하고 확인할 수 있습니다. 여기에서 설정이 작동하는 경우, 추가 단계가 필요하지 않습니다. 위의 단계를 따르고 Dynamic Media Classic 이벤트 데이터를 하나 이상의 사용자 지정 트래픽 변수에 연결했다고 가정하고, 이 워크플로에 따라 Adobe Analytics 내에서 데이터를 테스트합니다.
+Adobe Analytics에서 필요한 변수를 만들고 Dynamic Media Classic 이벤트에 연결하며 필요한 구현 단계를 완료한 후 설정을 테스트할 수 있습니다. Adobe Analytics 자체 내에서 데이터가 캡처되고 있는지 테스트하고 확인할 수 있습니다. 여기에서 설정이 작동하는 경우, 추가 단계가 필요하지 않습니다. 위의 단계를 따르고 Dynamic Media Classic 이벤트 데이터를 하나 이상의 사용자 지정 트래픽 변수에 연결했다고 가정하고, 이 워크플로에 따라 Adobe Analytics 내에서 데이터를 테스트합니다.
 
-**Adobe Analytics 보고서를 보고 통합을 테스트하려면**
+**Adobe Analytics 보고서를 보고 통합을 테스트하려면:**
 
-1. 캡처할 지표를 브로드캐스트하고 이 지표와 상호 작용하여 일부 이벤트 데이터를 만드는 계정, 특히 계정에서 Dynamic Media Classic 뷰어를 시작합니다.
+1. 계정에서 Dynamic Media Classic 뷰어를 시작합니다. 특히 보려는 지표를 브로드캐스트하고 해당 지표와 상호 작용하여 일부 이벤트 데이터를 만드는 뷰어입니다.
 
-   예를 들어 이미지 집합에서 가장 인기 있는 대체 보기를 측정하려는 경우 이미지 집합을 미리 보고 다른 썸네일 이미지를 클릭합니다.
+   예를 들어 이미지 세트에서 자주 사용하는 대체 보기를 측정하려면 이미지 세트를 미리 보고 다른 축소판 이미지를 클릭합니다.
 
-1. Adobe Analytics 내에서 사용자 지정 트래픽 > 사용자 지정 트래픽 1-10 > [prop]의 이름으로 이동하여 메뉴 선택 사항에서 트래픽 prop 이름을 선택합니다.
+1. Adobe Analytics 내에서 **[!UICONTROL 사용자 지정 트래픽]** > **[!UICONTROL 사용자 지정 트래픽 1-10]** > [prop]의 이름으로 이동하여 메뉴 선택 사항에서 트래픽 prop 이름을 선택합니다.
 
-   예를 들어, 샘플 계정으로 LoadAsset Prop에 액세스하려는 경우 적절한 메뉴 선택 항목은 [사용자 지정 트래픽] > [사용자 지정 트래픽 1-10] > [LoadAsset]입니다. 11개 이상의 사용자 지정 Prop이 있는 경우 메뉴 선택 항목도 추가로 표시될 수 있습니다.
+   예를 들어 샘플 계정에서 **[!UICONTROL LoadAsset]** prop에 액세스하려면 적절한 메뉴 선택이 **[!UICONTROL 사용자 지정 트래픽]** > **[!UICONTROL 사용자 지정 트래픽 1-10]** > **[!UICONTROL LoadAsset]**&#x200B;입니다. 10개 이상의 사용자 지정 prop이 있는 경우 다른 메뉴 선택 사항도 표시됩니다.
 
-1. Adobe Analytics에 의해 생성된 차트를 봅니다. 일반적으로 단일 지표에 대한 데이터일 뿐입니다. 이 데이터가 연결되어 있는 에셋과 관련하여 알고 싶은 경우(예: 50%만 시청하는 비디오나 세트의 이미지가 가장 인기 있는 항목) 이 이벤트의 에셋 데이터도 캡처해야 합니다.
+1. Adobe Analytics에 의해 생성된 차트를 봅니다. 이 차트는 일반적으로 단일 지표에 대한 데이터입니다. 이 데이터가 연결된 에셋도 알고 싶으면 이 이벤트의 에셋 데이터를 가져옵니다. 예를 들어 50%만 시청한 비디오나 세트에서 어떤 이미지가 인기가 있는지 파악하는 것이 유용합니다.
 
 >[!NOTE]
 >
 >모든 Dynamic Media Classic 뷰어 데이터는 Adobe Analytics의 사용자 지정 트래픽 보고서 또는 사용자 지정 전환 보고서에 표시되고 보고됩니다.
 
-자세한 내용은 [www.adobe.com/go/learn_sc7_sitecatalystguide_en](https://www.adobe.com/go/learn_sc7_sitecatalystguide_en)을 참조하십시오.
+자세한 내용은 [분석 Tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)을 참조하십시오.
