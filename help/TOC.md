@@ -7,7 +7,7 @@ breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
 translation-type: tm+mt
-source-git-commit: 97accb7238f698be740f3ae6759b747db347c061
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '748'
 ht-degree: 77%
@@ -33,7 +33,7 @@ ht-degree: 77%
    + [널리 사용되는 리소스](popular-resources.md)
    + [교육 비디오](training-videos.md)
 + 시작하기 {#getting-started}
-   + [Adobe Dynamic Media Classic 플랫폼 개요](dmc-platform-overview.md)
+   + [Adobe Dynamic Media Classic 프로그램 개요](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [로그인 및 로그아웃](signing-out.md)
    + [탐색 기본 사항](navigation-basics.md)
