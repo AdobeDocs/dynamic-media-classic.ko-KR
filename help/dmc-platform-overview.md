@@ -1,6 +1,6 @@
 ---
-title: Adobe Dynamic Media Classic 플랫폼 개요
-description: Dynamic Media Classic 플랫폼 및 워크플로우 프로세스에 대한 개요입니다.
+title: Adobe Dynamic Media Classic 프로그램 개요
+description: Dynamic Media Classic 프로그램 및 워크플로우 프로세스에 대한 개요입니다.
 uuid: e7d3bfb3-1cfe-43ea-b862-aae3b3928c71
 contentOwner: admin
 content-type: reference
@@ -11,14 +11,14 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 31%
 
 ---
 
-# Adobe Dynamic Media Classic 플랫폼 개요{#adobe-scene-platform-overview}
+# Adobe Dynamic Media Classic 프로그램 개요{#adobe-scene-platform-overview}
 
 Dynamic Media Classic은 통합 리치 미디어 관리, 게시 및 서비스 환경입니다. 웹, 인쇄물, 이메일 캠페인, 웹 포털, 데스크톱 및 장치를 비롯한 모든 마케팅 및 판매 채널에 리치 미디어를 제공할 수 있습니다.
 
