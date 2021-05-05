@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 translation-type: tm+mt
-source-git-commit: 5efad4fff11c9818d43d46ebbbce5335ee1e72b8
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '1532'
-ht-degree: 84%
+source-wordcount: '1497'
+ht-degree: 78%
 
 ---
-
 
 # 이미지 자산 또는 벡터 자산 업로드{#uploading-an-image-asset-or-a-vector-asset}
 
@@ -29,7 +29,7 @@ ht-degree: 84%
 
 *업로드 토큰*&#x200B;은 아무도 동일한 공유 보안 키를 사용하여 자산을 업로드할 수 없게 하며, 업로드가 합법적이고 신뢰할 수 있는 소스에서 제공된 것인지 확인합니다.
 
-업로드 토큰은 특정 시간 동안만 사용할 수 있는 영숫자 문자열입니다. 해당 공유 보안 키로 대체하고 다음 URL을 사용하여 업로드 토큰을 검색합니다.
+업로드 토큰은 특정 시간 동안만 사용할 수 있는 영숫자 문자열입니다. 업로드 토큰을 검색할 수 있도록 공유 비밀 키를 대체하려면 다음 URL을 사용하십시오.
 
 * 이미지
    `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`이 예에서 공유 비밀 키는  `fece4b21-87ee-47fc-9b99-2e29b78b602`
@@ -43,7 +43,7 @@ ht-degree: 84%
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-이미지에 대한 성공적인 응답은 다음과 같습니다.
+이미지에 대한 성공적인 응답은 다음과 비슷합니다.
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -82,7 +82,8 @@ URL 쿼리 문자열에 다음 필드를 사용하여 업로드 토큰을 검색
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000`
 
-**허용되는 HTTP 메서드:** GET 및 POST
+**허용된 HTTP 메서드:**
+`GET` 및  `POST`
 
 이제 이미지 자산을 업로드할 수 있습니다.
 
@@ -124,8 +125,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 파일 크기 제한.
 * 파일 이름 확장자 목록.
 * 에셋과 연결된 색상 프로필 및 파일 이름을 유지할지 여부.
-* 녹아웃 배경 사용 여부. [배경 녹아웃]을 활성화하면 [모퉁이], [허용치] 및 [칠 방법]을 설정합니다. 업로드](image-editing-options-upload.md#image-editing-options-at-upload)의 [이미지 편집 옵션에서 배경 녹아웃을 참조하십시오.
-* 업로드할 파일 이름
+* 녹아웃 배경 사용 여부. [배경 녹아웃]을 활성화하면 [모퉁이], [허용치] 및 [칠 방법]을 설정합니다.
+업로드](image-editing-options-upload.md#image-editing-options-at-upload)의 [이미지 편집 옵션에서 배경 녹아웃을 참조하십시오.
+* 업로드할 파일 이름.
 
 <!-- 
 
@@ -137,15 +139,11 @@ Last Modified Date:
 
  -->
 
-![]()
+[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)을 클릭하여 위의 양식과 연결된 HTML 소스 코드를 볼 수 있습니다.
 
-다음 링크를 클릭하여 위의 양식과 연관된 HTML 소스 코드를 볼 수 있습니다.
+Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 페이지 소스 보기]**&#x200B;를 클릭합니다. 이 코드는 사용자가 **[!UICONTROL [전송]]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
 
-[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
-
-Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭한 다음 **페이지 소스 보기**&#x200B;를 클릭합니다. 이 코드는 사용자가 **[전송]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
-
-Internet Explorer에서 XML 응답을 보려면 **[보기] > [소스]**&#x200B;를 클릭합니다. Firefox에서 XML 응답을 보려면 **도구 > 웹 개발자 > 페이지 소스**&#x200B;를 클릭합니다. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
+Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL [보기]]** > **[!UICONTROL [소스]]**&#x200B;를 클릭합니다. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 웹 개발자 도구]**&#x200B;를 클릭합니다. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 
 다음은 성공적인 업로드에 대한 샘플 응답입니다.
 
@@ -183,13 +181,13 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 | URL 매개 변수 | 필수 또는 선택 사항 | 값 |
 |--- |--- |--- |
-| op | 필수 | 업로드 |
-| upload_token | 필수 | 회사와 관련된 공유 보안 키의 업로드 토큰입니다. |
-| company_name | 필수 | 업로드를 수행하는 회사 이름입니다. |
-| file_limit | 선택 사항입니다 | 자산의 파일 크기 제한(바이트)입니다. |
-| file_exts | 선택 사항입니다 | 이미지 자산 파일에 허용되는 확장자 목록입니다. |
-| preserve_colorprofile | 선택 사항입니다 | 임베드된 색상 프로필을 유지하고 업로드한 파일을 PTIFF 형식으로 전환합니다. 가능한 값은 true 또는 false입니다. 기본값은 false입니다. |
-| preserve_filename | 선택 사항입니다 | 업로드한 자산의 파일 이름을 유지합니다. 가능한 값은 true 또는 false입니다. 기본값은 false입니다. |
+| `op` | 필수 | 업로드 |
+| `upload_token` | 필수 | 회사와 관련된 공유 보안 키의 업로드 토큰입니다. |
+| `company_name` | 필수 | 업로드를 수행하는 회사 이름입니다. |
+| `file_limit` | 선택 사항입니다 | 자산의 파일 크기 제한(바이트)입니다. |
+| `file_exts` | 선택 사항입니다 | 이미지 자산 파일에 허용되는 확장자 목록입니다. |
+| `preserve_colorprofile` | 선택 사항입니다 | 임베드된 색상 프로필을 유지하고 업로드한 파일을 PTIFF 형식으로 전환합니다. 가능한 값은 true 또는 false입니다. 기본값은 false입니다. |
+| `preserve_filename` | 선택 사항입니다 | 업로드한 자산의 파일 이름을 유지합니다. 가능한 값은 true 또는 false입니다. 기본값은 false입니다. |
 
 >[!NOTE]
 >
@@ -211,7 +209,7 @@ POST
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-성공적인 응답의 예는 다음과 같습니다.
+성공적인 응답의 예는 다음과 유사합니다.
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -239,9 +237,9 @@ URL 쿼리 문자열에 다음 필드를 사용하여 자산에 대한 정보를
 
 | URL 매개 변수 | 필수 또는 선택 사항 | 값 |
 |--- |--- |--- |
-| op | 필수 | image_info |
-| shared_secret | 필수 | 회사의 공유 보안 키입니다. |
-| image_name | 필수 | 이미지 이름입니다. |
+| `op` | 필수 | image_info |
+| `shared_secret` | 필수 | 회사의 공유 보안 키입니다. |
+| `image_name` | 필수 | 이미지 이름입니다. |
 
 **샘플 URL:**
 
@@ -287,8 +285,9 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 * 파일 크기 제한.
 * 파일 이름 확장자 목록.
 * 에셋과 연결된 색상 프로필 및 파일 이름을 유지할지 여부.
-* 녹아웃 배경 사용 여부. [배경 녹아웃]을 활성화하면 [모퉁이], [허용치] 및 [칠 방법]을 설정합니다. 업로드](image-editing-options-upload.md#image-editing-options-at-upload)의 [이미지 편집 옵션에서 배경 녹아웃을 참조하십시오.
-* 업로드할 파일 이름
+* 녹아웃 배경 사용 여부. [배경 녹아웃]을 활성화하면 [모퉁이], [허용치] 및 [칠 방법]을 설정합니다.
+업로드](image-editing-options-upload.md#image-editing-options-at-upload)의 [이미지 편집 옵션에서 배경 녹아웃을 참조하십시오.
+* 업로드할 파일 이름.
 
 <!-- 
 
@@ -300,9 +299,7 @@ Last Modified Date:
 
  -->
 
-![]()
-
-다음 HTML 코드는 브라우저 창에서 마우스 오른쪽 단추를 클릭한 다음 그림에 표시된 양식에 대해 **[소스 보기]**&#x200B;를 클릭할 때 표시됩니다. 이 코드는 사용자가 **[전송]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
+브라우저 창에서 마우스 오른쪽 단추를 클릭한 다음 예제에 표시된 양식의 **[!UICONTROL 소스 보기]**&#x200B;를 클릭하면 다음 HTML 코드가 표시됩니다. 이 코드는 사용자가 **[!UICONTROL [전송]]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
 
 ```as3
 <body> 
@@ -336,7 +333,7 @@ return true;
 </body>
 ```
 
-Internet Explorer에서 XML 응답을 보려면 **[보기]** > **[소스]**&#x200B;를 클릭합니다. Firefox에서 XML 응답을 보려면 **[보기]** > **[페이지 소스]**&#x200B;를 클릭합니다. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
+Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL [보기]]** > **[!UICONTROL [소스]]**&#x200B;를 클릭합니다. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 페이지 소스]**&#x200B;를 클릭합니다. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 
 다음은 성공적인 업로드에 대한 샘플 응답입니다.
 
@@ -366,7 +363,7 @@ Internet Explorer에서 XML 응답을 보려면 **[보기]** > **[소스]**&#x20
 >
 >업로드한 자산(AI, EPS, PDF 등)이 FXG 형식으로 전환되고 응답이 해당 FXG 자산에 대해 직접 링크를 보냅니다.
 
-자산은 다른 W2P 리소스와 같으며, 자산에 처리 쿼리를 적용할 수 있습니다. 예를 들어 다음 URL은 FXG 리소스를 500x500png 이미지로 전환합니다.
+자산은 다른 Web-to-Print 리소스와 같습니다.처리 쿼리를 적용합니다. 예를 들어 다음 URL은 FXG 리소스를 500x500png 이미지로 전환합니다.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
@@ -376,11 +373,11 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 
 | URL 매개 변수 | 필수 또는 선택 사항 | 값 |
 |--- |--- |--- |
-| op | 필수 | 업로드 |
-| upload_token | 필수 | 회사와 관련된 공유 보안 키의 업로드 토큰입니다. |
-| company_name | 필수 | 업로드를 수행하는 회사 이름입니다. |
-| file_limit | 선택 사항입니다 | 자산의 파일 크기 제한(바이트)입니다. |
-| file_exts | 선택 사항입니다 | 자산 파일에 허용되는 확장자 목록입니다. |
+| `op` | 필수 | 업로드 |
+| `upload_token` | 필수 | 회사와 관련된 공유 보안 키의 업로드 토큰입니다. |
+| `company_name` | 필수 | 업로드를 수행하는 회사 이름입니다. |
+| `file_limit` | 선택 사항입니다 | 자산의 파일 크기 제한(바이트)입니다. |
+| `file_exts` | 선택 사항입니다 | 자산 파일에 허용되는 확장자 목록입니다. |
 
 >[!NOTE]
 >
