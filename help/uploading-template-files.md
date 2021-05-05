@@ -9,14 +9,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
 discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: Business Practitioner
+exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 translation-type: tm+mt
-source-git-commit: e727c1b5fb43c7def842ff1bafcc8b3ef3437cde
+source-git-commit: 06bd65c92c88595786b14213944a7cebd0d2590b
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 69%
+source-wordcount: '236'
+ht-degree: 48%
 
 ---
-
 
 # 템플릿 파일 업로드{#uploading-template-files}
 
@@ -30,8 +30,11 @@ Adobe Photoshop PSD 파일이나 이미지 파일에서 템플릿을 만들 수 
 
 파일 업로드에 대한 자세한 내용은 [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오. 템플릿 파일을 업로드하는 경우 다음 사항에 주의합니다.
 
-* PSD 파일을 업로드하는 경우 PSD 파일에서 템플릿을 만들 수 있습니다. Dynamic Media Classic에서는 PSD의 각 레이어에 대해 별도의 이미지를 만듭니다. [업로드 작업 선택 사항] 대화 상자에서 [Photoshop 선택 사항], [레이어 유지] 선택 사항, [템플릿 만들기] 선택 사항을 차례로 선택합니다. 그런 다음 [레이어 이름 지정] 메뉴에서 옵션을 선택하여 Dynamic Media Classic에서 PSD의 레이어로 만든 이미지의 이름을 지정합니다. [PSD 업로드 선택 사항](psd-files.md#psd_upload_options)을 참조하십시오.
-* 이미지를 업로드하는 경우 클립 경로에서 마스크를 만들 수 있습니다. 이 선택 사항은 클립 경로가 생성된 이미지 편집 애플리케이션으로 만들어진 이미지에 적용됩니다. [업로드 작업 선택 사항] 대화 상자에서 [이미지 편집 선택 사항], [클립 경로에서 마스크 만들기] 선택 사항을 차례대로 선택합니다. [업로드 시 이미지 편집 선택 사항](image-editing-options-upload.md#image-editing-options-at-upload)을 참조하십시오.
+* PSD 파일을 업로드하는 경우 PSD 파일에서 템플릿을 만들 수 있습니다. Dynamic Media Classic에서는 PSD의 각 레이어에 대해 별도의 이미지를 만듭니다. [업로드 작업 옵션] 대화 상자에서 **[!UICONTROL Photoshop 옵션]**&#x200B;을 클릭하고 **[!UICONTROL 레이어 유지]** 및 **[!UICONTROL 템플릿 만들기]**&#x200B;를 선택합니다. 그런 다음 Dynamic Media Classic에서 PSD의 레이어에서 만든 이미지의 이름을 지정하려면 **[!UICONTROL 레이어 이름 지정]** 드롭다운 목록에서 옵션을 선택합니다.
+[PSD 업로드 선택 사항](psd-files.md#psd_upload_options)을 참조하십시오.
+
+<!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
+See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
 
 >[!MORELIKETHIS]
 >
