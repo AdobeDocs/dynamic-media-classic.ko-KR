@@ -11,10 +11,10 @@ feature: Dynamic Media Classic,자산 관리
 role: Business Practitioner
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 translation-type: tm+mt
-source-git-commit: 4e79c98b92dfa4e1a9890ed8a291cdf564126466
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 69%
+source-wordcount: '612'
+ht-degree: 65%
 
 ---
 
@@ -32,7 +32,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
  -->
 
-![세부 사항 보기](/help/assets/image_0.img.png)
+![세부 사항 ](/help/assets/image_0.img.png)
+*보기자산 라이브러리 패널이 왼쪽의 보기에서 숨겨진 세부 사항 보기입니다.*
 
 >[!NOTE]
 >
@@ -44,8 +45,8 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 1. 찾아보기 패널에서 다음 중 하나를 수행합니다.
 
+   * 자산을 선택합니다. Dynamic Media Classic의 오른쪽 위 모서리 근처에 있는 **[!UICONTROL 세부 사항 보기]** 아이콘을 클릭합니다.
    * 자산을 두 번 클릭합니다.
-   * 자산을 선택한 다음 **[!UICONTROL 세부 사항 보기]**&#x200B;를 클릭합니다.
    * 자산을 선택한 다음 **[!UICONTROL 파일]** > **[!UICONTROL 세부 정보]**&#x200B;를 클릭합니다.
 
 >[!NOTE]
