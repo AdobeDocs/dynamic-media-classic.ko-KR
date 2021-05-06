@@ -11,10 +11,10 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 translation-type: tm+mt
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 31%
+source-wordcount: '454'
+ht-degree: 30%
 
 ---
 
@@ -43,6 +43,7 @@ Dynamic Media Classic은 Dynamic Media Classic을 사용하여 단일 마스터 
 Dynamic Media Classic으로 생성하는 URL 문자열에는 자산이 전달될 때 자산을 표시하는 방법을 설명하는 지침이 포함되어 있습니다. 예를 들어 동일한 마스터 이미지를 다른 크기, 형식, 두께, 색상 및 확대/축소 보기로 제공할 수 있습니다. Dynamic Media Classic을 사용하여 미디어 에셋을 빌드하고 게시하는 작업의 일부로, 효과를 시각적으로 구성합니다. 이렇게 하면 마스터 자산을 애플리케이션에 제공하는 방법을 서버에 올바르게 지정하는 URL 호출이 만들어집니다.
 
 ![Dynamic Media Classic에서는 동일한 마스터 이미지를 다양한 크기와 포맷의 서로 다른 미디어에 전달할 수 있습니다.](/help/assets/gs_dynamic_publishing.png)
+*Dynamic Media Classic을 사용하면 크기 또는 대역폭에 상관없이 모든 화면에 일관성 있고 품질 좋은 경험을 전달할 수 있습니다.*
 
 ## 컨텐츠 캐싱 {#content-caching}
 
