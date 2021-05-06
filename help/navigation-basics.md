@@ -11,18 +11,20 @@ feature: Dynamic Media Classic
 role: Administrator,Business Practitioner
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 translation-type: tm+mt
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: eb37440a2917094aae8f32e9337b4c187ec6c1c2
 workflow-type: tm+mt
-source-wordcount: '610'
-ht-degree: 27%
+source-wordcount: '644'
+ht-degree: 25%
 
 ---
 
 # 탐색 기본 사항{#navigation-basics}
 
-Dynamic Media Classic 화면은 다음과 같은 3가지 주요 영역을 포함합니다.전역 내비게이션 막대, 에셋 라이브러리 및 찾아보기 패널/빌드 패널.
+Dynamic Media Classic 화면은 다음과 같은 3가지 주요 영역을 포함합니다.글로벌 내비게이션 바, 자산 라이브러리, 자산 필터 탭, 찾아보기 패널/빌드 패널 및 미디어 장바구니(미디어 포털만 해당).
 
-![탐색 기본 사항](/help/assets/gs_navigation_basics_popup_popup.png)
+![탐색 ](/help/assets/gs_navigation_basics_popup_popup.png)
+*기본 사항Dynamic Media Classic*
+*영역A) 전역 탐색 막대 B) 자산 라이브러리 패널 C) 자산 필터 탭 D) 찾아보기 패널 E) 미디어 카트(Media Portal만 해당)*
 
 ## 글로벌 탐색 막대 {#global-navigation-bar}
 
