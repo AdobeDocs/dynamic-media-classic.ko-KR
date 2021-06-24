@@ -10,7 +10,6 @@ discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 feature: Dynamic Media Classic,뷰어,이미지 세트
 role: Business Practitioner
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '686'
@@ -47,9 +46,9 @@ ht-degree: 89%
 
 ## 웹 페이지에 이미지 집합 URL 추가 {#adding-image-set-urls-to-your-web-page}
 
-이미지 집합을 배포하는 가장 일반적인 방법은 탐색 아이콘을 통해 웹 페이지에 링크를 배치하는 것입니다. 클릭하면 링크가 팝업 확대/축소 창에 이미지 세트를 표시하는 동적 페이지(JSP)를 시작합니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
+이미지 집합을 배포하는 가장 일반적인 방법은 탐색 아이콘을 통해 웹 페이지에 링크를 배치하는 것입니다. 클릭하면 팝업 확대/축소 창에 이미지 세트를 표시하는 JSP(동적 페이지)가 시작됩니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)에서 [HTML5 확대/축소 뷰어 포함을 참조하십시오.
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)에서 [HTML5 확대/축소 뷰어 포함 을 참조하십시오.
 
 ## 이미지 집합 뷰어의 임베드 코드 복사 {#copying-the-embed-code-of-an-image-set-viewer}
 
@@ -82,5 +81,5 @@ ht-degree: 89%
 
 >[!MORELIKETHIS]
 >
->* [Publishing](publishing-files.md#publishing_files)
+>* [게시](publishing-files.md#publishing_files)
 
