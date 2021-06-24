@@ -1,15 +1,14 @@
 ---
 title: 혼합 미디어 집합 만들기
-description: 혼합 미디어 집합을 만드는 방법을 알아봅니다.
+description: 혼합 미디어 세트를 만드는 방법을 알아봅니다.
 uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
-feature: Dynamic Media Classic,뷰어,미디어 집합 혼합
+feature: Dynamic Media Classic,뷰어,혼합 미디어 세트
 role: Business Practitioner
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '625'
@@ -41,7 +40,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >혼합 미디어 세트는 다음 문자를 포함하는 파일 이름의 자산을 지원하지 않습니다.`( ) { }`.
+   >혼합 미디어 세트는 다음 문자가 포함된 파일 이름이 있는 자산을 지원하지 않습니다.`( ) { }`
 
 1. 다음 중 하나를 수행합니다.
 
@@ -52,13 +51,13 @@ ht-degree: 88%
 1. 페이지 오른쪽 하단에서 **[!UICONTROL 저장 후 게시]**(기본값)가 선택되어 있는지 확인합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭하고 혼합 미디어 집합을 저장할 폴더를 선택한 다음 집합의 이름을 입력하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   이미지 세트 뷰어에서 콤보 이미지 세트가 어떻게 표시되는지 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 클릭합니다.
+   이미지 세트 뷰어에서 콤보 이미지 세트의 모양을 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 클릭합니다.
 
 ## 혼합 미디어 집합 편집 {#edit-a-mixed-media-set}
 
 혼합 미디어 집합을 편집할 수 있습니다. 혼합 미디어 집합 내의 한 집합을 편집하려면 집합을 개별적으로 열고 편집한 다음 저장합니다. 편집 내용이 혼합 미디어 집합에 표시됩니다.
 
-게시된 세트 또는 게시되지 않은 세트를 편집하는 경우 **[!UICONTROL 저장 후 게시]** 옵션은 다음과 같은 방법으로 세트 및 세트 구성원에 영향을 줍니다.
+게시된 집합이나 게시 취소된 집합을 편집하든 간에 **[!UICONTROL 저장 후 게시]** 옵션은 다음과 같은 방법으로 집합 및 집합 구성요소에 영향을 줍니다.
 
 | 세트를 이미 게시했습니까? | 편집 내용을 저장하기 전에 [저장 후 게시] 옵션을 선택했습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
 |--- |--- |--- |--- |
