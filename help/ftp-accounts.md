@@ -10,7 +10,6 @@ discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 feature: Dynamic Media Classic,공동 작업,자산 관리
 role: Administrator,Business Practitioner
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '234'
@@ -29,7 +28,7 @@ Media Portal 관리자만 FTP 계정을 관리할 수 있습니다. 또한 *Medi
 1. **[!UICONTROL [설정]]** > **[!UICONTROL [Media Portal]]** > **[!UICONTROL [FTP 계정]]**&#x200B;을 클릭합니다.
 1. [FTP 계정 추가] 페이지의 [FTP 계정 사용자 이름] 드롭다운 목록에서 사용자를 선택합니다.
 
-   사용자가 목록에 표시되지 않는 경우 관리 설정을 통해 미디어 포털 관리자, 미디어 포털 기고자-사용자 또는 미디어 포털 기여자 등으로 사용자를 추가해야 합니다. 적절한 역할이 있는 사용자를 추가하면 드롭다운 목록에서 해당 사용자 이름을 사용할 수 있습니다.
+   사용자가 나열되지 않은 경우 관리 설정을 통해 Media Portal 관리자, Media Portal 기여자 사용자 또는 Media Portal 기여자 로 해당 사용자를 추가해야 합니다. 적절한 역할이 있는 사용자를 추가하면 드롭다운 목록에서 해당 사용자 이름을 사용할 수 있습니다.
 
    [Media Portal 사용자 추가](adding-media-portal-users.md#adding_a_media_portal_user)를 참조하십시오.
 
