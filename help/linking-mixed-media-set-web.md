@@ -1,16 +1,15 @@
 ---
 title: 혼합 미디어 집합을 웹 페이지에 연결
-description: 혼합 미디어 집합을 웹 페이지에 연결하는 방법을 알아봅니다.
+description: 혼합 미디어 세트를 웹 페이지에 연결하는 방법을 알아봅니다.
 uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
-feature: Dynamic Media Classic,뷰어,미디어 집합 혼합
+feature: Dynamic Media Classic,뷰어,혼합 미디어 세트
 role: Business Practitioner
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '645'
@@ -45,7 +44,7 @@ ht-degree: 97%
 
 [혼합 미디어 집합]을 배포하는 가장 일반적인 방법은 탐색 아이콘을 통해 웹 페이지에 링크를 배치하는 것입니다. 링크를 클릭하면 혼합 미디어 집합 뷰어에서 혼합 미디어 집합을 표시하는 동적 페이지(ASP 또는 JSP)가 시작됩니다.
 
-## 혼합 미디어 집합 뷰어의 임베드 코드 복사  {#copying-the-embed-code-of-a-mixed-media-set-viewer}
+## 혼합 미디어 집합 뷰어의 임베드 코드 복사 {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
 임베드 코드 기능을 사용하면 선택한 혼합 미디어 집합의 뷰어 코드를 검토할 수 있습니다. 또한 뷰어 배포를 위해 코드를 클립보드로 복사하여 웹 페이지에 붙여넣을 수도 있습니다. 코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
 
@@ -76,5 +75,5 @@ ht-degree: 97%
 
 >[!MORELIKETHIS]
 >
->* [Publishing](publishing-files.md#publishing_files)
+>* [게시](publishing-files.md#publishing_files)
 
