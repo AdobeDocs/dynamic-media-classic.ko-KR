@@ -1,6 +1,6 @@
 ---
-title: Dynamic Media Classic에서 에셋 내보내기
-description: Dynamic Media Classic에서 에셋을 내보내는 방법을 알아봅니다.
+title: Dynamic Media Classic에서 자산 내보내기
+description: Dynamic Media Classic에서 자산을 내보내는 방법을 알아봅니다.
 uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,6 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,자산 관리
 role: Business Practitioner
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-translation-type: tm+mt
 source-git-commit: 27d9a9b9f158846b54e4318119aec9e4dc9c4c0d
 workflow-type: tm+mt
 source-wordcount: '426'
@@ -18,22 +17,22 @@ ht-degree: 63%
 
 ---
 
-# Dynamic Media Classic{#exporting-assets-from-dmc}에서 에셋 내보내기
+# Dynamic Media Classic에서 자산 내보내기{#exporting-assets-from-dmc}
 
-Dynamic Media Classic에서 편집한 에셋을 로컬 네트워크 드라이브에 저장할 수 있습니다. 내보낸 자산은 이메일로 전송하거나 다운로드하기 위해 ZIP 파일로 번들됩니다.
+Dynamic Media Classic에서 편집한 자산을 로컬 네트워크 드라이브에 저장할 수 있습니다. 내보낸 자산은 이메일로 전송하거나 다운로드하기 위해 ZIP 파일로 번들됩니다.
 
-내보내기 작업에 대해 ZIP 압축 파일의 최대 파일 크기는 1 GB입니다. 또한 내보내기 작업당 최대 500개의 에셋을 사용할 수 있습니다.
+내보내기 작업에 대해 ZIP 압축 파일의 최대 파일 크기는 1 GB입니다. 또한 내보내기 작업당 최대 500개의 자산을 사용할 수 있습니다.
 
-Dynamic Media Classic은 [작업] 화면에 내보내기 작업 레코드를 유지합니다.
+Dynamic Media Classic은 작업 화면에 내보내기 작업 레코드를 유지합니다.
 
-**Dynamic Media Classic에서 에셋을 내보내려면:**
+**Dynamic Media Classic에서 자산을 내보내려면 다음을 수행하십시오.**
 
 1. 내보내려는 자산을 선택한 다음 **[!UICONTROL [파일]]** > **[!UICONTROL [내보내기]]**&#x200B;를 클릭합니다.
 1. [선택한 자산 내보내기] 창에서 **[이미지 선택 사항]**&#x200B;을 클릭하고 다음 중 원하는 선택 사항을 지정합니다. 사용자가 사용할 수 있는 선택 사항은 관리자가 결정합니다.
 
-   * **사전 설정**  - 선택적으로 에셋을 내보낼 때 에셋의 형식을 지정하려면 이미지 사전 설정을 선택합니다. 이미지 사전 설정을 선택하면 자산이 이미지 사전 설정에서 정의된 형식을 사용하기 때문에 다른 형식 지정 선택 사항은 사용할 수 없습니다.
+   * **사전 설정**  - 선택적으로, 자산을 내보낼 때 자산 형식을 지정하려면 이미지 사전 설정을 선택합니다. 이미지 사전 설정을 선택하면 자산이 이미지 사전 설정에서 정의된 형식을 사용하기 때문에 다른 형식 지정 선택 사항은 사용할 수 없습니다.
 
-   * **전환**  - 자산 파일이나 원본 이미지를 변환합니다.
+   * **변환**  - 자산 파일 또는 원본 이미지를 변환합니다.
 
    * **크기**  - 표준 크기를 선택할 수 있습니다. 또한 [크기] 드롭다운 목록에서 **[!UICONTROL [기타]]**&#x200B;를 클릭하고 원하는 측정 단위를 선택한 다음 너비와 높이를 지정할 수 있습니다.****
 
@@ -47,7 +46,7 @@ Dynamic Media Classic은 [작업] 화면에 내보내기 작업 레코드를 유
 
    * **작업 이름**  - 내보내기에 작업 이름을 지정할 수 있습니다.
 
-   * **전자 메일 보내기**  - 필요에 따라 전자 메일 주소를 입력하여 전자 메일로 자산을 보냅니다. 이메일 메시지에는 수신자가 자산을 다운로드하기 위해 이동할 수 있는 URL이 표시됩니다.
+   * **이메일 발송자**  - 원할 경우 이메일 주소를 입력하여 자산을 이메일로 보냅니다. 이메일 메시지에는 수신자가 자산을 다운로드하기 위해 이동할 수 있는 URL이 표시됩니다.
 
 1. **[!UICONTROL 내보내기]**&#x200B;를 클릭합니다.
 
