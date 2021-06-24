@@ -1,6 +1,6 @@
 ---
 title: 견본 집합을 웹 페이지에 연결
-description: 견본 집합을 웹 페이지에 연결하는 방법을 알아봅니다.
+description: 견본 세트를 웹 페이지에 연결하는 방법을 알아봅니다.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,7 +8,6 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 feature: Dynamic Media Classic,뷰어
 role: Business Practitioner
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -47,7 +46,7 @@ ht-degree: 92%
 
 견본 집합을 배포하는 가장 일반적인 방법은 탐색 아이콘을 통해 웹 페이지에 링크를 배치하는 것입니다. 링크를 클릭하면 팝업 확대/축소 창에서 견본 집합을 표시하는 동적 페이지(ASP 또는 JSP)가 시작됩니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)에서 [HTML5 확대/축소 뷰어 포함을 참조하십시오.
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)에서 [HTML5 확대/축소 뷰어 포함 을 참조하십시오.
 
 ## 견본 집합 뷰어의 임베드 코드 복사 {#copying-the-embed-code-of-a-swatch-set-viewer}
 
@@ -80,5 +79,5 @@ ht-degree: 92%
 
 >[!MORELIKETHIS]
 >
->* [Publishing](publishing-files.md#publishing_files)
+>* [게시](publishing-files.md#publishing_files)
 
