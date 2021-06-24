@@ -1,6 +1,6 @@
 ---
 title: '"빠른 시작:Media Portal"'
-description: Media Portal 기법과 관리를 신속하게 시작하고 실행하는 데 도움이 되는 소개 및 Quick Start to Media Portal.
+description: Media Portal 기법 및 관리를 사용하여 를 신속하게 시작하고 실행할 수 있는 Media Portal 소개 및 빠른 시작
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,6 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,공동 작업,자산 관리
 role: Administrator,Business Practitioner
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-translation-type: tm+mt
 source-git-commit: c5c8c4f96f18339734f4441733cdb1e7f34d3071
 workflow-type: tm+mt
 source-wordcount: '692'
@@ -18,13 +17,13 @@ ht-degree: 73%
 
 ---
 
-# 빠른 시작:미디어 포털{#quick-start-media-portal}
+# 빠른 시작:Media Portal{#quick-start-media-portal}
 
-미디어 포털을 통해 기업은 외부 파트너 및 채널 및 회사의 내부 사용자에게 승인된 자산을 쉽게 획득, 제어 및 배포할 수 있습니다. 이 브라우저 기반의 &quot;셀프 서비스&quot; 환경은 Media Portal 사용자에게 Dynamic Media Classic 에셋에 관리자가 제어하는 &quot;뷰&quot;를 제공하여 기업 승인 형식으로 에셋을 쉽게 액세스하고, 찾아보고, 검색하고, 미리 보고, 내보낼 수 있습니다.
+Media Portal을 사용하면 승인된 자산을 외부 파트너 및 채널 및 회사의 내부 사용자에게 쉽게 획득, 제어 및 배포할 수 있습니다. 이 브라우저 기반 &quot;셀프 서비스&quot; 환경은 Media Portal 사용자가 Dynamic Media Classic 자산에 대한 관리자 제어 &quot;보기&quot;를 제공하여 자산을 쉽게 액세스하고, 찾아보고, 검색하고, 미리 보고, 회사 승인 형식으로 내보낼 수 있습니다.
 
-관리자는 사용자가 Media Portal에서 자산을 보고 액세스하고 사용하는 방법을 제어합니다. 또한 웹 사이트 및 브랜드와 일치하도록 Media Portal 인터페이스를 사용자 지정할 수 있습니다. 글꼴, 글꼴 색상, 글꼴 크기를 지정하고 Media Portal 인터페이스에서 로고와 같은 브랜드 요소를 통합할 수 있습니다.
+관리자는 사용자가 Media Portal에서 자산을 보고 액세스하고 사용하는 방법을 제어합니다. 또한 웹 사이트 및 브랜드와 일치하도록 Media Portal 인터페이스를 사용자 지정할 수 있습니다. Media Portal 인터페이스에서 글꼴, 글꼴 색상, 글꼴 크기를 지정하고 로고와 같은 브랜딩 요소를 통합할 수 있습니다.
 
-이 빠른 시작은 Media Portal 관리를 빨리 시작하고 실행하는 데 도움이 됩니다. 각 단계가 끝날 때 주제 링크를 클릭하여 자세한 내용을 살펴보십시오.
+이 빠른 시작은 Media Portal 관리를 빨리 시작하고 실행하는 데 도움이 됩니다. 각 단계가 끝날 때 항목 링크를 클릭하여 자세히 알아보십시오.
 
 ## 1. Media Portal 사용자 역할 이해
 
@@ -46,7 +45,7 @@ Media Portal 사용자는 사용자, 기여자 및 기여자-사용자의 세 �
 
 ## 4. FTP 계정 관리
 
-Media Portal과 연결되어 있고 Dynamic Media Classic 계정의 특정 폴더에 매핑되는 별도의 FTP 계정을 보유할 수 있습니다. 이러한 기능으로 사용자가 개별 FTP 계정을 사용하여 디지털 자산을 해당 계정으로 업로드하도록 할 수 있습니다.
+Media Portal과 연결되고 Dynamic Media Classic 계정의 특정 폴더에 매핑되는 별도의 FTP 계정을 가질 수 있습니다. 이러한 기능으로 사용자가 개별 FTP 계정을 사용하여 디지털 자산을 해당 계정으로 업로드하도록 할 수 있습니다.
 
 [FTP 계정 관리](ftp-accounts.md#managing_ftp_accounts)를 참조하십시오.
 
@@ -74,8 +73,8 @@ Media Portal 사용자는 관리자가 해당 권한을 부여한 경우 파일�
 
 [보다 효율적인 메타데이터 사용](making-efficient-metadata.md#making_more_efficient_use_of_metadata)을 참조하십시오.
 
-## 8. Media Portal 페이지 사용자 정의
+## 8. Media Portal 페이지 사용자 지정
 
-Media Portal 스타일 설정을 사용하면 회사 로고 및 색상으로 Media Portal 페이지를 브랜딩할 수 있습니다. 스타일 설정을 사용하여 회사 브랜드를 Media Portal에 게시할 수 있습니다.
+Media Portal 스타일 설정을 사용하여 회사 로고와 색상으로 Media Portal 페이지를 브랜딩할 수 있습니다. 스타일 설정을 사용하여 회사 브랜딩을 Media Portal에 지정합니다.
 
-[미디어 포털 페이지 사용자 지정](customizing-media-portal-screen.md#customizing_the_media_portal_screen)을 참조하십시오.
+[Media Portal 페이지 사용자 지정](customizing-media-portal-screen.md#customizing_the_media_portal_screen)을 참조하십시오.
