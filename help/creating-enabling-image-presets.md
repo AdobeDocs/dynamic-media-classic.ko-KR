@@ -10,7 +10,6 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,공동 작업,이미지 사전 설정,자산 관리
 role: Administrator,Business Practitioner
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '260'
@@ -22,7 +21,7 @@ ht-degree: 81%
 
 사용자는 Media Portal을 사용하여 이미지 자산을 내보낼 때 [선택한 자산 내보내기] 대화 상자에서 이미지 사전 설정을 선택할 수 있습니다. 이미지 사전 설정은 이미지를 내보낼 때 크기, 이미지 품질, 형식, 해상도 및 이미지 모양의 기타 측면을 변경하는 사전 정의된 설정 모음입니다.
 
-Media Portal 관리자는 이미지 사전 설정을 만들어 이미지를 내보낼 때 형식을 다시 지정하는 방법을 제어할 수 있습니다. 이미지 사전 설정은 사용자가 Dynamic Media Classic에서 이미지를 내보낼 때 회사 사양에 맞게 이미지를 다시 포맷합니다. 사용자는 직접 이미지 형식을 다시 지정하는 대신 이미지 사전 설정의 정확한 사양으로 이미지를 내보냅니다.
+Media Portal 관리자는 이미지 사전 설정을 만들어 이미지를 내보낼 때 형식을 다시 지정하는 방법을 제어할 수 있습니다. 이미지 사전 설정은 사용자가 Dynamic Media Classic에서 이미지를 내보낼 때 회사 사양에 맞게 이미지를 재포맷합니다. 사용자는 직접 이미지 형식을 다시 지정하는 대신 이미지 사전 설정의 정확한 사양으로 이미지를 내보냅니다.
 
 이미지 자산을 내보낼 때 다음 제한이 적용됩니다.
 
