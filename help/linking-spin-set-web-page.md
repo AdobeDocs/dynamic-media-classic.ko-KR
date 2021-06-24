@@ -7,10 +7,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 651b21ef-e322-4e6d-8e37-45ffd56f7a58
-feature: Dynamic Media Classic,뷰어,회전 집합
+feature: Dynamic Media Classic,뷰어,스핀 세트
 role: Business Practitioner
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
-translation-type: tm+mt
 source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
 workflow-type: tm+mt
 source-wordcount: '720'
@@ -20,7 +19,7 @@ ht-degree: 87%
 
 # 회전 집합을 웹 페이지에 연결{#linking-a-spin-set-to-a-web-page}
 
-웹 사이트 및 응용 프로그램은 URL 문자열 또는 포함된 코드를 통해 스핀 세트를 비롯한 Dynamic Media Image Server 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지 및 응용 프로그램에 회전 집합에 대한 URL 문자열 또는 포함 코드를 배치하려면 Dynamic Media Classic에서 복사합니다.
+웹 사이트 및 응용 프로그램은 URL 문자열 또는 포함된 코드를 통해 스핀 세트를 포함한 Dynamic Media 이미지 서버 컨텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지 및 애플리케이션에 스핀 세트에 대한 URL 문자열 또는 포함 코드를 배치하려면 Dynamic Media Classic에서 복사합니다.
 
 >[!NOTE]
 >
@@ -45,15 +44,15 @@ ht-degree: 87%
 
       [뷰어 목록] 페이지에 있는 테이블의 [작업] 열에서 **[!UICONTROL [URL 복사]]**&#x200B;를 클릭합니다.
 
-## 웹 페이지에 회전 집합 URL 추가  {#adding-spin-set-urls-to-your-web-page}
+## 웹 페이지에 회전 집합 URL 추가 {#adding-spin-set-urls-to-your-web-page}
 
-회전 집합은 모든 확대/축소 뷰어와 마찬가지로 [확대/축소] 창에서 회전 집합을 표시하는 동적 페이지(ASP 또는 JSP)를 통해 배포됩니다. Dynamic Media Classic 플랫폼에 대한 URL 호출은 확대/축소 뷰어에서 동일한 프로토콜을 따릅니다. 그러나 뷰어 사전 설정 이름은 관리자가 기본 회전 집합 뷰어 사전 설정으로 정의한 사전 설정에 따라 달라집니다. 예를 들어 다음의 작동하지 않는 URL 구문 예에는 `viewer.jsp`라는 사전 설정 이름이 포함되며 이제 SKU 매개 변수가 스핀 세트 이름입니다.
+회전 집합은 모든 확대/축소 뷰어와 마찬가지로 [확대/축소] 창에서 회전 집합을 표시하는 동적 페이지(ASP 또는 JSP)를 통해 배포됩니다. Dynamic Media Classic 플랫폼에 대한 URL 호출은 확대/축소 뷰어의 동일한 프로토콜을 따릅니다. 그러나 뷰어 사전 설정 이름은 관리자가 기본 회전 집합 뷰어 사전 설정으로 정의한 사전 설정에 따라 달라집니다. 예를 들어 다음의 작동하지 않는 URL 구문 예에는 `viewer.jsp`라는 사전 설정 이름이 포함되며 이제 SKU 매개 변수가 스핀 세트 이름입니다.
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-이 URL에서 구문 예에서(링크는 작동하지 않음) SKU 번호(`sku=backpack_spin`)를 확인합니다. `sku=` 뒤의 문자열은 회전 집합 이름( `backpack spin`)입니다.
+이 URL에서 구문 예에서(링크는 작동하지 않음) SKU 번호(`sku=backpack_spin`)를 확인합니다. `sku=` 뒤의 문자열은 스핀 세트 이름( `backpack spin`)입니다.
 
 ## 회전 집합 뷰어의 임베드 코드 복사 {#copying-the-embed-code-of-a-spin-set-viewer}
 
