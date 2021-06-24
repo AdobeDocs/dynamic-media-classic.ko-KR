@@ -10,7 +10,6 @@ discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,공동 작업,자산 관리
 role: Administrator,Business Practitioner
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-translation-type: tm+mt
 source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
 workflow-type: tm+mt
 source-wordcount: '827'
@@ -26,13 +25,13 @@ ht-degree: 86%
 
 각기 다른 수준의 액세스 권한을 부여하기 위해 그룹을 만듭니다. 각 그룹에 서로 다른 폴더 및 폴더의 자산에 대한 읽기, 쓰기 및 삭제 권한을 지정합니다. 또한 그룹에 사용할 수 있는 이미지 사전 설정을 결정합니다. 그런 다음 사용자를 그룹에 지정합니다. 한 사용자가 여러 그룹의 구성원이 될 수 있습니다. 그룹 개념을 사용하면 전체 컨텐츠 중 제한된 집합에 대한 액세스 권한을 유연하게 지정할 수 있습니다.
 
-자산이나 폴더에 대한 그룹 권한을 특별히 부여하지 않는 경우 해당 자산이나 폴더는 상위 폴더(폴더 계층 구조에서 해당 폴더 위에 있음)에 할당한 권한을 상속합니다. 모든 하위 폴더가 동일한 권한을 상속하게 하려는 경우 상위 폴더에 권한을 부여합니다.
+자산이나 폴더에 그룹 권한을 특별히 부여하지 않는 경우 해당 자산이나 폴더는 상위 폴더(폴더 계층 구조의 폴더)에 할당한 권한을 상속합니다. 모든 하위 폴더가 동일한 권한을 상속하게 하려는 경우 상위 폴더에 권한을 부여합니다.
 
 >[!NOTE]
 >
 >사용자는 여러 그룹에 속할 수 있습니다. 사용자가 폴더에 대한 액세스 권한이 서로 다른 두 그룹에 속해 있는 경우 가장 높은 액세스 권한이 부여됩니다.
 
-## 그룹 추가  {#adding-a-group}
+## 그룹 추가 {#adding-a-group}
 
 1. **[!UICONTROL [설정]]** > **[!UICONTROL [Media Portal 설정]]** > **[!UICONTROL [그룹]]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL [추가]]**&#x200B;를 클릭합니다.
@@ -48,7 +47,7 @@ ht-degree: 86%
 
 1. **[!UICONTROL [닫기]]**&#x200B;를 클릭합니다.
 
-## 그룹의 자산 액세스 권한 설정  {#establishing-asset-access-permissions-for-a-group}
+## 그룹의 자산 액세스 권한 설정 {#establishing-asset-access-permissions-for-a-group}
 
 1. **[!UICONTROL [설정]]** > **[!UICONTROL [Media Portal 설정]]** > **[!UICONTROL [그룹]]**&#x200B;을 클릭합니다.
 1. [그룹] 목록 페이지에서 다음 중 하나를 수행합니다.
@@ -76,7 +75,7 @@ ht-degree: 86%
 >
 >상자를 선택하면 액세스 권한이 설정됩니다. 폴더에 대한 권한을 지정하면 하위 폴더와 이 폴더에 있는 모든 파일에 상위 폴더와 동일한 권한이 부여됩니다. 그러나 개별 하위 폴더와 자산 파일에 대해 다른 권한을 지정할 수 있습니다.
 
-## 그룹의 이미지 사전 설정 액세스 권한 선택  {#choosing-image-preset-access-permissions-for-a-group}
+## 그룹의 이미지 사전 설정 액세스 권한 선택 {#choosing-image-preset-access-permissions-for-a-group}
 
 그룹 구성원이 Media Portal을 사용하여 자산을 내보낼 때 사용할 수 있는 이미지 사전 설정을 지정하려는 경우 그룹의 이미지 사전 설정 액세스 권한을 선택합니다.
 
@@ -89,14 +88,14 @@ ht-degree: 86%
    * 그룹의 이미지 사전 설정 선택 사항을 편집하려면 그룹을 선택하고 **[!UICONTROL [편집]]**&#x200B;을 클릭합니다.
 
 1. [그룹 추가] 또는 [그룹 편집] 대화 상자에서 **[!UICONTROL [이미지 사전 설정 액세스 권한]]** 탭을 클릭합니다. 
-1. Media Portal 사용자가 자산을 내보낼 때 사용할 수 있는 사전 설정을 지정하려면 이미지 사전 설정을 선택하거나 선택 취소합니다.
+1. Media Portal 사용자가 자산을 내보낼 때 사용할 수 있는 사전 설정을 지정하려면 이미지 사전 설정 을 선택하거나 선택 취소합니다.
 1. **[!UICONTROL [닫기]]**&#x200B;를 클릭합니다.
 
-## 그룹 편집 및 삭제  {#edit-and-delete-groups}
+## 그룹 편집 및 삭제 {#edit-and-delete-groups}
 
 1. **[!UICONTROL [설정]]** > **[!UICONTROL [Media Portal 설정]]** > **[!UICONTROL [그룹]]**&#x200B;을 클릭합니다.
 1. [그룹 목록] 페이지에서 그룹을 선택하고 편집하거나 삭제합니다.
 
-   **그룹**  편집 -  **[!UICONTROL 편집을]** 클릭한 다음 그룹 편집 대화 상자에서 옵션을 선택합니다.
+   **그룹 편집**  -  **[!UICONTROL 편집]**&#x200B;을 클릭한 다음 그룹 편집 대화 상자에서 옵션을 선택합니다.
 
-   **그룹**  삭제 - 삭제 **[!UICONTROL 를 클릭합니다]**.
+   **그룹 삭제**  - 삭제 **[!UICONTROL 를 클릭합니다]**.
