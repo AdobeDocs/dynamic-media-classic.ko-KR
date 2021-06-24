@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics 구성 정보 게시
-description: Adobe Analytics 구성 정보를 게시하는 방법에 대해 알아봅니다.
+description: Adobe Analytics 구성 정보를 게시하는 방법을 알아봅니다.
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
@@ -10,7 +10,6 @@ discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Administrator,Business Practitioner
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
-translation-type: tm+mt
 source-git-commit: c4e2b8b42b56420269087d0d4f262490464270c0
 workflow-type: tm+mt
 source-wordcount: '146'
@@ -20,11 +19,11 @@ ht-degree: 37%
 
 # Adobe Analytics 구성 정보 게시{#publishing-adobe-analytics-configuration-information}
 
-Adobe Analytics 보고서 구성에 대한 정보가 Dynamic Media Classic 서버로 전송되도록 Dynamic Media Classic 뷰어를 게시합니다. 이 정보는 뷰어에 포함됩니다. 뷰어에 포함된 정보를 Dynamic Media Classic 서버에서 사용할 수 있도록 게시해야 합니다. 사용자가 뷰어에서 활동을 수행한 후 정보가 서버에서 Adobe Analytics 릴레이될 수 있습니다.
+Adobe Analytics 보고서 구성에 대한 정보가 Dynamic Media Classic 서버로 전송되도록 Dynamic Media Classic 뷰어를 게시합니다. 이 정보는 뷰어에 포함됩니다. 뷰어에 포함된 정보를 Dynamic Media Classic 서버에서 사용할 수 있도록 게시가 필요합니다. 사용자가 뷰어에서 활동을 수행한 후 정보가 서버에서 Adobe Analytics 릴레이될 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Analytics 내에서 Adobe Analytics 보고서 설정을 변경할 때마다 Dynamic Media Classic 내에서 Adobe Analytics으로 다시 로그온하고 Adobe Analytics 구성 설정을 다시 저장한 다음 다시 게시해야 합니다.
+>Adobe Analytics 내에서 Adobe Analytics 보고서 설정을 변경할 때마다 Dynamic Media Classic 내에서 Adobe Analytics에 다시 로그온하고 Adobe Analytics 구성 설정을 다시 저장한 다음 다시 게시해야 합니다.
 
 [Adobe Analytics에 로그인](log-analytics.md#log_in_to_adobe_analytics)을 참조하십시오.
 
