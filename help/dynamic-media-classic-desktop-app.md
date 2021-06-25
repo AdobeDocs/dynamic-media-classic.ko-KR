@@ -135,8 +135,7 @@ macOS에서 및 *silent* 최신 버전의 Adobe Dynamic Media Classic 데스크�
 
 1. 다음 명령을 사용하여 **[!UICONTROL Applications]**&#x200B;에 .APP 파일을 복사합니다.
 
-   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
-Unmount DMG - hdiutil detach <mount_point_path>`
+   `rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/ Unmount DMG - hdiutil detach <mount_point_path>`
 
 1. 애플리케이션을 열면 새 Adobe Dynamic Media Classic 로그인 페이지가 표시됩니다.
 
