@@ -7,11 +7,11 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic,뷰어,혼합 미디어 세트
-role: Business Practitioner
+role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
-source-git-commit: 7456226cf6469f40e66ff327475d4c605b6d6e13
+source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '626'
 ht-degree: 88%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 88%
 
    >[!NOTE]
    >
-   >혼합 미디어 세트는 다음 문자가 포함된 파일 이름이 있는 자산을 지원하지 않습니다.`( ) { }`
+   >혼합 미디어 집합은 다음 문자가 포함된 파일 이름이 있는 자산을 지원하지 않습니다.`( ) { }`
 
 1. 다음 중 하나를 수행합니다.
 
