@@ -8,12 +8,12 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,뷰어,혼합 미디어 세트
-role: Business Practitioner
+role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
-source-git-commit: 38d09bb78834c6b3614bf2b96fd6aee5661e0a5a
+source-git-commit: f99832bc9660a16b06e63b19f9ead1267dab0f35
 workflow-type: tm+mt
-source-wordcount: '645'
-ht-degree: 97%
+source-wordcount: '648'
+ht-degree: 93%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 97%
 
 ## 웹 페이지에 혼합 미디어 집합 URL 추가 {#add-mixed-media-set-urls-to-your-web-page}
 
-[혼합 미디어 집합]을 배포하는 가장 일반적인 방법은 탐색 아이콘을 통해 웹 페이지에 링크를 배치하는 것입니다. 링크를 클릭하면 혼합 미디어 집합 뷰어에서 혼합 미디어 집합을 표시하는 동적 페이지(ASP 또는 JSP)가 시작됩니다.
+혼합 미디어 세트를 배포하는 가장 일반적인 방법은 웹 페이지에 링크를 배치하는 것입니다(탐색 아이콘을 통해). 링크를 클릭하면 혼합 미디어 집합 뷰어에서 혼합 미디어 집합을 표시하는 동적 페이지(ASP 또는 JSP)가 시작됩니다.
 
 ## 혼합 미디어 집합 뷰어의 임베드 코드 복사 {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
