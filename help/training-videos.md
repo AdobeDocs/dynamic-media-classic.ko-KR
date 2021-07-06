@@ -2,9 +2,9 @@
 title: Dynamic Media Classic 교육 비디오
 description: Dynamic Media Classic 시작하기, 다이내믹 이미징, 비디오, 미디어 포털, 템플릿, 이미지 작성 및 렌더링에 대한 교육 비디오입니다.
 feature: Dynamic Media Classic
-role: Administrator,Business Practitioner
+role: Admin,User
 exl-id: 21e67a41-16a2-4f41-8cfe-a5d7941c73a0
-source-git-commit: 217e5bf81cc2108e4bf283f585dfd83d319ff7c9
+source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
 workflow-type: tm+mt
 source-wordcount: '6547'
 ht-degree: 0%
