@@ -10,22 +10,22 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 83%
+source-wordcount: '627'
+ht-degree: 54%
 
 ---
 
 # 비디오에 장 마커 추가{#adding-chapter-markers-to-video}
 
-단일 비디오나 적응형 비디오 집합에 장 마커를 추가하여 장편 비디오를 더 쉽게 보거나 탐색할 수 있습니다. 사용자는 비디오를 재생할 때, 비디오 타임라인(비디오 스크러버라고도 함)에 있는 장 마커를 클릭하여 쉽게 관심 영역으로 이동하거나 즉시 새 컨텐츠, 데모, 자습서 등으로 이동할 수 있습니다.
+단일 비디오나 적응형 비디오 집합에 장 마커를 추가하여 장편 비디오를 더 쉽게 보거나 탐색할 수 있습니다. 사용자가 비디오를 재생하면 비디오 타임라인에서 장 마커(비디오 스크러버라고도 함)를 클릭할 수 있습니다. 이렇게 하면 관심 영역으로 손쉽게 이동하거나 새로운 컨텐츠, 데모, 자습서 등으로 바로 이동할 수 있습니다.
 
 >[!NOTE]
 >
 >사용하는 비디오 플레이어가 장 마커 사용을 지원해야 합니다.
 
-[ 뷰어(HTML5)에서 장 탐색 큐 포인트 및 장 제목 팝업 텍스트를 구성하려면 ](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)비디오 뷰어 사전 설정 추가 또는 편집`Universal_HTML5_Video`을 참조하십시오.
+`Universal_HTML5_Video` 뷰어에 대한 장 탐색 큐 포인트와 장 제목 팝업 텍스트를 구성하려면 [비디오 뷰어 사전 설정 추가 또는 편집](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) 을 참조하십시오(HTML5).
 
 [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets)을 참조하십시오.
 
@@ -49,21 +49,21 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-위의 예에서 `Chapter 1`은 큐 식별자이며, 선택 사항입니다. `00:00:000 --> 01:04:364`의 큐 시간은 장의 시작 시간과 종료 시간을 00:00:000 형식으로 지정합니다. 마지막 세 개의 숫자는 밀리초이며, 원하는 경우 000으로 둘 수 있습니다. `The bicycle store behind it all`의 장 제목은 장 내용에 대한 실제 설명입니다. 큐 식별자, 큐 시작 시간, 장 제목은 모두 사용자가 마우스 포인터를 비디오의 타임라인에 있는 시각적 큐 포인트 위로 가져가면 비디오 플레이어의 팝업에 나타납니다.
+위의 예에서 `Chapter 1`은 큐 식별자이며, 선택 사항입니다. `00:00:000 --> 01:04:364`의 큐 시간은 장의 시작 시간과 종료 시간을 00:00:000 형식으로 지정합니다. 마지막 세 개의 숫자는 밀리초이며, 원하는 경우 000으로 둘 수 있습니다. `The bicycle store behind it all`의 장 제목은 장 내용에 대한 실제 설명입니다. 큐 식별자, 시작 큐 시간 및 장 제목이 비디오 타임라인의 시각적 큐 포인트 위에 마우스 포인터를 두면 비디오 플레이어의 팝업에 모두 나타납니다.
 
-HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 장 파일 이름 확장자는 .vtt입니다. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.
+HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 장 파일 이름 확장명은 .VTT입니다. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.
 
-[WebVTT 를 참조하십시오.웹 비디오 텍스트 트랙 형식](https://dev.w3.org/html5/webvtt/).
+[WebVTT 를 참조하십시오.웹 비디오 텍스트가 ](https://w3c.github.io/webvtt/) 형식을 추적합니다.
 
-**비디오에 장 마커 추가**
+**비디오에 장 마커 추가:**
 
 1. Dynamic Media Classic 외부의 간단한 텍스트 편집기를 사용하여 비디오 장 파일을 만듭니다.
 
    >[!NOTE]
    >
-   >영어 이외의 언어에서 비디오 장의 전역 지원을 받으려면, WebVTT 표준에 따라 지원할 각 언어에 대해 별도의 .vtt 파일과 호출을 만들어야 합니다.
+   >WebVTT 표준에서는 영어 이외의 언어로 비디오 장을 전역 지원하려면 지원할 각 언어에 대해 별도의 .vtt 파일과 호출을 만들어야 합니다.
 
-1. .vtt 파일을 UTF8 인코딩으로 저장하여 장 제목 텍스트의 문자 표현물과 관련한 문제를 방지합니다.
+1. VTT 파일을 UTF8 인코딩으로 저장하면 장 제목 텍스트에서 문자 변환과 관련된 문제가 발생하지 않습니다.
 
    일반적으로 장 VTT 파일의 이름은 비디오 파일과 동일하게 지정하고 여기에 `chapters`를 추가합니다. 그렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다.
 
@@ -77,7 +77,7 @@ HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 
 
    * 팝업 비디오 뷰어 환경의 경우 이름의 오른쪽 끝에 있는 **[!UICONTROL [URL 복사]]**&#x200B;를 클릭합니다.
 
-      복사한 비디오 URL을 다음 구문에 추가하여 복사한 캡션 파일 URL과 연결합니다.
+      비디오의 복사한 URL을 다음 구문과 함께 추가하므로 복사한 URL과 캡션 파일에 연결할 수 있습니다.
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
