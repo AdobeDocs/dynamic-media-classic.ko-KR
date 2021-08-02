@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: 7663cca62046a334c4ab9852df3a9ae64f4ca2ef
+source-git-commit: 6da0de3f4d50d75020e0c66119d56e24cc27fae7
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Dynamic Media Classic은 풍부한 미디어 전략을 향상시키도록 디자
 * [Adobe 블로그 게시물](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
 * [Dynamic Media 뉴스레터 아카이브](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 
-또한 [Dynamic Media 뉴스레터](https://www.adobe.com/subscription/dynamic-media-newsletter.html)에 가입하면 최신 뉴스, 정보, 교육 기회, [스마트 이미징](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic) 및 보완 감사 프로그램과 같은 강력한 기능을 이용할 수 있습니다.
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
 
 ### **_AEM Assets을 사용하여 Dynamic Media으로 업그레이드하는 방법에 대해 자세히 알고 싶습니다. 자세한 정보는 어디에서 찾을 수 있습니까?_**
 
