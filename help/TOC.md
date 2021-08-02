@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
-source-git-commit: 1beb30b9eda4487dcd549034906079dee0b3149a
+source-git-commit: 6da0de3f4d50d75020e0c66119d56e24cc27fae7
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '749'
 ht-degree: 77%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 77%
 + [Adobe Dynamic Media Classic 안내서](home.md)
 + [우수 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [이제 새로운 Dynamic Media Classic 로그인 환경을 사용할 수 있습니다](new-ui-2020.md)
-+ [Experience League 별 Dynamic Media 뉴스레터](dynamic-media-newsletter.md)
++ [Experience League별 Dynamic Media 뉴스레터 아카이브](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic {#intro} 소개
    + [Adobe Dynamic Media Classic 데스크탑 앱 - 지금 사용 가능](dynamic-media-classic-desktop-app.md)
    + [Dynamic Media Classic 도움말 정보](introduction.md)
@@ -46,7 +46,7 @@ ht-degree: 77%
    + [관리 설정](administration-setup.md)
 + Media Portal {#media-portal}
    + [시스템 요구 사항](system-requirements-1.md)
-   + [빠른 시작:Media Portal](quick-start-media-portal-administration.md)
+   + [빠른 시작: Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal 사용자 역할](media-portal-user-roles.md)
    + [Media Portal 그룹 만들기 및 관리](creating-media-portal-groups.md)
    + [Media Portal 사용자 추가 및 관리](adding-media-portal-users.md)
@@ -91,7 +91,7 @@ ht-degree: 77%
    + [확대/축소 이미지 게시](publishing-zoom-images.md)
    + [확대/축소 뷰어를 웹 페이지에 연결](linking-zoom-viewers-web-pages.md)
 + eCatalog {#ecatalogs}
-   + [빠른 시작:eCatalog](quick-start-ecatalog.md)
+   + [빠른 시작: eCatalog](quick-start-ecatalog.md)
    + [PDF 파일 업로드](uploading-pdf-files.md)
    + [eCatalog 만들기](creating-ecatalog.md)
    + [eCatalog 이미지 맵 만들기](creating-ecatalog-image-maps.md)
@@ -147,7 +147,7 @@ ht-degree: 77%
    + [혼합 미디어 집합 게시](publishing-mixed-media-set.md)
    + [혼합 미디어 집합을 웹 페이지에 연결](linking-mixed-media-set-web.md)
 + Adobe Analytics 계측 키트 {#analytics-kit}
-   + [빠른 시작:Dynamic Media Classic과 Adobe Analytics 통합](quick-start-integrating-dmc-analytics.md)
+   + [빠른 시작: Dynamic Media Classic과 Adobe Analytics 통합](quick-start-integrating-dmc-analytics.md)
    + [Adobe Analytics에 로그인](log-analytics.md)
    + [Adobe Analytics 보고서 구성](configuring-analytics-reports.md)
    + [Adobe Analytics 계측 키트를 사용하여 뷰어 계측](instrumenting-viewer-using-analytics-instrumentation.md)
@@ -156,7 +156,7 @@ ht-degree: 77%
    + [Adobe Analytics 비디오 보고서 활성화](enabling-analytics-video-reports.md)
    + [Adobe Analytics 구성 정보 게시](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premium 통합 {#target-classic}
-   + [빠른 시작:Adobe Target Standard/Premium 통합](quick-start-target-integration.md)
+   + [빠른 시작: Adobe Target Standard/Premium 통합](quick-start-target-integration.md)
    + [Dynamic Media Classic과 Adobe Target Standard/Premium 통합](integrating-dmc-with-target.md)
    + [오퍼 집합 만들기](creating-offer-set.md)
    + [Adobe Target Standard/Premium으로 오퍼 세트 푸싱](pushing-offer-sets-target.md)
