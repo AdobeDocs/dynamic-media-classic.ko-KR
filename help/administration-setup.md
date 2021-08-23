@@ -9,10 +9,10 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 41%
+source-wordcount: '1948'
+ht-degree: 37%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 41%
 
 관리 설정 화면은 Dynamic Media Classic 사용자를 관리하는 것입니다. 이러한 화면을 사용하여 사용자가 Dynamic Media Classic에서 작업하고 사용자와 이메일로 통신할 수 있습니다.
 
-1. 관리 설정 옵션에 액세스하려면 **설정** > **개인 설정** > **관리 설정**&#x200B;을 클릭합니다.
+1. 관리 설정 옵션에 액세스하려면 **설정** > **개인 설정** > **관리 설정**&#x200B;으로 이동하십시오.
 
 ## 사용자 관리 {#user-administration}
 
@@ -34,7 +34,7 @@ Dynamic Media Classic은 여러 사용자 역할을 지원합니다. 이러한 �
 
 <!-- **Adobe Dynamic Media Classic Administrator** Can view and administer all features in Dynamic Media Classic, as well as set up companies and add administrators and users. -->
 
-**Adobe Dynamic Media Classic** 사용자할당된 회사에 액세스할 수 있습니다.관리 업무를 수행할 수 없습니다.
+**Adobe Dynamic Media Classic** 사용자할당된 회사에 액세스할 수 있습니다. 관리 업무를 수행할 수 없습니다.
 
 **Adobe Dynamic Media Classic 회사** 관리자자신의 회사만 보고 관리할 수 있습니다. 회사 관리자는 관리자 및 사용자 추가를 비롯한 모든 관리 기능을 수행할 수도 있습니다. 회사 관리자는 DMC 회사 관리자 계정에 사용자를 추가할 수 있습니다. 이 역할이 기본 사용자 역할입니다.
 
@@ -42,9 +42,9 @@ Dynamic Media Classic은 여러 사용자 역할을 지원합니다. 이러한 �
 
 ### 사용자 또는 관리자 추가 {#adding-a-user-or-administrator}
 
-1. **[!UICONTROL [설정]]** > **[!UICONTROL [애플리케이션 설정]]** > **[!UICONTROL [관리 설정]]** > **[!UICONTROL [사용자 관리]]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL [추가]]**&#x200B;를 클릭합니다.
-1. 추가할 사용자 또는 관리자의 이름과 전자 메일 주소를 입력한 다음 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 관리 설정]** > **[!UICONTROL 사용자 관리]**&#x200B;로 이동합니다.
+1. **[!UICONTROL 추가]**&#x200B;를 선택합니다.
+1. 추가할 사용자 또는 관리자의 이름과 전자 메일 주소를 입력한 다음 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
    >[!NOTE]
    >
@@ -55,45 +55,45 @@ Dynamic Media Classic은 여러 사용자 역할을 지원합니다. 이러한 �
    [Dynamic Media Classic 사용자 역할 및 권한](administration-setup.md#user_administration)을 참조하십시오.
 
 1. 사용자를 회사에 추가하려면 회사 이름을 선택합니다.
-1. 사용자를 그룹에 추가하려면(Media Portal 사용자 또는 기여자를 추가하는 경우) **[!UICONTROL 다음]**&#x200B;을 클릭하고 사용자를 추가합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭하여 사용자 설정을 완료합니다.
+1. 사용자를 그룹에 추가하려면(Media Portal 사용자 또는 기여자를 추가하는 경우) **[!UICONTROL 다음]**&#x200B;을 선택하고 사용자를 추가합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 선택하여 사용자 설정을 완료합니다.
 
-   저장하면 사용자를 다른 회사에 추가할 것인지 묻는 메시지가 나타납니다. 사용자를 회사에 추가하려면 **[!UICONTROL 추가]**&#x200B;를 클릭하십시오.
+   저장하면 사용자를 다른 회사에 추가할 것인지 묻는 메시지가 나타납니다. 사용자를 회사에 추가하려면 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 
-   새 사용자에게 무작위로 생성된 암호가 주어집니다.사용자는 Dynamic Media Classic 데스크탑 애플리케이션에 처음 로그인할 때 암호를 변경해야 합니다.
+   새 사용자에게 무작위로 생성된 암호가 주어집니다. 사용자는 Dynamic Media Classic 데스크탑 애플리케이션에 처음 로그인할 때 암호를 변경해야 합니다.
 
    새 사용자를 추가하면 환영 이메일이 전송됩니다. 이 이메일은 임시 암호를 제공하고 Dynamic Media Classic에 로그인하는 방법을 설명합니다.
 
-   사용자가 환영 이메일을 받지 못할 경우 Dynamic Media Classic 로그인 페이지(https://s7sps1.scene7.com)으로 이동한 후 내 암호 분실을 클릭합니다. 암호가 재설정되고 새 이메일이 전송됩니다. 사용자가 이메일을 받지 못하고 스팸 폴더에도 없는 경우 기술 지원에 문의하십시오.
+   사용자가 환영 이메일을 받지 못할 경우 Dynamic Media Classic 로그인 페이지(https://s7sps1.scene7.com)으로 이동한 다음 **[!UICONTROL 내 암호 분실]**&#x200B;을 선택합니다. 암호가 재설정되고 새 이메일이 전송됩니다. 사용자가 이메일을 받지 못하고 스팸 폴더에도 없는 경우 기술 지원에 문의하십시오.
 
-   새 Media Portal 사용자를 추가할 때 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 사용자 관리]**&#x200B;로 이동한 다음 **[!UICONTROL 사용자 목록 업로드]**&#x200B;를 클릭하고 500명 이하의 사용자를 포함하는 .csv 파일을 선택할 수도 있습니다.
+   새 Media Portal 사용자를 추가할 때 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 사용자 관리]**&#x200B;로 이동한 다음 **[!UICONTROL 사용자 목록 업로드]**&#x200B;를 선택하고 500명 이하의 사용자를 포함하는 .csv 파일을 선택할 수도 있습니다.
 
 ### 사용자 삭제 {#deleting-a-user}
 
 Dynamic Media Classic에서 사용자를 유효하지 않게 만들어 삭제할 수 있습니다. 무효 사용자는 시스템과 모든 계정에서 제거됩니다.
 
-1. **[!UICONTROL [설정]]** > **[!UICONTROL [애플리케이션 설정]]** > **[!UICONTROL [관리 설정]]** > **[!UICONTROL [사용자 관리]]**&#x200B;를 클릭합니다.
-1. 목록에서 사용자를 선택하고 **[!UICONTROL [편집]]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 관리 설정]** > **[!UICONTROL 사용자 관리]**&#x200B;로 이동합니다.
+1. 목록에서 사용자를 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 1. [유효]를 선택 취소합니다.
-1. **[!UICONTROL [저장]]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 ### 사용자 활성화 또는 비활성화 {#activating-or-deactivating-users}
 
 비활성화된 사용자는 [액세스할 계정 선택] 메뉴 상단에 나열된 계정을 시작할 수 있는 권한이 더 이상 없습니다.
 
-1. **[!UICONTROL [설정]]** > **[!UICONTROL [애플리케이션 설정]]** > **[!UICONTROL [관리 설정]]** > **[!UICONTROL [사용자 관리]]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 관리 설정]** > **[!UICONTROL 사용자 관리]**&#x200B;로 이동합니다.
 1. 사용자 목록에서 사용자 이름 옆에 있는 **[!UICONTROL 활성]** 옵션을 선택하거나 선택 취소합니다.
 
 ### 사용자 정보 편집 {#editing-user-information}
 
 편집할 수 있는 사용자 정보는 관리자로서의 역할 및 정보를 편집하려는 사용자에게 지정된 역할에 따라 다릅니다. 희미한 선택 사항(사용할 수 없음)은 편집할 수 없습니다.
 
-1. **[!UICONTROL [설정]]** > **[!UICONTROL [애플리케이션 설정]]** > **[!UICONTROL [관리 설정]]** > **[!UICONTROL [사용자 관리]]**&#x200B;를 클릭합니다.
-1. 사용자를 선택하고 **[!UICONTROL [편집]]**&#x200B;을 클릭합니다.
-1. 사용 권한 또는 액세스를 수정할 회사를 보여 주는 테이블에서 항목을 선택한 다음 **[!UICONTROL 회사 관리]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 관리 설정]** > **[!UICONTROL 사용자 관리]**&#x200B;로 이동합니다.
+1. 목록에서 사용자를 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+1. 사용 권한 또는 액세스를 수정할 회사를 보여 주는 테이블에서 항목을 선택한 다음 **[!UICONTROL 회사 관리]**&#x200B;를 선택합니다.
 1. 사용자 역할을 선택합니다.
-1. 사용자 그룹 구성원을 변경하려면(Media Portal 사용자 또는 기여자를 편집하거나 추가하는 경우) **[!UICONTROL 다음]**&#x200B;을 클릭하고 그룹 구성원을 편집합니다.
-1. **[!UICONTROL [저장]]**&#x200B;을 클릭합니다.
+1. 사용자 그룹 구성원을 변경하려면(Media Portal 사용자 또는 기여자를 편집하거나 추가하는 경우) **[!UICONTROL 다음]**&#x200B;을 선택하고 그룹 구성원을 편집합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 ### 사용자 목록 필터링 및 정렬 {#filtering-and-sorting-the-user-list}
 
@@ -109,7 +109,7 @@ Dynamic Media Classic에서 사용자를 유효하지 않게 만들어 삭제할
 
 * **잘못된 사용자 필터링**  - [잘못된  **[!UICONTROL 포함]을 선택 취소합니다]**. 시스템에 있는 사용자만 검색 결과에 표시됩니다. 무효 사용자는 시스템과 관리하는 계정에서 삭제되었습니다.
 
-* **열 머리글별 정렬**  - 모든 사용자를 상태, 알파벳순 이름, 성 또는 이메일, 사용자 역할별 또는 유효/무효 상태별로 정렬하려면 제목을 클릭합니다.
+* **열 머리글별 정렬**  - 상태, 알파벳순 이름, 성 또는 이메일, 사용자 역할별 또는 유효/무효 상태별로 모든 사용자를 정렬하려면 제목을 선택합니다.
 
 많은 사용자가 있는 경우 [최대 목록 크기] 메뉴를 선택한 다음 숫자를 선택하여 목록의 크기를 제한할 수 있습니다.
 
@@ -122,18 +122,18 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
    When the setup is complete, you can can log on to Adobe Marketing Cloud and link your Adobe Marketing Cloud identity to your Dynamic Media Classic user account by doing the following.
 
 1. In Adobe Marketing Cloud, navigate to your account settings.
-1. Click **Manage Organizations**.
-1. Click **Link Account** or **Get Access**.
+1. Select **Manage Organizations**.
+1. Select **Link Account** or **Get Access**.
 1. Select **Experience Manager**, and then type your credentials.
 
    Your credentials include your IPS company region, email address, and password.
 
-1. Click **Link**.
+1. Select **Link**.
 1. When the link is set, you can launch Scene7 Publishing System from within Adobe Marketing Cloud, or you can launch it directly.
 
    Do one of the following:
 
-    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, click **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, click **Launch**.
+    * To launch Dynamic Media Classic from within Adobe Marketing Cloud, in the left rail of Adobe Marketing Cloud, select **Solutions** > **Experience Manager**. Under the Dynamic Media Classic card, select **Launch**.
     * To log on to Scene7 Publishing System directly using your IMS credentials, use the following website:
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
@@ -141,11 +141,11 @@ You can link an Adobe IMS user identity to a Dynamic Media Classic IPS user acco
       Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
-## 대역폭 및 저장소 {#bandwidth-storage}
+## 대역폭 및 스토리지 {#bandwidth-storage}
 
 Dynamic Media Classic 관리자는 관리하는 회사의 대역폭, 스토리지 및 기타 유형의 보고서를 생성할 수 있습니다. 이러한 보고서는 대역폭 및 저장소 페이지에서 사용할 수 있습니다.
 
-이 페이지를 열려면 **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**&#x200B;을 클릭하십시오. **[!UICONTROL 관리 설정]**&#x200B;을 확장한 다음 **[!UICONTROL 대역폭 및 저장소]**&#x200B;를 클릭합니다.
+이 페이지를 열려면 **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**&#x200B;으로 이동하십시오. **[!UICONTROL 관리 설정]**&#x200B;을 확장한 다음 **[!UICONTROL 대역폭 및 저장소]**&#x200B;를 선택합니다.
 
 ### 보고서 유형 {#types-of-reports}
 
@@ -182,27 +182,27 @@ Dynamic Media Classic 관리자는 관리하는 회사의 대역폭, 스토리�
 
 대역폭, 저장소, 이미지 내용, 도메인, 비디오 스트리밍 또는 비디오 컨텐츠 보고서를 생성하려면 다음 단계를 수행합니다.
 
-1. **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**&#x200B;을 선택합니다.
-1. 관리 설정을 확장한 다음 **[!UICONTROL 대역폭 및 저장소]**&#x200B;를 클릭합니다.
-1. 탭을 클릭합니다.**[!UICONTROL 대역폭]**, **[!UICONTROL 저장소]**, **[!UICONTROL 이미지 컨텐츠]**, **[!UICONTROL 도메인]**, **[!UICONTROL 비디오 스트리밍]** 또는 **[!UICONTROL 비디오 컨텐츠]**.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**&#x200B;으로 이동합니다.
+1. 관리 설정을 확장한 다음 **[!UICONTROL 대역폭 및 저장소]**&#x200B;를 선택합니다.
+1. 탭을 선택합니다. **[!UICONTROL 대역폭]**, **[!UICONTROL 저장소]**, **[!UICONTROL 이미지 컨텐츠]**, **[!UICONTROL 도메인]**, **[!UICONTROL 비디오 스트리밍]** 또는 **[!UICONTROL 비디오 컨텐츠]**.
 
    [보고서 유형](administration-setup.md#types_of_reports)을 참조하십시오.
 
-### 여러 가지 방법으로 데이터 보기 {#viewing-data-in-different-ways}
+### 다양한 방법으로 데이터 보기 {#viewing-data-in-different-ways}
 
 [대역폭 및 저장소] 페이지에서 보고서를 생성한 후 정보 보기 선택 사항을 선택할 수 있습니다. 정보를 제공하는 방법(차트 또는 데이터 그리드에서 정보 보기)을 선택하고 정보 캡처 기간을 지정할 수 있습니다. [데이터 보기]에서 정보를 정렬하고 열을 다시 정렬할 수도 있습니다.
 
-* **차트나 데이터 그리드에서 데이터 보기**  - 차트  **[!UICONTROL 보기]** 를 클릭하여 차트에서 데이터를 봅니다.데이터  **[!UICONTROL 보기]** 를 클릭하여 데이터 그리드에서 데이터를 봅니다.
+* **차트나 데이터 그리드에서 데이터 보기**  - 차트  **[!UICONTROL 보기]** 를 선택하여 차트에서 데이터를 봅니다. 데이터  **[!UICONTROL 보기]** 를 선택하여 데이터 그리드에서 데이터를 봅니다.
 
-* **보고서 표시 유형 선택**  - 보고서 유형 메뉴에서  **[!UICONTROL 요약]**,  **[!UICONTROL 일별]** 또는  **** 월을 클릭하여 요약 양식, 일별 또는 월별로 데이터를 구성합니다. 모든 보고서에서 이 선택 사항을 제공하는 것은 아닙니다.
+* **보고서 표시 유형 선택**  - 보고서 유형 메뉴에서  **[!UICONTROL 요약]**,  **[!UICONTROL 일별]** 또는 월 **** 을 선택하여 요약 양식, 일별 또는 월별로 데이터를 구성합니다. 모든 보고서에서 이 선택 사항을 제공하는 것은 아닙니다.
 
-* **기간 지정**  - 보고서 기간을 정의하는 옵션을 선택한 다음 기간을 정의한  **** 후 업데이트를 클릭합니다.
+* **기간 지정**  - 보고서 기간을 정의하는 옵션을 선택한 다음 기간을 정의한  **** 후 업데이트를 선택합니다.
 
 * **사전 정의된 기간**  - 사전 정의된 보고서 메뉴에서 옵션을 선택합니다. 예를 들어 전달의 데이터를 캡처하려면 [지난 달]을 선택합니다.
 
-* **사용자 지정 기간**  - 사전 정의된 보고서 메뉴에서 사용자 지정 **[!UICONTROL 을 클릭합니다]**. 그런 다음 **[!UICONTROL 월 시작]**(또는 **[!UICONTROL 시작 날짜]**) 메뉴에서 날짜와 월 수(또는 월 수 또는 일) 메뉴에서 날짜를 선택합니다. 도메인 및 비디오 컨텐츠 보고서의 경우 보고서 정보를 캡처할 특정 시작 날짜와 종료 날짜를 선택할 수 있습니다.
+* **사용자 지정 기간**  - 사전 정의된 보고서 메뉴에서 사용자 지정 **[!UICONTROL 을 선택합니다]**. 그런 다음 **[!UICONTROL 월 시작]**(또는 **[!UICONTROL 시작 날짜]**) 메뉴에서 날짜와 월 수(또는 월 수 또는 일) 메뉴에서 날짜를 선택합니다. 도메인 및 비디오 컨텐츠 보고서의 경우 보고서 정보를 캡처할 특정 시작 날짜와 종료 날짜를 선택할 수 있습니다.
 
-* **데이터 정렬(데이터 보기만)**  - 열에 대한 정보를 정렬하려면 열 제목을 클릭합니다. 범주 제목을 다시 클릭하면 내림차순으로 정렬됩니다.
+* **데이터 정렬(데이터 보기만)**  - 열에 대한 정보를 정렬하려면 열 머리글을 선택합니다. 내림차순으로 정렬하려면 다시 선택합니다.
 
 * **열 다시 정렬(데이터 보기만)**  - 열을 데이터 그리드의 다른 위치로 이동하려면 해당 제목을 드래그합니다.
 
@@ -210,23 +210,23 @@ Dynamic Media Classic 관리자는 관리하는 회사의 대역폭, 스토리�
 
 보고서를 생성한 후 스프레드시트 및 기타 애플리케이션에서 사용하기 위해 해당 데이터를 내보낼 수 있습니다. 보고서를 인쇄할 수도 있습니다.
 
-* **보고서 데이터 내보내기**  - 데이터 보기에서 필요에 따라 데이터를 정렬 및 정렬합니다. 그런 다음 **[!UICONTROL 내보내기]** 메뉴를 열고 형식을 선택합니다.**[!UICONTROL 탭으로 구분된]**, **[!UICONTROL 쉼표로 구분된]** 또는 **[!UICONTROL HTML 형식]**&#x200B;입니다. 데이터가 선택한 형식으로 클립보드에 복사됩니다. 이제 스프레드시트나 기타 애플리케이션에 데이터를 붙여 넣을 수 있습니다.
+* **보고서 데이터 내보내기**  - 데이터 보기에서 필요에 따라 데이터를 정렬 및 정렬합니다. 그런 다음 **[!UICONTROL 내보내기]** 메뉴를 열고 형식을 선택합니다. **[!UICONTROL 탭으로 구분된]**, **[!UICONTROL 쉼표로 구분된]** 또는 **[!UICONTROL HTML 형식]**&#x200B;입니다. 데이터가 선택한 형식으로 클립보드에 복사됩니다. 이제 스프레드시트나 기타 애플리케이션에 데이터를 붙여 넣을 수 있습니다.
 
-* **보고서 인쇄**  -  **[!UICONTROL 인쇄]**&#x200B;를 클릭하고 인쇄 대화 상자에서 원하는 옵션을 선택한 다음  **[!UICONTROL 확인]**&#x200B;을 클릭합니다.
+* **보고서 인쇄**  -  **[!UICONTROL 인쇄]**&#x200B;를 선택하고 인쇄 대화 상자에서 원하는 옵션을 선택한 다음  **[!UICONTROL 확인]**&#x200B;을 선택합니다.
 
 ## 이미지 오류 {#image-errors}
 
 Dynamic Media Classic 관리자는 이미지 오류 보고서를 생성할 수 있습니다. 이미지 오류 보고서는 지난 24시간 동안 현재 로그인한 회사에서 가장 많이 발생한 이미지 오류 20개 목록을 제공합니다. 이미지 오류 보고서를 생성하려면 다음을 수행합니다.
 
-1. **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**&#x200B;을 클릭합니다.
-1. 관리 설정을 확장한 다음 **[!UICONTROL 이미지 오류]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**&#x200B;으로 이동합니다.
+1. 관리 설정을 확장한 다음 **[!UICONTROL 이미지 오류]**&#x200B;를 선택합니다.
 1. 다음 중 하나를 수행합니다(선택 사항).
 
-   * 제목 정보별로 오류를 정렬하려면 제목을 클릭합니다. 기본적으로 오류는 발생 횟수를 기준으로 가장 많이 발생한 오류에서 가장 적게 발생한 오류 순으로 정렬되어 있습니다.
+   * 제목 정보별로 오류를 정렬하려면 제목을 선택합니다. 기본적으로 오류는 발생 횟수를 기준으로 가장 많이 발생한 오류에서 가장 적게 발생한 오류 순으로 정렬되어 있습니다.
    * 오류에 대한 [응답] 필드 위로 커서를 이동하여 특정 오류 메시지를 표시합니다.
    * 이미지 또는 레퍼러 웹 페이지에 대한 링크를 보려면 커서를 URL 필드 또는 레퍼러 필드 위로 이동합니다.
-   * 링크를 실제 이미지에 복사하려면 **[!UICONTROL URL 복사 URL]**&#x200B;을 클릭합니다. 브라우저 창에 이 링크를 붙여 넣어 이미지로 이동하고 오류를 조사할 수 있습니다.
-   * 링크를 레퍼러 웹 페이지에 복사하려면 **[!UICONTROL 레퍼러 복사 URL]**&#x200B;을 클릭하십시오.
+   * 링크를 실제 이미지에 복사하려면 **[!UICONTROL URL 복사 URL]**&#x200B;을 선택합니다. 브라우저 창에 이 링크를 붙여 넣어 이미지로 이동하고 오류를 조사할 수 있습니다.
+   * 링크를 레퍼러 웹 페이지에 복사하려면 **[!UICONTROL 레퍼러 복사 URL]**&#x200B;을 선택합니다.
 
 표시되는 오류는 현재 로그인한 회사에 대한 오류입니다. 각 오류에는 다음 정보가 포함됩니다.
 
