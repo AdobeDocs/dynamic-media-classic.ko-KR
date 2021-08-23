@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,자산 관리
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 55%
@@ -47,7 +47,7 @@ Dynamic Media Classic에는 이미지 조정 및 최적화 및 렌더링 결과�
 
 이미지 선명하게 하기는 웹 사이트에서 이미지를 제어하는 가장 복잡한 작업으로, 많은 실수가 발생합니다. 다음 유용한 리소스를 참조하여 Dynamic Media Classic에서 선명하게 하고 언샵 마스킹이 작동하는 방식에 대해 자세히 알아보십시오.
 
-우수 사례 백서 [Adobe Dynamic Media Classic 및 Image Server](/help/assets/s7_sharpening_images.pdf)에서 이미지 선명하게 하기
+우수 사례 백서 [Adobe Dynamic Media Classic 및 Image Server](/help/assets/s7_sharpening_images.pdf)에서 이미지를 선명하게 합니다.
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -69,9 +69,9 @@ Dynamic Media Classic을 사용하면 섭취, 게재 시 또는 둘 다에 따�
 
          이 매개 변수는, 가장자리 픽셀로 간주되고 필터가 선명하게 하기 전에, 선명하게 되는 픽셀과 주변 영역 간의 필수 차이를 결정합니다. 임계값은 피부 톤과 같이 유사한 색상 영역을 지나치게 선명하게 하는 것을 방지하는 데 유용합니다. 예를 들어 임계값 12는 &quot;노이즈&quot;를 추가하지 않도록 피부 톤 밝기에서 약간의 변형을 무시하는 반면, 속눈썹이 피부와 접촉하는 지점과 같은 고대비 영역에는 여전히 가장자리 대비를 추가합니다.
 
-         필터에 사용하는 우수 사례를 포함하여 이러한 세 매개 변수를 설정하는 방법에 대한 자세한 내용은 Adobe Scene7 Publishing System 및 이미지 서버에서 [이미지 선명하게 하기](/help/assets/s7_sharpening_images.pdf)를 참조하십시오.
+         필터에 사용하는 우수 사례를 포함하여 이러한 세 매개 변수를 설정하는 방법에 대한 자세한 내용은 Adobe Dynamic Media Classic 및 이미지 서버에서 [이미지 선명하게 하기](/help/assets/s7_sharpening_images.pdf)를 참조하십시오.
 
-      * Dynamic Media Classic에서도 네 번째 매개 변수를 제어할 수 있습니다.모노크롬( `0,1`). 이 매개 변수는 언샵 마스킹이 값 `0`을 따로따로 사용하여 각 색상 구성 요소에 적용될지, 아니면 값 `1`을 사용하여 이미지 밝기/강도에 적용될지를 결정합니다.
+      * Dynamic Media Classic에서도 네 번째 매개 변수를 제어할 수 있습니다. 모노크롬( `0,1`). 이 매개 변수는 언샵 마스킹이 값 `0`을 따로따로 사용하여 각 색상 구성 요소에 적용될지, 아니면 값 `1`을 사용하여 이미지 밝기/강도에 적용될지를 결정합니다.
 
 언샵 마스크 반경 매개 변수로 시작하는 것이 좋습니다. 시작할 수 있는 반경 설정은 다음과 같습니다.
 
