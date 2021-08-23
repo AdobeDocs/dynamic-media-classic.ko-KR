@@ -1,6 +1,6 @@
 ---
 title: 비디오에 장 마커 추가
-description: 비디오에 장 마커를 추가하는 방법을 알아봅니다.
+description: Dynamic Media Classic에서 비디오에 장 마커를 추가하는 방법을 알아봅니다.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 54%
+source-wordcount: '631'
+ht-degree: 40%
 
 ---
 
-# 비디오에 장 마커 추가{#adding-chapter-markers-to-video}
+# 비디오에 장 마커 추가 {#adding-chapter-markers-to-video}
 
-단일 비디오나 적응형 비디오 집합에 장 마커를 추가하여 장편 비디오를 더 쉽게 보거나 탐색할 수 있습니다. 사용자가 비디오를 재생하면 비디오 타임라인에서 장 마커(비디오 스크러버라고도 함)를 클릭할 수 있습니다. 이렇게 하면 관심 영역으로 손쉽게 이동하거나 새로운 컨텐츠, 데모, 자습서 등으로 바로 이동할 수 있습니다.
+단일 비디오나 적응형 비디오 집합에 장 마커를 추가하여 장편 비디오를 더 쉽게 보거나 탐색할 수 있습니다. 사용자가 비디오를 재생하면 비디오 타임라인에서 장 마커(비디오 스크러버라고도 함)를 선택할 수 있습니다. 이렇게 하면 관심 영역으로 손쉽게 이동하거나 새로운 컨텐츠, 데모, 자습서 등으로 바로 이동할 수 있습니다.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 54%
 
 `Universal_HTML5_Video` 뷰어에 대한 장 탐색 큐 포인트와 장 제목 팝업 텍스트를 구성하려면 [비디오 뷰어 사전 설정 추가 또는 편집](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset) 을 참조하십시오(HTML5).
 
-[뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets)을 참조하십시오.
+또한 [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets)을 참조하십시오.
 
 캡션을 만들 때와 마찬가지 방법으로 비디오에 대해 장 목록을 만듭니다. 즉, WebVTT 파일을 만듭니다. 그러나, 이 파일은 사용 중일 수 있는 모든 WebVTT 캡션 파일과는 구별되어야 합니다. 캡션과 장을 하나의 WebVTT 파일로 결합해서는 안 됩니다.
 
@@ -53,7 +53,7 @@ Cost-efficient access to rapidly evolving technology.
 
 HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 장 파일 이름 확장명은 .VTT입니다. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.
 
-[WebVTT 를 참조하십시오.웹 비디오 텍스트가 ](https://w3c.github.io/webvtt/) 형식을 추적합니다.
+[WebVTT 를 참조하십시오. 웹 비디오 텍스트가 ](https://w3c.github.io/webvtt/) 형식을 추적합니다.
 
 **비디오에 장 마커 추가:**
 
@@ -72,18 +72,18 @@ HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 
    [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오.
 
 1. 왼쪽의 [자산 라이브러리] 패널에서 업로드한 장 파일과 연결하려는 비디오 파일이 들어 있는 자산 폴더를 탐색합니다.
-1. [자산 찾아보기] 패널에서 단일 비디오 자산을 선택하고 자산의 썸네일 이미지 아래에서 **[!UICONTROL [미리 보기]]** > **[!UICONTROL [뷰어 목록]]**&#x200B;을 클릭합니다.
+1. 자산 찾아보기 패널에서 단일 비디오 자산을 선택한 다음 자산의 축소판 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**&#x200B;을 선택합니다.
 1. [뷰어 목록] 표에서 **Univeral_HTML5_Video**&#x200B;라는 HTML5 뷰어를 찾고 다음 중 하나를 수행합니다.
 
-   * 팝업 비디오 뷰어 환경의 경우 이름의 오른쪽 끝에 있는 **[!UICONTROL [URL 복사]]**&#x200B;를 클릭합니다.
+   * 팝업 비디오 뷰어 환경의 경우 이름의 맨 오른쪽에 있는 **[!UICONTROL URL 복사]**&#x200B;를 선택합니다.
 
       비디오의 복사한 URL을 다음 구문과 함께 추가하므로 복사한 URL과 캡션 파일에 연결할 수 있습니다.
 
       `&navigation=*<full Copy URL path to the chapter navigation file .vtt>*`
 
-   * 임베드된 비디오 뷰어 환경의 경우 이름의 오른쪽 끝에 있는 **[!UICONTROL [임베드 코드]]**&#x200B;를 클릭합니다.
+   * 포함된 비디오 뷰어 환경의 경우 이름의 맨 오른쪽에 있는 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다.
 
-      [임베드 코드] 대화 상자에서 **[!UICONTROL [클립보드에 복사]]**&#x200B;를 클릭합니다.
+      포함 코드 대화 상자에서 **[!UICONTROL 클립보드에 복사]**&#x200B;를 선택합니다.
 
       HTML5 `Universal_HTML5_Video` 뷰어의 경우 복사된 포함 코드를 다음과 같이 추가합니다.
 
