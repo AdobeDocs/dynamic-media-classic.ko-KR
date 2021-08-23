@@ -5,7 +5,7 @@ title: Dynamic Media 뉴스레터 아카이브
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ca42d0167f72adc1b22f1e6e65b7026b6f6897a3
+source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 0%
@@ -21,6 +21,8 @@ ht-degree: 0%
 Dynamic Media Newsletter by Experience League은 Dynamic Media 및 Dynamic Media Classic을 빠르게 활용하여 즉시 가치를 실현할 수 있도록 고안되었습니다.
 
 이 원스톱 숍 보관된 뉴스레터에서 방법 비디오 및 솔루션 개요 등 중요한 지식 작성 리소스를 찾을 수 있습니다. 이미지 사전 설정, 뷰어 사전 설정 및 비디오 프로필과 같은 주요 기능과 성능에 대한 소개가 있습니다.
+
+<!-- microsite demo page https://experienceleague.adobe.com/tools/dynamic-media-demo/index.html -->
 
 <!-- ## Get inspired. Stay informed.
 
