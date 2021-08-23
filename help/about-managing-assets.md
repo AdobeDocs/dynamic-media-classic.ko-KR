@@ -1,5 +1,5 @@
 ---
-title: 자산 관리 기본 정보
+title: Dynamic Media Classic의 자산 관리 기본 정보
 description: Dynamic Media Classic의 자산 관리에 대한 소개입니다
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -7,14 +7,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 feature: Dynamic Media Classic,자산 관리
 role: User
 exl-id: d15aaa18-123d-442e-928f-8e71fa266a64
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 80%
+source-wordcount: '165'
+ht-degree: 76%
 
 ---
 
-# 자산 관리 기본 정보{#about-managing-assets}
+# Dynamic Media Classic의 자산 관리 기본 정보 {#about-managing-assets}
 
 Dynamic Media Classic에서는 자산 관리를 위한 자산 라이브러리를 제공합니다. 자산 라이브러리에는 자산 파일을 저장하는 폴더가 있습니다. 자산 라이브러리에서 폴더를 선택하면 찾아보기 패널에 폴더 내용이 표시됩니다. 찾아보기 패널에서 그리드, 목록 또는 세부 사항 보기로 항목을 볼 수 있습니다. 단일 자산에 중점을 두려는 경우 찾아보기 패널에서 자산을 두 번 클릭하여 [세부 사항 보기]로 표시합니다.
 
