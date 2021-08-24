@@ -1,6 +1,6 @@
 ---
 title: 이미지 사전 설정 만들기 및 활성화
-description: 이미지 사전 설정을 만들고 활성화하는 방법을 알아봅니다.
+description: Dynamic Media Classic에서 이미지 사전 설정을 만들고 활성화하는 방법을 알아봅니다.
 uuid: 62cfc6fa-da91-4c42-a3ed-10956384d633
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 84257b2a-681c-4fe9-a6e5-3633c1d61d8c
 feature: Dynamic Media Classic,공동 작업,이미지 사전 설정,자산 관리
 role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 81%
+source-wordcount: '264'
+ht-degree: 76%
 
 ---
 
