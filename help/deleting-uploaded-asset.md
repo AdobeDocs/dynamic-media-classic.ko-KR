@@ -1,6 +1,6 @@
 ---
-title: 업로드한 자산 삭제
-description: 업로드된 자산을 삭제하는 방법을 알아봅니다.
+title: 업로드한 자산을 삭제합니다
+description: Dynamic Media Classic에서 업로드된 자산을 삭제하는 방법을 알아봅니다.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '97'
-ht-degree: 89%
+source-wordcount: '95'
+ht-degree: 88%
 
 ---
 
-# 업로드한 자산 삭제{#deleting-an-uploaded-asset}
+# 업로드한 자산을 삭제합니다{#deleting-an-uploaded-asset}
 
 다음 형식으로 `delete` 매개 변수를 사용하여 자산을 삭제할 수 있습니다.
 
@@ -45,9 +45,9 @@ https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9
 URL 쿼리 문자열에 다음 필드를 사용하여 자산을 삭제할 수 있습니다.
 
 | URL 매개 변수 | 필수/선택 | 값 |
-|--- |--- |--- |
-| op | 필수 | 삭제 |
-| shared_secret | 필수 | 회사의 공유 보안 키입니다. |
+| --- | --- | --- |
+| `op` | 필수 | 삭제 |
+| `shared_secret` | 필수 | 회사의 공유 보안 키입니다. |
 | <ul><li>이미지의 경우image_name</li><li>벡터의 경우fxg_name</li></ul> | 필수 | 삭제할 자산 이름입니다. |
 
 **샘플 이미지 URL:**
