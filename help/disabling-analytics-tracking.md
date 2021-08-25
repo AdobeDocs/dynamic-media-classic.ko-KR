@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics 추적 비활성화
-description: Adobe Analytics 추적을 비활성화하는 방법을 알아봅니다.
+description: Dynamic Media Classic에서 Adobe Analytics 추적을 비활성화하는 방법을 알아봅니다.
 uuid: 6998bb18-1809-4fc7-a1b6-d75c24798620
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 3f1f5575-9fe5-436c-b009-99f3bff0b21f
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: fa5b3971-1c7d-4371-8d69-c399cec0390d
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
 source-wordcount: '82'
-ht-degree: 48%
+ht-degree: 9%
 
 ---
 
@@ -24,4 +24,4 @@ ht-degree: 48%
 1. Dynamic Media Classic의 Adobe Analytics 구성 페이지에서 모든 이벤트를 끕니다.
 1. 저장 후 게시합니다.
 
-이러한 단계는 Dynamic Media Classic과 CopyURL 기능에서 가져온 URL을 통해 지원을 해제합니다. 사용자 지정 추적을 구현하는 경우 사용자 지정 구현과의 충돌을 방지하기 위해 구성 페이지에 설정된 Adobe Analytics 추적을 비활성화합니다.
+이러한 단계는 Dynamic Media Classic과 **[!UICONTROL CopyURL]** 기능에서 가져온 URL을 통해 지원을 해제합니다. 사용자 지정 추적을 구현하는 경우 구성 페이지에서 Adobe Analytics 추적을 설정으로 비활성화하여 사용자 지정 구현과 충돌을 방지합니다.
