@@ -8,14 +8,14 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 9ff171590c65f55cef8c9e5a2b4e77ddbbfa6895
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1841'
 ht-degree: 1%
 
 ---
 
-# 이제 사용할 수 있습니다.Dynamic Media Classic 데스크탑 앱 Adobe {#dynamic-media-classic-desktop-app}
+# 이제 사용할 수 있습니다. Dynamic Media Classic 데스크탑 앱 Adobe {#dynamic-media-classic-desktop-app}
 
 Dynamic Media Classic 사용자는 이제 브라우저의 Adobe Flash 기술에 더 이상 의존하지 않는 새로운 데스크탑 앱 경험에 액세스할 수 있습니다.
 
@@ -25,7 +25,7 @@ Dynamic Media Classic 사용자는 이제 브라우저의 Adobe Flash 기술에 
 >
 >Adobe은 2020년 10월 1일까지 새로운 Adobe Dynamic Media Classic 데스크탑 앱을 설치할 것을 권장합니다. 이렇게 하면 2020년 12월 31일에 Adobe Flash Player이 더 이상 사용되지 않기 전에 원활한 전환이 보장됩니다. 해당 날짜 이후에는 제품에서 Dynamic Media Classic으로 레이블이 지정된 Adobe Dynamic Media Classic 사용자 인터페이스의 브라우저 버전에 로그온할 수 없습니다.
 
-이제 [새 Dynamic Media Classic 로그인 환경을 사용할 수 있도록 하려면 FAQ를 참조하십시오.](/help/new-ui-2020.md)
+이제 [새 Dynamic Media Classic 로그인 환경을 사용할 수 있도록 하려면 FAQ 를 참조하십시오.](/help/new-ui-2020.md)
 
 ## Dynamic Media Classic 데스크탑 앱을 위한 시스템 요구 사항 {#system-requirements-dmc-app}
 
@@ -49,9 +49,9 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
 ## 최신 버전의 수정 사항(20.21.1) {#latest-fixes-desktop-app}
 
-* 시간 초과로 인해 다음 메시지가 발생하여 로그인 문제가 발생합니다.*이 사용자는 권한 없이 그룹 또는 그룹에 할당될 수 있습니다. 관리자에게 문의하십시오.*
+* 시간 초과로 인해 다음 메시지가 발생하여 로그인 문제가 발생합니다. *이 사용자는 권한 없이 그룹 또는 그룹에 할당될 수 있습니다. 관리자에게 문의하십시오.*
 * 뷰어 사전 설정은 잘못된 각 암호 시도와 함께 복제됩니다.
-* 루트 폴더에 자산이 많아 데스크톱 응용 프로그램이 응답하지 않습니다. (Windows®에서 수정되었습니다.)macOS에서 원하는 대로 작업.)
+* 루트 폴더에 자산이 많아 데스크톱 응용 프로그램이 응답하지 않습니다. (Windows®에서 수정되었습니다.) macOS에서 원하는 대로 작업.)
 
 ## 이전 버전의 수정 사항(20.20.2) {#previous-version-fixes-desktop-app}
 
@@ -87,7 +87,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
 1. 다운로드한 설치 프로그램을 기반으로 다음 중 하나를 수행합니다.
 
-   * **macOS의 경우**  -  **[!UICONTROL 드래그하여]** 설치 **[!UICONTROL 로 놓기 대화 상자에서 Dynamic Media Classic Adobe]** 를  **[!UICONTROL 응용 프로그램]**&#x200B;에 끌어다 놓습니다.
+   * **macOS**  -  **[!UICONTROL 설치]** 로 드래그 앤 드롭 대화 상자에서  **[!UICONTROL Dynamic Media Classic Adobe]** 를 응용 프로그램 **[!UICONTROL 에]**&#x200B;끌어다 놓습니다.
 
       ![macOS에서 설치 끌어다 놓기](/help/assets/dragondrop-install1.png)
 
@@ -96,7 +96,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
       ![다운로드한 앱 열기](/help/assets/open-dmclassicapp1.png)
 
-   * **Windows의 경우**  - 설치 프로그램 바이너리를 실행하고 화면 지침에 따라 데스크탑 앱을 설치합니다.
+   * **Windows**  - 설치 관리자 바이너리를 실행하고 화면 지침에 따라 데스크탑 앱을 설치합니다.
 
 1. 애플리케이션을 열면 새 Adobe Dynamic Media Classic 로그인 페이지가 표시됩니다.
 
@@ -107,7 +107,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
    **[!UICONTROL Server]**&#x200B;을 사용하려면 프로덕션 환경에 대해 다음 매핑을 참조하십시오.
 
    | 브라우저 URL | 데스크탑 앱 서버 이름 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA(북미) 생산 |
    | https://s7sps3.scene7.com/ | EMEA(유럽, 중동 및 아프리카) 프로덕션 |
    | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
@@ -149,7 +149,7 @@ macOS에서 및 *silent* 최신 버전의 Adobe Dynamic Media Classic 데스크�
    **[!UICONTROL Server]**&#x200B;을 사용하려면 프로덕션 환경에 대해 다음 매핑을 참조하십시오.
 
    | 브라우저 URL | 데스크탑 앱 서버 이름 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA(북미) 생산 |
    | https://s7sps3.scene7.com/ | EMEA(유럽, 중동 및 아프리카) 프로덕션 |
    | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
@@ -194,7 +194,7 @@ Windows®에 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 �
    **[!UICONTROL Server]**&#x200B;을 사용하려면 프로덕션 환경에 대해 다음 매핑을 참조하십시오.
 
    | 브라우저 URL | 데스크탑 앱 서버 이름 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA(북미) 생산 |
    | https://s7sps3.scene7.com/ | EMEA(유럽, 중동 및 아프리카) 프로덕션 |
    | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
@@ -202,7 +202,7 @@ Windows®에 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 �
 
 ## Dynamic Media Classic 데스크탑 앱 사용에 대한 비디오 둘러보기 {#dmc-app-video-walk-through}
 
-Dynamic Media Classic 데스크탑 앱](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) 사용 시 [비디오 안내 보기(길이:2분 36초).
+Dynamic Media Classic 데스크탑 앱](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) 사용 시 [비디오 안내 보기(길이: 2분 36초).
 
 ## 데스크탑 앱을 사용하여 컴퓨터에서 이미지 캐시 및 자산 캐시 지우기 {#clear-cache}
 
@@ -218,12 +218,12 @@ Dynamic Media Classic 데스크탑 앱](https://experienceleague.adobe.com/docs/
 
 1. 운영 체제를 기준으로 다음 위치로 이동합니다.
 
-   * macOS:`~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
+   * macOS: `~/Library/Application\ Support/com.adobe.DMCDesktop/Local\ Store/`
    * Windows®: `C:\Users\YourUserName\AppData\Roaming\com.adobe.DMCDesktop\Local Store`
 
 ## Dynamic Media Classic의 알려진 제한 20.21.1
 
-* Dynamic Media Classic 데스크탑 앱 20.21.1 - 시나리오:Dynamic Media Classic 20.20.1 또는 20.20.2에 설치 및 로그인한 다음 애플리케이션을 닫습니다. **** 그런 다음 Dynamic Media Classic 20.21.1으로 업데이트합니다. 로그인하려고 하면 **[!UICONTROL 계정에 로그인]** 대화 상자의 **[!UICONTROL 서버]** 드롭다운 목록이 비어 있습니다. 이 문제를 해결하려면 [수동으로 캐시](#clear-cache)를 지워야 합니다(위의 단계 참조).
+* Dynamic Media Classic 데스크탑 앱 20.21.1 - 시나리오: Dynamic Media Classic 20.20.1 또는 20.20.2에 설치 및 로그인한 다음 애플리케이션을 닫습니다. **** 그런 다음 Dynamic Media Classic 20.21.1으로 업데이트합니다. 로그인하려고 하면 **[!UICONTROL 계정에 로그인]** 대화 상자의 **[!UICONTROL 서버]** 드롭다운 목록이 비어 있습니다. 이 문제를 해결하려면 [수동으로 캐시](#clear-cache)를 지워야 합니다(위의 단계 참조).
 
 ## Dynamic Media Classic 20.20.1의 알려진 제한 사항(20.20.2에서 해결됨)
 
