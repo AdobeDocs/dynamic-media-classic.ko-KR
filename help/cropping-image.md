@@ -10,10 +10,10 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,자산 관리
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 885fcd16559d31d3b9bad88705b4b6bec18515ee
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 43%
+source-wordcount: '548'
+ht-degree: 39%
 
 ---
 
@@ -34,8 +34,8 @@ Dynamic Media Classic에서 이미지를 자를 수 있습니다. 이미지를 �
 1. 이미지를 자르려면 롤오버 **[!UICONTROL 편집]** 단추를 선택하고 **[!UICONTROL 자르기]**&#x200B;를 선택하거나, [세부 사항] 보기의 [찾아보기] 패널에 표시하고 **[!UICONTROL 자르기]** 단추를 선택합니다.
 1. 자르기 편집기 페이지에서 다음 중 하나를 수행합니다.
 
-   * 색상 픽셀을 트리밍하려면 **[!UICONTROL Trim]** > **[!UICONTROL Color]**&#x200B;로 이동합니다. [색상별 자동 자르기] 대화 상자가 나타납니다. **[!UICONTROL 코너]** 메뉴를 선택하고 잘라낼 배경색의 코너를 선택합니다. 그런 다음 **[!UICONTROL 허용치]** 설정을 0에서 1까지에 입력합니다. 0을 설정하면 이미지 모서리에서 선택한 색상과 정확하게 일치하는 경우에만 픽셀이 잘립니다. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다. **[!UICONTROL 자르기]**&#x200B;를 선택합니다.
-   * 투명 픽셀을 트리밍하려면 **[!UICONTROL Trim]** > **[!UICONTROL 투명]**&#x200B;으로 이동합니다. [투명도별 자동 자르기] 대화 상자가 나타납니다. 0에서 1 사이의 허용 오차 설정을 입력합니다. 0 설정은 투명 픽셀만 자릅니다. 1에 가까운 숫자를 설정하면 더 투명해집니다. **[!UICONTROL 자르기]**&#x200B;를 선택합니다.
+   * 색상 픽셀을 트리밍하려면 **[!UICONTROL Trim]** > **[!UICONTROL Color]**&#x200B;로 이동합니다. **[!UICONTROL 색상으로 자동 자르기]** 대화 상자에서 **[!UICONTROL 코너]** 메뉴를 선택하고 잘라낼 배경색의 코너를 선택합니다. 그런 다음 **[!UICONTROL 허용치]** 설정을 0에서 1까지에 입력합니다. 0을 설정하면 이미지 모서리에서 선택한 색상과 정확하게 일치하는 경우에만 픽셀이 잘립니다. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다. **[!UICONTROL 자르기]**&#x200B;를 선택합니다.
+   * 투명 픽셀을 트리밍하려면 **[!UICONTROL Trim]** > **[!UICONTROL 투명]**&#x200B;으로 이동합니다. **[!UICONTROL 투명도로 자동 자르기]** 대화 상자에서 0에서 1까지의 허용치 설정을 입력합니다. 0 설정은 투명 픽셀만 자릅니다. 1에 가까운 숫자를 설정하면 더 투명해집니다. **[!UICONTROL 자르기]**&#x200B;를 선택합니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
