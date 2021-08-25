@@ -1,16 +1,17 @@
 ---
+title: Dynamic Media 뉴스레터 아카이브
 description: '보관된 Dynamic Media 뉴스레터는 Experience League의 월별 뉴스레터입니다. Dynamic Media 및 Dynamic Media Classic을 빠르게 활용하여 즉시 가치를 실현할 수 있도록 고안되었습니다. 보관된 뉴스레터에는 이제 중단된 이 원스톱 스토어 뉴스레터에서 사용할 수 있었던 중요한 지식 작성 리소스가 포함되어 있습니다. 보관된 뉴스레터에는 사용 방법 비디오 및 솔루션 개요 등이 포함되어 있습니다. 이미지 사전 설정, 뷰어 사전 설정 및 비디오 프로필과 같은 주요 기능과 성능에 대한 소개가 있습니다. '
 keywords: dynamic media;뉴스레터;제품 업데이트;팁과 트릭;이벤트;고객 성공;블로그;블로그;이미지;비디오;기능;기능
-title: Dynamic Media 뉴스레터 아카이브
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 0b0556cdd05b6155e5e72b3cb40021589b232101
+source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1076'
 ht-degree: 0%
 
 ---
+
 
 # ![Dynamic Media 뉴스레터 로고](/help/assets/dynamic-media-newsletter-logo.png)
 
