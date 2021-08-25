@@ -1,6 +1,6 @@
 ---
 title: eCatalog 이미지 맵 만들기
-description: eCatalog 이미지 맵을 만드는 방법을 알아봅니다.
+description: Dynamic Media Classic에서 eCatalog 이미지 맵을 만드는 방법을 알아봅니다.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '1487'
-ht-degree: 46%
+source-wordcount: '1491'
+ht-degree: 40%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 46%
 
 이미지 맵은 eCatalog 페이지의 영역으로서, 마우스를 사용하여 롤오버하거나 다양한 종류의 작업을 트리거하기 위해 선택할 수 있습니다. 예를 들어 이미지 맵 위로 포인터를 이동하면 항목에 대한 롤오버-텍스트 설명이 표시됩니다. 이미지 맵을 선택하면 다른 작업이 시작됩니다. 예를 들어 뷰어가 항목에 대해 자세히 알아보거나 항목을 구매하고 또는 비디오를 시작하여 사용 중인 항목을 보기 위해 웹 페이지를 열 수 있습니다.
 
-## eCatalog 이미지 맵 그리기 {#drawing-ecatalog-image-maps}
+## 전자 카탈로그 이미지 맵 그리기 {#drawing-ecatalog-image-maps}
 
 eCatalog의 경우 eCatalog 화면의 [맵 페이지] 탭에서 이미지 맵을 그립니다. 이 화면은 eCatalog 페이지가 표시되는 [이미지 맵] 영역과 오른쪽의 [이미지 맵] 목록으로 구성됩니다. 이미지 맵을 만들면 해당 이름이 [이미지 맵] 목록에 입력됩니다.
 
@@ -41,19 +41,19 @@ eCatalog의 경우 eCatalog 화면의 [맵 페이지] 탭에서 이미지 맵을
 
    URL(Href 템플릿)을 더 쉽게 입력하려면 **[!UICONTROL 편집]**&#x200B;을 선택하고 템플릿을 입력합니다.
 
-[템플릿을 사용하여 JavaScript 및 URL 입력](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)을 참조하십시오.
+[템플릿을 사용하여 JavaScript 및 URL](creating-image-maps.md#using_a_template_to_enter_javascript_and_urls)을 입력하십시오.
 
 1. (선택 사항) 표시 드롭다운 목록에서 **[!UICONTROL 롤오버 텍스트]**&#x200B;를 선택한 다음 이미지 맵에서 포인터를 이동할 때 화면에 표시할 텍스트를 입력합니다.
 1. (선택 사항) 표시 드롭다운 목록에서 **[!UICONTROL 기타 작업]**&#x200B;을 선택하고 사용자가 이미지 맵 위로 포인터를 이동할 때 흐림 또는 포커스 동작을 트리거할 속성을 입력합니다.
 
-   [이미지 맵의 다른 작업 정의](creating-image-maps.md#defining_other_actions_for_image_maps)를 참조하십시오.
+   [이미지 맵에 대한 다른 작업 정의](creating-image-maps.md#defining_other_actions_for_image_maps)를 참조하십시오.
 
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. (선택 사항) **[!UICONTROL 미리 보기]**&#x200B;를 선택하여 기본 eCatalog 뷰어 사전 설정으로 eCatalog 를 확인합니다.
 
 이미지 맵을 삭제하려면 이미지 맵 목록에서 해당 이름을 선택하고 **[!UICONTROL 삭제]**&#x200B;를 선택합니다. 이미지 맵을 삭제하지 않고 페이지에서 이미지 맵을 일시적으로 비활성화하려면 [이미지 맵] 목록 패널에서 이미지 맵의 [켜짐] 선택 사항을 선택 취소합니다.
 
-## eCatalog에 리치 미디어 임베드 {#embedding-rich-media-in-an-ecatalog}
+## eCatalog에 리치 미디어 포함 {#embedding-rich-media-in-an-ecatalog}
 
 eCatalog의 리치 미디어 선택 사항을 사용하여 MP4 형식 또는 회전 집합의 비디오를 eCatalog에 추가한 이미지 맵에 추가할 수 있습니다. 사용자가 eCatalog에서 이미지 맵 영역을 선택하면 연결된 스핀 세트 또는 비디오가 표시됩니다. 이 기능은 고객이 사용 중인 항목을 보거나 다른 각도 및 관점에서 항목을 보려는 경우 특히 유용합니다.
 
@@ -63,7 +63,7 @@ eCatalog의 리치 미디어 선택 사항을 사용하여 MP4 형식 또는 회
 
 1. eCatalog 이미지 맵을 그립니다.
 
-   [eCatalog 이미지 맵 그리기](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)를 참조하십시오.
+   [전자 카탈로그 이미지 맵 그리기](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps)를 참조하십시오.
 
 1. 표시 드롭다운 목록에서 **[!UICONTROL 리치 미디어]**&#x200B;를 선택합니다.
 1. 왼쪽의 [자산 추가] 패널에서 임베드하려는 회전 집합 또는 비디오(MP4 형식) 자산이 들어 있는 폴더를 탐색합니다.
@@ -89,15 +89,15 @@ eCatalog 화면의 [맵 페이지] 탭에서 시작하여 다음 기술을 통�
 
 * **겹치는 이미지 맵 처리**  - 드래그하여 이미지 맵 목록에서 이미지 맵의 순서를 변경합니다.
 
-   [겹치는 이미지 맵 처리](creating-image-maps.md#handling_overlapping_image_maps)를 참조하십시오.
+   [중복된 이미지 맵 처리](creating-image-maps.md#handling_overlapping_image_maps)를 참조하십시오.
 
 * **이미지 맵을 다른 페이지에 복사**  - 맵 **[!UICONTROL 에 복사]** 를 선택합니다(맵 페이지 탭에 있는지 확인). 이미지 선택 화면에서 이미지 맵을 복사할 페이지를 선택하고 **[!UICONTROL 선택]**&#x200B;을 선택합니다.
 
-   [이미지 맵을 다른 이미지로 복사](creating-image-maps.md#copying_image_maps)를 참조하십시오.
+   [이미지 맵을 다른 이미지에 복사](creating-image-maps.md#copying_image_maps)를 참조하십시오.
 
 >[!NOTE]
 >
->이미지 맵을 eCatalog의 다른 페이지에 복사하는 것 외에도 eCatalog의 모든 이미지 맵을 다른 eCatalog에 복사할 수 있습니다. [eCatalog 간에 이미지 맵 복사](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs)를 참조하십시오.
+>이미지 맵을 eCatalog의 다른 페이지에 복사하는 것 외에도 eCatalog의 모든 이미지 맵을 다른 eCatalog에 복사할 수 있습니다. [eCatalog](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs) 사이에 이미지 맵 복사를 참조하십시오.
 
 ## 이미지 맵 데이터 검토 및 가져오기 {#reviewing-and-importing-image-map-data}
 
@@ -129,7 +129,7 @@ eCatalog 화면의 [맵 페이지] 탭에서 시작하여 다음 기술을 통�
 1. [작업 이름] 필드에 파일 이름을 입력합니다. 확장자를 유지해야 합니다.
 1. **[!UICONTROL 업로드]**&#x200B;를 선택합니다.
 
-## eCatalog 간에 이미지 맵 복사 {#copying-image-maps-between-ecatalogs}
+## eCatalog 간 이미지 맵 복사 {#copying-image-maps-between-ecatalogs}
 
 eCatalog에 있는 모든 이미지 맵을 다른 eCatalog로 복사할 수 있습니다. 이런 방식의 이미지 맵 복사는 동일한 eCatalog의 외국어 번역 간에 이미지 맵을 복사하는 편리한 방법입니다. 성공적으로 복사하려면 동일한 수의 페이지와 동일한 이미지를 사용하여 eCatalogs 간에 복사하는 것이 좋습니다.
 
