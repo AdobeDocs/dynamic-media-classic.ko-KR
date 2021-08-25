@@ -1,6 +1,6 @@
 ---
-title: 컨텐츠 변형 관리
-description: 콘텐츠 변형을 관리하는 방법을 알아봅니다.
+title: 콘텐츠 변형 관리
+description: Dynamic Media Classic에서 콘텐츠 변형을 관리하는 방법을 알아봅니다.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 59%
+source-wordcount: '250'
+ht-degree: 54%
 
 ---
 
-# 컨텐츠 변형 관리{#managing-content-variations}
+# 콘텐츠 변형 관리{#managing-content-variations}
 
 자산 변형이 게시되는 방법을 관리하려면 템플릿 집합을 사용합니다.
 
@@ -27,10 +27,10 @@ ht-degree: 59%
 
 목록에서 이미지 사전 설정 URL을 사용할 수 있습니다. 이미지 사전 설정 URL은 유니버설 URL과 유사합니다. 둘 이상의 이미지 사전 설정 URL이 있을 수 있습니다.
 
-1. **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 세트]**&#x200B;를 클릭합니다. 빌더가 열립니다.
-1. 템플릿을 선택한 다음 **[!UICONTROL 추가/미리 보기]**&#x200B;를 클릭합니다.
-1. 템플릿 속성을 수정하고 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 클릭하여 다른 버전을 만듭니다.
-1. 이름을 입력하고 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Build]** > **[!UICONTROL 템플릿 세트]**&#x200B;로 이동합니다.
+1. 빌더에서 템플릿을 선택한 다음 **[!UICONTROL 추가/미리 보기]**&#x200B;를 선택합니다.
+1. 템플릿 속성을 수정하고 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택하여 다른 버전을 만듭니다.
+1. 이름을 입력한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
    자산과 템플릿을 모두 게시해야 합니다.
 
