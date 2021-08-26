@@ -1,5 +1,5 @@
 ---
-title: '"빠른 시작:eCatalogs"'
+title: '"빠른 시작: eCatalogs"'
 description: eCatalog 기술을 빠르게 시작하고 실행할 수 있도록 eCatalog 소개 및 빠른 시작 기능을 제공합니다.
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: admin
@@ -10,21 +10,21 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
 workflow-type: tm+mt
-source-wordcount: '1427'
-ht-degree: 51%
+source-wordcount: '1424'
+ht-degree: 50%
 
 ---
 
-# 빠른 시작:eCatalog{#quick-start-ecatalogs}
+# 빠른 시작: eCatalog{#quick-start-ecatalogs}
 
 eCatalog는 카탈로그, 브로셔, 전단, 제품 설명서 또는 광고 전단과 같은 인쇄물의 디지털 웹 버전입니다. eCatalog는 웹 사이트의 eCatalog 뷰어에 표시됩니다. 이 뷰어는 인쇄물을 읽는 경험을 시뮬레이션합니다. eCatalog에 대해 선택한 설정에 따라 뷰어에서 다음을 수행할 수 있습니다.
 
 * 카탈로그에서 키워드 또는 키워드를 검색합니다. 검색 결과는 카탈로그의 왼쪽에 있는 검색 패널에서 축소판 목록으로 표시됩니다. 각 클릭 가능한 축소판은 강조 표시된 검색어가 발견된 카탈로그 스프레드를 나타냅니다.
 
-* 소셜 미디어를 통해 카탈로그를 공유합니다.카탈로그를 다운로드하여 오프라인으로 봅니다.즐겨찾기를 사용하여 빠르게 돌아갈 항목을 표시하거나 카탈로그를 인쇄합니다.
-* 목차 또는 페이지 그리드 보기를 사용하여 카탈로그를 탐색합니다.페이지의 가운데 가장자리를 클릭하여 페이지를 앞으로 또는 뒤로 이동합니다.
+* 소셜 미디어를 통해 카탈로그를 공유합니다. 카탈로그를 다운로드하여 오프라인으로 봅니다. 즐겨찾기를 사용하여 빠르게 돌아갈 항목을 표시하거나 카탈로그를 인쇄합니다.
+* 목차 또는 페이지 그리드 보기를 사용하여 카탈로그를 탐색합니다. 페이지의 가운데 가장자리를 클릭하여 페이지를 앞으로 또는 뒤로 이동합니다.
 * 확대, 축소 및 패닝하여 페이지의 항목을 검사합니다.
 * 이미지 맵이라고 하는 페이지 영역 위로 포인터를 이동하면 항목에 대한 정보가 있는 팝업 창이 표시됩니다.
 * 항목에 대한 자세한 정보가 있는 새 웹 페이지가 열리도록 페이지 영역을 클릭합니다.
@@ -65,7 +65,7 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 
 찾아보기 패널에서 PDF 또는 이미지 파일을 선택하여 eCatalog를 만듭니다. **[!UICONTROL 빌드]**&#x200B;를 클릭한 다음 **[!UICONTROL eCatalogs]**&#x200B;를 선택합니다.
 
-eCatalog 페이지의 **[!UICONTROL 주문 페이지]** 탭에서 레이아웃 옵션을 선택합니다.**[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** 또는 **[!UICONTROL 사용자 지정]** 페이지 또는 스프레드를 끌거나 큰 eCatalog의 경우 [이동] 메뉴에서 페이지 이름을 선택하여 페이지 또는 스프레드를 다시 정렬할 수 있습니다.
+eCatalog 페이지의 **[!UICONTROL 주문 페이지]** 탭에서 레이아웃 옵션을 선택합니다. **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** 또는 **[!UICONTROL 사용자 지정]** 페이지 또는 스프레드를 끌거나 큰 eCatalog의 경우 [이동] 메뉴에서 페이지 이름을 선택하여 페이지 또는 스프레드를 다시 정렬할 수 있습니다.
 
 페이지를 추가하려면 자산 라이브러리에서 폴더를 선택하고 PDF 또는 이미지 파일을 [주문 페이지] 화면으로 드래그합니다. 기본 페이지 번호 대신 사용자 지정 페이지 이름을 제공하거나 많은 페이지 이름을 가져올 수 있습니다.
 
@@ -87,7 +87,7 @@ eCatalog 페이지의 **[!UICONTROL 주문 페이지]** 탭에서 레이아웃 �
 
 eCatalog 화면의 [정보 패널] 설정을 사용하여 이미지 맵 텍스트를 설정하고 관리할 수 있습니다.
 
-[정보 패널 컨텐츠 관리](info-panel-content.md#managing-info-panel-content)를 참조하십시오.
+eCatalog](/help/info-panel-content-ecatalog.md)의 [정보 패널 콘텐츠 관리 를 참조하십시오.
 
 ## 4. eCatalog 뷰어 사전 설정 설정
 

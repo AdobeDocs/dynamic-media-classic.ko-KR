@@ -1,6 +1,6 @@
 ---
 title: 디스크 사용 정보 가져오기
-description: 디스크 사용 정보를 가져오는 방법을 알아봅니다.
+description: Dynamic Media Classic에서 디스크 사용 정보를 가져오는 방법을 알아봅니다.
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: admin
 content-type: reference
@@ -9,10 +9,10 @@ discoiquuid: 6763546d-83c4-42dc-879f-6bbfc8b56482
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 337a4681-ac9a-40d9-82e8-1999bbed980c
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '88'
-ht-degree: 88%
+source-wordcount: '89'
+ht-degree: 78%
 
 ---
 
@@ -45,7 +45,7 @@ https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6
 URL 쿼리 문자열에 다음 필드를 사용하여 디스크 사용 정보를 가져올 수 있습니다.
 
 | URL 매개 변수 | 필수/선택 | 값 |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | 필수 | disk_info |
 | shared_secret | 필수 | 회사의 공유 보안 키입니다. |
 

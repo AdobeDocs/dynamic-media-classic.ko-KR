@@ -10,10 +10,10 @@ discoiquuid: 97cecd6a-30aa-44fe-a611-fd71b02fd5ae
 feature: Dynamic Media Classic
 role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 36%
+source-wordcount: '422'
+ht-degree: 33%
 
 ---
 
@@ -43,26 +43,26 @@ Dynamic Media Classic에서는 다음 글꼴 유형을 지원합니다.
 
 글꼴의 ID 이름과 해당 유형 정보를 변경할 수 있습니다. 글꼴 파일을 편집하면 검색 시 도움이 되며 글꼴을 더 쉽게 식별할 수 있습니다.
 
-[세부 사항 보기]에서 편집하려는 글꼴 파일을 찾아보기 패널에서 선택한 다음 [파일] > [정보 편집]을 선택합니다. [정보 편집] 화면이 열립니다. 다음 선택 사항을 선택한 다음 [전송] 단추를 선택합니다.
+[세부 사항 보기]에서 편집하려는 글꼴 파일을 찾아보기 패널에서 선택한 다음 [파일] > [정보 편집]을 선택합니다. [정보 편집] 화면이 열립니다. 다음 옵션을 선택한 다음 **[!UICONTROL 제출]**&#x200B;을 선택합니다.
 
-* **글꼴 이름**  - 이 이름은 글꼴이 게시될 때 글꼴을 식별합니다.
+* **[!UICONTROL 글꼴 이름]**  - 이 이름은 글꼴이 게시될 때 글꼴을 식별합니다.
 
-* **PostScript 이름**  - 이 이름은 글꼴의 전체 PostScript 이름입니다. 일반적으로 두께나 스타일을 나타냅니다.
+* **[!UICONTROL PostScript 이름]**  - 이 이름은 글꼴의 전체 PostScript 이름입니다. 일반적으로 두께나 스타일을 나타냅니다.
 
-* **RTF 이름**  - 이 이름은 템플릿 텍스트 레이어가 생성되는 RTF 편집기의 팝업 메뉴에 나타납니다.
+* **[!UICONTROL RTF 이름]**  - 이 이름은 템플릿 텍스트 레이어가 생성되는 RTF 편집기의 팝업 메뉴에 나타납니다.
 
-* **글꼴 패밀리 이름**  - 이 이름은 스타일, 가중치 또는 글꼴 유형 표시기 없이 글꼴 이름이 나열됩니다.
+* **[!UICONTROL 글꼴 패밀리 이름]**  - 이 이름은 스타일, 가중치 또는 글꼴 유형 표시기 없이 글꼴 이름이 나열됩니다.
 
-* **글꼴 스타일**  - 옵션은 일반, 굵게, 기울임체 및 굵은 기울임체입니다.
+* **[!UICONTROL 글꼴 스타일]**  - 옵션은 일반, 굵게, 기울임체 및 굵은 기울임체입니다.
 
-* **글꼴 유형**  - 옵션이 TrueType과 Adobe Type 1입니다. 이러한 글꼴을 다른 이름으로 호출하는 경우 해당 이름을 입력할 수 있습니다.
+* **[!UICONTROL 글꼴 유형]**  - 옵션이 TrueType과 Adobe Type 1입니다. 이러한 글꼴을 다른 이름으로 호출하는 경우 해당 이름을 입력할 수 있습니다.
 
-* **글꼴 유형 약어**  - 옵션은 다음과 같습니다.
+* **[!UICONTROL 글꼴 유형 약어]**  - 옵션은 다음과 같습니다.
 
-   * **** PDF/PostScript 렌더링 및 이미지 제공에 사용되는 TTFTtrueType 글꼴 파일입니다.
+   * **[!UICONTROL TTF]**  - PDF/PostScript 렌더링 및 이미지 서빙에 사용되는 TrueType 글꼴 파일입니다.
 
-   * **** Adobe 글꼴 지표 정보를 포함하고 이미지 제공 시 사용되는 AFMAadobe PostScript 글꼴 파일입니다.
+   * **[!UICONTROL AFM]**  - Adobe 글꼴 지표 정보를 포함하고 이미지 제공 시 사용되는 Adobe PostScript 글꼴 파일입니다.
 
-   * **** 이진 글꼴 지표 정보가 포함된 PFMAadobe PostScript 글꼴 파일입니다.
+   * **[!UICONTROL PFM]**  - 이진 글꼴 지표 정보가 포함된 Adobe PostScript 글꼴 파일입니다.
 
-   * **** PDF/PostScript 렌더링 및 이미지 제공용으로 사용되는 바이너리 글꼴 개요 정보를 포함하는 PFBAadobe PostScript 글꼴 파일입니다.
+   * **[!UICONTROL PFB]**  - 이진 글꼴 개요 정보가 포함되어 있으며 PDF/PostScript 렌더링 및 이미지 제공용으로 사용되는 Adobe PostScript 글꼴 파일입니다.

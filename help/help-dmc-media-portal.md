@@ -10,9 +10,9 @@ discoiquuid: a55f7279-6bba-43f1-99fa-88e922ac1803
 feature: Dynamic Media Classic,Brand Portal
 role: Admin,User
 exl-id: 2c7c0838-0c48-450e-94ff-521bae19425f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
 workflow-type: tm+mt
-source-wordcount: '87'
+source-wordcount: '81'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Dynamic Media Classic에서도 다음 도움말 문서를 사용할 수 있습니다.
 
-**Dynamic Media Classic Media Portal 사용**  - Adobe Dynamic Media Classic Media Portal은 브라우저 기반 환경으로, 포털 사용자에게 기업이 승인한 형식으로 자산을 업로드, 탐색, 검색, 미리 보기 및 내보낼 수 있는 액세스 권한을 제공합니다. [www.adobe.com/go/learn_sc7_mediaportalusing_en](https://www.adobe.com/go/learn_sc7_mediaportalusing_en)을 참조하십시오.
+**Dynamic Media Classic Media Portal 사용**  - Adobe Dynamic Media Classic Media Portal은 브라우저 기반 환경으로, 포털 사용자에게 기업이 승인한 형식으로 자산을 업로드, 탐색, 검색, 미리 보기 및 내보낼 수 있는 편리한 액세스를 제공합니다. [https://help.adobe.com/en_US/scene7/mediaportal/](https://help.adobe.com/en_US/scene7/mediaportal/)을 참조하십시오.
 
 <!-- Is this topic still needed? -rb 04/22/21
- -->
+ used to point to www.adobe.com/go/learn_sc7_mediaportalusing_en and http://help.adobe.com/en_US/scene7/mediaportal/-->
