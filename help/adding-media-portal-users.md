@@ -1,18 +1,18 @@
 ---
 title: Media Portal 사용자 추가 및 관리
-description: Dynamic Media Classic에서 Media Portal 사용자를 추가하고 관리하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 Media Portal 사용자를 추가하고 관리하는 방법을 알아봅니다.
 uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
 discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
-feature: Dynamic Media Classic,공동 작업,자산 관리
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1017'
 ht-degree: 58%
 
 ---
@@ -107,7 +107,7 @@ Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 
 
 ## Media Portal 사용자에 대한 환영 이메일 메시지 설정 {#setting-up-the-welcome-e-mail-message-for-media-portal-users}
 
-새 Media Portal 사용자, 기여자 및 기여자-사용자를 추가할 때 환영 이메일을 보낼 수 있습니다. 이 이메일 메시지를 구성하거나 Dynamic Media Classic에서 보내지 않도록 지정할 수 있습니다.
+새 Media Portal 사용자, 기여자 및 기여자-사용자를 추가할 때 환영 이메일을 보낼 수 있습니다. 이 이메일 메시지를 구성하거나 Dynamic Media Classic에서 보내지 않도록 요청할 수 있습니다.
 
 1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 관리 설정]** > **[!UICONTROL 사용자 관리]**&#x200B;로 이동합니다.
 1. 사용자 관리 설정 화면에서 **[!UICONTROL 전자 메일 설정]**&#x200B;을 선택합니다.
@@ -115,7 +115,7 @@ Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 
 
    * **[!UICONTROL 이메일 보내기]**  - 새 사용자에게 등록한 전자 메일을 통해 알리지 않으려면 이 옵션을 선택 취소합니다.
 
-   * **[!UICONTROL 기본 암호]**  - 새 사용자의 임시 암호를 입력하거나, Dynamic Media Classic에서 임의 암호를 생성하도록 필드를 비워 둡니다. 사용자는 처음 로그인할 때 암호를 변경하라는 메시지가 표시됩니다.
+   * **[!UICONTROL 기본 암호]**  - 새 사용자를 위한 임시 암호를 입력하거나, Dynamic Media Classic에서 임의 암호를 생성하도록 필드를 비워 둡니다. 사용자는 처음 로그인할 때 암호를 변경하라는 메시지가 표시됩니다.
 
    * **[!UICONTROL 대체 URL]**  - 사용자가 다른 URL을 통해 Dynamic Media Classic에 액세스하는 경우 기본값과 다른 URL을 입력합니다.
 
@@ -131,6 +131,6 @@ Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 
 
 * **[!UICONTROL 사용자 정보 편집]**  - 사용자에 대한 최신 정보를 입력합니다.
 
-* **[!UICONTROL 사용자 정의 필드 만들기]**  - Dynamic Media Classic에서 자산을 구성하는 데 도움이 되도록 사용자 정의 사용자 정의 메타데이터 필드를 만듭니다. 또한 이 필드는 필요에 따라 활성화되거나 비활성화될 수 있습니다.
+* **[!UICONTROL 사용자 정의 필드 만들기]**  - 사용자 정의 메타데이터 필드를 만들어 Adobe Dynamic Media Classic에서 자산을 구성하는 데 도움이 됩니다. 또한 이 필드는 필요에 따라 활성화되거나 비활성화될 수 있습니다.
 
 [사용자 지정 필드](application-setup.md#user_defined_fields)를 참조하십시오.

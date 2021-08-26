@@ -1,6 +1,6 @@
 ---
-title: URL을 웹 애플리케이션에 연결
-description: 웹 애플리케이션에 URL을 연결하는 방법을 알아봅니다.
+title: 웹 애플리케이션에 URL 연결
+description: Adobe Dynamic Media Classic에서 웹 애플리케이션에 URL을 연결하는 방법을 알아봅니다.
 uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: admin
 content-type: reference
@@ -10,20 +10,20 @@ discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '832'
-ht-degree: 53%
+source-wordcount: '843'
+ht-degree: 37%
 
 ---
 
-# URL을 웹 애플리케이션에 연결{#linking-urls-to-your-web-application}
+# 웹 애플리케이션에 URL 연결{#linking-urls-to-your-web-application}
 
 웹 사이트 및 애플리케이션이 URL 문자열을 통해 Dynamic Media Image Server 컨텐츠에 액세스합니다. 이미지를 게시하면 Dynamic Media Classic에서 Dynamic Media 이미지 서버의 이미지 사전 설정을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 이 URL을 웹 브라우저에 붙여 넣을 수 있습니다.
 
-웹 페이지 및 애플리케이션에 이러한 URL 문자열을 배치하려면 Dynamic Media Classic에서 복사합니다. 이미지 사전 설정을 사용하여 생성된 URL 문자열을 얻으려면 [미리 보기] 화면이나 찾아보기 패널([세부 사항 보기])로 이동합니다.
+웹 페이지 및 애플리케이션에 이러한 URL 문자열을 배치하려면 Adobe Dynamic Media Classic에서 복사합니다. 이미지 사전 설정으로 생성된 URL 문자열을 가져오려면 미리 보기 화면 또는 찾아보기 패널( 세부 사항 보기 )으로 이동합니다.
 
-## 이미지 사전 설정 URL 얻기 {#obtaining-an-image-preset-url}
+## 이미지 사전 설정 URL 가져오기 {#obtaining-an-image-preset-url}
 
 [미리 보기] 또는 [세부 사항 보기]에서 이미지 사전 설정에 의해 생성된 URL 문자열을 얻을 수 있습니다. URL을 복사하면 필요한 경우 붙여 넣을 수 있도록 클립보드에 저장됩니다.
 
@@ -31,26 +31,26 @@ ht-degree: 53%
 >
 >자산을 게시하기 전에는 URL이 활성화되지 않습니다.
 
-### 미리 보기에서 이미지 사전 설정 URL 얻기 {#obtaining-an-image-preset-url-from-preview}
+### 미리 보기에서 이미지 사전 설정 URL 가져오기 {#obtaining-an-image-preset-url-from-preview}
 
 1. 왼쪽의 자산 라이브러리 패널에서 미리 보려는 이미지 자산이 들어 있는 자산 폴더를 탐색합니다.
 1. 다음 중 하나를 수행합니다.
 
-   * [자산] 창 위의 도구 모음 오른쪽에서 **[!UICONTROL [그리드 보기]]**&#x200B;를 클릭합니다. 자산 창에서 단일 이미지 자산을 선택한 다음 축소판 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**&#x200B;을 클릭합니다.
-   * [자산] 창 위의 도구 모음 오른쪽에서 **[!UICONTROL [목록 보기]]**&#x200B;를 클릭합니다. 자산 창에서 단일 이미지 자산을 선택한 다음 축소판 이미지의 오른쪽에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**&#x200B;을 클릭합니다.
-   * [자산] 창 위의 도구 모음 오른쪽에서 **[!UICONTROL [세부 사항 보기]]**&#x200B;를 클릭합니다. 동일한 도구 모음에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**&#x200B;을 클릭합니다.
+   * 자산 창 위의 도구 모음 오른쪽에서 **[!UICONTROL 그리드 보기]**&#x200B;를 선택합니다. 자산 창에서 단일 이미지 자산을 선택한 다음 축소판 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**&#x200B;으로 이동합니다.
+   * 자산 창 위의 도구 모음 오른쪽에 있는 **[!UICONTROL 목록 보기]**&#x200B;를 선택합니다. 자산 창에서 단일 이미지 자산을 선택한 다음 축소판 이미지의 오른쪽으로 이동하여 **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**&#x200B;으로 이동합니다.
+   * 자산 창 위의 도구 모음 오른쪽에 있는 **[!UICONTROL 세부 사항 보기]**&#x200B;를 선택합니다. 동일한 도구 모음에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**&#x200B;으로 이동합니다.
 
 1. (선택 사항) 이미지 사전 설정 목록의 복사 URL 생성을 위한 URL 인코딩 드롭다운 목록에서 이미지 자산을 복사할 때 이미지 자산의 URL에 적용할 URL 인코딩을 선택합니다.
-1. 이미지 사전 설정 목록 창의 미리 보기 창의 오른쪽 위 영역에서 선택한 사전 설정 유형에 대해 **[!UICONTROL URL 복사]**&#x200B;를 클릭합니다.
-1. 이미지 사전 설정 목록 창의 오른쪽 아래 모서리에서 **[!UICONTROL 닫기]** 를 클릭하여 자산 화면으로 돌아갑니다.
+1. 이미지 사전 설정 목록 창의 미리 보기 창의 오른쪽 위 영역에서 선택한 사전 설정 유형에 대해 **[!UICONTROL URL 복사]**&#x200B;를 선택합니다.
+1. 이미지 사전 설정 목록 창의 오른쪽 아래 모서리에서 **[!UICONTROL 닫기]** 를 선택하여 자산 화면으로 돌아갑니다.
 
-### 찾아보기 패널에서 이미지 사전 설정 URL 얻기 {#obtaining-an-image-preset-url-from-the-browse-panel}
+### 찾아보기 패널에서 이미지 사전 설정 URL 가져오기 {#obtaining-an-image-preset-url-from-the-browse-panel}
 
 1. 왼쪽의 자산 라이브러리 패널에서 미리 보려는 이미지 자산이 들어 있는 자산 폴더를 탐색합니다.
-1. [자산] 창 위의 도구 모음 오른쪽에서 **[!UICONTROL [그리드 보기]]**&#x200B;를 클릭합니다. [자산] 창에서 단일 이미지 자산을 선택합니다.
-1. [자산] 창 위의 도구 모음 오른쪽에서 **[!UICONTROL [세부 사항 보기]]**&#x200B;를 클릭합니다. 
-1. 화면 오른쪽의 패널에서 **[!UICONTROL URL]**&#x200B;을 클릭하여 이미지 사전 설정 목록을 펼칩니다.
-1. 클립보드에 복사할 URL이 있는 이미지 사전 설정의 이름 옆에 있는 **[!UICONTROL URL 복사]** 링크를 클릭합니다.
+1. 자산 창 위의 도구 모음 오른쪽에서 **[!UICONTROL 그리드 보기]**&#x200B;를 선택합니다. [자산] 창에서 단일 이미지 자산을 선택합니다.
+1. 자산 창 위의 도구 모음 오른쪽에 있는 **[!UICONTROL 세부 사항 보기]**&#x200B;를 선택합니다.
+1. 이미지 사전 설정 목록을 제시할 수 있도록 화면 오른쪽의 패널에서 **[!UICONTROL URL]**&#x200B;을 선택합니다.
+1. 클립보드에 복사할 URL이 있는 이미지 사전 설정의 이름 옆에 있는 **[!UICONTROL URL 복사]** 링크를 선택합니다.
 
 ## 이미지 사전 설정 URL 문자열 정보 {#about-image-preset-url-strings}
 
@@ -80,7 +80,7 @@ URL에서 이미지 사전 설정 이름은 달러 기호($)로 묶여 있습니
 
 ## 웹 페이지에 동적 이미지 추가 {#adding-dynamic-images-to-your-web-page}
 
-웹 페이지에 동적 이미지를 추가하기 위해 HTML 웹 페이지 코드의 `<IMG>` 태그는 일반적으로 Dynamic Media Image Server에 요청을 수행하기 위해 Dynamic Media Classic URL 문자열을 사용하여 수정됩니다. 이 문자열은 이미지 사전 설정에 의해 정의된 크기 및 형식 지정 사양에 따라 이미지를 생성합니다.
+웹 페이지에 다이내믹 이미지를 추가하기 위해 HTML 웹 페이지 코드의 `<IMG>` 태그는 일반적으로 Dynamic Media 이미지 서버에 요청을 수행하기 위해 Dynamic Media Classic URL Adobe 문자열을 사용하여 수정됩니다. 이 문자열은 이미지 사전 설정에 의해 정의된 크기 및 형식 지정 사양에 따라 이미지를 생성합니다.
 
 예를 들어 다음과 같은 일반적인 정적 이미지 열기 호출이 있습니다.
 
@@ -88,7 +88,7 @@ URL에서 이미지 사전 설정 이름은 달러 기호($)로 묶여 있습니
 img src="/company_images/products/backpack_thumbnail.jpg"
 ```
 
-이제 `<IMG>`태그를 사용하여 정적 이미지에 대한 참조를 Dynamic Media Classic 플랫폼에 대한 이미지 사전 설정 호출로 대체합니다. 샘플 호출은 다음과 같이 표시됩니다.
+이제 `<IMG>`태그를 사용하여 정적 이미지에 대한 참조를 Adobe Dynamic Media Classic 플랫폼에 대한 이미지 사전 설정 호출로 바꿉니다. 샘플 호출은 다음과 같이 표시됩니다.
 
 ```as3
 img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”

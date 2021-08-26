@@ -1,25 +1,25 @@
 ---
 title: 작업 파일 확인
-description: Dynamic Media Classic에서 작업 파일을 확인하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 작업 파일을 확인하는 방법을 알아봅니다.
 uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
-feature: Dynamic Media Classic,자산 관리
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1592'
 ht-degree: 40%
 
 ---
 
 # 작업 파일 확인{#checking-job-files}
 
-Dynamic Media Classic과 Dynamic Media Classic 서버에 게시하는 파일에 대한 파일 업로드를 모니터링하기 위해 Dynamic Media Classic에서 작업 페이지를 제공합니다. 작업 페이지에서 업로드 및 게시 작업을 검토하고, 작업 상태를 확인하고, 이 페이지에서 게시 작업을 취소할 수 있습니다. 업로드 및 게시 작업을 예약할 수도 있습니다.
+Dynamic Media Classic Adobe 및 Dynamic Media Classic 서버에 게시하는 파일에 대한 파일 업로드를 모니터링하기 위해 Adobe Dynamic Media Classic에서 작업 페이지를 제공합니다. 작업 페이지에서 업로드 및 게시 작업을 검토하고, 작업 상태를 확인하고, 이 페이지에서 게시 작업을 취소할 수 있습니다. 업로드 및 게시 작업을 예약할 수도 있습니다.
 
 자산을 업로드하면 [작업] 메뉴 옆에 회전하는 아이콘이 표시되어 작업이 진행 중임을 나타내고 진행 중인 파일 수도 표시됩니다. 아이콘을 선택하여 활성 작업에 대한 자세한 정보를 볼 수 있습니다.
 
@@ -41,7 +41,7 @@ Dynamic Media Classic과 Dynamic Media Classic 서버에 게시하는 파일에 
 
 * **[!UICONTROL 합계]**  - 전송된 파일 수입니다.
 
-* **[!UICONTROL W(경고)]**  - 작업의 경고 수입니다(있는 경우). 경고는 전체 작업 완료에 영향을 주지 않은 문제가 작업에 있음을 나타냅니다. 일반적으로 이러한 경고는 숨겨진 파일에 대해 보고하므로 무시해도 됩니다. 예를 들어 `.DS_store` 파일(Macintosh) 및 Thumbs.db 파일(Windows®)에는 이미지 파일을 사용자에게 표시하는 방법에 대한 정보가 포함되어 있습니다. 그러나 이러한 파일이 Dynamic Media Classic에서 사용되는 방식에는 속하지 않으므로 이러한 파일에 대한 경고 항목은 무시할 수 있습니다. 작업 이름을 두 번 클릭하여 경고에 대한 자세한 정보를 확인할 수 있습니다.
+* **[!UICONTROL W(경고)]**  - 작업의 경고 수입니다(있는 경우). 경고는 전체 작업 완료에 영향을 주지 않은 문제가 작업에 있음을 나타냅니다. 일반적으로 이러한 경고는 숨겨진 파일에 대해 보고하므로 무시해도 됩니다. 예를 들어 `.DS_store` 파일(Macintosh) 및 Thumbs.db 파일(Windows®)에는 이미지 파일을 사용자에게 표시하는 방법에 대한 정보가 포함되어 있습니다. 그러나 이러한 파일에 대한 경고 항목은 Adobe Dynamic Media Classic에서 이러한 파일이 사용되는 방식에 속하지 않으므로 무시할 수 있습니다. 작업 이름을 두 번 클릭하여 경고에 대한 자세한 정보를 확인할 수 있습니다.
 
 * **[!UICONTROL E(오류)]**  - 작업의 오류 수를 나열합니다(있는 경우). 작업 이름을 두 번 클릭하여 오류에 대한 자세한 정보를 확인할 수 있습니다.
 
@@ -71,7 +71,7 @@ Dynamic Media Classic과 Dynamic Media Classic 서버에 게시하는 파일에 
 
 ## 작업 세부 사항 보고서 보기, 복사 또는 인쇄 {#viewing-copying-or-printing-a-job-details-report}
 
-[작업 세부 사항] 페이지가 열리도록 [작업] 페이지에서 보고서 이름을 두 번 클릭합니다. 이 페이지에서는 작업 파일에 대한 요약 보고서를 제공합니다. 항목의 Dynamic Media Classic ID, 대상 경로 및 상태 정보를 볼 수 있도록 **[!UICONTROL 세부 정보 보기]**&#x200B;를 선택합니다. Dynamic Media Classic에서 사용할 수 없는 글꼴이 필요한 PDF 또는 PostScript 파일을 업로드한 경우 보고서에 누락된 글꼴이 표시됩니다.
+[작업 세부 사항] 페이지가 열리도록 [작업] 페이지에서 보고서 이름을 두 번 클릭합니다. 이 페이지에서는 작업 파일에 대한 요약 보고서를 제공합니다. 항목의 Adobe Dynamic Media Classic ID, 대상 경로 및 상태 정보를 볼 수 있도록 **[!UICONTROL 세부 정보 보기]**&#x200B;를 선택합니다. Adobe Dynamic Media Classic에서 사용할 수 없는 글꼴이 필요한 PDF 또는 PostScript 파일을 업로드한 경우 보고서에 누락된 글꼴이 표시됩니다.
 
 이 정보를 클립보드로 복사할 수 있습니다.
 

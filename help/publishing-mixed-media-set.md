@@ -7,25 +7,25 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
 discoiquuid: 4e8694f7-c1b5-4d45-a18b-2b9494db1757
-feature: Dynamic Media Classic,뷰어,혼합 미디어 세트
+feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
-source-git-commit: 591feb7ee4ac88e39941b429a8aa965d4d919738
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 55%
+source-wordcount: '254'
+ht-degree: 56%
 
 ---
 
 # 혼합 미디어 집합 게시{#publishing-a-mixed-media-set}
 
-Dynamic Media Classic 비디오 서버 및 이미지 서버에 게시하도록 표시한 혼합 미디어 세트를 게시하기 위한 게시 작업을 만듭니다. Dynamic Media Classic에서는 특정 서버에 게시하기 위한 고급 게시 옵션과 이미 게시된 자산을 다시 게시하는 옵션을 제공합니다.
+Dynamic Media Classic 비디오 서버 및 이미지 서버에 게시하도록 표시한 혼합 미디어 세트를 게시하기 위한 게시 작업을 만듭니다. Adobe Dynamic Media Classic에서는 특정 서버에 게시하기 위한 고급 게시 옵션과 이미 게시된 자산을 다시 게시하는 옵션을 제공합니다.
 
 >[!NOTE]
 >
 >혼합 미디어 집합은 **비디오 서버**&#x200B;에 게시하고 **이미지 서버**&#x200B;에도 게시해야 합니다. **비디오 서버**&#x200B;를 사용하여 게시하도록 표시한 실제 비디오를 게시합니다. 또한 **이미지 서버**&#x200B;를 사용하여 비디오 축소판과 같은 관련 자산을 게시하고 모든 응용 비디오 세트에 대한 정보를 설정합니다.
 
-Dynamic Media Classic은 작업 화면에서 게시 작업을 추적합니다.
+Adobe Dynamic Media Classic은 작업 화면에서 게시 작업을 추적합니다.
 
 [게시](publishing-files.md#publishing_files)를 참조하십시오.
 

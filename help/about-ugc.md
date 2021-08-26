@@ -9,7 +9,7 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '146'
 ht-degree: 53%
@@ -18,7 +18,7 @@ ht-degree: 53%
 
 # Dynamic Media Classic에서 사용자가 생성한 컨텐츠 정보 {#about-user-generated-content}
 
-UGC(사용자 생성 컨텐츠)를 사용하는 것은 전용 Dynamic Media Classic 저장소 리포지토리에 자산을 업로드하고 관련 작업을 수행하는 것으로 구성됩니다.
+UGC(사용자 생성 컨텐츠)를 사용하는 것은 전용 Adobe Dynamic Media Classic 저장소 리포지토리에 자산을 업로드하고 관련 작업을 수행하는 것으로 구성됩니다.
 
 UGC는 다음과 같은 파일 형식을 지원합니다.
 

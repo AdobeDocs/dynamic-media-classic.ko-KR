@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 38efb70d-e17e-4cef-8af1-be748f66f3ea
-feature: Dynamic Media Classic,뷰어,스핀 세트
+feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 22%
+source-wordcount: '172'
+ht-degree: 23%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 22%
 
 ## 게시용으로 회전 집합 표시 {#marking-a-spin-set-for-publish}
 
-Dynamic Media Classic 이미지 서버에 복사되도록 스핀 세트를 게시로 표시합니다. 이름 왼쪽에 있는 **[!UICONTROL 게시용으로 표시]** 아이콘을 클릭하여 [찾아보기] 패널에서 게시용으로 스핀 세트를 표시할 수 있습니다. 회전 집합 자체를 게시로 표시하면 집합에 있는 모든 이미지가 게시로 표시됩니다.
+Adobe Dynamic Media Classic 이미지 서버에 복사할 수 있도록 게시용 스핀 세트를 표시합니다. 이름 왼쪽에 있는 **[!UICONTROL 게시용으로 표시]** 아이콘을 클릭하여 [찾아보기] 패널에서 게시용으로 스핀 세트를 표시할 수 있습니다. 회전 집합 자체를 게시로 표시하면 집합에 있는 모든 이미지가 게시로 표시됩니다.
 
 ## 회전 집합 게시 {#publishing-the-spin-set}
 
@@ -31,5 +31,5 @@ Dynamic Media 이미지 서버에 스핀 세트를 게시하려면 전역 탐색
 
 >[!MORELIKETHIS]
 >
->* [게시](publishing-files.md#publishing_files)
+>* [Publishing](publishing-files.md#publishing_files)
 

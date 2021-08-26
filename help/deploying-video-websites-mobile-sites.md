@@ -1,6 +1,6 @@
 ---
 title: 웹 사이트 및 모바일 사이트에 비디오 배포
-description: Dynamic Media Classic에서 웹 사이트 및 모바일 사이트에 비디오를 배포하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 웹 사이트 및 모바일 사이트에 비디오를 배포하는 방법을 알아봅니다.
 uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1689'
-ht-degree: 37%
+source-wordcount: '1704'
+ht-degree: 35%
 
 ---
 
 # 웹 사이트 및 모바일 사이트에 비디오 배포{#deploying-video-to-your-websites-and-mobile-sites}
 
-웹 사이트, 모바일 사이트 및 데스크탑 애플리케이션은 URL 문자열 또는 포함된 코드를 사용하여 비디오를 포함한 Dynamic Media Classic 서버 컨텐츠에 액세스합니다. Dynamic Media Classic은 게시 프로세스 중에 이러한 URL 문자열을 활성화합니다. 웹 페이지, 모바일 페이지 및 데스크탑 애플리케이션에 비디오의 URL 문자열 또는 포함 코드를 배치하려면 Dynamic Media Classic에서 복사합니다.
+웹 사이트, 모바일 사이트 및 데스크탑 응용 프로그램은 URL 문자열 또는 포함된 코드를 사용하여 비디오를 포함한 Adobe Dynamic Media Classic 서버 콘텐츠에 액세스합니다. Adobe Dynamic Media Classic은 게시 프로세스 중에 이러한 URL 문자열을 활성화합니다. 웹 페이지, 모바일 페이지 및 데스크탑 애플리케이션에 비디오의 URL 문자열 또는 포함 코드를 배치하려면 Adobe Dynamic Media Classic에서 복사합니다.
 
 >[!NOTE]
 >
@@ -27,15 +27,15 @@ ht-degree: 37%
 
 ## 비디오 게시 {#publishing-video}
 
-비디오를 게시하면 Dynamic Media Classic 서버에서 웹 사이트, 모바일 사이트 또는 애플리케이션에 비디오를 제공할 수 있습니다.
+비디오를 게시하면 Dynamic Media Classic Server에서 웹 사이트, 모바일 사이트 또는 애플리케이션에 비디오를 제공할 수 있습니다.
 
 비디오를 게시하는 데 사용할 수 있는 2가지 서로 다른 방법이 있습니다.
 
-* **업로드 시 비디오를 즉시 자동으로 게시** - 비디오 업로드 프로세스의 일부로, Dynamic Media Classic은 비디오를 업로드 및 인코딩하면 자동으로 게시할 수 있습니다. 즉시 게시하는 이 기능은 비디오를 나중에 별도로 게시할 필요가 없음을 의미합니다.
+* **업로드 시 비디오를 즉시 자동으로 게시** - 비디오 업로드 프로세스의 일부로, Dynamic Media Classic에서 비디오를 업로드 및 인코딩하면 자동으로 게시할 수 있습니다. 즉시 게시하는 이 기능은 비디오를 나중에 별도로 게시할 필요가 없음을 의미합니다.
 
 * **비디오를 업로드 후 수동으로 게시** - 비디오를 즉시 게시하지 않으려는 경우 수동으로 언제든지 비디오를 게시할 수 있습니다.
 
-비디오를 게시하면 Dynamic Media Classic에서 HTML 페이지 또는 애플리케이션 코드의 URL 문자열을 활성화합니다.
+비디오를 게시하면 Dynamic Media Classic에서 HTML 페이지 또는 애플리케이션 코드에 대한 URL 문자열을 활성화합니다.
 
 **비디오를 게시하려면:**
 
@@ -131,11 +131,11 @@ Dynamic Media Classic HTML5 비디오 플레이어를 사용하지 않지만, MP
 
 ## 타사 비디오 플레이어를 사용하여 비디오 배포 {#deploying-video-using-a-third-party-video-player}
 
-Dynamic Media Classic 비디오 뷰어 대신 타사 비디오 플레이어 또는 사용자 정의 비디오 플레이어를 사용하는 경우 HLS 다중 비트율 비디오 스트리밍 또는 점진적 다운로드에 대해 작동하는 직접 비디오 URL을 받습니다.
+Adobe Dynamic Media Classic 비디오 뷰어 대신 타사 비디오 플레이어 또는 사용자 정의 비디오 플레이어를 사용하는 경우 HLS 다중 비트율 비디오 스트리밍 또는 점진적 다운로드에 대해 작동하는 직접 비디오 URL을 받습니다.
 
 **타사 비디오 플레이어를 사용하여 비디오를 배포하려면:**
 
-1. Dynamic Media Classic의 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 일반 설정]**&#x200B;으로 이동합니다.
+1. Dynamic Media Classic Adobe의 전역 탐색 막대에서 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 일반 설정]**&#x200B;으로 이동합니다.
 1. 사용할 URL 유형에 따라 다음 작업 중 하나를 수행하십시오.
 
 * 직접 HLS 스트리밍 비디오 URL을 생성하려면(다중 비트율)
@@ -165,13 +165,13 @@ Dynamic Media Classic 비디오 뷰어 대신 타사 비디오 플레이어 또�
 
 ## 비디오 축소판 작업 {#working-with-video-thumbnails}
 
-Dynamic Media Classic은 인코딩된 비디오 및 사전 인코딩된 비디오에 대한 축소판을 생성합니다. 이미지 자산 등의 비디오 썸네일을 사용할 수 있습니다. 또한 Dynamic Media Classic에서 이러한 URL을 생성하고 Dynamic Media Classic 외부에서 배포하는 비디오 미리 보기에 대한 URL을 가져올 수도 있습니다. 예를 들어 웹 사이트의 검색 결과, 관련 비디오 목록 및 비디오 재생 목록에 썸네일을 배포할 수 있습니다.
+Adobe Dynamic Media Classic은 인코딩된 비디오 및 사전 인코딩된 비디오에 대한 축소판을 생성합니다. 이미지 자산 등의 비디오 썸네일을 사용할 수 있습니다. 또한 Dynamic Media Classic에서 이러한 URL을 생성하여 Adobe Dynamic Media Classic 외부에 배포하는 비디오 미리 보기에 대한 URL을 가져올 수 있습니다. 예를 들어 웹 사이트의 검색 결과, 관련 비디오 목록 및 비디오 재생 목록에 썸네일을 배포할 수 있습니다.
 
 썸네일은 비디오의 첫 번째 이기종 프레임(모두 검정 프레임 또는 모두 흰색 프레임 등이 아님)에 따라 생성됩니다.
 
 ### 비디오 축소판 URL 가져오기 {#obtaining-video-thumbnail-urls}
 
-Dynamic Media Classic은 업로드 프로세스 중에 비디오 미리 보기를 자동으로 생성합니다. [목록] 보기 및 [그리드] 보기의 찾아보기 패널에 썸네일이 표시됩니다.
+Adobe Dynamic Media Classic은 업로드 프로세스 중에 비디오 미리 보기를 자동으로 생성합니다. [목록 보기] 및 [격자 보기]의 [찾아보기] 패널에 축소판이 나타납니다.
 
 비디오 썸네일의 URL을 생성하려면 게시 작업을 수행합니다.
 
@@ -181,7 +181,7 @@ Dynamic Media Classic은 업로드 프로세스 중에 비디오 미리 보기�
 
 ### 비디오 뷰어의 포스터 프레임 수정 {#modifying-poster-frames-in-video-viewers}
 
-*포스터 프레임*&#x200B;은 비디오가 재생되기 전에 비디오 뷰어에 표시되는 초기 프레임입니다. Dynamic Media Classic에서는 비디오 축소판 그림을 포스터 프레임으로 사용합니다.
+*포스터 프레임*&#x200B;은 비디오가 재생되기 전에 비디오 뷰어에 표시되는 초기 프레임입니다. Adobe Dynamic Media Classic에서는 비디오 축소판 그림을 포스터 프레임으로 사용합니다.
 
 포스터 프레임에 이미지 수정자를 적용할 수 있습니다. 예를 들어 포스터 프레임을 자르거나 투명하게 만들 수 있습니다. 포스터 프레임을 수정하려면 비디오 뷰어 구성 화면을 열고 [포스터 이미지 수정자] 섹션에 수정자를 입력합니다.
 

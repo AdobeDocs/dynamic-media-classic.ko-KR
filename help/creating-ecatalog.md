@@ -1,6 +1,6 @@
 ---
 title: eCatalog 만들기
-description: Dynamic Media Classic에서 eCatalog를 만드는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 eCatalog를 만드는 방법을 알아봅니다.
 uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '967'
 ht-degree: 55%
 
 ---
@@ -96,7 +96,7 @@ eCatalog에 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 
 ## 목차 사용자 지정(TOC) {#customizing-the-table-of-contents-toc}
 
-Dynamic Media Classic은 eCatalog 화면의 Order Pages 탭에 있는 eCatalog에 기본 페이지 번호를 제공합니다. 사용자 지정 페이지 이름의 경우 TOC(목차)를 구성하는 페이지 레이블을 변경할 수 있습니다. 앞 표지와 뒤 표지의 이름을 바꾸는 것이 좋습니다. 예를 들어 전면 표지 페이지에서는 &quot;Page 0-1&quot; 대신 &quot;Cover&quot;를 읽을 수 있습니다.
+Adobe Dynamic Media Classic은 eCatalog 화면의 Order Pages 탭에 있는 eCatalog에 기본 페이지 번호를 제공합니다. 사용자 지정 페이지 이름의 경우 TOC(목차)를 구성하는 페이지 레이블을 변경할 수 있습니다. 앞 표지와 뒤 표지의 이름을 바꾸는 것이 좋습니다. 예를 들어 전면 표지 페이지에서는 &quot;Page 0-1&quot; 대신 &quot;Cover&quot;를 읽을 수 있습니다.
 
 CSV(Mac에만 해당) 또는 XML 파일에서 페이지 이름을 가져오거나 수동으로 eCatalog에 대한 사용자 지정 TOC(목차)를 만들 수 있습니다.
 

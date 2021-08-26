@@ -10,16 +10,16 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '429'
 ht-degree: 13%
 
 ---
 
 # HTML5 비디오 뷰어 사용 우수 사례{#best-practice-using-the-html-video-viewer}
 
-Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 강력한 비디오 플레이어입니다. 플레이어의 디자인 측면에서는 표준 웹 개발 도구를 사용하여 비디오 플레이어의 전체 기능을 만들 수 있습니다. 예를 들어 HTML5 및 CSS를 사용하여 단추, 컨트롤 및 사용자 지정 포스터 이미지 배경을 디자인하면 사용자 지정된 모습으로 고객 범위를 넓힐 수 있습니다.
+Adobe Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 강력한 비디오 플레이어입니다. 플레이어의 디자인 측면에서는 표준 웹 개발 도구를 사용하여 비디오 플레이어의 전체 기능을 만들 수 있습니다. 예를 들어 HTML5 및 CSS를 사용하여 단추, 컨트롤 및 사용자 지정 포스터 이미지 배경을 디자인하면 사용자 지정된 모습으로 고객 범위를 넓힐 수 있습니다.
 
 뷰어의 재생 측면에서 브라우저의 비디오 기능을 자동으로 검색합니다. 그런 다음 응용 비디오 스트리밍이라고도 하는 HLS(HTTP Live Streaming)를 사용하여 비디오를 제공합니다. 또는 해당 전달 방법이 없으면 HTML5 점진적 기능이 대신 사용됩니다.
 
@@ -33,13 +33,13 @@ Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 강력한 비디�
 
 Adobe 뷰어 참조 가이드의 [HTML5 뷰어 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)도 참조하십시오.
 
-## Dynamic Media Classic 비디오 뷰어를 사용하여 데스크탑 컴퓨터 및 모바일 장치에서 비디오 재생 {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
+## Adobe Dynamic Media Classic 비디오 뷰어를 사용하여 데스크탑 컴퓨터 및 모바일 장치에서 비디오 재생 {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
 데스크탑 및 모바일 적응형 비디오 스트리밍의 경우 비트율 전환에 사용되는 비디오는 응용 비디오 세트의 모든 MP4 비디오를 기반으로 합니다.
 
 비디오 재생은 HLS 또는 점진적 비디오를 사용하여 발생합니다. HLS(HTTP Live Streaming)는 네트워크 대역폭 용량에 따라 재생을 자동으로 조정하는 응용 비디오 스트리밍을 위한 Apple 표준입니다. 또한 고객이 나머지 비디오가 다운로드될 때까지 기다릴 필요 없이 비디오의 모든 지점을 &quot;찾기&quot;할 수 있습니다. [HTTP 라이브 스트리밍](https://developer.apple.com/streaming/)도 참조하십시오. 점진적 비디오는 사용자의 데스크탑 화면이나 모바일 장치에 로컬로 비디오를 다운로드하여 저장하여 전달됩니다.
 
-다음 표에서는 Dynamic Media Classic 비디오 뷰어를 사용하는 데스크톱 컴퓨터 및 모바일 장치에서 비디오의 장치, 브라우저 및 재생 방법에 대해 설명합니다.
+다음 표에서는 Adobe Dynamic Media Classic 비디오 뷰어를 사용하여 데스크탑 컴퓨터 및 모바일 장치에서 비디오를 재생하는 장치, 브라우저 및 재생 방법에 대해 설명합니다.
 
 | 장치 | 브라우저 | 비디오 재생 모드 |
 |--- |--- |--- |

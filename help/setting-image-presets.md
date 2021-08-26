@@ -7,12 +7,12 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 1ec39fe5-7b2a-4034-9570-6b5595f97052
-feature: Dynamic Media Classic,이미지 사전 설정
+feature: Dynamic Media Classic,Image Presets
 role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '655'
 ht-degree: 66%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 66%
 
 매크로와 마찬가지로 이미지 사전 설정은 특정 이름으로 저장된 사전 정의된 크기 및 형식 지정 명령 모음입니다. 이미지 사전 설정의 작동 방식을 이해하려면 웹 사이트에서 각 제품 이미지가 500x500 픽셀과 150x150 픽셀의 두 가지 크기로 표시되어야 한다고 가정해 보십시오. 두 개의 이미지 사전 설정, 즉 500x500 픽셀에서 이미지를 표시하기 위한 &quot;확대&quot; 이미지 사전 설정과 150x150 픽셀에서 이미지를 표시하기 위한 &quot;썸네일&quot; 이미지 사전 설정을 만듭니다. 이미지를 &quot;확대&quot; 및 &quot;축소판&quot; 크기로 전달하려면 Dynamic Media 이미지 서버가 이미지 사전 설정 확대 및 축소판 이미지 사전 설정의 정의를 확인합니다. 그런 다음 각 이미지 사전 설정의 크기 및 형식 지정 사양에 따라 이미지를 동적으로 생성합니다.
 
-Dynamic Media Classic에는 사용할 수 있도록 이미 설정된 몇 가지 &quot;모범 사례&quot; 이미지 사전 설정이 포함되어 있습니다. 관리자는 새 이미지 사전 설정을 만들 수도 있습니다. 이미지 사전 설정을 만들려면 처음부터 시작하거나 기존 이미지 사전 설정에서 시작하여 새 이름으로 저장합니다.
+Adobe Dynamic Media Classic에는 사용할 수 있도록 이미 설정된 몇 가지 &quot;우수 사례&quot; 이미지 사전 설정이 포함되어 있습니다. 관리자는 새 이미지 사전 설정을 만들 수도 있습니다. 이미지 사전 설정을 만들려면 처음부터 시작하거나 기존 이미지 사전 설정에서 시작하여 새 이름으로 저장합니다.
 
 서버에서 동적으로 제공될 때 크기가 축소된 이미지는 선명도와 세부 사항이 손실될 수 있습니다. 이 때문에 각 이미지 사전 설정에는 특정 크기로 제공 시 이미지를 최적화하기 위한 형식 지정 컨트롤이 포함되어 있습니다. 이러한 컨트롤을 사용하면 이미지를 웹 사이트나 애플리케이션에 제공할 때 선명하게 유지할 수 있습니다.
 
@@ -47,10 +47,10 @@ Dynamic Media Classic에는 사용할 수 있도록 이미 설정된 몇 가지 
 1. [너비] 및 [높이] 측정값을 픽셀 단위로 입력합니다. 이러한 측정값은 제공되는 이미지의 크기를 결정합니다.
 1. [사전 설정 추가] 또는 [사전 설정 편집] 화면에 정보를 입력합니다. 자세한 내용은 [이미지 사전 설정 선택 사항](application-setup.md#image_preset_options)을 참조하십시오.
 
-   Dynamic Media Classic에서는 다음과 같은 &quot;우수 사례&quot; 선택 사항을 시작할 것을 권장합니다.
+   Dynamic Media Classic Adobe에서는 다음과 같은 &quot;우수 사례&quot; 선택 사항을 시작할 것을 권장합니다.
 
    * ****
-형식요구 사항을 충족하는 JPEG 또는 다른 형식을 선택하십시오. JPEG 이미지 형식은 모든 웹 브라우저에서 지원되며, 작은 파일 크기와 이미지 품질의 적절한 균형을 유지합니다. 그러나 JPEG 형식 이미지는 손실 있는 압축 구성을 사용하므로 압축 설정이 너무 낮으면 불필요한 이미지 아티팩트가 발생할 수 있습니다. 이러한 이유로 Dynamic Media Classic에서는 슬라이더에서 압축 품질을 75로 설정할 것을 권장합니다. 이 설정은 이미지 품질과 작은 파일 크기의 적절한 균형을 유지합니다.
+형식요구 사항을 충족하는 JPEG 또는 다른 형식을 선택하십시오. JPEG 이미지 형식은 모든 웹 브라우저에서 지원되며, 작은 파일 크기와 이미지 품질의 적절한 균형을 유지합니다. 그러나 JPEG 형식 이미지는 손실 있는 압축 구성을 사용하므로 압축 설정이 너무 낮으면 불필요한 이미지 아티팩트가 발생할 수 있습니다. 이러한 이유로 Adobe Dynamic Media Classic에서는 슬라이더에서 압축 품질을 75로 설정할 것을 권장합니다. 이 설정은 이미지 품질과 작은 파일 크기의 적절한 균형을 유지합니다.
 
    * ****
 선명도 선택 안 함(이 선명도 필터는 언샵 마스킹 설정보다 덜 제어함).
@@ -69,7 +69,7 @@ Dynamic Media Classic에는 사용할 수 있도록 이미 설정된 몇 가지 
 
 1. **[저장]**&#x200B;을 클릭합니다.
 
-여기에 나열된 이미지 사전 설정을 만들기 위한 Dynamic Media Classic &quot;우수 사례&quot; 옵션은 일반적인 권장 사항입니다.선명하게 하는 것은 매우 주관적입니다. 이 &quot;우수 사례&quot; 설정은 2000x2000 마스터 이미지를 기준으로 작성되었습니다. 더 크거나 작은 마스터의 설정은 이와 다를 수 있습니다. 언샵 마스킹 설정을 조정하려는 경우 Dynamic Media Classic에서는 다음 범위를 권장합니다.
+여기에 나열된 이미지 사전 설정을 만들기 위한 Adobe Dynamic Media Classic &quot;우수 사례&quot; 옵션은 일반적인 권장 사항입니다. 선명하게 하는 것은 매우 주관적입니다. 이 &quot;우수 사례&quot; 설정은 2000x2000 마스터 이미지를 기준으로 작성되었습니다. 더 크거나 작은 마스터의 설정은 이와 다를 수 있습니다. 언샵 마스킹 설정을 조정하려는 경우 Dynamic Media Classic에서 다음 범위를 권장합니다.
 
 * ****
 AmountBetween.8 ~ 1.5.
@@ -85,6 +85,6 @@ RadiusBetween.6~2.
 >[!MORELIKETHIS]
 >
 >* [이미지 사전 설정 만들기 및 편집](application-setup.md#creating_and_editing_image_presets)
-* [이미지 사전 설정 선택 사항](application-setup.md#image_preset_options)
-* [이미지 사전 설정을 기준으로 이미지 자산 미리 보기](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
+>* [이미지 사전 설정 선택 사항](application-setup.md#image_preset_options)
+>* [이미지 사전 설정을 기준으로 이미지 자산 미리 보기](previewing-asset.md#previewing_an_image_asset_based_on_its_image_preset)
 

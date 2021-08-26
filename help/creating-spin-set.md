@@ -1,6 +1,6 @@
 ---
 title: 스핀 세트 만들기
-description: Dynamic Media Classic에서 스핀 세트를 만드는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 스핀 세트를 만드는 방법을 알아봅니다.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: admin
 content-type: reference
@@ -10,24 +10,24 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 56%
+source-wordcount: '910'
+ht-degree: 55%
 
 ---
 
 # 스핀 세트 만들기{#creating-a-spin-set}
 
-효과적인 회전 집합을 만들려면 이미지를 올바르게 촬영해야 합니다. [빌드] 단추를 선택하고 [스핀 세트]를 선택하여 Dynamic Media Classic에서 스핀 세트를 만들 수 있습니다. [회전 집합] 화면에서 회전 집합을 편집합니다.
+효과적인 회전 집합을 만들려면 이미지를 올바르게 촬영해야 합니다. [빌드] 단추를 선택하고 [스핀 세트]를 선택하여 Adobe Dynamic Media Classic에서 스핀 세트를 만들 수 있습니다. [회전 집합] 화면에서 회전 집합을 편집합니다.
 
 >[!NOTE]
 >
->이전 버전의 Dynamic Media Classic에서는 2차원 스핀 세트를 제공하지 않았습니다. 이전 버전의 Dynamic Media Classic에서 스핀 세트를 만든 경우, 먼저 다른 이름으로 저장하지 않고는 1차원 스핀 세트를 저장할 수 없습니다. 스핀 세트 화면에서 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택하고 Dynamic Media Classic에서 편집할 수 있도록 새 이름을 입력합니다.
+>이전 버전의 Adobe Dynamic Media Classic에서는 2차원 스핀 세트를 제공하지 않았습니다. 이전 버전의 Adobe Dynamic Media Classic에서 스핀 세트를 만든 경우, 먼저 다른 이름으로 저장하지 않고는 1차원 스핀 세트를 저장할 수 없습니다. 스핀 세트 화면에서 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택하고 새 이름을 입력하여 Adobe Dynamic Media Classic에서 편집할 수 있습니다.
 
 ## 회전 집합 이미지 촬영에 대한 지침 {#guidelines-for-shooting-spin-set-images}
 
-일반적으로 회전 집합에 있는 이미지 수가 많을수록 이미지 회전 효과가 향상됩니다. 그러나 집합에 많은 이미지를 포함하면 이미지를 로드하는 데 걸리는 시간도 증가합니다. Dynamic Media Classic에서는 스핀 세트에서 사용할 이미지를 촬영하기 위해 다음 지침을 권장합니다.
+일반적으로 회전 집합에 있는 이미지 수가 많을수록 이미지 회전 효과가 향상됩니다. 그러나 집합에 많은 이미지를 포함하면 이미지를 로드하는 데 걸리는 시간도 증가합니다. Adobe Dynamic Media Classic에서는 스핀 세트에서 사용할 이미지를 촬영하기 위해 다음 지침을 권장합니다.
 
 * 적어도, 1차원 스핀 세트에 8-12개의 이미지와 2차원 스핀 세트에 있는 16-24개의 이미지를 사용합니다.
 * 손실 없는 형식을 사용합니다. TIFF 및 PNG가 권장됩니다.
@@ -37,7 +37,7 @@ ht-degree: 56%
 
 ## 스핀 세트 만들기 {#create}
 
-Dynamic Media Classic에서 스핀 세트를 작성하거나 만들 순서는 중요합니다. 이미지를 [스핀 세트] 페이지의 그리드에 드래그 앤 드롭할 때 자산의 순서를 지정한 방법에 따라 스핀 세트가 특정 방향으로 회전합니다. 따라서 빌더에 시각적으로 표시되는 순서는 사용자가 마우스 포인터를 이동하거나 손가락을 왼쪽으로 이동할 때 자산이 회전하는 방식입니다.
+Adobe Dynamic Media Classic에서 스핀 세트를 작성하거나 만들 순서는 중요합니다. 이미지를 [스핀 세트] 페이지의 그리드에 드래그 앤 드롭할 때 자산의 순서를 지정한 방법에 따라 스핀 세트가 특정 방향으로 회전합니다. 따라서 빌더에 시각적으로 표시되는 순서는 사용자가 마우스 포인터를 이동하거나 손가락을 왼쪽으로 이동할 때 자산이 회전하는 방식입니다.
 
 세트를 만들 때, **[!UICONTROL 저장 후 게시]** 옵션은 다음과 같이 세트와 세트 구성원에 영향을 줍니다.
 

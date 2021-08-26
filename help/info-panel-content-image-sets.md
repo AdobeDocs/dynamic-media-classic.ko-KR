@@ -1,6 +1,6 @@
 ---
 title: 이미지 세트의 정보 패널 콘텐츠 관리
-description: Dynamic Media Classic에서 이미지 세트의 정보 패널 콘텐츠를 관리하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 이미지 세트의 정보 패널 콘텐츠를 관리하는 방법을 알아봅니다.
 uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '767'
 ht-degree: 51%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 51%
 
 이미지 집합에 롤오버의 이미지 맵 텍스트를 사용하는 것은 물론 정보 패널을 사용하여 링크를 비롯한 많은 롤오버 텍스트를 추가할 수도 있습니다. 시간 지정 캐싱과 컨텐츠 업데이트 예약을 사용하여 정보 패널을 관리할 수도 있습니다.
 
-Dynamic Media Classic의 다음 기능을 사용하여 InfoPanel 설정과 데이터를 관리할 수 있습니다.
+Adobe Dynamic Media Classic의 다음 기능을 사용하여 InfoPanel 설정과 데이터를 관리할 수 있습니다.
 
 * [정보 패널 설정] 패널에서는 정보 패널 텍스트, 오류에 대한 기본 응답 및 정보가 캐싱되는 시간 수를 표시하는 데 사용되는 템플릿을 지정할 수 있습니다. 또한 이미지 집합을 자동으로 게시할지 여부를 지정할 수 있습니다.
 * 정보 패널 데이터 피드 패널을 사용하면 정보 패널 롤오버 텍스트에 표시할 텍스트가 포함된 CSV 파일을 지정하고 정보 업데이트 시간을 예약할 수 있습니다.
@@ -40,7 +40,7 @@ Dynamic Media Classic의 다음 기능을 사용하여 InfoPanel 설정과 데�
    * 기본 응답을 사용하려면 **[!UICONTROL 기본값]**&#x200B;을 선택합니다. 템플릿 디자인의 XML이 [사용자 템플릿] 텍스트 상자에 희미하게 표시됩니다.
    * 자체 응답 템플릿을 만들려면 **[!UICONTROL 사용자 지정]**&#x200B;을 선택합니다. [사용자 템플릿] 텍스트 상자에 템플릿 XML 정의를 입력합니다. 이미 텍스트 상자에 정의된 기본 템플릿을 고유한 응답의 기초로 사용할 수 있습니다.
 
-1. (선택 사항) 기본 응답 상자에 Dynamic Media Classic에서 이미지 맵에 대한 정보를 검색하는 동안 오류가 발생하면 표시할 텍스트를 입력합니다. 예를 들어 시스템에 회사 이름과 이미지 집합 이름이 수신되었지만 롤오버 식별자가 수신되지 않은 경우 이 메시지가 사용자에게 표시됩니다.
+1. (선택 사항) 기본 응답 상자에 Adobe Dynamic Media Classic에서 이미지 맵에 대한 정보를 검색하는 동안 오류가 발생하면 표시할 텍스트를 입력합니다. 예를 들어 시스템에 회사 이름과 이미지 집합 이름이 수신되었지만 롤오버 식별자가 수신되지 않은 경우 이 메시지가 사용자에게 표시됩니다.
 1. [응답 TTL] 텍스트 필드에 데이터 캐싱 전에 대기할 시간을 입력합니다.
 
    * 하루 종일 데이터가 자주 업데이트되는 경우 더 작은 숫자를 설정합니다.

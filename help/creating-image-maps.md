@@ -1,6 +1,6 @@
 ---
 title: 이미지 맵 만들기
-description: Dynamic Media Classic에서 이미지 맵을 만드는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 이미지 맵을 만드는 방법을 알아봅니다.
 uuid: 0dcc4956-006e-4a74-9d6a-6d4bb23790ce
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2408'
-ht-degree: 51%
+source-wordcount: '2422'
+ht-degree: 50%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 51%
 
 이미지 맵은 이미지, eCatalog 페이지 또는 회전 집합 이미지의 영역으로, 텍스트가 있는 롤오버 패널을 표시합니다. 사용자가 이미지 맵을 선택하면 특정 종류의 작업이 트리거됩니다. 예를 들어 사용자가 제품에 대한 자세한 정보를 확인할 수 있도록 웹 페이지가 시작됩니다. 사용자가 포인터를 이미지 맵 위로 이동하면 이미지 맵 주위에 아웃라인이 표시됩니다.
 
-Dynamic Media Classic에서 이미지 맵을 만드는 기능 외에도, Adobe Acrobat 또는 Adobe InDesign에서 카탈로그를 디자인할 때 이미지 맵을 만들 수도 있습니다.
+Adobe Dynamic Media Classic에서 이미지 맵을 만드는 기능 외에도, Adobe Acrobat 또는 Adobe InDesign에서 카탈로그를 디자인할 때 이미지 맵을 만들 수도 있습니다.
 
 이미지 맵을 만들 때 다음 중 하나를 수행할 수 있습니다.
 
@@ -52,7 +52,7 @@ Dynamic Media Classic에서 이미지 맵을 만드는 기능 외에도, Adobe A
 
 1. 원하는 경우 [이미지 맵] 목록에 이미지 맵 이름을 입력합니다. 이미지 맵을 그리면 Dynamic Media Classic에서 이름을 지정합니다.
 
-   이 이름을 만들기 위해 Dynamic Media Classic에서는 작업 중인 이미지 또는 eCatalog 페이지의 이름에 순차적 번호를 추가합니다. 선택한 이름을 입력할 수 있습니다.
+   이 이름을 만들려면 Dynamic Media Classic Adobe에서 작업 중인 이미지 또는 eCatalog 페이지의 이름에 순차적 번호를 추가합니다. 선택한 이름을 입력할 수 있습니다.
 
 1. 사용자가 이미지 맵을 선택할 때 새 웹 페이지를 열려면 이미지 맵 목록에 URL을 입력합니다.
 
@@ -126,7 +126,7 @@ Dynamic Media Classic에서 이미지 맵을 만드는 기능 외에도, Adobe A
 
 ## 템플릿을 사용하여 JavaScript 및 URL을 입력합니다 {#using-a-template-to-enter-javascript-and-urls}
 
-보다 쉽고 효율적으로 이미지 맵 URL을 입력하기 위해 URL 템플릿(Href 템플릿이라고도 함)을 정의할 수 있습니다. 대부분의 이미지 맵 URL이 고정된 일반 형식을 공유하는 경우 URL 템플릿을 정의합니다. 고정된 URL 부분을 URL 템플릿으로 입력하면 이미지 맵을 만들 때마다 URL의 이 부분을 입력할 필요가 없습니다. URL 템플릿에 JavaScript 명령, 경로 이름 및 매개 변수를 포함할 수도 있습니다. 기본적으로 URL 템플릿에는 새 창에서 이미지를 여는 `loadProduct`이라는 독점 Dynamic Media Classic JavaScript 처리기가 포함되어 있습니다.
+보다 쉽고 효율적으로 이미지 맵 URL을 입력하기 위해 URL 템플릿(Href 템플릿이라고도 함)을 정의할 수 있습니다. 대부분의 이미지 맵 URL이 고정된 일반 형식을 공유하는 경우 URL 템플릿을 정의합니다. 고정된 URL 부분을 URL 템플릿으로 입력하면 이미지 맵을 만들 때마다 URL의 이 부분을 입력할 필요가 없습니다. URL 템플릿에 JavaScript 명령, 경로 이름 및 매개 변수를 포함할 수도 있습니다. 기본적으로 URL 템플릿에는 새 창에서 이미지를 여는 `loadProduct`이라는 독점 Adobe Dynamic Media Classic JavaScript 처리기가 포함되어 있습니다.
 
 >[!NOTE]
 >
@@ -146,7 +146,7 @@ URL 템플릿에 이미지 맵 간에 변경되지 않는 모든 값을 배치�
 * URL 값 - `product.htm`
 * 생성된 실제 URL - `javascript:loadProduct(‘https://www.examplesitehere.com/product.html);void(0);`
 
-기본적으로 URL 템플릿에는 URL 대상이 있는 새 창을 여는 `loadProduct`라는 고유한 Dynamic Media Classic JavaScript 처리기가 포함되어 있습니다. 그러나 JavaScript 코드를 사용하여 이 JavaScript 핸들러를 바꾸거나 다음 Dynamic Media Classic 핸들러 중 하나를 사용할 수 있습니다.
+기본적으로 URL 템플릿에는 URL 대상이 있는 새 창을 여는 `loadProduct`이라는 독점 Adobe Dynamic Media Classic JavaScript 처리기가 포함되어 있습니다. 그러나 JavaScript 코드를 사용하여 이 JavaScript 핸들러를 바꾸거나 다음 Adobe Dynamic Media Classic 핸들러 중 하나를 사용할 수 있습니다.
 
 * `loadProductCW` - URL 열에 지정된 URL 타겟을 현재 창에 표시합니다. 이 핸들러는 주로 웹 사이트 내의 페이지에 통합된 eCatalog에 사용됩니다.
 
@@ -192,7 +192,7 @@ URL 템플릿에 이미지 맵 간에 변경되지 않는 모든 값을 배치�
 
 Adobe Acrobat 또는 Adobe InDesign에서 eCatalog를 디자인하는 동안 이미지 맵을 만들 수 있습니다.
 
-Acrobat 또는 InDesign에서 이미지 맵을 표시할 하이퍼링크 참조를 만들고 이미지 맵의 URL 위치를 지정합니다. PDF 파일을 Dynamic Media Classic으로 업로드할 때 링크 추출 옵션을 선택하면 링크가 이미지 맵으로 자동으로 변환됩니다.
+Acrobat 또는 InDesign에서 이미지 맵을 표시할 하이퍼링크 참조를 만들고 이미지 맵의 URL 위치를 지정합니다. PDF 파일을 Adobe Dynamic Media Classic으로 업로드할 때 링크 추출 옵션을 선택하면 링크가 이미지 맵으로 자동으로 변환됩니다.
 
 자세한 내용은 Adobe InDesign 도움말 또는 Adobe Acrobat 도움말을 참조하십시오.
 
@@ -203,15 +203,15 @@ Acrobat 또는 InDesign에서 이미지 맵을 표시할 하이퍼링크 참조�
 1. 패널 메뉴에서 **[!UICONTROL 새 하이퍼링크]**&#x200B;를 선택합니다.
 1. 새 하이퍼링크 대화 상자의 **[!UICONTROL 연결 대상]** 메뉴에서 **[!UICONTROL URL]**&#x200B;을 선택합니다.
 1. URL 상자에 제품 ID를 입력하거나 붙여넣습니다.
-1. **[!UICONTROL 확인]**&#x200B;을 선택합니다. (Dynamic Media Classic에서는 이미지 맵 URL 템플릿을 사용하여 URL을 완료합니다.)
+1. **[!UICONTROL 확인]**&#x200B;을 선택합니다. (Adobe Dynamic Media Classic은 이미지 맵 URL 템플릿을 사용하여 URL을 완료합니다.)
 
    >[!NOTE]
    >
-   >Adobe InDesign에서 모양 옵션을 설정할 필요가 없습니다. Dynamic Media Classic에서 모양을 지정할 수 있습니다.
+   >Adobe InDesign에서 모양 옵션을 설정할 필요가 없습니다. Adobe Dynamic Media Classic에서 모양을 지정할 수 있습니다.
 
 1. 만들려는 모든 이미지 맵에 대해 2-6 단계를 반복합니다.
 1. 파일을 PDF로 내보냅니다.
-1. PDF를 Dynamic Media Classic에 업로드합니다.
+1. PDF를 Adobe Dynamic Media Classic에 업로드합니다.
 1. **[!UICONTROL PDF 옵션]**&#x200B;링크 추출&#x200B;]**을 선택합니다.**[!UICONTROL 
 
 ### Adobe Acrobat에서 이미지 맵 만들기 {#to-create-image-maps-in-adobe-acrobat}
@@ -222,11 +222,11 @@ Acrobat 또는 InDesign에서 이미지 맵을 표시할 하이퍼링크 참조�
 
 >[!NOTE]
 >
->Adobe Acrobat에서 모양 옵션을 설정할 필요가 없습니다. Dynamic Media Classic에서 모양을 지정할 수 있습니다.
+>Adobe Acrobat에서 모양 옵션을 설정할 필요가 없습니다. Adobe Dynamic Media Classic에서 모양을 지정할 수 있습니다.
 
 1. 링크 속성 상자에서 **[!UICONTROL 작업]**&#x200B;을 선택합니다.
 1. 작업 선택 메뉴에서 **[!UICONTROL 웹 링크 열기]**&#x200B;를 선택한 다음 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
-1. URL 편집 상자에 이미지 맵의 제품 ID를 입력하고 **[!UICONTROL 확인]**&#x200B;을 선택합니다. (Dynamic Media Classic에서는 이미지 맵 URL 템플릿을 사용하여 URL을 완료합니다.)
+1. URL 편집 상자에 이미지 맵의 제품 ID를 입력하고 **[!UICONTROL 확인]**&#x200B;을 선택합니다. (Adobe Dynamic Media Classic은 이미지 맵 URL 템플릿을 사용하여 URL을 완료합니다.)
 1. 만들려는 모든 이미지 맵에 대해 1-7 단계를 반복합니다.
 1. 파일을 저장합니다.
 1. PDF를 Dynamic Media Classic에 업로드하고 PDF 옵션에서 링크 추출 을 선택합니다.

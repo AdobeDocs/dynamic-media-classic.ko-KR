@@ -1,6 +1,6 @@
 ---
 title: 업로드 시 이미지 미세 조정 옵션
-description: Dynamic Media Classic에서 업로드 시 사용할 수 있는 이미지 미세 조정 옵션에 대해 알아봅니다.
+description: Adobe Dynamic Media Classic에서 업로드 시 사용할 수 있는 이미지 미세 조정 옵션에 대해 알아봅니다.
 uuid: 0912ae6f-41c9-41b5-94d1-e266face782e
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: d3f21cdf-2cb3-46e8-955a-b8daf0b233bc
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 2d9fc6d8-973f-4aaa-bc2c-b49cda2cde58
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1166'
 ht-degree: 54%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 54%
 
 * **[!UICONTROL 원래 색상 공간 유지]**  - 원래 색상 공간을 유지합니다.
 
-* **[!UICONTROL 사용자 지정 시작]**  >  **[!UICONTROL 대상]**  - [변환]과 [색상 공간으로 변환]을 선택할 수 있는 메뉴를 엽니다. 표준 Photoshop 색상 공간 또는 Dynamic Media Classic에 업로드한 색상 공간을 선택할 수 있습니다.
+* **[!UICONTROL 사용자 지정 시작]**  >  **[!UICONTROL 대상]**  - [변환]과 [색상 공간으로 변환]을 선택할 수 있는 메뉴를 엽니다. 표준 Photoshop 색상 공간 또는 Adobe Dynamic Media Classic에 업로드한 색상 공간을 선택할 수 있습니다.
 
 [ICC 프로필](icc-profiles.md#icc_profiles)을 참조하십시오.
 
@@ -76,7 +76,7 @@ ht-degree: 54%
 
 | 언샵 마스크 옵션 | 설명 |
 | --- | --- |
-| 금액 | 가장자리 픽셀에 적용되는 대비 양을 제어합니다.<br><br>효과의 강도로 생각하십시오. Dynamic Media Classic의 언샵 마스크 값과 Adobe Photoshop의 금액 값의 주요 차이점은 Photoshop의 크기가 1%~500%라는 것입니다. Dynamic Media Classic에서 값 범위는 0.0~5.0입니다. Dynamic Media Classic의 값 5.0은 Photoshop의 대략적인 값 500%와 같습니다. 0.9값은 90%와 같은 값입니다. |
+| 금액 | 가장자리 픽셀에 적용되는 대비 양을 제어합니다.<br><br>효과의 강도로 생각하십시오. Adobe Dynamic Media Classic의 언샵 마스크 값과 Adobe Photoshop의 금액 간의 주요 차이점은 Photoshop의 크기가 1%~500%라는 것입니다. Adobe Dynamic Media Classic에서 값 범위는 0.0~5.0입니다. Adobe Dynamic Media Classic의 값 5.0은 Photoshop의 500%와 거의 같습니다. 0.9값은 90%와 같은 값입니다. |
 | 반경 | 효과의 반경을 제어합니다. <br><br>값 범위는 0-250입니다. 효과는 이미지의 모든 픽셀에서 실행되고, 모든 픽셀에서 모든 방향으로 퍼져 나갑니다. 반경은 픽셀 단위로 측정됩니다. 예를 들어 2000 x 2000 픽셀 이미지와 500 x 500 픽셀 이미지에 대해 비슷한 선명하게 하기 효과를 가져오려면 200 x 2000 픽셀 이미지에 두 픽셀의 반경을 설정합니다. 그런 다음 500 x 500 픽셀 이미지에 한 픽셀의 반경 값을 설정합니다. 픽셀이 더 많은 이미지에는 더 큰 값이 사용됩니다. |
 | 임계값 | 임계값은 언샵 마스크 필터가 적용될 때 무시되는 대비 범위입니다. 이 필터를 사용할 때 이미지에 &quot;노이즈&quot;가 도입되지 않도록 이 효과가 중요합니다. 값 범위는 회색 음영 이미지의 밝기 단계 수인 0-255입니다. 0=검정, 128=50% 회색, 255=흰색입니다. <br><br>예를 들어 임계값 12는 노이즈를 추가하지 않도록 피부 톤 밝기에서의 약간의 차이를 무시하지만, 속눈썹이 피부와 접촉하는 지점과 같은 대비 영역에는 여전히 가장자리 대비를 추가합니다.<br><br>예를 들어, 누군가의 얼굴 사진이 있는 경우 [언샵 마스크]는 이미지의 수축 부분에 영향을 줍니다. 예를 들어, 속눈썹과 피부의 접촉은 뚜렷한 대조 영역과 부드러운 피부 자체를 만들어 냅니다. 가장 부드러운 피부조차도 밝기 값에서 미묘한 변화가 일어납니다. 임계값을 사용하지 않는 경우, 필터는 피부 픽셀에서 이러한 미묘한 변화를 강조합니다. 결국, 선명도가 높아지면서 속눈썹의 대비가 증가하여 노이즈가 있는 원치 않는 효과가 만들어집니다.<br><br>이 문제를 방지하기 위해 필터가 부드러운 피부와 같이 대비가 크게 변하지 않는 픽셀을 무시하도록 지정하는 임계값이 도입되었습니다. <br><br>이전에 표시된 지퍼 그래픽에서, 지퍼 옆에 있는 텍스처를 보십시오. 이미지 노이즈는 임계값이 너무 낮아 노이즈를 억제할 수 없어서 표시됩니다. |
 | 모노크롬 | 이미지 밝기(강도)를 언샵 마스킹하려면 선택합니다.<br><br>각 색상 구성 요소를 개별적으로 언샵 마스킹하려면 선택을 취소합니다. |

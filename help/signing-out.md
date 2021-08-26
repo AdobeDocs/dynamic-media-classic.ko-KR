@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '228'
-ht-degree: 7%
+source-wordcount: '230'
+ht-degree: 6%
 
 ---
 
@@ -19,15 +19,15 @@ ht-degree: 7%
 
 # Adobe Dynamic Media Classic에 로그인 {#dmc-sign-in}
 
-Dynamic Media Classic 데스크탑 애플리케이션을 사용하기 전에 다음 사항이 있는지 확인하십시오.
+Adobe Dynamic Media Classic 데스크탑 애플리케이션을 사용하기 전에 다음 사항이 있는지 확인하십시오.
 
 * **사용자 이름**  - 이메일 주소를 로그인 이름으로 사용합니다.
 
-* **암호**  - Dynamic Media Classic 또는 Dynamic Media Classic 관리자의 &quot;시작&quot; 전자 메일에서 임시 암호를 가져옵니다. 처음 로그인하면 이 임시 암호를 변경하라는 메시지가 표시됩니다.
+* **암호**  - Dynamic Media Classic Adobe 또는 Adobe Dynamic Media Classic 관리자로부터 &quot;시작&quot; 전자 메일로 임시 암호를 얻습니다. 처음 로그인하면 이 임시 암호를 변경하라는 메시지가 표시됩니다.
 
 1. Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 엽니다.
 
-   ![Dynamic Media Classic 로그인](/help/assets/dmclassic-login1.png)
+   ![Dynamic Media Classic 로그인 Adobe](/help/assets/dmclassic-login1.png)
 
 1. **[!UICONTROL 사용자 이름]** 필드에 전자 메일 주소를 입력합니다.
 1. **[!UICONTROL 암호]** 필드에 암호를 입력합니다.
@@ -44,9 +44,9 @@ Dynamic Media Classic 데스크탑 애플리케이션을 사용하기 전에 다
 
 ## Adobe Dynamic Media Classic에서 로그아웃 {#dmc-sign-out}
 
-1. Dynamic Media Classic 데스크탑 애플리케이션의 오른쪽 위 모서리에서 **[!UICONTROL 로그아웃]**&#x200B;을 탭한 다음 **[!UICONTROL 로그아웃]**&#x200B;을 다시 탭합니다.
+1. Adobe Dynamic Media Classic 데스크탑 응용 프로그램의 오른쪽 위 모서리에서 **[!UICONTROL 로그아웃]**&#x200B;을 탭한 다음 **[!UICONTROL 로그아웃]**&#x200B;을 다시 탭합니다.
 
 >[!MORELIKETHIS]
 >
->* [개인 설정](personal-setup.md#personal_setup)
+>* [Personal Setup](personal-setup.md#personal_setup)
 

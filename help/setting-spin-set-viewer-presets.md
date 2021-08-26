@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 9dfaa37a-59ab-46ae-94c3-c0ab9f940023
-feature: Dynamic Media Classic,뷰어,스핀 세트,뷰어 사전 설정
+feature: Dynamic Media Classic,Viewers,Spin Sets,Viewer Presets
 role: User
 exl-id: cb9e996c-ab90-4656-8e93-5e7cbeeadb7f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 31%
+source-wordcount: '233'
+ht-degree: 32%
 
 ---
 
 # 회전 집합 뷰어 사전 설정 지정{#setting-up-spin-set-viewer-presets}
 
-회전 집합 뷰어 사전 설정은 뷰어의 스타일, 동작 및 모양을 결정합니다. Dynamic Media Classic에는 기본 스핀 세트 뷰어 사전 설정이 포함되어 있습니다. 관리자는 고유한 회전 집합 뷰어 사전 설정을 만들 수도 있습니다. 다른 색상, 테두리, 글꼴 및 이미지 설정을 사용하여 회전 집합 뷰어 사전 설정을 구성할 수 있습니다.
+회전 집합 뷰어 사전 설정은 뷰어의 스타일, 동작 및 모양을 결정합니다. Adobe Dynamic Media Classic에는 기본 스핀 세트 뷰어 사전 설정이 포함되어 있습니다. 관리자는 고유한 회전 집합 뷰어 사전 설정을 만들 수도 있습니다. 다른 색상, 테두리, 글꼴 및 이미지 설정을 사용하여 회전 집합 뷰어 사전 설정을 구성할 수 있습니다.
 
 **스핀 세트 뷰어 사전 설정을 만들려면:**
 
@@ -44,5 +44,5 @@ ht-degree: 31%
 
 >[!MORELIKETHIS]
 >
->* [뷰어 사전 설정](application-setup.md#viewer_presets)
+>* [Viewer Presets](application-setup.md#viewer_presets)
 

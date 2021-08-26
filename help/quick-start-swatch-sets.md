@@ -7,27 +7,27 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
 discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
-feature: Dynamic Media Classic,뷰어
+feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '390'
 ht-degree: 35%
 
 ---
 
 # 빠른 시작: 견본 집합{#quick-start-swatch-sets}
 
-Dynamic Media Classic 견본 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 견본 집합 뷰어에서 사용자가 썸네일을 클릭하기만 하면 다른 색상, 재질, 텍스처, 마무리 또는 패브릭으로 렌더링된 항목을 볼 수 있습니다.
+Adobe Dynamic Media Classic 견본 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 견본 집합 뷰어에서 사용자가 썸네일을 클릭하기만 하면 다른 색상, 재질, 텍스처, 마무리 또는 패브릭으로 렌더링된 항목을 볼 수 있습니다.
 
-이 견본 집합 빠른 시작은 Dynamic Media Classic의 견본 집합 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
+이 견본 집합 빠른 시작은 Adobe Dynamic Media Classic의 견본 집합 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
 
 ## 1. 이미지 및 견본 파일 업로드
 
 먼저 견본 집합에 사용할 이미지와 견본 파일을 업로드합니다.
 
-전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 클릭하여 컴퓨터의 파일을 Dynamic Media Classic의 폴더로 업로드합니다. [업로드할 견본 집합 자산 준비](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) 및 [파일 업로드](uploading-files.md#uploading-your-files)를 참조하십시오.
+전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 클릭하여 컴퓨터의 파일을 Adobe Dynamic Media Classic의 폴더에 업로드합니다. [업로드할 견본 집합 자산 준비](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) 및 [파일 업로드](uploading-files.md#uploading-your-files)를 참조하십시오.
 
 ## 2. 견본 집합 만들기
 
@@ -35,7 +35,7 @@ Dynamic Media Classic 견본 세트는 사용자에게 통합된 보기 환경�
 
 ## 3. 견본 집합 뷰어 사전 설정 설정
 
-관리자는 이미지 집합 뷰어 사전 설정을 만들거나 수정할 수 있습니다. Dynamic Media Classic에는 각 리치 미디어 유형에 대한 기본 뷰어 사전 설정이 포함되어 있습니다. [확대/축소 뷰어: 사용자 지정] > [이미지 집합/색상 견본] 사전 설정을 사용하여 견본 집합을 봅니다.
+관리자는 이미지 집합 뷰어 사전 설정을 만들거나 수정할 수 있습니다. Adobe Dynamic Media Classic에는 각 리치 미디어 유형에 대한 기본 뷰어 사전 설정이 포함되어 있습니다. [확대/축소 뷰어: 사용자 지정] > [이미지 집합/색상 견본] 사전 설정을 사용하여 견본 집합을 봅니다.
 
 [뷰어 사전 설정 만들기 및 편집](application-setup.md#adding-and-editing-viewer-presets)을 참조하십시오.
 
@@ -47,14 +47,14 @@ Dynamic Media Classic 견본 세트는 사용자에게 통합된 보기 환경�
 
 ## 5. 견본 집합 게시
 
-견본 세트를 게시하면 Dynamic Media Classic 서버에 해당 견본 세트가 배치되고 URL 문자열이 활성화됩니다.
+견본 세트를 게시하면 Adobe Dynamic Media Classic 서버에 해당 견본 세트가 배치되고 URL 문자열이 활성화됩니다.
 
-찾아보기 패널에서 해당 이름의 왼쪽에 있는 **[!UICONTROL 게시용으로 표시]** 아이콘을 클릭합니다.그런 다음 **[!UICONTROL 게시]**&#x200B;를 클릭합니다. 게시 페이지에서 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
+찾아보기 패널에서 해당 이름의 왼쪽에 있는 **[!UICONTROL 게시용으로 표시]** 아이콘을 클릭합니다. 그런 다음 **[!UICONTROL 게시]**&#x200B;를 클릭합니다. 게시 페이지에서 **[!UICONTROL 게시]**&#x200B;를 클릭합니다.
 
 [게시](publishing-files.md#publishing-files)를 참조하십시오.
 
 ## 6. 견본 세트를 웹 페이지에 연결
 
-Dynamic Media Classic은 견본 세트에 대한 URL 호출을 만들며 게시 후 활성화합니다. 미리 보기 페이지에서 이러한 URL을 복사할 수 있습니다.
+Adobe Dynamic Media Classic은 견본 세트에 대한 URL 호출을 생성하고 게시 후 활성화합니다. 미리 보기 페이지에서 이러한 URL을 복사할 수 있습니다.
 
 견본 집합을 선택한 다음 [미리 보기] 단추를 선택합니다. 미리 보기 페이지가 열립니다. 견본 집합 뷰어 사전 설정을 선택한 다음 [URL 복사] 단추를 선택합니다. [견본 집합을 웹 페이지에 연결](linking-swatch-set-web-page.md#linking-a-swatch-set-to-a-web-page)을 참조하십시오.

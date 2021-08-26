@@ -1,19 +1,19 @@
 ---
 title: 프로젝트를 사용하여 작업 구성
-description: 프로젝트를 사용하여 작업을 구성하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 프로젝트를 사용하여 작업을 구성하는 방법을 알아봅니다.
 uuid: bd2b1792-e2d9-4a15-90c1-8ef2cf632867
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: 036dfc1f-8317-4887-a6e1-d8f2cb61819c
-feature: Dynamic Media Classic,자산 관리
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 38%
+source-wordcount: '483'
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->Dynamic Media Classic에서는 프로젝트가 아닌 메타데이터로 자산을 구성할 것을 권장합니다. [메타데이터 보기, 추가 및 내보내기](viewing-adding-exporting-metadata.md)를 참조하십시오.
+>Adobe Dynamic Media Classic에서는 프로젝트가 아닌 메타데이터로 자산을 구성할 것을 권장합니다. [메타데이터 보기, 추가 및 내보내기](viewing-adding-exporting-metadata.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -35,15 +35,15 @@ ht-degree: 38%
 
 ## 프로젝트 폴더 만들기 {#creating-a-project-folder}
 
-Assets 라이브러리에서 시작하거나 Dynamic Media Classic에 파일을 업로드할 때 프로젝트 폴더를 만들 수 있습니다.
+Assets 라이브러리에서 시작하거나 Adobe Dynamic Media Classic에 파일을 업로드할 때 프로젝트 폴더를 만들 수 있습니다.
 
-* **자산 라이브러리**  - 자산 라이브러리 아래쪽으로 스크롤하여 프로젝트 섹션으로 이동한 다음 프로젝트  **[!UICONTROL 추가]**&#x200B;를 클릭합니다. 프로젝트 이름을 입력합니다.
+* **자산 라이브러리**  - 자산 라이브러리 아래쪽으로 스크롤하여 프로젝트 섹션으로 이동한 다음 프로젝트  **[!UICONTROL 추가]**&#x200B;를 선택합니다. 프로젝트 이름을 입력합니다.
 
-* **파일 업로드 시**  - 업로드 화면에서  **[!UICONTROL 프로젝트에 추가]**  >  **[!UICONTROL 프로젝트 만들기]**&#x200B;를 클릭합니다. 프로젝트 이름을 입력합니다.
+* **파일을 업로드할 때**  - 업로드 화면에서  **[!UICONTROL 프로젝트에 추가]**  >  **[!UICONTROL 프로젝트 만들기]**&#x200B;로 이동합니다. 프로젝트 이름을 입력합니다.
 
 >[!NOTE]
 >
->자산 라이브러리의 프로젝트 영역은 단일 수준 폴더 목록입니다.하위 폴더는 허용하지 않습니다.
+>자산 라이브러리의 프로젝트 영역은 단일 수준 폴더 목록입니다. 하위 폴더는 허용하지 않습니다.
 
 ## 프로젝트 폴더 작업 {#working-with-project-folders}
 
@@ -51,14 +51,14 @@ Assets 라이브러리에서 시작하거나 Dynamic Media Classic에 파일을 
 
 * **컨텐츠 찾아보기**  - 자산 라이브러리에서 폴더 이름을 선택합니다. 해당 자산이 찾아보기 패널에 표시됩니다.
 
-* **프로젝트 폴더 삭제**  - 프로젝트 폴더를 선택한 다음 프로젝트  **[!UICONTROL 제거 를 클릭합니다]**. 프로젝트 폴더에서 자산을 삭제해도 Dynamic Media Classic에서 삭제되지 않습니다.자산은 저장된 원래 폴더에 유지됩니다.
+* **프로젝트 폴더 삭제**  - 프로젝트 폴더를 선택한 다음 프로젝트  **[!UICONTROL 제거 를 선택합니다]**. 프로젝트 폴더에서 자산을 삭제해도 Adobe Dynamic Media Classic에서 삭제되지 않습니다. 자산은 저장된 원래 폴더에 유지됩니다.
 
 * **프로젝트 폴더 이름 바꾸기**  - 자산 패널에서 폴더 이름을 두 번 클릭한 다음 새 이름을 입력합니다.
 
 ## 프로젝트 폴더에 자산 추가 {#adding-assets-to-a-project-folder}
 
-찾아보기 패널에서 시작하거나 Dynamic Media Classic에 파일을 업로드할 때 프로젝트 폴더에 이미지를 추가할 수 있습니다.
+찾아보기 패널에서 시작하거나 Adobe Dynamic Media Classic에 파일을 업로드할 때 프로젝트 폴더에 이미지를 추가할 수 있습니다.
 
-* **찾아보기 패널에서**  자산을 선택하고 프로젝트 폴더로 드래그합니다. **[!UICONTROL 파일]** > **[!UICONTROL 프로젝트에 추가]**&#x200B;를 클릭할 수도 있습니다. 프로젝트 선택 대화 상자에서 프로젝트 폴더 이름을 선택한 다음 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+* **찾아보기 패널에서**  자산을 선택하고 프로젝트 폴더로 드래그합니다. **[!UICONTROL 파일]** > **[!UICONTROL 프로젝트에 추가]**&#x200B;로 이동할 수도 있습니다. 프로젝트 선택 대화 상자에서 프로젝트 폴더 이름을 선택한 다음 **[!UICONTROL 제출]**&#x200B;을 선택합니다.
 
-* **파일을 업로드할 때**  - 업로드 페이지에서  **[!UICONTROL 작업 옵션]**&#x200B;을 클릭합니다. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 프로젝트]**&#x200B;를 클릭한 다음 프로젝트 이름을 선택합니다.
+* **파일을 업로드할 때**  - 업로드 페이지에서  **[!UICONTROL 작업 옵션]**&#x200B;을 선택합니다. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 프로젝트]**&#x200B;를 선택한 다음 프로젝트 이름을 선택합니다.

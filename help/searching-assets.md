@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
-feature: Dynamic Media Classic,자산 관리
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1491'
 ht-degree: 24%
 
 ---
 
 # 자산 검색{#searching-assets}
 
-Dynamic Media Classic에서 파일 자산을 찾으려면 유형별로 자산을 보고, 찾아보기 패널에서 자산을 정렬하고, 간단한 검색을 수행하고, 고급 검색을 수행하고, 자산을 필터링할 수 있습니다.
+Adobe Dynamic Media Classic에서 파일 자산을 찾으려면 유형별로 자산을 보고, 찾아보기 패널에서 자산을 정렬하고, 간단한 검색을 수행하고, 고급 검색을 수행하고, 자산을 필터링할 수 있습니다.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ Dynamic Media Classic에서 파일 자산을 찾으려면 유형별로 자산을
 
 >[!NOTE]
 >
->왼쪽에 자산 라이브러리 패널이 보이지 않는 경우 왼쪽에 있는 오른쪽 삼각형 화살표를 클릭하고 Dynamic Media Classic 창을 아래쪽 절반 가량으로 클릭하여 자산 라이브러리를 엽니다.)
+>왼쪽에 자산 라이브러리 패널이 보이지 않는 경우 왼쪽에 있는 오른쪽 삼각형 화살표를 클릭하고 Dynamic Media Classic Adobe 창을 아래쪽 절반을 클릭하여 자산 라이브러리를 엽니다.)
 
 ## 찾아보기 패널에서 파일 정렬 {#sorting-files-in-the-browse-panel}
 
@@ -55,7 +55,7 @@ Dynamic Media Classic에서 파일 자산을 찾으려면 유형별로 자산을
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >
->Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, click **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
 
 ## 고급 검색 수행 {#conducting-an-advanced-search}
 
@@ -65,7 +65,7 @@ Dynamic Media Classic에서 파일 자산을 찾으려면 유형별로 자산을
 
 * **자산 유형별로 필터링**  - 메뉴에서 자산 유형을 선택하여 검색 범위를 하나의 자산 유형으로만 좁힙니다.
 
-* **파일 및 폴더**  - 검색할 위치를 선택합니다. **[!UICONTROL 모든 파일 및 폴더 내]**,  **[!UICONTROL 선택한 폴더 내]** 또는  **[!UICONTROL 선택한 폴더 및 하위 폴더 내]**.
+* **파일 및 폴더**  - 검색할 위치를 선택합니다.  **[!UICONTROL 모든 파일 및 폴더 내]**,  **[!UICONTROL 선택한 폴더 내]** 또는  **[!UICONTROL 선택한 폴더 및 하위 폴더 내]**.
 
 * **모든 게시 상태**  - 게시할 준비가 되어 있거나, 게시할 준비가 되어 있지 않거나, 모든 파일을 검색할 수 있습니다.
 
@@ -75,7 +75,7 @@ Dynamic Media Classic에서 파일 자산을 찾으려면 유형별로 자산을
 
    1. 고급 검색의 **[!UICONTROL 검색 기준]** 제목과 **[!UICONTROL 필드 추가]** 메뉴 왼쪽에 있는 아래쪽 삼각형 화살표 아이콘을 클릭하여 드롭다운 목록을 엽니다. 메타데이터 보기를 선택합니다. **[!UICONTROL 값이]**, **[!UICONTROL 작은 보기]**, **[!UICONTROL IPTC]**, **[!UICONTROL 메타데이터 서버 게시 필드]** 또는 **[!UICONTROL XMP]**&#x200B;인 모든 속성을 선택할 수 있습니다.
    1. **[!UICONTROL 필드 추가]** 드롭다운 메뉴를 클릭하고 필드 이름을 선택합니다.
-   1. **[!UICONTROL 포함]** 옵션을 선택합니다.**[!UICONTROL Contains]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Begins With]**, **[!UICONTROL End With]** 또는 **[!UICONTROL Equals]**
+   1. **[!UICONTROL 포함]** 옵션을 선택합니다. **[!UICONTROL Contains]**, **[!UICONTROL Does Not Contain]**, **[!UICONTROL Begins With]**, **[!UICONTROL End With]** 또는 **[!UICONTROL Equals]**
    1. 숫자 필드의 경우 값을 선택하거나 사용자 지정 날짜 범위를 입력합니다.
    1. (선택 사항) 1-4단계를 반복하여 검색 필드를 더 만듭니다.
 
@@ -171,5 +171,5 @@ Dynamic Media Classic에서 파일 자산을 찾으려면 유형별로 자산을
 >[!MORELIKETHIS]
 >
 >* [탐색 기본 사항](navigation-basics.md#navigation_basics)
-* [메타데이터 보기, 추가 및 내보내기](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
+>* [메타데이터 보기, 추가 및 내보내기](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
 

@@ -1,22 +1,22 @@
 ---
 title: 게시 설정
-description: 게시 설정 설정을 사용하여 Dynamic Media Classic 서버에서 웹 사이트 또는 응용 프로그램으로 기본적으로 자산이 전달되는 방법을 결정할 수 있습니다.
+description: 게시 설정 설정을 사용하여 Adobe Dynamic Media Classic 서버에서 웹 사이트 또는 응용 프로그램으로 자산이 기본적으로 전달되는 방법을 결정할 수 있습니다.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 47%
+source-wordcount: '2416'
+ht-degree: 46%
 
 ---
 
 # 게시 설정 {#publish-setup}
 
-게시 설정 페이지 설정은 Dynamic Media Classic 서버에서 웹 사이트 또는 응용 프로그램으로 기본적으로 자산이 전달되는 방법을 결정합니다. 지정된 설정이 없으면 Dynamic Media Classic 서버는 게시 설정 페이지의 기본 설정에 따라 자산을 전달합니다. 예를 들어, 해상도 속성을 포함하지 않는 이미지 전달 요청에 따라 [이미지 서버] 페이지에서 [기본 객체 해상도] 설정이 있는 이미지가 생성됩니다.
+게시 설정 페이지 설정은 Adobe Dynamic Media Classic 서버에서 웹 사이트 또는 응용 프로그램으로 자산이 기본적으로 전달되는 방법을 결정합니다. 설정이 지정되지 않은 경우 Dynamic Media Classic Adobe은 게시 설정 페이지의 기본 설정에 따라 자산을 전달합니다. 예를 들어, 해상도 속성을 포함하지 않는 이미지 전달 요청에 따라 [이미지 서버] 페이지에서 [기본 객체 해상도] 설정이 있는 이미지가 생성됩니다.
 
 관리자는 이미지 서버, 이미지 렌더러 및 비네팅 페이지의 기본 설정을 변경하여 서버에서 자산을 전달하기 위한 기본 설정을 설정할 수 있습니다.
 
@@ -24,13 +24,13 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->게시 설정 페이지는 숙련된 웹 사이트 개발자와 프로그래머가 사용합니다. Dynamic Media Classic에서는 이러한 페이지에서 설정을 변경하는 사용자가 Dynamic Media Classic, HTTP 프로토콜 표준 및 규칙, 기본 이미징 기술에 익숙하다고 가정합니다.
+>게시 설정 페이지는 숙련된 웹 사이트 개발자와 프로그래머가 사용합니다. Adobe Dynamic Media Classic에서는 이러한 페이지에서 설정을 변경하는 사용자가 Adobe Dynamic Media Classic, HTTP 프로토콜 표준 및 규칙, 기본 이미징 기술에 익숙하다고 가정합니다.
 
 ## 이미지 서버 {#image-server}
 
 이미지 서버 페이지는 이미지 서버에서 이미지를 전달하는 기본 설정을 설정합니다. 설정은 이러한 5가지 범주에서 사용할 수 있습니다(설정에 대한 자세한 설명은 이미지 서버 페이지 자체 참조).
 
-Dynamic Media Classic 지원 담당자의 지원을 받아야 이러한 설정을 변경할 수 있습니다.
+Adobe Dynamic Media Classic 지원 담당자의 지원을 받아야 이러한 설정을 변경할 수 있습니다.
 
 * **카탈로그 관리**  - 이 설정은 Dynamic Media Classic과 카탈로그가 상호 작용하는 방법을 결정합니다. 대부분의 웹 서버와 달리 Dynamic Media 이미지 서버 URL 호출은 이미지 파일이 아닌 매니페스트 또는 카탈로그 파일로 이동합니다. 카탈로그 파일(eCatalog 아님)에는 각 이미지의 경로와 함께 이미지 서버에 게시되는 모든 컨텐츠 목록이 들어 있습니다. Digimarc ID가 있는 경우 [Digimarc 사용자 정보] 섹션에서 사용자 정보를 입력합니다.
 
@@ -59,9 +59,9 @@ Dynamic Media Classic 지원 담당자의 지원을 받아야 이러한 설정�
 
 >[!NOTE]
 >
->로케일 맵 필드와 같은 Dynamic Media Classic에서 현지화 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 사례에서 설정 도움말을 요청합니다.
+>로케일 맵 필드와 같은 Adobe Dynamic Media Classic에서 현지화 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 사례에서 설정 도움말을 요청합니다.
 
-Dynamic Media Classic을 사용하는 일반적인 방법은 전자 상거래 웹 사이트에서 제품 이미지를 관리하는 것입니다. 국제 산업은 유사한 제품에 대한 자산이 나라마다 다르게 보이는 문제에 직면하고 있습니다. 일반적으로 차이점은 전체 미디어의 몇 부분에 대한 것입니다. 이러한 차이를 각 국가의 모든 자산을 복사하고 차이만 다시 써서 해결하는 것은 엄청난 노력을 요하는 일이며 하나의 마스터 자산이라는 표현과 모순됩니다. 이와 같은 자산의 차이점은 서로 다른 오디오 트랙을 사용하는 국가별 비디오에서부터 제품과 함께 사용되는 전원 코드의 미묘하지만 중요한 차이에 이르기까지 다양할 수 있습니다. Dynamic Media Classic에서는 기본 조회 메커니즘을 사용합니다. 사용자는 필요한 로케일에서 시작하여 이미지 서버가 검색하는 자산 접미어 순서를 정의합니다.
+Adobe Dynamic Media Classic을 사용하는 일반적인 방법은 전자 상거래 웹 사이트에서 제품 이미지를 관리하는 것입니다. 국제 산업은 유사한 제품에 대한 자산이 나라마다 다르게 보이는 문제에 직면하고 있습니다. 일반적으로 차이점은 전체 미디어의 몇 부분에 대한 것입니다. 이러한 차이를 각 국가의 모든 자산을 복사하고 차이만 다시 써서 해결하는 것은 엄청난 노력을 요하는 일이며 하나의 마스터 자산이라는 표현과 모순됩니다. 이와 같은 자산의 차이점은 서로 다른 오디오 트랙을 사용하는 국가별 비디오에서부터 제품과 함께 사용되는 전원 코드의 미묘하지만 중요한 차이에 이르기까지 다양할 수 있습니다. Adobe Dynamic Media Classic은 기본 조회 메커니즘을 사용합니다. 사용자는 필요한 로케일에서 시작하여 이미지 서버가 검색하는 자산 접미어 순서를 정의합니다.
 
 #### 자산을 현지화하는 방법
 
@@ -97,7 +97,7 @@ IS(이미지 제공) 요청에 대한 로케일은 다음의 IS/IR(이미지 렌
 
 #### 자산 현지화 구현
 
-Dynamic Media Classic 및 Image Serving에는 이미지 및 정적 콘텐츠의 지역화를 허용하는 인터페이스가 있습니다.
+Adobe Dynamic Media Classic 및 Image Serving에는 이미지 및 정적 콘텐츠의 지역화를 허용하는 인터페이스가 있습니다.
 
 현지화를 하지 않는 이미지 서버 URL은 다음과 같은 모습입니다.
 
@@ -117,7 +117,7 @@ Dynamic Media Classic 및 Image Serving에는 이미지 및 정적 콘텐츠의 
 
 >[!NOTE]
 >
->글로벌 로케일 설정은 Dynamic Media Classic 인터페이스 내에서 설정되지 않고 API를 통해 설정할 때만 가능합니다.
+>글로벌 로케일 설정은 Dynamic Media Classic Adobe 인터페이스가 아니라 API를 통해 설정할 때만 가능합니다.
 
 **접미어 예제:**
 
@@ -129,7 +129,7 @@ Dynamic Media Classic 및 Image Serving에는 이미지 및 정적 콘텐츠의 
 
 | URL | 전역 로케일 및 로케일 맵 ID | 결과 |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 위의 대체 예에서, GlobalLocale은 main으로 설정됩니다. 로케일 매개 변수 de_DE가 로케일 맵의 첫 번째 항목에 대응됩니다. GlobalLocale 하위 문자열을 찾아 localeMap에서 첫 번째 해당 값 `de`으로 바꿉니다.`image-de-01`. 이미지 서버에 있는 경우, 반환됩니다. 없는 경우에는, 두 번째 값이 대체되어, `image-main-01`이 됩니다. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 위의 대체 예에서, GlobalLocale은 main으로 설정됩니다. 로케일 매개 변수 de_DE가 로케일 맵의 첫 번째 항목에 대응됩니다. GlobalLocale 하위 문자열을 찾아 localeMap에서 첫 번째 해당 값 `de`으로 바꿉니다. `image-de-01`. 이미지 서버에 있는 경우, 반환됩니다. 없는 경우에는, 두 번째 값이 대체되어, `image-main-01`이 됩니다. |
 
 URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 정의되어 있는 경우 DefaultLocale을 가져오고, URL에 적용합니다.
 
@@ -137,7 +137,7 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 
 #### defaultImage
 
-이미지 서버는 요청된 로케일에 대한 선택 사항을 번갈아 시도합니다. 일치하는 항목이 없으면 로케일 옵션이 defaultImage에 적용되고 일치하는 버전이 반환됩니다. 따라서 각 로케일에는 현지화 없이 이미지에 대한 옵션이 포함되거나 현지화된 defaultImage 버전이 Dynamic Media Classic에서 사용할 수 있어야 합니다.
+이미지 서버는 요청된 로케일에 대한 선택 사항을 번갈아 시도합니다. 일치하는 항목이 없으면 로케일 옵션이 defaultImage에 적용되고 일치하는 버전이 반환됩니다. 따라서 각 로케일에는 현지화 없이 이미지에 대한 옵션이 포함되거나 현지화된 defaultImage 버전이 Adobe Dynamic Media Classic에서 사용할 수 있어야 합니다.
 
 #### localeMap을 찾는 시나리오
 
@@ -220,7 +220,7 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 
 이미지 렌더러 페이지는 이미지 렌더링 서버에서 이미지 세트를 전달하기 위한 기본 설정을 설정합니다. 설정은 다음 5가지 범주에서 사용할 수 있습니다(설정에 대한 자세한 설명은 이미지 서버 페이지 자체 참조).
 
-* **카탈로그 관리**  - 이 설정은 Dynamic Media Classic과 카탈로그 파일이 상호 작용하는 방법을 결정합니다. Dynamic Media Classic Render Server URL 호출은 카탈로그에 수행되며 이 호출은 서버에서 이미지를 전달하도록 호출됩니다. Dynamic Media Classic 지원 담당자의 지원을 받아야 이러한 설정을 변경할 수 있습니다.
+* **카탈로그 관리**  - 이 설정은 Dynamic Media Classic과 카탈로그 파일이 상호 작용하는 방법을 결정합니다. Adobe Dynamic Media Classic Render Server URL 호출은 카탈로그에 수행되며 이 호출은 서버에서 이미지를 전달하도록 호출됩니다. Adobe Dynamic Media Classic 지원 담당자의 지원을 받아야 이러한 설정을 변경할 수 있습니다.
 
 * **세션 속성**  - 이 설정은 오류 매개 변수, 상대 이미지 URL의 URL 및 겹치는 개체가 허용되는지 여부를 설정합니다.
 

@@ -10,26 +10,26 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '554'
 ht-degree: 41%
 
 ---
 
 # 빠른 시작: 이미지 집합{#quick-start-image-sets}
 
-Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 이미지 집합 뷰어에서는 사용자가 썸네일 이미지를 클릭하여 항목의 여러 보기를 확인할 수 있습니다. 이미지 세트를 사용하면 항목의 대체 고해상도 보기를 표시할 수 있습니다.
+Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 이미지 집합 뷰어에서는 사용자가 썸네일 이미지를 클릭하여 항목의 여러 보기를 확인할 수 있습니다. 이미지 세트를 사용하면 항목의 대체 고해상도 보기를 표시할 수 있습니다.
 
 이미지 집합 뷰어에서는 이미지를 자세히 검사하기 위해 확대/축소 도구를 제공합니다. 필요한 경우 유도된 확대/축소 타겟과 이미지 맵을 이미지 집합에 포함할 수 있습니다. 이미지 집합은 보다 조화롭고 친근한 보기 환경을 제공합니다.
 
-이 이미지 세트 빠른 시작은 Dynamic Media Classic의 이미지 세트 기술을 사용하여 빠르게 시작하고 실행하도록 설계되었습니다.
+이 이미지 세트 빠른 시작은 Adobe Dynamic Media Classic에서 이미지 세트 기술을 사용하여 빠르게 시작하고 실행하도록 설계되었습니다.
 
 ## 1. 여러 보기 및 견본을 위한 마스터 이미지 업로드
 
-먼저 이미지 집합에 사용할 이미지를 업로드합니다. 사용자가 이미지 세트 뷰어에서 이미지를 확대할 수 있으므로 이미지를 선택할 때 이 기능을 고려해야 합니다. 이미지의 크기가 가장 큰 2000픽셀 이상인지 확인하십시오. Dynamic Media Classic에서는 많은 이미지 파일 형식을 지원하지만, 무손실 TIFF, PNG 및 EPS 이미지가 권장됩니다.
+먼저 이미지 집합에 사용할 이미지를 업로드합니다. 사용자가 이미지 세트 뷰어에서 이미지를 확대할 수 있으므로 이미지를 선택할 때 이 기능을 고려해야 합니다. 이미지의 크기가 가장 큰 2000픽셀 이상인지 확인하십시오. Adobe Dynamic Media Classic에서는 많은 이미지 파일 형식을 지원하지만, 무손실 TIFF, PNG 및 EPS 이미지가 권장됩니다.
 
-전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 클릭하여 컴퓨터의 파일을 Dynamic Media Classic의 폴더로 업로드합니다.
+전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 클릭하여 컴퓨터의 파일을 Adobe Dynamic Media Classic의 폴더에 업로드합니다.
 
 [업로드할 이미지 집합 자산 준비](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) 및 [파일 업로드](uploading-files.md#uploading-your-files)를 참조하십시오.
 
@@ -45,7 +45,7 @@ Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기 환�
 
 ## 3. 필요에 따라 이미지 세트 뷰어 사전 설정 설정
 
-관리자는 이미지 집합 뷰어 사전 설정을 만들거나 수정할 수 있습니다. Dynamic Media Classic에는 각 리치 미디어 유형에 대한 기본 뷰어 사전 설정이 포함되어 있습니다. [확대/축소 뷰어: 사용자 지정] > [이미지] 또는 [이미지 집합/다중 보기] 사전 설정을 사용하여 이미지 집합을 봅니다.
+관리자는 이미지 집합 뷰어 사전 설정을 만들거나 수정할 수 있습니다. Adobe Dynamic Media Classic에는 각 리치 미디어 유형에 대한 기본 뷰어 사전 설정이 포함되어 있습니다. [확대/축소 뷰어: 사용자 지정] > [이미지] 또는 [이미지 집합/다중 보기] 사전 설정을 사용하여 이미지 집합을 봅니다.
 
 [애플리케이션 설정] 화면에서 뷰어 사전 설정을 추가하거나 편집합니다.
 
@@ -59,7 +59,7 @@ Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기 환�
 
 ## 5. 이미지 세트 게시
 
-이미지 세트를 게시하면 Dynamic Media Classic 서버에 해당 이미지 세트가 배치되고 URL 문자열이 활성화됩니다.
+이미지 세트를 게시하면 Adobe Dynamic Media Classic 서버에 해당 이미지 세트가 배치되고 URL 문자열이 활성화됩니다.
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기 환�
 
 ## 6. 이미지 세트를 웹 사이트에 연결
 
-Dynamic Media Classic은 이미지 세트에 대한 URL 호출을 생성하고 게시 후 활성화합니다. [미리 보기] 화면에서 이러한 URL을 복사할 수 있습니다.
+Adobe Dynamic Media Classic은 이미지 세트에 대한 URL 호출을 생성하고 게시 후 활성화합니다. [미리 보기] 화면에서 이러한 URL을 복사할 수 있습니다.
 
 이미지 세트를 선택한 다음 **[!UICONTROL 미리 보기]**&#x200B;를 클릭합니다. 이제 이미지 세트 뷰어 사전 설정을 선택한 다음 **[!UICONTROL URL 복사]**&#x200B;를 클릭합니다.
 

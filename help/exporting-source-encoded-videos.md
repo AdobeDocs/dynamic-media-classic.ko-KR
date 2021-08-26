@@ -1,6 +1,6 @@
 ---
 title: 소스 및 인코딩된 비디오 내보내기
-description: Dynamic Media Classic에서 소스 및 인코딩된 비디오를 내보내는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 소스 및 인코딩된 비디오를 내보내는 방법을 알아봅니다.
 uuid: 17511bdf-27b7-41e1-bf39-a5e39f55f5d8
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: fab1f618-5370-4049-b6e0-69264afa933c
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '71'
-ht-degree: 21%
+source-wordcount: '73'
+ht-degree: 20%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 21%
 
 찾아보기 패널에서 소스 비디오는 &quot;마스터 비디오&quot;라는 레이블이 지정됩니다. 인코딩된 비디오는 &quot;비디오&quot;라는 레이블이 지정됩니다. 소스 비디오 및 마스터 비디오를 내보낼 수 있습니다. 비디오 파일을 내보내려면 [찾아보기] 패널에서 비디오 파일을 선택하고 **[!UICONTROL 파일]** > **[!UICONTROL 내보내기]**&#x200B;로 이동합니다.
 
-[Dynamic Media Classic에서 자산 내보내기](exporting-assets-from-dmc.md#exporting-assets-from-dmc)를 참조하십시오.
+[Adobe Dynamic Media Classic에서 자산 내보내기](exporting-assets-from-dmc.md#exporting-assets-from-dmc)를 참조하십시오.
 
 >[!MORELIKETHIS]
 >

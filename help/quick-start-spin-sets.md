@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
 discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
-feature: Dynamic Media Classic,뷰어,스핀 세트
+feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '724'
+source-wordcount: '723'
 ht-degree: 32%
 
 ---
 
 # 빠른 시작: 회전 집합{#quick-start-spin-sets}
 
-회전 집합은 개체를 회전하는 실제 동작을 시뮬레이션하여 검사합니다. 회전 집합을 사용하면 임의 각도에서 항목을 보고 모든 각도에서 주요 시각적 세부 사항을 얻을 수 있습니다. 회전 집합은 360도 보기 환경을 시뮬레이션합니다. Dynamic Media Classic에서는 뷰어가 항목을 회전할 수 있는 1차원 스핀 세트와 뷰어가 항목을 회전하고 대칭 이동할 수 있는 2차원 스핀 세트를 제공합니다. 또한 사용자는 몇 번의 간단한 마우스 클릭으로 모든 보기를 &quot;자유 형식&quot;으로 확대/축소하고 이동할 수 있습니다. 이렇게 하면 사용자가 특정 뷰포인트에서 더 자세히 항목을 검사할 수 있습니다.
+회전 집합은 개체를 회전하는 실제 동작을 시뮬레이션하여 검사합니다. 회전 집합을 사용하면 임의 각도에서 항목을 보고 모든 각도에서 주요 시각적 세부 사항을 얻을 수 있습니다. 회전 집합은 360도 보기 환경을 시뮬레이션합니다. Adobe Dynamic Media Classic에서는 뷰어가 항목을 회전할 수 있는 1차원 스핀 세트와 뷰어가 항목을 회전하고 대칭 이동할 수 있는 2차원 스핀 세트를 제공합니다. 또한 사용자는 몇 번의 간단한 마우스 클릭으로 모든 보기를 &quot;자유 형식&quot;으로 확대/축소하고 이동할 수 있습니다. 이렇게 하면 사용자가 특정 뷰포인트에서 더 자세히 항목을 검사할 수 있습니다.
 
 ![회전 집합의 이미지](/help/assets/spin_set.png)
 
@@ -27,13 +27,13 @@ ht-degree: 32%
 
 [이미지 맵 만들기](creating-image-maps.md)를 참조하십시오.
 
-이 스핀 세트 빠른 시작은 Dynamic Media Classic의 스핀 세트 기술을 사용하여 빠르게 시작하고 실행하도록 설계되었습니다. 1-7 단계를 수행하십시오. 각 단계가 끝나면 항목 링크를 클릭하여 자세히 알아볼 수 있습니다.
+이 스핀 세트 빠른 시작은 Adobe Dynamic Media Classic에서 스핀 세트 기술을 사용하여 빠르게 시작하고 실행하도록 설계되었습니다. 1-7 단계를 수행하십시오. 각 단계가 끝나면 항목 링크를 클릭하여 자세히 알아볼 수 있습니다.
 
 ## 1. 이미지 만들기 및 업로드
 
 최소한 1차원 스핀 세트의 경우 항목의 8-12샷과 2차원 스핀 세트의 경우 16-24샷이 필요합니다. 항목을 회전하고 뒤집는 듯한 인상을 주려면 일정한 간격으로 촬영해야 합니다. 예를 들어 1차원 스핀 세트에 12개의 샷이 포함되어 있는 경우 각 샷에 대해 30° (360/12) 항목을 회전합니다.
 
-전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 클릭하여 컴퓨터 또는 네트워크에서 Dynamic Media Classic으로 스핀 이미지를 업로드합니다.
+전역 탐색 막대에서 **[!UICONTROL 업로드]**&#x200B;를 클릭하여 컴퓨터 또는 네트워크에서 Adobe Dynamic Media Classic으로 스핀 이미지를 업로드합니다.
 
 [회전 집합 이미지 촬영에 대한 지침](creating-spin-set.md#guidelines-for-shooting-spin-set-images)을 참조하십시오.
 
@@ -85,7 +85,7 @@ Last Modified Date:
 
 ## 6. 스핀 세트 게시
 
-스핀 세트를 게시하면 웹 사이트 또는 애플리케이션에 동적으로 전달할 수 있도록 스핀 세트를 Dynamic Media Classic 서버에 배치합니다. 또한 Dynamic Media 이미지 서버에서 웹 사이트 또는 애플리케이션으로 스핀 세트를 호출하는 URL 문자열을 활성화합니다.
+스핀 세트를 게시하면 웹 사이트 또는 애플리케이션에 동적으로 전달할 수 있도록 스핀 세트를 Adobe Dynamic Media Classic 서버에 배치합니다. 또한 Dynamic Media 이미지 서버에서 웹 사이트 또는 애플리케이션으로 스핀 세트를 호출하는 URL 문자열을 활성화합니다.
 
 스핀 세트를 게시하려면 [찾아보기] 패널에서 해당 이름 옆에 있는 **[!UICONTROL 게시용으로 표시]** 아이콘을 선택하여 게시용으로 표시합니다. 전역 탐색 막대에서 **[!UICONTROL 게시]**&#x200B;를 클릭하여 게시를 시작합니다. 게시 화면에서 **[!UICONTROL 게시 제출]**&#x200B;을 클릭합니다.
 
@@ -93,7 +93,7 @@ Last Modified Date:
 
 ## 7. 스핀 세트를 웹 페이지에 연결
 
-Dynamic Media Classic은 스핀 세트에 대한 URL 콜아웃 문자열을 만들고 게시한 후 활성화합니다. 미리 보기 페이지에서 이러한 URL을 복사할 수 있습니다.
+Adobe Dynamic Media Classic은 스핀 세트에 대한 URL 콜아웃 문자열을 생성하고 게시한 후 활성화합니다. 미리 보기 페이지에서 이러한 URL을 복사할 수 있습니다.
 
 스핀 세트를 선택한 다음 **[!UICONTROL 미리 보기]**&#x200B;를 클릭합니다. 회전 집합 뷰어 사전 설정을 선택합니다. 그런 다음 **[!UICONTROL URL 복사]**&#x200B;를 클릭합니다.
 

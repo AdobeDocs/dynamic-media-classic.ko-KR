@@ -4,12 +4,12 @@ product: adobe dynamic media classic
 audience: end-user
 user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
-user-guide-description: Dynamic Media Classic 사용에 대해 자세히 알아보기
+user-guide-description: Adobe Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: a8b5ad338ef8c8b2c50acea5d4c0560820c40ae4
 workflow-type: tm+mt
-source-wordcount: '751'
-ht-degree: 31%
+source-wordcount: '778'
+ht-degree: 28%
 
 ---
 
@@ -17,17 +17,17 @@ ht-degree: 31%
 # Adobe Dynamic Media Classic 안내서 {#using}
 
 + [Adobe Dynamic Media Classic 안내서](home.md)
-+ [우수 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [이제 새로운 Dynamic Media Classic 로그인 환경을 사용할 수 있습니다](new-ui-2020.md)
-+ [Experience League별 Dynamic Media 뉴스레터 아카이브](dynamic-media-newsletter.md)
++ [Adobe Dynamic Media Classic 모범 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [새로운 Adobe Dynamic Media Classic 로그인 환경을 이제 사용할 수 있습니다](new-ui-2020.md)
++ [Experience League별 Dynamic Media 뉴스레터 아카이브 Adobe](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic {#intro} 소개
    + [Adobe Dynamic Media Classic 데스크탑 앱 - 지금 사용 가능](dynamic-media-classic-desktop-app.md)
-   + [Dynamic Media Classic 도움말 정보](introduction.md)
+   + [Adobe Dynamic Media Classic 도움말 정보](introduction.md)
    + [개발자 리소스](developer-resources.md)
    + [새로운 기능](whats-new.md)
-   + [시스템 요구 사항](system-requirements.md)
+   + [Dynamic Media Classic 데스크탑 앱을 위한 시스템 요구 사항](system-requirements.md)
    + [지원](support.md)
-   + [Dynamic Media Classic Media Portal 도움말](help-dmc-media-portal.md)
+   + [Dynamic Media Classic 미디어 포털 Adobe 도움말](help-dmc-media-portal.md)
    + [Adobe 교육 서비스](training-services.md)
    + [널리 사용되는 리소스](popular-resources.md)
    + [교육 비디오](training-videos.md)
@@ -45,7 +45,7 @@ ht-degree: 31%
    + [비디오 SEO(검색 엔진 최적화)](video-seo-search-engine-optimization.md)
    + [관리 설정](administration-setup.md)
 + Media Portal {#media-portal}
-   + [시스템 요구 사항](system-requirements-1.md)
+   + [Adobe Dynamic Media Classic에서 Media Portal에 대한 시스템 요구 사항](system-requirements-media-portal.md)
    + [빠른 시작: Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal 사용자 역할](media-portal-user-roles.md)
    + [Media Portal 그룹 만들기 및 관리](creating-media-portal-groups.md)
@@ -71,7 +71,7 @@ ht-degree: 31%
    + [자산 이동, 이름 변경 및 삭제](moving-renaming-deleting-assets.md)
    + [세부 사항 보기의 작업](detail-view.md)
    + [메타데이터 보기, 추가 및 내보내기](viewing-adding-exporting-metadata.md)
-   + [Dynamic Media Classic에서 자산 내보내기](exporting-assets-from-dmc.md)
+   + [Adobe Dynamic Media Classic에서 자산 내보내기](exporting-assets-from-dmc.md)
    + [동료와 실시간으로 자산 변경 내용 공유](sharing-asset-changes-peers-real.md)
    + [자산 인쇄](printing-assets.md)
    + [휴지통 폴더 관리](trash-folder.md)
@@ -147,7 +147,7 @@ ht-degree: 31%
    + [혼합 미디어 집합 게시](publishing-mixed-media-set.md)
    + [혼합 미디어 집합을 웹 페이지에 연결](linking-mixed-media-set-web.md)
 + Adobe Analytics 계측 키트 {#analytics-kit}
-   + [빠른 시작: Dynamic Media Classic과 Adobe Analytics 통합](quick-start-integrating-dmc-analytics.md)
+   + [빠른 시작: Adobe Dynamic Media Classic과 Adobe Analytics 통합](quick-start-integrating-dmc-analytics.md)
    + [Adobe Analytics에 로그인](log-analytics.md)
    + [Adobe Analytics 보고서 구성](configuring-analytics-reports.md)
    + [Adobe Analytics 계측 키트를 사용하여 뷰어 계측](instrumenting-viewer-using-analytics-instrumentation.md)

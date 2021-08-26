@@ -1,6 +1,6 @@
 ---
 title: ICC(International Color Consortium) 프로필
-description: Dynamic Media Classic의 ICC 프로필에 대해 알아봅니다.
+description: Adobe Dynamic Media Classic의 ICC 프로필에 대해 알아봅니다.
 uuid: 708ff2ad-9a47-4e3e-b643-5b19648f726b
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 44f1b4c4-6d7f-4e0f-84ce-11d26745e0f0
 feature: Dynamic Media Classic
 role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
-source-git-commit: 20a5e54a9f3fa442d3a993afae07aa5b1b13e9c3
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 64%
+source-wordcount: '451'
+ht-degree: 54%
 
 ---
 
@@ -21,21 +21,21 @@ ht-degree: 64%
 
 ICC(International Color Consortium) 프로필은 이미지 파일을 한 색상 공간에서 다른 색상 공간으로 올바르게 전환하는 방법을 설명하는 파일입니다. ICC 프로필은 이미지의 올바른 색상을 가져오는 데 도움이 됩니다. 예를 들어 컴퓨터 모니터에 인쇄하기 위한 이미지를 올바르게 표시하기 위해 ICC 프로필을 선택할 수 있습니다. 이 프로필은 이미지를 다른 색상 공간으로 전환하고 색상이 온라인에서 올바르게 표시되게 합니다.
 
-Dynamic Media Classic에서 이미지를 업로드할 때 ICC 프로파일을 선택하여 이미지를 다른 색상 공간으로 변환할 수 있습니다. 모든 표준 Photoshop ICC 프로파일은 Dynamic Media Classic에서 기본적으로 사용할 수 있습니다. [업로드] 화면에서 색상 프로필 이름을 보려면 [색상 프로필] 메뉴를 선택합니다. [사용자 지정 전환]을 선택한 다음 [전환 출처] 및 [전환 타겟] 메뉴에서 ICC 프로필 이름을 선택합니다. 
+Adobe Dynamic Media Classic에서 이미지를 업로드할 때 ICC 프로파일을 선택하여 이미지를 다른 색상 공간으로 변환할 수 있습니다. 모든 표준 Photoshop ICC 프로파일은 Adobe Dynamic Media Classic에서 기본적으로 사용할 수 있습니다. [업로드] 화면에서 색상 프로필 이름을 보려면 [색상 프로필] 메뉴를 선택합니다. [사용자 지정 전환]을 선택한 다음 [전환 출처] 및 [전환 타겟] 메뉴에서 ICC 프로필 이름을 선택합니다. 
 
 업로드](image-editing-options-upload.md#image-editing-options-at-upload)에서 [이미지 편집 옵션을 참조하십시오.
 
-기본 ICC 프로파일을 사용하는 것 외에도 다른 ICC 프로파일을 Dynamic Media Classic에 업로드하여 색상 공간 변환에 사용할 수 있도록 할 수 있습니다. 찾아보기 패널에서 [세부 사항 보기]로 전환하여 ICC 프로필의 프로필 클래스, 색상 공간 유형 및 PCS 유형을 조사합니다.
+기본 ICC 프로파일을 사용하는 것 외에도 다른 ICC 프로파일을 Dynamic Media Classic으로 업로드하여 색상 공간 변환에 사용할 수 있도록 할 수 있습니다. [찾아보기] 패널에서 [세부 정보 보기]로 전환하여 ICC 프로파일의 프로파일 클래스, 색상 공간 유형 및 PCS 유형을 조사합니다.
 
 ## ICC 프로필 업로드 {#uploading-icc-profiles}
 
-파일을 업로드할 때와 동일한 기술을 사용하여 ICC 프로필을 업로드합니다. Dynamic Media Classic 폴더에 ICC 프로파일을 저장할 수 있습니다.
+파일을 업로드할 때와 동일한 기술을 사용하여 ICC 프로필을 업로드합니다. 모든 Adobe Dynamic Media Classic 폴더에 ICC 프로파일을 저장할 수 있습니다.
 
 [파일 업로드](uploading-files.md#uploading_your_files)를 참조하십시오.
 
 ## ICC 프로파일 검사 {#examining-an-icc-profile}
 
-ICC 프로필을 검사하려면 찾아보기 패널에서 ICC 프로필을 선택하고 [세부 사항 보기]에 표시합니다. 세부 정보 보기는 ICC 프로파일에 대한 다음 정보를 제공합니다.
+ICC 프로파일을 검사하려면 [찾아보기] 패널에서 해당 프로파일을 선택하고 [세부 정보 보기]에 표시합니다. 세부 정보 보기는 ICC 프로파일에 대한 다음 정보를 제공합니다.
 
 * **[!UICONTROL 프로파일 클래스]**  - ICC(International Color Consortium)는 응용 프로그램 유형을 다루는 각 클래스를 정의합니다. 예를 들어 입력 프로필은 디지털 카메라, 스캐너 등의 장치에 적용되고 출력 프로필은 프린터에 적용됩니다.
 

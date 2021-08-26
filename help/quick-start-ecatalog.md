@@ -10,10 +10,10 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 1f3a110e8d795e766c37e43ea7f878cc0eec2ec2
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1424'
-ht-degree: 50%
+source-wordcount: '1430'
+ht-degree: 49%
 
 ---
 
@@ -47,13 +47,13 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 >
 >CRXDE Lite 페이지의 왼쪽 위 모서리에서 **[!UICONTROL 모두 저장]**&#x200B;을 클릭합니다.
 >
->이제 Dynamic Media Classic에서 eCatalogs를 작성할 수 있습니다.
+>이제 Adobe Dynamic Media Classic에서 eCatalog 를 작성할 수 있습니다.
 
 이 eCatalog 빠른 시작은 eCatalog를 빨리 시작하고 실행하는 데 도움이 됩니다. 1-7 단계를 수행하십시오. 각 단계 뒤에는 자세한 정보를 확인할 수 있는 항목 제목의 상호 참조가 있습니다.
 
 ## 1. PDF 파일 업로드
 
-일반적으로 Adobe PDF 파일이 eCatalog의 소스입니다. 원래 인쇄용이기 때문에 PDF 파일에는 대체로 CMYK 이미지가 포함되어 있습니다. Dynamic Media Classic은 이러한 이미지를 감지하고 표준 CMYK 색상 프로파일을 사용하여 변환합니다. 그러나 사용자 지정 색상 프로필을 업로드하고 사용해야 합니다.
+일반적으로 Adobe PDF 파일이 eCatalog의 소스입니다. 원래 인쇄용이기 때문에 PDF 파일에는 대체로 CMYK 이미지가 포함되어 있습니다. Adobe Dynamic Media Classic은 이러한 이미지를 감지하고 표준 CMYK 색상 프로파일을 사용하여 변환합니다. 그러나 사용자 지정 색상 프로필을 업로드하고 사용해야 합니다.
 
 전역 탐색 막대에서 **[!UICONTROL 업로드]**&#x200B;를 클릭하여 eCatalog에 대한 PDF 파일 또는 이미지 업로드를 시작합니다. 데스크톱에서 또는 FTP를 통해 파일을 업로드할 수 있습니다. 100MB보다 큰 파일이나 많은 파일을 업로드하는 경우 FTP를 사용하는 것이 좋습니다.
 
@@ -69,7 +69,7 @@ eCatalog 페이지의 **[!UICONTROL 주문 페이지]** 탭에서 레이아웃 �
 
 페이지를 추가하려면 자산 라이브러리에서 폴더를 선택하고 PDF 또는 이미지 파일을 [주문 페이지] 화면으로 드래그합니다. 기본 페이지 번호 대신 사용자 지정 페이지 이름을 제공하거나 많은 페이지 이름을 가져올 수 있습니다.
 
-**[!UICONTROL 저장]**&#x200B;을 클릭하고, eCatalog의 이름을 입력하고, 저장할 Dynamic Media Classic 폴더를 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 페이지 순서를 변경하거나 eCatalog를 편집할 때마다 **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
+**[!UICONTROL 저장]**&#x200B;을 클릭하고, eCatalog의 이름을 입력하고, 저장할 Adobe Dynamic Media Classic 폴더를 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다. 페이지 순서를 변경하거나 eCatalog를 편집할 때마다 **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
 
 [eCatalog 만들기](creating-ecatalog.md)를 참조하십시오.
 
@@ -91,7 +91,7 @@ eCatalog](/help/info-panel-content-ecatalog.md)의 [정보 패널 콘텐츠 관�
 
 ## 4. eCatalog 뷰어 사전 설정 설정
 
-최종 사용자는 eCatalog 뷰어에서 eCatalog를 봅니다. 관리자는 eCatalog 뷰어를 구성할 수 있습니다. 윤곽 색상을 변경하고 새 &quot;스킨&quot;을 선택하여 eCatalog를 브랜딩할 수 있습니다. Dynamic Media Classic에는 몇 가지 &quot;모범 사례&quot; eCatalog 뷰어 사전 설정이 포함되어 있습니다. 이러한 사전 설정 중 하나를 선택하여 eCatalog를 표시할 수 있습니다. 관리자는 고유한 eCatalog 뷰어 사전 설정을 만들 수도 있습니다.
+최종 사용자는 eCatalog 뷰어에서 eCatalog를 봅니다. 관리자는 eCatalog 뷰어를 구성할 수 있습니다. 윤곽 색상을 변경하고 새 &quot;스킨&quot;을 선택하여 eCatalog를 브랜딩할 수 있습니다. Adobe Dynamic Media Classic에는 몇 가지 &quot;우수 사례&quot; eCatalog 뷰어 사전 설정이 포함되어 있습니다. 이러한 사전 설정 중 하나를 선택하여 eCatalog를 표시할 수 있습니다. 관리자는 고유한 eCatalog 뷰어 사전 설정을 만들 수도 있습니다.
 
 eCatalog 뷰어 사전 설정을 만들려면 전역 탐색 막대에서 **[!UICONTROL 설정]**&#x200B;을 클릭하고 **[!UICONTROL 뷰어 사전 설정]**&#x200B;을 선택합니다. 그런 다음 **[!UICONTROL 추가]**&#x200B;를 클릭하고 플랫폼을 선택한 다음 **[!UICONTROL eCatalog > Viewer]**&#x200B;를 클릭합니다.
 
@@ -117,7 +117,7 @@ eCatalog 및 PDF를 [찾아보기] 패널에서 게시용으로 표시한 후 �
 
 ## 7. 웹 페이지에 eCatalog 연결
 
-Dynamic Media Classic은 Dynamic Media 이미지 서버에 게시할 때 eCatalog를 표시하는 데 필요한 URL 콜아웃 문자열을 활성화합니다. 패널에서 URL을 선택하면 [미리 보기] 화면과 찾아보기 패널(세부 사항 보기)에서 이 URL 문자열을 복사할 수 있습니다. 복사한 URL 문자열은 웹 사이트와 애플리케이션에서 사용할 수 있습니다.
+Adobe Dynamic Media Classic은 Dynamic Media 이미지 서버에 게시할 때 eCatalog를 표시하는 데 필요한 URL 콜아웃 문자열을 활성화합니다. 패널에서 URL을 선택하여 미리 보기 화면과 찾아보기 패널(세부 사항 보기의)에서 이 URL 문자열을 복사할 수 있습니다. 복사한 URL 문자열은 웹 사이트와 애플리케이션에서 사용할 수 있습니다.
 
 IT 팀과 협력하여 eCatalog 링크를 웹 사이트의 적절한 위치에 배치합니다. 사용자가 링크를 클릭하면 eCatalog 뷰어가 나타나고 사용자가 eCatalog를 찾을 수 있습니다. 
 

@@ -1,6 +1,6 @@
 ---
 title: 안내식 확대/축소에 대한 확대/축소 대상 만들기
-description: Dynamic Media Classic의 안내식 확대/축소 대상을 만드는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 안내식 확대/축소를 위한 확대/축소 대상을 만드는 방법을 알아봅니다.
 uuid: 501ea37b-adc5-4290-87eb-52a3501e5d26
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: e7b4673c-8681-4741-912e-9a31cf106449
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ffb799ba-1cf1-48e0-91a8-dea758139140
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '728'
 ht-degree: 44%
 
 ---

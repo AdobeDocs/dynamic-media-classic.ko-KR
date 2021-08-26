@@ -1,8 +1,8 @@
 ---
 title: 비디오 업로드 및 인코딩
-seo-title: 비디오 업로드 및 인코딩
+seo-title: Uploading and encoding videos
 description: 비디오를 업로드하고 인코딩하는 방법을 알아봅니다.
-seo-description: 비디오를 업로드하고 인코딩하는 방법을 알아봅니다.
+seo-description: Learn how to upload and encode videos.
 uuid: 9a7d6513-b10c-40b0-aebb-18a795c2b8d1
 contentOwner: admin
 content-type: reference
@@ -11,16 +11,16 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3882'
-ht-degree: 70%
+source-wordcount: '3893'
+ht-degree: 69%
 
 ---
 
 # 비디오 업로드 및 인코딩{#uploading-and-encoding-videos}
 
-웹 또는 모바일 장치로 전달할 단일 비디오 또는 응용 비디오 세트를 만들려면 먼저 마스터 비디오 파일을 Dynamic Media Classic에 업로드합니다. Dynamic Media Classic은 비디오를 MP4 형식으로 인코딩하고 다음 파일 형식으로 비디오를 게시합니다.
+웹 또는 모바일 장치로 전달할 단일 비디오 또는 응용 비디오 세트를 만들려면 먼저 마스터 비디오 파일을 Adobe Dynamic Media Classic에 업로드합니다. Adobe Dynamic Media Classic은 비디오를 MP4 형식으로 인코딩하고 다음 파일 형식으로 비디오를 게시합니다.
 
 * **MP4**  - Dynamic Media Classic에서는 MP4를 기본 비디오 파일 형식으로 권장합니다. 다음의 경우 MP4 파일을 사용합니다.
 
@@ -28,11 +28,11 @@ ht-degree: 70%
    * HTTP 라이브 스트리밍(Apple의 스트리밍 프로토콜)
    * Android™, BlackBerry® 및 Windows® 모바일 장치에 대한 점진적 비디오 제공
 
-   Dynamic Media Classic에서는 비디오 파일을 업로드하기 위한 두 가지 워크플로우를 제공합니다.
+   Dynamic Media Classic Adobe은 비디오 파일을 업로드하기 위한 두 가지 워크플로우를 제공합니다.
 
 * **사전 인코딩된 비디오**  - MP4 파일을 Dynamic Media Classic에 바로 업로드합니다. 이 워크플로우에서는 파일 업로드 시 파일이 인코딩되지 않습니다. 데스크톱과 모바일 장치에 제공하기 위해 파일이 사전 인코딩됩니다. 
 
-* **기본 소스 비디오**  - 마스터 소스 비디오 파일을 업로드하고 업로드 시 이러한 파일을 MP4 파일로 인코딩합니다. 인코딩한 비디오는 찾아보기 패널에서 &quot;비디오&quot;라는 레이블이 지정됩니다. Dynamic Media Classic에서는 다양한 형식의 비디오 파일 인코딩을 지원합니다.
+* **기본 소스 비디오**  - 마스터 소스 비디오 파일을 업로드하고 업로드 시 이러한 파일을 MP4 파일로 인코딩합니다. 인코딩한 비디오는 찾아보기 패널에서 &quot;비디오&quot;라는 레이블이 지정됩니다. Adobe Dynamic Media Classic에서는 다양한 형식의 비디오 파일 인코딩을 지원합니다.
 
    * 인코딩할 마스터 소스 비디오 파일이 지원되는지 확인하십시오.
 
@@ -44,7 +44,7 @@ ht-degree: 70%
 
       [비디오 인코딩 우수 사례](uploading-encoding-videos.md#best-practices-for-video-encoding)를 참조하십시오.
 
-Dynamic Media Classic도 비디오 축소판 그림을 생성합니다. 비디오 썸네일, 이 비디오 썸네일의 URL 얻기 및 포스터 프레임 수정에 대해 자세히 알아볼 수 있습니다.
+Adobe Dynamic Media Classic도 비디오 축소판 그림을 생성합니다. 비디오 썸네일, 이 비디오 썸네일의 URL 얻기 및 포스터 프레임 수정에 대해 자세히 알아볼 수 있습니다.
 
 [비디오 썸네일로 작업](deploying-video-websites-mobile-sites.md#working-with-video-thumbnails)을 참조하십시오.
 
@@ -61,7 +61,7 @@ Dynamic Media Classic도 비디오 축소판 그림을 생성합니다. 비디�
 1. 업로드 페이지에서 **[!UICONTROL 업로드 후 게시]**&#x200B;가 선택되어 있는지 확인합니다.
 1. **[!UICONTROL 업로드 제출]**&#x200B;을 클릭합니다.
 
-*Dynamic Media Classic을 사용하여 비디오를 인코딩하려면*
+*Adobe Dynamic Media Classic을 사용하여 비디오를 인코딩하려면*
 
 1. 글로벌 탐색 막대에서 **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
 1. 업로드 페이지에서 **[!UICONTROL Desktop]** 탭을 클릭합니다.
@@ -79,7 +79,7 @@ Dynamic Media Classic도 비디오 축소판 그림을 생성합니다. 비디�
 
 *이전에 업로드 한 비디오 파일을 다시 인코딩하려는 경우*
 
-1. Dynamic Media Classic의 찾아보기 패널에서 비디오로 이동하여 선택합니다.
+1. Dynamic Media Classic Adobe의 찾아보기 패널에서 비디오로 이동하여 선택합니다.
 1. **[!UICONTROL 파일]** > **[!UICONTROL 재처리]**&#x200B;를 클릭합니다.
 1. 자산 재처리 대화 상자에서 **[!UICONTROL EVideo 옵션]**&#x200B;을 확장한 다음 다음, 다음 중 하나를 수행합니다.
    * 다음 방법을 사용하는 것이 좋습니다. **적응형 비디오**를 선택합니다.
@@ -125,7 +125,7 @@ Dynamic Media Classic도 비디오 축소판 그림을 생성합니다. 비디�
 
 ## 비디오 인코딩 우수 사례 {#best-practices-for-video-encoding}
 
-다음은 Dynamic Media Classic에서 소스 비디오 파일을 인코딩하기 위한 우수 사례 팁입니다.
+다음은 Adobe Dynamic Media Classic에서 소스 비디오 파일을 인코딩하기 위한 우수 사례 팁입니다.
 
 <!-- THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
 For advice about video encoding, see the following:
@@ -147,9 +147,9 @@ For advice about video encoding, see the following:
 
 ### 파일의 메타데이터 얻기 {#obtaining-a-file-s-metadata}
 
-Dynamic Media Classic에서 해당 메타데이터를 보거나 비디오 편집 도구를 사용하거나 메타데이터를 얻기 위해 디자인된 응용 프로그램을 사용하여 파일의 메타데이터를 가져올 수 있습니다. 다음은 타사 애플리케이션인 MediaInfo를 사용하여 비디오 파일의 메타데이터를 가져오는 방법에 대한 지침입니다.
+Adobe Dynamic Media Classic에서 해당 메타데이터를 보거나 비디오 편집 도구를 사용하거나 메타데이터를 얻기 위해 디자인된 응용 프로그램을 사용하여 파일의 메타데이터를 가져올 수 있습니다. 다음은 타사 애플리케이션인 MediaInfo를 사용하여 비디오 파일의 메타데이터를 가져오는 방법에 대한 지침입니다.
 
-1. 다음 웹 페이지로 이동합니다.[https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download)
+1. 다음 웹 페이지로 이동합니다. [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download)
 1. GUI 버전의 설치 프로그램을 선택하고 다운로드한 다음 설치 지침을 따릅니다.
 1. 설치 후 비디오 파일(Windows®만 해당)을 마우스 오른쪽 단추로 클릭하고 MediaInfo를 선택하거나 MediaInfo를 열고 비디오 파일을 응용 프로그램으로 드래그합니다. 너비, 높이, fps 등을 포함하여 비디오 파일과 관련된 모든 메타데이터가 표시됩니다.
 
@@ -257,7 +257,7 @@ Adobe Dynamic Media Classic에서는 MP4 H.264 비디오 인코딩 사전 설정
 
 [비디오 업로드 및 인코딩](uploading-encoding-videos.md#uploading-and-encoding-videos)을 참조하십시오.
 
-Dynamic Media Classic은 현재 사용되는 가장 일반적인 인코딩 설정을 반영하는 사전 정의된 비디오 인코딩 사전 설정 라이브러리를 제공합니다. 이 인코딩 사전 설정은 타겟 화면에서의 재생에 최적화되어 있습니다. 또한 관리자는 자신만의 비디오 인코딩 사전 설정을 만들어 비디오의 크기 및 재생 품질을 최종 사용자에게 맞게 사용자 지정할 수 있습니다. Dynamic Media Classic에서 바로 사용하거나 MP4 파일 형식의 사용자 정의 비디오 인코딩 사전 설정을 사용하십시오.
+Adobe Dynamic Media Classic은 현재 사용되는 가장 일반적인 인코딩 설정을 반영하는 사전 정의된 비디오 인코딩 사전 설정 라이브러리를 제공합니다. 이 인코딩 사전 설정은 타겟 화면에서의 재생에 최적화되어 있습니다. 또한 관리자는 자신만의 비디오 인코딩 사전 설정을 만들어 비디오의 크기 및 재생 품질을 최종 사용자에게 맞게 사용자 지정할 수 있습니다. Adobe Dynamic Media Classic에서 바로 사용하거나 MP4 파일 형식의 사용자 지정 제작 비디오를 비롯한 모든 비디오 인코딩 사전 설정입니다.
 
 [비디오 사전 설정] 화면에서 관리자가 비디오 인코딩을 설정하고 관리할 수 있습니다. 관리자는 다음을 수행할 수 있습니다.
 
@@ -266,7 +266,7 @@ Dynamic Media Classic은 현재 사용되는 가장 일반적인 인코딩 설�
 * 비디오 인코딩 사전 설정 편집
 * 비디오 사전 설정 삭제
 
-Dynamic Media Classic에 업로드하거나 Dynamic Media Classic에서 인코딩하는 모든 비디오는 &quot;비디오&quot;로 처리됩니다. 즉, 이 자산 분류는 데스크톱, 모바일 장치 또는 둘 다에서 재생하기 위해 비디오를 제공할 수 있다는 것입니다. 예를 들어 Dynamic Media Classic에서 이러한 유형의 비디오를 미리 볼 수 있습니다. 또한 비디오 플레이어나 웹 사이트 등에서 사용할 수 있도록 URL(URL 복사 기능 사용)과 포함할 수 있는 코드(포함 코드 기능 사용)를 생성할 수도 있습니다.
+Dynamic Media Classic에 업로드하거나 Adobe Dynamic Media Classic에서 인코딩하는 모든 비디오는 &quot;비디오&quot;로 처리됩니다. 즉, 이 자산 분류는 데스크톱, 모바일 장치 또는 둘 다에서 재생하기 위해 비디오를 제공할 수 있다는 것입니다. 예를 들어 Adobe Dynamic Media Classic에서 이러한 유형의 비디오를 미리 볼 수 있습니다. 또한 비디오 플레이어나 웹 사이트 등에서 사용할 수 있도록 URL(URL 복사 기능 사용)과 포함할 수 있는 코드(포함 코드 기능 사용)를 생성할 수도 있습니다.
 
 [비디오 뷰어에서 비디오 미리 보기](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer)를 참조하십시오.
 
@@ -274,7 +274,7 @@ Dynamic Media Classic에 업로드하거나 Dynamic Media Classic에서 인코�
 
 [웹 페이지에 비디오 뷰어 포함](deploying-video-websites-mobile-sites.md#embedding-the-video-viewer-on-a-web-page)을 참조하십시오.
 
-Dynamic Media Classic에서 업로드 및 인코딩하는 비디오 자산의 경우 비디오는 다음 파일 형식으로 전달됩니다.
+Dynamic Media Classic에서 업로드하고 인코딩하는 비디오 자산의 경우, 비디오는 다음 파일 형식으로 전달됩니다.
 
 **MP4 H.264** 다음과 같은 경우 MP4 파일을 사용합니다.
 
@@ -282,7 +282,7 @@ Dynamic Media Classic에서 업로드 및 인코딩하는 비디오 자산의 �
 * HLS(HTTP Live Streaming, Apple의 스트리밍 프로토콜).
 * Android™, BlackBerry® 및 Windows® 모바일 장치에 대한 점진적 비디오 제공.
 
-다른 모든 비디오 형식과 코덱은 &quot;기본 비디오&quot;로 처리됩니다. 이 자산 분류는 비디오가 소스 비디오 파일이며 데스크톱 또는 모바일 장치에서 재생하기 위해 사용될 수 없다는 것을 의미합니다. 예를 들어 Dynamic Media Classic에서는 이러한 유형의 비디오를 미리 볼 수 없습니다. 또한 비디오 플레이어, 웹 사이트 등에서 사용하기 위해 [URL 복사] 또는 [포함 코드]를 생성할 수 없습니다.
+다른 모든 비디오 형식과 코덱은 &quot;기본 비디오&quot;로 처리됩니다. 이 자산 분류는 비디오가 소스 비디오 파일이며 데스크톱 또는 모바일 장치에서 재생하기 위해 사용될 수 없다는 것을 의미합니다. 예를 들어 Adobe Dynamic Media Classic에서는 이러한 유형의 비디오를 미리 볼 수 없습니다. 또한 비디오 플레이어, 웹 사이트 등에서 사용하기 위해 [URL 복사] 또는 [포함 코드]를 생성할 수 없습니다.
 
 ### 비디오 인코딩 사전 설정 목록 필터링 {#filtering-the-list-of-video-encoding-presets}
 
@@ -294,7 +294,7 @@ Dynamic Media Classic에서 업로드 및 인코딩하는 비디오 자산의 �
 
 **비디오 인코딩 사전 설정 목록을 필터링하려면:**
 
-1. Dynamic Media Classic의 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 비디오 사전 설정]** > **[!UICONTROL 응용 비디오 사전 설정]** 또는 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 클릭합니다.
+1. Dynamic Media Classic Adobe의 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 비디오 사전 설정]** > **[!UICONTROL 응용 비디오 사전 설정]** 또는 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 클릭합니다.
 
    응용 비디오 사전 설정 및 단일 인코딩 사전 설정 페이지에는 각 비디오 사전 설정의 활성 상태, 사전 설정 이름, 의도한 재생 장치, 비디오 차원 및 데이터 속도를 나열하는 표가 포함되어 있습니다.
 
@@ -307,7 +307,7 @@ Dynamic Media Classic에서 업로드 및 인코딩하는 비디오 자산의 �
 
 활성화된 비디오 사전 설정은 [업로드 작업 옵션] 대화 상자에 나타납니다. 업로드 프로세스 중에 사용자가 비디오 파일을 업로드할 때 이 대화 상자가 나타납니다. 모든 활성화된 인코딩 사전 설정 목록에서 선택할 수 있습니다.
 
-1. Dynamic Media Classic의 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 비디오 사전 설정]**&#x200B;을 클릭합니다.
+1. Dynamic Media Classic Adobe의 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 비디오 사전 설정]**&#x200B;을 클릭합니다.
 1. 다음 중 하나를 수행하십시오.
 
    * **[!UICONTROL 적응형 비디오 사전 설정]**&#x200B;을 클릭합니다.
@@ -328,7 +328,7 @@ Dynamic Media Classic에서 업로드 및 인코딩하는 비디오 자산의 �
 
 사용자 지정 단일 인코딩 비디오 사전 설정을 만들어 [비디오 사전 설정] 표에 추가할 수 있습니다. 편집된 사전 설정을 새 이름으로 저장하면 Dynamic Media Classic과 함께 제공되는 사전 정의된 단일 인코딩 비디오 사전 설정을 변경할 수도 있습니다.
 
-Dynamic Media Classic에서는 적절한 재생 환경을 위해 대상 데이터 속도, 해상도 높이 및 해상도 너비에 최대 제한을 설정했습니다. 다음의 제한을 초과하는 경우 경고 메시지가 표시됩니다.
+Adobe Dynamic Media Classic에서 적절한 재생 환경을 위해 대상 데이터 속도, 해상도 높이 및 해상도 너비에 대한 최대 제한을 설정했습니다. 다음의 제한을 초과하는 경우 경고 메시지가 표시됩니다.
 
 * 컴퓨터 재생에 적용되는 제한은 (너비/16) * (높이/16) &lt; 8192입니다. 
 * 모바일 재생에 적용되는 제한은 (너비/16) * (높이/16) &lt; 660, 타겟 데이터 속도 &lt; 4000입니다. 
@@ -336,14 +336,14 @@ Dynamic Media Classic에서는 적절한 재생 환경을 위해 대상 데이�
 
 **비디오 인코딩 사전 설정을 추가 또는 편집하려면:**
 
-1. Dynamic Media Classic의 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 비디오 사전 설정]**&#x200B;을 클릭합니다.
+1. Dynamic Media Classic Adobe의 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 비디오 사전 설정]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 클릭합니다.
 1. 비디오 사전 설정 페이지에서 다음 중 하나를 수행하십시오.
 
    * 비디오 사전 설정 도구 모음에서 **[!UICONTROL 추가]** 를 클릭하여 비디오 사전 설정을 추가할 수 있습니다.
    * 비디오 사전 설정을 선택합니다. 도구 모음에서 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
-      Dynamic Media Classic 사전 설정 은 편집할 수 없습니다.**[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택하여 기존 사전 설정에서만 사전 설정을 만들 수 있습니다.
+      Dynamic Media Classic 사전 정의 사전 설정은 편집할 수 없습니다. **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택하여 기존 사전 설정에서만 사전 설정을 만들 수 있습니다.
 
 1. 비디오 사전 설정 추가 페이지나 비디오 사전 설정 편집 페이지에서 원하는 비디오 사전 설정 옵션을 설정합니다.
 
@@ -353,12 +353,12 @@ Dynamic Media Classic에서는 적절한 재생 환경을 위해 대상 데이�
    |--- |--- |
    | 사전 설정 이름 | 비디오 사전 설정을 수사적 이름을 입력합니다. 사용자가 트랜스코딩 선택 사항을 선택하는 [업로드 작업 선택 사항] 대화상자에 입력한 이름이 표시됩니다. |
    | 설명 | 비디오 사전 설정을 비활성화합니다. 사용자가 코드 변환 옵션을 선택하는 [업로드 작업 옵션] 대화 상자에서 사전 설정 이름 위로 포인터를 이동하면 도구 설명으로 나타납니다. |
-   | 재생 장치 | 비디오를 재생하려는 장치를 선택합니다. 옵션은 컴퓨터(데스크톱), 모바일(iPhone, iPad, Android™);또는 태블릿(iPad만 해당). 이 설정은 인코딩 중에 사용되는 적절한 비디오 및 오디오 코덱을 자동으로 결정합니다. |
+   | 재생 장치 | 비디오를 재생하려는 장치를 선택합니다. 옵션은 컴퓨터(데스크톱), 모바일(iPhone, iPad, Android™); 또는 태블릿(iPad만 해당). 이 설정은 인코딩 중에 사용되는 적절한 비디오 및 오디오 코덱을 자동으로 결정합니다. |
    | 타겟 데이터 속도 | 타겟 최종 사용자의 평균 인터넷 연결 속도(kbps)를 입력합니다. 속도를 입력하거나 슬라이더를 끌어 입력할 수 있습니다. [사용자 연결 속도] 스펙트럼에는 광대역, DSL, 모바일 및 전화 접속 연결의 일반 속도가 나열됩니다. 이 설정은 결합된 비디오 및 오디오 데이터 속도를 결정합니다. 즉, 1초의 비디오 재생을 구성하기 위해 인코딩되는 데이터 양입니다. 데이터 속도가 빠를수록 결과 비디오 품질이 향상됩니다. 그러나 데이터 속도가 너무 빠르면 파일 크기가 커서 저대역폭 사용자에게 보통 이하의 보기 환경을 만듭니다. 빠른 데이터 속도와 느린 데이터 속도 간의 균형을 맞추는 것이 좋습니다. 좁은 대역폭 사용자를 소외시키지 않고 적절한 품질 재생 환경을 만들도록 해야 합니다. |
    | 종횡비 | 종횡비는 비디오의 너비와 높이 비율입니다. 아래 나열된 처음 두 종횡비는 일반적으로 비디오를 가로로 표시하는 데 사용됩니다.<ul><li> 4:3 - 거의 모든 표준 화질 TV 방송 컨텐츠에 사용됩니다.</li><li>16:9 - 거의 모든 와이드스크린 고화질 TV 컨텐츠(HDTV) 및 영화에 사용됩니다.</li><li>자동 크기 조절 - (기본값) 모바일, 태블릿 및 데스크톱 제공용 비디오를 만들기 위해 모든 종횡비에서 작동하는 단일 인코딩 사전 설정. 이 사전 설정으로 인코딩된 업로드된 소스 비디오는 고정 높이로 설정됩니다. 그러나, 너비는 비디오의 종횡비(세로에 대한 가로 비)를 유지하도록 자동으로 조절됩니다.</li><li>사용자 지정 - 표준이 아닌 비디오 크기를 정의하려 할 때 사용됩니다.</li><li>선택한 종횡비는 [해상도 크기]의 너비 및 높이 설정을 결정합니다. 너비와 높이 값이 적절한 종횡비에 맞게 자동으로 조정됩니다.</li></ul> |
    | 해상도 크기 | 해상도 크기는 너비 픽셀 수로 표시되는 픽셀 수로 크기를 결정합니다. 너비와 높이 값을 픽셀 단위로 입력하거나 슬라이더를 끌어 이러한 값을 입력합니다. 해상도 스펙트럼에는 일반적인 해상도 크기가 나열됩니다. 너비와 높이 값은 선택한 종횡비를 자동으로 따릅니다. 예를 들어 종횡비로 4:3을 선택하고 너비에 400을 입력하면 높이에 자동으로 300이 입력됩니다. [종횡비] 설정에 대해 자동 크기 조절을 선택하면 [해상도 크기]에 대한 [너비] 값이 자동으로 자동 설정됩니다. 브라우저 창을 열고 해결 방법을 선택할 수 있도록 미리 보기 를 클릭합니다. |
    | 인코딩된 파일 접미어 | 접미어를 입력합니다. 이 접미어는 결과로 인코딩된 비디오 파일에 추가됩니다. 이름에 하이픈과 밑줄을 입력할 수 있습니다. 공백과 특수 문자는 허용되지 않습니다. |
-   | 기타 설정 | Dynamic Media Classic은 우수 사례 인코딩 지침에 따라 다른 모든 인코딩 설정을 자동으로 결정합니다. |
+   | 기타 설정 | Adobe Dynamic Media Classic은 우수 사례 인코딩 지침에 따라 다른 모든 인코딩 설정을 자동으로 결정합니다. |
 
 1. 다음 중 하나를 수행하십시오.
 
@@ -367,9 +367,9 @@ Dynamic Media Classic에서는 적절한 재생 환경을 위해 대상 데이�
 
 ### 비디오 인코딩 사전 설정 삭제 {#deleting-a-video-encoding-preset}
 
-관리자는 사용자 지정 비디오 사전 설정을 삭제할 수 있습니다. Dynamic Media Classic과 함께 제공되는 비디오 사전 설정은 삭제할 수 없습니다.
+관리자는 사용자 지정 비디오 사전 설정을 삭제할 수 있습니다. Adobe Dynamic Media Classic과 함께 제공되는 비디오 사전 설정은 삭제할 수 없습니다.
 
-1. Dynamic Media Classic의 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 비디오 사전 설정]**&#x200B;을 클릭합니다.
+1. Dynamic Media Classic Adobe의 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 비디오 사전 설정]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 클릭합니다.
 1. 비디오 사전 설정 페이지의 표에서 더 이상 필요하지 않은 비디오 사전 설정을 선택합니다.
 1. [비디오 사전 설정] 도구 모음에서 **[!UICONTROL 삭제]**&#x200B;를 클릭합니다.
@@ -378,6 +378,6 @@ Dynamic Media Classic에서는 적절한 재생 환경을 위해 대상 데이�
 >[!MORELIKETHIS]
 >
 >* [빠른 시작: 비디오](quick-start-video.md#quick-start-video)
-* [비디오 업로드 및 인코딩](uploading-encoding-videos.md#uploading-and-encoding-videos)
-* [비디오 뷰어 사전 설정으로 작업](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
+>* [비디오 업로드 및 인코딩](uploading-encoding-videos.md#uploading-and-encoding-videos)
+>* [비디오 뷰어 사전 설정으로 작업](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
 

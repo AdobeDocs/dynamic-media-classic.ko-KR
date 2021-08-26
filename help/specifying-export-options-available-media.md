@@ -6,13 +6,13 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
-feature: Dynamic Media Classic,공동 작업,자산 관리
+feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 71%
+source-wordcount: '375'
+ht-degree: 72%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 71%
 * 내보내기 작업에 대해 ZIP 압축 내보내기 파일의 최대 파일 크기는 1 GB입니다.
 * 내보내기 작업당 최대 총 500개의 자산을 가질 수 있습니다.
 
-또한 [Dynamic Media Classic에서 자산 내보내기](exporting-assets-from-dmc.md#exporting-assets-from_dmc)를 참조하십시오.
+또한 [Adobe Dynamic Media Classic에서 자산 내보내기](exporting-assets-from-dmc.md#exporting-assets-from_dmc)를 참조하십시오.
 
 **Media Portal 사용자가 사용할 수 있는 내보내기 선택 사항을 지정하려면:**
 
@@ -42,6 +42,6 @@ ht-degree: 71%
 
 >[!MORELIKETHIS]
 >
->* [이미지 사전 설정](application-setup.md#image_presets)
-* [그룹의 이미지 사전 설정 액세스 권한 선택](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
+>* [Image Presets](application-setup.md#image_presets)
+>* [그룹의 이미지 사전 설정 액세스 권한 선택](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
 

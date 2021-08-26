@@ -1,6 +1,6 @@
 ---
 title: 견본 집합 만들기
-description: Dynamic Media Classic에서 견본 세트를 만드는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 견본 세트를 만드는 방법을 알아봅니다.
 uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '708'
 ht-degree: 61%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 61%
 
 **견본 집합 편집:**
 
-1. [격자] 보기에서 SwatchSet으로 이동한 다음 이미지 아래에서 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+1. [격자 보기]에서 SwatchSet으로 이동한 다음 이미지 아래에서 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 1. 다음 중 하나를 수행합니다.
 
    * 이미지(게시되었거나 게시 취소된)를 추가하려면 [자산 추가]에 있는 폴더에서 원하는 이미지를 [견본 집합]의 **[!UICONTROL 보기]** 페이지로 드래그합니다.

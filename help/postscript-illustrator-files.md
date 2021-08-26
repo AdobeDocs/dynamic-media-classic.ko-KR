@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: c04c1331-8d94-449b-9693-1488c94084dc
-feature: Dynamic Media Classic,자산 관리
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 08f14fe9-3e3b-4235-a6c5-b6b6d2ffc4bd
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 42%
+source-wordcount: '210'
+ht-degree: 43%
 
 ---
 
 # PostScript 및 Illustrator 파일 작업{#working-with-postscript-and-illustrator-files}
 
-Dynamic Media Classic에서 Adobe PostScript®(EPS) 및 Adobe® Illustrator®(AI) 파일을 사용할 수 있습니다. Dynamic Media Classic에서는 파일을 업로드할 때 이러한 파일을 구성하는 명령을 제공합니다.
+Adobe Dynamic Media Classic에서 Adobe PostScript®(EPS) 및 Adobe® Illustrator®(AI) 파일을 사용할 수 있습니다. Adobe Dynamic Media Classic에서는 이러한 파일을 업로드할 때 이러한 파일을 구성하는 명령을 제공합니다.
 
 PostScript(EPS) 또는 Illustrator(AI) 이미지 파일을 업로드하는 경우 다양한 방법으로 형식을 지정할 수 있습니다. 파일을 래스터화하고, 템플릿 게시를 위해 FXG로 전환하고, 투명 배경을 유지하고, 해상도를 선택하고, 색상 공간을 선택할 수 있습니다. PostScript 및 Illustrator 파일의 형식을 지정하는 선택 사항은 [업로드] 화면의 [업로드 작업 선택 사항] 상자에 있는 [Postscript 선택 사항] 및 [Illustrator 선택 사항] 아래에서 사용할 수 있습니다.
 

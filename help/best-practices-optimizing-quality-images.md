@@ -5,12 +5,12 @@ contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-feature: Dynamic Media Classic,자산 관리
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 1c7900b2807e6b67e9802e6361e42cce893b0217
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1467'
 ht-degree: 55%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 55%
 
 허용되는 결과를 렌더링하는 데는 많은 요소가 기여하므로 이미지 품질 최적화 프로세스는 시간이 많이 소요될 수 있습니다. 또한 이미지 품질은 개인마다 다르게 생각하므로 결과는 어느 정도 주관적입니다. 따라서 구조화된 실험이 중요합니다.
 
-Dynamic Media Classic에는 이미지 조정 및 최적화 및 렌더링 결과를 위한 100개 이상의 이미지 제공 명령이 포함되어 있습니다. 다음 지침은 프로세스를 간소화하고 일부 필수 명령 및 우수 사례를 사용하여 좋은 결과를 빨리 얻는 데 도움이 될 수 있습니다.
+Adobe Dynamic Media Classic에는 이미지 조정 및 최적화 및 렌더링 결과를 위한 100개 이상의 이미지 제공 명령이 포함되어 있습니다. 다음 지침은 프로세스를 간소화하고 일부 필수 명령 및 우수 사례를 사용하여 좋은 결과를 빨리 얻는 데 도움이 될 수 있습니다.
 
 [스마트 이미징](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic)도 참조하십시오.
 
@@ -45,13 +45,13 @@ Dynamic Media Classic에는 이미지 조정 및 최적화 및 렌더링 결과�
 
 ## 이미지 선명하게 하기 우수 사례 {#best-practices-for-image-sharpening}
 
-이미지 선명하게 하기는 웹 사이트에서 이미지를 제어하는 가장 복잡한 작업으로, 많은 실수가 발생합니다. 다음 유용한 리소스를 참조하여 Dynamic Media Classic에서 선명하게 하고 언샵 마스킹이 작동하는 방식에 대해 자세히 알아보십시오.
+이미지 선명하게 하기는 웹 사이트에서 이미지를 제어하는 가장 복잡한 작업으로, 많은 실수가 발생합니다. 다음 유용한 리소스를 참조하여 Adobe Dynamic Media Classic에서 선명하게 하고 언샵 마스킹이 작동하는 방식에 대해 자세히 알아보십시오.
 
 우수 사례 백서 [Adobe Dynamic Media Classic 및 Image Server](/help/assets/s7_sharpening_images.pdf)에서 이미지를 선명하게 합니다.
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
-Dynamic Media Classic을 사용하면 섭취, 게재 시 또는 둘 다에 따라 이미지를 선명하게 할 수 있습니다. 그러나 일반적으로 한 가지 방법 또는 다른 방법만 사용하여 이미지를 선명하게 하지만 두 방법 모두 이미지를 선명하게 하는 것이 좋습니다. URL에서 제공 시 이미지를 선명하게 하면 일반적으로 가장 좋은 결과를 얻게 됩니다.
+Adobe Dynamic Media Classic을 사용하면 섭취, 게재 시 또는 둘 다에 따라 이미지를 선명하게 할 수 있습니다. 그러나 일반적으로 한 가지 방법 또는 다른 방법만 사용하여 이미지를 선명하게 하지만 두 방법 모두 이미지를 선명하게 하는 것이 좋습니다. URL에서 제공 시 이미지를 선명하게 하면 일반적으로 가장 좋은 결과를 얻게 됩니다.
 
 사용할 수 있는 이미지 선명하게 하기 방법에는 다음 두 가지가 있습니다.
 
@@ -71,7 +71,7 @@ Dynamic Media Classic을 사용하면 섭취, 게재 시 또는 둘 다에 따�
 
          필터에 사용하는 우수 사례를 포함하여 이러한 세 매개 변수를 설정하는 방법에 대한 자세한 내용은 Adobe Dynamic Media Classic 및 이미지 서버에서 [이미지 선명하게 하기](/help/assets/s7_sharpening_images.pdf)를 참조하십시오.
 
-      * Dynamic Media Classic에서도 네 번째 매개 변수를 제어할 수 있습니다. 모노크롬( `0,1`). 이 매개 변수는 언샵 마스킹이 값 `0`을 따로따로 사용하여 각 색상 구성 요소에 적용될지, 아니면 값 `1`을 사용하여 이미지 밝기/강도에 적용될지를 결정합니다.
+      * Dynamic Media Classic Adobe을 사용하면 네 번째 매개 변수를 제어할 수도 있습니다. 모노크롬( `0,1`). 이 매개 변수는 언샵 마스킹이 값 `0`을 따로따로 사용하여 각 색상 구성 요소에 적용될지, 아니면 값 `1`을 사용하여 이미지 밝기/강도에 적용될지를 결정합니다.
 
 언샵 마스크 반경 매개 변수로 시작하는 것이 좋습니다. 시작할 수 있는 반경 설정은 다음과 같습니다.
 
@@ -120,6 +120,6 @@ JPG 이미지를 메모리가 제한된 장치에 전달하는 경우 `&jpegSize
 
 실험할 때 다음의 일반적인 제안은 워크플로우를 최적화하는 데 유용합니다.
 
-* Dynamic Media Classic URL에서 직접 또는 Dynamic Media Classic의 이미지 조정 기능을 사용하여 다양한 매개 변수를 실시간으로 테스트해 보십시오. 후자는 조정 작업을 위한 실시간 미리 보기를 제공합니다.
+* Adobe Dynamic Media Classic URL에서 직접 또는 Adobe Dynamic Media Classic의 이미지 조정 기능을 사용하여 다양한 매개 변수를 실시간으로 테스트해 보십시오. 후자는 조정 작업을 위한 실시간 미리 보기를 제공합니다.
 * Dynamic Media 이미지 제공 명령을 이미지 사전 설정으로 그룹화할 수 있는 것이 좋습니다. 이미지 사전 설정은 기본적으로 `$thumb_low$` 및 `&product_high$` 등의 사용자 지정 사전 설정 이름을 사용하는 URL 명령 매크로입니다. URL 경로의 사용자 지정 사전 설정 이름은 이러한 사전 설정을 호출합니다. 이와 같은 기능은 웹 사이트의 다양한 이미지 사용 패턴에 대한 명령 및 품질 설정을 관리하는 데 도움이 되며 URL의 전체 길이를 단축합니다.
-* 또한 Dynamic Media Classic에서는 섭취 시 이미지 선명하게 하기 적용과 같이 이미지 품질을 조정하는 고급 방법을 제공합니다. 렌더링된 결과를 추가로 조정하고 최적화하는 고급 사용 사례의 경우, Adobe Professional Services을 사용하면 사용자 정의된 통찰력과 모범 사례를 활용할 수 있습니다.
+* 또한 Adobe Dynamic Media Classic은 섭취 시 이미지 선명하게 하기 적용과 같이 이미지 품질을 조정하는 고급 방법을 제공합니다. 렌더링된 결과를 추가로 조정하고 최적화하는 고급 사용 사례의 경우, Adobe Professional Services을 사용하면 사용자 정의된 통찰력과 모범 사례를 활용할 수 있습니다.

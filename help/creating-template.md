@@ -1,6 +1,6 @@
 ---
 title: 템플릿 만들기
-description: Dynamic Media Classic에서 템플릿을 만드는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 템플릿을 만드는 방법을 알아봅니다.
 uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3405'
 ht-degree: 45%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->이전 버전의 Dynamic Media Classic에서 만든 템플릿을 편집하는 경우 &quot;캔버스 레이어를 추가하시겠습니까?&quot;를 저장할 때 메시지가 표시됩니다. 기본 레이어를 추가하지 않으려면 **[!UICONTROL 아니요]**&#x200B;를 선택하십시오. 실수로 **[!UICONTROL Yes]**&#x200B;를 선택한 경우 URL에서 `&allowCanvasPrompt` 및 `&layer=0` 한정자를 삭제하고 **[!UICONTROL Enter]** 또는 **[!UICONTROL Return]**&#x200B;을 누릅니다.
+>이전 버전의 Adobe Dynamic Media Classic에서 만든 템플릿을 편집하는 경우 &quot;캔버스 레이어를 추가하시겠습니까?&quot;를 저장할 때 메시지가 표시됩니다. 기본 레이어를 추가하지 않으려면 **[!UICONTROL 아니요]**&#x200B;를 선택하십시오. 실수로 **[!UICONTROL Yes]**&#x200B;를 선택한 경우 URL에서 `&allowCanvasPrompt` 및 `&layer=0` 한정자를 삭제하고 **[!UICONTROL Enter]** 또는 **[!UICONTROL Return]**&#x200B;을 누릅니다.
 
 ## 초기 템플릿 만들기 {#creating-the-initial-template}
 
@@ -52,7 +52,7 @@ ht-degree: 45%
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 템플릿을 저장할 폴더를 선택하고 템플릿의 이름을 입력한 다음 **[!UICONTROL 제출]**&#x200B;을 선택합니다.
 
-   Dynamic Media Classic에서는 캔버스에 맞게 이미지를 축소하고 템플릿을 정의할 템플릿 화면의 영역을 축소합니다.
+   Adobe Dynamic Media Classic은 캔버스에 맞게 이미지를 축소하고 템플릿을 정의할 템플릿 화면의 영역을 축소합니다.
 
 ## 템플릿 세트 편집 {#editing-a-template-set}
 
@@ -121,7 +121,7 @@ ht-degree: 45%
 
    >[!NOTE]
    >
-   >필요한 경우 Dynamic Media Classic은 이미지를 축소하여 이미지 레이어를 만들 때 캔버스에 맞게 만듭니다.
+   >필요한 경우 Adobe Dynamic Media Classic은 이미지 레이어를 만들 때 이미지를 축소하여 캔버스에 맞게 만듭니다.
 
 ## 텍스트 레이어 만들기 {#creating-a-text-layer}
 
@@ -142,7 +142,7 @@ ht-degree: 45%
 1. 텍스트 편집기의 텍스트 상자에서 서식을 지정할 텍스트를 선택합니다. 모든 텍스트, 텍스트 부분 또는 개별 문자를 선택할 수 있습니다.
 1. 다음 서식 옵션을 지정한 다음 **[!UICONTROL 적용]**&#x200B;을 선택합니다.
 
-   * **[!UICONTROL 글꼴]**  - 글꼴 메뉴에서 글꼴을 선택합니다. 원하는 글꼴이 메뉴에 나타나지 않으면 Dynamic Media Classic에 업로드할 수 있습니다. [글꼴]을 참조하십시오.
+   * **[!UICONTROL 글꼴]**  - 글꼴 메뉴에서 글꼴을 선택합니다. 원하는 글꼴이 메뉴에 나타나지 않으면 Adobe Dynamic Media Classic에 업로드할 수 있습니다. [글꼴]을 참조하십시오.
 
    * **[!UICONTROL 글꼴 크기]**  - 메뉴에서 글꼴 크기를 선택하거나 상자에 특정 크기를 입력하거나 위쪽  ****  **** 아래쪽 화살표를 선택하여 크기를 두 포인트 늘리거나 줄입니다.
 
@@ -244,7 +244,7 @@ ht-degree: 45%
 
 >[!NOTE]
 >
->Dynamic Media Classic에서는 템플릿의 정확한 크기를 나타내는 이미지 사전 설정을 만들 것을 권장합니다. 이미지 사전 설정 크기를 템플릿 크기와 일치시키면 템플릿의 최종 출력 크기와 선명하게 하기 선택 사항이 올바르게 설정됩니다. 이 이미지 사전 설정을 만든 후 [템플릿 미리 보기] 화면의 [사전 설정 적용] 메뉴에서 선택할 수 있습니다. 서버에서 이미지가 제공될 때의 이미지 모양이 화면에 표시됩니다. [이미지 사전 설정 설정](setting-image-presets.md#setting_up_image_presets)을 참조하십시오.
+>Adobe Dynamic Media Classic에서는 템플릿의 정확한 크기를 나타내는 이미지 사전 설정을 만들 것을 권장합니다. 이미지 사전 설정 크기를 템플릿 크기와 일치시키면 템플릿의 최종 출력 크기와 선명하게 하기 선택 사항이 올바르게 설정됩니다. 이 이미지 사전 설정을 만든 후 [템플릿 미리 보기] 화면의 [사전 설정 적용] 메뉴에서 선택할 수 있습니다. 서버에서 이미지가 제공될 때의 이미지 모양이 화면에 표시됩니다. [이미지 사전 설정 설정](setting-image-presets.md#setting_up_image_presets)을 참조하십시오.
 
 * **레이어 크기 변경**  - 레이어 또는 캔버스의 크기를 변경하려면 [레이어] 목록에서 레이어나 캔버스를 선택하고 다음 방법 중 하나를 사용합니다.
 
@@ -288,7 +288,7 @@ ht-degree: 45%
 
 ## 레이어에 그림자 및 광선 효과 사용 {#using-shadow-and-glow-effects-on-layers}
 
-레이어에 그림자나 후광을 적용할 수 있습니다. 그림자나 후광은 레이어의 경계에 적용되고 선택한 그림자 또는 후광 선택 사항에 따라 안쪽이나 바깥쪽으로 확장됩니다. 서식 파일이 그림자 및 네온 효과가 있는 PSD 파일로 시작된 경우 Dynamic Media Classic에서 이러한 효과를 조정할 수 있습니다.
+레이어에 그림자나 후광을 적용할 수 있습니다. 그림자나 후광은 레이어의 경계에 적용되고 선택한 그림자 또는 후광 선택 사항에 따라 안쪽이나 바깥쪽으로 확장됩니다. 서식 파일이 그림자 및 네온 효과가 있는 PSD 파일로 시작된 경우 Adobe Dynamic Media Classic에서 이러한 효과를 조정할 수 있습니다.
 
 그림자 또는 후광 효과를 적용한 후 [템플릿] 화면의 [레이어 속성] 영역에서 크기, 색상, 불투명도 및 위치를 조정할 수 있습니다.
 

@@ -1,5 +1,5 @@
 ---
-title: '"빠른 시작:Adobe Target Standard/Premium 통합"'
+title: '"빠른 시작: Adobe Target Standard/Premium 통합"'
 description: Adobe Target Standard/Premium 통합 기술을 사용하여 빠르게 시작하고 실행할 수 있는 Adobe Target Standard/Premium 소개 및 빠른 시작.
 uuid: d8f79fbf-8be1-44fa-8058-3508060fcd70
 contentOwner: admin
@@ -10,30 +10,30 @@ discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '508'
 ht-degree: 11%
 
 ---
 
-# 빠른 시작:Adobe Target Standard/Premium 통합{#quick-start-target-integration}
+# 빠른 시작: Adobe Target Standard/Premium 통합{#quick-start-target-integration}
 
 Adobe Target Standard/Premium은 마케터가 직접 제어하여 여러 A/B 및 다변량 테스트를 신속하고 지속적으로 실행하고, 효과를 측정하며, 세그멘테이션, 타깃팅 및 자동화된 개인화를 통해 온라인 컨텐츠의 관련성을 높일 수 있습니다.
 
-Dynamic Media Classic에서 Adobe Target Standard/Premium 캠페인에 대한 오퍼 및 오퍼 세트를 만들 수 있습니다. 예를 들어 동일한 리치 미디어 자산의 3가지 변형으로 오퍼 세트를 만들 수 있습니다. 그러면 Adobe Target Standard/Premium에서 더 나은 전환 상승도를 제공하는 자산을 결정하도록 할 수 있습니다. 기본 템플릿이나 개별 이미지에서 오퍼와 오퍼 집합을 만들 수 있습니다. 오퍼 세트가 Adobe Target Standard/Premium에 푸시되거나 저장되면 Adobe Target Standard/Premium에서 오퍼가 mbox 및 경험과 연결된 캠페인을 실행할 수 있습니다. 이러한 캠페인은 클릭스루 및 전환에 가장 적합한 웹 사이트의 변형을 결정합니다.
+Adobe Dynamic Media Classic을 사용하면 Adobe Target Standard/Premium 캠페인에 대한 오퍼 및 오퍼 세트를 만들 수 있습니다. 예를 들어 동일한 리치 미디어 자산의 3가지 변형으로 오퍼 세트를 만들 수 있습니다. 그러면 Adobe Target Standard/Premium에서 더 나은 전환 상승도를 제공하는 자산을 결정하도록 할 수 있습니다. 기본 템플릿이나 개별 이미지에서 오퍼와 오퍼 집합을 만들 수 있습니다. 오퍼 세트가 Adobe Target Standard/Premium에 푸시되거나 저장되면 Adobe Target Standard/Premium에서 오퍼가 mbox 및 경험과 연결된 캠페인을 실행할 수 있습니다. 이러한 캠페인은 클릭스루 및 전환에 가장 적합한 웹 사이트의 변형을 결정합니다.
 
-Adobe Target Standard/Premium HTML 오퍼를 사용하여 다이내믹 Dynamic Media Classic 콘텐츠를 보다 사용자 지정할 수 있습니다. 자세한 내용은 [Adobe Target Standard/Premium 제품 설명서](https://experienceleague.adobe.com/docs/target.html)를 참조하십시오.
+Dynamic Media Classic 콘텐츠의 사용자 지정을 확대하려면 Adobe Target Standard/Premium HTML 오퍼를 사용하십시오. 자세한 내용은 [Adobe Target Standard/Premium 제품 설명서](https://experienceleague.adobe.com/docs/target.html)를 참조하십시오.
 
 >[!NOTE]
 >
->Dynamic Media Classic에서 Adobe Target Standard/Premium을 사용하려면 유효한 Adobe Target Standard/Premium 계정이 필요합니다.
+>Adobe Dynamic Media Classic에서 Adobe Target Standard/Premium을 사용하려면 유효한 Adobe Target Standard/Premium 계정이 필요합니다.
 
 이 빠른 시작은 Adobe Target Standard/Premium HTML 오퍼 세트를 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다. 1-3 단계를 수행하십시오. 각 단계 뒤에는 자세한 정보를 확인할 수 있는 항목 제목의 상호 참조가 있습니다.
 
 ## 1. Application General Settings 페이지에서 Adobe Target Standard/Premium URL을 입력합니다
 
-Dynamic Media Standard/Premium과 통합하려면 Adobe Target Classic에 Adobe Target Standard/Premium URL이 필요합니다. Adobe Target Standard/Premium URL의 일부를 `.com`까지 복사하고 **[!UICONTROL Servers]** 그룹, **[!UICONTROL Test&amp;Target 서버 이름]** 텍스트 필드에 Dynamic Media Classic **[!UICONTROL 응용 프로그램 일반 설정]** 페이지에 입력합니다. [Dynamic Media Classic과 Adobe Target Standard/Premium 통합](integrating-dmc-with-target.md#integrating-dmc-with-target)을 참조하십시오.
+Adobe Dynamic Media Classic을 Adobe Target Standard/Premium과 통합하려면 Adobe Target Standard/Premium URL이 필요합니다. Adobe Target Standard/Premium URL의 일부를 `.com`까지 복사하고 **[!UICONTROL Servers]** 그룹, **[!UICONTROL Test&amp;Target 서버 이름]** 텍스트 필드에 Dynamic Media Classic **[!UICONTROL 응용 프로그램 일반 설정]** 페이지에 입력합니다. [Adobe Dynamic Media Classic과 Adobe Target Standard/Premium 통합](integrating-dmc-with-target.md#integrating-dmc-with-target)을 참조하십시오.
 
 ## 2. 오퍼 세트를 만듭니다
 

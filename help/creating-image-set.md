@@ -1,6 +1,6 @@
 ---
 title: 이미지 집합 만들기
-description: Dynamic Media Classic에서 이미지 세트를 만드는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 이미지 세트를 만드는 방법을 알아봅니다.
 uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '588'
 ht-degree: 63%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 63%
 
 **이미지 세트 편집:**
 
-1. 표 형태 보기에서 ImageSet으로 이동한 다음 이미지 아래에서 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
+1. 그리드 보기에서 ImageSet으로 이동한 다음 이미지 아래에서 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 1. 다음 중 하나를 수행합니다.
 
    * 이미지(게시되었거나 게시 취소된 이미지)를 추가하려면 [자산 추가]에 있는 폴더에서 이미지를 [이미지 세트]의 **[!UICONTROL 보기]** 페이지로 드래그합니다.

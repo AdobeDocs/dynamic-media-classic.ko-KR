@@ -10,9 +10,9 @@ discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 15%
 
 ---
@@ -23,7 +23,7 @@ Adobe Analytics에서 필요한 변수를 만들고 Dynamic Media Classic 이벤
 
 **Adobe Analytics 보고서를 보고 통합을 테스트하려면**
 
-1. 계정에서 Dynamic Media Classic 뷰어를 시작합니다. 특히 가져오려는 지표를 브로드캐스트하고 이 뷰어와 상호 작용하여 일부 이벤트 데이터를 만듭니다.
+1. 계정에서 Dynamic Media Classic Adobe 뷰어를 시작합니다. 특히 가져오려는 지표를 브로드캐스트하고 이 뷰어와 상호 작용하여 일부 이벤트 데이터를 만듭니다.
 
    예를 들어, 이미지 세트에서 자주 사용하는 대체 보기를 측정하려면 이미지 세트를 미리 보고 다른 축소판 이미지를 클릭합니다.
 
@@ -35,6 +35,6 @@ Adobe Analytics에서 필요한 변수를 만들고 Dynamic Media Classic 이벤
 
 >[!NOTE]
 >
->모든 Dynamic Media Classic 뷰어 데이터는 Adobe Analytics의 사용자 지정 트래픽 보고서 또는 사용자 지정 전환 보고서에 표시되고 보고됩니다.
+>모든 Adobe Dynamic Media Classic 뷰어 데이터는 Adobe Analytics의 사용자 지정 트래픽 보고서 또는 사용자 지정 전환 보고서에 표시되고 보고됩니다.
 
 자세한 내용은 [Analytics Tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html)을 참조하십시오.

@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics Instrumentation Kit을 사용하여 뷰어 계기
-description: Dynamic Media Classic에서 Adobe Analytics Instrumentation Kit을 사용하여 뷰어를 구현하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 Adobe Analytics Instrumentation Kit을 사용하여 뷰어를 구현하는 방법을 알아봅니다.
 uuid: cf9a4002-966d-4641-9cd0-2ee8b5454f60
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: a2824244-1755-42de-a167-42af117cf038
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
-source-git-commit: bb387446f294cf1e90d26ae1df4422879ad29db7
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '304'
 ht-degree: 20%
 
 ---
@@ -21,17 +21,17 @@ ht-degree: 20%
 
 Adobe Analytics 계측 키트 를 사용하여 HTML5 뷰어를 Adobe Analytics과 통합할 수 있습니다.
 
-사전 정의된 Dynamic Media Classic HTML5 뷰어 사전 설정을 사용하는 경우 이미 Adobe Analytics에 데이터를 전송할 모든 구현 코드가 포함되어 있습니다. 추가 계측은 필요하지 않습니다.
+사전 정의된 Adobe Dynamic Media Classic HTML5 뷰어 사전 설정을 사용하는 경우 Adobe Analytics에 데이터를 보내기 위한 모든 구현 코드가 이미 포함되어 있습니다. 추가 계측은 필요하지 않습니다.
 
-## Dynamic Media Classic에서 Adobe Analytics 추적 설정 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
+## Adobe Dynamic Media Classic에서 Adobe Analytics 추적 설정 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
 모든 HTML5 뷰어의 경우, 일반적으로 &lt;head> 요소와 같은 HTML 컨테이너에 다음 JavaScript를 추가합니다.
 
 ```as3
-<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
+<!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
 ```
 
-여기서 `Dynamic Media Classic Company ID`은 Dynamic Media Classic 회사 이름으로 설정됩니다. 그리고 회사 사전 설정 이름이 `companypreset`이 아닌 한 `&preset`은 선택 사항입니다. 이러한 경우 `companypreset-1, companypreset-2` 등이 될 수 있습니다. 숫자가 클수록 사전 설정의 최신 인스턴스입니다. 올바른 회사 사전 설정 값 이름을 확인하려면 **[!UICONTROL URL 복사]** 를 선택한 다음 `preset=`매개 변수를 확인하여 회사 사전 설정 이름을 찾으십시오.
+여기서 `Adobe Dynamic Media Classic Company ID`은 Adobe Dynamic Media Classic 회사 이름으로 설정됩니다. 그리고 회사 사전 설정 이름이 `companypreset`이 아닌 한 `&preset`은 선택 사항입니다. 이러한 경우 `companypreset-1, companypreset-2` 등이 될 수 있습니다. 숫자가 클수록 사전 설정의 최신 인스턴스입니다. 올바른 회사 사전 설정 값 이름을 확인하려면 **[!UICONTROL URL 복사]** 를 선택한 다음 `preset=`매개 변수를 확인하여 회사 사전 설정 이름을 찾으십시오.
 
 계속하십시오. 이제 뷰어 이벤트를 Adobe Analytics 추적 코드에 전송하는 함수를 추가합니다.
 

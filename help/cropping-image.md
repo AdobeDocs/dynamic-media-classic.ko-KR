@@ -1,6 +1,6 @@
 ---
 title: 이미지 자르기
-description: Dynamic Media Classic에서 이미지를 자르는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 이미지를 자르는 방법을 알아봅니다.
 uuid: 84f199de-cbfc-4d06-877f-6e9148e82e15
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 99dfa476-4f11-4569-a27e-a76ed7787674
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
-source-git-commit: 976f739e5233ae9da24b06cffa729353a7d03c46
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '548'
+source-wordcount: '550'
 ht-degree: 35%
 
 ---
 
 # 이미지 자르기{#cropping-an-image}
 
-Dynamic Media Classic에서 이미지를 자를 수 있습니다. 이미지를 원본 상태로 복원할 수 있도록 잘린 이미지에 대한 정보가 시스템에 유지됩니다. 이미지를 자르고 잘린 버전을 새 이름으로 저장할 수도 있습니다.
+Adobe Dynamic Media Classic에서 이미지를 자를 수 있습니다. 이미지를 원본 상태로 복원할 수 있도록 잘린 이미지에 대한 정보가 시스템에 유지됩니다. 이미지를 자르고 잘린 버전을 새 이름으로 저장할 수도 있습니다.
 
 이미지를 잘라 주위 공백을 제거하거나 이미지의 한 영역을 자를 수 있습니다.
 
@@ -31,7 +31,7 @@ Dynamic Media Classic에서 이미지를 자를 수 있습니다. 이미지를 �
 
 이미지 가장자리에서 투명 또는 단색 픽셀을 자를 수 있습니다.
 
-1. 이미지를 자르려면 롤오버 **[!UICONTROL 편집]** 단추를 선택한 다음 **[!UICONTROL 자르기]**&#x200B;를 선택하거나 [세부 사항] 보기의 [찾아보기] 패널에 표시하고 **[!UICONTROL 자르기]** 단추를 선택합니다.
+1. 이미지를 자르려면 롤오버 **[!UICONTROL 편집]** 단추를 선택한 다음 **[!UICONTROL 자르기]**&#x200B;를 선택하거나 [세부 정보 보기]의 [찾아보기] 패널에 표시하고 **[!UICONTROL 자르기]** 단추를 선택합니다.
 1. 자르기 편집기 페이지에서 다음 중 하나를 수행합니다.
 
    * 색상 픽셀을 트리밍하려면 **[!UICONTROL Trim]** > **[!UICONTROL Color]**&#x200B;로 이동합니다. **[!UICONTROL 색상으로 자동 자르기]** 대화 상자에서 **[!UICONTROL 코너]** 메뉴를 선택하고 잘라낼 배경색의 코너를 선택합니다. 그런 다음 **[!UICONTROL 허용치]** 설정을 0에서 1까지에 입력합니다. 0을 설정하면 이미지 모서리에서 선택한 색상과 정확하게 일치하는 경우에만 픽셀이 잘립니다. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다. **[!UICONTROL 자르기]**&#x200B;를 선택합니다.
@@ -45,7 +45,7 @@ Dynamic Media Classic에서 이미지를 자를 수 있습니다. 이미지를 �
 
 ## 자를 영역 선택 {#select-an-area-to-crop}
 
-1. 이미지를 자르려면 롤오버 **[!UICONTROL 편집]** 단추를 선택하고 **[!UICONTROL 자르기]**&#x200B;를 선택하거나 [세부 사항] 보기의 [찾아보기] 패널에 표시하고 **[!UICONTROL 자르기]**&#x200B;를 선택합니다.
+1. 이미지를 자르려면 롤오버 **[!UICONTROL 편집]** 단추를 선택하고 **[!UICONTROL 자르기]**&#x200B;를 선택하거나 [세부 사항 보기]의 [찾아보기] 패널에 표시하고 **[!UICONTROL 자르기]**&#x200B;를 선택합니다.
 
 1. [자르기 편집기] 창에서 자르지 않을 이미지 부분을 자르기 상자에 배치합니다. **[!UICONTROL 저장]**&#x200B;을 선택하고 이미지를 자른 후 상자에 나타나는 모든 항목이 유지됩니다.
 1. 자르기 영역을 조정하려면 다음 중 하나를 수행합니다.

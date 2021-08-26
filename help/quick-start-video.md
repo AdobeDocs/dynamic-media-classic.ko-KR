@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1432'
 ht-degree: 43%
 
 ---
@@ -21,7 +21,7 @@ Adobe Dynamic Media Classic 비디오는 데스크탑, iOS, Android™, BlackBer
 
 예를 들어 iOS 모바일 장치에서는 3G, 4G 또는 Wi-Fi와 같은 대역폭을 검색합니다. 그런 다음 적응형 비디오 집합 내의 다양한 비디오 비트 전송률 중에서 적합한 인코딩된 비디오를 자동으로 선택합니다. 이 비디오는 데스크톱, 모바일 장치 또는 태블릿으로 스트리밍됩니다.
 
-또한 데스크톱이나 모바일 장치에서 네트워크 상태가 변경될 경우 비디오 품질이 자동으로 동적으로 전환됩니다. 또한 고객이 데스크탑에서 전체 화면 모드로 전환하면 더 나은 해상도를 사용하여 응용 비디오 세트가 응답하여 고객의 보기 환경을 향상시킵니다. 응용 비디오 세트 사용은 Dynamic Media Classic 비디오를 여러 화면 및 장치에서 재생하는 고객을 위해 최상의 재생 기능을 제공합니다.
+또한 데스크톱이나 모바일 장치에서 네트워크 상태가 변경될 경우 비디오 품질이 자동으로 동적으로 전환됩니다. 또한 고객이 데스크탑에서 전체 화면 모드로 전환하면 더 나은 해상도를 사용하여 응용 비디오 세트가 응답하여 고객의 보기 환경을 향상시킵니다. 응용 비디오 세트 사용은 Dynamic Media Classic 비디오를 여러 화면 및 장치에서 재생하는 고객을 위해 가장 적합한 재생 기능을 제공합니다.
 
 재생하는 동안 재생하거나 선택할 인코딩된 비디오를 결정하기 위해 비디오 플레이어가 사용하는 논리는 다음 알고리즘을 기준으로 합니다.
 
@@ -33,9 +33,9 @@ Adobe Dynamic Media Classic 비디오는 데스크탑, iOS, Android™, BlackBer
 
 알고리즘에 대한 기술 정보는 [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)에서 알고리즘 논리를 참조하십시오.
 
-단일 비디오 및 응용 비디오 세트를 관리하기 위해 Dynamic Media Classic에서는 다음을 지원합니다.
+단일 비디오 및 응용 비디오 세트를 관리하기 위해 Dynamic Media Classic Adobe은 다음을 지원합니다.
 
-* 지원되는 많은 비디오 형식 및 오디오 형식에서 비디오를 업로드하고 여러 화면에서 재생할 수 있도록 비디오를 MP4 H.264 형식으로 인코딩. 사전 정의된 Dynamic Media Classic 응용 비디오 사전 설정, 단일 비디오 인코딩 사전 설정을 사용하거나 자체 인코딩을 사용자 지정하여 비디오의 품질과 크기를 제어할 수 있습니다.
+* 지원되는 많은 비디오 형식 및 오디오 형식에서 비디오를 업로드하고 여러 화면에서 재생할 수 있도록 비디오를 MP4 H.264 형식으로 인코딩. 사전 정의된 Adobe Dynamic Media Classic 응용 비디오 사전 설정, 단일 비디오 인코딩 사전 설정을 사용하거나 자체 인코딩을 사용자 지정하여 비디오의 품질과 크기를 제어할 수 있습니다.
 
    응용 비디오 세트가 생성되면 MP4 비디오가 포함됩니다.
 
@@ -56,7 +56,7 @@ Adobe Dynamic Media Classic 비디오는 데스크탑, iOS, Android™, BlackBer
 
    [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)에서 최신 지원을 참조하십시오.
 
-   Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다. 다음 웹 사이트에서 이 비디오 형식을 지원하는 BlackBerry® 장치를 찾을 수 있습니다.
+   Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다. 다음 웹 사이트에서 이 비디오 형식을 지원하는 BlackBerry® 장치를 찾을 수 있습니다.
 
    BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482)에서 지원되는 비디오 형식을 참조하십시오.[
 
@@ -74,18 +74,18 @@ Adobe Dynamic Media Classic 비디오는 데스크탑, iOS, Android™, BlackBer
 
 **빠른 시작**
 
-다음 단계별 워크플로우 설명은 Dynamic Media Classic에서 응용 비디오 세트를 빠르게 설정 및 실행하는 데 도움이 되도록 설계되었습니다. 각 단계 뒤에는 자세한 정보를 확인할 수 있는 항목 제목의 상호 참조가 있습니다.
+다음 단계별 워크플로우 설명은 Adobe Dynamic Media Classic에서 응용 비디오 세트를 빠르게 설정 및 실행하는 데 도움이 되도록 설계되었습니다. 각 단계 뒤에는 자세한 정보를 확인할 수 있는 항목 제목의 상호 참조가 있습니다.
 
 ## 1. 동영상 업로드 및 인코딩
 
 다음 2가지 시나리오 중 하나를 사용하여 적응형 비디오 집합을 업로드하고 생성하십시오.
 
-* **미리 인코딩된 비디오 업로드**  - 비디오가 Dynamic Media Classic 외부에서 이미 인코딩된 경우 전역 탐색 막대에서 업로드  **** 를 클릭하여 MP4 비디오 파일을 찾아 Dynamic Media Classic에 바로 업로드합니다. **[!UICONTROL 작성]** > **[!UICONTROL 적응형 비디오 집합]**&#x200B;을 클릭합니다. 비디오 파일을 찾습니다. 원하는 비디오 파일을 [적응형 비디오 집합] 테이블로 끌어서 놓고 집합을 저장합니다.
-* **마스터 소스 비디오 업로드**  - 비디오가 인코딩되지 않은 경우 전역 탐색 막대에서 업로드  **** 를 클릭하여 마스터 비디오 소스 파일(MP4가 아닌 파일)을 업로드하고, Dynamic Media Classic에서 자동으로 MP4 파일로 인코딩하도록 합니다. **[!UICONTROL 업로드 작업 옵션]** 대화 상자의 **[!UICONTROL 비디오 옵션]**&#x200B;에서 **[!UICONTROL 응용 비디오]**&#x200B;를 선택합니다.
+* **미리 인코딩된 비디오 업로드**  - 비디오가 Dynamic Media Classic Adobe 외부에서 이미 인코딩된 경우 전역 탐색 막대에서 업로드  **** 를 클릭하여 MP4 비디오 파일을 찾아 Adobe Dynamic Media Classic에 바로 업로드합니다. **[!UICONTROL 작성]** > **[!UICONTROL 적응형 비디오 집합]**&#x200B;을 클릭합니다. 비디오 파일을 찾습니다. 원하는 비디오 파일을 [적응형 비디오 집합] 테이블로 끌어서 놓고 집합을 저장합니다.
+* **마스터 소스 비디오 업로드**  - 비디오가 인코딩되지 않은 경우 전역 탐색 막대에서 업로드  **** 를 클릭하여 마스터 비디오 소스 파일(MP4가 아닌 파일)을 업로드하고, Dynamic Media Classic이 자동으로 MP4 파일로 인코딩하도록 합니다. **[!UICONTROL 업로드 작업 옵션]** 대화 상자의 **[!UICONTROL 비디오 옵션]**&#x200B;에서 **[!UICONTROL 응용 비디오]**&#x200B;를 선택합니다.
 
    이 기본 옵션을 이용하면 16:9이든, 4:3이든 업로드한 비디오 크기에 맞게 올바른 인코딩 사전 설정을 비디오에 자동으로 적용하는 적응형 비디오 집합을 만들 수 있습니다. 업로드 작업을 제출하면 올바른 종횡비의 비디오 인코딩 3개를 포함하는 적응형 비디오 집합이 자동으로 만들어집니다.
 
-   또는 동일한 **[!UICONTROL 작업 옵션]** 대화 상자의 **[!UICONTROL EVideo 옵션]**&#x200B;에서 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장합니다.**데스크탑**, **모바일(iPhone, iPad, Android™)** 및 **태블릿(iPad, Android™)**&#x200B;에서 원하는 개별 비디오 인코딩 사전 설정을 선택하여 MP4 파일을 만듭니다.
+   또는 동일한 **[!UICONTROL 작업 옵션]** 대화 상자의 **[!UICONTROL EVideo 옵션]**&#x200B;에서 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장합니다. **데스크탑**, **모바일(iPhone, iPad, Android™)** 및 **태블릿(iPad, Android™)**&#x200B;에서 원하는 개별 비디오 인코딩 사전 설정을 선택하여 MP4 파일을 만듭니다.
 
 * 또는 **[!UICONTROL 재처리]** 기능을 사용하여 마스터 비디오를 재처리할 수 있습니다. 새로 인코딩된 비디오가 기존 적응형 비디오 집합에 추가됩니다.
 
@@ -93,7 +93,7 @@ Adobe Dynamic Media Classic 비디오는 데스크탑, iOS, Android™, BlackBer
 
 **선택 사항입니다**
 
-Dynamic Media Classic은 사전 정의된 다양한 비디오 인코딩 사전 설정을 제공합니다. 이러한 사전 설정은 현재 사용되는 가장 일반적인 비디오 인코딩 설정을 반영하며 대상 페이지에서 재생하도록 최적화되어 있습니다.
+Adobe Dynamic Media Classic은 사전 정의된 다양한 비디오 인코딩 사전 설정을 제공합니다. 이러한 사전 설정은 현재 사용되는 가장 일반적인 비디오 인코딩 설정을 반영하며 대상 페이지에서 재생하도록 최적화되어 있습니다.
 
 그러나 추가적인 사용자 지정이 필요한 경우, 관리자는 비디오 사전 설정을 만들어 비디오의 크기 및 재생 환경을 최종 사용자에 맞게 사용자 지정할 수 있습니다. 관리자는 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 비디오 사전 설정]** > **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;에서 사용할 수 있는 비디오 사전 설정 페이지에서 비디오 사전 설정을 추가 및 관리할 수 있습니다. [비디오 사전 설정] 페이지에서는 비디오 사전 설정을 추가, 편집, 삭제 및 활성화하는 선택 사항을 제공합니다.
 
@@ -109,7 +109,7 @@ Dynamic Media Classic은 사전 정의된 다양한 비디오 인코딩 사전 �
 
 **선택 사항입니다**
 
-뷰어 사전 설정 사용자 지정 - Dynamic Media Classic에서는 비디오를 제공하기 위해 사전 정의된 뷰어 사전 설정을 제공합니다. 이러한 사전 설정은 뷰어의 모양과 재생 컨트롤 작동 방식을 결정합니다. 관리자는 뷰어 사전 설정 페이지에서 뷰어 사전 설정을 추가하고 관리하여 비디오 뷰어를 사용자 지정할 수 있습니다. 이 페이지를 열려면 Dynamic Media Classic의 오른쪽 위 모서리에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**&#x200B;을 클릭합니다. [뷰어 사전 설정] 페이지에서는 뷰어 사전 설정을 추가, 편집, 삭제 및 활성화하는 명령을 제공합니다.
+뷰어 사전 설정 사용자 지정 - Dynamic Media Classic에서 비디오를 제공하기 위한 사전 정의된 뷰어 사전 설정을 제공합니다. 이러한 사전 설정은 뷰어의 모양과 재생 컨트롤 작동 방식을 결정합니다. 관리자는 뷰어 사전 설정 페이지에서 뷰어 사전 설정을 추가하고 관리하여 비디오 뷰어를 사용자 지정할 수 있습니다. 이 페이지를 열려면 Dynamic Media Classic Adobe의 오른쪽 상단에 있는 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**&#x200B;을 클릭합니다. [뷰어 사전 설정] 페이지에서는 뷰어 사전 설정을 추가, 편집, 삭제 및 활성화하는 명령을 제공합니다.
 
 [비디오 뷰어 사전 설정으로 작업](previewing-videos-video-viewer.md#working_with_video_viewer_presets)을 참조하십시오.
 

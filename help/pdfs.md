@@ -1,25 +1,25 @@
 ---
 title: PDF 작업
-description: Dynamic Media Classic에서 PDF를 사용하여 작업하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 PDF를 사용하여 작업하는 방법을 알아봅니다.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
-feature: Dynamic Media Classic,자산 관리
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '662'
 ht-degree: 45%
 
 ---
 
 # PDF 작업{#working-with-pdfs}
 
-PDF(Portable Document Format) 파일은 Dynamic Media Classic에서 전자 카탈로그를 만드는 데 가장 많이 사용됩니다. PDF 파일을 업로드할 때 Dynamic Media Classic은 기본적으로 페이지를 래스터화하거나 축소하여 페이지를 사용하여 리치 미디어를 작성할 수 있습니다.
+PDF(Portable Document Format) 파일은 Dynamic Media Classic에서 eCatalogs를 만드는 데 가장 많이 사용됩니다. PDF 파일을 업로드할 때 Dynamic Media Classic은 기본적으로 페이지를 래스터화하거나 래스터화하므로 페이지가 리치 미디어를 작성하는 데 사용될 수 있습니다.
 
 ## PDF 업로드 선택 사항 {#pdf-upload-options}
 
@@ -59,7 +59,7 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
 
 * **원래 색상 공간 유지**  - 원래 색상 공간을 유지합니다.
 
-* **[사용자 정의 시작] > [대상]**  - [변환] 및 [색상 공간으로 변환]을 선택할 수 있는 메뉴를 엽니다. 표준 Photoshop 색상 공간 또는 Dynamic Media Classic에 업로드한 색상 공간을 선택할 수 있습니다.
+* **[사용자 정의 시작] > [대상]**  - [변환] 및 [색상 공간으로 변환]을 선택할 수 있는 메뉴를 엽니다. 표준 Photoshop 색상 공간 또는 Adobe Dynamic Media Classic에 업로드한 색상 공간을 선택할 수 있습니다.
 
 [ICC 프로필](/help/icc-profiles.md#icc_profiles)을 참조하십시오.
 
@@ -78,7 +78,7 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
 
    * **색상을 기반으로 트리밍**  - 픽셀이 PDF 모서리에서 선택한 색상과 정확히 일치하는 경우에만 픽셀을 자르도록 0을 지정합니다. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다.
 
-   * **투명도를 기반으로 트리밍**  - 픽셀이 투명한 경우에만 픽셀을 자르도록 0을 지정합니다.1에 가까운 숫자는 더 투명할 수 있도록 해줍니다.
+   * **투명도를 기반으로 트리밍**  - 픽셀이 투명한 경우에만 픽셀을 자르도록 0을 지정합니다. 1에 가까운 숫자는 더 투명할 수 있도록 해줍니다.
 
 ## PDF 페이지 측면에서 자르기 {#cropping-from-the-sides-of-pdf-pages}
 
@@ -87,4 +87,4 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
 1. 자르기 메뉴에서 **[!UICONTROL 수동]**&#x200B;을 클릭합니다.
 1. [위쪽], [오른쪽], [아래쪽] 및 [왼쪽] 텍스트 상자에 픽셀 설정을 입력하여 페이지 위쪽, 아래쪽 및 측면에서 자릅니다.
 
-잘리는 페이지 양은 PDF 파일에 대해 입력한 [해상도 PX/인치] 설정에 따라 달라집니다. 예를 들어, 해상도 PX/인치 설정으로 150(기본값)을 입력하고 페이지 양쪽에서 75픽셀을 자르는 경우 1/2인치가 잘립니다.인치당 150픽셀에서 75픽셀은 반인치입니다.
+잘리는 페이지 양은 PDF 파일에 대해 입력한 [해상도 PX/인치] 설정에 따라 달라집니다. 예를 들어, 해상도 PX/인치 설정으로 150(기본값)을 입력하고 페이지 양쪽에서 75픽셀을 자르는 경우 1/2인치가 잘립니다. 인치당 150픽셀에서 75픽셀은 반인치입니다.

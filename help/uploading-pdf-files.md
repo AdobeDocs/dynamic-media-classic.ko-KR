@@ -9,7 +9,7 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 44%
@@ -22,13 +22,13 @@ ht-degree: 44%
 
 ## PDF 파일 준비 {#preparing-your-pdf-files}
 
-Dynamic Media Classic에 업로드하기 전에 PDF 파일을 준비합니다.
+PDF 파일을 Adobe Dynamic Media Classic에 업로드하기 전에 준비하십시오.
 
 * 파일을 쉽게 업로드하려면 모든 파일을 컴퓨터나 네트워크에 있는 동일한 폴더에 넣습니다.
 * 페이지를 기준으로 파일 이름을 영숫자 순으로 지정합니다. 페이지를 정렬하면 파일이 업로드된 후 페이지를 올바른 순서대로 배치하기가 더 쉽습니다.
-* PDF 페이지에 자르기 표시, 등록 대상 또는 색상 막대가 포함되어 있는지 확인하려면 페이지를 검사합니다. 이러한 표시는 문서를 인쇄할 때 용지를 절단하는 위치를 결정하며, eCatalog를 웹에 배치하기 전에 제거해야 합니다. Dynamic Media Classic에서는 PDF 파일을 업로드할 때 자르기 표시를 위한 옵션을 제공합니다.
+* PDF 페이지에 자르기 표시, 등록 대상 또는 색상 막대가 포함되어 있는지 확인하려면 페이지를 검사합니다. 이러한 표시는 문서를 인쇄할 때 용지를 절단하는 위치를 결정하며, eCatalog를 웹에 배치하기 전에 제거해야 합니다. Adobe Dynamic Media Classic에서는 PDF 파일을 업로드할 때 자르기 표시를 위한 옵션을 제공합니다.
 * 뷰어가 키워드로 eCatalog를 검색하게 하려면 PDF 파일이 &quot;균일화&quot;되었는지 확인합니다. 균일화된 PDF 파일에서는 검색어를 추출할 수 없습니다. PDF가 균일화되었는지 확인하려면 PDF 내에서 텍스트 선택을 시도합니다. 텍스트를 선택할 수 없으면 PDF가 평면화되고 뷰어는 eCatalog의 키워드로 검색할 수 없습니다.
-* 원래 인쇄용이기 때문에 PDF 파일에는 대체로 CMYK 이미지가 포함되어 있습니다. 기본적으로 Dynamic Media Classic에서는 이러한 CMYK 이미지를 지능적으로 감지하고 내부 CMYK 색상 프로파일을 사용하여 변환할 수 있습니다. 그러나 사용자 지정 색상 프로필을 사용하여 CMYK 이미지를 전환하려는 경우 이 작업도 가능합니다. 
+* 원래 인쇄용이기 때문에 PDF 파일에는 대체로 CMYK 이미지가 포함되어 있습니다. 기본적으로 Adobe Dynamic Media Classic에서는 이러한 CMYK 이미지를 지능적으로 감지하고 내부 CMYK 색상 프로파일을 사용하여 변환할 수 있습니다. 그러나 사용자 지정 색상 프로필을 사용하여 CMYK 이미지를 전환하려는 경우 이 작업도 가능합니다. 
 
    [ICC 프로필](icc-profiles.md#icc_profiles)을 참조하십시오.
 
@@ -46,7 +46,7 @@ Dynamic Media Classic에 업로드하기 전에 PDF 파일을 준비합니다.
 
 * **여러 페이지 PDF에서 eCatalog 자동 생성(선택 사항)**  - 업로드 작업 옵션 대화 상자에서  **[!UICONTROL PDF 옵션]**&#x200B;을 클릭합니다. 업로드할 때 자동으로 eCatalog를 만들려면 **[!UICONTROL 여러 페이지 PDF에서 eCatalog 자동 생성]**&#x200B;을 선택합니다. 먼저 PDF 파일을 선택하고 [작성] 명령을 선택하지 않고 eCatalog 화면으로 바로 이동한 다음 eCatalog에서 작업을 시작할 수 있습니다. eCatalog 이름은 PDF 파일을 따서 지정됩니다.
 
-* **해결 방법**  - 업로드 작업 옵션 대화 상자에서  **[!UICONTROL PDF 옵션을 클릭합니다]**. **[!UICONTROL 해상도]** 텍스트 필드에 값을 입력합니다. Dynamic Media Classic에서는 인치당 150픽셀을 권장합니다.
+* **해결 방법**  - 업로드 작업 옵션 대화 상자에서  **[!UICONTROL PDF 옵션을 클릭합니다]**. **[!UICONTROL 해상도]** 텍스트 필드에 값을 입력합니다. Adobe Dynamic Media Classic은 인치당 150픽셀을 권장합니다.
 
 * **Colorspace**  - [업로드 작업 옵션] 대화 상자에서  **[!UICONTROL PDF 옵션을 클릭합니다]**. Colorspace 드롭다운 목록에서 **[!UICONTROL 자동으로 감지]**&#x200B;를 선택합니다. 일반적으로 인쇄 출력용으로 만들어진 PDF는 CMYK를 사용하고 온라인 보기용 PDF는 RGB입니다. PDF에서 두 가지 색상 공간을 모두 사용하는 경우 [RGB로 강제 설정] 또는 [CMYK로 강제 설정]을 선택하여 특정 색상 공간을 선택할 수 있습니다. 예를 들어 페이지 그래픽은 CMYK 색상 공간을 사용하고 사진은 RGB를 사용하는 경우 PDF에서 두 가지 색상 공간을 모두 사용합니다. ICC 프로필을 업로드한 경우 해당 이름이 [색상 공간] 메뉴에 표시되며 여기서 프로필을 선택할 수 있습니다. 
 
@@ -56,7 +56,7 @@ Dynamic Media Classic에 업로드하기 전에 PDF 파일을 준비합니다.
 
    * **원래 색상 공간 유지**  - 원래 색상 공간을 유지합니다.
 
-   * **사용자 지정 시작 > 대상**  - [변형] > [색상 **[!UICONTROL 으로 변환]]** 공간을 선택할 수  **[!UICONTROL 있도록 하위]** 메뉴를 엽니다. 표준 Photoshop 색상 공간 또는 Dynamic Media Classic에 업로드한 색상 공간을 선택할 수 있습니다.
+   * **사용자 지정 시작 > 대상**  - [변형] > [색상 **[!UICONTROL 으로 변환]]** 공간을 선택할 수  **[!UICONTROL 있도록 하위]** 메뉴를 엽니다. 표준 Photoshop 색상 공간 또는 Adobe Dynamic Media Classic에 업로드한 색상 공간을 선택할 수 있습니다.
 
 <!-- * **Convert To SRGB** - Converts to SRGB (Standard Red Green Blue). SRGB is the recommended color space for displaying images on web pages. -->
 

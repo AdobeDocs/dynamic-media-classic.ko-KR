@@ -1,13 +1,13 @@
 ---
 title: Dynamic Media 뉴스레터 아카이브
-description: '보관된 Dynamic Media 뉴스레터는 Experience League의 월별 뉴스레터입니다. Dynamic Media 및 Dynamic Media Classic을 빠르게 활용하여 즉시 가치를 실현할 수 있도록 고안되었습니다. 보관된 뉴스레터에는 이제 중단된 이 원스톱 스토어 뉴스레터에서 사용할 수 있었던 중요한 지식 작성 리소스가 포함되어 있습니다. 보관된 뉴스레터에는 사용 방법 비디오 및 솔루션 개요 등이 포함되어 있습니다. 이미지 사전 설정, 뷰어 사전 설정 및 비디오 프로필과 같은 주요 기능과 성능에 대한 소개가 있습니다. '
+description: '보관된 Dynamic Media 뉴스레터는 Experience League의 월별 뉴스레터입니다. Dynamic Media 및 Adobe Dynamic Media Classic을 빠르게 활용하여 즉시 가치를 실현할 수 있도록 고안되었습니다. 보관된 뉴스레터에는 이제 중단된 이 원스톱 스토어 뉴스레터에서 사용할 수 있었던 중요한 지식 작성 리소스가 포함되어 있습니다. 보관된 뉴스레터에는 사용 방법 비디오 및 솔루션 개요 등이 포함되어 있습니다. 이미지 사전 설정, 뷰어 사전 설정 및 비디오 프로필과 같은 주요 기능과 성능에 대한 소개가 있습니다. '
 keywords: dynamic media;뉴스레터;제품 업데이트;팁과 트릭;이벤트;고객 성공;블로그;블로그;이미지;비디오;기능;기능
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 >
 >이제 월별 뉴스레터가 중단되었습니다. 그러나 아래 뉴스레터 보관소에 액세스할 수 있습니다.
 
-Dynamic Media Newsletter by Experience League은 Dynamic Media 및 Dynamic Media Classic을 빠르게 활용하여 즉시 가치를 실현할 수 있도록 고안되었습니다.
+Dynamic Media Newsletter by Experience League은 Dynamic Media 및 Adobe Dynamic Media Classic을 빠르게 활용하여 즉시 가치를 실현할 수 있도록 고안되었습니다.
 
 이 원스톱 숍 보관된 뉴스레터에서 방법 비디오 및 솔루션 개요 등 중요한 지식 작성 리소스를 찾을 수 있습니다. 이미지 사전 설정, 뷰어 사전 설정 및 비디오 프로필과 같은 주요 기능과 성능에 대한 소개가 있습니다.
 
@@ -52,19 +52,19 @@ Dynamic Media Newsletter by Experience League은 Dynamic Media 및 Dynamic Media
 
    * 이러한 어려운 시기에 리치 미디어 투자가 도움이 되는 세 가지 방법을 살펴보십시오.
    * Smart Imaging을 사용하여 페이지 로드를 줄이는 방법을 웨비나에 등록하십시오.
-   * Dynamic Media Classic용 온디맨드 Skill Builder 웨비나를 시청하십시오.
+   * Adobe Dynamic Media Classic에 대한 on-demand Skill Builder 웨비나를 시청하십시오.
    * 온라인 Adobe Summit 2020에서 Dynamic Media 세션을 봅니다.
-   * Adobe의 무료 Dynamic Media Classic 감사에 대해 자세히 알아보십시오.
+   * Adobe의 무료 Adobe Dynamic Media Classic 감사에 대해 자세히 알아보십시오.
    * 고객 성공 서비스의 수석 프로그램 관리자 `John Monroe`을 만나보십시오.
 
 * **[2020년 2월, 2호](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_02_2020_Feb.html)**
 
    이 문제:
 
-   * 새로운 Skill Builder 웨비나에 참석하여 Dynamic Media Classic 전문가로 전환하십시오.
+   * 새로운 Skill Builder 웨비나에 참석하여 Adobe Dynamic Media Classic 전문가로 전환하십시오.
    * 2020년 Adobe Summit에서 Dynamic Media을 찾을 수 있는 위치를 확인하십시오.
    * Dynamic Media의 자르기 마법을 사용하는 방법을 알아봅니다.
-   * Dynamic Media Classic을 통해 더 많은 가치를 얻을 수 있도록 하려면 Adobe의 무료 감사를 이용하십시오.
+   * Adobe Dynamic Media Classic을 통해 더 많은 가치를 얻을 수 있도록 지원하려면 Adobe에서 제공되는 무료 감사를 이용하십시오.
    * Dynamic Media Classic의 새 사용자 인터페이스에 대해 알아봅니다.
    * Adobe Experience Cloud의 고객 성공 관리자 `Georgia Myers`을 만나보십시오.
 
@@ -72,8 +72,8 @@ Dynamic Media Newsletter by Experience League은 Dynamic Media 및 Dynamic Media
 
    이 문제:
 
-   * Dynamic Media Classic 기술을 연마하기 위한 5가지 새로운 Skill Builder 웨비나.
-   * Dynamic Media Classic을 최대한 활용할 수 있는 무료 감사.
+   * 5개의 새로운 Skill Builder 웨비나를 통해 Adobe Dynamic Media Classic 기술을 연마하십시오.
+   * Adobe Dynamic Media Classic에서 더 많은 가치를 얻을 수 있는 무료 감사.
    * Adobe의 리치 미디어 고객을 위한 기록적인 휴일 쇼핑 시즌입니다.
    * 현재 사용자의 요구 사항에 맞는 DAM(Digital Asset Manager)을 선택하는 데 대한 안내서와 리치 미디어의 새로운 기능을 내일 준비합니다.
    * Digital Media 전문가 `Mark Dean`을 만나보십시오.
@@ -82,7 +82,7 @@ Dynamic Media Newsletter by Experience League은 Dynamic Media 및 Dynamic Media
 
    이 문제:
 
-   * Dynamic Media Classic 사용자 인터페이스의 새로 고침 .
+   * Dynamic Media Classic Adobe 사용자 인터페이스를 새로 고칩니다.
    * 강력한 새로운 보안 기능
    * Adobe이 어떻게 준비되고 있어서 성공적인 휴가철입니다.
    * 동료와 뉴스레터를 공유하여 팀 전문 지식을 구축하십시오.
@@ -97,7 +97,7 @@ Dynamic Media Newsletter by Experience League은 Dynamic Media 및 Dynamic Media
    * 오늘날의 고객 기대치를 충족하도록 풍부한 미디어 전략을 업데이트하는 방법을 이해하는 데 도움이 되는 CMSwire 기사입니다.
    * Skill Builder 시리즈에서 Dynamic Media의 온디맨드 웨비나에 액세스할 수 있습니다.
    * Adobe Experience Manager의 `Nick Peters` 관리자, 사이트 신뢰성 엔지니어링,
-   * Experience League에서 Dynamic Media 및 Dynamic Media Classic을 빠르게 사용할 수 있습니다.
+   * Experience League에서 Dynamic Media 및 Adobe Dynamic Media Classic을 빠르게 사용할 수 있습니다.
 
 * **[2019년 9월, 2019년 9월](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_09_2019_Sept.html)**
 
@@ -108,7 +108,7 @@ Dynamic Media Newsletter by Experience League은 Dynamic Media 및 Dynamic Media
    * 최근 두 개의 Skill Builder 웨비나를 잡을 두 번째 기회.
    * 해적으로부터 디지털 자산을 보호하는 on-demand 웨비나를 시청하십시오.
    * Experience Manager 자산에 대한 선임 제품 마케팅 관리자 `Bridget Roman` 를 만나보십시오.
-   * Experience League에서 Dynamic Media 및 Dynamic Media Classic을 빠르게 사용할 수 있습니다.
+   * Experience League에서 Dynamic Media 및 Adobe Dynamic Media Classic을 빠르게 사용할 수 있습니다.
 
 * **[2019년 8월, 2018년](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_08_2019_Aug.html)**
 
@@ -140,13 +140,13 @@ Dynamic Media Newsletter by Experience League은 Dynamic Media 및 Dynamic Media
    * 예정된 Adobe Insider Tour에 대해 자세히 알아보십시오.
    * 디지털 자산이 불법 복제되지 않도록 보호하는 방법에 대해 읽어 보십시오.
    * 이미지용 AI 기반의 Smart Crop에 대해 알아봅니다.
-   * Dynamic Media 및 Dynamic Media Classic의 많은 주요 기능과 혁신적인 기능을 뒷받침하는 요소 중 하나인 `Alex Thiers`을 만나보십시오.
+   * Dynamic Media 및 Adobe Dynamic Media Classic의 많은 주요 기능과 혁신적인 기능을 뒷받침하는 요소 중 하나인 `Alex Thiers`을 만나보십시오.
 
 * **[2019년 5월, 2015년 5월](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 
    이 문제:
 
-   * 블로그 게시에서 Dynamic Media Classic의 상위 10가지 숨겨진 기능을 살펴보십시오.
+   * 블로그 게시에서 Adobe Dynamic Media Classic의 상위 10가지 숨겨진 기능을 살펴보십시오.
    * Experience League에서 주요 방법 비디오를 시청하십시오.
    * 예정된 Adobe 인사이더 투어에 대해 알아봅니다.
    * 리치 미디어 전략을 업데이트하려면 3파트로 된 블로그 시리즈를 읽으세요.

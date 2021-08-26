@@ -1,6 +1,6 @@
 ---
 title: 세부 사항 보기의 작업
-description: Dynamic Media Classic의 세부 사항 보기에서 작업하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic의 세부 사항 보기에서 작업하는 방법을 알아봅니다.
 uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
-source-git-commit: 47845c30311fb9afb3fffb8502b6e7c534e4bfdb
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '615'
 ht-degree: 25%
 
 ---
@@ -44,7 +44,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 1. 찾아보기 패널에서 다음 중 하나를 수행합니다.
 
-   * 자산을 선택합니다. Dynamic Media Classic의 오른쪽 위 모서리 근처에 있는 **[!UICONTROL 세부 사항 보기]** 아이콘 을 선택합니다.
+   * 자산을 선택합니다. Dynamic Media Classic Adobe의 오른쪽 위 모서리 근처에 있는 **[!UICONTROL 세부 사항 보기]** 아이콘 을 선택합니다.
    * 자산을 두 번 클릭합니다.
    * 자산을 선택한 다음 **[!UICONTROL 파일]** > **[!UICONTROL 세부 정보]**&#x200B;로 이동합니다.
 
@@ -54,7 +54,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 세부 사항 보기의 정보 가져오기 {#getting-information-in-detail-view}
 
-세부 사항 보기는 자산 또는 파일에 대한 정보를 제공합니다. 항목에 대한 다음 정보가 표시됩니다. 저장되는 폴더, 폴더 파일 이름, 항목이 Dynamic Media Classic에 업로드된 날짜 및 게시 기록. 세부 사항 보기에서 메타데이터를 보고 편집하고 자산에 대한 키워드를 추가할 수도 있습니다.
+세부 사항 보기는 자산 또는 파일에 대한 정보를 제공합니다. 항목에 대한 다음 정보가 표시됩니다. 폴더가 저장되는 폴더, 해당 파일 이름, 항목이 Dynamic Media Classic에 업로드된 날짜 및 게시 기록. 세부 사항 보기에서 메타데이터를 보고 편집하고 자산에 대한 키워드를 추가할 수도 있습니다.
 
 세부 사항 보기에서 자산 URL을 가져올 수 있습니다. 그러나 URL은 자산을 게시하기 전까지 활성화되지 않습니다. 이미지의 경우, 세부 사항 보기에는 확대/축소 대상 및 이미지 세트와 같은 빌드 및 파생된 자산 및 메타데이터 목록이 제공됩니다.
 

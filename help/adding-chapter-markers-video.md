@@ -1,6 +1,6 @@
 ---
 title: 비디오에 장 마커 추가
-description: Dynamic Media Classic에서 비디오에 장 마커를 추가하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 비디오에 장 마커를 추가하는 방법을 알아봅니다.
 uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '629'
 ht-degree: 40%
 
 ---
@@ -57,7 +57,7 @@ HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 
 
 **비디오에 장 마커 추가:**
 
-1. Dynamic Media Classic 외부의 간단한 텍스트 편집기를 사용하여 비디오 장 파일을 만듭니다.
+1. Dynamic Media Classic의 외부에서 간단한 텍스트 편집기를 사용하여 비디오 장 파일을 만듭니다.
 
    >[!NOTE]
    >
@@ -67,7 +67,7 @@ HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 
 
    일반적으로 장 VTT 파일의 이름은 비디오 파일과 동일하게 지정하고 여기에 `chapters`를 추가합니다. 그렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다.
 
-1. Dynamic Media Classic에서 WebVTT 장 파일을 업로드합니다.
+1. Dynamic Media Classic Adobe에서 WebVTT 장 파일을 업로드합니다.
 
    [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오.
 

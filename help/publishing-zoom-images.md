@@ -7,13 +7,13 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
 discoiquuid: 34a99fd0-8148-41d4-843a-909637542dd9
-feature: Dynamic Media Classic,뷰어,확대/축소
+feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '151'
-ht-degree: 20%
+source-wordcount: '147'
+ht-degree: 21%
 
 ---
 
@@ -31,5 +31,5 @@ Dynamic Media 이미지 서버에 복사하려면 이미지를 게시용으로 �
 
 >[!MORELIKETHIS]
 >
->* [게시](publishing-files.md#publishing_files)
+>* [Publishing](publishing-files.md#publishing_files)
 

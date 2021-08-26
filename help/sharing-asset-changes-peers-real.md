@@ -7,19 +7,19 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
 discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
-feature: Dynamic Media Classic,자산 관리,공동 작업
+feature: Dynamic Media Classic,Asset Management,Collaboration
 role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '276'
 ht-degree: 50%
 
 ---
 
 # 자산 변경 사항을 피어와 실시간으로 공유{#sharing-asset-changes-with-peers-in-real-time}
 
-Dynamic Media Classic의 여러 복사본이 동일한 회사의 하나 이상의 컴퓨터에서 실행 중이면 모든 Dynamic Media Classic 클라이언트의 다음 작업이 모든 피어 클라이언트로 실시간으로 업데이트됩니다.
+Adobe Dynamic Media Classic의 여러 복사본이 동일한 회사의 하나 이상의 컴퓨터에서 실행 중이면 모든 Adobe Dynamic Media Classic 클라이언트의 다음 작업이 모든 피어 클라이언트에서 실시간으로 업데이트됩니다.
 
 * 자산 편집(빌더, 이미지 편집기 등)
 * 자산 이름 바꾸기

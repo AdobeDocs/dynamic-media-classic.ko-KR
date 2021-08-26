@@ -1,21 +1,21 @@
 ---
-title: 견본 집합을 웹 페이지에 연결
-description: 견본 세트를 웹 페이지에 연결하는 방법을 알아봅니다.
+title: 웹 페이지에 견본 집합 연결
+description: Adobe Dynamic Media Classic에서 견본 세트를 웹 페이지에 연결하는 방법을 알아봅니다.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-feature: Dynamic Media Classic,뷰어
+feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 92%
+source-wordcount: '699'
+ht-degree: 42%
 
 ---
 
-# 견본 집합을 웹 페이지에 연결{#linking-a-swatch-set-to-a-web-page}
+# 웹 페이지에 견본 집합 연결{#linking-a-swatch-set-to-a-web-page}
 
 견본 집합을 게시한 후 웹 사이트 또는 애플리케이션에서 해당 URL 또는 임베드 코드를 사용할 수 있습니다. 필요한 경우 URL 또는 임베드 코드를 배포하여 사용자가 웹 사이트 또는 애플리케이션에서 견본 집합을 볼 수 있도록 합니다.
 
@@ -25,22 +25,22 @@ ht-degree: 92%
 
 ## 견본 집합 URL 복사 {#copying-a-swatch-set-url}
 
-1. [자산 찾아보기] 패널의 [표시] 드롭다운 목록에서 **[!UICONTROL [견본 집합]]**&#x200B;을 클릭합니다.
+1. 자산 찾아보기 패널의 표시 드롭다운 목록에서 **[!UICONTROL 견본 집합]**&#x200B;을 선택합니다.
 1. 왼쪽의 [자산 라이브러리] 패널에서 임베드 코드를 복사하려는 견본 집합이 들어 있는 자산 폴더를 탐색합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.
 
-   * **[!UICONTROL [그리드 보기]]**&#x200B;를 클릭합니다. [자산 찾아보기] 패널에서 단일 자산을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 [URL 및 임베드 코드] 패널에서 원하는 뷰어의 오른쪽에 있는 **[!UICONTROL [URL 복사]]**&#x200B;를 클릭합니다.
-   * **[!UICONTROL [그리드 보기]]**&#x200B;를 클릭합니다. [자산 찾아보기] 패널에서 단일 자산을 선택하고 썸네일 이미지 아래에서 **[!UICONTROL [미리 보기]]** > **[!UICONTROL [뷰어 목록]]**&#x200B;을 클릭합니다.
+   * **[!UICONTROL 표 보기]**&#x200B;를 선택합니다. [자산 찾아보기] 패널에서 단일 자산을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 원하는 뷰어 오른쪽에 **[!UICONTROL URL 복사]**&#x200B;를 선택합니다.
+   * **[!UICONTROL 표 보기]**&#x200B;를 선택합니다. 자산 찾아보기 패널에서 단일 자산을 선택한 다음 축소판 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**&#x200B;으로 이동합니다.
 
-      [뷰어 목록] 페이지에 있는 테이블의 [작업] 열에서 **[!UICONTROL [URL 복사]]**&#x200B;를 클릭합니다.
+      뷰어 목록 페이지의 테이블의 작업 열 아래에서 **[!UICONTROL URL 복사]**&#x200B;를 선택합니다.
 
-   * **[!UICONTROL [목록 보기]]**&#x200B;를 클릭합니다. [자산 찾아보기] 패널에서 단일 자산을 선택하고 썸네일 이미지 오른쪽에서 **[!UICONTROL [미리 보기]]** > **[!UICONTROL [뷰어 목록]]**&#x200B;을 클릭합니다.
+   * **[!UICONTROL 목록 보기]**&#x200B;를 선택합니다. 자산 찾아보기 패널에서 단일 자산을 선택한 다음 축소판 이미지의 오른쪽으로 이동하여 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**&#x200B;으로 이동합니다.
 
-      [뷰어 목록] 페이지에 있는 테이블의 [작업] 열에서 **[!UICONTROL [URL 복사]]**&#x200B;를 클릭합니다.
+      뷰어 목록 페이지의 테이블의 작업 열 아래에서 **[!UICONTROL URL 복사]**&#x200B;를 선택합니다.
 
-   * **[!UICONTROL [그리드 보기]]**, **[!UICONTROL [목록 보기]]** 또는 **[!UICONTROL [세부 사항 보기]]**&#x200B;를 클릭합니다. 동일한 도구 모음에서 **[!UICONTROL [미리 보기]]** > **[!UICONTROL [뷰어 목록]]**&#x200B;을 클릭합니다.
+   * **[!UICONTROL 표 보기]**, **[!UICONTROL 목록 보기]** 또는 **[!UICONTROL 세부 정보 보기]**&#x200B;를 선택합니다. 동일한 도구 모음에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**&#x200B;으로 이동합니다.
 
-      [뷰어 목록] 페이지에 있는 테이블의 [작업] 열에서 **[!UICONTROL [URL 복사]]**&#x200B;를 클릭합니다.
+      뷰어 목록 페이지의 테이블의 작업 열 아래에서 **[!UICONTROL URL 복사]**&#x200B;를 선택합니다.
 
 ## 웹 페이지에 견본 집합 URL 추가 {#adding-swatch-set-urls-to-your-web-page}
 
@@ -48,34 +48,34 @@ ht-degree: 92%
 
 자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2)에서 [HTML5 확대/축소 뷰어 포함 을 참조하십시오.
 
-## 견본 집합 뷰어의 임베드 코드 복사 {#copying-the-embed-code-of-a-swatch-set-viewer}
+## 견본 집합 뷰어의 포함 코드 복사 {#copying-the-embed-code-of-a-swatch-set-viewer}
 
 임베드 코드 기능을 사용하면 선택한 견본 집합의 뷰어 코드를 검토할 수 있습니다. 또한 뷰어 배포를 위해 코드를 클립보드로 복사하여 웹 페이지에 붙여넣을 수도 있습니다. 코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
 
 **견본 집합 뷰어의 임베드 코드를 복사하려면:**
 
-1. [자산 찾아보기] 패널의 [표시] 드롭다운 목록에서 **[!UICONTROL [견본 집합]]**&#x200B;을 클릭합니다.
+1. 자산 찾아보기 패널의 표시 드롭다운 목록에서 **[!UICONTROL 견본 집합]**&#x200B;을 선택합니다.
 1. 왼쪽의 [자산 라이브러리] 패널에서 임베드 코드를 복사하려는 견본 집합이 들어 있는 자산 폴더를 탐색합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.
 
-   * **[!UICONTROL [그리드 보기]]**&#x200B;를 클릭합니다. [자산 찾아보기] 패널에서 단일 자산을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 [URL 및 임베드 코드] 패널에서 원하는 뷰어의 오른쪽에 있는 **[!UICONTROL [임베드 코드]]**&#x200B;를 클릭합니다.
-   * **[!UICONTROL [그리드 보기]]**&#x200B;를 클릭합니다. [자산 찾아보기] 패널에서 단일 자산을 선택하고 썸네일 이미지 아래에서 **[!UICONTROL [미리 보기]]** > **[!UICONTROL [뷰어 목록]]**&#x200B;을 클릭합니다.
+   * **[!UICONTROL 표 보기]**&#x200B;를 선택합니다. [자산 찾아보기] 패널에서 단일 자산을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 원하는 뷰어 오른쪽에 있는 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다.
+   * **[!UICONTROL 표 보기]**&#x200B;를 선택합니다. 자산 찾아보기 패널에서 단일 자산을 선택한 다음 축소판 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**&#x200B;으로 이동합니다.
 
-      [뷰어 목록] 페이지에 있는 테이블의 [작업] 열에서 **[!UICONTROL [임베드 코드]]**&#x200B;를 클릭합니다.
+      뷰어 목록 페이지의 테이블의 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다.
 
-   * **[!UICONTROL [목록 보기]]**&#x200B;를 클릭합니다. [자산 찾아보기] 패널에서 단일 자산을 선택하고 썸네일 이미지 오른쪽에서 **[!UICONTROL [미리 보기]]** > **[!UICONTROL [뷰어 목록]]**&#x200B;을 클릭합니다.
+   * **[!UICONTROL 목록 보기]**&#x200B;를 선택합니다. 자산 찾아보기 패널에서 단일 자산을 선택한 다음 축소판 이미지의 오른쪽으로 이동하여 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**&#x200B;으로 이동합니다.
 
-      [뷰어 목록] 페이지에 있는 테이블의 [작업] 열에서 **[!UICONTROL [임베드 코드]]**&#x200B;를 클릭합니다.
+      뷰어 목록 페이지의 테이블의 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다.
 
-   * **[!UICONTROL [그리드 보기]]**, **[!UICONTROL [목록 보기]]** 또는 **[!UICONTROL [세부 사항 보기]]**&#x200B;를 클릭합니다. 동일한 도구 모음에서 **[!UICONTROL [미리 보기]]** > **[!UICONTROL [뷰어 목록]]**&#x200B;을 클릭합니다.
+   * **[!UICONTROL 표 보기]**, **[!UICONTROL 목록 보기]** 또는 **[!UICONTROL 세부 정보 보기]**&#x200B;를 선택합니다. 동일한 도구 모음에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**&#x200B;으로 이동합니다.
 
-      [뷰어 목록] 페이지에 있는 테이블의 [작업] 열에서 **[!UICONTROL [임베드 코드]]**&#x200B;를 클릭합니다.
+      뷰어 목록 페이지의 테이블의 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다.
 
-1. [임베드 코드] 대화 상자에서 **[!UICONTROL [클립보드에 복사]]**&#x200B;를 클릭합니다.
+1. 포함 코드 대화 상자에서 **[!UICONTROL 클립보드에 복사]**&#x200B;를 선택합니다.
 
    코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
 
-1. **[!UICONTROL [닫기]]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 닫기]**&#x200B;를 선택합니다.
 
 >[!MORELIKETHIS]
 >

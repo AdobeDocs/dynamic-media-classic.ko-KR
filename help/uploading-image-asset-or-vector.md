@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1497'
+source-wordcount: '1495'
 ht-degree: 78%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 78%
 
 Admin Console을 사용하여 *공유-암호 키*&#x200B;를 요청 하여 지원 사례를 만듭니다.[](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 사례에서 공유 암호 키를 요청합니다.
 
-이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Dynamic Media Classic에서 키를 받은 후 나중에 사용할 수 있도록 로컬로 저장합니다.
+이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Dynamic Media Classic Adobe에서 키를 받은 후 나중에 사용할 수 있도록 로컬에 저장합니다.
 
 ## 업로드 토큰 검색 {#retrieving-the-upload-token}
 
@@ -362,7 +362,7 @@ Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL [보기]]** > **[!
 >
 >업로드한 자산(AI, EPS, PDF 등)이 FXG 형식으로 전환되고 응답이 해당 FXG 자산에 대해 직접 링크를 보냅니다.
 
-자산은 다른 Web-to-Print 리소스와 같습니다.처리 쿼리를 적용합니다. 예를 들어 다음 URL은 FXG 리소스를 500x500png 이미지로 전환합니다.
+자산은 다른 Web-to-Print 리소스와 같습니다. 처리 쿼리를 적용합니다. 예를 들어 다음 URL은 FXG 리소스를 500x500png 이미지로 전환합니다.
 
 ```as3
 https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500

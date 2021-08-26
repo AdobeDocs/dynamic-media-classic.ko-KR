@@ -1,31 +1,31 @@
 ---
 title: 이미지 조정
-description: Dynamic Media Classic에서 이미지를 조정하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 이미지를 조정하는 방법을 알아봅니다.
 uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
-feature: Dynamic Media Classic,자산 관리
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 1d30c98b76ebe78ff60bae87bd112de7a577182d
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '565'
 ht-degree: 58%
 
 ---
 
 # 이미지 조정{#adjusting-an-image}
 
-Dynamic Media Classic에서는 이미지 모양을 조정하는 다양한 명령을 제공합니다. 이미지를 뒤집고, 흐리게 하고, 색상 균형을 변경하고, 이미지를 색상화할 수 있습니다. 이러한 명령을 실험할 때 작업 중인 이미지에서 해당 효과를 확인할 수 있습니다.
+Adobe Dynamic Media Classic에서는 이미지 모양을 조정하는 다양한 명령을 제공합니다. 이미지를 뒤집고, 흐리게 하고, 색상 균형을 변경하고, 이미지를 색상화할 수 있습니다. 이러한 명령을 실험할 때 작업 중인 이미지에서 해당 효과를 확인할 수 있습니다.
 
 [이미지에 대한 별칭 만들기](adjusting-image.md#creating_an_alias_for_an_image)도 참조하십시오.
 
 **이미지를 조정하려면 다음을 수행합니다.**
 
-1. 이미지의 롤오버 [편집] 단추를 선택하고 [조정]을 선택하거나, [찾아보기] 패널에서 이미지를 두 번 클릭하여 [세부 정보] 보기에서 엽니다.
+1. 이미지의 롤오버 [편집] 단추를 선택하고 [조정]을 선택하거나, [찾아보기] 패널에서 이미지를 두 번 클릭하여 [세부 사항 보기]에서 엽니다.
 1. 창 하단에서 크기와 이미지 사전 설정을 선택합니다.
 1. [편집기 조정] 창의 오른쪽에 있는 명령을 사용하여 이미지를 조정합니다.
 

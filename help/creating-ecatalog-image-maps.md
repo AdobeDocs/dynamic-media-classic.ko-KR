@@ -1,6 +1,6 @@
 ---
 title: eCatalog 이미지 맵 만들기
-description: Dynamic Media Classic에서 eCatalog 이미지 맵을 만드는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 eCatalog 이미지 맵을 만드는 방법을 알아봅니다.
 uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
-source-git-commit: 7be3f63bfadeafa71eeb2567f982f579ccb85975
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '1491'
+source-wordcount: '1493'
 ht-degree: 40%
 
 ---
@@ -32,9 +32,9 @@ eCatalog의 경우 eCatalog 화면의 [맵 페이지] 탭에서 이미지 맵을
 
    * **사각형 맵**  - 사각형 이미지 맵 도구를 선택하고 페이지로 드래그하여 사각형을 만듭니다.
 
-   * **다각형 맵**  - 다각형 이미지 맵 도구를 선택한 다음 이미지의 둘레를 필요한 만큼 선택합니다. 선택하면 Dynamic Media Classic에서 이미지 맵의 테두리를 그립니다.
+   * **다각형 맵**  - 다각형 이미지 맵 도구를 선택한 다음 이미지의 둘레를 필요한 만큼 선택합니다. 선택한 경우, Adobe Dynamic Media Classic이 이미지 맵의 테두리를 그립니다.
 
-      이미지 맵을 그리면 Dynamic Media Classic에서 이미지 맵 목록에 이름을 지정합니다. 이 이름을 구성하기 위해 Dynamic Media Classic에서는 작업 중인 eCatalog 페이지의 이름에 순차적 번호를 추가합니다.
+      이미지 맵을 그리면 이미지 맵 목록에 Adobe Dynamic Media Classic이 이름을 지정합니다. 이 이름을 구성하기 위해 Dynamic Media Classic에서는 작업 중인 eCatalog 페이지의 이름에 순차적 번호를 추가합니다.
 
 1. (선택 사항) 이미지 맵 목록의 [!UICONTROL 이름] 열에서 이미지 맵에 새 이름을 입력할 수 있습니다. 입력한 이름에 공백을 포함하지 마십시오.
 1. 뷰어가 이미지 맵을 선택할 때 새 웹 페이지를 열도록 할 수 있습니다. [이미지 맵] 목록 패널에서 [URL] 열에 웹 페이지의 URL을 입력합니다.
@@ -131,7 +131,7 @@ eCatalog 화면의 [맵 페이지] 탭에서 시작하여 다음 기술을 통�
 
 ## eCatalog 간 이미지 맵 복사 {#copying-image-maps-between-ecatalogs}
 
-eCatalog에 있는 모든 이미지 맵을 다른 eCatalog로 복사할 수 있습니다. 이런 방식의 이미지 맵 복사는 동일한 eCatalog의 외국어 번역 간에 이미지 맵을 복사하는 편리한 방법입니다. 성공적으로 복사하려면 동일한 수의 페이지와 동일한 이미지를 사용하여 eCatalogs 간에 복사하는 것이 좋습니다.
+eCatalog에 있는 모든 이미지 맵을 다른 eCatalog로 복사할 수 있습니다. 이런 방식의 이미지 맵 복사는 동일한 eCatalog의 외국어 번역 간에 이미지 맵을 복사하는 편리한 방법입니다. 성공적으로 복제하려면 동일한 수의 페이지와 동일한 이미지를 사용하여 eCatalogs Dynamic Media Classic을 복사하는 것이 좋습니다.
 
 >[!NOTE]
 >
@@ -143,4 +143,4 @@ eCatalog에 있는 모든 이미지 맵을 다른 eCatalog로 복사할 수 있�
 1. 주문 페이지 탭에서 **[!UICONTROL 맵 복사]**&#x200B;를 선택합니다.
 1. 자산 선택 대화 상자에서 이미지 맵을 복사할 eCatalog를 선택한 다음 **[!UICONTROL 선택]**&#x200B;을 선택합니다.
 
-Dynamic Media Classic에는 대상 eCatalog(이미지 맵을 복사하는 eCatalog)에 다른 크기의 페이지 또는 이미지가 다른 경우 경고 메시지가 표시됩니다. **[!UICONTROL 계속]**&#x200B;을 선택하여 경고에도 불구하고 이미지 맵을 복사합니다.
+Adobe Dynamic Media Classic은 대상 eCatalog(이미지 맵을 복사하는 eCatalog)에 다른 크기의 페이지 또는 이미지가 다른 경우 경고 메시지를 표시합니다. **[!UICONTROL 계속]**&#x200B;을 선택하여 경고에도 불구하고 이미지 맵을 복사합니다.

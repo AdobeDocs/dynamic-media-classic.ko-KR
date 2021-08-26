@@ -7,23 +7,23 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
 discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
-feature: Dynamic Media Classic,자산 관리
+feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: df689ff5a127bfbc400ca5331168d1ff7bb0b42e
+source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '157'
 ht-degree: 22%
 
 ---
 
 # 마스터 이미지 게시{#publishing-master-images}
 
-이미지 파일을 게시하면 이 파일을 Dynamic Media 이미지 서버에 게시하며, 이 서버에서는 웹 사이트 및 애플리케이션에서 사용할 수 있습니다. 또한 게시 프로세스 중에 Dynamic Media Classic에서 웹 사이트 및 애플리케이션에 필요한 URL 문자열을 활성화합니다.
+이미지 파일을 게시하면 이 파일을 Dynamic Media 이미지 서버에 게시하며, 이 서버에서는 웹 사이트 및 애플리케이션에서 사용할 수 있습니다. 또한 게시 프로세스 중에 Dynamic Media Classic Adobe에서 웹 사이트 및 애플리케이션에 필요한 URL 문자열을 활성화합니다.
 
 ## 마스터 이미지를 게시로 표시 {#marking-master-images-for-publish}
 
-기본 이미지를 Dynamic Media 이미지 서버에 복사하려면 게시용으로 표시해야 합니다. **[!UICONTROL 게시용으로 표시]** 아이콘을 클릭하여 찾아보기 패널에서 게시할 마스터 이미지를 표시할 수 있습니다. Dynamic Media Classic에 업로드할 때 이미지를 게시용으로 표시할 수도 있습니다.
+기본 이미지를 Dynamic Media 이미지 서버에 복사하려면 게시용으로 표시해야 합니다. **[!UICONTROL 게시용으로 표시]** 아이콘을 클릭하여 찾아보기 패널에서 게시할 마스터 이미지를 표시할 수 있습니다. Adobe Dynamic Media Classic에 이미지를 업로드할 때 게시용으로 표시할 수도 있습니다.
 
 ## 마스터 이미지 게시 {#publishing-your-master-images}
 
@@ -37,5 +37,5 @@ ht-degree: 22%
 
 >[!MORELIKETHIS]
 >
->* [게시](publishing-files.md#publishing_files)
+>* [Publishing](publishing-files.md#publishing_files)
 
