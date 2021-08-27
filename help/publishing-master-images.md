@@ -1,6 +1,6 @@
 ---
 title: 마스터 이미지 게시
-description: 마스터 이미지를 게시하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 마스터 이미지를 게시하는 방법을 알아봅니다.
 uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 815e2a19-c64d-45c7-96bc-7f955e54f56e
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 22%
+source-wordcount: '163'
+ht-degree: 6%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 22%
 
 이미지 파일을 게시하면 이 파일을 Dynamic Media 이미지 서버에 게시하며, 이 서버에서는 웹 사이트 및 애플리케이션에서 사용할 수 있습니다. 또한 게시 프로세스 중에 Dynamic Media Classic Adobe에서 웹 사이트 및 애플리케이션에 필요한 URL 문자열을 활성화합니다.
 
-## 마스터 이미지를 게시로 표시 {#marking-master-images-for-publish}
+## 게시할 마스터 이미지 표시 {#marking-master-images-for-publish}
 
 기본 이미지를 Dynamic Media 이미지 서버에 복사하려면 게시용으로 표시해야 합니다. **[!UICONTROL 게시용으로 표시]** 아이콘을 클릭하여 찾아보기 패널에서 게시할 마스터 이미지를 표시할 수 있습니다. Adobe Dynamic Media Classic에 이미지를 업로드할 때 게시용으로 표시할 수도 있습니다.
 
 ## 마스터 이미지 게시 {#publishing-your-master-images}
 
-1. 글로벌 탐색 막대에서 **[!UICONTROL [게시]]**&#x200B;를 클릭합니다. [게시] 대화 상자에서 [시기] 옵션(**[!UICONTROL 1회]** 또는 **[!UICONTROL 반복]**)을 선택한 다음 선택적으로 게시 작업의 이름을 입력합니다
+1. 전역 탐색 막대에서 **[!UICONTROL 게시]**&#x200B;를 선택합니다. [게시] 대화 상자에서 [시기] 옵션(**[!UICONTROL 1회]** 또는 **[!UICONTROL 반복]**)을 선택한 다음 선택적으로 게시 작업의 이름을 입력합니다
 
-1. **[!UICONTROL [게시 제출]]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 게시 제출]**&#x200B;을 선택합니다.
 
 >[!NOTE]
 >
@@ -37,5 +37,5 @@ ht-degree: 22%
 
 >[!MORELIKETHIS]
 >
->* [Publishing](publishing-files.md#publishing_files)
+>* [파일 게시](publishing-files.md#publishing_files)
 

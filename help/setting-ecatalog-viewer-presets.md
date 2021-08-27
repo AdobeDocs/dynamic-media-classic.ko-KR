@@ -9,7 +9,7 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 42%
@@ -31,7 +31,7 @@ eCatalog Viewer 사전 설정을 작성할 수 있으려면(관리자여야 함)
 
    * **eCatalog 뷰어 사전 설정 만들기**  - 추가  **[!UICONTROL 를 클릭합니다]**. [뷰어 사전 설정 추가] 대화 상자에서 플랫폼을 선택하고 [카탈로그 뷰어]를 선택한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
-   * **eCatalog 뷰어 사전 설정 편집**  - eCatalog 뷰어 사전 설정을 선택한 다음 편집을 클릭합니다. 사전 설정 만들기를 완료한 후 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 클릭합니다.
+   * **eCatalog 뷰어 사전 설정 편집**  - eCatalog 뷰어 사전 설정을 선택한 다음  **[!UICONTROL 편집]**&#x200B;을 클릭합니다. 사전 설정 만들기를 완료한 후 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 클릭합니다.
 
 1. [뷰어 구성] 화면에서 eCatalog 뷰어 사전 설정의 이름을 입력합니다.
 1. [뷰어 구성] 화면에서 원하는 선택 사항을 설정합니다.

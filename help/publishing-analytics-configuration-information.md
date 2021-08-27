@@ -1,6 +1,6 @@
 ---
 title: Adobe Analytics 구성 정보 게시
-description: Adobe Analytics 구성 정보를 게시하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 Adobe Analytics 구성 정보를 게시하는 방법을 알아봅니다.
 uuid: 39b1c2bd-8eb8-43a8-9482-9623115c5374
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: deeb9fed-ef27-4d58-af98-f381de33c431
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 02782dc0-601f-453a-98d1-1fdd7267df3b
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '147'
-ht-degree: 37%
+source-wordcount: '152'
+ht-degree: 21%
 
 ---
 
@@ -31,5 +31,5 @@ Adobe Analytics 보고서 구성에 대한 정보가 Adobe Dynamic Media Classic
 
 **구성 정보를 게시하려면:**
 
-1. 글로벌 탐색 막대에서 **[!UICONTROL [게시]]**&#x200B;를 클릭합니다.
-1. 게시 대화 상자에서 **[!UICONTROL 게시 제출]**&#x200B;을 클릭합니다.
+1. 전역 탐색 막대에서 **[!UICONTROL 게시]**&#x200B;를 선택합니다.
+1. 게시 대화 상자에서 **[!UICONTROL 게시 제출]**&#x200B;을 선택합니다.

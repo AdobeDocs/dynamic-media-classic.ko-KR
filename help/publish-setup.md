@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: ad5270545be502d3aaabba574353787622ab0445
 workflow-type: tm+mt
-source-wordcount: '2416'
-ht-degree: 46%
+source-wordcount: '2410'
+ht-degree: 44%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 46%
 
 관리자는 이미지 서버, 이미지 렌더러 및 비네팅 페이지의 기본 설정을 변경하여 서버에서 자산을 전달하기 위한 기본 설정을 설정할 수 있습니다.
 
-게시 설정 페이지를 열려면 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 게시 설정]**&#x200B;을 클릭합니다.
+게시 설정 페이지를 열려면 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 게시 설정]**&#x200B;으로 이동합니다.
 
 >[!NOTE]
 >
@@ -32,28 +32,28 @@ ht-degree: 46%
 
 Adobe Dynamic Media Classic 지원 담당자의 지원을 받아야 이러한 설정을 변경할 수 있습니다.
 
-* **카탈로그 관리**  - 이 설정은 Dynamic Media Classic과 카탈로그가 상호 작용하는 방법을 결정합니다. 대부분의 웹 서버와 달리 Dynamic Media 이미지 서버 URL 호출은 이미지 파일이 아닌 매니페스트 또는 카탈로그 파일로 이동합니다. 카탈로그 파일(eCatalog 아님)에는 각 이미지의 경로와 함께 이미지 서버에 게시되는 모든 컨텐츠 목록이 들어 있습니다. Digimarc ID가 있는 경우 [Digimarc 사용자 정보] 섹션에서 사용자 정보를 입력합니다.
+* **[!UICONTROL 카탈로그 관리]**  - 이 설정은 Dynamic Media Classic과 카탈로그가 상호 작용하는 방법을 결정합니다. 대부분의 웹 서버와 달리 Dynamic Media 이미지 서버 URL 호출은 이미지 파일이 아닌 매니페스트 또는 카탈로그 파일로 이동합니다. 카탈로그 파일(eCatalog 아님)에는 각 이미지의 경로와 함께 이미지 서버에 게시되는 모든 컨텐츠 목록이 들어 있습니다. Digimarc ID가 있는 경우 [Digimarc 사용자 정보] 섹션에서 사용자 정보를 입력합니다.
 
-* **요청 속성**  - 이러한 설정은 서버에서 전달할 수 있는 이미지에 제한을 적용합니다. 예를 들어 *최대* **[!UICONTROL 회신 이미지 크기 제한]**&#x200B;은 **[!UICONTROL 너비]** 5000 및 **[!UICONTROL 높이]** 5000입니다.
+* **[!UICONTROL 요청 속성]**  - 이러한 설정은 서버에서 전달할 수 있는 이미지에 제한을 적용합니다. 예를 들어 *최대* **[!UICONTROL 회신 이미지 크기 제한]**&#x200B;은 **[!UICONTROL 너비]** 5000 및 **[!UICONTROL 높이]** 5000입니다.
 
-* **기본 요청 속성**  - 이 설정은 이미지의 기본 모양과 관련이 있습니다.
+* **[!UICONTROL 기본 요청 속성]**  - 이 설정은 이미지의 기본 모양과 관련이 있습니다.
 
-* **일반 축소판 속성**  - 이러한 설정은 축소판 이미지의 기본 모양과 정렬에 대한 것입니다.
+* **[!UICONTROL 일반 축소판 속성]**  - 이러한 설정은 축소판 이미지의 기본 모양과 정렬에 대한 것입니다.
 
-* **카탈로그 필드의 기본값**  - 이 설정은 이미지의 해상도 및 기본 축소판 유형과 관련이 있습니다.
+* **[!UICONTROL 카탈로그 필드의 기본값]**  - 이 설정은 이미지의 해상도 및 기본 축소판 유형과 관련이 있습니다.
 
-* **색상 관리 속성**  - 이 설정은 사용할 ICC 색상 프로파일을 결정합니다.
+* **[!UICONTROL 색상 관리 속성]**  - 이 설정은 사용할 ICC 색상 프로파일을 결정합니다.
 
-* **호환성 속성**  - 이 설정을 사용하면 이전 버전과의 호환성을 위해 텍스트 레이어의 이전 및 이후 단락을 버전 3.6의 단락과 동일하게 처리할 수 있습니다.
+* **[!UICONTROL 호환성 속성]**  - 이 설정을 사용하면 이전 버전과의 호환성을 위해 텍스트 레이어의 이전 및 이후 단락을 버전 3.6의 단락과 동일하게 처리할 수 있습니다.
 
-* **로컬라이제이션 지원**  - 이 설정을 사용하여 여러 로케일 속성을 관리할 수 있습니다. 또한 로케일 맵 문자열을 지정할 수 있으므로 뷰어에서 여러 도구 설명을 지원하려는 언어를 정의할 수 있습니다.
+* **[!UICONTROL 로컬라이제이션 지원]*** - 이 설정을 사용하여 여러 로케일 속성을 관리할 수 있습니다. 또한 로케일 맵 문자열을 지정할 수 있으므로 뷰어에서 여러 도구 설명을 지원하려는 언어를 정의할 수 있습니다.
 
    예를 들어 여러 국가에서 팔리는 다국적 브랜드인 경우 각 국가에서 자체 로케일별 뷰어를 사용하도록 할 수 있습니다. 이 기능을 수행하려면 로케일 맵 문자열을 지정합니다. 그런 다음 원하는 언어로 번역된 텍스트 문자열을 추가하여 뷰어의 사전 설정에서 도구 설명 텍스트를 편집합니다.
 
    >[!NOTE]
    > 지역화 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만드십시오.](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 사례에서 설정 도움말을 요청합니다.
 
-   **현지화 지원** 설정에 대한 자세한 내용은 [자산 현지화를 설정할 때 고려 사항](publish-setup.md#considerations_when_setting_up_localization_of_assets)을 참조하십시오.
+   **[!UICONTROL 현지화 지원]** 설정에 대한 자세한 내용은 [자산 현지화를 설정할 때 고려 사항](publish-setup.md#considerations_when_setting_up_localization_of_assets)을 참조하십시오.
 
 ### 자산 현지화를 설정할 때 고려 사항 {#considerations-when-setting-up-localization-of-assets}
 
@@ -90,10 +90,10 @@ IS(이미지 제공) 요청에 대한 로케일은 다음의 IS/IR(이미지 렌
 #### 응용 시나리오
 
 | 애플리케이션 | 시나리오 |
-|--- |--- |
-| 뷰어 현지화 | 정적 컨텐츠 카탈로그가 구현되면 현지화는 IS에 수행되는 모든 요청에 추가되는 locale= 매개 변수로 제어됩니다. 구성 레코드, 스킨, 시작 화면 등에는 로케일별 차이가 있을 수도 있고 없을 수도 있습니다. 현지화되는 컨텐츠와 ID를 아는 데 필요한 뷰어 없이도 IS에 의해 올바른 컨텐츠가 제공됩니다. |
+| --- | --- |
+| 뷰어 지역화 | 정적 컨텐츠 카탈로그가 구현되면 현지화는 IS에 수행되는 모든 요청에 추가되는 locale= 매개 변수로 제어됩니다. 구성 레코드, 스킨, 시작 화면 등에는 로케일별 차이가 있을 수도 있고 없을 수도 있습니다. 현지화되는 컨텐츠와 ID를 아는 데 필요한 뷰어 없이도 IS에 의해 올바른 컨텐츠가 제공됩니다. |
 | 이미지 및 비디오 | 다국어 회사에는 종종 일반적인 컨텐츠와 로케일별 컨텐츠가 혼합되어 있습니다. 이러한 메커니즘에서, 이미지나 비디오 참조는 일반적일 수 있으며, IS는 사용 가능할 경우 로케일별 컨텐츠를 제공합니다. |
-| 이미지 집합 및 미디어 집합 | eCatalog가 다른 경우와 같이 일부 로케일에 대해 전체 이미지 세트가 다를 수 있으며, 변환은 원본에서 뷰어가 처리하는 로케일 관련 이미지 세트로 이루어집니다. 일반적으로 일반 세트의 개별 ID는 현지화된 콘텐츠를 참조할 수 있습니다. 예를 들어 기기의 사진은 Campaign 컨트롤 패널 사진을 제외하고 모든 언어로 모두 동일할 수 있습니다. IS는 자동으로 ID를 전환하므로, 로케일별 이미지 집합을 생성할 필요가 없습니다. |
+| 이미지 세트 및 미디어 세트 | eCatalog가 다른 경우와 같이 일부 로케일에 대해 전체 이미지 세트가 다를 수 있으며, 변환은 원본에서 뷰어가 처리하는 로케일 관련 이미지 세트로 이루어집니다. 일반적으로 일반 세트의 개별 ID는 현지화된 콘텐츠를 참조할 수 있습니다. 예를 들어 기기의 사진은 Campaign 컨트롤 패널 사진을 제외하고 모든 언어로 모두 동일할 수 있습니다. IS는 자동으로 ID를 전환하므로, 로케일별 이미지 집합을 생성할 필요가 없습니다. |
 
 #### 자산 현지화 구현
 
@@ -107,7 +107,7 @@ Adobe Dynamic Media Classic 및 Image Serving에는 이미지 및 정적 콘텐�
 
 `https://server/is/image/company/image?locale=de_DE`
 
-이미지 서버에서 http 호출을 받으면 `locale=` 매개 변수가 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 게시 설정]** > **[!UICONTROL 이미지 서버]** > **[!UICONTROL 현지화 지원]** 그룹에 있는 localeMap 필드를 통해 구문 분석됩니다.
+이미지 서버에서 http 호출을 받으면 `locale=` 매개 변수가 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 게시 설정]** > **[!UICONTROL 이미지 서버]** > **[!UICONTROL 현지화 지원]** 그룹에 있는 `localeMap` 필드를 통해 구문 분석됩니다.
 
 로케일 맵 필드에는 파이프 기호(|)를 사용하여 구별되는 항목 목록이 들어 있습니다.
 
@@ -122,18 +122,18 @@ Adobe Dynamic Media Classic 및 Image Serving에는 이미지 및 정적 콘텐�
 **접미어 예제:**
 
 | URL | localeMap ID | 결과 |
-|--- |--- |--- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 정의된 전역 로케일이 없습니다. 로케일 매개 변수 de_DE가 로케일 맵의 첫 번째 항목에 대응됩니다. 첫 번째 해당 값 _DE는 자산 image_DE에 접미어로 추가되고 이미지 서버에서 이 자산을 찾으려는 시도가 수행됩니다. 서버에 있는 경우, 반환됩니다. 없으면, 두 번째 값 “”이 접미어로 사용되어 이미지 자체가 반환됩니다. |
+| --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 정의된 전역 로케일이 없습니다. locale 매개 변수 de_DE는 `localeMap`의 첫 번째 항목에 대해 일치합니다. 첫 번째 해당 값 _DE는 자산 image_DE에 접미어로 추가되고 이미지 서버에서 이 자산을 찾으려는 시도가 수행됩니다. 서버에 있는 경우, 반환됩니다. 없으면, 두 번째 값 “”이 접미어로 사용되어 이미지 자체가 반환됩니다. |
 
 **대체 예제:**
 
-| URL | 전역 로케일 및 로케일 맵 ID | 결과 |
+| URL | `GlobalLocale` 및  `localeMap` ID | 결과 |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 위의 대체 예에서, GlobalLocale은 main으로 설정됩니다. 로케일 매개 변수 de_DE가 로케일 맵의 첫 번째 항목에 대응됩니다. GlobalLocale 하위 문자열을 찾아 localeMap에서 첫 번째 해당 값 `de`으로 바꿉니다. `image-de-01`. 이미지 서버에 있는 경우, 반환됩니다. 없는 경우에는, 두 번째 값이 대체되어, `image-main-01`이 됩니다. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 위의 대체 예에서, GlobalLocale은 main으로 설정됩니다. locale 매개 변수 de_DE는 `localeMap`의 첫 번째 항목에 대해 일치합니다. GlobalLocale 하위 문자열을 찾아 `localeMap`에서 첫 번째 해당 값 `de`으로 바꿉니다. `image-de-01` 이미지 서버에 있는 경우, 반환됩니다. 없는 경우에는, 두 번째 값이 대체되어, `image-main-01`이 됩니다. |
 
 URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 정의되어 있는 경우 DefaultLocale을 가져오고, URL에 적용합니다.
 
-알 수 없거나 비어 있는 로케일 매개 변수가 `locale=`과 함께 제공되면 localeMap에서 빈 값 &quot;다음으로 시작&quot;, 알 수 없는 로케일에 기본 로케일을 적용하는 것이 중요합니다.
+알 수 없거나 비어 있는 로케일 매개 변수가 `locale=`과 함께 제공되면 `localeMap`에서 빈 값 &quot;다음으로 시작&quot;, 알 수 없는 로케일에 기본 로케일을 적용하는 것이 중요합니다.
 
 #### defaultImage
 
@@ -154,7 +154,7 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,`
 
 | 로케일= | 검색할 출력 ID |
-|--- |--- |
+| --- | --- |
 | en,en_us, en_uk | myImg_E,myImg |
 | de,de_de,de_at | myImg_D,myImg |
 | fr | myImg_F,myImg |
@@ -167,7 +167,7 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,_E,`
 
 | 로케일= | 검색할 출력 ID |
-|--- |--- |
+| --- | --- |
 | de,de_de,de_at | myImg_D,myImg |
 | fr | myImg_F,myImg |
 | 기타 모든 항목 | myImg_E,myImg |
@@ -180,7 +180,7 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 
 `attribute::LocaleMap=en,_E,|en_us,_E,|en_uk,_E,|fr,_F,|de,_D,|de_at,_D,|de_de,_D,|,`
 
-##### 여러 계층 조회를 사용하여 localeMap 찾기
+##### 다중 계층 조회를 사용하여 localeMap 찾기
 
 종종 스킨 노출과 같이, 유럽, 중동 및 북아메리카 영역과 같이 로케일을 지역 표준을 나타내도록 그룹화하는 것이 유용할 수 있습니다. 다중 계층 조회를 사용하여 이러한 작업을 수행할 수 있습니다.
 
@@ -189,7 +189,7 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 `attribute::LocaleMap=w1,-W,|w2,-W2,-W,|w3,-W,|m1,-M1,-M,|m2,-M2,-M,|,`
 
 | 로케일= | 검색할 출력 ID |
-|--- |--- |
+| --- | --- |
 | w1, w3 | myImg-W, myImg |
 | w2 | myImg-W2, myImg-W, myImg |
 | m1 | myImg-M1, myImg-M, myImg |
@@ -205,7 +205,7 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 `attribute::LocaleMap=,_1,_2,_3|fr,_22,_23,_1,_2,_3|de,_470,_480,_1,_2,_3|de_at,_470,_480,_1,_2,_3|de_de,_470,_480,_1,_2,_3`
 
 | 로케일= | 검색할 출력 ID |
-|--- |--- |
+| --- | --- |
 | fr | myImg_22, myImg_23, myImg_1, myImg_2, myImg_3 |
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | 기타 모든 항목 | myImg_1, myImg_2, myImg_3 |
@@ -220,15 +220,15 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 
 이미지 렌더러 페이지는 이미지 렌더링 서버에서 이미지 세트를 전달하기 위한 기본 설정을 설정합니다. 설정은 다음 5가지 범주에서 사용할 수 있습니다(설정에 대한 자세한 설명은 이미지 서버 페이지 자체 참조).
 
-* **카탈로그 관리**  - 이 설정은 Dynamic Media Classic과 카탈로그 파일이 상호 작용하는 방법을 결정합니다. Adobe Dynamic Media Classic Render Server URL 호출은 카탈로그에 수행되며 이 호출은 서버에서 이미지를 전달하도록 호출됩니다. Adobe Dynamic Media Classic 지원 담당자의 지원을 받아야 이러한 설정을 변경할 수 있습니다.
+* **[!UICONTROL 카탈로그 관리]**  - 이 설정은 Dynamic Media Classic과 카탈로그 파일이 상호 작용하는 방법을 결정합니다. Adobe Dynamic Media Classic Render Server URL 호출은 카탈로그에 수행되며 이 호출은 서버에서 이미지를 전달하도록 호출됩니다. Adobe Dynamic Media Classic 지원 담당자의 지원을 받아야 이러한 설정을 변경할 수 있습니다.
 
-* **세션 속성**  - 이 설정은 오류 매개 변수, 상대 이미지 URL의 URL 및 겹치는 개체가 허용되는지 여부를 설정합니다.
+* **[!UICONTROL 세션 속성]**  - 이 설정은 오류 매개 변수, 상대 이미지 URL의 URL 및 겹치는 개체가 허용되는지 여부를 설정합니다.
 
-* **기본 재료 속성**  - 이 설정은 이미지에 대한 기본 해상도 및 선명하게 하기 설정을 설정합니다.
+* **[!UICONTROL 기본 재료 속성]**  - 이 설정은 이미지에 대한 기본 해상도 및 선명하게 하기 설정을 설정합니다.
 
-* **응답 이미지 속성**  - 이 설정은 이미지의 기본 모양과 관련이 있습니다.
+* **[!UICONTROL 응답 이미지 속성]**  - 이 설정은 이미지의 기본 모양과 관련이 있습니다.
 
-* **색상 관리 속성**  - 이 설정은 이미지의 기본 색상 설정과 관련이 있습니다.
+* **[!UICONTROL 색상 관리 속성]**  - 이 설정은 이미지의 기본 색상 설정과 관련이 있습니다.
 
 ## 비네팅 {#vignette}
 
