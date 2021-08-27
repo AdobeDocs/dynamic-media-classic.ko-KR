@@ -9,9 +9,9 @@ discoiquuid: 6c123f85-3bc4-4392-a7fb-55618127c65e
 feature: Dynamic Media Classic,Viewers,Viewer Presets,eCatalog
 role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: fa0a3992e02f70e5fb4a54e770e2fe2b4f0371e1
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '489'
 ht-degree: 34%
 
 ---
@@ -46,7 +46,7 @@ eCatalog Viewer 사전 설정을 작성할 수 있으려면(관리자여야 함)
    | --- | --- | --- |
    | `$1$` | rollover_key 값 | 맵의 `<area>` 요소에서 가져온 항목 식별자입니다. |
    | `$2$` | frame | 이미지 집합에 현재 표시된 프레임의 일련번호입니다. |
-   | `$3$` | imageroot | 이미지 명령에 지정된 첫 번째 항목의 첫 번째 경로 요소(일반적으로 이미지 집합을 지정하는 카탈로그 항목의 이미지 카탈로그 ID)입니다. |
+   | `$3$` | 이미지 루트 | 이미지 명령에 지정된 첫 번째 항목의 첫 번째 경로 요소(일반적으로 이미지 집합을 지정하는 카탈로그 항목의 이미지 카탈로그 ID)입니다. |
 
 1. (선택 사항) **[!UICONTROL 정보 패널 설정]**&#x200B;의 **[!UICONTROL 응답 템플릿]** 상자에서 Adobe Dynamic Media Classic에 이미지 맵에 대한 정보를 검색하는 동안 오류가 발생하면 표시할 텍스트를 입력합니다. 예를 들어 시스템에 회사 이름과 eCatalog 이름이 수신되었지만 롤오버 식별자가 수신되지 않은 경우 이 메시지가 사용자에게 표시됩니다.
 
