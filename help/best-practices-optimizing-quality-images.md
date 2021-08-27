@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1467'
+source-wordcount: '1463'
 ht-degree: 55%
 
 ---
@@ -120,6 +120,6 @@ JPG 이미지를 메모리가 제한된 장치에 전달하는 경우 `&jpegSize
 
 실험할 때 다음의 일반적인 제안은 워크플로우를 최적화하는 데 유용합니다.
 
-* Dynamic Media Classic URL에서 직접 또는 Adobe Dynamic Media Classic의 이미지 조정 기능을 사용하여 실시간으로 다양한 매개 변수를 테스트해 보십시오. 후자는 조정 작업을 위한 실시간 미리 보기를 제공합니다.
+* URL에서 직접 또는 Adobe Dynamic Media Classic의 이미지 조정 기능을 사용하여 다양한 매개 변수를 실시간으로 테스트해 보십시오. 후자는 조정 작업을 위한 실시간 미리 보기를 제공합니다.
 * Dynamic Media 이미지 제공 명령을 이미지 사전 설정으로 그룹화할 수 있는 것이 좋습니다. 이미지 사전 설정은 기본적으로 `$thumb_low$` 및 `&product_high$` 등의 사용자 지정 사전 설정 이름을 사용하는 URL 명령 매크로입니다. URL 경로의 사용자 지정 사전 설정 이름은 이러한 사전 설정을 호출합니다. 이와 같은 기능은 웹 사이트의 다양한 이미지 사용 패턴에 대한 명령 및 품질 설정을 관리하는 데 도움이 되며 URL의 전체 길이를 단축합니다.
 * 또한 Adobe Dynamic Media Classic은 섭취 시 이미지 선명하게 하기 적용과 같이 이미지 품질을 조정하는 고급 방법을 제공합니다. 렌더링된 결과를 추가로 조정하고 최적화하는 고급 사용 사례의 경우, Adobe Professional Services을 사용하면 사용자 정의된 통찰력과 모범 사례를 활용할 수 있습니다.

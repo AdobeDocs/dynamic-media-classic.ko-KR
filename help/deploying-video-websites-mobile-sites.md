@@ -10,9 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1704'
+source-wordcount: '1703'
 ht-degree: 35%
 
 ---
@@ -131,7 +131,7 @@ Dynamic Media Classic HTML5 비디오 플레이어를 사용하지 않지만, MP
 
 ## 타사 비디오 플레이어를 사용하여 비디오 배포 {#deploying-video-using-a-third-party-video-player}
 
-Adobe Dynamic Media Classic 비디오 뷰어 대신 타사 비디오 플레이어 또는 사용자 정의 비디오 플레이어를 사용하는 경우, HLS 다중 비트율 비디오 스트리밍 또는 점진적 다운로드에 대해 작동하는 직접 비디오 URL을 받게 됩니다.
+Dynamic Media Classic 비디오 뷰어 대신 타사 비디오 플레이어 또는 사용자 정의 비디오 플레이어를 사용하는 경우 HLS 다중 비트율 비디오 스트리밍 또는 점진적 다운로드에 대해 작동하는 직접 비디오 URL을 받습니다.
 
 **타사 비디오 플레이어를 사용하여 비디오를 배포하려면:**
 

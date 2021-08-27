@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
 source-wordcount: '10951'
 ht-degree: 44%
@@ -35,7 +35,7 @@ Application Setup 페이지에서는 일반 설정, 이미지 사전 설정, 비
 
 * **[!UICONTROL 게시된 서버 이름]**  - 이 서버는 계정에 대한 모든 시스템 생성 URL 호출에 사용되는 CDN(Live Content Delivery Network) 서버입니다. Adobe Dynamic Media Classic 지원 엔지니어가 이 서버 이름을 변경하지 않도록 지시하는 경우가 아니면 변경하지 마십시오.
 
-* **[!UICONTROL 원본 서버 이름]**  - 이 서버는 품질 보증 테스트에만 사용됩니다. Adobe Dynamic Media Classic 지원 엔지니어가 지시를 받지 않는 한 이 서버 이름을 변경하지 마십시오.
+* **[!UICONTROL 원본 서버 이름]**  - 이 서버는 품질 보증 테스트에만 사용됩니다. Adobe Dynamic Media Classic 지원 엔지니어가 이에 대한 지시를 받지 않는 한 이 서버 이름을 변경하지 마십시오.
 
 <!-- **AGM Server Name** This server is used for Web-to-Print templates. This server is set on a company-wide basis. Do not change this server name unless instructed to do so by an Adobe DynamicMedia Classic support technician. -->
 
@@ -623,7 +623,7 @@ Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생
 
 HTML5 뷰어 사전 설정을 만드는 기준으로 사용하도록 기존 HTML5 뷰어 사전 설정을 내보낼 수 있습니다. 이 내보내기 선택 사항은 뷰어를 처음부터 만들 필요가 없기 때문에 유용합니다. 대신, 원하는 사전 설정과 모양 및 동작이 비슷한 사전 설정을 내보내며, 이 사전 설정을 디자인 조정의 시작 지점으로 사용할 수 있습니다.
 
-Adobe Adobe Dynamic Media Classic의 모든 기본 즉시 사용 가능한 뷰어 사전 설정 CSS 파일은 `Scene7SharedAssets`의 자산을 가리키는 상대 이미지 제공 경로를 사용합니다. 예를 들어, 다음은 의 뷰어 사전 설정 CSS 파일에 있는 이미지 자산에 대한 상대 경로입니다
+Adobe Dynamic Media Classic의 모든 기본 즉시 사용 가능한 뷰어 사전 설정 CSS 파일은 `Scene7SharedAssets`의 자산을 가리키는 상대 이미지 제공 경로를 사용합니다. 예를 들어, 다음은 의 뷰어 사전 설정 CSS 파일에 있는 이미지 자산에 대한 상대 경로입니다
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 

@@ -9,9 +9,9 @@ discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
 workflow-type: tm+mt
-source-wordcount: '1966'
+source-wordcount: '1965'
 ht-degree: 36%
 
 ---
@@ -70,7 +70,7 @@ Adobe Dynamic Media Classic은 여러 사용자 역할을 지원합니다. 이�
 
 ### 사용자 삭제 {#deleting-a-user}
 
-Adobe Adobe Dynamic Media Classic에서 사용자를 유효하지 않게 하여 삭제할 수 있습니다. 무효 사용자는 시스템과 모든 계정에서 제거됩니다.
+Dynamic Media Classic에서 사용자를 유효하지 않게 만들어 삭제할 수 있습니다. 무효 사용자는 시스템과 모든 계정에서 제거됩니다.
 
 1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 관리 설정]** > **[!UICONTROL 사용자 관리]**&#x200B;로 이동합니다.
 1. 목록에서 사용자를 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
