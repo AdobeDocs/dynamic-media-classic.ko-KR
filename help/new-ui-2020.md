@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Windows®에서 새 Adobe Dynamic Media Classic 데스크탑 앱을 사용하는
 
 Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 디자인된 강력하고 다양한 솔루션입니다. 모든 기능을 활용하려면 다음 실용적인 리소스를 살펴보십시오.
 
-* [Adobe Dynamic Media 우수 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Adobe Dynamic Media Classic 모범 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Adobe 블로그 게시물](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
 * [Dynamic Media 뉴스레터 아카이브 Adobe](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 

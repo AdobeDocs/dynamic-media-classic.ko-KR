@@ -7,9 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '563'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ Adobe Dynamic Media Classic 도움말을 시작합니다. 사용 가능한 모�
 ## Dynamic Media Classic 사용자 리소스 Adobe
 
 * [Dynamic Media 월별 뉴스레터](dynamic-media-newsletter.md)
-* [안내서: Adobe Dynamic Media Classic 모범 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Adobe Dynamic Media Classic 모범 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [안내서: 이미지 선명하게 하기 우수 사례 안내서](/help/assets/s7_sharpening_images.pdf)
 * [안내서: Dynamic Media Classic에서 SEO를 지원하는 방법](/help/assets/s7_seo.pdf)  - 현재 검색 엔진을 통해 웹 사이트 및 이미지를 검색할 수 있습니다. Adobe Dynamic Media Classic에서는 더 많은 트래픽이 Adobe Dynamic Media Classic 사용자의 웹 사이트로 유도되도록 이미지 검색 엔진에 친화적이 되도록 하는 작업을 지원합니다. PDF의 이 안내서에서는 이러한 작업을 수행하는 데 필요한 배경 및 구현 권장 사항을 제공합니다.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html) - Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one master asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
