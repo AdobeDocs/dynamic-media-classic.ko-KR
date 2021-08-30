@@ -1,5 +1,5 @@
 ---
-title: Adobe Dynamic Media Classic에 로그인 및 체크 아웃
+title: Dynamic Media Classic에 로그인 및 로그아웃합니다.
 description: Adobe Dynamic Media Classic에 로그인 및 로그아웃하고 북미(NA) 또는 유럽, 중동, 아프리카(EMEA) 또는 아시아 태평양(APAC)에 프로덕션 환경 서버에 연결하는 방법에 대해 알아봅니다.
 contentOwner: admin
 content-type: reference
@@ -8,16 +8,16 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/getting_started
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '231'
 ht-degree: 6%
 
 ---
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Adobe Dynamic Media Classic에 로그인 {#dmc-sign-in}
+# Dynamic Media Classic Adobe에 로그인 {#dmc-sign-in}
 
 Adobe Dynamic Media Classic 데스크탑 애플리케이션을 사용하기 전에 다음 사항이 있는지 확인하십시오.
 
@@ -35,16 +35,16 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션을 사용하기 전�
 다음 매핑을 사용하여 사용할 프로덕션 환경을 선택하십시오.
 
    | 브라우저 URL | 데스크탑 앱 서버 이름 |
-   |---|---|
+   | --- | --- |
    | https://s7sps1.scene7.com/ | NA(북미) 생산 |
    | https://s7sps3.scene7.com/ | EMEA(유럽, 중동 및 아프리카) 프로덕션 |
    | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
 
-1. **[!UICONTROL 로그인]**&#x200B;을 누릅니다.
+1. **[!UICONTROL 로그인]**&#x200B;을 선택합니다.
 
 ## Adobe Dynamic Media Classic에서 로그아웃 {#dmc-sign-out}
 
-1. Adobe Dynamic Media Classic 데스크탑 응용 프로그램의 오른쪽 위 모서리에서 **[!UICONTROL 로그아웃]**&#x200B;을 탭한 다음 **[!UICONTROL 로그아웃]**&#x200B;을 다시 탭합니다.
+1. Adobe Dynamic Media Classic 데스크탑 응용 프로그램의 오른쪽 위 모서리에서 **[!UICONTROL 로그아웃]**&#x200B;을 선택한 다음 **[!UICONTROL 로그아웃]**&#x200B;을 다시 선택합니다.
 
 >[!MORELIKETHIS]
 >

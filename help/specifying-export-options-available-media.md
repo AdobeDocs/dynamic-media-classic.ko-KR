@@ -1,6 +1,6 @@
 ---
-title: Media Portal 사용자가 사용할 수 있는 내보내기 선택 사항 지정
-description: Media Portal 사용자가 사용할 수 있는 내보내기 옵션을 지정하는 방법을 알아봅니다.
+title: Media Portal 사용자가 사용할 수 있는 내보내기 옵션을 지정합니다
+description: Adobe Dynamic Media Classic에서 Media Portal 사용자가 사용할 수 있는 내보내기 옵션을 지정하는 방법을 알아봅니다.
 uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: admin
 content-type: reference
@@ -9,14 +9,14 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 72%
+source-wordcount: '381'
+ht-degree: 66%
 
 ---
 
-# Media Portal 사용자가 사용할 수 있는 내보내기 선택 사항 지정 {#specifying-export-options-available-to-media-portal-users}
+# Media Portal 사용자가 사용할 수 있는 내보내기 옵션을 지정합니다 {#specifying-export-options-available-to-media-portal-users}
 
 관리자가 권한을 부여한 경우 Media Portal 사용자는 이미지를 내보낼 때 형식을 다시 지정할 수 있습니다. 예를 들어 크기, 파일 형식 및 이미지 품질을 변경할 수 있습니다. 이미지를 내보낼 때 자동으로 형식을 다시 지정하면 별도로 이미지 형식을 다시 지정할 필요가 없기 때문에 시간이 절약됩니다. 또한 관리자는 사전 설정된 이미지 형식 설정 선택인 사전 설정을 만들 수 있습니다. 이미지를 내보낼 때 사전 설정을 사용하여 회사 사양에 맞게 형식을 다시 지정할 수 있습니다.
 
@@ -29,7 +29,7 @@ ht-degree: 72%
 
 **Media Portal 사용자가 사용할 수 있는 내보내기 선택 사항을 지정하려면:**
 
-1. 전역 탐색 막대에서 **[!UICONTROL 설정]** > **[!UICONTROL 이미지 사전 설정]**&#x200B;을 클릭합니다.
+1. 전역 탐색 막대에서 **[!UICONTROL 설정]** > **[!UICONTROL 이미지 사전 설정]**&#x200B;으로 이동합니다.
 1. [이미지 사전 설정] 창에서 다음 중 원하는 선택 사항을 선택합니다.
 
    * **사용자 정의 변환 활성화**  - 이 옵션을 선택하면 선택한 자산 내보내기 창의  **** 그룹 드롭다운 목록에서 다른 항목을 선택할 수 있습니다. 그런 다음 사용자는 픽셀 또는 센티미터와 같은 측정 단위를 선택하고 원하는 너비와 높이를 지정할 수 있습니다. 이러한 파일을 내보내거나 다운로드하는 경우 이미지 파일 형식이 다시 지정됩니다.

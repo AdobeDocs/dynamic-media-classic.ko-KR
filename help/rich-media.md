@@ -10,10 +10,10 @@ discoiquuid: 86f72d31-19aa-4077-a746-2badb53b02ec
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 52937d52-92a6-4310-a363-d3c8a266e9ef
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 48%
+source-wordcount: '461'
+ht-degree: 46%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Dynamic Media Classic은 리치 미디어를 만드는 다양한 도구를
 [빠른 시작: eCatalog](/help/quick-start-ecatalog.md)를 참조하십시오.
 
 * **e비디오**  - 데스크탑, 모바일 장치 및 태블릿을 포함한 여러 화면에 고품질 비디오 경험을 제공합니다. 사전 정의된 Adobe Dynamic Media Classic 인코딩 사전 설정을 사용하거나 인코딩을 사용자 지정하여 비디오의 품질과 크기를 제어할 수 있습니다. 비디오 자산의 효율적인 관리를 위해 전체 메타데이터 지원을 사용하여 비디오를 구성하고 찾고 검색합니다.
-[빠른 시작: eVideo](/help/quick-start-video.md)를 참조하십시오.
+[빠른 시작 을 참조하십시오. Dynamic Media Classic의 비디오](/help/quick-start-video.md).
 
 * **이미지 맵**  - 웹 사이트 전체에서 모든 크기와 포맷으로 이미지를 동적으로 제공합니다. 각기 다른 크기의 많은 이미지를 수동으로 만드는 대신 하나의 마스터 이미지만 사용합니다. Adobe Dynamic Media Classic은 요청된 이미지를 전달하므로 이미지를 최적화하여 크기, 형식, 가중치, 품질 및 선명하게 하기를 통해 최상의 결과를 얻습니다.
 [빠른 시작: 이미지 크기 조정](/help/quick-start-image-sizing.md)을 참조하십시오.

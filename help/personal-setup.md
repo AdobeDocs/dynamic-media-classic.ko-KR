@@ -10,7 +10,7 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
 source-wordcount: '822'
 ht-degree: 25%
@@ -95,9 +95,9 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 
 ## 이메일
 
-* ****[!UICONTROL 이메일 옵션]****  - 업로드 및 게시 작업이 완료되면 Dynamic Media Classic에서 이메일로 알릴 방법을 선택합니다. 작업 완료 알림은 경고나 오류가 발생한 경우에만 받아볼 수 있습니다.
-* ****[!UICONTROL 이메일 범위]****  - 회사에 대한 모든 작업 이메일을 수신하는지 또는 사용자가 시작하는 업로드 및 게시 작업에 대한 이메일만 수신하는지 여부를 결정합니다.
-* ****[!UICONTROL 이메일 유형]****  - 업로드 작업 및 게시 작업이 완료되었을 때 알림을 받는지 여부를 결정합니다.
+* **[!UICONTROL 이메일 옵션]**  - 업로드 및 게시 작업이 완료되면 Dynamic Media Classic에서 이메일로 알릴 방법을 선택합니다. 작업 완료 알림은 경고나 오류가 발생한 경우에만 받아볼 수 있습니다.
+* **[!UICONTROL 이메일 범위]**  - 회사에 대한 모든 작업 이메일을 수신하는지 또는 사용자가 시작하는 업로드 및 게시 작업에 대한 이메일만 수신하는지 여부를 결정합니다.
+* **[!UICONTROL 이메일 유형]**  - 업로드 작업 및 게시 작업이 완료되었을 때 알림을 받는지 여부를 결정합니다.
 
 ## 언어
 

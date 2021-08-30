@@ -1,6 +1,6 @@
 ---
-title: 확대/축소 뷰어 사전 설정 지정
-description: 확대/축소 뷰어 사전 설정을 설정하는 방법을 알아봅니다.
+title: 확대/축소 뷰어 사전 설정 설정 설정
+description: Adobe Dynamic Media Classic에서 확대/축소 뷰어 사전 설정을 설정하는 방법을 알아봅니다.
 uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 52%
+source-wordcount: '613'
+ht-degree: 47%
 
 ---
 
-# 확대/축소 뷰어 사전 설정 지정{#setting-up-zoom-viewer-presets}
+# 확대/축소 뷰어 사전 설정 설정 설정{#setting-up-zoom-viewer-presets}
 
 확대/축소 뷰어 사전 설정은 확대/축소 뷰어의 스타일, 동작 및 모양을 결정합니다. Adobe Dynamic Media Classic에서는 뷰어를 사용자 지정하고 스키닝하기 위한 다양한 옵션을 제공합니다. Adobe Dynamic Media Classic에는 기본(빠른), 플라이아웃 및 사용자 지정 확대/축소 뷰어 사전 설정이 포함되어 있습니다. 관리자는 회사 확대/축소 뷰어 사전 설정을 만들거나 기본 사전 설정을 편집하고 새 이름으로 저장할 수 있습니다.
 
@@ -45,25 +45,25 @@ Adobe Dynamic Media Classic에서는 플라이아웃 확대/축소 뷰어 사전
 
 ## 확대/축소 뷰어 사전 설정 만들기 및 편집 {#creating-and-editing-zoom-viewer-presets}
 
-1. 전역 탐색 막대에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**&#x200B;을 클릭합니다.
+1. 전역 탐색 막대에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**&#x200B;으로 이동합니다.
 1. 다음 중 하나를 수행하십시오.
 
-   * **사전 설정 만들기**  - 추가 **[!UICONTROL 를 클릭합니다]**. [뷰어 사전 설정 추가] 대화 상자에서 플랫폼을 선택하고 확대/축소 뷰어를 선택한 다음 **[!UICONTROL 추가]**&#x200B;를 클릭합니다. 사전 설정 이름 상자에 사전 설정 이름을 입력합니다.
+   * **사전 설정 만들기**  - 추가 **[!UICONTROL 를 선택합니다]**. [뷰어 사전 설정 추가] 대화 상자에서 플랫폼을 선택하고 확대/축소 뷰어를 선택한 다음 **[!UICONTROL 추가]**&#x200B;를 선택합니다. 사전 설정 이름 상자에 사전 설정 이름을 입력합니다.
 
-   * **사전 설정 편집**  - 확대/축소 뷰어 사전 설정을 선택한 다음  **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+   * **사전 설정 편집**  - 확대/축소 뷰어 사전 설정을 선택한 다음  **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
 1. 원하는 대로 설정을 지정합니다.
 
-   옵션에 대한 설명을 보려면 옵션 옆에 있는 **[!UICONTROL 정보 팁]** 아이콘을 클릭합니다.
+   옵션에 대한 설명을 보려면 옵션 옆에 있는 **[!UICONTROL 정보 팁]** 아이콘을 선택합니다.
 
    설정을 업데이트하고 변경할 때 미리 보기 페이지에 뷰어가 표시됩니다.
 
-1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 클릭합니다.
-1. [뷰어 사전 설정] 페이지에서 만든 [확대/축소 뷰어 사전 설정] 또는 [안내식 확대/축소 뷰어 사전 설정]을 검사합니다. 조정이 필요한 경우 **[!UICONTROL 편집]**&#x200B;을 클릭하고, 뷰어 구성 페이지에서 설정을 변경한 다음 ****[!UICONTROL 저장]****&#x200B;을 클릭합니다.
+1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택합니다.
+1. [뷰어 사전 설정] 페이지에서 만든 [확대/축소 뷰어 사전 설정] 또는 [안내식 확대/축소 뷰어 사전 설정]을 검사합니다. 조정이 필요한 경우 **[!UICONTROL 편집]**&#x200B;을 선택하고 [뷰어 구성] 페이지에서 설정을 변경한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 [뷰어 사전 설정] 화면에서 뷰어 사전 설정을 관리하는 방법에 대한 자세한 내용은 [뷰어 사전 설정](application-setup.md#viewer_presets)을 참조하십시오.
 
 >[!MORELIKETHIS]
 >
->* [Creating and editing Viewer Presets](application-setup.md#adding_and_editing_viewer_presets)
+>* [뷰어 사전 설정 만들기 및 편집](application-setup.md#adding_and_editing_viewer_presets)
 

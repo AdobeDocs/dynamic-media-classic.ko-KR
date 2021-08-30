@@ -1,6 +1,6 @@
 ---
-title: 자산 변경 사항을 피어와 실시간으로 공유
-description: 자산 변경 사항을 사용자와 실시간으로 공유하는 방법을 알아봅니다.
+title: 동료와 실시간으로 자산 변경 내용 공유
+description: Adobe Dynamic Media Classic에서 자산 변경 사항을 피어와 실시간으로 공유하는 방법을 알아봅니다.
 uuid: 13fa4f6e-66bf-4682-96a9-0e7040706f53
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: ca7c8a7f-76f4-4a25-8c36-617a029e55be
 feature: Dynamic Media Classic,Asset Management,Collaboration
 role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 50%
+source-wordcount: '279'
+ht-degree: 44%
 
 ---
 
-# 자산 변경 사항을 피어와 실시간으로 공유{#sharing-asset-changes-with-peers-in-real-time}
+# 동료와 실시간으로 자산 변경 내용 공유{#sharing-asset-changes-with-peers-in-real-time}
 
-Adobe Dynamic Media Classic의 여러 복사본이 동일한 회사의 하나 이상의 컴퓨터에서 실행 중이면 모든 Adobe Dynamic Media Classic 클라이언트의 다음 작업이 모든 피어 클라이언트에서 실시간으로 업데이트됩니다.
+Adobe Dynamic Media Classic의 여러 사본이 동일한 회사의 여러 컴퓨터에서 실행 중이면 모든 Adobe Dynamic Media Classic 클라이언트의 다음 작업이 모든 피어 클라이언트로 실시간으로 업데이트됩니다.
 
 * 자산 편집(빌더, 이미지 편집기 등)
 * 자산 이름 바꾸기

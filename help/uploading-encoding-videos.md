@@ -11,7 +11,7 @@ discoiquuid: a0941823-850c-4373-9e37-f32032de3805
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 6ed77dbc14b0b1f62f119b7ceb0ada21679781c1
 workflow-type: tm+mt
 source-wordcount: '3893'
 ht-degree: 69%
@@ -84,9 +84,9 @@ Adobe Dynamic Media Classic도 비디오 축소판 그림을 생성합니다. �
 1. 자산 재처리 대화 상자에서 **[!UICONTROL EVideo 옵션]**&#x200B;을 확장한 다음 다음, 다음 중 하나를 수행합니다.
    * 다음 방법을 사용하는 것이 좋습니다. **적응형 비디오**를 선택합니다.
 [적응형 비디오(기본값)](application-setup.md#adaptive-video-default)를 참조하십시오.
-   * 선택 사항입니다. 개별 인코딩 설정을 사용하려면 ****[!UICONTROL 단일 인코딩 사전 설정]****을 확장한 다음 데스크톱, 모바일 및 태블릿에 대해 원하는 인코딩 옵션을 선택합니다.
+   * 선택 사항입니다. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**을 확장한 다음 데스크톱, 모바일 및 태블릿에 대해 원하는 인코딩 옵션을 선택합니다.
 [데스크톱 비디오 인코딩 사전 설정](application-setup.md#desktop-video-encoding-presets), [모바일 비디오 인코딩 사전 설정](application-setup.md#mobile-video-encoding-presets), [태블릿 비디오 인코딩 사전 설정](application-setup.md#tablet-video-encoding-presets)을 참조하십시오.
-1. [자산 재처리] 대화 상자에서 **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
+1. 자산 재처리 대화 상자에서 **[!UICONTROL 제출]**&#x200B;을 선택합니다.
 
 적응형 비디오 인코딩 사전 설정을 사용하거나 여러 개의 단일 인코딩 사전 설정을 사용하면, 여러 비디오 인코딩을 사용하여 적응형 비디오 집합이 자동으로 만들어집니다. 개별 비디오를 선택하여 수동으로 적응형 비디오 집합을 만들 수도 있습니다.
 
@@ -140,7 +140,7 @@ For advice about video encoding, see the following:
 다음 표에서는 소스 비디오 파일을 인코딩할 때 사용해야 하는 권장 크기, 종횡비 및 최소 비트 전송률에 대해 설명합니다.
 
 | 크기 | 종횡비 | 최소 비트 전송률 |
-|--- |--- |--- |
+| --- | --- | --- |
 | 1024 X 768 | 4:3 | 대부분의 비디오에서 4500kbps |
 | 1280 X 720 | 16:9 | 비디오 동작의 양에 따라 3000 - 6000kbps |
 | 1920 X 1080 | 16:9 | 비디오 동작의 양에 따라 6000 - 8000kbps |
@@ -149,7 +149,7 @@ For advice about video encoding, see the following:
 
 Adobe Dynamic Media Classic에서 해당 메타데이터를 보거나 비디오 편집 도구를 사용하거나 메타데이터를 얻기 위해 디자인된 응용 프로그램을 사용하여 파일의 메타데이터를 가져올 수 있습니다. 다음은 타사 애플리케이션인 MediaInfo를 사용하여 비디오 파일의 메타데이터를 가져오는 방법에 대한 지침입니다.
 
-1. 다음 웹 페이지로 이동합니다. [https://mediainfo.sourceforge.net/en/Download](https://mediainfo.sourceforge.net/en/Download)
+1. 다음 웹 페이지로 이동합니다. [https://mediaarea.net/en/MediaInfo](https://mediaarea.net/en/MediaInfo)
 1. GUI 버전의 설치 프로그램을 선택하고 다운로드한 다음 설치 지침을 따릅니다.
 1. 설치 후 비디오 파일(Windows®만 해당)을 마우스 오른쪽 단추로 클릭하고 MediaInfo를 선택하거나 MediaInfo를 열고 비디오 파일을 응용 프로그램으로 드래그합니다. 너비, 높이, fps 등을 포함하여 비디오 파일과 관련된 모든 메타데이터가 표시됩니다.
 
