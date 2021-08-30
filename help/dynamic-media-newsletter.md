@@ -5,9 +5,9 @@ keywords: dynamic media;뉴스레터;제품 업데이트;팁과 트릭;이벤트
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Dynamic Media Newsletter by Experience League은 Dynamic Media 및 Adobe Dynamic
    * 디지털 자산을 보호하는 웨비나에 대해 알아봅니다.
    * 다음은 정보가 채워진 Adobe 인사이더 투어의 다음 정류장입니다.
    * Experience Manager 자산(Experience Manager 자산) 내에 Dynamic Media이 있을 때 사용할 수 있는 흥미로운 기능입니다.
-   * 웹 사이트에 360도 비디오 및 사용자 정의 비디오 축소판 추가
+   * 웹 사이트에 360° 비디오 및 사용자 정의 비디오 축소판 추가
    * Experience Manager Assets 내에서 Dynamic Media의 주요 솔루션 컨설턴트인 `Andrew Hathaway` 을 만나보십시오.
 
 * **[2019년 6월, 2016년 6월](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_06_2019_June.html)**

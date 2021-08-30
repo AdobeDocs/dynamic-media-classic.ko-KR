@@ -1,6 +1,6 @@
 ---
 title: '"빠른 시작: Media Portal"'
-description: Media Portal 기법 및 관리를 사용하여 를 신속하게 시작하고 실행할 수 있는 Media Portal 소개 및 빠른 시작
+description: Adobe Dynamic Media Classic에서 Media Portal 기법 및 관리를 빠르게 시작하고 실행할 수 있도록 지원하기 위한 Media Portal 소개 및 빠른 시작 .
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 73%
+source-wordcount: '693'
+ht-degree: 68%
 
 ---
 
@@ -23,7 +23,7 @@ Media Portal을 사용하면 승인된 자산을 외부 파트너 및 채널 및
 
 관리자는 사용자가 Media Portal에서 자산을 보고 액세스하고 사용하는 방법을 제어합니다. 또한 웹 사이트 및 브랜드와 일치하도록 Media Portal 인터페이스를 사용자 지정할 수 있습니다. Media Portal 인터페이스에서 글꼴, 글꼴 색상, 글꼴 크기를 지정하고 로고와 같은 브랜딩 요소를 통합할 수 있습니다.
 
-이 빠른 시작은 Media Portal 관리를 빨리 시작하고 실행하는 데 도움이 됩니다. 각 단계가 끝날 때 항목 링크를 클릭하여 자세히 알아보십시오.
+이 빠른 시작은 Media Portal 관리를 빨리 시작하고 실행하는 데 도움이 됩니다. 각 단계가 끝날 때 주제 링크를 선택하여 자세히 알아보십시오.
 
 ## 1. Media Portal 사용자 역할 이해
 
@@ -59,7 +59,7 @@ Media Portal과 연결되고 Adobe Dynamic Media Classic 계정의 특정 폴더
 
 Media Portal 사용자는 관리자가 해당 권한을 부여한 경우 파일을 내보낼 때 파일의 형식을 다시 지정하고 원본 마스터 파일을 내보낼 수 있습니다. 관리자는 사용자가 파일을 내보내는 방법을 결정합니다. 
 
-[Media Portal 사용자가 사용할 수 있는 내보내기 선택 사항 지정](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)을 참조하십시오.
+[Media Portal 사용자가 사용할 수 있는 내보내기 옵션 지정](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)을 참조하십시오.
 
 ## 6. 이미지 사전 설정 만들기
 
