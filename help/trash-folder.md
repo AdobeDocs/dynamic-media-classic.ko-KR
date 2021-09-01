@@ -10,10 +10,10 @@ discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '547'
-ht-degree: 39%
+source-wordcount: '551'
+ht-degree: 33%
 
 ---
 
@@ -39,23 +39,23 @@ Dynamic Media Classic에서 삭제하는 항목은 휴지통 폴더로 이동됩
 
 ## 휴지통 폴더에서 자산 복원 {#restoring-assets-from-the-trash-folder}
 
-자산을 삭제한 사람이 복원해야 하는 것은 아니며 누구든지 휴지통 폴더에서 자산을 복원할 수 있습니다. 복원한 자산은 삭제되기 전의 폴더에 배치됩니다. 이러한 폴더가 더 이상 존재하지 않으면 Dynamic Media Classic에서 다시 만들고 복원된 자산이 재생성된 폴더에 배치됩니다.
+자산을 삭제한 사람이 복원할 필요는 없습니다. 누구나 휴지통 폴더에서 자산을 복원할 수 있습니다. 복원한 자산은 삭제되기 전의 폴더에 배치됩니다. 이러한 폴더가 더 이상 존재하지 않으면 Dynamic Media Classic에서 다시 만들고 복원된 자산이 재생성된 폴더에 배치됩니다.
 
 휴지통 폴더의 자산을 삭제한 폴더로 복원하려면 다음을 수행합니다.
 
-1. 자산 라이브러리 패널 하단에서 **[!UICONTROL 휴지통]** 아이콘을 클릭하여 휴지통 폴더를 엽니다.
+1. 자산 라이브러리 패널 하단에서 **[!UICONTROL 휴지통]** 아이콘을 선택하여 휴지통 폴더를 엽니다.
 1. 복원하려는 자산을 선택합니다.
-1. **[!UICONTROL 파일]** > **[!UICONTROL 휴지통에서 복원]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 파일]** > **[!UICONTROL 휴지통에서 복원]**&#x200B;으로 이동합니다.
 
 ## 휴지통 폴더에서 영구적으로 자산 삭제 {#permanently-deleting-assets-in-the-trash-folder}
 
 휴지통 폴더에서 삭제한 자산은 영구적으로 삭제됩니다. 7일 후에는 휴지통 폴더에서 자산이 자동으로 삭제됩니다.
 
-휴지통 폴더에서 자산을 영구적으로 삭제하려면 **[!UICONTROL 휴지통]** 아이콘을 클릭합니다. 휴지통 폴더 페이지에서 다음 중 하나를 수행합니다.
+휴지통 폴더에서 자산을 영구적으로 삭제하려면 **[!UICONTROL 휴지통]** 아이콘을 선택합니다. 휴지통 폴더 페이지에서 다음 중 하나를 수행합니다.
 
-* **개별 자산 삭제**  - 영구적으로 삭제할 자산을 선택한 다음  **[!UICONTROL 파일]**  >  **[!UICONTROL 휴지통에서 비어 있음]**&#x200B;을 클릭합니다.
+* **개별 자산 삭제**  - 영구적으로 삭제할 자산을 선택한 다음  **[!UICONTROL 파일]**  >  **[!UICONTROL 휴지통에서 비어 있음]**&#x200B;으로 이동합니다.
 
-* **모든 자산 삭제**  -  **[!UICONTROL 파일]**  >  **[!UICONTROL 빈 삭제]**&#x200B;를 클릭합니다.
+* **모든 자산 삭제**  -  **[!UICONTROL 파일로 이동]**  >  **[!UICONTROL 빈 휴지통]**.
 
 >[!MORELIKETHIS]
 >

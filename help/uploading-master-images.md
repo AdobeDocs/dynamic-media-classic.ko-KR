@@ -1,6 +1,6 @@
 ---
 title: 마스터 이미지 업로드
-description: 마스터 이미지를 업로드하는 방법을 알아봅니다.
+description: 마스터 이미지를 Adobe Dynamic Media Classic에 업로드하는 방법을 알아봅니다.
 uuid: 50bcf2e2-852b-48f1-a7c7-5063a87ce9c1
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 8c94bafc-94cc-496f-a394-a945cd7b02cf
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 410ba80c-7f01-4cd0-9ab3-db9658757ba7
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 15%
+source-wordcount: '259'
+ht-degree: 2%
 
 ---
 
 # 마스터 이미지 업로드{#uploading-master-images}
 
-Adobe Dynamic Media Classic에 이미지를 업로드하기 전에 이미지가 가장 높은 품질의 크기와 포맷인지 확인하십시오. Adobe Dynamic Media Classic에서는 충분한 픽셀 수(긴 크기의 1500~2000픽셀)로 고품질 이미지를 업로드하는 것이 좋습니다. 이 크기 조정을 통해 필요한 모든 다이내믹 이미징을 사용할 수 있습니다.
+Adobe Dynamic Media Classic에 이미지를 업로드하기 전에 이미지가 가장 높은 품질의 크기와 포맷인지 확인하십시오. Adobe Dynamic Media Classic에서는 충분한 픽셀 수(긴 크기의 1500~2000픽셀)로 고품질 이미지를 업로드하는 것이 좋습니다. 이 크기 조정 기능을 통해 필요한 모든 Dynamic Imaging을 수행할 수 있습니다.
 
 이미지 업로드에 대한 자세한 내용은 [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오.
 
@@ -31,4 +31,4 @@ Adobe Dynamic Media Classic에 이미지를 업로드하기 전에 이미지가 
 
 * **파일 형식**  - Adobe Dynamic Media Classic은 TIFF, BMP, JPEG, PSD, GIF 및 EPS를 포함한 모든 표준 이미지 파일 형식을 지원합니다. 손실 없는 이미지 형식(TIFF 및 PNG)이 권장됩니다. JPEG 이미지를 사용하는 경우 최고 품질의 설정을 사용하십시오.
 
-* **색상 공간**  - RGB는 웹 이미지 프레젠테이션을 위한 색상 공간입니다. 인쇄에 일반적으로 사용되는 CMYK 이미지는 업로드할 때 자동으로 RGB로 변환됩니다. RGB로 전환하는 데 사용되는 임베드된 ICC 색상 프로필이 있는 CMYK 이미지를 업로드하는 것이 좋습니다. [ICC 프로필](/help/icc-profiles.md)을 참조하십시오.
+* **색상 공간**  - RGB는 웹 이미지 프레젠테이션을 위한 색상 공간입니다. 인쇄에 일반적으로 사용되는 CMYK 이미지는 업로드할 때 자동으로 RGB로 변환됩니다. RGB로 변환할 ICC(International Color Consortium) 색상 프로필이 포함된 CMYK 이미지를 업로드하는 것이 좋습니다. [ICC(International Color Consortium) 프로필](/help/icc-profiles.md)도 참조하십시오.

@@ -1,16 +1,16 @@
 ---
 title: 이미지 자산 또는 벡터 자산 업로드
-description: 이미지 자산 또는 벡터 자산을 업로드하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 이미지 자산 또는 벡터 자산을 업로드하는 방법을 알아봅니다
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1495'
-ht-degree: 78%
+source-wordcount: '1504'
+ht-degree: 71%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 78%
 
 이미지 자산을 업로드하려면 먼저 공유 비밀 키를 요청합니다. 이 공유 보안 키를 사용하여 업로드 토큰을 검색합니다. 그런 다음 업로드 토큰을 사용하여 이미지 자산 또는 벡터 자산을 업로드합니다.
 
-## 공유 보안 키 요청 {#requesting-a-shared-secret-key}
+## 공유 암호 키 요청 {#requesting-a-shared-secret-key}
 
 Admin Console을 사용하여 *공유-암호 키*&#x200B;를 요청 하여 지원 사례를 만듭니다.[](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) 지원 사례에서 공유 암호 키를 요청합니다.
 
@@ -68,7 +68,7 @@ https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87
 URL 쿼리 문자열에 다음 필드를 사용하여 업로드 토큰을 검색할 수 있습니다.
 
 | URL 매개 변수 | 필수 또는 선택 사항 | 값 |
-|--- |--- |--- |
+| --- | --- | --- |
 | op | 필수 | get_uploadtoken |
 | shared_secret | 필수 | 업로드를 수행하는 회사의 공유 보안 키입니다. |
 | expires | 선택 사항입니다 | 업로드 토큰이 유효한 시간(초)입니다. 지정하지 않으면 기본값은 300초입니다. |
@@ -100,7 +100,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 [업로드 토큰 검색](uploading-image-asset-or-vector.md#retrieving_the_upload_token)을 참조하십시오.
 
-[공유 보안 키 검색](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)을 참조하십시오.
+[공유 암호 키 검색](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)을 참조하십시오.
 
 다음 예와 같이 다른 선택적 값을 URL 쿼리 문자열로 보낼 수도 있습니다.
 
@@ -113,7 +113,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 허용되는 파일 이름 확장자와 파일 크기 제한에 대해 애플리케이션에서 글로벌 제한이 설정됩니다. 요청에 보내는 내용이 글로벌 제한의 하위 집합이면 허용됩니다. 글로벌 제한은 다음과 같습니다.
 
 | 글로벌 제한 | 값 |
-|--- |--- |
+| --- | --- |
 | 모든 클라이언트의 파일 크기 | 20 MB |
 | 업로드가 지원되는 이미지 파일 형식 | BMP, GIF, JPG, PNG, PSD |
 
@@ -125,7 +125,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 파일 이름 확장자 목록.
 * 자산과 연관된 색상 프로필 및 파일 이름을 보존할지 여부.
 * 녹아웃 배경 사용 여부. 배경 녹아웃(Cnoting Background)을 활성화할 경우 코너(Corner), 공차(Tolerance) 및 채우기 방법(Fill Method)을 설정합니다.
-업로드](image-editing-options-upload.md#image-editing-options-at-upload)의 [이미지 편집 옵션에서 배경 녹아웃 을 참조하십시오.
+업로드](image-editing-options-upload.md#image-editing-options-at-upload)에서 [이미지 미세 조정 옵션에서 배경 녹아웃 을 참조하십시오.
 * 업로드할 파일 이름.
 
 <!-- 
@@ -138,11 +138,11 @@ Last Modified Date:
 
  -->
 
-[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)을 클릭하여 위의 양식과 연결된 HTML 소스 코드를 볼 수 있습니다
+[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html) 을 선택하여 위의 양식과 연결된 HTML 소스 코드를 볼 수 있습니다
 
-Firefox에서 브라우저 창에서 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL 페이지 소스 보기]**&#x200B;를 클릭합니다. 이 코드는 사용자가 **[!UICONTROL [전송]]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
+Firefox에서 브라우저 창에서 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL 페이지 소스 보기]**&#x200B;를 선택합니다. 이 코드는 사용자가 **[!UICONTROL [전송]]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
 
-Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL [보기]]** > **[!UICONTROL [소스]]**&#x200B;를 클릭합니다. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 웹 개발자 도구]**&#x200B;를 클릭합니다. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
+Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL 보기]** > **[!UICONTROL 소스]**&#x200B;로 이동하십시오. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 웹 개발자 도구]**&#x200B;로 이동하십시오. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 
 다음은 성공적인 업로드에 대한 샘플 응답입니다.
 
@@ -179,7 +179,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 멀티파트/양식 게시로 업로드할 자산을 보내고 나머지 값을 URL 쿼리 문자열로 보냅니다. URL 쿼리 문자열에 다음 필드를 사용하여 자산을 업로드할 수 있습니다.
 
 | URL 매개 변수 | 필수 또는 선택 사항 | 값 |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | 필수 | 업로드 |
 | `upload_token` | 필수 | 회사와 관련된 공유 보안 키의 업로드 토큰입니다. |
 | `company_name` | 필수 | 업로드를 수행하는 회사 이름입니다. |
@@ -200,7 +200,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 POST
 
-### 이미지의 자산 메타데이터 가져오기 {#getting-asset-metadata-for-images}
+### 이미지용 자산 메타데이터 가져오기 {#getting-asset-metadata-for-images}
 
 다음 예와 같이 `image_info`를 사용하여 업로드한 자산의 메타데이터를 검색할 수 있습니다.
 
@@ -235,7 +235,7 @@ https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47
 URL 쿼리 문자열에 다음 필드를 사용하여 자산에 대한 정보를 요청할 수 있습니다.
 
 | URL 매개 변수 | 필수 또는 선택 사항 | 값 |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | 필수 | image_info |
 | `shared_secret` | 필수 | 회사의 공유 보안 키입니다. |
 | `image_name` | 필수 | 이미지 이름입니다. |
@@ -260,7 +260,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 [업로드 토큰 검색](uploading-image-asset-or-vector.md#retrieving_the_upload_token)을 참조하십시오.
 
-[공유 보안 키 검색](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)을 참조하십시오.
+[공유 암호 키 검색](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)을 참조하십시오.
 
 다음 예와 같이 다른 선택적 값을 URL 쿼리 문자열로 보낼 수도 있습니다.
 
@@ -273,7 +273,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 허용되는 파일 이름 확장자와 파일 크기 제한에 대해 애플리케이션에서 글로벌 제한이 설정됩니다. 요청에 보내는 내용이 글로벌 제한의 하위 집합이면 허용됩니다. 글로벌 제한은 다음과 같습니다.
 
 | 글로벌 제한 | 값 |
-|--- |--- |
+| --- | --- |
 | 모든 클라이언트의 파일 크기 | 20MB |
 | 업로드가 지원되는 벡터 파일 형식 | AI, EPS, PDF(PDF가 이전에 열리고 Adobe Illustrator CS6에 저장된 경우에만) |
 
@@ -285,7 +285,7 @@ https://s7ugc1.scene7.com/ugc/vector?op=upload&upload_token=aa2a378a-cd25-4c80-9
 * 파일 이름 확장자 목록.
 * 자산과 연관된 색상 프로필 및 파일 이름을 보존할지 여부.
 * 녹아웃 배경 사용 여부. 배경 녹아웃(Cnoting Background)을 활성화할 경우 코너(Corner), 공차(Tolerance) 및 채우기 방법(Fill Method)을 설정합니다.
-업로드](image-editing-options-upload.md#image-editing-options-at-upload)의 [이미지 편집 옵션에서 배경 녹아웃 을 참조하십시오.
+업로드](image-editing-options-upload.md#image-editing-options-at-upload)에서 [이미지 미세 조정 옵션에서 배경 녹아웃 을 참조하십시오.
 * 업로드할 파일 이름.
 
 <!-- 
@@ -298,7 +298,7 @@ Last Modified Date:
 
  -->
 
-다음 HTML 코드는 브라우저 창에서 마우스 오른쪽 단추를 클릭하고 예제에 표시된 양식에 대해 **[!UICONTROL 소스 보기]**&#x200B;를 클릭하면 표시됩니다. 이 코드는 사용자가 **[!UICONTROL [전송]]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
+브라우저 창에서 마우스 오른쪽 단추를 클릭하고 예제에 표시된 양식에 대해 **[!UICONTROL 소스 보기]**&#x200B;를 선택하면 다음 HTML 코드가 표시됩니다. 이 코드는 사용자가 **[!UICONTROL Submit]**&#x200B;을 선택할 때 실행되는 해당 URL 쿼리 문자열 및 POST 메서드를 보여 줍니다.
 
 ```as3
 <body> 
@@ -324,7 +324,7 @@ return true;
 </tr> 
 <tr><td colspan="2"></td></tr> 
 <tr> 
-<td><strong>Click Submit to upload your Vector: </strong></td> 
+<td><strong>Select Submit to upload your Vector: </strong></td> 
 <td><input type="submit" value="Submit"></td> 
 </tr> 
 </table> 
@@ -332,7 +332,7 @@ return true;
 </body>
 ```
 
-Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL [보기]]** > **[!UICONTROL [소스]]**&#x200B;를 클릭합니다. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 페이지 소스]**&#x200B;를 클릭합니다. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
+Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL 보기]** > **[!UICONTROL 소스]**&#x200B;로 이동하십시오. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 페이지 소스]**&#x200B;로 이동하십시오. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 
 다음은 성공적인 업로드에 대한 샘플 응답입니다.
 
@@ -371,7 +371,7 @@ https://s7w2p1.scene7.com/is/agm/W2PTest/ugc/8875744.fxg?fmt=png&wid=500&hei=500
 멀티파트/양식 게시로 업로드할 자산을 보내고 나머지 값을 URL 쿼리 문자열로 보냅니다. URL 쿼리 문자열에 다음 필드를 사용하여 자산을 업로드할 수 있습니다.
 
 | URL 매개 변수 | 필수 또는 선택 사항 | 값 |
-|--- |--- |--- |
+| --- | --- | --- |
 | `op` | 필수 | 업로드 |
 | `upload_token` | 필수 | 회사와 관련된 공유 보안 키의 업로드 토큰입니다. |
 | `company_name` | 필수 | 업로드를 수행하는 회사 이름입니다. |

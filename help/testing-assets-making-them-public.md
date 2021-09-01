@@ -1,6 +1,6 @@
 ---
-title: 공개하기 전에 자산 테스트
-description: 자산을 공개하기 전에 자산을 테스트하는 방법을 알아보십시오.
+title: 자산을 공개하기 전에 테스트
+description: 자산을 공개하기 전에 Adobe Dynamic Media Classic에서 자산을 테스트하는 방법을 알아봅니다.
 uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: admin
 content-type: reference
@@ -10,14 +10,14 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 37%
+source-wordcount: '1047'
+ht-degree: 32%
 
 ---
 
-# 공개하기 전에 자산 테스트 {#testing-assets-before-making-them-public}
+# 자산을 공개하기 전에 테스트 {#testing-assets-before-making-them-public}
 
 Secure Testing을 사용하면 안전한 테스트 환경을 정의하고 구성 가능한 IP 주소 및 범위 세트를 기반으로 강력한 B2B 솔루션을 구축할 수 있습니다. 이 기능을 사용하면 Adobe Dynamic Media Classic 배포를 컨텐츠 관리 및 비즈니스 시스템의 아키텍처와 일치시킬 수 있습니다.
 
@@ -37,7 +37,7 @@ Secure Testing을 사용하면 안전한 테스트 환경을 정의하고 구성
 
 대부분의 회사는 방화벽 뒤에서 인터넷을 실행합니다. 인터넷에 대한 액세스는 특정 경로 및 일반적으로 제한된 범위의 공개 IP 주소를 통해 가능합니다.
 
-회사 네트워크에서 https://whatismyip.com과 같은 웹 사이트를 사용하여 공개 IP 주소를 파악하거나 회사 IT 조직에서 이 정보를 요청할 수 있습니다.
+회사 네트워크에서 [https://www.whatismyip.com](https://www.whatismyip.com/)와 같은 웹 사이트를 사용하여 공개 IP 주소를 파악하거나 회사 IT 조직에서 이 정보를 요청할 수 있습니다.
 
 보안 테스트를 통해 Dynamic Media Classic은 스테이징 환경 또는 내부 애플리케이션을 위한 전용 이미지 서버를 설정합니다. 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록에 없는 경우 실패 응답이 반환됩니다. Dynamic Media Classic 회사 관리자 Adobe은 회사의 보안 테스트 환경에 대해 승인된 IP 주소 목록을 구성합니다.
 
@@ -78,7 +78,7 @@ Last Modified Date:
 * W2P(Web to Print)
 * Dynamic Media Classic 정보 또는 eCatalog 검색 Adobe
 
-## 보안 테스트 서비스 테스트 {#testing-the-secure-testing-service}
+## Secure Testing 서비스 테스트 {#testing-the-secure-testing-service}
 
 Secure Testing 서비스를 테스트하여 예상대로 작동하는지 확인합니다.
 
@@ -99,9 +99,9 @@ Last Modified Date:
  -->
 
 1. Adobe 고객 지원 센터에 문의하여 계정에서 보안 테스트를 사용하도록 요청하십시오.
-1. Dynamic Media Classic Adobe의 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 게시 설정]** > **[!UICONTROL 이미지 서버]**&#x200B;를 클릭합니다.
+1. Dynamic Media Classic Adobe의 전역 탐색 막대에서 **[!UICONTROL 설정]** > **[!UICONTROL 게시 설정]** > **[!UICONTROL 이미지 서버]**&#x200B;로 이동합니다.
 1. 이미지 서버 게시 페이지의 **[!UICONTROL 게시 컨텍스트]** 드롭다운 목록에서 **[!UICONTROL 테스트 이미지 제공]**&#x200B;을 선택합니다.
-1. [클라이언트 주소 필터]에 대해 **[!UICONTROL [추가]]**&#x200B;를 클릭합니다.
+1. 클라이언트 주소 필터에 대해 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 1. 주소가 활성화되도록 확인란을 선택한 다음(켜짐) 각 텍스트 필드에 IP 주소와 네트 마스크를 입력합니다.
 
    >[!NOTE]
@@ -111,16 +111,16 @@ Last Modified Date:
 1. 다음 중 하나를 수행하십시오.
    * IP 주소를 더 추가해야 하는 경우 이전 두 단계를 반복합니다.
    * 다음 단계로 진행합니다.
-1. 이미지 서버 게시 페이지의 왼쪽 아래에서 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. [이미지 서버 게시] 페이지의 왼쪽 아래에서 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 원하는 이미지를 Adobe Dynamic Media Classic 계정에 업로드합니다.
 
    [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오.
 
 1. 일부 이미지는 게시로 표시되고 다른 이미지는 표시되지 않았는지 확인한 다음 게시 작업을 전송합니다.
 
-   [게시](publishing-files.md#publishing_files)를 참조하십시오.
+   [파일 게시](publishing-files.md#publishing_files)를 참조하십시오.
 
-1. **[!UICONTROL [설정]]** > **[!UICONTROL [애플리케이션 설정]]** > **[!UICONTROL [일반 설정]]**&#x200B;을 클릭하여 보안 테스트 서비스 이름을 확인합니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]**&#x200B;으로 이동하여 Secure Testing 서비스의 이름을 결정합니다.
 1. [애플리케이션 일반 설정] 페이지의 [서버] 그룹에서 **[!UICONTROL [게시 컨텍스트 서버 이름 테스트]]**&#x200B;의 오른쪽에 있는 이름을 찾습니다.
 
 서버 이름이 없거나 서버 URL이 작동하지 않는 경우 Adobe 지원 센터에 문의하십시오.

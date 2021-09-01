@@ -9,7 +9,7 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
 source-wordcount: '3866'
 ht-degree: 34%
@@ -128,7 +128,7 @@ Adobe Dynamic Media Classic에서는 정적 콘텐츠의 미리 보기 URL을 �
 일반적으로 자산 파일 이름은 다음과 같이 항목 번호, 제품 SKU 또는 다른 이름과 같을 수 있습니다.
 
 | 항목 | 파일 이름 | 자산 ID |
-|--- |--- |--- |
+| --- | --- | --- |
 | 896649 | 896649.jpg | 896649 |
 | 48A3_2X | 48A3_2X.tif | 48A3_2X |
 
@@ -233,7 +233,7 @@ Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 사용하면 끌
    * **[!UICONTROL 프로세스 메타데이터 파일]**  - FTP를 통해 탭을 선택한  **[!UICONTROL 경우에만]** 사용할 수 있습니다. 탭으로 구분된 파일이나 XML 파일을 업로드하여 여러 자산에 메타데이터를 추가하려는 경우 이 선택 사항을 선택합니다. [메타데이터 가져오기(FTP 사용)](viewing-adding-exporting-metadata.md#import-metadata)를 참조하십시오.
 
 
-* **자르기 OPTIONS**  - 이미지에서 공백 픽셀을 자동으로 자르려면 [교차] 메뉴 **** 를 열고  **[!UICONTROL 수동]**&#x200B;을 선택한 다음 [위쪽], [오른쪽], [아래쪽] 및 [왼쪽] 텍스트 필드에 픽셀 측정 값을 입력하여 양쪽에서 자를 수 있습니다. 자르기 메뉴에서 **[!UICONTROL Trim]**&#x200B;을 선택하고 다음 옵션을 선택할 수도 있습니다.
+* **자르기 옵션**  - 이미지에서 공백 픽셀을 자동으로 자르려면 [교차] 메뉴 **** 를 열고  **[!UICONTROL 수동]**&#x200B;을 선택한 다음 [위쪽], [오른쪽], [아래쪽] 및 [왼쪽] 텍스트 필드에 픽셀 측정 값을 입력하여 양쪽에서 자를 수 있습니다. 자르기 메뉴에서 **[!UICONTROL Trim]**&#x200B;을 선택하고 다음 옵션을 선택할 수도 있습니다.
 
    * **[!UICONTROL 기준 재단]**  - 색상 또는 투명도를 기반으로 자르는지 여부를 선택합니다.
       * **[!UICONTROL 색상]**  - 색상 옵션을 선택합니다. [모서리] 메뉴를 선택한 다음 자르려는 공백 색상을 가장 잘 나타내는 색상이 지정된 이미지 모서리를 선택합니다.
@@ -242,7 +242,7 @@ Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 사용하면 끌
 투명도를 기반으로 트리밍: 픽셀이 투명한 경우에만 픽셀을 자르도록 0을 지정합니다. 1에 가까운 숫자는 더 투명할 수 있도록 해줍니다.
       * **[!UICONTROL 허용치]**  - 슬라이더를 드래그하여 0에서 1까지의 허용치를 지정합니다.
 
-* **COLOR PROFILE OPTIONS**  - Adobe Dynamic Media Classic 다이내믹 게재에 사용되는 최적화된 파일을 만들 때 색상 변환을 선택합니다.
+* **색상 프로필 옵션**  - Dynamic Media Classic 다이내믹 게재에 사용되는 최적화된 파일을 만들 때 색상 변환을 선택합니다.
 
    * **[!UICONTROL 기본 색상 보존]**  - 이미지에 색상 공간 정보가 포함될 때마다 소스 이미지 색상을 유지합니다. 색상 변환이 없습니다. 거의 모든 이미지에는 현재 적절한 색상 프로필이 이미 포함되어 있습니다. 그러나 CMYK 소스 이미지에 포함된 색상 프로필이 없는 경우, 색상이 sRGB(표준 빨강 녹색 파랑) 색상 공간으로 변환됩니다. sRGB는 웹 페이지에 이미지를 표시할 때 권장되는 색상 공간입니다.
    * **[!UICONTROL 원래 색상 공간 유지]**  - Adobe Dynamic Media Classic으로 수집하면 색상을 변환하지 않고 원래 색상을 유지합니다. 포함된 색상 프로필이 없는 이미지의 경우, 이미지 요청을 처리하는 데 필요한 색상 변환은 게시 설정에 구성된 기본 색상 프로필을 사용하여 수행됩니다. 이러한 색상 프로필이 항상 이 옵션으로 만든 파일의 색상과 일치하지 않습니다. 따라서 [기본 색상 유지] 옵션을 사용하는 것이 좋습니다.
@@ -254,7 +254,7 @@ Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 사용하면 끌
 * **PostScript® 옵션**  - PostScript® 파일을 래스터화하고, 파일을 자르며, 투명한 배경을 유지하고, 해상도를 선택하고, 색상 공간을 선택할 수 있습니다.
 [PostScript 및 Illustrator 파일 작업](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)을 참조하십시오.
 
-* **Photoshop 옵션**  - Adobe® Photoshop® 파일에서 템플릿을 만들고, 레이어를 유지 관리하고, 레이어 이름을 지정하는 방법을 지정하고, 텍스트를 추출하고, 이미지가 템플릿에 고정된 방법을 지정할 수 있습니다.
+* **Photoshop 옵션**  - Adobe® Photoshop® 파일에서 템플릿을 만들고, 레이어를 유지 관리하고, 레이어의 이름을 지정하는 방법을 지정하고, 텍스트를 추출하고, 이미지가 템플릿에 고정된 방법을 지정할 수 있습니다.
 [PSD 업로드 선택 사항](psd-files.md#psd_upload_options)을 참조하십시오.
 
 * **PDF 옵션**  - 파일을 래스터화하고, 검색어와 링크를 추출하고, eCatalog를 자동으로 생성하고, 해상도를 설정하고, 색상 공간을 선택할 수 있습니다.

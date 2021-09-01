@@ -1,6 +1,6 @@
 ---
 title: Adobe 교육 서비스
-description: Adobe 교육 서비스에 대해 자세히 알아보십시오.
+description: Adobe Dynamic Media Classic용 Adobe 교육 서비스에 대해 자세히 알아보십시오.
 uuid: c405f60c-d0a8-4c88-8530-b093875500cd
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 2bccf91d-ec27-4cdf-a322-55804b6ba0d3
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: e2840200-246e-4c68-b10f-a66461f2a118
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 48%
+source-wordcount: '167'
+ht-degree: 42%
 
 ---
 
@@ -33,7 +33,7 @@ Dynamic Media Classic 뷰어 기능 Adobe 데모를 시청하십시오.
 
 [데모](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)를 참조하십시오.
 
-## 도움말의 시작하기 장
+## 도움말 시작 장
 
 도움말 시스템의 시작하기 섹션에는 Dynamic Media Classic을 처음 사용하는 사용자를 위한 지침이 나와 있습니다. 프로그램, 탐색, 설정, 자산 관리 및 리치 미디어 빌드의 기본 사항을 설명합니다.
 
