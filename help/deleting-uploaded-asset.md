@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '96'
-ht-degree: 87%
+source-wordcount: '114'
+ht-degree: 73%
 
 ---
 
@@ -49,6 +49,10 @@ URL 쿼리 문자열에 다음 필드를 사용하여 자산을 삭제할 수 �
 | `op` | 필수 | 삭제 |
 | `shared_secret` | 필수 | 회사의 공유 보안 키입니다. |
 | <ul><li>이미지의 경우image_name</li><li>벡터의 경우fxg_name</li></ul> | 필수 | 삭제할 자산 이름입니다. |
+
+>[!IMPORTANT]
+>
+>Adobe Dynamic Media Classic의 새 UGC 벡터 이미지 자산에 대한 지원은 2021년 9월 30일에 종료됩니다.
 
 **샘플 이미지 URL:**
 

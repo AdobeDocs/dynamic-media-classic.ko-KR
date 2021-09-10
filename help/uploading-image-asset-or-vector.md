@@ -7,16 +7,20 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 71%
+source-wordcount: '1540'
+ht-degree: 69%
 
 ---
 
 # 이미지 자산 또는 벡터 자산 업로드{#uploading-an-image-asset-or-a-vector-asset}
 
 이미지 자산을 업로드하려면 먼저 공유 비밀 키를 요청합니다. 이 공유 보안 키를 사용하여 업로드 토큰을 검색합니다. 그런 다음 업로드 토큰을 사용하여 이미지 자산 또는 벡터 자산을 업로드합니다.
+
+>[!IMPORTANT]
+>
+>Adobe Dynamic Media Classic의 새 UGC 벡터 이미지 자산에 대한 지원은 2021년 9월 30일에 종료됩니다.
 
 ## 공유 암호 키 요청 {#requesting-a-shared-secret-key}
 
@@ -249,6 +253,10 @@ URL 쿼리 문자열에 다음 필드를 사용하여 자산에 대한 정보를
 GET 및 POST
 
 ## 벡터 자산 업로드 {#uploading-a-vector-asset}
+
+>[!IMPORTANT]
+>
+>Adobe Dynamic Media Classic의 새 UGC 벡터 이미지 자산에 대한 지원은 2021년 9월 30일에 종료됩니다.
 
 특정 시간 동안 유효한 업로드 토큰을 검색한 후 벡터 자산을 업로드할 수 있습니다. 다음 예와 같이 자산을 멀티파트/양식 게시로 업로드하고 나머지 값을 URL 쿼리 문자열로 보냅니다.
 
