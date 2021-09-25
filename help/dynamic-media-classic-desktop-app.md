@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 474fc6022557a1eee782a22cb40d39f2ad9aa01d
+source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1870'
 ht-degree: 1%
 
 ---
@@ -106,11 +106,11 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
    **[!UICONTROL Server]**&#x200B;을 사용하려면 프로덕션 환경에 대해 다음 매핑을 참조하십시오.
 
-   | 데스크탑 앱 서버 이름 | 브라우저 URL |
+   | 브라우저 URL | 데스크탑 앱 서버 이름 |
    | --- | --- |
-   | NA(북미) 생산 | `https://s7sps1.scene7.com/` |
-   | EMEA(유럽, 중동 및 아프리카) 프로덕션 | `https://s7sps3.scene7.com/` |
-   | APAC(아시아 태평양) 생산 | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | NA(북미) 생산 |
+   | https://s7sps3.scene7.com/ | EMEA(유럽, 중동 및 아프리카) 프로덕션 |
+   | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
 
 1. 로그인하면 친숙한 브라우저 사용자 인터페이스 환경을 알 수 있습니다. 데스크탑 앱에서 평소대로 Dynamic Media Classic Adobe 활동을 계속 수행할 수 있습니다.
 
@@ -123,7 +123,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
 macOS에서 및 *silent* 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하려면 다음을 수행하십시오.
 
-1. Adobe Dynamic Media Classic.app을 휴지통으로 이동하여 시스템에서 이전 Adobe Dynamic Media Classic 데스크탑 앱 버전을 제거합니다.
+1. 시스템에서 이전 Adobe Dynamic Media Classic 데스크탑 앱 버전을 제거합니다.
 
 1. macOS용 Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드합니다.
 
@@ -148,11 +148,11 @@ macOS에서 및 *silent* 최신 버전의 Adobe Dynamic Media Classic 데스크�
 
    **[!UICONTROL Server]**&#x200B;을 사용하려면 프로덕션 환경에 대해 다음 매핑을 참조하십시오.
 
-   | 데스크탑 앱 서버 이름 | 브라우저 URL |
+   | 브라우저 URL | 데스크탑 앱 서버 이름 |
    | --- | --- |
-   | NA(북미) 생산 | `https://s7sps1.scene7.com/` |
-   | EMEA(유럽, 중동 및 아프리카) 프로덕션 | `https://s7sps3.scene7.com/` |
-   | APAC(아시아 태평양) 생산 | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | NA(북미) 생산 |
+   | https://s7sps3.scene7.com/ | EMEA(유럽, 중동 및 아프리카) 프로덕션 |
+   | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
 
 ## Windows®에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 *silent* 설치합니다 {#install-silent-windows-dmc-app}
 
@@ -193,11 +193,12 @@ Windows®에 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 �
 
    **[!UICONTROL Server]**&#x200B;을 사용하려면 프로덕션 환경에 대해 다음 매핑을 참조하십시오.
 
-   | 데스크탑 앱 서버 이름 | 브라우저 URL |
+   | 브라우저 URL | 데스크탑 앱 서버 이름 |
    | --- | --- |
-   | NA(북미) 생산 | `https://s7sps1.scene7.com/` |
-   | EMEA(유럽, 중동 및 아프리카) 프로덕션 | `https://s7sps3.scene7.com/` |
-   | APAC(아시아 태평양) 생산 | `https://s7sps5.scene7.com/` |
+   | https://s7sps1.scene7.com/ | NA(북미) 생산 |
+   | https://s7sps3.scene7.com/ | EMEA(유럽, 중동 및 아프리카) 프로덕션 |
+   | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
+
 
 ## Adobe Dynamic Media Classic 데스크탑 앱 사용에 대한 비디오 둘러보기 {#dmc-app-video-walk-through}
 
