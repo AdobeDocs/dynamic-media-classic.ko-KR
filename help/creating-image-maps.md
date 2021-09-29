@@ -10,9 +10,9 @@ discoiquuid: 4eddf983-38cb-4f00-b3be-85c20bdd6f69
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '2422'
+source-wordcount: '2425'
 ht-degree: 50%
 
 ---
@@ -42,7 +42,7 @@ Adobe Dynamic Media Classic에서 이미지 맵을 만드는 기능 외에도, A
    * [그리드 보기] 또는 [목록 보기]에서 SpinSet을 사용하여 작업하는 경우 **[!UICONTROL 편집]**&#x200B;을 선택합니다. 또는 세부 사항 보기에서 연 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다. 이미지 자산을 선택한 다음 **[!UICONTROL 이미지 맵]**&#x200B;을 선택합니다.
    * eCatalog를 사용하여 작업하는 경우, 그리드 보기, 목록 보기, 세부 정보 보기에서 **[!UICONTROL 편집]**&#x200B;을 선택합니다. **[!UICONTROL 페이지 매핑]** 탭을 선택합니다.
 
-   ![](assets/ma_image_map.png)
+   ![이미지 맵 이미지](assets/ma_image_map.png)
 
 1. 사각형 또는 다각형(다변형) 이미지 맵을 그립니다.
 

@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: e3c2dcaa245e486ada62edd554db5a39d495483e
+source-git-commit: 4e42d90747af895d27c64fa3fb5830f73e3a0a95
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '1937'
 ht-degree: 1%
 
 ---
@@ -38,22 +38,34 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 >
 >Dynamic Media Classic Adobe 내의 업그레이드 알림이 *부* 릴리스에 대해 생성되지 않습니다. 부 릴리스의 수정 사항을 통해 혜택을 받는 고객은 업그레이드할 수 있습니다.
 
-## 부 릴리스의 수정 사항(20.21.2) {#minor-release}
+## 최신 릴리스(20.21.3)의 수정 사항 {#release-sept2021}
 
-* 서버 드롭다운20.21.1 비어 있는 것으로 알려진 제한 사항입니다.
+* 데스크탑 앱에서 일정 기간 동안 활동이 없으면 표시되는 자산에 대한 축소판이 손상되었습니다.
+* 일반적으로 설정 작업 후 데스크탑 앱의 응답이 중지됩니다.
+* **[!UICONTROL 테스트 이미지 제공]**&#x200B;에서 요청 난독화 및 잠금 모드가 자동으로 활성화됩니다.
+
+   [Secure Testing 서비스 테스트](/help/testing-assets-making-them-public.md#testing-the-secure-testing-service)를 참조하십시오.
+
+* Adobe Analytics을 사용하여 인증 메커니즘을 업데이트했습니다. 새로운 통합에 적합하거나 Dynamic Media Classic 데스크탑 앱 내에서 일부 Analytics 변수를 업데이트해야 하는 경우
+
+   업데이트된 단계는 [Adobe Analytics에 로그인](/help/log-analytics.md)을 참조하십시오.
+
+## 릴리스 20.21.2의 수정 사항 {#minor-release}
+
+* 20.21.1의 알려진 제한 사항: 로그인 화면의 **[!UICONTROL 서버]** 드롭다운 목록이 비어 있습니다.
 * **[!UICONTROL 업로드 작업 옵션]**&#x200B;에서 **[!UICONTROL Photoshop 옵션]** 아래의 레이어 이름 지정 기본값은 이제 **[!UICONTROL Photoshop 및 레이어 이름]**&#x200B;입니다. PSD 파일의 레이어가 별도의 이미지로 업로드됩니다.
    * PSD 파일의 레이어 이름 또는 레이어 번호 뒤에 이미지의 이름이 지정된 **[!UICONTROL 레이어 이름]**&#x200B;의 이전 기본값입니다. PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름인 경우 레이어 번호가 사용되었습니다.
    * 새 기본값인 **[!UICONTROL Photoshop 및 레이어 이름]**&#x200B;은 PSD 파일 뒤에 레이어 이름 또는 레이어 번호가 나오는 이미지 이름을 지정합니다. 레이어 번호는 PSD 파일의 레이어 이름이 Photoshop 기본 레이어 이름인 경우 사용됩니다.
    * 이제 Adobe Dynamic Media Classic의 레이어 이미지에 고유한 이름이 있으므로 기존 PSD 또는 템플릿에 대한 업데이트가 수행되지 않습니다(원본 PSD 파일의 공유 레이어 이름).
 * 자산의 축소판이 손상되었습니다.
 
-## 최신 버전의 수정 사항(20.21.1) {#latest-fixes-desktop-app}
+## 릴리스 20.21.1의 수정 사항 {#latest-fixes-desktop-app}
 
 * 시간 초과로 인해 다음 메시지가 발생하여 로그인 문제가 발생합니다. *이 사용자는 권한 없이 그룹 또는 그룹에 할당될 수 있습니다. 관리자에게 문의하십시오.*
 * 뷰어 사전 설정은 잘못된 각 암호 시도와 함께 복제됩니다.
 * 루트 폴더에 자산이 많아 데스크톱 응용 프로그램이 응답하지 않습니다. (Windows®에서 수정되었습니다.) macOS에서 원하는 대로 작업.)
 
-## 이전 버전의 수정 사항(20.20.2) {#previous-version-fixes-desktop-app}
+## 릴리스 20.20.2의 수정 사항 {#previous-version-fixes-desktop-app}
 
 * macOS 및 Windows®용 데스크탑 앱 사용자 인터페이스를 통해 업로드할 수 있는 파일 수에 제한이 없습니다.
 * 회사 간을 전환하기 위해 데스크탑 앱에서 로그아웃할 필요가 없습니다.
@@ -71,14 +83,14 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
 1. Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드합니다.
 
-   * 최신 버전(20.21.2)은 다음 위치에서 사용할 수 있습니다.
+   * 최신 버전(20.21.3)은 다음 위치에서 사용할 수 있습니다.
+
+      * [macOS(.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+      * [Windows® (.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+   * 이전 버전(20.21.2)은 다음 위치에서 사용할 수 있습니다.
 
       * [macOS(.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
       * [Windows® (.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
-   * 이전 버전(20.21.1)은 다음 위치에서 사용할 수 있습니다.
-
-      * [macOS(.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.dmg)
-      * [Windows® (.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.1/adobe-dynamic-media-classic-20.21.1.exe)
 
 
 <!--         * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
@@ -106,11 +118,11 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
    **[!UICONTROL Server]**&#x200B;을 사용하려면 프로덕션 환경에 대해 다음 매핑을 참조하십시오.
 
-   | 브라우저 URL | 데스크탑 앱 서버 이름 |
+   | 서버 | 브라우저 URL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA(북미) 생산 |
-   | https://s7sps3.scene7.com/ | EMEA(유럽, 중동 및 아프리카) 프로덕션 |
-   | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
+   | NA 프로덕션(북미) | https://s7sps1.scene7.com/ |
+   | EMEA 프로덕션(유럽, 중동 및 아프리카) | https://s7sps3.scene7.com/ |
+   | APAC 생산(아시아 태평양) | https://s7sps5.scene7.com/ |
 
 1. 로그인하면 친숙한 브라우저 사용자 인터페이스 환경을 알 수 있습니다. 데스크탑 앱에서 평소대로 Dynamic Media Classic Adobe 활동을 계속 수행할 수 있습니다.
 
@@ -127,11 +139,11 @@ macOS에서 및 *silent* 최신 버전의 Adobe Dynamic Media Classic 데스크�
 
 1. macOS용 Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드합니다.
 
-   * [macOS(.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
+   * [macOS(.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
 
 1. 다음 명령을 사용하여 다운로드한 디스크 이미지(.DMG)를 마운트 지점 위치에 마운트합니다.
 
-   `hdiutil attach adobe-dynamic-media-classic-20.21.2.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.21.3.dmg -mountpoint <mount_point_path>`
 
 1. 다음 명령을 사용하여 **[!UICONTROL Applications]**&#x200B;에 .APP 파일을 복사합니다.
 
@@ -148,11 +160,11 @@ macOS에서 및 *silent* 최신 버전의 Adobe Dynamic Media Classic 데스크�
 
    **[!UICONTROL Server]**&#x200B;을 사용하려면 프로덕션 환경에 대해 다음 매핑을 참조하십시오.
 
-   | 브라우저 URL | 데스크탑 앱 서버 이름 |
+   | 서버 | 브라우저 URL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA(북미) 생산 |
-   | https://s7sps3.scene7.com/ | EMEA(유럽, 중동 및 아프리카) 프로덕션 |
-   | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
+   | NA 프로덕션(북미) | https://s7sps1.scene7.com/ |
+   | EMEA 프로덕션(유럽, 중동 및 아프리카) | https://s7sps3.scene7.com/ |
+   | APAC 생산(아시아 태평양) | https://s7sps5.scene7.com/ |
 
 ## Windows®에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 *silent* 설치합니다 {#install-silent-windows-dmc-app}
 
@@ -169,19 +181,19 @@ Windows®에 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 �
 
 1. Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드합니다.
 
-   * [Windows® (.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe)
+   * [Windows® (.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 1. 다음 명령을 사용하여 레코드 모드로 설치 관리자를 실행합니다.
 
-   `adobe-dynamic-media-classic-20.21.2.exe /r /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /r /f1"C:\Setup.iss"`
 
 1. GUI 설치 프로그램 창에서 설치 위치와 같은 상호 작용/입력이 `Setup.iss` 파일에 기록되도록 설치하는 단계를 따릅니다.
 
-1. 생성된 `Setup.iss` 파일과 `adobe-dynamic-media-classic-20.21.2.exe` 파일을 다른 컴퓨터에 복사합니다.
+1. 생성된 `Setup.iss` 파일과 `adobe-dynamic-media-classic-20.21.3.exe` 파일을 다른 컴퓨터에 복사합니다.
 
 1. 자동 설치에 대해 다음 명령을 실행합니다.
 
-   `adobe-dynamic-media-classic-20.21.2.exe /s /f1"C:\Setup.iss"`
+   `adobe-dynamic-media-classic-20.21.3.exe /s /f1"C:\Setup.iss"`
 
    명령줄 매개 변수에 대한 자세한 내용은 [Setup.exe 및 Update.exe 명령줄 매개 변수에 있습니다.](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
 
@@ -193,12 +205,11 @@ Windows®에 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 �
 
    **[!UICONTROL Server]**&#x200B;을 사용하려면 프로덕션 환경에 대해 다음 매핑을 참조하십시오.
 
-   | 브라우저 URL | 데스크탑 앱 서버 이름 |
+   | 서버 | 브라우저 URL |
    | --- | --- |
-   | https://s7sps1.scene7.com/ | NA(북미) 생산 |
-   | https://s7sps3.scene7.com/ | EMEA(유럽, 중동 및 아프리카) 프로덕션 |
-   | https://s7sps5.scene7.com/ | APAC(아시아 태평양) 생산 |
-
+   | NA 프로덕션(북미) | https://s7sps1.scene7.com/ |
+   | EMEA 프로덕션(유럽, 중동 및 아프리카) | https://s7sps3.scene7.com/ |
+   | APAC 생산(아시아 태평양) | https://s7sps5.scene7.com/ |
 
 ## Adobe Dynamic Media Classic 데스크탑 앱 사용에 대한 비디오 둘러보기 {#dmc-app-video-walk-through}
 

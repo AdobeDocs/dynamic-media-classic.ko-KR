@@ -1,6 +1,6 @@
 ---
 title: 애플리케이션 설정
-description: Adobe Dynamic Media Classic의 응용 프로그램 영역을 설정하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic의 애플리케이션 영역을 설정하고 구성하는 방법을 알아봅니다. 애플리케이션 영역에서는 일반 설정을 입력하고, 이미지, 뷰어 및 비디오 인코딩 사전 설정을 만들고, 기본 뷰어와 메타데이터, 게시 설정 및 비디오 SEO 설정을 정의할 수 있습니다. 또한 이 영역을 사용하여 일괄처리 집합 사전 설정을 설정하여 2D 스핀 세트 생성을 자동화할 수도 있습니다.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 44045daa35052f01a26c67e0b2a0fb1405c53292
+source-git-commit: 0e2271924f49edd6ac424bb7cbd56af1e6afd817
 workflow-type: tm+mt
-source-wordcount: '10951'
-ht-degree: 44%
+source-wordcount: '11003'
+ht-degree: 43%
 
 ---
 
@@ -957,7 +957,7 @@ spin-03-12
 
 이 정보를 사용하여 배치 세트 유형 배합식을 다음과 같이 생성할 수 있습니다.
 
-![](assets/se_batch_set_recipe.png)
+![배치 집합 레서피 이미지](assets/se_batch_set_recipe.png)
 
 스핀 세트의 공유 자산 이름 부분에 대한 그룹이 일치 필드에 추가됩니다(강조 표시된 대로). 행과 열이 포함된 자산 이름의 변수 부분이 행 및 열 필드에 각각 추가됩니다.
 
