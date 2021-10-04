@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Adobe Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 28%
+source-wordcount: '775'
+ht-degree: 29%
 
 ---
 
@@ -164,7 +164,7 @@ ht-degree: 28%
    + [사용자가 생성한 컨텐츠 정보](about-ugc.md)
    + [업로드한 자산을 삭제합니다](deleting-uploaded-asset.md)
    + [디스크 사용 정보 가져오기](getting-disk-usage-information.md)
-   + [이미지 자산 또는 벡터 자산 업로드](uploading-image-asset-or-vector.md)
+   + [래스터 이미지 자산 업로드](uploading-image-asset-or-vector.md)
 + 마스터 파일 {#master-files}
    + [이미지 품질 최적화 우수 사례](best-practices-optimizing-quality-images.md)
    + [이미지 편집](editing-images.md)

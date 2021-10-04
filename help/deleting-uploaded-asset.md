@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 73%
+source-wordcount: '102'
+ht-degree: 71%
 
 ---
 
@@ -48,16 +48,18 @@ URL 쿼리 문자열에 다음 필드를 사용하여 자산을 삭제할 수 �
 | --- | --- | --- |
 | `op` | 필수 | 삭제 |
 | `shared_secret` | 필수 | 회사의 공유 보안 키입니다. |
-| <ul><li>이미지의 경우image_name</li><li>벡터의 경우fxg_name</li></ul> | 필수 | 삭제할 자산 이름입니다. |
+| `image_name` | 필수 | 삭제할 자산 이름입니다. |
+
+<!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
 >
->Adobe Dynamic Media Classic의 새 UGC 벡터 이미지 자산에 대한 지원은 2021년 9월 30일에 종료됩니다.
+>Adobe Dynamic Media Classic의 새 UGC 벡터 이미지 자산에 대한 지원은 2021년 9월 30일에 종료되었습니다.
 
 **샘플 이미지 URL:**
 
 `https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif`
 
-**샘플 벡터 URL:**
+<!-- **Sample vector URL:**
 
-`https://s7ugc1.scene7.com/ugc/vector?op=delete&shared_secret=2160a8fa-cec6-45ba-8d59- ca595f6d2b47& &fxg_name=8875744.fxg`
+`https://s7ugc1.scene7.com/ugc/vector?op=delete&shared_secret=2160a8fa-cec6-45ba-8d59- ca595f6d2b47& &fxg_name=8875744.fxg` -->

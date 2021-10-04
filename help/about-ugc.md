@@ -9,10 +9,10 @@ discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 47%
+source-wordcount: '139'
+ht-degree: 48%
 
 ---
 
@@ -20,14 +20,12 @@ ht-degree: 47%
 
 UGC(사용자 생성 컨텐츠)를 사용하는 것은 전용 Adobe Dynamic Media Classic 저장소 리포지토리에 자산을 업로드하고 관련 작업을 수행하는 것으로 구성됩니다.
 
-UGC는 다음과 같은 파일 형식을 지원합니다.
-
-* 래스터: JPG, PNG, TIFF
-* 벡터: AI, EPS(Adobe Illustrator 2018의 EPS 파일은 지원되지 않음), PDF(PDF 파일을 이전에 Adobe Illustrator CS6에서 열어 저장한 경우에만)
+UGC는 BMP, GIF, JPG, PNG, PSD, TIFF 등의 래스터 이미지 파일 형식을 지원합니다.
+<!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
 >[!IMPORTANT]
 >
->Adobe Dynamic Media Classic의 새 UGC 벡터 이미지 자산에 대한 지원은 2021년 9월 30일에 종료됩니다.
+>Adobe Dynamic Media Classic의 새 UGC 벡터 이미지 자산에 대한 지원은 2021년 9월 30일에 종료되었습니다.
 
 자산을 업로드하기 전에 공유 비밀 키를 받습니다. 이 키를 사용하여 업로드 토큰을 검색합니다. 자산을 업로드하고 다른 UGC 작업을 수행할 때 업로드 토큰을 전송합니다.
 

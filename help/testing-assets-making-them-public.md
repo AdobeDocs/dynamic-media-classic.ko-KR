@@ -10,9 +10,9 @@ discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
-source-git-commit: 30f1aa8c30c0a1f7cf0f4298530e1e80597d7c3e
+source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1066'
 ht-degree: 31%
 
 ---
@@ -73,14 +73,14 @@ Last Modified Date:
 
 다음 자산 유형 및 기능은 현재 지원되지 않습니다.
 
-* RTMP 비디오 스트리밍
-* UGC(사용자 생성 컨텐츠) 서비스
-* W2P(Web to Print)
 * Dynamic Media Classic 정보 또는 eCatalog 검색 Adobe
+* RTMP 비디오 스트리밍
+* W2P(Web to Print)
+* UGC(사용자 생성 컨텐츠) 서비스
 
 >[!IMPORTANT]
 >
->Adobe Dynamic Media Classic의 새 UGC 벡터 이미지 자산에 대한 지원은 2021년 9월 30일에 종료됩니다.
+>Adobe Dynamic Media Classic의 새 UGC 벡터 이미지 자산에 대한 지원은 2021년 9월 30일에 종료되었습니다.
 
 ## Secure Testing 서비스 테스트 {#testing-the-secure-testing-service}
 
