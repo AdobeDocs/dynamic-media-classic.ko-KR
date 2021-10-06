@@ -1,20 +1,20 @@
 ---
 title: Adobe Dynamic Media Classic 도움말
-description: 모든 장치 및 화면에 다이내믹한 풍부한 콘텐츠를 업로드, 관리, 개선 및 게시할 수 있는 최고의 온디맨드 미디어 간 게시 시스템인 Adobe Adobe Dynamic Media Classic을 시작합니다.
+description: 모든 장치 및 화면에 다이내믹한 풍부한 콘텐츠를 업로드, 관리, 개선 및 게시할 수 있는 최고의 온디맨드 미디어 간 게시 시스템인 Adobe Dynamic Media Classic을 시작합니다.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7bf94d8c-23ff-4a43-83cc-7e6879a7cded
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 2616c067215196e8145043ba57fba1e3a5667cdc
 workflow-type: tm+mt
-source-wordcount: '445'
+source-wordcount: '443'
 ht-degree: 13%
 
 ---
 
 # Adobe Dynamic Media Classic 도움말 {#scene7-overview}
 
-모든 장치 및 화면에 다이내믹한 풍부한 콘텐츠를 업로드, 관리, 개선 및 게시할 수 있는 최고의 온디맨드 미디어 간 게시 시스템인 Adobe Adobe Dynamic Media Classic을 시작합니다. Adobe Dynamic Media Classic 솔루션에는 다음이 포함됩니다.
+모든 장치 및 화면에 다이내믹한 풍부한 콘텐츠를 업로드, 관리, 개선 및 게시할 수 있는 최고의 온디맨드 미디어 간 게시 시스템인 Adobe Dynamic Media Classic을 시작합니다. Adobe Dynamic Media Classic 솔루션에는 다음이 포함됩니다.
 
 * Dynamic Imaging: 실시간 편집, 서식 및 크기 조정, 대화형 확대/축소 및 패닝; 색상 시청 및 텍스쳐 시청 360° 회전; 이미지 템플릿; 멀티미디어 뷰어.
 * eCatalog: 작성자, 핫스팟 링크, 검색 활성화, 게시 및 구성 가능한 뷰어로 동적으로 제공되는 온라인 카탈로그를 제공합니다.
