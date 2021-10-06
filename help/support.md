@@ -1,6 +1,6 @@
 ---
 title: 지원
-description: Adobe Dynamic Media Classic에 대한 기술 지원 옵션에 대해 알아봅니다.
+description: Adobe Dynamic Media Classic의 기술 지원 옵션에 대해 알아봅니다.
 contentOwner: admin
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: 523d6e82a5410d8b1ae1a69b4ea2c0a0a4793fc7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 24%
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 # 지원 {#support}
 
-기술 지원은 규모에 관계없이 모든 회사의 요구를 충족할 수 있도록 제공됩니다. 다음 표에서는 Dynamic Media Classic 고객 지원 서비스 Adobe에 대해 설명합니다.
+기술 지원은 규모에 관계없이 모든 회사의 요구를 충족할 수 있도록 제공됩니다. 다음 표에서는 Adobe Dynamic Media Classic 고객 지원 서비스에 대해 설명합니다.
 
 | 지원 | 가입 |
 | --- | --- |
@@ -36,7 +36,7 @@ ht-degree: 24%
 
 * Adobe Dynamic Media Classic 회사 이름.
 * 이름, 전화 번호 및 이메일 주소.
-* Adobe Dynamic Media Classic 애플리케이션, 플랫폼 및 버전.
+* Adobe Dynamic Media Classic 애플리케이션, 플랫폼 및 버전입니다.
 * 문제 설명 및 문제를 재현하는 데 필요한 단계.
 * 오류 메시지(있는 경우)
 * 해당되는 경우 브라우저 유형 및 버전입니다.

@@ -10,10 +10,10 @@ discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
-source-git-commit: 3185824deca4d4b3c5549bda2e47f179094110e7
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 34%
+source-wordcount: '883'
+ht-degree: 29%
 
 ---
 
@@ -47,21 +47,25 @@ ht-degree: 34%
 
 사용자는 비디오 뷰어에서 비디오를 봅니다. 비디오 뷰어의 동작 및 표시 모양과 재생 컨트롤 작동 방식은 비디오 재생을 위해 선택한 뷰어 사전 설정에 따라 달라집니다. [미리 보기] 화면에서 뷰어 사전 설정을 선택합니다. 사전 설정을 선택하면 선택한 뷰어 사전 설정으로 비디오를 재생하기 위한 URL 또는 포함 코드를 얻을 수 있습니다.
 
-Adobe Dynamic Media Classic에는 비디오 재생을 위한 사전 정의된 뷰어 사전 설정이 포함되어 있으며, 관리자의 경우 사용자 지정 뷰어 사전 설정을 만들 수 있습니다. 비디오 뷰어를 구성하기 위한 수십 개의 설정이 있습니다. 크기, 색상, 비디오 및 오디오 컨트롤, 진행률 표시줄, 사용자 인터페이스 스킨 및 소셜 기능을 구성할 수 있습니다.
+Adobe Dynamic Media Classic에는 비디오 재생을 위한 사전 정의된 뷰어 사전 설정이 많이 포함되어 있으며, 관리자의 경우 사용자 지정 뷰어 사전 설정을 만들 수 있습니다. 비디오 뷰어를 구성하기 위한 수십 개의 설정이 있습니다. 크기, 색상, 비디오 및 오디오 컨트롤, 진행률 표시줄, 사용자 인터페이스 스킨 및 소셜 기능을 구성할 수 있습니다.
 
-또한 비디오 뷰어](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)에서 비디오 미리 보기 를 참조하십시오.[
+비디오 뷰어](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)에서 비디오 미리 보기 를 참조하십시오.[
+
+[비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오도 참조하십시오.
 
 ### 비디오 뷰어 사전 설정 추가 또는 편집 {#adding-or-editing-a-video-viewer-preset}
 
-뷰어 사전 설정을 사용하여 다양한 뷰어 유형 및 사전 정의된 설정을 확인할 수 있습니다. 또한 사용자 지정된 고유한 뷰어 사전 설정을 추가 및 편집하거나 Adobe Dynamic Media Classic과 함께 제공되는 기존 뷰어 사전 설정을 편집할 수도 있습니다.
+뷰어 사전 설정을 사용하여 다양한 뷰어 유형 및 사전 정의된 설정을 확인할 수 있습니다. 사용자 지정된 고유한 뷰어 사전 설정을 추가 및 편집하거나 Adobe Dynamic Media Classic과 함께 제공되는 기존 뷰어 사전 설정을 편집할 수도 있습니다.
 
 [뷰어 사전 설정]에서 뷰어 사전 설정을 활성화, 필터링 및 정렬하고 미리 볼 수 있습니다.
 
 [뷰어 사전 설정](application-setup.md#viewer_presets)을 참조하십시오.
 
+[비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오도 참조하십시오.
+
 **비디오 뷰어 사전 설정을 추가 또는 편집하려면:**
 
-1. Dynamic Media Classic Adobe의 오른쪽 위 모서리 근처에 있는 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**&#x200B;으로 이동합니다.
+1. Adobe Dynamic Media Classic의 오른쪽 위 모서리 근처에 있는 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**&#x200B;으로 이동합니다.
 
    비디오 뷰어에 대한 사전 설정만 보려면 표 바로 위의 도구 모음에 있는 열려 있는 뷰어 드롭다운 목록에서 비디오 뷰어 를 선택합니다.
 

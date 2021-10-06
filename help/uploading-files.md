@@ -9,24 +9,24 @@ discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: 8bc49ae3704f0551c70d68a0ddd63725bdcc645c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3866'
-ht-degree: 34%
+source-wordcount: '3925'
+ht-degree: 33%
 
 ---
 
 # 파일 업로드{#uploading-files}
 
-자산 파일을 Adobe Dynamic Media Classic에 업로드하기 전에 자산 파일의 이름이 올바르게 지정되었는지, 폴더 구조가 원하는 방식으로 설정 및 구성되어 있는지 확인하십시오. Adobe Dynamic Media Classic에서 제공하는 FTP 사이트에서 또는 컴퓨터나 네트워크에서 직접 파일을 업로드할 수 있습니다. Adobe Dynamic Media Classic에서는 파일을 업로드할 때 파일을 최적화하는 옵션을 제공합니다. Dynamic Media Classic 데스크탑 응용 프로그램을 설치한 경우 바탕 화면에서 직접 끌어 파일과 폴더를 업로드할 수 있습니다. [[애플리케이션 일반 설정]](application-setup.md#general_settings)을 참조하십시오.
+자산 파일을 Adobe Dynamic Media Classic에 업로드하기 전에 자산 파일의 이름이 올바르게 지정되었는지, 폴더 구조가 원하는 방식으로 설정되고 구성되어 있는지 확인하십시오. Adobe Dynamic Media Classic에서 제공하는 FTP 사이트나 컴퓨터나 네트워크에서 직접 파일을 업로드할 수 있습니다. Adobe Dynamic Media Classic에서는 파일을 업로드할 때 파일을 최적화하는 옵션을 제공합니다. Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 설치한 경우 데스크톱에서 직접 파일과 폴더를 드래그하여 업로드할 수 있습니다. [[애플리케이션 일반 설정]](application-setup.md#general_settings)을 참조하십시오.
 
 ## 업로드할 자산 및 폴더 준비 {#preparing-your-assets-and-folders-for-uploading}
 
-자산을 Adobe Dynamic Media Classic에 업로드하기 전에 올바른 형식과 크기인지 확인하십시오. 자산 이름을 지정하려면 Dynamic Media Classic Adobe 규칙을 준수해야 합니다. 폴더 구성 및 파일 구조를 설정함으로써 간편하게 파일을 찾고 작업할 수 있습니다.
+Adobe Dynamic Media Classic에 자산을 업로드하기 전에 올바른 형식과 크기인지 확인하십시오. 또한 자산 이름을 지정하려면 Adobe Dynamic Media Classic 규칙을 준수해야 합니다. 폴더 구성 및 파일 구조를 설정함으로써 간편하게 파일을 찾고 작업할 수 있습니다.
 
 ### 지원되는 자산 파일 형식 {#supported-asset-file-formats}
 
-이 표에는 Dynamic Media Classic에서 지원하는 자산 파일 형식이 나열되어 있습니다. 지원되는 Camera Raw 파일에 대한 자세한 내용은 [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html)을 참조하십시오.
+이 표에는 Adobe Dynamic Media Classic에서 지원하는 자산 파일 형식이 나열되어 있습니다. 지원되는 Camera Raw 파일에 대한 자세한 내용은 [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html)을 참조하십시오.
 
 | 자산 파일 형식 | 설명 |
 | --- | --- |
@@ -62,16 +62,16 @@ TAR 및 ZIP 업로드 지원에는 파일 압축을 풀 때 선택하는 확인�
 * CMYK, RGB, 회색 음영 또는 비트맵 이외의 색상 공간이 있는 PSD 파일은 지원되지 않습니다. DuoTone, Lab 및 Indexed 색상 공백은 지원되지 않습니다.
 * 비트 깊이가 16보다 큰 PSD 파일.
 * 부동 소수점 데이터가 있는 TIFF 파일입니다.
-* Lab 색상 공간이 있는 TIFF 파일입니다.
+* Lab 색상 공간이 있는 TIFF 파일
 
 ### 자산 유형 {#asset-types}
 
-Adobe Dynamic Media Classic 프로그램을 사용하여 최적의 결과를 얻으려면 권장 파일 형식 및 크기를 사용하십시오. 이 표에는 자산 유형 및 자주 사용하는 자산의 권장 형식과 파일 크기가 나열되어 있습니다.
+Adobe Dynamic Media Classic 프로그램을 사용하여 최적의 결과를 얻으려면 권장되는 파일 형식 및 크기를 사용하십시오. 이 표에는 자산 유형 및 자주 사용하는 자산의 권장 형식과 파일 크기가 나열되어 있습니다.
 
 | 자산 유형 | 설명/권장 사항 |
 | --- | --- |
 | 오디오 | 입력 오디오 자산 형식에는 AAC, HE-AAC, AC3, WAV, WMA, AIFF, MP3가 포함됩니다. 오디오를 MP3, AAC 및 HE-AAC로 트랜스코딩할 수 있습니다. |
-| 이미지(이미지 크기 조정, 확대/축소, 이미지 집합, 회전 집합) | 이미지는 가장 긴 크기의 2000픽셀 이상이어야 합니다. 일반적인 이미지 크기는 가장 긴 크기의 1500~2500픽셀 사이입니다. TIFF 및 PNG 파일을 비롯한 손실 없는 이미지 형식이 권장됩니다. JPEG 이미지를 사용하는 경우에는 최고 품질 설정을 사용합니다. 애니메이션 GIF 파일은 다른 정적 컨텐츠와 마찬가지로 처리됩니다. |
+| 이미지(이미지 크기 조정, 확대/축소, 이미지 집합, 회전 집합) | 이미지는 가장 긴 크기의 2000픽셀 이상이어야 합니다. 일반적인 이미지 크기는 가장 긴 크기의 1500~2500픽셀 사이입니다. TIFF 및 PNG 파일을 비롯한 손실 없는 이미지 형식이 권장됩니다. JPEG 이미지를 사용하는 경우에는 최고 품질 설정을 사용합니다. 애니메이션 GIF 파일은 다른 정적 콘텐츠와 마찬가지로 처리됩니다. |
 | eCatalog | Adobe® Acrobat® 또는 Creative Suite 애플리케이션에서 만들고 &quot;인쇄용&quot;으로 저장한 고해상도 PDF 파일을 사용합니다. PDF에는 필요한 모든 글꼴, 이미지, 마스크 및 참조된 그래픽 요소가 단일 페이지, 양면 스프레드 또는 다중 페이지 형식으로 포함되어 있습니다. 파일 이름을 영숫자 순으로 지정하여 페이지를 정렬합니다. 업로드하기 쉽도록 eCatalog에 대한 모든 PDF를 단일 폴더에 배치합니다. 업로드 시 자르기 선택 사항을 선택하여 절단선, 등록 타겟 또는 색상 막대를 비롯한 트림 영역을 PDF에서 제거할 수 있습니다. 대부분의 인쇄용 PDF 파일은 CMYK 색상 공간에 있으므로 PDF 파일에 사용된 CMYK ICC 색상 프로필을 가져오는 것이 중요합니다. |
 | 템플릿 | 텍스트, 이미지 및 레이어를 포함할 수 있는 계층화된 이미지 또는 레이아웃 디자인입니다. 변수 데이터를 사용자 지정할 수 있도록 이미지 레이어, 텍스트 문자열, 특성(예: 색상 및 크기)을 매개 변수화할 수 있습니다. 템플릿에 사용하기 위한 이미지 요구 사항은 다른 이미지와 같습니다. Photoshop 또는 다른 이미지 편집 프로그램에서 그래픽을 준비합니다. 각 그래픽을 TIFF 또는 PNG 형식의 평면화된 투명 파일로 저장합니다. 이미지 해상도가 필요한 용도에 적합한지 확인합니다. 인쇄용 이미지는 300ppi입니다. |
 | 비디오 | Adobe Dynamic Media Classic은 OGV 및 MP4 형식으로 저장된 비디오 파일을 지원합니다. 업로드 시 파일을 MP4 형식으로 트랜스코딩할 수 있습니다. [지원되는 자산 파일 형식](#supported-static-file-formats)을 참조하십시오. |
@@ -89,11 +89,11 @@ Adobe Dynamic Media Classic 프로그램을 사용하여 최적의 결과를 얻
 
 >[!NOTE]
 >
->이미지 파일과 PDF를 Dynamic Media Classic으로 업로드하면 시스템에서 이러한 소스 파일을 P-TIFF(Pyramid TIFF) 파일로 변환합니다. 이러한 P-TIFF는 나중에 Dynamic Media 이미지 서버에 게시되는 파일입니다. Adobe Dynamic Media Classic에서는 Adobe Dynamic Media Classic 확대/축소 뷰어로 볼 때 빠른 확대/축소를 허용하는 다양한 확대/축소 비율이 포함되어 있으므로 Pyramid Tiff 파일 형식을 사용합니다.
+>이미지 파일 및 PDF을 Adobe Dynamic Media Classic에 업로드하면 시스템은 이러한 소스 파일을 P-TIFF(피라미드 TIFF) 파일로 변환합니다. 이러한 P-TIFF은 나중에 Dynamic Media 이미지 서버에 게시된 파일입니다. Adobe Dynamic Media Classic에서는 Adobe Dynamic Media Classic Zoom Viewer로 볼 때 빠르게 확대/축소할 수 있는 다양한 확대/축소 비율이 포함되어 있으므로 Pyramid Tiff 파일 형식을 사용합니다.
 
 ### 지원되는 정적 파일 형식 {#supported-static-file-formats}
 
-Adobe Dynamic Media Classic은 여러 개의 정적 파일 형식을 지원합니다. 정적 컨텐츠는 CSS, PDF, SVG 및 XML과 같이 &quot;있는 그대로&quot; 게시된 모든 자산입니다.
+Adobe Dynamic Media Classic은 여러 정적 파일 형식을 지원합니다. 정적 콘텐츠는 CSS, PDF, SVG 및 XML과 같이 &quot;있는 그대로&quot; 게시된 모든 자산입니다.
 
 다음과 같은 파일 유형을 게시할 수 있습니다.
 
@@ -102,7 +102,7 @@ Adobe Dynamic Media Classic은 여러 개의 정적 파일 형식을 지원합�
 * CSS
 * JavaScript(회사가 고유한 도메인으로 구성된 경우)
 * 마스터 비디오
-* PDF(기존 eCatalog/PDF 워크플로우에 대한 모든 PDF를 배달하지 않도록 업로드 후 게시하도록 PDF가 표시된 경우)
+* PDF(PDF이 업로드 후 게시되도록 표시된 경우, 기존 eCatalog/PDF 워크플로우에 대한 모든 PDF이 전달되지 않음)
 * PrX 비디오
 * SVG
 * XML
@@ -118,7 +118,7 @@ Adobe Dynamic Media Classic에서는 정적 콘텐츠의 미리 보기 URL을 �
 
 * 시스템에서 이름과 정확하게 일치하는 자산 ID는 허용되지 않습니다.
 * 자산 ID 이름은 대/소문자를 구분합니다.
-* 우수 사례로, 자산 ID에 공백이 포함되지 않도록 합니다(예: black jacket.tif 및 blue jacket.jpg). Adobe Dynamic Media Classic ASCII는 자산 이름을 사용하여 URL 문자열을 구성할 때 자산 이름에 빈 공백을 인코딩합니다. 이러한 ASCII 코드는 읽기 어려우며 URL 읽기가 더 어려워질 수 있습니다.
+* 우수 사례로, 자산 ID에 공백이 포함되지 않도록 합니다(예: black jacket.tif 및 blue jacket.jpg). Adobe Dynamic Media Classic은 자산 이름을 사용하여 URL 문자열을 구성할 때 자산 이름에 빈 공백을 인코딩합니다. 이러한 ASCII 코드는 읽기 어려우며 URL 읽기가 더 어려워질 수 있습니다.
 * 언어 관련 문자는 파일 이름에 허용됩니다. 그러나 다음 문자는 파일 이름에 허용되지 않습니다.
 
    \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
@@ -136,10 +136,10 @@ Adobe Dynamic Media Classic에서는 정적 콘텐츠의 미리 보기 URL을 �
 
 컨텐츠를 시스템에 업로드하기 전에 Adobe Dynamic Media Classic에서 컨텐츠의 폴더 및 하위 폴더를 구성하고 구조화합니다. 이렇게 미리 계획하면 다음과 같은 두 가지 주요 장점이 있습니다.
 
-* FTP를 통해 Dynamic Media Classic에 컨텐츠를 업로드할 때 업로드 중에 폴더 구조를 복제하도록 시스템에 지시할 수 있습니다. 이렇게 하면 컨텐츠가 컴퓨터 또는 네트워크에 있는 것과 동일한 폴더 및 하위 폴더에 Adobe Dynamic Media Classic에 구성됩니다. (Dynamic Media Classic에서 폴더 구조를 복제하려면 FTP를 통해 자산을 업로드할 때 하위 폴더 포함 옵션을 선택합니다.)
+* FTP를 통해 Adobe Dynamic Media Classic에 컨텐츠를 업로드할 때 업로드 중에 폴더 구조를 복제하도록 시스템에 지시할 수 있습니다. 이렇게 하면 컴퓨터 또는 네트워크에 있는 것과 동일한 Adobe Dynamic Media Classic 폴더 및 하위 폴더에 컨텐츠가 구성됩니다. (Adobe Dynamic Media Classic에서 폴더 구조를 복제하려면 FTP를 통해 자산을 업로드할 때 하위 폴더 포함 옵션을 선택합니다.)
 * 파일을 업로드한 후 시스템 내에서 폴더를 다시 구성하는 것이 신중하게 고려된 폴더 구조로 시작하는 것보다 훨씬 더 어렵습니다.
 
-Dynamic Media Classic에서 컨텐츠를 저장하기 위해 선택하는 폴더 이름 지정 방법 및 구조는 조직의 요구 사항에 따라 다릅니다. 다음은 몇 가지 샘플 폴더 구조입니다.
+Adobe Dynamic Media Classic에 컨텐츠를 저장하기 위해 선택하는 폴더 이름 지정 방법 및 구조는 조직의 요구 사항에 따라 다릅니다. 다음은 몇 가지 샘플 폴더 구조입니다.
 
 **SKU 기반**  - 폴더는 SKU 또는 항목 번호에 따라 이름이 지정됩니다. 예를 들어 모든 0-, 20-, 30- 번호 시리즈에 대해 별도의 폴더가 만들어집니다.
 
@@ -153,19 +153,19 @@ Dynamic Media Classic에서 컨텐츠를 저장하기 위해 선택하는 폴더
 
 데스크톱에서 개별 파일을 업로드하거나 FTP를 통해 폴더를 업로드할 수 있습니다. 100MB가 넘는 파일을 업로드하거나 전체 폴더와 하위 폴더를 업로드하려면 **VIA FTP** 탭을 선택하십시오.
 
-Dynamic Media Classic Adobe에서 업로드 작업이 시작되고 종료되는 시점을 확인하고 문제가 발생하면 알리는 이메일 메시지를 보냅니다.
+Adobe Dynamic Media Classic은 업로드 작업이 시작되고 종료되는 시점을 확인하고 문제가 발생하면 알리는 이메일 메시지를 보냅니다.
 
-큰 업로드 작업 중(또는 바로 다음) 일부 새 항목에 &quot;이미지가 아직 최적화되지 않음&quot; 메시지가 표시될 수 있습니다. 이 메시지는 파일이 아직 완전히 처리되지 않고 Dynamic Media Classic에 추가되어 있기 때문에 나타납니다. 이러한 파일은 나중에 최적화할 수 있습니다. [파일 최적화](application-setup.md#optimize_files)를 참조하십시오.
+큰 업로드 작업 중(또는 바로 다음) 일부 새 항목에 &quot;이미지가 아직 최적화되지 않음&quot; 메시지가 표시될 수 있습니다. 이 메시지는 파일이 아직 완전히 처리되지 않고 Adobe Dynamic Media Classic에 추가되지 않았기 때문에 표시됩니다. 이러한 파일은 나중에 최적화할 수 있습니다. [파일 최적화](application-setup.md#optimize_files)를 참조하십시오.
 
 ### 데스크탑에서 탭을 사용하여 파일 업로드 {#upload-files-using-sps-desktop-application}
 
 Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 사용하면 끌어서 파일과 폴더를 업로드할 수 있습니다.
 
-1. Adobe Dynamic Media Classic 데스크탑 응용 프로그램의 전역 탐색 막대에서 **[!UICONTROL 업로드]**&#x200B;를 선택합니다.
+1. Adobe Dynamic Media Classic Desktop 응용 프로그램의 전역 탐색 막대에서 **[!UICONTROL 업로드]**&#x200B;를 선택합니다.
 1. 업로드 페이지에서 **[!UICONTROL Desktop]** 탭을 선택합니다.
 1. 업로드 페이지의 왼쪽에 있는 **[!UICONTROL 업로드]**&#x200B;파일선택 영역에서 **[!UICONTROL 찾아보기]**&#x200B;를 선택하여 업로드할 파일 또는 폴더를 선택한 다음 **[!UICONTROL 열기]**&#x200B;를 선택합니다.
 1. 업로드 페이지의 오른쪽의 **폴더 대상 선택** 영역에서 업로드된 파일 또는 폴더를 추가할 대상 폴더로 이동합니다.
-1. (선택 사항) 업로드 페이지 하단의 작업 이름 텍스트 필드에 업로드 작업의 새 이름을 입력합니다. 또는 Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용하면 됩니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다. [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
+1. (선택 사항) 업로드 페이지 하단의 작업 이름 텍스트 필드에 업로드 작업의 새 이름을 입력합니다. 또는 Adobe Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용하면 됩니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다. [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
 1. (선택 사항) 업로드한 자산을 자동으로 게시하려면 업로드 페이지 하단의 근처에 있는 **[!UICONTROL 업로드 후 게시]**를 선택합니다.
 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. [작업 옵션] 대화 상자에서도 동일한 옵션을 사용할 수 있습니다.
 1. (선택 사항) 업로드하는 파일을 동일한 이름으로 대체하도록 하려면 업로드 페이지 하단의 확장자&#x200B;]**에 관계없이 동일한 기본 자산 이름으로 모든 폴더에**[!UICONTROL 덮어쓰기 를 선택합니다. [작업 옵션] 대화 상자에서도 동일한 옵션을 사용할 수 있습니다.
@@ -176,16 +176,16 @@ Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 사용하면 끌
 
 1. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 업로드 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 업로드 제출]**을 선택합니다.
-업로드의 진행 상태를 보려면 전역 탐색 막대에서 **[!UICONTROL 작업]**&#x200B;을 선택하십시오. Dynamic Media Classic에서 계속 작업을 수행하고 언제든지 작업 페이지로 돌아가서 진행 중인 작업을 검토할 수 있습니다. 진행 중인 업로드 작업을 취소하려면 [기간] 옆에 있는 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
+업로드의 진행 상태를 보려면 전역 탐색 막대에서 **[!UICONTROL 작업]**&#x200B;을 선택하십시오. Adobe Dynamic Media Classic에서 계속 작업을 수행하고 언제든지 작업 페이지로 돌아가서 진행 중인 작업을 검토할 수 있습니다. 진행 중인 업로드 작업을 취소하려면 [기간] 옆에 있는 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
 ### FTP를 통해 탭을 사용하여 파일 업로드 {#upload-files-using-via-ftp}
 
 1. 특정 지역에 해당하는 Adobe Dynamic Media Classic FTP 사이트에 로그인합니다. 관리자로부터 받은 FTP 사용자 이름과 암호를 사용합니다.
-1. Dynamic Media Classic Adobe의 전역 탐색 막대에서 **[!UICONTROL 업로드]**&#x200B;를 선택합니다.
+1. Adobe Dynamic Media Classic의 전역 탐색 막대에서 **[!UICONTROL 업로드]**&#x200B;를 선택합니다.
 1. 업로드 페이지에서 **[!UICONTROL VIA FTP]** 탭을 선택합니다.
 1. 업로드 페이지 왼쪽의 **[!UICONTROL 업로드할 FTP 폴더 선택]** 영역에서 파일을 업로드할 FTP 폴더를 선택합니다.
-1. 업로드 페이지 오른쪽의 **[!UICONTROL Dynamic Media 폴더 대상 선택]** 영역에서 Adobe Dynamic Media Classic의 대상 폴더를 선택합니다.
-1. (선택 사항) 업로드 페이지 하단의 작업 이름 텍스트 필드에 업로드 작업의 새 이름을 입력합니다. 또는 Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용하면 됩니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다.
+1. 업로드 페이지의 오른쪽의 **[!UICONTROL Dynamic Media 폴더 대상 선택]** 영역에서 Adobe Dynamic Media Classic의 대상 폴더를 선택합니다.
+1. (선택 사항) 업로드 페이지 하단의 작업 이름 텍스트 필드에 업로드 작업의 새 이름을 입력합니다. 또는 Adobe Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용하면 됩니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다.
 [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
 1. (선택 사항) 업로드한 자산을 자동으로 게시하려면 업로드 페이지 하단의 근처에 있는 **[!UICONTROL 업로드 후 게시]**를 선택합니다.
 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. [작업 옵션] 대화 상자에서도 동일한 옵션을 사용할 수 있습니다.
@@ -199,7 +199,7 @@ Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 사용하면 끌
 1. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 업로드 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 업로드 제출]**&#x200B;을 선택합니다.
 
-   업로드의 진행 상태를 보려면 전역 탐색 막대에서 **[!UICONTROL 작업]**&#x200B;을 선택하십시오. 작업 페이지에 업로드 진행 상황이 표시됩니다. Dynamic Media Classic에서 계속 작업을 수행하고 언제든지 작업 페이지로 돌아가서 진행 중인 작업을 검토할 수 있습니다.
+   업로드의 진행 상태를 보려면 전역 탐색 막대에서 **[!UICONTROL 작업]**&#x200B;을 선택하십시오. 작업 페이지에 업로드 진행 상황이 표시됩니다. Adobe Dynamic Media Classic에서 계속 작업을 수행하고 언제든지 작업 페이지로 돌아가서 진행 중인 작업을 검토할 수 있습니다.
 
 진행 중인 업로드 작업을 취소하려면 [기간] 옆에 있는 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
@@ -242,7 +242,7 @@ Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 사용하면 끌
 투명도를 기반으로 트리밍: 픽셀이 투명한 경우에만 픽셀을 자르도록 0을 지정합니다. 1에 가까운 숫자는 더 투명할 수 있도록 해줍니다.
       * **[!UICONTROL 허용치]**  - 슬라이더를 드래그하여 0에서 1까지의 허용치를 지정합니다.
 
-* **색상 프로필 옵션**  - Dynamic Media Classic 다이내믹 게재에 사용되는 최적화된 파일을 만들 때 색상 변환을 선택합니다.
+* **색상 프로필 옵션**  - Adobe Dynamic Media Classic 동적 게재에 사용되는 최적화된 파일을 만들 때 색상 변환을 선택합니다.
 
    * **[!UICONTROL 기본 색상 보존]**  - 이미지에 색상 공간 정보가 포함될 때마다 소스 이미지 색상을 유지합니다. 색상 변환이 없습니다. 거의 모든 이미지에는 현재 적절한 색상 프로필이 이미 포함되어 있습니다. 그러나 CMYK 소스 이미지에 포함된 색상 프로필이 없는 경우, 색상이 sRGB(표준 빨강 녹색 파랑) 색상 공간으로 변환됩니다. sRGB는 웹 페이지에 이미지를 표시할 때 권장되는 색상 공간입니다.
    * **[!UICONTROL 원래 색상 공간 유지]**  - Adobe Dynamic Media Classic으로 수집하면 색상을 변환하지 않고 원래 색상을 유지합니다. 포함된 색상 프로필이 없는 이미지의 경우, 이미지 요청을 처리하는 데 필요한 색상 변환은 게시 설정에 구성된 기본 색상 프로필을 사용하여 수행됩니다. 이러한 색상 프로필이 항상 이 옵션으로 만든 파일의 색상과 일치하지 않습니다. 따라서 [기본 색상 유지] 옵션을 사용하는 것이 좋습니다.
@@ -266,7 +266,7 @@ Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 사용하면 끌
 * **EVIDEO 옵션**  - 비디오 사전 설정을 선택하여 비디오 파일을 트랜스코딩할 수 있습니다.
 [비디오 인코딩 사전 설정 작업](uploading-encoding-videos.md#working_with_video_encoding_presets)을 참조하십시오.
 
-* **추가 메타데이터**  - 업로드할 파일을 설명하는 키워드를 입력합니다. 키워드를 쉼표로 구분합니다. 키워드를 사용하면 자산을 쉽게 검색할 수 있습니다. [고급 검색 수행](searching-assets.md#conducting_an_advanced_search)을 참조하십시오.
+* **추가 메타데이터**  - 업로드할 파일을 설명하는 키워드를 입력합니다. 키워드를 쉼표로 구분합니다. 키워드를 사용하면 자산을 쉽게 검색할 수 있습니다. [고급 검색 수행](searching-assets.md#conducting_an_advanced_search)을 참조하십시오. [키워드 업로드](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) 교육 비디오도 참조하십시오.
 
 * **일괄처리 집합 사전 설정**  - 업로드한 파일에서 이미지 세트, 스핀 세트 또는 견본 세트를 만들려면  **** 사용할 사전 설정에 대한 활동 열을 선택합니다. 여러 개의 사전 설정을 선택할 수 있습니다. 애플리케이션 설정/배치 집합 사전 설정 페이지에서 사전 설정을 만듭니다.
 [배치 집합 사전 설정](application-setup.md#batch_set_presets)을 참조하십시오.

@@ -1,6 +1,6 @@
 ---
 title: '"빠른 시작: 템플릿 기본"'
-description: Adobe Dynamic Media Classic에서 빠르게 시작하고 실행하는 데 도움이 되는 템플릿 기본 사항 소개 및 빠른 시작
+description: Adobe Dynamic Media Classic에서 신속하게 시작하고 실행할 수 있는 템플릿 기본 사항 소개 및 빠른 시작
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: dd0fbb39-3f6a-496b-a9b6-63b11dcb823a
 feature: Dynamic Media Classic
 role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '789'
-ht-degree: 32%
+source-wordcount: '851'
+ht-degree: 28%
 
 ---
 
@@ -21,17 +21,19 @@ ht-degree: 32%
 
 템플릿 기본 사항은 Adobe Photoshop과 같은 이미지 편집 애플리케이션에서 계층화된 파일과 같은 계층화된 이미지 파일을 동적으로 만들고 대응 가능 합니다. 레이어가 포함된 정적 파일(예: PSD 파일)과 달리 템플릿에는 매개 변수가 포함될 수 있습니다. 매개 변수를 통해 이미지의 각기 다른 측면을 다루고 사용자 지정할 수 있습니다.
 
-한 템플릿에 이미지 레이어와 텍스트 레이어를 원하는 개수만큼 포함할 수 있습니다. 레이어 PSD 파일과 같은 레이어가 포함된 정적 파일을 템플릿으로 변환하고 Adobe Dynamic Media Classic에서 템플릿을 만들 수 있습니다. Adobe Dynamic Media Classic에 업로드한 글꼴을 사용하여 템플릿에 텍스트 레이어를 만들 수 있습니다. 템플릿에 텍스트를 추가한 후 정렬, 글꼴, 글꼴 크기 및 색상을 변경하여 텍스트 서식을 지정할 수 있습니다.
+한 템플릿에 이미지 레이어와 텍스트 레이어를 원하는 개수만큼 포함할 수 있습니다. 레이어가 포함된 정적 파일(예: 레이어 PSD 파일)을 템플릿으로 변환하고 Adobe Dynamic Media Classic에서 템플릿을 만들 수 있습니다. Adobe Dynamic Media Classic에 업로드한 글꼴을 사용하여 템플릿에 텍스트 레이어를 만들 수 있습니다. 템플릿에 텍스트를 추가한 후 정렬, 글꼴, 글꼴 크기 및 색상을 변경하여 텍스트 서식을 지정할 수 있습니다.
 
 [매개변수] 페이지에서는 템플릿의 모든 측면을 대응 가능 매개변수로 변환할 수 있습니다. 이 과정에서 템플릿에 사용할 계층화된 이미지나 사용할 텍스트 값을 변경할 수 있습니다. 매개 변수는 URL 문자열과 함께 전달되므로 임의 매개 변수를 변경하여 이미지 서버에서 생성된 응답 이미지를 동적으로 사용자 지정할 수 있습니다.
 
-이 빠른 시작은 템플릿 기본을 빨리 시작하고 실행하는 데 도움이 됩니다.
+[템플릿 기본 사항](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 교육 비디오도 참조하십시오.
+
+이 빠른 시작은 템플릿 기본 사항을 사용하여 신속하게 시작하고 실행할 수 있도록 설계되었습니다.
 
 ## 1. 파일을 업로드합니다
 
-먼저 템플릿에 사용할 PSD 파일이나 이미지 파일을 업로드합니다. Adobe Dynamic Media Classic에서는 PSD 외에도 많은 이미지 파일 형식을 지원하지만 투명도를 위해 무손실 TIFF 및 PNG 이미지를 템플릿에 사용하는 것이 좋습니다.
+먼저 템플릿에 사용할 PSD 파일이나 이미지 파일을 업로드합니다. Adobe Dynamic Media Classic은 PSD 외에도 많은 이미지 파일 형식을 지원하지만, 투명도를 허용하므로 템플릿에 무손실 TIFF 및 PNG 이미지를 사용하는 것이 좋습니다.
 
-PSD 파일을 사용하여 템플릿을 만드는 경우 PSD 파일을 업로드할 때 **[!UICONTROL 업로드 작업 옵션]** 대화 상자에서 **[!UICONTROL 템플릿 만들기]**&#x200B;를 선택합니다. 또한 **[!UICONTROL 레이어 이름 지정]** 옵션을 선택하면 Dynamic Media Classic에서 PSD 레이어의 이름을 Adobe Dynamic Media Classic에 업로드할 때 지정하는 방법을 알 수 있습니다.
+PSD 파일을 사용하여 템플릿을 작성하는 경우 PSD 파일을 업로드할 때 **[!UICONTROL 업로드 작업 옵션]** 대화 상자에서 **[!UICONTROL 템플릿 만들기]**&#x200B;를 선택합니다. 또한 **[!UICONTROL 레이어 이름 지정]** 옵션을 선택하면 Adobe Dynamic Media Classic에서 PSD 레이어를 Adobe Dynamic Media Classic에 업로드할 때 레이어 이름을 지정하는 방법을 알 수 있습니다.
 
 이미지 파일을 사용하는 경우에는 업로드할 때 이미지를 자르고 이미지의 클립 경로에서 표시를 만들 수도 있습니다.
 

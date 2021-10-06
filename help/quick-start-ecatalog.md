@@ -10,16 +10,23 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 42%
+source-wordcount: '1558'
+ht-degree: 39%
 
 ---
 
 # 빠른 시작: eCatalog{#quick-start-ecatalogs}
 
-eCatalog는 카탈로그, 브로셔, 전단, 제품 설명서 또는 광고 전단과 같은 인쇄물의 디지털 웹 버전입니다. eCatalog는 웹 사이트의 eCatalog 뷰어에 표시됩니다. 이 뷰어는 인쇄물을 읽는 경험을 시뮬레이션합니다. eCatalog에 대해 선택한 설정에 따라 뷰어에서 다음을 수행할 수 있습니다.
+eCatalog는 카탈로그, 브로셔, 전단, 제품 설명서 또는 광고 전단과 같은 인쇄물의 디지털 웹 버전입니다. eCatalog는 웹 사이트의 eCatalog 뷰어에 표시됩니다. 이 뷰어는 인쇄물을 읽는 경험을 시뮬레이션합니다.
+
+다음 교육 비디오를 참조하십시오.
+
+* [빠른 시작 1: eCatalog](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
+* [빠른 시작 2: eCatalog](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
+
+eCatalog에 대해 선택한 설정에 따라 뷰어에서 다음을 수행할 수 있습니다.
 
 * 카탈로그에서 키워드 또는 키워드를 검색합니다. 검색 결과는 카탈로그의 왼쪽에 있는 검색 패널에서 축소판 목록으로 표시됩니다. 각 클릭 가능한 축소판은 강조 표시된 검색어가 발견된 카탈로그 스프레드를 나타냅니다.
 
@@ -69,7 +76,7 @@ eCatalog 페이지의 **[!UICONTROL 주문 페이지]** 탭에서 레이아웃 �
 
 페이지를 추가하려면 자산 라이브러리에서 폴더를 선택하고 PDF 또는 이미지 파일을 [주문 페이지] 화면으로 드래그합니다. 기본 페이지 번호 대신 사용자 지정 페이지 이름을 제공하거나 많은 페이지 이름을 가져올 수 있습니다.
 
-**[!UICONTROL 저장]**&#x200B;을 선택하고 eCatalog의 이름을 입력하고 저장할 Dynamic Media Classic Adobe을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다. 페이지 순서를 변경하거나 eCatalog를 편집할 때마다 **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
+**[!UICONTROL 저장]**&#x200B;을 선택하고 eCatalog의 이름을 입력하고 저장할 Adobe Dynamic Media Classic 폴더를 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다. 페이지 순서를 변경하거나 eCatalog를 편집할 때마다 **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
 
 [eCatalog](creating-ecatalog.md) 만들기를 참조하십시오.
 
@@ -91,7 +98,7 @@ eCatalog](/help/info-panel-content-ecatalog.md)의 [정보 패널 콘텐츠 관�
 
 ## 4. eCatalog 뷰어 사전 설정 설정
 
-최종 사용자는 eCatalog 뷰어에서 eCatalog를 봅니다. 관리자는 eCatalog 뷰어를 구성할 수 있습니다. 윤곽 색상을 변경하고 새 &quot;스킨&quot;을 선택하여 eCatalog를 브랜딩할 수 있습니다. Adobe Dynamic Media Classic에는 몇 가지 &quot;우수 사례&quot; eCatalog 뷰어 사전 설정이 포함되어 있습니다. 이러한 사전 설정 중 하나를 선택하여 eCatalog를 표시할 수 있습니다. 관리자는 고유한 eCatalog 뷰어 사전 설정을 만들 수도 있습니다.
+최종 사용자는 eCatalog 뷰어에서 eCatalog를 봅니다. 관리자는 eCatalog 뷰어를 구성할 수 있습니다. 윤곽 색상을 변경하고 새 &quot;스킨&quot;을 선택하여 eCatalog를 브랜딩할 수 있습니다. Adobe Dynamic Media Classic에는 다음과 같은 몇 가지 &quot;우수 사례&quot; eCatalog 뷰어 사전 설정이 포함되어 있습니다. 이러한 사전 설정 중 하나를 선택하여 eCatalog를 표시할 수 있습니다. 관리자는 고유한 eCatalog 뷰어 사전 설정을 만들 수도 있습니다.
 
 eCatalog 뷰어 사전 설정을 만들려면 전역 탐색 막대에서 **[!UICONTROL 설정]**&#x200B;을 선택한 다음 **[!UICONTROL 뷰어 사전 설정]**&#x200B;을 선택합니다. **[!UICONTROL 추가]**&#x200B;를 선택하고 플랫폼을 선택한 다음 **[!UICONTROL eCatalog]** > **[!UICONTROL 뷰어]**&#x200B;를 선택합니다.
 
@@ -109,11 +116,11 @@ eCatalog 뷰어](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in
 
 ## 6. eCatalog 및 관련 PDF 게시
 
-eCatalog 및 관련 PDF를 게시하면 웹 사이트 및 애플리케이션에 전달될 수 있도록 Dynamic Media 이미지 서버에 배치합니다. 게시 프로세스의 일부로 Dynamic Media Classic에서 eCatalog에 대한 URL 문자열을 활성화합니다. 이 URL을 사용하여 Dynamic Media 이미지 서버의 eCatalog를 웹 사이트 또는 애플리케이션으로 호출합니다.
+eCatalog 및 관련 PDF을 게시하면 웹 사이트 및 애플리케이션에 전달될 수 있도록 Dynamic Media 이미지 서버에 배치합니다. 게시 프로세스의 일부로 Adobe Dynamic Media Classic에서 eCatalog에 대한 URL 문자열을 활성화합니다. 이 URL을 사용하여 Dynamic Media 이미지 서버의 eCatalog를 웹 사이트 또는 애플리케이션으로 호출합니다.
 
-eCatalog 및 PDF를 [찾아보기] 패널에서 게시용으로 표시한 후 전역 탐색 막대에서 [게시] 단추를 선택하여 게시를 시작합니다. 게시 화면에서 **[!UICONTROL 게시 제출]**&#x200B;을 선택합니다.
+[찾아보기] 패널에서 eCatalog 및 PDF을 게시용으로 표시한 후 전역 탐색 막대에서 [게시] 단추를 선택하여 게시를 시작합니다. 게시 화면에서 **[!UICONTROL 게시 제출]**&#x200B;을 선택합니다.
 
-[eCatalogs 및 관련 PDF 게시](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)를 참조하십시오.
+[eCatalog 및 관련 PDF 게시](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)를 참조하십시오.
 
 ## 7. 웹 페이지에 eCatalog 연결
 

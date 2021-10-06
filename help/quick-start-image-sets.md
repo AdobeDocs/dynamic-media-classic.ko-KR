@@ -1,6 +1,6 @@
 ---
 title: '"빠른 시작: 이미지 집합"'
-description: Adobe Dynamic Media Classic에서 이미지 세트 기술을 사용하여 신속하게 시작하고 실행할 수 있는 이미지 세트 소개 및 빠른 시작 .
+description: Adobe Dynamic Media Classic의 이미지 세트 기술을 사용하여 신속하게 시작하고 실행할 수 있는 이미지 세트 소개 및 빠른 시작 .
 uuid: daf17d13-9c06-41f0-8fc5-2e56d460d341
 contentOwner: admin
 content-type: reference
@@ -10,10 +10,10 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 25%
+source-wordcount: '626'
+ht-degree: 22%
 
 ---
 
@@ -23,13 +23,15 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 이미지 집합 뷰어에서는 이미지를 자세히 검사하기 위해 확대/축소 도구를 제공합니다. 필요한 경우 유도된 확대/축소 타겟과 이미지 맵을 이미지 집합에 포함할 수 있습니다. 이미지 집합은 보다 조화롭고 친근한 보기 환경을 제공합니다.
 
-이 이미지 세트 빠른 시작은 Adobe Dynamic Media Classic에서 이미지 세트 기술을 사용하여 빠르게 시작하고 실행하도록 설계되었습니다.
+[이미지 및 스핀 세트 를 참조하십시오. Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 교육 비디오.
+
+다음 이미지 세트 빠른 시작 은 Adobe Dynamic Media Classic의 이미지 세트 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
 
 ## 1. 여러 보기 및 견본에 대한 마스터 이미지를 업로드합니다
 
-먼저 이미지 집합에 사용할 이미지를 업로드합니다. 사용자가 이미지 세트 뷰어에서 이미지를 확대할 수 있으므로 이미지를 선택할 때 이 기능을 고려해야 합니다. 이미지의 크기가 가장 큰 2000픽셀 이상인지 확인하십시오. Adobe Dynamic Media Classic에서는 많은 이미지 파일 형식을 지원하지만, 무손실 TIFF, PNG 및 EPS 이미지가 권장됩니다.
+먼저 이미지 집합에 사용할 이미지를 업로드합니다. 사용자가 이미지 세트 뷰어에서 이미지를 확대할 수 있으므로 이미지를 선택할 때 이 기능을 고려해야 합니다. 이미지의 크기가 가장 큰 2000픽셀 이상인지 확인하십시오. Adobe Dynamic Media Classic에서는 많은 이미지 파일 형식을 지원하지만, 무손실 TIFF, PNG 및 EPS 이미지가 좋습니다.
 
-전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터의 파일을 Adobe Dynamic Media Classic의 폴더로 업로드합니다.
+전역 탐색 막대에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터의 파일을 Adobe Dynamic Media Classic의 폴더로 업로드합니다.
 
 [업로드](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) 및 [파일 업로드](uploading-files.md#uploading-your-files)를 참조하십시오.
 
@@ -59,7 +61,7 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 ## 5. 이미지 세트 게시
 
-이미지 세트를 게시하면 Adobe Dynamic Media Classic 서버에 해당 이미지 세트가 배치되고 URL 문자열이 활성화됩니다.
+이미지 세트를 게시하면 Adobe Dynamic Media Classic 서버에 배치하고 URL 문자열을 활성화합니다.
 
 >[!NOTE]
 >

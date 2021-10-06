@@ -1,6 +1,6 @@
 ---
 title: '"빠른 시작: 이미지 크기 조정"'
-description: Adobe Dynamic Media Classic에서 이미지 크기 조정 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 지원하기 위한 이미지 크기 조정 소개 및 빠른 시작 .
+description: Adobe Dynamic Media Classic의 이미지 크기 조정 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 해주는 이미지 크기 조정 소개 및 빠른 시작
 uuid: 6c4ad4b7-549d-4daa-b6b9-5997a8427af8
 contentOwner: admin
 content-type: reference
@@ -10,30 +10,32 @@ discoiquuid: dcaa9b21-b925-4dbb-865e-7918cdbda50c
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '858'
-ht-degree: 31%
+source-wordcount: '921'
+ht-degree: 29%
 
 ---
 
 # 빠른 시작: 이미지 크기 조정{#quick-start-image-sizing}
 
-이미지 크기 조절은 하나의 고해상도 이미지를 기반으로 여러 파생 이미지를 만들 수 있도록 Dynamic Media Classic을 Adobe 하는 기능을 의미합니다. 웹 사이트나 애플리케이션에 대해 축소판이나 확대된 뷰 이미지와 같은 여러 이미지를 수동으로 생성하는 대신 단일 마스터 이미지를 제공합니다. Adobe Dynamic Media Classic은 수정된 모든 이미지를 요청하는 대로 생성합니다. 단일 마스터 이미지에서 동적으로 이미지를 제공할 수 있는 경우 다음과 같은 많은 장점이 있습니다.
+이미지 크기 조절은 Adobe Dynamic Media Classic에서 단일 고해상도 이미지를 기반으로 여러 파생 이미지를 만들 수 있는 기능을 의미합니다. 웹 사이트나 애플리케이션에 대해 축소판이나 확대된 뷰 이미지와 같은 여러 이미지를 수동으로 생성하는 대신 단일 마스터 이미지를 제공합니다. Adobe Dynamic Media Classic은 사용자가 요청하는 대로 수정된 모든 이미지를 생성합니다. 단일 마스터 이미지에서 동적으로 이미지를 제공할 수 있는 경우 다음과 같은 많은 장점이 있습니다.
 
-* 각기 다른 크기로 여러 이미지를 수동으로 만들지 않아도 됩니다. 하나의 마스터 이미지를 Adobe Dynamic Media Classic에 제공하고 Adobe Dynamic Media Classic은 마스터 이미지에서 다른 크기의 파생물을 생성합니다.
+* 각기 다른 크기로 여러 이미지를 수동으로 만들지 않아도 됩니다. 하나의 마스터 이미지를 Adobe Dynamic Media Classic에 제공하면 Adobe Dynamic Media Classic은 마스터 이미지에서 서로 다른 크기의 파생물을 생성합니다.
 * 웹 사이트나 애플리케이션 전체에서 이미지 유형의 크기를 신속하게 변경할 수 있습니다. 예를 들어 모든 썸네일 이미지를 변경하려면 &quot;썸네일&quot; 이미지 사전 설정을 수정할 수 있습니다. 매크로와 비슷한 이미지 사전 설정은 크기 및 형식 지정 특성 모음입니다. &quot;썸네일&quot; 이미지 사전 설정을 수정하여 웹 사이트나 애플리케이션 전체에서 모든 썸네일 이미지의 크기를 변경할 수 있습니다.
 * 컨텐츠 또는 자산 관리 시스템 내부 또는 외부에서 마스터와 모든 다양한 파생물을 관리할 필요가 없습니다.
 
 ![동일한 고해상도 마스터 파일과 크기가 다른 여러 파생 이미지를 만들 수 있습니다.](/help/assets/is_derivative_sizes_popup.png)
 
-이 이미지 크기 조정 빠른 시작은 Adobe Dynamic Media Classic에서 이미지 크기 조정 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다. 1-5단계를 수행합니다. 각 단계 뒤에는 필요한 경우 자세한 정보를 확인할 수 있는 상호 참조가 있습니다.
+[이미지 크기 조정 을 참조하십시오. Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) 교육 비디오.
+
+다음 이미지 크기 조정 빠른 시작 은 Adobe Dynamic Media Classic에서 이미지 크기 조정 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다. 1-5단계를 수행합니다. 각 단계 뒤에는 필요한 경우 자세한 정보를 확인할 수 있는 상호 참조가 있습니다.
 
 ## 1. 마스터 이미지 업로드
 
-먼저 마스터 이미지를 Adobe Dynamic Media Classic에 업로드합니다. 크기와 관련하여 웹 사이트 또는 애플리케이션에서 사용할 것으로 예상되는 가장 큰 크기를 갖는 이미지를 사용하는 것이 좋습니다. 예를 들어 뷰어에서 이미지를 확대/축소하려면 가장 큰 크기의 2,000픽셀 이상의 이미지를 업로드합니다. Adobe Dynamic Media Classic에서는 많은 이미지 파일 형식을 지원하지만, 무손실 TIFF 및 PNG 이미지가 좋습니다.
+먼저 마스터 이미지를 Adobe Dynamic Media Classic에 업로드합니다. 크기는 웹 사이트 또는 애플리케이션에서 사용할 것으로 예상되는 가장 큰 크기를 사용하는 것이 좋습니다. 예를 들어 뷰어에서 이미지를 확대/축소하려면 가장 큰 크기의 2,000픽셀 이상의 이미지를 업로드합니다. Adobe Dynamic Media Classic에서는 많은 이미지 파일 형식을 지원하지만, 무손실 TIFF 및 PNG 이미지가 좋습니다.
 
-전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터의 파일을 Adobe Dynamic Media Classic의 폴더로 업로드합니다. [마스터 이미지 업로드](uploading-master-images.md#uploading_master_images)를 참조하십시오.
+전역 탐색 막대에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터의 파일을 Adobe Dynamic Media Classic의 폴더로 업로드합니다. [마스터 이미지 업로드](uploading-master-images.md#uploading_master_images)를 참조하십시오.
 
 ## 2. 이미지 사전 설정 설정
 
@@ -58,7 +60,7 @@ ht-degree: 31%
 마스터 이미지 파일을 게시하는 두 가지 필수 목적은 다음과 같습니다.
 
 * 이미지를 웹 사이트 및 애플리케이션에 동적으로 전달할 수 있도록 마스터 이미지를 Dynamic Media 이미지 서버에 게시합니다.
-* 게시를 사용하면 Dynamic Media 이미지 서버에서 웹 사이트 또는 응용 프로그램으로 이미지를 호출하기 위한 URL 문자열이 활성화됩니다. 게시 후 웹 사이트 또는 애플리케이션에서 필요한 경우 Dynamic Media Classic 생성 URL Adobe을 복사하여 배치할 수 있습니다.
+* 게시를 사용하면 Dynamic Media 이미지 서버에서 웹 사이트 또는 응용 프로그램으로 이미지를 호출하기 위한 URL 문자열이 활성화됩니다. 게시 후 웹 사이트 또는 애플리케이션에서 필요한 경우 Adobe Dynamic Media Classic 생성 URL을 복사하여 배치할 수 있습니다.
 
 전역 탐색 막대에서 **[!UICONTROL 게시]**&#x200B;를 선택하여 게시 작업을 시작합니다. 게시 대화 상자에서 **[!UICONTROL 게시 제출]**&#x200B;을 선택합니다. [마스터 이미지 게시](publishing-master-images.md#publishing_master_images)를 참조하십시오.
 

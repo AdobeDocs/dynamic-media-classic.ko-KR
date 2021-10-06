@@ -1,6 +1,6 @@
 ---
 title: '"빠른 시작: Media Portal"'
-description: Adobe Dynamic Media Classic에서 Media Portal 기법 및 관리를 빠르게 시작하고 실행할 수 있도록 지원하기 위한 Media Portal 소개 및 빠른 시작 .
+description: Adobe Dynamic Media Classic의 Media Portal 기법 및 관리를 사용하여 를 신속하게 시작하고 실행할 수 있는 Media Portal 소개 및 빠른 시작
 uuid: 0dbd6146-b392-4e03-955b-0b323b654b9f
 contentOwner: admin
 content-type: reference
@@ -10,20 +10,28 @@ discoiquuid: 1385a092-0b2c-4e05-ad1e-ce3685022300
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 68%
+source-wordcount: '872'
+ht-degree: 52%
 
 ---
 
 # 빠른 시작: Media Portal{#quick-start-media-portal}
 
-Media Portal을 사용하면 승인된 자산을 외부 파트너 및 채널 및 회사의 내부 사용자에게 쉽게 획득, 제어 및 배포할 수 있습니다. 이 브라우저 기반 &quot;셀프 서비스&quot; 환경은 Media Portal 사용자가 Adobe Dynamic Media Classic 자산에 대한 관리자 제어 &quot;보기&quot;를 통해 자산을 쉽게 액세스하고, 찾아보고, 검색하고, 미리 보고, 회사 승인 형식으로 내보낼 수 있도록 합니다.
+Media Portal을 사용하면 승인된 자산을 외부 파트너 및 채널 및 회사의 내부 사용자에게 쉽게 획득, 제어 및 배포할 수 있습니다. 이 브라우저 기반의 &quot;셀프 서비스&quot; 환경은 Media Portal 사용자가 Adobe Dynamic Media Classic 자산에 대한 관리자 제어 &quot;보기&quot;를 통해 기업이 승인한 형식으로 자산을 쉽게 액세스하고, 찾아보고, 검색하고, 미리 보고, 내보낼 수 있도록 합니다.
 
 관리자는 사용자가 Media Portal에서 자산을 보고 액세스하고 사용하는 방법을 제어합니다. 또한 웹 사이트 및 브랜드와 일치하도록 Media Portal 인터페이스를 사용자 지정할 수 있습니다. Media Portal 인터페이스에서 글꼴, 글꼴 색상, 글꼴 크기를 지정하고 로고와 같은 브랜딩 요소를 통합할 수 있습니다.
 
-이 빠른 시작은 Media Portal 관리를 빨리 시작하고 실행하는 데 도움이 됩니다. 각 단계가 끝날 때 주제 링크를 선택하여 자세히 알아보십시오.
+다음 교육 비디오를 참조하십시오.
+
+* [Media Portal 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
+
+* [미디어 포털 투어 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+
+* [미디어 포털 투어 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+
+다음 빠른 시작은 Media Portal 관리를 사용하여 를 빠르게 시작하고 실행할 수 있도록 설계되었습니다. 각 단계가 끝날 때 주제 링크를 선택하여 자세히 알아보십시오.
 
 ## 1. Media Portal 사용자 역할 이해
 

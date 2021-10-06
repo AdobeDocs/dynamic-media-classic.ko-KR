@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Adobe Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
-source-git-commit: f92109182283f3bf046604b1b6910180f858d73e
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '775'
-ht-degree: 29%
+source-wordcount: '776'
+ht-degree: 28%
 
 ---
 
@@ -18,18 +18,18 @@ ht-degree: 29%
 
 + [Adobe Dynamic Media Classic 안내서](home.md)
 + [Adobe Dynamic Media 클래스 우수 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
-+ [새로운 Adobe Dynamic Media Classic 로그인 환경을 이제 사용할 수 있습니다](new-ui-2020.md)
++ [이제 새로운 Adobe Dynamic Media Classic 로그인 환경을 사용할 수 있습니다](new-ui-2020.md)
 + [Experience League별 Dynamic Media 뉴스레터 아카이브 Adobe](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic {#intro} 소개
    + [Adobe Dynamic Media Classic 데스크탑 앱 - 지금 사용 가능](dynamic-media-classic-desktop-app.md)
    + [Adobe Dynamic Media Classic 도움말 정보](introduction.md)
    + [개발자 리소스](developer-resources.md)
    + [새로운 기능](whats-new.md)
-   + [Dynamic Media Classic 데스크탑 앱을 위한 시스템 요구 사항](system-requirements.md)
+   + [Adobe Dynamic Media Classic 데스크탑 앱에 대한 시스템 요구 사항](system-requirements.md)
    + [지원](support.md)
-   + [Dynamic Media Classic 미디어 포털 Adobe 도움말](help-dmc-media-portal.md)
+   + [Adobe Dynamic Media Classic Media Portal 도움말](help-dmc-media-portal.md)
    + [Adobe 교육 서비스](training-services.md)
-   + [널리 사용되는 리소스](popular-resources.md)
+   + [인기 있는 학습 리소스](popular-resources.md)
    + [교육 비디오](training-videos.md)
 + 시작하기 {#getting-started}
    + [Adobe Dynamic Media Classic 프로그램 개요](dmc-platform-overview.md)
@@ -45,7 +45,7 @@ ht-degree: 29%
    + [비디오 SEO(검색 엔진 최적화)](video-seo-search-engine-optimization.md)
    + [관리 설정](administration-setup.md)
 + Media Portal {#media-portal}
-   + [Adobe Dynamic Media Classic에서 Media Portal에 대한 시스템 요구 사항](system-requirements-media-portal.md)
+   + [Adobe Dynamic Media Classic의 Media Portal에 대한 시스템 요구 사항](system-requirements-media-portal.md)
    + [빠른 시작: Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal 사용자 역할](media-portal-user-roles.md)
    + [Media Portal 그룹 만들기 및 관리](creating-media-portal-groups.md)
@@ -157,7 +157,7 @@ ht-degree: 29%
    + [Adobe Analytics 구성 정보 게시](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premium 통합 {#target-classic}
    + [빠른 시작: Adobe Target Standard/Premium 통합](quick-start-target-integration.md)
-   + [Dynamic Media Classic과 Adobe Target Standard/Premium 통합](integrating-dmc-with-target.md)
+   + [Adobe Dynamic Media Classic과 Adobe Target Standard/Premium 통합](integrating-dmc-with-target.md)
    + [오퍼 세트 만들기](creating-offer-set.md)
    + [Adobe Target Standard/Premium으로 오퍼 세트 푸시](pushing-offer-sets-target.md)
 + 사용자 생성 컨텐츠 {#user-generated-content}
@@ -173,7 +173,7 @@ ht-degree: 29%
    + [이미지 선명하게 하기](sharpening-image.md)
    + [이미지 조정](adjusting-image.md)
    + [업로드 시 이미지 미세 조정 편집 옵션](image-editing-options-upload.md)
-   + [PDF를 사용한 작업](pdfs.md)
+   + [PDF 작업](pdfs.md)
    + [PSD 파일 작업](psd-files.md)
    + [PostScript 및 Illustrator 파일을 사용한 작업](postscript-illustrator-files.md)
    + [비네팅, 창 커버 및 캐비닛 파일을 사용하여 작업](vignette-window-covering-cabinet-files.md)

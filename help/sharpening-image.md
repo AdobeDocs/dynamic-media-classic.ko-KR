@@ -10,10 +10,10 @@ discoiquuid: 11cd5362-d90a-4c1e-bfbd-46a65a554409
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
-source-git-commit: e47c22508230adbb1ece323be0c1413a3f27ad89
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '2160'
-ht-degree: 43%
+source-wordcount: '2276'
+ht-degree: 41%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 43%
 
 [선명하게 하기]는 디지털 이미지의 윤곽을 더 뚜렷하게 하는 이미지 조작 기술입니다. 선명하게 하면 가장자리 픽셀 간의 대비가 증가하고 어두운 영역과 밝은 영역 간의 전환이 강조됩니다. 또한 로컬 대비가 증가하고 세부 사항이 두드러집니다. 올바르게 모든 이미지를 선명하게 하는 엄격한 공식은 없습니다. 선명하게 하기가 너무 적으면 소프트 이미지가 되고 과도하면 무리짐, 아티팩트 및 노이즈가 추가됩니다.
 
-Adobe Dynamic Media Classic에서는 모든 이미지에 이미지 사전 설정을 사용할 것을 권장합니다. 이렇게 하면 크기가 균일하고, 이미지 사전 설정으로 호출된 모든 이미지에 선명하게 하기가 적용됩니다. 또한 이미지 사전 설정의 선명도 쉽게 편집하고 변경할 수 있습니다. 다음에 게시할 때는 해당 사전 설정으로 호출된 모든 이미지에 새 값이 지정됩니다.
+Adobe Dynamic Media Classic에서는 모든 이미지에 이미지 사전 설정을 사용하는 것이 좋습니다. 이렇게 하면 크기가 균일하고, 이미지 사전 설정으로 호출된 모든 이미지에 선명하게 하기가 적용됩니다. 또한 이미지 사전 설정의 선명도 쉽게 편집하고 변경할 수 있습니다. 다음에 게시할 때는 해당 사전 설정으로 호출된 모든 이미지에 새 값이 지정됩니다.
 
 Adobe Dynamic Media Classic에서는 뷰어 사전 설정에 선명하게 하기를 추가한 다음 해당 사전 설정이 있는 뷰어를 호출하는 것이 좋습니다. 이렇게 하면 시청자 내의 이미지가 선명하고 호소력이 향상됩니다.
 
@@ -29,7 +29,7 @@ Adobe Dynamic Media Classic에서는 뷰어 사전 설정에 선명하게 하기
 
 >[!NOTE]
 >
->[선명하게] 명령은 선명하게 하기 효과를 비롯한 이미지 사전 설정을 무시합니다. 이미지 사전 설정은 Dynamic Media 이미지 서버에서 전달되는 이미지의 크기 및 형식을 제어합니다. Adobe Dynamic Media Classic에서는 이미지가 균일하고 선명하게 표시되도록 하기 위해 이미지 사전 설정 을 사용하여 모든 이미지를 전달하는 것이 좋습니다. 그러나 개별 이미지의 선명하게 하기 설정이 변경된 후에는 이미지 사전 설정의 선명하게 하기 설정이 더 이상 이미지에 적용되지 않습니다. 이미지가 이미지 사전 설정의 선명하게 하기 설정 없이 제공됩니다.
+>[선명하게] 명령은 선명하게 하기 효과를 비롯한 이미지 사전 설정을 무시합니다. 이미지 사전 설정은 Dynamic Media 이미지 서버에서 전달되는 이미지의 크기 및 형식을 제어합니다. Adobe Dynamic Media Classic에서는 이미지가 균일하고 선명하게 표시되도록 하기 위해 이미지 사전 설정 을 사용하여 모든 이미지를 전달할 것을 권장합니다. 그러나 개별 이미지의 선명하게 하기 설정이 변경된 후에는 이미지 사전 설정의 선명하게 하기 설정이 더 이상 이미지에 적용되지 않습니다. 이미지가 이미지 사전 설정의 선명하게 하기 설정 없이 제공됩니다.
 
 종종 이미지를 선명하게 할 필요가 있습니다. Adobe Dynamic Media Classic 및 이미지 서버는 몇 가지 선명하게 하기 옵션을 제공합니다. 선명하게 하기로 이미지에 나타나는 변화 및 어느 정도의 선명하게 하기가 필요한지 이해하는 것이 중요합니다. 대부분의 이미지는 약간의 선명하게 하기가 필요하지만 필요한 정도는 이미지에 따라 다릅니다.
 
@@ -37,9 +37,11 @@ Adobe Dynamic Media Classic에서는 뷰어 사전 설정에 선명하게 하기
 
 이미지가 과도하게 선명해지면 후광 효과 또는 가장자리 선의 띠 현상이 나타납니다.
 
-다음은 Adobe Dynamic Media Classic 및 Dynamic Media 이미지 서버에서 이미지 선명하게 하기를 최적화하는 모범 사례입니다.
+다음은 Adobe Dynamic Media Classic 및 Dynamic Media 이미지 서버에서 이미지의 선명하게 하기를 최적화하는 모범 사례입니다.
 
-Adobe Dynamic Media Classic 및 Dynamic Media Image Server에서 이미지를 선명하게 하기 위한 [우수 사례](/help/assets/s7_sharpening_images.pdf)를 참조하십시오.
+[Adobe Dynamic Media Classic 및 Dynamic Media 이미지 서버에서 이미지를 선명하게 하기 위한 우수 사례](/help/assets/s7_sharpening_images.pdf)를 참조하십시오.
+
+[선명하게 하기](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) 교육 비디오도 참조하십시오.
 
 **이미지를 선명하게 하려면:**
 
@@ -69,7 +71,7 @@ Adobe Dynamic Media Classic 및 Dynamic Media Image Server에서 이미지를 �
 
 [언샵 마스크]를 사용하여 선명도 세밀하게 조정할 수 있도록 다음 옵션을 선택합니다.
 
-* **금액**  - 가장자리 픽셀에 적용되는 대비의 양을 제어합니다. 기본값은 0.0입니다. 고해상도 이미지의 경우 5.0만큼 높게 늘릴 수 있습니다. 이 양을 필터 강도의 측정값으로 간주합니다. Adobe Dynamic Media Classic의 **[!UICONTROL 금액]** 설정은 Adobe Photoshop의 금액 설정과 다릅니다. Adobe Photoshop에서는 1%~500% 범위의 금액을 사용하는 반면, Adobe Dynamic Media Classic은 0.0에서 5.0으로 확장됩니다. (5.0은 대략 Photoshop의 500%와 비슷하고 0.9는 90%와 유사합니다.)
+* **금액**  - 가장자리 픽셀에 적용되는 대비의 양을 제어합니다. 기본값은 0.0입니다. 고해상도 이미지의 경우 5.0만큼 높게 늘릴 수 있습니다. 이 양을 필터 강도의 측정값으로 간주합니다. Adobe Dynamic Media Classic의 **[!UICONTROL Amount]** 설정이 Adobe Photoshop의 Amount 설정과 다릅니다. Adobe Photoshop에서는 1%~500% 범위의 금액을 사용하는 반면, Adobe Dynamic Media Classic은 0.0에서 5.0으로 확장됩니다. (5.0은 대략 Photoshop의 500%와 비슷하고 0.9는 90%와 유사합니다.)
 
 * **반경**  - 선명하게 하기에 영향을 주는 가장자리 픽셀을 둘러싸는 픽셀 수를 결정합니다. 효과는 이미지의 모든 픽셀에서 실행되고 모든 방향으로 퍼져 나갑니다. 
 
@@ -101,7 +103,7 @@ Adobe Dynamic Media Classic 및 Dynamic Media Image Server에서 이미지를 �
 
 **선명하게 및 이미지 사전 설정**
 
-세 가지 선명하게 하기 효과를 모두 통합하여 최종 결과를 얻을 수 있습니다. 그러나 이 방법은 권장되지 않습니다. Adobe Dynamic Media Classic에서는 선명하게 하기 효과를 이미지 사전 설정의 일부로 저장하는 것이 좋습니다. 이미지 사전 설정을 사용하면 가장 자주 사용하는 이미지 수정자를 패키지화하여 작은 텍스트 문자열에서 동적으로 크기가 조정된 이미지를 만들 수 있습니다. 이미지 사전 설정에는 파일 형식(웹용 JPEG), 픽셀 수 및 이미지 선명하게 하기 값이 포함되어 있습니다. 각 이미지 수정자에 URL을 추가하는 대신 특정 유형의 이미지 크기를 만드는 데 사용해야 합니다. &quot;thumbnail&quot;과 같이 이름이 지정된 이미지 사전 설정을 만듭니다. 그런 다음 적절한 크기, 파일 형식 및 선명하게 하기 옵션을 사용하여 축소판 이미지 사전 설정을 구성합니다. 이미지 사전 설정 이름을 사용하여 이미지를 호출합니다. 이미지 사전 설정은 전체 URL의 길이를 줄입니다. 이 두 URL은 선명하게 하는 동일한 350x350 JPEG 이미지를 생성합니다.
+세 가지 선명하게 하기 효과를 모두 통합하여 최종 결과를 얻을 수 있습니다. 그러나 이 방법은 권장되지 않습니다. Adobe Dynamic Media Classic에서는 선명하게 하기 효과를 이미지 사전 설정의 일부로 저장하는 것이 좋습니다. 이미지 사전 설정을 사용하면 가장 자주 사용하는 이미지 수정자를 패키지화하여 작은 텍스트 문자열에서 동적으로 크기가 조정된 이미지를 만들 수 있습니다. 이미지 사전 설정에는 파일 형식(일반적으로 웹용 JPEG), 픽셀 수 및 이미지 선명하게 하기 위한 값이 포함되어 있습니다. 각 이미지 수정자에 URL을 추가하는 대신 특정 유형의 이미지 크기를 만드는 데 사용해야 합니다. &quot;thumbnail&quot;과 같이 이름이 지정된 이미지 사전 설정을 만듭니다. 그런 다음 적절한 크기, 파일 형식 및 선명하게 하기 옵션을 사용하여 축소판 이미지 사전 설정을 구성합니다. 이미지 사전 설정 이름을 사용하여 이미지를 호출합니다. 이미지 사전 설정은 전체 URL의 길이를 줄입니다. 이 두 URL은 선명하게 하는 동일한 350x350 JPEG 이미지를 생성합니다.
 
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?wid=350&hei=350&fmt=jpeg&qlt=85,0&resMode=sharp2&op_usm=0.9,1.0,8,0`
 * `https://sample.scene7.com/is/image/S7train/Backpack_A?$!_s7product$`
@@ -116,7 +118,7 @@ Adobe Dynamic Media Classic 및 Dynamic Media Image Server에서 이미지를 �
 
 * **JPG 품질**  - 압축 수준 및 색차 다운샘플링을 제어하려면 이 옵션을 선택합니다.
 
-* **슬라이더**  - JPG 압축 수준을 결정합니다. 이 설정은 파일 크기와 이미지 품질에 모두 영향을 줍니다. JPG 품질 비율은 1-100입니다.
+* **슬라이더**  - JPG 압축 수준을 결정합니다. 이 설정은 파일 크기와 이미지 품질에 모두 영향을 줍니다. JPG 품질 척도는 1-100입니다.
 
 * **JPG 색차 다운샘플링 활성화**  - 눈은 고주파 휘도보다 고주파 색상 정보에 덜 민감하므로 JPEG 이미지는 이미지 정보를 휘도 및 색상 구성 요소로 나눕니다. JPEG 이미지가 압축된 경우 광도 구성 요소는 전체 해상도로 유지되고 색상 구성 요소는 픽셀 그룹을 평균화하여 다운샘플링됩니다. 다운샘플링하면 데이터 볼륨이 1/2 또는 1/3만큼 감소하며 인식되는 품질은 거의 영향을 받지 않습니다. 회색 음영 이미지에는 다운샘플링을 적용할 수 없습니다. 이 기술은 고대비 이미지(예: 오버레이된 텍스트가 있는 이미지)에 유용한 압축 양을 줄입니다.
 
@@ -132,6 +134,8 @@ URL 문자열을 따라 특정한 이미지 서버 선명하게 하기 프로토
 
 뷰어 사전 설정(이미지 사전 설정 등)을 사용하면 스킨 및 뷰어 옵션(예: 인쇄 단추 포함 또는 확대/축소 애니메이션 속도 제어)을 포함하여 여러 옵션을 한 위치로 중앙 집중화할 수 있습니다. 뷰어 사전 설정은 이미지 사전 설정과 동일한 섹션에서 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 뷰어 사전 설정]**&#x200B;에 있습니다.
 
+[뷰어 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) 교육 비디오를 참조하십시오.
+
 [수정자] 선택 사항은 모든 eCatalog, 회전 및 사용자 지정 확대/축소 뷰어 사전 설정의 코어 설정 섹션에서 찾을 수 있습니다. [수정자] 상자에 URL 선명하게 하기 명령을 추가하여 해당 뷰어 사전 설정으로 뷰어가 호출될 때마다 선명하게 하기를 추가합니다.
 
 뷰어 사전 설정을 호출하려면 뷰어 URL에서 `config=` 명령을 사용합니다. 다음은 뷰어 사전 설정(`FantasticoZoom2022`)을 사용하여 이미지 세트(shoes)를 호출하는 예입니다.
@@ -144,4 +148,4 @@ URL 문자열을 따라 특정한 이미지 서버 선명하게 하기 프로토
 
 마지막으로 가장 권장되지 않는 선명하게 하기 방법은 이미지별 기준에서 선명하게 하기를 재정의하는 것입니다. 이 메서드는 이미지 사전 설정의 선명도 고유한 값으로 재정의합니다. 그러나 이 메서드는 다른 모든 선명하게 하기 메서드도 어떤 크기로도 무시합니다. 이 방법을 사용하기 위한 가장 좋은 사례는 일부 이미지가 고해상도가 아니면서 이미지 사전 설정의 값이 이러한 작은 이미지에 너무 높은 경우입니다. 이 경우 이미지별로 선명하게 해야 할 수도 있습니다.
 
-Adobe Dynamic Media Classic에서 이미지를 선택하고 세부 사항 보기로 이동합니다(**[!UICONTROL 세부 정보 보기]** 단추 클릭 또는 누름). **[!UICONTROL 선명하게]**&#x200B;를 선택합니다. 매개 변수를 변경한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다. 이 프로세스는 선명하게 하기 수정자 또는 이미지 사전 설정과 같은 URL에서 호출하는 명령 대신 이미지 서버에 이러한 선명하게 하기 매개 변수를 사용하도록 지시합니다. 변경 사항이 적용되는지 확인하려면 게시하십시오.
+Adobe Dynamic Media Classic에서 이미지를 선택하고 세부 사항 보기(**[!UICONTROL 세부 사항 보기]** 단추 클릭 또는 누름)로 이동한 다음 **[!UICONTROL 선명하게]**&#x200B;를 선택합니다. 매개 변수를 변경한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다. 이 프로세스는 선명하게 하기 수정자 또는 이미지 사전 설정과 같은 URL에서 호출하는 명령 대신 이미지 서버에 이러한 선명하게 하기 매개 변수를 사용하도록 지시합니다. 변경 사항이 적용되는지 확인하려면 게시하십시오.

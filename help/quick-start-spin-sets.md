@@ -1,6 +1,6 @@
 ---
 title: '"빠른 시작: 회전 집합"'
-description: Adobe Dynamic Media Classic에서 빠르게 시작하고 실행할 수 있는 스핀 세트 소개 및 빠른 시작.
+description: Adobe Dynamic Media Classic에서 신속하게 시작하고 실행할 수 있는 스핀 세트 소개 및 빠른 시작 을 참조하십시오.
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: admin
 content-type: reference
@@ -10,16 +10,16 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 25%
+source-wordcount: '796'
+ht-degree: 23%
 
 ---
 
 # 빠른 시작: 회전 집합{#quick-start-spin-sets}
 
-회전 집합은 개체를 회전하는 실제 동작을 시뮬레이션하여 검사합니다. 회전 집합을 사용하면 임의 각도에서 항목을 보고 모든 각도에서 주요 시각적 세부 사항을 얻을 수 있습니다. 스핀 세트는 360° 보기 경험을 시뮬레이션합니다. Adobe Dynamic Media Classic에서는 뷰어가 항목을 회전할 수 있는 1차원 스핀 세트와 뷰어가 항목을 회전하고 대칭 이동할 수 있는 2차원 스핀 세트를 제공합니다. 또한 사용자는 몇 번의 간단한 마우스 클릭으로 모든 보기를 &quot;자유 형식&quot;으로 확대/축소하고 이동할 수 있습니다. 이렇게 하면 사용자가 특정 뷰포인트에서 더 자세히 항목을 검사할 수 있습니다.
+회전 집합은 개체를 회전하는 실제 동작을 시뮬레이션하여 검사합니다. 회전 집합을 사용하면 임의 각도에서 항목을 보고 모든 각도에서 주요 시각적 세부 사항을 얻을 수 있습니다. 스핀 세트는 360° 보기 경험을 시뮬레이션합니다. Adobe Dynamic Media Classic에서는 뷰어가 항목을 회전할 수 있는 1차원 스핀 세트와 뷰어가 항목을 회전 및 대칭 이동할 수 있는 2차원 스핀 세트를 제공합니다. 또한 사용자는 몇 번의 간단한 마우스 클릭으로 모든 보기를 &quot;자유 형식&quot;으로 확대/축소하고 이동할 수 있습니다. 이렇게 하면 사용자가 특정 뷰포인트에서 더 자세히 항목을 검사할 수 있습니다.
 
 ![회전 집합의 이미지](/help/assets/spin_set.png)
 
@@ -27,13 +27,15 @@ ht-degree: 25%
 
 [이미지 맵 만들기](creating-image-maps.md)를 참조하십시오.
 
-이 스핀 세트 빠른 시작은 Adobe Dynamic Media Classic에서 스핀 세트 기술을 사용하여 빠르게 시작하고 실행하도록 설계되었습니다. 1-7 단계를 수행하십시오. 각 단계가 끝나면 항목 링크를 선택하여 자세히 알아볼 수 있습니다.
+[이미지 및 스핀 세트 를 참조하십시오. Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 교육 비디오.
+
+이 스핀 세트 빠른 시작은 Adobe Dynamic Media Classic의 스핀 세트 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다. 1-7 단계를 수행하십시오. 각 단계가 끝나면 항목 링크를 선택하여 자세히 알아볼 수 있습니다.
 
 ## 1. 이미지를 만들고 업로드합니다
 
 최소한 1차원 스핀 세트의 경우 항목의 8-12샷과 2차원 스핀 세트의 경우 16-24샷이 필요합니다. 항목을 회전하고 뒤집는 듯한 인상을 주려면 일정한 간격으로 촬영해야 합니다. 예를 들어 1차원 스핀 세트에 12개의 샷이 포함되어 있는 경우 각 샷에 대해 30°(360°/12) 항목을 회전합니다.
 
-전역 탐색 막대에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터 또는 네트워크에서 Adobe Dynamic Media Classic으로 스핀 이미지를 업로드합니다.
+전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터 또는 네트워크에서 Adobe Dynamic Media Classic으로 스핀 이미지를 업로드합니다.
 
 [회전 집합 이미지 촬영에 대한 지침](creating-spin-set.md#guidelines-for-shooting-spin-set-images)을 참조하십시오.
 

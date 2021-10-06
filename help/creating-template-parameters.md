@@ -10,10 +10,10 @@ discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 64%
+source-wordcount: '844'
+ht-degree: 59%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 64%
 텍스트 레이어 매개 변수에서 텍스트 문자열을 데이터베이스의 값에 연결된 동적 필드로 만들 수도 있습니다. 텍스트를 데이터베이스에 연결할 수 있다면 판촉 행사 등에 유용합니다. 클라이언트 또는 고객 이름을 표시하도록 템플릿 이미지를 사용자 지정할 수 있습니다. 텍스트 레이어 매개 변수를 가격 데이터베이스에 연결하여 템플릿 이미지에 있는 항목의 가격을 표시할 수도 있습니다.
 
 한 매개 변수를 여러 번 참조할 수 있습니다. 매개 변수 대화 상자에서 각 명령의 콤보 상자를 사용하여 특정 명령과 일치하는 매개 변수를 선택합니다. 예를 들어 모든 크기 매개 변수는 `size=` 명령에 사용할 수 있습니다. 이미 콤보 상자에 있는 매개 변수에 매개 변수 참조를 다시 지정하고 콤보 상자에 없는 이름으로 바꿀 수 있습니다. 후자의 경우 이름은 고유해야 합니다. 그렇지 않으면 매개 변수가 존재한다고 오류가 표시됩니다. 매개 변수 참조를 삭제하면 매개 변수가 다른 곳에서 참조되지 않으면 URL에서 제거됩니다. 텍스트 매개 변수의 기본값을 변경하면 해당 매개 변수에 대한 모든 참조가 업데이트됩니다. 레이어 테이블, 템플릿 렌더링 및 URL에서 업데이트가 표시됩니다. 속성 패널에서 크기 조정 핸들을 조작하거나 값을 입력하여 레이어 속성을 변경하면 매개 변수 값이 업데이트되고 매개 변수 업데이트에 대한 모든 참조가 업데이트됩니다. 예를 들어 매개 변수 하나를 사용하여 두 레이어의 크기를 매개 변수화한 경우 레이어 크기 중 하나를 변경하면 두 레이어 크기가 모두 업데이트됩니다. 템플릿을 미리 보고 매개 변수를 변경하면 해당 매개 변수에 대한 모든 참조가 업데이트됩니다.
+
+[템플릿 기본 사항](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 교육 비디오도 참조하십시오.
 
 ## 레이어 매개 변수화 {#parameterizing-a-layer}
 

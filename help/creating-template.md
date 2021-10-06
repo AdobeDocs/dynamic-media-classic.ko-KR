@@ -10,10 +10,10 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '3405'
-ht-degree: 45%
+source-wordcount: '3466'
+ht-degree: 44%
 
 ---
 
@@ -21,9 +21,11 @@ ht-degree: 45%
 
 템플릿을 만들려면 **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**&#x200B;으로 이동합니다. [디자이너] 또는 [개발자]를 선택합니다. 이 페이지에서 이미지 및 텍스트 레이어를 추가할 수 있습니다. 레이어 순서를 조정하고, 레이어의 크기와 위치를 변경하고, 이미지와 텍스트에 그림자 및 후광 효과를 적용할 수도 있습니다.
 
+[템플릿 기본 사항](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 교육 비디오도 참조하십시오.
+
 >[!NOTE]
 >
->이전 버전의 Adobe Dynamic Media Classic에서 만든 템플릿을 편집하는 경우 &quot;캔버스 레이어를 추가하시겠습니까?&quot;를 저장할 때 메시지가 표시됩니다. 기본 레이어를 추가하지 않으려면 **[!UICONTROL 아니요]**&#x200B;를 선택하십시오. 실수로 **[!UICONTROL Yes]**&#x200B;를 선택한 경우 URL에서 `&allowCanvasPrompt` 및 `&layer=0` 한정자를 삭제하고 **[!UICONTROL Enter]** 또는 **[!UICONTROL Return]**&#x200B;을 누릅니다.
+>이전 버전의 Adobe Dynamic Media Classic에서 만든 템플릿을 편집할 경우 &quot;캔버스 레이어를 추가하시겠습니까?&quot;를 저장할 때 메시지가 표시됩니다. 기본 레이어를 추가하지 않으려면 **[!UICONTROL 아니요]**&#x200B;를 선택하십시오. 실수로 **[!UICONTROL Yes]**&#x200B;를 선택한 경우 URL에서 `&allowCanvasPrompt` 및 `&layer=0` 한정자를 삭제하고 **[!UICONTROL Enter]** 또는 **[!UICONTROL Return]**&#x200B;을 누릅니다.
 
 ## 초기 템플릿 만들기 {#creating-the-initial-template}
 
@@ -42,7 +44,7 @@ ht-degree: 45%
 
 1. 초기 템플릿을 만들려면 다음 방법 중 하나를 사용합니다.
 
-   * **PSD 또는 이미지를 먼저**  선택합니다. [찾아보기] 패널에서 템플릿에 사용할 PSD 파일 또는 이미지를 선택하고  **[!UICONTROL 빌드]**  >  **[!UICONTROL 템플릿 기본 사항]**&#x200B;으로 이동합니다.
+   * **PSD 또는 이미지를 먼저**  선택합니다. [찾아보기] 패널에서 템플릿에 사용할 PSD 파일 또는 이미지를 선택하고  **[!UICONTROL 작성]**  >  **[!UICONTROL 템플릿 기본 사항]**&#x200B;으로 이동합니다.
 
    * **템플릿 화면에서 시작**  -  **[!UICONTROL 빌드]**  >  **[!UICONTROL 템플릿 기본 사항으로 이동합니다]**. [디자이너] 또는 [개발자]를 선택합니다.
 
@@ -52,7 +54,7 @@ ht-degree: 45%
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 템플릿을 저장할 폴더를 선택하고 템플릿의 이름을 입력한 다음 **[!UICONTROL 제출]**&#x200B;을 선택합니다.
 
-   Adobe Dynamic Media Classic은 캔버스에 맞게 이미지를 축소하고 템플릿을 정의할 템플릿 화면의 영역을 축소합니다.
+   Adobe Dynamic Media Classic은 캔버스에 맞추기 위해 필요한 경우 이미지를 축소하며 템플릿 화면의 영역은 템플릿을 정의합니다.
 
 ## 템플릿 세트 편집 {#editing-a-template-set}
 
@@ -103,7 +105,7 @@ ht-degree: 45%
 
    >[!NOTE]
    >
-   >텍스트 편집기 v4.2는 Dynamic Media Classic에서 옵션으로 제거될 계획이므로 가능하면 텍스트 편집기 4.3을 사용하는 것이 좋습니다. **[!UICONTROL Word Wrap]** 옵션은 텍스트 편집기의 향후 릴리스에 통합됩니다.
+   >텍스트 편집기 v4.2는 Adobe Dynamic Media Classic에서 옵션으로 제거될 계획이므로 가능하면 텍스트 편집기 4.3을 사용하는 것이 좋습니다. **[!UICONTROL Word Wrap]** 옵션은 텍스트 편집기의 향후 릴리스에 통합됩니다.
 
 * **[!UICONTROL 디자이너 및 개발자]**  - 역할을 가장 잘 설명하는 옵션을 선택합니다.
 
@@ -288,7 +290,7 @@ ht-degree: 45%
 
 ## 레이어에 그림자 및 광선 효과 사용 {#using-shadow-and-glow-effects-on-layers}
 
-레이어에 그림자나 후광을 적용할 수 있습니다. 그림자나 후광은 레이어의 경계에 적용되고 선택한 그림자 또는 후광 선택 사항에 따라 안쪽이나 바깥쪽으로 확장됩니다. 서식 파일이 그림자 및 네온 효과가 있는 PSD 파일로 시작된 경우 Adobe Dynamic Media Classic에서 이러한 효과를 조정할 수 있습니다.
+레이어에 그림자나 후광을 적용할 수 있습니다. 그림자나 후광은 레이어의 경계에 적용되고 선택한 그림자 또는 후광 선택 사항에 따라 안쪽이나 바깥쪽으로 확장됩니다. 서식 파일이 그림자 및 글로우 효과가 있는 PSD 파일로 시작된 경우 Adobe Dynamic Media Classic에서 이러한 효과를 조정할 수 있습니다.
 
 그림자 또는 후광 효과를 적용한 후 [템플릿] 화면의 [레이어 속성] 영역에서 크기, 색상, 불투명도 및 위치를 조정할 수 있습니다.
 

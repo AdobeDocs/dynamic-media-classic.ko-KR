@@ -1,6 +1,6 @@
 ---
 title: '"빠른 시작: 견본 집합"'
-description: Adobe Dynamic Media Classic에서 빠르게 시작하고 실행할 수 있는 견본 집합 소개 및 빠른 시작
+description: Adobe Dynamic Media Classic에서 신속하게 시작하고 실행할 수 있는 견본 집합 소개 및 빠른 시작
 uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: admin
 content-type: reference
@@ -10,9 +10,9 @@ discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
-source-git-commit: 36f9aa3c2b4dc66e4cb851c2ce6837ae0ad4f64c
+source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 25%
 
 ---
@@ -27,7 +27,7 @@ Adobe Dynamic Media Classic 견본 세트는 사용자에게 통합된 보기 �
 
 먼저 견본 집합에 사용할 이미지와 견본 파일을 업로드합니다.
 
-전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터의 파일을 Adobe Dynamic Media Classic의 폴더로 업로드합니다. [업로드](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) 및 [파일 업로드](uploading-files.md#uploading-your-files)를 위해 견본 집합 자산 준비를 참조하십시오.
+전역 탐색 막대에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터의 파일을 Adobe Dynamic Media Classic의 폴더로 업로드합니다. [업로드](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) 및 [파일 업로드](uploading-files.md#uploading-your-files)를 위해 견본 집합 자산 준비를 참조하십시오.
 
 ## 2. 견본 집합 만들기
 
@@ -47,7 +47,7 @@ Adobe Dynamic Media Classic 견본 세트는 사용자에게 통합된 보기 �
 
 ## 5. 견본 집합 게시
 
-견본 세트를 게시하면 Adobe Dynamic Media Classic 서버에 해당 견본 세트가 배치되고 URL 문자열이 활성화됩니다.
+견본 세트를 게시하면 Adobe Dynamic Media Classic 서버에 배치되고 URL 문자열이 활성화됩니다.
 
 찾아보기 패널에서 해당 이름의 왼쪽에 있는 **[!UICONTROL 게시용으로 표시]** 아이콘을 선택합니다. 그런 다음 **[!UICONTROL 게시]**&#x200B;를 선택합니다. 게시 페이지에서 **[!UICONTROL 게시 제출]**&#x200B;을 선택합니다.
 
