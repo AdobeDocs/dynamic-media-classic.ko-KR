@@ -10,7 +10,7 @@ discoiquuid: 59b6437d-c21e-4929-9291-3032dbb34565
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: 53551f938946bb78074127c05f984ae97e9ccca1
 workflow-type: tm+mt
 source-wordcount: '1293'
 ht-degree: 35%
@@ -76,7 +76,7 @@ Adobe Dynamic Media Classic은 오퍼 세트를 만들 뿐만 아니라 편집�
 1. 작업이 끝나면 페이지의 오른쪽 아래 모서리 근처에 있는 **[!UICONTROL 저장 후 게시*]**&#x200B;가 선택되어 있는지 확인합니다(기본값).
 1. **[!UICONTROL 닫기]**&#x200B;를 선택하고 오퍼 세트의 이름을 입력한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-Test&amp;Target 오퍼 세트 페이지를 닫기 전에 오퍼 세트를 Adobe Target Standard/Premium으로 푸시합니다. [오퍼 집합을 Test&amp;Target으로 푸시](pushing-offer-sets-target.md#pushing_offer_sets_to_target)를 참조하십시오.
+Test&amp;Target 오퍼 세트 페이지를 닫기 전에 오퍼 세트를 Adobe Target Standard/Premium으로 푸시합니다. [Test&amp;Target](pushing-offer-sets-target.md#pushing_offer_sets_to_target)에 오퍼 세트 푸시를 참조하십시오.
 
 ## 이미지 또는 비디오가 포함된 오퍼 세트를 만듭니다 {#creating-an-offer-set-with-images-or-videos}
 
