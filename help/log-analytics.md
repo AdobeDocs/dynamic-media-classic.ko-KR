@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 876b4c61167b28f7d5e50a656564eafcbe5b9eab
+source-git-commit: 8111895ac527b92b152382ea80b7b383659f00a9
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '843'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Adobe Analytics 보고서를 구성하고 Adobe Analytics 보고서 변수를 Ad
 >
 >Adobe Analytics 계정이 로그인을 위해 Adobe IMS 기반 인증(Identity Management 시스템)으로 마이그레이션된 경우 직접 자격 증명을 입력할 수 없습니다.
 
-**Adobe Dynamic Media Classic에서 Adobe Analytics에 로그인하려면 다음을 수행하십시오.**
+## Adobe Dynamic Media Classic에서 Adobe Analytics에 로그인 {#log-in-to-analytics-from-dmc}
 
 Dynamic Media Classic과 Adobe Analytics OAuth를 통합함으로써 시작합니다. Dynamic Media Classic과의 Adobe Analytics OAuth 통합은 일반적으로 사용자당 한 번만 수행됩니다.
 
@@ -64,7 +64,7 @@ Dynamic Media Classic과 Adobe Analytics OAuth를 통합함으로써 시작합�
    * 아래 **[!UICONTROL 클라이언트 ID]**, 선택 **[!UICONTROL 복사]** 값을 복사하려면 다음을 수행하십시오. 다음에 이어지는 Dynamic Media Classic 데스크탑 애플리케이션의 후속 Analytics 구성에 이 값이 필요합니다.
    * 아래 **[!UICONTROL 클라이언트 암호]**, 선택 **[!UICONTROL 클라이언트 암호 검색]** 를 눌러 연결된 값을 표시합니다. 선택 **[!UICONTROL 복사]** 값을 복사하려면 다음을 수행하십시오. 다음에 이어지는 Dynamic Media Classic 데스크탑 애플리케이션의 후속 Adobe Analytics 구성에 이 값이 필요합니다.
 
-**Dynamic Media Classic 데스크탑 애플리케이션에서 Adobe Analytics 구성**
+## Adobe Dynamic Media Classic에서 Adobe Analytics 구성 {#configure-analytics-in-dmc}
 
 >[!NOTE]
 >
