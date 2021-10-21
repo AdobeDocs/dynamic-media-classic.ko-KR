@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 8111895ac527b92b152382ea80b7b383659f00a9
+source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '844'
 ht-degree: 1%
 
 ---
@@ -81,9 +81,9 @@ Dynamic Media Classic과 Adobe Analytics OAuth를 통합함으로써 시작합�
 1. 왼쪽 패널의 **[!UICONTROL 애플리케이션 설정]**, 선택 **[!UICONTROL Adobe Analytics]**.
 1. 설정 **[!UICONTROL Adobe Analytics 구성]** 페이지를 선택하고 **[!UICONTROL Adobe Analytics 로그인]**.
 1. 에서 **[!UICONTROL Adobe Analytics 로그인]** 대화 상자, **[!UICONTROL 클라이언트 ID]** 필드 및 **[!UICONTROL 클라이언트 암호]** 필드에서 이전에 복사한 각 값을 붙여넣습니다.
-1. 대화 상자의 오른쪽 아래 모서리에서 로그인 을 선택하고 Adobe IMS(Identity Management Services) 로그인을 수행합니다.
+1. 대화 상자의 오른쪽 아래 모서리에서 **[!UICONTROL 로그인]** adobe IMS(Identity Management Services) 로그인을 수행합니다.
 
-   성공적으로 로그인하면 다음과 함께 Adobe Analytics 로그인 대화 상자가 다시 나타납니다 **[!UICONTROL 회사]** 사용 가능한 회사에서 시작한 드롭다운 목록입니다.
+   성공적으로 로그인하면 Adobe Analytics 로그인 대화 상자가 과 함께 다시 나타납니다. **[!UICONTROL 회사]** 사용 가능한 회사에서 시작한 드롭다운 목록입니다.
 
 1. 에서 **[!UICONTROL 회사]** 드롭다운 목록에서 회사를 선택합니다.
 
