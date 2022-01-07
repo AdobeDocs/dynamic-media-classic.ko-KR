@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
+source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
 workflow-type: tm+mt
 source-wordcount: '2002'
 ht-degree: 1%
@@ -48,7 +48,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 * 을(를) 입력할 수 없습니다. `d` 및 `e` in **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** macOS Monterey를 실행할 때의 필드.
 * 나머지 Analytics API를 버전 2.0으로 이동했습니다.
 
-## 릴리스(20.21.3)의 수정 사항 {#release-sept2021}
+## 릴리스 20.21.3의 수정 사항 {#release-sept2021}
 
 * 데스크탑 앱에서 일정 기간 동안 활동이 없으면 표시되는 자산에 대한 축소판이 손상되었습니다.
 * 일반적으로 설정 작업 후 데스크탑 앱의 응답이 중지됩니다.
