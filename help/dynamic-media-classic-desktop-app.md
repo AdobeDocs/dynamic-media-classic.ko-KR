@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: df41d69e2fa6e9db806d8ffbb06edc42b70d1011
+source-git-commit: a575c698fec3f85e537ad07f5948e7e65912ca52
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '2002'
 ht-degree: 1%
 
 ---
@@ -40,21 +40,13 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
 ## 최신 릴리스(20.22.1)의 수정 사항 {#release-jan2022}
 
-* 
+이미지 편집 **[!UICONTROL 저장]** 단추가 작동하지 않았습니다.
 
-   <!-- CQ-4333853 :  -->Image editing **[!UICONTROL Save]** buttons were non-functional.
-* 
-
-   <!-- CQ-4334638 :  -->In the Set editors, the **[!UICONTROL Close]**, **[!UICONTROL Save]**, and **[!UICONTROL Save As]** buttons become disabled after scrolling assets in the **[!UICONTROL Add Assets]** panel.
-* 
-
-   <!-- CQ-4335992 :  -->**[!UICONTROL Play]** button in Video Detail view did not work.
-* 
-
-   <!-- CQ-4336687 :  -->Could not enter `d` and `e` in **[!UICONTROL Username]** and **[!UICONTROL Password]** fields when running macOS Monterey.
-* 
-
-   <!-- CQ-4334197 :  -->Moved the remaining analytics APIs to version 2.0.
+* 이미지 편집 **[!UICONTROL 저장]** 단추가 작동하지 않았습니다.
+* 세트 편집기에서 **[!UICONTROL 닫기]**, **[!UICONTROL 저장]**, 및 **[!UICONTROL 다른 이름으로 저장]** 에서 자산을 스크롤하면 버튼이 비활성화됩니다 **[!UICONTROL 자산 추가]** 패널.
+* **[!UICONTROL 재생]** 비디오 세부 사항 보기의 단추가 작동하지 않았습니다.
+* 을(를) 입력할 수 없습니다. `d` 및 `e` in **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** macOS Monterey를 실행할 때의 필드.
+* 나머지 Analytics API를 버전 2.0으로 이동했습니다.
 
 ## 릴리스(20.21.3)의 수정 사항 {#release-sept2021}
 
@@ -160,7 +152,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
 1. macOS용 Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드합니다.
 
-   * [macOS (.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
+   * [macOS (.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
 
 1. 다음 명령을 사용하여 다운로드한 디스크 이미지(.DMG)를 마운트 지점 위치에 마운트합니다.
 
