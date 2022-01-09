@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 085ff63afc73d120fdc29a93b56e5d926eb93e34
+source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
 workflow-type: tm+mt
-source-wordcount: '2002'
+source-wordcount: '1996'
 ht-degree: 1%
 
 ---
@@ -39,8 +39,6 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 >Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이드 알림이 생성되지 않습니다 *미성년자* 릴리스. 부 릴리스의 수정 사항을 통해 혜택을 받는 고객은 업그레이드할 수 있습니다.
 
 ## 최신 릴리스(20.22.1)의 수정 사항 {#release-jan2022}
-
-이미지 편집 **[!UICONTROL 저장]** 단추가 작동하지 않았습니다.
 
 * 이미지 편집 **[!UICONTROL 저장]** 단추가 작동하지 않았습니다.
 * 세트 편집기에서 **[!UICONTROL 닫기]**, **[!UICONTROL 저장]**, 및 **[!UICONTROL 다른 이름으로 저장]** 에서 자산을 스크롤하면 버튼이 비활성화됩니다 **[!UICONTROL 자산 추가]** 패널.
