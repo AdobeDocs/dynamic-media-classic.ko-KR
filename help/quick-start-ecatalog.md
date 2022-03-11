@@ -10,10 +10,10 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
 workflow-type: tm+mt
 source-wordcount: '1558'
-ht-degree: 39%
+ht-degree: 37%
 
 ---
 
@@ -40,19 +40,19 @@ eCatalog에 대해 선택한 설정에 따라 뷰어에서 다음을 수행할 �
 * 손가락을 모아 확대, 살짝 밀어 페이지 넘김 등의 제스처 상호 작용을 사용합니다.
 * 키워드로 항목을 검색합니다.
 
-![사용자에게 표시되는 eCatalog 입니다. a) eCatalog 열기 페이지. B)eCatalog가 페이지 2로 변경되었습니다.](/help/assets/ec_cat_viewer_popup.png)
+![사용자에게 표시되는 eCatalog 입니다. a) eCatalog 열기 페이지. B)eCatalog 가 2페이지로 돌아갔습니다.](/help/assets/ec_cat_viewer_popup.png)
 
-eCatalog를 만들려면 일반적으로 Adobe® Acrobat®이나 다른 인쇄 프로그램에서 만든 고해상도 PDF 파일을 사용하지만 이미지 파일에서 eCatalog를 만들 수도 있습니다.
+eCatalog를 만들려면 일반적으로 Adobe Acrobat 또는 다른 인쇄 프로그램에서 만든 고해상도 PDF 파일을 사용하지만, 이미지 파일에서 eCatalog를 만들 수도 있습니다.
 
 eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택한 순서대로 정렬할 수 있습니다. 단일 페이지, 양면 페이지 스프레드 또는 복수 페이지 스프레드를 사용할 것인지를 선언할 수도 있습니다. 페이지 영역에 대한 이미지 맵을 만들어 예를 들어 뷰어가 페이지에서 영역을 선택하고 웹 사이트에서 새 페이지를 열 수 있도록 할 수 있습니다. eCatalog 화면 내의 [정보 패널] 설정을 사용하여 표시되는 롤오버 텍스트를 관리할 수 있습니다. 100개보다 많은 구성 선택 사항 중에서 선택하여 eCatalog 뷰어를 구성할 수도 있습니다. 특정 타겟 사용자에 맞게 뷰어의 기능과 모양을 조정할 수 있습니다.
 
 >[!NOTE]
 >
->Dynamic Media - Scene7 모드 사용자이고 eCatalog를 사용하려면 CRXDE Lite에서 `pdfbrochure` 값을 편집합니다. 이렇게 하려면 Adobe Experience Manager에서 **[!UICONTROL 도구]** > **[!UICONTROL 일반]** > **[!UICONTROL CRXDE Lite]**&#x200B;로 이동합니다. 왼쪽 패널 탐색 트리에서 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf` 로 이동합니다.
+>Dynamic Media - Scene7 모드 사용자이고 eCatalogs를 사용하려면 `pdfbrochure` CRXDE Lite의 값. 이렇게 하려면 Adobe Experience Manager에서 다음 위치로 이동하십시오. **[!UICONTROL 도구]** > **[!UICONTROL 일반]** > **[!UICONTROL CRXDE Lite]**. 왼쪽 패널 탐색 트리에서 `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
->오른쪽 아래 창의 **[!UICONTROL 속성]** 탭에서 `jobParam` 행을 선택합니다. `false`에서 `pdfbrochure` 값을 `true`(으)로 설정합니다. `pdfbrochure=true`에서와 같이
+>오른쪽 아래 창의 **[!UICONTROL 속성]** 탭에서 을 선택합니다 `jobParam` 행을 클릭합니다. 에 대한 값 설정 `pdfbrochure` 변환 전: `false` to `true`. 로서의 `pdfbrochure=true`
 >
->CRXDE Lite 페이지의 왼쪽 위 모서리에서 **[!UICONTROL 모두 저장]**&#x200B;을 선택합니다.
+>CRXDE Lite 페이지의 왼쪽 위 모서리에서 을(를) 선택합니다 **[!UICONTROL 모두 저장]**.
 >
 >이제 Adobe Dynamic Media Classic에서 eCatalog 를 작성할 수 있습니다.
 
@@ -62,65 +62,65 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 
 일반적으로 Adobe PDF 파일이 eCatalog의 소스입니다. 원래 인쇄용이기 때문에 PDF 파일에는 대체로 CMYK 이미지가 포함되어 있습니다. Adobe Dynamic Media Classic은 이러한 이미지를 감지하고 표준 CMYK 색상 프로파일을 사용하여 변환합니다. 그러나 사용자 지정 색상 프로필을 업로드하고 사용해야 합니다.
 
-전역 탐색 막대에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 eCatalog에 대한 PDF 파일 또는 이미지 업로드를 시작합니다. 데스크톱에서 또는 FTP를 통해 파일을 업로드할 수 있습니다. 100MB보다 큰 파일이나 많은 파일을 업로드하는 경우 FTP를 사용하는 것이 좋습니다.
+전역 탐색 모음에서 를 선택합니다 **[!UICONTROL 업로드]** eCatalog용 PDF 파일 또는 이미지 업로드를 시작합니다. 데스크톱에서 또는 FTP를 통해 파일을 업로드할 수 있습니다. 100MB보다 큰 파일이나 많은 파일을 업로드하는 경우 FTP를 사용하는 것이 좋습니다.
 
 [업로드] 화면의 [PDF 선택 사항] 아래에는 적절한 해상도와 올바른 색상 공간으로 PDF 파일을 업로드하기 위한 선택 사항이 제공됩니다. 인치당 150픽셀 해상도를 사용하는 것이 좋습니다. [eCatalog 자동 생성] 선택 사항을 선택하면 PDF 파일을 업로드할 때 eCatalog를 만들 수 있습니다.
 
-[PDF 파일 업로드](uploading-pdf-files.md#uploading_the_pdf_files)를 참조하십시오.
+자세한 내용은 [PDF 파일 업로드](uploading-pdf-files.md#uploading_the_pdf_files).
 
 ## 2. eCatalog 만들기
 
-찾아보기 패널에서 PDF 또는 이미지 파일을 선택하여 eCatalog를 만듭니다. **[!UICONTROL 빌드]**&#x200B;를 선택한 다음 **[!UICONTROL eCatalogs]**&#x200B;를 선택합니다.
+찾아보기 패널에서 PDF 또는 이미지 파일을 선택하여 eCatalog를 만듭니다. 선택 **[!UICONTROL 빌드]**, 그런 다음 **[!UICONTROL eCatalog]**.
 
-eCatalog 페이지의 **[!UICONTROL 주문 페이지]** 탭에서 레이아웃 옵션을 선택합니다. **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** 또는 **[!UICONTROL 사용자 지정]** 페이지 또는 스프레드를 끌거나 큰 eCatalog의 경우 [이동] 메뉴에서 페이지 이름을 선택하여 페이지 또는 스프레드를 다시 정렬할 수 있습니다.
+eCatalog 페이지의 **[!UICONTROL 페이지 순서 지정]** 탭에서 레이아웃 옵션을 선택합니다. **[!UICONTROL 1개 업]**, **[!UICONTROL 2개 업]**, 또는 **[!UICONTROL 사용자 지정]**. 페이지 또는 스프레드를 끌거나 큰 eCatalog의 경우 [이동] 메뉴에서 페이지 이름을 선택하여 페이지 또는 스프레드를 다시 정렬할 수 있습니다.
 
 페이지를 추가하려면 자산 라이브러리에서 폴더를 선택하고 PDF 또는 이미지 파일을 [주문 페이지] 화면으로 드래그합니다. 기본 페이지 번호 대신 사용자 지정 페이지 이름을 제공하거나 많은 페이지 이름을 가져올 수 있습니다.
 
-**[!UICONTROL 저장]**&#x200B;을 선택하고 eCatalog의 이름을 입력하고 저장할 Adobe Dynamic Media Classic 폴더를 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다. 페이지 순서를 변경하거나 eCatalog를 편집할 때마다 **[!UICONTROL 저장]**&#x200B;을 클릭하여 변경 내용을 저장합니다.
+선택 **[!UICONTROL 저장]**&#x200B;를 클릭하고 eCatalog 이름을 입력하고 저장할 Adobe Dynamic Media Classic 폴더를 선택한 다음 선택합니다 **[!UICONTROL 저장]**. 페이지 순서를 변경하거나 eCatalog를 편집할 때마다 **[!UICONTROL 저장]**.
 
-[eCatalog](creating-ecatalog.md) 만들기를 참조하십시오.
+자세한 내용은 [eCatalog 만들기](creating-ecatalog.md).
 
 ## 3. 이미지 맵 만들기
 
 이미지 맵은 eCatalog 페이지에 다른 측면을 추가합니다. 이미지 맵은 항목에 대한 자세한 정보를 제공하는 페이지의 한 영역입니다. 뷰어가 포인터를 이미지 맵 위로 롤오버하면 항목에 대한 설명이 표시됩니다. 이미지 맵을 클릭하면 새 웹 페이지를 여는 외부 참조가 활성화되고, 이 페이지에서 항목에 대한 자세한 정보를 확인할 수 있습니다.
 
-이미지 맵을 만들려면 eCatalog 화면을 엽니다. 그런 다음 eCatalog 화면의 **[!UICONTROL 페이지 매핑]** 탭으로 이동하여 사각형 이미지 맵 도구 또는 다각형 이미지 맵 도구를 사용하여 맵의 프레임을 지정합니다. [패닝] 도구 로 맵 테두리를 끌어 이미지 맵의 위치와 크기를 조정할 수 있습니다.
+이미지 맵을 만들려면 eCatalog 화면을 엽니다. 그런 다음 로 이동합니다. **[!UICONTROL 페이지 매핑]** [카탈로그] 화면의 탭에서 [사각형 이미지 맵] 도구 또는 [다각형 이미지 맵] 도구를 사용하여 맵의 프레임을 지정합니다. [패닝] 도구 로 맵 테두리를 끌어 이미지 맵의 위치와 크기를 조정할 수 있습니다.
 
 이미지 맵의 프레임을 지정한 후 이미지 맵을 선택할 때 이동할 URL 주소를 입력합니다. 포인터를 이미지 맵 위로 이동할 때 표시되는 롤오버 텍스트를 입력할 수도 있습니다.
 
-[eCatalog 이미지 맵 만들기](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps)를 참조하십시오.
+자세한 내용은 [eCatalog 이미지 맵 만들기](creating-ecatalog-image-maps.md#creating-ecatalog-image-maps).
 
-[이미지 맵을 사용하여 eCatalog](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog)에 리치 미디어를 포함하십시오.
+자세한 내용은 [이미지 맵을 사용하여 eCatalog에 리치 미디어 포함](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
 eCatalog 화면의 [정보 패널] 설정을 사용하여 이미지 맵 텍스트를 설정하고 관리할 수 있습니다.
 
-eCatalog](/help/info-panel-content-ecatalog.md)의 [정보 패널 콘텐츠 관리 를 참조하십시오.
+자세한 내용은 [전자 카탈로그의 정보 패널 콘텐츠 관리](/help/info-panel-content-ecatalog.md).
 
 ## 4. eCatalog 뷰어 사전 설정 설정
 
 최종 사용자는 eCatalog 뷰어에서 eCatalog를 봅니다. 관리자는 eCatalog 뷰어를 구성할 수 있습니다. 윤곽 색상을 변경하고 새 &quot;스킨&quot;을 선택하여 eCatalog를 브랜딩할 수 있습니다. Adobe Dynamic Media Classic에는 다음과 같은 몇 가지 &quot;우수 사례&quot; eCatalog 뷰어 사전 설정이 포함되어 있습니다. 이러한 사전 설정 중 하나를 선택하여 eCatalog를 표시할 수 있습니다. 관리자는 고유한 eCatalog 뷰어 사전 설정을 만들 수도 있습니다.
 
-eCatalog 뷰어 사전 설정을 만들려면 전역 탐색 막대에서 **[!UICONTROL 설정]**&#x200B;을 선택한 다음 **[!UICONTROL 뷰어 사전 설정]**&#x200B;을 선택합니다. **[!UICONTROL 추가]**&#x200B;를 선택하고 플랫폼을 선택한 다음 **[!UICONTROL eCatalog]** > **[!UICONTROL 뷰어]**&#x200B;를 선택합니다.
+eCatalog 뷰어 사전 설정을 만들려면 전역 탐색 막대에서 을 선택합니다 **[!UICONTROL 설정]**&#x200B;그런 다음 **[!UICONTROL 뷰어 사전 설정]**. 선택 **[!UICONTROL 추가]**&#x200B;을(를) 선택한 다음, **[!UICONTROL eCatalog]** > **[!UICONTROL 뷰어]**.
 
-[eCatalog 뷰어 사전 설정](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets)을 참조하십시오.
+자세한 내용은 [eCatalog 뷰어 사전 설정 설정](setting-ecatalog-viewer-presets.md#setting-up-ecatalog-viewer-presets).
 
 ## 5. eCatalog 뷰어에서 eCatalog 미리 보기
 
 eCatalog 뷰어 사전 설정은 eCatalog 뷰어의 스타일과 동작을 결정합니다.
 
-eCatalog 뷰어 사전 설정이 eCatalog를 표시하는 방법을 알아보려면 찾아보기 패널에서 eCatalog 를 선택한 다음 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다. [미리 보기] 화면이 기본 뷰어에서 열립니다.
+eCatalog Viewer 사전 설정에 eCatalog가 표시되는 방법을 알아보려면 [찾아보기] 패널에서 eCatalog를 선택한 다음 를 선택합니다 **[!UICONTROL 미리 보기]**. [미리 보기] 화면이 기본 뷰어에서 열립니다.
 
 방향, 색상 구성표, 페이지 변경 컨트롤의 모양, 페이지를 넘길 때 페이지의 모양 등을 확인합니다. 
 
-eCatalog 뷰어](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer)에서 [카탈로그 미리 보기 를 참조하십시오.
+자세한 내용은 [eCatalog 뷰어에서 eCatalog 미리 보기](previewing-ecatalogs-ecatalog-viewer.md#previewing-ecatalogs-in-the-ecatalog-viewer).
 
 ## 6. eCatalog 및 관련 PDF 게시
 
 eCatalog 및 관련 PDF을 게시하면 웹 사이트 및 애플리케이션에 전달될 수 있도록 Dynamic Media 이미지 서버에 배치합니다. 게시 프로세스의 일부로 Adobe Dynamic Media Classic에서 eCatalog에 대한 URL 문자열을 활성화합니다. 이 URL을 사용하여 Dynamic Media 이미지 서버의 eCatalog를 웹 사이트 또는 애플리케이션으로 호출합니다.
 
-[찾아보기] 패널에서 eCatalog 및 PDF을 게시용으로 표시한 후 전역 탐색 막대에서 [게시] 단추를 선택하여 게시를 시작합니다. 게시 화면에서 **[!UICONTROL 게시 제출]**&#x200B;을 선택합니다.
+[찾아보기] 패널에서 eCatalog 및 PDF을 게시용으로 표시한 후 전역 탐색 막대에서 [게시] 단추를 선택하여 게시를 시작합니다. 게시 화면에서 을 선택합니다 **[!UICONTROL 게시 제출]**.
 
-[eCatalog 및 관련 PDF 게시](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs)를 참조하십시오.
+자세한 내용은 [eCatalogs 및 관련 PDF 게시](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 
 ## 7. 웹 페이지에 eCatalog 연결
 
@@ -128,4 +128,4 @@ Adobe Dynamic Media Classic은 Dynamic Media 이미지 서버에 게시할 때 e
 
 IT 팀과 협력하여 eCatalog 링크를 웹 사이트의 적절한 위치에 배치합니다. 사용자가 링크를 선택하면 eCatalog 뷰어가 나타나고 사용자가 eCatalog를 찾아볼 수 있습니다.
 
-[웹 페이지에 eCatalog 연결](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page)을 참조하십시오.
+자세한 내용은 [웹 페이지에 eCatalog 연결](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).
