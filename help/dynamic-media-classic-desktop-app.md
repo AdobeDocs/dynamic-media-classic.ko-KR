@@ -1,16 +1,16 @@
 ---
 title: Adobe Dynamic Media Classic 데스크탑 앱 - 지금 사용 가능
 description: Adobe Dynamic Media Classic 데스크탑 애플리케이션에 대해 자세히 알아보십시오.
-contentOwner: admin
+contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 92c3cccbd03f8e159ca6e1ae90558826a5b1443b
+source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
 workflow-type: tm+mt
-source-wordcount: '1996'
+source-wordcount: '2025'
 ht-degree: 1%
 
 ---
@@ -32,11 +32,14 @@ ht-degree: 1%
 Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환됩니다.
 
 * macOS 10.10 이상
+
+   >[!NOTE]
+   >
+   >macOS Monterey와 함께 사용할 때 Dynamic Media Classic 데스크탑 앱의 기능이 저하되는 것을 확인하고 있습니다. 따라서 Adobe은 향후 몇 주 내에 새로운 데스크탑 앱 버전을 출시하는 작업을 진행 중입니다.
+
 * Windows® 7 이상
 
->[!NOTE]
->
->Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이드 알림이 생성되지 않습니다 *미성년자* 릴리스. 부 릴리스의 수정 사항을 통해 혜택을 받는 고객은 업그레이드할 수 있습니다.
+Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이드 알림이 생성되지 않습니다 *미성년자* 릴리스. 부 릴리스의 수정 사항을 통해 혜택을 받는 고객은 업그레이드할 수 있습니다.
 
 ## 최신 릴리스(20.22.1)의 수정 사항 {#release-jan2022}
 
@@ -135,7 +138,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
    | EMEA 프로덕션(유럽, 중동 및 아프리카) | https://s7sps3.scene7.com/ |
    | APAC 생산(아시아 태평양) | https://s7sps5.scene7.com/ |
 
-1. 로그인하면 친숙한 브라우저 사용자 인터페이스 환경을 알 수 있습니다. 데스크탑 앱에서 평소대로 Adobe Dynamic Media Classic 활동을 계속 진행할 수 있습니다.
+1. 로그인하면 친숙한 브라우저 사용자 인터페이스 환경을 알 수 있습니다. 데스크탑 앱에서 평소대로 일상적인 Adobe Dynamic Media Classic 활동을 계속할 수 있습니다.
 
 ## 다운로드 및 *묵묵하* macOS에 최신 Adobe Dynamic Media Classic 데스크탑 앱 설치 {#install-silent-mac-dmc-app}
 
