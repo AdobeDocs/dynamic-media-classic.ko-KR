@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: f0c02d40a1a84e52b25d1c4558958af970859a07
+source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2011'
 ht-degree: 1%
 
 ---
@@ -32,14 +32,13 @@ ht-degree: 1%
 Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환됩니다.
 
 * macOS 10.10 이상
-
-   >[!NOTE]
-   >
-   >macOS Monterey와 함께 사용할 때 Dynamic Media Classic 데스크탑 앱의 기능이 저하되는 것을 확인하고 있습니다. 따라서 Adobe은 향후 몇 주 내에 새로운 데스크탑 앱 버전을 출시하는 작업을 진행 중입니다.
-
 * Windows® 7 이상
 
 Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이드 알림이 생성되지 않습니다 *미성년자* 릴리스. 부 릴리스의 수정 사항을 통해 혜택을 받는 고객은 업그레이드할 수 있습니다.
+
+## 최신 릴리스(20.22.2)에서 수정됨 - macOS만 해당 {#release-feb2022}
+
+* macOS Monterey - 후속 업로드 시 파일 업로드 페이지가 중단됩니다. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
 ## 최신 릴리스(20.22.1)의 수정 사항 {#release-jan2022}
 
@@ -94,15 +93,17 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 1. Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드합니다.
 
-   * 최신 버전(20.22.1)은 다음 위치에서 사용할 수 있습니다.
+   * 최신 버전은 다음 위치에서 사용할 수 있습니다.
+
+      * [macOS (.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+      * [Windows (.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+   * 이전 버전은 다음 위치에서 사용할 수 있습니다.
 
       * [macOS (.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows (.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
-   * 이전 버전(20.21.3)은 다음 위치에서 사용할 수 있습니다.
-
-      * [macOS (.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg)
       * [Windows® (.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
+
+<!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
         * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
@@ -153,11 +154,11 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 1. macOS용 Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 프로그램을 다운로드합니다.
 
-   * [macOS (.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+   * [macOS (.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
 1. 다음 명령을 사용하여 다운로드한 디스크 이미지(.DMG)를 마운트 지점 위치에 마운트합니다.
 
-   `hdiutil attach adobe-dynamic-media-classic-20.22.1.dmg -mountpoint <mount_point_path>`
+   `hdiutil attach adobe-dynamic-media-classic-20.22.2.dmg -mountpoint <mount_point_path>`
 
 1. .APP 파일을에 복사합니다. **[!UICONTROL 애플리케이션]** 다음 명령 사용:
 
