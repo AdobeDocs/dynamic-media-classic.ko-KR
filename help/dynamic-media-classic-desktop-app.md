@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: a53245c3a9c82fb68db1b62798b962dd3283be12
+source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
 workflow-type: tm+mt
-source-wordcount: '2011'
+source-wordcount: '2026'
 ht-degree: 1%
 
 ---
@@ -34,9 +34,11 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 * macOS 10.10 이상
 * Windows® 7 이상
 
+다음 위치에서 전체 시스템 요구 사항을 참조하십시오. [Adobe Dynamic Media Classic 데스크탑 앱에 대한 시스템 요구 사항](/help/system-requirements.md).
+
 Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이드 알림이 생성되지 않습니다 *미성년자* 릴리스. 부 릴리스의 수정 사항을 통해 혜택을 받는 고객은 업그레이드할 수 있습니다.
 
-## 최신 릴리스(20.22.2)에서 수정됨 - macOS만 해당 {#release-feb2022}
+## 최신 릴리스(20.22.2) macOS에서만 수정되었습니다 {#release-feb2022}
 
 * macOS Monterey - 후속 업로드 시 파일 업로드 페이지가 중단됩니다. <!-- https://jira.corp.adobe.com/browse/ASSETS-7948 -->
 
