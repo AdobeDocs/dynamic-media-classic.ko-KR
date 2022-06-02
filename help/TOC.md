@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Adobe Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '776'
-ht-degree: 28%
+source-wordcount: '787'
+ht-degree: 29%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 28%
 + [Adobe Dynamic Media 클래스 우수 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [이제 새로운 Adobe Dynamic Media Classic 로그인 환경을 사용할 수 있습니다](new-ui-2020.md)
 + [Experience League별 Dynamic Media 뉴스레터 아카이브 Adobe](dynamic-media-newsletter.md)
-+ Adobe Dynamic Media Classic {#intro} 소개
++ Adobe Dynamic Media Classic 소개 {#intro}
    + [Adobe Dynamic Media Classic 데스크탑 앱 - 지금 사용 가능](dynamic-media-classic-desktop-app.md)
    + [Adobe Dynamic Media Classic 도움말 정보](introduction.md)
    + [개발자 리소스](developer-resources.md)
@@ -38,7 +38,7 @@ ht-degree: 28%
    + [탐색 기본 사항](navigation-basics.md)
    + [설정 기본 사항](setup-basics.md)
    + [리치 미디어](rich-media.md)
-+ {#setup} 설정
++ 설정 {#setup}
    + [개인 설정](personal-setup.md)
    + [애플리케이션 설정](application-setup.md)
    + [게시 설정](publish-setup.md)
@@ -59,6 +59,7 @@ ht-degree: 28%
    + [자산 업로드 및 게시 정보](about-asset-upload-publish.md)
    + [파일 업로드](uploading-files.md)
    + [파일 게시](publishing-files.md)
+   + [자산 유형에 대한 Dynamic Media의 우수 사례 및 강제 제한](best-practices-enforced-limits.md)
    + [자산을 공개하기 전에 테스트](testing-assets-making-them-public.md)
    + [작업 파일 확인](checking-job-files.md)
 + 자산 관리 {#managing-assets}
@@ -100,7 +101,7 @@ ht-degree: 28%
    + [eCatalog 뷰어에서 eCatalog 미리 보기](previewing-ecatalogs-ecatalog-viewer.md)
    + [eCatalogs 및 관련 PDF 게시](publishing-ecatalogs-associated-pdfs.md)
    + [웹 페이지에 eCatalog 연결](linking-ecatalog-web-page.md)
-+ 이미지 집합 {#image-sets}
++ Image Sets {#image-sets}
    + [빠른 시작: 이미지 집합](quick-start-image-sets.md)
    + [업로드할 이미지 세트 자산 준비](preparing-image-set-assets-upload.md)
    + [이미지 집합 만들기](creating-image-set.md)

@@ -10,10 +10,10 @@ discoiquuid: 27278fef-8b0e-41cd-b393-7a4c3625d5c0
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 3460f3bd-1616-44e7-9ddb-fe74ee0c8729
-source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
+source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
 workflow-type: tm+mt
-source-wordcount: '108'
-ht-degree: 26%
+source-wordcount: '119'
+ht-degree: 24%
 
 ---
 
@@ -28,3 +28,9 @@ Adobe Dynamic Media Classic 데스크탑 앱을 사용하는 최상의 경험을
 * JAVA 지원 브라우저.
 * Windows 지원 브라우저: Internet Explorer 9.0 이상, Firefox 23 이상
 * Macintosh 지원 브라우저: Safari 6.0 이상, Firefox™ 23 이상
+
+>[!MORELIKETHIS]
+>
+>* [자산 유형에 대한 Dynamic Media의 우수 사례 및 강제 제한](/help/best-practices-enforced-limits.md)
+
+
