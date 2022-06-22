@@ -10,10 +10,10 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 21%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,6 +31,8 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 | --- | --- | --- | --- |
 | 세트당 중복 자산 수 | 중복 없음 | 100년 | 20년 |
 | 설정당 최대 이미지 수 | 세트당 5-10개 이미지 | 1000 |
+
+참조 - [Dynamic Media 제한 사항](/help/limitations.md).
 
 다음 이미지 세트 빠른 시작 은 Adobe Dynamic Media Classic의 이미지 세트 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
 
