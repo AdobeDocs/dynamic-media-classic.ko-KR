@@ -10,9 +10,9 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '675'
 ht-degree: 21%
 
 ---
@@ -25,17 +25,12 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 자세한 내용은 [이미지 및 스핀 세트: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 교육 비디오.
 
->[!NOTE]
->
->이미지 세트를 생성할 때 Adobe은 다음의 모범 사례 지침과 강제 제한을 권장합니다.
->
->* 이미지 세트당 중복 자산 수
-   >   * 우수 사례: 20년
-   >   * 강제 제한: 20년
->* 이미지 세트당 최대 페이지 수
-   >   * 우수 사례: 1000년
-   >   * 강제 제한: 1000년
+이미지 세트를 생성할 때 Adobe은 다음 우수 사례를 권장하고 다음 제한을 적용합니다.
 
+| 이미지 집합 제한 유형 | 우수 사례 | 구현된 제한 | 제한 변경: 2022년 12월 31일 |
+| --- | --- | --- | --- |
+| 세트당 중복 자산 수 | 중복 없음 | 100년 | 20년 |
+| 설정당 최대 이미지 수 | 세트당 5-10개 이미지 | 1000 |
 
 다음 이미지 세트 빠른 시작 은 Adobe Dynamic Media Classic의 이미지 세트 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
 

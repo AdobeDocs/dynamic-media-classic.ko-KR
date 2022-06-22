@@ -10,10 +10,10 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 5040b1916794d3b54f952a1df5f060be2f31006a
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 22%
+source-wordcount: '833'
+ht-degree: 23%
 
 ---
 
@@ -29,15 +29,11 @@ ht-degree: 22%
 
 자세한 내용은 [이미지 및 스핀 세트: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 교육 비디오.
 
->[!NOTE]
->
->스핀 세트를 생성할 때 Adobe은 다음과 같은 우수 사례 지침 및 강제 제한을 권장합니다.
->
->* 2D 스핀 세트당 최대 행/열 수
-   > 
-   >   * 우수 사례: 1000년
-   >   * 강제 제한: 1000년
+스핀 세트를 만들 때, Adobe은 다음 모범 사례를 권장하고 다음 제한을 적용합니다.
 
+| 스핀 세트 제한 유형 | 우수 사례 | 구현된 제한 |
+| --- | --- | --- |
+| 2D 세트당 최대 행/열 수 | 세트당 12-18개 이미지 | 1000 |
 
 이 스핀 세트 빠른 시작은 Adobe Dynamic Media Classic의 스핀 세트 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다. 1-7 단계를 수행하십시오. 각 단계가 끝나면 항목 링크를 선택하여 자세히 알아볼 수 있습니다.
 

@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Adobe Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '779'
 ht-degree: 29%
 
 ---
@@ -59,7 +59,7 @@ ht-degree: 29%
    + [자산 업로드 및 게시 정보](about-asset-upload-publish.md)
    + [파일 업로드](uploading-files.md)
    + [파일 게시](publishing-files.md)
-   + [자산 유형에 대한 Dynamic Media의 우수 사례 및 강제 제한](best-practices-enforced-limits.md)
+   + [Dynamic Media 제한 사항](limitations.md)
    + [자산을 공개하기 전에 테스트](testing-assets-making-them-public.md)
    + [작업 파일 확인](checking-job-files.md)
 + 자산 관리 {#managing-assets}

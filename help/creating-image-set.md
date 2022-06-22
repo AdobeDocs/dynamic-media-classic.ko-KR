@@ -10,9 +10,9 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: fe765d1acfa37e9d13f5ef1b655f8cf04195a8a6
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '637'
 ht-degree: 59%
 
 ---
@@ -32,17 +32,12 @@ ht-degree: 59%
 
 [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
->[!NOTE]
->
->이미지 세트를 생성할 때 Adobe은 다음의 모범 사례 지침과 강제 제한을 권장합니다.
->
->* 이미지 세트당 중복 자산 수
-   >   * 우수 사례: 20년
-   >   * 강제 제한: 20년
-> * 이미지 세트당 최대 페이지 수
-   >   * 우수 사례: 1000년
-   >   * 강제 제한: 1000년
+이미지 세트를 생성할 때 Adobe은 다음 우수 사례를 권장하고 다음 제한을 적용합니다.
 
+| 이미지 집합 제한 유형 | 우수 사례 | 구현된 제한 | 제한 변경: 2022년 12월 31일 |
+| --- | --- | --- | --- |
+| 세트당 중복 자산 수 | 중복 없음 | 100년 | 20년 |
+| 설정당 최대 이미지 수 | 세트당 5-10개 이미지 | 1000 |
 
 **이미지 세트 만들기:**
 

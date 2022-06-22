@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '821'
 ht-degree: 39%
 
 ---
@@ -20,14 +20,20 @@ ht-degree: 39%
 
 일반적으로 Adobe PDF 파일은 eCatalog의 소스입니다. 이러한 파일은 모든 이미지 정보, 글꼴 및 벡터 그래픽을 포함합니다. 이미지를 사용하여 eCatalog를 작성할 수도 있습니다. 업로드할 PDF 파일을 준비했으면 전역 탐색 모음에서 를 선택합니다 **[!UICONTROL 업로드]** PDF 업로드를 시작합니다.
 
+페이지 추출을 위해 PDF을 업로드할 때 Adobe에서 다음 제한을 적용합니다.
+
+| PDF 제한 유형 | 구현된 제한 | 제한 변경: 2022년 12월 31일 |
+| --- | --- | --- |
+| 추출을 위해 고려할 PDF의 최대 페이지 수 | 5000(새 업로드의 경우) | 100년 |
+
+<!-- 
 >[!NOTE]
 >
->페이지 추출을 위해 PDF을 업로드할 때 Adobe은 다음과 같은 모범 사례 지침 및 강제 제한을 지정합니다.
+>When you upload a PDF for page extraction, Adobe imposes the following best practice guideline and enforced limit.d
 >
->* 추출에 대해 고려되는 PDF당 최대 페이지 수
-   >   * 우수 사례: 100년
-   >   * 강제 제한: 1000(새로 고침 업로드용)
-
+>* Maximum page size of a PDF to be considered for extraction
+>   * Best practice: 100
+>   * Enforced limit: 1000 (for refresh uploads) -->
 
 ## PDF 파일 준비 {#preparing-your-pdf-files}
 

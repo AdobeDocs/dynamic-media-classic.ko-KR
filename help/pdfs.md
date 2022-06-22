@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '699'
 ht-degree: 36%
 
 ---
@@ -21,14 +21,11 @@ ht-degree: 36%
 
 PDF(Portable Document Format) 파일은 Adobe Dynamic Media Classic에서 eCatalog를 만드는 데 가장 많이 사용됩니다. PDF 파일을 업로드할 때 Adobe Dynamic Media Classic은 기본적으로 페이지를 래스터화하므로 리치 미디어를 작성하는 데 사용할 수 있습니다.
 
->[!NOTE]
->
->페이지 추출을 위해 PDF을 업로드할 때 Adobe은 다음과 같은 모범 사례 지침 및 강제 제한을 지정합니다.
->
->* 추출에 대해 고려되는 PDF당 최대 페이지 수
-   >   * 우수 사례: 100년
-   >   * 강제 제한: 1000(새로 고침 업로드용)
+페이지 추출을 위해 PDF을 업로드할 때 Adobe에서 다음 제한을 적용합니다.
 
+| PDF 제한 유형 | 구현된 제한 | 제한 변경: 2022년 12월 31일 |
+| --- | --- | --- |
+| 추출을 위해 고려할 PDF의 최대 페이지 수 | 5000(새 업로드의 경우) | 100년 |
 
 ## PDF 업로드 선택 사항 {#pdf-upload-options}
 

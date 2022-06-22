@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: ac9cba2c33fb1df65e64746dea2557632b7b2903
+source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 54%
+source-wordcount: '947'
+ht-degree: 53%
 
 ---
 
@@ -48,15 +48,11 @@ Adobe Dynamic Media Classic에서 스핀 세트를 작성하거나 만들 순서
 
 [수동 자산 게시](publishing-files.md#manually-publishing-assets) 및 [수동 자산 게시 취소](publishing-files.md#manually-unpublishing-assets)를 참조하십시오.
 
->[!NOTE]
->
->스핀 세트를 생성할 때 Adobe은 다음의 모범 사례 지침과 강제 제한을 권장합니다.
->
->* 2D 스핀 세트당 최대 행/열 수
-   > 
-   >   * 우수 사례: 1000년
-   >   * 강제 제한: 1000년
+스핀 세트를 만들 때, Adobe은 다음 모범 사례를 권장하고 다음 제한을 적용합니다.
 
+| 스핀 세트 제한 유형 | 우수 사례 | 구현된 제한 |
+| --- | --- | --- |
+| 2D 세트당 최대 행/열 수 | 세트당 12-18개 이미지 | 1000 |
 
 스핀 세트를 저장한 후 [작성: 스핀 세트] 페이지의 [미리 보기]를 사용하여 기본 뷰어에서 스핀 세트가 어떻게 표시되는지 확인할 수 있습니다.
 
