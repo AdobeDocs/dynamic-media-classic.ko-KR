@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '952'
+ht-degree: 53%
 
 ---
 
@@ -50,7 +50,7 @@ Adobe Dynamic Media Classic에서 스핀 세트를 작성하거나 만들 순서
 
 스핀 세트를 만들 때, Adobe은 다음 모범 사례를 권장하고 다음 제한을 적용합니다.
 
-| 스핀 세트 제한 유형 | 우수 사례 | 구현된 제한 |
+| 스핀 세트 제한 유형 | 우수 사례 | 제한 적용 |
 | --- | --- | --- |
 | 2D 세트당 최대 행/열 수 | 세트당 12-18개 이미지 | 1000 |
 

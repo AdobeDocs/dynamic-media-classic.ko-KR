@@ -10,10 +10,10 @@ discoiquuid: 612a425f-2840-46c4-8e5a-c0bc5f738f4e
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '673'
+ht-degree: 21%
 
 ---
 
@@ -27,9 +27,9 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 이미지 세트를 생성할 때 Adobe은 다음 우수 사례를 권장하고 다음 제한을 적용합니다.
 
-| 이미지 집합 제한 유형 | 우수 사례 | 구현된 제한 | 제한 변경: 2022년 12월 31일 |
-| --- | --- | --- | --- |
-| 세트당 중복 자산 수 | 중복 없음 | 100년 | 20년 |
+| 제한 유형 | 우수 사례 | 제한 적용 |
+| --- | --- | --- |
+| 세트당 중복 자산 수 | 중복 없음 | 20년 |
 | 설정당 최대 이미지 수 | 세트당 5-10개 이미지 | 1000 |
 
 참조 - [Dynamic Media 제한 사항](/help/limitations.md).

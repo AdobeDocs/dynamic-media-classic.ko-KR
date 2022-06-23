@@ -10,10 +10,10 @@ discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '635'
+ht-degree: 59%
 
 ---
 
@@ -34,9 +34,9 @@ ht-degree: 0%
 
 이미지 세트를 생성할 때 Adobe은 다음 우수 사례를 권장하고 다음 제한을 적용합니다.
 
-| 이미지 집합 제한 유형 | 우수 사례 | 구현된 제한 | 제한 변경: 2022년 12월 31일 |
-| --- | --- | --- | --- |
-| 세트당 중복 자산 수 | 중복 없음 | 100년 | 20년 |
+| 제한 유형 | 우수 사례 | 제한 적용 |
+| --- | --- | --- |
+| 세트당 중복 자산 수 | 중복 없음 | 20년 |
 | 설정당 최대 이미지 수 | 세트당 5-10개 이미지 | 1000 |
 
 참조 - [Dynamic Media 제한 사항](/help/limitations.md).

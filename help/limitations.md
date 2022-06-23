@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '173'
+ht-degree: 2%
 
 ---
 
@@ -31,12 +31,12 @@ ht-degree: 0%
 
 <!-- | **Image** - Number of Smart Crops per image | 5 | 100 |  | -->
 
-| 자산 - 제한 유형 | 우수 사례 | 구현된 제한 | 제한 변경: 2022년 12월 31일 |
+| 자산 - 제한 유형 | 우수 사례 | 제한 적용 | 2022년 12월 31일에 제한하는 것으로 변경 |
 | --- | --- | --- | --- |
-| **이미지 세트** - 세트당 중복 자산 수 | 중복 없음 | 100년 | 20년 |
-| **이미지 세트** - 세트당 최대 이미지 수 | 세트당 5-10개 이미지 | 1000 |
+| **모든 세트** - 세트당 중복 자산 수 | 중복 없음 | 20년 |  |
+| **모든 세트** - 세트당 최대 자산 수 | 세트당 5-10개 이미지 | 1000 |
 | **스핀 세트** - 2D 세트당 최대 행/열 수 | 세트당 12-18개 이미지 | 1000년 |
-| **PDF** - 추출할 PDF에 대한 최대 페이지 수 |  | 5000(새 업로드의 경우) | 100년 |
+| **PDF** - 추출할 PDF에 대한 최대 페이지 수 |  | 5000(새 업로드의 경우) | 100(모든 PDF에 대해) |
 
 <!-- See also [Dynamic Media limitations](/help/limitations.md) -->
 

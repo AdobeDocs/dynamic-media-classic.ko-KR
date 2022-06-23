@@ -10,10 +10,10 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '706'
+ht-degree: 36%
 
 ---
 
@@ -23,9 +23,9 @@ PDF(Portable Document Format) 파일은 Adobe Dynamic Media Classic에서 eCatal
 
 페이지 추출을 위해 PDF을 업로드할 때 Adobe에서 다음 제한을 적용합니다.
 
-| PDF 제한 유형 | 구현된 제한 | 제한 변경: 2022년 12월 31일 |
+| 제한 유형 | 제한 적용 | 2022년 12월 31일에 제한하는 것으로 변경 |
 | --- | --- | --- |
-| 추출을 위해 고려할 PDF의 최대 페이지 수 | 5000(새 업로드의 경우) | 100년 |
+| 추출을 위해 고려할 PDF의 최대 페이지 수 | 5000(새 업로드의 경우) | 100(모든 PDF에 대해) |
 
 참조 - [Dynamic Media 제한 사항](/help/limitations.md).
 

@@ -9,10 +9,10 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: d5dcb990783932f3c5fdd101d1a4c631e73fcdde
+source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '827'
+ht-degree: 38%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 페이지 추출을 위해 PDF을 업로드할 때 Adobe에서 다음 제한을 적용합니다.
 
-| PDF 제한 유형 | 구현된 제한 | 제한 변경: 2022년 12월 31일 |
+| PDF 제한 유형 | 제한 적용 | 2022년 12월 31일에 제한하는 것으로 변경 |
 | --- | --- | --- |
 | 추출을 위해 고려할 PDF의 최대 페이지 수 | 5000(새 업로드의 경우) | 100년 |
 
