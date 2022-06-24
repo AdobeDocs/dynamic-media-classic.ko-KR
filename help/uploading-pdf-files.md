@@ -9,9 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: 7c1dfa7382b6eaf746fe7f0ac426472180c0c70c
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '829'
 ht-degree: 38%
 
 ---
@@ -24,18 +24,9 @@ ht-degree: 38%
 
 | PDF 제한 유형 | 제한 적용 | 2022년 12월 31일에 제한하는 것으로 변경 |
 | --- | --- | --- |
-| 추출을 위해 고려할 PDF의 최대 페이지 수 | 5000(새 업로드의 경우) | 100년 |
+| 추출을 위해 고려할 PDF의 최대 페이지 수 | 5000(새 업로드의 경우) | 100(모든 PDF에 대해) |
 
 참조 - [Dynamic Media 제한 사항](/help/limitations.md).
-
-<!-- 
->[!NOTE]
->
->When you upload a PDF for page extraction, Adobe imposes the following best practice guideline and enforced limit.d
->
->* Maximum page size of a PDF to be considered for extraction
->   * Best practice: 100
->   * Enforced limit: 1000 (for refresh uploads) -->
 
 ## PDF 파일 준비 {#preparing-your-pdf-files}
 
