@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: 7a718386b128f650b98193dbba60e1b45abac53f
+source-git-commit: a0f48ea933380ffb92a196a27d5b63c1dc8948cc
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 3%
+source-wordcount: '375'
+ht-degree: 2%
 
 ---
 
@@ -40,7 +40,9 @@ ht-degree: 3%
 
 ## Dynamic Media 뷰어용 지원되지 않는 웹 브라우저 및 운영 체제 조합 {#unsupported-browser-os}
 
-Dynamic Media 뷰어는 다음 웹 브라우저 및 운영 체제 조합을 지원하지 않습니다.
+<!-- CQDOC-19433 -->
+
+Adobe Dynamic Media 뷰어는 다음 웹 브라우저 및 운영 체제 조합을 지원하지 않습니다.
 
 * Internet Explorer 11 + Windows 7
 * Internet Explorer 11 + Windows 8.1
@@ -51,4 +53,27 @@ Dynamic Media 뷰어는 다음 웹 브라우저 및 운영 체제 조합을 지�
 * Safari 7 + OS X 10.9 Mavericks
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
+
+## TLS 1.0 및 1.1 지원 종료 {#tls}
+
+<!-- CQDOC-19433 -->
+
+2022년 9월 30일부터 Adobe Dynamic Media Viewer는 다음 사항에 대한 지원을 종료합니다.
+
+* TLS(전송 계층 보안) 1.0 및 1.1
+* TLS 1.2에 있는 다음의 약한 암호:
+   * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384
+   * TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+   * TLS_RSA_WITH_AES_256_GCM_SHA384
+   * TLS_RSA_WITH_AES_256_CBC_SHA256
+   * TLS_RSA_WITH_AES_256_CBC_SHA
+   * TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA256
+   * TLS_ECDHE_RSA_WITH_AES_128_CBC_SHA
+   * TLS_RSA_WITH_AES_128_GCM_SHA256
+   * TLS_RSA_WITH_AES_128_CBC_SHA256
+   * TLS_RSA_WITH_AES_128_CBC_SHA
+   * TLS_RSA_WITH_동백_256_CBC_SHA
+   * TLS_RSA_WITH_동백_128_CBC_SHA
+   * TLS_ECDHE_RSA_WITH_3DES_EDE_CBC_SHA
+   * TLS_RSA_WITH_SDES_EDE_CBC_SHA
 
