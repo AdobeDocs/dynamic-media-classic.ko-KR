@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 3345861b5d65f46071578a81913e6b0a4eeb6b8d
+source-git-commit: 43e0c03b535d30ffed13e1e389935e34563baa9e
 workflow-type: tm+mt
-source-wordcount: '2026'
+source-wordcount: '2036'
 ht-degree: 1%
 
 ---
@@ -185,11 +185,12 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 ## 다운로드 및 *묵묵하* windows®에 최신 Adobe Dynamic Media Classic 데스크탑 앱 설치 {#install-silent-windows-dmc-app}
 
-사용하는 명령은 기본 MSI 자동 설치에 사용됩니다. 그러나 Adobe Dynamic Media Classic 데스크탑 앱 설치 프로그램은 InstallShield를 사용하여 만든 InstallScript MSI 설치 프로그램입니다. 레코드 모드에서 설치 관리자를 실행하면 모든 사용자 상호 작용이 응답 파일에 기록됩니다. 이 응답 파일은 다음에 설명된 자동 설치에 사용됩니다. [자동 모드에서 설치 실행.](https://docs.revenera.com/installshield19helplib/helplibrary/SilentInstall.htm)
+사용하는 명령은 기본 MSI 자동 설치에 사용됩니다. 그러나 Adobe Dynamic Media Classic 데스크탑 앱 설치 프로그램은 InstallShield를 사용하여 만든 InstallScript MSI 설치 프로그램입니다. 레코드 모드에서 설치 관리자를 실행하면 모든 사용자 상호 작용이 응답 파일에 기록됩니다. 이 응답 파일은 다음에 설명된 자동 설치에 사용됩니다. [자동 모드에서 설치 실행](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
 참조:
 
 * [Mac 또는 Windows®에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 설치합니다](#installation-dmc-app)
+
 * [macOS에 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동 설치](#install-silent-mac-dmc-app)
 
 및 를 다운로드하려면 *묵묵하* windows®에 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 설치합니다.
@@ -212,7 +213,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
    `adobe-dynamic-media-classic-20.22.1.exe /s /f1"C:\Setup.iss"`
 
-   명령줄 매개 변수에 대한 자세한 내용은 [Setup.exe 및 Update.exe 명령줄 매개 변수](https://docs.revenera.com/installshield19helplib/helplibrary/IHelpSetup_EXECmdLine.htm)
+   명령줄 매개 변수에 대한 자세한 내용은 [Setup.exe 및 Update.exe 명령줄 매개 변수](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/IHelpSetup_EXECmdLine.htm?Highlight=Setup.exe%20and%20Update.exe%20Command-Line%20Parameters).
 
 1. 애플리케이션을 열면 새 Adobe Dynamic Media Classic 로그인 페이지가 표시됩니다.
 
