@@ -9,10 +9,10 @@ discoiquuid: a802ead0-401e-4600-aedf-e6414f7983e1
 feature: Dynamic Media Classic,SDK/API
 role: Developer
 exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: fe98d962624284b70a1297d7276478de1453c83e
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 35%
+source-wordcount: '309'
+ht-degree: 36%
 
 ---
 
@@ -24,31 +24,46 @@ Adobe Dynamic Media Classic은 각 Adobe Dynamic Media Classic 소프트웨어 �
 
 이미지 제공 및 이미지 렌더링에 대한 참조 안내서 및 뷰어는 이러한 서버 모듈에 대한 http 프로토콜을 설명합니다. 웹 사이트 또는 사용자 지정 애플리케이션용 Adobe Dynamic Media Classic 리치 미디어를 사용자 지정하고 사용하려는 웹 사이트 개발자는 이러한 안내서를 사용할 수 있습니다. Adobe Dynamic Media Classic에서는 사용자가 데스크탑 앱, 일반 http 프로토콜 표준 및 규칙, 기본 이미징 용어에 익숙하다고 가정합니다.
 
-## Dynamic Media Classic API Adobe
+## 뷰어 {#viewers-guide}
+
+| 문서 | 웹 주소 |
+| --- | --- |
+| 뷰어 참조 가이드 및 릴리스 노트 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) |
+| 뷰어 라이브러리 예 | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
+
+## IS/IR(이미지 제공/이미지 렌더링) API {#is-ir-api-guide}
+
+| 문서 | 웹 주소 |
+| --- | --- |
+| API 참조 가이드 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/homeisir.html) |
+
+## 이미지 프로덕션 시스템(IPS) API {#ips-api-guide}
+
+| 문서 | 웹 주소 |
+| --- | --- |
+| API 참조 가이드 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/c-overview.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-production-api/c-overview.html) |
+
+## 이미지 작성 {#ia}
+
+| 문서 | 웹 주소 |
+| --- | --- |
+| 사용 안내서 | 이 설명서는 Adobe Dynamic Media Classic 기술 지원에 문의하십시오. |
+| 릴리스 정보 | 이 설명서는 Adobe Dynamic Media Classic 기술 지원에 문의하십시오. |
+
+## Dynamic Media Classic API {#dmc-api}
 
 | 문서 | 웹 주소 |
 | --- | --- |
 | API 참조 가이드 | 설명서는 Adobe Dynamic Media Classic 기술 지원에 문의하십시오. |
 
-## 이미지 작성
 
-| 문서 | 웹 주소 |
-| --- | --- |
-| 사용자 안내서 | 이 설명서는 Adobe Dynamic Media Classic 기술 지원에 문의하십시오. |
-| 릴리스 정보 | 이 설명서는 Adobe Dynamic Media Classic 기술 지원에 문의하십시오. |
 
-## 이미지 제공 및 이미지 렌더링
 
-| 문서 | 웹 주소 |
-| --- | --- |
-| API 참조 가이드 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
 
-## 뷰어
 
-| 문서 | 웹 주소 |
-| --- | --- |
-| 뷰어 참조 가이드 및 릴리스 노트 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html) |
-| 뷰어 라이브러리 예 | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
+
+
+
 
 
 <!-- 
