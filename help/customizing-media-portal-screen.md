@@ -2,7 +2,7 @@
 title: Media Portal 화면 사용자 지정
 description: Adobe Dynamic Media Classic에서 Media Portal 화면을 사용자 지정하는 방법을 알아봅니다.
 uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,7 +10,7 @@ discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 32%
@@ -21,25 +21,25 @@ ht-degree: 32%
 
 Media Portal 스타일 설정을 사용하면 [Media Portal] 화면을 회사 로고와 색상으로 브랜딩할 수 있습니다. 스타일 설정을 사용하여 회사 브랜딩을 Media Portal에 지정합니다.
 
-스타일 설정에 액세스하려면 **[!UICONTROL 설정]** > **[!UICONTROL Media Portal 설정]** > **[!UICONTROL 스타일 설정]**&#x200B;으로 이동하십시오. 설정을 만든 후 **[!UICONTROL 저장]**&#x200B;을 선택하여 설정을 저장하십시오. **[!UICONTROL 복원]**&#x200B;을 선택하여 기본 설정을 다시 가져올 수 있습니다. 선택할 때 [미리 보기] 패널에 표시되는 방식이 표시됩니다.
+스타일 설정에 액세스하려면 다음 위치로 이동하십시오. **[!UICONTROL 설정]** > **[!UICONTROL Media Portal 설정]** > **[!UICONTROL 스타일 설정]**. 반드시 **[!UICONTROL 저장]** 설정을 만든 후 설정을 저장합니다. 선택할 수 있습니다 **[!UICONTROL 복원]** 기본 설정을 다시 가져오기 위해 선택할 때 [미리 보기] 패널에 표시되는 방식이 표시됩니다.
 
-* **[!UICONTROL 로고]**  -  **[!UICONTROL 찾아보기]**&#x200B;를 선택한 다음 로고 이미지 선택 창에서 그래픽을 선택합니다.
+* **[!UICONTROL 로고]** - 선택 **[!UICONTROL 찾아보기]**&#x200B;그런 다음 로고 이미지 선택 창에서 그래픽을 선택합니다.
 
-* **[!UICONTROL 응용 프로그램]**  - [배경 그라디언트 색상] 메뉴에서 선택 사항을 선택하여 그라디언트 색상 블렌드를 만듭니다.
+* **[!UICONTROL 애플리케이션]** - [배경 그라디언트 색상] 메뉴에서 선택 사항을 선택하여 그라디언트 색상 블렌드를 만듭니다.
 
-* **[!UICONTROL 트리]**  - 롤오버 색상(항목 위로 포인터를 이동할 때 나타나는 색상)과 선택 색상(항목을 선택할 때 나타나는 색상)을 선택합니다.
+* **[!UICONTROL 트리]** - 롤오버 색상(항목 위로 포인터를 이동할 때 나타나는 색상)과 선택 색상(항목을 선택할 때 나타나는 색상)을 선택합니다.
 
-* **[!UICONTROL 아코디언]**  - [세부 정보] 보기에서 화면 오른쪽에 표시되는 아코디언 색상을 배경색, 테두리 스타일, 롤오버 및 선택한 색상으로 선택합니다.
+* **[!UICONTROL 아코디언]** - [세부 정보] 보기에서 화면 오른쪽에 표시되는 아코디언 색상을 배경색, 테두리 스타일, 롤오버 및 선택한 색상을 선택합니다.
 
-* **[!UICONTROL 아코디언 헤더]**  - 아코디언 헤더 굵게 면에서 텍스트를 만들지 여부를 선택합니다.
+* **[!UICONTROL 아코디언 헤더]** - 아코디언 헤더 굵게 면에서 텍스트를 만들지 여부를 선택합니다.
 
-* **[!UICONTROL Datagrid]**  - 데이터 그리드의 헤더 행에 대한 색상을 선택합니다.
+* **[!UICONTROL Datagrid]** - 데이터 그리드의 머리글 행에 대한 색상을 선택합니다.
 
-* **[!UICONTROL 경고]**  - 경고 메시지 상자의 배경색을 선택합니다.
+* **[!UICONTROL 경고]** - 경고 메시지 상자의 배경색을 선택합니다.
 
-* **[!UICONTROL 진행률 표시줄]**  - 업로드 및 다운로드의 진행 상태를 나타내는 막대의 색상을 선택합니다.
+* **[!UICONTROL 진행률 표시줄]** - 업로드 및 다운로드 진행 상황을 나타내는 막대의 색상을 선택합니다.
 
-Media Portal 사용자가 선택한 스타일 설정을 보려면 `?company=(company name)`을 Media Portal에 액세스하는 URL에 추가해야 합니다. 예를 들어 스타일 설정을 보려면 다음 URL에서 PortalCo 회사에 액세스하는 Media Portal 사용자의 경우 the following:
+Media Portal 사용자가 선택한 스타일 설정을 보려면 해당 설정을 추가해야 합니다 `?company=(company name)` 를 눌러 Media Portal에 액세스할 수 있는 URL로 이동합니다. 예를 들어 스타일 설정을 보려면 다음 URL에서 PortalCo 회사에 액세스하는 Media Portal 사용자의 경우 the following:
 
 `https://s7sps1.scene7.com/MediaPortal`
 

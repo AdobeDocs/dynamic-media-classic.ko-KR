@@ -2,7 +2,7 @@
 title: 스핀 세트 만들기
 description: Adobe Dynamic Media Classic에서 스핀 세트를 만드는 방법을 알아봅니다.
 uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,10 +10,10 @@ discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '952'
-ht-degree: 53%
+ht-degree: 50%
 
 ---
 
@@ -27,13 +27,13 @@ ht-degree: 53%
 
 ## 회전 집합 이미지 촬영에 대한 지침 {#guidelines-for-shooting-spin-set-images}
 
-일반적으로 회전 집합에 있는 이미지 수가 많을수록 이미지 회전 효과가 향상됩니다. 그러나 집합에 많은 이미지를 포함하면 이미지를 로드하는 데 걸리는 시간도 증가합니다. Adobe Dynamic Media Classic에서는 스핀 세트에서 사용할 이미지를 촬영하기 위해 다음 지침을 권장합니다.
+일반적으로 스핀 세트에 있는 이미지가 많을수록 이미지 회전 효과가 더 좋습니다. 그러나 집합에 많은 이미지를 포함하면 이미지를 로드하는 데 걸리는 시간도 증가합니다. Adobe Dynamic Media Classic에서는 스핀 세트에서 사용할 이미지를 촬영하기 위해 다음 지침을 권장합니다.
 
 * 적어도, 1차원 스핀 세트에 8-12개의 이미지와 2차원 스핀 세트에 있는 16-24개의 이미지를 사용합니다.
 * 손실 없는 형식을 사용합니다. TIFF 및 PNG가 권장됩니다.
 * 항목이 완전 흰색이나 다른 고대비 배경으로 표시되도록 모든 이미지를 마스킹합니다. 선택적으로 그림자를 추가합니다.
 * 제품 세부 사항의 광원과 초점이 적절한지 확인합니다.
-* 마네킨이나 모델을 사용하여 패션 의류의 회전 이미지를 촬영합니다. 마네킹은 종종 마스킹되거나(유리 마네킹을 사용), 스티처리된 마네킹/드레싱이 이미지에 표시됩니다. 각도 수를 정의하여 모델 회전 집합을 만들 수 있습니다. 모델을 단계별로 안내하고 각 샷의 방향을 확인할 수 있도록 바닥에 있는 테이프로 각 각도를 표시합니다.
+* 마네킨이나 모델을 사용하여 패션 의류의 회전 이미지를 촬영합니다. 마네킹은 종종 마스킹되거나(유리 마네킹을 사용), 스티처리된 마네킹/드레싱이 이미지에 표시됩니다. 각도 수를 정의하여 모델 스핀 세트를 생성할 수 있습니다. 모델을 단계별로 안내하고 각 샷의 방향을 확인할 수 있도록 바닥에 있는 테이프로 각 각도를 표시합니다.
 
 ## 스핀 세트 만들기 {#create}
 

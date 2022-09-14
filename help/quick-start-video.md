@@ -1,17 +1,17 @@
 ---
-title: '"빠른 시작: Adobe Dynamic Media Classic의 비디오"'
+title: "빠른 시작: Adobe Dynamic Media Classic의 비디오"
 description: Adobe Dynamic Media Classic 비디오 소개 및 빠른 시작 을 통해 신속하게 시작하고 실행할 수 있습니다.
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1806'
-ht-degree: 28%
+source-wordcount: '1808'
+ht-degree: 25%
 
 ---
 
@@ -31,42 +31,42 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android™, BlackBerry®
    1. 플레이어가 예상 대역폭보다 작거나 같은 가장 높은 대역폭 스트림을 선택합니다.
    1. 플레이어는 사용 가능한 대역폭의 80%만 고려합니다. 그러나, 만약 그것이 전환하고 있다면, 그것은 단지 70%에서 더 보수적인데, 그것은 과대평가하고 즉시 다시 돌아와야 하는 것을 피합니다.
 
-알고리즘에 대한 기술 정보는 [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)에서 알고리즘 논리를 참조하십시오.
+에서 알고리즘의 논리를 참조하십시오. [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) 자세한 내용은
 
 단일 비디오 및 응용 비디오 세트를 관리하기 위해 Adobe Dynamic Media Classic에서는 다음을 지원합니다.
 
-* 지원되는 많은 비디오 형식 및 오디오 형식에서 비디오를 업로드하고 여러 화면에서 재생할 수 있도록 비디오를 MP4 H.264 형식으로 인코딩. 사전 정의된 Adobe Dynamic Media Classic 응용 비디오 사전 설정, 단일 비디오 인코딩 사전 설정을 사용하거나 자체 인코딩을 사용자 지정하여 비디오의 품질과 크기를 제어할 수 있습니다.
+* 지원되는 다양한 비디오 형식 및 오디오 포맷의 비디오를 업로드하고 여러 화면에서 재생되도록 비디오를 MP4 H.264 형식으로 인코딩합니다. 사전 정의된 Adobe Dynamic Media Classic 응용 비디오 사전 설정, 단일 비디오 인코딩 사전 설정을 사용하거나 자체 인코딩을 사용자 지정하여 비디오의 품질과 크기를 제어할 수 있습니다.
 
-[응용 비디오 사전 설정 활성화 또는 비활성화](/help/application-setup.md#activating-or-deactivating-adaptive-video-presets)를 참조하십시오
+자세한 내용은 [응용 비디오 사전 설정 활성화 또는 비활성화](/help/application-setup.md#activating-or-deactivating-adaptive-video-presets)
 
-[비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오도 참조하십시오.
+참조 - [비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오.
 
 응용 비디오 세트가 생성되면 MP4 비디오가 포함됩니다.
 
 >[!NOTE]
 >
->기본/소스 비디오 및 기타 소스 형식 비디오는 응용 비디오 세트에 추가되지 않은 *입니다.*
+>기본/소스 비디오 및 기타 소스 포맷 비디오는 *not* 응용 비디오 세트에 추가되었습니다.
 
 * Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark 및 Universal_HTML5_MixedMedia_light 뷰어의 비디오 캡션 및 Universal_profile5_Video, Universal_HTML5_MixedMedia_dark 및 Universal_HTML5_MixedMedia_light 뷰어의 비디오 장 탐색에 있는 비디오 캡션 기능입니다.
 
-   [비디오에 캡션 추가](adding-captions-video.md)를 참조하십시오.
+   자세한 내용은 [비디오에 캡션 추가](adding-captions-video.md).
 
-   [비디오에 장 마커 추가](adding-chapter-markers-video.md)를 참조하십시오.
+   자세한 내용은 [비디오에 장 마커 추가](adding-chapter-markers-video.md).
 
 * 비디오 자산의 효율적인 관리를 위해 전체 메타데이터 지원을 사용하여 비디오를 구성하고 찾고 검색합니다.
 * iPhone, iPad, Android™, BlackBerry® 및 Windows® 휴대폰을 비롯한 모바일 장치, 웹, 데스크탑 및 모바일 장치에 응용 비디오 세트를 제공합니다.
 
    응용 비디오 스트리밍은 다양한 iOS 플랫폼에서 지원됩니다.
 
-   [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html)에서 최신 지원을 참조하십시오.
+   에서 최신 지원을 확인하십시오. [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
    Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다. 다음 웹 사이트에서 이 비디오 형식을 지원하는 BlackBerry® 장치를 찾을 수 있습니다.
 
-   BlackBerry®](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482)에서 지원되는 비디오 형식을 참조하십시오.[
+   자세한 내용은 [BlackBerry®에서 지원되는 비디오 형식](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
 
    다음 위치에서 이 비디오 형식을 지원하는 Windows® 장치를 찾을 수 있습니다.
 
-   Windows® Phone](https://docs.microsoft.com/en-us/)에서 지원되는 비디오 형식을 참조하십시오.[
+   자세한 내용은 [Windows® Phone에서 지원되는 비디오 형식](https://docs.microsoft.com/en-us/).
 
 * 다음을 포함하여 Adobe Dynamic Media Classic 뷰어 사전 설정을 사용하여 비디오를 재생합니다.
 
@@ -87,72 +87,72 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android™, BlackBerry®
 
 **빠른 시작**
 
-다음 단계별 워크플로우 설명은 Adobe Dynamic Media Classic의 응용 비디오 세트를 빠르게 설정 및 실행하는 데 도움이 되도록 설계되었습니다. 각 단계 뒤에는 자세한 정보를 확인할 수 있는 항목 제목의 상호 참조가 있습니다.
+다음 단계별 워크플로우 설명은 Adobe Dynamic Media Classic의 응용 비디오 세트를 빠르게 설정 및 실행하는 데 도움이 되도록 설계되었습니다. 각 단계 후에는 추가 정보를 찾을 수 있는 주제 제목에 대한 상호 참조가 있습니다.
 
 ## 1. 비디오 업로드 및 인코딩
 
 다음 2가지 시나리오 중 하나를 사용하여 적응형 비디오 집합을 업로드하고 생성하십시오.
 
-* **미리 인코딩된 비디오 업로드**  - 비디오가 Adobe Dynamic Media Classic 외부에서 이미 인코딩된 경우 전역 탐색 막대에서 업로드  **** 를 선택하여 MP4 비디오 파일을 Adobe Dynamic Media Classic에 바로 찾아 업로드합니다. 그런 다음 **[!UICONTROL 빌드]** > **[!UICONTROL 응용 비디오 세트]**&#x200B;로 이동합니다. 비디오 파일을 찾습니다. 원하는 비디오 파일을 [적응형 비디오 집합] 테이블로 끌어서 놓고 집합을 저장합니다.
-* **마스터 소스 비디오 업로드**  - 비디오가 인코딩되지 않은 경우 전역 탐색 막대에서 업로드  **** 를 선택하여 마스터 비디오 소스 파일(비MP4)을 업로드합니다. Adobe Dynamic Media Classic은 MP4 파일로 인코딩합니다. **[!UICONTROL 업로드 작업 옵션]** 대화 상자의 **[!UICONTROL 비디오 옵션]**&#x200B;에서 **[!UICONTROL 응용 비디오]**&#x200B;를 선택합니다.
+* **미리 인코딩된 비디오 업로드** - 비디오가 Adobe Dynamic Media Classic 외부에서 이미 인코딩된 경우 전역 탐색 막대에서 을 선택합니다. **[!UICONTROL 업로드]** MP4 비디오 파일을 찾아 Adobe Dynamic Media Classic에 바로 업로드하려면 그런 다음 **[!UICONTROL 빌드]** > **[!UICONTROL 응용 비디오 세트]**. 비디오 파일을 찾습니다. 원하는 비디오 파일을 응용 비디오 세트 테이블로 끌어서 놓은 다음 세트를 저장합니다.
+* **기본 소스 비디오 업로드** - 비디오가 인코딩되지 않은 경우 전역 탐색 막대에서 을 선택합니다. **[!UICONTROL 업로드]** 기본 비디오 소스 파일(MP4가 아닌 파일)을 업로드하려면 Adobe Dynamic Media Classic은 MP4 파일로 인코딩합니다. 에서 **[!UICONTROL 업로드 작업 옵션]** 대화 상자, 아래 **[!UICONTROL 비디오 옵션]**, 선택 **[!UICONTROL 응용 비디오]**.
 
    이 기본 옵션을 이용하면 16:9이든, 4:3이든 업로드한 비디오 크기에 맞게 올바른 인코딩 사전 설정을 비디오에 자동으로 적용하는 적응형 비디오 집합을 만들 수 있습니다. 업로드 작업을 제출하면 올바른 종횡비에 세 개의 인코딩 비디오 설정이 포함된 응용 비디오 세트가 자동으로 생성됩니다.
 
-   또는 동일한 **[!UICONTROL 작업 옵션]** 대화 상자의 **[!UICONTROL EVideo 옵션]**&#x200B;에서 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장합니다. **데스크탑**, **모바일(iPhone, iPad, Android™)** 및 **태블릿(iPad, Android™)**&#x200B;에서 원하는 개별 비디오 인코딩 사전 설정을 선택하여 MP4 파일을 만듭니다.
+   또는, 동일한 **[!UICONTROL 작업 옵션]** 대화 상자, 아래 **[!UICONTROL 비디오 옵션]**, 확장 **[!UICONTROL 단일 인코딩 사전 설정]**. 원하는 개별 비디오 인코딩 사전 설정을 선택합니다 **데스크탑**, **모바일(iPhone, iPad, Android™)**, 및 **태블릿(iPad, Android™)** MP4 파일을 만들 수 있습니다.
 
-* 또는 **[!UICONTROL 재처리]** 기능을 사용하여 마스터 비디오를 재처리할 수 있습니다. 새로 인코딩된 비디오가 기존 적응형 비디오 집합에 추가됩니다.
+* 또는 를 사용하여 기본 비디오를 다시 처리할 수 있습니다. **[!UICONTROL 재처리]** 기능. 새로 인코딩된 비디오가 기존 적응형 비디오 집합에 추가됩니다.
 
-[비디오 업로드 및 인코딩](uploading-encoding-videos.md#uploading_and_encoding_videos)을 참조하십시오.
+자세한 내용은 [비디오 업로드 및 인코딩](uploading-encoding-videos.md#uploading_and_encoding_videos).
 
 **선택 사항입니다**
 
 Adobe Dynamic Media Classic은 사전 정의된 다양한 비디오 인코딩 사전 설정을 제공합니다. 이러한 사전 설정은 현재 사용되는 가장 일반적인 비디오 인코딩 설정을 반영하며 대상 페이지에서 재생하도록 최적화되어 있습니다.
 
-그러나 추가적인 사용자 지정이 필요한 경우, 관리자는 비디오 사전 설정을 만들어 비디오의 크기 및 재생 환경을 최종 사용자에 맞게 사용자 지정할 수 있습니다. 관리자는 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 비디오 사전 설정]** > **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;에서 사용할 수 있는 비디오 사전 설정 페이지에서 비디오 사전 설정을 추가 및 관리할 수 있습니다. [비디오 사전 설정] 페이지에서는 비디오 사전 설정을 추가, 편집, 삭제 및 활성화하는 선택 사항을 제공합니다.
+그러나 추가적인 사용자 지정이 필요한 경우, 관리자는 비디오 사전 설정을 만들어 비디오의 크기 및 재생 환경을 최종 사용자에 맞게 사용자 지정할 수 있습니다. 관리자는 아래에서 사용할 수 있는 비디오 사전 설정 페이지에서 비디오 사전 설정을 추가하고 관리할 수 있습니다 **[!UICONTROL 설정]** > **[!UICONTROL 애플리케이션 설정]** > **[!UICONTROL 비디오 사전 설정]** > **[!UICONTROL 단일 인코딩 사전 설정]**. [비디오 사전 설정] 페이지에서는 비디오 사전 설정을 추가, 편집, 삭제 및 활성화하는 선택 사항을 제공합니다.
 
-[비디오 인코딩 사전 설정 작업](uploading-encoding-videos.md#working_with_video_encoding_presets)을 참조하십시오.
+자세한 내용은 [비디오 인코딩 사전 설정 작업](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
 ## 2. 비디오 뷰어에서 비디오 미리 보기
 
-데스크톱, 웹 사이트 또는 모바일 장치에서 최종 사용자에 대해 비디오가 재생되는 방식을 보려면 찾아보기 패널에서 비디오를 선택한 다음 **[!UICONTROL 미리 보기]**&#x200B;를 선택하십시오.
+데스크탑, 웹 사이트 또는 모바일 장치에서 최종 사용자에게 비디오가 재생되는 방식을 보려면 찾아보기 패널에서 비디오를 선택한 다음 을 선택합니다 **[!UICONTROL 미리 보기]**.
 
-비디오 뷰어](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer)에서 비디오 미리 보기 를 참조하십시오.[
+자세한 내용은 [비디오 뷰어에서 비디오 미리 보기](previewing-videos-video-viewer.md#previewing_videos_in_a_video_viewer).
 
 미리 보기 페이지에서 비디오를 재생할 수 있습니다. 다른 비디오 뷰어를 선택하여 비디오가 다른 플레이어에 표시되는 방식을 확인할 수도 있습니다. 데스크톱, 태블릿 및 모바일 장치에서 여러 화면을 재생할 때 HTML5 비디오 플레이어를 사용하는 것이 좋습니다.
 
 **선택 사항입니다**
 
-뷰어 사전 설정 사용자 지정 - Adobe Dynamic Media Classic에서는 비디오를 제공하기 위한 사전 정의된 뷰어 사전 설정을 제공합니다. 이러한 사전 설정은 뷰어의 모양과 재생 컨트롤 작동 방식을 결정합니다. 관리자는 뷰어 사전 설정 페이지에서 뷰어 사전 설정을 추가하고 관리하여 비디오 뷰어를 사용자 지정할 수 있습니다. 이 페이지를 열려면 Adobe Dynamic Media Classic의 오른쪽 위 모서리에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**&#x200B;으로 이동합니다. [뷰어 사전 설정] 페이지에서는 뷰어 사전 설정을 추가, 편집, 삭제 및 활성화하는 명령을 제공합니다.
+뷰어 사전 설정 사용자 지정 - Adobe Dynamic Media Classic에서는 비디오를 제공하기 위한 사전 정의된 뷰어 사전 설정을 제공합니다. 이러한 사전 설정은 뷰어의 모양과 재생 컨트롤 작동 방식을 결정합니다. 관리자는 뷰어 사전 설정 페이지에서 뷰어 사전 설정을 추가하고 관리하여 비디오 뷰어를 사용자 지정할 수 있습니다. 이 페이지를 열려면 Adobe Dynamic Media Classic의 오른쪽 위 모서리에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**. [뷰어 사전 설정] 페이지에서는 뷰어 사전 설정을 추가, 편집, 삭제 및 활성화하는 명령을 제공합니다.
 
-[비디오 뷰어 사전 설정 작업](previewing-videos-video-viewer.md#working_with_video_viewer_presets)을 참조하십시오.
+자세한 내용은 [비디오 뷰어 사전 설정 작업](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 
-[비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오도 참조하십시오.
+참조 - [비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오.
 
 ## 3. 웹 사이트 및 모바일 사이트에 비디오 배포
 
 비디오를 웹 사이트에 통합하려면, 다음 중 하나를 수행하면 됩니다.
 
-* 비디오를 자체 팝업 또는 모달 창에 표시합니다. 이 경우 **[!UICONTROL URL 복사]** 기능을 사용합니다.
+* 비디오를 자체 팝업 또는 모달 창에 표시합니다. 이 경우 **[!UICONTROL URL 복사]** 기능.
 
-   비디오의 URL을 얻으려면 격자 보기나 목록 보기의 [찾아보기 패널]에서 선택합니다. **[!UICONTROL 미리 보기]**&#x200B;를 선택한 다음 `Universal_HTML5_Viewer` 오른쪽에 있는 **[!UICONTROL URL 복사]**&#x200B;를 선택합니다.
+   비디오의 URL을 얻으려면 격자 보기나 목록 보기의 [찾아보기 패널]에서 선택합니다. 선택 **[!UICONTROL 미리 보기]**&#x200B;를 선택한 다음 을 선택합니다. **[!UICONTROL URL 복사]** 의 오른쪽에 `Universal_HTML5_Viewer`.
 
-   **[!UICONTROL URL 복사]**&#x200B;를 선택하면 URL이 클립보드에 복사됩니다. 이 코드를 웹 사이트, 모바일 사이트 또는 애플리케이션의 HTML에 배치합니다.
+   선택 시 **[!UICONTROL URL 복사]**&#x200B;를 입력하면 URL이 클립보드에 복사됩니다. 이 코드를 웹 사이트, 모바일 사이트 또는 애플리케이션의 HTML에 배치합니다.
 
    >[!NOTE]
    >
    >URL은 비디오 또는 적응형 비디오 집합을 게시한 후에만 활성화됩니다.
 
-* 웹 페이지에 포함된 비디오를 표시합니다. 이 경우 **[!UICONTROL 포함 코드]** 기능을 사용합니다.
+* 웹 페이지에 포함된 비디오를 표시합니다. 이 경우 **[!UICONTROL 포함 코드]** 기능.
 
-   비디오의 포함 코드를 구하려면, 격자 보기나 목록 보기의 [찾아보기 패널]에서 비디오를 선택합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**&#x200B;으로 이동합니다. 테이블의 작업 열에서 `Universal_HTML5_Video` 오른쪽에 있는 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 코드 편집은 허용되지 않습니다.
+   비디오의 포함 코드를 구하려면, 격자 보기나 목록 보기의 [찾아보기 패널]에서 비디오를 선택합니다. 이동 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**. 테이블의 작업 열에서 **[!UICONTROL 포함 코드]** 의 오른쪽에 `Universal_HTML5_Video`. 코드 편집은 허용되지 않습니다.
 
-   **[!UICONTROL 닫기]**&#x200B;를 선택하고 포함 코드를 웹 페이지에 붙여넣습니다.
+   선택 **[!UICONTROL 닫기]** 포함 코드를 웹 페이지에 붙여넣습니다.
 
    >[!NOTE]
    >
    >포함 코드는 비디오 또는 적응형 비디오 집합을 게시한 후에만 활성화됩니다.
 
-[웹 사이트 및 모바일 사이트에 비디오 배포](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)를 참조하십시오.
+자세한 내용은 [웹 사이트 및 모바일 사이트에 비디오 배포](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 >[!MORELIKETHIS]
 >

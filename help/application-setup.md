@@ -1,17 +1,17 @@
 ---
 title: 애플리케이션 설정
 description: Adobe Dynamic Media Classic의 애플리케이션 영역을 설정하고 구성하는 방법을 알아봅니다. 애플리케이션 영역에서는 일반 설정을 입력하고, 이미지, 뷰어 및 비디오 인코딩 사전 설정을 만들고, 기본 뷰어와 메타데이터, 게시 설정 및 비디오 SEO 설정을 정의할 수 있습니다. 또한 이 영역을 사용하여 일괄처리 집합 사전 설정을 설정하여 2D 스핀 세트 생성을 자동화할 수도 있습니다.
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
-source-git-commit: 121081e90b68357f7602924cd6ced0c0256b378f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '11303'
-ht-degree: 42%
+source-wordcount: '11299'
+ht-degree: 40%
 
 ---
 
@@ -33,7 +33,7 @@ Application Setup 페이지에서는 일반 설정, 이미지 사전 설정, 비
 
 참조 - [Secure Testing 서비스 테스트](testing-assets-making-them-public.md#testing_the_secure_testing_service).
 
-* **[!UICONTROL 게시된 서버 이름]** - 이 서버는 계정에만 적용되는 시스템 생성 URL 호출에 사용되는 CDN(Live Content Delivery Network) 서버입니다. Adobe Dynamic Media Classic 지원 엔지니어가 이 서버 이름을 변경하지 않도록 지시하지 않습니다.
+* **[!UICONTROL 게시된 서버 이름]** - 이 서버는 계정에 대한 시스템 생성 URL 호출에 사용된 모든 라이브 CDN(Content Delivery Network) 서버입니다. Adobe Dynamic Media Classic 지원 엔지니어가 이 서버 이름을 변경하지 않도록 지시하지 않습니다.
 
 * **[!UICONTROL 원본 서버 이름]** - 이 서버는 품질 보증 테스트에만 사용됩니다. Adobe Dynamic Media Classic 지원 엔지니어가 지시를 받지 않는 한 이 서버 이름을 변경하지 마십시오.
 
@@ -87,7 +87,7 @@ Application Setup 페이지에서는 일반 설정, 이미지 사전 설정, 비
 
    동일한 비디오의 인코딩된 다양한 파생을 탐색하지 않고 Adobe Dynamic Media Classic에서 비디오를 빠르게 검색하여 찾아보려면 이 옵션을 선택 취소(기본값) 상태로 유지합니다. 기본 비디오 축소판(업로드한 소스 비디오, 파생물을 만드는 데 사용한 소스 비디오)과 &quot;상위&quot; 응용 비디오 세트 축소판(인코딩된 비디오 세트의 &quot;하위&quot; 파생물을 포함함)만 표시됩니다.
 
-   그러나 마스터 비디오 또는 적응형 비디오 집합에서 개별 인코딩된 비디오에 여전히 액세스할 수 있습니다. 이렇게 하려면 비디오 썸네일 이미지를 두 번 클릭하여 [세부 사항 보기]를 엽니다. 그런 다음 을(를) 선택합니다 **[!UICONTROL 인코딩된 비디오]** 오른쪽 패널에서 모든 &quot;하위&quot; 비디오에 액세스할 수 있습니다.
+   그러나 여전히 기본 비디오 또는 응용 비디오 세트에서 개별 인코딩된 비디오에 액세스할 수 있습니다. 이렇게 하려면 비디오 썸네일 이미지를 두 번 클릭하여 [세부 사항 보기]를 엽니다. 그런 다음 을(를) 선택합니다 **[!UICONTROL 인코딩된 비디오]** 오른쪽 패널에서 모든 &quot;하위&quot; 비디오에 액세스할 수 있습니다.
 
    로 이동할 수도 있습니다. **[!UICONTROL 파일]** > **[!UICONTROL 재처리]** 응용 비디오 세트에서 직접 더 인코딩된 &quot;하위&quot; 비디오를 만듭니다. Adobe Dynamic Media Classic은 자동으로 응용 비디오 세트의 &quot;상위&quot; 기본 비디오를 찾아 코드 변환을 위한 소스 비디오로 사용합니다. 그러나 새 개별 인코딩된 비디오를 저장할 때 검색 또는 탐색 시 해당 비디오는 표시되지 않습니다. 그러나 [세부 사항 보기]의 [인코딩된 비디오] 탭에서 여전히 액세스할 수 있습니다.
 
@@ -145,7 +145,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 같을 수 없습�
 
 이전에 이미지를 업로드한 다음 원래 파일을 변경(또는 대체)한 경우 선택한 덮어쓰기 옵션은 Adobe Dynamic Media Classic에서 이미지를 대체하는 방식을 지정합니다. 이미지 정보는 변경되지 않고 새 이미지가 이전 이미지를 대체합니다. 폴더에 아직 Adobe Dynamic Media Classic에 없는 이미지가 포함되어 있는 경우 이러한 이미지가 추가됩니다.
 
-업로드한 이미지가 어떤 방식으로든 변경되었지만(이미지가 수정됨) 이미지 참조가 동일한 경우 이 선택 사항을 사용합니다. [덮어쓰기]는 Adobe® PDF를 업로드하고 리핑할 때도 유용합니다. Adobe Dynamic Media Classic 방법을 세밀하게 조정하려면 *rips* 이미지를 사용하여 업로드(Upload) 대화상자에서 ICC 색상 프로파일 옵션을 조정하고 덮어쓰기(Overwrite) 기능을 사용하여 다시 업로드합니다.
+업로드한 이미지가 어떤 방식으로 변경되었지만(이미지가 변경됨) 이미지에 대한 참조가 동일하게 유지된 경우 이 옵션을 사용합니다. [덮어쓰기]는 Adobe® PDF를 업로드하고 리핑할 때도 유용합니다. Adobe Dynamic Media Classic 방법을 세밀하게 조정하려면 *rips* 이미지를 사용하여 업로드(Upload) 대화상자에서 ICC 색상 프로파일 옵션을 조정하고 덮어쓰기(Overwrite) 기능을 사용하여 다시 업로드합니다.
 
 프로덕션 서버에서 이미지에 액세스하는 데 사용되는 Adobe Dynamic Media Classic ID는 이미지 파일 이름에서 파생됩니다. 파일 이름에서 대문자와 소문자를 모두 사용하는 것은 기존 파일을 대체하거나 이미지에 액세스하는 데 사용되는 Adobe Dynamic Media Classic ID에 대해 중요합니다. Adobe Dynamic Media Classic에 업로드하기 전에 파일 이름에서 대문자 및 소문자 문자가 올바르게 사용되어야 동일한 이미지에 대소문자가 다른 Adobe Dynamic Media Classic ID를 방지할 수 있습니다.
 
@@ -153,7 +153,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 같을 수 없습�
 
 ## 이미지 사전 설정 {#image-presets}
 
-[이미지 사전 설정] 화면은 이미지 사전 설정을 만들고 편집하는 데 사용됩니다. 이미지 사전 설정을 사용하면 Adobe Dynamic Media Classic에서 동일한 마스터 이미지와 다른 크기로 이미지를 동적으로 제공할 수 있습니다. 각 이미지 사전 설정은 이미지 표시를 위한 크기 및 형식 지정 명령의 사전 정의된 모음을 나타냅니다. 이미지 사전 설정을 만들 때 이미지 제공 크기를 선택합니다. 또한 형식 지정 명령을 선택하면 이미지를 볼 수 있도록 전달할 때 이미지의 모양을 최적화할 수 있습니다.
+[이미지 사전 설정] 화면은 이미지 사전 설정을 만들고 편집하는 데 사용됩니다. 이미지 사전 설정을 사용하면 Adobe Dynamic Media Classic에서 동일한 기본 이미지와 다른 크기로 이미지를 동적으로 제공할 수 있습니다. 각 이미지 사전 설정은 이미지 표시를 위한 크기 및 형식 지정 명령의 사전 정의된 모음을 나타냅니다. 이미지 사전 설정을 만들 때 이미지 제공 크기를 선택합니다. 또한 형식 지정 명령을 선택하면 이미지를 볼 수 있도록 전달할 때 이미지의 모양을 최적화할 수 있습니다.
 
 관리자는 자산 내보내기에 대한 사전 설정을 만들 수 있습니다. 사용자는 이미지를 내보낼 때 사전 설정을 선택할 수 있으며, 이 경우 관리자가 지정하는 사양에 맞게 이미지를 재포맷할 수도 있습니다.
 
@@ -249,7 +249,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 같을 수 없습�
 
 * **[!UICONTROL URL 수정자]** - 설정이 아니라 이미지 사전 설정을 정의하는 URL 수정자를 지정하려면 여기에 수정자를 입력합니다.
 
-* **[!UICONTROL 샘플 이미지 URL]** - Dynamic Media Image Server가 추가 또는 편집하는 이미지 사전 설정으로 이미지를 전달하는 데 사용하는 &quot;원시&quot; URL 문자열을 나열합니다. 이 URL 문자열은 [사전 설정 추가] 또는 [사전 설정 편집] 화면에서 선택한 모든 형식 설정을 인코딩합니다.
+* **[!UICONTROL 샘플 이미지 URL]** - Dynamic Media Image Server가 추가 또는 편집하는 이미지 사전 설정으로 이미지를 전달하는 데 사용하는 &quot;원시&quot; URL 문자열을 나열합니다. 이 URL 문자열은 사전 설정 추가 또는 사전 설정 편집 화면에서 선택한 모든 형식 설정을 인코딩합니다.
 
 ### 이미지 사전 설정 편집, 제거 또는 비활성화 {#editing-removing-or-deactivating-an-image-preset}
 
@@ -262,7 +262,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 같을 수 없습�
 
 ## 응용 비디오 사전 설정 활성화 또는 비활성화 {#activating-or-deactivating-adaptive-video-presets}
 
-Adobe Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제공합니다. 16:9 적응형 비디오 사전 설정과 4:3 적응형 비디오 사전 설정을 하나의 그룹으로 결합하는 사전 설정 마스터 목록입니다. 이 사전 정의된 사전 설정은 가장 일반적인 인코딩 설정을 반영하며 타겟 모바일 장치, 태블릿 및 데스크톱의 재생에 최적화되어 있습니다.
+Adobe Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을 제공합니다. 이 사전 설정은 16:9 응용 비디오 사전 설정과 4:3 응용 비디오 사전 설정을 하나의 그룹에 모두 결합하는 기본 사전 설정 목록입니다. 이 사전 정의된 사전 설정은 가장 일반적인 인코딩 설정을 반영하며 타겟 모바일 장치, 태블릿 및 데스크톱의 재생에 최적화되어 있습니다.
 
 기본적으로 &quot;적응형 비디오&quot; 인코딩 사전 설정만 활성화됩니다(사용할 수 있게 되거나 &quot;켜짐&quot;). 원할 경우, 비활성화할 수 있습니다. 비활성 적응형 비디오 사전 설정은 [업로드 작업 선택 사항] 대화 상자의 [eVideo] 섹션에 선택 가능한 선택 사항으로 표시되지 않습니다.
 
@@ -310,7 +310,7 @@ Adobe Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을
       * 비디오를 재생할 해상도 크기 및 대역폭을 기반으로 인코딩 사전 설정을 선택합니다.
       * 응용 비디오 인코딩 과 비디오당 하나 이상의 인코딩 사전 설정을 선택할 수 있습니다. 예를 들어 하나의 업로드 작업에서 데스크톱과 모바일용 파일을 모두 인코딩할 수 있습니다.
 
-선택한 후 **[!UICONTROL 업로드 시작]**&#x200B;를 입력하면 원본 마스터 비디오 파일이 업로드되고 마스터 파일에서 인코딩된 파일이 생성됩니다.
+선택한 후 **[!UICONTROL 업로드 시작]**&#x200B;로 설정되면 원본 기본 비디오 파일이 업로드되고 기본 파일에서 인코딩된 파일이 생성됩니다.
 
 ### 인코딩 사전 설정 선택 사항 정보 {#about-encoding-preset-options}
 
@@ -344,7 +344,7 @@ Adobe Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을
 
 ### 적응형 비디오 인코딩(16:9 또는 4:3) 비디오 사전 설정 {#adaptive-video-encoding-or-video-presets}
 
-다음 적응형 비디오 인코딩 사전 설정은 사용자가 업로드한 비디오의 종횡비를 기반으로 자동으로 선택되는 일련의 개별 인코드 사전 설정을 결합합니다. 예를 들어, 4:3 비디오를 업로드하는 경우, 이 비디오는 **적응형 비디오 인코딩(16:9 또는 4:3)** 선택 사항에서 마스터 사전 설정 목록 내에 있는 5개의 4:3 사전 설정을 모두 사용하여 자동으로 인코딩됩니다.
+다음 적응형 비디오 인코딩 사전 설정은 사용자가 업로드한 비디오의 종횡비를 기반으로 자동으로 선택되는 일련의 개별 인코드 사전 설정을 결합합니다. 예를 들어 4:3 비디오를 업로드하는 경우, 의 기본 사전 설정 목록 내에 있는 5개의 4:3 사전 설정을 모두 사용하여 자동으로 인코딩됩니다 **응용 비디오 인코딩(16:9 또는 4:3)** 선택 사항입니다.
 
 인코딩 옵션 매개 변수에 대한 자세한 내용은 [인코딩 사전 설정 옵션 정보](application-setup.md#about_encoding_preset_options)를 참조하십시오.
 
@@ -444,9 +444,9 @@ Adobe Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을
 
 참조 - [Adobe 뷰어 참조 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
-### 응답형 디자인의 웹 페이지에 대한 뷰어 지원 {#viewer-support-for-responsive-designed-web-pages}
+### 응답형 디자인 웹 페이지에 대한 뷰어 지원 {#viewer-support-for-responsive-designed-web-pages}
 
-서로 다른 웹 페이지에는 서로 다른 요구 사항이 있습니다. 별도의 브라우저 창에서 HTML5 뷰어를 여는 링크를 제공하는 웹 페이지를 원하는 경우가 있습니다. 다른 경우 HTML5 뷰어를 호스팅 페이지에 직접 포함해야 합니다. 후자의 경우 웹 페이지에 정적 레이아웃이 있을 수 있습니다. 또는 &quot;응답형&quot;이며 다른 장치 또는 다른 브라우저 창 크기에 대해 다르게 표시됩니다. 이러한 요구 사항을 수용하기 위해 Adobe Dynamic Media Classic과 함께 제공되는 HTML 5 뷰어는 정적 웹 페이지와 응답형으로 디자인된 웹 페이지를 모두 지원합니다.
+서로 다른 웹 페이지에는 서로 다른 요구 사항이 있습니다. 별도의 브라우저 창에서 HTML5 뷰어를 여는 링크를 제공하는 웹 페이지를 원하는 경우가 있습니다. 다른 경우 HTML5 뷰어를 호스팅 페이지에 직접 포함해야 합니다. 후자의 경우 웹 페이지에 정적 레이아웃이 있을 수 있습니다. 또는 &quot;응답형&quot;이며 다른 장치 또는 다른 브라우저 창 크기에 대해 다르게 표시됩니다. 이러한 요구 사항을 수용하기 위해 Adobe Dynamic Media Classic과 함께 제공되는 HTML5 뷰어는 정적 웹 페이지와 응답형 디자인 웹 페이지를 모두 지원합니다.
 
 웹 페이지에 응답형 뷰어를 포함하는 방법에 대한 자세한 내용은 [응답형 이미지 라이브러리 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [응답형 이미지 라이브러리 사용](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api), 및 [명령 참조 - 명령 속성](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
 
@@ -462,7 +462,7 @@ Adobe Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을
 
 * **[!UICONTROL 스핀 세트 뷰어]** - 사용자가 개체를 돌려 다른 면과 각도를 검사할 수 있도록 이미지에 대한 여러 뷰를 제공합니다.
 
-* **비디오 뷰어** - 소스 파일의 해상도 차원이나 사용자 지정 크기를 사용하여 비디오를 표시합니다. Adobe Dynamic Media Classic에는 비디오 재생에 사전 정의된 뷰어 사전 설정이 많이 포함되어 있으며 관리자는 사용자 지정 비디오 뷰어 사전 설정을 만들 수 있습니다. 비디오 뷰어를 구성하기 위한 수십 개의 설정이 있습니다. 크기, 전경색 및 배경색, 비디오 및 오디오 컨트롤, 진행률 표시줄, 사용자 인터페이스 스킨, 소셜 기능 및 도움말을 구성할 수 있습니다.
+* **비디오 뷰어** - 소스 파일의 해상도 차원이나 사용자 지정 크기를 사용하여 비디오를 표시합니다. Adobe Dynamic Media Classic에는 비디오 재생에 사전 정의된 뷰어 사전 설정이 많이 포함되어 있으며 관리자는 사용자 지정 비디오 뷰어 사전 설정을 만들 수 있습니다. 비디오 뷰어를 구성하기 위한 설정이 12개 이상 있습니다. 크기, 전경색 및 배경색, 비디오 및 오디오 컨트롤, 진행률 표시줄, 사용자 인터페이스 스킨, 소셜 기능 및 도움말을 구성할 수 있습니다.
 
 * **[!UICONTROL 확대/축소 뷰어]** - 다음과 같은 세 가지 유형의 확대/축소 뷰어를 선택할 수 있습니다.
 
@@ -525,7 +525,7 @@ Adobe Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을
 
 Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다.
 
-* 다음 위치에서 이 비디오 형식을 지원하는 BlackBerry® 장치를 찾을 수 있습니다. [BlackBerry®에서 지원되는 비디오 형식](https://developer.blackberry.com/devzone/develop/supported_media/bb10_media_support.html)
+* 다음 위치에서 이 비디오 형식을 지원하는 BlackBerry® 장치를 찾을 수 있습니다. [BlackBerry®에서 지원되는 비디오 형식](https://developers.blackberry.com/us/en)
 * 다음 위치에서 이 비디오 형식을 지원하는 Windows® 장치를 찾을 수도 있습니다. [Windows® Phone에서 지원되는 비디오 형식](https://docs.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)
 
 |  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ 태블릿 | BlackBerry® Smartphone | Windows® Phone |
@@ -789,7 +789,7 @@ Adobe Dynamic Media Classic에는 미리 정의된 메타데이터 보기가 있
    * 사전 설정을 만들려면 **[!UICONTROL 추가]**. 메타데이터 템플릿 이름 텍스트 필드에 사전 설정 이름을 입력합니다. 선택 **[!UICONTROL 메타데이터 보기]**&#x200B;을 선택한 다음 드롭다운 목록에서 보기를 선택합니다( 참조). [메타데이터 보기](application-setup.md#metadata_views)).
    * 기존 사전 설정을 편집하려면 메타데이터 사전 설정 목록에서 사전 설정을 선택한 다음 을 선택합니다 **[!UICONTROL 편집]**.
 
-1. 사전 설정에 포함하려는 머리글을 확장하고 사전 설정에 포함하려는 각 필드에 값을 입력합니다.
+1. 사전 설정에 포함할 제목을 확장하고 사전 설정에 포함할 다른 필드에 값을 입력합니다.
 1. 선택 **[!UICONTROL 저장]**.
 
    사전 설정에 대해 선택한 범주와 필드가 [미리 보기] 패널에 표시됩니다.
@@ -949,9 +949,9 @@ Adobe Dynamic Media Classic은 일괄처리 집합 사전 설정을 사용하여
 
 참조 - [배치 집합 사전 설정 만들기](application-setup.md#creating_a_batch_set_preset).
 
-사용자가 다축 회전 집합에서 가지고 있어야 하는 행 또는 열의 최소/최대 수가 없습니다.
+다축 스핀 세트에 포함해야 하는 행 또는 열의 최소 또는 최대 수는 없습니다.
 
-예를 들어 *spin-2dspin*&#x200B;이라는 다축 회전 집합을 만들려고 한다고 가정합니다. 행당 12개 이미지가 있는 3개의 행을 포함하는 일련의 회전 집합 이미지가 있습니다. 다음과 같이 이미지의 이름이 지정됩니다.
+예를 들어 이름이 인 다축 스핀 세트를 만든다고 가정합니다. *스핀 2회전*. 행당 12개 이미지가 있는 3개의 행을 포함하는 일련의 회전 집합 이미지가 있습니다. 다음과 같이 이미지의 이름이 지정됩니다.
 
 ```as3
 spin-01-01
@@ -1009,7 +1009,7 @@ When the Spin Set is uploaded and published, you would activate the name of the 
 
    >[!NOTE]
    >
-   >행과 열 정규 표현식의 조합이 다차원 스핀 세트 배열 내의 자산의 위치를 확인할 수 없는 경우, 해당 자산이 세트에 추가되지 않고 오류가 기록됩니다.
+   >행과 열의 정규 표현식 조합이 다차원 스핀 세트 배열 내의 자산 위치를 결정할 수 없는 경우 해당 자산이 세트에 추가되지 않고 오류가 기록됩니다.
 
 1. [이름 지정 규칙 및 만들기 선택 사항 설정]에 대해 [자산 이름 지정 규칙]에서 정의한 기본 이름에 대한 접미어나 접두어를 지정합니다. Adobe Dynamic Media Classic 폴더 구조 내에서 이미지 세트가 만들어지는 위치도 정의합니다.
 

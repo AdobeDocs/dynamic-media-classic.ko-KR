@@ -2,17 +2,17 @@
 title: 파일 업로드
 description: Adobe Dynamic Media Classic에서 파일을 업로드하는 방법을 알아봅니다.
 uuid: b3025f84-4f28-4276-bc9c-f0c0c2a26e12
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: b2bc3bf9-e313-481a-8670-c3bedde21b1a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '3926'
-ht-degree: 33%
+source-wordcount: '3929'
+ht-degree: 31%
 
 ---
 
@@ -78,14 +78,14 @@ Adobe Dynamic Media Classic 프로그램을 사용하여 최적의 결과를 얻
 | 글꼴 | 업로드된 TrueType, Type1(Windows®만 해당), OpenType® 글꼴 및 PhotoFonts. |
 | 이미지 | 이미지 및 계층화된 이미지 파일입니다. |
 | 이미지 집합 및 견본 집합 | 뷰어에 표시할 수 있는 관련 이미지 집합입니다. |
-| ICC 프로필 | 업로드한 이미지를 소스 색상 공간에서 다른 색상 공간으로 전환하는 데 사용할 수 있는 색상 프로필입니다. |
+| ICC 프로필 | 업로드된 이미지를 소스 색상 공간에서 다른 색상 공간으로 변환하는 데 사용할 수 있는 색상 프로필입니다. |
 | 비네팅 | 이미지 작성 프로그램으로 작성된 이미지 및 관련 파일 |
 | 컨텐츠 파일 | Adobe InDesign, Illustrator 또는 Photoshop 컨텐츠 파일입니다. |
 | FXG 파일 | 인쇄, 웹, 이메일, 데스크톱 및 장치 출력용 사용자 지정 가능한 템플릿을 만드는 데 사용할 수 있는 해상도 독립적인 그래픽 형식 파일입니다. |
 | SVG 파일 | 이미지 제공 서버가 렌더링할 수 있는 확장 가능한 벡터 그래픽 파일입니다. |
 | XML 파일 | 요청의 경로와 쿼리 부분을 수정하는 데 사용되는 전처리 규칙을 정의하는 파일입니다. |
 | 계단식 스타일 시트 파일 | HTML5 뷰어 사용자 지정에 사용되는 CSS 스킨을 업로드합니다. |
-| JavaScript 파일 | JavaScript 파일은 계정 정보를 저장하는 뷰어 계기에 사용됩니다. Adobe 보안에서는 이 자산 유형을 전달에 사용할 별도의 도메인이 있는 클라이언트 계정에만 권장합니다(교차 사이트 스크립팅을 방지하기 위해). |
+| JavaScript 파일 | JavaScript 파일은 계정 정보를 저장하는 뷰어 계기에 사용됩니다. Adobe 보안에서는 전달에 사용할 별도의 도메인이 있는 클라이언트 계정에만 이 자산 유형을 권장합니다(사이트 간 스크립팅을 방지하기 위해). |
 
 >[!NOTE]
 >
@@ -101,7 +101,7 @@ Adobe Dynamic Media Classic은 여러 정적 파일 형식을 지원합니다. �
 * 오디오 파일
 * CSS
 * JavaScript(회사가 고유한 도메인으로 구성된 경우)
-* 마스터 비디오
+* 기본 비디오
 * PDF(PDF이 업로드 후 게시되도록 표시된 경우, 기존 eCatalog/PDF 워크플로우에 대한 모든 PDF이 전달되지 않음)
 * PrX 비디오
 * SVG
@@ -114,14 +114,14 @@ Adobe Dynamic Media Classic에서는 정적 콘텐츠의 미리 보기 URL을 �
 
 업로드 프로세스 동안 파일 이름에서 파일 이름 확장자가 제거되므로 파일에 동일한 루트 이름을 사용할 수 없습니다. Adobe Dynamic Media Classic 시스템에서 자산 파일 이름에서 파일 확장명을 뺀 값은 자산의 자산 ID가 됩니다. 이 때문에 동일한 이름을 가진 자산이 있으면 안 됩니다.
 
-회사의 모든 사용자가 다음과 같은 파일 이름 지정 규칙을 이해해야 합니다.
+회사의 모든 사용자가 파일 이름에 대한 이러한 규칙을 이해하는지 확인하십시오.
 
 * 시스템에서 이름과 정확하게 일치하는 자산 ID는 허용되지 않습니다.
 * 자산 ID 이름은 대/소문자를 구분합니다.
 * 우수 사례로, 자산 ID에 공백이 포함되지 않도록 합니다(예: black jacket.tif 및 blue jacket.jpg). Adobe Dynamic Media Classic은 자산 이름을 사용하여 URL 문자열을 구성할 때 자산 이름에 빈 공백을 인코딩합니다. 이러한 ASCII 코드는 읽기 어려우며 URL 읽기가 더 어려워질 수 있습니다.
 * 언어 관련 문자는 파일 이름에 허용됩니다. 그러나 다음 문자는 파일 이름에 허용되지 않습니다.
 
-   \ ; / ? : @ &amp; = + $ , * &quot; &lt; > | &#39; { } %
+   \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
 
    파일 이름에 위 문자 중 하나 이상이 포함된 경우 업로드 시 해당 문자가 파일 이름에서 제거됩니다.
 
@@ -277,7 +277,7 @@ Adobe Dynamic Media Classic 데스크탑 응용 프로그램을 사용하면 끌
 
 FTP를 사용하여 항목을 업로드할 때 업로드가 완료되면 후속 작업을 시작하도록 예약할 수 있습니다. 다른 작업이 시작되도록 예약되어 있으면 여기서 예약한 작업이 작업 다음에 대기합니다.
 
-새 작업은 지정한 주소로 알림을 보내 해당 위치의 코드가 트리거될 수 있도록 합니다. 이 후속 게시 작업은 업로드 작업과 동일한 이름을 사용하지만 시작 부분에 *Pub_* 텍스트가 추가됩니다.
+새 작업은 해당 위치의 코드를 트리거할 수 있도록 지정한 주소로 알림을 보냅니다. 이 후속 게시 작업은 업로드 작업과 동일한 이름을 사용하지만 시작 부분에 *Pub_* 텍스트가 추가됩니다.
 
 **업로드 후 다른 작업을 수행하려면:**
 

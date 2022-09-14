@@ -1,15 +1,15 @@
 ---
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 1%
+source-wordcount: '687'
+ht-degree: 3%
 
 ---
-# Dynamic Media Classic 설명서 Adobe 기여 지침
+# Adobe Dynamic Media Classic 설명서에 대한 기여 지침
 
 ## Adobe Dynamic Media Classic 설명서 철학
 
-Adobe Dynamic Media Classic 사용자는 경쟁이 치열한 환경에서 경쟁업체와 차별화된 디지털 경험을 제작하기 위해 노력하고 있습니다. 따라서 Adobe이 고급 새 도구를 제공할 때 고객이 Adobe Dynamic Media Classic 투자를 즉시 활용하고 ROI를 극대화할 수 있도록 정확하고 명확한 설명서를 사용하여 이러한 도구를 보완해야 합니다.
+Adobe Dynamic Media Classic 사용자는 경쟁이 치열한 환경에서 경쟁업체와 차별화된 디지털 경험을 제작하기 위해 노력하고 있습니다. 따라서 Adobe이 고급 새 도구를 제공할 때 이러한 도구가 정확하고 명확한 설명서와 함께 보완되는 것이 중요합니다. 이렇게 하면 고객이 Adobe Dynamic Media Classic 투자를 즉시 사용하고 ROI를 극대화할 수 있습니다.
 
 설명서의 목표는 가능한 한 빨리 최신 설명서를 사용자에게 전달하는 것입니다. 따라서 Adobe에서는 정확하고 유용한 문서를 제공하는 것을 최우선으로 하며 이를 지속적으로 업데이트하고 개선하기 위해 노력하고 있습니다.
 
@@ -29,23 +29,23 @@ Adobe에서는 설명서에 대한 고객의 기여를 환영하지만 당사의
 
 ### 일반적으로 버그나 해결 방법은 문서화하지 않습니다.
 
-이 설명서는 표준 사용 사례를 다룹니다. 따라서 버그, 버그로 인한 효과 및 버그에 대한 해결 방법은 일반적으로 문서화되지 않습니다.
+이 설명서는 표준 사용 사례를 다룹니다. 따라서 버그, 버그로 인한 효과 및 버그에 대한 해결 방법은 문서화되지 않습니다.
 
 이 규칙의 예외는 릴리스 노트입니다. 릴리스 노트에서는 알려진 문제를 제품 관리에서 승인한 사용 가능한 해결책과 함께 나열할 수 있습니다.
 
 ### 설명서 기여는 기술 관련 질문에 대한 답변을 위한 자료가 아닙니다.
 
-설명서를 개선하기 위해 필요한 모든 아이디어를 기여할 수 있습니다. 그러나 주석, 문제 및 가져오기 요청은 *기여도*&#x200B;에만 사용됩니다. Adobe Dynamic Media Classic 사용, 프로젝트 구현 또는 기술 문제 해결 방법에 대한 질문에 답변하기 위해 마련된 것이 아닙니다.
+설명서를 개선하기 위해 필요한 모든 아이디어를 기여할 수 있습니다. 그러나 주석, 문제 및 가져오기 요청은 *기여* 전용. Adobe Dynamic Media Classic 사용, 프로젝트 구현 또는 기술 문제 해결 방법에 대한 질문에 답변하기 위한 것이 아닙니다.
 
-Dynamic Media Classic Adobe 사용 또는 기술 오류에 대한 질문은 [Experience Cloud 엔터프라이즈 지원 포털](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)을 통해 보고하거나 [Experience Cloud 커뮤니티](https://forums.adobe.com/community/experience-cloud/marketing-cloud/experience-manager)에서 다루어야 합니다.
+Adobe Dynamic Media Classic 사용 또는 기술 오류에 대한 질문은 다음을 통해 보고해야 합니다 [Experience Cloud 엔터프라이즈 지원 포털](https://experienceleague.adobe.com/?support-solution=General&amp;support-tab=home#support) 또는 [Experience Cloud 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community).
 
-***설명서 기여는 Adobe 고객*** 지원 센터를 대체할 수 없으며 지원 관련 질문에 대한 답변을 구하는 기여는 거부됩니다.
+***설명서 기여는 Adobe 고객 지원 센터를 대체할 수 없습니다*** 지원 관련 질문에 대한 답변을 구하는 기여는 모두 거부됩니다.
 
 ### 기여는 해당 설명서 페이지를 명확하게 참조해야 합니다.
 
-설명서에 대한 개선 사항을 제안하는 문제를 만드는 경우 영향을 받는 페이지에 대한 링크를 포함해야 합니다. 설명서 페이지에서 **이 페이지 편집** 링크를 사용하여 문제를 만들면 페이지에 대한 링크가 자동으로 문제와 함께 생성됩니다.
+If you create an issue to suggest improvements to the documentation, you must include links to the pages affected. 을 사용하여 문제를 만드는 경우 **이 페이지 편집** 설명서 페이지에 연결되면 페이지에 대한 링크가 자동으로 문제와 함께 생성됩니다.
 
-해당 특성별 풀링 요청에서 관련 페이지를 참조하므로 이 작업은 풀 요청에 적용되지 않습니다.
+끌어오기 요청은 영향을 받는 페이지를 참조하므로 끌어오기 요청에 적용되지 않습니다.
 
 ## 설명서 지침
 
@@ -61,11 +61,11 @@ Adobe 설명서에 대한 모든 기여는 특정 스타일 지침을 따르도�
 * 가능하면 문장을 단순하게 유지하십시오.
 * 언어를 명확하고 간결하게 사용해야 합니다.
 
-참고로, 이 설명서의 독자들은 전 세계적으로 모국어이거나 유창한 영어를 구사할 수 없습니다. 구어체 사용을 피하고 가능한 한 명확하고 단순한 언어를 사용하세요.
+전세계 독자들이 이 문서를 사용하고 있다는 것을 기억하십시오. 그들은 모국어가 되거나 유창한 영어 연사가 될 수 없을 것이다. 구어체 사용을 피하고 가능한 한 명확하고 단순한 언어를 사용하세요.
 
-#### Microsoft 스타일 설명서 따라하기
+#### Microsoft® 스타일 설명서 따라하기
 
-[Microsoft 스타일 설명서](https://docs.microsoft.com/en-us/style-guide/welcome/) 는 소프트웨어 설명서에 중점을 둔 무료 설명서 스타일 안내서이며 Dynamic Media Classic 설명서는 가능한 이 안내서를 따릅니다.
+[Microsoft® 스타일 설명서](https://docs.microsoft.com/en-us/style-guide/welcome/) 는 소프트웨어 설명서에 중점을 둔 무료 설명서 스타일 안내서이며 Adobe Dynamic Media Classic 설명서는 가능한 이 안내서를 따릅니다.
 
 ### 서식
 

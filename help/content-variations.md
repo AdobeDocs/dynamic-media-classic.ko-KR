@@ -1,8 +1,8 @@
 ---
 title: 콘텐츠 변형 관리
-description: Adobe Dynamic Media Classic에서 콘텐츠 변형을 관리하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic의 콘텐츠 변형을 관리하는 방법을 알아봅니다.
 uuid: 1e40a526-02f8-41d9-886f-6d094546bc13
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: aa129b0e-fc73-4fc2-a894-4560b3f46c4f
 feature: Dynamic Media Classic
 role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 55%
@@ -27,10 +27,10 @@ ht-degree: 55%
 
 목록에서 이미지 사전 설정 URL을 사용할 수 있습니다. 이미지 사전 설정 URL은 유니버설 URL과 유사합니다. 둘 이상의 이미지 사전 설정 URL이 있을 수 있습니다.
 
-1. **[!UICONTROL Build]** > **[!UICONTROL 템플릿 세트]**&#x200B;로 이동합니다.
-1. 빌더에서 템플릿을 선택한 다음 **[!UICONTROL 추가/미리 보기]**&#x200B;를 선택합니다.
-1. 템플릿 속성을 수정하고 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택하여 다른 버전을 만듭니다.
-1. 이름을 입력한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+1. 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 집합]**.
+1. 빌더에서 템플릿을 선택한 다음, **[!UICONTROL 추가/미리 보기]**.
+1. 템플릿 속성을 수정하고 을 선택합니다 **[!UICONTROL 다른 이름으로 저장]** 다른 버전을 만들려면
+1. 이름을 입력한 다음 **[!UICONTROL 저장]**.
 
    자산과 템플릿을 모두 게시해야 합니다.
 

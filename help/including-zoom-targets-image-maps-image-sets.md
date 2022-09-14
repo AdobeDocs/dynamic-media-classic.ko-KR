@@ -1,8 +1,8 @@
 ---
 title: 이미지 집합에 확대/축소 타겟 및 이미지 맵 포함
-description: Adobe Dynamic Media Classic의 이미지 세트에 확대/축소 대상 및 이미지 맵을 포함하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic의 이미지 세트에 확대/축소 타겟 및 이미지 맵을 포함하는 방법을 알아봅니다.
 uuid: 1f5a00fe-3cc2-4668-a051-59e0bee50b35
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
@@ -10,7 +10,7 @@ discoiquuid: ef0c292f-3240-4c62-8f32-25de8e4922ad
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: e51fc81e-e5be-4f07-80ad-3aa87d8bc87e
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 38%

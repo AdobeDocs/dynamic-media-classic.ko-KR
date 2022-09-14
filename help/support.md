@@ -1,14 +1,14 @@
 ---
 title: 지원
 description: Adobe Dynamic Media Classic의 기술 지원 옵션에 대해 알아봅니다.
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_scene7
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '192'
 ht-degree: 24%
@@ -23,12 +23,12 @@ ht-degree: 24%
 | --- | --- |
 | 횟수 제한 | 제한 없음. |
 | Adobe 시스템 상태 확인 | [Adobe Dynamic Media Classic 시스템 상태](https://status.adobe.com/products/1175). |
-| 답을 찾을 수 없습니까? | [지원 센터의 도움을 받으려면 티켓을 여십시오](https://experienceleague.adobe.com/?support-solution=General#support). |
+| 답을 찾을 수 없습니까? | [지원 센터에서 도움을 받으려면 티켓을 여십시오](https://experienceleague.adobe.com/?support-solution=General#support). |
 | 커뮤니티 포럼 | [Experience Manager 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
 | SLA(서비스 수준 계약) | [지원 서비스/약관](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | 지원되는 사용자 | 조직당 최대 10명의 사용자를 지원 사용자로 지정할 수 있으며, 이 사용자는 고객 지원 센터에서 사례를 열 수 있습니다. |
 | 무료 라이브 웹 교육 및 교육 비디오 | 포함. |
-| 전화 지원 | <ul><li>미국 및 캐나다: 1-800-497-0335 </li><li>[다른 지역의 전화 번호](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html). </li></ul> |
+| 전화 지원 | <ul><li>미국 및 캐나다: 1-800-497-0335 </li><li>[다른 지역의 전화 번호](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 

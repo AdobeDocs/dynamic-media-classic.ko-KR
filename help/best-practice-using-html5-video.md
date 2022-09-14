@@ -2,7 +2,7 @@
 title: HTML 5 비디오 뷰어 사용에 대한 우수 사례
 description: HTML5 비디오 뷰어 사용에 대한 모범 사례에 대해 알아봅니다.
 uuid: 3c8924dc-7bea-4c25-b77b-005f57b71b64
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
@@ -10,7 +10,7 @@ discoiquuid: 4b11cab7-88cf-42dd-8554-2eea530753bb
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
-source-git-commit: 352b1c383195fa03294ad3501207d63f3cfe3e42
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 11%
@@ -31,15 +31,15 @@ Adobe Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 강력한 �
 
 데스크탑 및 모바일 사용자에게 리치 미디어 콘텐츠의 범위를 확장합니다. 또한 간소화된 비디오 환경을 사용할 수 있습니다.
 
-Adobe 뷰어 참조 가이드의 [HTML5 뷰어 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only)를 참조하십시오.
+참조 - [HTML5 뷰어 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) Adobe 뷰어 참조 가이드에서 참조할 수 있습니다.
 
-[뷰어 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) 교육 비디오도 참조하십시오.
+참조 - [뷰어 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) 교육 비디오.
 
 ## Adobe Dynamic Media Classic Video Viewer를 사용하여 데스크탑 컴퓨터 및 모바일 장치에서 비디오 재생 {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 
 데스크탑 및 모바일 적응형 비디오 스트리밍의 경우 비트율 전환에 사용되는 비디오는 응용 비디오 세트의 모든 MP4 비디오를 기반으로 합니다.
 
-비디오 재생은 HLS 또는 점진적 비디오를 사용하여 발생합니다. HLS(HTTP Live Streaming)는 네트워크 대역폭 용량에 따라 재생을 자동으로 조정하는 응용 비디오 스트리밍을 위한 Apple 표준입니다. 또한 고객이 나머지 비디오가 다운로드될 때까지 기다릴 필요 없이 비디오의 모든 지점을 &quot;찾기&quot;할 수 있습니다. [HTTP 라이브 스트리밍](https://developer.apple.com/streaming/)도 참조하십시오. 점진적 비디오는 사용자의 데스크탑 화면이나 모바일 장치에 로컬로 비디오를 다운로드하여 저장하여 전달됩니다.
+비디오 재생은 HLS 또는 점진적 비디오를 사용하여 발생합니다. HLS(HTTP Live Streaming)는 네트워크 대역폭 용량에 따라 재생을 자동으로 조정하는 응용 비디오 스트리밍을 위한 Apple 표준입니다. 또한 고객이 나머지 비디오가 다운로드될 때까지 기다릴 필요 없이 비디오의 모든 지점을 &quot;찾기&quot;할 수 있습니다. 참조 - [HTTP Live Streaming](https://developer.apple.com/streaming/). 점진적 비디오는 사용자의 데스크탑 화면이나 모바일 장치에 로컬로 비디오를 다운로드하여 저장하여 전달됩니다.
 
 다음 표에서는 Adobe Dynamic Media Classic Video Viewer를 사용하는 데스크톱 컴퓨터 및 모바일 장치에서 비디오의 장치, 브라우저 및 재생 방법에 대해 설명합니다.
 

@@ -1,17 +1,17 @@
 ---
 title: 파일 게시
 description: Dynamic Media 이미지 서버에 자산을 게시하는 방법을 알아봅니다. 자산을 한 번에 게시하거나 Adobe Dynamic Media Classic에서 반복 일정으로 자산을 게시하도록 예약할 수 있습니다. 자산이 게시되면 제공할 수 있습니다. Adobe Dynamic Media Classic에서 URL 호출을 복사하여 웹 사이트나 애플리케이션에 추가할 수 있습니다."
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: f0e6d634587500877dbcd9e56bcfca105a6e6b9b
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 48%
+source-wordcount: '1729'
+ht-degree: 45%
 
 ---
 
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classic은 작업 페이지에서 게시 작업을 추적합
 
 >[!NOTE]
 >
->다시 게시한(이전에 게시한) 자산은 CDN(Content Delivery Network)의 웹 캐싱 메커니즘 때문에 웹 사이트에 즉시 표시되지 않습니다. [다시 게시한 자산 및 CDN 지연](publishing-files.md#republished_assets_and_cdn_delays)을 참조하십시오.
+>다시 게시하는(이전에 게시한 자산) 자산은 CDN(Content Delivery Network)의 웹 캐싱 메커니즘으로 웹 사이트에 즉시 표시되지 않습니다. [다시 게시한 자산 및 CDN 지연](publishing-files.md#republished_assets_and_cdn_delays)을 참조하십시오.
 
 ### 1회 게시 작업 만들기 {#creating-a-one-time-publish-job}
 

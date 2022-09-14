@@ -2,7 +2,7 @@
 title: Adobe Analytics에 로그인
 description: Adobe Dynamic Media Classic에서 Adobe Analytics에 로그인하는 방법을 알아봅니다.
 uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
@@ -10,9 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: d54290ca376096965c2908444230b6a0071fa43e
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '844'
+source-wordcount: '846'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Adobe Analytics 보고서를 구성하고 Adobe Analytics 보고서 변수를 Ad
 
 Dynamic Media Classic과 Adobe Analytics OAuth를 통합함으로써 시작합니다. Dynamic Media Classic과의 Adobe Analytics OAuth 통합은 일반적으로 사용자당 한 번만 수행됩니다.
 
-1. 액세스 [Adobe 개발자 콘솔](https://developer.adobe.com/console). 통합이 필요한 조직에 대한 관리자 권한이 계정에 있는지 확인합니다.
+1. 액세스 [Adobe Developer 콘솔](https://developer.adobe.com/console). 통합이 필요한 조직에 대한 관리자 권한이 계정에 있는지 확인합니다.
 1. 홈 페이지의 오른쪽 위 모서리 근처에 있는 드롭다운 목록에서 해당 회사를 선택합니다. (아래 스크린샷은 정보 용도로만 제공됩니다.) 선택하는 실제 회사 이름은 다를 수 있습니다.)
 
    ![새 프로젝트를 만듭니다](assets/analytics-oauth1.png)
@@ -39,7 +39,7 @@ Dynamic Media Classic과 Adobe Analytics OAuth를 통합함으로써 시작합�
 1. 다음 중 하나를 수행합니다.
 
    * 페이지 상단의 **[!UICONTROL 홈]** 탭, 선택 **[!UICONTROL 새 프로젝트 만들기]**.
-   * 페이지 상단의 **[!UICONTROL 프로젝트]** 탭. 페이지의 오른쪽 모서리에서 을(를) 선택합니다. **[!UICONTROL 새 프로젝트 만들기]**.
+   * 페이지 상단의 **[!UICONTROL 프로젝트]** 탭. 페이지의 오른쪽 모서리 근처에 있는 를 선택합니다. **[!UICONTROL 새 프로젝트 만들기]**.
 
 1. 프로젝트의 페이지에서 **[!UICONTROL API 추가]**.
 1. 설정 **[!UICONTROL API 추가]** 페이지를 선택하고 **[!UICONTROL Adobe Analytics]**.
@@ -73,7 +73,6 @@ Dynamic Media Classic과 Adobe Analytics OAuth를 통합함으로써 시작합�
 >* 새 보고서가 Analytics에 추가되고 사용자가 해당 새 보고서에 데이터 전송을 시작하려고 합니다.
 >* 추적 서버가 Adobe Analytics에서 업데이트됩니다.
 >* 새로운 추적 변수가 보고서에 도입되었으며 Dynamic Media Classic 사용자 인터페이스의 특정 뷰어 변수를 해당 새 Analytics 변수에 연결하려고 합니다.
-
 >
 
 

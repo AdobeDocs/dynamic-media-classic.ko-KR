@@ -1,16 +1,16 @@
 ---
 title: Dynamic Media 제한 사항
-description: '이미지 세트 또는 스핀 세트를 만들거나 PDF을 업로드할 때 모범 사례 및 강제 제한에 대해 알아봅니다. Dynamic Media Viewer용 지원되지 않는 웹 브라우저 및 운영 체제 조합에 대해서도 알아봅니다. '
-contentOwner: admin
+description: 이미지 세트 또는 스핀 세트를 만들거나 PDF을 업로드할 때 모범 사례 및 강제 제한에 대해 알아봅니다. Dynamic Media Viewer용 지원되지 않는 웹 브라우저 및 운영 체제 조합에 대해서도 알아봅니다.
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Viewers,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: ec840640b1131a56c1261f22b7638e53dac1bce8
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '286'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Adobe Dynamic Media 뷰어는 다음 웹 브라우저 및 운영 체제 조합�
 * Safari 8 + iOS 8.4
 * Safari 8 + OS X 10.10 Yosemite
 
-## TLS 1.0 및 1.1 지원 종료 {#tls}
+## 전송 계층 보안 1.0 및 1.1에 대한 지원 종료 {#tls}
 
 <!-- CQDOC-19433 -->
 

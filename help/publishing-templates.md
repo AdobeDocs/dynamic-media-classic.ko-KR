@@ -2,7 +2,7 @@
 title: 템플릿 게시
 description: Adobe Dynamic Media Classic에서 템플릿을 게시하는 방법을 알아봅니다.
 uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
@@ -10,7 +10,7 @@ discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
-source-git-commit: ad5270545be502d3aaabba574353787622ab0445
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 13%
@@ -19,7 +19,7 @@ ht-degree: 13%
 
 # 템플릿 게시{#publishing-templates}
 
-템플릿을 게시하면 웹 사이트 및 애플리케이션에서 사용할 수 있는 Dynamic Media 이미지 서버에 배치됩니다. 게시 프로세스 중에 Dynamic Media Classic에서 웹 사이트 및 애플리케이션에 필요한 URL을 활성화합니다.
+템플릿을 게시하면 웹 사이트 및 애플리케이션에서 사용할 수 있는 Dynamic Media 이미지 서버에 배치됩니다. 게시 프로세스 중에 Adobe Dynamic Media Classic에서 웹 사이트 및 애플리케이션에 필요한 URL을 활성화합니다.
 
 >[!NOTE]
 >
@@ -27,11 +27,11 @@ ht-degree: 13%
 
 ##  템플릿을 게시로 표시 {#marking-templates-for-publish}
 
-템플릿 및 모든 지원 파일은 Dynamic Media 이미지 서버에 배치하려면 게시용으로 표시되어야 합니다. **[!UICONTROL 게시용으로 표시]** 아이콘을 선택하여 [찾아보기] 패널에서 게시용으로 이 항목을 표시할 수 있습니다.
+템플릿 및 모든 지원 파일은 Dynamic Media 이미지 서버에 배치하려면 게시용으로 표시되어야 합니다. [찾아보기] 패널에서 **[!UICONTROL 게시로 표시]** 아이콘.
 
 ## 템플릿 게시 {#publishing-your-template}
 
-Dynamic Media 이미지 서버에 템플릿을 게시하려면 전역 탐색 모음에서 **[!UICONTROL 게시]**&#x200B;를 선택한 다음 **[!UICONTROL When]** 옵션을 선택합니다. 게시 작업의 이름을 선택적으로 입력할 수 있습니다. **[!UICONTROL 게시 제출]**&#x200B;을 선택합니다.
+Dynamic Media 이미지 서버에 템플릿을 게시하려면 전역 탐색 모음에서 를 선택합니다 **[!UICONTROL 게시]**&#x200B;를 선택한 다음 을 선택합니다 **[!UICONTROL When]** 선택 사항입니다. 게시 작업의 이름을 선택적으로 입력할 수 있습니다. 선택 **[!UICONTROL 게시 제출]**.
 
 >[!MORELIKETHIS]
 >

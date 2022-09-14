@@ -1,8 +1,8 @@
 ---
-title: '"빠른 시작: 회전 집합"'
+title: "빠른 시작: 회전 집합"
 description: Adobe Dynamic Media Classic에서 신속하게 시작하고 실행할 수 있는 스핀 세트 소개 및 빠른 시작 을 참조하십시오.
 uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
@@ -10,16 +10,16 @@ discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '839'
 ht-degree: 22%
 
 ---
 
 # 빠른 시작: 회전 집합{#quick-start-spin-sets}
 
-회전 집합은 개체를 회전하는 실제 동작을 시뮬레이션하여 검사합니다. 회전 집합을 사용하면 임의 각도에서 항목을 보고 모든 각도에서 주요 시각적 세부 사항을 얻을 수 있습니다. 스핀 세트는 360° 보기 경험을 시뮬레이션합니다. Adobe Dynamic Media Classic에서는 뷰어가 항목을 회전할 수 있는 1차원 스핀 세트와 뷰어가 항목을 회전 및 대칭 이동할 수 있는 2차원 스핀 세트를 제공합니다. 또한 사용자는 몇 번의 간단한 마우스 클릭으로 모든 보기를 &quot;자유 형식&quot;으로 확대/축소하고 이동할 수 있습니다. 이렇게 하면 사용자가 특정 뷰포인트에서 더 자세히 항목을 검사할 수 있습니다.
+회전 집합은 개체를 회전하는 실제 동작을 시뮬레이션하여 검사합니다. 회전 집합을 사용하면 임의 각도에서 항목을 보고 모든 각도에서 주요 시각적 세부 사항을 얻을 수 있습니다. 스핀 세트는 360° 보기 경험을 시뮬레이션합니다. Adobe Dynamic Media Classic에서는 뷰어가 항목을 회전할 수 있는 1차원 스핀 세트와 뷰어가 항목을 회전 및 대칭 이동할 수 있는 2차원 스핀 세트를 제공합니다. 또한 사용자는 몇 번의 마우스 클릭으로 모든 보기를 &quot;자유 형식&quot; 확대/축소 및 이동할 수 있습니다. 이렇게 하면 사용자가 특정 뷰포인트에서 더 자세히 항목을 검사할 수 있습니다.
 
 ![회전 집합의 이미지](/help/assets/spin_set.png)
 

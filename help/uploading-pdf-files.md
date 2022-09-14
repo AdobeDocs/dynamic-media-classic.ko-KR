@@ -2,17 +2,17 @@
 title: PDF 파일 업로드
 description: Adobe Dynamic Media Classic에서 eCatalog와 연결된 PDF 파일을 업로드하는 방법을 알아봅니다.
 uuid: 9e178bb2-ac09-427a-b61a-aad4e87a5837
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 7c1dfa7382b6eaf746fe7f0ac426472180c0c70c
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 38%
+source-wordcount: '831'
+ht-degree: 36%
 
 ---
 
@@ -44,9 +44,9 @@ Adobe Dynamic Media Classic에 업로드하기 전에 PDF 파일을 준비합니
 
 다양한 업로드 방법에 대한 자세한 내용은 [파일 업로드](uploading-files.md#uploading_your_files)를 참조하십시오.
 
-업로드할 파일을 선택하고 다음과 같은 *우수 사례* PDF 선택 사항을 선택합니다.
+업로드할 파일을 선택한 다음 선택합니다 *모범 사례* PDF 옵션:
 
-* **자르기 옵션** - 업로드 작업 옵션 대화 상자에서 다음을 선택합니다 **[!UICONTROL 자르기 옵션]**. PDF 페이지에 자르기 표시, 등록 표시 또는 기타 표시가 있는 경우 **[!UICONTROL 자르기]** 드롭다운 목록에서 **[!UICONTROL 수동]**. 페이지 위쪽, 오른쪽, 아래쪽 및 왼쪽에서 자를 픽셀 수를 입력합니다. 자르기 표시는 종종 0.5인치 여백이 됩니다. 선택한 경우 **[!UICONTROL 150년]** (권장) 인치당 픽셀 해상도로 사용하고 [위쪽], [오른쪽], [아래쪽] 및 [왼쪽] 텍스트 상자에 75, 75, 75, 75를 입력합니다. 이러한 경우 여백(150ppi에서 1/2가 75픽셀과 같음)에서 1.5인치 떨어진 곳에 자르게 됩니다.
+* **자르기 옵션** - 업로드 작업 옵션 대화 상자에서 다음을 선택합니다 **[!UICONTROL 자르기 옵션]**. PDF 페이지에 자르기 표시, 등록 표시 또는 기타 표시가 있는 경우 **[!UICONTROL 자르기]** 드롭다운 목록에서 **[!UICONTROL 수동]**. 페이지 위쪽, 오른쪽, 아래쪽 및 왼쪽에서 자를 픽셀 수를 입력합니다. 자르기 표시는 종종 0.5인치 여백에 설정됩니다. 선택한 경우 **[!UICONTROL 150년]** (권장) 인치당 픽셀 해상도로 사용하고 [위쪽], [오른쪽], [아래쪽] 및 [왼쪽] 텍스트 상자에 75, 75, 75, 75를 입력합니다. 이러한 경우 여백(150ppi에서 1/2가 75픽셀과 같음)에서 1.5인치 떨어진 곳에 자르게 됩니다.
 
 * **처리 중** - 업로드 작업 옵션 대화 상자에서 다음을 선택합니다 **[!UICONTROL PDF 옵션]**. 에서 **[!UICONTROL 처리 중]** 드롭다운 목록에서 **[!UICONTROL 래스터화]**. eCatalog의 모든 페이지와 이미지를 표시할 수 있도록 PDF 파일이 래스터화되어야 합니다.
 

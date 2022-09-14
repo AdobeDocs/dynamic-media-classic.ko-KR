@@ -2,7 +2,7 @@
 title: PDF 작업
 description: Adobe Dynamic Media Classic에서 PDF 작업 방법을 알아봅니다.
 uuid: 26d70d28-9393-49b1-9051-d70456deca67
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
@@ -10,9 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 92a28b7868e03802f4ef1c113ec3f8b34f57ed56
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '710'
 ht-degree: 36%
 
 ---
@@ -95,4 +95,4 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
 1. [자르기] 메뉴에서 **[!UICONTROL 수동]**.
 1. [위쪽], [오른쪽], [아래쪽] 및 [왼쪽] 텍스트 상자에 픽셀 설정을 입력하여 페이지 위쪽, 아래쪽 및 측면에서 자릅니다.
 
-잘리는 페이지 양은 PDF 파일에 대해 입력한 [해상도 PX/인치] 설정에 따라 달라집니다. 예를 들어, 해상도 PX/인치 설정으로 150(기본값)을 입력하고 페이지 양쪽에서 75픽셀을 자르는 경우 1/2인치가 잘립니다. 인치당 150픽셀에서 75픽셀은 반인치입니다.
+잘리는 페이지 양은 PDF 파일에 대해 입력한 [해상도 PX/인치] 설정에 따라 달라집니다. 예를 들어 해상도 PX/인치 설정으로 150(기본값)을 입력한다고 가정합니다. 그런 다음 페이지 측면에서 75픽셀을 자릅니다. 이 경우 0.5인치. 이 잘립니다. 인치당 150픽셀에서 75픽셀은 반인치입니다.

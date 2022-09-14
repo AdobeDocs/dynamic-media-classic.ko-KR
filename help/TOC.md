@@ -6,7 +6,7 @@ user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Adobe Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
-source-git-commit: d5293a2983e1105c65005634e7eb4147e17e8328
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '779'
 ht-degree: 29%
@@ -79,8 +79,8 @@ ht-degree: 29%
    + [프로젝트를 사용하여 작업 구성](organizing-projects.md)
 + 이미지 크기 조정 {#image-sizing}
    + [빠른 시작: 이미지 크기 조정](quick-start-image-sizing.md)
-   + [마스터 이미지 업로드](uploading-master-images.md)
-   + [마스터 이미지 게시](publishing-master-images.md)
+   + [기본 이미지 업로드](uploading-master-images.md)
+   + [기본 이미지 게시](publishing-master-images.md)
    + [이미지 사전 설정 설정](setting-image-presets.md)
    + [웹 애플리케이션에 URL 연결](linking-urls-web-application.md)
 + 확대/축소 {#zoom}
@@ -166,7 +166,7 @@ ht-degree: 29%
    + [업로드한 자산을 삭제합니다](deleting-uploaded-asset.md)
    + [디스크 사용 정보 가져오기](getting-disk-usage-information.md)
    + [래스터 이미지 자산 업로드](uploading-image-asset-or-vector.md)
-+ 마스터 파일 {#master-files}
++ 기본 파일 {#master-files}
    + [이미지 품질 최적화 우수 사례](best-practices-optimizing-quality-images.md)
    + [이미지 편집](editing-images.md)
    + [이미지 맵 만들기](creating-image-maps.md)

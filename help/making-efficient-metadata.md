@@ -2,7 +2,7 @@
 title: 메타데이터를 보다 효율적으로 사용
 description: Adobe Dynamic Media Classic에서 메타데이터를 보다 효율적으로 사용하는 방법을 알아봅니다.
 uuid: 6690b815-ca5f-491f-94eb-3d4657fbb8ed
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
@@ -10,7 +10,7 @@ discoiquuid: b399c2b2-3e59-43e7-aa7d-dd4fdf4e9bad
 feature: Dynamic Media Classic,Collaboration,Metadata,Asset Management
 role: Admin,User
 exl-id: e6a5af61-37be-4152-9ea3-8868f054783c
-source-git-commit: 1d71cbe6e2493ac8d47e837a20e194b6ae7a22d4
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 57%

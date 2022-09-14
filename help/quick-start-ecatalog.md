@@ -1,8 +1,8 @@
 ---
-title: '"빠른 시작: eCatalogs"'
+title: "빠른 시작: eCatalogs"
 description: Adobe Dynamic Media Classic에서 eCatalog 기술을 빠르게 시작하고 실행하는 데 도움이 되는 eCatalog 소개 및 빠른 시작 .
 uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
-contentOwner: admin
+contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
@@ -10,10 +10,10 @@ discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
-source-git-commit: ec1a981dd5cfa92ce4ae8e2676dd131d1509216f
+source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
-source-wordcount: '1558'
-ht-degree: 37%
+source-wordcount: '1559'
+ht-degree: 36%
 
 ---
 
@@ -56,7 +56,7 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 >
 >이제 Adobe Dynamic Media Classic에서 eCatalog 를 작성할 수 있습니다.
 
-이 eCatalog 빠른 시작은 eCatalog를 빨리 시작하고 실행하는 데 도움이 됩니다. 1-7 단계를 수행하십시오. 각 단계 뒤에는 자세한 정보를 확인할 수 있는 항목 제목의 상호 참조가 있습니다.
+이 eCatalog 빠른 시작은 eCatalog를 빨리 시작하고 실행하는 데 도움이 됩니다. 1-7 단계를 수행하십시오. 각 단계 후에는 추가 정보를 찾을 수 있는 주제 제목에 대한 상호 참조가 있습니다.
 
 ## 1. PDF 파일을 업로드합니다
 
