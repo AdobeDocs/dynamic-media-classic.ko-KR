@@ -10,16 +10,16 @@ discoiquuid: f6a2dc19-7eb5-41f7-b6f2-de1979ed1d4e
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: fab1f618-5370-4049-b6e0-69264afa933c
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 5ed38982f3a8a2912a11530589212a024fda798c
 workflow-type: tm+mt
-source-wordcount: '73'
-ht-degree: 20%
+source-wordcount: '72'
+ht-degree: 0%
 
 ---
 
 # 소스 및 인코딩된 비디오 내보내기{#exporting-source-and-encoded-videos}
 
-찾아보기 패널에서 소스 비디오는 &quot;마스터 비디오&quot;라는 레이블이 지정됩니다. 인코딩된 비디오는 &quot;비디오&quot;라는 레이블이 지정됩니다. 소스 비디오와 기본 비디오를 내보낼 수 있습니다. 비디오 파일을 내보내려면 [찾아보기] 패널에서 비디오 파일을 선택하고 **[!UICONTROL 파일]** > **[!UICONTROL 내보내기]**.
+찾아보기 패널에서 소스 비디오에 레이블이 지정됩니다 *기본 비디오*. 인코딩된 비디오에는 레이블이 지정됩니다 *비디오*. 기본 비디오 및 비디오를 내보낼 수 있습니다. 비디오 파일을 내보내려면 [찾아보기] 패널에서 비디오 파일을 선택하고 **[!UICONTROL 파일]** > **[!UICONTROL 내보내기]**.
 
 자세한 내용은 [Adobe Dynamic Media Classic에서 자산 내보내기](exporting-assets-from-dmc.md#exporting-assets-from-dmc).
 
