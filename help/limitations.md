@@ -8,9 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
 feature: Dynamic Media Classic,Asset Management,Image Sets,Spin Sets,eCatalog
 role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
-source-git-commit: 09f105e47eddee81fc9612282a4ef305e9ccb105
+source-git-commit: 10e603f566cd7f968c3a6aea1ba277697a1734ca
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '282'
 ht-degree: 2%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 2%
 
 | 자산 - 제한 유형 | 우수 사례 | 제한 적용 | 2022년 12월 31일에 제한하는 것으로 변경 |
 | --- | --- | --- | --- |
-| **이미지** - 이미지당 스마트 자르기 수 | 5 | 100년 | 20년 |
+| **이미지** - 이미지당 스마트 자르기 수 | 5 | 100년 | 해당 사항 없음 |
 | **모든 세트** - 세트당 중복 자산 수 | 중복 없음 | 20년 | 해당 사항 없음 |
 | **모든 세트** - 세트당 최대 자산 수 | 세트당 5-10개 이미지 | 1000 | 해당 사항 없음 |
 | **스핀 세트** - 2D 세트당 최대 행/열 수 | 세트당 12-18개 이미지 | 1000년 | 해당 사항 없음 |
