@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Adobe Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 779f152007ee7ec797c3206765c1d103e384962e
 workflow-type: tm+mt
 source-wordcount: '779'
-ht-degree: 29%
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 29%
 # Adobe Dynamic Media Classic 안내서 {#using}
 
 + [Adobe Dynamic Media Classic 안내서](home.md)
-+ [Adobe Dynamic Media 클래스 우수 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
++ [Adobe Dynamic Media Classic 우수 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [이제 새로운 Adobe Dynamic Media Classic 로그인 환경을 사용할 수 있습니다](new-ui-2020.md)
 + [Experience League별 Dynamic Media 뉴스레터 아카이브 Adobe](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic 소개 {#intro}
@@ -101,7 +101,7 @@ ht-degree: 29%
    + [eCatalog 뷰어에서 eCatalog 미리 보기](previewing-ecatalogs-ecatalog-viewer.md)
    + [eCatalogs 및 관련 PDF 게시](publishing-ecatalogs-associated-pdfs.md)
    + [웹 페이지에 eCatalog 연결](linking-ecatalog-web-page.md)
-+ Image Sets {#image-sets}
++ 이미지 집합 {#image-sets}
    + [빠른 시작: 이미지 집합](quick-start-image-sets.md)
    + [업로드할 이미지 세트 자산 준비](preparing-image-set-assets-upload.md)
    + [이미지 집합 만들기](creating-image-set.md)
