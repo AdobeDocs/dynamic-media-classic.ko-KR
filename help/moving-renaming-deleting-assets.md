@@ -10,10 +10,10 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 13d9199e0613c7b1eb664ffee859a79dd3f9faca
+source-git-commit: 741e31e64125a2dfe3f801480837ffbaf81767aa
 workflow-type: tm+mt
 source-wordcount: '618'
-ht-degree: 0%
+ht-degree: 31%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->대량 삭제는 많은 작업이 필요합니다. 대량 삭제 작업은 동시 삭제 작업이 아닌 순차적으로 실행해야 합니다. Adobe은 삭제 작업을 시간당 5000개 이하의 자산 삭제로 제한하는 것이 좋습니다. 시간당 5000보다 큰 숫자를 사용하면 속도 제한이 발생할 수 있습니다.
+>대량 삭제는 많은 작업이 필요합니다. 대량 삭제 작업은 동시 삭제 작업이 아닌 순차적으로 실행해야 합니다. Adobe은 삭제 작업을 시간당 5000개 이하의 자산 삭제로 제한하는 것이 좋습니다. 시간당 5000보다 큰 숫자를 지정하면 속도 제한이 발생할 수 있습니다.
 
 **자산을 삭제하려면 다음을 수행하십시오.**
 
