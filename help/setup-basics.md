@@ -10,10 +10,10 @@ discoiquuid: 753677ad-9957-43d9-97ad-bd73a5da5ccb
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 7e99de68-a5de-4b42-9754-c394e9b41369
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 532d4ec9515b561682678d3a0140096c8b3deae8
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 17%
+ht-degree: 16%
 
 ---
 
@@ -28,7 +28,7 @@ Adobe Dynamic Media Classic 설정 페이지를 사용하여 개인 설정을 �
 
 또한 관리자는 **[!UICONTROL 설정]** 페이지:
 
-* **이미지 사전 설정** - 이미지 사전 설정은 다양한 크기 및 형식으로 기본 이미지를 표시하는 데 필요한 형식을 저장합니다.
+* **이미지 사전 설정** - 이미지 사전 설정은 서로 다른 크기와 포맷으로 기본 이미지를 표시하기 위해 저장된 포맷입니다.
 
 * **뷰어 사전 설정** - 뷰어 사전 설정은 뷰어에서 리치 미디어를 볼 때 표시되는 방식을 결정합니다.
 
@@ -36,6 +36,6 @@ Adobe Dynamic Media Classic 설정 페이지를 사용하여 개인 설정을 �
 >
 >* [기본 설정 교육 비디오](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/573_Setup%20Basics_converted%20renamed_Getting%20Started-AVS)
 >* [Adobe Dynamic Media Classic 사용자 역할 및 권한](administration-setup.md#user_administration)
->* [Image Presets](application-setup.md#image_presets)
->* [Viewer Presets](application-setup.md#viewer_presets)
+>* [이미지 사전 설정](application-setup.md#image_presets)
+>* [뷰어 사전 설정](application-setup.md#viewer_presets)
 

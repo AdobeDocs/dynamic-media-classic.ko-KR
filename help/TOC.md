@@ -6,16 +6,21 @@ user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Adobe Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
-source-git-commit: 779f152007ee7ec797c3206765c1d103e384962e
+source-git-commit: bf910596835d0cfc42919340e063b3c8e0d0ad43
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 25%
+source-wordcount: '810'
+ht-degree: 24%
 
 ---
 
 
 # Adobe Dynamic Media Classic 안내서 {#using}
 
++ Adobe Experience Manager Assets의 Adobe Dynamic Media Classic에서 Dynamic Media으로 업그레이드 {#upgrade}
+   + [Dynamic Media Classic에서 Dynamic Media으로 업그레이드](upgrade.md)
+   + [업그레이드 FAQ](upgrade-faq.md)
+   + [기능 목록 비교](upgrade-feature-comparison.md)
+   + [업그레이드 준비 확인 목록](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic 안내서](home.md)
 + [Adobe Dynamic Media Classic 우수 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 + [이제 새로운 Adobe Dynamic Media Classic 로그인 환경을 사용할 수 있습니다](new-ui-2020.md)
