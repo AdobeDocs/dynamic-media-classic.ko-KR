@@ -7,10 +7,10 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '994'
-ht-degree: 69%
+source-wordcount: '1023'
+ht-degree: 67%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 69%
 이미지 자산을 업로드하려면 먼저 공유 비밀 키를 요청합니다. 이 공유 보안 키를 사용하여 업로드 토큰을 검색합니다. 그런 다음 업로드 토큰을 사용하여 래스터 이미지 자산을 업로드합니다.
 
 >[!IMPORTANT]
+>
+>2023년 5월 1일부터 Dynamic Media Classic의 UGC 래스터 자산은 업로드한 날부터 최대 60일 동안 사용할 수 있습니다. 60일 후 자산이 제거됩니다.
+
+>[!NOTE]
 >
 >Adobe Dynamic Media Classic의 신규 또는 기존 UGC 벡터 자산에 대한 지원은 2021년 9월 30일에 종료되었습니다.
 
@@ -75,7 +79,7 @@ URL 쿼리 문자열에 다음 필드를 사용하여 업로드 토큰을 검색
 | --- | --- | --- |
 | op | 필수 | get_uploadtoken |
 | shared_secret | 필수 | 업로드를 수행하는 회사의 공유 보안 키입니다. |
-| expires | 선택 사항입니다 | 업로드 토큰이 유효한 시간(초)입니다. 지정하지 않으면 기본값은 300초입니다. |
+| expires | 선택적 | 업로드 토큰이 유효한 시간(초)입니다. 지정하지 않으면 기본값은 300초입니다. |
 
 **샘플 래스터 이미지 URL:**
 
@@ -177,10 +181,10 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 | `op` | 필수 | 업로드 |
 | `upload_token` | 필수 | 회사와 관련된 공유 보안 키의 업로드 토큰입니다. |
 | `company_name` | 필수 | 업로드를 수행하는 회사 이름입니다. |
-| `file_limit` | 선택 사항입니다 | 자산의 파일 크기 제한(바이트)입니다. |
-| `file_exts` | 선택 사항입니다 | 이미지 자산 파일에 허용되는 확장자 목록입니다. |
-| `preserve_colorprofile` | 선택 사항입니다 | 임베드된 색상 프로필을 유지하고 업로드한 파일을 PTIFF 형식으로 전환합니다. 가능한 값은 true 또는 false입니다. 기본값은 false입니다. |
-| `preserve_filename` | 선택 사항입니다 | 업로드한 자산의 파일 이름을 유지합니다. 가능한 값은 true 또는 false입니다. 기본값은 false입니다. |
+| `file_limit` | 선택적 | 자산의 파일 크기 제한(바이트)입니다. |
+| `file_exts` | 선택적 | 이미지 자산 파일에 허용되는 확장자 목록입니다. |
+| `preserve_colorprofile` | 선택적 | 임베드된 색상 프로필을 유지하고 업로드한 파일을 PTIFF 형식으로 전환합니다. 가능한 값은 true 또는 false입니다. 기본값은 false입니다. |
+| `preserve_filename` | 선택적 | 업로드한 자산의 파일 이름을 유지합니다. 가능한 값은 true 또는 false입니다. 기본값은 false입니다. |
 
 >[!NOTE]
 >

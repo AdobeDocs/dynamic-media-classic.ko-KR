@@ -1,5 +1,5 @@
 ---
-title: 업로드한 자산을 삭제합니다
+title: 업로드된 래스터 이미지 자산 삭제
 description: Adobe Dynamic Media Classic에서 업로드된 자산을 삭제하는 방법을 알아봅니다.
 uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 71%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -53,6 +53,10 @@ URL 쿼리 문자열에 다음 필드를 사용하여 자산을 삭제할 수 �
 <!-- <li>For Vector:fxg_name</li> -->
 
 >[!IMPORTANT]
+>
+>2023년 5월 1일부터 Dynamic Media Classic의 UGC 래스터 자산은 업로드한 날부터 최대 60일 동안 사용할 수 있습니다. 60일 후 자산이 제거됩니다.
+
+>[!NOTE]
 >
 >Adobe Dynamic Media Classic의 신규 또는 기존 UGC 벡터 이미지 자산에 대한 지원은 2021년 9월 30일에 종료되었습니다.
 
