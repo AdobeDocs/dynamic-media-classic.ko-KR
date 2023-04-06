@@ -9,10 +9,10 @@ discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
-source-git-commit: e235cdf331a1366ea81bd609e4e264c0c2cd8264
+source-git-commit: c7a7997ffd69cb39468119d8a48884f0f60efd05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '131'
+ht-degree: 52%
 
 ---
 
@@ -54,7 +54,7 @@ URL 쿼리 문자열에 다음 필드를 사용하여 자산을 삭제할 수 �
 
 >[!IMPORTANT]
 >
->2023년 5월 1일부터 Dynamic Media Classic의 UGC 래스터 자산은 업로드한 날부터 최대 60일 동안 사용할 수 있습니다. 60일 후 자산이 제거됩니다.
+>2023년 5월 1일부터 Dynamic Media의 UGC 자산은 업로드한 날부터 최대 60일 동안 사용할 수 있습니다. 60일 후 자산이 제거됩니다.
 
 >[!NOTE]
 >
