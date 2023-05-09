@@ -3,13 +3,13 @@ title: 기능 비교
 description: 기능 비교 표 [!DNL Dynamic Media] in [!DNL Adobe Experience Manager] 자산 및 [!DNL Adobe Dynamic Media Classic] 데스크탑 응용 프로그램입니다.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 1b18fbc086fb6296aef8674d8471dd5b15a845c7
+exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
+source-git-commit: fa69e9df791597462db1bad9204c40896ea74020
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '157'
 ht-degree: 3%
 
 ---
-
 
 # 기능 비교
 
@@ -38,8 +38,8 @@ ht-degree: 3%
 | 비디오 인코딩 | ✓ | ✓ |
 | 뷰어 액세스 가능성 | ✓ | ✓ |
 | Analytics와 뷰어 통합 | ✓ | ✓ |
-| 1:1 템플릿 | - | ✓ |
-| Visual Configurator<br>(제품 개인화) | - | ✓ |
+| 1:1 템플릿 | ✓<br>*개인화된 미디어 번들* | ✓ |
+| Visual Configurator<br>(제품 개인화) | ✓<br>*개인화된 미디어 번들* | ✓ |
 | 3D - Experience Manager Sites<br>WCM 구성 요소 | ✓ | - |
 | 3D - 대화형 경험 뷰어 | ✓ | - |
 | 3D - AR/VR 및 코어 3D 파일 게시 | ✓ | - |
