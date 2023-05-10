@@ -4,7 +4,7 @@ description: 기능 비교 표 [!DNL Dynamic Media] in [!DNL Adobe Experience Ma
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: eb56533a-4e31-4367-8b68-879cd70c761e
-source-git-commit: 39dabb64c1c14422bf0dff234c01e6daad8ab0b5
+source-git-commit: 56efe781a1f4366f0c9d726332fd6633f50abc99
 workflow-type: tm+mt
 source-wordcount: '157'
 ht-degree: 3%
@@ -29,7 +29,7 @@ ht-degree: 3%
 | 대화형 뷰어 | ✓ | ✓ |
 | 매니페스트 파일 | ✓ | ✓ |
 | Media Portal | ✓<br>*&quot;Brand Portal&quot;라고 함* | ✓ |
-| 규칙 시트 | ✓ | ✓ |
+| 규칙 세트 | ✓ | ✓ |
 | 보안 미리 보기 | ✓ | ✓ |
 | 세트(이미지, 스핀, 혼합 미디어) | ✓<br>*다중 축 회전 없음* | ✓ |
 | 스마트 이미징 | ✓ | ✓ |
