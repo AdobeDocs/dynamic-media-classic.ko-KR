@@ -8,10 +8,10 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: cb55e09a997b9d36002c4ac429603576d52fb8bd
+source-git-commit: f3082fc6b66cf0903bf6cb1907a8615a12399fdc
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 54%
+source-wordcount: '1569'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,18 @@ ht-degree: 54%
 Adobe Dynamic Media Classic에는 이미지를 튜닝, 최적화하고 결과를 렌더링하기 위한 100개 이상의 이미지 제공 명령이 포함되어 있습니다. 다음 지침은 프로세스를 간소화하고 일부 필수 명령 및 우수 사례를 사용하여 좋은 결과를 빨리 얻는 데 도움이 될 수 있습니다.
 
 참조 - [스마트 이미징](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic).
+
+>[!TIP]
+>
+>Dynamic Media을 사용하여 Dynamic Media 이미지 수정자 및 스마트 이미징의 이점을 확인하고 살펴봅니다 [_스냅샷_](https://snapshot.scene7.com/).
+>
+> 스냅샷은 최적화 및 동적 이미지 전달을 위해 Dynamic Media의 강력한 기능을 보여주기 위해 설계된 시각적 데모 도구입니다. 다양한 Dynamic Media 이미지 수정자의 출력을 시각적으로 관찰하고 다음에 대한 스마트 이미징 최적화를 사용하여 테스트 이미지 또는 Dynamic Media URL을 실험합니다.
+>* 파일 크기(WebP 및 AVIF 전달 포함)
+>* 네트워크 대역폭
+>* DPR (장치 픽셀 비율)
+>
+>스냅샷 사용 용이성을 알아보려면 [스냅샷 교육 비디오](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot.html?lang=en) (3분 17초).
+
 
 ## 이미지 형식(&amp;fmt=) 우수 사례 {#best-practices-for-image-format-fmt}
 
@@ -67,7 +79,7 @@ Adobe Dynamic Media Classic을 사용하면 섭취, 게재 시 또는 둘 다에
 
       * `threshold` (0-255, 효과 민감도)
 
-         This parameter determines how different the sharpened pixels must be from the surrounding area before they are considered edge pixels and the filter sharpens them. 임계값은 피부 톤과 같이 유사한 색상 영역을 지나치게 선명하게 하는 것을 방지하는 데 유용합니다. For example, a threshold value of 12 ignores slight variations in skin tone brightness to avoid adding &quot;noise&quot;, while still adding edge contrast to high contrast areas, such as where eyelashes meet skin.
+         이 매개 변수는, 가장자리 픽셀로 간주되고 필터가 선명하게 하기 전에, 선명하게 되는 픽셀과 주변 영역 간의 필수 차이를 결정합니다. 임계값은 피부 톤과 같이 유사한 색상 영역을 지나치게 선명하게 하는 것을 방지하는 데 유용합니다. 예를 들어 임계값 12는 &quot;노이즈&quot;를 추가하지 않도록 피부 톤 밝기에서 약간의 변형을 무시하는 반면, 속눈썹이 피부와 접촉하는 지점과 같은 고대비 영역에는 여전히 가장자리 대비를 추가합니다.
 
          필터에 사용하는 우수 사례를 비롯하여 이러한 세 매개 변수를 설정하는 방법에 대한 자세한 내용은 [Adobe Dynamic Media Classic 및 이미지 서버에서 이미지 선명하게 하기](/help/assets/s7_sharpening_images.pdf).
 
