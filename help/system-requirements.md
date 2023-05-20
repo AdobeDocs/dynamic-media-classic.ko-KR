@@ -19,10 +19,10 @@ ht-degree: 26%
 
 # Adobe Dynamic Media Classic 데스크탑 앱에 대한 시스템 요구 사항 {#system-requirements}
 
-Adobe Dynamic Media Classic 데스크탑 앱을 사용하는 최상의 경험을 위해 시스템이 다음 시스템 요구 사항 및 제안을 충족하는지 확인하십시오.
+Adobe Dynamic Media Classic 데스크탑 앱을 최상의 환경에서 사용하려면 시스템이 다음 시스템 요구 사항 및 제안을 충족하는지 확인하십시오.
 
-* Microsoft® Windows® 7 이상 또는 macOS X 10.10 이상 Macintosh Intel® 프로세서가 필요합니다.
-* 3GB 이상의 RAM 필요(4GB 이상 권장)
+* Microsoft® Windows® 7 이상 또는 macOS X 10.10 이상의 Macintosh 인텔® 프로세서가 필요합니다.
+* 3GB RAM 이상 필요(4GB 이상 권장).
 * 컬러 모니터
 * 1280x1024 이상의 해상도로 트루 컬러를 지원하는 비디오 카드
 * JAVA 지원 브라우저.

@@ -26,11 +26,11 @@ ht-degree: 61%
 * 동일한 재킷의 검정색, 갈색 및 녹색 촬영
 * 검정색, 갈색 및 녹색 색상 견본
 
-사용자가 견본 집합의 이미지를 확대/축소할 수 있기 때문에 이미지의 가장 큰 치수가 2000픽셀 이상인지 확인합니다. Adobe Dynamic Media Classic에서는 많은 이미지 파일 형식을 지원하지만, 무손실 TIFF, PNG 및 EPS 이미지가 좋습니다.
+사용자가 견본 집합의 이미지를 확대/축소할 수 있기 때문에 이미지의 가장 큰 치수가 2000픽셀 이상인지 확인합니다. Adobe Dynamic Media Classic은 다양한 이미지 파일 형식을 지원하지만 무손실 TIFF, PNG 및 EPS 이미지가 권장됩니다.
 
-자산 업로드에 대한 자세한 지침은 [파일 업로드](uploading-files.md#uploading_files).
+에셋 업로드에 대한 자세한 지침은 [파일 업로드](uploading-files.md#uploading_files).
 
 >[!MORELIKETHIS]
 >
->* [비네팅, 창 커버 및 캐비닛 파일을 사용하여 작업](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
+>* [비네팅, 창 덮개 및 캐비닛 파일 작업](vignette-window-covering-cabinet-files.md#working_with_vignette_window_covering_and_cabinet_files)
 

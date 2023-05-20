@@ -17,20 +17,20 @@ ht-degree: 12%
 
 # Adobe Analytics 비디오 보고서 활성화{#enabling-adobe-analytics-video-reports}
 
-Adobe Analytics 하트비트 기반 비디오 보고를 사용하여 Adobe Dynamic Media Classic에서 Adobe Analytics을 구성할 때 더 이상 4개의 비디오 뷰어 이벤트(재생, 일시 중지, 중지, 이정표)를 활성화할 필요가 없습니다. 비디오 하트비트는 기본 제공 Adobe Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어에서 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다.
+Adobe Analytics 하트비트 기반 비디오 보고를 사용하여 Adobe Dynamic Media Classic에서 Adobe Analytics을 구성할 때 4개의 비디오 뷰어 이벤트(재생, 일시 중지, 중지, 이정표)를 더 이상 활성화하지 않아도 됩니다. 비디오 하트비트는 기본 Adobe Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어와 함께 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다.
 
-* 스트리밍 미디어 및 &#39;하트비트 측정&#39;에 대한 소개는 다음을 참조하십시오 [스트리밍 미디어용 Adobe Analytics 정보](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html#about-adobe-analytics-for-streaming-media).
+* 스트리밍 미디어 및 &#39;하트비트 측정&#39;에 대한 소개는 다음을 참조하십시오. [스트리밍 미디어용 Adobe Analytics 정보](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html#about-adobe-analytics-for-streaming-media).
 
 * Adobe Analytics 비디오 보고서와 Adobe Dynamic Media Classic의 통합은 솔루션 변수를 지원하지만 사용자 지정 변수는 지원하지 않습니다.
 
-   자세한 내용은 [오디오 및 비디오 매개 변수](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) 솔루션 변수 및 사용자 지정 변수에 대한 자세한 내용을 참조하십시오.
+   다음을 참조하십시오 [오디오 및 비디오 매개 변수](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) 솔루션 변수 및 사용자 지정 변수에 대한 자세한 정보입니다.
 
-* 1분 씩 증분으로 기본 세그먼트를 지원합니다. 그러나 시간 증분을 기반으로 고객이 정의한 중대한 이벤트, % 중대한 이벤트 또는 오프셋 중대한 이벤트와 같은 사용자 지정 세그먼트 보고는 지원되지 않습니다.
+* 1분 단위의 기본 세그먼트가 지원됩니다. 그러나 시간 증분을 기반으로 고객이 정의한 중대한 이벤트, % 중대한 이벤트 또는 오프셋 중대한 이벤트와 같은 사용자 지정 세그먼트 보고는 지원되지 않습니다.
 
-   스트리밍 미디어 요구 사항 및 설정에 대한 자세한 내용은 [Adobe Analytics에서 스트리밍 미디어 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+   스트리밍 미디어 요구 사항 및 설정에 대한 자세한 내용은 [Adobe Analytics에서 Steaming Media 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
-* 사용자 지정 및 솔루션 변수에 대한 자세한 내용은 [미디어 보고서 지원](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports).
+* 사용자 지정 및 솔루션 변수에 대한 자세한 내용은 을 참조하십시오. [미디어 보고서 지원](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports).
 
 >[!NOTE]
 >
->Adobe Analytics의 라이선스가 있는 솔루션에 비디오 하트비트가 포함되지 않은 경우, 이 장에 설명된 단계를 계속 사용하여 Adobe Analytics 변수를 Adobe Dynamic Media Classic 뷰어 이벤트 및 변수에 할당해야 합니다.
+>사용 허가된 Adobe Analytics 솔루션에 비디오 하트비트가 포함되지 않은 경우 이 장에 설명된 단계를 계속 사용하여 Adobe Analytics 변수를 Adobe Dynamic Media Classic 뷰어 이벤트 및 변수에 지정해야 합니다.

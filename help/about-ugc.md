@@ -1,6 +1,6 @@
 ---
 title: Adobe Dynamic Media Classic의 사용자 생성 컨텐츠 정보
-description: 사용자가 생성한 컨텐츠를 소개합니다.
+description: 사용자 생성 콘텐츠에 대한 소개입니다.
 uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -18,13 +18,13 @@ ht-degree: 36%
 
 # Adobe Dynamic Media Classic의 사용자 생성 컨텐츠 정보 {#about-user-generated-content}
 
-UGC(사용자 생성 컨텐츠)를 사용하는 것은 전용 Adobe Dynamic Media Classic 저장소 저장소에 자산을 업로드하고 관련 작업을 수행하는 것으로 구성됩니다.
+UGC(사용자 생성 컨텐츠) 사용은 전용 Adobe Dynamic Media Classic 스토리지 저장소에 에셋을 업로드하고 관련 작업을 수행하는 것으로 구성됩니다.
 
-UGC는 BMP, GIF, JPG, PNG, PSD, TIFF 등의 래스터 이미지 파일 형식을 지원합니다.
+UGC는 래스터 이미지 파일 형식 BMP, GIF, JPG, PNG, PSD, TIFF을 지원합니다.
 
 >[!IMPORTANT]
 >
->2023년 5월 1일부터 Dynamic Media의 UGC 자산은 업로드한 날부터 최대 60일 동안 사용할 수 있습니다. 60일 후 자산이 제거됩니다.
+>2023년 5월 1일부터 Dynamic Media의 UGC 에셋은 업로드일로부터 최대 60일까지 사용할 수 있습니다. 60일 이후에는 에셋이 제거됩니다.
 
 <!-- * Vector: AI, EPS (EPS files from Adobe Illustrator 2018 are not supported), PDF (only when the PDF file is previously opened and saved in Adobe Illustrator CS6) -->
 
@@ -39,4 +39,4 @@ UGC는 BMP, GIF, JPG, PNG, PSD, TIFF 등의 래스터 이미지 파일 형식을
 * 자산을 업로드합니다.
 * 이미지 자산 메타데이터를 가져옵니다.
 * 업로드한 자산을 삭제합니다.
-* 회사의 디스크 공간 사용에 대한 정보를 가져옵니다.
+* 회사의 디스크 공간 사용에 대한 정보를 얻습니다.

@@ -3,13 +3,13 @@ title: 업그레이드 FAQ
 description: 에서 업그레이드 시 자주 묻는 질문(FAQ) [!DNL Adobe Dynamic Media Classic] 데스크탑 애플리케이션 대상 [!DNL Dynamic Media] 날짜 [!DNL Adobe Experience Manager] 에셋.
 feature: Dynamic Media Classic
 role: Admin,User
-source-git-commit: 6bdf08b98c5c8167f4a4da49452efa977beb136e
+exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
+source-git-commit: efe51280ac33579a8e690eb6483488eea9069159
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 1%
 
 ---
-
 
 # 에서 업그레이드하는 방법에 대한 FAQ [!DNL Dynamic Media Classic] 끝 [!DNL Dynamic Media]
 

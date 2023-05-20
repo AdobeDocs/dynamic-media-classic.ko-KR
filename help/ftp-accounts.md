@@ -23,24 +23,24 @@ Media Portal 관리자만 FTP 계정을 관리할 수 있습니다. 또한 *Medi
 
 [관리 설정]에서 [사용자 관리] 페이지를 통해 기존 Media Portal 사용자를 활성화하거나 비활성화할 수 있습니다.
 
-자세한 내용은 [사용자 활성화 또는 비활성화](administration-setup.md#activating_or_deactivating_users).
+다음을 참조하십시오 [사용자 활성화 또는 비활성화](administration-setup.md#activating_or_deactivating_users).
 
-1. 이동 **[!UICONTROL 설정]** > **[!UICONTROL Media Portal]** > **[!UICONTROL FTP 계정]**.
+1. 다음으로 이동 **[!UICONTROL 설정]** > **[!UICONTROL 미디어 포털]** > **[!UICONTROL FTP 계정]**.
 1. [FTP 계정 추가] 페이지의 [FTP 계정 사용자 이름] 드롭다운 목록에서 사용자를 선택합니다.
 
-   사용자가 나열되지 않은 경우 관리 설정을 통해 Media Portal 관리자, Media Portal 기여자 사용자 또는 Media Portal 기여자 로 해당 사용자를 추가해야 합니다. 적절한 역할이 있는 사용자를 추가하면 드롭다운 목록에서 해당 사용자 이름을 사용할 수 있습니다.
+   사용자가 나열되지 않은 경우 관리 설정을 통해 해당 사용자를 Media Portal 관리자, Media Portal 기여자-사용자 또는 Media Portal 기여자로 추가해야 합니다. 적절한 역할이 있는 사용자를 추가하면 드롭다운 목록에서 해당 사용자 이름을 사용할 수 있습니다.
 
-   자세한 내용은 [Media Portal 사용자 추가](adding-media-portal-users.md#adding_a_media_portal_user).
+   다음을 참조하십시오 [Media Portal 사용자 추가](adding-media-portal-users.md#adding_a_media_portal_user).
 
 1. [암호] 및 [확인] 필드에서 FTP 계정에 암호를 입력합니다.
-1. 선택 **[!UICONTROL 저장]** 계정을 기존 계정 테이블에 추가하려면
+1. 선택 **[!UICONTROL 저장]** 기존 계정 테이블에 계정을 추가합니다.
 
    미디어 자산을 업로드하려면 [기존 계정] 테이블에 나열된 FTP 계정 사용자 이름 및 계정에 지정된 암호가 필요합니다.
 
-   자세한 내용은 [파일 업로드](uploading-files.md#uploading_files).
+   다음을 참조하십시오 [파일 업로드](uploading-files.md#uploading_files).
 
 ## 기존 FTP 계정 삭제 {#deleting-an-existing-ftp-account}
 
-1. 이동 **[!UICONTROL 설정]** > **[!UICONTROL Media Portal]** > **[!UICONTROL FTP 계정]**.
+1. 다음으로 이동 **[!UICONTROL 설정]** > **[!UICONTROL 미디어 포털]** > **[!UICONTROL FTP 계정]**.
 1. [FTP 계정 추가] 페이지의 [기존 계정] 테이블에서 제거하려는 FTP 계정을 선택합니다.
 1. 선택 **[!UICONTROL 삭제]**.

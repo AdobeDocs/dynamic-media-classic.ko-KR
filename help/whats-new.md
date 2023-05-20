@@ -1,6 +1,6 @@
 ---
 title: 새로운 기능
-description: 최신 릴리스 정보를 통해 Adobe Dynamic Media Classic의 새로운 기능에 대해 알아보십시오.
+description: 최신 릴리스 정보를 통해 새로운 Adobe Dynamic Media Classic에 대해 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic

@@ -19,14 +19,14 @@ ht-degree: 5%
 
 # Media Portal{#media-portal}
 
-Adobe Medium 포털 은 회사 내부 사용자뿐만 아니라 외부 파트너 및 채널에 승인된 자산을 쉽게 획득, 제어 및 배포할 수 있는 기능을 제공합니다. 브라우저 기반 &quot;셀프 서비스&quot; 환경은 포털 사용자에게 Adobe Dynamic Media Classic 자산에 대한 관리자 제어 &quot;보기&quot;를 제공하여 기업이 승인한 형식으로 자산을 업로드, 탐색, 검색, 미리 보기 및 내보내기에 쉽게 액세스할 수 있도록 합니다.
+Adobe Medium 포털은 승인된 자산을 외부 파트너 및 채널은 물론 내부 사용자에게 쉽게 획득, 제어 및 배포할 수 있는 기능을 기업에 제공합니다. 브라우저 기반의 &quot;셀프서비스&quot; 환경은 포털 사용자에게 Adobe Dynamic Media Classic 에셋에 대한 관리자 제어 &quot;보기&quot;를 제공하여 기업이 승인한 포맷으로 에셋을 업로드하고, 찾아보고, 검색하고, 미리 보고, 내보낼 수 있는 간편한 액세스를 제공합니다.
 
-시스템 요구 사항을 포함한 Media Portal에 대한 자세한 내용은 [Adobe Dynamic Media Classic Media Portal 사용](https://help.adobe.com/en_US/scene7/mediaportal/) <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->.
+시스템 요구 사항을 포함하여 Media Portal에 대한 자세한 내용은 [Adobe Dynamic Media Classic Media Portal 사용](https://help.adobe.com/en_US/scene7/mediaportal/) <!-- (https://help.adobe.com/en_US/scene7/mediaportal/index.html) -->.
 
 Media Portal 관리에 대한 자세한 내용은 [빠른 시작: Media Portal 관리](quick-start-media-portal-administration.md#quick_start_media_portal_administration)를 참조하십시오.
 
-다음 교육 비디오를 참조하십시오.
+다음 교육 비디오도 참조하십시오.
 
 * [Media Portal 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
-* [미디어 포털 투어 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
-* [미디어 포털 투어 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [Media Portal 투어 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [Media Portal 투어 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)

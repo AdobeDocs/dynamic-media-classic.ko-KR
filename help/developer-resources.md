@@ -12,15 +12,15 @@ exl-id: eaa6bf7b-ff38-4a15-b5b5-c60c3b75a35f
 source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
 workflow-type: tm+mt
 source-wordcount: '184'
-ht-degree: 23%
+ht-degree: 15%
 
 ---
 
 # 개발자 리소스 {#developer-resources}
 
-뷰어, 이미지 제공 및 이미지 렌더링 및 이미지 프로덕션 시스템에 대한 참조 안내서에서는 이러한 서버 모듈에 대한 http 프로토콜을 설명합니다. 웹 사이트 또는 사용자 지정 애플리케이션용 Adobe Dynamic Media Classic 리치 미디어를 사용자 지정하고 사용하려는 웹 사이트 개발자는 이러한 안내서를 사용할 수 있습니다. 사용자가 Dynamic Media Classic 데스크탑 앱, 일반 http 프로토콜 표준 및 규칙, 기본 이미징 용어에 익숙하다고 가정합니다.
+뷰어, 이미지 제공 및 이미지 렌더링, 이미지 프로덕션 시스템에 대한 참조 안내서에서는 이러한 서버 모듈에 대한 http 프로토콜을 설명합니다. 웹 사이트 또는 사용자 지정 애플리케이션용으로 Adobe Dynamic Media Classic 리치 미디어를 추가로 사용자 지정하고 사용하려는 웹 사이트 개발자는 이 안내서를 사용할 수 있습니다. 사용자가 Dynamic Media Classic 데스크탑 앱, 일반적인 HTTP 프로토콜 표준 및 규칙 및 기본 이미징 용어에 익숙하다고 가정합니다.
 
-참조 - [Dynamic Media 개발자 리소스](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+참조: [Dynamic Media 개발자 리소스](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
 ## 뷰어 {#viewers-guide}
 
@@ -29,7 +29,7 @@ ht-degree: 23%
 | 뷰어 참조 가이드 및 릴리스 노트 | [https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/homeviewers.html) |
 | 뷰어 라이브러리 예 | [https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html) |
 
-## IS/IR(이미지 제공/이미지 렌더링) API {#is-ir-api-guide}
+## 이미지 제공/이미지 렌더링(IS/IR) API {#is-ir-api-guide}
 
 | 문서 | 웹 주소 |
 | --- | --- |

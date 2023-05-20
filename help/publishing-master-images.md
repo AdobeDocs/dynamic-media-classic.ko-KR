@@ -1,5 +1,5 @@
 ---
-title: 기본 이미지 게시
+title: 1차 이미지 게시
 description: Adobe Dynamic Media Classic에서 기본 이미지를 게시하는 방법을 알아봅니다.
 uuid: b56ba79a-f89a-45f1-a8bb-c73a22eab8d4
 contentOwner: Rick Brough
@@ -17,17 +17,17 @@ ht-degree: 6%
 
 ---
 
-# 기본 이미지 게시{#publishing-master-images}
+# 1차 이미지 게시{#publishing-master-images}
 
-이미지 파일을 게시하면 이 파일을 Dynamic Media 이미지 서버에 게시하며, 이 서버에서는 웹 사이트 및 애플리케이션에서 사용할 수 있습니다. 또한 게시 프로세스 중에 Adobe Dynamic Media Classic에서 웹 사이트 및 애플리케이션에 필요한 URL 문자열을 활성화합니다.
+이미지 파일을 게시하면 웹 사이트 및 애플리케이션에서 사용할 수 있는 Dynamic Media 이미지 서버에 해당 파일이 게시됩니다. 또한 게시 프로세스 중에 Adobe Dynamic Media Classic은 웹 사이트 및 애플리케이션에 필요한 URL 문자열을 활성화합니다.
 
-## 게시할 기본 이미지 표시 {#marking-master-images-for-publish}
+## 게시할 1차 이미지 표시 {#marking-master-images-for-publish}
 
-기본 이미지를 Dynamic Media 이미지 서버에 복사하려면 게시용으로 표시해야 합니다. 찾아보기 패널에서 기본 이미지를 클릭하여 게시용으로 표시할 수 있습니다 **[!UICONTROL 게시로 표시]** 아이콘. Adobe Dynamic Media Classic에 업로드할 때 이미지를 게시용으로 표시할 수도 있습니다.
+Dynamic Media 이미지 서버로 복사하려면 기본 이미지를 게시용으로 표시해야 합니다. 찾아보기 패널에서 게시할 기본 이미지를 클릭하여 표시할 수 있습니다. **[!UICONTROL 게시로 표시]** 아이콘. Adobe Dynamic Media Classic에 업로드할 때 게시할 이미지를 표시할 수도 있습니다.
 
 ## 기본 이미지 게시 {#publishing-your-master-images}
 
-1. 전역 탐색 모음에서 를 선택합니다 **[!UICONTROL 게시]**. 게시 대화 상자에서 When 옵션(**[!UICONTROL 1회]** 또는 **[!UICONTROL 반복]**) 그런 다음 게시 작업의 이름을 선택적으로 입력합니다
+1. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]**. 게시 대화 상자에서 다음과 같은 경우 옵션을 선택합니다(**[!UICONTROL 일회]** 또는 **[!UICONTROL 반복]**)을 클릭한 다음 선택적으로 게시 작업의 이름을 입력합니다
 
 1. 선택 **[!UICONTROL 게시 제출]**.
 

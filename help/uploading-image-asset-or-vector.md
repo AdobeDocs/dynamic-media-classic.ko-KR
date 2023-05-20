@@ -1,6 +1,6 @@
 ---
 title: 래스터 이미지 자산 업로드
-description: 래스터 이미지 자산을 Adobe Dynamic Media Classic에 업로드하는 방법을 알아봅니다
+description: 래스터 이미지 에셋을 Adobe Dynamic Media Classic에 업로드하는 방법을 알아봅니다
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -16,11 +16,11 @@ ht-degree: 67%
 
 # 래스터 이미지 자산 업로드 {#uploading-an-image-asset-or-a-vector-asset}
 
-이미지 자산을 업로드하려면 먼저 공유 비밀 키를 요청합니다. 이 공유 보안 키를 사용하여 업로드 토큰을 검색합니다. 그런 다음 업로드 토큰을 사용하여 래스터 이미지 자산을 업로드합니다.
+이미지 자산을 업로드하려면 먼저 공유 비밀 키를 요청합니다. 이 공유 보안 키를 사용하여 업로드 토큰을 검색합니다. 그런 다음 업로드 토큰을 사용하여 래스터 이미지 에셋을 업로드합니다.
 
 >[!IMPORTANT]
 >
->2023년 5월 1일부터 Dynamic Media의 UGC 자산은 업로드한 날부터 최대 60일 동안 사용할 수 있습니다. 60일 후 자산이 제거됩니다.
+>2023년 5월 1일부터 Dynamic Media의 UGC 에셋은 업로드일로부터 최대 60일까지 사용할 수 있습니다. 60일 이후에는 에셋이 제거됩니다.
 
 >[!NOTE]
 >
@@ -28,18 +28,18 @@ ht-degree: 67%
 
 ## 공유 암호 키 요청 {#requesting-a-shared-secret-key}
 
-요청 *공유 암호 키* by [Admin Console을 사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 지원 사례에서 공유 암호 키를 요청합니다.
+요청 a *공유 암호 키* 작성자: [Admin Console을 사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 지원 사례에서 공유 암호 키를 요청합니다.
 
-이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Adobe Dynamic Media Classic에서 키를 받은 후 나중에 사용할 수 있도록 로컬로 저장합니다.
+이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Adobe Dynamic Media Classic에서 키를 받으면 나중에 사용할 수 있도록 로컬에 저장합니다.
 
 ## 업로드 토큰 검색 {#retrieving-the-upload-token}
 
 *업로드 토큰*&#x200B;은 아무도 동일한 공유 보안 키를 사용하여 자산을 업로드할 수 없게 하며, 업로드가 합법적이고 신뢰할 수 있는 소스에서 제공된 것인지 확인합니다.
 
-업로드 토큰은 특정 시간 동안만 사용할 수 있는 영숫자 문자열입니다. 업로드 토큰을 검색할 수 있도록 공유 암호 키를 대체하려면 다음 URL을 사용하십시오.
+업로드 토큰은 특정 시간 동안만 사용할 수 있는 영숫자 문자열입니다. 업로드 토큰을 검색할 수 있도록 다음 URL을 사용하여 공유 암호 키를 대체하십시오.
 
 * 래스터 이미지
-   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`이 예제에서 공유 암호 키는 다음과 같습니다 `fece4b21-87ee-47fc-9b99-2e29b78b602`
+   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`이 예제에서 공유 암호 키는 `fece4b21-87ee-47fc-9b99-2e29b78b602`
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
@@ -50,7 +50,7 @@ ht-degree: 67%
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
 ```
 
-이미지에 대한 성공적인 응답은 다음과 비슷합니다.
+이미지에 대한 성공적인 응답은 다음과 유사하게 표시됩니다.
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 
@@ -89,12 +89,12 @@ URL 쿼리 문자열에 다음 필드를 사용하여 업로드 토큰을 검색
 
 `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
 
-**허용되는 HTTP 메서드:**
+**허용된 HTTP 메서드:**
 `GET` 및 `POST`
 
 이제 이미지 자산을 업로드할 수 있습니다.
 
-자세한 내용은 [이미지 자산 업로드](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+다음을 참조하십시오 [이미지 자산 업로드](uploading-image-asset-or-vector.md#uploading_an_image_asset).
 
 ## 래스터 이미지 자산 업로드 {#uploading-an-image-asset}
 
@@ -104,11 +104,11 @@ URL 쿼리 문자열에 다음 필드를 사용하여 업로드 토큰을 검색
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-다음 `upload_token` 및 `company_name` 필수 필드입니다.
+다음 `upload_token` 및 `company_name` 필드는 필수입니다.
 
-자세한 내용은 [업로드 토큰 검색](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+다음을 참조하십시오 [업로드 토큰 검색](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
 
-자세한 내용은 [공유 암호 키 검색](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+다음을 참조하십시오 [공유 암호 키 검색](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
 
 다음 예와 같이 다른 선택적 값을 URL 쿼리 문자열로 보낼 수도 있습니다.
 
@@ -116,7 +116,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-다음 `file_limit` 매개 변수는 파일 크기 제한을 바이트 단위로 지정합니다. `file_exts` 매개 변수는 업로드할 수 있는 파일 이름 확장자를 지정합니다. 두 값은 모두 선택 사항입니다.
+다음 `file_limit` 매개 변수는 파일 크기 제한(바이트)을 지정합니다. `file_exts` 매개 변수는 업로드할 수 있는 파일 이름 확장자를 지정합니다. 두 값은 모두 선택 사항입니다.
 
 허용되는 파일 이름 확장자와 파일 크기 제한에 대해 애플리케이션에서 글로벌 제한이 설정됩니다. 요청에 보내는 내용이 글로벌 제한의 하위 집합이면 허용됩니다. 글로벌 제한은 다음과 같습니다.
 
@@ -131,14 +131,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 업로드 토큰.
 * 파일 크기 제한.
 * 파일 이름 확장자 목록.
-* 자산과 연관된 색상 프로필 및 파일 이름을 보존할지 여부.
-* 녹아웃 배경 사용 여부. 배경 녹아웃(Cnoting Background)을 활성화할 경우 코너(Corner), 공차(Tolerance) 및 채우기 방법(Fill Method)을 설정합니다.
-에서 배경 녹아웃 을 참조하십시오. [업로드 시 이미지 미세 조정 옵션](image-editing-options-upload.md#image-editing-options-at-upload).
+* 자산과 연결된 색상 프로파일 및 파일 이름을 유지할지 여부입니다.
+* 녹아웃 배경 사용 여부. [녹아웃 배경]을 활성화하면 [모퉁이], [허용치] 및 [채우기 방법]을 설정합니다.
+에서 녹아웃 배경 보기 [업로드 시 이미지 세부 조정 옵션](image-editing-options-upload.md#image-editing-options-at-upload).
 * 업로드할 파일 이름.
 
-을(를) 선택하여 위의 양식과 연결된 HTML 소스 코드를 볼 수 있습니다 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+을(를) 선택하여 위 양식과 연결된 HTML 소스 코드를 볼 수 있습니다. [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Firefox에서 브라우저 창에서 마우스 오른쪽 단추를 클릭하고 를 선택합니다 **[!UICONTROL 페이지 소스 보기]**. 이 코드는 사용자가 **[!UICONTROL [전송]]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
+Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭하고 를 선택합니다. **[!UICONTROL 페이지 소스 보기]**. 이 코드는 사용자가 **[!UICONTROL [전송]]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
 
 Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL 보기]** > **[!UICONTROL 소스]**. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 웹 개발자 도구]**. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 
@@ -198,7 +198,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 
 POST
 
-### 이미지용 자산 메타데이터 가져오기 {#getting-asset-metadata-for-images}
+### 이미지에 대한 자산 메타데이터 가져오기 {#getting-asset-metadata-for-images}
 
 다음 예와 같이 `image_info`를 사용하여 업로드한 자산의 메타데이터를 검색할 수 있습니다.
 
@@ -206,7 +206,7 @@ POST
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
 ```
 
-성공적인 응답의 예는 다음과 유사하게 나타납니다.
+성공적인 응답의 예는 다음과 유사하게 표시됩니다.
 
 ```as3
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?> 

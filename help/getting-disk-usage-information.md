@@ -1,6 +1,6 @@
 ---
 title: 디스크 사용 정보 가져오기
-description: Adobe Dynamic Media Classic에서 디스크 사용 정보를 가져오는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 디스크 사용 정보를 가져오는 방법에 대해 알아봅니다.
 uuid: 01361693-53d0-4072-b7c3-f284631d28cf
 contentOwner: Rick Brough
 content-type: reference

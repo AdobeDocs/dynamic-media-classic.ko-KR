@@ -19,27 +19,27 @@ ht-degree: 32%
 
 # Media Portal 화면 사용자 지정{#customizing-the-media-portal-screen}
 
-Media Portal 스타일 설정을 사용하면 [Media Portal] 화면을 회사 로고와 색상으로 브랜딩할 수 있습니다. 스타일 설정을 사용하여 회사 브랜딩을 Media Portal에 지정합니다.
+Media Portal 스타일 설정을 사용하면 [Media Portal] 화면을 회사 로고와 색상으로 브랜딩할 수 있습니다. 스타일 설정을 사용하여 Media Portal에 회사 브랜딩을 지정합니다.
 
-스타일 설정에 액세스하려면 다음 위치로 이동하십시오. **[!UICONTROL 설정]** > **[!UICONTROL Media Portal 설정]** > **[!UICONTROL 스타일 설정]**. 반드시 **[!UICONTROL 저장]** 설정을 만든 후 설정을 저장합니다. 선택할 수 있습니다 **[!UICONTROL 복원]** 기본 설정을 다시 가져오기 위해 선택할 때 [미리 보기] 패널에 표시되는 방식이 표시됩니다.
+스타일 설정에 액세스하려면 다음 위치로 이동하십시오. **[!UICONTROL 설정]** > **[!UICONTROL Media Portal 설정]** > **[!UICONTROL 스타일 설정]**. 다음을 선택하십시오. **[!UICONTROL 저장]** 설정을 만든 후 저장합니다. 다음을 선택할 수 있습니다. **[!UICONTROL 복원]** 기본 설정을 다시 가져옵니다. 원하는 대로 선택하면 [미리보기] 패널에 표시되는 방식이 표시됩니다.
 
-* **[!UICONTROL 로고]** - 선택 **[!UICONTROL 찾아보기]**&#x200B;그런 다음 로고 이미지 선택 창에서 그래픽을 선택합니다.
+* **[!UICONTROL 로고]** - 선택 **[!UICONTROL 찾아보기]**&#x200B;을 클릭하고 로고 이미지 선택 창에서 그래픽을 선택합니다.
 
-* **[!UICONTROL 애플리케이션]** - [배경 그라디언트 색상] 메뉴에서 선택 사항을 선택하여 그라디언트 색상 블렌드를 만듭니다.
+* **[!UICONTROL 애플리케이션]** - [배경 그라디언트 색상] 메뉴에서 선택하여 그라디언트 색상 혼합을 만듭니다.
 
 * **[!UICONTROL 트리]** - 롤오버 색상(항목 위로 포인터를 이동할 때 나타나는 색상)과 선택 색상(항목을 선택할 때 나타나는 색상)을 선택합니다.
 
-* **[!UICONTROL 아코디언]** - [세부 정보] 보기에서 화면 오른쪽에 표시되는 아코디언 색상을 배경색, 테두리 스타일, 롤오버 및 선택한 색상을 선택합니다.
+* **[!UICONTROL 어코디언]** - 세부 정보 보기에서 화면 오른쪽에 나타나는 아코디언에 대해 배경색, 테두리 스타일 및 롤오버 및 선택한 색상을 선택합니다.
 
-* **[!UICONTROL 아코디언 헤더]** - 아코디언 헤더 굵게 면에서 텍스트를 만들지 여부를 선택합니다.
+* **[!UICONTROL 어코디언 헤더]** - 아코디언 머리글 굵게 표시에서 텍스트를 만들지 여부를 선택합니다.
 
-* **[!UICONTROL Datagrid]** - 데이터 그리드의 머리글 행에 대한 색상을 선택합니다.
+* **[!UICONTROL 데이터 모눈]** - 데이터 그리드에서 머리글 행의 색상을 선택합니다.
 
 * **[!UICONTROL 경고]** - 경고 메시지 상자의 배경색을 선택합니다.
 
-* **[!UICONTROL 진행률 표시줄]** - 업로드 및 다운로드 진행 상황을 나타내는 막대의 색상을 선택합니다.
+* **[!UICONTROL 진행률 표시줄]** - 업로드 및 다운로드 진행 상황을 나타내는 막대 색상을 선택합니다.
 
-Media Portal 사용자가 선택한 스타일 설정을 보려면 해당 설정을 추가해야 합니다 `?company=(company name)` 를 눌러 Media Portal에 액세스할 수 있는 URL로 이동합니다. 예를 들어 스타일 설정을 보려면 다음 URL에서 PortalCo 회사에 액세스하는 Media Portal 사용자의 경우 the following:
+Media Portal 사용자가 선택한 스타일 설정을 보려면 다음을 추가해야 합니다. `?company=(company name)` Media Portal에 액세스하는 URL에 연결합니다. 예를 들어 스타일 설정을 보려면 다음 URL에서 PortalCo 회사에 액세스하는 Media Portal 사용자의 경우 the following:
 
 `https://s7sps1.scene7.com/MediaPortal`
 
