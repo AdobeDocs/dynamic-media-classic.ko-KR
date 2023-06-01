@@ -10,7 +10,7 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: d43b0791e67d43ff56a7ab85570b9639c2375e05
+source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -25,7 +25,7 @@ Adobe Dynamic Media Classic은 이미지 모양을 조정하기 위한 다양한
 
 **이미지를 조정하려면:**
 
-1. 이미지의 롤오버 편집 버튼을 선택하고 조정을 선택하거나 [찾아보기] 패널에서 이미지를 두 번 클릭하여 [세부 사항 보기]에서 엽니다.
+1. 이미지의 롤오버 편집 단추를 선택하고 조정을 선택하거나 [찾아보기] 패널에서 이미지를 두 번 클릭하여 [세부 사항 보기]에서 엽니다.
 1. 창 하단에서 크기와 이미지 사전 설정을 선택합니다.
 1. [편집기 조정] 창의 오른쪽에 있는 명령을 사용하여 이미지를 조정합니다.
 
@@ -43,7 +43,7 @@ Adobe Dynamic Media Classic은 이미지 모양을 조정하기 위한 다양한
 
       드롭다운 목록에서 을(를) 선택합니다 **[!UICONTROL 원본 바꾸기]**&#x200B;을 선택한 다음 을 선택합니다 **[!UICONTROL 저장]**.
 
-   * 이미지를 새 마스터 이미지로 저장하려면 을 선택합니다 **[!UICONTROL 다른 이름으로 저장]**.
+   * 이미지를 새 1차 이미지로 저장하려면 을 선택합니다 **[!UICONTROL 다른 이름으로 저장]**.
 
       드롭다운 목록에서 **[!UICONTROL 새 마스터로 저장]**을 선택합니다.
 다음에서 **[!UICONTROL 폴더 이름]** 목록 상자에서 새 1차 이미지를 저장할 폴더를 선택합니다.
