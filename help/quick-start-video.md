@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '1808'
 ht-degree: 25%
@@ -21,7 +21,7 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android™, BlackBerry®
 
 예를 들어 iOS 모바일 장치에서는 3G, 4G 또는 Wi-Fi와 같은 대역폭을 검색합니다. 그런 다음 적응형 비디오 집합 내의 다양한 비디오 비트 전송률 중에서 적합한 인코딩된 비디오를 자동으로 선택합니다. 이 비디오는 데스크톱, 모바일 장치 또는 태블릿으로 스트리밍됩니다.
 
-또한 데스크톱이나 모바일 장치에서 네트워크 상태가 변경될 경우 비디오 품질이 자동으로 동적으로 전환됩니다. 또한 고객이 데스크탑에서 전체 화면 모드로 전환하면 응용 비디오 세트가 더 나은 해상도를 사용하여 응답하므로 고객의 시청 경험이 향상됩니다. 응용 비디오 세트를 사용하면 여러 화면 및 장치에서 Adobe Dynamic Media Classic 비디오를 재생하는 고객에게 가장 적합한 재생을 제공할 수 있습니다.
+또한 데스크톱이나 모바일 장치에서 네트워크 상태가 변경될 경우 비디오 품질이 자동으로 동적으로 전환됩니다. 또한 고객이 데스크탑에서 전체 화면 모드로 전환하면 응용 비디오 세트 가 더 나은 해상도를 사용하여 응답하므로 고객의 시청 환경이 향상됩니다. 응용 비디오 세트를 사용하면 여러 화면 및 장치에서 Adobe Dynamic Media Classic 비디오를 재생하는 고객에게 가장 적합한 재생을 제공할 수 있습니다.
 
 재생하는 동안 재생하거나 선택할 인코딩된 비디오를 결정하기 위해 비디오 플레이어가 사용하는 논리는 다음 알고리즘을 기준으로 합니다.
 
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android™, BlackBerry®
    1. 플레이어는 가장 높은 대역폭 스트림을 예상 대역폭보다 작거나 같은 대역폭으로 선택합니다.
    1. 플레이어는 가용 대역폭의 80%만 고려합니다. 그러나 전환하고 있다면 과대 평가를 피하고 즉시 다시 전환해야 하는 것이 70%에 불과한 보수적이다.
 
-다음 위치에서 알고리즘 논리 참조: [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) 에 대한 기술 정보를 보려면 다음을 수행하십시오.
+다음 위치에서 알고리즘의 논리 를 참조하십시오. [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp) 에 대한 기술 정보를 보려면 다음을 수행하십시오.
 
 단일 비디오 및 응용 비디오 세트를 관리하기 위해 Adobe Dynamic Media Classic은 다음을 지원합니다.
 
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android™, BlackBerry®
 
    다음 위치에서 이 비디오 형식을 지원하는 Windows® 장치를 찾을 수 있습니다.
 
-   다음을 참조하십시오 [Windows® Phone에서 지원되는 비디오 형식](https://learn.microsoft.com/en-us/).
+   다음을 참조하십시오 [Windows® Phone에서 지원되는 비디오 형식](https://docs.microsoft.com/en-us/).
 
 * 다음을 포함한 Adobe Dynamic Media Classic 뷰어 사전 설정을 사용하여 비디오를 재생합니다.
 

@@ -10,10 +10,10 @@ discoiquuid: efa2c56e-4543-47fa-a4e8-b94021102d01
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '319'
-ht-degree: 7%
+ht-degree: 15%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 Adobe Dynamic Media Classic은 리치 미디어 효과를 만드는 데 사용할 수 있는 다양한 도구를 제공합니다. 이러한 도구는 롤오버를 클릭하여 사용할 수 있습니다 **[!UICONTROL 편집]** 세부 사항 보기의 찾아보기 패널에서 단추 및 를 누릅니다. Adobe Dynamic Media Classic에서 다음 이미지 편집 작업을 수행할 수 있습니다.
 
-* **이미지 맵 만들기** - 이미지 맵을 만들려면 이미지 명령을 선택하거나 **[!UICONTROL 이미지 맵]** 단추를 클릭합니다. 이미지 맵은 이미지 또는 eCatalog 페이지의 핫스팟이거나, 롤오버 텍스트가 있는 패널을 표시하는 SpinSet의 이미지입니다. 예를 들어 이미지 맵을 선택하여 새 웹 페이지를 시작할 수 있습니다. 다음을 참조하십시오 [이미지 맵 만들기](/help/creating-image-maps.md).
+* **이미지 맵 만들기** - 이미지 맵을 만들려면 이미지 명령을 선택하거나 **[!UICONTROL 이미지 맵]** 단추를 클릭합니다. 이미지 맵은 이미지, eCatalog 페이지 또는 회전 집합 이미지의 핫스팟으로, 롤오버 텍스트가 있는 패널을 표시합니다. 예를 들어 이미지 맵을 선택하여 새 웹 페이지를 시작할 수 있습니다. 다음을 참조하십시오 [이미지 맵 만들기](/help/creating-image-maps.md).
 
 * **확대/축소 대상 만들기** - 축소판 대상을 만들려면 [Target 확대/축소] 명령 또는 **[!UICONTROL 확대/축소 Target]** 단추를 클릭합니다. 사용자는 확대/축소 뷰어에서 썸네일 타겟을 선택하여 이미지의 특정 부분으로 바로 확대/축소할 수 있습니다. 다음을 참조하십시오 [유도된 확대/축소에 대한 확대/축소 대상 만들기](/help/creating-zoom-targets-guided-zoom.md).
 

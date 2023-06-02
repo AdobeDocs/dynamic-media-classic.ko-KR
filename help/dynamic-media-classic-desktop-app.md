@@ -8,7 +8,7 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
 source-wordcount: '2036'
 ht-degree: 1%
@@ -89,7 +89,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 참조:
 
 * [Mac에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동 설치](#install-silent-mac-dmc-app)
-* [Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동 설치](#install-silent-windows-dmc-app)
+* [Windows®에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동으로 설치합니다.](#install-silent-windows-dmc-app)
 
 1. 시스템에서 이전 Adobe Dynamic Media Classic 데스크탑 앱 버전을 모두 제거합니다.
 
@@ -108,7 +108,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
 <!--    * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.dmg)
-        * [Windows&reg; (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
+        * [Windows® (.EXE) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.2/adobe-dynamic-media-classic-20.21.2.exe) -->
 
 <!--    * [macOS (.DMG) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
         * [Windows (.EXE) - Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) -->
@@ -147,8 +147,8 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 참조:
 
-* [Mac 또는 Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치](#installation-dmc-app)
-* [Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동 설치](#install-silent-windows-dmc-app)
+* [Mac 또는 Windows®에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 설치합니다.](#installation-dmc-app)
+* [Windows®에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동으로 설치합니다.](#install-silent-windows-dmc-app)
 
 다운로드 및 *자동* macOS에 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 설치합니다.
 
@@ -189,7 +189,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 참조:
 
-* [Mac 또는 Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치](#installation-dmc-app)
+* [Mac 또는 Windows®에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 설치합니다.](#installation-dmc-app)
 
 * [macOS에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동 설치](#install-silent-mac-dmc-app)
 

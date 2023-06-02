@@ -4,9 +4,9 @@ description: '다음에서 업그레이드: [!DNL Adobe Dynamic Media Classic] �
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
-source-git-commit: 972e5d4f468f14bd40e970c989465a639fd5e6fb
+source-git-commit: 358284e6c9888e5188bec35eb7b5408563a71bad
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '560'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Adobe 생성됨 [!DNL Dynamic Media] 당신을 염두에 두고.
 | 간편한 작성 | 기술 지원 없이도 풍부한 경험을 빠르게 구축하고, 맞춤화하고, 실행할 수 있습니다. |
 | 직관적인 인터페이스 | 사용하기 쉬운 WYSIWYG(What You See It What You Get) 인터페이스를 사용하여 이미지 뷰어와 비디오 플레이어를 편집합니다. |
 | 쇼퍼블 미디어 | 이미지 핫스팟과 클릭 가능한 링크를 사용하여 구매 가능한 이미지, 비디오 및 카루셀을 만듭니다. |
-| 확장 가능한 CDN(Content Delivery Network) | 검증된 규모와 성능으로 동급 최고의 CDN에 액세스하여 모든 요구 사항을 충족할 수 있습니다. |
+| 확장 가능한 CDN | 검증된 규모와 성능으로 동급 최고의 CDN(Content Delivery Network)에 액세스하여 모든 요구 사항을 충족할 수 있습니다. |
 | Dynamic Imaging | 하나의 기본 파일을 사용하여 무제한 버전을 자동 생성 및 게시하고, 크기, 형식, 해상도, 자르기 또는 효과를 변경합니다. |
 | 다이내믹 비디오 | 전체 화면 비디오 크기는 자동으로 조정되며 일관되고 품질 좋은 사용자 경험을 위해 적응적으로 스트리밍됩니다. |
 | 개인화 | 손쉽게 빌드 및 게시 [!DNL Dynamic Media] 제품 구성자, 개인화된 배너 및 이메일과 같은 인터랙티브한 경험. |
