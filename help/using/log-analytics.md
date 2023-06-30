@@ -10,7 +10,9 @@ discoiquuid: e5b510a8-8b7f-4c60-869e-d664a8157e63
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '846'
 ht-degree: 1%
@@ -75,7 +77,6 @@ Dynamic Media Classic을 Adobe Analytics OAuth와 통합해 보십시오. Dynami
 >* 새 추적 변수는 보고서에 도입되며 Dynamic Media Classic 사용자 인터페이스의 특정 뷰어 변수를 해당 새 Analytics 변수에 연결하려고 합니다.
 >
 
-
 1. Adobe Dynamic Media Classic 데스크탑 애플리케이션의 오른쪽 상단 모서리 근처 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]**.
 1. 왼쪽 패널의 **[!UICONTROL 응용 프로그램 설정]**, 선택 **[!UICONTROL Adobe Analytics]**.
 1. 다음에서 **[!UICONTROL Adobe Analytics 구성]** 페이지, 선택 **[!UICONTROL Adobe Analytics 로그인]**.
@@ -105,4 +106,3 @@ Dynamic Media Classic을 Adobe Analytics OAuth와 통합해 보십시오. Dynami
 >[!MORELIKETHIS]
 >
 >* [Adobe Analytics 보고서 구성](configuring-analytics-reports.md#configuring_adobe_analytics_reports)
-

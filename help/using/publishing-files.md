@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1729'
 ht-degree: 45%
@@ -122,7 +124,7 @@ Adobe Dynamic Media Classic은 작업 페이지에서 게시 작업을 추적합
 
    * [격자 보기], [목록 보기] 또는 [상세 보기]에서 표준 파일 선택 방법을 사용하여 자산을 하나 이상 선택합니다.
 
-      전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 파일]** > **[!UICONTROL 게시]**.
+     전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 파일]** > **[!UICONTROL 게시]**.
 
    * 그리드 보기, 목록 보기 또는 세부 사항 보기에서 에셋 이름 왼쪽에 슬래시가 있는 회색 원형 아이콘을 선택합니다.
 
@@ -138,7 +140,7 @@ Adobe Dynamic Media Classic은 작업 페이지에서 게시 작업을 추적합
 
    * 그리드 보기, 목록 보기 또는 세부 사항 보기에서 게시된 에셋을 하나 이상 선택합니다.
 
-      전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 파일]** > **[!UICONTROL 게시 취소]**.
+     전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 파일]** > **[!UICONTROL 게시 취소]**.
 
    * 그리드 보기, 목록 보기 또는 세부 사항 보기에서 에셋 이름의 왼쪽에 있는 둥근 녹색 확인 표시 아이콘을 선택합니다.
 
@@ -162,4 +164,3 @@ Adobe Dynamic Media Classic 자산은 CDN(content delivery network)에서 배포
 >
 >* [작업 파일 확인](checking-job-files.md)
 >* [반복 작업 편집, 삭제, 일시 중지 및 다시 시작](checking-job-files.md#editing-deleting-pausing-and-resuming-recurring-jobs)
-

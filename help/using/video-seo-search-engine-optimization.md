@@ -10,7 +10,9 @@ discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1037'
 ht-degree: 37%
@@ -94,7 +96,7 @@ Adobe Dynamic Media Classic은 사용자가 비디오 사이트 맵 및 mRSS 피
    * XML 파일을 생성하지 않고 설정을 저장하려면 **[!UICONTROL 저장]**.
    * 파일을 저장하고 생성하려면 다음을 선택합니다. **[!UICONTROL 저장 및 생성]**.
 
-      XML 파일이 생성되고 작업 로그에 기록됩니다. 비디오 사이트 맵(video-sitemap) 및 미디어 RSS(mRSS) 피드(mrss-feed) 파일은 회사의 루트 폴더에 저장됩니다.
+     XML 파일이 생성되고 작업 로그에 기록됩니다. 비디오 사이트 맵(video-sitemap) 및 미디어 RSS(mRSS) 피드(mrss-feed) 파일은 회사의 루트 폴더에 저장됩니다.
 
 >[!NOTE]
 >

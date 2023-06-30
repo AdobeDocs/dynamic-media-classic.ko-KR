@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_k
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Development, Integrations
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '250'
 ht-degree: 12%
@@ -23,11 +25,11 @@ Adobe Analytics 하트비트 기반 비디오 보고를 사용하여 Adobe Dynam
 
 * Adobe Analytics 비디오 보고서와 Adobe Dynamic Media Classic의 통합은 솔루션 변수를 지원하지만 사용자 지정 변수는 지원하지 않습니다.
 
-   다음을 참조하십시오 [오디오 및 비디오 매개 변수](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) 솔루션 변수 및 사용자 지정 변수에 대한 자세한 정보입니다.
+  다음을 참조하십시오 [오디오 및 비디오 매개 변수](https://experienceleague.adobe.com/docs/media-analytics/using/metrics-and-metadata/audio-video-parameters.html#metrics-and-metadata) 솔루션 변수 및 사용자 지정 변수에 대한 자세한 정보입니다.
 
 * 1분 단위의 기본 세그먼트가 지원됩니다. 그러나 시간 증분을 기반으로 고객이 정의한 중대한 이벤트, % 중대한 이벤트 또는 오프셋 중대한 이벤트와 같은 사용자 지정 세그먼트 보고는 지원되지 않습니다.
 
-   스트리밍 미디어 요구 사항 및 설정에 대한 자세한 내용은 [Adobe Analytics에서 Steaming Media 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+  스트리밍 미디어 요구 사항 및 설정에 대한 자세한 내용은 [Adobe Analytics에서 Steaming Media 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
 * 사용자 지정 및 솔루션 변수에 대한 자세한 내용은 을 참조하십시오. [미디어 보고서 지원](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports).
 

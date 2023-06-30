@@ -10,7 +10,9 @@ discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Experienced
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '3469'
 ht-degree: 44%
@@ -103,9 +105,9 @@ ht-degree: 44%
 
 * **[!UICONTROL 텍스트 편집기 v4.3 및 텍스트 편집기 v4.2]** - 가장 최신 기능을 갖춘 텍스트 편집기, 텍스트 편집기 v4.3 또는 이전 텍스트 편집기, 텍스트 편집기 v4.2를 사용하도록 선택할 수 있습니다. 템플릿을 만들 때 기본적으로 텍스트 편집기 v4.3이 선택됩니다. 이전 템플릿을 편집할 때는 기본적으로 텍스트 편집기 v4.2가 선택됩니다. 현재 텍스트 편집기 v4.3에서는 단어 줄바꿈을 지원하지 않으므로 단어 줄바꿈을 사용하는 이전 템플릿을 편집할 때는 텍스트 편집기 v4.2를 사용하여 템플릿의 품질을 그대로 유지합니다. 이전 템플릿에서 자동 줄바꿈을 사용하지 않는 경우 텍스트 편집기 v4.3을 선택하여 제공되는 여러 가지 새로운 기능을 활용할 수 있습니다. 예를 들어 여백을 늘리고 여백을 줄이며 텍스트를 모두 대문자로 설정하고 맞춤 텍스트를 복사합니다.
 
-   >[!NOTE]
-   >
-   >텍스트 편집기 v4.2는 Adobe Dynamic Media Classic에서 옵션으로 제거할 계획이므로 가능하면 텍스트 편집기 4.3을 사용하는 것이 좋습니다. 다음 **[!UICONTROL 자동 줄바꿈]** 옵션은 텍스트 편집기의 향후 릴리스에 통합됩니다.
+  >[!NOTE]
+  >
+  >텍스트 편집기 v4.2는 Adobe Dynamic Media Classic에서 옵션으로 제거할 계획이므로 가능하면 텍스트 편집기 4.3을 사용하는 것이 좋습니다. 다음 **[!UICONTROL 자동 줄바꿈]** 옵션은 텍스트 편집기의 향후 릴리스에 통합됩니다.
 
 * **[!UICONTROL 디자이너 및 개발자]** - 역할을 가장 잘 설명하는 옵션을 선택합니다.
 

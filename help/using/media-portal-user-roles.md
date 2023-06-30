@@ -10,7 +10,9 @@ discoiquuid: 1bd7cb5d-156c-4dad-a725-e177f05ccedf
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: ce9b5a41-cc3e-4801-8080-607cf7be338b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 65%
@@ -37,12 +39,12 @@ Media Portal에서는 각기 다른 액세스와 권한을 가진 다음 역할�
 | 메타데이터 찾아보기 | X | X | X |
 | 파일 미리보기 | X | X | X |
 | 파일 검색 | X | X | X |
-| Adobe Dynamic Media Classic에 파일 업로드 |  | X | X |
-| 자산 메타데이터 편집 및 가져오기 |  | X | X |
-| 폴더 만들기, 이름 바꾸기 및 삭제 |  | X | X |
-| 자산 메타데이터 내보내기 | X |  | X |
-| 파일 이름 변경 |  | X | X |
-| 파일을 다른 폴더로 이동 |  | X | X |
-| 파일 이름 변경 |  | X | X |
-| 파일 삭제 |  | X | X |
-| Adobe Dynamic Media Classic에서 파일 내보내기(다운로드) | X |  | X |
+| Adobe Dynamic Media Classic에 파일 업로드 | | X | X |
+| 자산 메타데이터 편집 및 가져오기 | | X | X |
+| 폴더 만들기, 이름 바꾸기 및 삭제 | | X | X |
+| 자산 메타데이터 내보내기 | X | | X |
+| 파일 이름 변경 | | X | X |
+| 파일을 다른 폴더로 이동 | | X | X |
+| 파일 이름 변경 | | X | X |
+| 파일 삭제 | | X | X |
+| Adobe Dynamic Media Classic에서 파일 내보내기(다운로드) | X | | X |

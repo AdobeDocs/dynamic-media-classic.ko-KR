@@ -10,7 +10,9 @@ discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '432'
 ht-degree: 51%
@@ -36,7 +38,7 @@ Adobe Dynamic Media Classic은 [작업] 화면에 내보내기 작업 기록을 
 
    * **[!UICONTROL 크기]** - 표준 크기를 선택할 수 있습니다. 또는 다음을 선택할 수 있습니다 **[!UICONTROL 기타]** 다음에서 **[!UICONTROL 크기]** 드롭다운 목록에서 원하는 측정 단위를 선택한 다음 너비와 높이를 지정합니다.
 
-      참조: [Media Portal 사용자가 사용할 수 있는 내보내기 옵션 지정](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+     참조: [Media Portal 사용자가 사용할 수 있는 내보내기 옵션 지정](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
 
    * **[!UICONTROL 형식]** - 이미지 형식을 선택합니다.
 

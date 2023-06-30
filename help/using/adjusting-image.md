@@ -10,7 +10,9 @@ discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '565'
 ht-degree: 52%
@@ -41,17 +43,17 @@ Adobe Dynamic Media Classic은 이미지 모양을 조정하기 위한 다양한
 
    * 이미지의 원본을 바꾸려면 **[!UICONTROL 다른 이름으로 저장]**.
 
-      드롭다운 목록에서 을(를) 선택합니다 **[!UICONTROL 원본 바꾸기]**&#x200B;을 선택한 다음 을 선택합니다 **[!UICONTROL 저장]**.
+     드롭다운 목록에서 을(를) 선택합니다 **[!UICONTROL 원본 바꾸기]**&#x200B;을 선택한 다음 을 선택합니다 **[!UICONTROL 저장]**.
 
    * 이미지를 새 마스터 이미지로 저장하려면 을 선택합니다 **[!UICONTROL 다른 이름으로 저장]**.
 
-      드롭다운 목록에서 **[!UICONTROL 새 마스터로 저장]**을 선택합니다.
+     드롭다운 목록에서 **[!UICONTROL 새 마스터로 저장]**을 선택합니다.
 다음에서 **[!UICONTROL 폴더 이름]** 목록 상자에서 새 1차 이미지를 저장할 폴더를 선택합니다.
 선택 **[!UICONTROL 저장]**.
 
    * 이미지를 1차 이미지의 다른 보기로 저장합니다. 이 이미지의 별칭을 만들 수 있습니다. 선택 **[!UICONTROL 다른 이름으로 저장]**.
 
-      다음에서 **[!UICONTROL 다른 이름으로 저장]** 대화 상자의 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 다른 마스터 보기로 저장]**.
+     다음에서 **[!UICONTROL 다른 이름으로 저장]** 대화 상자의 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 다른 마스터 보기로 저장]**.
 다음에서 **[!UICONTROL 폴더 이름]** 목록 상자에서 새 1차 이미지를 저장할 폴더를 선택합니다.
 선택 **[!UICONTROL 저장]**.
 

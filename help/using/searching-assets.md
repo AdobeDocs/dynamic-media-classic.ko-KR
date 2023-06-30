@@ -10,7 +10,9 @@ discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 19%
@@ -113,11 +115,11 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 
    * **메타데이터 필드 선택** - 필터링 메뉴에서 필드 이름을 선택합니다.
 
-      >[!NOTE]
-      >
-      >기본 메타데이터 보기의 메타데이터 필드 이름만 필터링 메뉴에 표시됩니다.
+     >[!NOTE]
+     >
+     >기본 메타데이터 보기의 메타데이터 필드 이름만 필터링 메뉴에 표시됩니다.
 
-      [메타데이터 보기](application-setup.md#metadata_views)를 참조하십시오.
+     [메타데이터 보기](application-setup.md#metadata_views)를 참조하십시오.
 
    * **메타데이터 필드 추가** - 선택 **[!UICONTROL 패널 추가]**. [필터] 창에 패널이 나타나면 해당 패널을 선택합니다 **[!UICONTROL 필드]** 을 누르고 필터링 메뉴에서 메타데이터 필드의 이름을 선택합니다.
 
@@ -127,7 +129,6 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 
    * 필드에 입력된 모든 메타데이터 값
    * 각 메타데이터 값의 경우 값이 지정된 자산 수
-
 
 1. 2단계를 필요한 횟수만큼 반복하여 패널의 필터 작업에 사용할 모든 메타데이터 필드를 나열합니다.
 1. 각 패널에서 필터링할 메타데이터 값을 선택합니다. 각 패널에서 두 개 이상의 메타데이터 값을 선택할 수 없습니다.
@@ -172,4 +173,3 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 >
 >* [탐색 기본 사항](navigation-basics.md#navigation_basics)
 >* [메타데이터 보기, 추가 및 내보내기](viewing-adding-exporting-metadata.md#viewing_adding_and_exporting_metadata)
-

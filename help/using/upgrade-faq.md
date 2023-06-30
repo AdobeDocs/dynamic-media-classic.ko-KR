@@ -4,7 +4,9 @@ description: 에서 업그레이드 시 자주 묻는 질문(FAQ) [!DNL Adobe Dy
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1540'
 ht-degree: 1%

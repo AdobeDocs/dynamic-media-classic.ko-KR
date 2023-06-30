@@ -10,7 +10,9 @@ discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '967'
 ht-degree: 55%
@@ -42,9 +44,9 @@ eCatalog에 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 
    * **eCatalog 화면에서 시작** - 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 전자 카탈로그]**. 자산 라이브러리에서 폴더를 선택하고 폴더의 파일을 전자 카탈로그 페이지의 [주문 페이지] 탭으로 드래그합니다.
 
-      >[!NOTE]
-      >
-      >자산 라이브러리에서 항목을 썸네일 대신 이름으로 표시하려면 [개인 설정]의 [기본 자산 라이브러리 보기]에 대해 [이름] 선택 사항을 선택합니다.
+     >[!NOTE]
+     >
+     >자산 라이브러리에서 항목을 썸네일 대신 이름으로 표시하려면 [개인 설정]의 [기본 자산 라이브러리 보기]에 대해 [이름] 선택 사항을 선택합니다.
 
 1. eCatalog의 전체 레이아웃을 선택합니다. 선택 **[!UICONTROL 위로 1개]** 단일 페이지의 경우 **[!UICONTROL 2장 위로]** 더블 페이지 스프레드의 경우 또는 **[!UICONTROL 사용자 정의]** 두 페이지 이상의 페이지 스프레드의 경우. 다음에서 **[!UICONTROL eCatalog 레이아웃 변경]** 대화 상자에서 **[!UICONTROL 모든 스프레드]** 옵션 및 선택 **[!UICONTROL 확인]**.
 1. 선택적으로 개별 페이지 또는 페이지 스프레드를 선택한 다음 선택하여 레이아웃을 변경할 수 있습니다 **[!UICONTROL 위로 1개]**, **[!UICONTROL 2장 위로]**, 또는 **[!UICONTROL 사용자 정의]** 단추를 클릭합니다. 다음에서 **[!UICONTROL eCatalog 레이아웃 변경]** 대화 상자에서 **[!UICONTROL 선택한 스프레드]** 옵션 및 선택 **[!UICONTROL 확인]**.

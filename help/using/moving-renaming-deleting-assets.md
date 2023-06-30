@@ -10,7 +10,9 @@ discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 31%
@@ -58,7 +60,7 @@ ht-degree: 31%
    * 하나 이상의 에셋을 삭제하려면 [검색] 패널에서 에셋을 선택하고 키를 누릅니다 **[!UICONTROL 삭제]** 또는 다음으로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 삭제]**.
    * 폴더를 삭제하려면 자산 라이브러리에서 폴더를 선택한 다음 을 선택합니다 **[!UICONTROL 폴더 제거]**.
 
-      폴더를 삭제하면 폴더, 폴더의 모든 에셋 및 그 하위 폴더의 모든 에셋이 삭제됩니다.
+     폴더를 삭제하면 폴더, 폴더의 모든 에셋 및 그 하위 폴더의 모든 에셋이 삭제됩니다.
 
 Adobe Dynamic Media Classic에서는 에셋 파일을 삭제하는 이유가 동일한 이름으로 다른 에셋 파일로 바꾸는 것인 경우 에셋 파일을 삭제하는 것보다 덮어쓰는 것을 권장합니다.
 
@@ -81,4 +83,3 @@ Adobe Dynamic Media Classic ID 목록을 만들고 텍스트(.txt) 파일로 저
 >* [찾아보기 패널에서 에셋 선택](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [업로드할 자산 및 폴더 준비](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [휴지통 폴더에서 자산 복원](trash-folder.md#restoring_assets_from_the_trash_folder)
-

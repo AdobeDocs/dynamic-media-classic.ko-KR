@@ -10,7 +10,9 @@ discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 36%
@@ -81,12 +83,12 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
       * **[!UICONTROL 색상]** - 색상 옵션을 선택합니다. 그런 다음 를 선택합니다. **[!UICONTROL 모서리]** 을 클릭하고 자를 공백 색상을 가장 잘 나타내는 색상으로 PDF의 모서리를 선택합니다.
 
       * **[!UICONTROL 투명도]** - 투명도 옵션을 선택합니다.
+
    * **[!UICONTROL 허용 오차]** - 슬라이더를 드래그하여 0에서 1 사이의 공차를 지정합니다.
 
    * **[!UICONTROL 색상을 기준으로 트리밍]** - PDF 모서리에서 선택한 색상과 정확히 일치하는 경우에만 0을 지정하여 픽셀을 자릅니다. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다.
 
    * **[!UICONTROL 투명도를 기반으로 트리밍]** - 픽셀이 투명한 경우에만 자르려면 0을 지정합니다. 1에 가까운 숫자를 사용하면 투명도가 더 높아집니다.
-
 
 ## PDF 페이지 양쪽에서 자르기 {#cropping-from-the-sides-of-pdf-pages}
 

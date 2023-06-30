@@ -10,7 +10,9 @@ discoiquuid: 6314e7b7-5bde-4fe2-8674-e4fc525d4d1c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 25%
@@ -83,11 +85,11 @@ The plug-in is now available for you to use in Adobe Illustrator. -->
 * **[!UICONTROL 파일 크기 표시]** - 검색할 때 에셋의 파일 크기를 표시합니다.
 * **[!UICONTROL 검색에 UDF 포함]** - 실행하는 대부분의 메타데이터 검색에 대한 시스템 성능을 향상시키기 위해 선택을 취소했습니다(기본값).
 
-   대부분의 메타데이터 검색에서 사용자 지정 필드를 포함하는 이점을 이용하는 경우, 이 선택 사항을 선택하여 이 기능을 켤 수 있습니다. 또는, [고급 검색]을 사용하여 사용자 지정 필드를 포함하는 것보다 더 선택 사항이 많고 빠른 검색 환경을 제공할 수 있습니다.
+  대부분의 메타데이터 검색에서 사용자 지정 필드를 포함하는 이점을 이용하는 경우, 이 선택 사항을 선택하여 이 기능을 켤 수 있습니다. 또는, [고급 검색]을 사용하여 사용자 지정 필드를 포함하는 것보다 더 선택 사항이 많고 빠른 검색 환경을 제공할 수 있습니다.
 
-   [고급 검색 수행](searching-assets.md#conducting_an_advanced_search)을 참조하십시오.
+  [고급 검색 수행](searching-assets.md#conducting_an_advanced_search)을 참조하십시오.
 
-   [사용자 지정 필드](application-setup.md#user_defined_fields)도 참조하십시오.
+  [사용자 지정 필드](application-setup.md#user_defined_fields)도 참조하십시오.
 
 * **[!UICONTROL 기본 검색 유형]** - 다음 두 옵션 중에서 선택할 수 있습니다. **[!UICONTROL 다음 포함]** 지정한 값에 대한 전체 문자열을 검색합니다. **[!UICONTROL 시작]** 는 문자열의 시작부터 검색하고 보다 빠르게 결과를 반환합니다. **[!UICONTROL 다음 포함]**. 두 옵션 모두 다음에 설정된 기본값을 무시합니다. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 응용 프로그램 일반 설정]** 관리자.
 * **[!UICONTROL 명령 피드백 표시]** - 서버에 대한 명령 요청 표시를 켜려면 선택하고, 끄려면 선택을 취소합니다.

@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/introducing_adobe_dynamic_media_c
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '2036'
 ht-degree: 1%
@@ -56,11 +58,11 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 * 일반적으로 설정 작업 후 데스크탑 앱이 응답하지 않습니다.
 * 아래에서 난독화 및 잠금 모드 자동 활성화됨 요청 **[!UICONTROL 이미지 제공 테스트]**.
 
-   다음을 참조하십시오 [보안 테스트 서비스 테스트](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  다음을 참조하십시오 [보안 테스트 서비스 테스트](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
 * Adobe Analytics으로 인증 메커니즘을 업데이트했습니다. 새로운 통합 또는 일부 Analytics 변수를 Dynamic Media Classic 데스크탑 앱 내에서 업데이트해야 하는 경우와 관련이 있습니다.
 
-   다음을 참조하십시오 [Adobe Analytics에 로그인](/help/using/log-analytics.md) 업데이트된 단계.
+  다음을 참조하십시오 [Adobe Analytics에 로그인](/help/using/log-analytics.md) 업데이트된 단계.
 
 ## 릴리스 20.21.2의 수정 사항 {#minor-release}
 
@@ -99,11 +101,11 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
       * [macOS (.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
       * [Windows (.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+
    * 이전 버전은 다음에서 사용할 수 있습니다.
 
       * [macOS (.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
       * [Windows® (.EXE) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
-
 
 <!--         * [macOS (.DMG) - Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) -->
 
@@ -118,12 +120,12 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
    * **macOS** -에서 **[!UICONTROL 드래그하여 놓아 설치]** 대화 상자, 드래그 **[!UICONTROL Adobe Dynamic Media Classic]** 여기에 놓으세요 **[!UICONTROL 애플리케이션]**.
 
-      ![macOS에서 설치 끌어서 놓기](/help/using/assets/dragondrop-install1.png)
+     ![macOS에서 설치 끌어서 놓기](/help/using/assets/dragondrop-install1.png)
 
    * 다음에서 **[!UICONTROL 애플리케이션]** 폴더에서 Adobe Dynamic Media Classic 아이콘을 탭합니다.
    * 대화 상자에서 을 누릅니다. **[!UICONTROL 열기]** Adobe Dynamic Media Classic 데스크탑 앱을 엽니다.
 
-      ![다운로드한 앱 열기](/help/using/assets/open-dmclassicapp1.png)
+     ![다운로드한 앱 열기](/help/using/assets/open-dmclassicapp1.png)
 
    * **Windows** - 설치 관리자 바이너리를 실행하고 화면의 지침에 따라 데스크탑 앱을 설치합니다.
 
@@ -263,7 +265,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 * Adobe Dynamic Media Classic 앱의 회사 드롭다운 목록에서 새 회사를 선택합니다.
 * 팝업 창이 나타나면 을 누릅니다 **[!UICONTROL 확인]** 로그아웃한 후 앱을 닫습니다.
 
-   ![새 회사를 사용하려면 앱을 다시 시작하십시오.](/help/using/assets/dmclassic-new-company1.png)
+  ![새 회사를 사용하려면 앱을 다시 시작하십시오.](/help/using/assets/dmclassic-new-company1.png)
 
 * Adobe Dynamic Media Classic을 다시 시작한 다음 평소대로 로그인하여 새 회사에서 작업하십시오.
 

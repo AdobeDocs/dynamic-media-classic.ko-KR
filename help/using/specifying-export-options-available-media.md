@@ -9,7 +9,9 @@ discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Collaboration, Content Management
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 57%
@@ -34,9 +36,9 @@ ht-degree: 57%
 
    * **사용자 정의 전환 활성화** - 이 옵션을 선택하면 사용자가 다음 중 하나를 선택할 수 있습니다. **[!UICONTROL 크기]** 선택한 에셋 내보내기 창의 드롭다운 목록입니다. 그런 다음 사용자는 픽셀 또는 센티미터와 같은 측정 단위를 선택하고 원하는 너비와 높이를 지정할 수 있습니다. 이러한 파일을 내보내거나 다운로드하는 경우 이미지 파일 형식이 다시 지정됩니다.
 
-      **[!UICONTROL 크기]** 드롭 다운 목록에서 **[!UICONTROL 픽셀]**&#x200B;을 선택한 경우, 결과 이미지의 너비 x 높이가 1억 픽셀을 초과 할 수 없습니다. 이는 정사각형 이미지의 경우 10,000 x 10,000 픽셀과, 또는 2x3 종횡비 이미지의 경우 약 8,000 x 12,000 픽셀과 동일합니다. 원본 1차 이미지를 내보내는 경우에는 이 크기 제한이 적용되지 않습니다.
+     **[!UICONTROL 크기]** 드롭 다운 목록에서 **[!UICONTROL 픽셀]**&#x200B;을 선택한 경우, 결과 이미지의 너비 x 높이가 1억 픽셀을 초과 할 수 없습니다. 이는 정사각형 이미지의 경우 10,000 x 10,000 픽셀과, 또는 2x3 종횡비 이미지의 경우 약 8,000 x 12,000 픽셀과 동일합니다. 원본 1차 이미지를 내보내는 경우에는 이 크기 제한이 적용되지 않습니다.
 
-      사용자가 파일을 다운로드할 때 형식을 다시 지정하지 않고 다운로드하게 하려는 경우 이 선택 사항을 선택 취소합니다.
+     사용자가 파일을 다운로드할 때 형식을 다시 지정하지 않고 다운로드하게 하려는 경우 이 선택 사항을 선택 취소합니다.
 
    * **원본 내보내기 활성화** - 원본 1차 이미지를 내보낼 수 있습니다. 다음에서 **[!UICONTROL 선택한 자산 내보내기]** 패널, 사용자가 **[!UICONTROL 전환]** 드롭다운 메뉴 및 선택 **[!UICONTROL 원본 내보내기]** 원본 파일을 내보냅니다. 사용자가 이미지 사전 설정을 선택하거나 이미지를 내보낼 때 전환 옵션을 선택하도록 하려면 이 옵션을 선택 취소합니다.
 
@@ -44,4 +46,3 @@ ht-degree: 57%
 >
 >* [Image Presets](application-setup.md#image_presets)
 >* [그룹의 이미지 사전 설정 액세스 권한 선택](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)
-

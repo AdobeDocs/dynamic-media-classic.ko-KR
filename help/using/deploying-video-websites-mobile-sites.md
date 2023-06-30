@@ -10,7 +10,9 @@ discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1706'
 ht-degree: 34%
@@ -61,15 +63,15 @@ ht-degree: 34%
    * 선택 **[!UICONTROL 격자 보기]** 또는 **[!UICONTROL 목록 보기]**. [자산 찾아보기] 패널에서 단일 자산의 비디오 썸네일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 HTTP 스트리밍 아래에 있는 **[!UICONTROL URL 복사]** 원하는 뷰어의 오른쪽에 있습니다. 가장 좋은 방법은 와 연결된 URL을 복사하는 것입니다. `Universal_HTML5_Video` 뷰어.
    * 선택 **[!UICONTROL 격자 보기]**. 에셋 찾아보기 패널에서 단일 에셋을 선택한 다음 썸네일 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**.
 
-      뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL URL 복사]**. 가장 좋은 방법은 와 연결된 URL을 복사하는 것입니다. `Universal_HTML5_Video` 뷰어.
+     뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL URL 복사]**. 가장 좋은 방법은 와 연결된 URL을 복사하는 것입니다. `Universal_HTML5_Video` 뷰어.
 
    * 선택 **[!UICONTROL 목록 보기]**. 에셋 찾아보기 패널에서 단일 에셋을 선택한 다음 썸네일 이미지의 오른쪽으로 이동합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**.
 
-      뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL URL 복사]**. 가장 좋은 방법은 와 연결된 URL을 복사하는 것입니다. `Universal_HTML5_Video` 뷰어.
+     뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL URL 복사]**. 가장 좋은 방법은 와 연결된 URL을 복사하는 것입니다. `Universal_HTML5_Video` 뷰어.
 
    * 선택 **[!UICONTROL 격자 보기]**, **[!UICONTROL 목록 보기]**, 또는 **[!UICONTROL 세부 사항 보기]**. 동일한 도구 모음에서 다음 위치로 이동합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**.
 
-      뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL URL 복사]**. 가장 좋은 방법은 와 연결된 URL을 복사하는 것입니다. `Universal_HTML5_Video` 뷰어.
+     뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL URL 복사]**. 가장 좋은 방법은 와 연결된 URL을 복사하는 것입니다. `Universal_HTML5_Video` 뷰어.
 
 1. 웹 사이트와 모바일 사이트에 HTML5 비디오 URL 링크를 붙여 넣습니다.
 
@@ -88,15 +90,15 @@ ht-degree: 34%
    * 선택 **[!UICONTROL 격자 보기]** 또는 **[!UICONTROL 목록 보기]**. [자산 찾아보기] 패널에서 단일 자산의 비디오 썸네일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 HTTP 스트리밍 아래에 있는 **[!UICONTROL 포함 코드]** 원하는 뷰어의 오른쪽에 있습니다. 를 모범 사례로 선택합니다. **[!UICONTROL 포함 코드]** 와(과) 연결된 `Universal_HTML5_Video` 뷰어.
    * 선택 **[!UICONTROL 격자 보기]**. [에셋 찾아보기] 패널에서 단일 에셋을 선택한 다음 비디오 썸네일 이미지 아래에서 을 선택합니다 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**.
 
-      뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL 포함 코드]**. 를 모범 사례로 선택합니다. **[!UICONTROL 포함 코드]** 와(과) 연결된 `Universal_HTML5_Video` 뷰어.
+     뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL 포함 코드]**. 를 모범 사례로 선택합니다. **[!UICONTROL 포함 코드]** 와(과) 연결된 `Universal_HTML5_Video` 뷰어.
 
    * 선택 **[!UICONTROL 목록 보기]**. 에셋 찾아보기 패널에서 단일 에셋을 선택한 다음 썸네일 이미지의 오른쪽으로 이동합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**.
 
-      뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL 포함 코드]**. 를 모범 사례로 선택합니다. **[!UICONTROL 포함 코드]** 와(과) 연결된 `Universal_HTML5_Video` 뷰어.
+     뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL 포함 코드]**. 를 모범 사례로 선택합니다. **[!UICONTROL 포함 코드]** 와(과) 연결된 `Universal_HTML5_Video` 뷰어.
 
    * 선택 **[!UICONTROL 격자 보기]**, **[!UICONTROL 목록 보기]**, 또는 **[!UICONTROL 세부 사항 보기]**. 동일한 도구 모음에서 다음 위치로 이동합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**.
 
-      뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL 포함 코드]**. 를 모범 사례로 선택합니다. **[!UICONTROL 포함 코드]** 와(과) 연결된 `Universal_HTML5_Video` 뷰어.
+     뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL 포함 코드]**. 를 모범 사례로 선택합니다. **[!UICONTROL 포함 코드]** 와(과) 연결된 `Universal_HTML5_Video` 뷰어.
 
 1. 포함 코드 대화 상자에서 **[!UICONTROL 클립보드에 복사]**.
 
@@ -119,15 +121,15 @@ Adobe Dynamic Media Classic HTML5 비디오 플레이어를 사용하지 않고 
 
 * 바꾸기 `"S7 video thumbnail URL"` 를 사용하여 비디오를 재생하기 전에 사용자에게 표시되는 비디오의 썸네일 이미지인 비디오의 썸네일 URL을 변경할 수 있습니다.
 
-   다음을 참조하십시오 [비디오 썸네일 URL 얻기](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
+  다음을 참조하십시오 [비디오 썸네일 URL 얻기](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
 * 바꾸기 `"S7 OGG video asset URL (no player)"` OGG 비디오에 대한 비디오의 점진적 URL이 포함된 비디오
 
-   다음을 참조하십시오 [모바일 사이트 또는 웹 사이트에 비디오 URL 연결](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  다음을 참조하십시오 [모바일 사이트 또는 웹 사이트에 비디오 URL 연결](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 * 바꾸기 `"S7 MP4 mobile progressive video asset URL (no player)"` 비디오의 모바일 점진적 URL과 함께 사용하십시오.
 
-   다음을 참조하십시오 [모바일 사이트 또는 웹 사이트에 비디오 URL 연결](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
+  다음을 참조하십시오 [모바일 사이트 또는 웹 사이트에 비디오 URL 연결](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
 ## 타사 비디오 플레이어를 사용하여 비디오 배포 {#deploying-video-using-a-third-party-video-player}
 
@@ -140,28 +142,28 @@ Dynamic Media Classic 비디오 뷰어 대신 서드파티 비디오 플레이�
 
 * 다이렉트 HLS 스트리밍 비디오 URL(다중 비트율)을 생성하려면
 
-   다음에서 **[!UICONTROL 응용 프로그램 일반 설정]** 페이지, **[!UICONTROL 서버]** 그룹, **[!UICONTROL 게시된 서버 이름]** 텍스트 필드에서 직접 URL을 구성합니다. 다음 구문을 사용합니다. `server/is/content/company/folder/filename.m3u8`
+  다음에서 **[!UICONTROL 응용 프로그램 일반 설정]** 페이지, **[!UICONTROL 서버]** 그룹, **[!UICONTROL 게시된 서버 이름]** 텍스트 필드에서 직접 URL을 구성합니다. 다음 구문을 사용합니다. `server/is/content/company/folder/filename.m3u8`
 
-   예를 들어 게시된 서버 이름이 이라고 가정합니다. `https://s7d9.scene7.com/.` 2단계의 구문을 사용하면 직접 URL은 다음과 같이 표시될 수 있습니다.
-   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
+  예를 들어 게시된 서버 이름이 이라고 가정합니다. `https://s7d9.scene7.com/.` 2단계의 구문을 사용하면 직접 URL은 다음과 같이 표시될 수 있습니다.
+  `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * 직접 HLS 스트리밍 비디오 URL을 생성하려면(단일 비트 전송률)
 
-   다음에서 **[!UICONTROL 응용 프로그램 일반 설정]** 페이지, **[!UICONTROL 서버]** 그룹, **[!UICONTROL HLS 스트리밍 서버 이름]** 텍스트 필드에서 다음 구문을 사용하여 직접 URL을 구성합니다.
+  다음에서 **[!UICONTROL 응용 프로그램 일반 설정]** 페이지, **[!UICONTROL 서버]** 그룹, **[!UICONTROL HLS 스트리밍 서버 이름]** 텍스트 필드에서 다음 구문을 사용하여 직접 URL을 구성합니다.
 
-   `server/company/folder/filename.ext.m3u8`
+  `server/company/folder/filename.ext.m3u8`
 
-   예를 들어 HLS 스트리밍 서버 이름이 이라고 가정합니다. `https://s7mbrstream.scene7.com/hls-vod/`. 2단계의 구문을 사용하면 직접 URL은 다음과 같이 표시될 수 있습니다.
-   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
+  예를 들어 HLS 스트리밍 서버 이름이 이라고 가정합니다. `https://s7mbrstream.scene7.com/hls-vod/`. 2단계의 구문을 사용하면 직접 URL은 다음과 같이 표시될 수 있습니다.
+  `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * 직접 점진적 비디오 URL을 생성하려면
 
-   **[!UICONTROL [애플리케이션 일반 설정]]** 페이지에 있는 **[!UICONTROL [서버]]** 그룹의 **[!UICONTROL [점진적 비디오 서버 이름]]** 텍스트 필드에서 다음 구문을 사용하여 직접 eVideo URL을 구성합니다.
+  **[!UICONTROL [애플리케이션 일반 설정]]** 페이지에 있는 **[!UICONTROL [서버]]** 그룹의 **[!UICONTROL [점진적 비디오 서버 이름]]** 텍스트 필드에서 다음 구문을 사용하여 직접 eVideo URL을 구성합니다.
 
-   `server/company/folder/filename`
+  `server/company/folder/filename`
 
-   예를 들어 점진적 비디오 서버 이름이 이라고 가정합니다. `https://s7d9.scene7.com/is/content/`. 2단계의 구문을 사용하면 직접 URL은 다음과 같이 표시될 수 있습니다.
-   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
+  예를 들어 점진적 비디오 서버 이름이 이라고 가정합니다. `https://s7d9.scene7.com/is/content/`. 2단계의 구문을 사용하면 직접 URL은 다음과 같이 표시될 수 있습니다.
+  `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## 비디오 축소판 작업 {#working-with-video-thumbnails}
 

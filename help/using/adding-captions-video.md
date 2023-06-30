@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '904'
 ht-degree: 32%
@@ -56,18 +58,18 @@ Adobe Dynamic Media Classic은 캡션 파일을 JSON(JavaScript Object Notation)
 
    * 팝업 비디오 뷰어 경험을 위해 다음을 선택합니다. **[!UICONTROL URL 복사]** 이름에서 가장 오른쪽에 있습니다
 
-      복사한 비디오 URL을 캡션 파일에 복사한 URL과 연결할 수 있도록 다음 구문과 함께 추가합니다.
+     복사한 비디오 URL을 캡션 파일에 복사한 URL과 연결할 수 있도록 다음 구문과 함께 추가합니다.
 
-      `&caption=<full Copy URL path to the caption file .vtt>,1`
+     `&caption=<full Copy URL path to the caption file .vtt>,1`
 
-      다음을 참고하십시오. `,1` 캡션 URL 경로의 끝입니다. 경로에서 VTT 파일 이름 확장자 바로 다음에 나오는 를 설정하여 비디오 플레이어 바의 자막 버튼을 활성화하거나 비활성화할 수 있습니다 `1` 또는 `0`, 각각
+     다음을 참고하십시오. `,1` 캡션 URL 경로의 끝입니다. 경로에서 VTT 파일 이름 확장자 바로 다음에 나오는 를 설정하여 비디오 플레이어 바의 자막 버튼을 활성화하거나 비활성화할 수 있습니다 `1` 또는 `0`, 각각
 
    * 임베드된 비디오 뷰어 환경을 보려면 다음을 선택하십시오. **[!UICONTROL 포함 코드]** 이름에서 가장 오른쪽에 있습니다
 
-      포함 코드 대화 상자에서 **[!UICONTROL 클립보드에 복사]**.
+     포함 코드 대화 상자에서 **[!UICONTROL 클립보드에 복사]**.
 
-      HTML5용 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, 또는 `Universal_HTML5_MixedMedia_light` 뷰어를 사용하여 복사한 포함 코드를 다음과 같이 추가합니다.
+     HTML5용 `Universal_HTML5_Video`, `Universal_HTML5_MixedMedia_dark`, 또는 `Universal_HTML5_MixedMedia_light` 뷰어를 사용하여 복사한 포함 코드를 다음과 같이 추가합니다.
 
-      `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
+     `videoViewer.setParam("caption","<full Copy URL path to the caption file .vtt>,1”`
 
-      다음을 참고하십시오. `,1` URL 경로 끝. URL 경로에서 VTT 파일 이름 확장자 바로 다음에 나오는 를 설정하여 비디오 플레이어 바의 캡션 단추를 선택적으로 활성화하거나 비활성화할 수 있습니다. `1` 또는 `0`, 각각
+     다음을 참고하십시오. `,1` URL 경로 끝. URL 경로에서 VTT 파일 이름 확장자 바로 다음에 나오는 를 설정하여 비디오 플레이어 바의 캡션 단추를 선택적으로 활성화하거나 비활성화할 수 있습니다. `1` 또는 `0`, 각각

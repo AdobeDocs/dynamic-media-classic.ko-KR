@@ -9,7 +9,9 @@ discoiquuid: 0097cba5-c886-4115-bc35-7ae7a500202f
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Integrations, Development
+level: Experienced
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '831'
 ht-degree: 36%
@@ -38,7 +40,7 @@ Adobe Dynamic Media Classic에 업로드하기 전에 PDF 파일을 준비합니
 * 뷰어가 키워드로 eCatalog를 검색하게 하려면 PDF 파일이 &quot;균일화&quot;되었는지 확인합니다. 균일화된 PDF 파일에서는 검색어를 추출할 수 없습니다. PDF가 균일화되었는지 확인하려면 PDF 내에서 텍스트 선택을 시도합니다. 텍스트를 선택할 수 없는 경우 PDF이 병합되고 뷰어가 eCatalog에서 키워드로 검색할 수 없습니다.
 * 원래 인쇄용이기 때문에 PDF 파일에는 대체로 CMYK 이미지가 포함되어 있습니다. 기본적으로 Adobe Dynamic Media Classic은 이러한 CMYK 이미지를 지능적으로 감지하고 내부 CMYK 색상 프로파일을 사용하여 변환할 수 있습니다. 그러나 사용자 지정 색상 프로필을 사용하여 CMYK 이미지를 전환하려는 경우 이 작업도 가능합니다. 
 
-   다음을 참조하십시오 [ICC(International Color Consortium) 프로파일](icc-profiles.md#icc_profiles).
+  다음을 참조하십시오 [ICC(International Color Consortium) 프로파일](icc-profiles.md#icc_profiles).
 
 ## 우수 사례 PDF 업로드 선택 사항 {#best-practice-pdf-upload-options}
 
@@ -58,7 +60,7 @@ Adobe Dynamic Media Classic에 업로드하기 전에 PDF 파일을 준비합니
 
 * **색상 공간** - 업로드 작업 옵션 대화 상자에서 다음을 선택합니다. **[!UICONTROL PDF 옵션]**. 색상 공간 드롭다운 목록에서 **[!UICONTROL 자동 감지]**. 일반적으로 인쇄 출력용으로 만들어진 PDF는 CMYK를 사용하고 온라인 보기용 PDF는 RGB입니다. PDF에서 두 가지 색상 공간을 모두 사용하는 경우 [RGB로 강제 설정] 또는 [CMYK로 강제 설정]을 선택하여 특정 색상 공간을 선택할 수 있습니다. 예를 들어 페이지 그래픽은 CMYK 색상 공간을 사용하고 사진은 RGB를 사용하는 경우 PDF에서 두 가지 색상 공간을 모두 사용합니다. ICC 프로필을 업로드한 경우 해당 이름이 [색상 공간] 메뉴에 표시되며 여기서 프로필을 선택할 수 있습니다. 
 
-   다음을 참조하십시오 [ICC(International Color Consortium) 프로파일](/help/using/icc-profiles.md).
+  다음을 참조하십시오 [ICC(International Color Consortium) 프로파일](/help/using/icc-profiles.md).
 
 * **색상 프로파일 옵션** - 업로드 작업 옵션 대화 상자에서 다음을 선택합니다. **[!UICONTROL 색상 프로파일 옵션]**&#x200B;을 선택한 다음 색상 프로파일 옵션을 선택합니다.
 

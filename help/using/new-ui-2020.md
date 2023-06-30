@@ -7,7 +7,9 @@ products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Administration
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1089'
 ht-degree: 0%
@@ -95,7 +97,6 @@ Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설
 * [Adobe Dynamic Media Classic 우수 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
 * [Adobe 블로그 게시물](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
 * [Dynamic Media 뉴스레터 아카이브 Adobe](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
-
 +++
 
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
@@ -108,6 +109,5 @@ Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설
 >
 >* [Adobe Dynamic Media Classic 데스크톱 응용 프로그램에서 로그인 및 로그아웃](/help/using/signing-out.md)
 >* [Adobe Dynamic Media Classic 데스크탑 애플리케이션 다운로드 및 설치](/help/using/dynamic-media-classic-desktop-app.md)
-
 
 <!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

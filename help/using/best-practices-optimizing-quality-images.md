@@ -8,7 +8,9 @@ geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
-source-git-commit: 38d7f8d6e5888e1c5ba9260ada45b79fb16b338f
+topic: Content Management
+level: Intermediate
+source-git-commit: d82f816553f807b514f4690827dab672a6baf690
 workflow-type: tm+mt
 source-wordcount: '1569'
 ht-degree: 50%
@@ -27,7 +29,7 @@ Adobe Dynamic Media Classic에는 이미지 및 렌더링 결과를 조정하고
 >
 >Dynamic Media을 사용하여 Dynamic Media 이미지 수정자 및 스마트 이미징의 이점을 알아보십시오 [_스냅샷_](https://snapshot.scene7.com/).
 >
-> 스냅샷은 Dynamic Media의 최적화된 동적 이미지 제공 기능을 보여 주기 위해 설계된 시각적 데모 도구입니다. 테스트 이미지 또는 Dynamic Media URL로 테스트하여 다양한 Dynamic Media 이미지 수정자의 출력을 시각적으로 관찰하고 다음에 대한 스마트 이미징 최적화를 수행합니다.
+> 스냅숏은 Dynamic Media의 최적화된 동적 이미지 제공 기능을 보여 주도록 설계된 시각적 데모 도구입니다. 테스트 이미지 또는 Dynamic Media URL로 테스트하여 다양한 Dynamic Media 이미지 수정자의 출력을 시각적으로 관찰하고 다음에 대한 스마트 이미징 최적화를 수행합니다.
 >* 파일 크기(WebP 및 AVIF 게재 포함)
 >* 네트워크 대역폭
 >* DPR(장치 픽셀 비율)
@@ -75,13 +77,13 @@ Adobe Dynamic Media Classic을 사용하면 수집, 게재 또는 둘 다에 대
       * `amount` (0-5, 효과의 강도)
       * `radius` (0-250, 선명해진 개체 둘레에 그려진 &quot;선명하게 하는 선&quot;의 너비에 대한 픽셀 단위 측정값)
 
-         매개 변수 `radius`와 `amount`는 서로 반대로 작용합니다. 축소 `radius` 다음을 늘려서 보상할 수 있습니다. `amount`. `Radius`를 사용하면 높은 값은 넓은 범위의 픽셀을 선명하게 하는 반면, 낮은 값은 가장자리 픽셀만 선명하게 하는 방식으로 미세하게 조정할 수 있습니다.
+        매개 변수 `radius`와 `amount`는 서로 반대로 작용합니다. 축소 `radius` 다음을 늘려서 보상할 수 있습니다. `amount`. `Radius`를 사용하면 높은 값은 넓은 범위의 픽셀을 선명하게 하는 반면, 낮은 값은 가장자리 픽셀만 선명하게 하는 방식으로 미세하게 조정할 수 있습니다.
 
       * `threshold` (0-255, 효과 민감도)
 
-         이 매개 변수는, 가장자리 픽셀로 간주되고 필터가 선명하게 하기 전에, 선명하게 되는 픽셀과 주변 영역 간의 필수 차이를 결정합니다. 임계값은 피부 톤과 같이 유사한 색상 영역을 지나치게 선명하게 하는 것을 방지하는 데 유용합니다. 예를 들어 임계값 12는 &quot;노이즈&quot;를 추가하지 않도록 피부 톤 밝기에서 약간의 변형을 무시하는 반면, 속눈썹이 피부와 접촉하는 지점과 같은 고대비 영역에는 여전히 가장자리 대비를 추가합니다.
+        이 매개 변수는, 가장자리 픽셀로 간주되고 필터가 선명하게 하기 전에, 선명하게 되는 픽셀과 주변 영역 간의 필수 차이를 결정합니다. 임계값은 피부 톤과 같이 유사한 색상 영역을 지나치게 선명하게 하는 것을 방지하는 데 유용합니다. 예를 들어 임계값 12는 &quot;노이즈&quot;를 추가하지 않도록 피부 톤 밝기에서 약간의 변형을 무시하는 반면, 속눈썹이 피부와 접촉하는 지점과 같은 고대비 영역에는 여전히 가장자리 대비를 추가합니다.
 
-         필터에 사용하는 모범 사례를 포함하여 이러한 세 매개 변수를 설정하는 방법에 대한 자세한 내용은 [Adobe Dynamic Media Classic 및 이미지 서버에서 이미지 선명하게 하기](/help/using/assets/s7_sharpening_images.pdf).
+        필터에 사용하는 모범 사례를 포함하여 이러한 세 매개 변수를 설정하는 방법에 대한 자세한 내용은 [Adobe Dynamic Media Classic 및 이미지 서버에서 이미지 선명하게 하기](/help/using/assets/s7_sharpening_images.pdf).
 
       * Adobe Dynamic Media Classic을 사용하면 네 번째 매개 변수인 모노크롬( `0,1`). 이 매개 변수는 언샵 마스킹이 값 `0`을 따로따로 사용하여 각 색상 구성 요소에 적용될지, 아니면 값 `1`을 사용하여 이미지 밝기/강도에 적용될지를 결정합니다.
 

@@ -10,7 +10,9 @@ discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
-source-git-commit: 65e3b69bdcbd651a5f9ab100592217e61a8c05ef
+topic: Administration, Collaboration
+level: Intermediate
+source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 56%
@@ -62,12 +64,12 @@ ht-degree: 56%
 
    | 작업 | 읽음 | 쓰기 | 삭제 |
    | --- | --- | --- | --- |
-   | 폴더 및 파일 찾아보기 | X |  |  |
-   | 파일 편집(자르기, 선명하게, 조정) |  | X |  |
-   | 파일 이름 변경 |  | X |  |
-   | 파일을 다른 폴더로 이동 |  | X |  |
-   | 파일 이름 변경 |  | X |  |
-   | 파일 삭제 |  |  | X |
+   | 폴더 및 파일 찾아보기 | X | | |
+   | 파일 편집(자르기, 선명하게, 조정) | | X | |
+   | 파일 이름 변경 | | X | |
+   | 파일을 다른 폴더로 이동 | | X | |
+   | 파일 이름 변경 | | X | |
+   | 파일 삭제 | | | X |
 
 1. 선택 **[!UICONTROL 닫기]**.
 
