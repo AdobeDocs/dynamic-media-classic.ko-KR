@@ -1,21 +1,19 @@
 ---
 title: "빠른 시작: 전자 카탈로그"
 description: Adobe Dynamic Media Classic의 eCatalog 기술을 빠르게 시작하고 실행하는 데 도움이 되는 eCatalog 소개 및 빠른 시작입니다.
-uuid: 1ec41927-3df6-4845-8d9d-bb92cf6dca08
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 781dacd0-ef0c-42b7-92e0-12791994874d
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1559'
-ht-degree: 36%
+source-wordcount: '1560'
+ht-degree: 35%
 
 ---
 
@@ -28,7 +26,7 @@ eCatalog는 카탈로그, 브로셔, 전단, 제품 설명서 또는 광고 전�
 * [빠른 시작 1: eCatalog](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/561_Quick%20Start%20-%20Part%201_converted%20renamed_eCatalogs-AVS)
 * [빠른 시작 2: 전자 카탈로그](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/562_Quick%20Start%20-%20Part%202_converted%20renamed_eCatalogs-AVS)
 
-eCatalog에 대해 선택한 설정에 따라 뷰어에서 다음을 수행할 수 있습니다.
+eCatalog에 대해 선택하는 설정에 따라 뷰어에서는 다음을 수행할 수 있습니다.
 
 * 카탈로그에서 키워드 또는 키워드를 검색합니다. 검색 결과는 카탈로그의 왼쪽에 있는 검색 패널에 축소판 목록으로 표시됩니다. 각 클릭 가능한 썸네일은 강조 표시된 검색어가 있는 카탈로그 스프레드를 나타냅니다.
 
@@ -100,7 +98,7 @@ eCatalog 화면의 [정보 패널] 설정을 사용하여 이미지 맵 텍스�
 
 ## 4. eCatalog 뷰어 사전 설정 설정
 
-최종 사용자는 eCatalog 뷰어에서 eCatalog를 봅니다. 관리자는 eCatalog 뷰어를 구성할 수 있습니다. 윤곽 색상을 변경하고 새 &quot;스킨&quot;을 선택하여 eCatalog를 브랜딩할 수 있습니다. Adobe Dynamic Media Classic에는 몇 가지 &quot;모범 사례&quot; eCatalog 뷰어 사전 설정이 포함되어 있습니다. 이러한 사전 설정 중 하나를 선택하여 eCatalog를 표시할 수 있습니다. 관리자는 고유한 eCatalog 뷰어 사전 설정을 만들 수도 있습니다.
+최종 사용자는 eCatalog 뷰어에서 eCatalog를 봅니다. 관리자는 eCatalog 뷰어를 구성할 수 있습니다. 윤곽선 색상을 변경하고 새 &quot;스킨&quot;을 선택하여 eCatalog를 브랜딩할 수 있습니다. Adobe Dynamic Media Classic에는 몇 가지 &quot;모범 사례&quot; eCatalog 뷰어 사전 설정이 포함되어 있습니다. 이러한 사전 설정 중 하나를 선택하여 eCatalog를 표시할 수 있습니다. 관리자는 고유한 eCatalog 뷰어 사전 설정을 만들 수도 있습니다.
 
 eCatalog 뷰어 사전 설정을 만들려면 전역 탐색 막대에서 을 선택합니다. **[!UICONTROL 설정]**&#x200B;을 선택한 다음 을 선택합니다 **[!UICONTROL 뷰어 사전 설정]**. 선택 **[!UICONTROL 추가]**&#x200B;을 클릭하고 플랫폼을 선택한 다음 을 선택합니다 **[!UICONTROL eCatalog]** > **[!UICONTROL 뷰어]**.
 

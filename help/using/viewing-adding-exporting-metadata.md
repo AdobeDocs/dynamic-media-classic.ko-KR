@@ -12,7 +12,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
 source-wordcount: '2261'
 ht-degree: 45%
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 ## 메타데이터 보기 {#view-metadata}
 
-에셋의 메타데이터를 보려면 세부 사항 보기에서 에셋을 열고 메타데이터 패널을 탭합니다. 메타데이터 필드 집합을 선택하려면 [메타데이터 보기] 메뉴에서 옵션을 선택합니다. Adobe Dynamic Media Classic은 다음과 같은 메타데이터 보기를 제공합니다.
+에셋의 메타데이터를 보려면 세부 사항 보기의 에셋을 열고 메타데이터 패널을 탭합니다. 메타데이터 필드 집합을 선택하려면 [메타데이터 보기] 메뉴에서 옵션을 선택합니다. Adobe Dynamic Media Classic은 다음과 같은 메타데이터 보기를 제공합니다.
 
 * **간단히 보기** - 기본 값 목록.
 
@@ -61,7 +61,7 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 메타데이터 외에도 키워드를 사용하여 에셋을 검색하고 관리할 수 있습니다.
 
-이 세션 중에 다른 파일에 키워드를 추가하거나 목록에서 키워드를 제거한 경우 키워드 제안 테이블에 표시됩니다.
+이 세션 중에 다른 파일에 키워드를 추가한 경우 또는 목록에서 키워드를 제거한 경우 키워드 제안 테이블에 표시됩니다.
 
 1. [세부 사항 보기]에서 파일을 엽니다.
 1. 선택 **[!UICONTROL 키워드]**.

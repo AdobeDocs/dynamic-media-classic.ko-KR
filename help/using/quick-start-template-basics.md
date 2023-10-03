@@ -12,10 +12,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 28%
+source-wordcount: '852'
+ht-degree: 20%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 28%
 
 템플릿 기본 사항은 Adobe Photoshop과 같은 이미지 편집 애플리케이션에서 계층화된 파일과 같이 동적으로 생성되고 주소 지정 가능한 계층화된 이미지 파일입니다. 레이어가 포함된 정적 파일(예: PSD 파일)과 달리 템플릿에는 매개 변수가 포함될 수 있습니다. 매개 변수를 통해 이미지의 각기 다른 측면을 다루고 사용자 지정할 수 있습니다.
 
-한 템플릿에 이미지 레이어와 텍스트 레이어를 원하는 개수만큼 포함할 수 있습니다. 계층화된 PSD 파일과 같이 레이어가 포함된 정적 파일을 템플릿으로 변환하고 Adobe Dynamic Media Classic에서 템플릿을 만들 수 있습니다. Adobe Dynamic Media Classic에 업로드한 글꼴을 사용하여 템플릿에 텍스트 레이어를 만들 수 있습니다. 템플릿에 텍스트를 추가한 후 정렬, 글꼴, 글꼴 크기 및 색상을 변경하여 텍스트 서식을 지정할 수 있습니다.
+한 템플릿에 이미지 레이어와 텍스트 레이어를 원하는 개수만큼 포함할 수 있습니다. 계층화된 PSD 파일과 같이 레이어가 포함된 정적 파일을 템플릿으로 변환하고 Adobe Dynamic Media Classic에서 템플릿을 만들 수 있습니다. Adobe Dynamic Media Classic에 업로드한 글꼴을 사용하여 템플릿에 텍스트 레이어를 만들 수 있습니다. 서식 파일에 텍스트를 추가한 후 정렬, 글꼴, 글꼴 크기 및 색상을 변경하여 서식 지정할 수 있습니다.
 
-매개변수 페이지를 사용하여 템플릿의 모든 측면을 대응 가능 매개변수로 변환할 수 있습니다. 이 과정에서 템플릿에 사용할 계층화된 이미지나 사용할 텍스트 값을 변경할 수 있습니다. 매개 변수는 URL 문자열과 함께 전달되므로 임의 매개 변수를 변경하여 이미지 서버에서 생성된 응답 이미지를 동적으로 사용자 지정할 수 있습니다.
+매개변수 페이지를 사용하여 템플릿의 모든 측면을 대응 가능 매개변수로 변환할 수 있습니다. 이렇게 하면 사용할 계층화된 이미지 또는 템플릿에서 사용할 텍스트 값을 변경할 수 있습니다. 매개 변수는 URL 문자열과 함께 전달되므로 임의 매개 변수를 변경하여 이미지 서버에서 생성된 응답 이미지를 동적으로 사용자 지정할 수 있습니다.
 
 참조: [템플릿 기본 사항](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 교육 비디오입니다.
 
@@ -37,7 +37,7 @@ ht-degree: 28%
 
 PSD 파일을 사용하여 템플릿을 작성하는 경우 다음을 선택합니다 **[!UICONTROL 템플릿 만들기]** 다음에 있음 **[!UICONTROL 업로드 작업 옵션]** PSD 파일을 업로드할 때의 대화 상자입니다. 다음 항목도 선택 **[!UICONTROL 레이어 이름 지정]** 옵션을 사용하면 Adobe Dynamic Media Classic에서 PSD 레이어를 Adobe Dynamic Media Classic에 업로드할 때 이름을 지정하는 방법을 알 수 있습니다.
 
-이미지 파일을 사용하는 경우에는 업로드할 때 이미지를 자르고 이미지의 클립 경로에서 표시를 만들 수도 있습니다.
+이미지 파일을 사용하는 경우 이미지를 자를 수 있으며, 이미지를 업로드할 때 이미지의 클리핑 패스에서 마스크를 만들 수도 있습니다.
 
 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 업로드]** 컴퓨터에서 Adobe Dynamic Media Classic의 폴더로 PSD 파일 또는 기타 이미지 파일을 업로드합니다. 다음을 참조하십시오 [템플릿 파일 업로드](uploading-template-files.md#uploading_template_files).
 
@@ -46,7 +46,7 @@ PSD 파일을 사용하여 템플릿을 작성하는 경우 다음을 선택합�
 PSD 파일에서 템플릿을 만들려면 다음을 선택합니다 **[!UICONTROL 템플릿 만들기]** 파일을 업로드할 때 이미지에서 템플릿을 만들려면 전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**, 캔버스의 너비 및 높이 측정값을 입력합니다. 페이지의 오른쪽 상단 모서리 근처에서 다음 중 하나를 선택합니다 **[!UICONTROL 디자이너]** 또는 **[!UICONTROL 개발자]**&#x200B;을 클릭하고 이미지를 템플릿 페이지로 드래그합니다. 이미지를 선택할 수도 있습니다 *다음 이전* (으)로 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**. 템플릿 페이지는 다음 작업을 위한 도구를 제공합니다.
 
 * 이미지 레이어 추가 레이어를 추가하려면 이미지를 템플릿 페이지로 드래그합니다.
-* 텍스트 레이어 추가. 다음 항목 선택 **[!UICONTROL 텍스트 도구]** 아이콘. 포인터를 끌어 텍스트 레이어의 상자를 만든 다음 텍스트 페이지의 도구로 텍스트 서식을 지정합니다.
+* 텍스트 레이어 추가. 다음 항목 선택 **[!UICONTROL 텍스트 도구]** 아이콘. 포인터를 끌어 텍스트 레이어의 상자를 만든 다음 텍스트 페이지의 도구를 사용하여 텍스트 서식을 지정합니다.
 * 레이어 크기 및 위치 변경
 * 레이어 순서 변경
 * 이미지 및 텍스트 레이어에 그림자 및 후광 효과 적용

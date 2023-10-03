@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1089'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Experience League의 Dynamic Media 뉴스레터는 Dynamic Media 및 Adobe Dynam
 
    * 이러한 어려운 시기에 풍부한 미디어 투자가 도움이 될 수 있는 세 가지 방법을 살펴보십시오.
    * 스마트 이미징을 사용하여 페이지 로드를 간소화하는 방법에 대해 알아보려면 웨비나에 등록하십시오.
-   * Adobe Dynamic Media Classic의 온디맨드 스킬 빌더 웨비나를 시청하십시오.
+   * Adobe Dynamic Media Classic에 대한 온디맨드 스킬 빌더 웨비나를 시청하십시오.
    * 온라인 Adobe Summit 2020에서 Dynamic Media 세션 보기
    * Adobe의 무료 Adobe Dynamic Media Classic 감사에 대해 자세히 알아보십시오 .
    * 모임 `John Monroe`, Adobe 고객 솔루션의 수석 프로그램 관리자.
@@ -95,7 +95,7 @@ Experience League의 Dynamic Media 뉴스레터는 Dynamic Media 및 Adobe Dynam
   이 문제에서:
 
    * Dynamic Media 뷰어에서 방문자가 취하는 작업에 대한 고급 분석을 얻는 방법.
-   * 고품질 이미지와 비디오를 제공하여 놀라운 결과를 얻을 수 있는 팁이 포함된 인포그래픽
+   * 고품질 이미지와 비디오를 제공함으로써 놀라운 결과를 얻을 수 있는 팁이 포함된 인포그래픽
    * 오늘날의 고객 기대치를 충족하기 위해 리치 미디어 전략을 업데이트하는 방법을 이해하는 데 도움이 되는 CMSwire 문서입니다.
    * Skill Builder 시리즈에서 Dynamic Media의 온디맨드 웨비나에 액세스합니다.
    * 모임 `Nick Peters`, 관리자, 사이트 신뢰성 엔지니어링, Adobe Experience Manager.
@@ -120,7 +120,7 @@ Experience League의 Dynamic Media 뉴스레터는 Dynamic Media 및 Adobe Dynam
    * Experience Manager Assets 및 Dynamic Media에 대한 최신 정보를 얻을 수 있도록 설계된 웨비나 시리즈에 대해 알아봅니다.
    * Experience League 시 Dynamic Media에서 가치를 얻기 위해 여정을 시작하십시오.
    * 방문자가 리치 미디어와 상호 작용하는 방식을 분석할 수 있는 강력한 통합 기능을 올해 9월에 간단히 살펴보십시오.
-   * 모임 `PieterJan Pieper`, Dynamic Media 기술 지원 wiz.
+   * 모임 `PieterJan Pieper`, Dynamic Media 기술 지원 전문가
 
 * **[2019년 7월, 07호](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_07_2019_July.html)**
 
@@ -128,7 +128,7 @@ Experience League의 Dynamic Media 뉴스레터는 Dynamic Media 및 Adobe Dynam
 
    * 고가치 자산을 적절하게 관리하여 방문자를 다시 찾을 수 있도록 해 주는 경험을 자신 있게 전달할 수 있는 리소스 및 정보입니다.
    * 디지털 자산 보호에 대해 예정된 웨비나에 대해 알아봅니다.
-   * 다음으로 정보가 가득 찬 Adobe Insider 둘러보기를 중단합니다.
+   * 다음으로 정보가 가득 찬 Adobe Insider Tour를 살펴보십시오.
    * Experience Manager Assets(Experience Manager Assets) 내에 Dynamic Media이 있을 때 사용할 수 있는 흥미로운 기능입니다.
    * 360° 비디오 및 사용자 지정 비디오 썸네일을 웹 사이트에 추가합니다.
    * 모임 `Andrew Hathaway`, Experience Manager Assets 내 Dynamic Media의 수석 솔루션 컨설턴트입니다.
