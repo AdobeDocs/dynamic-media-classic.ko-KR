@@ -1,27 +1,25 @@
 ---
 title: 비디오에 챕터 마커 추가
 description: Adobe Dynamic Media Classic에서 비디오에 챕터 마커를 추가하는 방법을 알아봅니다.
-uuid: 4e1e6daf-afc6-49d9-ac90-183fe2a903b2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 8bc5e552-2abb-41f0-89d2-bdf3ae5d96c2
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 40%
+source-wordcount: '628'
+ht-degree: 37%
 
 ---
 
 # 비디오에 챕터 마커 추가 {#adding-chapter-markers-to-video}
 
-단일 비디오나 적응형 비디오 집합에 장 마커를 추가하여 장편 비디오를 더 쉽게 보거나 탐색할 수 있습니다. 사용자가 비디오를 재생할 때 비디오 타임라인에서 챕터 마커를 선택할 수 있습니다(비디오 스크러버라고도 함). 이렇게 하면 관심 영역으로 쉽게 이동하거나 새로운 콘텐츠, 데모, 튜토리얼 등으로 바로 이동할 수 있습니다.
+장 마커를 단일 비디오나 응용 비디오 세트에 추가하여 긴 형식의 비디오를 더 쉽게 보고 탐색할 수 있습니다. 사용자가 비디오를 재생할 때 비디오 타임라인에서 챕터 마커를 선택할 수 있습니다(비디오 스크러버라고도 함). 이렇게 하면 관심 영역으로 쉽게 이동하거나 새로운 콘텐츠, 데모, 튜토리얼 등으로 바로 이동할 수 있습니다.
 
 >[!NOTE]
 >
@@ -51,7 +49,7 @@ Chapter 4
 Cost-efficient access to rapidly evolving technology.
 ```
 
-위의 예에서 `Chapter 1` 는 큐 식별자이며 선택 사항입니다. 의 큐 시간 `00:00:000 --> 01:04:364` 챕터의 시작 시간과 종료 시간을 00으로 지정합니다.:00:000 형식입니다. 마지막 세 개의 숫자는 밀리초이며, 원하는 경우 000으로 둘 수 있습니다. 의 챕터 제목 `The bicycle store behind it all` 는 챕터 콘텐츠의 실제 설명입니다. 큐 식별자, 시작 큐 시간 및 챕터 제목은 모두 포인터를 비디오 타임라인의 시각적 큐 포인트 위에 두면 비디오 플레이어의 팝업에 나타납니다.
+위의 예에서 `Chapter 1` 는 큐 식별자이며 선택 사항입니다. 의 큐 시간 `00:00:000 --> 01:04:364` 챕터의 시작 시간과 종료 시간을 00으로 지정합니다.:00:000 형식입니다. 마지막 세 개의 숫자는 밀리초이며, 원하는 경우 000으로 둘 수 있습니다. 의 챕터 제목 `The bicycle store behind it all` 는 챕터 내용에 대한 실제 설명입니다. 큐 식별자, 시작 큐 시간 및 챕터 제목은 모두 포인터를 비디오 타임라인의 시각적 큐 포인트 위에 두면 비디오 플레이어의 팝업에 나타납니다.
 
 HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 챕터 파일 이름 확장명은 .VTT입니다. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.
 
@@ -89,4 +87,4 @@ HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 
 
      HTML5용 `Universal_HTML5_Video` 뷰어를 사용하여 복사한 포함 코드를 다음과 같이 추가합니다.
 
-     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*”`
+     `videoViewer.setParam("navigation","*<full Copy URL path to the chapter navigation file .vtt>*"`

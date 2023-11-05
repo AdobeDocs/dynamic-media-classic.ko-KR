@@ -12,10 +12,10 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 28%
+source-wordcount: '426'
+ht-degree: 23%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 28%
 Adobe Dynamic Media Classic은 다음 글꼴 유형을 지원합니다.
 
 * 모든 TrueType 글꼴
-* PostScript ® 글꼴
+* PostScript® 글꼴
 * OpenType/TrueType 글꼴
 * OpenType/PostScript 글꼴
 * PhotoFonts
@@ -35,7 +35,7 @@ Adobe Dynamic Media Classic은 다음 글꼴 유형을 지원합니다.
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic 템플릿 레이어에서 글꼴을 사용하려면 모든 글꼴 스타일(굵게, 기울임체, 굵게/기울임체 및 보통)을 업로드하는 것이 좋습니다. Adobe Dynamic Media Classic은 요청을 처리하기 위해 이러한 글꼴 스타일이 필요합니다. 일부 글꼴에는 자세한 커닝 정보가 포함되어 있으므로 글꼴과 관련된 모든 PostScript/Adobe Type 1 파일을 업로드하는 것이 좋습니다.
+>Adobe Dynamic Media Classic 템플릿 레이어에서 글꼴을 사용하려면 모든 글꼴 스타일(굵게, 기울임체, 굵게/기울임체 및 보통)을 업로드하는 것이 좋습니다. Adobe Dynamic Media Classic은 요청을 처리하기 위해 이러한 글꼴 스타일이 필요합니다. 모두 업로드 중 `PostScript/Adobe Type1` 이러한 글꼴 중 일부에는 자세한 커닝 정보가 포함되어 있으므로 글꼴과 연관된 파일도 권장됩니다.
 
 ## 글꼴 파일 업로드 {#uploading-font-files}
 

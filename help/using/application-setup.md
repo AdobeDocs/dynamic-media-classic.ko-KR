@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '11297'
+source-wordcount: '11288'
 ht-degree: 38%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic 관리자만 애플리케이션 설정에서 페이지의 설정을 변경할 수 있습니다.
+>Adobe Dynamic Media Classic 관리자만 애플리케이션 설정에서 설정을 변경할 수 있습니다.
 
 ## 일반 설정 {#general-settings}
 
@@ -131,13 +131,13 @@ ht-degree: 38%
 
 * **[!UICONTROL 기본 업로드 옵션]** - 기본 업로드 옵션을 지정할 수 있는 [업로드 작업 옵션] 대화 상자를 엽니다. 이 선택 사항에 대한 자세한 내용은 [업로드 선택 사항](/help/using/uploading-files.md#upload_options)을 참조하십시오.
 
-### 애플리케이션용 이미지 맵 편집기
+### 이미지 맵 편집기(응용 프로그램)
 
 * **[!UICONTROL 기본 이미지 매핑 HREF]** - 이미지 매핑에서 HREF 열에 사용되는 기본 URL을 정의합니다. 이 URL은 이미지 맵을 만들 때 표시되는 기본 URL입니다.
 
 * **[!UICONTROL 기본 이미지 매핑 템플릿]** - 이미지 매핑에서 HREF 템플릿에 대한 기본 JavaScript를 정의합니다. 여기서 이미지 맵을 선택할 때마다 사용자 지정 코드가 실행되도록 설정할 수 있습니다.
 
-### 애플리케이션용 기타 설정
+### 기타 설정(응용 프로그램)
 
 * **[!UICONTROL 휴지통으로 경고 정리]** - 휴지통의 자산이 7일 이내에 자동으로 제거됩니다. 휴지통에 있는 자산이 영구적으로 삭제될 수 있는 날로부터 4일 후에 회사 관리자에게 알림을 보내려면 &quot;휴지통 항목이 자동으로 삭제되기 전에 이메일 보내기&quot;를 선택합니다. 다음을 참조하십시오 [휴지통 폴더 관리](/help/using/trash-folder.md).
 
@@ -223,7 +223,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
 
 * **[!UICONTROL 쌍3차]** - 이미지 서버의 CPU 사용량이 증가하지만 덜 눈에 띄는 앨리어싱 아티팩트의 더 선명한 이미지를 만듭니다.
 
-* **[!UICONTROL Sharp2]** - 쌍입방 옵션보다 약간 더 선명한 결과를 얻을 수 있지만 이미지 서버에서 더 높은 CPU 비용이 듭니다.
+* **[!UICONTROL `Sharp 2`]** - 쌍입방 옵션보다 약간 더 선명한 결과를 얻을 수 있지만 이미지 서버에서 더 높은 CPU 비용이 듭니다.
 
 * **[!UICONTROL 삼선형]** - 사용 가능한 경우 더 높은 해상도와 더 낮은 해상도를 모두 사용합니다. 앨리어싱이 문제가 될 때만 권장됩니다. 이 방법을 사용하면 고주파수 데이터가 감소하기 때문에 JPEG 크기가 줄어듭니다.
 
@@ -308,7 +308,7 @@ Adobe Dynamic Media Classic은 응용 비디오 인코딩 사전 설정을 제�
      >
      >iPads에 비디오를 전달하려면 모바일 인코딩 사전 설정 또는 태블릿 인코딩 사전 설정을 선택할 수 있습니다. 태블릿 사전 설정은 특히 iPad용으로 디자인되었으며, 일반적으로 큰 화면 크기와 대역폭 연결을 활용하기 위해 고해상도와 품질을 지정합니다. 태블릿 사전 설정으로 인코딩된 비디오 파일을 제공하려면 모바일 사이트나 애플리케이션에 장치 검색 코드를 포함해야 합니다. 이 코드는 재생 장치에 따라 iPhone 또는 iPad 비디오 환경을 전환합니다. 비디오 파일을 iPad에 제공하기 위한 모바일 사전 설정 선택이 보다 간소화됩니다. iPhone과 iPad에 동일한 비디오 파일을 사용할 수 있기 때문입니다. 그러나 품질은 더 낮은 해상도의 iPhone 환경으로 표준화됩니다.
 
-      * [인코딩 사전 설정] 그룹 아래의 [인코딩 사전 설정 정렬] 드롭다운 목록에서 [이름] 또는 [크기]를 선택하여 이름이나 해상도 크기를 기준으로 사전 설정을 정렬합니다.
+      * [인코딩 사전 설정] 그룹의 [인코딩 사전 설정 정렬] 드롭다운 목록에서 [이름] 또는 [크기]를 선택하여 이름 또는 해상도 크기별로 사전 설정을 정렬합니다.
       * 비디오를 재생할 해상도 크기 및 대역폭을 기준으로 인코딩 사전 설정을 선택합니다.
       * 응용 비디오 인코딩과 비디오당 하나 이상의 인코딩 사전 설정을 선택할 수 있습니다. 예를 들어 하나의 업로드 작업에서 데스크톱과 모바일용 파일을 모두 인코딩할 수 있습니다.
 
@@ -340,9 +340,9 @@ Adobe Dynamic Media Classic은 응용 비디오 인코딩 사전 설정을 제�
 
 |  | 인코딩 사전 설정 이름/도구 설명 텍스트 | 인코딩된 파일 접미어 | 비디오 데이터 속도(Kbps) | 너비/높이(픽셀) | fps | 오디오 비트 전송률(Kbps) | 권장 사항 |
 |--- |--- |--- |--- |--- |--- |--- |--- |
-| 1 | 자동 x360, 800Kbps | _Mobile_Autox360p_800K | 800 | Autox360 | 소스와 동일 | 64 | 모바일용(iPhone, iPad, Android™) |
-| 2 | 자동 x 480, 1400Kbps | _Tablet_Autox480p_1400K | 1400 | Autox480 | 소스와 동일 | 96 | 태블릿용(iPad, Android™) |
-| 3 | 자동 x 720, 2600Kbps | _Desktop_Autox720p_2600K | 2600 | Autox720 | 소스와 동일 | 128 | 데스크톱용 |
+| 1 | 자동 × 360, 800Kbps | _Mobile_Auto×360p_800K | 800 | Auto×360 | 소스와 동일 | 64 | 모바일용(iPhone, iPad, Android™) |
+| 2 | 자동 × 480, 1400Kbps | _Tablet_Auto×480p_1400K | 1400 | Auto×480 | 소스와 동일 | 96 | 태블릿용(iPad, Android™) |
+| 3 | 자동 × 720, 2600Kbps | _Desktop_Auto×720p_2600K | 2600 | Auto×720 | 소스와 동일 | 128 | 데스크톱용 |
 
 ### 적응형 비디오 인코딩(16:9 또는 4:3) 비디오 사전 설정 {#adaptive-video-encoding-or-video-presets}
 
@@ -635,7 +635,7 @@ Adobe Dynamic Media Classic의 모든 기본 뷰어 사전 설정 CSS 파일은 
 
 `Scene7SharedAsset`: `.s7videoviewer .s7fullscreenbutton[state][selected] { background-image: url(/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha); }`
 
-그러나 사용자 사이트에서 뷰어 CSS 파일을 호스팅하는 경우 사용자 환경의 이미지 서버에 대한 명시적 경로를 사용하여 이러한 상대 이미지 경로를 확인해야 합니다. 예를 들어 위의 상대 경로를 명시적 경로로 업데이트하려면 다음과 같이 보일 수 있습니다. `https://s7d1.scene7.com` 는 이미지 서버에 대한 직접 경로입니다. `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
+그러나 사용자 사이트에서 뷰어 CSS 파일을 호스팅하는 경우 사용자 환경의 이미지 서버에 대한 명시적 경로를 사용하여 이러한 상대 이미지 경로를 확인해야 합니다. 예를 들어 위의 상대 경로를 명시적 경로로 업데이트하면 다음과 같이 보일 수 있습니다. `https://s7d1.scene7.com` 는 이미지 서버에 대한 직접 경로입니다. `https://s7d1.scene7.com/is/image/Scene7SharedAssets/FullScreenButton_dark_sprite?scl=1&fmt=png-alpha`
 
 **HTML5 뷰어 사전 설정을 내보내려면:**
 
@@ -926,7 +926,7 @@ Adobe Dynamic Media Classic은 일괄처리 집합 사전 설정을 사용하여
 
 참조: [2D 회전 집합의 자동 생성을 위한 일괄처리 집합 사전 설정 만들기](application-setup.md#creating_a_batch_set_preset_for_the_auto_generation_of_a_2d_spin_set).
 
-참조: [2D 스핀 세트](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) 교육 비디오입니다.
+참조: [2D 회전 집합](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/537_2d-spin_converted%20renamed_Done-AVS) 교육 비디오입니다.
 
 **일괄처리 집합 사전 설정을 만들려면:**
 

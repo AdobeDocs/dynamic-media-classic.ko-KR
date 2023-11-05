@@ -10,16 +10,16 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 42%
+source-wordcount: '700'
+ht-degree: 40%
 
 ---
 
 # 웹 페이지에 견본 집합 연결{#linking-a-swatch-set-to-a-web-page}
 
-견본 집합을 게시한 후 웹 사이트 또는 애플리케이션에서 해당 URL 또는 임베드 코드를 사용할 수 있습니다. 필요한 경우 URL 또는 임베드 코드를 배포하여 사용자가 웹 사이트 또는 애플리케이션에서 견본 집합을 볼 수 있도록 합니다.
+견본 집합을 게시한 후에는 웹 사이트 또는 애플리케이션에서 연결된 URL 또는 포함 코드를 사용할 수 있습니다. 필요한 경우 URL 또는 임베드 코드를 배포하여 사용자가 웹 사이트 또는 애플리케이션에서 견본 집합을 볼 수 있도록 합니다.
 
 >[!NOTE]
 >

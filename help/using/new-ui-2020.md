@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1089'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 ## _마지막 개정 2020년 6월 30일_
 
-이제 Adobe Dynamic Media Classic 사용자는 브라우저의 Adobe Flash 기술에 더 이상 의존하지 않는 새로운 로그인 환경에 액세스할 수 있습니다.
+이제 Adobe Dynamic Media Classic 사용자는 브라우저에서 Adobe Flash 기술에 의존하지 않는 새 로그인에 액세스할 수 있습니다.
 
 ## FAQ
 
@@ -39,7 +39,7 @@ Adobe Flash Player은 웹 브라우저에서 Adobe Flash Platform에서 개발�
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
 
 +++**_새 데스크탑 앱은 어떻게 작동합니까?_**
-데스크탑 앱을 다운로드하여 설치하고 실행하면 새로 고친 로그인 환경이 표시됩니다. 기존 사용자 이름과 암호를 입력하고 지역을 기반으로 적절한 서버를 선택하면 Adobe Dynamic Media Classic에 로그인할 수 있습니다. 전반적인 경험은 익숙한 웹 브라우저 버전과 동일합니다. 데스크탑 앱에서 Adobe Dynamic Media Classic 프로덕션 및 스테이징 환경에 액세스할 수 있습니다. 이 기능에 대한 자격 증명이 있는 경우 Media Portal에 액세스할 수도 있습니다.
+데스크탑 앱을 다운로드하여 설치하고 실행하면 새로 고친 로그인이 표시됩니다. 기존 사용자 이름과 암호를 입력하고 지역을 기반으로 적절한 서버를 선택하면 Adobe Dynamic Media Classic에 로그인할 수 있습니다. 전반적인 경험은 익숙한 웹 브라우저 버전과 동일합니다. 데스크탑 앱에서 Adobe Dynamic Media Classic 프로덕션 및 스테이징 환경에 액세스할 수 있습니다. 이 기능에 대한 자격 증명이 있는 경우 Media Portal에 액세스할 수도 있습니다.
 
 >[!IMPORTANT]
 >
@@ -68,7 +68,7 @@ Adobe은 자사 제품이 고객의 보안 요구 사항을 충족하도록 하�
 +++
 
 +++**_우리 회사는 내 컴퓨터에 소프트웨어와 앱을 설치할 수 없습니다. 새 데스크탑 앱에 액세스하려면 어떻게 해야 합니까?_**
-일부 회사에서는 승인 없이 시스템에 소프트웨어와 앱을 다운로드하여 설치할 수 없습니다. 이러한 경우 일찍 IT 팀과 협력하여 새 Adobe Dynamic Media Classic 데스크탑 앱에 액세스할 수 있는 권한을 얻으십시오. 2020년 12월 31일 이후에는 브라우저 버전이 더 이상 사용되지 않습니다. 새 데스크탑 앱을 다운로드하기 위해 마지막 순간까지 기다리지 않는 것이 중요합니다.
+일부 회사에서는 승인 없이 시스템에 소프트웨어와 앱을 다운로드하여 설치할 수 없습니다. 이러한 경우 IT 팀과 일찍 협력하여 새 Adobe Dynamic Media Classic 데스크탑 앱에 액세스할 수 있는 권한을 얻으십시오. 2020년 12월 31일 이후에는 브라우저 버전이 더 이상 사용되지 않습니다. 새 데스크탑 앱을 다운로드하기 위해 마지막 순간까지 기다리지 않는 것이 중요합니다.
 +++
 
 +++**_새 데스크탑 앱의 여러 인스턴스를 동시에 열 수 있습니까?_**
@@ -102,7 +102,7 @@ Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
 
 +++**_Adobe Experience Manager Assets를 사용하여 Dynamic Media Adobe으로 업그레이드하는 방법에 대해 자세히 알아보고 싶습니다. 자세한 정보는 어디에서 찾을 수 있습니까?_**
-차세대 리치 미디어 작성, 게시 및 동적 전달로 업그레이드할 때의 이점에 대해 자세히 알아보려면 다음을 방문하십시오. [업그레이드를 위해 Dynamic Media 포털 Adobe](https://exploreadobe.com/dynamic-media-upgrade/).
+차세대 리치 미디어 작성, 게시 및 동적 전달로 업그레이드할 때의 이점에 대해 자세히 알아보려면 다음을 방문하십시오. [업그레이드를 위해 Dynamic Media 포털 Adobe](/help/using/upgrade.md).
 +++
 
 >[!MORELIKETHIS]

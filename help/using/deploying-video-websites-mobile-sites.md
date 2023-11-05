@@ -1,21 +1,19 @@
 ---
 title: 웹 사이트 및 모바일 사이트에 비디오 배포
 description: Adobe Dynamic Media Classic에서 웹 사이트 및 모바일 사이트에 비디오를 배포하는 방법에 대해 알아봅니다.
-uuid: 22bb4402-c0ab-4df0-89b9-99707d111927
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 0d006314-c4cc-4f6c-a51c-6075bb445e39
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1706'
-ht-degree: 34%
+source-wordcount: '1708'
+ht-degree: 33%
 
 ---
 
@@ -48,7 +46,7 @@ ht-degree: 34%
 
 ## 모바일 사이트 또는 웹 사이트에 비디오 URL 연결 {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
-비디오를 게시한 후에는 웹 사이트, 모바일 사이트 또는 데스크톱 애플리케이션에서 사용할 URL을 얻을 수 있습니다. 웹 페이지 상단의 팝업 또는 모달 창에서 비디오를 표시하려는 경우 이 비디오 URL을 사용하십시오.
+비디오를 게시하면 웹 사이트, 모바일 사이트 또는 데스크탑 애플리케이션에서 사용할 관련 URL을 가져올 수 있습니다. 웹 페이지 상단의 팝업 또는 모달 창에서 비디오를 표시하려는 경우 이 비디오 URL을 사용하십시오.
 
 고객이 링크를 선택하면 장치, 대역폭 및 화면 크기가 자동으로 감지됩니다. 데스크톱에 사전 정의된 뷰어나 스마트폰과 태블릿용 모바일 장치의 기본 비디오 플레이어에서 재생하기 위해 해당 비디오가 표시됩니다.
 
@@ -56,11 +54,11 @@ ht-degree: 34%
 
 **비디오 URL을 모바일 사이트 또는 웹 사이트에 연결하려면:**
 
-1. 에셋 찾아보기 패널의 **[!UICONTROL 표시]** 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 비디오]** 또는 **[!UICONTROL 응용 비디오 집합]**.
+1. 에셋 찾아보기 패널의 **[!UICONTROL 표시]** 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 비디오]**, 또는 **[!UICONTROL 응용 비디오 집합]**.
 1. 왼쪽의 [자산 라이브러리] 패널에서 연결하려는 비디오 또는 적응형 비디오 집합이 들어 있는 자산 폴더로 이동합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.
 
-   * 선택 **[!UICONTROL 격자 보기]** 또는 **[!UICONTROL 목록 보기]**. [자산 찾아보기] 패널에서 단일 자산의 비디오 썸네일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 HTTP 스트리밍 아래에 있는 **[!UICONTROL URL 복사]** 원하는 뷰어의 오른쪽에 있습니다. 가장 좋은 방법은 와 연결된 URL을 복사하는 것입니다. `Universal_HTML5_Video` 뷰어.
+   * 선택 **[!UICONTROL 격자 보기]** 또는 **[!UICONTROL 목록 보기]**. [자산 찾아보기] 패널에서 단일 자산의 비디오 썸네일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 HTTP 스트리밍 아래에 있는 을 선택합니다. **[!UICONTROL URL 복사]** 원하는 뷰어의 오른쪽에 있습니다. 가장 좋은 방법은 와 연결된 URL을 복사하는 것입니다. `Universal_HTML5_Video` 뷰어.
    * 선택 **[!UICONTROL 격자 보기]**. 에셋 찾아보기 패널에서 단일 에셋을 선택한 다음 썸네일 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**.
 
      뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL URL 복사]**. 가장 좋은 방법은 와 연결된 URL을 복사하는 것입니다. `Universal_HTML5_Video` 뷰어.
@@ -83,11 +81,11 @@ ht-degree: 34%
 
 **웹 페이지에 비디오 뷰어를 포함하려면:**
 
-1. 에셋 찾아보기 패널의 표시 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 비디오]** 또는 **[!UICONTROL 응용 비디오 집합]**.
+1. 에셋 찾아보기 패널의 표시 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 비디오]**, 또는 **[!UICONTROL 응용 비디오 집합]**.
 1. 왼쪽의 [자산 라이브러리] 패널에서 포함 코드를 복사하려는 비디오나 적응형 비디오 집합이 들어 있는 자산 폴더로 이동합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.
 
-   * 선택 **[!UICONTROL 격자 보기]** 또는 **[!UICONTROL 목록 보기]**. [자산 찾아보기] 패널에서 단일 자산의 비디오 썸네일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 HTTP 스트리밍 아래에 있는 **[!UICONTROL 포함 코드]** 원하는 뷰어의 오른쪽에 있습니다. 를 모범 사례로 선택합니다. **[!UICONTROL 포함 코드]** 와(과) 연결된 `Universal_HTML5_Video` 뷰어.
+   * 선택 **[!UICONTROL 격자 보기]** 또는 **[!UICONTROL 목록 보기]**. [자산 찾아보기] 패널에서 단일 자산의 비디오 썸네일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 HTTP 스트리밍 아래에 있는 을 선택합니다. **[!UICONTROL 포함 코드]** 원하는 뷰어의 오른쪽에 있습니다. 를 모범 사례로 선택합니다. **[!UICONTROL 포함 코드]** 와(과) 연결된 `Universal_HTML5_Video` 뷰어.
    * 선택 **[!UICONTROL 격자 보기]**. [에셋 찾아보기] 패널에서 단일 에셋을 선택한 다음 비디오 썸네일 이미지 아래에서 을 선택합니다 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**.
 
      뷰어 목록 페이지의 테이블에 있는 작업 열에서 을 선택합니다. **[!UICONTROL 포함 코드]**. 를 모범 사례로 선택합니다. **[!UICONTROL 포함 코드]** 와(과) 연결된 `Universal_HTML5_Video` 뷰어.
@@ -123,11 +121,11 @@ Adobe Dynamic Media Classic HTML5 비디오 플레이어를 사용하지 않고 
 
   다음을 참조하십시오 [비디오 썸네일 URL 얻기](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
-* 바꾸기 `"S7 OGG video asset URL (no player)"` OGG 비디오에 대한 비디오의 점진적 URL이 포함된 비디오
+* 바꾸기 `"S7 OGG video asset URL (no player)"` (OGG 비디오에 대한 비디오의 점진적 URL 포함)
 
   다음을 참조하십시오 [모바일 사이트 또는 웹 사이트에 비디오 URL 연결](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-* 바꾸기 `"S7 MP4 mobile progressive video asset URL (no player)"` 비디오의 모바일 점진적 URL과 함께 사용하십시오.
+* 바꾸기 `"S7 MP4 mobile progressive video asset URL (no player)"` 비디오의 모바일 점진적 URL과 함께 사용할 수 있습니다.
 
   다음을 참조하십시오 [모바일 사이트 또는 웹 사이트에 비디오 URL 연결](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
@@ -179,7 +177,7 @@ Adobe Dynamic Media Classic은 업로드 프로세스 중에 비디오 썸네일
 
 다음을 참조하십시오 [비디오 게시](deploying-video-websites-mobile-sites.md#publishing_video).
 
-게시 후에 [세부 사항 보기]의 [URL] 및 [포함 코드] 패널에서 비디오 썸네일 URL을 얻을 수 있습니다. 선택 **[!UICONTROL URL 복사]** 비디오 썸네일 오른쪽에 있으므로 해당 URL을 복사할 수 있습니다.
+게시 후에 [세부 사항 보기]의 [URL] 및 [포함 코드] 패널에서 비디오 썸네일 URL을 얻을 수 있습니다. 선택 **[!UICONTROL URL 복사]** 연결된 URL을 복사할 수 있도록 비디오 썸네일 오른쪽에 있습니다.
 
 ### 비디오 뷰어의 포스터 프레임 수정 {#modifying-poster-frames-in-video-viewers}
 

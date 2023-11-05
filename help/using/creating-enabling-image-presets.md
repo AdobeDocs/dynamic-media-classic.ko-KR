@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 72%
+source-wordcount: '255'
+ht-degree: 60%
 
 ---
 
@@ -27,7 +27,7 @@ Media Portal 관리자는 이미지 사전 설정을 만들어 이미지를 내�
 
 이미지 자산을 내보낼 때 다음 제한이 적용됩니다.
 
-* 너비x높이는 이미지당 100MB 이하여야 합니다. 예를 들어 이미지는 10Kx10K 또는 8Kx12K와 같은 아래 종횡비 변형을 초과할 수 없습니다.
+* 폭 × 높이는 이미지당 100MB 이하여야 합니다. 예를 들어, 이미지는 10K × 10K, 또는 8K × 12K와 같은 아래의 임의의 종횡비를 초과할 수 없습니다.
 * 내보내기 작업당 최대 1GB의 총 파일 크기가 있습니다.
 * 내보내기 작업당 최대 총 500개의 자산을 가질 수 있습니다.
 

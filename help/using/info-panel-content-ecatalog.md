@@ -1,21 +1,19 @@
 ---
 title: eCatalogs의 정보 패널 콘텐츠 관리
 description: Adobe Dynamic Media Classic의 eCatalogs에서 정보 패널 콘텐츠를 관리하는 방법을 알아봅니다.
-uuid: 5aa634f9-0874-4bb5-a3d9-8ce4d5577941
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: be277831-77cc-4011-ae30-e75c18eec99b
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '866'
-ht-degree: 59%
+ht-degree: 57%
 
 ---
 
@@ -51,7 +49,7 @@ Adobe Dynamic Media Classic에서 다음 기능을 사용하여 정보 패널 �
 1. [응답 TTL] 상자에 데이터 캐싱 전에 대기할 시간 수를 입력합니다.
 
    * 하루 종일 데이터가 자주 업데이트되는 경우 더 작은 숫자를 설정합니다.
-   * 데이터가 비교적 안정적이며 하루 종일 자주 업데이트할 필요가 없는 경우 더 큰 숫자를 설정합니다. 기본값은 10시간입니다.
+   * 데이터가 비교적 안정적이고 하루 종일 자주 업데이트하지 않아도 되는 경우 더 높은 숫자를 설정하십시오. 기본값은 10시간입니다.
 
 1. 선택 **[!UICONTROL 게시]**.
 

@@ -12,10 +12,10 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '1037'
-ht-degree: 37%
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Dynamic Media Classic 비디오 SEO를 사용하여 비디오 메타데이
 >
 >Google은 검색 엔진에 정보 전송 시 비디오 사이트 맵과 mRSS 피드 프로토콜을 모두 지원합니다.
 
-Adobe Dynamic Media Classic은 각 비디오와 함께 저장된 메타데이터에서 비디오 사이트 맵 및 mRSS 피드를 생성할 수 있습니다. 비디오 사이트 맵과 mRSS 피드를 만드는 경우 비디오 파일에서 포함할 메타데이터 필드를 결정합니다. 이런 방식으로 각 엔진이 트래픽을 웹 사이트의 비디오로 보다 정확하게 보낼 수 있도록 검색 엔진에 비디오를 설명합니다.
+Adobe Dynamic Media Classic은 각 비디오와 함께 저장된 메타데이터에서 비디오 사이트 맵 및 mRSS 피드를 생성할 수 있습니다. 비디오 사이트 맵과 mRSS 피드를 만드는 경우 비디오 파일에서 포함할 메타데이터 필드를 결정합니다. 이런 방식으로 각 엔진이 트래픽을 웹 사이트의 비디오로 보다 정확하게 보낼 수 있도록 검색 엔진에 비디오를 설명합니다..
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ Adobe Dynamic Media Classic은 사용자가 비디오 사이트 맵 및 mRSS 피
 * `https://{publish-server}/is/content/{companyname}/mrss-feed.xml`
 * `https://{publish-server}/is/content/{companyname}/video-sitemap.xml`
 
-이러한 URL 중 하나를 검색 엔진의 웹 마스터 도구에 복사하여 비디오 사이트 맵이나 미디어 RSS(mRSS) 피드 파일을 검색 엔진으로 전송합니다.
+이러한 URL 중 하나를 검색 엔진의 웹 마스터 도구에 복사하여 비디오 사이트 맵 또는 미디어 RSS(mRSS) 피드 파일을 검색 엔진에 제출합니다.
 
 ## 비디오 SEO 보고서 보기 {#viewing-video-seo-reports}
 

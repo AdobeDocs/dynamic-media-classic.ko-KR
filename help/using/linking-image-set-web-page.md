@@ -1,27 +1,25 @@
 ---
 title: 웹 페이지에 이미지 세트 연결
 description: Adobe Dynamic Media Classic에서 이미지 세트를 웹 페이지에 연결하는 방법을 알아봅니다.
-uuid: 8153a228-b2ec-4bc2-8996-266113a83df5
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 40f4abab-9059-4d92-a761-f6d573b42e00
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '691'
-ht-degree: 42%
+source-wordcount: '692'
+ht-degree: 38%
 
 ---
 
 # 웹 페이지에 이미지 세트 연결{#linking-an-image-set-to-a-web-page}
 
-이미지 집합을 게시하면 웹 사이트 또는 애플리케이션에 사용할 해당 URL 또는 임베드 코드를 복사할 수 있습니다. 필요한 경우 URL을 배포하거나 임베드 코드를 붙여넣어 사용자가 웹 사이트 또는 애플리케이션에서 이미지 집합을 볼 수 있도록 합니다.
+이미지 집합을 게시한 후 웹 사이트 또는 애플리케이션에서 사용할 연결된 URL 또는 포함 코드를 복사할 수 있습니다. 필요한 경우 URL을 배포하거나 임베드 코드를 붙여넣어 사용자가 웹 사이트 또는 애플리케이션에서 이미지 집합을 볼 수 있도록 합니다.
 
 >[!NOTE]
 >

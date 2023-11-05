@@ -6,7 +6,7 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
 source-wordcount: '1550'
 ht-degree: 1%
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 * 최고의 리치 미디어 공급업체가 인터넷 소매 1000에 9년 연속 공급됩니다.
 * 24/7/265 지원, 99.95%의 SLA
-* 전 세계 800개 이상의 클라이언트, 월간 3.5페타바이트 트래픽, 5억 개 이상의 자산에 대한 관리가 가능한 검증된 인프라로서 매년 60%의 트래픽 증가
+* 전 세계 800개 이상의 클라이언트, 매월 3.5PB의 트래픽, 5억 개 이상의 자산을 관리하는 검증된 인프라로서 매년 60%의 트래픽 증가
 
 +++
 

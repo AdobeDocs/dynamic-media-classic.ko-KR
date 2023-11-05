@@ -1,27 +1,25 @@
 ---
 title: 혼합 미디어 집합을 웹 페이지에 연결
 description: Adobe Dynamic Media Classic에서 혼합 미디어 세트를 웹 페이지에 연결하는 방법을 알아봅니다.
-uuid: 120326a2-77e9-4d6f-9b02-0a00fa9cbab1
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: b33dacc4-509d-4878-a769-76642bfaeb4e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 50%
+source-wordcount: '653'
+ht-degree: 47%
 
 ---
 
 # 혼합 미디어 집합을 웹 페이지에 연결{#linking-a-mixed-media-set-to-a-web-page}
 
-혼합 미디어 집합을 게시하면 웹 사이트 또는 애플리케이션에서 사용할 URL을 얻을 수 있습니다. 필요한 경우 URL을 배포하여 사용자가 웹 사이트 또는 애플리케이션에서 혼합 미디어 집합을 볼 수 있게 합니다.
+혼합 미디어 세트를 게시한 후 웹 사이트 또는 애플리케이션에서 사용할 관련 URL을 가져올 수 있습니다. 필요한 경우 URL을 배포하여 사용자가 웹 사이트 또는 애플리케이션에서 혼합 미디어 집합을 볼 수 있게 합니다.
 
 ## 혼합 미디어 집합 URL 얻기 {#obtain-a-mixed-media-set-url}
 

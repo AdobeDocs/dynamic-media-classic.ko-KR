@@ -12,9 +12,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1005'
 ht-degree: 25%
 
 ---
@@ -67,7 +67,7 @@ PSD 파일을 업로드할 때 사용할 수 있는 선택 사항은 다음과 �
 
       * **[!UICONTROL Photoshop 및 레이어 번호]** - 원래 레이어 이름을 무시하고 PSD 파일에서 레이어 번호 뒤에 이미지 이름을 지정합니다. Photoshop 파일 이름 뒤에 레이어 번호가 붙어 이미지의 이름이 지정됩니다. 예를 들어, 라는 파일의 두 번째 레이어는 `Spring Ad.psd` 이(가) 이름이 지정됨 `Spring Ad_2` Photoshop에 기본값이 아닌 이름이 있더라도.
 
-      * **[!UICONTROL Photoshop 및 레이어 이름]** - PSD 파일 뒤에 레이어 이름 또는 레이어 번호를 붙여서 이미지 이름을 지정합니다. 레이어 번호는 PSD 파일의 레이어 이름이 Photoshop 기본 레이어 이름인 경우 사용됩니다. 예를 들어 `Price Tag` PSD 파일 내 `SpringAd` 이(가) 이름이 지정됨 `Spring Ad_Price Tag`. 기본 이름이 레이어 2인 레이어가 호출됩니다. `Spring Ad_2`.
+      * **[!UICONTROL Photoshop 및 레이어 이름]** - PSD 파일 뒤에 레이어 이름 또는 레이어 번호를 붙여서 이미지 이름을 지정합니다. 레이어 번호는 PSD 파일의 레이어 이름이 Photoshop 기본 레이어 이름인 경우 사용됩니다. 예를 들어 `Price Tag` 이름이 인 PSD 파일에서 `SpringAd` 이(가) 이름이 지정됨 `Spring Ad_Price Tag`. 기본 이름이 레이어 2인 레이어가 호출됩니다. `Spring Ad_2`.
 
    * **[!UICONTROL 앵커]** - PSD 파일에서 생성된 레이어 컴포지션에서 생성된 템플릿에서 이미지가 고정되는 방식을 지정합니다. 기본 앵커는 가운데입니다. 가운데 앵커를 통해 대체 이미지의 종횡비에 상관없이 같은 공간을 대체 이미지로 가장 알맞게 채울 수 있도록 합니다. 템플릿 참조 및 매개 변수 대체 사용 시 해당 이미지를 다른 종횡비의 이미지로 대체할 때 효과적으로 같은 공간을 점유합니다. 템플릿의 지정된 공간을 채울 대체 이미지가 애플리케이션에 필요한 경우 다른 설정으로 변경합니다.
 
@@ -89,7 +89,7 @@ PSD을 업로드할 때 레이어 유지 옵션을 선택한 경우 Adobe Dynami
 1. 레이어를 두 번 클릭하고 다음 중 하나를 수행합니다.
 
    * 레이어에 이미지 맵을 만들려면 다음을 선택합니다. **[!UICONTROL 이미지 맵]** 아이콘. (참조: [이미지 맵 만들기](creating-image-maps.md#creating_image_maps).)
-   * 레이어에 확대/축소 대상을 만들려면 다음을 선택합니다. **[!UICONTROL 확대/축소 Target]** 아이콘. (참조: [유도된 확대/축소에 대한 확대/축소 대상 만들기](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
+   * 레이어에 확대/축소 대상을 만들려면 다음을 선택합니다. **[!UICONTROL 확대/축소 대상]** 아이콘. (참조: [유도된 확대/축소에 대한 확대/축소 대상 만들기](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).)
    * 레이어를 자르려면 를 선택합니다 **[!UICONTROL 자르기]** 아이콘. (참조: [이미지 자르기](cropping-image.md#cropping_an_image).)
    * 레이어를 선명하게 하려면 를 선택합니다 **[!UICONTROL 선명하게]**. (참조: [이미지 선명하게 하기](sharpening-image.md#sharpening_an_image).)
    * 레이어를 조정하려면 를 선택합니다 **[!UICONTROL 조정]**. (참조: [이미지 조정](adjusting-image.md#adjusting_an_image).)

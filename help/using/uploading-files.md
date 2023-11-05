@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3929'
+source-wordcount: '3928'
 ht-degree: 31%
 
 ---
@@ -77,7 +77,7 @@ Adobe Dynamic Media Classic 프로그램을 사용하여 최적의 결과를 얻
 | eCatalog | Adobe Acrobat에서 만든 고해상도 PDF 파일 또는 &quot;press-ready&quot;로 저장된 Adobe Creative Suite 애플리케이션을 사용합니다. PDF에는 필요한 모든 글꼴, 이미지, 마스크 및 참조된 그래픽 요소가 단일 페이지, 양면 스프레드 또는 다중 페이지 형식으로 포함되어 있습니다. 파일 이름을 영숫자 순으로 지정하여 페이지를 정렬합니다. 업로드하기 쉽도록 eCatalog에 대한 모든 PDF를 단일 폴더에 배치합니다. 업로드 시 자르기 선택 사항을 선택하여 절단선, 등록 타겟 또는 색상 막대를 비롯한 트림 영역을 PDF에서 제거할 수 있습니다. 대부분의 인쇄용 PDF 파일은 CMYK 색상 공간에 있으므로 PDF 파일에 사용된 CMYK ICC 색상 프로필을 가져오는 것이 중요합니다. |
 | 템플릿 | 텍스트, 이미지 및 레이어를 포함할 수 있는 계층화된 이미지 또는 레이아웃 디자인입니다. 변수 데이터를 사용자 지정할 수 있도록 이미지 레이어, 텍스트 문자열, 특성(예: 색상 및 크기)을 매개 변수화할 수 있습니다. 템플릿에 사용하기 위한 이미지 요구 사항은 다른 이미지와 같습니다. Photoshop 또는 다른 이미지 편집 프로그램에서 그래픽을 준비합니다. 각 그래픽을 TIFF 또는 PNG 형식의 평면화된 투명 파일로 저장합니다. 이미지 해상도가 필요한 용도에 적합한지 확인합니다. 인쇄용 이미지는 300ppi입니다. |
 | 비디오 | Adobe Dynamic Media Classic은 OGV 및 MP4 형식으로 저장된 비디오 파일을 지원합니다. 업로드 시 파일을 MP4 형식으로 트랜스코딩할 수 있습니다. [지원되는 자산 파일 형식](#supported-static-file-formats)을 참조하십시오. |
-| 글꼴 | TrueType, Type1(Windows® 전용), OpenType® 글꼴 및 PhotoFonts를 업로드했습니다. |
+| 글꼴 | 업로드된 TrueType, `Type1` (Windows® 전용), OpenType® 글꼴 및 PhotoFonts. |
 | 이미지 | 이미지 및 계층화된 이미지 파일입니다. |
 | 이미지 집합 및 견본 집합 | 뷰어에 표시할 수 있는 관련 이미지 집합입니다. |
 | ICC 프로필 | 업로드된 이미지를 소스 색상 공간에서 다른 색상 공간으로 변환하는 데 사용할 수 있는 색상 프로파일. |
@@ -157,7 +157,7 @@ Adobe Dynamic Media Classic에 콘텐츠를 저장하기 위해 선택하는 폴
 
 Adobe Dynamic Media Classic에서 업로드 작업이 시작 및 종료되는 시기를 확인하고 문제가 발생하면 알리는 이메일 메시지를 보냅니다.
 
-대규모 업로드 작업 중(또는 직후) 일부 새 항목에 &quot;이미지가 아직 최적화되지 않음&quot; 메시지가 표시될 수 있습니다. 이 메시지는 파일이 아직 완전히 처리되지 않아 Adobe Dynamic Media Classic에 추가되지 않았기 때문에 표시됩니다. 이러한 파일은 나중에 최적화할 수 있습니다. 다음을 참조하십시오 [파일 최적화](application-setup.md#optimize_files).
+대규모 업로드 작업 중(또는 직후에) 일부 새 항목에 &quot;이미지가 아직 최적화되지 않음&quot; 메시지가 표시될 수 있습니다. 이 메시지는 파일이 아직 완전히 처리되지 않아 Adobe Dynamic Media Classic에 추가되지 않았기 때문에 표시됩니다. 이러한 파일은 나중에 최적화할 수 있습니다. 다음을 참조하십시오 [파일 최적화](application-setup.md#optimize_files).
 
 ### 데스크탑에서 탭을 사용하여 파일 업로드 {#upload-files-using-sps-desktop-application}
 
@@ -241,7 +241,7 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
       * **[!UICONTROL 색상]** - 색상 옵션을 선택합니다. [모서리] 메뉴를 선택한 다음 자르려는 공백 색상을 가장 잘 나타내는 색상이 지정된 이미지 모서리를 선택합니다.
 색상을 기반으로 트림: 이미지 모서리에서 선택한 색상과 잘라낼 픽셀의 색상이 일치하는 경우에만 0으로 지정하십시오. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다.
       * **[!UICONTROL 투명도]** - 다음을 선택합니다. **[!UICONTROL 투명도]** 옵션을 선택합니다.
-투명도를 기반으로 트리밍: 픽셀이 투명한 경우에만 자르도록 0을 지정합니다. 1에 가까운 숫자를 사용하면 투명도가 높아집니다.
+투명도를 기반으로 트리밍: 픽셀이 투명한 경우에만 자르도록 0을 지정합니다. 1에 가까운 숫자를 사용하면 투명도가 더 높아집니다.
       * **[!UICONTROL 허용 오차]** - 슬라이더를 드래그하여 0에서 1 사이의 공차를 지정합니다.
 
 * **색상 프로파일 옵션** - Adobe Dynamic Media Classic 동적 게재에 사용되는 최적화된 파일을 만들 때 색상 변환을 선택합니다.
@@ -253,7 +253,7 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 * **이미지 편집 옵션** - 이미지의 클리핑 &lt;> 마스크를 유지하고 색상 프로파일을 선택할 수 있습니다.
 다음을 참조하십시오 [업로드 시 이미지 세부 조정 옵션](image-editing-options-upload.md#image-editing-options-at-upload).
 
-* **PostScript ® 옵션** - PostScript ® 파일을 래스터화하고, 파일을 자르고, 투명한 배경을 유지하고, 해상도를 선택하고, 색상 공간을 선택할 수 있습니다.
+* **PostScript® 옵션** - PostScript® 파일을 래스터화하고, 파일을 자르고, 투명한 배경을 유지하고, 해상도를 선택하고, 색상 공간을 선택할 수 있습니다.
 다음을 참조하십시오 [PostScript 및 Illustrator 파일 작업](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files).
 
 * **Photoshop 옵션** - Adobe® Photoshop® 파일에서 템플릿을 만들고, 레이어를 유지하고, 레이어 이름 지정 방법을 지정하고, 텍스트를 추출하고, 이미지가 템플릿에 고정되는 방법을 지정할 수 있습니다.

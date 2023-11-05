@@ -1,17 +1,15 @@
 ---
 title: Adobe Dynamic Media Classic 안내서
-seo-title: Technical documentation and self help for Adobe Dynamic Media Classic
-description: AEM Cloud Services 문서를 통해 Adobe Dynamic Media Classic을 사용하여 비디오, 플라이아웃 등을 관리하는 방법에 대해 자세히 알아보십시오.
-seo-description: Technical documentation, release notes and self-help materials for Adobe Dynamic Media Classic, formerly Scene 7
+description: AEM Cloud Service 문서를 통해 Adobe Dynamic Media Classic을 사용하여 비디오, 플라이아웃 등을 관리하는 방법에 대해 자세히 알아보십시오.
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '575'
 ht-degree: 3%
 
 ---
@@ -20,9 +18,9 @@ ht-degree: 3%
 
 Adobe Dynamic Media Classic 도움말에 오신 것을 환영합니다. 여기에서 사용 가능한 모든 리소스에 액세스하여 Adobe Dynamic Media Classic(이전의 Scene7) 사용에 대해 자세히 알아볼 수 있습니다.
 
-## 새로운 Adobe Dynamic Media Classic 로그인 경험 사용 가능 날짜: 2020년 6월 30일
+## 새로운 Adobe Dynamic Media Classic 로그인 사용 가능 날짜: 2020년 6월 30일
 
-2020년 6월 30일, Dynamic Media classic 사용자는 더 이상 브라우저의 Adobe Flash 기술에 의존하지 않는 새로운 로그인 환경에 액세스할 수 있습니다.
+2020년 6월 30일, Dynamic Media classic 사용자는 더 이상 브라우저의 Adobe Flash 기술에 의존하지 않는 새로운 로그인에 액세스할 수 있습니다.
 
 다음을 참조하십시오 [자주 묻는 질문](new-ui-2020.md). 2020년 5월 7일 자 새로운 업데이트.
 

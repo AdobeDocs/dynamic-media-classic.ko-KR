@@ -12,9 +12,9 @@ role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
 workflow-type: tm+mt
-source-wordcount: '3469'
+source-wordcount: '3468'
 ht-degree: 44%
 
 ---
@@ -111,7 +111,7 @@ ht-degree: 44%
 
 * **[!UICONTROL 디자이너 및 개발자]** - 역할을 가장 잘 설명하는 옵션을 선택합니다.
 
-* **[!UICONTROL 캔버스]** - 템플릿을 정의하기 위해 사용 가능한 총 영역(픽셀)을 정의합니다. 기본 크기는 300x300 픽셀입니다. 레이어가 캔버스에 배치됩니다.
+* **[!UICONTROL 캔버스]** - 템플릿을 정의하기 위해 사용 가능한 총 영역(픽셀)을 정의합니다. 기본 크기는 300 × 300픽셀입니다. 레이어가 캔버스에 배치됩니다.
 
 * **[!UICONTROL 레이어 목록]** - 템플릿의 레이어 이름을 나열합니다. 레이어를 선택하려면 [레이어] 목록에서 해당 이름을 선택합니다. [레이어] 목록에서는 레이어에 효과를 추가하고, 레이어를 삭제하고, 레이어 순서를 조정하고, 레이어를 매개 변수화하기 위한 도구를 제공합니다. 다음을 참조하십시오 [레이어를 사용한 작업](#working-with-layers).
 
