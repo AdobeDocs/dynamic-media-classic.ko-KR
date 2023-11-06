@@ -10,10 +10,10 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 47%
+ht-degree: 43%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 47%
 
 ## 웹 페이지에 혼합 미디어 집합 URL 추가 {#add-mixed-media-set-urls-to-your-web-page}
 
-혼합 미디어 세트를 배포하는 가장 일반적인 방법은 웹 페이지에 링크(탐색 아이콘 사용)를 배치하는 것입니다. 링크를 클릭하면 혼합 미디어 집합 뷰어에서 혼합 미디어 집합을 표시하는 동적 페이지(ASP 또는 JSP)가 시작됩니다.
+혼합 미디어 세트를 배포하는 가장 일반적인 방법은 웹 페이지에 링크(탐색 아이콘 사용)를 배치하는 것입니다. 선택하면 링크가 혼합 미디어 집합 뷰어에 혼합 미디어 집합을 표시하는 동적 페이지(ASP 또는 JSP)를 시작합니다.
 
 ## 혼합 미디어 집합 뷰어의 포함 코드 복사 {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 

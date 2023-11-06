@@ -10,10 +10,10 @@ role: User
 exl-id: 8bb1c744-270a-4752-b163-443708fca6c2
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 40%
+source-wordcount: '702'
+ht-degree: 33%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 40%
 
 ## 웹 페이지에 견본 집합 URL 추가 {#adding-swatch-set-urls-to-your-web-page}
 
-견본 집합을 배포하는 가장 일반적인 방법은 탐색 아이콘을 통해 웹 페이지에 링크를 배치하는 것입니다. 링크를 클릭하면 팝업 확대/축소 창에서 견본 집합을 표시하는 동적 페이지(ASP 또는 JSP)가 시작됩니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
+견본 집합을 배포하는 가장 일반적인 방법은 웹 페이지에 링크(탐색 아이콘 사용)를 배치하는 것입니다. 이 옵션을 선택하면 팝업 확대/축소 창에 견본 세트를 표시하는 동적 페이지(ASP 또는 JSP)가 시작됩니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
 
 자세한 내용 및 코드 샘플은 [Adobe 뷰어 참조 안내서에 HTML5 확대/축소 뷰어 포함](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
 

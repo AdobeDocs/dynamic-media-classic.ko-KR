@@ -12,7 +12,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 31%
@@ -21,7 +21,7 @@ ht-degree: 31%
 
 # 휴지통 폴더 관리{#managing-the-trash-folder}
 
-Adobe Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동됩니다. 삭제된 은 복원되거나 영구적으로 삭제될 때까지 7일 동안 이 폴더에 남아 있습니다. 다음을 클릭하여 삭제된 항목을 검사할 수 있습니다. **[!UICONTROL 휴지통]** 자산 라이브러리 하단에 있는 아이콘을 클릭하고 휴지통 폴더 페이지에서 항목을 봅니다.
+Adobe Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동됩니다. 삭제된 은 복원되거나 영구적으로 삭제될 때까지 7일 동안 이 폴더에 남아 있습니다. 다음을 선택하여 삭제된 항목을 검사할 수 있습니다. **[!UICONTROL 휴지통]** 자산 라이브러리 하단에 있는 아이콘을 클릭하고 휴지통 폴더 페이지에서 항목을 봅니다.
 
 모든 사용자가 휴지통 폴더의 항목을 삭제되기 전의 폴더로 복원할 수 있습니다. 모든 사용자가 휴지통 폴더의 모든 내용을 비울 수도 있습니다.
 

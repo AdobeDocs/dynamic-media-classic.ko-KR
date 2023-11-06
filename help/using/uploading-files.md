@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '3928'
+source-wordcount: '3934'
 ht-degree: 31%
 
 ---
@@ -138,7 +138,7 @@ Adobe Dynamic Media Classic은 정적 콘텐츠의 미리보기 URL을 생성하
 
 컨텐츠를 시스템에 업로드하기 전에 Adobe Dynamic Media Classic에서 컨텐츠에 대한 폴더 및 하위 폴더를 구성하고 구조화합니다. 이렇게 미리 계획하면 다음과 같은 두 가지 주요 장점이 있습니다.
 
-* FTP를 통해 Adobe Dynamic Media Classic에 콘텐츠를 업로드할 때 업로드 중에 폴더 구조를 복제하도록 시스템에 지시할 수 있습니다. 이렇게 하면 콘텐츠가 컴퓨터 또는 네트워크에 있는 것과 동일한 Adobe Dynamic Media Classic 폴더 및 하위 폴더에 구성됩니다. (Adobe Dynamic Media Classic에서 폴더 구조를 복제하려면 FTP를 통해 에셋을 업로드할 때 하위 폴더 포함 옵션을 선택합니다.)
+* FTP를 통해 콘텐츠를 Adobe Dynamic Media Classic에 업로드할 때 업로드 중에 폴더 구조를 복제하도록 시스템에 지시할 수 있습니다. 이렇게 하면 콘텐츠가 컴퓨터 또는 네트워크에 있는 것과 동일한 Adobe Dynamic Media Classic 폴더 및 하위 폴더에 구성됩니다. (Adobe Dynamic Media Classic에서 폴더 구조를 복제하려면 FTP를 통해 에셋을 업로드할 때 하위 폴더 포함 옵션을 선택합니다.)
 * 파일을 업로드한 후 시스템 내에서 폴더를 다시 구성하는 것이 신중하게 고려된 폴더 구조로 시작하는 것보다 훨씬 더 어렵습니다.
 
 Adobe Dynamic Media Classic에 콘텐츠를 저장하기 위해 선택하는 폴더 이름 지정 접근 방식 및 구조는 조직의 요구 사항에 따라 다릅니다. 다음은 몇 가지 샘플 폴더 구조입니다.
@@ -153,7 +153,7 @@ Adobe Dynamic Media Classic에 콘텐츠를 저장하기 위해 선택하는 폴
 
 ## 파일 업로드 기본 정보 {#uploading-your-files}
 
-데스크톱에서 개별 파일을 업로드하거나 FTP를 통해 폴더를 업로드할 수 있습니다. 100MB를 초과하는 파일을 업로드하거나 전체 폴더 및 하위 폴더를 업로드하려면 **FTP 사용** 탭.
+FTP를 통해 데스크탑에서 개별 파일을 업로드하거나 폴더를 업로드할 수 있습니다. 100MB를 초과하는 파일을 업로드하거나 전체 폴더 및 하위 폴더를 업로드하려면 **FTP 사용** 탭.
 
 Adobe Dynamic Media Classic에서 업로드 작업이 시작 및 종료되는 시기를 확인하고 문제가 발생하면 알리는 이메일 메시지를 보냅니다.
 
@@ -193,7 +193,7 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
 1. (선택 사항) 업로드 페이지 아래에서 **[!UICONTROL 확장자에 상관없이 동일한 기본 에셋 이름으로 모든 폴더에 덮어쓰기]** 업로드하는 파일이 기존 파일을 같은 이름으로 바꾸게 하려는 경우 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
 이 옵션의 이름은 의 설정에 따라 다를 수 있습니다. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 애플리케이션에 업로드]** > **[!UICONTROL 이미지 덮어쓰기]**.
-1. 선택 사항, 다음을 클릭한 경우에만 사용 가능 **[!UICONTROL FTP 사용]** 탭. 업로드 페이지 하단 근처에서 을 선택합니다. **[!UICONTROL 업로드 시 Zip 또는 Tar 파일 압축 풀기]** 업로드한 ZIP 또는 TAR 파일에서 모든 파일을 자동으로 추출하려는 경우. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
+1. 선택 사항입니다. 다음을 선택한 경우에만 사용할 수 있습니다. **[!UICONTROL FTP 사용]** 탭. 업로드 페이지 하단 근처에서 을 선택합니다. **[!UICONTROL 업로드 시 Zip 또는 Tar 파일 압축 풀기]** 업로드한 ZIP 또는 TAR 파일에서 모든 파일을 자동으로 추출하려는 경우. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
 1. 업로드 페이지의 오른쪽 아래 모서리 근처에서 을 선택합니다. **[!UICONTROL 작업 옵션]**&#x200B;을 클릭한 다음 원하는 옵션을 지정합니다.
 
    [업로드 선택 사항](uploading-files.md#upload_options)을 참조하십시오.

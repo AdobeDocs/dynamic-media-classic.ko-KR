@@ -12,9 +12,9 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '455'
 ht-degree: 39%
 
 ---
@@ -49,7 +49,7 @@ Adobe Dynamic Media Classic의 파일 자산은 폴더에 보관됩니다. 이�
 
    >[!NOTE]
    >
-   >FTP를 통해 파일을 업로드할 때 Adobe Dynamic Media Classic에서 폴더를 만들 수도 있습니다. 선택 **[!UICONTROL 하위 폴더 포함]** ftp를 통해 업로드할 때 옵션은 시스템 내 컴퓨터의 폴더 구조를 복제합니다. 컴퓨터나 네트워크에 있는 파일과 하위 폴더가 자산 라이브러리에 복제되고 업로드한 자산이 해당 폴더에 배치됩니다.
+   >FTP를 통해 파일을 업로드할 때 Adobe Dynamic Media Classic에서 폴더를 만들 수도 있습니다. 선택 **[!UICONTROL 하위 폴더 포함]** ftp를 통해 업로드하면 시스템의 컴퓨터에서 폴더 구조가 복제됩니다. 컴퓨터나 네트워크에 있는 파일과 하위 폴더가 자산 라이브러리에 복제되고 업로드한 자산이 해당 폴더에 배치됩니다.
 
 ## 폴더 삭제 및 이름 바꾸기 {#deleting-and-renaming-folders}
 

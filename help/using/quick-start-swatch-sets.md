@@ -12,16 +12,16 @@ role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 25%
+ht-degree: 18%
 
 ---
 
 # 빠른 시작: 견본 집합{#quick-start-swatch-sets}
 
-Adobe Dynamic Media Classic 견본 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 견본 집합 뷰어에서 사용자가 썸네일을 클릭하기만 하면 다른 색상, 재질, 텍스처, 마무리 또는 패브릭으로 렌더링된 항목을 볼 수 있습니다.
+Adobe Dynamic Media Classic 견본 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 견본 집합 뷰어에서 사용자는 썸네일을 선택하기만 해도 다른 색상, 재질, 텍스처, 마무리 또는 패브릭으로 렌더링된 항목을 볼 수 있습니다.
 
 이 견본 세트 빠른 시작은 Adobe Dynamic Media Classic의 견본 세트 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
 

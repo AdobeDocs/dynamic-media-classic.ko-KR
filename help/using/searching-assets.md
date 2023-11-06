@@ -12,10 +12,10 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1508'
-ht-degree: 19%
+source-wordcount: '1510'
+ht-degree: 17%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 
 다음을 선택할 수도 있습니다. **[!UICONTROL 오름차순]** 또는 **[!UICONTROL 내림차순]** 선택한 기준에 따라 에셋을 오름차순 또는 내림차순으로 정렬합니다.
 
-[목록 보기]에서 열 이름을 클릭하여 정렬할 수 있습니다.
+목록 보기에서 열 이름을 선택하여 정렬할 수 있습니다.
 
 ## 단순 검색 수행 {#conducting-a-simple-search}
 
@@ -153,7 +153,7 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 
 ## 메타데이터 서버 사용 {#using-the-metadata-server}
 
-메타데이터 서버는 http 요청을 통해 메타데이터를 기준으로 자산을 검색하는 데 사용할 수 있는 공용 API입니다.
+메타데이터 서버는 http 요청을 통해 메타데이터로 에셋을 검색하는 데 사용할 수 있는 공개 API입니다.
 
 메타데이터 서버를 구성하려면 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 게시 설정]** > **[!UICONTROL 메타데이터 서버]**.
 

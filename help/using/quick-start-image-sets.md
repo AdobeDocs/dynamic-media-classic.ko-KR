@@ -12,16 +12,16 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '673'
-ht-degree: 21%
+ht-degree: 18%
 
 ---
 
 # 빠른 시작: 이미지 집합{#quick-start-image-sets}
 
-Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 이미지 집합 뷰어에서는 사용자가 썸네일 이미지를 클릭하여 항목의 여러 보기를 확인할 수 있습니다. 이미지 세트 를 사용하면 항목의 대체 고해상도 보기를 표시할 수 있습니다.
+Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 이미지 세트 뷰어에서 사용자는 썸네일 이미지를 선택하여 항목의 다양한 보기를 볼 수 있습니다. 이미지 세트 를 사용하면 항목의 대체 고해상도 보기를 표시할 수 있습니다.
 
 이미지 집합 뷰어에서는 이미지를 자세히 검사하기 위해 확대/축소 도구를 제공합니다. 필요한 경우 유도된 확대/축소 타겟과 이미지 맵을 이미지 집합에 포함할 수 있습니다. 이미지 집합은 보다 조화롭고 친근한 보기 환경을 제공합니다.
 

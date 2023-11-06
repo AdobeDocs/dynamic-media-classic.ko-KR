@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '1021'
-ht-degree: 67%
+ht-degree: 66%
 
 ---
 
@@ -140,7 +140,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 을(를) 선택하여 위 양식과 연결된 HTML 소스 코드를 볼 수 있습니다. [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭하고 를 선택합니다. **[!UICONTROL 페이지 소스 보기]**. 이 코드는 사용자가 **[!UICONTROL [전송]]**&#x200B;을 클릭할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다
+Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭하고 를 선택합니다. **[!UICONTROL 페이지 소스 보기]**. 이 코드는 사용자가 선택할 때 실행되는 해당 URL 쿼리 문자열 및 POST 메서드를 보여 줍니다 **[!UICONTROL 제출]**.
 
 Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL 보기]** > **[!UICONTROL 소스]**. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 웹 개발자 도구]**. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 

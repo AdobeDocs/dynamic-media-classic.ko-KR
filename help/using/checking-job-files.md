@@ -12,9 +12,9 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '1598'
+source-wordcount: '1602'
 ht-degree: 28%
 
 ---
@@ -105,7 +105,7 @@ Adobe Dynamic Media Classic에 대한 파일 업로드 및 Adobe Dynamic Media C
 
 ### 사용자 지정 업로드 또는 게시 작업 시간 간격 만들기 {#creating-a-custom-upload-or-publish-job-time-interval}
 
-업로드(FTP를 통해) 또는 게시 작업에 대한 사용자 지정 시간 간격을 만들려면 업로드 또는 게시 페이지에서 로 이동합니다. **[!UICONTROL 반복]** > **[!UICONTROL 사용자 정의]**. 그런 다음 [규칙] 상자에 업로드 또는 게시 작업이 반복될 시간 간격을 설명하는 숫자와 와일드카드를 입력합니다.
+업로드(FTP 방식) 또는 게시 작업에 대한 사용자 지정 시간 간격을 만들려면 업로드 또는 게시 페이지에서 로 이동합니다. **[!UICONTROL 반복]** > **[!UICONTROL 사용자 정의]**. 그런 다음 [규칙] 상자에 업로드 또는 게시 작업이 반복될 시간 간격을 설명하는 숫자와 와일드카드를 입력합니다.
 
 [규칙] 상자에서 사용자 지정 업로드 및 게시 시간 간격을 설명하는 구문은 다음과 같습니다.
 

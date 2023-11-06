@@ -12,9 +12,9 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '713'
 ht-degree: 16%
 
 ---
@@ -33,7 +33,7 @@ Adobe Dynamic Media Classic 화면에는 전역 탐색 막대, 에셋 라이브�
 
 * **[!UICONTROL 회사 선택]** - 메뉴에서 액세스할 회사를 선택합니다. 한 회사와 함께 작업하는 경우에는 이 단추를 사용할 수 없습니다.
 
-* **[!UICONTROL 업로드]** - 컴퓨터 또는 네트워크의 파일을 Adobe Dynamic Media Classic에 업로드할 수 있는 업로드 화면을 엽니다. 데스크톱에서 또는 FTP를 통해 파일을 업로드할 수 있습니다. 다음을 참조하십시오 [파일 업로드](/help/using/uploading-files.md).
+* **[!UICONTROL 업로드]** - 컴퓨터 또는 네트워크의 파일을 Adobe Dynamic Media Classic에 업로드할 수 있는 업로드 화면을 엽니다. 데스크탑에서 또는 FTP를 통해 파일을 업로드할 수 있습니다. 다음을 참조하십시오 [파일 업로드](/help/using/uploading-files.md).
 
 * **[!UICONTROL 빌드]** - 메뉴에서 빌드 작업을 선택합니다. 자산 유형을 만들 수 있도록 [작성] 패널이 열립니다.
 

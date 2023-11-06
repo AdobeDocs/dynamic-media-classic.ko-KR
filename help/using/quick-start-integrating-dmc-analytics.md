@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '690'
 ht-degree: 27%
@@ -21,7 +21,7 @@ ht-degree: 27%
 
 Adobe Analytics는 여러 마케팅 채널을 통한 모든 온라인 이니셔티브의 통합 데이터를 측정, 분석 및 최적화할 수 있는 단일 장소를 마케터에게 제공하는 업계 선도적인 제품입니다.
 
-Adobe Analytics을 Adobe Dynamic Media Classic과 통합하면 웹 사이트에서 Adobe Dynamic Media Classic 뷰어를 사용하는 웹 사이트 방문자의 동작에 대한 보고서를 얻을 수 있습니다. 예를 들어 웹 사이트 방문자가 Adobe Dynamic Media Classic 확대/축소 뷰어에서 확대/축소 대상을 클릭하면 Adobe Analytics이 이 작업을 기록합니다. Adobe Analytics 보고서는 Adobe Dynamic Media Classic 뷰어에서 사용자 활동에 대한 누적 정보를 수집할 수 있습니다.
+Adobe Analytics을 Adobe Dynamic Media Classic과 통합하면 웹 사이트에서 Adobe Dynamic Media Classic 뷰어를 사용하는 웹 사이트 방문자의 동작에 대한 보고서를 얻을 수 있습니다. 예를 들어 웹 사이트 방문자가 Adobe Dynamic Media Classic 확대/축소 뷰어에서 확대/축소 대상을 선택하면 Adobe Analytics은 이 작업을 기록합니다. Adobe Analytics 보고서는 Adobe Dynamic Media Classic 뷰어에서 사용자 활동에 대한 누적 정보를 수집할 수 있습니다.
 
 Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명확하게 파악할 수 있습니다. 어떤 제품 프레젠테이션이 전환을 유도하고 어떤 것이 고객의 관심을 끌지 못하는지 결정할 수 있습니다.
 

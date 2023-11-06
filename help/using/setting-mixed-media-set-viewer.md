@@ -12,10 +12,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 44%
+ht-degree: 40%
 
 ---
 
@@ -60,7 +60,7 @@ ht-degree: 44%
 
    * **링크** - 선택 **[!UICONTROL 라이브]**. 링크 단추 레이블 상자에 링크 단추의 뷰어에 표시할 이름을 입력합니다. 원하는 경우 다음을 선택합니다 **[!UICONTROL 찾아보기]** 을 클릭하여 버튼에 대한 사용자 지정 스킨을 찾아 선택합니다.
 
-   * **방문** - 선택 **[!UICONTROL 라이브]**. 방문 단추 레이블 상자에 방문 단추의 뷰어에 표시할 이름을 입력합니다. [방문 URL] 상자에 링크를 클릭할 때 열려는 웹 사이트의 URL을 입력합니다.
+   * **방문** - 선택 **[!UICONTROL 라이브]**. 방문 단추 레이블 상자에 방문 단추의 뷰어에 표시할 이름을 입력합니다. URL 방문 상자에 링크를 선택할 때 열 웹 사이트의 URL을 입력합니다.
 
 1. 원하는 대로 기타 선택 사항을 지정합니다. 옵션에 대한 설명을 보려면 옵션 옆에 있는 정보 팁 아이콘을 선택합니다.
 

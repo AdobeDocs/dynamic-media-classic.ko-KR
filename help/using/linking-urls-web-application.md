@@ -12,9 +12,9 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '845'
 ht-degree: 37%
 
 ---
@@ -39,7 +39,7 @@ ht-degree: 37%
 1. 다음 중 하나를 수행합니다.
 
    * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 격자 보기]**. 에셋 창에서 단일 이미지 에셋을 선택한 다음 썸네일 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**.
-   * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 목록 보기]**. 에셋 창에서 단일 이미지 에셋을 선택한 다음 썸네일 이미지의 오른쪽으로 이동합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**.
+   * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 목록 보기]**. 자산 창에서 단일 이미지 자산을 선택한 다음 썸네일 이미지의 오른쪽으로 이동합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**.
    * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 세부 사항 보기]**. 동일한 도구 모음에서 다음 위치로 이동합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**.
 
 1. (선택 사항) 이미지 사전 설정 목록의 복사 URL 생성을 위한 URL 인코딩 드롭다운 목록에서 복사할 때 이미지 에셋의 URL에 적용할 URL 인코딩을 선택합니다.
