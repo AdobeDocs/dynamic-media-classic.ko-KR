@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
 workflow-type: tm+mt
-source-wordcount: '1817'
-ht-degree: 26%
+source-wordcount: '1439'
+ht-degree: 33%
 
 ---
 
@@ -62,13 +62,13 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android™, BlackBerry®
 
   에서 최신 지원 보기 [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
 
-  Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다. 다음 웹 사이트에서 이 비디오 형식을 지원하는 BlackBerry® 장치를 찾을 수 있습니다.
+  Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
-  다음을 참조하십시오 [BlackBerry®에서 지원되는 비디오 형식](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482).
+  <!-- See [Supported video formats on BlackBerry&reg;](https://support.blackberry.com/kb/articleDetail?ArticleNumber=000005482). -->
 
   다음 위치에서 이 비디오 형식을 지원하는 Windows® 장치를 찾을 수 있습니다.
 
-  다음을 참조하십시오 [Windows® Phone에서 지원되는 비디오 형식](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
+  [Windows® Phone에서 지원되는 비디오 형식](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs).
 
 * 다음을 포함한 Adobe Dynamic Media Classic 뷰어 사전 설정을 사용하여 비디오를 재생합니다.
 
