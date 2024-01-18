@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '690'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명�
 
 이 빠른 시작은 Adobe Analytics 계측 키트를 빨리 시작하고 실행하는 데 도움이 됩니다.
 
-## 1. Adobe Dynamic Media Classic을 통해 Adobe Analytics에 로그인하고 Adobe Analytics 보고서 변수를 다운로드합니다
+## 1. Adobe Dynamic Media Classic을 통해 Adobe Analytics에 로그온하고 Adobe Analytics 보고서 변수를 다운로드합니다
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명�
 
 Adobe Dynamic Media Classic에서 웹 서비스 액세스 그룹의 구성원임을 확인한 후 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL Adobe Analytics]**. Adobe Analytics 구성 페이지에서 **[!UICONTROL Adobe Analytics 로그인]**.
 
-[Adobe Analytics에 로그인](log-analytics.md#log_in_to_adobe_analytics)을 참조하십시오.
+다음을 참조하십시오 [Adobe Analytics에 로그온](log-analytics.md#log_in_to_adobe_analytics).
 
 Adobe Analytics 로그인 대화 상자에서 Experience Cloud 조직 ID(선택 사항)와 전체 자격 증명을 입력한 다음 을 선택합니다 **[!UICONTROL 로그인]**. 보고서 세트 드롭다운 메뉴에서 사용하려는 보고서 세트 이름을 선택합니다.
 

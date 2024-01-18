@@ -10,10 +10,10 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 57%
+source-wordcount: '869'
+ht-degree: 55%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Dynamic Media Classic에서 다음 기능을 사용하여 정보 패널 �
 
 * [정보 패널 설정] 패널에서는 정보 패널 텍스트, 오류에 대한 기본 응답 및 정보가 캐싱되는 시간 수를 표시하는 데 사용되는 템플릿을 지정할 수 있습니다. 또한 eCatalog를 자동으로 게시할지 여부를 지정할 수 있습니다.
 * 정보 패널 데이터 피드 패널을 사용하면 정보 패널 롤오버 텍스트에 표시할 텍스트가 포함된 CSV 파일을 지정하고 정보 업데이트 시간을 예약할 수 있습니다.
-* [메타데이터 가져오기] 대화 상자([맵 페이지] 보기에서 액세스함)에서는 롤오버 텍스트 정보가 포함된 탭으로 구분된 TXT 파일을 가져올 수 있습니다. 이 TXT 선택 사항이나 [데이터 피드] 패널 및 CSV 파일 선택 사항을 롤오버 텍스트에 사용할 수 있습니다.
+* [메타데이터 가져오기] 대화 상자([맵 페이지] 보기에서 액세스함)에서는 롤오버 텍스트 정보가 포함된 탭으로 구분된 TXT 파일을 가져올 수 있습니다. 이 TXT 옵션 또는 데이터 피드 패널을 롤오버 텍스트에 대한 CSV 파일 옵션과 함께 사용할 수 있습니다.
 * [맵 페이지] 보기에서는 특정 이미지 맵에 대해 표시되는 xml을 미리 보는 선택 사항을 제공합니다.
 
 ## eCatalogs에 대한 응답 템플릿 설정 {#set-up-a-response-template-for-ecatalogs}

@@ -1,7 +1,6 @@
 ---
-title: Adobe Analytics에 로그인
-description: Adobe Dynamic Media Classic에서 Adobe Analytics에 로그인하는 방법에 대해 알아봅니다.
-uuid: 5614babe-1097-4228-a3dc-27e5a25366d5
+title: Adobe Analytics에 로그온
+description: Adobe Dynamic Media Classic에서 Adobe Analytics에 로그온하는 방법에 대해 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -12,14 +11,14 @@ role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 1%
+source-wordcount: '845'
+ht-degree: 0%
 
 ---
 
-# Adobe Analytics에 로그인{#log-in-to-adobe-analytics}
+# Adobe Analytics에 로그온{#log-in-to-adobe-analytics}
 
 Adobe Analytics 보고서를 구성하고 Adobe Analytics 보고서 변수를 Adobe Dynamic Media Classic 이벤트에 일치시키기 위해 로그인하기 전에 Adobe Analytics에서 웹 서비스 액세스 그룹의 구성원인지 확인하십시오. 이 그룹의 구성원은 인터페이스에 설정된 권한에 관계없이 Experience Cloud의 웹 서비스 API를 통해 지정된 보고서 세트에 있는 모든 보고서에 액세스할 수 있습니다. 그룹에 멤버를 추가하려면 Adobe Analytics에서 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹 편집]**.
 
@@ -29,14 +28,14 @@ Adobe Analytics 보고서를 구성하고 Adobe Analytics 보고서 변수를 Ad
 >
 >Adobe Analytics 계정이 로그인을 위해 Adobe IMS 기반 인증(Identity Management 시스템)으로 마이그레이션된 경우 직접 자격 증명을 입력할 수 없습니다.
 
-## Adobe Dynamic Media Classic에서 Adobe Analytics에 로그인 {#log-in-to-analytics-from-dmc}
+## Adobe Dynamic Media Classic에서 Adobe Analytics에 로그온 {#log-in-to-analytics-from-dmc}
 
 Dynamic Media Classic을 Adobe Analytics OAuth와 통합해 보십시오. Dynamic Media Classic과의 Adobe Analytics OAuth 통합은 일반적으로 사용자당 한 번만 수행됩니다.
 
 1. 액세스 [Adobe Developer 콘솔](https://developer.adobe.com/console). 계정에 통합이 필요한 조직에 대한 관리자 권한이 있는지 확인하십시오.
 1. 홈 페이지의 오른쪽 상단 모서리 근처에 있는 드롭다운 목록에서 적절한 회사를 선택합니다. (아래 스크린샷은 정보용으로만 사용되며, 선택하는 실제 회사 이름은 다를 수 있습니다.)
 
-   ![새 프로젝트를 만듭니다](assets/analytics-oauth1.png)
+   ![새 프로젝트 만들기](assets/analytics-oauth1.png)
 
 1. 다음 중 하나를 수행합니다.
 

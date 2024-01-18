@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -56,4 +56,4 @@ Adobe 생성됨 [!DNL Dynamic Media] 당신을 염두에 두고.
 * 2016 온라인 비디오 플랫폼 보고서의 강력한 성능.
 * 최고의 리치 미디어 공급업체가 인터넷 소매 1000에 9년 연속 공급됩니다.
 * 24/7/265 지원, 99.95% SLA, Adobe Professional Services.
-* 전 세계 800개 이상의 클라이언트, 매월 3.5PB의 트래픽, 5억 개 이상의 자산을 관리하는 검증된 인프라로서 매년 60%의 트래픽 증가
+* 전 세계 800개 이상의 클라이언트, 월간 3.5페타바이트의 트래픽, 5억 개 이상의 자산에 대한 관리 능력을 제공하는 검증된 인프라로서 매년 60%의 트래픽 증가

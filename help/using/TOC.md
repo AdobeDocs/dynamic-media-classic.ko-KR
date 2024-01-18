@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Adobe Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 25%
+source-wordcount: '795'
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 25%
    + [Adobe 교육 서비스](training-services.md)
    + [인기 있는 학습 리소스](popular-resources.md)
    + [교육 비디오](training-videos.md)
-+ 시작하기 {#getting-started}
++ 시작 {#getting-started}
    + [Adobe Dynamic Media Classic 프로그램 개요](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [로그인 및 로그아웃](signing-out.md)
@@ -49,7 +49,7 @@ ht-degree: 25%
    + [게시 설정](publish-setup.md)
    + [비디오 SEO(검색 엔진 최적화)](video-seo-search-engine-optimization.md)
    + [관리 설정](administration-setup.md)
-+ Media Portal {#media-portal}
++ 미디어 포털 {#media-portal}
    + [Adobe Dynamic Media Classic의 Media Portal에 대한 시스템 요구 사항](system-requirements-media-portal.md)
    + [빠른 시작: Media Portal](quick-start-media-portal-administration.md)
    + [Media Portal 사용자 역할](media-portal-user-roles.md)
@@ -59,7 +59,7 @@ ht-degree: 25%
    + [Media Portal 사용자가 사용할 수 있는 내보내기 옵션 지정](specifying-export-options-available-media.md)
    + [이미지 사전 설정 만들기 및 활성화](creating-enabling-image-presets.md)
    + [메타데이터를 보다 효율적으로 사용](making-efficient-metadata.md)
-   + [Media Portal 화면 사용자 지정](customizing-media-portal-screen.md)
+   + [Media Portal 화면 사용자 정의](customizing-media-portal-screen.md)
 + 자산 업로드 및 게시 {#upload-publish}
    + [에셋 업로드 및 게시 기본 정보](about-asset-upload-publish.md)
    + [파일 업로드](uploading-files.md)
@@ -67,7 +67,7 @@ ht-degree: 25%
    + [Dynamic Media 제한 사항](limitations.md)
    + [공개하기 전에 자산 테스트](testing-assets-making-them-public.md)
    + [작업 파일 확인](checking-job-files.md)
-+ 자산 관리 {#managing-assets}
++ 에셋 관리 {#managing-assets}
    + [에셋 관리 기본 정보](about-managing-assets.md)
    + [자산 폴더 작업](asset-folders.md)
    + [찾아보기 패널에서 에셋 보기](viewing-assets-browse-panel.md)
@@ -96,7 +96,7 @@ ht-degree: 25%
    + [다른 확대/축소 뷰어로 이미지 자산 미리 보기](previewing-image-assets-different-zoom.md)
    + [확대/축소 이미지 게시](publishing-zoom-images.md)
    + [웹 페이지에 확대/축소 뷰어 연결](linking-zoom-viewers-web-pages.md)
-+ eCatalog {#ecatalogs}
++ 전자 카탈로그 {#ecatalogs}
    + [빠른 시작: eCatalog](quick-start-ecatalog.md)
    + [PDF 파일 업로드](uploading-pdf-files.md)
    + [eCatalog 만들기](creating-ecatalog.md)
@@ -122,7 +122,7 @@ ht-degree: 25%
    + [견본 집합 만들기](creating-swatch-set.md)
    + [견본 집합 보기](viewing-swatch-sets.md)
    + [웹 페이지에 견본 집합 연결](linking-swatch-set-web-page.md)
-+ 회전 집합 {#spin-sets}
++ 스핀 세트 {#spin-sets}
    + [빠른 시작: 회전 집합](quick-start-spin-sets.md)
    + [회전 집합 만들기](creating-spin-set.md)
    + [회전 집합 미리 보기](previewing-spin-set.md)
@@ -154,11 +154,11 @@ ht-degree: 25%
    + [혼합 미디어 집합을 웹 페이지에 연결](linking-mixed-media-set-web.md)
 + Adobe Analytics 계측 키트 {#analytics-kit}
    + [빠른 시작: Adobe Dynamic Media Classic과 Adobe Analytics 통합](quick-start-integrating-dmc-analytics.md)
-   + [Adobe Analytics에 로그인](log-analytics.md)
+   + [Adobe Analytics에 로그온](log-analytics.md)
    + [Adobe Analytics 보고서 구성](configuring-analytics-reports.md)
    + [Adobe Analytics 계측 키트를 사용하여 뷰어 계측](instrumenting-viewer-using-analytics-instrumentation.md)
    + [Adobe Analytics 추적 비활성화](disabling-analytics-tracking.md)
-   + [ 보고서를 보고 Adobe Analytics 통합 테스트](testing-integration-viewing-analytics-report.md)
+   + [Adobe Analytics 보고서를 보고 통합 테스트](testing-integration-viewing-analytics-report.md)
    + [Adobe Analytics 비디오 보고서 활성화](enabling-analytics-video-reports.md)
    + [Adobe Analytics 구성 정보 게시](publishing-analytics-configuration-information.md)
 + Adobe Target Standard/Premium 통합 {#target-classic}
@@ -166,9 +166,9 @@ ht-degree: 25%
    + [Adobe Target Standard/Premium과 Adobe Dynamic Media Classic 통합](integrating-dmc-with-target.md)
    + [오퍼 집합 만들기](creating-offer-set.md)
    + [Adobe Target Standard/Premium에 오퍼 집합 푸시](pushing-offer-sets-target.md)
-+ 사용자 생성 컨텐츠 {#user-generated-content}
++ 사용자 생성 콘텐츠 {#user-generated-content}
    + [사용자 생성 컨텐츠 정보](about-ugc.md)
-   + [업로드한 자산을 삭제합니다](deleting-uploaded-asset.md)
+   + [업로드된 자산 삭제](deleting-uploaded-asset.md)
    + [디스크 사용 정보 가져오기](getting-disk-usage-information.md)
    + [래스터 이미지 자산 업로드](uploading-image-asset-or-vector.md)
 + 기본 파일 {#master-files}

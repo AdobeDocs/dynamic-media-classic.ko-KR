@@ -1,5 +1,5 @@
 ---
-title: "빠른 시작: 템플릿 기본"
+title: "빠른 시작: 템플릿 기본 사항"
 description: Adobe Dynamic Media Classic에서 빠르게 시작하고 실행할 수 있는 템플릿 기본 사항에 대한 소개 및 빠른 시작
 uuid: 16d78cbb-f762-4263-aea9-5712eb933693
 contentOwner: Rick Brough
@@ -12,10 +12,10 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '852'
-ht-degree: 20%
+source-wordcount: '804'
+ht-degree: 21%
 
 ---
 
@@ -43,7 +43,7 @@ PSD 파일을 사용하여 템플릿을 작성하는 경우 다음을 선택합�
 
 ## 2. 템플릿 만들기
 
-PSD 파일에서 템플릿을 만들려면 다음을 선택합니다 **[!UICONTROL 템플릿 만들기]** 파일을 업로드할 때 이미지에서 템플릿을 만들려면 전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**, 캔버스의 너비 및 높이 측정값을 입력합니다. 페이지의 오른쪽 상단 모서리 근처에서 다음 중 하나를 선택합니다 **[!UICONTROL 디자이너]** 또는 **[!UICONTROL 개발자]**&#x200B;을 클릭하고 이미지를 템플릿 페이지로 드래그합니다. 이미지를 선택할 수도 있습니다 *다음 이전* (으)로 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**. 템플릿 페이지는 다음 작업을 위한 도구를 제공합니다.
+PSD 파일에서 템플릿을 만들려면 다음을 선택합니다 **[!UICONTROL 템플릿 만들기]** 파일을 업로드할 때 이미지에서 템플릿을 만들려면 전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**, 캔버스의 너비와 높이 측정값을 입력합니다. 페이지의 오른쪽 상단 모서리 근처에서 다음 중 하나를 선택합니다 **[!UICONTROL 디자이너]** 또는 **[!UICONTROL 개발자]**&#x200B;을 클릭하고 이미지를 템플릿 페이지로 드래그합니다. 이미지를 선택할 수도 있습니다 *다음 이전* (으)로 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**. 템플릿 페이지는 다음 작업을 위한 도구를 제공합니다.
 
 * 이미지 레이어 추가 레이어를 추가하려면 이미지를 템플릿 페이지로 드래그합니다.
 * 텍스트 레이어 추가. 다음 항목 선택 **[!UICONTROL 텍스트 도구]** 아이콘. 포인터를 끌어 텍스트 레이어의 상자를 만든 다음 텍스트 페이지의 도구를 사용하여 텍스트 서식을 지정합니다.

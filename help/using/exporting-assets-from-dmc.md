@@ -12,10 +12,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 51%
+source-wordcount: '437'
+ht-degree: 48%
 
 ---
 
@@ -67,7 +67,7 @@ Adobe Dynamic Media Classic은 [작업] 화면에 내보내기 작업 기록을 
 * 다중 비트 전송률 집합
 * eCatalog
 
-또한 템플릿은 &quot;원본 파일&quot;로 내보낼 수 없습니다.
+또한 템플릿을 &quot;원본 파일&quot;로 내보낼 수 없습니다.
 
 전환을 사용하여 다음 자산 유형을 내보낼 수 있습니다.
 

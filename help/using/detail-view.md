@@ -12,10 +12,10 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '617'
-ht-degree: 21%
+source-wordcount: '618'
+ht-degree: 20%
 
 ---
 
@@ -97,7 +97,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 | 비디오 | 아니요 | 예 |
 | 비네팅 및 렌더링된 비네팅 | 아니요 | 이미지가 표시됩니다.<br>비네팅의 렌더링 가능한 요소의 내용과 구조를 XML 형식으로 볼 수 있습니다 |
 | XML 파일 | 아니요 | 컨텐츠가 표시됩니다. |
-| Zip 파일 | 아니요 | 컨텐츠가 표시되지 않습니다 |
+| Zip 파일 | 아니요 | 컨텐츠가 표시되지 않음 |
 
 >[!MORELIKETHIS]
 >

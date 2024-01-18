@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1732'
-ht-degree: 37%
+source-wordcount: '1726'
+ht-degree: 36%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 37%
 
 자산을 Dynamic Media 이미지 서버에 게시합니다. 자산을 한 번만 게시하거나 Adobe Dynamic Media Classic에서 반복 일정에 자산을 게시하도록 예약할 수 있습니다. 자산이 게시되면 제공할 수 있습니다. Adobe Dynamic Media Classic에서 URL 호출을 복사하여 웹 사이트 또는 애플리케이션에 추가할 수 있습니다.
 
-Adobe Dynamic Media Classic은 이제 HTTP/2를 통해 모든 이미지 및 비디오의 전달을 지원합니다. 즉, 이미지 또는 비디오에 대한 게시된 URL 또는 포함 코드를 호스팅된 에셋을 허용하는 모든 애플리케이션과 통합할 수 있습니다. 그런 다음 게시된 에셋은 HTTP/2 프로토콜을 통해 전달됩니다. 이 전달 방법은 브라우저와 서버의 통신 방식을 개선하여 모든 Adobe Dynamic Media Classic 에셋의 응답 및 로드 시간을 향상시킵니다. 다음을 참조하십시오 [컨텐츠의 HTTP2 전달 FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html#dynamic).
+Adobe Dynamic Media Classic은 이제 HTTP/2를 통해 모든 이미지 및 비디오의 전달을 지원합니다. 즉, 이미지 또는 비디오에 대한 게시된 URL 또는 포함 코드를 호스팅된 에셋을 허용하는 모든 애플리케이션과 통합할 수 있습니다. 그런 다음 게시된 에셋은 HTTP/2 프로토콜을 통해 전달됩니다. 이 전달 방법은 브라우저와 서버의 통신 방식을 개선하여 모든 Adobe Dynamic Media Classic 에셋의 응답 및 로드 시간을 향상시킵니다. 다음을 참조하십시오 [컨텐츠의 HTTP2 전달 FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
 
 ## 업로드 후 게시 {#publish-after-uploading}
 
@@ -42,7 +42,7 @@ Adobe Dynamic Media Classic은 이제 HTTP/2를 통해 모든 이미지 및 비�
 | 이미지 집합 | 세트 내 이미지. |
 | 견본 집합 | 세트 내 견본. |
 | 회전 집합 | 세트 내 이미지. |
-| 템플릿 | 템플릿 파일, 페이지 및 이미지. |
+| 템플릿 | 템플릿 파일, 페이지 및 이미지 |
 
 파생된 이미지의 상위 이미지가 게시될 때 파생된 이미지도 자동으로 게시용으로 표시됩니다. 파생 이미지에는 이미지 편집 선택 사항으로 조정한 이미지도 포함됩니다. 기본 및 파생 아래의 세부 사항 보기에서 이러한 파생된 이미지를 볼 수 있습니다.
 
@@ -50,7 +50,7 @@ Adobe Dynamic Media Classic은 이제 HTTP/2를 통해 모든 이미지 및 비�
 
 Adobe Dynamic Media Classic 서버에 업로드했지만 아직 자동으로 게시하지 않으려는 자산을 게시하기 위한 게시 작업을 만듭니다. 1회 게시 작업을 수행하거나 작업이 정기적으로 반복되도록 예약할 수 있습니다. Adobe Dynamic Media Classic은 특정 서버에 게시하기 위한 고급 게시 옵션과 이미 게시된 에셋을 다시 게시하기 위한 옵션을 제공합니다.
 
-**게시 작업을 만들려면:**
+**게시 작업을 만들려면 다음 작업을 수행하십시오.**
 
 1. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]**.
 1. [게시] 대화 상자에서, 게시 작업이 일회성인지 아니면 반복 게시 작업인지 선택합니다.
@@ -118,7 +118,7 @@ Adobe Dynamic Media Classic은 작업 페이지에서 게시 작업을 추적합
 
 게시되지 않은 에셋은 에셋 이름 왼쪽에 슬래시가 있는 회색 원형 아이콘(게시되지 않은 상태)으로 사용자 인터페이스에 표시됩니다. 자산이 게시되면 이 아이콘은 녹색으로 변하고 중앙에 흰색 확인 표시(게시된 상태)가 생깁니다.
 
-**수동 자산 게시:**
+**자산을 수동으로 게시하려면 다음을 수행하십시오.**
 
 1. 다음 중 하나를 수행하십시오.
 
@@ -134,7 +134,7 @@ Adobe Dynamic Media Classic은 작업 페이지에서 게시 작업을 추적합
 
 게시된 에셋은 에셋 이름 왼쪽에 중앙(게시된 상태)에 흰색 확인 표시가 있는 둥근 녹색 아이콘으로 사용자 인터페이스에 표시됩니다. 에셋의 게시가 취소되면 아이콘이 회색으로 바뀌고 그 사이에 슬래시가 표시됩니다(게시되지 않은 상태).
 
-**수동 자산 게시 취소:**
+**자산 게시를 수동으로 취소하려면 다음을 수행하십시오.**
 
 1. 다음 중 하나를 수행하십시오.
 

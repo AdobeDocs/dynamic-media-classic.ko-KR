@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -52,11 +52,11 @@ Adobe Dynamic Media Classic의 기본 API는 변경되지 않습니다.
 +++
 
 +++**_이 새로운 데스크탑 앱 환경을 사용하려면 서드파티 통합으로 마이그레이션하거나 변경해야 합니까?_**
-아니요. Adobe Dynamic Media Classic 고객은 새 데스크탑 앱을 사용하기 위해 서드파티 통합을 마이그레이션하거나 변경할 필요가 없습니다.
+아니. Adobe Dynamic Media Classic 고객은 새 데스크탑 앱을 사용하기 위해 서드파티 통합을 마이그레이션하거나 변경할 필요가 없습니다.
 +++
 
 +++**_이 변경 사항이 자동화 스크립트에 영향을 줍니까?_**
-아니요. 자동화 스크립트에는 영향을 주지 않습니다. 새로운 데스크탑 앱은 이미 잘 알고 있는 브라우저 기반 환경과 유사한 방식으로 작동하고 동작합니다.
+아니. 자동화 스크립트에는 영향을 주지 않습니다. 새로운 데스크탑 앱은 이미 잘 알고 있는 브라우저 기반 환경과 유사한 방식으로 작동하고 동작합니다.
 +++
 
 +++**_새로운 Adobe Dynamic Media Classic 데스크탑 앱은 Mac과 PC에서 작동합니까?_**
@@ -99,9 +99,9 @@ Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설
 * [Dynamic Media 뉴스레터 아카이브 Adobe](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html#dynamic), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
 
-+++**_Adobe Experience Manager Assets를 사용하여 Dynamic Media Adobe으로 업그레이드하는 방법에 대해 자세히 알아보고 싶습니다. 자세한 정보는 어디에서 찾을 수 있습니까?_**
++++**_Adobe Experience Manager Assets을 사용한 Adobe Dynamic Media으로 업그레이드하는 방법에 대해 자세히 알아보고 싶습니다. 자세한 정보는 어디에서 찾을 수 있습니까?_**
 차세대 리치 미디어 작성, 게시 및 동적 전달로 업그레이드할 때의 이점에 대해 자세히 알아보려면 다음을 방문하십시오. [업그레이드를 위해 Dynamic Media 포털 Adobe](/help/using/upgrade.md).
 +++
 

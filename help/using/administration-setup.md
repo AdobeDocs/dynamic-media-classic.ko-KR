@@ -11,9 +11,9 @@ role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1969'
+source-wordcount: '1970'
 ht-degree: 33%
 
 ---
@@ -50,7 +50,7 @@ Adobe Dynamic Media Classic은 여러 사용자 역할을 지원합니다. 이�
 
    >[!NOTE]
    >
-   >아포스트로피 문자(`‘`)은 이메일 주소에 사용할 수 없습니다.
+   >아포스트로피 문자(`'`)은 이메일 주소에 사용할 수 없습니다.
 
 1. 사용자에게 역할을 할당하려면 역할 옵션을 선택합니다.
 
@@ -140,7 +140,7 @@ You can link an Adobe IMS user identity to an Adobe Dynamic Media Classic IPS us
 
       https://s7spsN.scene7.com/IpsWeb?ims=1
 
-      Replace “N” in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
+      Replace "N" in the above path with the number for your IPS company region. That is, N = 1 for North America; 3 for EMEA; or 5 for JAPAC.
  -->
 
 ## 대역폭 및 스토리지 {#bandwidth-storage}
@@ -178,7 +178,7 @@ Adobe Dynamic Media Classic 관리자는 관리하는 회사의 대역폭, 스�
 
 >[!NOTE]
 >
->[비디오 스트리밍] 보고서는 스트리밍 비디오에만 적용됩니다. 점진적 비디오 보기는 추적되지 않습니다.
+>[비디오 스트리밍] 보고서는 스트리밍 비디오에만 적용됩니다. 점진적 비디오 보기를 추적하지 않습니다.
 
 ### 보고서 생성 {#generating-a-report}
 
@@ -204,7 +204,7 @@ Adobe Dynamic Media Classic 관리자는 관리하는 회사의 대역폭, 스�
 
 * **사용자 정의 기간** - 사전 정의된 보고서 메뉴에서 다음을 선택합니다. **[!UICONTROL 사용자 정의]**. 그런 다음 날짜에서 선택 **[!UICONTROL 시작 월]** (또는 **[!UICONTROL 시작일]**) 메뉴 및 날짜가 # of Months(또는 # 또는 Days) 메뉴에 표시됩니다. 도메인 및 비디오 컨텐츠 보고서의 경우 보고서 정보를 캡처할 특정 시작 날짜와 종료 날짜를 선택할 수 있습니다.
 
-* **데이터 정렬(데이터 보기 전용)** - 열에 대한 정보를 정렬하려면 열의 제목을 선택합니다. 내림차순으로 정렬하려면 다시 선택하십시오.
+* **데이터 정렬(데이터 보기 전용)** - 열에 대한 정보를 정렬하려면 열 머리글을 선택합니다. 내림차순으로 정렬하려면 다시 선택하십시오.
 
 * **열 재배열(데이터 보기 전용)** - 열을 데이터 그리드의 다른 위치로 이동하려면 해당 제목을 드래그합니다.
 

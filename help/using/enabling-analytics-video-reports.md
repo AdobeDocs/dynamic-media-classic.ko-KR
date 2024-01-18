@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
 topic: Development, Integrations
 level: Experienced
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '223'
 ht-degree: 5%
 
 ---
@@ -31,7 +31,7 @@ Adobe Analytics 하트비트 기반 비디오 보고를 사용하여 Adobe Dynam
 
   스트리밍 미디어 요구 사항 및 설정에 대한 자세한 내용은 [Adobe Analytics에서 Steaming Media 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
 
-* 사용자 지정 및 솔루션 변수에 대한 자세한 내용은 을 참조하십시오. [미디어 보고서 지원](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports).
+* 사용자 지정 및 솔루션 변수에 대한 자세한 내용은 [미디어 보고서 지원](https://experienceleague.adobe.com/docs/media-analytics/using/media-reports/media-reports-enable.html?lang=en#media-reports).
 
 >[!NOTE]
 >

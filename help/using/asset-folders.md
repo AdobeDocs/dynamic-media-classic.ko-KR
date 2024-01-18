@@ -12,7 +12,7 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 39%
@@ -55,7 +55,7 @@ Adobe Dynamic Media Classic의 파일 자산은 폴더에 보관됩니다. 이�
 
 폴더를 선택하고 다음 기술을 사용하여 폴더를 삭제하거나 이름을 바꿉니다.
 
-* **삭제** - 다음을 선택합니다. **[!UICONTROL 폴더 제거]** 단추 . 삭제한 폴더에 있는 자산은 휴지통 폴더에 배치됩니다. 여기서 자산을 복구할 수 있습니다.
+* **삭제** - 다음을 선택합니다. **[!UICONTROL 폴더 제거]** 단추를 클릭합니다. 삭제한 폴더에 있는 자산은 휴지통 폴더에 배치됩니다. 여기서 자산을 복구할 수 있습니다.
 
 * **이름 바꾸기** - 이름을 두 번 클릭하고 새 이름을 입력합니다.
 

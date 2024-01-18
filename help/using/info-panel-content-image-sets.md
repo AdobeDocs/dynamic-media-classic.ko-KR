@@ -1,20 +1,18 @@
 ---
 title: 이미지 세트의 정보 패널 컨텐츠 관리
 description: Adobe Dynamic Media Classic의 이미지 세트에서 정보 패널 콘텐츠를 관리하는 방법을 알아봅니다.
-uuid: ed7b4344-f180-41fc-a95a-62a9767dc056
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 content-type: reference
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: ba5d1fb1-af54-471c-a471-853ace7f72fd
 feature: Dynamic Media Classic,Viewers,Image Sets
 role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 51%
 
 ---
@@ -63,7 +61,7 @@ Adobe Dynamic Media Classic에서 다음 기능을 사용하여 정보 패널 �
 
 * 탭과 쉼표로 구분된 데이터에는 롤오버 템플릿에 필요한 수만큼 열을 포함할 수 있습니다.
 * 데이터의 첫 번째 항목 또는 열은 롤오버 식별자(이미지 맵 URL의 rollover_key 값과 연결됨)입니다.
-* 식별자 뒤에 있는 각 탭 또는 쉼표로 구분된 항목이 응답 템플릿으로 대체하려는 항목인지 확인하십시오. 따라서 첫 번째 열은 $1$로, 두 번째 열은 $2$로 대체됩니다.
+* 식별자 뒤에 있는 각 탭 또는 쉼표로 구분된 항목이 응답 템플릿으로 대체하려는 항목인지 확인하십시오. 따라서 첫 번째 열은 $1$, 두 번째 열은 $2$ 등으로 대체됩니다.
 
 ### 외부에서 호스팅된 위치에서 이미지 세트로 CSV 콘텐츠 가져오기 {#import-csv-content-into-image-sets-from-an-externally-hosted-location}
 

@@ -12,7 +12,7 @@ role: User
 exl-id: 23d6727b-0b48-4dac-be9f-f284d8d10de1
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '51'
 ht-degree: 25%
@@ -22,5 +22,5 @@ ht-degree: 25%
 # 에셋 인쇄{#printing-assets}
 
 1. 찾아보기 패널에서 인쇄하려는 자산을 선택합니다.
-1. 다음으로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 인쇄]** 또는 누르기 `Ctrl+P` (Windows®) 또는 `Command+P` (Macintosh).
+1. 다음으로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 인쇄]** 또는 누르기 `Ctrl+P` (Windows®) 또는 `Command+P` (Mac).
 1. 인쇄 대화 상자에서 인쇄할 매수를 선택한 다음 **[!UICONTROL 인쇄]**.

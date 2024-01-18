@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 1%
+source-wordcount: '1981'
+ht-degree: 0%
 
 ---
 
@@ -62,14 +62,14 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 * Adobe Analytics으로 인증 메커니즘을 업데이트했습니다. 새로운 통합 또는 일부 Analytics 변수를 Dynamic Media Classic 데스크탑 앱 내에서 업데이트해야 하는 경우와 관련이 있습니다.
 
-  다음을 참조하십시오 [Adobe Analytics에 로그인](/help/using/log-analytics.md) 업데이트된 단계.
+  다음을 참조하십시오 [Adobe Analytics에 로그온](/help/using/log-analytics.md) 업데이트된 단계.
 
 ## 릴리스 20.21.2의 수정 사항 {#minor-release}
 
 * 20.21.1의 알려진 제한 사항: **[!UICONTROL 서버]** 로그인 화면의 드롭다운 목록이 비어 있습니다.
-* 위치 **[!UICONTROL 업로드 작업 옵션]**, 레이어 이름 지정 기본값 **[!UICONTROL Photoshop 옵션]**, 현재 **[!UICONTROL Photoshop 및 레이어 이름]**. PSD 파일의 레이어가 별도의 이미지로 업로드됩니다.
+* 위치 **[!UICONTROL 업로드 작업 옵션]**, 레이어 이름 지정 기본값 **[!UICONTROL Photoshop 옵션]**, 현재 **[!UICONTROL Photoshop 및 레이어 이름]**. PSD 파일의 레이어는 별도의 이미지로 업로드됩니다.
    * 의 초기 기본값 **[!UICONTROL 레이어 이름]**&#x200B;를 클릭하고 PSD 파일에서 레이어 이름이나 레이어 번호의 이름을 따라 이미지에 이름을 지정합니다. PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름인 경우 레이어 번호가 사용되었습니다.
-   * 의 새로운 기본값 **[!UICONTROL Photoshop 및 레이어 이름]**&#x200B;는 PSD 파일 뒤에 레이어 이름 또는 레이어 번호를 붙여서 이미지 이름을 지정합니다. 레이어 번호는 PSD 파일의 레이어 이름이 Photoshop 기본 레이어 이름인 경우 사용됩니다.
+   * 의 새로운 기본값 **[!UICONTROL Photoshop 및 레이어 이름]**&#x200B;는 PSD 파일 뒤에 레이어 이름 또는 레이어 번호를 붙여서 이미지 이름을 지정합니다. PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름인 경우 레이어 번호가 사용됩니다.
    * 이제 Adobe Dynamic Media Classic의 레이어 이미지에 고유한 이름이 있으므로 기존 PSD 또는 템플릿(원본 PSD 파일에서 공유된 레이어 이름)에 대한 업데이트가 발생하지 않습니다.
 * 자산의 축소판이 깨졌습니다.
 
@@ -88,7 +88,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 ## macOS 또는 Windows®에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 설치합니다. {#installation-dmc-app}
 
-참조:
+다음도 참조하십시오.
 
 * [Mac에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동 설치](#install-silent-mac-dmc-app)
 * [Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동 설치](#install-silent-windows-dmc-app)
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 ## 다운로드 및 *자동* macOS에 최신 Adobe Dynamic Media Classic 데스크탑 앱 설치 {#install-silent-mac-dmc-app}
 
-참조:
+다음도 참조하십시오.
 
 * [Mac 또는 Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치](#installation-dmc-app)
 * [Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동 설치](#install-silent-windows-dmc-app)
@@ -189,7 +189,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 사용하는 명령은 기본 MSI 자동 설치에 사용됩니다. 그러나 Adobe Dynamic Media Classic 데스크톱 앱 설치 관리자는 InstallShield를 사용하여 만든 InstallScript MSI 설치 프로그램입니다. 레코드 모드에서 설치 관리자를 실행하면 사용자 상호 작용이 응답 파일에 기록됩니다. 이 응답 파일은에 설명된 대로 자동 설치에 사용됩니다. [자동 모드로 설치 실행](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
-참조:
+다음도 참조하십시오.
 
 * [Mac 또는 Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치](#installation-dmc-app)
 
@@ -273,7 +273,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 **_Adobe Dynamic Media Classic 랜딩 페이지에 미디어 카트 패널을 볼 수 없습니다._**<br>Adobe Dynamic Media Classic에서 다음을 누릅니다**[!UICONTROL 설정 > 개인 설정&#x200B;]**. 브라우저 섹션에서 다음을 확인합니다**[!UICONTROL MediaPortal 기능 표시&#x200B;]**이(가) 선택(선택)되었습니다. 누르기**[!UICONTROL 저장 > 닫기&#x200B;]**.
 
-**_에셋의 게시 상태(녹색 표시기)가 올바르게 반영되지 않았습니다._**<br>브라우저 사용자 인터페이스에서 자산의 올바른 게시 상태를 보려면 UI에 다시 로그인해야 합니다. 데스크탑 앱에서 Adobe은**[!UICONTROL 새로 고침&#x200B;]**아이콘(도구 모음 오른쪽)**[!UICONTROL 선택 안 함&#x200B;]**단추를 클릭합니다. 탭**[!UICONTROL 새로 고침&#x200B;]**아이콘: 지정된 페이지에 있는 모든 자산의 최신 상태를 볼 수 있습니다. 브라우저 UI에서와 같이 재로그인이 필요하지 않습니다.
+**_에셋의 게시 상태(녹색 표시기)가 올바르게 반영되지 않았습니다._**<br>브라우저 사용자 인터페이스에서 자산의 올바른 게시 상태를 보려면 UI에 다시 로그인해야 합니다. 데스크탑 앱에서 Adobe은**[!UICONTROL 새로 고침&#x200B;]**아이콘(도구 모음 오른쪽)**[!UICONTROL 선택 안 함&#x200B;]**단추를 클릭합니다. 탭**[!UICONTROL 새로 고침&#x200B;]**아이콘: 지정된 페이지에 있는 모든 자산의 최신 상태를 볼 수 있습니다. 브라우저 UI에서와 같이 다시 로그온할 필요가 없습니다.
 
 ![새로 고침 아이콘](/help/using/assets/refresh-icon1.png)
 *새로 고침 아이콘*

@@ -12,7 +12,7 @@ role: User
 exl-id: eb8afc39-7784-4e32-80b6-2b87f3e0acff
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
 source-wordcount: '108'
 ht-degree: 18%
@@ -25,7 +25,7 @@ ht-degree: 18%
 
 * **단일 자산** - 에셋을 선택합니다(두 번 클릭하면 세부 사항 보기의 에셋이 열림).
 
-* **여러 에셋** - Ctrl 키(Windows®) 또는 Command 키(Macintosh)를 누른 상태에서 에셋을 클릭하여 [찾아보기] 패널의 다른 위치에서 에셋을 선택합니다. Shift+클릭(한 자산을 클릭한 후 다른 자산을 Shift+클릭)하여 인접한 자산을 선택합니다.
+* **여러 에셋** - Ctrl+클릭(Windows®)하거나 Command+클릭(Mac)하여 [찾아보기] 패널의 다른 위치에 있는 에셋을 선택합니다. Shift+클릭(한 자산을 클릭한 후 다른 자산을 Shift+클릭)하여 인접한 자산을 선택합니다.
 
 * **찾아보기 패널의 모든 에셋** - 이동 **[!UICONTROL 선택]** > **[!UICONTROL 모두]**.
 

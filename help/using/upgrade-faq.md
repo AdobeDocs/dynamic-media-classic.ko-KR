@@ -6,10 +6,10 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1550'
-ht-degree: 1%
+source-wordcount: '1563'
+ht-degree: 0%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 1%
 
 * 최고의 리치 미디어 공급업체가 인터넷 소매 1000에 9년 연속 공급됩니다.
 * 24/7/265 지원, 99.95%의 SLA
-* 전 세계 800개 이상의 클라이언트, 매월 3.5PB의 트래픽, 5억 개 이상의 자산을 관리하는 검증된 인프라로서 매년 60%의 트래픽 증가
+* 전 세계 800개 이상의 클라이언트, 월간 3.5페타바이트의 트래픽, 5억 개 이상의 자산에 대한 관리가 가능한 검증된 인프라로서 매년 60%의 트래픽 증가
 
 +++
 
@@ -97,28 +97,28 @@ Adobe 계정 팀 담당자에게 문의하거나 [이메일 s7support@adobe.com]
 +++
 
 +++**업그레이드 프로세스와 관련된 중단 시간이 있습니까?**
-아니요. [!DNL Dynamic Media Classic] 는 업그레이드 프로세스 동안 중단 없이 계속 작동합니다. 업그레이드가 완료되고 콘텐츠의 유효성이 검사되면 모든 사용자가 [!DNL Dynamic Media] 구성 요소 [!DNL Experience Manager] 에셋.
+아니. [!DNL Dynamic Media Classic] 는 업그레이드 프로세스 동안 중단 없이 계속 작동합니다. 업그레이드가 완료되고 콘텐츠의 유효성이 검사되면 모든 사용자가 [!DNL Dynamic Media] 구성 요소 [!DNL Experience Manager] 에셋.
 
 +++
 
 +++**업그레이드 준비 검사 목록의 모든 단계가 필요합니까?**
-아니요. 다음 [준비 체크리스트](/help/using/upgrade-readiness.md) 필수 및 선택적 모범 사례 단계가 포함되어 있습니다.
+아니. 다음 [준비 체크리스트](/help/using/upgrade-readiness.md) 필수 및 선택적 모범 사례 단계가 포함되어 있습니다.
 
 +++
 
 +++**업그레이드해야 합니까?**
-아니요. Adobe은 계속해서 완벽한 지원 및 유지 관리를 수행합니다 [!DNL Dynamic Media Classic] (고객이 요청한 버그 수정, 보안 수정, 플랫폼 확장성 및 안정성) 현재와 미래의 요구 사항.
+아니. Adobe은 계속해서 완벽한 지원 및 유지 관리를 수행합니다 [!DNL Dynamic Media Classic] (고객이 요청한 버그 수정, 보안 수정, 플랫폼 확장성 및 안정성) 현재와 미래의 요구 사항.
 
 에서 제공하는 새로운 기능을 활용할 준비가 되면 업그레이드할 수 있습니다. [!DNL Dynamic Media].
 
 +++
 
-+++**계속 사용할 수 있습니까 [!DNL Dynamic Media Classic] (이전 Adobe Scene7)으로 업그레이드한 후 [!DNL Dynamic Media]?**
++++**아직도 사용할 수 있습니까 [!DNL Dynamic Media Classic] (이전 Adobe Scene7)으로 업그레이드한 후 [!DNL Dynamic Media]?**
 을(를) (으)로 업그레이드한 후 [!DNL Dynamic Media], 이미징 및 비디오에는 Dynamic Media만 사용해야 합니다. 계속 사용할 수 있습니다. [!DNL Dynamic Media Classic] 에서 아직 사용할 수 없는 기능에만 해당 [!DNL Dynamic Media] 다음을 포함:
 
 * 시각적 구성기(이미지 작성자, 이미지 렌더링).
 * 이미지 템플릿.
-* eCatalog.
+* eCatalogs.
 
 +++
 
@@ -133,17 +133,17 @@ Adobe 계정 팀 담당자에게 문의하거나 [이메일 s7support@adobe.com]
 +++
 
 +++**프로덕션 URL을 업데이트해야 합니까?**
-아니요. Adobe은 [!DNL Dynamic Media Classic] 의 있는 그대로 게시 및 전달 인프라 [!DNL Dynamic Media] 해결책. 이 접근 방식의 이점은 웹 페이지에서 프로덕션 URL을 변경할 필요가 없기 때문에 마이그레이션에 대한 위험과 노력을 최소화할 수 있다는 것입니다. [!DNL Dynamic Media].
+아니. Adobe은 [!DNL Dynamic Media Classic] 의 있는 그대로 게시 및 전달 인프라 [!DNL Dynamic Media] 해결책. 이 접근 방식의 이점은 웹 페이지에서 프로덕션 URL을 변경할 필요가 없기 때문에 마이그레이션에 대한 위험과 노력을 최소화할 수 있다는 것입니다. [!DNL Dynamic Media].
 
 +++
 
 +++**API 통합 및 기타 자동화 스크립트를 다시 작성해야 합니까?**
-아니요. Adobe은 [!DNL Dynamic Media Classic] 의 있는 그대로 게시 및 전달 인프라 [!DNL Dynamic Media] 해결책. 또한 모든 에셋이에 복제됩니다. [!DNL Dynamic Media Classic]. 이 접근 방식의 이점은 API 기반 통합 또는 자동화 스크립트를 재작성할 필요가 없기 때문에 마이그레이션에 대한 위험과 노력을 최소화할 수 있다는 것입니다. [!DNL Dynamic Media].
+아니. Adobe은 [!DNL Dynamic Media Classic] 의 있는 그대로 게시 및 전달 인프라 [!DNL Dynamic Media] 해결책. 또한 모든 에셋이에 복제됩니다. [!DNL Dynamic Media Classic]. 이 접근 방식의 이점은 API 기반 통합 또는 자동화 스크립트를 재작성할 필요가 없기 때문에 마이그레이션에 대한 위험과 노력을 최소화할 수 있다는 것입니다. [!DNL Dynamic Media].
 
 +++
 
 +++**사용자 지정 뷰어를 변경하거나 다시 개발해야 합니까?**
-아니요. Adobe은 [!DNL Dynamic Media Classic] 의 있는 그대로 게시 및 전달 인프라 [!DNL Dynamic Media] 해결책. 이 접근 방식의 이점은 사용자 지정 뷰어를 계속 사용할 수 있으므로 마이그레이션의 위험과 노력을 최소화할 수 있다는 것입니다. [!DNL Dynamic Media].
+아니. Adobe은 [!DNL Dynamic Media Classic] 의 있는 그대로 게시 및 전달 인프라 [!DNL Dynamic Media] 해결책. 이 접근 방식의 이점은 사용자 지정 뷰어를 계속 사용할 수 있으므로 마이그레이션의 위험과 노력을 최소화할 수 있다는 것입니다. [!DNL Dynamic Media].
 +++
 
 +++**내 설정(예: 이미지 사전 설정, 비디오 인코딩)을 [!DNL Dynamic Media]?**
@@ -216,7 +216,7 @@ Adobe은으로 이동하는 모든 에셋에 대해 자동화된 유효성 검�
 
 * 시각적 구성기(이미지 작성자, 이미지 렌더링).
 * 이미지 템플릿.
-* eCatalog.
+* eCatalogs.
 
 다음 항목도 참조하십시오. [기능 비교](/help/using/upgrade-feature-comparison.md) 자세히 알아볼 수 있는 페이지입니다.
 
@@ -230,7 +230,7 @@ Adobe은으로 이동하는 모든 에셋에 대해 자동화된 유효성 검�
 ## 컨설팅 서비스
 
 +++**업그레이드 프로세스를 직접 완료할 수 있습니까?**
-아니요. Adobe 담당자 및 AGS와 협력하여 업그레이드 범위를 지정하십시오.
+아니. Adobe 담당자 및 AGS와 협력하여 업그레이드 범위를 지정하십시오.
 
 +++
 

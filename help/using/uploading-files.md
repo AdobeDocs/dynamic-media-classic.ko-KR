@@ -11,10 +11,10 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '3934'
-ht-degree: 31%
+source-wordcount: '3878'
+ht-degree: 28%
 
 ---
 
@@ -76,7 +76,7 @@ Adobe Dynamic Media Classic 프로그램을 사용하여 최적의 결과를 얻
 | 이미지(이미지 크기 조정, 확대/축소, 이미지 집합, 회전 집합) | 이미지는 가장 긴 크기에서 2000픽셀 이상이어야 합니다. 일반적인 이미지 크기는 가장 긴 크기에서 1500픽셀에서 2500픽셀 사이입니다. TIFF 및 PNG 파일을 비롯한 손실 없는 이미지 형식이 권장됩니다. JPEG 이미지를 사용하는 경우에는 최고 품질 설정을 사용합니다. 애니메이션 GIF 파일은 다른 정적 콘텐츠처럼 처리됩니다. |
 | eCatalog | Adobe Acrobat에서 만든 고해상도 PDF 파일 또는 &quot;press-ready&quot;로 저장된 Adobe Creative Suite 애플리케이션을 사용합니다. PDF에는 필요한 모든 글꼴, 이미지, 마스크 및 참조된 그래픽 요소가 단일 페이지, 양면 스프레드 또는 다중 페이지 형식으로 포함되어 있습니다. 파일 이름을 영숫자 순으로 지정하여 페이지를 정렬합니다. 업로드하기 쉽도록 eCatalog에 대한 모든 PDF를 단일 폴더에 배치합니다. 업로드 시 자르기 선택 사항을 선택하여 절단선, 등록 타겟 또는 색상 막대를 비롯한 트림 영역을 PDF에서 제거할 수 있습니다. 대부분의 인쇄용 PDF 파일은 CMYK 색상 공간에 있으므로 PDF 파일에 사용된 CMYK ICC 색상 프로필을 가져오는 것이 중요합니다. |
 | 템플릿 | 텍스트, 이미지 및 레이어를 포함할 수 있는 계층화된 이미지 또는 레이아웃 디자인입니다. 변수 데이터를 사용자 지정할 수 있도록 이미지 레이어, 텍스트 문자열, 특성(예: 색상 및 크기)을 매개 변수화할 수 있습니다. 템플릿에 사용하기 위한 이미지 요구 사항은 다른 이미지와 같습니다. Photoshop 또는 다른 이미지 편집 프로그램에서 그래픽을 준비합니다. 각 그래픽을 TIFF 또는 PNG 형식의 평면화된 투명 파일로 저장합니다. 이미지 해상도가 필요한 용도에 적합한지 확인합니다. 인쇄용 이미지는 300ppi입니다. |
-| 비디오 | Adobe Dynamic Media Classic은 OGV 및 MP4 형식으로 저장된 비디오 파일을 지원합니다. 업로드 시 파일을 MP4 형식으로 트랜스코딩할 수 있습니다. [지원되는 자산 파일 형식](#supported-static-file-formats)을 참조하십시오. |
+| 비디오 | Adobe Dynamic Media Classic은 OGV 및 MP4 형식으로 저장된 비디오 파일을 지원합니다. 업로드 시 파일을 MP4 형식으로 변환할 수 있습니다. [지원되는 자산 파일 형식](#supported-static-file-formats)을 참조하십시오. |
 | 글꼴 | 업로드된 TrueType, `Type1` (Windows® 전용), OpenType® 글꼴 및 PhotoFonts. |
 | 이미지 | 이미지 및 계층화된 이미지 파일입니다. |
 | 이미지 집합 및 견본 집합 | 뷰어에 표시할 수 있는 관련 이미지 집합입니다. |
@@ -86,7 +86,7 @@ Adobe Dynamic Media Classic 프로그램을 사용하여 최적의 결과를 얻
 | FXG 파일 | 인쇄, 웹, 이메일, 데스크톱 및 장치 출력용 사용자 지정 가능한 템플릿을 만드는 데 사용할 수 있는 해상도 독립적인 그래픽 형식 파일입니다. |
 | SVG 파일 | 이미지 제공 서버가 렌더링할 수 있는 확장 가능한 벡터 그래픽 파일입니다. |
 | XML 파일 | 요청의 경로와 쿼리 부분을 수정하는 데 사용되는 전처리 규칙을 정의하는 파일입니다. |
-| 계단식 스타일 시트 파일 | HTML5 뷰어 사용자 지정에 사용되는 CSS 스킨을 업로드합니다. |
+| 계단식 스타일 시트 파일 | HTML5 뷰어의 사용자 지정을 위해 CSS 스킨을 업로드합니다. |
 | JavaScript 파일 | JavaScript 파일은 계정 정보를 보관하기 위해 뷰어 계측에 사용됩니다. Adobe 보안에서는 (교차 사이트 스크립팅을 방지하기 위해) 전달에 사용할 별도의 도메인이 있는 클라이언트 계정에 대해서만 이 자산 유형을 권장합니다. |
 
 >[!NOTE]
@@ -167,7 +167,7 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 1. 업로드 페이지에서 다음을 선택합니다. **[!UICONTROL 데스크탑에서]** 탭.
 1. 업로드 페이지 왼쪽의 **[!UICONTROL 업로드할 파일 선택]** 영역, 선택 **[!UICONTROL 찾아보기]** 업로드할 파일 또는 폴더를 선택하려면 다음을 선택합니다 **[!UICONTROL 열기]**.
 1. 업로드 페이지 오른쪽의 **폴더 대상 선택** 영역에서 업로드한 파일 또는 폴더를 추가하려는 대상 폴더로 이동합니다.
-1. (선택 사항) [업로드] 페이지 하단 근처에 있는 [작업 이름] 텍스트 필드에 업로드 작업의 새 이름을 입력합니다. 또는 Adobe Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용하면 됩니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다. [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
+1. (선택 사항) [업로드] 페이지 하단 근처에 있는 [작업 이름] 텍스트 필드에 업로드 작업의 새 이름을 입력합니다. 또는 Adobe Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용하면 됩니다. 작업 및 기타 업로드 및 게시 작업은 작업 페이지에 기록되며, 이 페이지에서 작업 상태를 확인할 수 있습니다. [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
 1. (선택 사항) 업로드 페이지 아래에서 **[!UICONTROL 업로드 후 게시]** 업로드하는 자산을 자동으로 게시하려는 경우.
 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
 1. (선택 사항) 업로드 페이지 아래에서 **[!UICONTROL 확장자에 상관없이 동일한 기본 에셋 이름으로 모든 폴더에 덮어쓰기]** 업로드하는 파일이 기존 파일을 같은 이름으로 바꾸게 하려는 경우 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
@@ -182,12 +182,12 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 
 ### FTP를 통해 탭을 사용하여 파일 업로드 {#upload-files-using-via-ftp}
 
-1. 특정 지역에 해당하는 Adobe Dynamic Media Classic FTP 사이트에 로그인합니다. 관리자로부터 받은 FTP 사용자 이름과 암호를 사용합니다.
+1. 특정 지역에 해당하는 Adobe Dynamic Media Classic FTP 사이트에 로그온합니다. 관리자로부터 받은 FTP 사용자 이름과 암호를 사용합니다.
 1. Adobe Dynamic Media Classic의 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 업로드]**.
 1. 업로드 페이지에서 다음을 선택합니다. **[!UICONTROL FTP 사용]** 탭.
 1. 업로드 페이지 왼쪽의 **[!UICONTROL 업로드할 FTP 폴더 선택]** 영역에서 파일을 업로드할 FTP 폴더를 선택합니다.
 1. 업로드 페이지 오른쪽의 **[!UICONTROL Dynamic Media 폴더 대상 Adobe 선택]** 영역에서 Adobe Dynamic Media Classic의 대상 폴더를 선택합니다.
-1. (선택 사항) [업로드] 페이지 하단 근처에 있는 [작업 이름] 텍스트 필드에 업로드 작업의 새 이름을 입력합니다. 또는 Adobe Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용하면 됩니다. 작업과 다른 업로드 및 게시 작업은 작업 페이지에 기록되어 작업 상태를 확인할 수 있습니다.
+1. (선택 사항) [업로드] 페이지 하단 근처에 있는 [작업 이름] 텍스트 필드에 업로드 작업의 새 이름을 입력합니다. 또는 Adobe Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용하면 됩니다. 작업 및 기타 업로드 및 게시 작업은 작업 페이지에 기록되며, 이 페이지에서 작업 상태를 확인할 수 있습니다.
 [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
 1. (선택 사항) 업로드 페이지 아래에서 **[!UICONTROL 업로드 후 게시]** 업로드하는 자산을 자동으로 게시하려는 경우.
 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
@@ -233,12 +233,13 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
    * **[!UICONTROL 하위 폴더 포함]** - 다음을 선택한 경우에만 사용 가능 **[!UICONTROL FTP 사용]** 탭.
 업로드 폴더의 하위 폴더를 업로드하려면 이 선택 사항을 선택하십시오. 업로드한 폴더 및 하위 폴더의 이름은 Adobe Dynamic Media Classic에 자동으로 입력됩니다.
 
-   * **[!UICONTROL 메타데이터 파일 처리]** - 다음 중 하나를 선택한 경우에만 사용 가능 **[!UICONTROL FTP 사용]** 탭. 탭으로 구분된 파일이나 XML 파일을 업로드하여 여러 자산에 메타데이터를 추가하려는 경우 이 선택 사항을 선택합니다. [메타데이터 가져오기(FTP 사용)](viewing-adding-exporting-metadata.md#import-metadata)를 참조하십시오.
+   * **[!UICONTROL 메타데이터 파일 처리]** - 다음 중 하나를 선택한 경우에만 사용 가능 **[!UICONTROL FTP 사용]** 탭. 탭으로 구분된 또는 XML 파일을 업로드하여 여러 에셋에 메타데이터를 추가하려면 이 옵션을 선택합니다.
+[메타데이터 가져오기(FTP 사용)](viewing-adding-exporting-metadata.md#import-metadata)를 참조하십시오.
 
 * **자르기 옵션** - 이미지에서 공백 픽셀을 자동으로 자르려면 **[!UICONTROL 자르기]** 메뉴, 선택 **[!UICONTROL 수동]**&#x200B;를 누르고 [위쪽], [오른쪽], [아래쪽] 및 [왼쪽] 텍스트 필드에 픽셀 측정값을 입력하여 측면에서 자릅니다. 다음을 선택할 수도 있습니다. **[!UICONTROL 트림]** 자르기 메뉴에서 다음 옵션을 선택합니다.
 
    * **[!UICONTROL 다음을 기준으로 트림]** - 색상 또는 투명도를 기준으로 자를 것인지 선택합니다.
-      * **[!UICONTROL 색상]** - 색상 옵션을 선택합니다. [모서리] 메뉴를 선택한 다음 자르려는 공백 색상을 가장 잘 나타내는 색상이 지정된 이미지 모서리를 선택합니다.
+      * **[!UICONTROL 색상]** - 색상 옵션을 선택합니다. 그런 다음 [모퉁이] 메뉴를 선택하고 자르려는 공백 색상을 가장 잘 나타내는 색상으로 이미지의 모퉁이를 선택합니다.
 색상을 기반으로 트림: 이미지 모서리에서 선택한 색상과 잘라낼 픽셀의 색상이 일치하는 경우에만 0으로 지정하십시오. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다.
       * **[!UICONTROL 투명도]** - 다음을 선택합니다. **[!UICONTROL 투명도]** 옵션을 선택합니다.
 투명도를 기반으로 트리밍: 픽셀이 투명한 경우에만 자르도록 0을 지정합니다. 1에 가까운 숫자를 사용하면 투명도가 더 높아집니다.
@@ -268,9 +269,10 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 * **EVIDEO 옵션** - [비디오 사전 설정]을 선택하여 비디오 파일을 트랜스코딩할 수 있습니다.
 다음을 참조하십시오 [비디오 인코딩 사전 설정 작업](uploading-encoding-videos.md#working_with_video_encoding_presets).
 
-* **추가 메타데이터** - 업로드할 파일을 설명하는 키워드를 입력합니다. 키워드를 쉼표로 구분합니다. 키워드를 사용하면 자산을 쉽게 검색할 수 있습니다. 다음을 참조하십시오 [고급 검색 수행](searching-assets.md#conducting_an_advanced_search). 참조: [키워드 업로드](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) 교육 비디오입니다.
+* **추가 메타데이터** - 업로드할 파일을 설명하는 키워드를 입력합니다. 키워드를 쉼표로 구분합니다. 키워드를 사용하면 자산을 더 쉽게 검색할 수 있습니다.
+다음을 참조하십시오 [고급 검색 수행](searching-assets.md#conducting_an_advanced_search). 참조: [키워드 업로드](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) 교육 비디오입니다.
 
-* **일괄처리 집합 사전 설정** - 업로드한 파일에서 이미지 세트, 회전 세트 또는 견본 세트를 만들려면 **[!UICONTROL 활성]** 사용할 사전 설정에 대한 열입니다. 여러 개의 사전 설정을 선택할 수 있습니다. 애플리케이션 설정/배치 집합 사전 설정 페이지에서 사전 설정을 만듭니다.
+* **일괄처리 집합 사전 설정** - 업로드한 파일에서 이미지 세트, 회전 세트 또는 견본 세트를 만들려면 **[!UICONTROL 활성]** 사용할 사전 설정에 대한 열입니다. 여러 개의 사전 설정을 선택할 수 있습니다. [응용 프로그램 설정/일괄처리 집합 사전 설정] 페이지에서 사전 설정을 만듭니다.
 [배치 집합 사전 설정](application-setup.md#batch_set_presets)을 참조하십시오.
 
 * **고급** - 다음을 참조하십시오 [다른 작업으로 업로드 팔로우](uploading-files.md#follow-an-upload-with-another-job).
@@ -281,7 +283,7 @@ FTP를 사용하여 항목을 업로드할 때 업로드가 완료되면 후속 
 
 새 작업은 지정한 주소로 알림을 전송하여 해당 위치의 코드가 트리거될 수 있도록 합니다. 이 후속 게시 작업은 업로드 작업과 동일한 이름을 사용하지만 시작 부분에 *Pub_* 텍스트가 추가됩니다.
 
-**업로드 후 다른 작업을 수행하려면:**
+**다른 작업으로 업로드를 따르려면 다음을 수행합니다.**
 
 1. 선택 **[!UICONTROL 업로드]**&#x200B;을(를) 선택한 다음 **[!UICONTROL FTP 사용]** 탭.
 1. 업로드 페이지의 오른쪽 아래 모서리에서 을(를) 선택합니다 **[!UICONTROL 작업 옵션]**.

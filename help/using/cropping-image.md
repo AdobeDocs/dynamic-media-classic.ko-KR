@@ -10,9 +10,9 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '549'
+source-wordcount: '557'
 ht-degree: 35%
 
 ---
@@ -25,7 +25,7 @@ Adobe Dynamic Media Classic에서 이미지를 자를 수 있습니다. 이미�
 
 >[!NOTE]
 >
->자르기를 마친 후 다음을 선택할 수 있습니다. **[!UICONTROL 다른 이름으로 저장]** 자른 버전의 이미지를 다른 이름으로 저장합니다. 다른 이름으로 저장 창에서 **[!UICONTROL 새 이름으로 기본 저장]** 를 클릭하여 이미지의 두 번째 복사본을 저장합니다. 선택 **[!UICONTROL 기본의 추가 보기로 저장]** 따라서 원본 및 자른 버전을 다른 이름으로 저장할 수 있습니다. 선택 **[!UICONTROL 원본 바꾸기]** 이미지를 자른 원본 파일을 삭제합니다. 그런 다음 이미지 이름을 입력하고 를 선택합니다 **[!UICONTROL 제출]**.
+>자르기를 마친 후 다음을 선택할 수 있습니다. **[!UICONTROL 다른 이름으로 저장]** 자른 버전의 이미지를 다른 이름으로 저장합니다. 다른 이름으로 저장 창에서 **[!UICONTROL 새 기본 항목으로 저장]** 를 클릭하여 이미지의 두 번째 복사본을 저장합니다. 선택 **[!UICONTROL 기본 항목의 추가 보기로 저장]** 따라서 원본 및 자른 버전을 다른 이름으로 저장할 수 있습니다. 선택 **[!UICONTROL 원본 바꾸기]** 이미지를 자른 원본 파일을 삭제합니다. 그런 다음 이미지 이름을 입력하고 를 선택합니다 **[!UICONTROL 제출]**.
 
 ## 이미지 주위를 잘라 공백 제거 {#crop-to-remove-white-space-around-an-image}
 

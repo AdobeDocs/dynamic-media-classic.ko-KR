@@ -12,10 +12,10 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 25%
+source-wordcount: '1015'
+ht-degree: 23%
 
 ---
 
@@ -51,7 +51,7 @@ PSD 파일을 업로드할 때 사용할 수 있는 선택 사항은 다음과 �
 
    * **[!UICONTROL 사용자 정의 시작]** > **[!UICONTROL 종료]** - [변환] 및 [색상 공간으로 변환]을 선택할 수 있는 메뉴를 엽니다. 표준 Photoshop 색상 공간 또는 Adobe Dynamic Media Classic에 업로드한 색상 공간을 선택할 수 있습니다. [ICC 프로필](/help/using/icc-profiles.md)을 참조하십시오.
 
-* **PHOTOSHOP 선택 사항**
+* **Photoshop 옵션**
 
    * **[!UICONTROL 레이어 유지]** - PSD의 레이어(있는 경우)를 개별 에셋으로 분할합니다. 자산 레이어의 PSD 연결은 유지됩니다. 세부 사항 보기의 PSD 파일을 열고 레이어 패널을 선택하여 해당 파일을 볼 수 있습니다. PSD 파일에서 레이어 보기 및 편집을 참조하십시오.
 

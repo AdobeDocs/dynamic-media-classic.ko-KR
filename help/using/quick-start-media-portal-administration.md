@@ -12,10 +12,10 @@ role: Admin,User
 exl-id: bff613c8-a93b-4cca-94db-8cad1cc36296
 topic: Collaboration, Content Management
 level: Beginner
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 49%
+source-wordcount: '721'
+ht-degree: 56%
 
 ---
 
@@ -73,7 +73,7 @@ Media Portal 사용자는 파일을 내보낼 때 파일을 다시 포맷하고 
 
 ## 6. 이미지 사전 설정 만들기
 
-이미지 사전 설정은 이미지를 내보낼 때 크기, 이미지 품질, 형식, 해상도 및 이미지 모양의 기타 측면을 변경하는 사전 정의된 설정 모음입니다. 이미지 사전 설정을 만들어 사용자가 이미지를 내보낼 때 형식을 다시 지정하는 방법을 제어할 수 있습니다. 
+이미지 사전 설정은 내보낼 때 이미지 모양의 크기, 이미지 품질, 형식, 해상도 및 기타 측면을 변경하는 사전 정의된 설정의 컬렉션입니다. 이미지 사전 설정을 만들어 사용자가 이미지를 내보낼 때 형식을 다시 지정하는 방법을 제어할 수 있습니다. 
 
 다음을 참조하십시오 [이미지 사전 설정 만들기 및 활성화](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 

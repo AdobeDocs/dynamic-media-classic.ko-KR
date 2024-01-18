@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 66%
+source-wordcount: '1008'
+ht-degree: 57%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 66%
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-기본적으로 업로드 토큰은 검색한 지 5분(300초) 후에 만료됩니다. 추가 시간을 요청하려면 URL에 `expires`와 요청하는 시간(초)을 포함합니다. 예를 들어 다음 샘플 이미지 URL은 1800초 동안 유효한 업로드 토큰을 검색합니다.
+기본적으로 업로드 토큰은 검색한 지 5분(300초) 후에 만료됩니다. 더 많은 시간을 요청하려면 다음을 포함하십시오. `expires` 를 입력합니다. 예를 들어 다음 샘플 이미지 URL은 1800초 동안 유효한 업로드 토큰을 검색합니다.
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -80,8 +80,8 @@ URL 쿼리 문자열에 다음 필드를 사용하여 업로드 토큰을 검색
 | URL 매개 변수 | 필수 또는 선택 사항 | 값 |
 | --- | --- | --- |
 | op | 필수 | get_uploadtoken |
-| shared_secret | 필수 | 업로드를 수행하는 회사의 공유 보안 키입니다. |
-| expires | 선택적 | 업로드 토큰이 유효한 시간(초)입니다. 지정하지 않으면 기본값은 300초입니다. |
+| 공유 암호 | 필수 | 업로드를 수행하는 회사의 공유 보안 키입니다. |
+| 만료 | 선택적 | 업로드 토큰이 유효한 시간(초)입니다. 지정하지 않으면 기본값은 300초입니다. |
 
 **샘플 래스터 이미지 URL:**
 
@@ -118,7 +118,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-다음 `file_limit` 매개 변수는 파일 크기 제한(바이트)을 지정합니다. `file_exts` 매개 변수는 업로드할 수 있는 파일 이름 확장자를 지정합니다. 두 값은 모두 선택 사항입니다.
+다음 `file_limit` 매개 변수는 파일 크기 제한(바이트)을 지정합니다. 다음 `file_exts` 매개 변수는 업로드에 허용되는 파일 이름 확장자를 지정합니다. 두 값은 모두 선택 사항입니다.
 
 허용되는 파일 이름 확장자와 파일 크기 제한에 대해 애플리케이션에서 글로벌 제한이 설정됩니다. 요청에 보내는 내용이 글로벌 제한의 하위 집합이면 허용됩니다. 글로벌 제한은 다음과 같습니다.
 
@@ -132,11 +132,11 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 회사 이름.
 * 업로드 토큰.
 * 파일 크기 제한.
-* 파일 이름 확장자 목록.
+* 파일 이름 확장자 목록입니다.
 * 자산과 연결된 색상 프로파일 및 파일 이름을 유지할지 여부입니다.
 * 녹아웃 배경 사용 여부. [녹아웃 배경]을 활성화하면 [모퉁이], [허용치] 및 [채우기 방법]을 설정합니다.
 에서 녹아웃 배경 보기 [업로드 시 이미지 세부 조정 옵션](image-editing-options-upload.md#image-editing-options-at-upload).
-* 업로드할 파일 이름.
+* 업로드할 파일의 이름입니다.
 
 을(를) 선택하여 위 양식과 연결된 HTML 소스 코드를 볼 수 있습니다. [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
@@ -170,7 +170,7 @@ Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL 보기]** > **[!UI
 >
 >업로드한 자산(JPG, GIF 등)이 PTIFF 형식으로 전환되고 응답에서 해당 PTIFF 자산에 대한 직접 링크를 보냅니다.
 
-자산은 다른 ImageServing 리소스와 같으며, 자산에 처리 쿼리를 적용할 수 있습니다. 예를 들어 다음 URL은 지정한 너비와 높이로 늘린 자산을 요청합니다.
+자산은 다른 ImageServing 리소스와 같으며, 자산에 처리 쿼리를 적용할 수 있습니다. 예를 들어 다음 URL은 지정된 너비 및 높이까지 확장된 에셋을 요청합니다.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
@@ -202,7 +202,7 @@ POST
 
 ### 이미지에 대한 자산 메타데이터 가져오기 {#getting-asset-metadata-for-images}
 
-다음 예와 같이 `image_info`를 사용하여 업로드한 자산의 메타데이터를 검색할 수 있습니다.
+다음을 사용할 수 있습니다. `image_info` 업로드한 에셋에 대한 메타데이터를 검색하려면 다음 예를 참조하십시오.
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
