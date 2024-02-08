@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1079'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Adobe은 자사 제품이 고객의 보안 요구 사항을 충족하도록 하�
 +++
 
 +++**_새 데스크탑 앱의 여러 인스턴스를 동시에 열 수 있습니까?_**
-아니요. 새 Adobe Dynamic Media Classic 데스크탑 앱이 구축된 AIR 기술은 사용자가 지정된 시간에 앱의 여러 인스턴스를 열 수 없도록 제한합니다.
+아니. 새 Adobe Dynamic Media Classic 데스크탑 앱이 구축된 AIR 기술은 사용자가 지정된 시간에 앱의 여러 인스턴스를 열 수 없도록 제한합니다.
 +++
 
 +++**_로컬 컴퓨터를 통해 Adobe Dynamic Media Classic에 업로드할 수 있는 파일 수에 제한이 있습니까?_**
@@ -80,7 +80,7 @@ Windows®에서 새 Adobe Dynamic Media Classic 데스크탑 앱을 사용할 �
 +++
 
 +++**_새로운 Adobe Dynamic Media Classic 데스크탑 앱에는 새로운 SKU가 필요합니까? 라이선스 비용이 포함됩니까?_**
-새로운 Adobe Dynamic Media Classic 데스크탑 앱을 사용하기 위해 SKU 또는 라이선스 변경이 필요하지 않습니다.
+두 가지 질문 모두 아니요. 새로운 Adobe Dynamic Media Classic 데스크탑 앱을 사용하기 위해 SKU 또는 라이선스 변경이 필요하지 않습니다.
 +++
 
 +++**_Adobe Dynamic Media Classic 데스크탑 앱으로의 업그레이드는 어떻게 활성화됩니까?_**

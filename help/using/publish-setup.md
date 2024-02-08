@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '2408'
-ht-degree: 41%
+source-wordcount: '2389'
+ht-degree: 34%
 
 ---
 
@@ -65,7 +65,7 @@ Adobe Dynamic Media Classic 지원 담당자의 도움을 받아야만 이 설�
 
 Adobe Dynamic Media Classic을 사용하는 일반적인 방법은 전자 상거래 웹 사이트에서 제품 이미지를 관리하는 것입니다. 국제 산업은 유사한 제품에 대한 자산이 나라마다 다르게 보이는 문제에 직면하고 있습니다. 일반적으로 차이는 전체 미디어의 일부 부분에 대한 것입니다. 각 국가에 대한 모든 자산을 복사하여 그러한 차이를 해결하는 것은 엄청난 노력이며 단일 기본 자산 메타포와는 모순됩니다. 이와 같은 자산의 차이점은 서로 다른 오디오 트랙을 사용하는 국가별 비디오에서부터 제품과 함께 사용되는 전원 코드의 미묘하지만 중요한 차이에 이르기까지 다양할 수 있습니다. Adobe Dynamic Media Classic에서는 기본 조회 메커니즘을 사용합니다. 사용자는 필요한 로케일에서 시작하여 이미지 서버가 검색하는 자산 접미어 순서를 정의합니다.
 
-#### 자산을 현지화하는 방법
+#### 에셋의 현지화 방법
 
 IS(이미지 제공) 요청에 대한 로케일은 다음의 IS/IR(이미지 렌더링) 명령으로 식별됩니다.
 
@@ -89,11 +89,11 @@ If `locale=` 이(가) 지정되지 않았습니다. `attribute::DefaultLocale` �
 * RFC IS-63이 구현되면 비디오 및 스킨과 같은 정적 콘텐츠에 대한 지원이 추가됩니다.
 * 기본 로케일을 구성할 수 있습니다.
 
-#### 응용 시나리오
+#### 애플리케이션 시나리오
 
 | 애플리케이션 | 시나리오 |
 | --- | --- |
-| 뷰어 로컬라이제이션 | 정적 컨텐츠 카탈로그가 구현되면 현지화는 IS에 수행되는 모든 요청에 추가되는 locale= 매개 변수로 제어됩니다. 구성 레코드, 스킨, 시작 화면 등에는 로케일별 차이가 있을 수도 있고 없을 수도 있습니다. 현지화되는 컨텐츠와 ID를 아는 데 필요한 뷰어 없이도 IS에 의해 올바른 컨텐츠가 제공됩니다. |
+| 뷰어 로컬라이제이션 | 정적 콘텐츠 카탈로그가 구현되면 현지화는 IS에 수행된 모든 요청에 추가된 locale= 매개 변수로 완전히 제어됩니다. 구성 레코드, 스킨, 시작 화면 등에는 로케일별 차이가 있을 수도 있고 없을 수도 있습니다. 현지화되는 컨텐츠와 ID를 아는 데 필요한 뷰어 없이도 IS에 의해 올바른 컨텐츠가 제공됩니다. |
 | 이미지 및 비디오 | 다국어 회사에는 종종 일반적인 컨텐츠와 로케일별 컨텐츠가 혼합되어 있습니다. 이러한 메커니즘에서, 이미지나 비디오 참조는 일반적일 수 있으며, IS는 사용 가능할 경우 로케일별 컨텐츠를 제공합니다. |
 | 이미지 세트 및 미디어 세트 | 전체 이미지 세트는 eCatalog가 다른 경우와 같이 일부 로케일에 대해 일반 이미지에서 뷰어가 처리하는 로케일별 이미지 세트로 변환할 때 달라질 수 있습니다. 일반적으로 제네릭 세트의 개별 ID는 현지화된 콘텐츠를 의미할 수 있습니다. 예를 들어 Campaign 컨트롤 패널의 사진을 제외한 대부분의 기기 사진은 모든 언어에서 동일할 수 있습니다. IS는 자동으로 ID를 전환하므로, 로케일별 이미지 집합을 생성할 필요가 없습니다. |
 
@@ -121,17 +121,17 @@ Adobe Dynamic Media Classic 및 이미지 제공에는 이미지 및 정적 콘�
 >
 >전역 로케일 설정은 Adobe Dynamic Media Classic 인터페이스 내부가 아닌 API를 통해 설정하는 경우에만 가능합니다.
 
-**접미어 예제:**
+**접미어 예:**
 
 | URL | localeMap ID | 결과 |
 | --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 정의된 전역 로케일이 없습니다. 로케일 매개 변수 de_DE는 `localeMap`. 첫 번째 해당 값 _DE는 자산 image_DE에 접미어로 추가되고 이미지 서버에서 이 자산을 찾으려는 시도가 수행됩니다. 서버에 있는 경우, 반환됩니다. 그렇지 않으면 두 번째 값 &quot;&quot;이 접미사로 사용되어 이미지 자체가 반환됩니다. |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 정의된 전역 로케일이 없습니다. 로케일 매개 변수 de_DE는 `localeMap`. 첫 번째 해당 값 _DE가 자산 image_DE에 접미사로 추가되고 이미지 서버에서 찾으려고 시도합니다. 서버에 있는 경우, 반환됩니다. 그렇지 않으면 두 번째 값 &quot;&quot;이 접미사로 사용되어 이미지 자체가 반환됩니다. |
 
-**대체 예제:**
+**대체 예:**
 
 | URL | `GlobalLocale` 및 `localeMap` ID | 결과 |
 |--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 위의 대체 예에서, GlobalLocale은 main으로 설정됩니다. 로케일 매개 변수 de_DE는 `localeMap`. GlobalLocale 하위 문자열을 찾아 첫 번째 해당 값으로 바꿉니다. `de` 다음에서 `localeMap`: `image-de-01`. 이미지 서버에 있는 경우, 반환됩니다. 없는 경우에는, 두 번째 값이 대체되어, `image-main-01`이 됩니다. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 위의 대체 예에서 GlobalLocale은 main으로 설정됩니다. 로케일 매개 변수 de_DE는 `localeMap`. GlobalLocale 하위 문자열을 찾아 첫 번째 해당 값으로 바꿉니다. `de` 다음에서 `localeMap`: `image-de-01`. 이미지 서버에 있는 경우, 반환됩니다. 그렇지 않으면 두 번째 값이 대체되어 `image-main-01`. |
 
 URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 정의되어 있는 경우 DefaultLocale을 가져오고, URL에 적용합니다.
 
@@ -141,15 +141,15 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 
 이미지 서버는 요청된 로케일에 대한 선택 사항을 번갈아 시도합니다. 일치하는 항목이 없으면 로케일 옵션이 defaultImage에 적용되고 일치하는 버전이 반환됩니다. 따라서 각 로케일에는 현지화가 없는 이미지에 대한 옵션이 포함되어야 합니다. 또는 현지화된 defaultImage 버전을 Adobe Dynamic Media Classic에서 사용할 수 있습니다.
 
-#### localeMap을 찾는 시나리오
+#### localeMap 찾기 시나리오
 
 다음 로케일을 지원하려고 한다고 가정합니다.
 
 `en, en_us, en_uk, de, de_at, de_de, fr`
 
-이 로케일을 접미사에 매핑합니다 `_E`, `_G`, 및 `_F`영어, 독일어 및 프랑스어의 경우 각각 입니다. 모든 예의 경우, 일반 입력 이미지 ID는 `myImg`입니다.
+이 로케일을 접미사에 매핑합니다 `_E`, `_G`, 및 `_F`영어, 독일어 및 프랑스어의 경우 각각 입니다. 모든 예에서 일반 입력 이미지 ID는 입니다. `myImg`.
 
-##### localeMap을 찾기 위한 표준 동작
+##### localeMap 검색을 위한 표준 동작
 
 로케일 ID는 해당 접미어에 매핑됩니다. 카탈로그에 로케일별 ID가 없을 경우, 일반 ID가 사용됩니다. 일반 ID에 매핑하는 빈 locSuffix 값을 주목하십시오.
 
@@ -157,12 +157,12 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 
 | 로케일= | 검색할 출력 ID |
 | --- | --- |
-| en,en_us, en_uk | myImg_E,myImg |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
+| en, en_us, en_uk | myImg_E, myImg |
+| de, de_de, de_at | myImg_D, myImg |
+| fr | myImg_F, myImg |
 | 기타 모든 항목 | - |
 
-##### 로케일을 모를 때 localeMap 찾기
+##### 로케일을 알 수 없는 경우 localeMap 찾기
 
 특정 ID 또는 일반 ID에 알 수 없는 로케일을 매핑할 수 있습니다. 예를 들어 알 수 없는 로케일을 영어 ID에 매핑하거나 존재하지 않는 경우 일반 ID에 매핑할 수 있습니다.
 
@@ -170,9 +170,9 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 
 | 로케일= | 검색할 출력 ID |
 | --- | --- |
-| de,de_de,de_at | myImg_D,myImg |
-| fr | myImg_F,myImg |
-| 기타 모든 항목 | myImg_E,myImg |
+| de, de_de, de_at | myImg_D, myImg |
+| fr | myImg_F, myImg |
+| 기타 모든 항목 | myImg_E, myImg |
 
 알 수 없는 로케일에 대해서만 U와 같은 전용 locSuffix가 있을 수 있으며, 없을 경우 기본 이미지에 강제로 적용할 수 있습니다 `_U` 다음과 같이 존재합니다.
 
@@ -212,7 +212,7 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 | de, de_at, de_de | myImg_470, myImg_480, myImg_1, myImg_2,myImg_3 |
 | 기타 모든 항목 | myImg_1, myImg_2, myImg_3 |
 
-##### 현지화 지원을 구현할 때 중요한 고려 사항
+##### 현지화 지원 구현 시 중요한 고려 사항
 
 * 현지화는 ID 기반 자산 호출에 제한되며, 경로 기반 자산 호출에서는 사용할 수 없습니다. 따라서, 로케일로 비디오를 호출할 경우, 회사/자산 ID로 호출해야 하며, 비디오의 전체 경로는 없습니다. 현지화 방법은 경로 기반 비디오 호출에만 사용되므로 현지화 방법에는 rtmp를 사용할 수 없습니다.
 * localeMap이 활성화된 경우 단일 비디오가 들어 있는 혼합 미디어 집합은 사용할 수 없으며, 다른 경우 이 집합의 컨텐츠 호출은 실패합니다. 이 문제를 해결하기 위해 응용 비디오 세트에 단일 비디오를 추가할 수 있습니다. 그런 다음, 혼합 미디어 집합에 적응형 비디오 집합을 추가합니다.

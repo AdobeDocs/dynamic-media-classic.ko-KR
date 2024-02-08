@@ -12,10 +12,10 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 51%
+source-wordcount: '975'
+ht-degree: 44%
 
 ---
 
@@ -36,7 +36,7 @@ eCatalog에 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 
 [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
-**전자 카탈로그 만들기:**
+**eCatalog를 만들려면:**
 
 1. 먼저 다음 기술 중 하나를 사용하여 eCatalog를 만듭니다.
 
@@ -72,13 +72,13 @@ eCatalog에 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 | 세트를 이미 게시했습니까? | 편집을 저장하기 전에 &quot;저장 후 게시&quot; 옵션이 선택되었습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
 | --- | --- | --- | --- |
 | 예 | 예 | 게시됨 | 게시됨 |
-| 예 | 아니요 | 게시됨 | 기존 세트 구성원은 게시된 상태를 유지합니다. 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
+| 예 | 아니요 | 게시됨 | 기존 집합 구성원은 게시된 상태를 유지합니다. 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
 | 아니요 | 예 | 게시됨 | 게시됨 |
 | 아니요 | 아니요 | 게시 취소됨 | 기존 세트 구성원과 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
 
 [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
-**전자 카탈로그 편집:**
+**eCatalog를 편집하려면:**
 
 1. 전자 카탈로그의 롤오버 선택 **[!UICONTROL 편집]** 단추를 클릭합니다.
 1. 필요한 변경 작업을 수행합니다.
@@ -91,7 +91,7 @@ eCatalog에 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 
 [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
-**전자 카탈로그 삭제:**
+**eCatalog를 삭제하려면**
 
 1. [격자 보기], [목록 보기] 또는 [상세 보기]에서 전자 카탈로그를 하나 이상 선택합니다.
 1. 전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 파일]** > **[!UICONTROL 삭제]** > **[!UICONTROL 삭제]**.
@@ -100,7 +100,7 @@ eCatalog에 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 
 Adobe Dynamic Media Classic은 eCatalog 화면의 주문 페이지 탭에서 eCatalog에 기본 페이지 번호를 제공합니다. 사용자 지정 페이지 이름의 경우 TOC(목차)를 구성하는 페이지 레이블을 변경할 수 있습니다. 앞 표지와 뒤 표지의 이름을 바꾸는 것이 좋습니다. 예를 들어 앞 표지는 &quot;0-1페이지&quot; 대신 &quot;표지&quot;를 읽을 수 있습니다.
 
-CSV(Mac에만 해당) 또는 XML 파일에서 페이지 이름을 가져오거나 수동으로 eCatalog에 대한 사용자 지정 TOC(목차)를 만들 수 있습니다.
+CSV(Mac 전용) 또는 XML 파일에서 페이지 이름을 가져오거나 수동으로 eCatalog에 대한 사용자 지정 목차(TOC)를 만들 수 있습니다.
 
 >[!NOTE]
 >
@@ -128,7 +128,7 @@ CSV(Mac에만 해당) 또는 XML 파일에서 페이지 이름을 가져오거�
 | --- | --- |
 | `<image_IPS_ID>` | `tocEN=<EN_page_label>??tocFR=<FR_page_label>` |
 
-XML 파일의 [사용자 데이터] 필드를 가져오려면 다음과 같이 `vc_userdata` 특성을 포함합니다.
+XML 파일의 사용자 데이터 필드를 가져오려면 속성을 포함합니다 `vc_userdata`:
 
 ```as3
 <ips> 

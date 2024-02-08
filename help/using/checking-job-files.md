@@ -12,7 +12,7 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '1620'
 ht-degree: 24%
@@ -131,7 +131,7 @@ Adobe Dynamic Media Classic에 대한 파일 업로드 및 Adobe Dynamic Media C
 다음 표에서는 [규칙] 상자에서 허용되는 와일드카드 문자와 사용 방법에 대해 설명합니다.
 
 | 와일드카드 문자 | 이름 | 설명하는 내용 |
-|--- |--- |--- |
+| --- | --- | --- |
 | `*` | 별표 | 모든 값(예: &quot;매 분&quot;). |
 | `?` | 물음표 | 특정 값 없음(예: &quot;지정된 시간 내 임의 분&quot;). |
 | `,` | 쉼표 | 기타 값(예: &quot;월요일 및 수요일&quot;). |
@@ -139,7 +139,7 @@ Adobe Dynamic Media Classic에 대한 파일 업로드 및 Adobe Dynamic Media C
 | `/` | 슬래시 | 증가(예: &quot;15분마다&quot;). |
 | `L` | 대문자 L | 마지막 &quot;날짜&quot; 또는 &quot;요일&quot;(이러한 필드에만 사용 가능). 예를 들어, 월이 1월인 경우 &quot;월의 일&quot; 필드에 대한 L 값은 1월 31일에 대한 작업을 예약합니다. &quot;요일&quot; 필드의 경우 이 문자만 입력하여 토요일에 작업을 예약할 수 있습니다. 숫자와 함께 사용할 수 있습니다(예: `6L`)을 입력하여 해당 월의 마지막 금요일을 지정합니다. 지정하지 않음 `L` 쉼표 또는 하이픈 와일드카드로 구분하십시오. |
 | `#` | 숫자 기호 | 해당 월의 &quot;N번째&quot; 요일(&quot;요일&quot; 필드에만 사용 가능). 예를 들어, `6#3` &quot;요일&quot; 필드에서는 해당 월의 세 번째 금요일을 지정합니다. 다음 `6` 는 &quot;금요일&quot;(주의 6번째 날) 및 `3` 는 해당 월의 세 번째 발생 횟수를 나타냅니다. |
-| `C` | # 대문자 C | 첫 번째 달력 &quot;날짜&quot; 또는 &quot;요일&quot; (이러한 필드에만 사용 가능). 예를 들어 값을 `1C` 의 경우 &quot;월 중 일&quot;은 5번째 또는 그 이후에 발생하는 달력의 첫 번째 날을 예약합니다. &quot;요일&quot; 필드에 대해 다음을 지정합니다. `1C` 일요일이나 그 이후에 발생하는 달력의 첫 번째 날을 예약합니다. |
+| `C` | # 대문자 C | 첫 번째 달력 &quot;날짜&quot; 또는 &quot;요일&quot; (이러한 필드에만 사용 가능). 예를 들어 값을 `1C` 의 경우 &quot;월 중 일&quot;은 5번째 또는 그 이후에 발생하는 달력의 첫 번째 날을 예약합니다. &quot;요일&quot; 필드에 대해 다음을 지정합니다. `1C` 캘린더에서 일요일 또는 그 이후에 발생하는 첫째 날을 예약합니다. |
 
 다음 목록에서는 [규칙] 상자에서 시간 간격을 설명하는 예를 제공합니다.
 

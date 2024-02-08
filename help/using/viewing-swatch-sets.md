@@ -12,10 +12,10 @@ role: User
 exl-id: 05769eeb-5f1b-42ff-9392-2669f5051140
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '460'
-ht-degree: 25%
+ht-degree: 17%
 
 ---
 
@@ -36,7 +36,7 @@ Adobe Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 �
    * 기존 견본 집합 뷰어 사전 설정을 편집하려면 사전 설정을 선택한 다음 을 선택합니다 **[!UICONTROL 편집]**.
 
 1. 뷰어 구성 페이지의 사전 설정 이름 텍스트 필드에 견본 집합 뷰어 사전 설정의 이름을 입력합니다.
-1. [뷰어 구성] 화면에서 선택 사항을 선택합니다.
+1. 뷰어 구성 페이지에서 옵션을 선택합니다.
 
    옵션에 대한 설명을 보려면 **[!UICONTROL 정보 팁]** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다.
 
@@ -56,7 +56,7 @@ Adobe Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 �
    * Adobe Dynamic Media Classic 창의 오른쪽 위 모서리 근처에서 **[!UICONTROL 격자 보기]** 아이콘. 에셋 창의 에셋 썸네일 창에서 을 선택합니다. **[!UICONTROL 미리 보기]** (미리보기 드롭다운 목록 아님).
    * Adobe Dynamic Media Classic 창의 오른쪽 위 모서리 근처에서 **[!UICONTROL 세부 사항 보기]** 아이콘. 동일한 도구 모음에서 를 선택합니다. **[!UICONTROL 미리 보기]** (미리보기 드롭다운 목록 아님).
 
-1. (선택 사항) [미리 보기] 창 하단에 있는 드롭다운 목록에서 복사할 때 자산 URL에 적용할 URL 인코딩을 선택합니다.
+1. (선택 사항) 미리 보기 창의 맨 아래에 있는 드롭다운 목록에서 복사할 때 에셋의 URL에 적용할 URL 인코딩을 선택합니다.
 1. 선택한 뷰어에서 에셋을 미리 보려면 뷰어 링크를 선택합니다.
 
    지정된 뷰어 링크를 선택하면 연결된 URL이 자동으로 클립보드에 복사됩니다.

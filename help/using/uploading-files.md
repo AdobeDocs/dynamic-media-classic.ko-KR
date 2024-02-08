@@ -11,9 +11,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '3878'
+source-wordcount: '3877'
 ht-degree: 28%
 
 ---
@@ -123,7 +123,7 @@ Adobe Dynamic Media Classic은 정적 콘텐츠의 미리보기 URL을 생성하
 * 우수 사례로, 자산 ID에 공백이 포함되지 않도록 합니다(예: black jacket.tif 및 blue jacket.jpg). Adobe Dynamic Media Classic은 자산 이름을 사용하여 URL 문자열을 구성하는 경우 자산 이름의 빈 공간을 ASCII 인코딩합니다. 이러한 ASCII 코드는 읽기 어려우며 URL 읽기가 더 어려워질 수 있습니다.
 * 언어 관련 문자는 파일 이름에 허용됩니다. 그러나 다음 문자는 파일 이름에 허용되지 않습니다.
 
-  \ ; / ? : @ &amp; = + $ , &#42; &quot; &lt; > | &#39; { } %
+  `\ ; / ? : @ & = + $ , &#42; " &lt; > | ' { } %`
 
   파일 이름에 위 문자 중 하나 이상이 포함된 경우 업로드 시 해당 문자가 파일 이름에서 제거됩니다.
 

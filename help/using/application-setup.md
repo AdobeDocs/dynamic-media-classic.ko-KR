@@ -10,7 +10,7 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
 source-wordcount: '10991'
 ht-degree: 37%
@@ -613,7 +613,7 @@ Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생
      
    * **편집** - 기존 뷰어 사전 설정을 선택한 다음 선택 **[!UICONTROL 편집]**.
 
-1. 뷰어 구성 화면의 사전 설정 이름 필드에 사전 설정 이름을 입력하거나 편집합니다.
+1. 뷰어 구성 페이지의 사전 설정 이름 필드에 사전 설정 이름을 입력하거나 편집합니다.
 1. 원하는 나머지 선택 사항을 설정합니다.
 
    >[!NOTE]

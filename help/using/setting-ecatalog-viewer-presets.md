@@ -11,10 +11,10 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 34%
+source-wordcount: '488'
+ht-degree: 25%
 
 ---
 
@@ -24,7 +24,7 @@ eCatalog 뷰어 사전 설정은 eCatalog 뷰어의 스타일, 동작 및 모양
 
 사전 설정을 만들려면 처음부터 새로 만들거나 Adobe Dynamic Media Classic에서 제공한 eCatalog 뷰어 사전 설정으로 시작하여 새 이름으로 저장할 수 있습니다. 고유한 eCatalog 뷰어 사전 설정을 만들어 회사 색상으로 인쇄물을 표시하고 톤을 설정할 수 있습니다.
 
-eCatalog 뷰어 사전 설정은 페이지 간 이동, 확대/축소, 검색 및 &quot;스킨&quot; 선택을 위한 다양한 설정을 제공합니다. 이러한 컨트롤의 모양과 뷰어 표시 방법은 선택한 eCatalog 뷰어 사전 설정에 따라 다릅니다.
+eCatalog 뷰어 사전 설정은 페이지 간 이동, 확대/축소, 검색 및 &quot;스킨&quot; 선택에 대한 다양한 설정을 제공합니다. 이러한 컨트롤의 모양과 뷰어 표시 방법은 선택한 eCatalog 뷰어 사전 설정에 따라 다릅니다.
 
 eCatalog 뷰어 사전 설정을 만들 수 있도록 다음 단계를 따르십시오(관리자여야 함).
 
@@ -35,8 +35,8 @@ eCatalog 뷰어 사전 설정을 만들 수 있도록 다음 단계를 따르십
 
    * **eCatalog 뷰어 사전 설정 편집** - eCatalog 뷰어 사전 설정을 선택한 다음 선택 **[!UICONTROL 편집]**. 선택 **[!UICONTROL 다른 이름으로 저장]** 사전 설정 만들기를 완료한 후에.
 
-1. [뷰어 구성] 화면에서 eCatalog 뷰어 사전 설정의 이름을 입력합니다.
-1. [뷰어 구성] 화면에서 원하는 선택 사항을 설정합니다.
+1. 뷰어 구성 페이지에서 eCatalog 뷰어 사전 설정 이름을 입력합니다.
+1. 뷰어 구성 페이지에서 원하는 옵션을 설정합니다.
 
    선택 **[!UICONTROL 정보 팁]** 아이콘 옵션 옆에 있는 아이콘을 클릭하여 설명을 읽을 수 있습니다.
 
