@@ -1,21 +1,19 @@
 ---
 title: 이미지 집합 만들기
 description: Adobe Dynamic Media Classic에서 이미지 세트를 만드는 방법을 알아봅니다.
-uuid: 689fdc14-4f51-4c94-8515-cd8551e101d8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sets
-discoiquuid: 3f356410-b30e-4870-ad95-6e5a9dc126c8
 feature: Dynamic Media Classic,Viewers,Image Sets,Spin Sets
 role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '635'
-ht-degree: 59%
+source-wordcount: '676'
+ht-degree: 45%
 
 ---
 
@@ -38,12 +36,14 @@ ht-degree: 59%
 
 | 제한 유형 | 우수 사례 | 제한 적용됨 |
 | --- | --- | --- |
-| 세트당 중복 에셋 수 | 중복 항목 없음 | 20 |
+| 세트당 중복 에셋 수 | 중복 항목 없음 | 20‡ |
 | 세트당 최대 이미지 수 | 세트당 5-10개 이미지 | 1000 |
+
+‡ 가장 좋은 방법은 집합에 중복 에셋이 없는 것입니다. 단일 자산에 대한 중복 횟수는 20회로 제한됩니다. 해당 에셋에 대해 다른 중복을 추가하면 해당 세트 내에서 요청에 오류가 발생하거나 중복을 무시합니다.
 
 참조: [Dynamic Media 제한 사항](/help/using/limitations.md).
 
-**이미지 세트 만들기:**
+**이미지 세트를 만들려면:**
 
 1. 다음 중 하나를 수행하십시오.
 
@@ -63,18 +63,18 @@ ht-degree: 59%
 | 세트를 이미 게시했습니까? | **[!UICONTROL 저장 후 게시]** 편집을 저장하기 전에 선택한 옵션입니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
 | --- | --- | --- | --- |
 | 예 | 예 | 게시됨 | 게시됨 |
-| 예 | 아니요 | 게시됨 | 기존 세트 구성원은 게시된 상태를 유지합니다. 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
+| 예 | 아니요 | 게시됨 | 기존 집합 구성원은 게시된 상태를 유지합니다. 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
 | 아니요 | 예 | 게시됨 | 게시됨 |
 | 아니요 | 아니요 | 게시 취소됨 | 기존 세트 구성원과 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
 
 [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
-**이미지 세트 편집:**
+**이미지 집합을 편집하려면:**
 
 1. 격자 보기에서 이미지 집합을 찾은 다음 이미지 아래에서 **[!UICONTROL 편집]**.
 1. 다음 중 하나를 수행합니다.
 
-   * 이미지(게시되었거나 게시 취소된 이미지)를 추가하려면 [자산 추가]에 있는 폴더에서 이미지를 [이미지 세트]의 **[!UICONTROL 보기]** 페이지로 드래그합니다.
+   * 이미지(게시됨 또는 게시 취소됨)를 추가하려면 에셋 추가 의 폴더에서 이미지 세트로 드래그합니다 **[!UICONTROL 보기]** 페이지를 가리키도록 업데이트하는 중입니다.
    * 이미지를 제거하려면 이미지를 선택한 다음 을 선택합니다 **[!UICONTROL 삭제]** 을 클릭합니다.
    * 이미지를 다시 정렬하려면 원하는 이미지를 새 위치로 드래그합니다.
 
@@ -83,11 +83,11 @@ ht-degree: 59%
 
 ## 이미지 세트 삭제 {#deleting-an-image-set}
 
-삭제된 세트는 휴지통으로 이동합니다. 하지만 삭제된 세트 내의 구성원(또는 &quot;하위&quot;)은 휴지통으로 이동하지 않고, 각각 기존의 게시된 상태나 게시 취소된 상태를 유지합니다.
+삭제된 세트는 휴지통으로 이동합니다. 그러나 해당 집합 내의 멤버(또는 &quot;하위&quot;)는 영향을 받지 않습니다. 대신 각 멤버는 기존의 게시 또는 게시 취소 상태를 유지합니다.
 
 [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
-**이미지 세트 삭제:**
+**이미지 집합을 삭제하려면 다음을 수행하십시오.**
 
 1. [격자 보기], [목록 보기] 또는 [세부 사항 보기]에서 이미지 세트를 한 개 이상 선택합니다.
 1. 전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 파일]** > **[!UICONTROL 삭제]** > **[!UICONTROL 삭제]**.

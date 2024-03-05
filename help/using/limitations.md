@@ -10,10 +10,10 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: e2d60d18784c31c9973276960c935464ee4fd843
+source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 2%
+source-wordcount: '348'
+ht-degree: 1%
 
 ---
 
@@ -33,10 +33,12 @@ ht-degree: 2%
 | 에셋 - 제한 유형 | 우수 사례 | 제한 적용됨 |
 | --- | --- | --- |
 | **이미지** - 이미지당 스마트 자르기 수 | 5 | 100 |
-| **모든 세트** - 세트당 중복 에셋 수 | 중복 항목 없음 | 20 |
+| **모든 세트** - 세트당 중복 에셋 수 | 중복 항목 없음 | 20‡ |
 | **모든 세트** - 세트당 최대 에셋 수 | 세트당 5-10개 이미지 | 1000 |
 | **회전 집합** - 2D 세트당 최대 행/열 수 | 세트당 12~18개 이미지 | 1000 |
 | **PDF** - 추출 시 고려할 PDF의 최대 페이지 수 |  | 100(모든 PDF) |
+
+‡ 가장 좋은 방법은 집합에 중복 에셋이 없는 것입니다. 단일 자산에 대한 중복 횟수는 20회로 제한됩니다. 해당 에셋에 대해 다른 중복을 추가하면 해당 세트 내에서 요청에 오류가 발생하거나 중복을 무시합니다.
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 
