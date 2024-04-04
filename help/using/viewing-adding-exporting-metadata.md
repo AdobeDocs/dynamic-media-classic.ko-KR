@@ -1,21 +1,19 @@
 ---
 title: 메타데이터 보기, 추가 및 내보내기
 description: Adobe Dynamic Media Classic에서 메타데이터를 보고, 추가하고, 내보내는 방법을 알아봅니다.
-uuid: a5254c51-9e04-45ae-8236-3eab2925e5fc
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 5414b4f5-6e05-468c-8725-385423596342
 feature: Dynamic Media Classic,Asset Management,Metadata
 role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 45%
+source-wordcount: '2226'
+ht-degree: 40%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 45%
 
 Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저장할 수 있습니다. 이 정보를 라고 합니다. *메타데이터*. Adobe Dynamic Media Classic에서 메타데이터를 사용하여 에셋을 구성하고, 검색하고, 필터링하고, 정렬할 수 있습니다.
 
-메타데이터는 파일 생성 날짜, 게시 날짜 및 키워드와 같이 Adobe Dynamic Media Classic에서 생성한 정보와 함께 세부 사항 보기에 표시됩니다. 메타데이터를 보려면 세부 사항 보기에서 에셋을 연 다음 메타데이터 패널을 선택합니다. [세부 사항 보기]에서 메타데이터를 입력 및 편집할 수 있습니다. 
+메타데이터는 파일 생성 날짜, 게시 날짜 및 키워드와 같이 Adobe Dynamic Media Classic에서 생성한 정보와 함께 세부 사항 보기에 표시됩니다. 메타데이터를 보려면 세부 사항 보기에서 에셋을 연 다음 메타데이터 패널을 선택합니다. 세부 사항 보기의 메타데이터를 입력하고 편집할 수 있습니다.
 
 일부 메타데이터는 파일에 직접 포함됩니다. 파일에 이 메타데이터가 포함되어 있으면 Adobe Dynamic Media Classic이 해당 파일을 자동으로 업로드합니다. Adobe Photoshop, InDesign, Illustrator 및 기타 애플리케이션에서 소스 자산에 메타데이터를 포함할 수 있습니다. Adobe Dynamic Media Classic은 이 메타데이터를 인식합니다. 세부 사항 보기의 [메타데이터] 패널에서 개별 파일에 메타데이터를 추가할 수도 있습니다. 자산 간에 일관성을 유지하기 위해 회사 관리자는 입력할 수 있는 메타데이터 필드를 제공하는 메타데이터 템플릿을 만듭니다.
 
@@ -55,13 +53,13 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 >[!NOTE]
 >
->여러 에셋의 메타데이터를 한 번에 편집하려면 에셋을 선택하고 **[!UICONTROL 파일]** > **[!UICONTROL 정보 편집]**. [정보 편집] 창에서 메타데이터를 편집한 내용은 선택한 모든 자산에 적용됩니다.
+>여러 에셋의 메타데이터를 한 번에 편집하려면 에셋을 선택하고 **[!UICONTROL 파일]** > **[!UICONTROL 정보 편집]**. 정보 편집 창에서 메타데이터에 대한 편집 내용은 선택한 모든 에셋에 적용됩니다.
 
 ## 키워드 추가 또는 편집 {#add-or-edit-keywords}
 
 메타데이터 외에도 키워드를 사용하여 에셋을 검색하고 관리할 수 있습니다.
 
-이 세션 중에 다른 파일에 키워드를 추가한 경우 또는 목록에서 키워드를 제거한 경우 키워드 제안 테이블에 표시됩니다.
+이 세션 중에 다른 파일에 키워드를 추가하거나 목록에서 키워드를 제거한 경우 키워드 제안 테이블에 표시됩니다.
 
 1. [세부 사항 보기]에서 파일을 엽니다.
 1. 선택 **[!UICONTROL 키워드]**.
@@ -83,7 +81,7 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 >[!NOTE]
 >
->메타데이터를 Adobe Dynamic Media Classic에 제대로 가져올 수 있도록 메타데이터 입력용 템플릿을 만들 수 있습니다. 템플릿을 만든 후 메타데이터를 입력하는 데 사용할 수 있습니다.
+>메타데이터를 Adobe Dynamic Media Classic에 제대로 가져올 수 있도록 메타데이터 입력용 템플릿을 만들 수 있습니다. 템플릿을 만든 후 이 템플릿을 사용하여 메타데이터를 입력할 수 있습니다.
 >[업로드할 메타데이터를 입력하는 데 사용할 템플릿 만들기](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)를 참조하십시오.
 
 표준화된 속성에 대한 자세한 내용은 다음 위치에서 확인할 수 있습니다. [Adobe XMP 개발자 센터](https://www.adobe.com/devnet/xmp.html).
@@ -99,9 +97,9 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 가져오기 위해 서로 다른 메타데이터 유형을 식별할 때 다음 사항에 유의해야 합니다.
 
-* 사용자 정의 필드는에서 생성된 대로 해당 이름으로 식별됩니다. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 메타데이터]** > **[!UICONTROL 사용자 정의 필드]**. 파일 생성 기능을 사용하여 정의된 모든 UDF 목록을 올바른 가져오기 형식으로 가져옵니다.
-* XMP 메타데이터 속성은 (속성-) 이름 앞에 관련 XMP 접두어가 있어야 합니다. 접두어와 이름은 콜론으로 구별합니다. XMP 접두사는에서 찾을 수 있습니다. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 메타데이터]** > **[!UICONTROL 메타데이터 스키마]** 편집자. 기술적 이름은 관련 XMP 스키마 문서에서 찾을 수 있습니다. XMP 속성 이름이 파일 생성 기능에 표시되지 않습니다.
-* 메타데이터 스키마 속성은 속성 이름 앞에 관련 접두어가 있어야 합니다. 접두어와 이름은 콜론으로 구별합니다. 접두어와 속성 이름은 메타데이터 스키마 편집기에서 정의됩니다. 메타데이터 스키마 속성 이름이 파일 생성 기능에 표시되지 않습니다.
+* 사용자 정의 필드는에서 생성된 대로 해당 이름으로 식별됩니다. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 메타데이터]** > **[!UICONTROL 사용자 정의 필드]**. 사용 `Generate file` 정의된 모든 UDF 목록을 올바른 가져오기 형식으로 가져오는 기능.
+* XMP 메타데이터 속성은 (속성-) 이름 앞에 관련 XMP 접두어가 있어야 합니다. 접두어와 이름은 콜론으로 구별합니다. XMP 접두사는에서 찾을 수 있습니다. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 메타데이터]** > **[!UICONTROL 메타데이터 스키마]** 편집자. 기술적 이름은 관련 XMP 스키마 문서에서 찾을 수 있습니다. XMP 속성 이름이 `Generate file` 기능.
+* 메타데이터 스키마 속성은 속성 이름 앞에 관련 접두어가 있어야 합니다. 접두어와 이름은 콜론으로 구별합니다. 접두어와 속성 이름은 메타데이터 스키마 편집기에서 정의됩니다. 메타데이터 스키마 속성 이름이 `Generate file` 기능.
 
 예를 들어 키워드에 대한 XMP 속성은 접두사가 있는 XMP 스키마 &quot;더블린 코어&quot;입니다 `dc` 및 `subject` 는 기술 XMP 이름입니다. 접두사 및 기술 XMP 이름이 `dc:subject` 전체 속성 이름. XML 메타데이터 가져오기 형식에서 `dc.subject` 속성 이름이어야 합니다. 탭으로 구분된 가져오기 형식에서 열 헤더여야 합니다.
 
@@ -157,7 +155,7 @@ Adobe Dynamic Media Classic은 메타데이터 기록을 위한 템플릿을 만
 1. 템플릿에 사용하려는 메타데이터 필드가 있는 이미지 자산을 선택합니다.
 1. 다음으로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 메타데이터 가져오기]**.
 1. 의 경우 **[!UICONTROL 자산 속성 유형]**, 선택 **[!UICONTROL 이미지]**.
-1. 다음에서 **[!UICONTROL 파일 생성]** 드롭다운 목록에서 선택 **[!UICONTROL 탭으로 구분된 템플릿]**, **[!UICONTROL 에셋의 XML 메타데이터]**, 또는 **[!UICONTROL XML DTD]**.
+1. 다음에서 **[!UICONTROL `Generate File`]** 드롭다운 목록에서 선택 **[!UICONTROL 탭으로 구분된 템플릿]**, **[!UICONTROL 에셋의 XML 메타데이터]**, 또는 **[!UICONTROL XML DTD]**.
 1. 선택 **[!UICONTROL 생성]**.
 1. 표시되는 대화 상자에서 데이터를 복사합니다. 이 데이터를 사용하여 템플릿을 구성합니다.
 
@@ -179,7 +177,7 @@ Adobe Dynamic Media Classic은 메타데이터 기록을 위한 템플릿을 만
 | 위로 이동/아래로 이동 | 스키마의 순서는 UI에 반영됩니다. 순서를 변경하려면 속성 또는 선택 사항 값을 선택하고 단추를 사용하여 이동합니다. 드래그 앤 드롭은 현재 지원되지 않습니다. |
 | 삭제 | 스키마에서 속성 또는 선택 사항 값을 삭제합니다. XMP 블록이나 데이터베이스에서 값을 삭제하지는 않습니다. 속성은 메타데이터 보기에서 더 이상 사용할 수 없으며 에셋 세부 사항 보기에서 제거됩니다. 속성이 메타데이터 서버에 게시된 경우 강제 게시를 수행하여 공개 메타데이터 서버에서 데이터를 제거합니다. |
 
-시스템은 접두사가 있는 사용자 정의 필드에 대한 사용자 정의 스키마를 자동으로 생성합니다 `s7udf`. 기존 사용자 정의 필드이며 자체 설정 섹션에서 편집됩니다.
+시스템은 접두사가 있는 사용자 정의 필드에 대한 사용자 정의 스키마를 자동으로 생성합니다 `s7udf`. 스키마는 자체 설정 섹션에서 편집된 기존 사용자 정의 필드로 구성됩니다.
 
 >[!NOTE]
 >
@@ -189,7 +187,7 @@ Adobe Dynamic Media Classic은 메타데이터 기록을 위한 템플릿을 만
 
 * **[!UICONTROL 이름]** - 스키마의 UI-Name. [메타데이터 보기] 및 [고급 검색]에서 속성을 식별하는 데 사용됩니다. 기본, IPTC, PDF와 같은 XMP 섹션과 유사합니다.
 
-* **[!UICONTROL 접두사]** - 스키마에 대한 기술 고유 식별자. 문자 a-z와 A-Z로 제한됩니다. 접두사는 Adobe Dynamic Media Classic UI에 표시되지 않지만 에셋의 메타데이터가 XMP 블록 및 데이터베이스에 저장될 때 사용됩니다. 접두어는 메타데이터 서버 또는 가져오기의 메타데이터 검색 쿼리에서 메타데이터 필드를 고유하게 식별하기 위해 사용됩니다.
+* **[!UICONTROL 접두사]** - 스키마에 대한 기술 고유 식별자. 문자 a-z와 A-Z로 제한됩니다. 접두사는 Adobe Dynamic Media Classic UI에 표시되지 않지만 에셋의 메타데이터가 XMP 블록 및 데이터베이스에 저장될 때 사용됩니다. 접두사는 메타데이터 서버에서 메타데이터 검색 쿼리 또는 가져오기에서 메타데이터 필드를 고유하게 식별하는 데 사용됩니다.
 
 * **[!UICONTROL 네임스페이스]** - 스키마에 대한 기술 고유 식별자(일반적으로 양식 내 URL) `https://your.company.com/name/version/`. 예를 보려면 표준 스키마 목록을 참조하십시오. 이 네임스페이스는 Adobe Dynamic Media Classic UI에 표시되지 않지만 XMP 블록에 메타데이터를 저장하는 데 사용됩니다.
 
@@ -203,7 +201,7 @@ Adobe Dynamic Media Classic은 메타데이터 기록을 위한 템플릿을 만
 
 | 속성 | 설명 |
 | --- | --- |
-| ID | 이 속성에 대한 기술적 식별자입니다. 이 ID는 Adobe Dynamic Media Classic UI에 표시되지 않지만 에셋의 메타데이터가 XMP 블록 및 데이터베이스에 저장된 경우 사용됩니다. ID는 메타데이터 서버에서 검색 쿼리를 만드는 데 사용됩니다. ID는 다음과 같은 몇 가지 제한이 있습니다. <ul><li>공백이 없어야 함</li><li>아니요 &quot;.&quot;, &quot;:&quot;, &quot;$&quot;</li><li>처음 문자로 숫자를 사용할 수 없음</li><li>처음 문자로 a-z 또는 A-Z를 사용하는 것이 좋음</li></ul> <br>만든 다음에는 ID를 변경할 수 없습니다. |
+| ID | 이 속성에 대한 기술적 식별자입니다. 이 ID는 Adobe Dynamic Media Classic UI에 표시되지는 않지만 에셋의 메타데이터가 XMP 블록 및 데이터베이스에 저장될 때 사용됩니다. 이 ID는 메타데이터 서버에서 검색 쿼리를 만드는 데 사용됩니다. ID에는 다음과 같은 몇 가지 제한 사항이 있습니다. `<ul><li>No spaces</li><li>No ".", ":", "$"</li><li>No number as first character</li><li>Best practice is to use a-z or A-Z as first character</li></ul>` <br>만들어진 ID는 변경할 수 없습니다. |
 | 레이블 | 이 속성의 UI의 이름입니다. |
 | 구조 | 데이터 유형과 함께 속성 유형을 결정합니다. 구조는 다음 중 하나일 수 있습니다.<ul><li>단순 유형: 데이터 유형의 단일 값</li><li>순서: 동일한 데이터 유형의 값 목록</li><li>개방 선택 사항: 사전 정의된 값 목록에서 한 항목을 선택하거나 텍스트를 자유롭게 입력. 문자열 또는 정수 데이터 유형만 가능함</li><li>고정 선택 사항: 사전 정의된 값 목록에서 하나의 항목 선택(팝업 또는 콤보 상자)</li></ul> |
 | 데이터 유형 | 다음 사용 가능한 유형에서 선택합니다. <ul><li>문자열</li><li>정수</li><li>부동</li><li>예/아니오(부울)</li><li>날짜</li></ul> |

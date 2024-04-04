@@ -1,6 +1,6 @@
 ---
 title: 애플리케이션 설정
-description: Adobe Dynamic Media Classic의 애플리케이션 영역을 설정하고 구성하는 방법에 대해 알아봅니다. [응용 프로그램] 영역에서는 일반 설정을 입력하고, 이미지, 뷰어 및 비디오 인코딩 사전 설정을 만들고, 기본 뷰어와 메타데이터, 게시 설정 및 비디오 SEO 설정을 정의할 수 있습니다. 영역을 사용하여 일괄처리 집합 사전 설정을 설정하여 2D 스핀 세트 생성을 자동화할 수도 있습니다.
+description: Adobe Dynamic Media Classic의 애플리케이션 영역을 설정하고 구성하는 방법에 대해 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '10991'
+source-wordcount: '10947'
 ht-degree: 37%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 37%
 
 * **[!UICONTROL 점진적 비디오 서버 이름]** - 의 URL [!DNL Adobe Dynamic Media Classic] 점진적 비디오 서버입니다. 이 서버는 HTTP 프로토콜을 사용하여 점진적 비디오를 제공합니다.
 
-* **[!UICONTROL 게시되지 않은 에셋의 URL 표시]** - 원하는 경우 이 옵션을 선택합니다. [!DNL Adobe Dynamic Media Classic] 에셋을 미리 볼 때 게시되었는지 여부에 관계없이 URL을 표시합니다. 자산이 게시되지 않은 경우 URL이 작동하지 않지만 계획 또는 구성 용도로 URL을 사용할 수 있습니다.
+* **[!UICONTROL 게시되지 않은 에셋의 URL 표시]** - 원하는 경우 이 옵션 선택 [!DNL Adobe Dynamic Media Classic] 에셋을 미리 볼 때 게시되었는지 여부에 관계없이 URL을 표시합니다. 자산이 게시되지 않은 경우 URL이 작동하지 않지만 계획 또는 구성 용도로 URL을 사용할 수 있습니다.
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -147,7 +147,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
 
 이전에 이미지를 업로드한 다음 원본 파일을 변경(또는 대체)한 경우, 선택한 덮어쓰기 옵션은 Adobe Dynamic Media Classic이 이미지를 대체하는 방법을 지정합니다. 이미지 정보는 변경되지 않고 새 이미지가 이전 이미지를 대체합니다. 폴더에 Adobe Dynamic Media Classic에 아직 없는 이미지도 포함되어 있는 경우 이러한 이미지가 추가됩니다.
 
-업로드한 이미지가 어떤 식으로든 변경되었지만(이미지가 변경됨) 이미지에 대한 참조가 동일하게 유지되는 경우 이 옵션을 사용합니다. 덮어쓰기는 Adobe® PDF을 업로드하고 리핑할 때도 유용합니다. Adobe Dynamic Media Classic 방법을 미세 조정하려면 *립* 이 이미지에서 업로드(Upload) 대화상자에서 ICC 색상 프로파일 옵션을 조정하고 덮어쓰기 기능을 사용하여 다시 업로드합니다.
+업로드한 이미지가 어떤 식으로든 변경되었지만(이미지가 변경됨) 이미지에 대한 참조가 동일하게 유지되는 경우 이 옵션을 사용합니다. 덮어쓰기는 Adobe® PDF을 업로드하고 리핑할 때도 유용합니다. Adobe Dynamic Media Classic 방법을 미세 조정하려면 *립* 이 그림에서는 업로드(Upload) 대화상자에서 ICC 색상 프로파일 옵션을 조정하고 덮어쓰기 기능을 사용하여 다시 업로드합니다.
 
 프로덕션 서버의 이미지에 액세스하는 데 사용되는 Adobe Dynamic Media Classic ID는 이미지 파일 이름에서 파생됩니다. 파일 이름에 대문자와 소문자를 사용하는 것은 기존 파일을 대체하는 경우와 이미지에 액세스하는 데 사용되는 Adobe Dynamic Media Classic ID를 대체하는 경우 모두에서 중요합니다. 동일한 이미지에 대해 대/소문자만 다른 Adobe Dynamic Media Classic ID를 방지하려면 Adobe Dynamic Media Classic에 업로드하기 전에 파일 이름에 대문자 및 소문자를 사용하는 것이 올바른지 확인하십시오.
 
@@ -161,7 +161,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
 
 이미지 사전 설정 화면을 열려면 전역 탐색 막대에서 다음 위치로 이동하십시오. **[!UICONTROL 설정]** > **[!UICONTROL 이미지 사전 설정]**.
 
-다음을 참조하십시오 [스마트 이미징](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html).
+다음을 참조하십시오 [스마트 이미징](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq).
 
 ### 이미지 사전 설정 만들기 및 편집 {#creating-and-editing-image-presets}
 
@@ -436,7 +436,7 @@ Adobe Dynamic Media Classic은 응용 비디오 인코딩 사전 설정을 제�
 
 리치 미디어 콘텐츠의 범위를 데스크탑, 태블릿 및 모바일 사용자까지 확장하고 간소화된 비디오 환경을 제공합니다.
 
-다음을 참조하십시오 [HTML5 뷰어 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers.html?lang=en#viewers-for-aem-assets-only) ( Adobe 뷰어 참조 안내서)를 참조하십시오.
+다음을 참조하십시오 [HTML5 뷰어 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only) ( Adobe 뷰어 참조 안내서)를 참조하십시오.
 
 다음을 참조하십시오 [Adobe Dynamic Media Classic 뷰어 사전 설정 호환성 매트릭스](application-setup.md#scene7_viewer_preset_compatibility_matrix).
 
@@ -450,7 +450,7 @@ Adobe Dynamic Media Classic은 응용 비디오 인코딩 사전 설정을 제�
 
 서로 다른 웹 페이지에는 서로 다른 요구 사항이 있습니다. 경우에 따라 별도의 브라우저 창에서 HTML 5 뷰어를 여는 링크를 제공하는 웹 페이지가 필요할 수 있습니다. 다른 경우에는 호스팅 페이지에 HTML5 뷰어를 직접 임베드해야 합니다. 후자의 경우 웹 페이지에 정적 레이아웃이 있을 수 있습니다. 또는 &quot;응답형&quot;이며 디바이스마다 또는 브라우저 창 크기마다 다르게 표시됩니다. 이러한 요구 사항을 수용하기 위해 Adobe Dynamic Media Classic과 함께 제공되는 HTML5 뷰어는 정적 웹 페이지와 반응형 디자인 웹 페이지를 모두 지원합니다.
 
-응답형 뷰어를 웹 페이지에 임베드하는 방법에 대한 자세한 내용은 [응답형 이미지 라이브러리 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library.html#image-serving-api), [응답형 이미지 라이브러리 사용](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#image-serving-api), 및 [명령 참조 - 명령 속성](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library.html#responsive-static-image-library).
+응답형 뷰어를 웹 페이지에 임베드하는 방법에 대한 자세한 내용은 [응답형 이미지 라이브러리 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [응답형 이미지 라이브러리 사용](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api), 및 [명령 참조 - 명령 속성](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library).
 
 ### 뷰어 사전 설정 유형 {#viewer-preset-types}
 
@@ -486,7 +486,7 @@ Adobe Dynamic Media Classic은 응용 비디오 인코딩 사전 설정을 제�
 
 뷰어에 지원되는 웹 브라우저 및 운영 체제 버전에 대한 정보를 보려면 뷰어 릴리스 노트를 검토할 수 있습니다.
 
-다음을 참조하십시오 [Adobe 뷰어 참조 릴리스 정보](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+다음을 참조하십시오 [Adobe 뷰어 참조 릴리스 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
 |  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android™ 스마트폰 | Android™ 태블릿 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -613,7 +613,7 @@ Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생
      
    * **편집** - 기존 뷰어 사전 설정을 선택한 다음 선택 **[!UICONTROL 편집]**.
 
-1. 뷰어 구성 페이지의 사전 설정 이름 필드에 사전 설정 이름을 입력하거나 편집합니다.
+1. [뷰어 구성] 페이지의 [사전 설정 이름] 필드에 사전 설정 이름을 입력하거나 편집합니다.
 1. 원하는 나머지 선택 사항을 설정합니다.
 
    >[!NOTE]
@@ -732,7 +732,7 @@ URL이 클립보드로 복사됩니다. 필요한 경우 이 URL을 웹 페이�
 1. 포함 코드 대화 상자에서 **[!UICONTROL 클립보드에 복사]**.
 1. 선택 **[!UICONTROL 닫기]**.
 
-## 기본 뷰어 구성 {#configuring-default-viewers}
+## 기본 뷰어 구성 {#configure-default-viewers}
 
 Adobe Dynamic Media Classic에서 미리 보기 를 사용할 때 기본 뷰어 를 사용하여 에셋과 연결된 기본 뷰어를 구성할 수 있습니다. 다음 자산 유형에 대해 기본 미리 보기 환경을 설정할 수 있습니다.
 
@@ -812,7 +812,7 @@ Adobe Dynamic Media Classic에는 사전 정의된 메타데이터 보기가 포
 
 미디어 포털 관리자 또는 회사 관리자는 사용자 지정, 사용자 지정 메타데이터 필드를 만들 수 있습니다. 사용자 정의 필드는 Adobe Dynamic Media Classic에서 에셋을 구성하는 데 도움이 될 수 있습니다. 필요에 따라 필드를 활성으로 표시할 수 있습니다. 활성화되면 이러한 사용자 지정 메타데이터 필드의 이름이 [상세 보기]의 [메타데이터] 패널에 표시됩니다. 사용자는 자산을 설명하기 위해 사용자 지정 메타데이터 필드에 정보를 입력할 수 있습니다. 또한 사용자 지정 메타데이터 필드를 검색 기준으로 설정할 수도 있습니다.
 
-사용자 지정 메타데이터 필드의 효과적인 한 가지 사용 예는 특정 출시 또는 판매용 자산의 활성화 시간을 지연하는 것입니다. 유형에 따라 &quot;활성화&quot; 필드를 정의합니다 *날짜*. 그런 다음 를 사용합니다. **[!UICONTROL 메타데이터]** 세부 사항 보기의 패널 또는 **[!UICONTROL 파일]** > **[!UICONTROL 정보 편집]**, 에셋이 활성화되는 시기를 지정할 수 있습니다. Adobe Dynamic Media Classic은 에셋의 게시 상태와 게시 내역을 확인합니다. 활성화 시간 내에 있지 않으면 게시 상태가 &quot;게시되지 않음&quot;으로 표시됩니다.
+사용자 지정 메타데이터 필드의 효과적인 한 가지 사용 예는 특정 출시 또는 판매용 자산의 활성화 시간을 지연하는 것입니다. 유형에 따라 &quot;활성화&quot; 필드를 정의합니다 *날짜*. 그런 다음 를 사용합니다. **[!UICONTROL 메타데이터]** 세부 사항 보기의 패널 또는 **[!UICONTROL 파일]** > **[!UICONTROL 정보 편집]**, 에셋이 활성화되는 시기를 지정할 수 있습니다. Adobe Dynamic Media Classic은 에셋의 게시된 상태와 게시 내역을 확인합니다. 활성화 시간 내에 있지 않으면 게시 상태가 &quot;게시되지 않음&quot;으로 표시됩니다.
 
 >[!NOTE]
 >
@@ -914,7 +914,7 @@ Adobe Dynamic Media Classic에 에셋을 업로드하는 작업이 실행되는 
 
 또는 사용 가능한 양식 필드 없이 [코드 보기]를 사용할 수 있습니다. 이 뷰에서는 이름 지정 규칙 정의를 완전히 정규 표현식을 사용하여 만듭니다.
 
-[일치] 및 [기본 이름]이라는 두 가지 요소를 정의에 사용할 수 있습니다. 두 필드를 통해 이름 지정 규칙의 모든 요소를 정의하고 두 필드가 포함된 집합의 이름 지정에 사용되는 규칙의 일부를 식별할 수 있습니다. 회사의 개별 명명 규칙은 이러한 각 요소에 대해 하나 이상의 정의 라인을 사용할 수 있습니다. 고유한 정의에 필요한 개수만큼 라인을 사용하고 기본 이미지, 색상 요소, 대체 보기 요소, 견본 요소 등의 특정 요소로 그룹화할 수 있습니다.
+[일치] 및 [기본 이름]이라는 두 가지 요소를 정의에 사용할 수 있습니다. 이러한 필드는 명명 규칙에 대해 정의한 모든 요소이며 포함된 세트의 이름을 지정하는 데 사용되는 규칙 부분을 식별합니다. 회사의 개별 명명 규칙은 이러한 각 요소에 대해 하나 이상의 정의 라인을 사용할 수 있습니다. 고유한 정의에 필요한 개수만큼 라인을 사용하고 기본 이미지, 색상 요소, 대체 보기 요소, 견본 요소 등의 특정 요소로 그룹화할 수 있습니다.
 
 ### 배치 집합 사전 설정 만들기 {#creating-a-batch-set-preset}
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1708'
-ht-degree: 33%
+source-wordcount: '1702'
+ht-degree: 30%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 33%
 
 * **업로드 시 자동으로 즉시 비디오 게시** - 비디오 업로드 프로세스의 일부로 Adobe Dynamic Media Classic은 비디오를 업로드하고 인코딩할 때 자동으로 게시할 수 있습니다. 즉시 게시하는 이 기능은 비디오를 나중에 별도로 게시할 필요가 없음을 의미합니다.
 
-* **비디오를 업로드 후 수동으로 게시** - 비디오를 즉시 게시하지 않으려는 경우 수동으로 언제든지 비디오를 게시할 수 있습니다.
+* **업로드 후 수동으로 비디오 게시** - 비디오를 즉시 게시하지 않으려면 언제든지 비디오를 수동으로 게시할 수 있습니다.
 
 비디오를 게시하면 Adobe Dynamic Media Classic에서 HTML 페이지 또는 애플리케이션 코드에 대한 URL 문자열을 활성화합니다.
 
@@ -52,7 +52,7 @@ ht-degree: 33%
 
 참조: [웹 페이지에 비디오 뷰어 포함](deploying-video-websites-mobile-sites.md#embedding_the_video_viewer_on_a_web_page).
 
-**비디오 URL을 모바일 사이트 또는 웹 사이트에 연결하려면:**
+**모바일 사이트 또는 웹 사이트에 비디오 URL을 연결하려면 다음 작업을 수행하십시오.**
 
 1. 에셋 찾아보기 패널의 **[!UICONTROL 표시]** 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 비디오]**, 또는 **[!UICONTROL 응용 비디오 집합]**.
 1. 왼쪽의 [자산 라이브러리] 패널에서 연결하려는 비디오 또는 적응형 비디오 집합이 들어 있는 자산 폴더로 이동합니다.
@@ -79,7 +79,7 @@ ht-degree: 33%
 
 참조: [모바일 사이트 또는 웹 사이트에 비디오 URL 연결](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website).
 
-**웹 페이지에 비디오 뷰어를 포함하려면:**
+**웹 페이지에 비디오 뷰어를 포함하려면 다음 작업을 수행하십시오.**
 
 1. 에셋 찾아보기 패널의 표시 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 비디오]**, 또는 **[!UICONTROL 응용 비디오 집합]**.
 1. 왼쪽의 [자산 라이브러리] 패널에서 포함 코드를 복사하려는 비디오나 적응형 비디오 집합이 들어 있는 자산 폴더로 이동합니다.
@@ -133,7 +133,7 @@ Adobe Dynamic Media Classic HTML5 비디오 플레이어를 사용하지 않고 
 
 Dynamic Media Classic 비디오 뷰어 대신 서드파티 비디오 플레이어 또는 사용자 지정 빌드 비디오 플레이어를 사용하는 경우 HLS 다중 비트 전송률 비디오 스트리밍 또는 점진적 다운로드에 작동하는 직접 비디오 URL을 가져옵니다.
 
-**타사 비디오 플레이어를 사용하여 비디오를 배포하려면:**
+**타사 비디오 플레이어를 사용하여 비디오를 배포하려면 다음을 수행하십시오.**
 
 1. Adobe Dynamic Media Classic의 전역 탐색 바에서 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]**.
 1. 사용할 URL 유형에 따라 다음 작업 중 하나를 수행하십시오.
@@ -187,7 +187,7 @@ Adobe Dynamic Media Classic은 업로드 프로세스 중에 비디오 썸네일
 
 다음을 참조하십시오 [비디오 뷰어 사전 설정 추가 또는 편집](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset).
 
-다음을 참조하십시오 [이미지 제공 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home.html?lang=en#image-serving-api).
+다음을 참조하십시오 [이미지 제공 안내서](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api).
 
 비디오 썸네일 URL에 수정자를 추가하여 비디오 썸네일을 수정할 수도 있습니다.
 

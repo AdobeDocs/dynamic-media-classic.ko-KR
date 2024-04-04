@@ -1,20 +1,18 @@
 ---
 title: 작업 파일 확인
 description: Adobe Dynamic Media Classic에서 작업 파일을 확인하는 방법을 알아봅니다.
-uuid: 8241a894-3014-4a5c-96ef-71f3aaa3716a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: d53ae5dd-8daf-4d87-b9a6-3039bad30538
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1619'
 ht-degree: 24%
 
 ---
@@ -89,7 +87,7 @@ Adobe Dynamic Media Classic에 대한 파일 업로드 및 Adobe Dynamic Media C
 
 >[!NOTE]
 >
->다음에서 작업 목록을 필터링할 수 있습니다. **[!UICONTROL 예약됨]** 이 있는 탭 **[!UICONTROL 작업 유형]** 및 **[!UICONTROL 표시]** 메뉴 아래의 제품에서 사용할 수 있습니다. 특정 종류의 작업을 게시하기 위해 목록의 범위를 좁힐 수 있도록 작업 유형을 선택합니다. 선택 **[!UICONTROL 표시]** 사용자가 만든 작업 또는 회사의 모든 사용자가 만든 작업을 표시하려는 경우 옵션입니다.
+>다음에서 작업 목록을 필터링할 수 있습니다. **[!UICONTROL 예약됨]** 이 있는 탭 **[!UICONTROL 작업 유형]** 및 **[!UICONTROL 표시]** 메뉴 아래의 제품에서 사용할 수 있습니다. 특정 종류의 작업을 게시하기 위해 목록의 범위를 좁힐 수 있도록 작업 유형을 선택합니다. 선택 **[!UICONTROL 표시]** 옵션을 사용하면 사용자가 만든 작업 또는 회사의 모든 사용자가 만든 작업을 표시할 수 있습니다.
 
 ### 반복 작업 편집, 삭제, 일시 중지 및 다시 시작 {#editing-deleting-pausing-and-resuming-recurring-jobs}
 

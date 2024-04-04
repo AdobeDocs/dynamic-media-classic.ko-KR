@@ -1,21 +1,19 @@
 ---
 title: Media Portal 사용자 추가 및 관리
 description: Adobe Dynamic Media Classic에서 Media Portal 사용자를 추가하고 관리하는 방법을 알아봅니다.
-uuid: 96d4103c-6428-4ce1-b9e4-231599304f27
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 5e933045-ce1a-41b9-ba8b-2151c396b7a2
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 58%
+source-wordcount: '1010'
+ht-degree: 54%
 
 ---
 
@@ -43,7 +41,7 @@ ht-degree: 58%
 
 1. 다음으로 이동 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 관리 설정]** > **[!UICONTROL 사용자 관리]**.
 1. 사용자 관리 페이지에서 을 선택합니다. **추가**.
-1. 사용자 추가 대화 상자의 사용자 정보 패널에서 사용자의 이름, 성 및 이메일 주소를 입력한 다음 을 선택합니다 **[!UICONTROL 다음]**.
+1. 다음에서 **[!UICONTROL `Add User`]** 대화 상자의 사용자 정보 패널에서 사용자의 이름, 성 및 이메일 주소를 입력한 다음 을 선택합니다 **[!UICONTROL 다음]**.
 1. [회사/역할] 패널의 [회사] 드롭다운 목록에서 사용자의 회사를 선택합니다.
 1. 역할 목록에서 Media Portal 역할을 선택한 다음 을 선택합니다 **[!UICONTROL 다음]**.
 
@@ -67,7 +65,7 @@ ht-degree: 58%
 
 사용자 정보가 포함된 CSV(쉼표로 구분된 값) 파일로 사용자 목록을 만듭니다. 목록을 업로드하면 목록에 있는 사용자가 지정된 그룹 지정과 함께 계정에 자동으로 추가됩니다. Media Portal 링크와 임시 암호가 포함된 환영 이메일이 새 사용자에게 각각 전송됩니다.
 
-### CSV 파일 만들기 {#creating-the-csv-file}
+### CSV 파일 만들기 {#create-the-csv-file}
 
 다음 형식과 필드를 준수하는 CSV 파일(filename.csv)을 만듭니다. 파일의 첫 번째 행에는 다음 표에 나열된 열 머리글이 포함되어야 합니다. 열 순서는 원하는 대로 변경할 수 있습니다. 모든 열이 필수입니다.
 
@@ -84,7 +82,7 @@ ht-degree: 58%
 
 | 이름 | 성 | 이메일 | 암호 | 사용자 역할 | 그룹 |
 |--- |--- |--- |--- |--- |--- |
-| 프레리 | 캣 | `prairiek@company.com` | 시작 | Media Portal 관리자 | PortalCo/IT,PortalCo/Admin |
+| 프레리 | 캣 | `prairiek@company.com` | 시작 | Media Portal 관리자 | PortalCo/IT, PortalCo/관리자 |
 | 릭 | Brough | `rickb@myco.com` | 시작 | Media Portal 사용자 | PortalCo/MktgGroup, PortalCo/test |
 
 ### CSV 파일 업로드 {#uploading-the-csv-file}
@@ -93,11 +91,11 @@ ht-degree: 58%
 1. 선택 **[!UICONTROL 사용자 목록 업로드]**.
 1. 업로드할 파일 선택 대화 상자에서 CSV 파일을 선택한 다음 를 선택합니다. **[!UICONTROL 열기]**.
 
-목록에 있는 각 사용자가 지정한 그룹에 자동으로 추가됩니다. 환영 이메일 메시지가 각 사용자에게 전송됩니다.
+목록의 각 사용자는 지정된 그룹에 자동으로 추가됩니다. 환영 이메일 메시지가 각 사용자에게 전송됩니다.
 
 >[!NOTE]
 >
->CSV 파일의 형식이 잘못된 경우 다음 오류 메시지가 표시됩니다. &quot;업로드된 CSV 파일을 처리하는 중 오류가 발생했습니다. 파일 컨텐츠에 유효한 데이터가 포함되어 있는지 확인하십시오.&quot; 또한 CSV에 기존 IP 또는 IPS 사용자가 포함되어 있는 경우 해당 사용자는 [사용자 목록]에 추가되지 않습니다.
+>CSV 파일의 형식이 올바르지 않은 경우, 다음 오류 메시지가 표시됩니다. &quot;업로드된 CSV 파일을 처리하는 동안 오류가 발생했습니다. 파일 내용에서 유효한 데이터를 확인하십시오.&quot; 또한 CSV에 기존 IP 또는 IPS 사용자가 포함되어 있는 경우 해당 사용자는 [사용자 목록]에 추가되지 않습니다.
 
 ## 선택 가능한 Media Portal 사용자 목록 생성 {#generating-a-selectable-list-of-media-portal-users}
 
@@ -115,7 +113,7 @@ Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 
 1. 사용자 관리 설정 화면에서 다음을 선택합니다. **[!UICONTROL 이메일 설정]**.
 1. [이메일 설정] 대화 상자에서 다음 중 원하는 설정을 지정합니다.
 
-   * **[!UICONTROL 이메일 보내기]** - 신규 사용자에게 등록한 이메일을 통해 알리지 않으려면 이 옵션을 선택 해제합니다.
+   * **[!UICONTROL 이메일 보내기]** - 이 옵션을 선택 해제하여 신규 사용자에게 전자 메일로 신규 사용자를 등록했음을 알립니다.
 
    * **[!UICONTROL 기본 암호]** - 새 사용자에 대한 임시 암호를 입력하거나 Adobe Dynamic Media Classic에서 무작위 암호를 생성하도록 필드를 비워 둡니다. 사용자는 처음 로그인할 때 암호를 변경하라는 메시지가 표시됩니다.
 

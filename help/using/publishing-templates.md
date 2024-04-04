@@ -1,21 +1,19 @@
 ---
 title: 템플릿 게시
 description: Adobe Dynamic Media Classic에서 템플릿을 게시하는 방법을 알아봅니다.
-uuid: 9b8e5b94-6958-4725-bcbc-5e6a9c4d1b02
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 87a5a25e-210b-4359-821a-7dfe8c304f9b
 feature: Dynamic Media Classic
 role: User
 exl-id: d4315312-195c-453d-a3aa-c5e9f9365fc7
 topic: Content Management
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
 source-wordcount: '172'
-ht-degree: 13%
+ht-degree: 11%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 13%
 >
 >템플릿을 사용하려면 글꼴과 이미지를 포함하여 템플릿을 만드는 데 사용된 모든 컨텐츠를 게시합니다. 필요한 파일을 모두 포함하지 않으면 게시할 때 오류 메시지가 표시됩니다.
 
-##  템플릿을 게시로 표시 {#marking-templates-for-publish}
+## 게시할 템플릿 표시 {#marking-templates-for-publish}
 
 템플릿 및 모든 지원 파일은 Dynamic Media 이미지 서버에 배치할 수 있도록 게시용으로 표시해야 합니다. 찾아보기 패널에서 다음 항목을 게시용으로 표시할 수 있습니다. **[!UICONTROL 게시로 표시]** 아이콘.
 

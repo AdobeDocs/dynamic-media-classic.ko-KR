@@ -1,20 +1,18 @@
 ---
 title: eCatalogs 및 관련 PDF 게시
 description: Adobe Dynamic Media Classic에서 eCatalogs 및 관련 PDF을 게시하는 방법을 알아봅니다.
-uuid: 6f2f2c79-921a-4096-8f80-24e69c8983fa
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 76e5732a-83c6-4e6b-a29f-a393b1c971aa
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '193'
 ht-degree: 21%
 
 ---
@@ -25,15 +23,15 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->게시하기 전에 eCatalog와 PDF이 동일한 폴더에 있고 찾아보기 패널 또는 에셋 세부 정보 페이지에 게시용으로 표시되어 있는지 확인하십시오.
+>게시하기 전에 eCatalog와 PDF이 동일한 폴더에 있고 찾아보기 패널 또는 에셋 세부 사항 페이지에 게시용으로 표시되어 있는지 확인하십시오.
 
 **전자 카탈로그 및 관련 PDF을 게시하려면**
 
 1. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]**.
-1. 게시 화면에서 다음을 선택합니다. **[!UICONTROL 일회]** 또는 **[!UICONTROL 반복]**.
+1. 게시 화면에서 다음을 선택합니다. **[!UICONTROL 일회]**&#x200B;또는 선택 **[!UICONTROL 반복]**.
 1. (선택 사항) 작업 이름 필드에 게시 작업의 이름을 입력하되 사전 정의된 날짜 및 시간 텍스트는 유지합니다.
 
-   뷰어가 키워드 검색을 수행할 수 있도록 eCatalog를 설정하는 경우 키워드 데이터가 게시되었는지 확인합니다. 게시 대화 상자에서 를 선택합니다. **[!UICONTROL 고급]**. 다음에서 **[!UICONTROL 게시]** 드롭다운 메뉴에서 다음을 선택합니다. **[!UICONTROL 검색 데이터를 포함한 전체]**. 이 선택 사항은 기본적으로 선택됩니다.
+   뷰어가 키워드 검색을 수행할 수 있도록 eCatalog를 설정하는 경우 키워드 데이터가 게시되었는지 확인합니다. 게시 대화 상자에서 다음을 선택합니다. **[!UICONTROL 고급]**. 다음에서 **[!UICONTROL 게시]** 드롭다운 메뉴에서 다음을 선택합니다. **[!UICONTROL 검색 데이터를 포함한 전체]**. 이 선택 사항은 기본적으로 선택됩니다.
 
 1. **[!UICONTROL [게시 제출]]**&#x200B;을 클릭합니다.
 

@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 6%
+source-wordcount: '219'
+ht-degree: 7%
 
 ---
 
 <!-- UPDATE THIS TOPIC AFTER DECEMBER 31, 2020!!!!! -->
 
-# Adobe Dynamic Media Classic에 로그인 {#dmc-sign-in}
+# Adobe Dynamic Media Classic에 로그인 {#dmc-signin}
 
 Adobe Dynamic Media Classic 데스크탑 애플리케이션을 사용하기 전에 다음 사항이 있는지 확인하십시오.
 

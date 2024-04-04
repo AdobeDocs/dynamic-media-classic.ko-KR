@@ -1,21 +1,19 @@
 ---
 title: 에셋 미리보기
 description: Adobe Dynamic Media Classic에서 에셋을 미리 보는 방법을 알아봅니다.
-uuid: 4a01be21-e37f-4d79-9220-f4e177e9179a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 17d0bfd6-fc62-4ed6-8a51-7ac1a6bb96cc
 feature: Dynamic Media Classic,Asset Management,Viewers
 role: User
 exl-id: 7e6f652c-b197-4171-b11b-f532795f7cf2
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 36%
+source-wordcount: '1004'
+ht-degree: 19%
 
 ---
 
@@ -29,9 +27,9 @@ ht-degree: 36%
 
 참조: [Adobe 뷰어 참조 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html).
 
-**자산을 미리 보려면:**
+**에셋을 미리 보려면 다음과 같이 하십시오.**
 
-1. 왼쪽의 자산 라이브러리 패널에서 미리 보려는 자산이 들어 있는 자산 폴더를 탐색합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 미리 보려는 에셋이 포함된 에셋 폴더로 이동합니다.
 1. 다음 중 하나를 수행합니다.
 
    * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 격자 보기]**.
@@ -47,13 +45,13 @@ ht-degree: 36%
 
 [뷰어 목록]을 사용하여 HTML5와 같은 특정 뷰어 플랫폼 유형에서 자산이 표시되는 방식을 미리 볼 수 있습니다. 자산 유형 및 미리 보기를 위해 선택한 관련 뷰어에 따라 [뷰어 목록]에서 일부 플랫폼을 사용하지 못할 수도 있습니다.
 
-[뷰어 목록]을 사용하여 뷰어 URL을 복사하거나 웹 페이지에 포함할 뷰어 코드를 보고 복사할 수도 있습니다.
+뷰어 목록을 사용하여 뷰어의 URL을 복사하거나 웹 페이지에 포함할 뷰어 코드를 보고 복사할 수도 있습니다.
 
 특정 뷰어 플랫폼의 경우 뷰어 목록 창을 사용하면 태블릿과 스마트폰 등 뷰어를 사용할 수 있는 장치를 시각적으로 확인할 수 있습니다.
 
-**뷰어 플랫폼 유형을 기준으로 자산을 미리 보려면:**
+**뷰어 플랫폼 유형에 따라 에셋을 미리 보려면 다음 작업을 수행하십시오.**
 
-1. 왼쪽의 자산 라이브러리 패널에서 미리 보려는 자산이 들어 있는 자산 폴더를 탐색합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 미리 보려는 에셋이 포함된 에셋 폴더로 이동합니다.
 1. 다음 중 하나를 수행합니다.
 
    * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 격자 보기]**. 에셋 창에서 단일 에셋을 선택한 다음 썸네일 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**.
@@ -65,7 +63,7 @@ ht-degree: 36%
 
    표시된 미리보기를 닫습니다.
 
-1. (선택 사항) [뷰어 목록] 창 하단에 있는 [URL 복사 생성용 URL 인코딩] 드롭다운 목록에서 복사할 때 자산 URL에 적용할 URL 인코딩을 선택합니다.
+1. (선택 사항) 뷰어 목록 창의 맨 아래에 있는 복사 URL 생성을 위한 URL 인코딩 드롭다운 목록에서 에셋이 복사될 때 해당 에셋의 URL에 적용할 URL 인코딩을 선택합니다.
 1. 다음 중 하나를 수행합니다(선택 사항).
 
    * 뷰어 목록 창의 테이블에 있는 작업 열에서 을 선택합니다 **[!UICONTROL URL 복사]** 선택한 뷰어 및 플랫폼 유형에 대해 설명합니다.
@@ -84,15 +82,15 @@ ht-degree: 36%
 
 이미지 사전 설정을 기준으로 이미지 자산을 미리 보고 각기 다른 크기로 웹 사이트나 애플리케이션에 동적으로 제공될 때 등의 이미지 모양을 확인할 수 있습니다.
 
-이미지 사전 설정은 이미지를 내보낼 때 크기, 이미지 품질, 형식, 해상도 및 이미지 모양의 기타 측면을 변경하는 사전 정의된 설정 모음입니다.
+이미지 사전 설정은 내보낼 때 이미지 모양의 크기, 이미지 품질, 형식, 해상도 및 기타 측면을 변경하는 사전 정의된 설정의 컬렉션입니다.
 
 다음을 참조하십시오 [이미지 사전 설정 설정](setting-image-presets.md#setting_up_image_presets).
 
 다음을 참조하십시오 [이미지 사전 설정 만들기 및 활성화](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
 
-**이미지 사전 설정을 기준으로 이미지 자산을 미리 보려면:**
+**이미지 사전 설정을 기반으로 이미지 에셋을 미리 보려면 다음 작업을 수행하십시오.**
 
-1. 왼쪽의 자산 라이브러리 패널에서 미리 보려는 이미지 자산이 들어 있는 자산 폴더를 탐색합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 미리 보려는 이미지 에셋이 포함된 에셋 폴더로 이동합니다.
 1. 다음 중 하나를 수행합니다.
 
    * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 격자 보기]**. 에셋 창에서 단일 이미지 에셋을 선택한 다음 썸네일 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**.

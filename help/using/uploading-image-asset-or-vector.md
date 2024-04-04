@@ -1,6 +1,6 @@
 ---
 title: 래스터 이미지 자산 업로드
-description: 래스터 이미지 에셋을 Adobe Dynamic Media Classic에 업로드하는 방법을 알아봅니다
+description: 래스터 이미지 에셋을 Adobe Dynamic Media Classic에 업로드하는 방법을 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 57%
+source-wordcount: '1010'
+ht-degree: 55%
 
 ---
 
@@ -120,7 +120,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 다음 `file_limit` 매개 변수는 파일 크기 제한(바이트)을 지정합니다. 다음 `file_exts` 매개 변수는 업로드에 허용되는 파일 이름 확장자를 지정합니다. 두 값은 모두 선택 사항입니다.
 
-허용되는 파일 이름 확장자와 파일 크기 제한에 대해 애플리케이션에서 글로벌 제한이 설정됩니다. 요청에 보내는 내용이 글로벌 제한의 하위 집합이면 허용됩니다. 글로벌 제한은 다음과 같습니다.
+허용되는 파일 이름 확장자와 파일 크기 제한에 대해 애플리케이션에서 글로벌 제한이 설정됩니다. 요청에서 보낸 내용이 전역 제한의 하위 세트인 경우 적용됩니다. 글로벌 제한은 다음과 같습니다.
 
 | 글로벌 제한 | 값 |
 | --- | --- |
@@ -138,9 +138,9 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 에서 녹아웃 배경 보기 [업로드 시 이미지 세부 조정 옵션](image-editing-options-upload.md#image-editing-options-at-upload).
 * 업로드할 파일의 이름입니다.
 
-을(를) 선택하여 위 양식과 연결된 HTML 소스 코드를 볼 수 있습니다. [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+을(를) 선택하여 위의 양식과 연결된 HTML 소스 코드를 볼 수 있습니다. [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
 
-Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭하고 를 선택합니다. **[!UICONTROL 페이지 소스 보기]**. 이 코드는 사용자가 선택할 때 실행되는 해당 URL 쿼리 문자열 및 POST 메서드를 보여 줍니다 **[!UICONTROL 제출]**.
+Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭하고 를 선택합니다. **[!UICONTROL 페이지 소스 보기]**. 이 코드는 해당 URL 쿼리 문자열과 사용자가 선택할 때 실행되는 POST 메서드를 보여 줍니다 **[!UICONTROL 제출]**.
 
 Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL 보기]** > **[!UICONTROL 소스]**. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 웹 개발자 도구]**. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 
@@ -237,7 +237,7 @@ URL 쿼리 문자열에 다음 필드를 사용하여 자산에 대한 정보를
 | URL 매개 변수 | 필수 또는 선택 사항 | 값 |
 | --- | --- | --- |
 | `op` | 필수 | image_info |
-| `shared_secret` | 필수 | 회사의 공유 보안 키입니다. |
+| `shared_secret` | 필수 | 회사의 공유 비밀인 키. |
 | `image_name` | 필수 | 이미지 이름입니다. |
 
 **샘플 URL:**

@@ -10,9 +10,9 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '666'
 ht-degree: 34%
 
 ---
@@ -47,13 +47,13 @@ ht-degree: 34%
 
 일반적으로 방문자는 먼저 확대/축소 아이콘을 선택하여 웹 사이트에서 이미지를 확대/축소합니다(종종 아이콘에 확대경의 이미지가 표시됨). 이 아이콘을 선택하면 팝업 창에서 이미지를 표시하는 동적 웹 페이지(ASP 또는 JSP)가 시작됩니다. 방문자는 실제로 이 팝업 창에서 이미지를 확대/축소합니다.
 
-자세한 내용 및 코드 샘플은 [Adobe 뷰어 참조 안내서의 HTML 5 기본 확대/축소 뷰어 포함](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+자세한 내용 및 코드 샘플은 [Adobe 뷰어 참조 안내서의 HTML 5 기본 확대/축소 뷰어 포함](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## 확대/축소 뷰어의 포함 복사본 복사 {#copying-the-embed-copy-of-a-zoom-viewer}
 
 임베드 코드 기능을 사용하면 선택한 확대/축소 뷰어의 뷰어 코드를 검토할 수 있습니다. 또한 뷰어 배포를 위해 코드를 클립보드로 복사하여 웹 페이지에 붙여넣을 수도 있습니다. 코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
 
-**확대/축소 뷰어의 임베드 코드를 복사하려면:**
+**확대/축소 뷰어의 포함 코드를 복사하려면 다음을 수행합니다.**
 
 1. 왼쪽의 [자산 라이브러리] 패널에서 임베드 코드를 복사하려는 확대/축소 뷰어가 들어 있는 자산 폴더를 탐색합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.

@@ -9,14 +9,14 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: a607488b6a1dd51ef7cc8c885db5a87f4f792aaa
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 31%
+source-wordcount: '716'
+ht-degree: 27%
 
 ---
 
-# 비디오에 캡션 추가 {#adding-captions-to-video}
+# 비디오에 캡션 추가 {#add-captions-to-video}
 
 단일 비디오나 적응형 비디오 집합에 캡션을 추가하여 비디오 사용을 세계 시장으로 확장할 수 있습니다. 캡션을 추가하면 여러 가지 각 언어로 오디오를 다시 녹음하기 위해 오디오를 더빙하거나 원어민이 투입될 필요가 없어집니다. 비디오는 녹음된 언어로 재생됩니다. 외국어 자막이 표시되기 때문에 다른 언어를 사용하는 사람들도 오디오를 이해할 수 있게 됩니다.
 
@@ -38,7 +38,7 @@ ht-degree: 31%
 
 Adobe Dynamic Media Classic은 캡션 파일을 JSON(JavaScript Object Notation) 형식으로 변환할 수 있습니다. 이 변환은 JSON 텍스트를 숨겨져 있지만 완전한 비디오의 스크립트로서 웹 페이지에 포함할 수 있음을 의미합니다. 그런 다음 검색 엔진은 콘텐츠를 크롤링하고 색인화하여 비디오를 보다 쉽게 검색하고 고객에게 비디오 콘텐츠에 대한 자세한 내용을 제공할 수 있습니다.
 
-다음을 참조하십시오 [정적(이미지가 아닌) 콘텐츠 제공](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents.html?lang=en#image-serving-api) 다음에서 *Adobe 이미지 제공 API 도움말* url에서 JSON 함수를 사용하는 방법에 대한 자세한 정보입니다.
+다음을 참조하십시오 [정적(이미지가 아닌) 콘텐츠 제공](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) 다음에서 *Adobe 이미지 제공 API 도움말* url에서 JSON 함수를 사용하는 방법에 대한 자세한 정보입니다.
 
 **비디오에 캡션을 추가하려면:**
 
@@ -52,7 +52,7 @@ Adobe Dynamic Media Classic은 캡션 파일을 JSON(JavaScript Object Notation)
 
    다음을 참조하십시오 [파일 업로드](uploading-files.md#uploading_files).
 
-1. 왼쪽의 [자산 라이브러리] 패널에서 업로드한 캡션 파일과 연결하려는 비디오 파일이 들어 있는 자산 폴더를 탐색합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 업로드한 캡션 파일과 연결할 비디오 파일이 포함된 에셋 폴더로 이동합니다.
 1. 에셋 찾아보기 패널에서 단일 비디오 에셋을 선택한 다음 에셋의 썸네일 이미지 아래에서 을(를) 선택합니다 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**.
 1. 뷰어 목록 테이블에서 이름이 인 HTML5 뷰어를 찾습니다 **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark**, 또는 **HTML Universal_Media5_MixedMedia_light**&#x200B;을 클릭하고 다음 중 하나를 수행합니다.
 

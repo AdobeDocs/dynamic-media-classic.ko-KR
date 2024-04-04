@@ -9,10 +9,10 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '2389'
-ht-degree: 34%
+source-wordcount: '2387'
+ht-degree: 33%
 
 ---
 
@@ -123,15 +123,15 @@ Adobe Dynamic Media Classic 및 이미지 제공에는 이미지 및 정적 콘�
 
 **접미어 예:**
 
-| URL | localeMap ID | 결과 |
-| --- | --- | --- |
-| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,|fr_FR,_FR,` | 정의된 전역 로케일이 없습니다. 로케일 매개 변수 de_DE는 `localeMap`. 첫 번째 해당 값 _DE가 자산 image_DE에 접미사로 추가되고 이미지 서버에서 찾으려고 시도합니다. 서버에 있는 경우, 반환됩니다. 그렇지 않으면 두 번째 값 &quot;&quot;이 접미사로 사용되어 이미지 자체가 반환됩니다. |
+| URL | localeMap ID | 결과 | 주의 |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image?locale=de_DE` | `de_DE,_DE,` | `fr_FR,_FR,` | 정의된 전역 로케일이 없습니다. 로케일 매개 변수 de_DE는 `localeMap`. 첫 번째 해당 값 _DE가 자산 image_DE에 접미사로 추가되고 이미지 서버에서 찾으려고 시도합니다. 서버에 있는 경우 반환됩니다. 그렇지 않으면 두 번째 값 &quot;&quot;이 접미사로 사용되어 이미지 자체가 반환됩니다. |
 
 **대체 예:**
 
-| URL | `GlobalLocale` 및 `localeMap` ID | 결과 |
-|--- |--- |--- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main|fr_FR,fr,main` | 위의 대체 예에서 GlobalLocale은 main으로 설정됩니다. 로케일 매개 변수 de_DE는 `localeMap`. GlobalLocale 하위 문자열을 찾아 첫 번째 해당 값으로 바꿉니다. `de` 다음에서 `localeMap`: `image-de-01`. 이미지 서버에 있는 경우, 반환됩니다. 그렇지 않으면 두 번째 값이 대체되어 `image-main-01`. |
+| URL | `GlobalLocale` 및 `localeMap` ID | 결과 | 주의 |
+| --- | --- | --- | --- |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | 위의 대체 예에서 GlobalLocale은 main으로 설정됩니다. 로케일 매개 변수 de_DE는 `localeMap`. GlobalLocale 하위 문자열을 찾아 첫 번째 해당 값으로 바꿉니다. `de` 다음에서 `localeMap`: `image-de-01`. 이미지 서버에 있는 경우 반환됩니다. 그렇지 않으면 두 번째 값이 대체되어 `image-main-01`. |
 
 URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 정의되어 있는 경우 DefaultLocale을 가져오고, URL에 적용합니다.
 

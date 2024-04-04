@@ -1,21 +1,19 @@
 ---
 title: Dynamic Media Classic 에셋 검색
 description: Adobe Dynamic Media Classic에서 에셋을 검색하는 방법을 알아봅니다.
-uuid: 058209bc-bac4-4d5c-8261-e242a543beaf
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: effef4e7-37c5-42e2-9266-ecd026cad628
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1510'
-ht-degree: 17%
+source-wordcount: '1511'
+ht-degree: 18%
 
 ---
 
@@ -79,7 +77,7 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
    1. 다음 항목 선택 **[!UICONTROL 필드 추가]** 드롭다운 메뉴를 클릭하고 필드 이름을 선택합니다.
    1. 선택 **[!UICONTROL 다음 포함]** 옵션: **[!UICONTROL 다음 포함]**, **[!UICONTROL 다음을 포함하지 않음]**, **[!UICONTROL 시작 문자]**, **[!UICONTROL 종료 문자]**, 또는 **[!UICONTROL 다음과 같음]**.
    1. 숫자 필드의 경우 값을 선택하거나 사용자 지정 날짜 범위를 입력합니다.
-   1. (선택 사항) 더 많은 검색 필드를 만들려면 1-4단계를 반복합니다.
+   1. (선택 사항) 1-4 단계를 반복하여 추가 검색 필드를 만듭니다.
 
 다음 항목 선택 **[!UICONTROL 검색 필드 제거]** 아이콘(안에 &quot;X&quot;가 있는 원)을 클릭하여 검색 필드를 삭제합니다.
 

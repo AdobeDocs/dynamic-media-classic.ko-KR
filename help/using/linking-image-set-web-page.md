@@ -10,10 +10,10 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 35%
+source-wordcount: '675'
+ht-degree: 33%
 
 ---
 
@@ -46,15 +46,15 @@ ht-degree: 35%
 
 ## 웹 페이지에 이미지 집합 URL 추가 {#adding-image-set-urls-to-your-web-page}
 
-이미지 세트를 배포하는 가장 일반적인 방법은 웹 페이지에 링크(탐색 아이콘 사용)를 배치하는 것입니다. 선택하면 링크가 팝업 확대/축소 창에 이미지 세트를 표시하는 JSP(동적 페이지)를 시작합니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
+이미지 세트를 배포하는 가장 일반적인 방법은 웹 페이지에 링크(탐색 아이콘 사용)를 배치하는 것입니다. 선택하면 링크가 팝업 확대/축소 창에 이미지 세트를 표시하는 JSP(동적 페이지)를 시작합니다. 확대/축소 링크를 클릭하면 실제 확대/축소 기능이 포함된 팝업 창이 열립니다.
 
-자세한 내용 및 코드 샘플은 [Adobe 뷰어 참조 안내서의 Embed HTML5 확대/축소 뷰어](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about.html#section-e1c3106f5b3e445d9b95be337c2f94e2).
+자세한 내용 및 코드 샘플은 [Adobe 뷰어 참조 안내서의 Embed HTML5 확대/축소 뷰어](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2).
 
 ## 이미지 집합 뷰어의 포함 코드 복사 {#copying-the-embed-code-of-an-image-set-viewer}
 
 임베드 코드 기능을 사용하면 선택한 이미지 집합의 뷰어 코드를 검토할 수 있습니다. 또한 뷰어 배포를 위해 코드를 클립보드로 복사하여 웹 페이지에 붙여넣을 수도 있습니다. 코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
 
-**이미지 집합 뷰어의 임베드 코드를 복사하려면:**
+**이미지 세트 뷰어의 포함 코드를 복사하려면 다음을 수행하십시오.**
 
 1. 에셋 찾아보기 패널의 표시 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 이미지 집합]**.
 1. 왼쪽의 [자산 라이브러리] 패널에서 임베드 코드를 복사하려는 이미지 집합이 들어 있는 자산 폴더를 탐색합니다.

@@ -1,6 +1,6 @@
 ---
 title: 파일 게시
-description: "Dynamic Media 이미지 서버에 자산을 게시하는 방법을 알아봅니다. 자산을 한 번만 게시하거나 Adobe Dynamic Media Classic에서 반복 일정에 자산을 게시하도록 예약할 수 있습니다. 자산이 게시되면 제공할 수 있습니다. Adobe Dynamic Media Classic에서 URL 호출을 복사하여 웹 사이트 또는 애플리케이션에 추가할 수 있습니다."
+description: Dynamic Media 이미지 서버에 자산을 게시하는 방법을 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: User
 exl-id: 91b73a09-c5b5-4001-b36f-6bebe65717ff
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1726'
-ht-degree: 36%
+source-wordcount: '1672'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 36%
 
 자산을 Dynamic Media 이미지 서버에 게시합니다. 자산을 한 번만 게시하거나 Adobe Dynamic Media Classic에서 반복 일정에 자산을 게시하도록 예약할 수 있습니다. 자산이 게시되면 제공할 수 있습니다. Adobe Dynamic Media Classic에서 URL 호출을 복사하여 웹 사이트 또는 애플리케이션에 추가할 수 있습니다.
 
-Adobe Dynamic Media Classic은 이제 HTTP/2를 통해 모든 이미지 및 비디오의 전달을 지원합니다. 즉, 이미지 또는 비디오에 대한 게시된 URL 또는 포함 코드를 호스팅된 에셋을 허용하는 모든 애플리케이션과 통합할 수 있습니다. 그런 다음 게시된 에셋은 HTTP/2 프로토콜을 통해 전달됩니다. 이 전달 방법은 브라우저와 서버의 통신 방식을 개선하여 모든 Adobe Dynamic Media Classic 에셋의 응답 및 로드 시간을 향상시킵니다. 다음을 참조하십시오 [컨텐츠의 HTTP2 전달 FAQ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/http2.html).
+Adobe Dynamic Media Classic은 이제 HTTP/2를 통해 모든 이미지 및 비디오의 전달을 지원합니다. 즉, 이미지 또는 비디오에 대한 게시된 URL 또는 포함 코드를 호스팅된 에셋을 허용하는 모든 애플리케이션과 통합할 수 있습니다. 그런 다음 게시된 에셋은 HTTP/2 프로토콜을 통해 전달됩니다. 이 전달 방법은 브라우저와 서버의 통신 방식을 개선하여 모든 Adobe Dynamic Media Classic 에셋의 응답 및 로드 시간을 향상시킵니다. 다음을 참조하십시오 [컨텐츠의 HTTP2 전달 FAQ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2).
 
 ## 업로드 후 게시 {#publish-after-uploading}
 
@@ -29,13 +29,13 @@ Adobe Dynamic Media Classic은 이제 HTTP/2를 통해 모든 이미지 및 비�
 
 자세한 내용은 [즉시 게시 알림 PDF](/help/using/assets/rendering-instant-publish-notification.pdf).
 
-다음 기술을 사용하여 자산을 게시로 표시합니다.
+게시할 자산을 표시하려면 다음 기술을 사용하십시오.
 
 * **[!UICONTROL 업로드 후 게시]** - 업로드 페이지의 맨 아래에서 **[!UICONTROL 업로드 후 게시]**. 기본값은 선택된 상태입니다.
 
 * **[!UICONTROL 업로드 후 게시]** - [작업 옵션] 대화 상자에서 **[!UICONTROL 업로드 후 게시]**. 기본값은 선택된 상태입니다.
 
-일부 &quot;하위&quot; 자산은 상위 자산을 게시로 표시할 때 자동으로 게시로 표시됩니다. 이 표에서는 자동으로 게시로 표시되는 하위 자산을 보여 줍니다.
+일부 &quot;하위&quot; 자산은 상위 자산을 게시로 표시할 때 자동으로 게시로 표시됩니다. 이 표에는 게시로 표시된 하위 자산이 자동으로 나열됩니다.
 
 | 상위(그룹) 항목 | 하위(구성원) 항목 |
 | --- | --- |
@@ -44,18 +44,18 @@ Adobe Dynamic Media Classic은 이제 HTTP/2를 통해 모든 이미지 및 비�
 | 회전 집합 | 세트 내 이미지. |
 | 템플릿 | 템플릿 파일, 페이지 및 이미지 |
 
-파생된 이미지의 상위 이미지가 게시될 때 파생된 이미지도 자동으로 게시용으로 표시됩니다. 파생 이미지에는 이미지 편집 선택 사항으로 조정한 이미지도 포함됩니다. 기본 및 파생 아래의 세부 사항 보기에서 이러한 파생된 이미지를 볼 수 있습니다.
+파생 이미지는 상위 이미지가 게시되는 동안 자동으로 게시용으로 표시됩니다. 파생 이미지에는 이미지 편집 선택 사항으로 조정한 이미지도 포함됩니다. 기본 및 파생 아래의 세부 사항 보기에서 이러한 파생된 이미지를 볼 수 있습니다.
 
 ## 게시 작업 만들기 {#creating-a-publish-job}
 
 Adobe Dynamic Media Classic 서버에 업로드했지만 아직 자동으로 게시하지 않으려는 자산을 게시하기 위한 게시 작업을 만듭니다. 1회 게시 작업을 수행하거나 작업이 정기적으로 반복되도록 예약할 수 있습니다. Adobe Dynamic Media Classic은 특정 서버에 게시하기 위한 고급 게시 옵션과 이미 게시된 에셋을 다시 게시하기 위한 옵션을 제공합니다.
 
-**게시 작업을 만들려면 다음 작업을 수행하십시오.**
+**게시 작업을 생성하려면 다음을 수행합니다.**
 
 1. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]**.
-1. [게시] 대화 상자에서, 게시 작업이 일회성인지 아니면 반복 게시 작업인지 선택합니다.
+1. 게시 대화 상자에서 1회 게시 작업을 원하는지 반복 게시 작업을 원하는지 선택합니다.
 
-   다음을 참조하십시오 [1회 게시 작업 만들기](publishing-files.md#creating_a_one_time_publish_job) 및 [반복 게시 작업 만들기](publishing-files.md#creating_a_recurring_publish_job).
+   다음을 참조하십시오 [일회성 게시 작업 만들기](publishing-files.md#creating_a_one_time_publish_job) 및 [반복 게시 작업 만들기](publishing-files.md#creating_a_recurring_publish_job).
 
 1. 작업 이름을 입력합니다.
 1. 선택적으로 [고급] 선택 사항을 표시하고 이러한 선택 사항을 선택합니다. 
@@ -68,19 +68,19 @@ Adobe Dynamic Media Classic은 작업 페이지에서 게시 작업을 추적합
 
 >[!NOTE]
 >
->다시 게시하는 자산(전에 게시한 자산)은 CDN(Content Delivery Network)의 웹 캐싱 메커니즘 때문에 웹 사이트에 즉시 표시되지 않습니다. [다시 게시한 자산 및 CDN 지연](publishing-files.md#republished_assets_and_cdn_delays)을 참조하십시오.
+>다시 게시한 자산(전에 게시한 자산)은 CDN(Content Delivery Network)의 웹 캐싱 메커니즘 때문에 웹 사이트에 즉시 표시되지 않습니다. [다시 게시한 자산 및 CDN 지연](publishing-files.md#republished_assets_and_cdn_delays)을 참조하십시오.
 
 ### 1회 게시 작업 만들기 {#creating-a-one-time-publish-job}
 
-다음을 선택하여 1회 게시 작업 만들기 **[!UICONTROL 일회]** 옵션을 선택할 수 있습니다.
+다음을 선택하여 일회성 게시 작업 만들기 **[!UICONTROL 일회]** 옵션을 선택할 수 있습니다.
 
-게시 작업을 나중에 수행하려면 게시 페이지에서 을 선택합니다. **[!UICONTROL 일회]**&#x200B;을 선택한 다음 을 선택합니다. **[!UICONTROL 나중으로 예약]** 을 클릭합니다. [달력] 및 [시간] 슬라이더를 사용하여 게시 작업을 실행할 날짜와 시간을 선택합니다.
+나중에 게시 작업을 수행하려면 게시 페이지에서 을 선택합니다. **[!UICONTROL 일회]**. 드롭다운 목록에서 을(를) 선택합니다 **[!UICONTROL 나중으로 예약]**. [달력] 및 [시간] 슬라이더를 사용하여 게시 작업을 실행할 날짜와 시간을 선택합니다.
 
 ### 반복 게시 작업 만들기 {#creating-a-recurring-publish-job}
 
 을(를) 선택하여 반복 게시 작업 만들기 **[!UICONTROL 반복]** 게시 페이지에서 참조할 수 있습니다.
 
-그런 다음 [반복] 옵션을 선택합니다. **[!UICONTROL 매일]**, **[!UICONTROL 매주]**, **[!UICONTROL 월별]**, 또는 **[!UICONTROL 사용자 정의]**&#x200B;그런 다음 게시 작업이 반복될 시기를 지정합니다. Adobe Dynamic Media Classic은 반복 게시 작업을 예약하기 위한 캘린더 도구를 제공합니다. 다음을 선택할 수 있습니다. **[!UICONTROL 사용자 정의]** 옵션을 선택하고 규칙 텍스트 필드에 규칙을 입력하여 사용자 정의 작업 간격을 설명합니다.
+그런 다음 [반복] 옵션을 선택합니다. **[!UICONTROL 매일]**, **[!UICONTROL 매주]**, **[!UICONTROL 월별]**, 또는 **[!UICONTROL 사용자 정의]**&#x200B;그런 다음 게시 작업이 반복될 시기를 지정합니다. Adobe Dynamic Media Classic은 반복 게시 작업 일정을 조정하는 캘린더 도구를 제공합니다. 다음을 선택할 수 있습니다. **[!UICONTROL 사용자 정의]** 옵션을 선택하고 규칙 텍스트 필드에 규칙을 입력하여 사용자 정의 작업 간격을 설명합니다.
 
 다음을 참조하십시오 [사용자 지정 업로드 또는 게시 작업 시간 간격 만들기](checking-job-files.md#creating_a_custom_upload_or_publish_job_time_interval).
 
@@ -90,13 +90,13 @@ Adobe Dynamic Media Classic은 작업 페이지에서 게시 작업을 추적합
 
 ### [고급] 게시 선택 사항 {#advanced-publish-options}
 
-게시 페이지의 [고급] 옵션을 표시하고 다음과 같은 게시 작업 처리 옵션을 선택합니다.
+게시 페이지에 고급 옵션을 표시하고 게시 작업을 처리하기 위해 다음 옵션을 선택할 수 있습니다.
 
 * **[!UICONTROL 게시 위치]** - 특정 서버에만 자산을 게시하려면 서버 유형을 선택합니다.
 
 * **[!UICONTROL 게시]** - 기본적으로 Adobe Dynamic Media Classic은 이전에 게시되지 않은 새 자산(마지막 게시 이후 새로 만들기 옵션)만 게시합니다. 그러나 다음을 선택할 수 있습니다. **[!UICONTROL 전체 게시]** 마지막으로 게시된 이후 업데이트 또는 변경된 에셋도 게시합니다. 선택 **[!UICONTROL 검색 데이터를 포함한 전체]** eCatalog를 게시하고 독자가 키워드로 검색할 수 있도록 하려는 경우.
 
-* **[!UICONTROL 다음으로 작업 실행]** - 목록에서 사용자 이름을 선택합니다. 작업 페이지에서 사용자 이름을 기준으로 작업을 정렬할 수 있습니다. 이름을 선택하여 게시 작업을 사용자에 연결합니다.
+* **[!UICONTROL 다음으로 작업 실행]** - 목록에서 사용자 이름을 선택합니다. 작업 페이지에서 사용자 이름을 기준으로 작업을 정렬할 수 있습니다. 이름을 선택하여 게시 작업을 사용자와 연관시킵니다.
 
 **[!UICONTROL HTTP 알림]** - 후속 게시 작업을 트리거할 URL을 입력합니다.
 
@@ -110,7 +110,7 @@ Adobe Dynamic Media Classic은 작업 페이지에서 게시 작업을 추적합
 
 >[!NOTE]
 >
->게시 작업을 취소하면 작업이 안전하게 중지될 수 있는 지점에 도달할 때까지 상태가 &quot;중지 중&quot;으로 변경됩니다. 게시 작업이 데이터베이스에서 데이터를 가져오는 중인 경우 게시 작업을 중지하는 데 시간이 걸릴 수 있습니다.
+>게시 작업을 취소하면 작업이 안전하게 중지될 수 있는 지점에 도달할 때까지 상태가 &quot;중지 중&quot;으로 변경됩니다. 데이터베이스에서 데이터를 가져오는 중인 경우 게시 작업을 중지하는 데 시간이 걸릴 수 있습니다.
 
 ## 자산 수동 게시 {#manually-publishing-assets}
 

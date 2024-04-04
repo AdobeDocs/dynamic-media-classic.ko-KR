@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '1985'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 ## 최신 릴리스의 수정 사항(20.22.1) {#release-jan2022}
 
-* 이미지 편집 **[!UICONTROL 저장]** 단추가 작동하지 않습니다.
+* 이미지를 편집할 때 **[!UICONTROL 저장]** 단추가 작동하지 않습니다.
 * 세트 편집기에서 **[!UICONTROL 닫기]**, **[!UICONTROL 저장]**, 및 **[!UICONTROL 다른 이름으로 저장]** 에서 에셋을 스크롤하면 버튼이 비활성화됨 **[!UICONTROL 에셋 추가]** 패널.
 * **[!UICONTROL 재생]** 비디오 세부 사항 보기의 단추가 작동하지 않았습니다.
 * 입력할 수 없음 `d` 및 `e` 위치: **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** macOS Monterey를 실행할 때 필드.
@@ -233,7 +233,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 ## Adobe Dynamic Media Classic 데스크탑 앱 사용에 대한 비디오 설명 {#dmc-app-video-walk-through}
 
-시청 [Adobe Dynamic Media Classic 데스크탑 앱 사용에 대한 비디오 둘러보기](https://experienceleague.adobe.com/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application.html#dynamic-media) (길이: 2분 36초).
+시청 [Adobe Dynamic Media Classic 데스크탑 앱 사용에 대한 비디오 둘러보기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media) (길이: 2분 36초).
 
 ## 데스크탑 앱을 사용하여 컴퓨터의 이미지 캐시 및 자산 캐시를 지우는 중 {#clear-cache}
 

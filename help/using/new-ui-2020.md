@@ -1,6 +1,6 @@
 ---
 title: Adobe Dynamic Media Classic 데스크탑 앱
-description: 이제 Adobe Dynamic Media Classic 사용자는 사용자 인터페이스를 완전히 새로 고칠 수 있습니다. 경험은 중요한 리소스에 대한 링크가 포함된 업데이트된 로그인을 제공하며 이 업데이트는 더 이상 브라우저의 Adobe Flash 기술에 의존하지 않습니다.
+description: 이제 Adobe Dynamic Media Classic 사용자는 사용자 인터페이스를 완전히 새로 고칠 수 있습니다.
 contentOwner: rbrough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -9,9 +9,9 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1054'
 ht-degree: 0%
 
 ---
@@ -94,9 +94,9 @@ Windows®에서 새 Adobe Dynamic Media Classic 데스크탑 앱을 사용할 �
 +++**_저는 저의 리치 미디어 전략을 최적화하고 있는지 확인하고 싶습니다. Adobe Dynamic Media Classic에 대해 어떻게 더 많이 알 수 있습니까?_**
 Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설계된 강력하고 다양한 기능을 갖춘 솔루션입니다. 모든 기능을 활용하려면 다음과 같은 실용적인 리소스를 살펴보십시오.
 
-* [Adobe Dynamic Media Classic 우수 사례 자습서](https://experienceleague.adobe.com/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview.html)
+* [Adobe Dynamic Media Classic 우수 사례 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Adobe 블로그 게시물](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Dynamic Media 뉴스레터 아카이브 Adobe](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/dynamic-media-newsletter.html)
+* [Dynamic Media 뉴스레터 아카이브 Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
 <!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->

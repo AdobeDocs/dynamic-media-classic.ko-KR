@@ -1,6 +1,6 @@
 ---
 title: "빠른 시작: Adobe Dynamic Media Classic 및 Adobe Analytics 통합"
-description: Adobe Dynamic Media Classic과 Adobe Analytics을 통합하여 신속하게 시작하고 실행할 수 있는 방법에 대한 소개 및 빠른 시작입니다.
+description: Adobe Dynamic Media Classic 및 Adobe Analytics 통합 방법에 대한 소개 및 빠른 시작입니다.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 26%
+source-wordcount: '682'
+ht-degree: 24%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Analytics을 Adobe Dynamic Media Classic과 통합하면 웹 사이트에�
 
 Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명확하게 파악할 수 있습니다. 어떤 제품 프레젠테이션이 전환을 유도하고 어떤 것이 고객의 관심을 끌지 못하는지 결정할 수 있습니다.
 
-참조: [Adobe Analytics에서 비디오 측정](https://experienceleague.adobe.com/docs/media-analytics/using/media-overview.html).
+참조: [Adobe Analytics에서 비디오 측정](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
 
 >[!NOTE]
 >
@@ -60,7 +60,7 @@ Adobe Analytics 구성에서는 뷰어 이벤트를 활성화, 편집 및 삭제
 
 ## 3. Adobe Dynamic Media Classic 뷰어 게시
 
-Adobe Dynamic Media Classic 뷰어를 게시하여 뷰어(Adobe Analytics 보고서에서 사용자 활동을 추적하는 코드와 함께)가 Adobe Dynamic Media Classic 서버에 로드되도록 합니다. 게시하면 이 정보가 뷰어에 포함되며 Adobe Analytics의 분석에 사용될 수 있습니다.
+Adobe Dynamic Media Classic 뷰어를 게시하여 뷰어(Adobe Analytics 보고서에서 사용자 활동을 추적하는 코드와 함께)가 Adobe Dynamic Media Classic 서버에 로드되도록 합니다. 이 정보는 게시 후 뷰어에 포함되며 Adobe Analytics의 분석에 사용할 수 있습니다.
 
 다음을 참조하십시오 [구성 정보 게시](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 

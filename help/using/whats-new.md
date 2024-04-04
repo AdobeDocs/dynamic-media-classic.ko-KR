@@ -10,13 +10,13 @@ role: Admin,User
 exl-id: 94cfb748-30f9-4a8b-9576-3b4775964d04
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '52'
-ht-degree: 3%
+source-wordcount: '45'
+ht-degree: 0%
 
 ---
 
 # 새로운 기능 {#what-s-new}
 
-새로운 기능, 개선 사항 및 수정 사항을 포함한 최신 Adobe Dynamic Media Classic 릴리스 정보를 검토하려면 다음을 참조하십시오. [Adobe Dynamic Media Classic 릴리스 노트](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources/release-notes/s7rn2017.html).
+새로운 기능, 개선 사항 및 수정 사항을 포함한 최신 Adobe Dynamic Media Classic 릴리스 정보를 검토하려면 다음을 참조하십시오. [Adobe Dynamic Media Classic 릴리스 노트](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017).

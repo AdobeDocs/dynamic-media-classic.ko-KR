@@ -1,19 +1,17 @@
 ---
 title: 관리 설정
 description: Adobe Dynamic Media Classic의 관리 영역을 설정하는 방법을 알아봅니다.
-uuid: 16ba9fed-b5c6-4991-83b3-8d7d7129013a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 3c9ee4ec-dd37-498d-98d6-1339b80177ff
 feature: Dynamic Media Classic
 role: Admin
 exl-id: 14e3d8be-f265-4cec-aa8e-19ef71526b68
 topic: Administration
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1971'
 ht-degree: 33%
 
 ---
@@ -66,11 +64,11 @@ Adobe Dynamic Media Classic은 여러 사용자 역할을 지원합니다. 이�
 
    새 사용자를 추가하면 환영 이메일이 전송됩니다. 이메일은 임시 암호를 제공하며 Adobe Dynamic Media Classic에 로그인하는 방법을 설명합니다.
 
-   시작 이메일을 받지 못한 사용자는 Adobe Dynamic Media Classic 로그인 페이지(https://s7sps1.scene7.com)로 이동하여 **[!UICONTROL 암호 분실]**. 암호가 재설정되고 새 이메일이 전송됩니다. 사용자가 이메일을 받지 못하고 스팸 폴더에도 없는 경우 기술 지원에 문의하십시오.
+   사용자가 시작 이메일을 받지 못한 경우 Adobe Dynamic Media Classic 로그인 페이지(https://s7sps1.scene7.com)로 이동하여 **[!UICONTROL 암호 분실]**. 암호가 재설정되고 새 이메일이 전송됩니다. 사용자가 이메일을 받지 못하고 스팸 폴더에도 없는 경우 기술 지원에 문의하십시오.
 
    새 Media Portal 사용자를 추가할 때 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 사용자 관리]**&#x200B;을 선택한 다음 을 선택합니다. **[!UICONTROL 사용자 목록 업로드]** 500명 이하의 사용자가 포함된 .csv 파일을 선택하십시오.
 
-### 사용자 삭제 {#deleting-a-user}
+### 사용자 삭제 {#delet-a-user}
 
 사용자를 유효하지 않은 상태로 만들어 Adobe Dynamic Media Classic에서 삭제할 수 있습니다. 무효 사용자는 시스템과 모든 계정에서 제거됩니다.
 
