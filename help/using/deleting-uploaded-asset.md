@@ -1,26 +1,24 @@
 ---
 title: 업로드된 래스터 이미지 에셋 삭제
 description: Adobe Dynamic Media Classic에서 업로드된 에셋을 삭제하는 방법을 알아봅니다.
-uuid: edd2b688-c377-4be1-ba16-d2dd2e6f716d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: dd338c8c-06c6-44d5-8493-dc2087eeeafb
 feature: Dynamic Media Classic
 role: User
 exl-id: d845bcb2-f914-4727-8df2-049dc172f266
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '131'
-ht-degree: 52%
+source-wordcount: '136'
+ht-degree: 34%
 
 ---
 
-# 업로드한 자산을 삭제합니다{#deleting-an-uploaded-asset}
+# 업로드된 자산 삭제{#deleting-an-uploaded-asset}
 
-다음 형식으로 `delete` 매개 변수를 사용하여 자산을 삭제할 수 있습니다.
+다음을 사용할 수 있습니다. `delete` 자산을 삭제할 이 형식의 매개 변수:
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif
@@ -49,7 +47,7 @@ URL 쿼리 문자열에 다음 필드를 사용하여 자산을 삭제할 수 �
 | URL 매개 변수 | 필수/선택 | 값 |
 | --- | --- | --- |
 | `op` | 필수 | 삭제 |
-| `shared_secret` | 필수 | 회사의 공유 보안 키입니다. |
+| `shared_secret` | 필수 | 회사의 공유 비밀인 키. |
 | `image_name` | 필수 | 삭제할 자산 이름입니다. |
 
 <!-- <li>For Vector:fxg_name</li> -->

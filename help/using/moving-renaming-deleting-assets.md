@@ -1,21 +1,19 @@
 ---
 title: 에셋 이동, 이름 변경 및 삭제
 description: Adobe Dynamic Media Classic에서 에셋을 이동하고, 이름을 변경하고, 삭제하는 방법에 대해 알아봅니다.
-uuid: deff6521-0ad0-4db9-b4e0-e3211ff97740
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 1c9e29f0-3083-4d22-a439-2a01faf59683
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 31%
+source-wordcount: '619'
+ht-degree: 28%
 
 ---
 
@@ -45,7 +43,7 @@ ht-degree: 31%
 
 찾아보기 패널에서 선택한 에셋을 삭제하고 전체 폴더를 삭제할 수 있습니다. 삭제한 자산과 폴더는 휴지통 폴더로 이동되며, 여기서 영구적으로 삭제되기 전에 7일 동안 유지됩니다.
 
-자산을 삭제하면 이 자산에서 파생된 모든 자산도 삭제됩니다. 예를 들어 확대/축소 타겟을 만든 이미지를 삭제하면 이미지와 함께 확대/축소 타겟도 삭제됩니다.
+에셋을 삭제하면 에셋에서 파생된 모든 에셋도 삭제됩니다. 예를 들어 확대/축소 타겟을 만든 이미지를 삭제하면 이미지와 함께 확대/축소 타겟도 삭제됩니다.
 
 확대/축소 타겟, 이미지 특성 및 내역 항목은 이 항목이 파생된 자산을 삭제할 때 영구적으로 삭제됩니다. 자산과 함께 휴지통 폴더로 이동되지 않으며 휴지통에서 복원할 수 없습니다.
 
@@ -73,7 +71,7 @@ Adobe Dynamic Media Classic ID 목록을 만들고 텍스트(.txt) 파일로 저
 목록을 만든 후 다음 단계를 수행하여 자산을 삭제하는 데 사용합니다.
 
 1. 다음으로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 자산 목록 삭제]**.
-1. 에셋 목록 삭제 대화 상자에서 삭제할 에셋 목록이 있는 텍스트 파일의 경로를 찾아보거나 입력합니다.
+1. 다음에서 **[!UICONTROL 삭제된 자산 목록]** 삭제할 자산 목록이 있는 텍스트 파일의 경로를 찾아보거나 입력합니다.
 1. 선택 **[!UICONTROL 삭제]**.
 
 텍스트 파일이 있는 에셋을 삭제할 때 목록에 Adobe Dynamic Media Classic ID가 없으면 &quot;목록에 있는 이러한 항목의 유효성을 검사할 수 없습니다.&quot;라는 메시지가 표시됩니다. 항목 목록도 표시됩니다. 단, Adobe Dynamic Media Classic에서는 작업 페이지에 오류가 발생하지 않습니다.

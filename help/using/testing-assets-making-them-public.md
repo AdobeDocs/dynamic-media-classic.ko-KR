@@ -1,21 +1,19 @@
 ---
 title: 공개하기 전에 자산 테스트
 description: 공개하기 전에 Adobe Dynamic Media Classic에서 자산을 테스트하는 방법을 알아봅니다.
-uuid: 5e8f3bec-6cf1-408e-8ea1-aebde0012a70
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/upload_and_publish_assets
-discoiquuid: 52fadf99-7d11-46f7-8483-a9f87ffc2f67
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 31%
+source-wordcount: '1060'
+ht-degree: 23%
 
 ---
 
@@ -41,7 +39,7 @@ ht-degree: 31%
 
 기업 네트워크에서 다음과 같은 웹 사이트를 사용하여 공개 IP 주소를 파악할 수 있습니다. [https://www.whatismyip.com](https://www.whatismyip.com/) 또는 기업 IT 조직에 이 정보를 요청하십시오.
 
-Adobe Dynamic Media Classic은 보안 테스트를 통해 스테이징 환경 또는 내부 애플리케이션을 위한 전용 이미지 서버를 구축합니다. 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록에 없는 경우 실패 응답이 반환됩니다. Adobe Dynamic Media Classic 회사 관리자는 회사의 보안 테스트 환경에 대해 승인된 IP 주소 목록을 구성합니다.
+Adobe Dynamic Media Classic은 보안 테스트를 통해 스테이징 환경 또는 내부 애플리케이션을 위한 전용 이미지 서버를 구축합니다. 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록 내에 없는 경우 실패 응답이 반환됩니다. Adobe Dynamic Media Classic 회사 관리자는 회사의 보안 테스트 환경에 대해 승인된 IP 주소 목록을 구성합니다.
 
 원본 요청의 위치를 확인해야 하므로 보안 테스트 서비스의 트래픽은 공용 Dynamic Media 이미지 서버 트래픽과 같은 컨텐츠 배포 네트워크를 통해 라우팅되지 않습니다. 보안 테스트 서비스에 대한 요청은 공개 Dynamic Media 이미지 서버에 비해 대기 시간이 약간 더 깁니다.
 
@@ -59,7 +57,7 @@ Comment Type: remark
 Last Modified By: unknown unknown 
 Last Modified Date: 
 
-<p>Added videos to list below 9/11/2012. Moved “Render Server requests” from unsupported to supported, listed below on 3/15/2016 as per email from Cynthia March 11, 2016)</p>
+<p>Added videos to list below 9/11/2012. Moved "Render Server requests" from unsupported to supported, listed below on 3/15/2016 as per email from Cynthia March 11, 2016)</p>
 
  -->
 
@@ -100,13 +98,13 @@ Comment Type: remark
 Last Modified By: unknown unknown 
 Last Modified Date: 
 
-<p>RB: Rewrote entire steps under “Prepare your account” 9/10/2012</p>
+<p>RB: Rewrote entire steps under "Prepare your account" 9/10/2012</p>
 
  -->
 
 1. Adobe 고객 지원 센터에 문의하여 계정에서 보안 테스트를 사용하도록 요청하십시오.
 1. Adobe Dynamic Media Classic의 전역 탐색 바에서 **[!UICONTROL 설정]** > **[!UICONTROL 게시 설정]** > **[!UICONTROL 이미지 서버]**.
-1. 이미지 서버 게시 페이지의 **[!UICONTROL 게시 컨텍스트]** 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 이미지 제공 테스트]**.
+1. 이미지 서버 게시 페이지의 **[!UICONTROL `Publish Context`]** 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 이미지 제공 테스트]**.
 1. 클라이언트 주소 필터에서 **[!UICONTROL 추가]**.
 1. 주소를 활성화(설정)하도록 확인란을 선택한 다음 각 텍스트 필드에 IP 주소와 네트워크 마스크를 입력합니다.
 
@@ -122,7 +120,7 @@ Last Modified Date:
 
    다음을 참조하십시오 [파일 업로드](uploading-files.md#uploading_files).
 
-1. 일부 이미지는 게시로 표시되고 다른 이미지는 표시되지 않았는지 확인한 다음 게시 작업을 전송합니다.
+1. 일부 이미지는 게시용으로 표시되어 있고 다른 이미지는 표시 해제되어 있는지 확인한 다음 게시 작업을 제출하십시오.
 
    다음을 참조하십시오 [파일 게시](publishing-files.md#publishing_files).
 
@@ -148,8 +146,8 @@ Last Modified Date:
 
    사이트의 공개 버전에 Adobe Dynamic Media Classic에서 이전에 경험한 대로 게시된 자산이 표시되는지 확인합니다.
 
-1. 회사 네트워크의 외부에서 게시되지 않은 자산(즉, 게시로 표시되지 않음)은 제 3자의 액세스로부터 보호됩니다.
+1. 회사 네트워크 외부에서 게시되지 않은 자산(즉, 게시용으로 표시되지 않은 자산)이 서드파티 액세스로부터 보호되는지 확인합니다.
 
-   외부(예: 가정의 컴퓨터 또는 3G 연결)에서 네트워크에 액세스한 다음 사이트의 공개 버전이 모든 게시된 자산을 표시하고 게시되지 않은 컨텐츠는 표시하지 않는지 확인합니다.
+   외부(예: 홈 컴퓨터 또는 3G 연결을 통해)에서 네트워크에 액세스한 다음 사이트의 공개 버전에 게시된 자산이 모두 표시되지만 게시되지 않은 컨텐츠는 표시되지 않는지 확인하십시오.
 
    승인되지 않은 IP 주소에서 보안 테스트 서비스에 액세스 중이기 때문에 스테이징 버전이 모든 자산을 표시하지 않는지 확인합니다.

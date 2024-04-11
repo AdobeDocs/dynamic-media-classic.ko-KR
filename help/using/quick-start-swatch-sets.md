@@ -1,21 +1,19 @@
 ---
 title: "빠른 시작: 견본 집합"
 description: Adobe Dynamic Media Classic에서 빠르게 시작하고 실행하는 데 도움이 되는 소개 및 빠른 견본 집합 시작.
-uuid: 6f8a95e8-e82a-477f-9f21-d2b7b511f8ae
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-discoiquuid: 1ea70fdf-3cbd-409c-ae7d-06286c99c6ac
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: b0c345dc-539f-4b03-a873-091681e2f2c2
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 18%
+source-wordcount: '404'
+ht-degree: 17%
 
 ---
 
@@ -51,7 +49,7 @@ Adobe Dynamic Media Classic 견본 세트는 사용자에게 통합된 보기 �
 
 견본 집합을 게시하면 Adobe Dynamic Media Classic 서버에 견본 집합이 배치되고 URL 문자열이 활성화됩니다.
 
-다음 항목 선택 **[!UICONTROL 게시로 표시]** [찾아보기] 패널에서 이름 왼쪽에 있는 아이콘. 그런 다음 을 선택합니다. **[!UICONTROL 게시]**. 게시 페이지에서 을 선택합니다. **[!UICONTROL 게시 제출]**.
+다음 항목 선택 **[!UICONTROL 게시로 표시]** [찾아보기] 패널에서 이름 왼쪽에 있는 아이콘. 그런 다음 을 선택합니다 **[!UICONTROL 게시]**. 게시 페이지에서 를 선택합니다. **[!UICONTROL 게시 제출]**.
 
 다음을 참조하십시오 [파일 게시](publishing-files.md#publishing-files).
 

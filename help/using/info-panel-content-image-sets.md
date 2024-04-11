@@ -10,16 +10,16 @@ role: User
 exl-id: 09fafdb4-51e2-4719-83b6-056f79d1ba9e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '769'
-ht-degree: 51%
+ht-degree: 45%
 
 ---
 
 # 이미지 세트의 정보 패널 컨텐츠 관리{#managing-info-panel-content-in-image-sets}
 
-이미지 집합에 롤오버의 이미지 맵 텍스트를 사용하는 것은 물론 정보 패널을 사용하여 링크를 비롯한 많은 롤오버 텍스트를 추가할 수도 있습니다. 시간 지정 캐싱과 컨텐츠 업데이트 예약을 사용하여 정보 패널을 관리할 수도 있습니다.
+이미지 집합에 롤오버의 이미지 맵 텍스트를 사용하는 것은 물론 정보 패널을 사용하여 링크를 비롯한 많은 롤오버 텍스트를 추가할 수도 있습니다. 시간 캐싱과 콘텐츠 업데이트 일정을 사용하여 정보 패널을 관리할 수도 있습니다.
 
 Adobe Dynamic Media Classic에서 다음 기능을 사용하여 정보 패널 설정 및 데이터를 관리할 수 있습니다.
 
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic에서 다음 기능을 사용하여 정보 패널 �
    * 하루 종일 데이터가 자주 업데이트되는 경우 더 작은 숫자를 설정합니다.
    * 데이터가 비교적 안정적이며 하루 종일 자주 업데이트할 필요가 없는 경우 더 큰 숫자를 설정합니다. 기본값은 10시간입니다.
 
-1. 선택 **[!UICONTROL 업로드]** rollover_key 값을 기반으로 정보 패널 컨텐츠를 s7info에 업로드합니다.
+1. 선택 **[!UICONTROL 업로드]** rollover_key 값에 따라 정보 패널 컨텐츠를 s7info에 업로드합니다.
 1. S7Info 업로드 대화 상자에서 사용할 파일을 찾은 다음 을 선택합니다 **[!UICONTROL 업로드]**.
 
    지원되는 파일 형식은 UTF-16 인코딩을 사용하는 탭으로 구분된 파일 및 ASCII 인코딩을 사용하는 CSV 파일입니다. CSV 파일의 경우 ASCII 이외의 문자는 HTML로 인코딩해야 합니다.
@@ -55,7 +55,7 @@ Adobe Dynamic Media Classic에서 다음 기능을 사용하여 정보 패널 �
 
 ## 이미지 세트의 정보 패널에 대한 소스 컨텐츠 가져오기 {#import-source-content-for-the-info-panel-in-image-sets}
 
-이미지 집합의 정보 패널 소스 텍스트에 CSV(쉼표로 구분된 값) 파일(ASCII 인코딩, ASCII 이외의 문자는 HTML로 인코딩해야 함) 또는 탭으로 구분된 파일을 사용할 수 있습니다. 탭으로 구분된 파일은 UTF-16(유니코드) 인코딩을 사용해야 합니다. 각 파일 유형을 서로 다른 방법으로 가져옵니다.
+ASCII 인코딩(ASCII 문자가 아닌 문자는 HTML 인코딩해야 함)이 있는 CSV(쉼표로 구분된 값) 파일이나 이미지 세트의 정보 패널에 대한 소스 텍스트에 탭으로 구분된 파일을 사용할 수 있습니다. 탭으로 구분된 파일은 UTF-16(유니코드) 인코딩을 사용해야 합니다. 각 파일 유형을 서로 다른 방법으로 가져옵니다.
 
 소스 컨텐츠 형식을 지정할 때는 다음 지침에 주의하십시오.
 

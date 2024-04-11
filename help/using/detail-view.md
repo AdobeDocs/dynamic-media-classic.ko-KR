@@ -1,20 +1,18 @@
 ---
 title: 세부 사항 보기의 작업
 description: Adobe Dynamic Media Classic의 상세 보기에서 작업하는 방법을 알아봅니다.
-uuid: cb62f765-9b7f-4a53-8206-99afae2fb80d
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: eaa214ff-d1ef-4691-9148-d01bf243c810
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '617'
 ht-degree: 20%
 
 ---
@@ -56,15 +54,15 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 ## 세부 사항 보기의 정보 가져오기 {#getting-information-in-detail-view}
 
-세부 사항 보기는 에셋 또는 파일에 대한 정보를 제공합니다. 이 목록에는 항목이 저장된 폴더, 해당 파일 이름, 항목이 Adobe Dynamic Media Classic에 업로드된 날짜 및 게시 기록과 같은 항목에 대한 정보가 표시됩니다. 세부 사항 보기에서 메타데이터를 보고 편집하고 에셋의 키워드를 추가할 수도 있습니다.
+세부 사항 보기는 에셋 또는 파일에 대한 정보를 제공합니다. 이 정보는 항목이 저장된 폴더, 해당 파일 이름, 항목이 Adobe Dynamic Media Classic에 업로드된 날짜 및 게시 기록과 같은 항목에 대해 표시됩니다. 세부 사항 보기에서 메타데이터를 보고 편집하고 에셋의 키워드를 추가할 수도 있습니다.
 
-세부 사항 보기의 자산 URL은 가져올 수 있지만 자산을 게시하기 전까지는 해당 URL이 활성화되지 않습니다. 이미지의 경우 세부 사항 보기는 확대/축소 대상 및 이미지 세트와 같은 빌드 및 파생된 에셋과 메타데이터 목록도 제공합니다.
+세부 사항 보기의 자산 URL은 가져올 수 있지만 자산을 게시하기 전까지는 해당 URL이 활성화되지 않습니다. 이미지의 경우 세부 사항 보기는 확대/축소 대상 및 이미지 집합과 같은 기본 및 파생된 에셋 및 메타데이터 목록도 제공합니다.
 
 ## 세부 사항 보기의 자산 작업 {#working-with-assets-in-detail-view}
 
 세부 사항 보기는 연 에셋 작업을 위한 도구를 제공합니다. 사용할 수 있는 도구는 작업 중인 에셋 유형에 따라 다르지만 세부 사항 보기는 항상 다음 기능을 제공합니다.
 
-* **게시할 항목** - 다음을 선택합니다. **[!UICONTROL 게시]** 아이콘 을 클릭하여 다른 이름으로 이동합니다. **[!UICONTROL 파일]** > **[!UICONTROL 게시]** 또는 **[!UICONTROL 파일]** > **[!UICONTROL 게시 취소]**.
+* **게시할 항목** - 다음을 선택합니다. **[!UICONTROL `Publish`]** 아이콘 을 클릭하여 다른 이름으로 이동합니다. **[!UICONTROL 파일]** > **[!UICONTROL 게시]** 또는 **[!UICONTROL 파일]** > **[!UICONTROL 게시 취소]**.
 
 * **에셋 이름 바꾸기** - 이름을 선택하고 새 이름을 입력합니다.
 

@@ -1,20 +1,18 @@
 ---
 title: 자산 폴더 작업
 description: Adobe Dynamic Media Classic에서 에셋 폴더를 사용하여 작업하는 방법을 알아봅니다.
-uuid: 3bd83701-e2c2-4e39-b225-c2d27ad836c2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 588944c3-78ba-4bd1-a8da-9a6dd99a27a9
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '449'
 ht-degree: 39%
 
 ---
@@ -41,10 +39,10 @@ Adobe Dynamic Media Classic의 파일 자산은 폴더에 보관됩니다. 이�
 >
 >을 선택하여 에셋 라이브러리를 숨기거나 표시할 수 있습니다. **[!UICONTROL 확장]** 또는 **[!UICONTROL 접기]** 왼쪽의 컨트롤입니다. 찾아보기 패널에서 작업 공간을 늘려야 하는 경우 자산 라이브러리 패널을 축소합니다.
 
-## 폴더 만들기 {#creating-folders}
+## 폴더 만들기
 
 1. 자산 라이브러리에서 폴더를 만들 폴더를 선택합니다.
-1. 다음 항목 선택 **[!UICONTROL 폴더 추가]** 단추를 클릭합니다. 이 아이콘은 폴더 목록의 맨 위에 있습니다.
+1. 다음 항목 선택 **[!UICONTROL `Add Folder`]** 단추를 클릭합니다. 이 아이콘은 폴더 목록의 맨 위에 있습니다.
 1. 폴더 아이콘 옆에 있는 필드에 입력하여 새 폴더나 하위 폴더를 수사적 이름을 입력합니다.
 
    >[!NOTE]
@@ -55,7 +53,7 @@ Adobe Dynamic Media Classic의 파일 자산은 폴더에 보관됩니다. 이�
 
 폴더를 선택하고 다음 기술을 사용하여 폴더를 삭제하거나 이름을 바꿉니다.
 
-* **삭제** - 다음을 선택합니다. **[!UICONTROL 폴더 제거]** 단추를 클릭합니다. 삭제한 폴더에 있는 자산은 휴지통 폴더에 배치됩니다. 여기서 자산을 복구할 수 있습니다.
+* **삭제** - 다음을 선택합니다. **[!UICONTROL `Remove Folder`]** 단추를 클릭합니다. 삭제한 폴더에 있는 자산은 휴지통 폴더에 배치됩니다. 여기서 자산을 복구할 수 있습니다.
 
 * **이름 바꾸기** - 이름을 두 번 클릭하고 새 이름을 입력합니다.
 

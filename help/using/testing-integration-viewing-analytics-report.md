@@ -1,27 +1,25 @@
 ---
-title: 보고서를 보고 Adobe Analytics 통합 테스트
+title: Adobe Analytics 보고서를 보고 통합 테스트
 description: Adobe Analytics 보고서를 보고 Adobe Dynamic Media Classic에서 통합을 테스트하는 방법을 알아봅니다.
-uuid: 937375e0-6dea-4baa-a2b0-4f3e461c9ee2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
-discoiquuid: 1ddc89ff-d2e9-42eb-a442-aa6b9871c991
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 6186fcf0-99b4-447d-ae94-b4124dcb405b
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 15%
+ht-degree: 5%
 
 ---
 
-#  보고서를 보고 Adobe Analytics 통합 테스트{#testing-the-integration-by-viewing-an-adobe-analytics-report}
+# Adobe Analytics 보고서를 보고 통합 테스트{#testing-the-integration-by-viewing-an-adobe-analytics-report}
 
-Adobe Analytics에서 필요한 변수를 만들어 Adobe Dynamic Media Classic 이벤트에 연결하고 필요한 구현 단계를 완료한 후 설정을 테스트할 수 있습니다. Adobe Analytics 자체 내에서 데이터가 캡처되고 있는지 테스트하고 확인할 수 있습니다. 여기에서 설정이 작동하는 경우, 추가 단계가 필요하지 않습니다. 위의 단계를 따르고 Adobe Dynamic Media Classic 이벤트 데이터를 하나 이상의 사용자 지정 트래픽 변수에 연결했다고 가정할 경우, 이 워크플로에 따라 Adobe Analytics 내에서 데이터를 테스트하십시오.
+Adobe Analytics에서 필요한 변수를 만들어 Adobe Dynamic Media Classic 이벤트에 연결하고 필요한 구현 단계를 완료한 후 설정을 테스트할 수 있습니다. 데이터가 Adobe Analytics 자체 내에서 캡처되고 있는지 테스트하고 확인할 수 있습니다. 여기에서 설정이 작동하는 경우, 추가 단계가 필요하지 않습니다. 위의 단계를 따르고 Adobe Dynamic Media Classic 이벤트 데이터를 하나 이상의 사용자 지정 트래픽 변수에 연결했다고 가정할 경우, 이 워크플로에 따라 Adobe Analytics 내에서 데이터를 테스트하십시오.
 
 **Adobe Analytics 보고서를 보고 통합을 테스트하려면 다음을 수행하십시오.**
 
@@ -39,4 +37,4 @@ Adobe Analytics에서 필요한 변수를 만들어 Adobe Dynamic Media Classic 
 >
 >모든 Adobe Dynamic Media Classic 뷰어 데이터는 Adobe Analytics의 사용자 지정 트래픽 보고서 또는 사용자 지정 전환 보고서에 표시되고 보고됩니다.
 
-자세한 내용은 [Analytics Tutorials](https://experienceleague.adobe.com/docs/analytics-learn/tutorials/overview.html).
+자세한 내용은 [Analytics Tutorials](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview).
