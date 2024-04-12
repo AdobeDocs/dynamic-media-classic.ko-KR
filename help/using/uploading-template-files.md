@@ -1,21 +1,19 @@
 ---
 title: 템플릿 파일 업로드
 description: Adobe Dynamic Media Classic에서 템플릿 파일을 업로드하는 방법을 알아봅니다.
-uuid: e19979b5-3f41-49c5-99aa-107ede3be98c
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 75658717-5c39-473e-9d32-718d00706310
 feature: Dynamic Media Classic
 role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 topic: Content Management
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '244'
-ht-degree: 38%
+ht-degree: 32%
 
 ---
 

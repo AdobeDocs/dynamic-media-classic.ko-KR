@@ -1,21 +1,19 @@
 ---
 title: 회전 집합 미리 보기
 description: Adobe Dynamic Media Classic에서 회전 세트를 미리 보는 방법에 대해 알아봅니다.
-uuid: 5b9d4c37-a4ec-40c5-8f14-da875d71226e
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 4b32ffff-4387-4699-9ba9-c3b23a2c3607
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 38%
+ht-degree: 36%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 38%
 
 다음을 참조하십시오 [에셋 미리보기](previewing-asset.md#previewing_an_asset).
 
-**회전 집합을 미리 보려면:**
+**회전 세트를 미리 보려면:**
 
 1. 왼쪽의 자산 라이브러리 패널에 있는 [표시] 드롭다운 목록에서 [회전 집합] 자산 유형을 선택합니다.
 1. 왼쪽의 자산 라이브러리 패널에서 뷰어로 미리 보려는 회전 집합이 들어 있는 자산 폴더를 탐색합니다.

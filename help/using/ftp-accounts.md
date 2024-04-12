@@ -1,27 +1,25 @@
 ---
 title: FTP 계정 관리
 description: Adobe Dynamic Media Classic에서 FTP 계정을 관리하는 방법을 알아봅니다.
-uuid: c9410f44-14bf-4f55-a199-f0f0de459219
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: d592f0a7-1c27-4463-998a-07351147da1d
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 95c7d403-7206-4158-b8ad-6091b24b5077
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '235'
-ht-degree: 63%
+ht-degree: 52%
 
 ---
 
 # FTP 계정 관리{#managing-ftp-accounts}
 
-Media Portal 관리자만 FTP 계정을 관리할 수 있습니다. 또한 *Media Portal 기여자-사용자* 또는 *Media Portal 기여자* 역할이 있는 사용자만 디지털 자산을 업로드할 수 있습니다.
+Media Portal 관리자만 FTP 계정을 관리할 수 있습니다. 또한 역할이 인 사용자만 *Media Portal 기여자-사용자* 또는 *Media Portal 기여자* 디지털 에셋을 업로드할 수 있습니다.
 
 [관리 설정]에서 [사용자 관리] 페이지를 통해 기존 Media Portal 사용자를 활성화하거나 비활성화할 수 있습니다.
 

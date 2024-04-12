@@ -1,21 +1,19 @@
 ---
 title: 템플릿을 웹 페이지에 연결
 description: Adobe Dynamic Media Classic에서 웹 페이지에 템플릿을 연결하는 방법을 알아봅니다.
-uuid: f111ef06-4afc-454c-86ce-5d640236d40b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 989dba07-448a-45b1-b157-af50abb5359a
 feature: Dynamic Media Classic
 role: User
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
 topic: Administration, Content Management, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 37%
+ht-degree: 32%
 
 ---
 
@@ -34,7 +32,7 @@ ht-degree: 37%
 [템플릿 미리 보기] 화면에서 이미지 사전 설정에 의해 생성된 템플릿 URL 문자열을 얻을 수 있습니다. URL을 복사하면 필요한 경우 붙여 넣을 수 있도록 클립보드에 저장됩니다. [템플릿 미리 보기] 페이지에서 이미지 사전 설정으로 생성된 템플릿 URL 문자열을 가져오려면 다음을 수행합니다.
 
 1. 템플릿의 롤오버 선택 **[!UICONTROL 미리 보기]** 단추 또는 이동 **[!UICONTROL 파일]** > **[!UICONTROL 미리 보기]**.
-1. 사전 설정 메뉴를 사용하여 템플릿 이미지를 제공하는 데 사용할 이미지 사전 설정을 선택합니다. 미리보기 페이지에는 템플릿이 서버에서 전달될 때의 모양이 표시됩니다.
+1. [사전 설정] 메뉴를 사용하여 템플릿 이미지를 전달할 이미지 사전 설정을 선택합니다. 미리보기 페이지에는 템플릿이 서버에서 전달될 때의 모양이 표시됩니다.
 1. 선택 **[!UICONTROL URL 복사]** 따라서 URL을 클립보드에 복사할 수 있습니다.
 
 ## 웹 페이지에 템플릿 URL 추가 {#adding-template-urls-to-your-web-page}

@@ -1,18 +1,16 @@
 ---
 title: Adobe Target Standard/Premium과 Adobe Dynamic Media Classic 통합
 description: Adobe Dynamic Media Classic을 Adobe Target Standard/Premium과 통합하는 방법을 알아봅니다.
-uuid: d1c07a52-b058-4ae3-a31d-44c43dc27f65
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_integration
-discoiquuid: 3b4add18-4191-475e-a3a3-0184367a25fc
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: c6f217fb-89cb-4c8d-aa7f-309fc42f7d46
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '149'
 ht-degree: 0%
@@ -21,7 +19,7 @@ ht-degree: 0%
 
 # Adobe Target Standard/Premium과 Adobe Dynamic Media Classic 통합 {#integrating-dmc-with-target}
 
-를 통합하기 전에 [!DNL Adobe Dynamic Media Classic] 포함 [!DNL Target Standard/Premium]에 Target URL을 입력해야 합니다 [!DNL Adobe Dynamic Media Classic] 응용 프로그램 일반 설정 화면입니다. Target URL을 가져와서 응용 프로그램 일반 설정 페이지에 입력하려면 다음을 수행합니다.
+를 통합하기 전에 [!DNL Adobe Dynamic Media Classic] 포함 [!DNL Target Standard/Premium], Target URL을 [!DNL Adobe Dynamic Media Classic] 응용 프로그램 일반 설정 화면입니다. Target URL을 가져와서 [응용 프로그램 일반 사항 설정] 페이지에 입력하려면 다음을 수행합니다.
 
 1. 위치 [!DNL Adobe Experience Cloud], 다음에 로그인 [!DNL Target Standard/Premium] 계정입니다.
 1. 로그인 후 브라우저의 주소 표시줄에 다음을 포함한 URL을 복사합니다. `.com`.

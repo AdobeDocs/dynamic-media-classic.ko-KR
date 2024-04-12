@@ -1,27 +1,25 @@
 ---
 title: 혼합 미디어 집합 뷰어 사전 설정 설정
 description: Adobe Dynamic Media Classic에서 혼합 미디어 세트 뷰어 사전 설정을 설정하는 방법에 대해 알아봅니다.
-uuid: d5bf1840-e453-445d-bebc-84889b29f3c8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 8029aad8-d696-4d7c-99e2-3b08edb68181
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 40%
+source-wordcount: '614'
+ht-degree: 36%
 
 ---
 
 # 혼합 미디어 집합 뷰어 사전 설정 설정{#setting-up-a-mixed-media-set-viewer-preset}
 
-혼합 미디어 집합 뷰어 사전 설정은 기본 뷰어의 스타일, 동작 및 모양을 결정합니다. 사전 설정을 구성할 때 혼합 미디어 뷰어 내부에 표시할 다른 뷰어를 지정합니다. 예를 들어 혼합 미디어 집합에 이미지 집합을 포함한 경우 혼합 미디어 집합 뷰어에 대해 이미지 집합 뷰어 사전 설정을 지정합니다.
+혼합 미디어 집합 뷰어 사전 설정은 기본 뷰어의 스타일, 동작 및 모양을 결정합니다. 사전 설정을 구성할 때 혼합 미디어 뷰어 내부에 표시할 다른 뷰어를 지정합니다. 예를 들어, 혼합 미디어 세트에 이미지 세트를 포함한 경우, 혼합 미디어 세트 뷰어에 대한 이미지 세트 뷰어 사전 설정을 지정합니다.
 
 혼합 미디어 집합 뷰어에서 커뮤니티 기능을 전부 또는 일부 포함할 수 있습니다. 포함 기능은 사용자가 뷰어를 외부 페이지(예: 블로그, 웹 사이트 또는 소셜 네트워킹 사이트)에 표시하는 데 필요한 코드를 복사할 수 있는 뷰어에 대한 링크를 추가합니다. 링크 기능은 사용자가 이 뷰어에 다시 연결할 수 있도록 뷰어에 대한 URL을 제공합니다. 방문 기능은 지정한 웹 사이트에 대한 링크를 제공합니다.
 

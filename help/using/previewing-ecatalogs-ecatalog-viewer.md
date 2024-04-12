@@ -1,21 +1,19 @@
 ---
 title: eCatalog 뷰어에서 eCatalog 미리 보기
 description: Adobe Dynamic Media Classic의 eCatalog 뷰어에서 eCatalogs를 미리 보는 방법에 대해 알아봅니다.
-uuid: fdaf2129-e558-4f27-b30f-564126b6b3f2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 92022dce-6534-4d93-befe-9dd2818c7b41
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 35%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 35%
 
 다음을 참조하십시오 [에셋 미리보기](previewing-asset.md#previewing_an_asset).
 
-**eCatalog 뷰어에서 eCatalog를 미리 보려면:**
+**eCatalog 뷰어에서 eCatalog를 미리 보려면 다음을 수행하십시오.**
 
 1. 왼쪽의 자산 라이브러리 패널에 있는 [표시] 드롭다운 목록에서 비디오 기반 자산 유형(예: 비디오 또는 비디오 집합)을 선택합니다.
 1. 왼쪽의 자산 라이브러리 패널에서 eCatalog 뷰어로 미리 보려는 비디오가 들어 있는 자산 폴더를 탐색합니다.
