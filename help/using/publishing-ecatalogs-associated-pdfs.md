@@ -10,10 +10,10 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '193'
-ht-degree: 21%
+ht-degree: 20%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 21%
 
    뷰어가 키워드 검색을 수행할 수 있도록 eCatalog를 설정하는 경우 키워드 데이터가 게시되었는지 확인합니다. 게시 대화 상자에서 다음을 선택합니다. **[!UICONTROL 고급]**. 다음에서 **[!UICONTROL 게시]** 드롭다운 메뉴에서 다음을 선택합니다. **[!UICONTROL 검색 데이터를 포함한 전체]**. 이 선택 사항은 기본적으로 선택됩니다.
 
-1. **[!UICONTROL [게시 제출]]**&#x200B;을 클릭합니다.
+1. 선택 **[!UICONTROL 게시 제출]**.
 
 >[!MORELIKETHIS]
 >

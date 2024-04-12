@@ -1,25 +1,23 @@
 ---
-title: Media Portal 화면 사용자 지정
+title: Media Portal 화면 사용자 정의
 description: Adobe Dynamic Media Classic에서 Media Portal 화면을 사용자 지정하는 방법을 알아봅니다.
-uuid: bd1a65a6-723b-49d0-8eac-849da00e0e1a
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 8b000c25-c9c3-481e-9b25-96257471571f
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: b0c5f70a-2388-42aa-a1ed-fd745ff90518
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 32%
+source-wordcount: '348'
+ht-degree: 16%
 
 ---
 
-# Media Portal 화면 사용자 지정{#customizing-the-media-portal-screen}
+# Media Portal 화면 사용자 정의{#customizing-the-media-portal-screen}
 
 Media Portal 스타일 설정을 사용하면 [Media Portal] 화면을 회사 로고와 색상으로 브랜딩할 수 있습니다. 스타일 설정을 사용하여 Media Portal에 회사 브랜딩을 지정합니다.
 
@@ -41,7 +39,7 @@ Media Portal 스타일 설정을 사용하면 [Media Portal] 화면을 회사 �
 
 * **[!UICONTROL 진행률 표시줄]** - 업로드 및 다운로드 진행 상황을 나타내는 막대 색상을 선택합니다.
 
-Media Portal 사용자가 선택한 스타일 설정을 보려면 다음을 추가해야 합니다. `?company=(company name)` Media Portal에 액세스하는 URL에 연결합니다. 예를 들어 스타일 설정을 보려면 다음 URL에서 PortalCo 회사에 액세스하는 Media Portal 사용자의 경우 the following:
+Media Portal 사용자가 선택한 스타일 설정을 보려면 다음을 추가해야 합니다. `?company=(company name)` Media Portal에 액세스하는 URL에 연결합니다. 예를 들어 스타일 설정을 보려면 다음에서 PortalCo 회사에 액세스하는 Media Portal 사용자
 
 `https://s7sps1.scene7.com/MediaPortal`
 
@@ -49,7 +47,7 @@ Media Portal 사용자가 선택한 스타일 설정을 보려면 다음을 추�
 
 `https://s7sps1.scene7.com/MediaPortal?company=PortalCo`
 
-URL에 회사 이름을 포함하면 Media Portal에서 사용자가 액세스하려는 회사를 인식하고 회사의 스타일 설정을 적절하게 적용할 수 있습니다.
+URL에 회사 이름을 포함하면 Media Portal에서 사용자가 액세스하려는 회사를 인식하고 그에 따라 회사 스타일 설정을 적용할 수 있습니다.
 
 Media Portal 사용자에게 URL 변경 사항을 알려주는 방법과 새로운 사용자가 올바른 Media Portal URL을 받도록 환영 이메일 메시지를 설정하는 방법에 대해 자세히 알아볼 수 있습니다.
 

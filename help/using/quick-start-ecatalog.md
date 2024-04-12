@@ -10,9 +10,9 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1562'
+source-wordcount: '1470'
 ht-degree: 33%
 
 ---
@@ -64,7 +64,7 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 
 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 업로드]** 를 클릭하여 eCatalog의 PDF 파일 또는 이미지 업로드를 시작하십시오. 데스크톱이나 FTP를 통해 파일을 업로드할 수 있습니다. 100MB가 넘는 파일이나 파일이 많은 경우 FTP가 권장됩니다.
 
-[업로드] 화면의 [PDF 선택 사항] 아래에는 적절한 해상도와 올바른 색상 공간으로 PDF 파일을 업로드하기 위한 선택 사항이 제공됩니다. 인치당 150픽셀 해상도를 사용하는 것이 좋습니다. [eCatalog 자동 생성] 선택 사항을 선택하면 PDF 파일을 업로드할 때 eCatalog를 만들 수 있습니다.
+[업로드] 화면의 [PDF 선택 사항] 아래에는 적절한 해상도와 올바른 색상 공간으로 PDF 파일을 업로드하기 위한 선택 사항이 제공됩니다. 인치당 150픽셀 해상도를 사용하는 것이 좋습니다. 옵션을 선택할 수 있습니다 **[!UICONTROL eCatalog 자동 생성]** PDF 파일을 업로드할 때 eCatalog를 만듭니다.
 
 다음을 참조하십시오 [PDF 파일 업로드](uploading-pdf-files.md#uploading_the_pdf_files).
 
@@ -84,7 +84,7 @@ eCatalog 페이지의 **[!UICONTROL 페이지 주문]** 탭에서 레이아웃 �
 
 이미지 맵은 eCatalog 페이지에 다른 측면을 추가합니다. 이미지 맵은 항목에 대한 자세한 정보를 제공하는 페이지의 한 영역입니다. 뷰어가 포인터를 이미지 맵 위로 롤오버하면 항목에 대한 설명이 표시됩니다. 이미지 맵을 클릭하면 새 웹 페이지를 여는 외부 참조가 활성화되고, 이 페이지에서 항목에 대한 자세한 정보를 확인할 수 있습니다.
 
-이미지 맵을 만들려면 eCatalog 화면을 엽니다. 그런 다음 로 이동합니다. **[!UICONTROL 페이지 매핑]** eCatalog 화면의 탭으로 이동하여 맵을 Rectangle Image Map 도구 또는 Polygon Image Map 도구로 프레임화합니다. [패닝] 도구 로 맵 테두리를 끌어 이미지 맵의 위치와 크기를 조정할 수 있습니다.
+이미지 맵을 만들려면 eCatalog 화면을 엽니다. 그런 다음 로 이동합니다. **[!UICONTROL 페이지 매핑]** eCatalog 화면의 탭으로 이동하여 맵을 Rectangle Image Map 도구 또는 Polygon Image Map 도구로 프레임화합니다. [패닝] 도구로 맵 테두리를 드래그하여 이미지 맵의 위치와 크기를 조정할 수 있습니다.
 
 이미지 맵의 프레임을 만든 후 이미지 맵을 선택할 때 이동할 URL 주소를 입력합니다. 포인터를 이미지 맵 위로 이동할 때 표시되는 롤오버 텍스트를 입력할 수도 있습니다.
 
@@ -118,7 +118,7 @@ eCatalog 뷰어 사전 설정에서 eCatalog를 표시하는 방법을 알아보
 
 eCatalog와 관련 PDF을 게시하면 웹 사이트 및 애플리케이션에 전달될 수 있도록 이 카탈로그가 Dynamic Media 이미지 서버에 배치됩니다. 게시 프로세스의 일부로 Adobe Dynamic Media Classic이 eCatalog에 대한 URL 문자열을 활성화합니다. 이 URL을 사용하여 Dynamic Media 이미지 서버에서 웹 사이트 또는 애플리케이션으로 eCatalog를 호출합니다.
 
-찾아보기 패널에서 게시할 eCatalog 및 PDF을 표시한 후 전역 탐색 막대에서 게시 버튼을 선택하여 게시를 시작합니다. 게시 화면에서 다음을 선택합니다. **[!UICONTROL 게시 제출]**.
+찾아보기 패널에서 게시할 eCatalog 및 PDF을 표시한 후 전역 탐색 막대에서 게시 버튼을 선택하여 게시를 시작합니다. 게시 페이지에서 를 선택합니다. **[!UICONTROL 게시 제출]**.
 
 다음을 참조하십시오 [eCatalogs 및 관련 PDF 게시](publishing-ecatalogs-associated-pdfs.md#publishing-ecatalogs-and-associated-pdfs).
 

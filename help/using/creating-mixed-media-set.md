@@ -1,20 +1,18 @@
 ---
 title: 혼합 미디어 집합 만들기
 description: Adobe Dynamic Media Classic에서 혼합 미디어 세트를 만드는 방법을 알아봅니다.
-uuid: a0c6e5fa-7a85-4376-b9a3-b72ae63d3d95
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 0ff9e763-897c-4ba5-b606-a95d5e45f35e
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '626'
-ht-degree: 76%
+ht-degree: 68%
 
 ---
 
@@ -28,14 +26,14 @@ ht-degree: 76%
 
 세트를 만들 때, **저장 후 게시** 옵션은 다음과 같이 세트와 세트 구성원에 영향을 줍니다.
 
-| 저장하기 전에 [저장 후 게시] 옵션을 선택했습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
+| 저장하기 전에 &quot;저장 후 게시&quot; 옵션이 선택되었습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
 | --- | --- | --- |
 | 예 | 게시됨 | 게시됨 |
 | 아니요 | 게시 취소됨 | 세트 구성원은 게시된 상태나 게시되지 않은 상태를 유지합니다. |
 
 [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
-**혼합 미디어 집합 만들기:**
+**혼합 미디어 세트를 만들려면:**
 
 1. 다음으로 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 혼합 미디어 집합]**.
 1. 비디오, 이미지 집합, 회전 집합 및 견본을 자산 라이브러리에서 [혼합 미디어 집합] 화면으로 드래그합니다.
@@ -66,13 +64,13 @@ ht-degree: 76%
 | 세트를 이미 게시했습니까? | **[!UICONTROL 저장 후 게시]** 편집을 저장하기 전에 선택한 옵션입니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
 | --- |--- |--- |--- |
 | 예 | 예 | 게시됨 | 게시됨 |
-| 예 | 아니요 | 게시됨 | 기존 세트 구성원은 게시된 상태를 유지합니다. 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
+| 예 | 아니요 | 게시됨 | 기존 집합 구성원은 게시된 상태를 유지합니다. 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
 | 아니요 | 예 | 게시됨 | 게시됨 |
 | 아니요 | 아니요 | 게시 취소됨 | 기존 세트 구성원과 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
 
 [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
-**혼합 미디어 집합 편집:**
+**혼합 미디어 세트를 편집하려면:**
 
 1. 혼합 미디어 세트의 롤오버 선택 **[!UICONTROL 편집]** 단추를 클릭합니다.
 1. 다음 중 하나를 수행합니다.
@@ -83,13 +81,13 @@ ht-degree: 76%
 1. 세트 편집을 완료하면 페이지 오른쪽 하단에서 **[!UICONTROL 저장 후 게시]**(기본값)가 선택되어 있는지 확인합니다.
 1. 선택 **[!UICONTROL 저장]** 또는 **[!UICONTROL 다른 이름으로 저장]**.
 
-## 혼합 미디어 집합 삭제 {#deleting-a-mixed-media-set}
+## 혼합 미디어 집합 삭제
 
-삭제된 세트는 휴지통으로 이동합니다. 하지만 삭제된 세트 내의 구성원(또는 &quot;하위&quot;)은 휴지통으로 이동하지 않고, 각각 기존의 게시된 상태나 게시 취소된 상태를 유지합니다.
+삭제된 세트는 휴지통으로 이동합니다. 그러나 해당 집합 내의 멤버(또는 &quot;하위&quot;)는 영향을 받지 않습니다. 대신 각 멤버는 기존의 게시 또는 게시 취소 상태를 유지합니다.
 
 [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
-**혼합 미디어 집합 삭제:**
+**혼합 미디어 세트를 삭제하려면:**
 
 1. [격자 보기], [목록 보기] 또는 [상세 보기]에서 혼합 미디어 집합을 하나 이상 선택합니다.
 1. 전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 파일]** > **[!UICONTROL 삭제]** > **[!UICONTROL 삭제]**.

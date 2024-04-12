@@ -10,7 +10,7 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 14%
@@ -78,7 +78,7 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 >
 >을(를) 선택한 경우 이 단계는 필요하지 않습니다. **[!UICONTROL 저장 후 게시]** (기본값) 이미지 세트를 생성하고 저장할 때 를 선택합니다.
 
-선택 **[!UICONTROL 게시로 표시]** [찾아보기] 패널에서 이름 왼쪽에 있는 아이콘. 그런 다음 을 선택합니다. **[!UICONTROL 게시]**. 게시 페이지에서 을 선택합니다. **[!UICONTROL 게시 제출]**.
+선택 **[!UICONTROL 게시로 표시]** [찾아보기] 패널에서 이름 왼쪽에 있는 아이콘. 그런 다음 을 선택합니다 **[!UICONTROL 게시]**. 게시 페이지에서 를 선택합니다. **[!UICONTROL 게시 제출]**.
 
 다음을 참조하십시오 [파일 게시](publishing-files.md#publishing-files).
 

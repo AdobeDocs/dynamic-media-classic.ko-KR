@@ -1,21 +1,19 @@
 ---
 title: eCatalog 이미지 맵 만들기
 description: Adobe Dynamic Media Classic에서 eCatalog 이미지 맵을 만드는 방법을 알아봅니다.
-uuid: 943ad3f7-a885-4bc2-88cb-77083384bdf8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 4cf63359-63b5-4da7-9498-335d91b4776c
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1492'
-ht-degree: 40%
+source-wordcount: '1491'
+ht-degree: 36%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 40%
 
 eCatalog의 경우 eCatalog 화면의 [맵 페이지] 탭에서 이미지 맵을 그립니다. 이 화면은 eCatalog 페이지가 표시되는 [이미지 맵] 영역과 오른쪽의 [이미지 맵] 목록으로 구성됩니다. 이미지 맵을 만들면 해당 이름이 [이미지 맵] 목록에 입력됩니다.
 
-1. eCatalog의 롤오버 선택 **[!UICONTROL 편집]** 단추를 클릭합니다.
+1. 전자 카탈로그의 롤오버 선택 **[!UICONTROL 편집]** 단추를 클릭합니다.
 1. 선택 **[!UICONTROL 페이지 매핑]**.
 1. [맵 페이지] 화면 왼쪽에서 원하는 페이지를 선택합니다.
 1. [이미지 맵] 영역에서 사각형 또는 다각형(다변형) 이미지 맵을 그립니다.
@@ -53,15 +51,15 @@ eCatalog의 경우 eCatalog 화면의 [맵 페이지] 탭에서 이미지 맵을
 1. 선택 **[!UICONTROL 저장]**.
 1. (선택 사항) 선택 **[!UICONTROL 미리 보기]** 기본 eCatalog 뷰어 사전 설정으로 eCatalog를 봅니다.
 
-이미지 맵을 삭제하려면 이미지 맵 목록에서 해당 이름을 선택하고 을 선택합니다 **[!UICONTROL 삭제]**. 이미지 맵을 삭제하지 않고 페이지에서 이미지 맵을 일시적으로 비활성화하려면 [이미지 맵] 목록 패널에서 이미지 맵의 [켜짐] 선택 사항을 선택 취소합니다.
+이미지 맵을 삭제하려면 이미지 맵 목록에서 해당 이름을 선택하고 을 선택합니다 **[!UICONTROL 삭제]**. 이미지 맵을 삭제하지 않고 페이지에서 이미지 맵을 일시적으로 비활성화하려면 [이미지 맵 목록] 패널에서 이미지 맵의 [켜기] 옵션을 선택 해제합니다.
 
 ## eCatalog에 리치 미디어 포함 {#embedding-rich-media-in-an-ecatalog}
 
-eCatalog의 리치 미디어 선택 사항을 사용하여 MP4 형식 또는 회전 집합의 비디오를 eCatalog에 추가한 이미지 맵에 추가할 수 있습니다. 사용자가 eCatalog에서 이미지 맵 영역을 선택하면 관련 스핀 세트 또는 비디오가 표시됩니다. 이 기능은 고객이 사용 중인 항목을 보거나 다른 각도 및 관점에서 항목을 보려는 경우 특히 유용합니다.
+eCatalog의 리치 미디어 옵션을 사용하여 MP4 형식의 비디오나 회전 집합을 eCatalog에 추가한 이미지 맵에 추가할 수 있습니다. 사용자가 eCatalog에서 이미지 맵 영역을 선택하면 관련 스핀 세트 또는 비디오가 표시됩니다. 이 기능은 고객이 사용 중인 항목을 보거나 다른 각도 및 관점에서 항목을 보려는 경우 특히 유용합니다.
 
 고객이 이미지 맵 위로 포인터를 이동하면 고객이 선택한 항목을 알 수 있도록 툴팁 텍스트를 선택적으로 표시할 수도 있습니다.
 
-**eCatalog에 리치 미디어를 임베드하려면:**
+**eCatalog에 리치 미디어를 포함하려면 다음을 수행하십시오.**
 
 1. eCatalog 이미지 맵을 그립니다.
 

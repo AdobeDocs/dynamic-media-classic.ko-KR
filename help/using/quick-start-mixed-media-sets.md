@@ -1,27 +1,25 @@
 ---
 title: "빠른 시작: 혼합 미디어 집합"
 description: Adobe Dynamic Media Classic에서 빠르게 시작하고 실행하는 데 도움이 되는 혼합 미디어 세트에 대한 소개 및 빠른 시작입니다.
-uuid: 0ef033d5-b053-4d7c-b1e1-1980f899fd88
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/mixed_media_sets
-discoiquuid: 2708d077-94fc-4045-8992-ad3589ed9cfd
 feature: Dynamic Media Classic,Viewers,Mixed Media Sets
 role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 34%
+source-wordcount: '656'
+ht-degree: 33%
 
 ---
 
 # 빠른 시작: 혼합 미디어 집합{#quick-start-mixed-media-sets}
 
-혼합 미디어 집합은 사용자에게 통합 보기 환경을 제공합니다. 혼합 미디어 집합에는 이미지, 이미지 집합, 견본 집합, 회전 집합 및 비디오가 포함될 수 있습니다. 사용자는 혼합 미디어 뷰어 내에서 다른 탭을 선택하여 다른 뷰어의 항목을 볼 수 있습니다. 탭을 지정하지 않으면 모든 자산이 견본 행에 함께 표시됩니다.
+혼합 미디어 세트는 사용자에게 통합된 보기 환경을 제공합니다. 혼합 미디어 집합에는 이미지, 이미지 집합, 견본 집합, 회전 집합 및 비디오가 포함될 수 있습니다. 사용자는 혼합 미디어 뷰어 내에서 다른 탭을 선택하여 다른 뷰어의 항목을 볼 수 있습니다. 탭을 지정하지 않으면 모든 자산이 견본 행에 함께 표시됩니다.
 
 혼합 미디어 집합 뷰어 사전 설정에는 최종 사용자가 코드를 포함하고, URL을 복사하고, 기본 웹 사이트에 연결하기 위한 커뮤니티 선택 사항이 포함됩니다. 사용자는 이러한 선택 사항을 사용하여 개인 웹 사이트나 소셜 네트워킹 사이트에서 제품 정보를 공유할 수 있습니다.
 
@@ -67,7 +65,7 @@ Adobe Dynamic Media Classic에는 혼합 미디어 세트에 대한 기본 뷰�
 
 혼합 미디어 세트를 게시하면 Adobe Dynamic Media Classic 서버에 배치되고 URL 문자열이 활성화됩니다.
 
-혼합 미디어 집합은 **비디오 서버**&#x200B;에 게시하고 **이미지 서버**&#x200B;에도 게시해야 합니다. **비디오 서버**&#x200B;를 사용하여 게시하도록 표시한 실제 비디오를 게시합니다. 그리고 **이미지 서버** 을 클릭하여 비디오 썸네일과 같은 관련 에셋을 게시하고 모든 응용 비디오 세트에 대한 정보를 설정합니다.
+혼합 미디어 집합은 **비디오 서버**&#x200B;에 게시하고 **이미지 서버**&#x200B;에도 게시해야 합니다. 사용 **비디오 서버** 게시로 표시한 실제 비디오를 게시합니다. 그리고 **이미지 서버** 을 클릭하여 비디오 썸네일과 같은 관련 에셋을 게시하고 모든 응용 비디오 세트에 대한 정보를 설정합니다.
 
 다음을 참조하십시오 [혼합 미디어 집합 게시](publishing-mixed-media-set.md#publishing-a-mixed-media-set).
 

@@ -1,25 +1,23 @@
 ---
 title: 템플릿 만들기
 description: Adobe Dynamic Media Classic에서 템플릿을 만드는 방법을 알아봅니다.
-uuid: c762224b-7c6c-4434-bada-c26570079645
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: 8f7093da-d215-4337-ac95-69f0a5bf8648
 feature: Dynamic Media Classic
 role: User
 exl-id: 23ac1a0f-c90b-4250-ae36-93702fb5ebd9
 topic: Content Management
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '3420'
-ht-degree: 41%
+source-wordcount: '3418'
+ht-degree: 40%
 
 ---
 
-# 템플릿 만들기 {#creating-a-template}
+# 템플릿 만들기
 
 템플릿을 만들려면 다음 위치로 이동하십시오 **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**. [디자이너] 또는 [개발자]를 선택합니다. 이 페이지에서 이미지 및 텍스트 레이어를 추가할 수 있습니다. 레이어 순서를 조정하고, 레이어의 크기와 위치를 변경하고, 이미지와 텍스트에 그림자 및 후광 효과를 적용할 수도 있습니다.
 
@@ -78,7 +76,7 @@ ht-degree: 41%
 1. 편집을 완료하면 페이지 오른쪽 하단에서 **[!UICONTROL 저장 후 게시]**(기본값)가 선택되어 있는지 확인합니다.
 1. 선택 **[!UICONTROL 저장]**&#x200B;스토리지 폴더를 선택하고 세트 이름을 입력한 다음 을 선택합니다. **[!UICONTROL 저장]**.
 
-## 템플릿 삭제 {#deleting-a-template}
+## 템플릿 삭제
 
 삭제된 템플릿 집합은 휴지통으로 이동합니다. 그러나 해당 집합 내의 멤버(또는 &quot;하위&quot;)는 영향을 받지 않습니다. 대신 각 멤버는 기존의 게시 또는 게시 취소 상태를 유지합니다.
 
@@ -278,7 +276,7 @@ ht-degree: 41%
 
 `layer=5&src=is{PortalCo/title}&pos=274,192&hide=1&effect=-1&.effect=Drop Shadow&blendmode`
 
-### 배경색, 불투명도 및 혼합 모드 결정 {#determining-the-background-color-opacity-and-blend-mode}
+### 배경색, 불투명도 및 혼합 모드 결정
 
 레이어나 캔버스의 배경색, 불투명도 및 혼합 모드를 선택하려면 레이어나 캔버스를 선택하고 다음 기술을 사용합니다.
 
@@ -299,7 +297,7 @@ ht-degree: 41%
 ### 레이어에 그림자 또는 광선 효과 적용 {#applying-a-shadow-or-glow-effect-to-a-layer}
 
 1. [레이어] 목록에서 레이어를 선택합니다.
-1. [효과 추가] 메뉴를 선택한 다음 선택 사항을 선택합니다.
+1. 다음 항목 선택 **[!UICONTROL `Add Effect`]** 메뉴를 선택하고 옵션을 선택합니다.
 
    * **[!UICONTROL 그림자]** - 레이어의 아래쪽과 오른쪽에 그림자를 적용합니다.
 

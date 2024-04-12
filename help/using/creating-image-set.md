@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: 0e1b2e9dcbee182f3ec0da53b56b5b8d3eb29cce
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 45%
@@ -81,7 +81,7 @@ ht-degree: 45%
 1. 세트 편집을 완료하면 페이지 오른쪽 하단에서 **[!UICONTROL 저장 후 게시]**(기본값)가 선택되어 있는지 확인합니다.
 1. 선택 **[!UICONTROL 저장]**&#x200B;세트에 대한 저장소 폴더를 선택하고 세트의 이름을 입력한 다음 을 선택합니다 **[!UICONTROL 저장]**.
 
-## 이미지 세트 삭제 {#deleting-an-image-set}
+## 이미지 세트 삭제
 
 삭제된 세트는 휴지통으로 이동합니다. 그러나 해당 집합 내의 멤버(또는 &quot;하위&quot;)는 영향을 받지 않습니다. 대신 각 멤버는 기존의 게시 또는 게시 취소 상태를 유지합니다.
 

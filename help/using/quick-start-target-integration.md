@@ -1,20 +1,18 @@
 ---
 title: "빠른 시작: Adobe Target Standard/Premium 통합"
 description: Adobe Dynamic Media Classic에서 Adobe Target Standard/Premium 통합 기술을 빠르게 시작하고 실행하는 데 도움이 되는 Adobe Target Standard/Premium 소개 및 빠른 시작
-uuid: d8f79fbf-8be1-44fa-8058-3508060fcd70
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/target_classic_integration
-discoiquuid: f8c25768-cf59-45ec-8193-522404191d57
 feature: Dynamic Media Classic
 role: Data Engineer,Admin,User
 exl-id: 4745ace5-7825-468e-8a82-bfbbcf1b0440
 topic: Integrations
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '511'
 ht-degree: 7%
 
 ---
@@ -25,7 +23,7 @@ Adobe Target Standard/Premium은 마케터가 여러 A/B 및 다변량 테스트
 
 Adobe Dynamic Media Classic을 사용하면 Adobe Target Standard/Premium 캠페인에 대한 오퍼 및 오퍼 세트를 만들 수 있습니다. 예를 들어 동일한 리치 미디어 에셋의 세 가지 변형을 사용하여 오퍼 세트를 만들 수 있습니다. 그런 다음 Adobe Target Standard/Premium에서 더 나은 전환 상승도를 제공하는 에셋을 결정하도록 할 수 있습니다. 기본 템플릿이나 개별 이미지에서 오퍼와 오퍼 집합을 만들 수 있습니다. 오퍼가 mbox 및 경험과 연결된 Adobe Target Standard/Premium에 오퍼 세트를 푸시하거나 저장한 후 Adobe Target Standard/Premium에서 캠페인을 실행할 수 있습니다. 이러한 캠페인은 클릭스루 및 전환에 가장 잘 수행될 수 있는 웹 사이트의 변형을 결정합니다.
 
-다이내믹 Adobe Dynamic Media Classic 콘텐츠를 보다 효율적으로 사용자 지정하려면 Adobe Target Standard/Premium HTML 오퍼를 사용하십시오. 다음을 참조하십시오. [Adobe Target Standard/Premium 제품 설명서](https://experienceleague.adobe.com/docs/target.html) 추가 정보.
+다이내믹 Adobe Dynamic Media Classic 콘텐츠를 보다 효율적으로 사용자 지정하려면 Adobe Target Standard/Premium HTML 오퍼를 사용하십시오. 다음을 참조하십시오. [Adobe Target Standard/Premium 제품 설명서](https://experienceleague.adobe.com/en/docs/target) 추가 정보.
 
 >[!NOTE]
 >
@@ -39,11 +37,11 @@ Adobe Dynamic Media Classic을 Adobe Target Standard/Premium과 통합하려면 
 
 ## 2. 오퍼 집합 만들기
 
-매개 변수화된 템플릿이나 이미지를 사용하여 오퍼 집합을 만듭니다. Test&amp;Offer HTML 세트 페이지에서 Target 오퍼 세트를 만듭니다. 이 페이지를 열려면 템플릿을 선택한 다음 전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 빌드]** > **[!UICONTROL 오퍼 집합 테스트 및 Target]**.
+매개 변수화된 템플릿이나 이미지를 사용하여 오퍼 집합을 만듭니다. Test&amp;Target HTML 세트 페이지에서 오퍼 세트를 만듭니다. 이 페이지를 열려면 템플릿을 선택한 다음 전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 빌드]** > **[!UICONTROL Test&amp;Target 오퍼 집합]**.
 
 템플릿을 사용하여 오퍼를 만들려면 다음을 선택합니다 **[!UICONTROL 추가 및 미리 보기]**. 추가 및 미리 보기 페이지에서 매개 변수 값을 변경합니다.
 
-이미지가 있는 오퍼를 만들려면 이미지를 Test&amp;Offer Target 세트 페이지로 드래그합니다. 선택 **[!UICONTROL 미리 보기]** 및 이미지에 대한 이미지 사전 설정 또는 오퍼 세트에 있는 모든 이미지를 선택합니다.
+이미지가 있는 오퍼를 만들려면 이미지를 Test&amp;Target 오퍼 집합 페이지로 드래그합니다. 선택 **[!UICONTROL 미리 보기]** 및 이미지에 대한 이미지 사전 설정 또는 오퍼 세트에 있는 모든 이미지를 선택합니다.
 
 오퍼 집합을 만든 후 저장합니다.
 
@@ -51,4 +49,4 @@ Adobe Dynamic Media Classic을 Adobe Target Standard/Premium과 통합하려면 
 
 ## 3. Adobe Target Standard/Premium으로 오퍼 집합 푸시
 
-Test&amp;Offer Set Target에서 **[!UICONTROL 오퍼 푸시]**&#x200B;을 클릭하고 Test&amp;Login Target 대화 상자에 로그인 자격 증명을 입력합니다. 다음을 참조하십시오 [Adobe Target Standard/Premium에 오퍼 집합 푸시](pushing-offer-sets-target.md#pushing_offer_sets_to_target).
+Test&amp;Target 오퍼 세트 페이지에서 을 선택합니다. **[!UICONTROL 오퍼 푸시]**&#x200B;을 클릭하고 Test&amp;Target 로그인 대화 상자에 로그인 자격 증명을 입력합니다. 다음을 참조하십시오 [Adobe Target Standard/Premium에 오퍼 집합 푸시](pushing-offer-sets-target.md#pushing_offer_sets_to_target).

@@ -1,18 +1,16 @@
 ---
 title: 회전 집합 만들기
 description: Adobe Dynamic Media Classic에서 회전 집합을 만드는 방법을 알아봅니다.
-uuid: 697bd78f-5e39-46bf-aa6d-ad8ab99fe40e
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 735b5867-e249-4627-a5a5-25c19c2255bf
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 44%
@@ -105,7 +103,7 @@ Adobe Dynamic Media Classic에서 스핀 세트를 작성하거나 만드는 순
 1. 편집을 완료하면 페이지 오른쪽 하단에서 **[!UICONTROL 저장 후 게시]**(기본값)가 선택되어 있는지 확인합니다.
 1. 선택 **[!UICONTROL 저장]**&#x200B;스토리지 폴더를 선택하고 세트 이름을 입력한 다음 을 선택합니다. **[!UICONTROL 저장]**.
 
-## 회전 집합 삭제 {#deleting-a-spin-set}
+## 회전 집합 삭제
 
 삭제된 세트는 휴지통으로 이동합니다. 그러나 해당 집합 내의 멤버(또는 &quot;하위&quot;)는 영향을 받지 않습니다. 대신 각 멤버는 기존의 게시 또는 게시 취소 상태를 유지합니다.
 

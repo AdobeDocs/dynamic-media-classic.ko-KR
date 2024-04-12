@@ -1,18 +1,16 @@
 ---
 title: Adobe Dynamic Media Classic에서 자산 내보내기
 description: Adobe Dynamic Media Classic에서 자산을 내보내는 방법을 알아봅니다.
-uuid: d42b7a73-80c0-4a9a-a04e-7ef53e6fcf22
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: eb850ec7-a669-41ea-b2b0-4c9178e34f95
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 48%
@@ -25,7 +23,7 @@ Adobe Dynamic Media Classic에서 편집한 자산을 로컬 네트워크 드라
 
 내보내기 작업에 대해 ZIP 압축 파일의 최대 파일 크기는 1 GB입니다. 또한 내보내기 작업당 최대 500개의 총 에셋이 허용됩니다.
 
-Adobe Dynamic Media Classic은 [작업] 화면에 내보내기 작업 기록을 보관합니다.
+Adobe Dynamic Media Classic은 작업 화면에 작업 내보내기 기록을 보관합니다.
 
 **Adobe Dynamic Media Classic에서 자산을 내보내려면 다음을 수행하십시오.**
 

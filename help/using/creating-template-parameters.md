@@ -1,21 +1,19 @@
 ---
 title: 템플릿 매개 변수 만들기
 description: Adobe Dynamic Media Classic에서 템플릿 매개 변수를 만드는 방법을 알아봅니다.
-uuid: d17168a8-4776-4761-b022-8258d5997604
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/template_basics
-discoiquuid: d263f041-5a0d-4c4f-9266-aeff51a5a7e2
 feature: Dynamic Media Classic
 role: User
 exl-id: 118806ea-c8a7-4aaf-9ae3-739c6b04ea77
 topic: Development
 level: Experienced
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 54%
+source-wordcount: '792'
+ht-degree: 47%
 
 ---
 
@@ -35,7 +33,7 @@ ht-degree: 54%
 
 템플릿의 각 레이어에 대해 다음 단계를 수행하여 템플릿 매개 변수를 만듭니다.
 
-1. [레이어] 목록에서 매개 변수를 만들려는 레이어 이름 옆에 있는 [매개 변수] 단추 를 선택합니다. [매개 변수] 화면이 열립니다. 이 화면에는 레이어의 각 매개 변수 이름, 매개 변수 값 및 매개 변수 유형이 나열됩니다.
+1. [레이어] 목록에서 매개 변수를 만들 레이어 이름 옆에 있는 [매개 변수] 단추를 선택합니다. [매개 변수] 화면이 열립니다. 이 목록에는 레이어에 있는 각 매개 변수의 이름, 해당 값 및 유형이 나열됩니다.
 1. 템플릿 이미지에 포함할 각 매개 변수의 이름 옆에 있는 켜기 옵션을 선택합니다.
 1. 선택 **[!UICONTROL 닫기]** 매개변수 화면을 종료합니다.
 
@@ -43,13 +41,13 @@ ht-degree: 54%
 >
 >[매개 변수] 화면에서 매개 변수 이름을 바꿀 수 있습니다. 매개 변수 이름을 바꾸면 URL 문자열에서 매개 변수를 더 쉽게 식별할 수 있으며 더 편리하게 데이터베이스 값으로 사용할 수 있습니다. 매개 변수의 이름을 바꾸려면 매개 변수 이름을 선택합니다 **[!UICONTROL 날짜]** 옵션을 선택하고 이름을 선택한 다음 이름 필드에 새 이름을 입력합니다.
 
-템플릿에 대해 생성한 매개변수 목록을 보려면 템플릿 화면에서 매개변수 요약 버튼을 선택합니다. [매개 변수 요약] 화면이 열립니다. 이 화면에는 각 레이어 이름과, 레이어의 매개 변수를 만든 경우 매개 변수 이름과 값이 나열됩니다.
+템플릿에 대해 생성한 매개변수 목록을 보려면 템플릿 화면에서 매개변수 요약 버튼을 선택합니다. 매개변수 요약 화면에 각 레이어의 이름이 나열되며 레이어에 대한 매개변수를 생성한 경우에는 매개변수 이름과 값이 표시됩니다.
 
 ## 동적 텍스트 매개 변수 만들기 {#creating-dynamic-text-parameters}
 
 텍스트 레이어의 경우 텍스트 문자열을 데이터베이스 값에 연결된 동적 필드로 만들 수도 있습니다. 다음 단계를 수행합니다.
 
-1. [템플릿] 화면에서 동적 텍스트 매개 변수를 만들려는 텍스트 레이어 이름 옆에 있는 [매개 변수] 단추 를 선택합니다. 매개변수 페이지가 열립니다.
+1. 템플릿 화면에서 동적 텍스트 매개 변수를 만들 텍스트 레이어 이름 옆에 있는 매개 변수 버튼을 선택합니다. 매개변수 페이지가 열립니다.
 1. 다음 항목 선택 **[!UICONTROL 날짜]** text 속성(textAttr) 이름 옆에 있는 옵션입니다.
 1. 다음 항목 선택 **[!UICONTROL 텍스트]** Parameters 화면의 탭입니다.
 1. 선택 **[!UICONTROL 매개 변수 추가]**. 기본 매개 변수 이름이 나타납니다. 이 이름을 선택하고 위에 입력하여 이름을 바꿀 수 있습니다. 현재 텍스트 문자열이 매개 변수의 새 이름이 됩니다.

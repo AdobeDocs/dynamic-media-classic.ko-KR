@@ -1,21 +1,19 @@
 ---
 title: Media Portal 그룹 만들기 및 관리
 description: Adobe Dynamic Media Classic에서 Media Portal 그룹을 만들고 관리하는 방법에 대해 알아봅니다.
-uuid: 23f360e1-ddcb-491b-ab9f-428f3ac9c316
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/media_portal
-discoiquuid: 91524d36-b77a-4dc4-acba-a7bd85297e98
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '839'
-ht-degree: 54%
+ht-degree: 52%
 
 ---
 
@@ -27,7 +25,7 @@ ht-degree: 54%
 
 각기 다른 수준의 액세스 권한을 부여하기 위해 그룹을 만듭니다. 각 그룹에 서로 다른 폴더 및 폴더의 자산에 대한 읽기, 쓰기 및 삭제 권한을 지정합니다. 또한 그룹에 사용할 수 있는 이미지 사전 설정을 결정합니다. 그런 다음 사용자를 그룹에 지정합니다. 한 사용자가 여러 그룹의 구성원이 될 수 있습니다. 그룹 개념을 사용하면 전체 컨텐츠 중 제한된 집합에 대한 액세스 권한을 유연하게 지정할 수 있습니다.
 
-에셋 또는 폴더에 그룹 권한을 특별히 부여하지 않으면 해당 에셋 또는 폴더는 상위 폴더(폴더 계층 구조에서 상위 폴더)에 할당한 권한을 상속합니다. 모든 하위 폴더가 동일한 권한을 상속하게 하려는 경우 상위 폴더에 권한을 부여합니다.
+특히 에셋 또는 폴더에 그룹 권한을 부여하지 않는 경우 해당 에셋 또는 폴더는 상위 폴더(폴더 계층 구조에서 상위 폴더)에 할당한 권한을 상속합니다. 모든 하위 폴더가 동일한 권한을 상속하게 하려는 경우 상위 폴더에 권한을 부여합니다.
 
 >[!NOTE]
 >
@@ -75,9 +73,9 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->상자를 선택하면 액세스 권한이 설정됩니다. 폴더에 대한 권한을 지정하면 하위 폴더와 이 폴더에 있는 모든 파일에 상위 폴더와 동일한 권한이 부여됩니다. 그러나 개별 하위 폴더와 자산 파일에 대해 다른 권한을 지정할 수 있습니다.
+>상자를 선택하면 액세스 권한이 설정됩니다. 폴더에 권한을 할당하면 하위 폴더 및 그 안에 있는 모든 파일에 상위 폴더와 동일한 권한이 부여됩니다. 그러나 개별 하위 폴더와 자산 파일에 대해 다른 권한을 지정할 수 있습니다.
 
-## 그룹의 이미지 사전 설정 액세스 권한 선택 {#choosing-image-preset-access-permissions-for-a-group}
+## 그룹의 이미지 사전 설정 액세스 권한 선택
 
 그룹 구성원이 Media Portal을 사용하여 자산을 내보낼 때 사용할 수 있는 이미지 사전 설정을 지정하려는 경우 그룹의 이미지 사전 설정 액세스 권한을 선택합니다.
 

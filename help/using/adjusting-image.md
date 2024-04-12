@@ -1,18 +1,16 @@
 ---
 title: 이미지 조정
 description: Adobe Dynamic Media Classic에서 이미지를 조정하는 방법을 알아봅니다.
-uuid: c052acd3-e8c1-4134-ad21-b9c41578097f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 47a23980-2886-4da3-ab2d-6cd50e00d188
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 43%
@@ -59,13 +57,13 @@ Adobe Dynamic Media Classic은 이미지 모양을 조정하기 위한 다양한
 
 ## 이미지에 대한 별칭 만들기 {#creating-an-alias-for-an-image}
 
-이미지를 조정한 경우 1차 이미지의 다른 보기로 저장할 수 있습니다. 이렇게 하려면 를 사용하여 이미지에 대한 별칭을 만듭니다. **[!UICONTROL 기본 보기에 대한 추가 보기로 저장]** 기능.
+이미지를 조정한 경우 1차 이미지의 다른 보기로 저장할 수 있습니다. 이렇게 하려면 를 사용하여 이미지에 대한 별칭을 만듭니다. **[!UICONTROL 기본 의 다른 보기로 저장]** 기능.
 
 **이미지에 대한 별칭을 생성하려면 다음을 수행합니다.**
 
 1. 표 형태 보기 또는 목록 보기에서 **[!UICONTROL 편집]** 별칭을 만들 이미지 옆에 있는 드롭다운 목록에서 을(를) 선택합니다. **[!UICONTROL 조정]**.
 1. 페이지의 오른쪽 아래 모서리에서 을 선택합니다. **[!UICONTROL 다른 이름으로 저장]**.
-1. 의 드롭다운 목록에서 **[!UICONTROL 다른 이름으로 저장]** 대화 상자에서 **[!UICONTROL 기본 보기에 대한 추가 보기로 저장]**.
+1. 의 드롭다운 목록에서 **[!UICONTROL 다른 이름으로 저장]** 대화 상자에서 **[!UICONTROL 기본 의 다른 보기로 저장]**.
 1. **[!UICONTROL 폴더 이름]** 목록 상자에서 별칭이 저장된 이미지를 저장하려는 폴더를 선택합니다.
 1. **[!UICONTROL 파일 이름]** 필드에서 별칭에 사용할 이름을 입력합니다.
 1. 선택 **[!UICONTROL 저장]**.

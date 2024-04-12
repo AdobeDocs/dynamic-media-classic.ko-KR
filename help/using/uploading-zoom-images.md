@@ -1,21 +1,19 @@
 ---
 title: 확대/축소 이미지 업로드
 description: Adobe Dynamic Media Classic에 확대/축소 이미지를 업로드하는 방법을 알아봅니다.
-uuid: 5814ec28-3a06-4b92-b70e-0aa5b83e7b0e
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: e84b7b0e-527a-4c64-bc2a-e5e64d47b2d6
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: 44a82437-7592-484f-b45f-17ed1f6efbec
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 21%
+source-wordcount: '222'
+ht-degree: 18%
 
 ---
 
@@ -35,7 +33,7 @@ Adobe Dynamic Media Classic Zoom 기능을 최대한 활용하려면 업로드�
 
 * **파일 형식** - Adobe Dynamic Media Classic은 TIFF, BMP, JPEG, PSD, GIF 및 EPS을 포함한 모든 표준 이미지 파일 형식을 지원합니다. 손실 없는 이미지 형식(TIFF 및 PNG)이 권장됩니다. JPEG 이미지를 사용하는 경우 최고 품질 설정을 사용하십시오.
 
-* **색상 공간** - RGB은 웹 이미지 프레젠테이션의 색상 공간입니다. CMYK 이미지는 업로드할 때 자동으로 RGB으로 변환됩니다. RGB로 전환하는 데 사용되는 임베드된 ICC 색상 프로필이 있는 CMYK 이미지를 업로드하는 것이 좋습니다. ICC 프로필을 참조하십시오.
+* **색상 공간** - RGB은 웹 이미지 프레젠테이션의 색상 공간입니다. CMYK 이미지는 업로드할 때 자동으로 RGB으로 변환됩니다. RGB로 전환하는 데 사용되는 임베드된 ICC 색상 프로필이 있는 CMYK 이미지를 업로드하는 것이 좋습니다. ICC 프로파일 도 참조하십시오.
 
 >[!MORELIKETHIS]
 >

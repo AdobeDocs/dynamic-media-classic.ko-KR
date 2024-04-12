@@ -1,18 +1,16 @@
 ---
 title: 견본 집합 만들기
 description: Adobe Dynamic Media Classic에서 견본 세트를 만드는 방법을 알아봅니다.
-uuid: 250b3525-310d-4481-b0bc-f9057e823e0b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/swatch_sets
-discoiquuid: 631d2b2d-9e69-4b96-8392-17e00a1a8de0
 feature: Dynamic Media Classic,Viewers
 role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 58%
@@ -78,7 +76,7 @@ ht-degree: 58%
 1. 세트 편집을 완료하면 페이지 오른쪽 하단에서 **[!UICONTROL 저장 후 게시]**(기본값)가 선택되어 있는지 확인합니다.
 1. 선택 **[!UICONTROL 저장]**&#x200B;스토리지 폴더를 선택하고 세트 이름을 입력한 다음 을 선택합니다. **[!UICONTROL 저장]**.
 
-## 견본 집합 삭제 {#deleting-a-swatch-set}
+## 견본 집합 삭제
 
 삭제된 세트는 휴지통으로 이동합니다. 그러나 해당 집합 내의 멤버(또는 &quot;하위&quot;)는 영향을 받지 않습니다. 대신 각 멤버는 기존의 게시 또는 게시 취소 상태를 유지합니다.
 

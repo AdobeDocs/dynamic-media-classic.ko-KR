@@ -1,21 +1,19 @@
 ---
 title: PDF 작업
 description: Adobe Dynamic Media Classic에서 PDF을 사용하여 작업하는 방법을 알아봅니다.
-uuid: 26d70d28-9393-49b1-9051-d70456deca67
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 5a073de3-6b1d-4c3e-8c03-9182f9f3874a
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5d8b7cb8b4616a998346675d7324b568634698fb
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 36%
+source-wordcount: '723'
+ht-degree: 28%
 
 ---
 
@@ -33,7 +31,7 @@ PDF(PORTABLE DOCUMENT FORMAT) 파일은 Adobe Dynamic Media Classic에서 eCatal
 
 ## PDF 업로드 선택 사항 {#pdf-upload-options}
 
-PDF 파일을 업로드할 때 다양한 방법으로 형식을 지정할 수 있습니다. 페이지를 자르고, 검색어를 추출하고, 인치당 픽셀 수 해상도를 입력하고, 색상 공간을 선택합니다. 대체로 PDF 파일에는 트림 여백, 절단선, 등록 표시 및 기타 프린터 표시가 포함되어 있습니다. PDF 파일을 업로드할 때 페이지 측면에서 이러한 표시를 자를 수 있습니다.
+PDF 파일을 업로드할 때 다양한 방법으로 형식을 지정할 수 있습니다. 페이지를 자르고, 검색어를 추출하고, 인치당 픽셀 수 해상도를 입력하고, 색상 공간을 선택합니다. PDF 파일에는 종종 트림 여백, 자르기 표시, 등록 표시 및 기타 프린터 표시가 들어 있습니다. PDF 파일을 업로드할 때 페이지 측면에서 이러한 표시를 자를 수 있습니다.
 
 PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지에 있습니다.
 
@@ -51,7 +49,7 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
 
 해상도 설정을 결정합니다. PDF 파일에서 인치당 표시되는 픽셀 수를 결정하는 설정입니다. 초기값은 150입니다.
 
-### 색상 공간 선택 사항
+### 색상 공간 옵션
 
 [색상 공간] 메뉴를 선택한 다음 PDF 파일의 색상 공간을 선택합니다. 대부분의 PDF 파일은 [RGB] 및 [CMYK] 색상 이미지를 모두 포함합니다. 온라인 보기에서는 RGB 색상 공간이 선호됩니다.
 
@@ -65,7 +63,7 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
 
 ### 색상 프로파일 옵션
 
-* **[!UICONTROL sRGB로 변환]** - sRGB(표준 빨강 녹색 파랑)로 변환합니다. sRGB는 웹 페이지에 이미지를 표시할 때 권장되는 색상 공간입니다.
+* **[!UICONTROL sRGB로 변환]** - sRGB(표준 빨강 녹색 파랑)로 변환합니다. sRGB는 웹 페이지에 이미지를 표시하는 데 권장되는 색상 공간입니다.
 
 * **[!UICONTROL 원래 색상 공간 유지]** - 원래 색상 공간을 유지합니다.
 
@@ -92,7 +90,7 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
 
 ## PDF 페이지 양쪽에서 자르기 {#cropping-from-the-sides-of-pdf-pages}
 
-업로드할 때 PDF 파일의 페이지 측면에서 프린터 표시를 수동으로 제거할 수 있습니다.
+PDF 파일을 업로드할 때 페이지 양쪽에서 프린터 표시를 수동으로 제거할 수 있습니다.
 
 1. 자르기 메뉴에서 다음을 선택합니다 **[!UICONTROL 수동]**.
 1. [위쪽], [오른쪽], [아래쪽] 및 [왼쪽] 텍스트 상자에 픽셀 설정을 입력하여 페이지 위쪽, 아래쪽 및 측면에서 자릅니다.

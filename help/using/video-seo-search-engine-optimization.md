@@ -1,21 +1,19 @@
 ---
 title: 비디오 SEO(검색 엔진 최적화)
 description: Adobe Dynamic Media Classic에서 비디오 SEO 설정을 구성하는 방법에 대해 알아봅니다.
-uuid: bac2c6a9-8466-4b8f-b835-6cb0b4168513
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/setup
-discoiquuid: 34ecd868-775f-452b-b26e-d139f0e280ae
 feature: Dynamic Media Classic
 role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 35%
+source-wordcount: '1019'
+ht-degree: 30%
 
 ---
 
@@ -33,7 +31,7 @@ Adobe Dynamic Media Classic 비디오 SEO를 사용하여 비디오 메타데이
 >
 >Google은 검색 엔진에 정보 전송 시 비디오 사이트 맵과 mRSS 피드 프로토콜을 모두 지원합니다.
 
-Adobe Dynamic Media Classic은 각 비디오와 함께 저장된 메타데이터에서 비디오 사이트 맵 및 mRSS 피드를 생성할 수 있습니다. 비디오 사이트 맵과 mRSS 피드를 만드는 경우 비디오 파일에서 포함할 메타데이터 필드를 결정합니다. 이런 방식으로 각 엔진이 트래픽을 웹 사이트의 비디오로 보다 정확하게 보낼 수 있도록 검색 엔진에 비디오를 설명합니다..
+Adobe Dynamic Media Classic은 각 비디오와 함께 저장된 메타데이터에서 비디오 사이트 맵 및 mRSS 피드를 생성할 수 있습니다. 비디오 사이트 맵과 mRSS 피드를 만드는 경우 비디오 파일에서 포함할 메타데이터 필드를 결정합니다. 이러한 방식으로 검색 엔진이 웹 사이트의 비디오에 트래픽을 더 정확하게 보낼 수 있도록 비디오를 검색 엔진에 설명합니다.
 
 >[!NOTE]
 >
@@ -43,9 +41,9 @@ Adobe Dynamic Media Classic은 사용자가 비디오 사이트 맵 및 mRSS 피
 
 >[!NOTE]
 >
->비디오 사이트 맵 및 mRSS 피드의 경우 Adobe Dynamic Media Classic은 게시로 표시된 비디오에서만 메타데이터를 캡처합니다. 비디오를 게시로 표시하여 해당 메타데이터를 비디오 사이트 맵과 mRSS 피드에 포함하십시오.
+>비디오 사이트 맵 및 mRSS 피드의 경우 Adobe Dynamic Media Classic은 게시로 표시된 비디오에서만 메타데이터를 캡처합니다. 비디오를 게시용으로 표시하여 비디오 사이트 맵 및 mRSS 피드에 해당 메타데이터를 포함하십시오.
 
-## 비디오 SEO 설정 선택 {#choosing-video-seo-settings}
+## 비디오 SEO 설정 선택
 
 에서 비디오 사이트 맵 및 mRSS 피드에 대한 비디오 SEO 설정을 선택합니다. **[!UICONTROL 비디오 검색 엔진 최적화 설정]** 페이지를 가리키도록 업데이트하는 중입니다. 이 페이지를 열려면 전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 비디오 SEO]** > **[!UICONTROL 설정]**.
 
@@ -83,7 +81,7 @@ Adobe Dynamic Media Classic은 사용자가 비디오 사이트 맵 및 mRSS 피
 
 [생성 설정] 영역에는 비디오 사이트 맵이나 mRSS 피드 또는 둘 다에 대한 입력 필드가 나열되고 [메타데이터] 패널에는 메타데이터 필드의 이름이 나열됩니다. [일반 설정] 영역을 사용하여 입력 필드를 메타데이터 필드에 매핑합니다. 이렇게 하면 Adobe Dynamic Media Classic에 비디오 사이트 맵 및/또는 mRSS 피드에 대한 메타데이터를 가져올 위치를 알려 줍니다.
 
-1. [메타데이터 보기] 메뉴에서 메타데이터 보기를 선택합니다. 보기를 선택하면 메타데이터 필드 이름이 [메타데이터] 패널에 표시됩니다.
+1. [메타데이터 보기] 메뉴에서 메타데이터 보기를 선택합니다. 보기를 선택하면 메타데이터 필드의 이름이 [메타데이터] 패널에 표시됩니다.
 [메타데이터 보기](application-setup.md#metadata_views)를 참조하십시오.
 1. [메타데이터] 패널에서 [랜딩 페이지], [제목], [설명], [태그] 및 [범주] 입력 필드로 메타데이터 필드 이름을 드래그합니다. [랜딩 페이지], [제목] 및 [설명] 필드는 필수입니다.
 

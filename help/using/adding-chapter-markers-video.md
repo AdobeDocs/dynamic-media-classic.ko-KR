@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '628'
-ht-degree: 37%
+source-wordcount: '623'
+ht-degree: 28%
 
 ---
 
@@ -55,7 +55,7 @@ HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 
 
 다음을 참조하십시오 [WebVTT: 웹 비디오 텍스트 트랙 형식](https://w3c.github.io/webvtt/).
 
-**비디오에 장 마커 추가:**
+**비디오에 챕터 마커를 추가하려면:**
 
 1. Adobe Dynamic Media Classic 외부의 간단한 텍스트 편집기를 사용하여 비디오 챕터 파일을 만듭니다.
 
@@ -65,13 +65,13 @@ HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 
 
 1. VTT 파일을 UTF8 인코딩으로 저장하여 챕터 제목 텍스트의 문자 렌디션 문제를 방지할 수 있습니다.
 
-   일반적으로 장 VTT 파일의 이름은 비디오 파일과 동일하게 지정하고 여기에 `chapters`를 추가합니다. 그렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다.
+   일반적으로 챕터 VTT 파일의 이름을 비디오 파일과 같은 이름으로 지정하고 `chapters`. 그렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다.
 
 1. Adobe Dynamic Media Classic에서 WebVTT 챕터 파일을 업로드합니다.
 
    다음을 참조하십시오 [파일 업로드](uploading-files.md#uploading_files).
 
-1. 왼쪽의 [자산 라이브러리] 패널에서 업로드한 장 파일과 연결하려는 비디오 파일이 들어 있는 자산 폴더를 탐색합니다.
+1. 왼쪽의 자산 라이브러리 패널에서 업로드한 챕터 파일과 연결할 비디오 파일이 포함된 자산 폴더로 이동합니다.
 1. 에셋 찾아보기 패널에서 단일 비디오 에셋을 선택한 다음 에셋의 썸네일 이미지 아래에서 을(를) 선택합니다 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**.
 1. [뷰어 목록] 표에서 **Univeral_HTML5_Video**&#x200B;라는 HTML5 뷰어를 찾고 다음 중 하나를 수행합니다.
 

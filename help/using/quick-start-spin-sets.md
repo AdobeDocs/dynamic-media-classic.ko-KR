@@ -1,21 +1,19 @@
 ---
-title: "빠른 시작: 회전 집합"
+title: "빠른 시작: 스핀 세트"
 description: Adobe Dynamic Media Classic에서 빠르게 시작하고 실행하는 데 도움이 되는 소개 및 빠른 스핀 세트 시작입니다.
-uuid: d0af9db6-cb6f-48f0-89f6-f3ab2da0659f
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/spin_sets
-discoiquuid: 282b8e83-b20f-43f7-b9f8-6eebd5b1c5a7
 feature: Dynamic Media Classic,Viewers,Spin Sets
 role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 22%
+source-wordcount: '801'
+ht-degree: 25%
 
 ---
 
@@ -23,7 +21,7 @@ ht-degree: 22%
 
 회전 집합은 개체를 회전하는 실제 동작을 시뮬레이션하여 검사합니다. 회전 집합을 사용하면 임의 각도에서 항목을 보고 모든 각도에서 주요 시각적 세부 사항을 얻을 수 있습니다. 회전 집합은 360도 보기 환경을 시뮬레이션합니다. Adobe Dynamic Media Classic에서는 뷰어가 항목을 회전할 수 있는 1차원 스핀 세트와 뷰어가 항목을 회전하고 전환할 수 있는 2차원 스핀 세트를 제공합니다. 또한 사용자는 몇 번의 간단한 마우스 클릭만으로 &quot;자유 형식의&quot; 확대/축소를 수행하고 모든 보기를 이동할 수 있습니다. 이렇게 하면 사용자가 특정 뷰포인트에서 더 자세히 항목을 검사할 수 있습니다.
 
-![회전 집합의 이미지](/help/using/assets/spin_set.png)
+![회전 집합에 대한 이미지입니다.](/help/using/assets/spin_set.png)
 
 회전 집합도 이미지 맵을 허용합니다. 이미지 맵은 회전 집합 내 이미지의 영역으로, 텍스트가 있는 롤오버 패널을 표시합니다. 사용자가 이미지 맵을 선택하면 특정 종류의 작업이 트리거됩니다. 예를 들어 사용자가 제품에 대한 자세한 정보를 확인할 수 있도록 웹 페이지가 시작됩니다. 회전 집합에서 이미지 맵을 가리키기 위해 사용자가 마우스 포인터를 회전 집합 위로 이동하면 윤곽선이 이미지 맵 자체 주위에 나타납니다.
 
@@ -43,7 +41,7 @@ ht-degree: 22%
 
 ## 1. 이미지 만들기 및 업로드
 
-최소한 1차원 스핀 세트의 경우 8-12개의 샷이 필요하고 2차원 스핀 세트의 경우 16-24개의 샷이 필요합니다. 항목을 회전하고 뒤집는 듯한 인상을 주려면 일정한 간격으로 촬영해야 합니다. 예를 들어 1차원 스핀 세트에 12개의 샷이 포함되어 있으면 각 샷에 대해 항목을 30°(360/12)로 회전합니다.
+최소한 1차원 회전 집합에는 항목의 8-12개 촬영이 필요하고 2차원 회전 집합에는 16-24개 촬영이 필요합니다. 항목을 회전하고 뒤집는 듯한 인상을 주려면 일정한 간격으로 촬영해야 합니다. 예를 들어 1차원 스핀 세트에 12개의 샷이 포함되어 있으면 각 샷에 대해 항목을 30°(360/12)로 회전합니다.
 
 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 업로드]** 컴퓨터 또는 네트워크에서 Adobe Dynamic Media Classic으로 회전 이미지를 업로드합니다.
 
@@ -65,7 +63,7 @@ ht-degree: 22%
 
 관리자는 회전 집합 뷰어 사전 설정을 만들 수 있습니다. 이러한 사전 설정은 회전 집합 뷰어의 모양을 결정합니다. 새 회전 집합 뷰어 사전 설정을 설정하려면 전역 탐색 모음에서 다음 위치로 이동하십시오. **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**.
 
-뷰어 사전 설정 페이지에서 을 선택합니다. **[!UICONTROL 추가]**&#x200B;을 선택한 다음 을 선택합니다. **[!UICONTROL 회전 집합 뷰어]** 드롭다운 목록에서 을(를) 선택한 다음 **[!UICONTROL 추가]**. 뷰어 구성 페이지에서 옵션을 선택한 다음 을 선택합니다. **[!UICONTROL 저장]**.
+뷰어 사전 설정 페이지에서 을 선택합니다. **[!UICONTROL 추가]**&#x200B;을 선택한 다음 을 선택합니다. **[!UICONTROL 회전 집합 뷰어]** 드롭다운 목록에서 을(를) 선택한 다음 **[!UICONTROL 추가]**. 다음에서 옵션 선택 `Configure Viewer` 페이지를 선택한 다음 **[!UICONTROL 저장]**.
 
 다음을 참조하십시오 [스핀 세트 뷰어 사전 설정 설정](setting-spin-set-viewer-presets.md#setting-up-spin-set-viewer-presets).
 
@@ -79,7 +77,7 @@ ht-degree: 22%
 
 회전 집합을 게시하면 해당 회전 집합이 웹 사이트 또는 애플리케이션에 동적으로 전달될 수 있도록 Adobe Dynamic Media Classic 서버에 배치됩니다. 또한 Dynamic Media 이미지 서버에서 웹 사이트 또는 애플리케이션으로 스핀 세트를 호출하는 URL 문자열을 활성화합니다.
 
-회전 세트를 게시하려면 다음을 선택하여 게시로 표시합니다. **[!UICONTROL 게시로 표시]** [찾아보기] 패널의 이름 옆에 있는 아이콘. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]** 게시를 시작합니다. 게시 화면에서 다음을 선택합니다. **[!UICONTROL 게시 제출]**.
+회전 세트를 게시하려면 다음을 선택하여 게시로 표시합니다. **[!UICONTROL 게시로 표시]** [찾아보기] 패널의 이름 옆에 있는 아이콘. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]** 게시를 시작합니다. 게시 페이지에서 를 선택합니다. **[!UICONTROL 게시 제출]**.
 
 다음을 참조하십시오 [회전 집합 게시](publishing-spin-set.md#publishing-a-spin-set).
 

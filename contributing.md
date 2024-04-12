@@ -1,7 +1,7 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ GitHub에서 직접 설명서를 편집할 때의 편의성에 따라 선택할 
 
 문제를 발견하고 이를 수정하는 방법을 정확히 알고 있는 경우 가져오기 요청을 만드는 것이 좋습니다. 가져오기 요청을 사용하면 설명서를 직접 편집할 수 있고 이후 이 편집 내용을 설명서 팀원이 포함하기 위해 검토합니다. 제안된 변경 사항을 적용하고 가져오기 요청을 만들려면 다음을 선택합니다. **[!UICONTROL 이 페이지 편집]** 페이지의 탐색 패널 오른쪽 상단에 있습니다.
 
-모든 가져오기 요청에는 서명이 있어야 합니다. [기여자 라이선스 계약 또는 CLA](https://opensource.adobe.com/cla.html). 이 워크플로우는 Adobe에게 프로젝트의 일부로 기여도를 재배포할 수 있는 권한을 부여합니다. Adobe CLA를 한 번만 제출하면 되므로 이전에 제출한 적이 있는 경우에는 설정됩니다.
+모든 가져오기 요청에는 서명이 있어야 합니다. [기여자 라이선스 계약 또는 CLA](https://opensource.adobe.com/cla.html). 이 워크플로우는 Adobe에게 프로젝트의 일부로 기여도를 재배포할 수 있는 권한을 부여합니다. Adobe CLA를 한 번만 제출하면 되므로 이전에 제출한 적이 있으면 설정됩니다.
 
 ### 빠른 비디오 소개
 
@@ -58,4 +58,4 @@ Adobe은 모든 기여를 환영합니다. 공용 리포지토리에서 수행�
 
 ## 추가 정보
 
-다음을 참조하십시오. [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/docs/contributor/contributor-guide/introduction.html) gitHub 제작 플랫폼을 사용하는 방법에 대한 자세한 내용은 을 참조하십시오.
+다음을 참조하십시오. [Adobe 문서 기여자 안내서](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction) gitHub 제작 플랫폼을 사용하는 방법에 대한 자세한 내용은 을 참조하십시오.

@@ -1,20 +1,18 @@
 ---
 title: Adobe Dynamic Media Classic의 사용자 생성 컨텐츠 정보
 description: 사용자 생성 콘텐츠에 대한 소개입니다.
-uuid: ba867a6a-84a4-4968-9a77-712f3ce5dad5
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/user_generated_content
-discoiquuid: c1594abf-8cc2-46dd-88bf-af93db7db607
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 14729192-7b9d-4f42-99da-6564a3f35959
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 36%
+source-wordcount: '168'
+ht-degree: 35%
 
 ---
 

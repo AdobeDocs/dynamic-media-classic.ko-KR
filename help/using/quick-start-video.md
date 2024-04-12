@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: a30bc34b1943d63620cb12098b7bd2db4714086d
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '1439'
-ht-degree: 33%
+source-wordcount: '1437'
+ht-degree: 30%
 
 ---
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android™, BlackBerry®
 
   응용 비디오 스트리밍은 다양한 iOS 플랫폼에서 지원됩니다.
 
-  에서 최신 지원 보기 [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/docs/dynamic-media-developer-resources.html).
+  에서 최신 지원 보기 [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
 
   Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -98,11 +98,11 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android™, BlackBerry®
 * **미리 인코딩된 비디오 업로드** - 비디오가 이미 Adobe Dynamic Media Classic 외부에서 인코딩되어 있는 경우 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 업로드]** 을 사용하여 MP4 비디오 파일을 탐색하고 Adobe Dynamic Media Classic에 바로 업로드할 수 있습니다. 그런 다음 로 이동합니다. **[!UICONTROL 빌드]** > **[!UICONTROL 응용 비디오 집합]**. 비디오 파일을 찾습니다. 원하는 비디오 파일을 응용 비디오 세트 표로 드래그 앤 드롭한 다음 세트를 저장합니다.
 * **기본 소스 비디오 업로드** - 비디오가 인코딩되어 있지 않으면 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 업로드]** 기본 비디오 소스 파일(MP4 이외)을 업로드합니다. Adobe Dynamic Media Classic은 이러한 파일을 MP4 파일로 인코딩합니다. 다음에서 **[!UICONTROL 업로드 작업 옵션]** 대화 상자, 아래 **[!UICONTROL EVideo 옵션]**, 선택 **[!UICONTROL 응용 비디오]**.
 
-  이 기본 옵션을 이용하면 16:9이든, 4:3이든 업로드한 비디오 크기에 맞게 올바른 인코딩 사전 설정을 비디오에 자동으로 적용하는 적응형 비디오 집합을 만들 수 있습니다. 업로드 작업을 제출하면 올바른 종횡비의 3개의 인코딩 비디오 설정을 포함하는 적응형 비디오 세트가 자동으로 생성됩니다.
+  이 기본 옵션을 사용하면 업로드한 비디오의 차원과 일치하도록 16:9 또는 4:3에 관계없이 비디오에 올바른 인코딩 사전 설정을 자동으로 적용하는 응용 비디오 세트 를 만들 수 있습니다. 업로드 작업을 제출하면 올바른 종횡비의 3개의 인코딩 비디오 설정을 포함하는 적응형 비디오 세트가 자동으로 생성됩니다.
 
   또는, 동시에 **[!UICONTROL 작업 옵션]** 대화 상자, 아래 **[!UICONTROL EVideo 옵션]**, 확장 **[!UICONTROL 단일 인코딩 사전 설정]**. 원하는 개별 비디오 인코딩 사전 설정을 선택합니다 **데스크탑**, **모바일(iPhone, iPad, Android™)**, 및 **태블릿(iPad, Android™)** MP4 파일을 만들 수 있습니다.
 
-* 또는 를 사용하여 기본 비디오를 재처리할 수 있습니다. **[!UICONTROL 재처리]** 기능. 새로 인코딩된 비디오가 기존 적응형 비디오 집합에 추가됩니다.
+* 또는 를 사용하여 기본 비디오를 재처리할 수 있습니다. **[!UICONTROL 재처리 중]** 기능. 새로 인코딩된 비디오가 기존 적응형 비디오 집합에 추가됩니다.
 
 다음을 참조하십시오 [비디오 업로드 및 인코딩](uploading-encoding-videos.md#uploading_and_encoding_videos).
 

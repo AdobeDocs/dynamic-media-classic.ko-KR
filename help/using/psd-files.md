@@ -1,18 +1,16 @@
 ---
 title: PSD 파일 작업
 description: Adobe Dynamic Media Classic에서 PSD 파일로 작업하는 방법을 알아봅니다.
-uuid: 5836b660-6bca-46e7-ab39-1a31d1e0cff2
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/master_files
-discoiquuid: 4086e3db-5aca-41a0-8f15-302afbf67ddb
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '1015'
 ht-degree: 23%
@@ -73,7 +71,7 @@ PSD 파일을 업로드할 때 사용할 수 있는 선택 사항은 다음과 �
 
 ## PSD 파일의 레이어 보기 및 편집 {#viewing-and-editing-layers-in-a-psd-file}
 
-PSD을 업로드할 때 레이어 유지 옵션을 선택한 경우 Adobe Dynamic Media Classic에서 개별 레이어를 에셋으로 리핑했습니다. [상세 보기]의 [찾아보기] 패널에서 파일을 열어 PSD 파일에 속하는 에셋 레이어를 보고 편집할 수 있습니다.
+옵션을 선택한 경우 **[!UICONTROL 레이어 유지]** PSD을 업로드하면 Adobe Dynamic Media Classic이 개별 레이어를 에셋으로 리핑했습니다. [상세 보기]의 [찾아보기] 패널에서 파일을 열어 PSD 파일에 속하는 에셋 레이어를 보고 편집할 수 있습니다.
 
 >[!NOTE]
 >

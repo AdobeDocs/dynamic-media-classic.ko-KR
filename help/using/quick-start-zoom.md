@@ -1,21 +1,19 @@
 ---
 title: "빠른 시작: 확대/축소"
 description: 빠르게 시작하고 실행하는 데 도움이 되는 소개 및 빠른 확대/축소 시작
-uuid: 31eda632-3469-4f90-885b-e90c6a2e5e75
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: 559c986d-313d-46df-a5ff-0b49316ad3a7
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '945'
-ht-degree: 25%
+source-wordcount: '844'
+ht-degree: 28%
 
 ---
 
@@ -41,13 +39,13 @@ Adobe Dynamic Media Classic에 확대/축소 이미지를 업로드하는 것부
 
 확대/축소 타겟을 사용하면 이미지의 특정 부분을 강조 표시할 수 있습니다. 예를 들어 이미지를 고유하거나 특별하게 하는 특정 이미지 부분에 주의를 끌 수 있습니다. [확대/축소 뷰어] 창에서 확대/축소 타겟은 이미지 측면에 썸네일 이미지 형태로 표시됩니다. 이러한 확대/축소 타겟 썸네일 중 하나를 선택하면 지정한 이미지 부분이 자동으로 확대/축소됩니다.
 
-확대/축소 대상을 만들려면 다음을 선택합니다 **[!UICONTROL 편집]** [Target 확대/축소]를 선택하거나 [상세 보기]의 [찾아보기] 패널에서 이미지를 열고 을 선택합니다 **[!UICONTROL 확대/축소 Target]**. 그런 다음 [확대/축소 Target 편집기] 페이지에서 [확대/축소] 도구를 사용하여 이미지의 일부를 대상으로 분리할 수 있습니다. 다음을 참조하십시오 [유도된 확대/축소에 대한 확대/축소 대상 만들기](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
+확대/축소 대상을 만들려면 다음을 선택합니다 **[!UICONTROL 편집]** [대상 확대/축소]를 선택하거나 [상세 보기]의 [찾아보기] 패널에서 이미지를 열고 다음을 선택합니다 **[!UICONTROL 확대/축소 대상]**. 그런 다음 [확대/축소 대상 편집기] 페이지에서 [확대/축소] 도구를 사용하여 이미지의 일부를 대상으로 분리할 수 있습니다. 다음을 참조하십시오 [유도된 확대/축소에 대한 확대/축소 대상 만들기](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
 ## 3. 확대/축소 뷰어 사전 설정 설정
 
 확대/축소 뷰어 사전 설정은 확대/축소 뷰어의 스타일과 동작을 결정합니다. 관리자는 확대/축소 뷰어 사전 설정을 설정할 수 있습니다. Adobe Dynamic Media Classic에는 기본 &quot;모범 사례&quot; 확대/축소 뷰어 사전 설정도 제공됩니다.
 
-확대/축소 뷰어 사전 설정을 만들려면 전역 탐색 막대에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**. 뷰어 사전 설정 페이지에서 을 선택합니다. **[!UICONTROL 추가]**&#x200B;를 클릭하고 플랫폼 및 확대/축소 뷰어를 선택한 다음 를 선택합니다 **[!UICONTROL 추가]**. 그런 다음 뷰어 구성 페이지에서 옵션을 선택합니다.
+확대/축소 뷰어 사전 설정을 만들려면 전역 탐색 막대에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**. 뷰어 사전 설정 페이지에서 을 선택합니다. **[!UICONTROL 추가]**&#x200B;를 클릭하고 플랫폼 및 확대/축소 뷰어를 선택한 다음 를 선택합니다 **[!UICONTROL 추가]**. 그런 다음 `Configure Viewer` 페이지를 가리키도록 업데이트하는 중입니다.
 
 Adobe Dynamic Media Classic 오퍼 **[!UICONTROL 확대/축소 뷰어 사전 설정]** 버튼 스타일과 뷰어의 전체 모양을 선택할 수 있는 옵션입니다. 웹 사이트의 확대/축소 설정을 사용자 지정할 수도 있습니다. 다음을 참조하십시오 [확대/축소 뷰어 사전 설정 설정](setting-zoom-viewer-presets.md#setting_up_zoom_viewer_presets).
 
@@ -63,7 +61,7 @@ Adobe Dynamic Media Classic 오퍼 **[!UICONTROL 확대/축소 뷰어 사전 설
 
 확대/축소 이미지를 게시하면 웹 사이트 및 애플리케이션에 전달될 수 있도록 Dynamic Media 이미지 서버에 이미지가 배치됩니다. 게시 프로세스의 일부로 Adobe Dynamic Media Classic이 URL 문자열을 활성화합니다. 이러한 URL 문자열은 Dynamic Media 이미지 서버에서 웹 사이트 또는 애플리케이션으로 확대/축소 이미지를 호출합니다.
 
-전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]**. 게시 대화 상자에서 를 선택합니다. **[!UICONTROL 게시 제출]**. [확대/축소 이미지 게시](publishing-zoom-images.md#publishing_zoom_images)를 참조하십시오.
+전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]**. 게시 대화 상자에서 다음을 선택합니다. **[!UICONTROL 게시 제출]**. [확대/축소 이미지 게시](publishing-zoom-images.md#publishing_zoom_images)를 참조하십시오.
 
 ## 6. 확대/축소 뷰어를 웹 페이지에 연결
 

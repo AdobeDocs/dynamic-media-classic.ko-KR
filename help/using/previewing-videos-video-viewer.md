@@ -1,20 +1,18 @@
 ---
 title: 비디오 뷰어에서 비디오 미리 보기
 description: 비디오 뷰어에서 비디오를 미리 보는 방법에 대해 알아봅니다.
-uuid: 7ab4e805-6e5d-461b-bd99-5e09b9ced950
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/video
-discoiquuid: 6a2e6df1-9186-42e2-9b85-01f132936c72
 feature: Dynamic Media Classic,Viewers,Video
 role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '773'
 ht-degree: 21%
 
 ---
@@ -25,7 +23,7 @@ ht-degree: 21%
 
 다음을 참조하십시오 [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets).
 
-**비디오 뷰어에서 비디오를 미리 보려면:**
+**비디오 뷰어에서 비디오를 미리 보려면 다음 작업을 수행하십시오.**
 
 1. 왼쪽의 에셋 라이브러리 패널에서 표시 드롭다운 목록을 선택하고 **[!UICONTROL 비디오]** (단일 인코딩 비디오) 또는 **[!UICONTROL 응용 비디오 집합]**. 응용 비디오 인코딩 사전 설정을 사용하면 다중 비트 전송률이 인코딩된 비디오 세트가 생성됩니다.
 1. 왼쪽의 자산 라이브러리 패널에서 자산 폴더를 탐색하여 미리 보려는 비디오를 선택합니다.
@@ -36,7 +34,7 @@ ht-degree: 21%
    * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 세부 사항 보기]**. 동일한 도구 모음에서 를 선택합니다. **[!UICONTROL 미리 보기]**.
    * [자산] 창에서 자산을 선택합니다. 도구 모음에서 다음 위치로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 미리 보기]**.
 
-1. (선택 사항) 미리 보기 창의 맨 아래에 있는 드롭다운 목록에서 복사할 때 에셋의 URL에 적용할 URL 인코딩을 선택합니다.
+1. (선택 사항) 미리 보기 창의 맨 아래에 있는 드롭다운 목록에서 에셋의 URL이 복사될 때 적용할 URL 인코딩을 선택합니다.
 1. 다음 항목 선택 **[!UICONTROL 미리 보기]** 링크를 클릭하여 선택한 뷰어에서 에셋을 검토할 수 있습니다.
 1. 표시된 뷰어를 닫습니다.
 1. 선택 **[!UICONTROL 닫기]** 자산 화면으로 돌아갑니다.
@@ -65,7 +63,7 @@ Adobe Dynamic Media Classic에는 비디오 재생을 위해 사전 정의된 �
 
 참조: [비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오입니다.
 
-**비디오 뷰어 사전 설정을 추가 또는 편집하려면:**
+**비디오 뷰어 사전 설정을 추가하거나 편집하려면:**
 
 1. Adobe Dynamic Media Classic의 오른쪽 상단 모서리 근처에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**.
 
@@ -83,7 +81,7 @@ Adobe Dynamic Media Classic에는 비디오 재생을 위해 사전 정의된 �
 
    * **편집** - 비디오 뷰어 사전 설정을 선택한 다음 선택 **[!UICONTROL 편집]**.
 
-1. 뷰어 구성 페이지의 사전 설정 이름 필드에 사전 설정 이름을 입력하거나 편집합니다.
+1. 다음에서 `Configure Viewer` [페이지], [사전 설정 이름] 필드에서 사전 설정 이름을 입력하거나 편집합니다.
 1. 원하는 나머지 선택 사항을 설정합니다.
 
    옵션에 대한 설명을 보려면 해당 정보 팁 아이콘을 선택합니다.

@@ -1,21 +1,19 @@
 ---
 title: 확대/축소 뷰어 사전 설정 설정
 description: Adobe Dynamic Media Classic에서 확대/축소 뷰어 사전 설정을 설정하는 방법에 대해 알아봅니다.
-uuid: 202d80cb-8282-45d4-89e8-942c8677aa93
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/zoom
-discoiquuid: 5023a933-e229-4d3c-8e91-3ac5e9f4970b
 feature: Dynamic Media Classic,Viewers,Zoom
 role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 47%
+source-wordcount: '629'
+ht-degree: 48%
 
 ---
 
@@ -61,7 +59,7 @@ Adobe Dynamic Media Classic에서는 플라이아웃 확대/축소 뷰어 사전
    미리보기 페이지에는 설정을 업데이트하고 변경할 때 뷰어가 표시됩니다.
 
 1. 선택 **[!UICONTROL 저장]** 또는 **[!UICONTROL 다른 이름으로 저장]**.
-1. 뷰어 사전 설정 페이지에서 만든 확대/축소 뷰어 사전 설정 또는 안내식 확대/축소 뷰어 사전 설정을 검사합니다. 조정이 필요하면 를 선택합니다. **[!UICONTROL 편집]**&#x200B;를 클릭하고 뷰어 구성 페이지에서 설정을 변경한 다음 를 선택합니다 **[!UICONTROL 저장]**.
+1. 뷰어 사전 설정 페이지에서 만든 확대/축소 뷰어 사전 설정 또는 안내식 확대/축소 뷰어 사전 설정을 검사합니다. 조정이 필요하면 를 선택합니다. **[!UICONTROL 편집]**, 다음에서 설정 변경: `Configure Viewer` 페이지를 선택한 다음 **[!UICONTROL 저장]**.
 
 [뷰어 사전 설정] 화면에서 뷰어 사전 설정을 관리하는 방법에 대한 자세한 내용은 [뷰어 사전 설정](application-setup.md#viewer_presets)을 참조하십시오.
 

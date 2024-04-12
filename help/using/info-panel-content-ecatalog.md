@@ -10,16 +10,16 @@ role: User
 exl-id: bfb9c5a4-5068-4adb-9fe2-a4ead8656289
 topic: Integrations
 level: Experienced
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 55%
+source-wordcount: '871'
+ht-degree: 53%
 
 ---
 
 # eCatalogs의 정보 패널 콘텐츠 관리{#managing-info-panel-content-in-ecatalogs}
 
-eCatalog에 롤오버의 이미지 맵 텍스트를 사용하는 것은 물론 정보 패널을 사용하여 링크를 비롯한 많은 롤오버 텍스트를 추가할 수도 있습니다. 시간 지정 캐싱과 컨텐츠 업데이트 예약을 사용하여 정보 패널을 관리할 수도 있습니다.
+eCatalog에 롤오버의 이미지 맵 텍스트를 사용하는 것은 물론 정보 패널을 사용하여 링크를 비롯한 많은 롤오버 텍스트를 추가할 수도 있습니다. 또한 시간이 지정된 캐싱을 사용하고 콘텐츠 업데이트 일정을 지정하여 정보 패널을 관리할 수도 있습니다.
 
 Adobe Dynamic Media Classic에서 다음 기능을 사용하여 정보 패널 설정 및 데이터를 관리할 수 있습니다.
 
@@ -68,7 +68,7 @@ eCatalog의 정보 패널 소스 텍스트에 쉼표로 구분된 값 파일(CSV
 1. eCatalog를 두 번 클릭하여 세부 사항 보기로 엽니다.
 1. 다음 항목 선택 **[!UICONTROL 정보 패널 데이터 피드]** 패널.
 1. [외부 호스팅된 CSV 파일 위치] 상자에 CSV 파일의 URL을 입력합니다. 이 필드에 URL을 붙여 넣거나 직접 입력할 수 있습니다.
-1. (선택 사항) 업데이트 예약 메뉴를 사용하여 콘텐츠를 업데이트할 시간을 지정하고 다음을 선택합니다 **[!UICONTROL 추가]**. 업데이트 시간을 여러 개 선택할 수 있습니다. 각 업데이트 시간이 [시간 업데이트] 상자에 표시됩니다. (시간을 제거하려면 시간을 선택한 다음 을 선택합니다 **[!UICONTROL 삭제]**.)
+1. (선택 사항) 업데이트 예약 메뉴를 사용하여 콘텐츠를 업데이트할 시간을 지정하고 을 선택합니다 **[!UICONTROL 추가]**. 업데이트 시간을 여러 개 선택할 수 있습니다. 각 업데이트 시간이 [시간 업데이트] 상자에 표시됩니다. (시간을 제거하려면 시간을 선택한 다음 을 선택합니다 **[!UICONTROL 삭제]**.)
 1. (선택 사항) 선택 **[!UICONTROL 지금 업데이트 실행]** 컨텐츠를 즉시 업데이트합니다.
 
 ### 탭으로 구분된 파일 또는 CSV 파일 가져오기 {#import-a-tab-delimited-or-csv-file}

@@ -1,21 +1,19 @@
 ---
 title: 웹 애플리케이션에 URL 연결
 description: Adobe Dynamic Media Classic에서 웹 애플리케이션에 URL을 연결하는 방법을 알아봅니다.
-uuid: 1179bdd3-9b39-47f9-945d-1c1ca186bf96
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/image_sizing
-discoiquuid: 71299640-676d-49b7-841d-6118f31044e8
 feature: Dynamic Media Classic
 role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 597b7d6bd98c59a644984baeecb888f86a8975c9
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '845'
-ht-degree: 37%
+source-wordcount: '843'
+ht-degree: 27%
 
 ---
 
@@ -35,20 +33,20 @@ ht-degree: 37%
 
 ### 미리 보기에서 이미지 사전 설정 URL 얻기 {#obtaining-an-image-preset-url-from-preview}
 
-1. 왼쪽의 자산 라이브러리 패널에서 미리 보려는 이미지 자산이 들어 있는 자산 폴더를 탐색합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 미리 볼 이미지 에셋이 포함된 에셋 폴더로 이동합니다.
 1. 다음 중 하나를 수행합니다.
 
    * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 격자 보기]**. 에셋 창에서 단일 이미지 에셋을 선택한 다음 썸네일 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**.
    * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 목록 보기]**. 자산 창에서 단일 이미지 자산을 선택한 다음 썸네일 이미지의 오른쪽으로 이동합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**.
    * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 세부 사항 보기]**. 동일한 도구 모음에서 다음 위치로 이동합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**.
 
-1. (선택 사항) 이미지 사전 설정 목록의 복사 URL 생성을 위한 URL 인코딩 드롭다운 목록에서 복사할 때 이미지 에셋의 URL에 적용할 URL 인코딩을 선택합니다.
+1. (선택 사항) 이미지 사전 설정 목록의 URL 인코딩 복사 URL 생성 드롭다운 목록에서 이미지 에셋이 복사될 때 해당 URL에 적용할 URL 인코딩을 선택합니다.
 1. 이미지 사전 설정 목록 창의 미리 보기 창의 오른쪽 상단 영역에서 을 선택합니다 **[!UICONTROL URL 복사]** 선택한 사전 설정 유형에 대해.
 1. 이미지 사전 설정 목록 창의 오른쪽 아래 모서리에서 을(를) 선택합니다. **[!UICONTROL 닫기]** 자산 화면으로 돌아갑니다.
 
 ### 검색 패널에서 이미지 사전 설정 URL 얻기 {#obtaining-an-image-preset-url-from-the-browse-panel}
 
-1. 왼쪽의 자산 라이브러리 패널에서 미리 보려는 이미지 자산이 들어 있는 자산 폴더를 탐색합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 미리 보려는 이미지 에셋이 포함된 에셋 폴더로 이동합니다.
 1. 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 격자 보기]**. [자산] 창에서 단일 이미지 자산을 선택합니다.
 1. 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 세부 사항 보기]**.
 1. 선택 **[!UICONTROL URL]** 이미지 사전 설정 목록을 펼칠 수 있도록 화면의 오른쪽에 있는 패널에서 을 수행합니다.
@@ -60,7 +58,7 @@ Dynamic Media 이미지 서버로의 이미지 크기 조정을 위한 URL 호�
 
 *path*/*name of Image Server*/*account name*/*image name*?*modifier1*&amp;*modifier2*&amp;...
 
-Dynamic Media 이미지 서버 URL에서 이미지를 표시하기 위한 서버에 대한 지침이 물음표(?) 뒤에 나타납니다. 예를 들어 다음 URL 호출은 &quot;backpack&quot;이라는 이미지를 250픽셀 너비로 제공합니다.
+Dynamic Media 이미지 서버 URL에서 이미지를 표시하기 위한 서버에 대한 지침이 물음표(?) 뒤에 나타납니다. 예를 들어 이 URL 호출은 250픽셀 너비로 &quot;backpack&quot;이라는 이미지를 전달합니다.
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -78,7 +76,7 @@ https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250&fmt=jpeg&qlt=80,0&resM
 https://s7d1.scene7.com/is/image/S7learn/backpack?$Large$
 ```
 
-URL에서 이미지 사전 설정 이름은 달러 기호($)로 묶여 있습니다. Dynamic Media 이미지 서버에서 URL의 이미지 사전 설정 부분( `Large` 이 경우) &quot;큰&quot; 이미지 사전 설정에 정의된 크기 및 서식 지침을 사용합니다.
+URL에서 이미지 사전 설정 이름은 달러 기호($)로 묶여 있습니다. Dynamic Media 이미지 서버에서 URL의 이미지 사전 설정 부분( `Large` 이 경우) &quot;큰&quot; 이미지 사전 설정에서 정의된 크기 및 서식 지침을 사용합니다.
 
 ## 웹 페이지에 동적 이미지 추가 {#adding-dynamic-images-to-your-web-page}
 
@@ -93,7 +91,7 @@ img src="/company_images/products/backpack_thumbnail.jpg"
 이제 다음을 사용합니다. `<IMG>`태그로 정적 이미지에 대한 참조를 Adobe Dynamic Media Classic 플랫폼에 대한 이미지 사전 설정 호출로 바꿉니다. 샘플 호출은 다음과 같이 표시됩니다.
 
 ```as3
-img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$”
+img src="https://s7d2.scene7.com/is/image/S7learn/backpack_trns?$thumbnail$"
 ```
 
-이 예에서 Dynamic Media 이미지 서버는 의 정의를 &quot;조회&quot;합니다. `$thumbnail$` 에서 정의한 크기 조정 및 서식 지정 사항을 사용하여 적절한 이미지를 동적으로 생성합니다. `thumbnail`이미지 사전 설정. URL 문자열에서 제품 이미지 파일 이름(이 경우 `backpack_trns`)을 제외한 모든 항목은 대체로 페이지 템플릿에 내장됩니다. 상거래 서버에서 페이지 템플릿에 자동으로 삽입되는 요소는 이미지의 IPS ID 또는 이름뿐입니다.
+이 예에서 Dynamic Media 이미지 서버는 의 정의를 &quot;조회&quot;합니다. `$thumbnail$` 에서 정의한 크기 조정 및 서식 지정 사항을 사용하여 적절한 이미지를 동적으로 생성합니다. `thumbnail`이미지 사전 설정. URL 문자열에서 제품 이미지 파일 이름을 제외한 모든 항목( `backpack_trns` 이 경우)는 일반적으로 페이지 템플릿용으로 하드와이어됩니다. 상거래 서버에서 페이지 템플릿에 자동으로 삽입되는 요소는 이미지의 IPS ID 또는 이름뿐입니다.

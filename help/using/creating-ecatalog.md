@@ -1,20 +1,18 @@
 ---
 title: eCatalog 만들기
 description: Adobe Dynamic Media Classic에서 eCatalog를 만드는 방법을 알아봅니다.
-uuid: 2aff05c2-7052-426c-b61d-7f9091f7ace8
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/ecatalogs
-discoiquuid: 28889c60-596a-40d2-85d4-f48a4f86b932
 feature: Dynamic Media Classic,Viewers,eCatalog
 role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: a9bd472705bce32f63a5710c3266e51256d17a00
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '975'
+source-wordcount: '976'
 ht-degree: 44%
 
 ---
@@ -56,7 +54,7 @@ eCatalog에 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 
    * **이동 단추** - 페이지 또는 페이지 스프레드를 선택하고 **[!UICONTROL 이동 위치:]**&#x200B;을 클릭하고, 앞에 페이지를 표시할 메뉴에서 페이지를 선택합니다.
 
-   * **시퀀스 번호** - 목록 보기에서 시퀀스 번호 필드에 페이지 번호를 입력합니다.
+   * **시퀀스 번호** - 목록 보기에서 시퀀스 번호의 필드에 페이지 번호를 입력합니다.
 
 1. 완료하면 페이지 오른쪽 하단에서 **[!UICONTROL 저장 후 게시]**(기본값)가 선택되어 있는지 확인합니다.
 1. 선택 **[!UICONTROL 저장]**.
@@ -85,7 +83,7 @@ eCatalog에 이미지 파일과 PDF 파일을 포함할 수 있습니다.
 1. 편집을 완료하면 페이지 오른쪽 하단에서 **[!UICONTROL 저장 후 게시]**(기본값)가 선택되어 있는지 확인합니다.
 1. 선택 **[!UICONTROL 저장]**&#x200B;스토리지 폴더를 선택하고 세트 이름을 입력한 다음 을 선택합니다. **[!UICONTROL 저장]**.
 
-## eCatalog 삭제 {#deleting-an-ecatalog}
+## eCatalog 삭제
 
 삭제된 세트는 휴지통으로 이동합니다. 그러나 해당 집합 내의 멤버(또는 &quot;하위&quot;)는 영향을 받지 않습니다. 대신 각 멤버는 기존의 게시 또는 게시 취소 상태를 유지합니다.
 

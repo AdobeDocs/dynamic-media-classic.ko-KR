@@ -1,20 +1,18 @@
 ---
 title: Media Portal 사용자가 사용할 수 있는 내보내기 옵션 지정
 description: Adobe Dynamic Media Classic의 Media Portal 사용자가 사용할 수 있는 내보내기 옵션을 지정하는 방법을 알아봅니다.
-uuid: 5258b8a4-0704-43cd-97d1-c9af2e4e298b
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
-discoiquuid: 9bfd95da-3714-4e38-98af-331a04c685f5
 feature: Dynamic Media Classic,Collaboration,Asset Management
 role: Admin,User
 exl-id: c27df6c2-76f4-441c-bd26-cee98203291e
 topic: Collaboration, Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 37%
+source-wordcount: '383'
+ht-degree: 32%
 
 ---
 
@@ -38,7 +36,7 @@ ht-degree: 37%
 
      날짜 **[!UICONTROL 픽셀]** 다음 항목에서 선택됩니다. **[!UICONTROL 크기]** 드롭다운 목록에서 결과 이미지 너비 × 높이는 1억 픽셀을 초과할 수 없습니다. 이 크기는 정사각형 이미지의 경우 10,000 × 10,000픽셀, 또는 2x3 종횡비 이미지의 경우 약 8,000 × 12,000픽셀과 같습니다. 원본 1차 이미지를 내보내는 경우에는 이 크기 제한이 적용되지 않습니다.
 
-     사용자가 파일을 다운로드할 때 형식을 다시 지정하지 않고 다운로드하게 하려는 경우 이 선택 사항을 선택 취소합니다.
+     사용자가 다운로드한 파일을 다시 포맷하지 않고 다운로드하려면 이 옵션을 선택 취소합니다.
 
    * **원본 내보내기 활성화** - 원본 1차 이미지를 내보낼 수 있습니다. 다음에서 **[!UICONTROL 선택한 자산 내보내기]** 패널, 사용자가 **[!UICONTROL 전환]** 드롭다운 메뉴 및 선택 **[!UICONTROL 원본 내보내기]** 원본 파일을 내보냅니다. 사용자가 이미지 사전 설정을 선택하거나 이미지를 내보낼 때 전환 옵션을 선택하도록 하려면 이 옵션을 선택 취소합니다.
 

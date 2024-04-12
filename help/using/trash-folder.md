@@ -1,27 +1,25 @@
 ---
 title: 휴지통 폴더 관리
 description: 휴지통 폴더를 관리하는 방법을 알아봅니다.
-uuid: 3992a5b8-1919-4924-b07d-7fb25565effd
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/managing_assets
-discoiquuid: 553c95fc-0a41-4f06-af50-a62bc1438149
 feature: Dynamic Media Classic,Asset Management
 role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
 workflow-type: tm+mt
 source-wordcount: '553'
-ht-degree: 31%
+ht-degree: 30%
 
 ---
 
 # 휴지통 폴더 관리{#managing-the-trash-folder}
 
-Adobe Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동됩니다. 삭제된 은 복원되거나 영구적으로 삭제될 때까지 7일 동안 이 폴더에 남아 있습니다. 다음을 선택하여 삭제된 항목을 검사할 수 있습니다. **[!UICONTROL 휴지통]** 자산 라이브러리 하단에 있는 아이콘을 클릭하고 휴지통 폴더 페이지에서 항목을 봅니다.
+Adobe Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동됩니다. 이렇게 삭제된 항목은 복원되거나 영구적으로 삭제될 때까지 7일 동안 이 폴더에 남아 있습니다. 다음을 선택하여 삭제된 항목을 검사할 수 있습니다. **[!UICONTROL 휴지통]** 자산 라이브러리 하단에 있는 아이콘을 클릭하고 휴지통 폴더 페이지에서 항목을 봅니다.
 
 모든 사용자가 휴지통 폴더의 항목을 삭제되기 전의 폴더로 복원할 수 있습니다. 모든 사용자가 휴지통 폴더의 모든 내용을 비울 수도 있습니다.
 
@@ -35,7 +33,7 @@ Adobe Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동
 
 폴더에서 삭제한 항목은 휴지통 폴더에 배치됩니다. 항목을 삭제하고 휴지통 폴더로 이동하는 경우 다음 동작이 발생합니다.
 
-* 항목이 Adobe Dynamic Media Classic 폴더에서 제거되었지만 휴지통 폴더에 남아 있는 동안에는 해당 ID를 다른 자산에 할당할 수 없습니다. 휴지통 폴더에 있는 파일과 이름이 같은 에셋을 업로드하려고 하면 Adobe Dynamic Media Classic이 에셋 이름에 숫자를 추가합니다.
+* 항목이 Adobe Dynamic Media Classic 폴더에서 제거되지만 휴지통 폴더에 남아 있는 동안에는 해당 ID를 다른 자산에 할당할 수 없습니다. 휴지통 폴더에 있는 파일과 이름이 같은 에셋을 업로드하려고 하면 Adobe Dynamic Media Classic이 에셋 이름에 숫자를 추가합니다.
 * 항목을 게시할 수 없습니다. 항목을 삭제할 때 게시로 표시된 경우에도 항목이 게시되지 않습니다.
 * 항목이 복원되거나, 7일이 지나거나, 다른 사용자가 항목을 선택할 때까지 휴지통 폴더에 남아 있습니다. **[!UICONTROL 휴지통 비우기]** 명령입니다. 7일 후에는 자동 정리 작업에 의해 항목이 영구적으로 삭제됩니다.
 
@@ -61,4 +59,4 @@ Adobe Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동
 
 >[!MORELIKETHIS]
 >
->* [자산 삭제](moving-renaming-deleting-assets.md#delete_assets)
+>* [에셋 삭제](moving-renaming-deleting-assets.md#delete_assets)
