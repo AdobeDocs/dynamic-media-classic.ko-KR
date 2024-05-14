@@ -1,13 +1,13 @@
 ---
-source-git-commit: 1b90beb99b161b76da81403f5aed9755b3a92c8b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '72'
+source-wordcount: '69'
 ht-degree: 0%
 
 ---
 # Adobe Dynamic Media Classic 설명서
 
-Adobe Dynamic Media Classic 설명서용 저장소입니다.
+Adobe Dynamic Media Classic 설명서 리포지토리입니다.
 
 설명서에 대한 귀하의 기여를 환영합니다. 다음 리소스를 참조하십시오.
 

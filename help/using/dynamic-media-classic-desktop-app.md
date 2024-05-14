@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 604b4630-4704-4254-84b5-91b33bb19d58
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '1985'
+source-wordcount: '1993'
 ht-degree: 0%
 
 ---
@@ -48,17 +48,17 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 * 이미지를 편집할 때 **[!UICONTROL 저장]** 단추가 작동하지 않습니다.
 * 세트 편집기에서 **[!UICONTROL 닫기]**, **[!UICONTROL 저장]**, 및 **[!UICONTROL 다른 이름으로 저장]** 에서 에셋을 스크롤하면 버튼이 비활성화됨 **[!UICONTROL 에셋 추가]** 패널.
-* **[!UICONTROL 재생]** 비디오 세부 사항 보기의 단추가 작동하지 않았습니다.
+* 다음 **[!UICONTROL 재생]** 비디오 세부 사항 보기의 단추가 작동하지 않았습니다.
 * 입력할 수 없음 `d` 및 `e` 위치: **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** macOS Monterey를 실행할 때 필드.
 * 나머지 Analytics API를 버전 2.0으로 이동했습니다.
 
 ## 릴리스 20.21.3의 수정 사항 {#release-sept2021}
 
 * 데스크탑 앱에서 일정 기간 동안 활동이 없으면 표시되는 자산의 깨진 축소판입니다.
-* 일반적으로 설정 작업 후 데스크탑 앱이 응답하지 않습니다.
+* 데스크톱 앱은 일반적으로 설정 작업 후 응답을 중지합니다.
 * 아래에서 난독화 및 잠금 모드 자동 활성화됨 요청 **[!UICONTROL 이미지 제공 테스트]**.
 
-  다음을 참조하십시오 [보안 테스트 서비스 테스트](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
+  다음을 참조하십시오 [보안 테스트 서비스](/help/using/testing-assets-making-them-public.md#testing-the-secure-testing-service).
 
 * Adobe Analytics으로 인증 메커니즘을 업데이트했습니다. 새로운 통합 또는 일부 Analytics 변수를 Dynamic Media Classic 데스크탑 앱 내에서 업데이트해야 하는 경우와 관련이 있습니다.
 
@@ -67,7 +67,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 ## 릴리스 20.21.2의 수정 사항 {#minor-release}
 
 * 20.21.1의 알려진 제한 사항: **[!UICONTROL 서버]** 로그인 화면의 드롭다운 목록이 비어 있습니다.
-* 위치 **[!UICONTROL 업로드 작업 옵션]**, 레이어 이름 지정 기본값 **[!UICONTROL Photoshop 옵션]**, 현재 **[!UICONTROL Photoshop 및 레이어 이름]**. PSD 파일의 레이어는 별도의 이미지로 업로드됩니다.
+* 위치 **[!UICONTROL 업로드 작업 옵션]**, 기본 레이어 이름 값 **[!UICONTROL Photoshop 옵션]**, 현재 **[!UICONTROL Photoshop 및 레이어 이름]**. PSD 파일의 레이어는 별도의 이미지로 업로드됩니다.
    * 의 초기 기본값 **[!UICONTROL 레이어 이름]**&#x200B;를 클릭하고 PSD 파일에서 레이어 이름이나 레이어 번호의 이름을 따라 이미지에 이름을 지정합니다. PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름인 경우 레이어 번호가 사용되었습니다.
    * 의 새로운 기본값 **[!UICONTROL Photoshop 및 레이어 이름]**&#x200B;는 PSD 파일 뒤에 레이어 이름 또는 레이어 번호를 붙여서 이미지 이름을 지정합니다. PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름인 경우 레이어 번호가 사용됩니다.
    * 이제 Adobe Dynamic Media Classic의 레이어 이미지에 고유한 이름이 있으므로 기존 PSD 또는 템플릿(원본 PSD 파일에서 공유된 레이어 이름)에 대한 업데이트가 발생하지 않습니다.
@@ -90,8 +90,8 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 다음도 참조하십시오.
 
-* [Mac에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동 설치](#install-silent-mac-dmc-app)
-* [Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동 설치](#install-silent-windows-dmc-app)
+* [Mac에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동으로 설치](#install-silent-mac-dmc-app)
+* [Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동으로 설치](#install-silent-windows-dmc-app)
 
 1. 시스템에서 이전 Adobe Dynamic Media Classic 데스크탑 앱 버전을 모두 제거합니다.
 
@@ -145,18 +145,18 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 1. 로그인 후 친숙한 브라우저 사용자 인터페이스 경험을 확인합니다. 데스크탑 앱에서 평소대로 일상적인 Adobe Dynamic Media Classic 활동을 계속할 수 있습니다.
 
-## 다운로드 및 *자동* macOS에 최신 Adobe Dynamic Media Classic 데스크탑 앱 설치 {#install-silent-mac-dmc-app}
+## 다운로드 및 *침묵하* macOS에 최신 Adobe Dynamic Media Classic 데스크탑 앱 설치 {#install-silent-mac-dmc-app}
 
 다음도 참조하십시오.
 
 * [Mac 또는 Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치](#installation-dmc-app)
-* [Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동 설치](#install-silent-windows-dmc-app)
+* [Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동으로 설치](#install-silent-windows-dmc-app)
 
-다운로드 및 *자동* macOS에 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 설치합니다.
+다운로드 및 *침묵하* macOS에 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 설치합니다.
 
 1. 시스템에서 이전 Adobe Dynamic Media Classic 데스크탑 앱 버전을 모두 제거합니다.
 
-1. macOS용 Adobe Dynamic Media Classic 데스크탑 앱용 최신 설치 관리자를 다운로드합니다.
+1. macOS용 Adobe Dynamic Media Classic 데스크탑 앱의 최신 설치 관리자를 다운로드합니다.
 
    * [macOS (.DMG) - 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
 
@@ -185,7 +185,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
    | EMEA 생산(유럽, 중동 및 아프리카) | https://s7sps3.scene7.com/ |
    | APAC 프로덕션(아시아 태평양) | https://s7sps5.scene7.com/ |
 
-## 다운로드 및 *자동* windows®에 최신 Adobe Dynamic Media Classic 데스크탑 앱을 설치합니다. {#install-silent-windows-dmc-app}
+## 다운로드 및 *침묵하* windows®에 최신 Adobe Dynamic Media Classic 데스크탑 앱을 설치합니다. {#install-silent-windows-dmc-app}
 
 사용하는 명령은 기본 MSI 자동 설치에 사용됩니다. 그러나 Adobe Dynamic Media Classic 데스크톱 앱 설치 관리자는 InstallShield를 사용하여 만든 InstallScript MSI 설치 프로그램입니다. 레코드 모드에서 설치 관리자를 실행하면 사용자 상호 작용이 응답 파일에 기록됩니다. 이 응답 파일은에 설명된 대로 자동 설치에 사용됩니다. [자동 모드로 설치 실행](https://docs.revenera.com/installshield25helplib/installshield25helplib.htm#helplibrary/SilentInstall.htm).
 
@@ -193,9 +193,9 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 * [Mac 또는 Windows에서 최신 Adobe Dynamic Media Classic 데스크탑 앱 다운로드 및 설치](#installation-dmc-app)
 
-* [macOS에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동 설치](#install-silent-mac-dmc-app)
+* [macOS에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 자동으로 설치](#install-silent-mac-dmc-app)
 
-다운로드 및 *자동* windows®에 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 설치합니다.
+다운로드 및 *침묵하* windows®에 최신 버전의 Adobe Dynamic Media Classic 데스크탑 앱을 설치합니다.
 
 1. 시스템에서 이전 Adobe Dynamic Media Classic 데스크탑 앱 버전을 모두 제거합니다.
 
@@ -258,7 +258,7 @@ Adobe Dynamic Media Classic 데스크탑 애플리케이션 내의 업그레이�
 
 ## Adobe Dynamic Media Classic 20.20.1의 알려진 제한 사항(20.20.2에서 해결됨)
 
-**_Windows®에만 적용 - 데스크탑 앱 UI를 통해 업로드할 수 있는 파일 수에 제한이 있습니까?_**<br>예. 데스크탑 앱 UI를 통해 한 번에 최대 150개의 파일을 업로드할 수 있습니다.
+**_Windows®에만 적용 - 데스크탑 앱 UI를 통해 업로드할 수 있는 파일 수에 제한이 있습니까?_**<br>예. 데스크탑 앱 UI를 사용하여 한 번에 최대 150개의 파일을 업로드할 수 있습니다.
 
 **_Windows® 및 macOS에 적용 - 회사 간 전환은 어떻게 합니까?_**<br>회사 간에 전환하려면 다음 작업을 수행하십시오.
 

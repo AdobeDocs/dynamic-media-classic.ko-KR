@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '682'
-ht-degree: 24%
+source-wordcount: '689'
+ht-degree: 21%
 
 ---
 
@@ -31,13 +31,13 @@ Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명�
 >
 >Analytics를 Adobe Dynamic Media Classic과 통합하고 Analytics 보고서를 생성하려면 유효한 Adobe Analytics 계정이 필요합니다.
 
-이 빠른 시작은 Adobe Analytics 계측 키트를 빨리 시작하고 실행하는 데 도움이 됩니다.
+이 빠른 시작은 Adobe Analytics Instrumentation Kit를 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
 
 ## 1. Adobe Dynamic Media Classic을 통해 Adobe Analytics에 로그온하고 Adobe Analytics 보고서 변수를 다운로드합니다
 
 >[!NOTE]
 >
->Adobe Analytics 보고서를 구성하고 Adobe Analytics 보고서 변수를 Adobe Dynamic Media Classic 이벤트에 일치시키려면 먼저 Adobe Analytics에서 웹 서비스 액세스 그룹의 구성원으로 추가되었는지 확인하십시오. 이 그룹의 구성원은 인터페이스에 설정된 권한에 관계없이 Experience Cloud의 웹 서비스 API를 통해 지정된 보고서 세트에 있는 모든 보고서에 액세스할 수 있습니다. 그룹에 멤버를 추가하려면 Adobe Analytics에서 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹 편집]**.
+>Adobe Analytics에서 웹 서비스 액세스 그룹의 구성원으로 추가되었는지 확인합니다. Adobe Analytics 보고서를 구성하기 전에 이 유효성 검사를 수행하십시오. 그리고 Adobe Analytics 보고서 변수를 Adobe Dynamic Media Classic 이벤트에 일치시키기 전에 이 그룹의 구성원은 지정된 보고서 세트의 모든 보고서에 액세스할 수 있습니다. 인터페이스에 설정된 권한에 관계없이 Experience Cloud의 웹 서비스 API를 사용하여 그렇게 할 수 있습니다. 그룹에 멤버를 추가하려면 Adobe Analytics에서 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹 편집]**.
 
 Adobe Dynamic Media Classic에서 웹 서비스 액세스 그룹의 구성원임을 확인한 후 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL Adobe Analytics]**. Adobe Analytics 구성 페이지에서 **[!UICONTROL Adobe Analytics 로그인]**.
 
@@ -60,7 +60,7 @@ Adobe Analytics 구성에서는 뷰어 이벤트를 활성화, 편집 및 삭제
 
 ## 3. Adobe Dynamic Media Classic 뷰어 게시
 
-Adobe Dynamic Media Classic 뷰어를 게시하여 뷰어(Adobe Analytics 보고서에서 사용자 활동을 추적하는 코드와 함께)가 Adobe Dynamic Media Classic 서버에 로드되도록 합니다. 이 정보는 게시 후 뷰어에 포함되며 Adobe Analytics의 분석에 사용할 수 있습니다.
+Adobe Dynamic Media Classic 뷰어를 게시하여 뷰어(Adobe Analytics 보고서에서 사용자 활동을 추적하는 코드와 함께)가 Adobe Dynamic Media Classic 서버에 로드되도록 합니다. 게시하면 이 정보가 뷰어에 포함됩니다. Adobe Analytics에서 분석할 때 사용합니다.
 
 다음을 참조하십시오 [구성 정보 게시](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
 

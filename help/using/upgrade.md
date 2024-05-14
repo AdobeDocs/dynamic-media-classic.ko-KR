@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '575'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe 생성됨 [!DNL Dynamic Media] 당신을 염두에 두고.
 
 ## 의 주요 이점 및 기능 [!DNL Dynamic Media]
 
-[!DNL Dynamic Media] 은 의 자연적인 진화입니다 [!DNL Dynamic Media Classic] 는 혁신적인 사용자 중심 인터페이스를 통한 동급 최고의 제공, 최신 실제 워크플로 육성 등 다양한 미디어 작성, 게시 및 전달 도구 세트를 제공합니다.
+[!DNL Dynamic Media] 은 의 자연적인 진화입니다 [!DNL Dynamic Media Classic]. 리치 미디어 작성, 게시 및 전달 도구 세트를 제공합니다. 또한 혁신적인 사용자 중심 인터페이스를 통해 동급 최고의 서비스를 제공하여 최신 실제 워크플로우를 육성합니다.
 
 * 원활한 통합 경험 및 통합 [!DNL Adobe Experience Manager]: 하나의 저장소, 하나의 소스에서 풍부한 콘텐츠를 구성하고 동적으로 전달
 * 리치 미디어 콘텐츠를 손쉽게 작성 및 게재할 수 있는 새로운 마케터 중심의 사용자 환경
@@ -46,13 +46,13 @@ Adobe 생성됨 [!DNL Dynamic Media] 당신을 염두에 두고.
 
 | 기능 | 설명 |
 | --- | --- |
-| 컨텐츠 생성 및 전달 가속화 | · 공동 작업 및 공유 파일 동기화 [!DNL Adobe Creative Cloud] 응용 프로그램.<br>· Dynamic Asset Management의 모든 필수 기준 충족: 하나의 애플리케이션, 하나의 인터페이스, 하나의 네트워크로 모두 생성, 공동 작업, 관리 및 제공<br>· 강력한 메타데이터 지원, 스마트 검색, Lightbox 및 컬렉션, 버전 관리, 공급업체, 파트너 및 프랜차이즈가 사용할 수 있는 안전한 자산 공유를 통한 엔터프라이즈급 디지털 자산 관리<br>· WIP 에셋에 대한 검토 및 승인 워크플로 |
+| 컨텐츠 생성 및 전달 가속화 | · 공동 작업 및 공유 파일 동기화 [!DNL Adobe Creative Cloud] 응용 프로그램.<br>· Dynamic Asset Management의 모든 필수 기준인 하나의 애플리케이션, 하나의 인터페이스, 하나의 네트워크로 제작, 공동 작업, 관리 및 제공<br>· 강력한 메타데이터 지원, 스마트 검색, Lightbox 및 컬렉션, 버전 관리, 공급업체, 파트너 및 프랜차이즈가 사용할 수 있는 안전한 자산 공유를 통한 엔터프라이즈급 디지털 자산 관리<br>· WIP 에셋에 대한 검토 및 승인 워크플로 |
 | 간편한 대화형 경험 UI 요소 | · 비기술적, 실시간 빌더로 쉽게 경험을 만들 수 있습니다.<br>· 구매 가능한/대화형 미디어, 캠페인 에셋을 제품 정보와 결합.<br>· 고객 만족도를 높이고 전환을 유도합니다. |
 | 전체 통합 워크플로 | · 완제품을 포함한 모든 접점에 최적화된 리치 미디어 제공 [!DNL Adobe Experience Cloud] 솔루션.<br>· 와 통합 [!DNL Adobe Experience Cloud] 고급 에셋 분석, 타기팅 및 마케팅 접점 간 에셋 재사용을 위해. 이러한 터치포인트 중 일부는 다음과 같습니다. [!DNL Adobe Campaign] 이메일의 경우 [!DNL Adobe Social] 소셜 채널 및 [!DNL Adobe Experience Manager] 반응형 웹 및 모바일 앱용 사이트입니다. |
 
 ## 왜 Adobe?
 
-* 디지털 자산 Forrester WAVE 보고서에서 가장 큰 긍정적 인 이동자.
+* 디지털 자산 Forrester WAVE 보고서에서 가장 큰 긍정적인 영향을 미칩니다.
 * 2016 온라인 비디오 플랫폼 보고서의 강력한 성능.
 * 최고의 리치 미디어 공급업체가 인터넷 소매 1000에 9년 연속 공급됩니다.
 * 24/7/265 지원, 99.95% SLA, Adobe Professional Services.

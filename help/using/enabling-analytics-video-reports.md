@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: 9d017742-1ed2-411d-a8a6-438102bf1557
 topic: Development, Integrations
 level: Experienced
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 5%
+source-wordcount: '221'
+ht-degree: 0%
 
 ---
 
@@ -35,4 +35,4 @@ Adobe Analytics 하트비트 기반 비디오 보고를 사용하여 Adobe Dynam
 
 >[!NOTE]
 >
->사용 허가된 Adobe Analytics 솔루션에 비디오 하트비트가 포함되지 않은 경우 이 장에 설명된 단계를 계속 사용하여 Adobe Analytics 변수를 Adobe Dynamic Media Classic 뷰어 이벤트 및 변수에 지정해야 합니다.
+>사용 허가된 Adobe Analytics 솔루션에 비디오 하트비트가 포함되지 않은 경우 이 장에 설명된 단계를 계속 사용하여 Adobe Analytics 변수를 Adobe Dynamic Media Classic 뷰어 이벤트 및 변수에 지정하십시오.

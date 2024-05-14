@@ -9,16 +9,16 @@ role: User
 exl-id: 66a1ab20-6036-4c3d-bb66-dd06d917c7f2
 topic: Content Management
 level: Intermediate
-source-git-commit: a607488b6a1dd51ef7cc8c885db5a87f4f792aaa
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '716'
-ht-degree: 27%
+source-wordcount: '705'
+ht-degree: 23%
 
 ---
 
 # 비디오에 캡션 추가 {#add-captions-to-video}
 
-단일 비디오나 적응형 비디오 집합에 캡션을 추가하여 비디오 사용을 세계 시장으로 확장할 수 있습니다. 캡션을 추가하면 여러 가지 각 언어로 오디오를 다시 녹음하기 위해 오디오를 더빙하거나 원어민이 투입될 필요가 없어집니다. 비디오는 녹음된 언어로 재생됩니다. 외국어 자막이 표시되기 때문에 다른 언어를 사용하는 사람들도 오디오를 이해할 수 있게 됩니다.
+비디오 범위를 글로벌 시장으로 확장하십시오. 이렇게 하려면 단일 비디오 또는 응용 비디오 세트에 캡션을 추가할 수 있습니다. 캡션을 추가하면 여러 가지 각 언어로 오디오를 다시 녹음하기 위해 오디오를 더빙하거나 원어민이 투입될 필요가 없어집니다. 비디오는 녹음된 언어로 재생됩니다. 외국어 자막이 표시되기 때문에 다른 언어를 사용하는 사람들도 오디오를 이해할 수 있게 됩니다.
 
 또한 캡션을 사용하면 귀가 들리지 않거나 난청인 사람들을 위한 청각 장애용 캡션을 통해 액세스 가능성이 더 커집니다.
 
@@ -38,7 +38,7 @@ ht-degree: 27%
 
 Adobe Dynamic Media Classic은 캡션 파일을 JSON(JavaScript Object Notation) 형식으로 변환할 수 있습니다. 이 변환은 JSON 텍스트를 숨겨져 있지만 완전한 비디오의 스크립트로서 웹 페이지에 포함할 수 있음을 의미합니다. 그런 다음 검색 엔진은 콘텐츠를 크롤링하고 색인화하여 비디오를 보다 쉽게 검색하고 고객에게 비디오 콘텐츠에 대한 자세한 내용을 제공할 수 있습니다.
 
-다음을 참조하십시오 [정적(이미지가 아닌) 콘텐츠 제공](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) 다음에서 *Adobe 이미지 제공 API 도움말* url에서 JSON 함수를 사용하는 방법에 대한 자세한 정보입니다.
+다음을 참조하십시오 [정적(이미지가 아닌) 콘텐츠 제공](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api) URL에서 JSON 함수를 사용하는 방법에 대한 자세한 내용은에 나와 있습니다.
 
 **비디오에 캡션을 추가하려면:**
 
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic은 캡션 파일을 JSON(JavaScript Object Notation)
 
    | 뷰어 유형 | 캡션 파일 |
    |--- |--- |
-   | HTML5 | HTML5 비디오 뷰어를 사용하는 경우, 사용자가 만드는 캡션 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 캡션 파일 이름 확장자는 .vtt입니다. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.<br><br>[WebVTT 참조](https://w3c.github.io/webvtt/): 웹 비디오 텍스트 트랙 형식입니다. <br><br>Adobe Dynamic Media Classic 외부에서 WebVTT 캡션 파일을 작성하는 데 사용할 수 있는 무료 및 유료 도구와 서비스를 모두 제공하는 많은 웹 사이트가 있습니다. <br><br>사이트의 화면 지침을 따라 WebVTT 파일을 작성하고 저장합니다. 완료되면 캡션 파일 내용을 복사하여 일반 텍스트 편집기에 붙여넣고 VTT 파일 확장명으로 저장합니다. <br><br><b>참고:</b> 영어 이외의 언어로 비디오 캡션을 전체적으로 지원하려면 WebVTT 표준을 사용하려면 지원하려는 각 언어에 대해 별도의 .vtt 파일과 호출을 만들어야 합니다. <br><br>일반적으로 캡션 VTT 파일의 이름을 비디오 파일과 같은 이름으로 지정하고 캡션과 함께 덧붙이려고 합니다. 그렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다. |
+   | HTML5 | HTML5 비디오 뷰어를 사용하는 경우, 사용자가 만드는 캡션 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 캡션 파일 이름 확장자는 입니다. `.VTT`. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.<br><br>[WebVTT 참조](https://w3c.github.io/webvtt/): 웹 비디오 텍스트 트랙 형식입니다. <br><br>WebVTT 캡션 파일을 작성하는 데 사용할 수 있는 무료 및 유료 도구와 서비스를 모두 제공하는 많은 웹 사이트가 있습니다. <br><br>사이트의 화면 지침을 따라 WebVTT 파일을 작성하고 저장합니다. 완료되면 캡션 파일 내용을 복사하여 일반 텍스트 편집기에 붙여넣고 VTT 파일 확장명으로 저장합니다. <br><br><b>참고:</b> 영어 이외의 언어로 된 비디오 캡션을 전체적으로 지원하려면 WebVTT 표준을 사용하려면 별도로 만들어야 합니다 `.VTT` 지원할 각 언어에 대한 파일 및 호출 <br><br>일반적으로 캡션 VTT 파일의 이름을 비디오 파일과 같은 이름으로 지정하고 캡션과 함께 덧붙이려고 합니다. 그렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다. |
 
 1. Adobe Dynamic Media Classic에서 WebVTT, DFXP 또는 SMPTE XML 캡션 파일을 업로드합니다.
 

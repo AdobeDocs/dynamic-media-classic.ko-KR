@@ -10,16 +10,16 @@ role: Data Engineer,Admin,User
 exl-id: 261b8f7c-c61c-4ce3-b9dc-8549347aca2e
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '847'
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics에 로그온{#log-in-to-adobe-analytics}
 
-Adobe Analytics 보고서를 구성하고 Adobe Analytics 보고서 변수를 Adobe Dynamic Media Classic 이벤트에 일치시키기 위해 로그인하기 전에 Adobe Analytics에서 웹 서비스 액세스 그룹의 구성원인지 확인하십시오. 이 그룹의 구성원은 인터페이스에 설정된 권한에 관계없이 Experience Cloud의 웹 서비스 API를 통해 지정된 보고서 세트에 있는 모든 보고서에 액세스할 수 있습니다. 그룹에 멤버를 추가하려면 Adobe Analytics에서 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹 편집]**.
+Adobe Analytics에서 웹 서비스 액세스 그룹의 구성원인지 확인합니다. 로그인하기 전에 Adobe Analytics 보고서를 구성하고 Adobe Analytics 보고서 변수를 Adobe Dynamic Media Classic 이벤트에 일치시키십시오. 이 그룹의 구성원은 지정된 보고서 세트의 모든 보고서에 액세스할 수 있습니다. 인터페이스에 설정된 권한에 관계없이 Experience Cloud의 웹 서비스 API를 사용하여 작업을 수행합니다. 그룹에 멤버를 추가하려면 Adobe Analytics에서 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹 편집]**.
 
 로그인하면 Experience Cloud 조직 ID를 입력하여 최신 비디오 분석 구현을 사용할 수 있습니다. ID를 입력하지 않도록 선택하면 비디오 보고가 계속 작동합니다. 하지만 이로 인해 Adobe Dynamic Media Classic 외부에서 해당 클라이언트에 대한 다른 데이터와 데이터가 올바르게 통합되지 않을 수 있습니다.
 
@@ -70,7 +70,7 @@ Dynamic Media Classic을 Adobe Analytics OAuth와 통합해 보십시오. Dynami
 >
 >Dynamic Media Classic에서 Adobe Analytics을 처음 구성한 후 구성을 다시 실행해야 하는 경우는 다음과 같습니다.
 >
->* 새 보고서가 Analytics에 추가되고 사용자가 해당 새 보고서에 데이터를 전송하기 시작하려고 합니다.
+>* 새 보고서가 Analytics에 추가되고 사용자가 해당 새 보고서에 데이터를 보내기 시작하려고 합니다.
 >* 추적 서버는 Adobe Analytics에서 업데이트됩니다.
 >* 새 추적 변수는 보고서에 도입되며 Dynamic Media Classic 사용자 인터페이스의 특정 뷰어 변수를 해당 새 Analytics 변수에 연결하려고 합니다.
 >

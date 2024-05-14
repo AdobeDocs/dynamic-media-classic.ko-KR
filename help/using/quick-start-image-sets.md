@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 14%
+source-wordcount: '670'
+ht-degree: 13%
 
 ---
 
@@ -32,7 +32,7 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 | 세트당 중복 에셋 수 | 중복 항목 없음 | 20‡ |
 | 세트당 최대 이미지 수 | 세트당 5-10개 이미지 | 1000 |
 
-‡ 가장 좋은 방법은 집합에 중복 에셋이 없는 것입니다. 단일 자산에 대한 중복 횟수는 20회로 제한됩니다. 해당 에셋에 대해 다른 중복을 추가하면 해당 세트 내에서 요청에 오류가 발생하거나 중복을 무시합니다.
+‡ 우수 사례는 집합 내에 중복 에셋을 두지 않는 것입니다. 단일 자산에 대한 중복 횟수는 20회로 제한됩니다. 해당 에셋에 대해 다른 중복을 추가하면 해당 세트 내에서 요청에 오류가 발생하거나 중복을 무시합니다.
 
 참조: [Dynamic Media 제한 사항](/help/using/limitations.md).
 
@@ -40,7 +40,7 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 ## 1. 여러 보기 및 견본에 대한 기본 이미지 업로드
 
-먼저 이미지 집합에 사용할 이미지를 업로드합니다. 사용자는 이미지 세트 뷰어에서 이미지를 확대할 수 있으므로 이미지를 선택할 때 이 기능을 고려해야 합니다. 이미지의 크기가 가장 큰 것이 2000픽셀 이상인지 확인하십시오. Adobe Dynamic Media Classic은 다양한 이미지 파일 형식을 지원하지만 무손실 TIFF, PNG 및 EPS 이미지가 권장됩니다.
+먼저 이미지 집합에 사용할 이미지를 업로드합니다. 사용자는 이미지 세트 뷰어에서 이미지를 확대할 수 있으므로 이미지를 선택할 때 이 기능을 고려해야 합니다. 이미지의 크기가 2000픽셀 이상인지 확인하십시오. Adobe Dynamic Media Classic은 다양한 이미지 파일 형식을 지원하지만 무손실 TIFF, PNG 및 EPS 이미지가 권장됩니다.
 
 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 업로드]** 컴퓨터에서 Adobe Dynamic Media Classic의 폴더로 파일을 업로드합니다.
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 관리자는 이미지 집합 뷰어 사전 설정을 만들거나 수정할 수 있습니다. Adobe Dynamic Media Classic에는 각 리치 미디어 유형에 대한 기본 뷰어 사전 설정이 포함되어 있습니다. 확대/축소 뷰어 사용: **[!UICONTROL 사용자 정의]** > **[!UICONTROL 이미지]** 또는 **[!UICONTROL 이미지 집합]**/**[!UICONTROL 여러 보기]** 이미지 집합을 보는 사전 설정입니다.
 
-[애플리케이션 설정] 화면에서 뷰어 사전 설정을 추가하거나 편집합니다.
+응용 프로그램 설정 화면에서 뷰어 사전 설정을 추가하거나 편집할 수 있습니다.
 
 다음을 참조하십시오 [뷰어 사전 설정 만들기 및 편집](application-setup.md#adding-and-editing-viewer-presets).
 
@@ -86,6 +86,6 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 Adobe Dynamic Media Classic은 이미지 세트에 대한 URL 호출을 생성하고 게시한 후 활성화합니다. [미리 보기] 화면에서 이러한 URL을 복사할 수 있습니다.
 
-이미지 세트를 선택한 다음 를 선택합니다. **[!UICONTROL 미리 보기]**. 이제 이미지 집합 뷰어 사전 설정을 선택한 다음 을 선택합니다. **[!UICONTROL URL 복사]**.
+이미지 세트를 선택한 다음 를 선택합니다. **[!UICONTROL 미리 보기]**. 이제 이미지 집합 뷰어 사전 설정을 선택한 다음 **[!UICONTROL URL 복사]** 단추를 클릭합니다.
 
-다음을 참조하십시오 [웹 페이지에 이미지 세트 연결](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
+다음을 참조하십시오 [웹 페이지에 이미지 집합 연결](linking-image-set-web-page.md#linking-an-image-set-to-a-web-page).
