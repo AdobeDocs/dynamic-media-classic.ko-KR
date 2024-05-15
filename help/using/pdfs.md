@@ -10,10 +10,10 @@ role: User
 exl-id: 02892514-61fe-48ba-a2e3-eeb30580a1e4
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 28%
+source-wordcount: '726'
+ht-degree: 25%
 
 ---
 
@@ -39,7 +39,7 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
 
 **[!UICONTROL 래스터화]** - (기본값) PDF 파일의 페이지를 리핑하고 벡터 그래픽을 비트맵 이미지로 변환합니다. eCatalog를 만들려면 이 옵션을 선택합니다.
 
-**[!UICONTROL 검색어 추출]** - eCatalog 뷰어에서 키워드로 파일을 검색할 수 있도록 PDF 파일에서 단어를 추출합니다.
+**[!UICONTROL 검색어 추출]** - 파일의 키워드를 eCatalog 뷰어에서 검색할 수 있도록 PDF 파일에서 단어를 추출합니다.
 
 **[!UICONTROL 링크 추출]** - PDF 파일에서 링크를 추출하여 eCatalog 뷰어에서 사용되는 이미지 맵으로 변환합니다.
 
@@ -73,7 +73,9 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
 
 ## PDF 파일에서 공백 자르기 {#cropping-white-space-from-a-pdf-file}
 
-1. 업로드할 때 PDF 파일에서 공백 픽셀을 자동으로 자르려면 [자르기] 메뉴를 선택한 다음 [트림]을 선택합니다.
+업로드하면서 PDF 파일에서 공백 픽셀을 자동으로 자를 수 있습니다.
+
+1. [자르기] 메뉴를 선택하고 [트림]을 선택합니다.
 1. 다음 선택 사항을 지정합니다.
 
    * **[!UICONTROL 다음을 기준으로 트림]** - 색상 또는 투명도를 기준으로 자를 것인지 선택합니다.

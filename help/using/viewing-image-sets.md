@@ -10,16 +10,16 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 22%
+source-wordcount: '491'
+ht-degree: 19%
 
 ---
 
 # 이미지 집합 보기{#viewing-image-sets}
 
-[미리 보기] 창에서 사용 가능한 사전 설정을 사용하여 이미지 집합을 볼 수 있습니다. [확대/축소 뷰어: 사용자 지정] 뷰어 사전 설정을 이미지 집합에 사용합니다.
+[미리 보기] 창에서 사용 가능한 사전 설정을 사용하여 이미지 집합을 볼 수 있습니다. 확대/축소 뷰어: 이미지 세트에 대한 사용자 지정 뷰어 사전 설정을 사용할 수 있습니다.
 
 Adobe Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 있습니다. 관리자는 뷰어 사전 설정을 만들거나 수정할 수 있습니다.
 
@@ -34,7 +34,7 @@ Adobe Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 �
 
    * **편집** - 사전 설정 이름을 표시하고 선택한 다음 선택합니다. **[!UICONTROL 편집]**.
 
-1. 다음에서 `Configure Viewer` 페이지의 [사전 설정 이름] 텍스트 필드에 [견본 집합 뷰어] 사전 설정의 이름을 입력합니다.
+1. 다음에서 `Configure Viewer` 페이지의 [사전 설정 이름] 텍스트 필드에 [견본 집합 뷰어 사전 설정]의 이름을 입력합니다.
 1. 다음에서 옵션 선택 `Configure Viewer` 페이지를 가리키도록 업데이트하는 중입니다.
 
    옵션에 대한 설명을 보려면 **[!UICONTROL 정보 팁]** 아이콘 을 클릭하여 제품에서 사용할 수 있습니다.

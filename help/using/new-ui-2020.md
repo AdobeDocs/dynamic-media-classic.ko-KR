@@ -9,16 +9,16 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
 # Adobe Dynamic Media Classic 데스크탑 앱 - 이제 사용 가능 {#new-ui-2020}
 
-다음을 참조하십시오 [Adobe Dynamic Media Classic 데스크탑 앱](/help/using/dynamic-media-classic-desktop-app.md) 시스템 요구 사항을 검토하려면 새 앱을 다운로드하여 설치한 다음 로그인합니다.
+다음을 참조하십시오. [Adobe Dynamic Media Classic 데스크탑 앱](/help/using/dynamic-media-classic-desktop-app.md) 시스템 요구 사항을 검토하려면 새 앱을 다운로드하여 설치한 다음 로그인합니다.
 
 ## _마지막 개정 2020년 6월 30일_
 
@@ -33,7 +33,7 @@ Adobe Flash Player은 웹 브라우저에서 Adobe Flash Platform에서 개발�
 +++**_새 데스크탑 앱에 액세스하려면 어떻게 합니까?_**
 새 데스크탑 앱은으로 사용할 수 있습니다. `.dmg` macOS 또는 as a 설치 관리자 `.exe` windows®용 설치 관리자
 
-다음을 참조하십시오 [Adobe Dynamic Media Classic 데스크탑 앱](/help/using/dynamic-media-classic-desktop-app.md) 시스템 요구 사항을 검토하려면 새 앱을 다운로드하여 설치한 다음 로그인하십시오.
+다음을 참조하십시오. [Adobe Dynamic Media Classic 데스크탑 앱](/help/using/dynamic-media-classic-desktop-app.md) 시스템 요구 사항을 검토하려면 새 앱을 다운로드하여 설치한 다음 로그인하십시오.
 +++
 
 <!-- NEWSLETTER IS DEAD The download links are also available by way of the [Adobe Dynamic Media Classic newsletter subscription page.](https://www.adobe.com/subscription/dynamic-media-newsletter.html) -->
@@ -84,7 +84,7 @@ Windows®에서 새 Adobe Dynamic Media Classic 데스크탑 앱을 사용할 �
 +++
 
 +++**_Adobe Dynamic Media Classic 데스크탑 앱으로의 업그레이드는 어떻게 활성화됩니까?_**
-2020년 6월 30일 Adobe Dynamic Media Classic 데스크탑 앱 릴리스에 이어 Adobe에서 새 버전을 릴리스할 경우 고객은 새 버전을 다운로드하고 평소와 같이 설치해야 합니다(에서 기존 앱을 교체하십시오.) **[!UICONTROL 애플리케이션]**). Adobe 계정 팀과 사용자에게 업그레이드를 알리는 인앱 업그레이드 알림 메커니즘을 통해 새 릴리스에 대한 알림을 받게 됩니다.
+2020년 6월 30일 Adobe Dynamic Media Classic 데스크탑 앱 릴리스에 이어 Adobe에서 새 버전을 릴리스할 경우 고객은 새 버전을 다운로드하여 설치해야 합니다(의 기존 앱 대체) **[!UICONTROL 애플리케이션]**). Adobe 계정 팀과 사용자에게 업그레이드를 알리는 인앱 업그레이드 알림 메커니즘을 통해 새 릴리스에 대한 알림을 받게 됩니다.
 +++
 
 +++**_Adobe Dynamic Media Classic 데스크탑 앱과 관련된 문제에 대한 도움말을 보려면 어떻게 합니까?_**

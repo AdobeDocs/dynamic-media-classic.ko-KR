@@ -10,10 +10,10 @@ role: User
 exl-id: 5e3b0002-5ae2-4437-862f-caa098b04362
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 48%
+ht-degree: 40%
 
 ---
 
@@ -46,7 +46,7 @@ Adobe Dynamic Media Classic은 작업 화면에 작업 내보내기 기록을 �
 
    * **[!UICONTROL 작업 이름]** - 작업 이름을 내보내기에 할당할 수 있습니다.
 
-   * **[!UICONTROL 전자 메일 받는 사람]** - 자산을 전자 메일로 보내려면 전자 메일 주소를 입력합니다(선택적). 이메일 메시지에는 수신자가 자산을 다운로드하기 위해 이동할 수 있는 URL이 표시됩니다.
+   * **[!UICONTROL 전자 메일 받는 사람]** - 선택 사항입니다. 자산을 전자 메일로 보내려면 전자 메일 주소를 입력합니다. 이메일 메시지에는 수신자가 자산을 다운로드하기 위해 이동할 수 있는 URL이 표시됩니다.
 
 1. 선택 **[!UICONTROL 내보내기]**.
 
@@ -77,5 +77,5 @@ Adobe Dynamic Media Classic은 작업 화면에 작업 내보내기 기록을 �
 
 다양한 자산 유형의 많은 자산을 내보내는 경우 다음 동작이 발생합니다.
 
-* 내보낼 수 없는 모든 자산 유형이 작업 전송 전에 목록에서 제거됩니다.
-* 전환이 요청된 경우 전환할 수 있는 모든 유형이 전환되고 기타 모든 유형은 원본으로 내보내집니다.
+* 내보낼 수 없는 모든 자산 유형은 작업 제출 전에 목록에서 제거됩니다
+* 변환이 요청되면 변환할 수 있는 모든 유형은 이고 다른 모든 유형은 원본으로 내보내집니다

@@ -10,9 +10,9 @@ role: User
 exl-id: b0010107-248c-4ebc-955c-7514462f351d
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '163'
+source-wordcount: '164'
 ht-degree: 6%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 6%
 
 ## 게시할 1차 이미지 표시 {#marking-master-images-for-publish}
 
-Dynamic Media 이미지 서버로 복사하려면 기본 이미지를 게시용으로 표시해야 합니다. 찾아보기 패널에서 을 선택하여 1차 이미지를 게시할 수 있습니다 **[!UICONTROL 게시로 표시]** 아이콘. Adobe Dynamic Media Classic에 업로드할 때 게시할 이미지를 표시할 수도 있습니다.
+Dynamic Media 이미지 서버로 복사하려면 기본 이미지를 게시용으로 표시해야 합니다. 찾아보기 패널에서 1차 이미지를 게시할 수 있도록 표시하려면 **[!UICONTROL 게시로 표시]** 아이콘. Adobe Dynamic Media Classic에 업로드할 때 게시할 이미지를 표시할 수도 있습니다.
 
 ## 기본 이미지 게시 {#publishing-your-master-images}
 

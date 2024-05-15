@@ -10,10 +10,10 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 36%
+source-wordcount: '1494'
+ht-degree: 31%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 36%
 
 ## eCatalog 이미지 맵 그리기 {#drawing-ecatalog-image-maps}
 
-eCatalog의 경우 eCatalog 화면의 [맵 페이지] 탭에서 이미지 맵을 그립니다. 이 화면은 eCatalog 페이지가 표시되는 [이미지 맵] 영역과 오른쪽의 [이미지 맵] 목록으로 구성됩니다. 이미지 맵을 만들면 해당 이름이 [이미지 맵] 목록에 입력됩니다.
+eCatalog의 경우 eCatalog 화면의 [맵 페이지] 탭에서 이미지 맵을 그립니다. 이 화면은 eCatalog 페이지가 표시되는 [이미지 맵] 영역과 오른쪽의 [이미지 맵] 목록으로 구성됩니다. 이미지 맵을 만들 때 이미지 맵 목록에 이름이 입력됩니다.
 
 1. 전자 카탈로그의 롤오버 선택 **[!UICONTROL 편집]** 단추를 클릭합니다.
 1. 선택 **[!UICONTROL 페이지 매핑]**.
@@ -51,7 +51,7 @@ eCatalog의 경우 eCatalog 화면의 [맵 페이지] 탭에서 이미지 맵을
 1. 선택 **[!UICONTROL 저장]**.
 1. (선택 사항) 선택 **[!UICONTROL 미리 보기]** 기본 eCatalog 뷰어 사전 설정으로 eCatalog를 봅니다.
 
-이미지 맵을 삭제하려면 이미지 맵 목록에서 해당 이름을 선택하고 을 선택합니다 **[!UICONTROL 삭제]**. 이미지 맵을 삭제하지 않고 페이지에서 이미지 맵을 일시적으로 비활성화하려면 [이미지 맵 목록] 패널에서 이미지 맵의 [켜기] 옵션을 선택 해제합니다.
+이미지 맵을 삭제하려면 이미지 맵 목록에서 해당 이름을 선택하고 을 선택합니다 **[!UICONTROL 삭제]**. 이미지 맵을 삭제하지 않고 페이지에서 이미지 맵을 일시적으로 비활성화할 수 있습니다. [이미지 맵] 목록 패널에서 [이미지 맵 기준] 옵션을 선택합니다.
 
 ## eCatalog에 리치 미디어 포함 {#embedding-rich-media-in-an-ecatalog}
 
@@ -75,7 +75,7 @@ eCatalog의 리치 미디어 옵션을 사용하여 MP4 형식의 비디오나 �
 
 eCatalog 화면의 [맵 페이지] 탭에서 시작하여 다음 기술을 통해 eCatalog 이미지 맵을 편집합니다.
 
-* **위치 조정** - 패닝 도구를 선택하고 포인터를 맵 테두리 근처로 이동하지 않습니다. 포인터가 십자형 화살표로 표시되면 전체 이미지 맵을 새 위치로 드래그합니다.
+* **위치 조정** - 패닝 도구를 선택하고 포인터를 맵 테두리 근처로 이동하지 않습니다. 포인터에 네 방향 화살표가 표시되면 전체 이미지 맵을 새 위치로 드래그합니다.
 
   다음을 참조하십시오 [이미지 맵의 위치, 모양 및 크기 조정](creating-image-maps.md#adjusting_the_position_shape_and_size_of_image_maps).
 
@@ -97,7 +97,7 @@ eCatalog 화면의 [맵 페이지] 탭에서 시작하여 다음 기술을 통�
 
 >[!NOTE]
 >
->eCatalog의 다른 페이지에 이미지 맵을 복사하는 것 외에도 eCatalog의 모든 이미지 맵을 다른 eCatalog에 복사할 수 있습니다. 다음을 참조하십시오 [전자 카탈로그 간 이미지 맵 복사](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
+>eCatalog의 다른 페이지에 이미지 맵을 복사할 때 eCatalog의 모든 이미지 맵을 다른 eCatalog에 복사할 수 있습니다. 다음을 참조하십시오 [다른 전자 카탈로그 간 이미지 맵 복사](creating-ecatalog-image-maps.md#copying_image_maps_between_ecatalogs).
 
 ## 이미지 맵 데이터 검토 및 가져오기 {#reviewing-and-importing-image-map-data}
 
@@ -109,14 +109,14 @@ eCatalog 화면의 [맵 페이지] 탭에서 시작하여 다음 기술을 통�
 
 1. [페이지 매핑] 화면에서 다음을 선택합니다 **[!UICONTROL 요약]**.
 
-   [맵 요약] 화면에 eCatalog에 있는 이미지 맵, URL, 롤오버 텍스트 설명 및 기타 작업 수가 표시됩니다.
+   맵 요약 화면에는 eCatalog에 있는 이미지 맵, URL, 롤오버 텍스트 설명 및 기타 작업의 수가 표시됩니다.
 
 1. 롤오버 키 오류가 있는 경우 **[!UICONTROL 롤오버 키 오류]** 오류를 수정하기 위해 스프레드시트에서 변경해야 하는 사항을 확인하는 열입니다. 이 메시지에서 텍스트를 선택하고 복사한 다음 스프레드시트에 붙여 넣을 수 있습니다.
-1. 선택 **[!UICONTROL 미리 보기]** 따라서 eCatalog 뷰어에서 페이지를 검사할 수 있습니다. X를 선택하여 요약 화면을 닫고 페이지 매핑 화면으로 돌아가거나 **[!UICONTROL 닫기]** 을 눌러 찾아보기로 돌아갑니다.
+1. 선택 **[!UICONTROL 미리 보기]** 따라서 eCatalog 뷰어에서 페이지를 검사할 수 있습니다. X 를 선택하여 요약 화면을 닫고 맵 페이지 화면으로 돌아가거나 을 선택합니다. **[!UICONTROL 닫기]** 을 눌러 찾아보기로 돌아갑니다.
 
 ### 이미지 맵 데이터 가져오기 {#import-image-map-data}
 
-각 페이지에서 이미지 맵 데이터를 입력하는 대신 전체 eCatalog의 데이터를 [맵 요약] 화면으로 가져올 수 있습니다. 탭으로 구분된 파일이나 XML DTD 형태로 이미지 맵 데이터를 가져옵니다. 파일의 필드는 [맵 요약] 화면에 표시된 순서대로 정렬되어야 합니다(이름, 목차 레이블, 맵, URL, 롤오버 텍스트, 다른 작업 및 검색 문자열). 이미지 맵 데이터를 가져오면 각 이미지 맵을 만들 때 [이미지 맵] 목록에 데이터를 입력하지 않아도 됩니다.
+각 페이지에서 이미지 맵 데이터를 입력하는 대신 전체 eCatalog의 데이터를 [맵 요약] 화면으로 가져올 수 있습니다. 탭으로 구분된 파일이나 XML DTD 형태로 이미지 맵 데이터를 가져옵니다. 파일의 필드는 [맵 요약] 화면에 표시된 순서대로 정렬되어야 합니다(이름, 목차 레이블, 맵, URL, 롤오버 텍스트, 다른 작업 및 검색 문자열). 이미지 맵 데이터를 가져오면 각 이미지 맵을 만들 때 이미지 맵 목록에 데이터를 입력하는 문제를 줄일 수 있습니다.
 
 >[!NOTE]
 >
@@ -129,7 +129,7 @@ eCatalog 화면의 [맵 페이지] 탭에서 시작하여 다음 기술을 통�
 1. [작업 이름] 필드에 파일 이름을 입력합니다. 확장자를 유지해야 합니다.
 1. 선택 **[!UICONTROL 업로드]**.
 
-## 전자 카탈로그 간 이미지 맵 복사 {#copying-image-maps-between-ecatalogs}
+## 다른 전자 카탈로그 간 이미지 맵 복사 {#copying-image-maps-between-ecatalogs}
 
 eCatalog에 있는 모든 이미지 맵을 다른 eCatalog로 복사할 수 있습니다. 이런 방식의 이미지 맵 복사는 동일한 eCatalog의 외국어 번역 간에 이미지 맵을 복사하는 편리한 방법입니다. 복사가 성공하려면 Adobe Dynamic Media Classic에서는 페이지 수가 동일한 eCatalogs와 이미지가 동일한 간에 복사하는 것이 좋습니다.
 
@@ -143,4 +143,4 @@ eCatalog에 있는 모든 이미지 맵을 다른 eCatalog로 복사할 수 있�
 1. Order Pages 탭에서 **[!UICONTROL 맵 복사]**.
 1. 에셋 선택 대화 상자에서 이미지 맵을 복사할 eCatalog를 선택한 다음 을 선택합니다 **[!UICONTROL 선택]**.
 
-대상 eCatalog(이미지 맵을 복사하는 eCatalog)의 페이지 또는 이미지 수가 다른 경우 Adobe Dynamic Media Classic에 경고 메시지가 표시됩니다. 선택 **[!UICONTROL 계속]** 경고에도 불구하고 이미지 맵을 복사합니다.
+Adobe Dynamic Media Classic은 이미지 맵을 복사하는 대상 eCatalog에 크기가 다른 페이지 또는 이미지 수가 있는 경우 경고 메시지를 표시합니다. 선택 **[!UICONTROL 계속]** 경고에도 불구하고 이미지 맵을 복사합니다.

@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 17%
+source-wordcount: '477'
+ht-degree: 12%
 
 ---
 
 # Adobe Dynamic Media Classic 프로그램 개요{#adobe-scene-platform-overview}
 
-Adobe Dynamic Media Classic은 통합되고 리치 미디어 관리, 게시 및 서비스 환경입니다. 웹, 인쇄물, 이메일 캠페인, 웹 포털, 데스크톱 및 장치를 비롯한 모든 마케팅 및 판매 채널에 리치 미디어를 제공할 수 있습니다.
+Adobe Dynamic Media Classic은 통합되고 리치 미디어 관리, 게시 및 서비스 환경입니다. 리치 미디어는 모든 마케팅 및 판매 채널에 전달될 수 있습니다. 이러한 채널에는 웹, 인쇄 자료, e-메일 캠페인, 웹 포털, 데스크톱, 디바이스 등이 포함됩니다.
 
 참조: [플랫폼 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/572_Platform%20Overview_converted%20renamed_Getting%20Started-AVS) 교육 비디오입니다.
 
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classic은 통합되고 리치 미디어 관리, 게시 및 
 
 Adobe Dynamic Media Classic은 Adobe Dynamic Media Classic을 사용하여 단일 기본 에셋 및 URL 호출에서 동적으로 미디어를 게재할 수 있으므로 다른 시스템과 근본적으로 다릅니다.
 
-Adobe Dynamic Media Classic으로 생성한 URL 문자열에는 에셋이 배달될 때 해당 에셋을 표시하는 방법을 서버에 알려 주는 지침이 포함되어 있습니다. 예를 들어 동일한 1차 이미지가 서로 다른 크기, 형식, 무게, 색상 및 확대/축소 보기로 제공될 수 있습니다. Adobe Dynamic Media Classic을 사용하여 미디어 에셋을 구축하고 게시하는 과정의 일부로 효과를 시각적으로 구성합니다. 이렇게 하면 기본 자산을 응용 프로그램에 제공하는 방법을 서버에 올바르게 알려주는 URL 호출을 만듭니다.
+Adobe Dynamic Media Classic으로 생성한 URL 문자열에는 에셋이 배달될 때 해당 에셋을 표시하는 방법을 서버에 알려 주는 지침이 포함되어 있습니다. 예를 들어 동일한 1차 이미지가 서로 다른 크기, 형식, 무게, 색상 및 확대/축소 보기로 제공될 수 있습니다. Adobe Dynamic Media Classic을 사용하여 미디어 에셋을 구축하고 게시하는 과정의 일부로 효과를 시각적으로 구성할 수 있습니다. 이렇게 하면 기본 자산을 응용 프로그램에 제공하는 방법을 서버에 올바르게 알려주는 URL 호출을 만듭니다.
 
 ![Adobe Dynamic Media Classic은 동일한 1차 이미지를 크기와 형식이 다른 다양한 미디어에 제공할 수 있습니다.](/help/using/assets/gs_dynamic_publishing.png)
 *Adobe Dynamic Media Classic은 크기나 대역폭에 관계없이 모든 화면에 일관된 품질 경험을 제공합니다.*
