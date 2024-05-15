@@ -6,9 +6,9 @@ role: Admin,User
 exl-id: 5c2e2937-fe4f-4b64-bee8-9572ca84695b
 topic: Content Management
 level: Intermediate
-source-git-commit: ae7d0c6d3047d68ed3da4187ef516dc51c95de30
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1564'
 ht-degree: 0%
 
 ---
@@ -30,10 +30,16 @@ ht-degree: 0%
 +++**으로 업그레이드할 수 있는 주요 이점은 무엇입니까? [!DNL Dynamic Media]?**
 
 * 과 공동 작업 및 공유 파일 동기화 [!DNL Adobe Creative Cloud] 응용 프로그램.
-* 강력한 메타데이터 지원, 스마트 검색, Lightbox 및 컬렉션, 버전 제어 및 공급업체, 파트너 및 프랜차이즈가 사용할 수 있는 안전한 자산 공유를 통한 엔터프라이즈 수준 디지털 자산 관리 WIP(Work In Process) 자산에 대한 검토 및 승인 워크플로.
+* 다음을 통한 엔터프라이즈급 디지털 자산 관리:
+   * 강력한 메타데이터 지원
+   * 스마트 검색
+   * lightbox 및 컬렉션
+   * 버전 제어
+   * 공급업체, 파트너 및 프랜차이즈가 사용할 수 있도록 자산 공유 보호
+* WIP 자산에 대한 검토 및 승인 워크플로우입니다.
 * 새로운 UI를 통해 간편하게 채택하고 사용할 수 있습니다.
 * 이미지 및 비디오를 사용하여 구매 가능한/대화형 미디어 경험을 만들어 전환을 유도하고 사용자 참여도와 만족도를 향상시킵니다.
-* 캠페인 에셋과 제품 정보를 결합하면 장바구니에서 바로 클릭할 수 있습니다.
+* 캠페인 에셋을 제품 정보와 결합하여 장바구니로의 클릭을 간소화합니다.
 * WYSIWYG 뷰어 디자이너를 사용하여 대화형 뷰어를 쉽게 만들고, 조정하고, 브랜드화하고, 배포할 수 있습니다.
 * 에 최적화된 리치 미디어 제공 [!DNL Experience Cloud] 솔루션.
 * 과 통합 [!DNL Experience Cloud] 고급 에셋 분석, 타기팅 및 마케팅 터치 포인트 간 에셋 재사용을 위해. 이러한 터치포인트는 다음과 같습니다 [!DNL Adobe Campaign] 이메일의 경우 [!DNL Adobe Social] 소셜 채널 및 [!DNL Experience Manager] 반응형 웹 및 모바일 앱용 사이트입니다.
@@ -57,7 +63,7 @@ Adobe이 Adobe Scene7의 이름을 (으)로 변경함 [!DNL Dynamic Media Classi
 ## 업그레이드 프로세스 및 도구
 
 +++**업그레이드 프로그램은 누가 지원합니까?**
-현재 [!DNL Dynamic Media Classic] 다음을 보유한 (이전 Scene7) 고객 [!DNL Experience Manager].
+현재 다음을 보유한 고객 [!DNL Dynamic Media Classic] (이전 Scene7) 및 [!DNL Experience Manager].
 
 +++
 
@@ -67,7 +73,7 @@ Adobe 계정 팀 담당자에게 문의하거나 [이메일 s7support@adobe.com]
 +++
 
 +++**업그레이드 프로세스는 어떻게 처리됩니까?**
-업그레이드는 AGS(Adobe 글로벌 서비스)에서 처리되며 서비스 프로젝트로 처리됩니다. Adobe은 에셋의 마이그레이션만 제공합니다. 기타 모든 업그레이드 측면 및 단계는 고객, AGS 또는 파트너가 담당합니다. 요약 수준에서 업그레이드 계획에는 다음이 포함됩니다.
+AGS(Adobe 글로벌 서비스)는 업그레이드를 처리하고 서비스 프로젝트로 취급합니다. Adobe은 에셋의 마이그레이션만 제공합니다. 기타 모든 업그레이드 측면 및 단계는 고객, AGS 또는 파트너가 담당합니다. 요약 수준에서 업그레이드 계획에는 다음이 포함됩니다.
 
 * 회사/사용자 계정을 프로비저닝합니다.
 * 에서 에셋 복제 [!DNL Dynamic Media Classic] (이전 Scene7) (으)로 [!DNL Dynamic Media] 구성 요소 [!DNL Experience Manager] 에셋(자동화된 업그레이드 도구를 통해 Adobe 제공).
@@ -107,7 +113,7 @@ Adobe 계정 팀 담당자에게 문의하거나 [이메일 s7support@adobe.com]
 +++
 
 +++**업그레이드해야 합니까?**
-아니. Adobe은 계속해서 완벽한 지원 및 유지 관리를 수행합니다 [!DNL Dynamic Media Classic] (고객이 요청한 버그 수정, 보안 수정, 플랫폼 확장성 및 안정성) 현재와 미래의 요구 사항.
+아니. Adobe이 완벽하게 지원 및 유지 관리 [!DNL Dynamic Media Classic] (고객이 요청한 버그 수정, 보안 수정, 플랫폼 확장성 및 안정성) 현재와 미래의 요구 사항.
 
 에서 제공하는 새로운 기능을 활용할 준비가 되면 업그레이드할 수 있습니다. [!DNL Dynamic Media].
 
@@ -123,7 +129,7 @@ Adobe 계정 팀 담당자에게 문의하거나 [이메일 s7support@adobe.com]
 +++
 
 +++**Adobe은 업그레이드 프로세스를 자동화하기 위해 어떤 도구를 제공합니까?**
-업그레이드 프로그램의 초기 시작 시 Adobe은 에셋을 자동으로 이동할 수 있는 도구를 제공합니다 [!DNL Dynamic Media Classic] 끝 [!DNL Dynamic Media] 위치: [!DNL Experience Manager] 에셋.
+업그레이드 프로그램의 초기 시작 시 Adobe은에서 에셋을 자동으로 이동할 수 있는 도구를 제공합니다 [!DNL Dynamic Media Classic] 끝 [!DNL Dynamic Media] 위치: [!DNL Experience Manager] 에셋.
 
 +++
 
@@ -172,7 +178,7 @@ Adobe 계정 팀 담당자에게 문의하거나 [이메일 s7support@adobe.com]
 +++
 
 +++**얼마나 걸리죠 [!DNL Dynamic Media Classic] 독립형 제품으로 존재하시겠습니까?**
-Adobe은 계속해서 완벽한 지원 및 유지 관리를 수행합니다 [!DNL Dynamic Media Classic] (고객이 요청한 버그 수정, 보안 수정, 플랫폼 확장성 및 안정성) 현재와 미래의 요구 사항.
+Adobe이 완벽하게 지원 및 유지 관리 [!DNL Dynamic Media Classic] (고객이 요청한 버그 수정, 보안 수정, 플랫폼 확장성 및 안정성) 현재와 미래의 요구 사항.
 
 +++
 
@@ -182,7 +188,12 @@ Dynamic Media에는 60GB의 스토리지가 제공됩니다. 250GB의 블록 단
 +++
 
 +++**측정에 사용되는 지표 [!DNL Dynamic Media] 사용하시겠습니까?**
-PVM(월별 페이지 보기 수)입니다. 페이지 보기 는 인터넷 사이트의 이메일 또는 웹 페이지에 대한 단일 보기를 의미합니다. 또한 애플리케이션 화면 보기, 애플리케이션 화면 상태, 모바일 웹 페이지 및 소셜 네트워크 페이지가 포함됩니다. 페이지 보기 수는 웹 페이지가 로드되거나 새로 고쳐질 때마다, 애플리케이션이 로드될 때마다, 또는 열려 있거나 조회된 이메일을 통해 콘텐츠가 렌더링되거나 표시될 때마다 발생합니다.
+PVM(월별 페이지 보기 수)입니다. 페이지 보기 는 인터넷 사이트의 이메일 또는 웹 페이지에 대한 단일 보기를 의미합니다. 또한 애플리케이션 화면 보기, 애플리케이션 화면 상태, 모바일 웹 페이지 및 소셜 네트워크 페이지가 포함됩니다. 페이지 보기 횟수:
+
+* 웹 페이지 로드 또는 새로 고침이 발생할 때마다
+* 응용 프로그램 로드 시
+* 콘텐츠 렌더링 시
+* 열거나 본 이메일을 통해 표시됨
 
 +++
 

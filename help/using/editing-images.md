@@ -10,9 +10,9 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '316'
 ht-degree: 7%
 
 ---
@@ -27,10 +27,10 @@ Adobe Dynamic Media Classic은 리치 미디어 효과를 만드는 데 사용�
 
 * **이미지 자르기** - 이미지를 자르려면 자르기 명령 또는 **[!UICONTROL 자르기]** 단추를 클릭합니다. 다음을 참조하십시오 [이미지 자르기](/help/using/cropping-image.md).
 
-* **이미지 선명하게 하기** - 이미지를 선명하게 하고 윤곽선이 덜 흐릿하고 더 선명하게 하려면 [선명하게] 명령 또는 **[!UICONTROL 선명하게]** 단추를 클릭합니다. 다음을 참조하십시오 [이미지 선명하게 하기](/help/using/sharpening-image.md).
+* **이미지 선명하게 하기** - [선명하게] 명령 또는 을 선택하여 이미지의 윤곽선을 덜 흐리게 합니다. **[!UICONTROL 선명하게]** 단추를 클릭합니다. 다음을 참조하십시오 [이미지 선명하게 하기](/help/using/sharpening-image.md).
 
 * **이미지 조정** - 다음을 선택합니다. `Adjust` 명령 또는 **[!UICONTROL 조정]** 이미지의 색상 균형을 대칭 이동, 회전, 흐림, 색상화 또는 변경하기 위한 단추. 다음을 참조하십시오 [이미지 조정](/help/using/adjusting-image.md).
 
 * **레이어 편집** - 편집 가능한 개별 레이어를 PSD 파일에 표시하려면 **[!UICONTROL 레이어]** 탭. PSD 파일을 업로드할 때 Adobe Dynamic Media Classic 내에서 편집할 수 있도록 모든 레이어가 개별 파일로 개별적으로 업로드됩니다.
 
-이러한 도구를 사용하여 이미지를 편집하는 것 외에도 Adobe Dynamic Media Classic에 업로드할 때 이미지를 편집할 수 있습니다. 예를 들어 이미지를 업로드할 때 이미지를 자르고, 클립 경로에서 마스크를 만들고, 이미지의 색상 프로필을 선택할 수 있습니다.
+이러한 도구를 사용하여 이미지를 편집할 수 있을 뿐만 아니라 Adobe Dynamic Media Classic에 업로드할 때에도 이미지를 편집할 수 있습니다. 예를 들어 이미지를 업로드할 때 이미지를 자르고, 클립 경로에서 마스크를 만들고, 이미지의 색상 프로필을 선택할 수 있습니다.

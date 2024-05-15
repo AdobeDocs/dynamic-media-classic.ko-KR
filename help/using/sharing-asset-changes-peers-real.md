@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: d74b4966-fe43-4349-bbe1-3a379c49bf1f
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '281'
 ht-degree: 26%
 
 ---
 
 # 피어와 자산 변경 내용을 실시간으로 공유{#sharing-asset-changes-with-peers-in-real-time}
 
-동일한 회사의 여러 컴퓨터에서 실행되는 Adobe Dynamic Media Classic의 여러 복사본을 사용하면 모든 Adobe Dynamic Media Classic 클라이언트의 다음 작업이 모든 피어 클라이언트로 실시간으로 업데이트됩니다.
+동일한 회사의 컴퓨터에서 실행 중인 Adobe Dynamic Media Classic의 복사본이 여러 개 있다고 가정해 봅시다. 이러한 시나리오에서는 모든 Dynamic Media Classic 클라이언트의 다음 작업이 모든 피어 클라이언트로 실시간으로 업데이트됩니다.
 
 * 에셋 편집(빌더, 이미지 편집기 등)
 * 자산 이름 바꾸기

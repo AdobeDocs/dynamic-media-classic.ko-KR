@@ -10,10 +10,10 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '1511'
-ht-degree: 18%
+source-wordcount: '1513'
+ht-degree: 17%
 
 ---
 
@@ -31,11 +31,11 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 
 >[!NOTE]
 >
->왼쪽에 에셋 라이브러리 패널이 표시되지 않으면 Adobe Dynamic Media Classic 창 아래쪽 절반에서 오른쪽의 삼각형 화살표를 선택하여 에셋 라이브러리를 엽니다.
+>왼쪽에 에셋 라이브러리 패널이 표시되지 않는 경우 Dynamic Media Classic 창 절반 아래쪽에서 왼쪽의 오른쪽 삼각형 화살표를 클릭하여 에셋 라이브러리를 엽니다.
 
 ## 찾아보기 패널에서 파일 정렬 {#sorting-files-in-the-browse-panel}
 
-오른쪽에 있는 찾아보기 패널에 나타나는 폴더 또는 검색 결과의 내용을 정렬하려면 전역 탐색 막대에서 을 선택합니다 **[!UICONTROL 정렬]**&#x200B;을 클릭하고 옵션을 선택합니다. 옵션은 다음과 같습니다 **[!UICONTROL 이름]**, **[!UICONTROL 크기(KB)]**, **[!UICONTROL 유형]**, **[!UICONTROL 만든 날짜]**, 및 **[!UICONTROL 마지막 수정일]**.
+오른쪽의 찾아보기 패널에 나타나는 폴더 또는 검색 결과의 내용을 정렬할 수 있습니다. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 정렬]**&#x200B;을 클릭하고 옵션을 선택합니다. 옵션은 다음과 같습니다 **[!UICONTROL 이름]**, **[!UICONTROL 크기(KB)]**, **[!UICONTROL 유형]**, **[!UICONTROL 만든 날짜]**, 및 **[!UICONTROL 마지막 수정일]**.
 
 다음을 선택할 수도 있습니다. **[!UICONTROL 오름차순]** 또는 **[!UICONTROL 내림차순]** 선택한 기준에 따라 에셋을 오름차순 또는 내림차순으로 정렬합니다.
 
@@ -63,7 +63,7 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 
 고급 검색에서 다음 기준 중 하나를 지정합니다.
 
-* **자산 유형별 필터링** - 메뉴에서 에셋 유형을 선택하여 하나의 에셋 유형으로 검색 범위를 좁힐 수 있습니다.
+* **자산 유형별 필터링** - 검색 범위를 한 자산 유형으로만 좁힙니다. 메뉴에서 에셋 유형을 선택합니다.
 
 * **파일 및 폴더** - 검색할 위치 선택: **[!UICONTROL 모든 파일 및 폴더 내]**, **[!UICONTROL 선택한 폴더 내]**, 또는 **[!UICONTROL 선택한 폴더 및 하위 폴더 내]**.
 
@@ -109,7 +109,7 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 
    다음을 참조하십시오 [필터 작업 저장, 반복 및 삭제](searching-assets.md#saving_repeating_and_deleting_filter_operations).
 
-1. 선택 **[!UICONTROL 필드]** 패널에서 다음 지침을 따라 필터링 메뉴를 표시하고 필터 작업을 구성할 수 있습니다.
+1. 클릭 **[!UICONTROL 필드]** 패널에서 다음 지침을 따라 필터링 메뉴를 표시하고 필터 작업을 구성할 수 있습니다.
 
    * **메타데이터 필드 선택** - 필터링 메뉴에서 필드 이름을 선택합니다.
 
@@ -125,7 +125,7 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 
    메타데이터 필드를 선택하면 해당 패널에 다음 항목이 나열됩니다.
 
-   * 필드에 입력된 모든 메타데이터 값
+   * 모든 메타데이터 값이 필드에 입력됩니다.
    * 각 메타데이터 값의 경우 값이 지정된 자산 수
 
 1. 2단계를 필요한 횟수만큼 반복하여 패널의 필터 작업에 사용할 모든 메타데이터 필드를 나열합니다.
@@ -135,7 +135,7 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 
    >[!NOTE]
    >
-   >필터 작업에서 필드를 일시적으로 제거하려면 다음을 선택합니다. **[!UICONTROL 모두 선택 해제]**. 이 옵션은 각 패널의 맨 위, 메타데이터 값 위에 있습니다.
+   >을(를) 클릭하여 필터 작업에서 필드를 일시적으로 제거합니다. **[!UICONTROL 모두 선택 해제]**. 이 옵션은 각 패널의 맨 위, 메타데이터 값 위에 있습니다.
 
 1. (선택 사항) 필터 작업을 저장하고 나중에 실행하려면 을 선택합니다 **[!UICONTROL 사전 설정 선택]** > **[!UICONTROL 현재 항목을 새 사전 설정으로 저장]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL 저장]** 대화 상자.
 

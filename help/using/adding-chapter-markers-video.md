@@ -10,9 +10,9 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '622'
 ht-degree: 28%
 
 ---
@@ -51,17 +51,17 @@ Cost-efficient access to rapidly evolving technology.
 
 위의 예에서 `Chapter 1` 는 큐 식별자이며 선택 사항입니다. 의 큐 시간 `00:00:000 --> 01:04:364` 챕터의 시작 시간과 종료 시간을 00으로 지정합니다.:00:000 형식입니다. 마지막 세 개의 숫자는 밀리초이며, 원하는 경우 000으로 둘 수 있습니다. 의 챕터 제목 `The bicycle store behind it all` 는 챕터 내용에 대한 실제 설명입니다. 큐 식별자, 시작 큐 시간 및 챕터 제목은 모두 포인터를 비디오 타임라인의 시각적 큐 포인트 위에 두면 비디오 플레이어의 팝업에 나타납니다.
 
-HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 챕터 파일 이름 확장명은 .VTT입니다. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.
+HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 파일이 WebVTT(Web Video Text Tracks) 표준을 준수하도록 해야 합니다. 챕터 파일 확장명은 입니다. `.VTT`. WebVTT 캡션 표준에 대한 자세한 내용을 알 수 있습니다.
 
 다음을 참조하십시오 [WebVTT: 웹 비디오 텍스트 트랙 형식](https://w3c.github.io/webvtt/).
 
-**비디오에 챕터 마커를 추가하려면:**
+**비디오에 챕터 마커를 추가하려면 다음을 수행하십시오.**
 
 1. Adobe Dynamic Media Classic 외부의 간단한 텍스트 편집기를 사용하여 비디오 챕터 파일을 만듭니다.
 
    >[!NOTE]
    >
-   >영어 이외의 언어로 비디오 챕터를 전역으로 지원하려면 WebVTT 표준을 사용하려면 지원하려는 각 언어에 대해 별도의 .vtt 파일과 호출을 만들어야 합니다.
+   >영어 이외의 언어로 된 비디오 챕터를 전역으로 지원하려면 WebVTT 표준을 사용하려면 별도로 만들어야 합니다 `.VTT` 지원할 각 언어에 대한 파일 및 호출
 
 1. VTT 파일을 UTF8 인코딩으로 저장하여 챕터 제목 텍스트의 문자 렌디션 문제를 방지할 수 있습니다.
 

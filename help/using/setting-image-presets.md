@@ -10,9 +10,9 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '667'
 ht-degree: 37%
 
 ---
@@ -65,11 +65,11 @@ Adobe Dynamic Media Classic에는 사용자가 사용할 수 있도록 이미 �
 
 여기에 나열된 이미지 사전 설정을 만들기 위한 Adobe Dynamic Media Classic &quot;모범 사례&quot; 옵션은 일반적인 권장 사항이며, 선명하게 하기는 매우 주관적입니다. 이러한 &quot;모범 사례&quot; 설정은 2000× 2000 1차 이미지를 기반으로 합니다. 1차 파일의 크기가 크거나 작은 설정은 다를 수 있습니다. 언샵 마스킹 설정을 조정하려면 Adobe Dynamic Media Classic에서 다음 범위를 권장합니다.
 
-* **[!UICONTROL 금액]** - .8과 1.5 사이.
+* **[!UICONTROL 금액]** - 다음 사이 `.8` 및 `1.5`.
 
-* **[!UICONTROL 반경]** - .6과 2 사이.
+* **[!UICONTROL 반경]** - 다음 사이 `.6` 및 `2`.
 
-* **[!UICONTROL 임계값]** - 1부터 6까지.
+* **[!UICONTROL 임계값]** - 보낸 사람 `1` 에서 `6`.
 
 이미지 사전 설정을 삭제하려면 이미지 사전 설정 화면에서 선택한 다음 선택합니다 **[!UICONTROL 삭제]**.
 
