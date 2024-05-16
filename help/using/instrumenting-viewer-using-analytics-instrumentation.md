@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: 9ea1546d-e6d1-4ba4-8fa1-26b4e69375ba
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 15%
@@ -21,7 +21,7 @@ ht-degree: 15%
 
 Adobe Analytics Instrumentation Kit를 사용하여 HTML5 뷰어와 Adobe Analytics을 통합할 수 있습니다.
 
-사전 정의된 Adobe Dynamic Media Classic HTML5 뷰어 사전 설정을 사용하는 경우 Adobe Analytics으로 데이터를 전송하기 위한 모든 구현 코드가 이미 포함되어 있습니다. 추가적인 계기는 추가할 필요가 없습니다.
+사전 정의된 Adobe Dynamic Media Classic HTML5 뷰어 사전 설정을 사용하는 경우, Adobe Analytics으로 데이터를 전송하기 위한 모든 구현 코드가 이미 포함되어 있습니다. 추가적인 계기는 추가할 필요가 없습니다.
 
 ## Adobe Dynamic Media Classic에서 Adobe Analytics 추적 설정 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 336802cc-b032-49b2-b2e6-d699bc997ee5
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '667'
-ht-degree: 34%
+ht-degree: 32%
 
 ---
 
@@ -27,7 +27,7 @@ Adobe Dynamic Media Classic에는 사용자가 사용할 수 있도록 이미 �
 
 ## 이미지 사전 설정 만들기 {#creating-an-image-preset}
 
-회사 관리자는 고유한 이미지 사전 설정을 만들 수 있습니다. 이미지 사전 설정을 만들거나 Adobe Dynamic Media Classic이 제공하는 기본 이미지 사전 설정으로 시작하여 편집하고 새 이름으로 저장할 수 있습니다.
+회사 관리자인 경우 이미지 사전 설정을 직접 만들 수 있습니다. 이미지 사전 설정을 만들거나 Adobe Dynamic Media Classic이 제공하는 기본 이미지 사전 설정으로 시작하여 편집하고 새 이름으로 저장할 수 있습니다.
 
 **이미지 사전 설정을 만들려면 다음 작업을 수행하십시오.**
 

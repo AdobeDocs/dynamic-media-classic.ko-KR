@@ -10,16 +10,16 @@ role: Admin,User
 exl-id: 94c6c388-226b-4172-a6c7-a8dcf9c0f0cf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 49%
+source-wordcount: '258'
+ht-degree: 48%
 
 ---
 
 # 이미지 사전 설정 만들기 및 활성화{#creating-and-enabling-image-presets}
 
-사용자는 Media Portal을 사용하여 이미지 자산을 내보낼 때 [선택한 자산 내보내기] 대화 상자에서 이미지 사전 설정을 선택할 수 있습니다. 이미지 사전 설정은 내보낼 때 이미지 모양의 크기, 이미지 품질, 형식, 해상도 및 기타 측면을 변경하는 사전 정의된 설정의 컬렉션입니다.
+사용자는 Media Portal을 사용하여 이미지 자산을 내보낼 때 [선택한 자산 내보내기] 대화 상자에서 이미지 사전 설정을 선택할 수 있습니다. 이미지 사전 설정은 사전 정의된 설정의 컬렉션입니다. 이러한 설정은 내보낼 때 이미지 모양의 크기, 이미지 품질, 형식, 해상도 및 기타 측면을 변경할 수 있습니다.
 
 Media Portal 관리자는 이미지 사전 설정을 만들어 이미지를 내보낼 때 형식을 다시 지정하는 방법을 제어할 수 있습니다. 이미지 사전 설정은 사용자가 Adobe Dynamic Media Classic에서 이미지를 내보낼 때 회사 사양으로 이미지 형식을 다시 지정합니다. 사용자는 직접 이미지 형식을 다시 지정하는 대신 이미지 사전 설정의 정확한 사양으로 이미지를 내보냅니다.
 

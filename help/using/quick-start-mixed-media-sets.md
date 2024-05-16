@@ -10,7 +10,7 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '656'
 ht-degree: 16%
@@ -47,9 +47,9 @@ ht-degree: 16%
 
 ## 4. 혼합 미디어 뷰어 사전 설정 설정 설정
 
-Adobe Dynamic Media Classic에는 혼합 미디어 세트에 대한 기본 뷰어 사전 설정이 포함되어 있습니다. 관리자는 혼합 미디어 집합 뷰어 사전 설정을 만들거나 수정할 수 있습니다.
+Adobe Dynamic Media Classic에는 혼합 미디어 집합용 기본 뷰어 사전 설정이 포함되어 있습니다. 관리자는 혼합 미디어 집합 뷰어 사전 설정을 만들거나 수정할 수 있습니다.
 
-혼합 미디어 집합 뷰어 사전 설정을 설정할 때 세트에 있는 다른 모든 에셋의 뷰어 사전 설정을 추가합니다. 예를 들어 혼합 미디어 집합에 비디오가 포함되어 있으면 비디오 뷰어 사전 설정을 혼합 미디어 집합 뷰어 사전 설정에 추가합니다. 뷰어에 사운드트랙을 추가할 수도 있습니다. 이 사운드트랙은 뷰어가 열려 있는 동안 재생되지만 비디오가 활성 상태일 때는 재생되지 않습니다.
+혼합 미디어 세트 뷰어 사전 설정을 설정할 때 세트에 있는 다른 모든 에셋의 뷰어 사전 설정을 추가합니다. 예를 들어 혼합 미디어 집합에 비디오가 포함되어 있으면 비디오 뷰어 사전 설정을 혼합 미디어 집합 뷰어 사전 설정에 추가합니다. 뷰어에 사운드트랙을 추가할 수도 있습니다. 이 사운드트랙은 뷰어가 열려 있는 동안 재생되지만 비디오가 활성 상태일 때는 재생되지 않습니다.
 
 다음을 참조하십시오 [혼합 미디어 집합 뷰어 사전 설정 설정](setting-mixed-media-set-viewer.md#setting-up-a-mixed-media-set-viewer-preset) 및 [뷰어 사전 설정 만들기 및 편집](application-setup.md#adding-and-editing-viewer-presets).
 

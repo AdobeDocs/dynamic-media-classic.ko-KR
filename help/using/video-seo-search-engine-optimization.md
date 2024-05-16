@@ -10,16 +10,16 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 30%
+source-wordcount: '1022'
+ht-degree: 27%
 
 ---
 
 # 비디오 SEO(검색 엔진 최적화){#video-seo-search-engine-optimization}
 
-SEO는 검색 엔진에서 웹 사이트로의 트래픽 볼륨을 향상시키는 프로세스입니다. 검색 엔진은 텍스트 기반 컨텐츠에서 정보를 수집하는 기능은 우수하지만 정보가 제공되지 않은 경우 비디오 정보를 제대로 가져올 수 없습니다.
+SEO는 검색 엔진에서 웹 사이트로의 트래픽 볼륨을 향상시키는 프로세스입니다. 검색 엔진은 텍스트 기반 콘텐츠에 대한 정보를 수집하는 데 뛰어난 능력을 보이지만 비디오에 대한 정보를 적절히 얻을 수 없습니다. 그 정보를 그들에게 제공해야 한다.
 
 Adobe Dynamic Media Classic 비디오 SEO를 사용하여 비디오 메타데이터를 적용하여 검색 엔진에 비디오 설명을 제공할 수 있습니다. Adobe Dynamic Media Classic은 비디오 사이트 맵 및 mRSS 피드를 만드는 기능을 제공합니다. 이러한 표준 XML 파일은 비디오 정보를 검색 엔진에 제출하는 데 사용됩니다.
 
@@ -65,7 +65,7 @@ Adobe Dynamic Media Classic은 사용자가 비디오 사이트 맵 및 mRSS 피
 
 다음에서 **[!UICONTROL 자동/수동 모드]** 드롭다운 목록에서 자동 또는 수동 생성 여부를 선택합니다.
 
-* **자동 모드**: Adobe Dynamic Media Classic은 매일 비디오 사이트 맵, 미디어 RSS(mRSS) 피드 또는 두 피드를 모두 자동으로 생성합니다. 다음 항목 선택 **[!UICONTROL 게시로 표시]** Adobe Dynamic Media Classic에서 생성하는 XML 파일을 게시용으로 자동으로 표시하는 옵션입니다.
+* **자동 모드**: Adobe Dynamic Media Classic은 매일 비디오 사이트 맵, 미디어 RSS(mRSS) 피드 또는 두 피드를 모두 자동으로 생성합니다. 다음 항목 선택 **[!UICONTROL 게시로 표시]** Adobe Dynamic Media Classic에서 생성하는 XML 파일을 게시용으로 자동으로 표시할 수 있는 옵션입니다.
 
    * **게시로 표시** 생성된 XML 파일을 게시하기 위해 표시합니다.
 
@@ -79,7 +79,7 @@ Adobe Dynamic Media Classic은 사용자가 비디오 사이트 맵 및 mRSS 피
 
 ### 생성 설정 선택 {#choosing-generation-settings}
 
-[생성 설정] 영역에는 비디오 사이트 맵이나 mRSS 피드 또는 둘 다에 대한 입력 필드가 나열되고 [메타데이터] 패널에는 메타데이터 필드의 이름이 나열됩니다. [일반 설정] 영역을 사용하여 입력 필드를 메타데이터 필드에 매핑합니다. 이렇게 하면 Adobe Dynamic Media Classic에 비디오 사이트 맵 및/또는 mRSS 피드에 대한 메타데이터를 가져올 위치를 알려 줍니다.
+생성 설정 영역에는 비디오 사이트 맵, mRSS 피드 또는 둘 다에 대한 입력 필드가 나열됩니다. [메타데이터] 패널에 메타데이터 필드의 이름이 나열됩니다. [일반 설정] 영역을 사용하여 입력 필드를 메타데이터 필드에 매핑합니다. 이렇게 하면 Adobe Dynamic Media Classic에 비디오 사이트 맵 및/또는 mRSS 피드에 대한 메타데이터를 가져올 위치를 알려 줍니다.
 
 1. [메타데이터 보기] 메뉴에서 메타데이터 보기를 선택합니다. 보기를 선택하면 메타데이터 필드의 이름이 [메타데이터] 패널에 표시됩니다.
 [메타데이터 보기](application-setup.md#metadata_views)를 참조하십시오.

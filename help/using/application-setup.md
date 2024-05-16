@@ -10,9 +10,9 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '10944'
+source-wordcount: '10945'
 ht-degree: 30%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 30%
 
 * **[!UICONTROL 점진적 비디오 서버 이름]**: 의 URL [!DNL Adobe Dynamic Media Classic] 점진적 비디오 서버입니다. 이 서버는 HTTP 프로토콜을 사용하여 점진적 비디오를 전달합니다.
 
-* **[!UICONTROL 게시되지 않은 에셋의 URL 표시]**: 원하는 경우 이 옵션을 선택합니다 [!DNL Adobe Dynamic Media Classic] 에셋을 미리 볼 때 게시되었는지 여부에 관계없이 URL을 표시합니다. 자산이 게시되지 않은 경우 URL이 작동하지 않지만 계획 또는 구성 용도로 URL을 사용할 수 있습니다.
+* **[!UICONTROL 게시되지 않은 에셋의 URL 표시]**: 원하는 경우 이 옵션을 선택합니다 [!DNL Adobe Dynamic Media Classic] 에셋을 미리 볼 때 게시 여부에 관계없이 URL을 표시합니다. 자산이 게시되지 않은 경우 URL이 작동하지 않지만 계획 또는 구성 용도로 URL을 사용할 수 있습니다.
 
 <!-- **Allow AIR install** Select this option to allow users to download Adobe Dynamic Media Classic desktop version to their local hard drives. Users install the application from the Desktop Version area of the Personal Setup screen. -->
 
@@ -117,11 +117,11 @@ ht-degree: 30%
 
 * **[!UICONTROL 이미지 덮어쓰기]**: Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습니다. 각 항목의 Adobe Dynamic Media Classic ID(이미지 이름에서 파일 이름 확장자를 뺀 값)는 고유해야 합니다. 이 규칙 때문에 [업로드] 대화 상자에는 [덮어쓰기] 선택 사항이 있습니다. 이 선택 사항의 정확한 효과는 지정한 [이미지 덮어쓰기] 선택 사항에 따라 달라집니다. 이러한 선택 사항은 대체 이미지 업로드 방법(원본 이미지를 바꾸는지, 아니면 중복 이미지가 되는지 여부)을 지정합니다. 중복 이미지의 이름은 &quot;-1&quot;로 변경됩니다(예: chair.tif의 이름은 chair-1.tif로 변경됨). 이 선택 사항은 원본과 다른 폴더에 업로드된 이미지나 원본과 다른 파일 이름 확장자(예: JPG, TIF 또는 PNG)를 가진 이미지에 영향을 줍니다. 다음을 참조하십시오 [이미지 덮어쓰기 옵션 사용](#using-the-overwrite-images-option).
 
-   * **[!UICONTROL 동일한 기본 이미지 이름/확장명으로 현재 폴더에 덮어쓰기]**: 이 옵션은 교체에 가장 엄격한 규칙입니다. 대체 이미지를 원본과 동일한 폴더에 업로드해야 하며, 대체 이미지가 원본과 동일한 파일 이름 확장자를 사용해야 합니다. 이러한 요구 사항을 충족하지 않으면 중복 항목이 만들어집니다.
+   * **[!UICONTROL 동일한 기본 이미지 이름 또는 확장명으로 현재 폴더에 덮어쓰기]**: 이 옵션은 교체에 가장 엄격한 규칙입니다. 대체 이미지를 원본과 동일한 폴더에 업로드해야 하며, 대체 이미지가 원본과 동일한 파일 이름 확장자를 사용해야 합니다. 이러한 요구 사항을 충족하지 않으면 중복 항목이 만들어집니다.
 
    * **[!UICONTROL 확장명에 상관없이 동일한 기본 에셋 이름으로 현재 폴더에 덮어쓰기]**: 대체 이미지를 원본과 동일한 폴더에 업로드해야 하지만 파일 이름 확장명이 원본과 다를 수 있습니다. 예를 들어 chair.tif가 chair.jpg를 대체합니다.
 
-   * **[!UICONTROL 동일한 기본 에셋 이름/확장명으로 모든 폴더에 덮어쓰기]**: 대체 이미지의 파일 이름 확장명이 원본 이미지와 동일해야 합니다(예: chair.jpg는 chair.tif가 아닌 chair.jpg를 대체해야 함). 그러나 대체 이미지를 원본과 다른 폴더에 업로드할 수 있습니다. 업로드한 이미지는 새 폴더에 있으며 원래 위치에서 더 이상 파일을 찾을 수 없습니다.
+   * **[!UICONTROL 동일한 기본 에셋 이름 또는 확장자로 모든 폴더에 덮어쓰기]**: 대체 이미지의 파일 이름 확장명이 원본 이미지와 동일해야 합니다. 예를 들어 chair.jpg는 chair.tif)가 아닌 chair.jpg를 대체해야 합니다. 그러나 대체 이미지를 원본과 다른 폴더에 업로드할 수 있습니다. 업로드한 이미지는 새 폴더에 있으며 원래 위치에서 더 이상 파일을 찾을 수 없습니다.
 
    * **[!UICONTROL 확장자에 상관없이 동일한 기본 에셋 이름으로 모든 폴더에 덮어쓰기]**: 이 옵션은 가장 포괄적인 대체 규칙입니다. 대체 이미지를 원본과 다른 폴더에 업로드하고 다른 파일 이름 확장자를 가진 파일을 업로드하여 원본 파일을 대체할 수 있습니다. 원본 파일이 다른 폴더에 있는 경우 대체 이미지는 업로드된 새 폴더에 있습니다.
 

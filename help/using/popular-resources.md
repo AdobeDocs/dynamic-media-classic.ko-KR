@@ -7,10 +7,10 @@ role: Admin,User
 exl-id: f67a0645-a37d-4791-a0da-69d844fea40e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '500'
-ht-degree: 3%
+ht-degree: 2%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 3%
 * [모바일 최적화를 위한 설계](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): 타깃팅된 리치 미디어를 모든 장치에 효율적으로 전달하기 위해 Adobe Dynamic Media Classic을 사용합니다. 이 웨비나에서는 모바일 앱과 반응형 사이트 전반에 효과적인 이미징 및 비디오 보기 환경을 디자인하고 제공하는 방법에 대해 알아봅니다.
 * [Adobe Dynamic Media Classic에서 SEO를 지원하는 방법](/help/using/assets/s7_seo.pdf): 현재 검색 엔진을 사용하여 웹 사이트 및 이미지를 검색할 수 있습니다. Adobe Dynamic Media Classic은 더 많은 트래픽이 Adobe Dynamic Media Classic 사용자의 웹 사이트로 유도되도록 이미지를 더 검색 엔진 친화적으로 만들기 위한 노력을 지원합니다. 이 PDF은 이를 수행하기 위한 배경 및 구현 지침을 제공합니다.
 * [Adobe Dynamic Media Classic을 사용하여 휴일 전환 극대화](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true): 이 웨비나는 시청한 폴더에서 콘텐츠를 가져오고 자동으로 스핀 세트 및 비디오를 만드는 자동화된 워크플로를 설정하는 방법에 대해 설명합니다. 또한 변경 사항을 신속하게 관리하고 이미지를 업데이트하는 방법도 알아봅니다.
-* [Adobe Dynamic Media Classic을 사용하여 대화형 경험을 제공하는 모범 사례](https://seminars.adobeconnect.com/p7wb8ej3u6d/): 이 웨비나는 Adobe Dynamic Media Classic에서 콘텐츠를 가져오는 방법을 설명합니다. 최적의 성능과 경험을 위해 이미지 사전 설정을 설정하는 방법에 대해 알아봅니다. 뷰어 사전 설정 및 캐싱 구성에 대해서도 배우게 됩니다.
+* [Adobe Dynamic Media Classic을 사용하여 대화형 경험을 제공하는 모범 사례](https://seminars.adobeconnect.com/p7wb8ej3u6d/): 이 웨비나는 Adobe Dynamic Media Classic에서 콘텐츠를 가져오는 방법을 설명합니다. 최적의 성능과 경험을 위해 이미지 사전 설정을 설정하는 방법에 대해 알아봅니다. 뷰어 사전 설정 및 캐싱 구성에 대해서도 알아봅니다.
 * [반응형 디자인을 위한 우수 사례](https://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): 이 웨비나는 모바일 전략을 향상시키는 방법에 대한 실용적인 팁을 알려줍니다. 응답형 디자인이 작동하는 실제 예제를 참조하십시오. 여러 디바이스에서 작동하는 하나의 기본 에셋을 만듭니다. 이미지의 해상도를 동적으로 변경하여 모바일 성능을 향상시킵니다. 또는 세로 또는 가로 디스플레이에 대한 이미지 방향을 지정합니다. 또한 이미지를 동적으로 자르기, 크기 조절 또는 크기 조절하는 방법을 알아봅니다.
 
 ## Adobe Dynamic Media Classic 교육

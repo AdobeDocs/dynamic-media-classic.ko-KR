@@ -10,10 +10,10 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '877'
-ht-degree: 10%
+ht-degree: 8%
 
 ---
 
@@ -39,7 +39,7 @@ Adobe Dynamic Media Classic에 1차 이미지를 업로드하는 것부터 시�
 
 ## 2. 이미지 사전 설정 설정
 
-매크로와 마찬가지로 이미지 사전 설정은 특정 이름으로 저장된 사전 정의된 크기 및 형식 지정 명령 모음입니다. 이미지 사전 설정은 Dynamic Media 이미지 서버에서 이미지가 전달되는 크기 및 형식을 제어합니다. 회사 관리자 상태인 경우 고유한 이미지 사전 설정을 지정할 수 있습니다. 또한 Adobe Dynamic Media Classic에는 기본 이미지 사전 설정이 포함되어 있으며, 이를 사용하여 이미지를 동적으로 전달할 수 있습니다.
+매크로와 마찬가지로 이미지 사전 설정은 특정 이름으로 저장된 사전 정의된 크기 및 형식 지정 명령 모음입니다. 이미지 사전 설정은 Dynamic Media 이미지 서버에서 이미지가 전달되는 크기 및 형식을 제어합니다. 회사 관리자 상태인 경우 이미지 사전 설정을 직접 설정할 수 있습니다. 또한 Adobe Dynamic Media Classic에는 기본 이미지 사전 설정이 포함되어 있으며, 이를 사용하여 이미지를 동적으로 전달할 수 있습니다.
 
 관리자 권한이 있는 경우 이미지 사전 설정을 만들려면 전역 탐색 모음에서 다음 위치로 이동하십시오. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 이미지 사전 설정]**. 그런 다음 을 선택합니다 **[!UICONTROL 추가]** 이미지 사전 설정을 만들거나 **[!UICONTROL 편집]** 기존 이미지 사전 설정을 변경할 수 있습니다.
 

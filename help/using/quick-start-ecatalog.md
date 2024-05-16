@@ -10,10 +10,10 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 27%
+ht-degree: 25%
 
 ---
 
@@ -92,7 +92,7 @@ eCatalog 페이지의 **[!UICONTROL 페이지 주문]** 탭에서 레이아웃 �
 
 다음을 참조하십시오 [이미지 맵을 사용하여 eCatalog에 리치 미디어 포함](creating-ecatalog-image-maps.md#embedding-rich-media-in-an-ecatalog).
 
-eCatalog 화면의 [정보 패널] 설정을 사용하여 이미지 맵 텍스트를 설정하고 관리할 수 있습니다.
+eCatalog 화면의 정보 패널 설정을 사용하여 이미지 맵 텍스트를 설정하고 관리할 수 있습니다.
 
 다음을 참조하십시오 [eCatalogs의 정보 패널 콘텐츠 관리](/help/using/info-panel-content-ecatalog.md).
 

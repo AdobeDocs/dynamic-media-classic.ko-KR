@@ -10,9 +10,9 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '777'
 ht-degree: 21%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic은 데스크탑에서 MP4 비디오를 미리 볼 수 있는 편리한 방법을 제공합니다. 이 방법을 사용할 경우 모바일 장치에서 실제로 테스트하지 않고도 데스크톱에서 모바일 컨텐츠를 미리 볼 수 있습니다. 그러나 데스크탑 미리 보기에 표시되는 내용은 모바일 장치에서 재생이 어떻게 표시되는지 사실적으로 보여 주지 않습니다. 모바일 장치에서 비디오가 어떻게 보이고 재생되는지 미리 보려면 [미리 보기] 화면으로 이동하여 다음을 선택합니다. **[!UICONTROL URL 복사]**&#x200B;을 클릭하고 모바일 장치의 웹 브라우저에 해당 URL을 입력합니다. 자세한 내용은 [웹 사이트 및 모바일 사이트에 비디오 배포](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
+>Adobe Dynamic Media Classic은 데스크탑에서 MP4 비디오를 미리 볼 수 있는 편리한 방법을 제공합니다. 이 방법을 사용할 경우 모바일 장치에서 실제로 테스트하지 않고도 데스크톱에서 모바일 컨텐츠를 미리 볼 수 있습니다. 그러나 데스크탑 미리 보기에 표시되는 내용은 모바일 장치에서 재생이 어떻게 표시되는지 사실적으로 보여 주지 않습니다. 모바일 장치에서 비디오가 어떻게 보이고 재생되는지 미리 보려면 [미리 보기] 화면으로 이동합니다. 클릭 **[!UICONTROL URL 복사]**&#x200B;을 클릭하고 모바일 장치의 웹 브라우저에 해당 URL을 입력합니다. 자세한 내용은 [웹 사이트 및 모바일 사이트에 비디오 배포](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites).
 
 ## 비디오 뷰어 사전 설정 작업 {#working-with-video-viewer-presets}
 
@@ -55,7 +55,7 @@ Adobe Dynamic Media Classic에는 비디오 재생을 위해 사전 정의된 �
 
 ### 비디오 뷰어 사전 설정 추가 또는 편집 {#adding-or-editing-a-video-viewer-preset}
 
-뷰어 사전 설정을 사용하여 다양한 뷰어 유형 및 사전 정의된 설정을 확인할 수 있습니다. 사용자 지정된 뷰어 사전 설정을 추가 및 편집하거나 Adobe Dynamic Media Classic과 함께 제공되는 기존 뷰어 사전 설정을 편집할 수도 있습니다.
+뷰어 사전 설정을 사용하여 다양한 뷰어 유형 및 사전 정의된 설정을 확인할 수 있습니다. 또한 사용자 지정된 뷰어 사전 설정을 추가 및 편집하거나 Adobe Dynamic Media Classic과 함께 제공되는 기존 뷰어 사전 설정을 편집할 수도 있습니다.
 
 뷰어 사전 설정에서 뷰어 사전 설정을 활성화, 필터링, 정렬 및 미리 볼 수 있습니다.
 
@@ -67,7 +67,7 @@ Adobe Dynamic Media Classic에는 비디오 재생을 위해 사전 정의된 �
 
 1. Adobe Dynamic Media Classic의 오른쪽 상단 모서리 근처에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**.
 
-   비디오 뷰어에 대한 사전 설정만 보려면 표 바로 위에 있는 도구 모음의 열린 뷰어 드롭다운 목록에서 비디오 뷰어 를 선택합니다.
+   비디오 뷰어에 대한 사전 설정만 표시하도록 선택할 수 있습니다. 표 바로 위에 있는 도구 모음의 열린 뷰어 드롭다운 목록에서 비디오 뷰어 를 선택합니다.
 
 1. 비디오 표시용 뷰어 사전 설정을 추가하거나 편집합니다.
 

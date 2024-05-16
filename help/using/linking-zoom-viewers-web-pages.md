@@ -10,16 +10,16 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 27%
+source-wordcount: '671'
+ht-degree: 23%
 
 ---
 
 # 웹 페이지에 확대/축소 뷰어 연결{#linking-zoom-viewers-to-your-web-pages}
 
-웹 사이트 및 애플리케이션은 URL 문자열 또는 포함된 코드를 통해 주 이미지 및 관련 확대/축소 대상, 확대/축소 뷰어 사전 설정 등 Dynamic Media Image Server 콘텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 이러한 URL 문자열 또는 포함된 코드를 웹 페이지 및 애플리케이션에 배치하려면 Adobe Dynamic Media Classic에서 해당 문자열을 복사합니다.
+웹 사이트 및 애플리케이션은 URL 문자열 또는 포함된 코드를 통해 Dynamic Media Image Server 콘텐츠에 액세스합니다. 이 액세스에는 1차 이미지 및 관련 확대/축소 대상이 포함됩니다. 확대/축소 뷰어 사전 설정도 포함되어 있습니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 이러한 URL 문자열 또는 포함된 코드를 웹 페이지 및 애플리케이션에 배치하려면 Adobe Dynamic Media Classic에서 해당 문자열을 복사합니다.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 27%
 
 **확대/축소 뷰어의 포함 코드를 복사하려면 다음을 수행합니다.**
 
-1. 왼쪽의 [자산 라이브러리] 패널에서 임베드 코드를 복사하려는 확대/축소 뷰어가 들어 있는 자산 폴더를 탐색합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 포함 코드를 복사할 확대/축소 뷰어가 포함된 에셋 폴더로 이동합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.
 
    * 선택 **[!UICONTROL 격자 보기]**. [자산 찾아보기] 패널에서 단일 자산을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 을 선택합니다. **[!UICONTROL 포함 코드]** 원하는 뷰어의 오른쪽에 있습니다.

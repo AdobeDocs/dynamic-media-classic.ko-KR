@@ -10,16 +10,16 @@ role: User
 exl-id: 880ee6d0-cb0a-4d53-9056-f0b8b292136e
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 43%
+source-wordcount: '571'
+ht-degree: 41%
 
 ---
 
 # 이미지 조정{#adjusting-an-image}
 
-Adobe Dynamic Media Classic은 이미지 모양을 조정하기 위한 다양한 명령을 제공합니다. 이미지를 뒤집고, 흐리게 하고, 색상 균형을 변경하고, 이미지를 색상화할 수 있습니다. 이러한 명령을 실험할 때 작업 중인 이미지에서 해당 효과를 확인할 수 있습니다.
+Adobe Dynamic Media Classic은 이미지 모양을 조정하기 위한 다양한 명령을 제공합니다. 이미지를 대칭 이동하고, 회전하고, 흐리게 하고, [색상 균형]을 변경하고, 색상을 지정할 수 있습니다. 이러한 명령을 실험할 때 작업 중인 이미지에서 해당 효과를 확인할 수 있습니다.
 
 참조: [이미지에 대한 별칭 만들기](adjusting-image.md#creating_an_alias_for_an_image).
 
