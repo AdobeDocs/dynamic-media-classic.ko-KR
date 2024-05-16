@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 17%
@@ -35,7 +35,7 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 
 ## 찾아보기 패널에서 파일 정렬 {#sorting-files-in-the-browse-panel}
 
-오른쪽의 찾아보기 패널에 나타나는 폴더 또는 검색 결과의 내용을 정렬할 수 있습니다. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 정렬]**&#x200B;을 클릭하고 옵션을 선택합니다. 옵션은 다음과 같습니다 **[!UICONTROL 이름]**, **[!UICONTROL 크기(KB)]**, **[!UICONTROL 유형]**, **[!UICONTROL 만든 날짜]**, 및 **[!UICONTROL 마지막 수정일]**.
+오른쪽의 [찾아보기] 패널에 나타나는 폴더 또는 검색 결과의 내용을 정렬할 수 있습니다. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 정렬]**&#x200B;을 클릭하고 옵션을 선택합니다. 옵션은 다음과 같습니다 **[!UICONTROL 이름]**, **[!UICONTROL 크기(KB)]**, **[!UICONTROL 유형]**, **[!UICONTROL 만든 날짜]**, 및 **[!UICONTROL 마지막 수정일]**.
 
 다음을 선택할 수도 있습니다. **[!UICONTROL 오름차순]** 또는 **[!UICONTROL 내림차순]** 선택한 기준에 따라 에셋을 오름차순 또는 내림차순으로 정렬합니다.
 
@@ -51,7 +51,7 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 1. 검색 필드에 검색어를 입력합니다.
 1. 검색 필드 오른쪽에서 을 선택합니다. **[!UICONTROL 이동]** 또는 누르기 **[!UICONTROL 입력]**.
 
-   검색 결과가 오른쪽에 있는 찾아보기 패널에 나타납니다.
+   검색 결과가 오른쪽의 찾아보기 패널에 나타납니다.
 
 <!-- Does not appear to be working anymore >[!NOTE]
 >

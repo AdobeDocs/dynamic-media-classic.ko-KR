@@ -10,9 +10,9 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '842'
 ht-degree: 26%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 26%
 
 웹 사이트 및 애플리케이션은 URL 문자열을 통해 Dynamic Media Image Server 콘텐츠에 액세스합니다. 이미지를 게시하면 Adobe Dynamic Media Classic은 Dynamic Media 이미지 서버의 이미지 사전 설정을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 이러한 URL을 웹 브라우저에 붙여넣을 수 있습니다.
 
-이러한 URL 문자열을 웹 페이지 및 애플리케이션에 배치하려면 Adobe Dynamic Media Classic에서 복사하십시오. 이미지 사전 설정으로 생성된 URL 문자열을 가져오려면 미리 보기 화면 또는 찾아보기 패널(자세히 보기)로 이동합니다.
+이러한 URL 문자열을 웹 페이지 및 애플리케이션에 배치하려면 Adobe Dynamic Media Classic에서 복사하십시오. 이미지 사전 설정으로 생성된 URL 문자열을 가져오려면 [미리 보기] 화면 또는 [찾아보기] 패널(자세히 보기)로 이동합니다.
 
 ## 이미지 사전 설정 URL 얻기 {#obtaining-an-image-preset-url}
 
@@ -40,7 +40,7 @@ ht-degree: 26%
    * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 목록 보기]**. 자산 창에서 단일 이미지 자산을 선택한 다음 썸네일 이미지의 오른쪽으로 이동합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**.
    * 도구 모음의 오른쪽에 있는 에셋 창 위에서 을(를) 선택합니다 **[!UICONTROL 세부 사항 보기]**. 동일한 도구 모음에서 다음 위치로 이동합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 이미지 사전 설정 목록]**.
 
-1. (선택 사항) 이미지 사전 설정 목록의 URL 인코딩 복사 URL 생성 드롭다운 목록에서 이미지 에셋이 복사될 때 해당 URL에 적용할 URL 인코딩을 선택합니다.
+1. (선택 사항) 이미지 사전 설정 목록의 [URL 인코딩 복사 URL 생성] 드롭다운 목록에서 복사할 때 이미지 에셋의 URL에 적용할 URL 인코딩을 선택합니다.
 1. 이미지 사전 설정 목록 창의 미리 보기 창의 오른쪽 상단 영역에서 을 선택합니다 **[!UICONTROL URL 복사]** 선택한 사전 설정 유형에 대해.
 1. 이미지 사전 설정 목록 창의 오른쪽 아래 모서리에서 을(를) 선택합니다. **[!UICONTROL 닫기]** 자산 화면으로 돌아갑니다.
 
@@ -80,7 +80,7 @@ URL에서 이미지 사전 설정 이름은 달러 기호($)로 묶여 있습니
 
 ## 웹 페이지에 동적 이미지 추가 {#adding-dynamic-images-to-your-web-page}
 
-웹 페이지에 동적 이미지를 추가하려면 `<IMG>` HTML 웹 페이지 코드의 태그는 일반적으로 Adobe Dynamic Media Classic URL 문자열을 사용하여 Dynamic Media 이미지 서버에 요청합니다. 이 문자열은 이미지 사전 설정에 의해 정의된 크기 및 형식 지정 사양에 따라 이미지를 생성합니다.
+웹 페이지에 동적 이미지를 추가할 때 `<IMG>` HTML 페이지 코드의 태그는 일반적으로 Adobe Dynamic Media Classic URL 문자열을 사용하여 Dynamic Media 이미지 서버에 요청하도록 수정됩니다. 이 문자열은 이미지 사전 설정에 의해 정의된 크기 및 형식 지정 사양에 따라 이미지를 생성합니다.
 
 예를 들어 다음과 같은 일반적인 정적 이미지 열기 호출이 있습니다.
 

@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1702'
-ht-degree: 24%
+source-wordcount: '1703'
+ht-degree: 23%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 24%
 
 비디오를 게시하는 데 사용할 수 있는 방법에는 두 가지가 있습니다.
 
-* **업로드 시 자동으로 즉시 비디오 게시**: 비디오 업로드 프로세스의 일부로 Adobe Dynamic Media Classic은 비디오를 업로드하고 인코딩할 때 자동으로 게시할 수 있습니다. 즉시 게시하는 이 기능은 비디오를 나중에 별도로 게시할 필요가 없음을 의미합니다.
+* **업로드 시 자동으로 즉시 비디오 게시**: 비디오 업로드 프로세스의 일부로 Adobe Dynamic Media Classic은 비디오를 업로드하고 인코딩할 때 자동으로 게시할 수 있습니다. 이러한 인스턴트 퍼블리싱의 능력은 사후에 별도로 동영상을 게재할 필요가 없다는 것을 의미한다.
 
 * **업로드 후 수동으로 비디오 게시**: 비디오를 즉시 게시하지 않으려면 언제든지 비디오를 수동으로 게시할 수 있습니다.
 
@@ -107,7 +107,7 @@ ht-degree: 24%
 
 ### MP4 비디오 자산에 HTML5 비디오를 사용하기 위한 포함 코드 구현 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
-Adobe Dynamic Media Classic HTML5 비디오 플레이어를 사용하지 않고 대신 기본 HTML5를 사용하려는 경우 `<video>` mp4 비디오 자산과 함께 태그를 지정하면 다음 포함 코드 샘플을 사용할 수 있습니다.
+Adobe Dynamic Media Classic HTML5 비디오 플레이어를 사용하지 않을 수 있습니다. 대신 기본 HTML5를 사용하려는 경우 `<video>` mp4 비디오 자산과 함께 태그를 지정하면 다음 포함 코드 샘플을 사용할 수 있습니다.
 
 ```as3
 <video poster="S7 video thumbnail URL" controls> 
@@ -117,7 +117,7 @@ Adobe Dynamic Media Classic HTML5 비디오 플레이어를 사용하지 않고 
 </video>
 ```
 
-* 바꾸기 `"S7 video thumbnail URL"` 를 사용하여 비디오를 재생하기 전에 사용자에게 표시되는 비디오의 썸네일 이미지인 비디오의 썸네일 URL을 변경할 수 있습니다.
+* 바꾸기 `"S7 video thumbnail URL"` 를 사용하여 비디오를 재생하기 전에 사용자에게 표시되는 비디오 썸네일 이미지를 미리 볼 수 있습니다.
 
   다음을 참조하십시오 [비디오 썸네일 URL 얻기](deploying-video-websites-mobile-sites.md#obtaining_video_thumbnail_urls).
 
@@ -131,7 +131,7 @@ Adobe Dynamic Media Classic HTML5 비디오 플레이어를 사용하지 않고 
 
 ## 타사 비디오 플레이어를 사용하여 비디오 배포 {#deploying-video-using-a-third-party-video-player}
 
-Dynamic Media Classic 비디오 뷰어 대신 서드파티 비디오 플레이어 또는 사용자 지정 빌드 비디오 플레이어를 사용하는 경우 HLS 다중 비트 전송률 비디오 스트리밍 또는 점진적 다운로드에 작동하는 직접 비디오 URL을 가져옵니다.
+Dynamic Media Classic 비디오 뷰어 대신 타사 비디오 플레이어 또는 사용자 지정 비디오 플레이어를 사용하는 경우 HLS 다중 비트 전송률 비디오 스트리밍 또는 점진적 다운로드에 작동하는 직접 비디오 URL을 가져옵니다.
 
 **타사 비디오 플레이어를 사용하여 비디오를 배포하려면 다음을 수행하십시오.**
 

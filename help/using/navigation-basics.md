@@ -10,10 +10,10 @@ role: User
 exl-id: 3ffcfab2-c29d-4b0f-b223-c4a5ca99f21a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 16%
+source-wordcount: '657'
+ht-degree: 15%
 
 ---
 
@@ -63,11 +63,11 @@ Adobe Dynamic Media Classic 화면에는 전역 탐색 막대, 에셋 라이브�
 >
 >다음을 선택할 수 있습니다. **[!UICONTROL 자산 라이브러리]** 자산 라이브러리를 열거나 닫고 화면에서 작업할 수 있는 공간을 늘리도록 제어합니다. 다음 항목 선택 **[!UICONTROL 확장]**/**[!UICONTROL 접기]** 패널을 확장하거나 닫도록 제어합니다. 이러한 컨트롤은 패널의 왼쪽에 있습니다.
 
-## 찾아보기 패널/작성 패널 {#browse-panel-build-panel}
+## 찾아보기 패널/빌드 패널 {#browse-panel-build-panel}
 
 찾아보기/작성 패널에서 대부분의 작업이 수행됩니다. 이 패널에서 사용할 수 있는 기능은 찾아보기 모드인지 빌드 모드인지에 따라 다릅니다.
 
-* **[!UICONTROL 찾아보기 모드]**: 찾아보기 패널에서 폴더 컨텐츠를 보고 작업하려면 에셋 라이브러리에서 폴더를 선택합니다. 이 패널에서는 **[!UICONTROL 파일]**, **[!UICONTROL 미리 보기]**, **[!UICONTROL 모두 선택]**, **[!UICONTROL 선택 안 함]**, 및 **[!UICONTROL 정렬]** 메뉴 를 참조하십시오. 슬라이더를 이동하거나 를 선택하여 다른 방법으로 에셋을 볼 수도 있습니다 **[!UICONTROL 격자 보기]**, **[!UICONTROL 목록 보기]**, 또는 **[!UICONTROL 세부 사항 보기]**. 선택 **[!UICONTROL 세부 사항 보기]** 또는 에셋을 두 번 클릭하면 에셋이 세부 사항 보기로 열리고 여기서 에셋 종속 파일 작업을 수행할 수 있습니다.
+* **[!UICONTROL 찾아보기 모드]**: [찾아보기] 패널에서 폴더 컨텐츠를 보고 작업할 수 있습니다. 자산 라이브러리에서 폴더를 선택합니다. 이 패널에서는 **[!UICONTROL 파일]**, **[!UICONTROL 미리 보기]**, **[!UICONTROL 모두 선택]**, **[!UICONTROL 선택 안 함]**, 및 **[!UICONTROL 정렬]** 메뉴 를 참조하십시오. 슬라이더를 이동하거나 를 선택하여 다른 방법으로 에셋을 볼 수도 있습니다 **[!UICONTROL 격자 보기]**, **[!UICONTROL 목록 보기]**, 또는 **[!UICONTROL 세부 사항 보기]**. 선택 **[!UICONTROL 세부 사항 보기]** 또는 에셋을 두 번 클릭하면 에셋이 세부 사항 보기로 열리고 여기서 에셋 종속 파일 작업을 수행할 수 있습니다.
 
 * **[!UICONTROL 빌드 모드]**: 선택 **[!UICONTROL 빌드]**&#x200B;를 클릭한 다음 옵션을 선택하여 [빌드] 메뉴에서 eCatalog, 이미지 세트, 스핀 세트 또는 여러 사용 가능한 항목 중 하나를 빌드할 수 있습니다. 빌드 페이지가 열립니다. [작성] 모드로 전환하기 전이나 후에 작업할 자산을 선택할 수 있습니다.
 

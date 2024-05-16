@@ -10,10 +10,10 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 21%
+ht-degree: 19%
 
 ---
 
@@ -35,11 +35,11 @@ Adobe Dynamic Media Classic에 확대/축소 이미지를 업로드하는 것부
 
 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 업로드]** 컴퓨터 또는 네트워크의 이미지를 Adobe Dynamic Media Classic의 폴더로 업로드합니다. 다음을 참조하십시오 [확대/축소 이미지 업로드](uploading-zoom-images.md#uploading_zoom_images).
 
-## 2. 유도된 확대/축소를 위한 확대/축소 대상 만들기
+## 2. 안내식 확대/축소를 위한 확대/축소 대상 만들기
 
-확대/축소 타겟을 사용하면 이미지의 특정 부분을 강조 표시할 수 있습니다. 예를 들어 이미지를 고유하거나 특별하게 하는 특정 이미지 부분에 주의를 끌 수 있습니다. [확대/축소 뷰어] 창에서 확대/축소 타겟은 이미지 측면에 썸네일 이미지 형태로 표시됩니다. 이러한 확대/축소 타겟 썸네일 중 하나를 선택하면 지정한 이미지 부분이 자동으로 확대/축소됩니다.
+확대/축소 타겟을 사용하면 이미지의 특정 부분을 강조 표시할 수 있습니다. 예를 들어 이미지를 고유하거나 특별하게 하는 특정 이미지 부분에 주의를 끌 수 있습니다. [확대/축소 뷰어] 창에서 확대/축소 대상은 이미지 옆에 축소판 이미지 형태로 나타납니다. 이러한 확대/축소 타겟 썸네일 중 하나를 선택하면 지정한 이미지 부분이 자동으로 확대/축소됩니다.
 
-확대/축소 대상을 만들려면 다음을 선택합니다 **[!UICONTROL 편집]** [대상 확대/축소]를 선택하거나 [상세 보기]의 [찾아보기] 패널에서 이미지를 열고 다음을 선택합니다 **[!UICONTROL 확대/축소 대상]**. 그런 다음 [확대/축소 대상 편집기] 페이지에서 [확대/축소] 도구를 사용하여 이미지의 일부를 대상으로 분리할 수 있습니다. 다음을 참조하십시오 [유도된 확대/축소에 대한 확대/축소 대상 만들기](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
+확대/축소 대상을 만들려면 다음을 선택합니다 **[!UICONTROL 편집]** [대상 확대/축소]를 선택하거나 [세부 정보 보기]의 [찾아보기] 패널에서 이미지를 열고 다음을 선택합니다 **[!UICONTROL 확대/축소 대상]**. 그런 다음 [확대/축소 대상 편집기] 페이지에서 [확대/축소] 도구를 사용하여 이미지의 일부를 대상으로 분리할 수 있습니다. 다음을 참조하십시오 [유도된 확대/축소에 대한 확대/축소 대상 만들기](creating-zoom-targets-guided-zoom.md#creating_zoom_targets_for_guided_zoom).
 
 ## 3. 확대/축소 뷰어 사전 설정 설정
 
@@ -55,7 +55,7 @@ Adobe Dynamic Media Classic 오퍼 **[!UICONTROL 확대/축소 뷰어 사전 설
 
 다양한 확대/축소 뷰어 사전 설정 및 확대/축소 경험 표시 방법을 탐색하려면 [찾아보기] 패널에서 이미지를 선택하고 을 선택합니다 **[!UICONTROL 미리 보기]**. 다음으로 이동 **[!UICONTROL 사전 설정]** > **[!UICONTROL 확대/축소]**&#x200B;을 클릭하고 [확대/축소] 메뉴가 있는 사전 설정을 선택합니다.
 
-확대/축소 단추가 나타납니다. 웹 사이트에서 확대/축소 이미지가 어떻게 보이는지 확인할 수 있습니다. 선택한 [확대/축소 뷰어 사전 설정]의 설정을 테스트할 수 있도록 [확대/축소] 단추(및 확대/축소 대상)를 선택합니다. 다음을 참조하십시오 [다른 확대/축소 뷰어로 이미지 미리 보기](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+확대/축소 단추가 나타납니다. 웹 사이트에서 확대/축소 이미지가 어떻게 보이는지 확인할 수 있습니다. 선택한 [확대/축소 뷰어 사전 설정]의 설정을 테스트할 수 있도록 [확대/축소] 단추(및 [확대/축소 대상])를 선택합니다. 다음을 참조하십시오 [다른 확대/축소 뷰어로 이미지 미리 보기](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5. 확대/축소 이미지 게시
 

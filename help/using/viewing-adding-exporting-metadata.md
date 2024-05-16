@@ -10,10 +10,10 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '2225'
-ht-degree: 35%
+ht-degree: 34%
 
 ---
 
@@ -86,7 +86,7 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 표준화된 속성에 대한 자세한 내용은 [Adobe XMP 개발자 센터](https://www.adobe.com/devnet/xmp.html).
 
-1. 찾아보기 패널에서 탭으로 구분된 파일이나 XML 파일에서 메타데이터를 추가하려는 이미지를 선택합니다.
+1. 찾아보기 패널에서 탭으로 구분된 또는 XML 파일에서 메타데이터를 추가할 이미지를 선택합니다.
 1. 다음으로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 메타데이터 가져오기]**.
 1. 다음에서 **[!UICONTROL 메타데이터 업로드]** 대화 상자에서 **[!UICONTROL 찾아보기]**.
 1. **[!UICONTROL 업로드할 파일 선택]** 대화 상자에서 메타데이터가 있는 탭으로 구분된 파일이나 XML 파일을 선택합니다.

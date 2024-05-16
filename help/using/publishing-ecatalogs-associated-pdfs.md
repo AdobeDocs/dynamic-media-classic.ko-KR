@@ -10,9 +10,9 @@ role: User
 exl-id: 00b70162-2394-433d-a46c-1d90667030af
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '195'
 ht-degree: 13%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->게시하기 전에 eCatalog와 PDF이 동일한 폴더에 있고 찾아보기 패널 또는 에셋 세부 사항 페이지에 게시용으로 표시되어 있는지 확인하십시오.
+>eCatalog와 PDF이 동일한 폴더에 있는지 확인합니다. 또한 게시하기 전에 찾아보기 패널 또는 에셋 세부 정보 페이지에서 게시용으로 표시되었는지 확인하십시오.
 
 **전자 카탈로그 및 관련 PDF을 게시하려면**
 

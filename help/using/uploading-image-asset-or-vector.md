@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 55%
+source-wordcount: '1014'
+ht-degree: 53%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 55%
 
 ## 공유 암호 키 요청 {#requesting-a-shared-secret-key}
 
-요청 a *공유 암호 키* 작성자: [Admin Console을 사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 지원 사례에서 공유 암호 키를 요청합니다.
+요청 a *공유 암호 키* 작성자: [Admin Console을 사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 기술 지원 사례에서 공유 암호 키를 요청합니다.
 
 이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Adobe Dynamic Media Classic에서 키를 받으면 나중에 사용할 수 있도록 로컬에 저장합니다.
 
@@ -81,7 +81,7 @@ URL 쿼리 문자열에 다음 필드를 사용하여 업로드 토큰을 검색
 | --- | --- | --- |
 | op | 필수 | get_uploadtoken |
 | 공유 암호 | 필수 | 업로드를 수행하는 회사의 공유 보안 키입니다. |
-| 만료 | 선택적 | 업로드 토큰이 유효한 시간(초)입니다. 지정하지 않으면 기본값은 300초입니다. |
+| 만료 | 선택적 | 업로드 토큰이 유효한 시간(초)입니다. 지정하지 않을 경우 기본값은 300초입니다. |
 
 **샘플 래스터 이미지 URL:**
 
@@ -181,7 +181,7 @@ https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit
 | URL 매개 변수 | 필수 또는 선택 사항 | 값 |
 | --- | --- | --- |
 | `op` | 필수 | 업로드 |
-| `upload_token` | 필수 | 회사와 관련된 공유 보안 키의 업로드 토큰입니다. |
+| `upload_token` | 필수 | 회사와 연결된 공유 암호 키에 대한 토큰을 업로드합니다. |
 | `company_name` | 필수 | 업로드를 수행하는 회사 이름입니다. |
 | `file_limit` | 선택적 | 자산의 파일 크기 제한(바이트)입니다. |
 | `file_exts` | 선택적 | 이미지 자산 파일에 허용되는 확장자 목록입니다. |

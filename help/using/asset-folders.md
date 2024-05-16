@@ -10,10 +10,10 @@ role: User
 exl-id: 8599d4a3-57eb-4432-812f-7e55a4315c1b
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '449'
-ht-degree: 34%
+ht-degree: 27%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Dynamic Media Classic의 파일 자산은 폴더에 보관됩니다. 이�
 
 ## 폴더 표시, 이동, 숨기기 및 열기 {#displaying-moving-hiding-and-opening-folders}
 
-자산 라이브러리에서 파일은 폴더 트리에 표시됩니다. 자산 라이브러리에서 폴더를 선택하면 찾아보기 패널에 폴더 내용이 표시됩니다. 다음 기술을 사용하여 폴더 트리에서 폴더를 찾습니다.
+자산 라이브러리에서 파일은 폴더 트리에 표시됩니다. 에셋 라이브러리에서 폴더를 선택하면 해당 콘텐츠가 [찾아보기] 패널에 표시됩니다. 다음 기술을 사용하여 폴더 트리에서 폴더를 찾습니다.
 
 * **하위 폴더 표시**: 다음을 선택합니다. **[!UICONTROL 폴더 확장]** 아이콘으로 폴더에 있는 하위 폴더를 표시합니다. 이 아이콘은 폴더 이름 왼쪽에 있습니다.
 
@@ -37,7 +37,7 @@ Adobe Dynamic Media Classic의 파일 자산은 폴더에 보관됩니다. 이�
 
 >[!TIP]
 >
->다음을 선택하여 자산 라이브러리를 숨기거나 표시할 수 있습니다. **[!UICONTROL 확장]** 또는 **[!UICONTROL 접기]** 왼쪽의 컨트롤입니다. 찾아보기 패널에서 작업 공간을 늘려야 하는 경우 자산 라이브러리 패널을 축소합니다.
+>다음을 선택하여 자산 라이브러리를 숨기거나 표시할 수 있습니다. **[!UICONTROL 확장]** 또는 **[!UICONTROL 접기]** 왼쪽의 컨트롤입니다. [찾아보기] 패널에서 작업할 공간이 더 필요할 때 [에셋 라이브러리] 패널을 축소합니다.
 
 ## 폴더 만들기
 

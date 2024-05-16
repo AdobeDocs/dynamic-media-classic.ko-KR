@@ -10,10 +10,10 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 13%
+ht-degree: 10%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 13%
 
 Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 이미지 세트 뷰어에서 사용자는 썸네일 이미지를 선택하여 항목의 다양한 보기를 볼 수 있습니다. 이미지 세트 를 사용하면 항목의 대체 고해상도 보기를 표시할 수 있습니다.
 
-이미지 집합 뷰어에서는 이미지를 자세히 검사하기 위해 확대/축소 도구를 제공합니다. 필요한 경우 유도된 확대/축소 타겟과 이미지 맵을 이미지 집합에 포함할 수 있습니다. 이미지 집합은 보다 조화롭고 친근한 보기 환경을 제공합니다.
+이미지 집합 뷰어에서는 이미지를 자세히 검사하기 위해 확대/축소 도구를 제공합니다. 원하는 경우 안내식 확대/축소 대상 및 이미지 맵 을 이미지 세트의 일부로 만들 수 있습니다. 이미지 집합은 보다 조화롭고 친근한 보기 환경을 제공합니다.
 
 다음을 참조하십시오 [이미지 및 스핀 세트: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 교육 비디오입니다.
 
@@ -66,7 +66,7 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 ## 4. 이미지 집합 미리 보기
 
-[찾아보기] 패널에서 이미지 세트를 선택한 다음 를 선택합니다 **[!UICONTROL 미리 보기]**. 미리 보기 페이지에서 썸네일 아이콘을 선택하여 선택한 뷰어에서 이미지 세트를 검사합니다. [사전 설정] 메뉴에서 다른 뷰어를 선택할 수 있습니다.
+[찾아보기] 패널에서 [이미지 세트]를 선택한 다음 를 선택합니다 **[!UICONTROL 미리 보기]**. 미리 보기 페이지에서 썸네일 아이콘을 선택하여 선택한 뷰어에서 이미지 세트를 검사합니다. [사전 설정] 메뉴에서 다른 뷰어를 선택할 수 있습니다.
 
 다음을 참조하십시오 [에셋 미리보기](previewing-asset.md#previewing-an-asset).
 

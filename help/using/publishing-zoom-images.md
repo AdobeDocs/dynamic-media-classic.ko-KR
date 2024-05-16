@@ -10,7 +10,7 @@ role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '153'
 ht-degree: 0%
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## 게시할 이미지 표시 {#marking-images-for-publish}
 
-Dynamic Media 이미지 서버에 복사하려면 이미지를 게시용으로 표시해야 합니다. 찾아보기 패널에서 게시할 이미지를 선택하여 표시할 수 있습니다. **[!UICONTROL 게시로 표시]** 아이콘. 업로드할 때 게시할 이미지를 표시할 수도 있습니다.
+Dynamic Media 이미지 서버에 복사하려면 이미지를 게시용으로 표시해야 합니다. 검색 패널에서 다음 옵션을 선택하여 게시할 이미지를 표시할 수 있습니다. **[!UICONTROL 게시로 표시]** 아이콘. 업로드할 때 게시할 이미지를 표시할 수도 있습니다.
 
 ## 이미지 게시 {#publishing-the-images}
 

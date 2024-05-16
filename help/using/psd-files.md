@@ -10,9 +10,9 @@ role: User
 exl-id: e3b8c4b9-e9c4-4d7f-84de-2efb456755a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1023'
 ht-degree: 21%
 
 ---
@@ -77,7 +77,7 @@ PSD 파일을 업로드할 때 사용할 수 있는 선택 사항은 다음과 �
 >
 >Adobe Dynamic Media Classic은 중첩 레이어 그룹에서 최대 5개 수준을 지원합니다.
 
-1. 찾아보기 패널에서 전체 PSD 파일을 두 번 클릭합니다. 파일이 세부 사항 보기로 열립니다.
+1. [찾아보기] 패널에서 전체 PSD 파일을 두 번 클릭합니다. 파일이 세부 사항 보기로 열립니다.
 
    >[!NOTE]
    >

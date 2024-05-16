@@ -10,7 +10,7 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '808'
 ht-degree: 17%
@@ -69,4 +69,4 @@ PSD 파일에서 템플릿을 만들려면 다음을 선택합니다 **[!UICONTR
 
 Dynamic Media Classic은 템플릿에 대한 URL을 생성하고, 템플릿을 Dynamic Media 이미지 서버에 게시할 때 URL을 활성화합니다. 템플릿 미리 보기 페이지에서 이러한 URL 문자열을 복사할 수 있습니다.
 
-찾아보기 패널에서 템플릿을 선택한 다음 을 선택합니다 **[!UICONTROL 미리 보기]** 템플릿 미리 보기 페이지를 엽니다. 템플릿을 게재할 이미지 사전 설정을 선택한 다음 **[!UICONTROL URL 복사]** 단추를 클릭합니다. 미리보기 페이지에서 URL을 복사한 후에는 웹 사이트나 애플리케이션에서 사용할 수 있습니다. 다음을 참조하십시오 [웹 페이지에 템플릿 연결](linking-template-web-page.md#linking_a_template_to_a_web_page).
+[찾아보기] 패널에서 템플릿을 선택한 다음 을 선택합니다 **[!UICONTROL 미리 보기]** 템플릿 미리 보기 페이지를 엽니다. 템플릿을 게재할 이미지 사전 설정을 선택한 다음 **[!UICONTROL URL 복사]** 단추를 클릭합니다. 미리보기 페이지에서 URL을 복사한 후에는 웹 사이트나 애플리케이션에서 사용할 수 있습니다. 다음을 참조하십시오 [웹 페이지에 템플릿 연결](linking-template-web-page.md#linking_a_template_to_a_web_page).

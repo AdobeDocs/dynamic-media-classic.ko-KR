@@ -9,16 +9,16 @@ role: User
 exl-id: d15aaa18-123d-442e-928f-8e71fa266a64
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 27%
+ht-degree: 17%
 
 ---
 
 # Adobe Dynamic Media Classic에서 에셋 관리 기본 정보 {#about-managing-assets}
 
-Adobe Dynamic Media Classic은 에셋 관리를 위한 에셋 라이브러리를 제공합니다. 자산 라이브러리에는 자산 파일을 저장하는 폴더가 있습니다. 자산 라이브러리에서 폴더를 선택하면 찾아보기 패널에 폴더 내용이 표시됩니다. 찾아보기 패널의 항목을 그리드, 목록 또는 세부 사항 보기로 볼 수 있습니다. 단일 에셋에 초점을 맞추려면 검색 패널에서 해당 에셋을 두 번 클릭하여 세부 사항 보기에 표시합니다.
+Adobe Dynamic Media Classic은 에셋 관리를 위한 에셋 라이브러리를 제공합니다. 자산 라이브러리에는 자산 파일을 저장하는 폴더가 있습니다. 에셋 라이브러리에서 폴더를 선택하면 폴더 컨텐츠가 검색 패널에 표시됩니다. 찾아보기 패널에서 격자, 목록 또는 세부 사항 보기의 항목을 볼 수 있습니다. 단일 자산에 초점을 맞추려면 [찾아보기] 패널에서 해당 자산을 두 번 클릭하여 [세부 사항 보기]에 표시합니다.
 
 찾아보기 패널에는 보기, 선택 및 찾기 도구가 있습니다. 패널에서는 에셋 미리 보기, 이동, 이름 변경 및 삭제도 제공됩니다. 삭제한 자산은 휴지통 폴더에 배치되며, 이 폴더에서 자산을 복구할 수 있습니다.
 

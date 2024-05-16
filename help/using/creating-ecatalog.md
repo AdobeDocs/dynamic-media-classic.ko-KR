@@ -10,16 +10,16 @@ role: User
 exl-id: 51d411b2-b4bc-4cf6-afca-dd0ed0d219a1
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '982'
-ht-degree: 38%
+source-wordcount: '984'
+ht-degree: 30%
 
 ---
 
 # eCatalog 만들기 {#creating-an-ecatalog}
 
-eCatalog를 만드는 과정에는 페이지 정렬, 페이지 레이아웃 선택, 이미지 맵을 그리고 롤오버 및 하이퍼텍스트 링크 데이터를 입력하여 페이지 연결 등의 작업이 포함됩니다. 선택적으로 eCatalog 뷰어에 페이지 번호 대신 페이지 이름이 표시되도록 TOC를 사용자 지정할 수 있습니다.
+전자 카탈로그를 만들려면 페이지 순서 지정, 페이지 레이아웃 선택 및 이미지 맵을 그려 페이지 연결이 필요합니다. 또한 롤오버 및 하이퍼텍스트 링크 데이터를 입력해야 합니다. 선택적으로 eCatalog 뷰어에 페이지 번호 대신 페이지 이름이 표시되도록 TOC를 사용자 지정할 수 있습니다.
 
 ## eCatalog 만들기 {#create}
 
@@ -38,9 +38,9 @@ eCatalog를 만들 때 **[!UICONTROL 저장 후 게시]** 옵션은 다음과 �
 
 1. 먼저 다음 기술 중 하나를 사용하여 eCatalog를 만듭니다.
 
-   * **먼저 파일 선택**: 찾아보기 패널에서 파일을 선택하고 **[!UICONTROL 빌드]** > **[!UICONTROL 전자 카탈로그]**.
+   * **먼저 파일 선택**: 검색 패널에서 파일을 선택한 다음 로 이동합니다. **[!UICONTROL 빌드]** > **[!UICONTROL 전자 카탈로그]**.
 
-   * **eCatalog 화면에서 시작**: 다음으로 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 전자 카탈로그]**. 자산 라이브러리에서 폴더를 선택하고 폴더의 파일을 전자 카탈로그 페이지의 [주문 페이지] 탭으로 드래그합니다.
+   * **eCatalog 화면에서 시작**: 다음으로 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 전자 카탈로그]**. 자산 라이브러리에서 폴더를 선택합니다. 폴더의 파일을 eCatalog 페이지의 주문 페이지 탭으로 드래그합니다.
 
      >[!NOTE]
      >
@@ -58,7 +58,7 @@ eCatalog를 만들 때 **[!UICONTROL 저장 후 게시]** 옵션은 다음과 �
 
 1. 완료되면 페이지의 오른쪽 아래 모서리 근처에서 다음을 확인합니다. **[!UICONTROL 저장 후 게시]** 이(가) 선택되었습니다(기본값).
 1. 선택 **[!UICONTROL 저장]**.
-1. [저장] 대화 상자에서 전자 카탈로그를 저장할 폴더를 선택합니다. [파일 이름] 필드에 회전 집합 이름을 입력합니다.
+1. [저장] 대화 상자에서 전자 카탈로그를 저장할 폴더를 선택합니다. 파일 이름 필드에 회전 집합 이름을 입력합니다.
 1. 선택 **[!UICONTROL 저장]**.
 
    전자 카탈로그를 저장한 후 을(를) 선택하여 미리 볼 수 있습니다 **[!UICONTROL 미리 보기]**.
@@ -98,7 +98,7 @@ eCatalog를 만들 때 **[!UICONTROL 저장 후 게시]** 옵션은 다음과 �
 
 Adobe Dynamic Media Classic은 eCatalog 화면의 주문 페이지 탭에서 eCatalog에 기본 페이지 번호를 제공합니다. 사용자 지정 페이지 이름의 경우 TOC(목차)를 구성하는 페이지 레이블을 변경할 수 있습니다. 앞 표지와 뒤 표지의 이름을 바꾸는 것이 좋습니다. 예를 들어 앞 표지는 &quot;0-1페이지&quot; 대신 &quot;표지&quot;를 읽을 수 있습니다.
 
-CSV(Mac 전용) 또는 XML 파일에서 페이지 이름을 가져오거나 수동으로 eCatalog에 대한 사용자 지정 목차(TOC)를 만들 수 있습니다.
+전자 카탈로그에 대한 사용자 지정된 목차(TOC)를 수동으로 만들 수 있습니다. 또는 CSV(Mac 전용) 또는 XML 파일에서 페이지 이름을 가져올 수 있습니다.
 
 >[!NOTE]
 >
@@ -106,7 +106,7 @@ CSV(Mac 전용) 또는 XML 파일에서 페이지 이름을 가져오거나 수�
 
 ### 수동으로 페이지 이름 입력 {#manually-entering-page-names}
 
-수동으로 페이지 이름을 하나씩 입력하려면 eCatalog 화면의 [주문 페이지] 탭으로 이동합니다. 그런 다음 페이지 번호 필드에 이름을 지정할 각 페이지의 이름을 입력합니다.
+eCatalog 화면의 Order Pages 탭으로 이동하여 한 번에 하나씩 페이지 이름을 수동으로 입력합니다. 그런 다음 페이지 번호 필드에 이름을 지정할 각 페이지의 이름을 입력합니다.
 
 ### 페이지 이름 가져오기 {#importing-page-names}
 

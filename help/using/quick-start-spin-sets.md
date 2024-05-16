@@ -10,7 +10,7 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '803'
 ht-degree: 21%
@@ -77,7 +77,7 @@ ht-degree: 21%
 
 회전 집합을 게시하면 회전 집합이 웹 사이트 또는 애플리케이션에 동적으로 전달될 수 있도록 Adobe Dynamic Media Classic 서버에 배치됩니다. 또한 Dynamic Media 이미지 서버에서 웹 사이트 또는 애플리케이션으로 스핀 세트를 호출하는 URL 문자열을 활성화합니다.
 
-회전 세트를 게시하려면 다음을 선택하여 게시로 표시합니다. **[!UICONTROL 게시로 표시]** [찾아보기] 패널의 이름 옆에 있는 아이콘. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]** 게시를 시작합니다. 게시 페이지에서 를 선택합니다. **[!UICONTROL 게시 제출]**.
+회전 세트를 게시하려면 다음을 선택하여 게시로 표시합니다. **[!UICONTROL 게시로 표시]** [찾아보기] 패널의 이름 옆에 있는 아이콘입니다. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]** 게시를 시작합니다. 게시 페이지에서 를 선택합니다. **[!UICONTROL 게시 제출]**.
 
 다음을 참조하십시오 [회전 집합 게시](publishing-spin-set.md#publishing-a-spin-set).
 

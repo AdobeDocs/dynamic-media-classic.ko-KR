@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 25%
+ht-degree: 23%
 
 ---
 
@@ -136,7 +136,7 @@ Adobe Dynamic Media Classic은 사전 정의된 다양한 비디오 인코딩 �
 
 * 자체 팝업 또는 모달 창에 비디오를 표시합니다. 이 경우 **[!UICONTROL URL 복사]** 기능.
 
-  비디오의 URL을 얻으려면 격자 보기나 목록 보기의 [찾아보기 패널]에서 선택합니다. 선택 **[!UICONTROL 미리 보기]**&#x200B;을 선택한 다음 을 선택합니다 **[!UICONTROL URL 복사]** 의 오른쪽에 `Universal_HTML5_Viewer`.
+  비디오에 대한 URL을 가져오려면 [격자 보기] 또는 [목록 보기]에서 [찾아보기] 패널에서 선택합니다. 선택 **[!UICONTROL 미리 보기]**&#x200B;을 선택한 다음 을 선택합니다 **[!UICONTROL URL 복사]** 의 오른쪽에 `Universal_HTML5_Viewer`.
 
   다음을 선택할 때 **[!UICONTROL URL 복사]**&#x200B;를 입력하면 URL이 클립보드에 복사됩니다. 이 코드를 웹 사이트, 모바일 사이트 또는 애플리케이션의 HTML에 배치합니다.
 

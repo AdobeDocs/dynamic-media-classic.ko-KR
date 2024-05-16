@@ -10,10 +10,10 @@ role: User
 exl-id: 69aabf4a-21bc-4bd8-8aad-33c2cfb9cf57
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '482'
-ht-degree: 22%
+ht-degree: 21%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 22%
 
 프로젝트 폴더를 표시하고 삭제하고 이름을 변경하려면 다음 중 하나를 수행합니다.
 
-* **컨텐츠 찾아보기**: 자산 라이브러리에서 폴더 이름을 선택합니다. 해당 자산이 찾아보기 패널에 표시됩니다.
+* **컨텐츠 찾아보기**: 자산 라이브러리에서 폴더 이름을 선택합니다. 에셋이 [찾아보기] 패널에 표시됩니다.
 
 * **프로젝트 폴더 삭제**: 프로젝트 폴더를 선택한 다음 를 선택합니다 **[!UICONTROL 프로젝트 제거]**. 프로젝트 폴더에서 에셋을 삭제해도 Adobe Dynamic Media Classic에서는 삭제되지 않습니다. 에셋은 에셋이 저장된 원래 폴더에 유지됩니다.
 

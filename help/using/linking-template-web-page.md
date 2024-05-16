@@ -10,7 +10,7 @@ role: User
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
 topic: Administration, Content Management, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '339'
 ht-degree: 16%
@@ -19,7 +19,7 @@ ht-degree: 16%
 
 # 웹 페이지에 템플릿 연결{#linking-a-template-to-a-web-page}
 
-웹 사이트 및 애플리케이션은 URL 문자열을 통해 Dynamic Media Image Server 콘텐츠에 액세스합니다. 템플릿을 게시하면 Adobe Dynamic Media Classic이 Dynamic Media 이미지 서버에서 템플릿을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 웹 브라우저에 이 URL을 붙여넣을 수 있습니다.
+웹 사이트 및 애플리케이션은 URL 문자열을 통해 Dynamic Media Image Server 콘텐츠에 액세스합니다. 템플릿을 게시하면 Adobe Dynamic Media Classic이 Dynamic Media 이미지 서버에서 템플릿을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 이 URL을 웹 브라우저에 붙여넣을 수 있습니다.
 
 웹 페이지 및 애플리케이션에 URL 문자열을 배치하려면 Adobe Dynamic Media Classic에서 해당 문자열을 복사합니다. 이미지 사전 설정으로 생성된 템플릿 URL 문자열을 가져오려면 미리 보기 화면 또는 찾아보기 패널(자세히 보기)로 이동합니다. 이미지 사전 설정을 선택한 다음 [URL 복사] 단추를 선택합니다.
 

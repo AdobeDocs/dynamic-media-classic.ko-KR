@@ -10,16 +10,16 @@ role: User
 exl-id: 4d38a224-5e06-4932-a801-5dcc32fe4b31
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '253'
-ht-degree: 17%
+ht-degree: 11%
 
 ---
 
 # 찾아보기 패널에서 에셋 보기{#viewing-assets-in-the-browse-panel}
 
-[보기] 단추를 선택하여 찾아보기 패널에서 자산 보기를 변경할 수 있습니다.
+[보기] 단추를 선택하여 [찾아보기] 패널에서 에셋 보기를 변경할 수 있습니다.
 
 * **격자 보기**: Adobe Dynamic Media Classic 화면의 오른쪽 상단 모서리에서 **[!UICONTROL 격자 보기]** 아이콘을 클릭하여 그리드에서 썸네일 형식으로 자산을 확인합니다. 격자 보기에서 썸네일 슬라이더를 드래그하여 썸네일 이미지의 크기를 변경할 수 있습니다.
 

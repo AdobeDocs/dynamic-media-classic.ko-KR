@@ -10,7 +10,7 @@ role: User
 topic: Content Management
 level: Beginner
 exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '873'
 ht-degree: 6%
@@ -66,6 +66,6 @@ Adobe Dynamic Media Classic에 1차 이미지를 업로드하는 것부터 시�
 
 ## 5. 웹 애플리케이션에 URL 연결
 
-Adobe Dynamic Media Classic은 이미지에 대한 URL 콜아웃 문자열을 생성합니다. Dynamic Media 이미지 서버에 이미지를 게시하면 URL이 활성화됩니다. 찾아보기 패널(세부 사항 보기) 또는 미리보기 화면에서 이러한 URL 문자열을 복사할 수 있습니다. URL 문자열을 복사한 후에는 웹 사이트 및 응용 프로그램에서 사용할 수 있습니다. 이미지 크기 조정 URL은 웹 페이지 코드의 정적 이미지 이름에 대한 참조를 대체합니다. 이 URL은 표시할 새 이미지마다 데이터베이스가 대체하는 기본 이미지 이름을 참조합니다.
+Adobe Dynamic Media Classic은 이미지에 대한 URL 콜아웃 문자열을 생성합니다. Dynamic Media 이미지 서버에 이미지를 게시하면 URL이 활성화됩니다. [찾아보기] 패널(세부 사항 보기) 또는 [미리 보기] 화면에서 이러한 URL 문자열을 복사할 수 있습니다. URL 문자열을 복사한 후에는 웹 사이트 및 응용 프로그램에서 사용할 수 있습니다. 이미지 크기 조정 URL은 웹 페이지 코드의 정적 이미지 이름에 대한 참조를 대체합니다. 이 URL은 표시할 새 이미지마다 데이터베이스가 대체하는 기본 이미지 이름을 참조합니다.
 
 이미지 사전 설정을 사용하여 생성된 URL 문자열에는 이미지 사전 설정 이름이 포함됩니다. 이 이름은 달러 기호(`$`). 예를 들어, `$thumbnail$` 썸네일 크기로 기본 이미지를 표시하도록 디자인된 이미지 사전 설정일 수 있습니다. 다음을 참조하십시오 [웹 애플리케이션에 URL 연결](linking-urls-web-application.md#linking_urls_to_your_web_application).

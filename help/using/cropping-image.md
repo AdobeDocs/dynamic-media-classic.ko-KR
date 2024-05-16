@@ -10,7 +10,7 @@ role: User
 exl-id: aec4c256-f5ed-4307-afec-dec848be95f9
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 31%
@@ -31,7 +31,7 @@ Adobe Dynamic Media Classic에서 이미지를 자를 수 있습니다. 이미�
 
 이미지 가장자리에서 투명 또는 단색 픽셀을 자를 수 있습니다.
 
-1. 이미지를 자르려면 해당 롤오버를 선택합니다 **[!UICONTROL 편집]** 버튼을 누른 다음 선택 **[!UICONTROL 자르기]**&#x200B;또는 세부 사항 보기의 찾아보기 패널에 표시하고 다음을 선택합니다. **[!UICONTROL 자르기]** 단추를 클릭합니다.
+1. 이미지를 자르려면 해당 롤오버를 선택합니다 **[!UICONTROL 편집]** 버튼을 누른 다음 선택 **[!UICONTROL 자르기]**&#x200B;또는 세부 사항 보기의 찾아보기 패널에 표시하고 **[!UICONTROL 자르기]** 단추를 클릭합니다.
 1. 자르기 편집기 페이지에서 다음 중 하나를 수행합니다.
 
    * 색상 픽셀을 트리밍하려면 **[!UICONTROL 트림]** > **[!UICONTROL 색상]**. 다음에서 **[!UICONTROL 색상별 자동 자르기]** 대화 상자에서 **[!UICONTROL 모서리]** 메뉴를 선택하고 자를 배경색의 모서리를 선택합니다. 그런 다음 을 입력합니다. **[!UICONTROL 허용 오차]** 0에서 1까지 설정합니다. 0을 설정하면 이미지 모서리에서 선택한 색상과 정확하게 일치하는 경우에만 픽셀이 잘립니다. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다. 선택 **[!UICONTROL 자르기]**.

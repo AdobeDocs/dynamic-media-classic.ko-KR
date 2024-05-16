@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '613'
-ht-degree: 22%
+ht-degree: 20%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 22%
    * 혼합 미디어 집합 뷰어 사전 설정을 편집하려면 해당 미디어 집합 뷰어 사전 설정을 선택한 다음 선택합니다 **[!UICONTROL 편집]**.
 
 1. [구성 뷰어] 페이지의 [혼합 미디어 집합 뷰어 사전 설정]에 대한 [사전 설정 이름] 상자에 이름을 입력합니다.
-1. 지정 **[!UICONTROL 탭]** 또는 **[!UICONTROL 탭 없음]**. 탭은 비디오, 견본, 회전 집합 등의 유형을 기준으로 항목을 구분합니다. 탭을 지정하지 않으면 모든 항목이 미리보기 창 아래에 행으로 나타납니다.
+1. 지정 **[!UICONTROL 탭]** 또는 **[!UICONTROL 탭 없음]**. 탭은 비디오, 색상 견본 및 스핀 세트와 같은 유형별로 항목을 구분합니다. 탭을 지정하지 않으면 모든 항목이 미리보기 창 아래에 행으로 나타납니다.
 1. 다음에서 **[!UICONTROL 이름]** 상자에 추가할 뷰어의 이름을 입력합니다.
 
    예를 들어, 혼합 미디어 세트에 견본 세트를 추가하는 경우 `Swatch Set A`.

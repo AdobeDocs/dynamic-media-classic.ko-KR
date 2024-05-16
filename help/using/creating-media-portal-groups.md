@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 52%
+source-wordcount: '841'
+ht-degree: 49%
 
 ---
 
@@ -41,7 +41,7 @@ ht-degree: 52%
 
    [그룹의 자산 액세스 권한 설정](creating-media-portal-groups.md#establishing_asset_access_permissions_for_a_group)을 참조하십시오.
 
-1. 그룹에서 사용할 수 있는 이미지 사전 설정을 선택하려면 **[!UICONTROL 이미지 사전 설정 액세스 권한]** 을 탭하고 그룹이 사용할 수 있는 이미지 사전 설정을 선택합니다.
+1. 그룹에서 사용할 수 있는 이미지 사전 설정을 선택할 수 있습니다. 을(를) 클릭합니다. **[!UICONTROL 이미지 사전 설정 액세스 권한]** 을 탭하고 그룹이 사용할 수 있는 이미지 사전 설정을 선택합니다.
 
    [그룹의 이미지 사전 설정 액세스 권한 선택](creating-media-portal-groups.md#choosing_image_preset_access_permissions_for_a_group)을 참조하십시오.
 
@@ -56,7 +56,7 @@ ht-degree: 52%
    * 그룹의 권한을 편집하려면 그룹을 선택한 다음 **[!UICONTROL 편집]**.
 
 1. 그룹 추가 또는 그룹 편집 대화 상자에서 **[!UICONTROL 자산 액세스 권한]** 탭. 탭의 오른쪽에는 폴더와 자산에 대한 읽기, 쓰기 및 삭제 권한을 설정하는 상자가 제공됩니다. 왼쪽 창에서 폴더와 하위 폴더를 확장하고 축소할 수 있습니다.
-1. 폴더나 개별 자산에 대한 권한을 지정하려면 왼쪽 창에서 폴더를 선택합니다. 폴더 내용이 오른쪽 창에 표시됩니다. 오른쪽 창에서 해당 파일이나 폴더의 상자를 선택하여 그룹에 권한을 지정합니다.
+1. 폴더나 개별 자산에 대한 권한을 지정하려면 왼쪽 창에서 폴더를 선택합니다. 폴더 내용이 오른쪽 창에 표시됩니다. 그런 다음 해당 파일에 대한 상자를 선택하여 그룹에 대한 권한을 할당합니다. 또는 오른쪽 창에서 폴더를 선택합니다.
 
    다음 표에서는 각 작업을 읽기, 쓰기 및 삭제 권한에 매핑합니다.
 

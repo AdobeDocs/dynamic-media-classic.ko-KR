@@ -10,7 +10,7 @@ role: User
 exl-id: 618ae6a4-6f60-4a80-b197-a9d35b3c47af
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '621'
 ht-degree: 20%
@@ -56,7 +56,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 세부 사항 보기는 에셋 또는 파일에 대한 정보를 제공합니다. 이 정보는 항목이 저장된 폴더, 해당 파일 이름, 항목이 Adobe Dynamic Media Classic에 업로드된 날짜 및 게시 기록과 같은 항목에 대해 표시됩니다. 세부 사항 보기에서 메타데이터를 보고 편집하고 에셋의 키워드를 추가할 수도 있습니다.
 
-세부 사항 보기의 자산 URL은 가져올 수 있지만 자산을 게시하기 전까지는 해당 URL이 활성화되지 않습니다. 이미지의 경우 세부 사항 보기는 확대/축소 대상 및 이미지 집합과 같은 기본 및 파생된 에셋 및 메타데이터 목록도 제공합니다.
+세부 사항 보기의 자산 URL은 가져올 수 있지만 자산을 게시하기 전까지는 해당 URL이 활성화되지 않습니다. 이미지의 경우 세부 사항 보기는 확대/축소 대상 및 이미지 집합과 같은 기본 및 파생 에셋 및 메타데이터 목록을 제공합니다.
 
 ## 세부 사항 보기의 자산 작업 {#working-with-assets-in-detail-view}
 

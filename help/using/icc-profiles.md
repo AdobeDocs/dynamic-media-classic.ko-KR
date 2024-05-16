@@ -10,7 +10,7 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '452'
 ht-degree: 41%
@@ -35,7 +35,7 @@ Adobe Dynamic Media Classic에서 이미지를 업로드할 때 ICC 프로파일
 
 ## ICC 프로파일 검사 {#examining-an-icc-profile}
 
-ICC 프로파일을 검사하려면 찾아보기 패널에서 프로파일을 선택하고 세부 사항 보기에 표시합니다. 세부 사항 보기는 ICC 프로파일에 대한 다음 정보를 제공합니다.
+ICC 프로파일을 검사하려면 [찾아보기] 패널에서 프로파일을 선택하고 [세부 사항 보기]에 표시합니다. 세부 사항 보기는 ICC 프로파일에 대한 다음 정보를 제공합니다.
 
 * **[!UICONTROL 프로필 클래스]**: ICC(International Color Consortium)는 애플리케이션 유형을 포함하도록 각 클래스를 정의합니다. 예를 들어 입력 프로필은 디지털 카메라, 스캐너 등의 장치에 적용되고 출력 프로필은 프린터에 적용됩니다.
 

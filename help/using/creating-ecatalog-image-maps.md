@@ -10,10 +10,10 @@ role: User
 exl-id: 5e7f39a5-36a6-40df-8752-064a582c9346
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '1494'
-ht-degree: 28%
+ht-degree: 26%
 
 ---
 
@@ -55,7 +55,7 @@ eCatalog의 경우 eCatalog 화면의 [맵 페이지] 탭에서 이미지 맵을
 
 ## eCatalog에 리치 미디어 포함 {#embedding-rich-media-in-an-ecatalog}
 
-eCatalog의 리치 미디어 옵션을 사용하여 MP4 형식의 비디오나 회전 집합을 eCatalog에 추가한 이미지 맵에 추가할 수 있습니다. 사용자가 eCatalog에서 이미지 맵 영역을 선택하면 관련 스핀 세트 또는 비디오가 표시됩니다. 이 기능은 고객이 사용 중인 항목을 보거나 다른 각도 및 관점에서 항목을 보려는 경우 특히 유용합니다.
+eCatalog의 리치 미디어 옵션을 사용하여 eCatalog에 추가한 이미지 맵에 MP4 형식의 비디오나 회전 집합을 추가할 수 있습니다. 사용자가 eCatalog에서 이미지 맵 영역을 선택하면 관련 회전 집합 또는 비디오가 표시됩니다. 이 기능은 고객이 사용 중인 항목을 보거나 다른 각도 및 관점에서 항목을 보려는 경우 특히 유용합니다.
 
 고객이 이미지 맵 위로 포인터를 이동하면 고객이 선택한 항목을 알 수 있도록 툴팁 텍스트를 선택적으로 표시할 수도 있습니다.
 
@@ -66,7 +66,7 @@ eCatalog의 리치 미디어 옵션을 사용하여 MP4 형식의 비디오나 �
    다음을 참조하십시오 [eCatalog 이미지 맵 그리기](creating-ecatalog-image-maps.md#drawing_ecatalog_image_maps).
 
 1. 표시 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 리치 미디어]**.
-1. 왼쪽의 [자산 추가] 패널에서 임베드하려는 회전 집합 또는 비디오(MP4 형식) 자산이 들어 있는 폴더를 탐색합니다.
+1. 왼쪽의 에셋 추가 패널에서 포함할 회전 집합 또는 비디오(MP4 형식) 에셋이 포함된 폴더로 이동합니다.
 1. 자산을 이미지 맵으로 드래그합니다.
 1. (선택 사항) 이미지 맵 목록 패널의 **[!UICONTROL 툴팁]** 열 머리글에서 뷰어가 이미지 맵 위로 포인터를 이동할 때 화면에 표시할 텍스트를 입력합니다.
 1. 선택 **[!UICONTROL 저장]**.

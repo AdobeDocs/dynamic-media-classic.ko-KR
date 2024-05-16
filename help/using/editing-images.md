@@ -10,7 +10,7 @@ role: User
 exl-id: 1c368c25-78e6-4bcc-b390-d9133073821a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 7%
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # 이미지 편집{#editing-images}
 
-Adobe Dynamic Media Classic은 리치 미디어 효과를 만드는 데 사용할 수 있는 다양한 도구를 제공합니다. 이러한 도구는 롤오버를 선택하여 사용할 수 있습니다 **[!UICONTROL 편집]** 세부 사항 보기의 찾아보기 패널에서 단추 및 를 누릅니다. Adobe Dynamic Media Classic에서 다음 이미지 편집 작업을 수행할 수 있습니다.
+Adobe Dynamic Media Classic은 리치 미디어 효과를 만드는 데 사용할 수 있는 다양한 도구를 제공합니다. 이러한 도구는 롤오버를 선택하여 사용할 수 있습니다 **[!UICONTROL 편집]** [상세 보기]의 [찾아보기] 패널에서 단추 및 를 누릅니다. Adobe Dynamic Media Classic에서 다음 이미지 편집 작업을 수행할 수 있습니다.
 
 * **이미지 맵 만들기**: 이미지 맵을 만들려면 이미지 명령을 선택하거나 **[!UICONTROL 이미지 맵]** 단추를 클릭합니다. 이미지 맵은 이미지 또는 eCatalog 페이지의 핫스팟이거나, 롤오버 텍스트가 있는 패널을 표시하는 SpinSet의 이미지입니다. 예를 들어 이미지 맵을 선택하여 새 웹 페이지를 시작할 수 있습니다. 다음을 참조하십시오 [이미지 맵 만들기](/help/using/creating-image-maps.md).
 
