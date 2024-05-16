@@ -10,10 +10,10 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 30%
+ht-degree: 23%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 30%
 ## eCatalog URL 복사 {#copying-an-ecatalog-url}
 
 1. 에셋 찾아보기 패널의 표시 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 카탈로그]**.
-1. 왼쪽의 [자산 라이브러리] 패널에서 임베드 코드를 복사하려는 eCatalog가 들어 있는 자산 폴더를 탐색합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 포함 코드를 복사할 eCatalog가 포함된 에셋 폴더로 이동합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.
 
    * 선택 **[!UICONTROL 격자 보기]**. [자산 찾아보기] 패널에서 단일 자산을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 을 선택합니다. **[!UICONTROL URL 복사]** 원하는 뷰어의 오른쪽에 있습니다.
@@ -57,7 +57,7 @@ eCatalog를 배포하는 가장 일반적인 방법은 웹 페이지에서 eCata
 **eCatalog 뷰어의 포함 코드를 복사하려면:**
 
 1. 에셋 찾아보기 패널의 표시 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 카탈로그]**.
-1. 왼쪽의 [자산 라이브러리] 패널에서 임베드 코드를 복사하려는 eCatalog가 들어 있는 자산 폴더를 탐색합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 포함 코드를 복사할 eCatalog가 포함된 에셋 폴더로 이동합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.
 
    * 선택 **[!UICONTROL 격자 보기]**. [자산 찾아보기] 패널에서 단일 자산을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 패널에서 **[!UICONTROL 포함 코드]**.

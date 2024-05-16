@@ -10,10 +10,10 @@ role: User
 exl-id: 1fca9640-d127-454a-b3aa-b2ac82136e62
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 17%
+source-wordcount: '262'
+ht-degree: 12%
 
 ---
 
@@ -49,7 +49,7 @@ Last Modified Date:
 1. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]**.
 1. 원하는 예약 옵션을 설정합니다.
 1. (선택 사항) **[!UICONTROL 작업 이름]** 필드에 게시 작업의 이름을 입력합니다.
-1. **[!UICONTROL [고급]]** 선택 사항의 **[!UICONTROL [게시 위치]]** 드롭다운 목록에서 **[!UICONTROL [비디오 서버]]**&#x200B;를 선택합니다.
+1. 다음에서 **[!UICONTROL 고급]** 옵션, **[!UICONTROL 게시 위치]** 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 비디오 서버]**.
 
    다음을 참조하십시오 [고급 게시 옵션](publishing-files.md#advanced_publish_options) 추가 옵션을 설정하려면 를 클릭하십시오.
 

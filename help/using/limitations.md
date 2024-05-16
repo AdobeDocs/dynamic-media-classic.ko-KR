@@ -10,9 +10,9 @@ role: User
 exl-id: ee30a2c1-2b26-41bd-8758-e7337a3727bb
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '349'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ## 자산 유형에 대한 Dynamic Media의 모범 사례 및 강제 제한 {#best-practice-enforced-limits}
 
-회전 집합 또는 이미지 집합을 만들거나 페이지 추출을 위해 PDF을 업로드할 때 Adobe은 다음 모범 사례를 권장하며 다음 제한을 적용합니다.
+회전 집합 또는 이미지 집합을 만들거나 페이지 추출을 위해 PDF을 업로드할 때 Adobe은 다음 모범 사례를 권장합니다. Adobe은 또한 다음 제한을 적용합니다.
 
 | 에셋: 제한 유형 | 우수 사례 | 제한 적용됨 |
 | --- | --- | --- |
@@ -38,7 +38,7 @@ ht-degree: 1%
 | **회전 집합**: 2D 세트당 최대 행/열 수 | 세트당 12~18개 이미지 | 1000 |
 | **PDF**: 추출할 PDF의 최대 페이지 수 |  | 100(모든 PDF) |
 
-‡ 가장 좋은 방법은 집합에 중복 에셋이 없는 것입니다. 단일 자산에 대한 중복 횟수는 20회로 제한됩니다. 해당 에셋에 대해 다른 중복을 추가하면 해당 세트 내에서 요청에 오류가 발생하거나 중복을 무시합니다.
+‡ 우수 사례는 집합 내에 중복 에셋을 두지 않는 것입니다. 단일 자산에 대한 중복 횟수는 20회로 제한됩니다. 해당 에셋에 대해 다른 중복을 추가하면 해당 세트 내에서 요청에 오류가 발생하거나 중복을 무시합니다.
 
 <!-- See also [Dynamic Media limitations](/help/using/assets/limitations.md). -->
 

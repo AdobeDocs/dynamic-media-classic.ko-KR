@@ -10,16 +10,16 @@ role: User
 exl-id: 6231a29e-d1b9-47d3-a23a-1940e91ebbc5
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '255'
-ht-degree: 36%
+source-wordcount: '256'
+ht-degree: 28%
 
 ---
 
 # 회전 집합 미리 보기{#previewing-a-spin-set}
 
-[뷰어 목록]을 사용하여 HTML5와 같은 특정 뷰어 유형 플랫폼에서 자산이 표시되는 방식을 미리 볼 수 있습니다. 자산 유형 및 미리 보기를 위해 선택한 관련 뷰어에 따라 [뷰어 목록]에서 일부 플랫폼을 사용하지 못할 수도 있습니다.
+뷰어 목록 을 사용하여 HTML 5와 같은 특정 뷰어 유형 플랫폼에 자산이 표시되는 방식을 미리 볼 수 있습니다. 자산 유형 및 미리 보기를 위해 선택한 관련 뷰어에 따라 [뷰어 목록]에서 일부 플랫폼을 사용하지 못할 수도 있습니다.
 
 다음을 참조하십시오 [기본 뷰어 구성](application-setup.md#configuring_default_viewers).
 

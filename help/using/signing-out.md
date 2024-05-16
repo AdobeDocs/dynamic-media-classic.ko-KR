@@ -1,6 +1,6 @@
 ---
 title: Adobe Dynamic Media Classic에서 로그인 및 로그아웃
-description: 북미(NA), 유럽, 중동, 아프리카(EMEA) 또는 아시아 태평양(APAC)의 Adobe Dynamic Media Classic에서 로그아웃하고 프로덕션 환경 서버에 연결하는 방법에 대해 알아봅니다.
+description: Adobe Dynamic Media Classic에 로그인하고 로그아웃하는 방법에 대해 알아봅니다. 북미(NA), 유럽, 중동, 아프리카(EMEA) 또는 아시아 태평양(APAC)의 프로덕션 서버에 연결하는 방법도 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '221'
 ht-degree: 7%
 
 ---

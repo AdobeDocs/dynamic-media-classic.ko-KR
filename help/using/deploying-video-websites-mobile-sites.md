@@ -10,10 +10,10 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1702'
-ht-degree: 26%
+ht-degree: 24%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->자산을 게시하기 전까지는 URL이나 포함 코드가 활성화되지 않습니다.
+>에셋을 게시할 때까지 URL 또는 포함 코드가 활성화되지 않습니다.
 
 ## 비디오 게시 {#publishing-video}
 
@@ -82,7 +82,7 @@ ht-degree: 26%
 **웹 페이지에 비디오 뷰어를 포함하려면 다음 작업을 수행하십시오.**
 
 1. 에셋 찾아보기 패널의 표시 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 비디오]**, 또는 **[!UICONTROL 응용 비디오 집합]**.
-1. 왼쪽의 [자산 라이브러리] 패널에서 포함 코드를 복사하려는 비디오나 적응형 비디오 집합이 들어 있는 자산 폴더로 이동합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 포함 코드를 복사할 비디오 또는 응용 비디오 세트가 포함된 에셋 폴더로 이동합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.
 
    * 선택 **[!UICONTROL 격자 보기]** 또는 **[!UICONTROL 목록 보기]**. [자산 찾아보기] 패널에서 단일 자산의 비디오 썸네일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 HTTP 스트리밍 아래에 있는 을 선택합니다. **[!UICONTROL 포함 코드]** 원하는 뷰어의 오른쪽에 있습니다. 를 모범 사례로 선택합니다. **[!UICONTROL 포함 코드]** 와(과) 연결된 `Universal_HTML5_Video` 뷰어.

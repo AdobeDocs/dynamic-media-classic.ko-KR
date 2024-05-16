@@ -10,10 +10,10 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
 workflow-type: tm+mt
 source-wordcount: '1443'
-ht-degree: 28%
+ht-degree: 25%
 
 ---
 
@@ -76,7 +76,7 @@ Adobe Dynamic Media Classic Video는 데스크탑, iOS, Android™, BlackBerry®
    * 비디오 및 이미지 컨텐츠를 결합하는 혼합 미디어 뷰어
 
 * 브랜드 요구에 맞는 비디오 플레이어를 구성합니다.
-* 간단한 URL이나 포함 코드를 사용하여 웹 사이트, 모바일 사이트 또는 모바일 애플리케이션에 비디오를 통합합니다.
+* 간단한 URL 또는 포함 코드를 사용하여 비디오를 웹 사이트, 모바일 사이트 또는 모바일 애플리케이션에 통합합니다.
 
 다음 교육 비디오를 참조하십시오.
 * [MP4 비디오 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
@@ -146,7 +146,7 @@ Adobe Dynamic Media Classic은 사전 정의된 다양한 비디오 인코딩 �
 
 * 웹 페이지에 포함된 비디오를 표시합니다. 이 경우 **[!UICONTROL 포함 코드]** 기능.
 
-  비디오의 포함 코드를 구하려면, 격자 보기나 목록 보기의 [찾아보기 패널]에서 비디오를 선택합니다. 다음으로 이동 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**. 테이블의 작업 열에서 을 선택합니다 **[!UICONTROL 포함 코드]** 의 오른쪽에 `Universal_HTML5_Video`. 코드 편집은 허용되지 않습니다.
+  비디오에 대한 포함 코드를 가져오려면 [격자 보기] 또는 [목록 보기]에서 [찾아보기] 패널에서 비디오를 선택합니다. 다음으로 이동 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**. 테이블의 작업 열에서 을 선택합니다 **[!UICONTROL 포함 코드]** 의 오른쪽에 `Universal_HTML5_Video`. 코드 편집은 허용되지 않습니다.
 
   선택 **[!UICONTROL 닫기]** 포함 코드를 하나 이상의 웹 페이지에 붙여넣을 수 있습니다.
 
