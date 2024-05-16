@@ -10,7 +10,7 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1234'
 ht-degree: 21%
@@ -105,8 +105,8 @@ Adobe Analytics 구성 화면의 각 뷰어 이벤트에 대해 Adobe Analytics 
 
 [Adobe Analytics 구성] 화면에서 뷰어 이벤트를 활성화, 편집 및 삭제할 수 있습니다.
 
-* **활성화** - 선택 **[!UICONTROL 사용]** 활성화 또는 **[!UICONTROL 사용 안 함]** 을 눌러 선택한 뷰어 이벤트를 비활성화합니다.
+* **활성화**: 선택 **[!UICONTROL 사용]** 활성화 또는 **[!UICONTROL 사용 안 함]** 을 눌러 선택한 뷰어 이벤트를 비활성화합니다.
 
-* **편집** - 뷰어 이벤트를 선택하고 **[!UICONTROL 보기/편집]** 변수 회색 단추. Adobe Dynamic Media Classic 변수 및 Adobe Analytics 변수 드롭다운 목록에서 각 목록에서 다른 변수를 선택합니다. 자세한 내용은 [Adobe Dynamic Media Classic 뷰어 이벤트 및 변수에 Adobe Analytics 변수 할당](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
+* **편집**: 뷰어 이벤트를 선택하고 **[!UICONTROL 보기/편집]** 변수 회색 단추. Adobe Dynamic Media Classic 변수 및 Adobe Analytics 변수 드롭다운 목록에서 각 목록에서 다른 변수를 선택합니다. 자세한 내용은 [Adobe Dynamic Media Classic 뷰어 이벤트 및 변수에 Adobe Analytics 변수 할당](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables).
 
-* **삭제** - 뷰어 이벤트를 선택하고 **[!UICONTROL 보기/편집]** 변수 회색 단추. 선택 **[!UICONTROL 삭제]**.
+* **삭제**: 뷰어 이벤트를 선택하고 **[!UICONTROL 보기/편집]** 변수 회색 단추. 선택 **[!UICONTROL 삭제]**.

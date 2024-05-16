@@ -6,10 +6,10 @@ user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Adobe Dynamic Media Classic 사용에 대해 자세히 알아보기
 index: y
-source-git-commit: 910410706fbd9dd79a8dda402af454a50132cc41
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '796'
-ht-degree: 18%
+ht-degree: 16%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 18%
 + [이제 새 Adobe Dynamic Media Classic 로그온 사용 가능](new-ui-2020.md)
 + [Experience League으로 Dynamic Media 뉴스레터 아카이브 Adobe](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic 소개 {#intro}
-   + [Adobe Dynamic Media Classic 데스크탑 앱 - 이제 사용 가능](dynamic-media-classic-desktop-app.md)
+   + [Adobe Dynamic Media Classic 데스크탑 앱: 이제 사용 가능](dynamic-media-classic-desktop-app.md)
    + [Adobe Dynamic Media Classic 도움말 정보](introduction.md)
    + [개발자 리소스](developer-resources.md)
    + [새로운 기능](whats-new.md)
@@ -135,7 +135,7 @@ ht-degree: 18%
    + [템플릿 만들기](creating-template.md)
    + [템플릿 매개 변수 만들기](creating-template-parameters.md)
    + [템플릿 게시](publishing-templates.md)
-   + [템플릿을 웹 페이지에 연결](linking-template-web-page.md)
+   + [웹 페이지에 템플릿 연결](linking-template-web-page.md)
    + [콘텐츠 변형 관리](content-variations.md)
 + 비디오 {#video}
    + [빠른 시작: 비디오](quick-start-video.md)
@@ -151,7 +151,7 @@ ht-degree: 18%
    + [혼합 미디어 집합 뷰어 사전 설정 설정](setting-mixed-media-set-viewer.md)
    + [혼합 미디어 집합 만들기](creating-mixed-media-set.md)
    + [혼합 미디어 집합 게시](publishing-mixed-media-set.md)
-   + [혼합 미디어 집합을 웹 페이지에 연결](linking-mixed-media-set-web.md)
+   + [웹 페이지에 혼합 미디어 집합 연결](linking-mixed-media-set-web.md)
 + Adobe Analytics 계측 키트 {#analytics-kit}
    + [빠른 시작: Adobe Dynamic Media Classic과 Adobe Analytics 통합](quick-start-integrating-dmc-analytics.md)
    + [Adobe Analytics에 로그온](log-analytics.md)

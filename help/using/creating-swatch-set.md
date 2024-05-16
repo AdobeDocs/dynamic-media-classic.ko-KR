@@ -10,7 +10,7 @@ role: User
 exl-id: 426b6e6b-daed-4ca6-b095-99bb06604b07
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '708'
 ht-degree: 58%
@@ -38,9 +38,9 @@ ht-degree: 58%
 
 1. 다음 중 하나를 수행하십시오.
 
-   * **먼저 이미지 선택** - [찾아보기] 패널에서 이미지를 선택한 다음 **[!UICONTROL 빌드]** > **[!UICONTROL 견본 집합]**.
+   * **먼저 이미지 선택**: 검색 패널에서 이미지를 선택한 다음 로 이동합니다. **[!UICONTROL 빌드]** > **[!UICONTROL 견본 집합]**.
 
-   * **견본 집합 화면에서 시작** - 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 견본 집합]**. 자산 라이브러리에서 폴더를 선택하고 이미지를 [견본 집합] 페이지의 [보기] 섹션으로 드래그합니다.
+   * **견본 집합 화면에서 시작**: 다음으로 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 견본 집합]**. 자산 라이브러리에서 폴더를 선택하고 이미지를 [견본 집합] 페이지의 [보기] 섹션으로 드래그합니다.
 
 1. 견본 색상, 패턴 또는 마무리를 [견본 집합] 페이지의 [견본] 자리 표시자 상자로 드래그합니다.
 

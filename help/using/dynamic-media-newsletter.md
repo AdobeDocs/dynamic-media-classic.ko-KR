@@ -7,9 +7,9 @@ role: Admin,User
 exl-id: 5f2a0cfc-d627-42be-9e68-111b65680ad8
 topic: Content Management
 level: Intermediate
-source-git-commit: 51c05c62448b39a75facb2e90cc9da5d0f26ab45
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '979'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,7 @@ Experience League의 Dynamic Media 뉴스레터는 Dynamic Media 및 Adobe Dynam
 
    * 이러한 9가지 &quot;실수&quot;를 제거하여 고객 경험을 과금합니다.
    * Dynamic Media 팀이 일반적인 방문자 트래픽보다 높은 하루를 준비하는 데 어떻게 도움이 되는지 알아보십시오.
-   * 최근 두 개의 Skill Builder 웨비나를 잡을 수 있는 두 번째 기회입니다.
+   * 두 개의 최근 스킬 빌더 웨비나를 잡을 수 있는 두 번째 기회입니다.
    * 디지털 자산을 불법복제로부터 보호하는 온디맨드 웨비나를 시청하십시오.
    * 모임 `Bridget Roman`, Experience Manager Assets의 수석 제품 마케팅 관리자입니다.
    * Experience League에서 Dynamic Media 및 Adobe Dynamic Media Classic에 대해 최신 정보를 얻으십시오.
@@ -126,10 +126,10 @@ Experience League의 Dynamic Media 뉴스레터는 Dynamic Media 및 Adobe Dynam
 
   이 문제에서:
 
-   * 고가치 자산을 적절하게 관리하여 방문자를 다시 찾을 수 있도록 해 주는 경험을 자신 있게 전달할 수 있는 리소스 및 정보입니다.
+   * 높은 가치의 자산을 적절하게 관리할 수 있도록 해 주는 리소스 및 정보로, 방문자가 다시 방문하지 않도록 하는 경험을 자신 있게 제공할 수 있습니다.
    * 디지털 자산 보호에 대해 예정된 웨비나에 대해 알아봅니다.
    * 다음으로 정보가 가득 찬 Adobe Insider Tour를 살펴보십시오.
-   * Experience Manager Assets(Experience Manager Assets) 내에 Dynamic Media이 있을 때 사용할 수 있는 흥미로운 기능입니다.
+   * 흥미로운 기능은 Experience Manager Assets(Experience Manager Assets) 내에 Dynamic Media이 있을 때 사용할 수 있습니다.
    * 웹 사이트에 360도 비디오 및 사용자 지정 비디오 썸네일을 추가합니다.
    * 모임 `Andrew Hathaway`, Experience Manager Assets 내 Dynamic Media의 수석 솔루션 컨설턴트입니다.
 
@@ -142,7 +142,7 @@ Experience League의 Dynamic Media 뉴스레터는 Dynamic Media 및 Adobe Dynam
    * 예정된 Adobe Insider 투어에 대해 자세히 알아보십시오.
    * 디지털 에셋이 불법 복제되지 않도록 보호하는 방법에 대해 알아보십시오.
    * AI 기반 스마트 자르기 for images에 대해 알아봅니다.
-   * 모임 `Alex Thiers`: Dynamic Media 및 Adobe Dynamic Media Classic의 많은 훌륭한 기능과 혁신을 이끄는 동력 중 하나입니다.
+   * 모임 `Alex Thiers`: AEM 및 Adobe Dynamic Media Classic에서 Dynamic Media 내의 많은 훌륭한 기능과 혁신을 이끄는 추진력입니다.
 
 * **[2019년 5월, 05호](https://experienceleague.adobe.com/tools/dynamic-media-demo/newsletter/Dynamic_Media_Newsletter_05_2019_May.html)**
 

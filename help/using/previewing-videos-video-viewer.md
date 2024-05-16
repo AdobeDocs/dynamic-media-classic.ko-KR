@@ -10,7 +10,7 @@ role: User
 exl-id: b8d1a0b4-67ab-482d-a685-a087fb850143
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '773'
 ht-degree: 21%
@@ -71,15 +71,15 @@ Adobe Dynamic Media Classic에는 비디오 재생을 위해 사전 정의된 �
 
 1. 비디오 표시용 뷰어 사전 설정을 추가하거나 편집합니다.
 
-   * **추가** - 선택 **[!UICONTROL 추가]** 을 클릭합니다. 뷰어 사전 설정 추가 대화 상자의 각 드롭다운 목록에서 플랫폼과 뷰어를 선택한 다음 를 선택합니다 **[!UICONTROL 추가]**.
+   * **추가**: 선택 **[!UICONTROL 추가]** 을 클릭합니다. 뷰어 사전 설정 추가 대화 상자의 각 드롭다운 목록에서 플랫폼과 뷰어를 선택한 다음 를 선택합니다 **[!UICONTROL 추가]**.
 
    참조: [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets).
 
-   * **기존 뷰어 사전 설정에서 시작하여 추가** - 표에서 비디오 뷰어 사전 설정을 선택한 다음 을 선택합니다. **[!UICONTROL 편집]** 을 클릭합니다.
+   * **기존 뷰어 사전 설정에서 시작하여 추가**: 테이블에서 비디오 뷰어 사전 설정을 선택한 다음 를 선택합니다 **[!UICONTROL 편집]** 을 클릭합니다.
 
    비디오 뷰어를 재구성한 후 다음을 선택합니다. **[!UICONTROL 다른 이름으로 저장]** [사전 설정 이름] 텍스트 필드에 다른 이름을 사용하여 사전 설정을 저장합니다.
 
-   * **편집** - 비디오 뷰어 사전 설정을 선택한 다음 선택 **[!UICONTROL 편집]**.
+   * **편집**: 비디오 뷰어 사전 설정을 선택한 다음 를 선택합니다 **[!UICONTROL 편집]**.
 
 1. 다음에서 `Configure Viewer` [페이지], [사전 설정 이름] 필드에서 사전 설정 이름을 입력하거나 편집합니다.
 1. 원하는 나머지 선택 사항을 설정합니다.

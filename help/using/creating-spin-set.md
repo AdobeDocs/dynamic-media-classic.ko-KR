@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 44%
@@ -92,13 +92,13 @@ Adobe Dynamic Media Classic에서 스핀 세트를 작성하거나 만드는 순
 1. 회전 집합의 롤오버 선택 **[!UICONTROL 편집]** 단추를 클릭합니다.
 1. 다음 중 하나를 수행합니다.
 
-   * **이미지 제거 중** - 이미지를 선택한 다음 를 선택합니다. **[!UICONTROL 삭제]**.
+   * **이미지 제거 중**: 이미지를 선택한 다음 를 선택합니다 **[!UICONTROL 삭제]**.
 
-   * **이미지 추가 중** - 이미지를 셀로 드래그합니다.
+   * **이미지 추가 중**: 이미지를 셀로 드래그합니다.
 
-   * **행 재정렬(2차원 스핀 세트)** - 행 왼쪽에 있는 행 선택기 상자를 선택한 다음 를 선택합니다. **[!UICONTROL 아래로 행 이동]** 또는 **[!UICONTROL 위로 행 이동]**.
+   * **행 재정렬(2차원 스핀 세트)**: 행 왼쪽에 있는 행 선택기 상자를 선택한 다음 를 선택합니다 **[!UICONTROL 아래로 행 이동]** 또는 **[!UICONTROL 위로 행 이동]**.
 
-   * **행 및 셀 추가** - 행 상자와 셀 상자에 숫자를 입력하여 각 행의 행 수와 셀 수를 결정합니다.
+   * **행 및 셀 추가**: 행 상자와 셀 상자에 숫자를 입력하여 각 행의 행 수와 셀 수를 결정합니다.
 
 1. 편집을 완료하면 페이지 오른쪽 하단에서 **[!UICONTROL 저장 후 게시]**(기본값)가 선택되어 있는지 확인합니다.
 1. 선택 **[!UICONTROL 저장]**&#x200B;스토리지 폴더를 선택하고 세트 이름을 입력한 다음 을 선택합니다. **[!UICONTROL 저장]**.

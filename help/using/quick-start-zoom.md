@@ -10,10 +10,10 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '844'
-ht-degree: 28%
+ht-degree: 21%
 
 ---
 
@@ -55,7 +55,7 @@ Adobe Dynamic Media Classic 오퍼 **[!UICONTROL 확대/축소 뷰어 사전 설
 
 다양한 확대/축소 뷰어 사전 설정 및 확대/축소 경험 표시 방법을 탐색하려면 [찾아보기] 패널에서 이미지를 선택하고 을 선택합니다 **[!UICONTROL 미리 보기]**. 다음으로 이동 **[!UICONTROL 사전 설정]** > **[!UICONTROL 확대/축소]**&#x200B;을 클릭하고 [확대/축소] 메뉴가 있는 사전 설정을 선택합니다.
 
-확대/축소 단추가 나타납니다. 웹 사이트에서 확대/축소 이미지가 표시되는 모양을 확인할 수 있습니다. 선택한 [확대/축소 뷰어 사전 설정]의 설정을 테스트할 수 있도록 [확대/축소] 단추(및 확대/축소 대상)를 선택합니다. 다음을 참조하십시오 [다른 확대/축소 뷰어로 이미지 미리 보기](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
+확대/축소 단추가 나타납니다. 웹 사이트에서 확대/축소 이미지가 어떻게 보이는지 확인할 수 있습니다. 선택한 [확대/축소 뷰어 사전 설정]의 설정을 테스트할 수 있도록 [확대/축소] 단추(및 확대/축소 대상)를 선택합니다. 다음을 참조하십시오 [다른 확대/축소 뷰어로 이미지 미리 보기](previewing-image-assets-different-zoom.md#previewing_image_assets_with_different_zoom_viewers).
 
 ## 5. 확대/축소 이미지 게시
 
@@ -65,4 +65,4 @@ Adobe Dynamic Media Classic 오퍼 **[!UICONTROL 확대/축소 뷰어 사전 설
 
 ## 6. 확대/축소 뷰어를 웹 페이지에 연결
 
-Adobe Dynamic Media Classic은 이미지를 확대/축소하는 데 필요한 URL 콜아웃 문자열을 생성하고 이미지를 Dynamic Media 이미지 서버에 게시할 때 활성화합니다. 다음 URL 문자열을 **[!UICONTROL 미리 보기]** 페이지를 가리키도록 업데이트하는 중입니다. 복사한 URL 문자열은 웹 사이트와 애플리케이션에서 사용할 수 있습니다. 다음을 참조하십시오 [웹 페이지에 확대/축소 뷰어 연결](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).
+Adobe Dynamic Media Classic은 이미지를 확대/축소하는 데 필요한 URL 콜아웃 문자열을 생성하고 이미지를 Dynamic Media 이미지 서버에 게시할 때 활성화합니다. 다음 URL 문자열을 **[!UICONTROL 미리 보기]** 페이지를 가리키도록 업데이트하는 중입니다. URL 문자열을 복사하면 웹 사이트 및 응용 프로그램에서 사용할 수 있습니다. 다음을 참조하십시오 [웹 페이지에 확대/축소 뷰어 연결](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages).

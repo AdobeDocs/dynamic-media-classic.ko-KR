@@ -10,7 +10,7 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1604'
 ht-degree: 40%
@@ -70,8 +70,8 @@ Adobe Dynamic Media Classic을 사용하면 수집, 게재 또는 둘 다에 대
 
 사용할 수 있는 이미지 선명하게 하기 방법에는 두 가지가 있습니다.
 
-* 단순 선명하게 하기( `&op_sharpen`) - Photoshop에서 사용되는 선명 효과 필터와 유사하게, 간단한 선명 효과는 동적 크기 조정 후 이미지의 최종 보기에 기본 선명 효과를 적용합니다. 하지만 이 방법은 사용자가 구성할 수 없습니다. 가장 좋은 방법은 를 사용하지 않는 것입니다. `&op_sharpen` 필요한 경우가 아니면
-* 언샵 마스킹( `&op_USM`) - 언샵 마스킹은 선명하게 하기를 위한 업계 표준 필터입니다. 아래의 지침에 따라 언샵 마스킹으로 이미지를 선명하게 하는 것이 좋습니다. 언샵 마스킹을 사용하면 다음 3가지 매개 변수를 제어할 수 있습니다.
+* 단순 선명하게 하기( `&op_sharpen`): Photoshop에서 사용되는 선명하게 필터와 유사하게, 간단한 선명하게 하기는 동적 크기 조정 후 이미지의 최종 보기에 기본 선명하게 하기를 적용합니다. 하지만 이 방법은 사용자가 구성할 수 없습니다. 가장 좋은 방법은 를 사용하지 않는 것입니다. `&op_sharpen` 필요한 경우가 아니면
+* 언샵 마스킹( `&op_USM`): 언샵 마스킹은 선명하게 하기를 위한 업계 표준 필터입니다. 아래의 지침에 따라 언샵 마스킹으로 이미지를 선명하게 하는 것이 좋습니다. 언샵 마스킹을 사용하면 다음 3가지 매개 변수를 제어할 수 있습니다.
 
    * `&op_sharpen=amount,radius,threshold`
 

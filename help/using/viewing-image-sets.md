@@ -10,7 +10,7 @@ role: User
 exl-id: c8d742a4-a1a1-4b5f-bcfd-6a1972edf9bc
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '491'
 ht-degree: 19%
@@ -30,9 +30,9 @@ Adobe Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 �
 1. 전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**.
 1. 다음 중 하나를 수행하여 [뷰어 사전 설정] 페이지에서 뷰어 사전 설정을 만들거나 편집합니다.
 
-   * **만들기** - 선택 **[!UICONTROL 추가]**. 뷰어 사전 설정 추가 대화 상자의 뷰어 드롭다운 목록에서 다음을 선택합니다 **[!UICONTROL 확대/축소 뷰어]**&#x200B;을 선택한 다음 을 선택합니다 **[!UICONTROL 추가]**. 기존 뷰어에서 시작하여 확대/축소 뷰어 사전 설정을 만들 수도 있습니다. 사전 설정의 이름을 표시하고 선택한 다음 선택 **[!UICONTROL 편집]**. 다음에서 `Configure Viewer` 페이지에서 사전 설정의 새 이름을 입력합니다.
+   * **만들기**: 선택 **[!UICONTROL 추가]**. 뷰어 사전 설정 추가 대화 상자의 뷰어 드롭다운 목록에서 다음을 선택합니다 **[!UICONTROL 확대/축소 뷰어]**&#x200B;을 선택한 다음 을 선택합니다 **[!UICONTROL 추가]**. 기존 뷰어에서 시작하여 확대/축소 뷰어 사전 설정을 만들 수도 있습니다. 사전 설정의 이름을 표시하고 선택한 다음 선택 **[!UICONTROL 편집]**. 다음에서 `Configure Viewer` 페이지에서 사전 설정의 새 이름을 입력합니다.
 
-   * **편집** - 사전 설정 이름을 표시하고 선택한 다음 선택합니다. **[!UICONTROL 편집]**.
+   * **편집**: 사전 설정 이름을 표시하고 선택한 다음 선택합니다 **[!UICONTROL 편집]**.
 
 1. 다음에서 `Configure Viewer` 페이지의 [사전 설정 이름] 텍스트 필드에 [견본 집합 뷰어 사전 설정]의 이름을 입력합니다.
 1. 다음에서 옵션 선택 `Configure Viewer` 페이지를 가리키도록 업데이트하는 중입니다.

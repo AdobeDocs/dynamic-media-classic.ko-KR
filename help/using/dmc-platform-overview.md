@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: ac50cb9c-fd87-4608-80cb-8d40a0b8f131
 topic: Administration
 level: Beginner
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 12%
@@ -27,13 +27,13 @@ Adobe Dynamic Media Classic은 통합되고 리치 미디어 관리, 게시 및 
 
 주요 Adobe Dynamic Media Classic 워크플로우 단계는 다음과 같습니다.
 
-* **에셋 업로드 및 관리** - 미디어 에셋을 Adobe Dynamic Media Classic에 업로드합니다. 시스템의 자산을 구성하고, 찾아보고, 검색할 수 있습니다. 에셋에 메타데이터를 적용할 수도 있습니다.
+* **에셋 업로드 및 관리**: 미디어 에셋을 Adobe Dynamic Media Classic에 업로드합니다. 시스템의 자산을 구성하고, 찾아보고, 검색할 수 있습니다. 에셋에 메타데이터를 적용할 수도 있습니다.
 
-* **리치 미디어 만들기** - eCatalogs, 이미지 세트, 스핀 세트, 견본 세트, 혼합 미디어 세트, 기본 템플릿 및 FXG 템플릿과 같은 다양한 에셋 구성을 만들 수 있습니다.
+* **리치 미디어 만들기**: eCatalogs, 이미지 세트, 스핀 세트, 견본 세트, 혼합 미디어 세트, 기본 템플릿 및 FXG 템플릿과 같은 자산의 다양한 구성을 만듭니다.
 
-* **게시 및 관리** - Adobe Dynamic Media Classic SaaS 네트워크에 자산을 게시합니다. 에셋이 게시될 때 에셋 상태를 모니터링합니다. 사용자 권한을 관리하고 보안을 유지합니다.
+* **게시 및 관리**: Adobe Dynamic Media Classic SaaS 네트워크에 자산을 게시합니다. 에셋이 게시될 때 에셋 상태를 모니터링합니다. 사용자 권한을 관리하고 보안을 유지합니다.
 
-* **서비스** - Adobe Dynamic Media Classic SaaS 네트워크의 미디어를 웹 페이지, 애플리케이션 및 모바일 디바이스에 전달합니다. 미디어는 성능에 최적화되고 CDN 캐싱과 함께 제공됩니다. Adobe Dynamic Media Classic은 각 에셋에 대한 URL을 제공합니다. 자산을 게시하면 URL이 활성화됩니다.
+* **서비스**: Adobe Dynamic Media Classic SaaS 네트워크의 미디어를 웹 페이지, 애플리케이션 및 모바일 디바이스에 전달합니다. 미디어는 성능에 최적화되고 CDN 캐싱과 함께 전달됩니다. Adobe Dynamic Media Classic은 각 에셋에 대한 URL을 제공합니다. 자산을 게시하면 URL이 활성화됩니다.
 
 ![Adobe Dynamic Media Classic 워크플로 프로세스](/help/using/assets/gs_workflow.png)
 

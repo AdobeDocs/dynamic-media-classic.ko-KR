@@ -10,16 +10,16 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '843'
-ht-degree: 27%
+ht-degree: 26%
 
 ---
 
 # 웹 애플리케이션에 URL 연결{#linking-urls-to-your-web-application}
 
-웹 사이트 및 애플리케이션은 URL 문자열을 통해 Dynamic Media Image Server 콘텐츠에 액세스합니다. 이미지를 게시하면 Adobe Dynamic Media Classic은 Dynamic Media 이미지 서버의 이미지 사전 설정을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 이 URL을 웹 브라우저에 붙여 넣을 수 있습니다.
+웹 사이트 및 애플리케이션은 URL 문자열을 통해 Dynamic Media Image Server 콘텐츠에 액세스합니다. 이미지를 게시하면 Adobe Dynamic Media Classic은 Dynamic Media 이미지 서버의 이미지 사전 설정을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 이러한 URL을 웹 브라우저에 붙여넣을 수 있습니다.
 
 이러한 URL 문자열을 웹 페이지 및 애플리케이션에 배치하려면 Adobe Dynamic Media Classic에서 복사하십시오. 이미지 사전 설정으로 생성된 URL 문자열을 가져오려면 미리 보기 화면 또는 찾아보기 패널(자세히 보기)로 이동합니다.
 

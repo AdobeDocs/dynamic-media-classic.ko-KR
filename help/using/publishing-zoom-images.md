@@ -10,16 +10,16 @@ role: User
 exl-id: 74cf0346-be79-4916-8a98-16865c3ba3de
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 9%
+ht-degree: 0%
 
 ---
 
 # 확대/축소 이미지 게시{#publishing-zoom-images}
 
-게시하면 웹 사이트 및 애플리케이션에서 사용할 수 있도록 Dynamic Media 이미지 서버에 확대/축소 이미지가 배치됩니다. 게시 프로세스의 일부로 Adobe Dynamic Media Classic이 URL 문자열을 활성화합니다. 이 URL 문자열을 웹 사이트의 HTML 코드에 배치할 수 있습니다.
+게시하면 웹 사이트 및 애플리케이션에서 사용할 수 있도록 Dynamic Media 이미지 서버에 확대/축소 이미지가 배치됩니다. 게시 프로세스의 일부로 Adobe Dynamic Media Classic이 URL 문자열을 활성화합니다. 이러한 URL 문자열을 웹 사이트의 HTML 코드에 배치할 수 있습니다.
 
 ## 게시할 이미지 표시 {#marking-images-for-publish}
 

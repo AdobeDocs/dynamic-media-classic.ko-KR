@@ -10,7 +10,7 @@ role: User
 exl-id: cffeec19-43fd-4a97-bdcc-df81af108ddd
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '553'
 ht-degree: 30%
@@ -53,9 +53,9 @@ Adobe Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동
 
 휴지통 폴더에서 자산을 영구적으로 삭제하려면 **[!UICONTROL 휴지통]** 아이콘. 휴지통 폴더 페이지에서 다음 중 하나를 수행합니다.
 
-* **개별 자산 삭제** - 영구적으로 삭제할 자산을 선택한 다음 로 이동합니다. **[!UICONTROL 파일]** > **[!UICONTROL 휴지통에서 비우기]**.
+* **개별 자산 삭제**: 영구적으로 삭제할 자산을 선택한 다음 로 이동합니다. **[!UICONTROL 파일]** > **[!UICONTROL 휴지통에서 비우기]**.
 
-* **모든 에셋 삭제** - 이동 **[!UICONTROL 파일]** > **[!UICONTROL 휴지통 비우기]**.
+* **모든 에셋 삭제**: 다음으로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 휴지통 비우기]**.
 
 >[!MORELIKETHIS]
 >

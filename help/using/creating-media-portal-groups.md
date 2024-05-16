@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 0deb7133-b895-4c3f-8e5e-8604a6f2d16b
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '839'
 ht-degree: 52%
@@ -98,6 +98,6 @@ ht-degree: 52%
 1. 다음으로 이동 **[!UICONTROL 설정]** > **[!UICONTROL Media Portal 설정]** > **[!UICONTROL 그룹]**.
 1. [그룹 목록] 페이지에서 그룹을 선택하고 편집하거나 삭제합니다.
 
-   **그룹 편집** - 선택 **[!UICONTROL 편집]**&#x200B;을 클릭하고 [그룹 편집] 대화 상자에서 옵션을 선택합니다.
+   **그룹 편집**: 선택 **[!UICONTROL 편집]**&#x200B;을 클릭하고 [그룹 편집] 대화 상자에서 옵션을 선택합니다.
 
-   **그룹 삭제** - 선택 **[!UICONTROL 삭제]**.
+   **그룹 삭제**: 선택 **[!UICONTROL 삭제]**.

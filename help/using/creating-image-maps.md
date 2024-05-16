@@ -10,16 +10,16 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2444'
-ht-degree: 32%
+ht-degree: 30%
 
 ---
 
 # 이미지 맵 만들기 {#creating-image-maps}
 
-이미지 맵은 이미지, eCatalog 페이지 또는 텍스트가 있는 롤오버 패널을 표시하는 SpinSet의 이미지입니다. 사용자가 이미지 맵을 선택하면 특정 종류의 작업이 트리거됩니다. 예를 들어 사용자가 제품에 대한 자세한 정보를 확인할 수 있도록 웹 페이지가 시작됩니다. 이미지 맵 위로 포인터를 이동하면 윤곽선이 나타납니다.
+이미지 맵은 이미지, eCatalog 페이지 또는 텍스트가 있는 롤오버 패널을 표시하는 SpinSet의 이미지입니다. 사용자가 이미지 맵을 선택하면 특정 종류의 작업이 트리거됩니다. 예를 들어 사용자가 제품에 대해 자세히 알 수 있도록 웹 페이지가 시작됩니다. 이미지 맵 위로 포인터를 이동하면 윤곽선이 나타납니다.
 
 Adobe Dynamic Media Classic에서 이미지 맵을 만드는 기능 외에도 Adobe Acrobat 또는 Adobe InDesign에서 카탈로그를 디자인할 때 이미지 맵을 만들 수도 있습니다.
 
@@ -147,9 +147,9 @@ Javascript:loadProduct('$$');void(0);
 
 이미지 맵 간에 변경되지 않는 모든 값은 URL 템플릿에 배치합니다. 변경되는 값만 [이미지 맵] 목록의 URL 열에 추가합니다. 예:
 
-* URL 템플릿 - `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
-* URL 값 - `product.htm`
-* 실제 URL 생성됨 - `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
+* URL 템플릿: `javascript:loadProduct('https://www.examplesitehere.com/$$');void(0);`
+* URL 값: `product.htm`
+* 실제 URL 생성됨: `javascript:loadProduct('https://www.examplesitehere.com/product.html);void(0);`
 
 기본적으로 URL 템플릿에는 이라는 자체 Adobe Dynamic Media Classic JavaScript 핸들러가 포함되어 있습니다. `loadProduct` 그러면 URL 대상이 있는 새 창이 열립니다. 그러나 모든 JavaScript 코드를 사용하여 이 JavaScript 핸들러를 바꾸거나 다음 Adobe Dynamic Media Classic 핸들러 중 하나를 사용할 수 있습니다.
 
@@ -181,7 +181,7 @@ Javascript:loadProduct('$$');void(0);
 
 * **`accesskey`**: 사용자가 키보드에서 지정된 키를 누를 때 작업을 트리거합니다.
 
-* **`onfocus`**: 이미지 맵이 커서, 탭 또는 액세스 키를 눌러 포커스를 받을 때 이벤트를 트리거합니다. 예를 들어 이미지 맵에 포커스가 있을 때 웹 페이지를 시작하고 이미지 맵이 포커스를 잃을 때 웹 페이지를 닫을 수 있습니다.
+* **`onfocus`**: 이미지 맵이 커서, 탭 또는 액세스 키를 눌러 포커스를 받을 때 이벤트를 트리거합니다. 예를 들어 이미지 맵에서 포커스를 받으면 웹 페이지를 시작하고 이미지 맵에서 포커스를 잃으면 웹 페이지를 닫을 수 있습니다.
 
 * **`onblur`**: 이미지 맵이 커서나 탭 방식으로 포커스를 잃으면 이벤트를 트리거합니다.
 

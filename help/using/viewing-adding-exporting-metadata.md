@@ -10,7 +10,7 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '2225'
 ht-degree: 36%
@@ -31,11 +31,11 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 에셋의 메타데이터를 보려면 세부 사항 보기의 에셋을 열고 메타데이터 패널을 탭합니다. 메타데이터 필드 집합을 선택하려면 [메타데이터 보기] 메뉴에서 옵션을 선택합니다. Adobe Dynamic Media Classic은 다음과 같은 메타데이터 보기를 제공합니다.
 
-* **간단히 보기** - 기본 값 목록.
+* **간단히 보기**: 기본 값 목록입니다.
 
-* **IPTC** - 국제언론통신위원회에서 정의한 가치.
+* **IPTC**: International Press Telecommunications Council에서 정의한 값.
 
-* **XMP** - 확장 가능한 메타데이터 프로그램에서 정의한 값.
+* **XMP**: 확장 가능한 메타데이터 프로그램에서 정의한 값입니다.
 
 관리자는 메타데이터 보기를 만들 수 있습니다. 이러한 보기는 [메타데이터 보기] 메뉴에도 표시됩니다.
 
@@ -185,13 +185,13 @@ Adobe Dynamic Media Classic은 메타데이터 기록을 위한 템플릿을 만
 
 메타데이터 스키마 편집기는 Adobe Dynamic Media Classic 내에서 사용자 지정 회사 스키마를 추가하거나 편집하는 그래픽 방법을 제공합니다. 접두사, 네임스페이스 및 속성 목록은 스키마를 정의합니다.
 
-* **[!UICONTROL 이름]** - 스키마의 UI-Name. [메타데이터 보기] 및 [고급 검색]에서 속성을 식별하는 데 사용됩니다. 기본, IPTC, PDF와 같은 XMP 섹션과 유사합니다.
+* **[!UICONTROL 이름]**: 스키마의 UI-Name. [메타데이터 보기] 및 [고급 검색]에서 속성을 식별하는 데 사용됩니다. 기본, IPTC, PDF와 같은 XMP 섹션과 유사합니다.
 
-* **[!UICONTROL 접두사]** - 스키마에 대한 기술 고유 식별자. 문자 a-z와 A-Z로 제한됩니다. 접두사는 Adobe Dynamic Media Classic UI에 표시되지 않지만 에셋의 메타데이터가 XMP 블록 및 데이터베이스에 저장될 때 사용됩니다. 접두사는 메타데이터 서버의 메타데이터 검색 쿼리 또는 가져오기에서 메타데이터 필드를 고유하게 식별합니다.
+* **[!UICONTROL 접두사]**: 스키마에 대한 기술적 고유 식별자. 문자 a-z와 A-Z로 제한됩니다. 접두사는 Adobe Dynamic Media Classic UI에 표시되지 않지만 에셋의 메타데이터가 XMP 블록 및 데이터베이스에 저장될 때 사용됩니다. 접두사는 메타데이터 서버의 메타데이터 검색 쿼리 또는 가져오기에서 메타데이터 필드를 고유하게 식별합니다.
 
-* **[!UICONTROL 네임스페이스]** - 스키마에 대한 기술 고유 식별자(일반적으로 양식 내 URL) `https://your.company.com/name/version/`. 예를 보려면 표준 스키마 목록을 참조하십시오. 이 네임스페이스는 Adobe Dynamic Media Classic UI에 표시되지 않지만 XMP 블록에 메타데이터를 저장하는 데 사용됩니다.
+* **[!UICONTROL 네임스페이스]**: 스키마에 대한 기술적 고유 식별자(일반적으로 양식 내 URL) `https://your.company.com/name/version/`. 예를 보려면 표준 스키마 목록을 참조하십시오. 이 네임스페이스는 Adobe Dynamic Media Classic UI에 표시되지 않지만 XMP 블록에 메타데이터를 저장하는 데 사용됩니다.
 
-* **[!UICONTROL 설명]** - 스키마에 대한 자유 형식의 설명.
+* **[!UICONTROL 설명]**: 스키마에 대한 자유 형식의 설명.
 
 >[!NOTE]
 >

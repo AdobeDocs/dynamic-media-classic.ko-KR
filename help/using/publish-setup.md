@@ -9,7 +9,7 @@ role: Admin
 exl-id: 699d4c12-e47b-4c6b-86f3-dc7aaaa56c1e
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '2383'
 ht-degree: 30%
@@ -160,7 +160,7 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 | en, en_us, en_uk | myImg_E, myImg |
 | de, de_de, de_at | myImg_D, myImg |
 | fr | myImg_F, myImg |
-| 기타 모든 항목 | - |
+| 기타 모든 항목 | : |
 
 ##### 로케일을 알 수 없는 경우 localeMap 찾기
 
@@ -222,15 +222,15 @@ URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 �
 
 이미지 렌더러 페이지는 이미지 렌더링 서버에서 이미지 집합을 전달하기 위한 기본 설정을 설정합니다. 설정은 다음 5개 범주에서 사용할 수 있습니다(설정에 대한 자세한 설명은 이미지 서버 페이지 자체 참조).
 
-* **[!UICONTROL 카탈로그 관리]** - 이러한 설정은 Adobe Dynamic Media Classic과 카탈로그 파일이 상호 작용하는 방법을 결정합니다. Adobe Dynamic Media Classic 렌더링 서버 URL 호출은 카탈로그에 수행되며, 이 호출은 결과적으로 서버의 이미지를 전달하기 위해 를 호출합니다. Adobe Dynamic Media Classic 지원 담당자의 도움을 받아야만 이 설정을 변경할 수 있습니다.
+* **[!UICONTROL 카탈로그 관리]**: 이러한 설정은 Adobe Dynamic Media Classic과 카탈로그 파일이 상호 작용하는 방법을 결정합니다. Adobe Dynamic Media Classic 렌더링 서버 URL 호출은 카탈로그에 수행되며, 이 호출은 결과적으로 서버의 이미지를 전달하기 위해 를 호출합니다. Adobe Dynamic Media Classic 지원 담당자의 도움을 받아야만 이 설정을 변경할 수 있습니다.
 
-* **[!UICONTROL 세션 속성]** - 이러한 설정은 오류 매개 변수, 상대 이미지 URL의 URL 및 오브젝트 겹침의 허용 여부를 설정합니다.
+* **[!UICONTROL 세션 속성]**: 이러한 설정은 오류 매개 변수, 상대 이미지 URL의 URL 및 오브젝트 겹침의 허용 여부를 설정합니다.
 
-* **[!UICONTROL 기본 재질 특성]** - 이러한 설정은 이미지에 대한 기본 해상도 및 선명하게 하기 설정을 설정합니다.
+* **[!UICONTROL 기본 재질 특성]**: 이 설정은 이미지에 대한 기본 해상도 및 선명하게 하기 설정을 설정합니다.
 
-* **[!UICONTROL 응답 이미지 속성]** - 이러한 설정은 이미지의 기본 모양과 관련이 있습니다.
+* **[!UICONTROL 응답 이미지 속성]**: 이러한 설정은 이미지의 기본 모양과 관련이 있습니다.
 
-* **[!UICONTROL 색상 관리 속성]** - 이러한 설정은 이미지의 기본 색상 설정과 관련이 있습니다.
+* **[!UICONTROL 색상 관리 속성]**: 이러한 설정은 이미지의 기본 색상 설정과 관련이 있습니다.
 
 ## 비네팅 {#vignette}
 

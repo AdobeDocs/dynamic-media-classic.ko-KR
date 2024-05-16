@@ -10,7 +10,7 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 23%
@@ -45,24 +45,24 @@ Adobe Dynamic Media Classic은 다음 글꼴 유형을 지원합니다.
 
 [찾아보기] 패널에서 [세부 사항 보기]에서 편집할 글꼴 파일을 선택하고 [파일] > [정보 편집]을 선택합니다. [정보 편집] 화면이 열립니다. 다음 옵션을 선택한 다음 을 선택합니다 **[!UICONTROL 제출]**.
 
-* **[!UICONTROL 글꼴 이름]** - 이 이름은 게시할 때 글꼴을 식별합니다.
+* **[!UICONTROL 글꼴 이름]**: 이 이름은 게시할 때 글꼴을 식별합니다.
 
-* **[!UICONTROL PostScript 이름]** - 이 이름은 글꼴의 전체 PostScript 이름입니다. 일반적으로 두께나 스타일을 나타냅니다.
+* **[!UICONTROL PostScript 이름]**: 이 이름은 글꼴의 전체 PostScript 이름입니다. 일반적으로 두께나 스타일을 나타냅니다.
 
-* **[!UICONTROL RTF 이름]** - 이 이름은 템플릿 텍스트 레이어가 생성되는 RTF 편집기의 팝업 메뉴에 나타납니다.
+* **[!UICONTROL RTF 이름]**: 이 이름은 템플릿 텍스트 레이어가 생성되는 RTF 편집기의 팝업 메뉴에 나타납니다.
 
-* **[!UICONTROL 글꼴 패밀리 이름]** - 이 이름에는 스타일, 두께 또는 글꼴 유형 표시기 없이 글꼴 이름이 나열됩니다.
+* **[!UICONTROL 글꼴 패밀리 이름]**: 이 이름에는 스타일, 두께 또는 글꼴 유형 표시기 없이 글꼴 이름이 나열됩니다.
 
-* **[!UICONTROL 글꼴 스타일]** - 옵션은 Plain, Bold, Italic 및 Bold-Italic 입니다.
+* **[!UICONTROL 글꼴 스타일]**: 일반, 굵게, 기울임체 및 굵은 기울임체 옵션이 있습니다.
 
-* **[!UICONTROL 글꼴 유형]** - 옵션은 TrueType 및 Adobe Type 1입니다. 이러한 글꼴을 다른 이름으로 호출하는 경우 해당 이름을 입력할 수 있습니다.
+* **[!UICONTROL 글꼴 유형]**: 옵션은 TrueType 및 Adobe Type 1입니다. 이러한 글꼴을 다른 이름으로 호출하는 경우 해당 이름을 입력할 수 있습니다.
 
-* **[!UICONTROL 글꼴 유형 약어]** - 옵션은 다음과 같습니다.
+* **[!UICONTROL 글꼴 유형 약어]**: 옵션은 다음과 같습니다.
 
-   * **[!UICONTROL TTF]** - PDF/포스트스크립트 렌더링 및 이미지 제공에 사용되는 TrueType 글꼴 파일입니다.
+   * **[!UICONTROL TTF]**: PDF/PostScript 렌더링 및 이미지 제공에 사용되는 TrueType 글꼴 파일입니다.
 
-   * **[!UICONTROL AFM]** - Adobe 글꼴 지표 정보가 포함되어 있으며 이미지 제공에 사용되는 Adobe PostScript 글꼴 파일입니다.
+   * **[!UICONTROL AFM]**: Adobe 글꼴 지표 정보가 포함되어 있으며 이미지 제공에 사용되는 Adobe PostScript 글꼴 파일입니다.
 
-   * **[!UICONTROL PFM]** - 이진 글꼴 지표 정보가 포함된 Adobe PostScript 글꼴 파일입니다.
+   * **[!UICONTROL PFM]**: 이진 글꼴 지표 정보가 포함된 Adobe PostScript 글꼴 파일입니다.
 
-   * **[!UICONTROL PFB]** - 바이너리 글꼴 개요 정보가 포함된 Adobe PostScript 글꼴 파일로, PDF/PostScript 렌더링 및 이미지 제공에 사용됩니다.
+   * **[!UICONTROL PFB]**: 바이너리 글꼴 개요 정보가 포함된 Adobe PostScript 글꼴 파일로, PDF/PostScript 렌더링 및 이미지 제공에 사용됩니다.

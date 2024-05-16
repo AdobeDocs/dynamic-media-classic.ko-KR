@@ -10,10 +10,10 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: 163eb32112ec6fbefd1dacf48212353ff3053d54
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '622'
-ht-degree: 28%
+ht-degree: 24%
 
 ---
 
@@ -65,7 +65,7 @@ HTML5 비디오 뷰어를 사용하고 있으므로, 사용자가 만드는 장 
 
 1. VTT 파일을 UTF8 인코딩으로 저장하여 챕터 제목 텍스트의 문자 렌디션 문제를 방지할 수 있습니다.
 
-   일반적으로 챕터 VTT 파일의 이름을 비디오 파일과 같은 이름으로 지정하고 `chapters`. 그렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다.
+   일반적으로 챕터 VTT 파일의 이름을 비디오 파일과 같은 이름으로 지정하고 `chapters`. 이렇게 하면 기존 웹 컨텐츠 관리 시스템을 사용하여 비디오 URL의 생성을 자동화하는 데 도움이 될 수 있습니다.
 
 1. Adobe Dynamic Media Classic에서 WebVTT 챕터 파일을 업로드합니다.
 

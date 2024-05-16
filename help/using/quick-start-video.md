@@ -10,7 +10,7 @@ role: User
 exl-id: 1157400c-b33a-422e-848c-258660ddc748
 topic: Content Management
 level: Beginner
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 28%
@@ -124,7 +124,7 @@ Adobe Dynamic Media Classic은 사전 정의된 다양한 비디오 인코딩 �
 
 **선택적**
 
-뷰어 사전 설정 사용자 지정 - Adobe Dynamic Media Classic은 비디오를 제공하기 위해 사전 정의된 뷰어 사전 설정을 제공합니다. 이러한 사전 설정은 뷰어의 모양과 재생 컨트롤 작동 방식을 결정합니다. 관리자는 뷰어 사전 설정 페이지에서 뷰어 사전 설정을 추가하고 관리하여 비디오 뷰어를 사용자 지정할 수 있습니다. 이 페이지를 열려면 Adobe Dynamic Media Classic 오른쪽 상단에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**. [뷰어 사전 설정] 페이지에서는 뷰어 사전 설정을 추가, 편집, 삭제 및 활성화하는 명령을 제공합니다.
+뷰어 사전 설정 사용자 지정: Adobe Dynamic Media Classic에서는 비디오를 제공하기 위해 사전 정의된 뷰어 사전 설정을 제공합니다. 이러한 사전 설정은 뷰어의 모양과 재생 컨트롤 작동 방식을 결정합니다. 관리자는 뷰어 사전 설정 페이지에서 뷰어 사전 설정을 추가하고 관리하여 비디오 뷰어를 사용자 지정할 수 있습니다. 이 페이지를 열려면 Adobe Dynamic Media Classic 오른쪽 상단에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**. [뷰어 사전 설정] 페이지에서는 뷰어 사전 설정을 추가, 편집, 삭제 및 활성화하는 명령을 제공합니다.
 
 다음을 참조하십시오 [비디오 뷰어 사전 설정 작업](previewing-videos-video-viewer.md#working_with_video_viewer_presets).
 

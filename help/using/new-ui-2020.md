@@ -9,14 +9,14 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1057'
 ht-degree: 0%
 
 ---
 
-# Adobe Dynamic Media Classic 데스크탑 앱 - 이제 사용 가능 {#new-ui-2020}
+# Adobe Dynamic Media Classic 데스크탑 앱: 이제 사용 가능 {#new-ui-2020}
 
 다음을 참조하십시오. [Adobe Dynamic Media Classic 데스크탑 앱](/help/using/dynamic-media-classic-desktop-app.md) 시스템 요구 사항을 검토하려면 새 앱을 다운로드하여 설치한 다음 로그인합니다.
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 ## FAQ
 
 +++**_브라우저에서 2020년 12월 31일에 Adobe Flash 지원을 중단하면 Adobe Dynamic Media Classic(이전 Scene7)에 영향을 줍니까?_**
-Adobe Flash Player은 웹 브라우저에서 Adobe Flash Platform에서 개발된 컨텐츠를 사용할 수 있도록 하는 웹 브라우저 플러그인입니다. Adobe Dynamic Media Classic의 웹 사용자 인터페이스(현재 레이블이 지정됨) [!DNL Scene7 Publishing System] 또는 [!DNL SPS] 제품에서) Adobe Flash Player이 필요합니다. Adobe Flash이 2020년 12월 31일부터 더 이상 사용되지 않으면 Adobe Dynamic Media Classic 고객은 더 이상 웹 사용자 인터페이스에 로그인할 수 없습니다. 이러한 변경 사항으로 인해 Adobe은 고객에게 브라우저 경험을 대체하는 데스크탑 앱을 제공했습니다.
+Adobe Flash Player은 웹 브라우저에서 Adobe Flash Platform에서 개발된 컨텐츠를 사용할 수 있도록 하는 웹 브라우저 플러그인이었습니다. Adobe Dynamic Media Classic의 웹 사용자 인터페이스(현재 레이블이 지정됨) [!DNL Scene7 Publishing System] 또는 [!DNL SPS] 제품에서) Adobe Flash Player이 필요합니다. Adobe Flash이 2020년 12월 31일부터 더 이상 사용되지 않으면 Adobe Dynamic Media Classic 고객은 더 이상 웹 사용자 인터페이스에 로그인할 수 없습니다. 이러한 변경 사항으로 인해 Adobe은 고객에게 브라우저 경험을 대체하는 데스크탑 앱을 제공했습니다.
 +++
 
 +++**_새 데스크탑 앱에 액세스하려면 어떻게 합니까?_**
@@ -110,4 +110,4 @@ Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설
 >* [Adobe Dynamic Media Classic 데스크톱 응용 프로그램에서 로그인 및 로그아웃](/help/using/signing-out.md)
 >* [Adobe Dynamic Media Classic 데스크탑 애플리케이션 다운로드 및 설치](/help/using/dynamic-media-classic-desktop-app.md)
 
-<!-- SAVE - OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->
+<!-- SAVE: OLD LINK TO BEST PRACTICES GUIDE IN PDF https://www.adobe.com/content/dam/www/us/en/marketing/experience-manager-assets/dynamic-media/adobe-dynamic-media-classic-best-practices-guide.pdf -->

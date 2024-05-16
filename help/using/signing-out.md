@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 8d70db72-b02b-4915-b4c3-6efb146b7f08
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 7%
@@ -23,9 +23,9 @@ ht-degree: 7%
 
 Adobe Dynamic Media Classic 데스크탑 애플리케이션을 사용하기 전에 다음 사항이 있는지 확인하십시오.
 
-* **사용자 이름** - 이메일 주소를 로그인 이름으로 사용합니다.
+* **사용자 이름**: 이메일 주소를 로그인 이름으로 사용합니다.
 
-* **암호** - Adobe Dynamic Media Classic 또는 Adobe Dynamic Media Classic 관리자로부터 &quot;환영&quot; 이메일을 통해 임시 암호를 받습니다. 처음 로그인하면 이 임시 암호를 변경하라는 메시지가 표시됩니다.
+* **암호**: Adobe Dynamic Media Classic 또는 Adobe Dynamic Media Classic 관리자로부터 &quot;환영&quot; 이메일을 통해 임시 암호를 받습니다. 처음 로그인하면 이 임시 암호를 변경하라는 메시지가 표시됩니다.
 
 1. Adobe Dynamic Media Classic 데스크탑 애플리케이션을 엽니다.
 

@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
-source-wordcount: '1060'
-ht-degree: 23%
+source-wordcount: '1061'
+ht-degree: 19%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 23%
 원하는 경우 다음과 같은 이유로 에셋을 공개적으로 사용할 수 있도록 하지 않고 스테이징 환경을 만듭니다.
 
 * 공식 출시 전에 웹 사이트를 미리 봅니다(스테이징 웹 사이트).
-* B2B 웹 애플리케이션에서 가격을 표시하는 eCatalog와 같은 제한된 액세스가 필요한 자산 제공.
-* 방화벽 뒤에서 제품 정보 관리 시스템, 고객 서비스 애플리케이션, 교육 사이트 등의 일부로 자산 사용.
+* B2B 웹 애플리케이션에서 가격을 표시하는 eCatalogs와 같이 제한된 액세스가 필요한 자산을 제공합니다.
+* 제품 정보 관리 시스템, 고객 서비스 애플리케이션, 교육 사이트 등의 일부로 방화벽 뒤에 있는 자산을 사용합니다.
 
 >[!NOTE]
 >
@@ -84,11 +84,11 @@ Last Modified Date:
 
 ## 보안 테스트 서비스 테스트 {#testing-the-secure-testing-service}
 
-보안 테스트 서비스를 테스트하여 예상대로 작동하는지 확인합니다.
+보안 테스트 서비스를 테스트하여 예상대로 작동하는지 확인하십시오.
 
 <!-- >[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]*** - If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
 
 ### 계정 준비
 
@@ -133,8 +133,8 @@ Last Modified Date:
 
 게시되거나 게시되지 않은 자산에 연결된 두 가지 변형의 웹 사이트가 필요합니다.
 
-* 공개 버전 - 기존 Adobe Dynamic Media Classic URL 구문을 사용하여 자산을 연결합니다.
-* 스테이징 버전 - 동일한 구문을 사용하지만 보안 테스트 사이트 이름을 사용하여 에셋을 연결합니다.
+* 공개 버전: 기존 Adobe Dynamic Media Classic URL 구문을 사용하여 자산을 연결합니다.
+* 스테이징 버전: 동일한 구문을 사용하지만 보안 테스트 사이트 이름을 사용하여 자산을 연결합니다.
 
 ### 테스트 실행
 

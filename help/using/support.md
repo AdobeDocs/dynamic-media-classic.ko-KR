@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 topic: Content Management
 level: Intermediate
-source-git-commit: d82f816553f807b514f4690827dab672a6baf690
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 23%
+source-wordcount: '183'
+ht-degree: 14%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 23%
 | 커뮤니티 포럼 | [Experience Manager 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
 | SLA(Service Level Agreement) | [지원 서비스 / 약관](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | 지원되는 사용자 | 조직당 최대 10명의 사용자를 지원 사용자로 지정할 수 있으며, 이 사용자는 고객 지원 센터에서 사례를 열 수 있습니다. |
-| 무료 라이브 웹 교육 및 지침 비디오 | 포함. |
+| 무료 라이브 웹 교육 및 지침 비디오 | 포함됨. |
 | 전화 지원 | <ul><li>미국 및 캐나다: 1-800-497-0335 </li><li>[다른 지역의 전화번호](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
 
 <!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
@@ -37,8 +37,8 @@ ht-degree: 23%
 기술 지원에 문제를 보고할 경우 다음 정보를 포함하십시오.
 
 * Adobe Dynamic Media Classic 회사 이름.
-* 이름, 전화 번호 및 이메일 주소.
+* 이름, 전화 번호 및 이메일 주소입니다.
 * Adobe Dynamic Media Classic 애플리케이션, 플랫폼 및 버전.
-* 문제 설명 및 문제를 재현하는 데 필요한 단계.
+* 문제 설명 및 문제를 재현하는 데 필요한 단계입니다.
 * 오류 메시지(있는 경우)
 * 해당하는 경우 브라우저 유형 및 버전.

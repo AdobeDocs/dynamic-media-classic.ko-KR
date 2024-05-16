@@ -10,7 +10,7 @@ role: User
 exl-id: c18bb98c-b087-45d0-a4c9-44f58a3b514f
 topic: Content Management
 level: Intermediate
-source-git-commit: edd893482cbafd9674a44cf9878b8ee3079d98f7
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '672'
 ht-degree: 46%
@@ -47,9 +47,9 @@ ht-degree: 46%
 
 1. 다음 중 하나를 수행하십시오.
 
-   * **먼저 이미지 선택** - [찾아보기] 패널에서 이미지 세트에 대해 원하는 이미지를 선택하고 **[!UICONTROL 빌드]** > **[!UICONTROL 이미지 집합]**.
+   * **먼저 이미지 선택**: 검색 패널에서 이미지 세트에 대해 원하는 이미지를 선택하고 **[!UICONTROL 빌드]** > **[!UICONTROL 이미지 집합]**.
 
-   * **이미지 세트 화면에서 시작** - 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 이미지 집합]**. [이미지 집합] 화면이 열립니다. 자산 라이브러리에서 폴더를 선택하고 이미지 집합에 사용할 이미지를 [이미지 집합] 화면으로 드래그합니다.
+   * **이미지 세트 화면에서 시작**: 다음으로 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 이미지 집합]**. [이미지 집합] 화면이 열립니다. 자산 라이브러리에서 폴더를 선택하고 이미지 집합에 사용할 이미지를 [이미지 집합] 화면으로 드래그합니다.
 
 1. 이미지 순서를 변경하려면 이미지를 새 위치로 드래그합니다.
 1. 페이지 오른쪽 하단에서 **[!UICONTROL 저장 후 게시]**(기본값)가 선택되어 있는지 확인합니다.

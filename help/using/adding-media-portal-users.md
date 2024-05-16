@@ -10,7 +10,7 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 54%
@@ -113,24 +113,24 @@ Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 
 1. 사용자 관리 설정 화면에서 다음을 선택합니다. **[!UICONTROL 이메일 설정]**.
 1. [이메일 설정] 대화 상자에서 다음 중 원하는 설정을 지정합니다.
 
-   * **[!UICONTROL 이메일 보내기]** - 이 옵션을 선택 해제하여 신규 사용자에게 전자 메일로 신규 사용자를 등록했음을 알립니다.
+   * **[!UICONTROL 이메일 보내기]**: 새 사용자에게 등록한 이메일을 보내려면 이 옵션을 선택 취소합니다.
 
-   * **[!UICONTROL 기본 암호]** - 새 사용자에 대한 임시 암호를 입력하거나 Adobe Dynamic Media Classic에서 무작위 암호를 생성하도록 필드를 비워 둡니다. 사용자는 처음 로그인할 때 암호를 변경하라는 메시지가 표시됩니다.
+   * **[!UICONTROL 기본 암호]**: 새 사용자에 대한 임시 암호를 입력하거나 Adobe Dynamic Media Classic에서 무작위 암호를 생성하도록 필드를 비워 둡니다. 사용자는 처음 로그인할 때 암호를 변경하라는 메시지가 표시됩니다.
 
-   * **[!UICONTROL 대체 URL]** - 사용자가 다른 URL을 통해 Adobe Dynamic Media Classic에 액세스하는 경우 기본값과 다른 URL을 입력합니다.
+   * **[!UICONTROL 대체 URL]**: 사용자가 다른 URL을 통해 Adobe Dynamic Media Classic에 액세스하는 경우 기본값과 다른 URL을 입력합니다.
 
 ## 다른 사용자 관리 작업 {#other-user-management-tasks}
 
 [사용자 관리 설정] 화면에서 시작하여 다음 작업을 수행할 수도 있습니다.
 
-* **[!UICONTROL 사용자 목록 필터링 및 정렬]** - Media Portal 사용자 목록을 필터링하여 사용자를 찾습니다.
+* **[!UICONTROL 사용자 목록 필터링 및 정렬]**: Media Portal 사용자 목록을 필터링하여 사용자를 찾습니다.
 
-* **[!UICONTROL 사용자 삭제]** - 목록에서 사용자를 제거합니다.
+* **[!UICONTROL 사용자 삭제]**: 목록에서 사용자를 제거합니다.
 
-* **[!UICONTROL 사용자 활성화 및 비활성화]** - 사용자가 폴더에 액세스하지 못하도록 일시 중단합니다.
+* **[!UICONTROL 사용자 활성화 및 비활성화]**: 사용자가 폴더에 액세스하지 못하도록 일시 중단합니다.
 
-* **[!UICONTROL 사용자 정보 편집]** - 사용자에 대한 최신 정보를 입력합니다.
+* **[!UICONTROL 사용자 정보 편집]**: 사용자에 대한 최신 정보를 입력합니다.
 
-* **[!UICONTROL 사용자 정의 필드 만들기]** - Adobe Dynamic Media Classic에서 에셋을 구성하는 데 도움이 되도록 사용자 정의 메타데이터 필드를 만듭니다. 또한 이 필드는 필요에 따라 활성화되거나 비활성화될 수 있습니다.
+* **[!UICONTROL 사용자 정의 필드 만들기]**: Adobe Dynamic Media Classic에서 에셋을 구성하는 데 도움이 되도록 사용자 정의 메타데이터 필드를 만듭니다. 또한 이 필드는 필요에 따라 활성화되거나 비활성화될 수 있습니다.
 
 [사용자 지정 필드](application-setup.md#user_defined_fields)를 참조하십시오.

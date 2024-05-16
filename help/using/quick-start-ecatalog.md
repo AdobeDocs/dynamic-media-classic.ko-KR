@@ -10,16 +10,16 @@ role: User
 exl-id: 9e2df814-465d-412a-a032-ef3e8cb462ba
 topic: Integrations
 level: Experienced
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '1470'
-ht-degree: 33%
+ht-degree: 27%
 
 ---
 
 # 빠른 시작: eCatalog{#quick-start-ecatalogs}
 
-eCatalog는 카탈로그, 브로셔, 전단, 제품 설명서 또는 광고 전단과 같은 인쇄물의 디지털 웹 버전입니다. eCatalog는 웹 사이트의 eCatalog 뷰어에 표시됩니다. 이 뷰어는 인쇄물을 읽는 경험을 시뮬레이션합니다.
+eCatalog는 카탈로그, 브로슈어, 전단지, 제품 설명서 또는 광고 순환 등 인쇄 자료의 디지털 웹 버전입니다. eCatalog는 웹 사이트의 eCatalog 뷰어에 표시됩니다. 이 뷰어는 인쇄물을 읽는 경험을 시뮬레이션합니다.
 
 다음 교육 비디오도 참조하십시오.
 
@@ -48,7 +48,7 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 
 >[!NOTE]
 >
->Dynamic Media - Scene7 모드 사용자이고 eCatalogs를 사용하려면 `pdfbrochure` CRXDE Lite의 값입니다. 이렇게 하려면 Adobe Experience Manager에서 **[!UICONTROL 도구]** > **[!UICONTROL 일반]** > **[!UICONTROL CRXDE Lite]**. 왼쪽 패널 탐색 트리에서 로 이동합니다. `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
+>Dynamic Media: Scene7 모드 사용자이고 eCatalogs를 사용하려면 `pdfbrochure` CRXDE Lite의 값입니다. 이렇게 하려면 Adobe Experience Manager에서 **[!UICONTROL 도구]** > **[!UICONTROL 일반]** > **[!UICONTROL CRXDE Lite]**. 왼쪽 패널 탐색 트리에서 로 이동합니다. `/conf/global/settings/cloudconfigs/dmscene7/jcr:content/mimeTypes/application_pdf`.
 >
 >오른쪽 아래 창의 **[!UICONTROL 속성]** 탭에서 `jobParam` 행. 다음에 대한 값 설정 `pdfbrochure` 출처: `false` 끝 `true`. 에서와 같이 `pdfbrochure=true`
 >
@@ -82,7 +82,7 @@ eCatalog 페이지의 **[!UICONTROL 페이지 주문]** 탭에서 레이아웃 �
 
 ## 3. 이미지 맵 만들기
 
-이미지 맵은 eCatalog 페이지에 다른 측면을 추가합니다. 이미지 맵은 항목에 대한 자세한 정보를 제공하는 페이지의 한 영역입니다. 뷰어가 포인터를 이미지 맵 위로 롤오버하면 항목에 대한 설명이 표시됩니다. 이미지 맵을 클릭하면 새 웹 페이지를 여는 외부 참조가 활성화되고, 이 페이지에서 항목에 대한 자세한 정보를 확인할 수 있습니다.
+이미지 맵은 eCatalog 페이지에 다른 측면을 추가합니다. 이미지 맵은 항목에 대한 자세한 정보를 제공하는 페이지의 한 영역입니다. 뷰어가 포인터를 이미지 맵 위로 롤오버하면 항목에 대한 설명이 표시됩니다. 이미지 맵을 클릭하면 항목에 대해 자세히 알아볼 수 있는 새 웹 페이지를 여는 외부 참조가 활성화됩니다.
 
 이미지 맵을 만들려면 eCatalog 화면을 엽니다. 그런 다음 로 이동합니다. **[!UICONTROL 페이지 매핑]** eCatalog 화면의 탭으로 이동하여 맵을 Rectangle Image Map 도구 또는 Polygon Image Map 도구로 프레임화합니다. [패닝] 도구로 맵 테두리를 드래그하여 이미지 맵의 위치와 크기를 조정할 수 있습니다.
 
@@ -124,8 +124,8 @@ eCatalog와 관련 PDF을 게시하면 웹 사이트 및 애플리케이션에 �
 
 ## 7. 웹 페이지에 eCatalog 연결
 
-Adobe Dynamic Media Classic은 사용자가 Dynamic Media 이미지 서버에 게시할 때 eCatalog를 표시하는 데 필요한 URL 콜아웃 문자열을 활성화합니다. 패널에서 URL을 선택하여 미리보기 화면 및 찾아보기 패널(세부 사항 보기)에서 이 URL 문자열을 복사할 수 있습니다. 복사한 URL 문자열은 웹 사이트와 애플리케이션에서 사용할 수 있습니다.
+Adobe Dynamic Media Classic은 사용자가 Dynamic Media 이미지 서버에 게시할 때 eCatalog를 표시하는 데 필요한 URL 콜아웃 문자열을 활성화합니다. 패널에서 URL을 선택하여 미리보기 화면 및 찾아보기 패널(세부 사항 보기)에서 이 URL 문자열을 복사할 수 있습니다. URL 문자열을 복사하면 웹 사이트 및 애플리케이션에서 사용할 수 있습니다.
 
-IT 팀과 협력하여 eCatalog 링크를 웹 사이트의 적절한 위치에 배치합니다. 사용자가 링크를 선택하면 eCatalog 뷰어가 나타나고 사용자는 eCatalog를 검색할 수 있습니다.
+IT 팀과 함께 eCatalog에 대한 링크를 웹 페이지의 적절한 위치에 배치합니다. 사용자가 링크를 선택하면 eCatalog 뷰어가 나타나고 사용자는 eCatalog를 검색할 수 있습니다.
 
 다음을 참조하십시오 [웹 페이지에 eCatalog 연결](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page).

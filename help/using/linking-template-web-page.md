@@ -1,5 +1,5 @@
 ---
-title: 템플릿을 웹 페이지에 연결
+title: 웹 페이지에 템플릿 연결
 description: Adobe Dynamic Media Classic에서 웹 페이지에 템플릿을 연결하는 방법을 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,16 +10,16 @@ role: User
 exl-id: 6305c287-360f-48c2-b456-58be0791c7af
 topic: Administration, Content Management, Development
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '339'
-ht-degree: 32%
+ht-degree: 16%
 
 ---
 
-# 템플릿을 웹 페이지에 연결{#linking-a-template-to-a-web-page}
+# 웹 페이지에 템플릿 연결{#linking-a-template-to-a-web-page}
 
-웹 사이트 및 애플리케이션은 URL 문자열을 통해 Dynamic Media Image Server 콘텐츠에 액세스합니다. 템플릿을 게시하면 Adobe Dynamic Media Classic이 Dynamic Media 이미지 서버에서 템플릿을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 이 URL을 웹 브라우저에 붙여 넣을 수 있습니다.
+웹 사이트 및 애플리케이션은 URL 문자열을 통해 Dynamic Media Image Server 콘텐츠에 액세스합니다. 템플릿을 게시하면 Adobe Dynamic Media Classic이 Dynamic Media 이미지 서버에서 템플릿을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 웹 브라우저에 이 URL을 붙여넣을 수 있습니다.
 
 웹 페이지 및 애플리케이션에 URL 문자열을 배치하려면 Adobe Dynamic Media Classic에서 해당 문자열을 복사합니다. 이미지 사전 설정으로 생성된 템플릿 URL 문자열을 가져오려면 미리 보기 화면 또는 찾아보기 패널(자세히 보기)로 이동합니다. 이미지 사전 설정을 선택한 다음 [URL 복사] 단추를 선택합니다.
 
@@ -37,7 +37,7 @@ ht-degree: 32%
 
 ## 웹 페이지에 템플릿 URL 추가 {#adding-template-urls-to-your-web-page}
 
-웹 페이지에 템플릿을 추가하려면 웹 페이지 개발 팀에 문의하여 수정하십시오. `<IMG>` 태그를 HTML 웹 페이지 코드에 추가합니다. Adobe Dynamic Media Classic URL 문자열을 사용하여 Dynamic Media 이미지 서버에 요청합니다. 상거래 엔진이나 동적 웹 페이지 코드는 템플릿에 대해 선택한 이미지 사전 설정에 정의된 크기 및 형식 지정 사양에 따라 템플릿 이미지를 삽입합니다.
+웹 페이지에 템플릿을 추가하려면 웹 페이지 개발 팀에 문의하여 `<IMG>` 태그를 HTML 웹 페이지 코드에 추가합니다. Adobe Dynamic Media Classic URL 문자열을 사용하여 Dynamic Media 이미지 서버에 요청합니다. 상거래 엔진 또는 동적 웹 페이지 코드는 템플릿의 이미지 사전 설정에서 정의한 서식 지정 사양과 함께 템플릿 이미지를 삽입합니다.
 
 >[!MORELIKETHIS]
 >

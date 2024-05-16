@@ -10,7 +10,7 @@ role: User
 exl-id: b085f7ea-4623-402e-97f5-ed8ad5f368c7
 topic: Content Management
 level: Intermediate
-source-git-commit: f054057d383b26e9088582f418f62504c3f327d8
+source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 10%
@@ -19,7 +19,7 @@ ht-degree: 10%
 
 # 회전 집합 게시{#publishing-a-spin-set}
 
-회전 집합을 게시하면 이미지가 Dynamic Media 이미지 서버의 집합에 배치되며, 여기서 웹 사이트나 애플리케이션에서 사용할 수 있습니다. 또한 게시 프로세스 중에 Adobe Dynamic Media Classic은 웹 사이트 또는 애플리케이션에 필요한 스핀 세트 URL 문자열을 활성화합니다.
+회전 집합을 게시하면 웹 사이트 또는 애플리케이션에서 사용할 수 있는 Dynamic Media 이미지 서버의 집합에 이미지가 배치됩니다. 또한 게시 프로세스 중에 Adobe Dynamic Media Classic은 웹 사이트 또는 애플리케이션에 필요한 스핀 세트 URL 문자열을 활성화합니다.
 
 ## 게시할 회전 집합 표시 {#marking-a-spin-set-for-publish}
 

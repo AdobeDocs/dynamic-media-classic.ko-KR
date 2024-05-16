@@ -1,5 +1,5 @@
 ---
-title: 혼합 미디어 집합을 웹 페이지에 연결
+title: 웹 페이지에 혼합 미디어 집합 연결
 description: Adobe Dynamic Media Classic에서 혼합 미디어 세트를 웹 페이지에 연결하는 방법을 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -10,16 +10,16 @@ role: User
 exl-id: 76a7530c-0cc7-4a7f-bc31-2950c4946871
 topic: Content Management
 level: Intermediate
-source-git-commit: faa1784e1d19b1167cad5749dc04227e3ff388e5
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '653'
-ht-degree: 43%
+ht-degree: 30%
 
 ---
 
-# 혼합 미디어 집합을 웹 페이지에 연결{#linking-a-mixed-media-set-to-a-web-page}
+# 웹 페이지에 혼합 미디어 집합 연결{#linking-a-mixed-media-set-to-a-web-page}
 
-혼합 미디어 세트를 게시한 후 웹 사이트 또는 애플리케이션에서 사용할 관련 URL을 가져올 수 있습니다. 필요한 경우 URL을 배포하여 사용자가 웹 사이트 또는 애플리케이션에서 혼합 미디어 집합을 볼 수 있게 합니다.
+혼합 미디어 세트를 게시한 후 웹 사이트 또는 애플리케이션에서 사용할 관련 URL을 가져올 수 있습니다. 그런 다음 필요에 따라 URL을 배포하여 사용자가 웹 사이트 또는 애플리케이션에서 혼합 미디어 세트를 볼 수 있도록 할 수 있습니다.
 
 ## 혼합 미디어 집합 URL 얻기 {#obtain-a-mixed-media-set-url}
 
@@ -46,9 +46,9 @@ ht-degree: 43%
 
 ## 혼합 미디어 집합 뷰어의 포함 코드 복사 {#copying-the-embed-code-of-a-mixed-media-set-viewer}
 
-임베드 코드 기능을 사용하면 선택한 혼합 미디어 집합의 뷰어 코드를 검토할 수 있습니다. 또한 뷰어 배포를 위해 코드를 클립보드로 복사하여 웹 페이지에 붙여넣을 수도 있습니다. 코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
+임베드 코드 기능을 사용하면 선택한 혼합 미디어 집합의 뷰어 코드를 검토할 수 있습니다. 또한 코드를 클립보드에 복사하여 뷰어의 배포를 위해 웹 페이지에 붙여넣을 수 있습니다. 코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
 
-**혼합 미디어 집합 뷰어의 임베드 코드를 복사하려면:**
+**혼합 미디어 집합 뷰어의 포함 코드를 복사하려면 다음을 수행하십시오.**
 
 1. 에셋 찾아보기 패널의 표시 드롭다운 목록에서 다음을 선택합니다. **[!UICONTROL 혼합 미디어 집합]**.
 1. 왼쪽의 [자산 라이브러리] 패널에서 임베드 코드를 복사하려는 혼합 미디어 집합이 들어 있는 자산 폴더를 탐색합니다.

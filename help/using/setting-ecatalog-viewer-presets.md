@@ -9,7 +9,7 @@ role: User
 exl-id: 4357e6b8-fbc5-4e93-9476-db92a7dc7464
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5b5dcd1199bd51ec987b5673fce75bc86baad55b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 25%
@@ -29,9 +29,9 @@ eCatalog 뷰어 사전 설정을 만들 수 있도록 다음 단계를 따르십
 1. 전역 탐색 모음에서 다음 위치로 이동합니다. **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**.
 1. [뷰어 사전 설정] 화면에서 새로 시작하거나 기존 eCatalog 뷰어 사전 설정에서 시작하여 eCatalog 뷰어 사전 설정을 만듭니다.
 
-   * **eCatalog 뷰어 사전 설정 만들기** - 선택 **[!UICONTROL 추가]**. 뷰어 사전 설정 추가 대화 상자에서 플랫폼을 선택하고 eCatalog 뷰어를 선택한 다음 를 선택합니다. **[!UICONTROL 추가]**.
+   * **eCatalog 뷰어 사전 설정 만들기**: 선택 **[!UICONTROL 추가]**. 뷰어 사전 설정 추가 대화 상자에서 플랫폼을 선택하고 eCatalog 뷰어를 선택한 다음 를 선택합니다. **[!UICONTROL 추가]**.
 
-   * **eCatalog 뷰어 사전 설정 편집** - eCatalog 뷰어 사전 설정을 선택한 다음 선택 **[!UICONTROL 편집]**. 선택 **[!UICONTROL 다른 이름으로 저장]** 사전 설정 만들기를 완료한 후에.
+   * **eCatalog 뷰어 사전 설정 편집**: eCatalog 뷰어 사전 설정을 선택한 다음 을 선택합니다. **[!UICONTROL 편집]**. 선택 **[!UICONTROL 다른 이름으로 저장]** 사전 설정 만들기를 완료한 후에.
 
 1. 다음에서 `Configure Viewer` 페이지에서 eCatalog 뷰어 사전 설정 이름을 입력합니다.
 1. 다음에서 `Configure Viewer` 페이지에서 원하는 옵션을 설정합니다.
@@ -55,7 +55,7 @@ eCatalog 뷰어 사전 설정을 만들 수 있도록 다음 단계를 따르십
 >eCatalog 자체에 정의된 템플릿 대신 이 응답 템플릿을 사용하려면 을 추가합니다. `fmt=1` 를 입력합니다. 예: `https://.../$3$/$4$/$1$/?FMT=1`.
 
 1. 선택 **[!UICONTROL 저장]**.
-1. 선택 **[!UICONTROL 기본값]** 따라서 만든 eCatalog 뷰어 사전 설정은 웹 페이지에 eCatalog를 표시하는 데 사용됩니다.
+1. 선택 **[!UICONTROL 기본값]** 따라서 사용자가 만든 eCatalog 뷰어 사전 설정은 웹 페이지에 eCatalog를 표시하는 데 사용됩니다.
 
 eCatalog 뷰어 사전 설정을 삭제하려면 뷰어 사전 설정 화면에서 사전 설정을 선택한 다음 을 선택합니다 **[!UICONTROL 삭제]**.
 

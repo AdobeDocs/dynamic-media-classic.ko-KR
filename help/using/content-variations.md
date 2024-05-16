@@ -10,10 +10,10 @@ role: User
 exl-id: 65b8c314-7ec1-417f-8a7b-aa13762072a1
 topic: Content Management
 level: Intermediate
-source-git-commit: b2a6aeb1aab420803a8b7dafb0fdeda495e2a69b
+source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
 workflow-type: tm+mt
 source-wordcount: '248'
-ht-degree: 55%
+ht-degree: 44%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 55%
 
 범용 URL은 세트에 나열된 순서에 따라 페이지에 나타나는 템플릿 변형을 표시하는 데 사용됩니다. 템플릿 집합 목록의 상단에 있는 템플릿은 항상 게시됩니다.
 
-목록에서 이미지 사전 설정 URL을 사용할 수 있습니다. 이미지 사전 설정 URL은 유니버설 URL과 유사합니다. 둘 이상의 이미지 사전 설정 URL이 있을 수 있습니다.
+목록에서 이미지 사전 설정 URL을 사용할 수 있습니다. 이미지 사전 설정 URL은 범용 URL과 같습니다. 이미지 사전 설정 URL이 두 개 이상 있을 수 있습니다.
 
 1. 다음으로 이동 **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 집합]**.
 1. 빌더에서 템플릿을 선택한 다음 를 선택합니다 **[!UICONTROL 추가/미리보기]**.
