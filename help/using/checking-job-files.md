@@ -10,16 +10,16 @@ role: User
 exl-id: b6b11e1c-5eda-4bdb-8ffb-ecd3678f2352
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1619'
-ht-degree: 24%
+source-wordcount: '1622'
+ht-degree: 23%
 
 ---
 
 # 작업 파일 확인{#checking-job-files}
 
-Adobe Dynamic Media Classic에 대한 파일 업로드 및 Adobe Dynamic Media Classic 서버에 게시하는 파일을 모니터링하기 위해 Adobe Dynamic Media Classic에서는 작업 페이지를 제공합니다. 작업 페이지에서 업로드 및 게시 작업을 검토하고, 작업 상태를 확인하고, 이 페이지에서 게시 작업을 취소할 수 있습니다. 업로드 및 게시 작업을 예약할 수도 있습니다.
+Adobe Dynamic Media Classic에 대한 파일 업로드 및 Adobe Dynamic Media Classic 서버에 게시하는 파일을 모니터링하기 위해 Adobe Dynamic Media Classic에서는 작업 페이지를 제공합니다. [작업] 페이지에서 작업을 검토, 업로드 및 게시하고, 작업 상태를 확인하고, 이 페이지에서 게시 작업을 취소할 수 있습니다. 업로드 및 게시 작업을 예약할 수도 있습니다.
 
 자산을 업로드하면 [작업] 메뉴 옆에 회전하는 아이콘이 표시되어 작업이 진행 중임을 나타내고 진행 중인 파일 수도 표시됩니다. 아이콘을 선택하여 활성 작업에 대한 자세한 정보를 볼 수 있습니다.
 
@@ -49,7 +49,7 @@ Adobe Dynamic Media Classic에 대한 파일 업로드 및 Adobe Dynamic Media C
 
 * **[!UICONTROL 상태]**: 작업 상태를 표시합니다.
 
-* **[!UICONTROL 대상]**: 업로드 작업의 경우 파일이 업로드된 회사 이름 및 폴더입니다. 이 범주는 게시용 작업에는 적용되지 않습니다.
+* **[!UICONTROL 대상]**: 업로드 작업의 경우 대상은 파일이 업로드된 회사 이름과 폴더입니다. 이 범주는 게시용 작업에는 적용되지 않습니다.
 
 * **[!UICONTROL 제출한 사람]**: 에셋을 업로드한 사용자를 나열합니다.
 

@@ -10,10 +10,10 @@ role: Admin,User
 exl-id: 9590c53c-fd38-4bf2-b723-cd7369702364
 topic: Administration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: bb229047c0c9b3855453ea15dcd1f9754bc65cef
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 54%
+source-wordcount: '1008'
+ht-degree: 50%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->사용자를 추가하기 전에 사용자를 관리하기 위한 그룹을 설정합니다. Media Portal에서는 사용자를 하나 이상의 그룹에 지정하지 않을 경우 사용자를 추가할 수 없습니다. 자세한 내용은 [Media Portal 그룹 만들기 및 관리](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+>사용자를 추가하기 전에 사용자를 관리하기 위한 그룹을 설정합니다. Media Portal을 사용하면 사용자를 하나 이상의 그룹에 할당하여 사용자를 추가할 수 있습니다. 자세한 내용은 [Media Portal 그룹 만들기 및 관리](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
 
 ## Media Portal 암호 관리 {#handling-media-portal-passwords}
 
@@ -95,7 +95,7 @@ ht-degree: 54%
 
 >[!NOTE]
 >
->CSV 파일의 형식이 올바르지 않은 경우, 다음 오류 메시지가 표시됩니다. &quot;업로드된 CSV 파일을 처리하는 동안 오류가 발생했습니다. 파일 내용에서 유효한 데이터를 확인하십시오.&quot; 또한 CSV에 기존 IP 또는 IPS 사용자가 포함되어 있는 경우 해당 사용자는 [사용자 목록]에 추가되지 않습니다.
+>CSV 파일의 형식이 올바르지 않은 경우, 다음 오류 메시지가 표시됩니다. &quot;업로드된 CSV 파일을 처리하는 동안 오류가 발생했습니다. 파일 내용에서 유효한 데이터를 확인하십시오.&quot; 또한 CSV에 기존 IP 또는 IPS 사용자가 포함되어 있으면 사용자가 사용자 목록에 추가되지 않습니다.
 
 ## 선택 가능한 Media Portal 사용자 목록 생성 {#generating-a-selectable-list-of-media-portal-users}
 
