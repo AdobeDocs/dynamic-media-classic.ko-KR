@@ -9,7 +9,7 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: b34520c31ca7d46a0753bf0900070743110e6fc4
+source-git-commit: 3f71adedf54832c4e7c4c46d4103d609a2fd9634
 workflow-type: tm+mt
 source-wordcount: '2934'
 ht-degree: 1%
@@ -125,7 +125,6 @@ Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설
 1. 여러 캡션 및 오디오 트랙을 추가하려는 업로드된 비디오 자산으로 이동합니다.
 1. 에셋 선택 모드의 목록 보기 또는 카드 보기에서 비디오 에셋을 선택합니다.
 1. 도구 모음에서 속성 아이콘(안에 &quot;i&quot;가 있는 원)을 선택합니다.
-<!-- ![Selected video asset with checkmark over video thumbnail image and View Properties highlighted on the toolbar.](/help/assets/dynamic-media/assets/msma-selectedasset-propertiesbutton.png)*Selected video asset in Card view.* -->
 1. 비디오의 속성 페이지에서 **[!UICONTROL 캡션 및 오디오 트랙]** 탭.
 
    >[!TIP]
@@ -135,8 +134,6 @@ Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설
    >* 또는 Dynamic Media에서 비디오를 재처리해야 합니다. 이 경우 다음을 참조하십시오 [폴더에서 Dynamic Media 에셋 재처리].
    >
    >위의 작업 중 하나를 완료했으면 다음 단계로 돌아갑니다.
-
-   <!-- ![Captions and Audio Tracks tab on the Properties page.](/help/assets/dynamic-media/assets/msma-audiotracks2.png)*Captions and Audio Tracks tab on the video's Properties page.* -->
 
 1. 비디오에 하나 이상의 오디오 트랙을 추가하려면 다음을 수행하십시오.
    1. 선택 **[!UICONTROL 오디오 트랙 업로드]**.
@@ -165,7 +162,6 @@ Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설
    | **옵션 2** | AI가 여러 언어로 캡션 파일을 생성했으면 합니다.<br>다음을 참조하십시오 **옵션 2** 아래 8단계에서. |
    | **옵션 3** | 캡션 파일(.vtt)의 텍스트를 수정하고 다시 업로드하여 이전 .vtt 파일을 교체한 다음 AI가 수정된 파일을 번역하도록 해야 합니다.<br>다음을 참조하십시오 **옵션 3** 아래 8단계에서. |
 
-
 +++**옵션 1:** *사용하려는 언어로 된 기존 캡션 파일이 있습니다.*
 
    1. 페이지의 오른쪽 상단 근처에서 을 클릭합니다. **[!UICONTROL 캡션 만들기]** > **[!UICONTROL 파일 업로드]**.
@@ -189,7 +185,6 @@ Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설
 
    1. 선택한 경우 **[!UICONTROL 저장 및 닫기]** 이전 단계에서 를 선택하는 대신 **[!UICONTROL 저장]**&#x200B;업로드된 파일의 처리 상태를 계속 볼 수 있습니다. 다음을 참조하십시오 [업로드된 캡션 및 오디오 추적 파일의 라이프사이클 상태 보기].
    1. 9단계로 진행합니다.
-
 +++
 
 +++**옵션 2:** *AI가 여러 언어로 캡션 파일을 생성했으면 합니다.*
@@ -218,7 +213,6 @@ Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설
 
       필요한 경우 나중에 특정 캡션 메타데이터를 변경하거나 편집할 수 있습니다. 비디오가 게시되면 이러한 메타데이터 세부 사항이 게시된 비디오의 공개 URL에 반영됩니다.
    1. 9단계로 진행합니다.
-
 +++
 
 +++**옵션 3:** *캡션 파일(.vtt)의 텍스트를 수정하고 다시 업로드하여 이전 .vtt 파일을 교체한 다음 AI가 수정된 파일을 번역하도록 해야 합니다.*
@@ -248,7 +242,6 @@ Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설
       필요한 경우 나중에 특정 캡션 메타데이터를 변경하거나 편집할 수 있습니다. 비디오가 게시되면 이러한 메타데이터 세부 사항이 게시된 비디오의 공개 URL에 반영됩니다.
 
    1. 9단계로 진행합니다.
-
 +++
 
 1. (선택 사항) 게시 전에 비디오를 미리 보고 캡션 및 오디오가 예상대로 작동하는지 확인합니다. 다음을 참조하십시오 [여러 캡션 및 오디오 트랙이 있는 비디오 미리 보기].
