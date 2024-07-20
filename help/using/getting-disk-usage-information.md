@@ -18,7 +18,7 @@ ht-degree: 42%
 
 # 디스크 사용 정보 가져오기 {#get-disk-usage-information}
 
-다음을 사용할 수 있습니다. `disk_info` 매개 변수를 사용하여 다음 예와 같이 회사의 디스크 공간 사용에 대한 정보를 검색합니다.
+다음 예제와 같이 `disk_info` 매개 변수를 사용하여 회사의 디스크 공간 사용에 대한 정보를 검색할 수 있습니다.
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=disk_info&shared_secret=d03b7e0b-c9dc-4c6c-af0b-419beeea1c63

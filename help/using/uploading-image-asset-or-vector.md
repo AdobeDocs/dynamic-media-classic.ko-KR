@@ -30,7 +30,7 @@ ht-degree: 53%
 
 ## 공유 암호 키 요청 {#requesting-a-shared-secret-key}
 
-요청 a *공유 암호 키* 작성자: [Admin Console을 사용하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 기술 지원 사례에서 공유 암호 키를 요청합니다.
+[Admin Console을 사용하여 *공유 암호 키*&#x200B;를 요청하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 기술 지원 사례에서 공유 암호 키를 요청합니다.
 
 이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Adobe Dynamic Media Classic에서 키를 받으면 나중에 사용할 수 있도록 로컬에 저장합니다.
 
@@ -41,12 +41,12 @@ ht-degree: 53%
 업로드 토큰은 특정 시간 동안만 사용할 수 있는 영숫자 문자열입니다. 업로드 토큰을 검색할 수 있도록 다음 URL을 사용하여 공유 암호 키를 대체하십시오.
 
 * 래스터 이미지
-  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`이 예제에서 공유 암호 키는 `fece4b21-87ee-47fc-9b99-2e29b78b602`
+  `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`이 예제에서 공유 암호 키는 `fece4b21-87ee-47fc-9b99-2e29b78b602`입니다.
 
 <!-- * Vector
   `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
 
-기본적으로 업로드 토큰은 검색한 지 5분(300초) 후에 만료됩니다. 더 많은 시간을 요청하려면 다음을 포함하십시오. `expires` 를 입력합니다. 예를 들어 다음 샘플 이미지 URL은 1800초 동안 유효한 업로드 토큰을 검색합니다.
+기본적으로 업로드 토큰은 검색한 지 5분(300초) 후에 만료됩니다. 추가 시간을 요청하려면 URL에 `expires`을(를) 포함하고 필요한 시간(초)을 입력하십시오. 예를 들어 다음 샘플 이미지 URL은 1800초 동안 유효한 업로드 토큰을 검색합니다.
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=1800
@@ -96,7 +96,7 @@ URL 쿼리 문자열에 다음 필드를 사용하여 업로드 토큰을 검색
 
 이제 이미지 자산을 업로드할 수 있습니다.
 
-다음을 참조하십시오 [이미지 자산 업로드](uploading-image-asset-or-vector.md#uploading_an_image_asset).
+[이미지 자산 업로드](uploading-image-asset-or-vector.md#uploading_an_image_asset)를 참조하십시오.
 
 ## 래스터 이미지 자산 업로드 {#uploading-an-image-asset}
 
@@ -106,11 +106,11 @@ URL 쿼리 문자열에 다음 필드를 사용하여 업로드 토큰을 검색
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company
 ```
 
-다음 `upload_token` 및 `company_name` 필드는 필수입니다.
+`upload_token` 및 `company_name` 필드는 필수입니다.
 
-다음을 참조하십시오 [업로드 토큰 검색](uploading-image-asset-or-vector.md#retrieving_the_upload_token).
+[업로드 토큰 검색](uploading-image-asset-or-vector.md#retrieving_the_upload_token)을 참조하세요.
 
-다음을 참조하십시오 [공유 암호 키 검색](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key).
+[공유 암호 키 검색](uploading-image-asset-or-vector.md#requesting_a_shared_secret_key)을 참조하십시오.
 
 다음 예와 같이 다른 선택적 값을 URL 쿼리 문자열로 보낼 수도 있습니다.
 
@@ -118,7 +118,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-994d-312094e0ef20_18000&company_name=000Company&file_limit=2000000&file_exts=jpg,gif
 ```
 
-다음 `file_limit` 매개 변수는 파일 크기 제한(바이트)을 지정합니다. 다음 `file_exts` 매개 변수는 업로드에 허용되는 파일 이름 확장자를 지정합니다. 두 값은 모두 선택 사항입니다.
+`file_limit` 매개 변수는 파일 크기 제한을 바이트 단위로 지정합니다. `file_exts` 매개 변수는 업로드에 허용되는 파일 이름 확장명을 지정합니다. 두 값은 모두 선택 사항입니다.
 
 허용되는 파일 이름 확장자와 파일 크기 제한에 대해 애플리케이션에서 글로벌 제한이 설정됩니다. 요청에서 보낸 내용이 전역 제한의 하위 세트인 경우 적용됩니다. 글로벌 제한은 다음과 같습니다.
 
@@ -135,14 +135,14 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 파일 이름 확장자 목록입니다.
 * 자산과 연결된 색상 프로파일 및 파일 이름을 유지할지 여부입니다.
 * 녹아웃 배경 사용 여부. [녹아웃 배경]을 활성화하면 [모퉁이], [허용치] 및 [채우기 방법]을 설정합니다.
-에서 녹아웃 배경 보기 [업로드 시 이미지 세부 조정 옵션](image-editing-options-upload.md#image-editing-options-at-upload).
+업로드 시 [이미지 미세 조정 옵션](image-editing-options-upload.md#image-editing-options-at-upload)에서 녹아웃 배경 을 참조하십시오.
 * 업로드할 파일의 이름입니다.
 
-을(를) 선택하여 위의 양식과 연결된 HTML 소스 코드를 볼 수 있습니다. [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)
+[https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)을(를) 선택하여 위의 양식과 연결된 HTML 소스 코드를 볼 수 있습니다.
 
-Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭하고 를 선택합니다. **[!UICONTROL 페이지 소스 보기]**. 이 코드는 해당 URL 쿼리 문자열과 사용자가 선택할 때 실행되는 POST 메서드를 보여 줍니다 **[!UICONTROL 제출]**.
+Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 페이지 Source 보기]**&#x200B;를 선택합니다. 이 코드는 사용자가 **[!UICONTROL 제출]**&#x200B;을 선택할 때 실행되는 해당 URL 쿼리 문자열과 POST 메서드를 보여 줍니다.
 
-Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL 보기]** > **[!UICONTROL 소스]**. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 웹 개발자 도구]**. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
+Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL 보기]** > **[!UICONTROL Source]**(으)로 이동하십시오. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 웹 개발자 도구]**&#x200B;로 이동하십시오. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 
 다음은 성공적인 업로드에 대한 샘플 응답입니다.
 
@@ -202,7 +202,7 @@ POST
 
 ### 이미지에 대한 자산 메타데이터 가져오기 {#getting-asset-metadata-for-images}
 
-다음을 사용할 수 있습니다. `image_info` 업로드한 에셋에 대한 메타데이터를 검색하려면 다음 예를 참조하십시오.
+다음 예제와 같이 `image_info`을(를) 사용하여 업로드한 에셋의 메타데이터를 검색할 수 있습니다.
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=image_info&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

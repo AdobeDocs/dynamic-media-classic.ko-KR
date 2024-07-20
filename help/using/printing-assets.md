@@ -20,5 +20,5 @@ ht-degree: 0%
 # 에셋 인쇄{#printing-assets}
 
 1. 찾아보기 패널에서 인쇄할 에셋을 선택합니다.
-1. 다음으로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 인쇄]** 또는 누르기 `Ctrl+P` (Windows®) 또는 `Command+P` (Mac).
-1. 인쇄 대화 상자에서 인쇄할 매수를 선택한 다음 **[!UICONTROL 인쇄]**.
+1. **[!UICONTROL 파일]** > **[!UICONTROL 인쇄]**(으)로 이동하거나 `Ctrl+P`(Windows®) 또는 `Command+P`(Mac)을 누릅니다.
+1. 인쇄 대화 상자에서 인쇄할 매수를 선택한 다음 **[!UICONTROL 인쇄]**&#x200B;를 클릭합니다.

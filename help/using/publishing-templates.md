@@ -27,13 +27,13 @@ ht-degree: 11%
 
 ## 게시할 템플릿 표시 {#marking-templates-for-publish}
 
-템플릿 및 모든 지원 파일은 Dynamic Media 이미지 서버에 배치할 수 있도록 게시용으로 표시해야 합니다. 찾아보기 패널에서 다음 항목을 게시용으로 표시할 수 있습니다. **[!UICONTROL 게시로 표시]** 아이콘.
+템플릿 및 모든 지원 파일은 Dynamic Media 이미지 서버에 배치할 수 있도록 게시용으로 표시해야 합니다. **[!UICONTROL Publish에 표시]** 아이콘을 선택하여 찾아보기 패널에서 게시용으로 이 항목을 표시할 수 있습니다.
 
-## 템플릿 게시 {#publishing-your-template}
+## 템플릿 Publish {#publishing-your-template}
 
-Dynamic Media 이미지 서버에 템플릿을 게시하려면 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]**&#x200B;을(를) 선택한 다음 **[!UICONTROL 날짜]** 옵션을 선택합니다. 게시 작업의 이름을 선택적으로 입력할 수 있습니다. 선택 **[!UICONTROL 게시 제출]**.
+Dynamic Media 이미지 서버에 템플릿을 게시하려면 전역 탐색 모음에서 **[!UICONTROL Publish]**&#x200B;을(를) 선택한 다음 **[!UICONTROL When]** 옵션을 선택하십시오. 게시 작업의 이름을 선택적으로 입력할 수 있습니다. **[!UICONTROL Publish 제출]**&#x200B;을 선택합니다.
 
 >[!MORELIKETHIS]
 >
->* [게시할 자산 표시](publishing-files.md#publish_after_uploading)
+>* [게시할 자산을 표시](publishing-files.md#publish_after_uploading)
 >* [게시 작업 만들기](publishing-files.md#creating_a_publish_job)

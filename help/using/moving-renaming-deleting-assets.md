@@ -25,19 +25,19 @@ ht-degree: 17%
 
 [찾아보기] 패널에서 에셋을 다른 폴더로 이동할 수 있습니다.
 
-**자산을 이동하려면 다음을 수행합니다.**
+**에셋을 이동하려면:**
 
 1. [찾아보기] 패널에서 에셋을 선택하고 다음 중 하나를 수행합니다.
 
    * 에셋을 에셋 라이브러리에서 이동할 폴더를 표시하고 에셋을 폴더로 드래그합니다.
-   * 다음으로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 이동]**&#x200B;를 클릭하고 에셋 이동 창에서 폴더를 선택한 다음 를 선택합니다 **[!UICONTROL 이동]**.
+   * **[!UICONTROL 파일]** > **[!UICONTROL 이동]**(으)로 이동하고 Assets 이동 창에서 폴더를 선택한 다음 **[!UICONTROL 이동]**&#x200B;을 선택합니다.
 
 ## 자산 이름 바꾸기 {#rename-assets}
 
 1. [찾아보기] 패널에서 에셋을 선택하고 다음 중 하나를 수행합니다.
 
-   * 이름을 선택하고 새 이름을 입력한 다음 키를 누릅니다 **[!UICONTROL 입력]** 또는 이름에서 나가기를 선택합니다.
-   * 다음으로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 이름 바꾸기]**. 자산 이름이 강조 표시됩니다. 새 이름을 입력하고 키를 누릅니다 **[!UICONTROL 입력]**. 기존 Adobe Dynamic Media Classic 에셋의 이름을 입력하지 않도록 하십시오.
+   * 이름을 선택하고 새 이름을 입력한 다음 **[!UICONTROL Enter]**&#x200B;를 누르거나 다른 이름을 선택하세요.
+   * **[!UICONTROL 파일]** > **[!UICONTROL 이름 바꾸기]**(으)로 이동합니다. 자산 이름이 강조 표시됩니다. 새 이름을 입력하고 **[!UICONTROL Enter]**&#x200B;를 누르십시오. 기존 Adobe Dynamic Media Classic 에셋의 이름을 입력하지 않도록 하십시오.
 
 ## 자산 삭제 {#delete-assets}
 
@@ -51,12 +51,12 @@ ht-degree: 17%
 >
 >대량 삭제는 집중적인 작업입니다. 대량 삭제를 동시에 많이 수행하는 삭제 작업이 아니라 순차적으로 실행해야 합니다. Adobe은 삭제 작업을 시간당 5000개 이하의 에셋 삭제로 제한하는 것을 권장합니다. 시간당 5000보다 큰 숫자는 속도 제한을 초래할 수 있습니다.
 
-**에셋을 삭제하려면:**
+**자산을 삭제하려면:**
 
 1. 다음 중 하나를 수행합니다.
 
-   * 하나 이상의 에셋을 삭제하려면 [검색] 패널에서 에셋을 선택한 다음 키를 누릅니다 **[!UICONTROL 삭제]** 또는 다음으로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 삭제]**.
-   * 폴더를 삭제하려면 자산 라이브러리에서 폴더를 선택한 다음 을 선택합니다 **[!UICONTROL 폴더 제거]**.
+   * 하나 이상의 에셋을 삭제하려면 [찾아보기] 패널에서 에셋을 선택한 다음 **[!UICONTROL 삭제]**&#x200B;를 누르거나 **[!UICONTROL 파일]** > **[!UICONTROL 삭제]**(으)로 이동합니다.
+   * 폴더를 삭제하려면 자산 라이브러리에서 폴더를 선택한 다음 **[!UICONTROL 폴더 제거]**&#x200B;를 선택합니다.
 
      폴더를 삭제하면 폴더, 폴더의 모든 에셋 및 그 하위 폴더의 모든 에셋이 삭제됩니다.
 
@@ -70,14 +70,14 @@ Adobe Dynamic Media Classic ID 목록을 만들고 텍스트(.txt) 파일로 저
 
 목록을 만든 후 다음 단계를 수행하여 자산을 삭제하는 데 사용합니다.
 
-1. 다음으로 이동 **[!UICONTROL 파일]** > **[!UICONTROL 자산 목록 삭제]**.
-1. 다음에서 **[!UICONTROL 삭제된 자산 목록]** 대화 상자에서 삭제할 자산 목록이 있는 텍스트 파일의 경로를 입력합니다.
-1. 선택 **[!UICONTROL 삭제]**.
+1. **[!UICONTROL 파일]** > **[!UICONTROL 자산 목록 삭제]**(으)로 이동합니다.
+1. **[!UICONTROL 삭제된 자산 목록]** 대화 상자에서 삭제할 자산 목록이 있는 텍스트 파일의 경로를 입력합니다.
+1. **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
 텍스트 파일이 있는 에셋을 삭제할 때 목록에 Adobe Dynamic Media Classic ID가 없으면 &quot;목록에 있는 이러한 항목의 유효성을 검사할 수 없습니다.&quot;라는 메시지가 표시됩니다. 항목 목록도 표시됩니다. 단, Adobe Dynamic Media Classic에서는 작업 페이지에 오류가 발생하지 않습니다.
 
 >[!MORELIKETHIS]
 >
->* [찾아보기 패널에서 에셋 선택](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
+>* [검색 패널에서 에셋 선택](selecting-assets-browse-panel.md#selecting_assets_in_the_browse_panel)
 >* [업로드할 자산 및 폴더 준비](uploading-files.md#preparing_your_assets_and_folders_for_uploading)
 >* [휴지통 폴더에서 자산 복원](trash-folder.md#restoring_assets_from_the_trash_folder)

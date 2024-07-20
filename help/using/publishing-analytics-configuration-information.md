@@ -1,5 +1,5 @@
 ---
-title: Adobe Analytics 구성 정보 게시
+title: Publish Adobe Analytics 구성 정보
 description: Adobe Dynamic Media Classic에서 Adobe Analytics 구성 정보를 게시하는 방법을 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -17,9 +17,9 @@ ht-degree: 19%
 
 ---
 
-# Adobe Analytics 구성 정보 게시{#publishing-adobe-analytics-configuration-information}
+# Publish Adobe Analytics 구성 정보{#publishing-adobe-analytics-configuration-information}
 
-Adobe Dynamic Media Classic 뷰어를 게시하여 Adobe Analytics 보고서 구성에 대한 정보를 Adobe Dynamic Media Classic 서버로 전송합니다. 이 정보는 뷰어에 포함됩니다. 뷰어에 포함된 정보를 Adobe Dynamic Media Classic 서버에서 사용할 수 있도록 게시가 필요합니다. 사용자가 뷰어에서 활동을 수행한 후 정보가 서버에서 Adobe Analytics 릴레이될 수 있습니다.
+Publish을 통해 Adobe Dynamic Media Classic 뷰어를 관리하므로 Adobe Analytics 보고서 구성에 대한 정보가 Adobe Dynamic Media Classic 서버로 전송됩니다. 이 정보는 뷰어에 포함됩니다. 뷰어에 포함된 정보를 Adobe Dynamic Media Classic 서버에서 사용할 수 있도록 게시가 필요합니다. 사용자가 뷰어에서 활동을 수행한 후 정보가 서버에서 Adobe Analytics 릴레이될 수 있습니다.
 
 >[!NOTE]
 >
@@ -27,9 +27,9 @@ Adobe Dynamic Media Classic 뷰어를 게시하여 Adobe Analytics 보고서 구
 
 [Adobe Analytics에 로그인](log-analytics.md#log_in_to_adobe_analytics)을 참조하십시오.
 
-다음을 참조하십시오 [Adobe Analytics 보고서 구성](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
+[Adobe Analytics 보고서 구성](configuring-analytics-reports.md#configuring_adobe_analytics_reports)을 참조하세요.
 
-**구성 정보를 게시하려면 다음 작업을 수행하십시오.**
+**구성 정보를 게시하려면:**
 
-1. 전역 탐색 모음에서 를 선택합니다. **[!UICONTROL 게시]**.
-1. 다음에서 **[!UICONTROL `Publish`]** 대화 상자에서 **[!UICONTROL 게시 제출]**.
+1. 전역 탐색 모음에서 **[!UICONTROL Publish]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL `Publish`]** 대화 상자에서 **[!UICONTROL Publish 제출]**&#x200B;을 선택합니다.

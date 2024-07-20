@@ -27,9 +27,9 @@ Media Portal을 통해 회사는 승인된 자산을 외부 파트너 및 채널
 
 * [Media Portal 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/544_mp_overview1_converted%20renamed_Done-AVS)
 
-* [Media Portal 투어 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
+* [미디어 포털 둘러보기 1](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/545_mp_tour1_user_converted%20renamed_Done-AVS)
 
-* [Media Portal 투어 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
+* [미디어 포털 둘러보기 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
 다음 빠른 시작은 Media Portal 관리를 빠르게 시작하고 실행할 수 있도록 설계되었습니다. 각 단계가 끝나면 자세히 알아보려면 주제 링크를 선택합니다.
 
@@ -43,19 +43,19 @@ Media Portal 사용자는 사용자, 기여자 및 사용자-기여자라는 세
 
 그룹은 사용자에게 액세스 권한이 있는 폴더 및 파일, 사용자가 해당 폴더와 파일에서 수행할 수 있는 작업, 사용할 수 있는 이미지 사전 설정을 결정합니다. 관리자의 첫 번째 작업은 그룹을 만드는 것입니다. 각 그룹에 대해 그룹 구성원이 액세스할 수 있는 폴더, 파일 및 이미지 사전 설정을 결정합니다. 또한 그룹 구성원에게 읽기, 쓰기 및 삭제 권한을 부여합니다. 이러한 권한은 구성원이 액세스 권한을 가진 폴더와 파일을 찾고, 편집하고, 이름을 바꾸고, 삭제할 수 있는지 여부를 결정합니다. 
 
-다음을 참조하십시오 [Media Portal 그룹 만들기 및 관리](creating-media-portal-groups.md#creating_and_managing_media_portal_groups).
+[Media Portal 그룹 만들기 및 관리](creating-media-portal-groups.md#creating_and_managing_media_portal_groups)를 참조하십시오.
 
 ## 3. 사용자 추가
 
 사용자를 추가할 때 사용자에게 역할(사용자, 기여자 또는 기여자-사용자)을 지정합니다. 사용자를 하나 이상의 그룹에 할당할 수도 있습니다. 사용자를 빨리 추가하기 위해 CSV 파일 형식으로 사용자 목록을 업로드할 수 있습니다. 새 사용자에게는 환영 이메일 메시지와 Media Portal 로그온 지침이 전송됩니다. 
 
-다음을 참조하십시오 [Media Portal 사용자 추가 및 관리](adding-media-portal-users.md#adding_and_managing_media_portal_users).
+[Media Portal 사용자 추가 및 관리](adding-media-portal-users.md#adding_and_managing_media_portal_users)를 참조하십시오.
 
 ## 4. FTP 계정 관리
 
 Media Portal과 연결된 별도의 FTP 계정이 있을 수 있습니다. 이러한 데이터는 Adobe Dynamic Media Classic 계정의 특정 폴더에 매핑될 수 있습니다. 이러한 기능으로 사용자가 개별 FTP 계정을 사용하여 디지털 자산을 해당 계정으로 업로드하도록 할 수 있습니다.
 
-다음을 참조하십시오 [FTP 계정 관리](ftp-accounts.md#managing_ftp_accounts).
+[FTP 계정 관리](ftp-accounts.md#managing_ftp_accounts)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -67,13 +67,13 @@ Media Portal과 연결된 별도의 FTP 계정이 있을 수 있습니다. 이�
 
 Media Portal 사용자는 파일을 내보낼 때 파일을 다시 포맷하고 원래 기본 파일을 내보낼 수 있습니다. 관리자는 사용자가 파일을 내보내는 방법을 결정합니다. 
 
-다음을 참조하십시오 [Media Portal 사용자가 사용할 수 있는 내보내기 옵션 지정](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users).
+[Media Portal 사용자가 사용할 수 있는 내보내기 옵션 지정](specifying-export-options-available-media.md#specifying_export_options_available_to_media_portal_users)을 참조하십시오.
 
 ## 6. 이미지 사전 설정 만들기
 
 이미지 사전 설정은 사전 정의된 설정의 컬렉션입니다. 이러한 설정은 내보낼 때 이미지 모양의 크기, 이미지 품질, 형식, 해상도 및 기타 측면을 변경할 수 있습니다. 이미지 사전 설정을 만들어 사용자가 이미지를 내보낼 때 형식을 다시 지정하는 방법을 제어할 수 있습니다. 
 
-다음을 참조하십시오 [이미지 사전 설정 만들기 및 활성화](creating-enabling-image-presets.md#creating_and_enabling_image_presets).
+[이미지 사전 설정 만들기 및 활성화](creating-enabling-image-presets.md#creating_and_enabling_image_presets)를 참조하십시오.
 
 ## 7. 메타데이터 사전 설정 및 사용자 지정 메타데이터 필드 만들기
 
@@ -85,4 +85,4 @@ Media Portal 사용자는 파일을 내보낼 때 파일을 다시 포맷하고 
 
 Media Portal 스타일 설정을 사용하여 회사 로고 및 색상으로 Media Portal 페이지를 브랜딩할 수 있습니다. 스타일 설정을 사용하여 Media Portal에 회사 브랜딩을 지정합니다.
 
-다음을 참조하십시오 [Media Portal 페이지 사용자 정의](customizing-media-portal-screen.md#customizing_the_media_portal_screen).
+[Media Portal 사용자 지정](customizing-media-portal-screen.md#customizing_the_media_portal_screen)을 참조하십시오.

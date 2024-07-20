@@ -20,7 +20,7 @@ ht-degree: 20%
 
 뷰어, 이미지 제공 및 이미지 렌더링, 이미지 프로덕션 시스템에 대한 참조 안내서에서는 이러한 서버 모듈에 대한 http 프로토콜을 설명합니다. 웹 사이트 또는 사용자 지정 애플리케이션용으로 Adobe Dynamic Media Classic 리치 미디어를 사용하고 추가로 사용자 지정하려는 웹 사이트 개발자는 이 안내서를 사용할 수 있습니다. 사용자가 Dynamic Media Classic 데스크탑 앱, 일반적인 HTTP 프로토콜 표준 및 규칙 및 기본 이미징 용어에 익숙하다고 가정합니다.
 
-참조: [Dynamic Media 개발자 리소스](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources).
+[Dynamic Media 개발자 리소스](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)도 참조하세요.
 
 ## 뷰어 {#viewers-guide}
 

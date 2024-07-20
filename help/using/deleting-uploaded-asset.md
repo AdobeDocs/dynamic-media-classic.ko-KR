@@ -18,7 +18,7 @@ ht-degree: 34%
 
 # 업로드된 자산 삭제{#deleting-an-uploaded-asset}
 
-다음을 사용할 수 있습니다. `delete` 자산을 삭제할 이 형식의 매개 변수:
+이 형식의 `delete` 매개 변수를 사용하여 자산을 삭제할 수 있습니다.
 
 ```as3
 https://s7ugc1.scene7.com/ugc/image?op=delete&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&image_name=1442564.tif

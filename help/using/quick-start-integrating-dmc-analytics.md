@@ -25,7 +25,7 @@ Adobe Analytics을 Adobe Dynamic Media Classic과 통합하면 웹 사이트에�
 
 Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명확하게 파악할 수 있습니다. 어떤 제품 프레젠테이션이 전환을 유도하고 어떤 것이 고객의 관심을 끌지 못하는지 결정할 수 있습니다.
 
-참조: [Adobe Analytics에서 비디오 측정](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview).
+[Adobe Analytics에서 비디오 측정](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview)도 참조하세요.
 
 >[!NOTE]
 >
@@ -37,13 +37,13 @@ Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명�
 
 >[!NOTE]
 >
->Adobe Analytics에서 웹 서비스 액세스 그룹의 구성원으로 추가되었는지 확인합니다. Adobe Analytics 보고서를 구성하기 전에 이 유효성 검사를 수행하십시오. 그리고 Adobe Analytics 보고서 변수를 Adobe Dynamic Media Classic 이벤트에 일치시키기 전에 이 그룹의 구성원은 지정된 보고서 세트의 모든 보고서에 액세스할 수 있습니다. 인터페이스에 설정된 권한에 관계없이 Experience Cloud의 웹 서비스 API를 사용하여 그렇게 할 수 있습니다. 그룹에 멤버를 추가하려면 Adobe Analytics에서 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹 편집]**.
+>Adobe Analytics에서 웹 서비스 액세스 그룹의 구성원으로 추가되었는지 확인합니다. Adobe Analytics 보고서를 구성하기 전에 이 유효성 검사를 수행하십시오. 그리고 Adobe Analytics 보고서 변수를 Adobe Dynamic Media Classic 이벤트에 일치시키기 전에 이 그룹의 구성원은 지정된 보고서 세트의 모든 보고서에 액세스할 수 있습니다. 인터페이스에 설정된 권한에 관계없이 Experience Cloud의 웹 서비스 API를 사용하여 그렇게 할 수 있습니다. 그룹에 구성원을 추가하려면 Adobe Analytics에서 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹 편집]**(으)로 이동합니다.
 
-Adobe Dynamic Media Classic에서 웹 서비스 액세스 그룹의 구성원임을 확인한 후 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL Adobe Analytics]**. Adobe Analytics 구성 페이지에서 **[!UICONTROL Adobe Analytics 로그인]**.
+웹 서비스 액세스 그룹의 구성원임을 확인한 후 Adobe Dynamic Media Classic에서 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL Adobe Analytics]**(으)로 이동합니다. Adobe Analytics 구성 페이지에서 **[!UICONTROL Adobe Analytics 로그인]**&#x200B;을 선택합니다.
 
-다음을 참조하십시오 [Adobe Analytics에 로그온](log-analytics.md#log_in_to_adobe_analytics).
+[Adobe Analytics 로그온](log-analytics.md#log_in_to_adobe_analytics)을 참조하세요.
 
-Adobe Analytics 로그인 대화 상자에서 Experience Cloud 조직 ID(선택 사항)와 전체 자격 증명을 입력한 다음 을 선택합니다 **[!UICONTROL 로그인]**. 보고서 세트 드롭다운 메뉴에서 사용하려는 보고서 세트 이름을 선택합니다.
+Adobe Analytics 로그인 대화 상자에서 Experience Cloud 조직 ID(선택 사항)와 전체 자격 증명을 입력한 다음 **[!UICONTROL 로그인]**&#x200B;을 선택합니다. 보고서 세트 드롭다운 메뉴에서 사용하려는 보고서 세트 이름을 선택합니다.
 
 ## 2. Adobe Analytics 보고서 변수를 Adobe Dynamic Media Classic 뷰어 이벤트 및 Adobe Dynamic Media Classic 변수에 할당
 
@@ -54,15 +54,15 @@ Adobe Analytics 구성 페이지에서 Adobe Analytics 보고서에 원하는 �
 
 Adobe Analytics 구성에서는 뷰어 이벤트를 활성화, 편집 및 삭제하는 도구도 제공합니다.
 
-다음을 선택한 후 **[!UICONTROL 저장]** Adobe Analytics 구성 페이지에서 사용자 활동을 측정하기 위한 사용자 지정 추적 코드가 Adobe Dynamic Media Classic 뷰어에 삽입됩니다. 이 기능을 사용하면 Adobe Analytics 보고서에서 사용자 활동을 추적할 수 있습니다.
+Adobe Analytics 구성 페이지에서 **[!UICONTROL 저장]**&#x200B;을 선택하면 사용자 활동을 측정하기 위한 사용자 지정 추적 코드가 Adobe Dynamic Media Classic 뷰어에 삽입됩니다. 이 기능을 사용하면 Adobe Analytics 보고서에서 사용자 활동을 추적할 수 있습니다.
 
-다음을 참조하십시오 [Adobe Analytics 보고서 구성](configuring-analytics-reports.md#configuring_adobe_analytics_reports).
+[Adobe Analytics 보고서 구성](configuring-analytics-reports.md#configuring_adobe_analytics_reports)을 참조하세요.
 
-## 3. Adobe Dynamic Media Classic 뷰어 게시
+## 3. Adobe Dynamic Media Classic 뷰어 Publish
 
-Adobe Dynamic Media Classic 뷰어를 게시하여 뷰어(Adobe Analytics 보고서에서 사용자 활동을 추적하는 코드와 함께)가 Adobe Dynamic Media Classic 서버에 로드되도록 합니다. 게시하면 이 정보가 뷰어에 포함됩니다. Adobe Analytics에서 분석할 때 사용합니다.
+Publish을 통해 Adobe Dynamic Media Classic 뷰어를 관리하므로 뷰어(Adobe Analytics 보고서에서 사용자 활동 추적을 위한 코드 포함)는 Adobe Dynamic Media Classic 서버에 로드됩니다. 게시하면 이 정보가 뷰어에 포함됩니다. Adobe Analytics에서 분석할 때 사용합니다.
 
-다음을 참조하십시오 [구성 정보 게시](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information).
+[Publish 구성 정보](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)를 참조하세요.
 
 ## 4. 웹 사이트에 Adobe Dynamic Media Classic 뷰어 배치
 
@@ -72,4 +72,4 @@ Adobe Dynamic Media Classic 뷰어를 게시하여 뷰어(Adobe Analytics 보고
 
 Adobe Analytics 보고서를 보려면, Adobe Analytics 웹 사이트로 이동합니다. [보고] 페이지에서는 데이터를 보고 그래프와 차트를 생성하여 각기 다른 뷰어로 사용자 활동을 측정할 수 있습니다.
 
-다음을 참조하십시오 [Adobe Analytics 보고서를 보고 Adobe Analytics 통합 테스트](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report).
+[Adobe Analytics 보고서를 보고 Adobe Analytics 통합 테스트](testing-integration-viewing-analytics-report.md#testing_the_integration_by_viewing_an_adobe_analytics_report)를 참조하십시오.

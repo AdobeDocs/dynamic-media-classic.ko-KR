@@ -19,4 +19,4 @@ ht-degree: 0%
 
 # 새로운 기능 {#what-s-new}
 
-새로운 기능, 개선 사항 및 수정 사항을 포함한 최신 Adobe Dynamic Media Classic 릴리스 정보를 검토하려면 다음을 참조하십시오. [Adobe Dynamic Media Classic 릴리스 노트](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017).
+새로운 기능, 개선 사항 및 수정 사항을 포함한 최신 Adobe Dynamic Media Classic 릴리스 정보를 검토하려면 [Adobe Dynamic Media Classic 릴리스 노트](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)를 참조하십시오.

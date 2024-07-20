@@ -18,7 +18,7 @@ ht-degree: 15%
 
 Adobe Dynamic Media Classic은 선도적인 온디맨드 크로스 미디어 퍼블리싱 시스템입니다. 모든 장치 및 화면에 동적 리치 콘텐츠를 업로드, 관리, 개선 및 게시할 수 있습니다. Adobe Dynamic Media Classic 솔루션에는 다음이 포함됩니다.
 
-* Dynamic Imaging: 실시간 편집, 서식 지정 및 크기 조정, 대화형 확대/축소 및 패닝, 색상 `swatching` 질감 `swatching`; 360도 회전; 이미지 템플릿; 멀티미디어 뷰어.
+* Dynamic Imaging: 실시간 편집, 서식 지정 및 크기 조정, 대화형 확대/축소 및 패닝, 색상 `swatching` 및 텍스처 `swatching`, 360도 회전, 이미지 템플릿, 멀티미디어 뷰어
 * eCatalogs: 작성자, 핫스팟 연결, 검색 활성화, 게시 및 구성 가능한 뷰어로 동적으로 제공되는 온라인 카탈로그 게재.
 * Media Portal: 포털 사용자에게 자산의 업로드, 찾아보기, 검색, 미리보기 및 내보내기에 대한 간편한 액세스를 위해 Adobe Dynamic Media Classic 자산에 대한 관리자 제어 &quot;보기&quot;를 제공하는 셀프서비스 환경.
 * eVideo: 최종 비디오를 모든 형식으로 업로드하고, 관리, 편집, 핫스팟 및 비디오 템플릿을 만들고, 게시 및 구성 가능한 비디오 뷰어로 스트리밍합니다.
