@@ -1,5 +1,5 @@
 ---
-title: "빠른 시작: 스핀 세트"
+title: '빠른 시작: 회전 집합'
 description: Adobe Dynamic Media Classic에서 빠르게 시작하고 실행하는 데 도움이 되는 소개 및 빠른 스핀 세트 시작입니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '803'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 

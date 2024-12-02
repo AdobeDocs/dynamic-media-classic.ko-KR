@@ -1,5 +1,5 @@
 ---
-title: "빠른 시작: 템플릿 기본 사항"
+title: '빠른 시작: 템플릿 기본'
 description: Adobe Dynamic Media Classic에서 빠르게 시작하고 실행할 수 있는 템플릿 기본 사항에 대한 소개 및 빠른 시작
 contentOwner: Rick Brough
 content-type: reference

@@ -1,5 +1,5 @@
 ---
-title: "빠른 시작: Adobe Dynamic Media Classic의 비디오"
+title: '빠른 시작: Adobe Dynamic Media Classic의 비디오'
 description: Adobe Dynamic Media Classic 비디오 소개 및 빠른 시작을 통해 빠르게 시작하고 실행할 수 있습니다.
 contentOwner: Rick Brough
 content-type: reference

@@ -1,5 +1,5 @@
 ---
-title: "빠른 시작: Adobe Target Standard/Premium 통합"
+title: '빠른 시작: Adobe Target Standard/Premium 통합'
 description: Adobe Dynamic Media Classic에서 Adobe Target Standard/Premium 통합 기술을 빠르게 시작하고 실행하는 데 도움이 되는 Adobe Target Standard/Premium 소개 및 빠른 시작
 contentOwner: Rick Brough
 content-type: reference

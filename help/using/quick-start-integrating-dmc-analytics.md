@@ -1,5 +1,5 @@
 ---
-title: "빠른 시작: Adobe Dynamic Media Classic 및 Adobe Analytics 통합"
+title: '빠른 시작: Adobe Dynamic Media Classic 및 Adobe Analytics 통합'
 description: Adobe Dynamic Media Classic 및 Adobe Analytics 통합 방법에 대한 소개 및 빠른 시작입니다.
 contentOwner: Rick Brough
 content-type: reference

@@ -1,5 +1,5 @@
 ---
-title: "빠른 시작: Media Portal"
+title: '빠른 시작: Media Portal'
 description: Adobe Dynamic Media Classic에서 Media Portal 기법 및 관리를 빠르게 시작하고 실행하는 데 도움이 되는 Media Portal 소개 및 빠른 시작입니다.
 contentOwner: Rick Brough
 content-type: reference

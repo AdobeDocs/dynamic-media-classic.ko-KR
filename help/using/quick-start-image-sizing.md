@@ -1,5 +1,5 @@
 ---
-title: "빠른 시작: 이미지 크기 조정"
+title: '빠른 시작: 이미지 크기 조정'
 description: Adobe Dynamic Media Classic의 이미지 크기 조정 기술을 빠르게 시작하고 실행하는 데 도움이 되는 이미지 크기 조정에 대한 소개 및 빠른 시작입니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ exl-id: f1d46f03-57a1-43d8-a0ee-74b92b590736
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
 source-wordcount: '873'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 

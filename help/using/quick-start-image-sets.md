@@ -1,5 +1,5 @@
 ---
-title: "빠른 시작: 이미지 집합"
+title: '빠른 시작: 이미지 집합'
 description: Adobe Dynamic Media Classic의 이미지 세트 기술을 빠르게 시작하고 실행하는 데 도움이 되는 이미지 세트에 대한 소개 및 빠른 시작입니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -13,7 +13,7 @@ level: Beginner
 source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
 workflow-type: tm+mt
 source-wordcount: '671'
-ht-degree: 10%
+ht-degree: 11%
 
 ---
 

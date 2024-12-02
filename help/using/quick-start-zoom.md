@@ -1,5 +1,5 @@
 ---
-title: "빠른 시작: 확대/축소"
+title: '빠른 시작: 확대/축소'
 description: 빠르게 시작하고 실행하는 데 도움이 되는 소개 및 빠른 확대/축소 시작
 contentOwner: Rick Brough
 content-type: reference

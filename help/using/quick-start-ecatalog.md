@@ -1,5 +1,5 @@
 ---
-title: "빠른 시작: 전자 카탈로그"
+title: '빠른 시작: eCatalog'
 description: Adobe Dynamic Media Classic의 eCatalog 기술을 빠르게 시작하고 실행하는 데 도움이 되는 eCatalog 소개 및 빠른 시작입니다.
 contentOwner: Rick Brough
 content-type: reference

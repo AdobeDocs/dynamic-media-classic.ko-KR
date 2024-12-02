@@ -1,5 +1,5 @@
 ---
-title: "빠른 시작: 혼합 미디어 집합"
+title: '빠른 시작: 혼합 미디어 집합'
 description: Adobe Dynamic Media Classic에서 빠르게 시작하고 실행하는 데 도움이 되는 혼합 미디어 세트에 대한 소개 및 빠른 시작입니다.
 contentOwner: Rick Brough
 content-type: reference
