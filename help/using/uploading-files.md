@@ -9,9 +9,9 @@ role: User
 exl-id: 8dfcfb3f-6472-4efd-bc87-d5111eee45ce
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: 1cd516119da23f5ef4c0195273025ddd4b3fa789
 workflow-type: tm+mt
-source-wordcount: '3868'
+source-wordcount: '3858'
 ht-degree: 26%
 
 ---
@@ -26,7 +26,7 @@ Adobe Dynamic Media Classic에 에셋을 업로드하기 전에 에셋의 형식
 
 ### 지원되는 자산 파일 형식 {#supported-asset-file-formats}
 
-이 표에는 Adobe Dynamic Media Classic이 지원하는 에셋 파일 형식이 나와 있습니다. Camera Raw 지원되는 파일에 대한 자세한 내용은 [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html)을(를) 참조하십시오.
+이 표에는 Adobe Dynamic Media Classic이 지원하는 에셋 파일 형식이 나와 있습니다. 지원되는 Camera Raw 파일에 대한 자세한 내용은 [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html)을(를) 참조하십시오.
 
 | 자산 파일 형식 | 설명 |
 | --- | --- |
@@ -53,16 +53,14 @@ TAR 및 ZIP 업로드 지원에는 파일 압축을 풀 때 선택하는 확인�
 
 ### Dynamic Media에서 지원되지 않는 이미지 형식 {#unsupported-image-formats-dynamic-media}
 
-다음 목록은 Dynamic Media에서 지원되는 *지원되지 않는* 래스터 이미지 파일 형식의 하위 유형을 설명합니다.
-
-[Dynamic Media에서 지원되지 않는 파일 형식 검색](https://helpx.adobe.com/experience-manager/kb/detect-unsupported-assets-for-dynamic-media.html)도 참조하십시오.
+다음 목록은 Dynamic Media에서 지원되는 *지원되지 않는* 래스터 이미지 파일 형식의 하위 유형에 대해 설명합니다.
 
 * IDAT 청크 크기가 100MB보다 큰 PNG 파일입니다.
 * PSB 파일
 * CMYK, RGB, 회색 음영 또는 비트맵 이외의 색상 공간이 있는 PSD 파일은 지원되지 않습니다. DuoTone, Lab 및 Indexed 색상 공간은 지원되지 않습니다.
-* 비트 깊이가 16보다 큰 PSD 파일입니다.
+* 비트 깊이가 16보다 큰 PSD 파일.
 * 부동 소수점 데이터가 있는 TIFF 파일입니다.
-* Lab 색상 공간이 있는 TIFF 파일입니다.
+* Lab 색상 공간이 있는 TIFF 파일.
 
 ### 자산 유형 {#asset-types}
 
@@ -71,8 +69,8 @@ Adobe Dynamic Media Classic 프로그램을 사용하여 최적의 결과를 얻
 | 자산 유형 | 설명/권장 사항 |
 | --- | --- |
 | 오디오 | 입력 오디오 자산 형식에는 AAC, HE-AAC, AC3, WAV, WMA, AIFF, MP3가 포함됩니다. 오디오를 MP3, AAC 및 HE-AAC로 트랜스코딩할 수 있습니다. |
-| 이미지(이미지 크기 조정, 확대/축소, 이미지 집합, 회전 집합) | 이미지는 가장 긴 크기에서 2000픽셀 이상이어야 합니다. 일반적인 이미지 크기는 가장 긴 크기에서 1500픽셀에서 2500픽셀 사이입니다. TIFF 및 PNG 파일을 비롯한 손실 없는 이미지 형식이 권장됩니다. JPEG 이미지를 사용하는 경우에는 최고 품질 설정을 사용합니다. 애니메이션 GIF 파일은 다른 정적 콘텐츠처럼 처리됩니다. |
-| eCatalog | Adobe Acrobat에서 만든 고해상도 PDF 파일 또는 &quot;press-ready&quot;로 저장된 Adobe Creative Suite 애플리케이션을 사용합니다. PDF은 필요한 모든 글꼴, 이미지, 마스크를 포함합니다. 또한 필요한 모든 참조 그래픽 요소를 단일 페이지, 이중 페이지 스프레드 또는 다중 페이지 형식으로 포함합니다. 파일 이름을 영숫자 순으로 지정하여 페이지를 정렬합니다. 업로드하기 쉽도록 eCatalog에 대한 모든 PDF를 단일 폴더에 배치합니다. 업로드 시 자르기 선택 사항을 선택하여 절단선, 등록 타겟 또는 색상 막대를 비롯한 트림 영역을 PDF에서 제거할 수 있습니다. 대부분의 인쇄용 PDF 파일은 CMYK 색상 공간에 있으므로 PDF 파일에 사용된 CMYK ICC 색상 프로필을 가져오는 것이 중요합니다. |
+| 이미지(이미지 크기 조정, 확대/축소, 이미지 집합, 회전 집합) | 이미지는 가장 긴 크기에서 2000픽셀 이상이어야 합니다. 일반적인 이미지 크기는 가장 긴 크기에서 1500픽셀에서 2500픽셀 사이입니다. TIFF 및 PNG 파일을 비롯한 손실 없는 이미지 형식이 권장됩니다. JPEG 이미지를 사용하는 경우에는 최고 품질 설정을 사용합니다. GIF 애니메이션 파일은 다른 정적 콘텐츠처럼 처리됩니다. |
+| eCatalog | Adobe Acrobat 또는 &quot;press-ready&quot;로 저장된 Adobe Creative Suite 애플리케이션에서 생성된 고해상도 PDF 파일을 사용합니다. PDF에는 필요한 모든 글꼴, 이미지, 마스크가 포함됩니다. 또한 필요한 모든 참조 그래픽 요소를 단일 페이지, 이중 페이지 스프레드 또는 다중 페이지 형식으로 포함합니다. 파일 이름을 영숫자 순으로 지정하여 페이지를 정렬합니다. 업로드하기 쉽도록 eCatalog에 대한 모든 PDF를 단일 폴더에 배치합니다. 업로드 시 자르기 선택 사항을 선택하여 절단선, 등록 타겟 또는 색상 막대를 비롯한 트림 영역을 PDF에서 제거할 수 있습니다. 대부분의 인쇄용 PDF 파일은 CMYK 색상 공간에 있으므로 PDF 파일에 사용된 CMYK ICC 색상 프로필을 가져오는 것이 중요합니다. |
 | 템플릿 | 텍스트, 이미지 및 레이어를 포함할 수 있는 계층화된 이미지 또는 레이아웃 디자인입니다. 변수 데이터를 사용자 지정할 수 있도록 이미지 레이어, 텍스트 문자열, 특성(예: 색상 및 크기)을 매개 변수화할 수 있습니다. 템플릿에 사용하기 위한 이미지 요구 사항은 다른 이미지와 같습니다. Photoshop 또는 다른 이미지 편집 프로그램에서 그래픽을 준비합니다. 각 그래픽을 TIFF 또는 PNG 형식의 평면화된 투명 파일로 저장합니다. 이미지 해상도가 필요한 용도에 적합한지 확인합니다. 인쇄용 이미지는 300ppi입니다. |
 | 비디오 | Adobe Dynamic Media Classic은 OGV 및 MP4 형식으로 저장된 비디오 파일을 지원합니다. 업로드 시 파일을 MP4 형식으로 변환할 수 있습니다. [지원되는 자산 파일 형식](#supported-static-file-formats)을 참조하십시오. |
 | 글꼴 | TrueType, `Type1`(Windows®만 해당), OpenType® 글꼴 및 PhotoFonts를 업로드했습니다. |
@@ -85,15 +83,15 @@ Adobe Dynamic Media Classic 프로그램을 사용하여 최적의 결과를 얻
 | SVG 파일 | 이미지 제공 서버가 렌더링할 수 있는 확장 가능한 벡터 그래픽 파일입니다. |
 | XML 파일 | 요청의 경로와 쿼리 부분을 수정하는 데 사용되는 전처리 규칙을 정의하는 파일입니다. |
 | 계단식 스타일 시트 파일 | HTML5 뷰어의 사용자 지정을 위해 CSS 스킨을 업로드합니다. |
-| JavaScript 파일 | JavaScript 파일은 계정 정보를 담기 위해 뷰어 계측에 사용됩니다. Adobe 보안에서는 (교차 사이트 스크립팅을 방지하기 위해) 전달에 사용할 별도의 도메인이 있는 클라이언트 계정에 대해서만 이 자산 유형을 권장합니다. |
+| JavaScript 파일 | JavaScript 파일은 계정 정보를 담기 위해 뷰어 계측에 사용됩니다. Adobe Security에서는 (사이트 간 스크립팅을 방지하기 위해) 전달에 사용할 별도의 도메인이 있는 클라이언트 계정에 대해서만 이 자산 유형을 권장합니다. |
 
 >[!NOTE]
 >
->이미지 파일과 PDF을 Adobe Dynamic Media Classic에 업로드하면 시스템이 이러한 소스 파일을 P-TIFF(피라미드 TIFF) 파일로 변환합니다. 이러한 P TIFF은 나중에 Dynamic Media 이미지 서버에 게시되는 파일입니다. Adobe Dynamic Media Classic은 Adobe Dynamic Media Classic 확대/축소 뷰어로 볼 때 빠르게 확대/축소할 수 있는 다양한 확대/축소 비율이 포함되어 있으므로 피라미드 Tiff 파일 형식을 사용합니다.
+>이미지 파일과 PDF를 Adobe Dynamic Media Classic에 업로드하면 시스템이 이러한 소스 파일을 P-TIFF(피라미드 TIFF) 파일로 변환합니다. 이러한 P-TIFF는 나중에 Dynamic Media 이미지 서버에 게시되는 파일입니다. Adobe Dynamic Media Classic은 Adobe Dynamic Media Classic 확대/축소 뷰어로 볼 때 빠르게 확대/축소할 수 있는 다양한 확대/축소 비율이 포함되어 있으므로 피라미드 Tiff 파일 형식을 사용합니다.
 
 ### 지원되는 정적 파일 형식 {#supported-static-file-formats}
 
-Adobe Dynamic Media Classic은 여러 정적 파일 형식을 지원합니다. 정적 콘텐츠 는 CSS, PDF, SVG 및 XML과 같이 &quot;있는 그대로&quot; 게시된 모든 에셋입니다.
+Adobe Dynamic Media Classic은 여러 정적 파일 형식을 지원합니다. 정적 콘텐츠 는 CSS, PDF, SVG 및 XML과 같이 &quot;있는 그대로&quot; 게시된 모든 자산입니다.
 
 다음과 같은 파일 유형을 게시할 수 있습니다.
 
@@ -102,7 +100,7 @@ Adobe Dynamic Media Classic은 여러 정적 파일 형식을 지원합니다. �
 * CSS
 * JavaScript(회사가 고유한 도메인으로 구성된 경우)
 * 기본 비디오
-* PDF(업로드 후 게시용으로 PDF이 표시된 경우, 기존 eCatalog/PDF 워크플로우에 대한 모든 PDF이 전달되지 않도록 함)
+* PDF (기존 eCatalog/PDF 워크플로우에 대한 모든 PDF를 전송하지 않도록 업로드 후 PDF을 게시용으로 표시한 경우)
 * PrX 비디오
 * SVG
 * XML
@@ -166,7 +164,7 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 1. 업로드 페이지 왼쪽의 **[!UICONTROL 업로드할 파일 선택]** 영역에서 **[!UICONTROL 찾아보기]**&#x200B;를 선택하여 업로드할 파일 또는 폴더를 선택한 다음 **[!UICONTROL 열기]**&#x200B;를 선택합니다.
 1. 업로드 페이지의 오른쪽의 선택한 **폴더 대상** 영역에서 업로드한 파일 또는 폴더를 추가하려는 대상 폴더로 이동합니다.
 1. (선택 사항) [업로드] 페이지 하단 근처에 있는 [작업 이름] 텍스트 필드에 업로드 작업의 새 이름을 입력합니다. 또는 Adobe Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용하면 됩니다. 업로드 및 게시 작업은 작업 페이지에 기록되며, 이 페이지에서 작업 상태를 확인할 수 있습니다. [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
-1. (선택 사항) 업로드 페이지 하단 근처에서 **[!UICONTROL 업로드 후 Publish]**를 선택하면 업로드한 자산을 자동으로 게시할 수 있습니다.
+1. (선택 사항) 업로드 페이지 하단 근처에서 **[!UICONTROL 업로드 후 게시]**를 선택하면 업로드한 자산을 자동으로 게시할 수 있습니다.
 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
 1. (선택 사항) [업로드] 페이지 하단 근처에 있는 **[!UICONTROL 확장명에 관계없이 같은 기본 에셋 이름으로 모든 폴더에 덮어쓰기]**를 선택합니다. 업로드하는 파일이 같은 이름으로 기존 파일을 바꾸도록 하려면. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
 이 옵션의 이름은 **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 응용 프로그램에 업로드]** > **[!UICONTROL 이미지 덮어쓰기]**&#x200B;의 설정에 따라 다를 수 있습니다.
@@ -184,10 +182,10 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 1. Adobe Dynamic Media Classic의 전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택합니다.
 1. 업로드 페이지에서 **[!UICONTROL FTP를 통해]** 탭을 선택합니다.
 1. 업로드 페이지 왼쪽의 **[!UICONTROL 업로드할 FTP 폴더 선택]** 영역에서 파일을 업로드할 FTP 폴더를 선택합니다.
-1. 업로드 페이지의 오른쪽의 선택한 **[!UICONTROL Dynamic Media 폴더 대상 Adobe]** 영역에서 Adobe Dynamic Media Classic의 대상 폴더를 선택합니다.
+1. 업로드 페이지의 오른쪽의 선택한 **[!UICONTROL Adobe Dynamic Media 폴더 대상]** 영역에서 Adobe Dynamic Media Classic의 대상 폴더를 선택합니다.
 1. (선택 사항) [업로드] 페이지 하단 근처에 있는 [작업 이름] 텍스트 필드에 업로드 작업의 새 이름을 입력합니다. 또는 Adobe Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용하면 됩니다. 업로드 및 게시 작업은 작업 페이지에 기록되며, 이 페이지에서 작업 상태를 확인할 수 있습니다.
 [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
-1. (선택 사항) 업로드 페이지 하단 근처에서 **[!UICONTROL 업로드 후 Publish]**를 선택하면 업로드한 에셋을 자동으로 게시할 수 있습니다.
+1. (선택 사항) 업로드 페이지 하단 근처에서 **[!UICONTROL 업로드 후 게시]**를 선택하면 업로드하는 자산을 자동으로 게시할 수 있습니다.
 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
 1. (선택 사항) [업로드] 페이지 하단 근처에 있는 **[!UICONTROL 확장명에 관계없이 같은 기본 에셋 이름으로 모든 폴더에 덮어쓰기]**를 선택합니다. 업로드하는 파일이 같은 이름으로 기존 파일을 바꾸도록 하려면. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
 이 옵션의 이름은 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 응용 프로그램에 업로드]** > **[!UICONTROL 이미지 덮어쓰기]**&#x200B;의 설정에 따라 다를 수 있습니다.
@@ -221,7 +219,7 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
          * **[!UICONTROL 월별]**: 작업을 실행할 특정 요일 또는 요일(시작 시간 포함)을 선택합니다.
          * **[!UICONTROL 사용자 지정]**: 업로드 또는 게시 작업 시간 간격을 고유한 사양에 맞게 사용자 지정합니다. [사용자 지정 업로드 또는 게시 작업 시간 간격 만들기](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval)를 참조하십시오.
 
-   * **[!UICONTROL 업로드 후 Publish]**: **[!UICONTROL 데스크톱에서]** 탭 또는 **[!UICONTROL FTP를 통해]** 탭을 선택한 경우 사용할 수 있습니다. 업로드한 자산을 자동으로 게시할 수 있도록 이 옵션을 선택합니다. 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. 이 옵션은 업로드 페이지에서도 사용할 수 있습니다.
+   * **[!UICONTROL 업로드 후 게시]**: **[!UICONTROL 데스크톱에서]** 탭 또는 **[!UICONTROL FTP를 통해]** 탭을 선택한 경우 사용할 수 있습니다. 업로드한 자산을 자동으로 게시할 수 있도록 이 옵션을 선택합니다. 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. 이 옵션은 업로드 페이지에서도 사용할 수 있습니다.
 
    * **[!UICONTROL 확장명에 관계없이 같은 기본 자산 이름으로 모든 폴더에 덮어쓰기]**: **[!UICONTROL 데스크탑에서]** 탭 또는 **[!UICONTROL FTP를 통해]** 탭을 선택한 경우 사용할 수 있습니다. 업로드한 파일이 동일한 이름을 가진 기존 파일을 대체하길 원하는 경우 이 선택 사항을 선택하십시오. 이 옵션은 업로드 페이지에서도 사용할 수 있습니다. 이 옵션의 이름은 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 응용 프로그램에 업로드]** > **[!UICONTROL 이미지 덮어쓰기]**&#x200B;의 설정에 따라 다를 수 있습니다.
 
@@ -252,7 +250,7 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 * **이미지 편집 옵션**: 이미지에서 클리핑 &lt;> 마스크를 유지하고 색상 프로파일을 선택할 수 있습니다.
 업로드 시 [이미지 미세 조정 옵션](image-editing-options-upload.md#image-editing-options-at-upload)을 참조하십시오.
 
-* **PostScript® 옵션**: PostScript® 파일을 래스터화하고, 파일을 자르고, 투명 배경을 유지하고, 해상도를 선택하고, 색상 공간을 선택할 수 있습니다.
+* **PostScript® 옵션**: PostScript® 파일을 래스터화하고, 파일을 자르고, 투명한 배경을 유지하고, 해상도를 선택하고, 색상 공간을 선택할 수 있습니다.
 [PostScript 및 Illustrator 파일 작업](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)을 참조하세요.
 
 * **Photoshop 옵션**: Adobe® Photoshop® 파일에서 템플릿을 만들고, 레이어를 유지하고, 레이어 이름 지정 방법을 지정하고, 텍스트를 추출하고, 이미지가 템플릿에 고정되는 방법을 지정할 수 있습니다.
