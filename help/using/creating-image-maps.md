@@ -164,7 +164,7 @@ Javascript:loadProduct('$$');void(0);
 ### URL 템플릿 만들기 {#creating-a-url-template}
 
 1. 맵 편집기 화면(이미지 또는 스핀 세트) 또는 eCatalog 화면의 맵 페이지 탭(eCatalogs)에서 URL 템플릿 옵션 옆에 있는 편집을 선택합니다. [맵 템플릿 편집] 대화 상자가 열립니다.
-1. JavaScript 코드와 전체 URL을 입력합니다(변수 부분이 달러 기호 [$$](으)로 대체됨). 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL 붙여넣기]**&#x200B;를 선택하여 코드를 붙여넣을 수 있습니다.
+1. JavaScript 코드와 전체 URL을 입력합니다(변수 부분이 달러 기호 [$$] (으)로 대체됨). 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL 붙여넣기]**&#x200B;를 선택하여 코드를 붙여넣을 수 있습니다.
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 ### URL 템플릿 처리 {#handling-url-templates}

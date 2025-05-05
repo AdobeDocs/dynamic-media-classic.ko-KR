@@ -84,7 +84,7 @@ Windows®에서 새 Adobe Dynamic Media Classic 데스크탑 앱을 사용하는
 +++
 
 +++**_Adobe Dynamic Media Classic 데스크톱 앱으로 업그레이드하는 방법은 무엇입니까?_**
-2020년 6월 30일 Adobe Dynamic Media Classic 데스크탑 앱이 릴리스된 후 Adobe에서 새 버전을 릴리스하면 고객은 새 버전을 다운로드하여 설치해야 합니다(**[!UICONTROL 애플리케이션]**에서 기존 앱을 대체). Adobe 계정 팀과 사용자에게 업그레이드를 알리는 인앱 업그레이드 알림 메커니즘을 통해 새 릴리스에 대한 알림을 받게 됩니다.
+2020년 6월 30일 Adobe Dynamic Media Classic 데스크탑 앱이 릴리스된 후 Adobe에서 새 버전을 릴리스하면 고객은 새 버전을 다운로드하여 설치해야 합니다(**[!UICONTROL 애플리케이션]**&#x200B;에서 기존 앱을 대체). Adobe 계정 팀과 사용자에게 업그레이드를 알리는 인앱 업그레이드 알림 메커니즘을 통해 새 릴리스에 대한 알림을 받게 됩니다.
 +++
 
 +++**_Adobe Dynamic Media Classic 데스크톱 앱과 관련된 문제에 대한 도움말을 보려면 어떻게 해야 합니까?_**

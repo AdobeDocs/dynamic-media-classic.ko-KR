@@ -16,7 +16,7 @@ ht-degree: 16%
 
 # Adobe Dynamic Media Classic 안내서 {#using}
 
-+ Dynamic Media Classic에서 Dynamic Media {#upgrade}(으)로 업그레이드
++ Dynamic Media Classic에서 Dynamic Media(으)로 업그레이드 {#upgrade}
    + [Dynamic Media으로 업그레이드하는 이유](upgrade.md)
    + [업그레이드 FAQ](upgrade-faq.md)
    + [기능 목록 비교](upgrade-feature-comparison.md)
@@ -25,7 +25,7 @@ ht-degree: 16%
 + [Adobe Dynamic Media Classic 모범 사례 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [이제 새 Adobe Dynamic Media Classic 로그온 사용 가능](new-ui-2020.md)
 + [Experience League으로 Dynamic Media 뉴스레터 아카이브 Adobe](dynamic-media-newsletter.md)
-+ Adobe Dynamic Media Classic {#intro} 소개
++ Adobe Dynamic Media Classic 소개 {#intro}
    + [Adobe Dynamic Media Classic 데스크탑 앱: 이제 사용 가능](dynamic-media-classic-desktop-app.md)
    + [Adobe Dynamic Media Classic 도움말 정보](introduction.md)
    + [개발자 리소스](developer-resources.md)
@@ -36,14 +36,14 @@ ht-degree: 16%
    + [Adobe 교육 서비스](training-services.md)
    + [인기 있는 학습 리소스](popular-resources.md)
    + [교육 비디오](training-videos.md)
-+ {#getting-started} 시작
++ 시작{#getting-started}
    + [Adobe Dynamic Media Classic 프로그램 개요](dmc-platform-overview.md)
    + [Media Portal](media-portal.md)
    + [로그인 및 로그아웃](signing-out.md)
    + [탐색 기본 사항](navigation-basics.md)
    + [설정 기본 사항](setup-basics.md)
    + [리치 미디어](rich-media.md)
-+ {#setup} 설정
++ 설정{#setup}
    + [개인 설정](personal-setup.md)
    + [애플리케이션 설정](application-setup.md)
    + [게시 설정](publish-setup.md)
@@ -60,7 +60,7 @@ ht-degree: 16%
    + [이미지 사전 설정 만들기 및 활성화](creating-enabling-image-presets.md)
    + [메타데이터를 보다 효율적으로 사용](making-efficient-metadata.md)
    + [Media Portal 화면 사용자 정의](customizing-media-portal-screen.md)
-+ 자산 {#upload-publish} 업로드 및 게시
++ 자산 업로드 및 게시 {#upload-publish}
    + [에셋 업로드 및 게시 기본 정보](about-asset-upload-publish.md)
    + [파일 업로드](uploading-files.md)
    + [Publish 파일](publishing-files.md)
