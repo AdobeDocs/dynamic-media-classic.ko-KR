@@ -233,7 +233,7 @@ Windows®에서 최신 버전의 Adobe Dynamic Media Classic 데스크톱 앱을
 
 ## Adobe Dynamic Media Classic 데스크탑 앱 사용에 대한 비디오 설명 {#dmc-app-video-walk-through}
 
-Adobe Dynamic Media Classic 데스크톱 앱을 사용하여 [비디오 둘러보기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)(길이: 2분 36초).
+Adobe Dynamic Media Classic 데스크톱 앱을 사용하여 [비디오 둘러보기](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)(길이: 2분 36초).
 
 ## 데스크탑 앱을 사용하여 컴퓨터의 이미지 캐시 및 자산 캐시를 지우는 중 {#clear-cache}
 

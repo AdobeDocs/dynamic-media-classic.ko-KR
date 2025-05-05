@@ -18,14 +18,14 @@ ht-degree: 2%
 
 ## Adobe Dynamic Media Classic 기술 설명서
 
-* [릴리스 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
+* [릴리스 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
 * [사용자 안내서](introduction.md)
 
 ## Adobe Dynamic Media Classic 개발자 리소스
 
-* [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources)
 * [뷰어 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [이미지 제공 및 이미지 렌더링 API](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
+* [이미지 제공 및 이미지 렌더링 API](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources)
 
 ## Adobe Dynamic Media Classic 뉴스레터, Tutorials 및 웨비나
 
@@ -42,6 +42,6 @@ ht-degree: 2%
 ## Adobe Dynamic Media Classic 교육
 
 [여기](https://training.adobe.com/training/courses.html#product=adobe-scene7)로 이동하여 현재 사용 가능한 교육 과정을 확인하십시오.
-[Adobe Dynamic Media Classic 교육 비디오](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/intro/training-videos#intro).
+[Adobe Dynamic Media Classic 교육 비디오](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/intro/training-videos#intro).
 
 [Adobe Dynamic Media Classic](home.md)에서 사용할 수 있는 인기 있는 모든 리소스를 확인하세요.

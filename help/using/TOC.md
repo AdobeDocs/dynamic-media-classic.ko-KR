@@ -22,7 +22,7 @@ ht-degree: 16%
    + [기능 목록 비교](upgrade-feature-comparison.md)
    + [업그레이드 준비 확인 목록](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic 안내서](home.md)
-+ [Adobe Dynamic Media Classic 모범 사례 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
++ [Adobe Dynamic Media Classic 모범 사례 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [이제 새 Adobe Dynamic Media Classic 로그온 사용 가능](new-ui-2020.md)
 + [Experience League으로 Dynamic Media 뉴스레터 아카이브 Adobe](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic 소개 {#intro}

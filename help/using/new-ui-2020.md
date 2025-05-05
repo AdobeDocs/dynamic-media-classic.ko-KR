@@ -94,12 +94,12 @@ Windows®에서 새 Adobe Dynamic Media Classic 데스크탑 앱을 사용하는
 +++**_리치 미디어 전략을 최적화하고 있는지 확인하고 싶습니다. Adobe Dynamic Media Classic에 대해 어떻게 더 많이 알 수 있습니까?_**
 Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설계된 강력하고 다양한 기능을 갖춘 솔루션입니다. 모든 기능을 활용하려면 다음과 같은 실용적인 리소스를 살펴보십시오.
 
-* [Adobe Dynamic Media Classic 모범 사례 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobe Dynamic Media Classic 모범 사례 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [블로그 게시물 Adobe](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Dynamic Media 뉴스레터 Adobe](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+* [Dynamic Media 뉴스레터 Adobe](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html?lang=ko), and the complementary audit program. -->
 
 +++**_Adobe Experience Manager Assets을 사용하여 Dynamic Media Adobe으로 업그레이드하는 방법에 대해 자세히 알아보고 싶습니다. 자세한 정보는 어디에서 찾을 수 있습니까?_**
 차세대 리치 미디어 작성, 게시 및 동적 전달로 업그레이드할 때의 이점에 대해 자세히 알아보려면 [업그레이드 Adobe Dynamic Media 포털](/help/using/upgrade.md)을 방문하십시오.

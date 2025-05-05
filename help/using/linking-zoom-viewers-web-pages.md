@@ -47,7 +47,7 @@ ht-degree: 23%
 
 일반적으로 방문자는 먼저 확대/축소 아이콘을 선택하여 웹 사이트에서 이미지를 확대/축소합니다(종종 아이콘에 확대경의 이미지가 표시됨). 이 아이콘을 선택하면 팝업 창에 이미지를 표시하는 동적 웹 페이지(ASP 또는 JSP)가 실행됩니다. 방문자는 실제로 이 팝업 창에서 이미지를 확대/축소합니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 가이드의 [Embed HTML5 기본 확대/축소 뷰어](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)를 참조하십시오.
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 가이드의 [Embed HTML5 기본 확대/축소 뷰어](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)를 참조하십시오.
 
 ## 확대/축소 뷰어의 포함 복사본 복사 {#copying-the-embed-copy-of-a-zoom-viewer}
 

@@ -23,7 +23,7 @@ ht-degree: 40%
 
 Adobe Dynamic Media Classic에는 이미지 및 렌더링 결과를 조정하고 최적화하는 100개 이상의 이미지 제공 명령이 포함되어 있습니다. 다음 지침은 프로세스를 간소화하고 일부 필수 명령 및 우수 사례를 사용하여 좋은 결과를 빨리 얻는 데 도움이 될 수 있습니다.
 
-[스마트 이미징](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)도 참조하세요.
+[스마트 이미징](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/imaging-faq)도 참조하세요.
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Adobe Dynamic Media Classic에는 이미지 및 렌더링 결과를 조정하고
 >* 네트워크 대역폭
 >* DPR(장치 픽셀 비율)
 >
->스냅숏을 사용하는 것이 얼마나 쉬운지 알아보려면 [스냅숏 교육 비디오](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot)를 재생하세요(3분 17초).
+>스냅숏을 사용하는 것이 얼마나 쉬운지 알아보려면 [스냅숏 교육 비디오](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot)를 재생하세요(3분 17초).
 
 
 ## 이미지 형식(&amp;fmt=) 우수 사례 {#best-practices-for-image-format-fmt}
