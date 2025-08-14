@@ -1,6 +1,6 @@
 ---
 title: 업그레이드 준비
-description: ' [!DNL Adobe Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Adobe Experience Manager](으)로 이동하려는 경우 업그레이드 준비 검사 목록.'
+description: ' [!DNL Adobe Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] (으)로 이동하려는 경우 업그레이드 준비 검사 목록.'
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 86537998-b7e9-449c-83eb-6fd04533a00f

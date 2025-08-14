@@ -1,6 +1,6 @@
 ---
 title: Adobe [!DNL Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Experience Manager] Assets으로 업그레이드
-description: ' [!DNL Adobe Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Adobe Experience Manager](으)로 업그레이드하십시오.  [!DNL Dynamic Media]의 주요 이점 및 기능에 대해 알아봅니다. 기능 목록 비교, 업그레이드 FAQ 및 준비 확인 목록을 검토하십시오.'
+description: ' [!DNL Adobe Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] (으)로 업그레이드하십시오.  [!DNL Dynamic Media]의 주요 이점 및 기능에 대해 알아봅니다. 기능 목록 비교, 업그레이드 FAQ 및 준비 확인 목록을 검토하십시오.'
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
