@@ -187,7 +187,7 @@ Adobe Dynamic Media Classic은 업로드 프로세스 중에 비디오 썸네일
 
 [비디오 뷰어 사전 설정 추가 또는 편집](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)을 참조하세요.
 
-[이미지 제공 가이드](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)를 참조하세요.
+[이미지 제공 가이드](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)를 참조하세요.
 
 비디오 썸네일 URL에 수정자를 추가하여 비디오 썸네일을 수정할 수도 있습니다.
 

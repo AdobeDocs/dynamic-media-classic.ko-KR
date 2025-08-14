@@ -37,4 +37,4 @@ Adobe Analytics에서 필요한 변수를 만들어 Adobe Dynamic Media Classic 
 >
 >모든 Adobe Dynamic Media Classic 뷰어 데이터는 Adobe Analytics의 사용자 지정 트래픽 보고서 또는 사용자 지정 전환 보고서에 표시되고 보고됩니다.
 
-자세한 내용은 [Analytics 자습서](https://experienceleague.adobe.com/en/docs/analytics-learn/tutorials/overview)를 참조하십시오.
+자세한 내용은 [Analytics 자습서](https://experienceleague.adobe.com/ko/docs/analytics-learn/tutorials/overview)를 참조하십시오.
