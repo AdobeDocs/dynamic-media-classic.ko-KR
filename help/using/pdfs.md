@@ -1,6 +1,6 @@
 ---
 title: PDF 작업
-description: Adobe Dynamic Media Classic에서 PDF을 사용하여 작업하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 PDF를 사용하여 작업하는 방법을 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -19,13 +19,13 @@ ht-degree: 25%
 
 # PDF 작업{#working-with-pdfs}
 
-PDF(PORTABLE DOCUMENT FORMAT) 파일은 Adobe Dynamic Media Classic에서 eCatalogs를 만드는 데 가장 많이 사용됩니다. PDF 파일을 업로드하거나 Adobe Dynamic Media Classic에서 페이지를 래스터화하거나 rips할 때 페이지가 리치 미디어를 빌드하는 데 사용될 수 있도록 기본적으로 페이지가 래스터화됩니다.
+PDF(Portable Document Format) 파일은 Adobe Dynamic Media Classic에서 eCatalogs를 만드는 데 가장 많이 사용됩니다. PDF 파일, Adobe Dynamic Media Classic을 업로드할 때 페이지가 기본적으로 래스터화 또는 rip되어 리치 미디어를 빌드하는 데 사용할 수 있습니다.
 
 페이지 추출을 위해 PDF을 업로드할 때 Adobe은 다음 제한을 적용합니다.
 
 | 제한 유형 | 제한 적용됨 | 2022년 12월 31일 제한 변경 |
 | --- | --- | --- |
-| 추출 시 고려할 PDF의 최대 페이지 수 | 5000(새 업로드용) | 100(모든 PDF) |
+| 추출을 위해 고려할 PDF의 최대 페이지 수 | 5000(새 업로드용) | 100(모든 PDF의 경우) |
 
 [Dynamic Media 제한 사항](/help/using/limitations.md)도 참조하세요.
 
@@ -37,13 +37,13 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
 
 ### 처리 옵션
 
-**[!UICONTROL 래스터화]**: (기본값) PDF 파일의 페이지를 리핑하고 벡터 그래픽을 비트맵 이미지로 변환합니다. eCatalog를 만들려면 이 옵션을 선택합니다.
+**[!UICONTROL 래스터화]**: (기본값) PDF 파일의 페이지를 분리하고 벡터 그래픽을 비트맵 이미지로 변환합니다. eCatalog를 만들려면 이 옵션을 선택합니다.
 
 **[!UICONTROL 검색 단어 추출]**: 파일의 키워드를 eCatalog 뷰어에서 검색할 수 있도록 PDF 파일에서 단어를 추출합니다.
 
 **[!UICONTROL 링크 추출]**: PDF 파일에서 링크를 추출하여 eCatalog 뷰어에서 사용되는 이미지 맵으로 변환합니다.
 
-**[!UICONTROL 다중 페이지 PDF을 사용하여 eCatalog 자동 생성]**: PDF 파일에서 eCatalog를 자동으로 만듭니다. eCatalog 이름은 업로드한 PDF 파일을 따서 지정됩니다. 이 선택 사항은 업로드할 때 PDF 파일을 래스터화한 경우에만 사용할 수 있습니다.
+**[!UICONTROL 여러 페이지로 된 PDF을 사용하여 eCatalog 자동 생성]**: PDF 파일에서 eCatalog를 자동으로 만듭니다. eCatalog 이름은 업로드한 PDF 파일을 따서 지정됩니다. 이 선택 사항은 업로드할 때 PDF 파일을 래스터화한 경우에만 사용할 수 있습니다.
 
 ### 해상도
 
@@ -73,7 +73,7 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
 
 ## PDF 파일에서 공백 자르기 {#cropping-white-space-from-a-pdf-file}
 
-업로드하면서 PDF 파일에서 공백 픽셀을 자동으로 자를 수 있습니다.
+PDF 파일을 업로드할 때 자동으로 공백 픽셀을 자를 수 있습니다.
 
 1. [자르기] 메뉴를 선택하고 [트림]을 선택합니다.
 1. 다음 선택 사항을 지정합니다.

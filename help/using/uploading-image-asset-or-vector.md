@@ -22,7 +22,7 @@ ht-degree: 53%
 
 >[!IMPORTANT]
 >
->2023년 5월 1일부터 Dynamic Media의 UGC 에셋은 업로드일로부터 최대 60일까지 사용할 수 있습니다. 60일 이후에는 에셋이 제거됩니다.
+>2023년 5월 1일부터 Dynamic Media의 UGC 에셋은 업로드일로부터 최대 60일 동안 사용할 수 있습니다. 60일 이후에는 에셋이 제거됩니다.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ ht-degree: 53%
 
 ## 공유 암호 키 요청 {#requesting-a-shared-secret-key}
 
-[Admin Console을 사용하여 *공유 암호 키*&#x200B;를 요청하여 지원 사례를 만듭니다.](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 기술 지원 사례에서 공유 암호 키를 요청합니다.
+*Admin Console을 사용하여*&#x200B;공유 암호 키[를 요청하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 기술 지원 사례에서 공유 암호 키를 요청합니다.
 
 이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Adobe Dynamic Media Classic에서 키를 받으면 나중에 사용할 수 있도록 로컬에 저장합니다.
 
@@ -140,7 +140,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 [https://s7ugc1.scene7.com/ugc/upload.html](https://s7ugc1.scene7.com/ugc/upload.html)을(를) 선택하여 위의 양식과 연결된 HTML 소스 코드를 볼 수 있습니다.
 
-Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 페이지 Source 보기]**&#x200B;를 선택합니다. 이 코드는 사용자가 **[!UICONTROL 제출]**&#x200B;을 선택할 때 실행되는 해당 URL 쿼리 문자열과 POST 메서드를 보여 줍니다.
+Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 페이지 Source 보기]**&#x200B;를 선택합니다. 이 코드는 사용자가 **[!UICONTROL 제출]**&#x200B;을 선택할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다.
 
 Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL 보기]** > **[!UICONTROL Source]**(으)로 이동하십시오. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 웹 개발자 도구]**&#x200B;로 이동하십시오. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 

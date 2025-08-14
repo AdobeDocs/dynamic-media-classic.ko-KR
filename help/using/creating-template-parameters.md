@@ -27,7 +27,7 @@ ht-degree: 45%
 
 한 매개 변수를 여러 번 참조할 수 있습니다. 매개 변수 대화 상자에서 각 명령의 콤보 상자를 사용하여 특정 명령과 일치하는 매개 변수를 선택합니다. 예를 들어 `size=` 명령에 모든 크기 매개 변수를 사용할 수 있습니다. 이미 콤보 상자에 있는 매개 변수에 매개 변수 참조를 다시 지정하고 콤보 상자에 없는 이름으로 바꿀 수 있습니다. 후자의 경우 이름은 고유해야 합니다. 그렇지 않으면 매개 변수가 존재한다는 오류가 표시됩니다. 매개 변수 참조를 삭제하면 매개 변수는 다른 곳에서 참조되지 않는 경우 URL에서 제거됩니다. 텍스트 매개변수의 기본값을 변경하면 해당 매개변수에 대한 모든 참조가 업데이트됩니다. 레이어 테이블, 템플릿 렌더링 및 URL에서 업데이트를 볼 수 있습니다. 크기 조정 핸들을 조작하거나 속성 패널에 값을 입력하여 레이어 속성을 변경하면 매개변수 값이 업데이트되고 모든 매개변수 참조가 업데이트됩니다. 예를 들어 매개 변수 하나를 사용하여 두 레이어의 크기를 매개 변수화한 경우 레이어 크기 중 하나를 변경하면 두 레이어 크기가 모두 업데이트됩니다. 템플릿을 미리 보고 매개 변수를 변경하면 해당 매개 변수에 대한 모든 참조가 업데이트됩니다.
 
-[템플릿 기본 사항](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 교육 비디오도 참조하세요.
+[템플릿 기본 사항](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 교육 비디오도 참조하세요.
 
 ## 레이어 매개 변수화 {#parameterizing-a-layer}
 

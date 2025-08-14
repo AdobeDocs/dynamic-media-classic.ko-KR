@@ -19,7 +19,7 @@ ht-degree: 26%
 
 # 웹 애플리케이션에 URL 연결{#linking-urls-to-your-web-application}
 
-웹 사이트 및 애플리케이션은 URL 문자열을 통해 Dynamic Media Image Server 콘텐츠에 액세스합니다. 이미지를 게시하면 Adobe Dynamic Media Classic은 Dynamic Media 이미지 서버의 이미지 사전 설정을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 이러한 URL을 웹 브라우저에 붙여넣을 수 있습니다.
+웹 사이트 및 애플리케이션은 URL 문자열을 통해 Dynamic Media 이미지 서버 콘텐츠에 액세스합니다. 이미지를 게시하면 Adobe Dynamic Media Classic에서 Dynamic Media 이미지 서버의 이미지 사전 설정을 참조하는 URL 문자열을 활성화합니다. 테스트를 위해 이러한 URL을 웹 브라우저에 붙여넣을 수 있습니다.
 
 이러한 URL 문자열을 웹 페이지 및 애플리케이션에 배치하려면 Adobe Dynamic Media Classic에서 복사하십시오. 이미지 사전 설정으로 생성된 URL 문자열을 가져오려면 [미리 보기] 화면 또는 [찾아보기] 패널(자세히 보기)로 이동합니다.
 
@@ -54,11 +54,11 @@ ht-degree: 26%
 
 ## 이미지 사전 설정 URL 문자열 정보 {#about-image-preset-url-strings}
 
-Dynamic Media 이미지 서버로의 이미지 크기 조정을 위한 URL 호출에는 다음과 같은 기본 구문이 있습니다.
+Dynamic Media 이미지 서버에 대한 이미지 크기 조정을 위한 URL 호출의 기본 구문은 다음과 같습니다.
 
 *path*/*name of Image Server*/*account name*/*image name*?*modifier1*&amp;*modifier2*&amp;...
 
-Dynamic Media 이미지 서버 URL에서 이미지를 표시하기 위한 서버에 대한 지침이 물음표(?) 뒤에 나타납니다. 예를 들어 이 URL 호출은 250픽셀 너비로 &quot;backpack&quot;이라는 이미지를 전달합니다.
+Dynamic Media 이미지 서버 URL에서 이미지를 표시하기 위한 서버에 대한 명령이 물음표(?) 뒤에 나타납니다. 예를 들어 이 URL 호출은 250픽셀 너비로 &quot;backpack&quot;이라는 이미지를 전달합니다.
 
 ```as3
 https://s7d1.scene7.com/is/image/S7learn/backpack?wid=250
@@ -80,7 +80,7 @@ URL에서 이미지 사전 설정 이름은 달러 기호($)로 묶여 있습니
 
 ## 웹 페이지에 동적 이미지 추가 {#adding-dynamic-images-to-your-web-page}
 
-웹 페이지에 동적 이미지를 추가할 때 HTML 페이지 코드의 `<IMG>` 태그는 일반적으로 Adobe Dynamic Media Classic URL 문자열을 사용하여 Dynamic Media 이미지 서버에 요청합니다. 이 문자열은 이미지 사전 설정에 의해 정의된 크기 및 형식 지정 사양에 따라 이미지를 생성합니다.
+웹 페이지에 동적 이미지를 추가할 때 HTML 페이지 코드의 `<IMG>` 태그는 일반적으로 Adobe Dynamic Media Classic URL 문자열을 사용하여 Dynamic Media 이미지 서버에 요청하도록 수정됩니다. 이 문자열은 이미지 사전 설정에 의해 정의된 크기 및 형식 지정 사양에 따라 이미지를 생성합니다.
 
 예를 들어 다음과 같은 일반적인 정적 이미지 열기 호출이 있습니다.
 

@@ -23,9 +23,9 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 이미지 집합 뷰어에서는 이미지를 자세히 검사하기 위해 확대/축소 도구를 제공합니다. 원하는 경우 안내식 확대/축소 대상 및 이미지 맵 을 이미지 세트의 일부로 만들 수 있습니다. 이미지 집합은 보다 조화롭고 친근한 보기 환경을 제공합니다.
 
-[이미지 및 회전 집합: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/556_Image%20&amp;%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 교육 비디오를 참조하십시오.
+[이미지 및 회전 집합: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 교육 비디오를 참조하십시오.
 
-이미지 집합을 만들 때 Adobe은 다음 모범 사례를 권장하며 다음 제한을 적용합니다.
+이미지 집합을 생성할 때 Adobe에서는 다음 모범 사례를 권장하며 다음 제한을 적용합니다.
 
 | 제한 유형 | 우수 사례 | 제한 적용됨 |
 | --- | --- | --- |
@@ -38,15 +38,15 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 다음 이미지 세트 빠른 시작은 Adobe Dynamic Media Classic의 이미지 세트 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
 
-## 1. 여러 보기 및 견본에 대한 기본 이미지 업로드
+## &#x200B;1. 여러 보기 및 견본에 대한 기본 이미지 업로드
 
-먼저 이미지 집합에 사용할 이미지를 업로드합니다. 사용자는 이미지 세트 뷰어에서 이미지를 확대할 수 있으므로 이미지를 선택할 때 이 기능을 고려해야 합니다. 이미지의 크기가 2000픽셀 이상인지 확인하십시오. Adobe Dynamic Media Classic은 다양한 이미지 파일 형식을 지원하지만 무손실 TIFF, PNG 및 EPS 이미지가 권장됩니다.
+먼저 이미지 집합에 사용할 이미지를 업로드합니다. 사용자는 이미지 세트 뷰어에서 이미지를 확대할 수 있으므로 이미지를 선택할 때 이 기능을 고려해야 합니다. 이미지의 크기가 2000픽셀 이상인지 확인하십시오. Adobe Dynamic Media Classic은 다양한 이미지 파일 형식을 지원하지만 손실 없는 TIFF, PNG 및 EPS 이미지가 권장됩니다.
 
 전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터의 파일을 Adobe Dynamic Media Classic의 폴더로 업로드합니다.
 
 [업로드할 이미지 집합 자산 준비](preparing-image-set-assets-upload.md#preparing-image-set-assets-for-upload) 및 [파일 업로드](uploading-files.md#uploading-your-files)를 참조하세요.
 
-## 2. 이미지 집합 만들기
+## &#x200B;2. 이미지 집합 만들기
 
 이미지 세트에서 사용자는 이미지 세트 뷰어에서 썸네일 이미지를 선택하여 다른 측면 또는 각도의 이미지를 봅니다.
 
@@ -56,7 +56,7 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 [이미지 집합에 확대/축소 대상 및 이미지 맵 포함](/help/using/including-zoom-targets-image-maps-image-sets.md)도 참조하세요.
 
-## 3. 필요에 따라 이미지 세트 뷰어 사전 설정 준비
+## &#x200B;3. 필요에 따라 이미지 세트 뷰어 사전 설정 준비
 
 관리자는 이미지 집합 뷰어 사전 설정을 만들거나 수정할 수 있습니다. Adobe Dynamic Media Classic에는 각 리치 미디어 유형에 대한 기본 뷰어 사전 설정이 포함되어 있습니다. 이미지 집합을 보려면 확대/축소 뷰어: **[!UICONTROL 사용자 지정]** > **[!UICONTROL 이미지]** 또는 **[!UICONTROL 이미지 집합]**/**[!UICONTROL 다중 보기]** 사전 설정을 사용하십시오.
 
@@ -64,25 +64,25 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 [뷰어 사전 설정 만들기 및 편집](application-setup.md#adding-and-editing-viewer-presets)을 참조하십시오.
 
-## 4. 이미지 집합 미리 보기
+## &#x200B;4. 이미지 집합 미리 보기
 
 [찾아보기] 패널에서 이미지 집합을 선택한 다음 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다. 미리 보기 페이지에서 썸네일 아이콘을 선택하여 선택한 뷰어에서 이미지 세트를 검사합니다. [사전 설정] 메뉴에서 다른 뷰어를 선택할 수 있습니다.
 
 [에셋 미리 보기](previewing-asset.md#previewing-an-asset)를 참조하십시오.
 
-## 5. Publish 및 이미지 세트
+## &#x200B;5. 이미지 집합 게시
 
 이미지 집합을 게시하면 Adobe Dynamic Media Classic 서버에 표시되고 URL 문자열이 활성화됩니다.
 
 >[!NOTE]
 >
->Publish 이미지 집합을 만들고 저장할 때 **[!UICONTROL 저장 후]**(기본값)을(를) 선택한 경우 이 단계는 필요하지 않습니다.
+>이미지 집합을 만들고 저장할 때 **[!UICONTROL 저장 후 게시]**(기본값)를 선택한 경우에는 이 단계를 수행할 필요가 없습니다.
 
-[찾아보기] 패널에서 이름 왼쪽에 있는 **[!UICONTROL Publish 표시]** 아이콘을 선택합니다. 그런 다음 **[!UICONTROL Publish]**&#x200B;을(를) 선택합니다. 게시 페이지에서 **[!UICONTROL Publish 제출]**&#x200B;을 선택합니다.
+[찾아보기] 패널에서 이름 왼쪽에 있는 **[!UICONTROL 게시용으로 표시]** 아이콘을 선택합니다. 그런 다음 **[!UICONTROL 게시]**&#x200B;를 선택합니다. 게시 페이지에서 **[!UICONTROL 게시 제출]**&#x200B;을 선택합니다.
 
-[Publish 파일](publishing-files.md#publishing-files)을 참조하세요.
+[파일 게시](publishing-files.md#publishing-files)를 참조하십시오.
 
-## 6. 웹 사이트에 이미지 세트 연결
+## &#x200B;6. 웹 사이트에 이미지 세트 연결
 
 Adobe Dynamic Media Classic은 이미지 세트에 대한 URL 호출을 생성하고 게시한 후 활성화합니다. [미리 보기] 화면에서 이러한 URL을 복사할 수 있습니다.
 

@@ -11,7 +11,7 @@ topic: Content Management
 level: Intermediate
 source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
 workflow-type: tm+mt
-source-wordcount: '3989'
+source-wordcount: '3981'
 ht-degree: 40%
 
 ---
@@ -56,7 +56,7 @@ Adobe Dynamic Media Classic은 비디오 축소판도 생성합니다. 비디오
 1. 업로드 페이지에서 **[!UICONTROL 데스크톱에서]** 탭을 선택합니다.
 1. 업로드 페이지의 **[!UICONTROL 업로드할 파일 선택]** 패널에서 **[!UICONTROL 찾아보기]**&#x200B;를 선택하고 MP4 비디오 파일로 이동한 다음 **[!UICONTROL 열기]**&#x200B;를 선택합니다.
 1. 선택한 **[!UICONTROL 폴더 대상]** 패널에서 업로드한 파일의 폴더를 선택합니다.
-1. 업로드 페이지에서 **[!UICONTROL 업로드 후 Publish]**&#x200B;이(가) 선택되어 있는지 확인하십시오.
+1. 업로드 페이지에서 **[!UICONTROL 업로드 후 게시]**&#x200B;가 선택되어 있는지 확인하십시오.
 1. **[!UICONTROL 업로드 제출]**&#x200B;을 선택합니다.
 
 *Adobe Dynamic Media Classic을 사용하여 비디오를 인코딩하려는 경우*
@@ -69,10 +69,10 @@ Adobe Dynamic Media Classic은 비디오 축소판도 생성합니다. 비디오
 1. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL EVideo 옵션]**&#x200B;을 확장한 후 다음 중 하나를 수행합니다.
 
    * 가장 좋은 방법은 **[!UICONTROL 응용 비디오 인코딩]**&#x200B;을 선택하는 것입니다. [적응형 비디오(기본값)](application-setup.md#adaptive-video-default)를 참조하십시오.
-   * 선택 사항입니다. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
+   * 선택 사항입니다. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
 [데스크톱 비디오 인코딩 사전 설정](application-setup.md#desktop-video-encoding-presets), [모바일 비디오 인코딩 사전 설정](application-setup.md#mobile-video-encoding-presets), [태블릿 비디오 인코딩 사전 설정](application-setup.md#tablet-video-encoding-presets)을 참조하십시오.
 1. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
-1. 업로드 페이지에서 **[!UICONTROL 업로드 후 Publish]**&#x200B;이(가) 선택되어 있는지 확인하십시오.
+1. 업로드 페이지에서 **[!UICONTROL 업로드 후 게시]**&#x200B;가 선택되어 있는지 확인하십시오.
 1. 업로드 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 업로드 제출]**&#x200B;을 선택합니다.
 
 *이전에 업로드한 비디오 파일을 다시 인코딩하려는 경우*
@@ -80,9 +80,9 @@ Adobe Dynamic Media Classic은 비디오 축소판도 생성합니다. 비디오
 1. Adobe Dynamic Media Classic의 찾아보기 패널에서 비디오로 이동하여 선택합니다.
 1. **[!UICONTROL 파일]** > **[!UICONTROL 재처리]**(으)로 이동합니다.
 1. Assets 다시 처리 대화 상자에서 **[!UICONTROL EVideo 옵션]**&#x200B;을 확장한 후 다음 중 하나를 수행합니다.
-   * 가장 좋은 방법은 다음 방법을 사용하는 것입니다. **응용 비디오**&#x200B;를 선택하십시오.
+   * 가장 좋은 방법은 다음 방법을 사용하는 것입니다. **응용 비디오**를 선택하십시오.
 [적응형 비디오(기본값)](application-setup.md#adaptive-video-default)를 참조하십시오.
-   * 선택 사항입니다. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
+   * 선택 사항입니다. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
 [데스크톱 비디오 인코딩 사전 설정](application-setup.md#desktop-video-encoding-presets), [모바일 비디오 인코딩 사전 설정](application-setup.md#mobile-video-encoding-presets), [태블릿 비디오 인코딩 사전 설정](application-setup.md#tablet-video-encoding-presets)을 참조하십시오.
 1. Assets 재처리 대화 상자에서 **[!UICONTROL 제출]**&#x200B;을 선택합니다.
 
@@ -354,7 +354,7 @@ Adobe Dynamic Media Classic은 적절한 재생 환경을 보장하기 위해 �
    | 재생 장치 | 비디오를 재생하려는 장치를 선택합니다. 옵션은 컴퓨터(데스크탑), 모바일(iPhone, iPad, Android™) 또는 태블릿(iPad 전용)입니다. 이 설정은 인코딩하는 동안 사용되는 적절한 비디오 및 오디오 코덱을 자동으로 결정합니다. |
    | 타겟 데이터 속도 | 타겟 최종 사용자의 평균 인터넷 연결 속도(kbps)를 입력합니다. 속도를 입력하거나 슬라이더를 끌어 입력할 수 있습니다. [사용자 연결 속도] 스펙트럼에는 광대역, DSL, 모바일 및 전화 접속 연결의 일반 속도가 나열됩니다. 이 설정은 결합된 비디오 및 오디오 데이터 속도를 결정합니다. 즉, 1초의 비디오 재생을 구성하기 위해 인코딩되는 데이터 양입니다. 데이터 속도가 빠를수록 결과 비디오 품질이 향상됩니다. 그러나 데이터 속도가 너무 빠르면 파일 크기가 커서 저대역폭 사용자에게 보통 이하의 보기 환경을 만듭니다. 빠른 데이터 속도와 느린 데이터 속도 간의 균형을 맞추는 것이 좋습니다. 좁은 대역폭을 가진 사용자를 소외시키지 않고 적절한 품질의 재생 경험을 만드는 것을 목표로 하십시오. |
    | 종횡비 | 가로 세로 비율은 비디오 높이에 대한 너비의 비율입니다. 아래 나열된 처음 두 종횡비는 일반적으로 비디오를 가로로 표시하는 데 사용됩니다.<ul><li> 4:3: 거의 모든 표준 정의 TV 브로드캐스트 콘텐츠에 사용됩니다.</li><li>16:9:은(는) HDTV(High-Definition Television)의 거의 모든 와이드스크린 콘텐츠 및 영화에 사용됩니다.</li><li>자동 크기 조정: (기본값) 모바일, 태블릿 및 데스크톱에 전송할 비디오를 만들기 위해 모든 종횡비와 함께 작동하는 단일 인코딩 사전 설정입니다. 이 사전 설정으로 인코딩된 업로드된 소스 비디오는 고정 높이로 설정됩니다. 그러나 비디오의 종횡비(폭 대 높이 비율)를 유지하기 위해 너비가 자동으로 조절됩니다.</li><li>사용자 지정: 비표준 비디오 크기를 정의하려는 경우에 사용됩니다.</li><li>선택하는 종횡비에 따라 해상도 크기에 대한 너비와 높이 설정이 결정됩니다. 너비 및 높이 값은 적절한 종횡비에 맞게 자동으로 조정됩니다.</li></ul> |
-   | 해상도 크기 | 넓은 픽셀 수와 높은 픽셀 수로 표현되는 해상도 크기가 크기를 결정합니다. 폭과 높이 값을 픽셀 단위로 입력하거나 슬라이더를 드래그하여 이러한 값을 입력합니다. 해상도 스펙트럼에는 일반적인 해상도 크기가 나열됩니다. 폭 값과 높이 값은 선택한 종횡비를 자동으로 준수합니다. 예를 들어 가로 세로 비율로 4:3을 선택하고 너비로 400을 입력하면 높이로 300이 자동으로 입력됩니다. [종횡비] 설정으로 [자동 배율]을 선택한 경우 [해상도 크기]의 [폭] 값이 자동으로 [자동]으로 설정됩니다. **[!UICONTROL 미리 보기]**&#x200B;를 선택하면 브라우저 창을 열고 해결책 선택 사항을 볼 수 있습니다. |
+   | 해상도 크기 | 넓은 픽셀 수와 높은 픽셀 수로 표현되는 해상도 크기가 크기를 결정합니다. 폭과 높이 값을 픽셀 단위로 입력하거나 슬라이더를 드래그하여 이러한 값을 입력합니다. 해상도 스펙트럼에는 일반적인 해상도 크기가 나열됩니다. 폭 값과 높이 값은 선택한 종횡비를 자동으로 준수합니다. 예를 들어 종횡비로 4:3을 선택하고 너비로 400을 입력하면 높이로 300이 자동으로 입력됩니다. [종횡비] 설정으로 [자동 배율]을 선택한 경우 [해상도 크기]의 [폭] 값이 자동으로 [자동]으로 설정됩니다. **[!UICONTROL 미리 보기]**&#x200B;를 선택하면 브라우저 창을 열고 해결책 선택 사항을 볼 수 있습니다. |
    | 인코딩된 파일 접미어 | 접미어를 입력합니다. 이 접미어는 결과로 인코딩된 비디오 파일에 추가됩니다. 이름에 하이픈과 밑줄을 입력할 수 있습니다. 공백과 특수 문자는 허용되지 않습니다. |
    | 기타 설정 | Adobe Dynamic Media Classic은 모범 사례 인코딩 지침에 따라 다른 모든 인코딩 설정을 자동으로 결정합니다. |
 
@@ -378,4 +378,4 @@ Adobe Dynamic Media Classic은 적절한 재생 환경을 보장하기 위해 �
 >* [빠른 시작: Adobe Dynamic Media Classic의 비디오](quick-start-video.md#quick-start-video)
 >* [비디오 업로드 및 인코딩](uploading-encoding-videos.md#uploading-and-encoding-videos)
 >* [비디오 뷰어 사전 설정 작업](previewing-videos-video-viewer.md#working-with-video-viewer-presets)
->* [비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오
+>* [비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오

@@ -1,6 +1,6 @@
 ---
 title: Adobe [!DNL Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Experience Manager] Assets으로 업그레이드
-description: ' [!DNL Adobe Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] (으)로 업그레이드하십시오.  [!DNL Dynamic Media]의 주요 이점 및 기능에 대해 알아봅니다. 기능 목록 비교, 업그레이드 FAQ 및 준비 확인 목록을 검토하십시오.'
+description: ' [!DNL Adobe Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Adobe Experience Manager](으)로 업그레이드하십시오.  [!DNL Dynamic Media]의 주요 이점 및 기능에 대해 알아봅니다. 기능 목록 비교, 업그레이드 FAQ 및 준비 확인 목록을 검토하십시오.'
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Dynamic Media] (으)로 업그레이드하는 이유
+# [!DNL Dynamic Media]&#x200B;(으)로 업그레이드하는 이유
 
-Adobe이 [!DNL Dynamic Media]을(를) 만들었습니다.
+Adobe에서 [!DNL Dynamic Media]을(를) 만들었습니다.
 
-[!DNL Adobe Experience Manager]의 새 [!DNL Dynamic Media]은(는) [!DNL Dynamic Media Classic]에서 기대하는 기능을 기반으로 합니다(이전 Scene7). 더욱 새롭고 향상된 도구를 통해 보다 나은 매력적인 경험을 구축할 수 있습니다.
+[!DNL Dynamic Media]의 새 [!DNL Adobe Experience Manager]은(는) [!DNL Dynamic Media Classic]에서 기대하는 기능을 기반으로 합니다(이전 Scene7). 더욱 새롭고 향상된 도구를 통해 보다 나은 매력적인 경험을 구축할 수 있습니다.
 
-[!DNL Dynamic Media]은(는) 실시간 비주얼 빌더를 사용하여 콘텐츠 빌드 환경을 업그레이드합니다. Adobe의 시도되고, 신뢰할 수 있으며, 확장 가능한 전달 네트워크의 맨 위에 있으며 직관적인 [!DNL Adobe Experience Manager] 사용자 인터페이스와 쌍을 이루는 [!DNL Dynamic Media]은(는) 흥미로운 다음 수준 경험을 작성, 반복 및 제공할 수 있는 기능을 제공합니다.
+[!DNL Dynamic Media]은(는) 실시간 비주얼 빌더를 사용하여 콘텐츠 빌드 환경을 업그레이드합니다. Adobe의 시도되고, 신뢰할 수 있으며, 확장 가능한 전달 네트워크 위에 위치하며 직관적인 [!DNL Adobe Experience Manager] 사용자 인터페이스와 짝을 이루는 [!DNL Dynamic Media]은(는) 흥미로운 다음 수준 경험을 작성, 반복 및 제공할 수 있는 기능을 제공합니다.
 
 | [!DNL Dynamic Media]에 대해 얻을 수 있는 이점 | 설명 |
 | --- | --- |
 | 운영 파일 접근 방식 | 전체 크기 에셋을 업로드하면 [!DNL Dynamic Media]에서 필요에 따라 크기를 자동으로 만듭니다. |
 | 간편한 작성 | 기술 지원 없이도 풍부한 경험을 빠르게 구축하고, 맞춤화하고, 실행할 수 있습니다. |
-| 직관적인 인터페이스 | 사용하기 쉬운 WYSIWYG(What You See It What You Get) 인터페이스를 사용하여 이미지 뷰어와 비디오 플레이어를 편집합니다. |
+| 직관적인 인터페이스 | 사용하기 쉬운 WYSIWYG(What You See It What You Get) 인터페이스를 사용하여 이미지 뷰어 및 비디오 플레이어를 편집합니다. |
 | 쇼퍼블 미디어 | 이미지 핫스팟과 클릭 가능한 링크를 사용하여 구매 가능한 이미지, 비디오 및 카루셀을 만듭니다. |
 | 확장 가능한 CDN | 검증된 규모와 성능으로 동급 최고의 CDN(Content Delivery Network)에 액세스하여 모든 요구 사항을 충족할 수 있습니다. |
 | Dynamic Imaging | 하나의 기본 파일을 사용하여 무제한 버전을 자동 생성 및 게시하고, 크기, 형식, 해상도, 자르기 또는 효과를 변경합니다. |
@@ -39,10 +39,10 @@ Adobe이 [!DNL Dynamic Media]을(를) 만들었습니다.
 
 * 원활하고 통합된 환경 및 [!DNL Adobe Experience Manager]과의 통합: 하나의 저장소, 하나의 소스에서 풍부한 콘텐츠를 구성하고 동적으로 제공
 * 리치 미디어 콘텐츠를 손쉽게 작성 및 게재할 수 있는 새로운 마케터 중심의 사용자 환경
-* WYSIWYG(보이는 것은 얻는 것입니다) 모양과 느낌, 이미지 뷰어 및 비디오 플레이어를 위한 행동 편집기입니다.
+* 이미지 뷰어 및 비디오 플레이어를 위한 WYSIWYG(What You See Is What You Get) 모양 및 느낌, 동작 편집기입니다.
 * 이미지 핫스팟 및 구매 가능한 비디오를 비롯한 구매 가능한/대화형 미디어 경험 생성 및 배포 시간 단축
 
-### [!DNL Experience Manager] Assets 내의 [!DNL Dynamic Media] 기능
+### [!DNL Dynamic Media] Assets 내의 [!DNL Experience Manager] 기능
 
 | 기능 | 설명 |
 | --- | --- |

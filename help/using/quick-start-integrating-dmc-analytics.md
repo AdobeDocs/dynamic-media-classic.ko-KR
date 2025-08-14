@@ -25,7 +25,7 @@ Adobe Analytics을 Adobe Dynamic Media Classic과 통합하면 웹 사이트에�
 
 Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명확하게 파악할 수 있습니다. 어떤 제품 프레젠테이션이 전환을 유도하고 어떤 것이 고객의 관심을 끌지 못하는지 결정할 수 있습니다.
 
-[Adobe Analytics에서 비디오 측정](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview)도 참조하세요.
+[Adobe Analytics에서 비디오 측정](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview)도 참조하세요.
 
 >[!NOTE]
 >
@@ -33,7 +33,7 @@ Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명�
 
 이 빠른 시작은 Adobe Analytics Instrumentation Kit를 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
 
-## 1. Adobe Dynamic Media Classic을 통해 Adobe Analytics에 로그온하고 Adobe Analytics 보고서 변수를 다운로드합니다
+## &#x200B;1. Adobe Dynamic Media Classic을 통해 Adobe Analytics에 로그온하고 Adobe Analytics 보고서 변수를 다운로드합니다
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명�
 
 Adobe Analytics 로그인 대화 상자에서 Experience Cloud 조직 ID(선택 사항)와 전체 자격 증명을 입력한 다음 **[!UICONTROL 로그인]**&#x200B;을 선택합니다. 보고서 세트 드롭다운 메뉴에서 사용하려는 보고서 세트 이름을 선택합니다.
 
-## 2. Adobe Analytics 보고서 변수를 Adobe Dynamic Media Classic 뷰어 이벤트 및 Adobe Dynamic Media Classic 변수에 할당
+## &#x200B;2. Adobe Analytics 보고서 변수를 Adobe Dynamic Media Classic 뷰어 이벤트 및 Adobe Dynamic Media Classic 변수에 할당
 
 Adobe Analytics 구성 페이지에서 Adobe Analytics 보고서에 원하는 정보를 지정합니다. 정보를 보려는 각 Adobe Dynamic Media Classic 뷰어 이벤트에 대해 보고서 세트에서 Adobe Analytics 변수와 Adobe Dynamic Media Classic 변수를 선택합니다.
 
@@ -58,17 +58,17 @@ Adobe Analytics 구성 페이지에서 **[!UICONTROL 저장]**&#x200B;을 선택
 
 [Adobe Analytics 보고서 구성](configuring-analytics-reports.md#configuring_adobe_analytics_reports)을 참조하세요.
 
-## 3. Adobe Dynamic Media Classic 뷰어 Publish
+## &#x200B;3. Adobe Dynamic Media Classic 뷰어 게시
 
-Publish을 통해 Adobe Dynamic Media Classic 뷰어를 관리하므로 뷰어(Adobe Analytics 보고서에서 사용자 활동 추적을 위한 코드 포함)는 Adobe Dynamic Media Classic 서버에 로드됩니다. 게시하면 이 정보가 뷰어에 포함됩니다. Adobe Analytics에서 분석할 때 사용합니다.
+Adobe Dynamic Media Classic 뷰어를 게시하여 뷰어(Adobe Analytics 보고서에서 사용자 활동을 추적하는 코드와 함께)가 Adobe Dynamic Media Classic 서버에 로드되도록 합니다. 게시하면 이 정보가 뷰어에 포함됩니다. Adobe Analytics에서 분석할 때 사용합니다.
 
-[Publish 구성 정보](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)를 참조하세요.
+[구성 정보 게시](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)를 참조하십시오.
 
-## 4. 웹 사이트에 Adobe Dynamic Media Classic 뷰어 배치
+## &#x200B;4. 웹 사이트에 Adobe Dynamic Media Classic 뷰어 배치
 
 웹 사이트에 Adobe Analytics 추적 코드가 있는 Adobe Dynamic Media Classic 뷰어를 배치합니다.
 
-## 5. Adobe Analytics 보고서를 보고 Adobe Analytics 통합 테스트
+## &#x200B;5. Adobe Analytics 보고서를 보고 Adobe Analytics 통합 테스트
 
 Adobe Analytics 보고서를 보려면, Adobe Analytics 웹 사이트로 이동합니다. [보고] 페이지에서는 데이터를 보고 그래프와 차트를 생성하여 각기 다른 뷰어로 사용자 활동을 측정할 수 있습니다.
 

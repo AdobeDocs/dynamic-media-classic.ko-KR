@@ -1,6 +1,6 @@
 ---
-title: Publish 파일
-description: Dynamic Media 이미지 서버에 자산을 게시하는 방법을 알아봅니다.
+title: 파일 게시
+description: 자산을 Dynamic Media 이미지 서버에 게시하는 방법을 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -17,23 +17,23 @@ ht-degree: 21%
 
 ---
 
-# Publish 파일{#publishing-files}
+# 파일 게시{#publishing-files}
 
 자산을 Dynamic Media 이미지 서버에 게시합니다. 자산을 한 번만 게시하거나 Adobe Dynamic Media Classic에서 반복 일정에 자산을 게시하도록 예약할 수 있습니다. 자산이 게시되면 제공할 수 있습니다. Adobe Dynamic Media Classic에서 URL 호출을 복사하여 웹 사이트 또는 애플리케이션에 추가할 수 있습니다.
 
-Adobe Dynamic Media Classic은 이제 HTTP/2를 통해 모든 이미지 및 비디오의 전달을 지원합니다. 즉, 이미지 또는 비디오에 대한 게시된 URL 또는 포함 코드는 호스팅된 에셋을 수락하는 모든 애플리케이션과 통합할 수 있습니다. 게시된 해당 자산은 HTTP/2 프로토콜을 사용하여 전달됩니다. 이 전달 방법은 브라우저와 서버의 통신 방식을 개선하여 모든 Adobe Dynamic Media Classic 에셋의 응답 및 로드 시간을 향상시킵니다. [HTTP2 콘텐츠 배달 FAQ](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/http2)를 참조하십시오.
+Adobe Dynamic Media Classic은 이제 HTTP/2를 통해 모든 이미지 및 비디오의 전달을 지원합니다. 즉, 이미지 또는 비디오에 대한 게시된 URL 또는 포함 코드는 호스팅된 에셋을 수락하는 모든 애플리케이션과 통합할 수 있습니다. 게시된 해당 자산은 HTTP/2 프로토콜을 사용하여 전달됩니다. 이 전달 방법은 브라우저와 서버의 통신 방식을 개선하여 모든 Adobe Dynamic Media Classic 에셋의 응답 및 로드 시간을 향상시킵니다. [HTTP2 콘텐츠 배달 FAQ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2)를 참조하십시오.
 
 ## 업로드 후 게시 {#publish-after-uploading}
 
 게시 또는 게시 취소 상태의 자산. 기본적으로 Adobe Dynamic Media Classic에 업로드하는 모든 자산은 게시용으로 자동으로 표시됩니다.
 
-자세한 내용은 [빠른 Publish 알림 PDF](/help/using/assets/rendering-instant-publish-notification.pdf)를 참조하세요.
+자세한 내용은 [빠른 게시 알림 PDF](/help/using/assets/rendering-instant-publish-notification.pdf)을 참조하세요.
 
 게시할 자산을 표시하려면 다음 기술을 사용하십시오.
 
-* **[!UICONTROL 업로드 후 Publish]**: 맨 아래의 [업로드] 페이지에서 **[!UICONTROL 업로드 후 Publish]**&#x200B;을 선택합니다. 기본값은 선택된 상태입니다.
+* **[!UICONTROL 업로드 후 게시]**: 맨 아래의 업로드 페이지에서 **[!UICONTROL 업로드 후 게시]**&#x200B;를 선택합니다. 기본값은 선택된 상태입니다.
 
-* **[!UICONTROL 업로드 후 Publish]**: [작업 옵션] 대화 상자에서 **[!UICONTROL 업로드 후 Publish]**&#x200B;을 선택합니다. 기본값은 선택된 상태입니다.
+* **[!UICONTROL 업로드 후 게시]**: 작업 옵션 대화 상자에서 **[!UICONTROL 업로드 후 게시]**&#x200B;를 선택합니다. 기본값은 선택된 상태입니다.
 
 일부 &quot;하위&quot; 자산은 상위 자산을 게시로 표시할 때 자동으로 게시로 표시됩니다. 이 표에는 게시로 표시된 하위 자산이 자동으로 나열됩니다.
 
@@ -52,7 +52,7 @@ Adobe Dynamic Media Classic 서버에 업로드했지만 아직 자동으로 게
 
 **게시 작업을 만들려면:**
 
-1. 전역 탐색 모음에서 **[!UICONTROL Publish]**&#x200B;을(를) 선택합니다.
+1. 전역 탐색 모음에서 **[!UICONTROL 게시]**&#x200B;를 선택합니다.
 1. 게시 대화 상자에서 1회 게시 작업을 원하는지 반복 게시 작업을 원하는지 선택합니다.
 
    [1회 게시 작업 만들기](publishing-files.md#creating_a_one_time_publish_job) 및 [반복 게시 작업 만들기](publishing-files.md#creating_a_recurring_publish_job)를 참조하십시오.
@@ -62,7 +62,7 @@ Adobe Dynamic Media Classic 서버에 업로드했지만 아직 자동으로 게
 
    [[고급] 게시 선택 사항](publishing-files.md#advanced_publish_options)을 참조하십시오.
 
-1. **[!UICONTROL Publish 제출]**&#x200B;을 선택합니다.
+1. **[!UICONTROL 게시 제출]**&#x200B;을 선택합니다.
 
 Adobe Dynamic Media Classic은 작업 페이지에서 게시 작업을 추적합니다. 이 페이지에서 게시 작업을 검토할 수 있습니다.
 
@@ -92,9 +92,9 @@ Adobe Dynamic Media Classic은 작업 페이지에서 게시 작업을 추적합
 
 게시 페이지에 고급 옵션을 표시하고 게시 작업을 처리하기 위해 다음 옵션을 선택할 수 있습니다.
 
-* **[!UICONTROL Publish 받는 사람]**: 에셋을 특정 서버에만 게시하려면 서버 형식을 선택하십시오.
+* **[!UICONTROL 게시 위치]**: 특정 서버에만 자산을 게시하려면 서버 유형을 선택하십시오.
 
-* **[!UICONTROL Publish]**: 기본적으로 Adobe Dynamic Media Classic은 새로운 에셋만 게시하며 이전에 게시되지 않았습니다(마지막 Publish 이후 새로운 옵션). 그러나 **[!UICONTROL 전체 Publish]**&#x200B;을(를) 선택하여 마지막으로 게시된 이후 업데이트 또는 변경된 에셋을 게시할 수도 있습니다. eCatalog를 게시하고 독자가 키워드로 검색할 수 있도록 하려면 **[!UICONTROL 검색 데이터를 포함한 전체]**&#x200B;을(를) 선택하십시오.
+* **[!UICONTROL 게시]**: 기본적으로 Adobe Dynamic Media Classic은 새 자산이며 이전에 게시되지 않은 자산만 게시합니다(마지막 게시 이후 새로 만들기 옵션). 그러나 **[!UICONTROL 전체 게시]**&#x200B;를 선택하여 마지막으로 게시된 이후 업데이트 또는 변경된 자산을 게시할 수도 있습니다. eCatalog를 게시하고 독자가 키워드로 검색할 수 있도록 하려면 **[!UICONTROL 검색 데이터를 포함한 전체]**&#x200B;을(를) 선택하십시오.
 
 * **[!UICONTROL 다음으로 작업 실행]**: 목록에서 사용자 이름을 선택합니다. 작업 페이지에서 사용자 이름을 기준으로 작업을 정렬할 수 있습니다. 이름을 선택하여 게시 작업을 사용자와 연관시킵니다.
 
@@ -112,7 +112,7 @@ Adobe Dynamic Media Classic은 작업 페이지에서 게시 작업을 추적합
 >
 >게시 작업을 취소하면 작업이 안전하게 중지될 수 있는 지점에 도달할 때까지 상태가 &quot;중지 중&quot;으로 변경됩니다. 데이터베이스에서 데이터를 가져오는 중인 경우 게시 작업을 중지하는 데 시간이 걸릴 수 있습니다.
 
-## Publish assets 수동으로 {#manually-publishing-assets}
+## 자산 수동 게시 {#manually-publishing-assets}
 
 게시 작업을 만드는 대신 개별 자산을 수동으로 게시할 수 있습니다. 이미지 세트 또는 응용 비디오 세트와 같은 세트를 게시하면 해당 세트 내의 세트(또는 &quot;상위&quot;) 및 모든 멤버(또는 &quot;하위&quot;)가 게시됩니다.
 
@@ -124,7 +124,7 @@ Adobe Dynamic Media Classic은 작업 페이지에서 게시 작업을 추적합
 
    * [격자 보기], [목록 보기] 또는 [상세 보기]에서 표준 파일 선택 방법을 사용하여 자산을 하나 이상 선택합니다.
 
-     전역 탐색 모음에서 **[!UICONTROL 파일]** > **[!UICONTROL Publish]**(으)로 이동합니다.
+     전역 탐색 모음에서 **[!UICONTROL 파일]** > **[!UICONTROL 게시]**(으)로 이동합니다.
 
    * 그리드 보기, 목록 보기 또는 세부 사항 보기에서 에셋 이름 왼쪽에 슬래시가 있는 회색의 라운드 아이콘을 선택합니다.
 

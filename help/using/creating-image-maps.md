@@ -159,12 +159,12 @@ Javascript:loadProduct('$$');void(0);
 
   >[!NOTE]
   >
-  >`loadProductPW` 처리기가 DHTML 및 HTML5 뷰어를 지원하지 않습니다.
+  >`loadProductPW` 처리기는 DHTML 및 HTML5 뷰어를 지원하지 않습니다.
 
 ### URL 템플릿 만들기 {#creating-a-url-template}
 
 1. 맵 편집기 화면(이미지 또는 스핀 세트) 또는 eCatalog 화면의 맵 페이지 탭(eCatalogs)에서 URL 템플릿 옵션 옆에 있는 편집을 선택합니다. [맵 템플릿 편집] 대화 상자가 열립니다.
-1. JavaScript 코드와 전체 URL을 입력합니다(변수 부분이 달러 기호 [$$] (으)로 대체됨). 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL 붙여넣기]**&#x200B;를 선택하여 코드를 붙여넣을 수 있습니다.
+1. JavaScript 코드와 전체 URL을 입력합니다(변수 부분이 달러 기호 [$$]&#x200B;(으)로 대체됨). 마우스 오른쪽 단추를 클릭하고 **[!UICONTROL 붙여넣기]**&#x200B;를 선택하여 코드를 붙여넣을 수 있습니다.
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 ### URL 템플릿 처리 {#handling-url-templates}
@@ -216,8 +216,8 @@ Adobe Acrobat 또는 Adobe InDesign에서 이미지 맵을 표시할 위치에 �
 
 1. 만들려는 모든 이미지 맵에 대해 2단계부터 6단계까지 반복합니다.
 1. 파일을 PDF로 내보냅니다.
-1. Adobe Dynamic Media Classic에 PDF을 업로드합니다.
-1. **[!UICONTROL PDF 옵션]**&#x200B;에서 **[!UICONTROL 링크 추출]**&#x200B;을 선택하십시오.
+1. PDF을 Adobe Dynamic Media Classic에 업로드합니다.
+1. **[!UICONTROL PDF 옵션]**&#x200B;에서 **[!UICONTROL 링크 추출]**&#x200B;을 선택합니다.
 
 ### Adobe Acrobat에서 이미지 맵 만들기 {#to-create-image-maps-in-adobe-acrobat}
 
@@ -234,4 +234,4 @@ Adobe Acrobat 또는 Adobe InDesign에서 이미지 맵을 표시할 위치에 �
 1. URL 편집 상자에 이미지 맵의 제품 ID를 입력하고 **[!UICONTROL 확인]**&#x200B;을 선택합니다. (Adobe Dynamic Media Classic은 이미지 맵 URL 템플릿을 사용하여 URL을 완료합니다.)
 1. 만들려는 모든 이미지 맵에 대해 1-7 단계를 반복합니다.
 1. 파일을 저장합니다.
-1. Adobe Dynamic Media Classic에 PDF을 업로드하고 PDF 옵션에서 링크 추출 을 선택합니다.
+1. PDF을 Adobe Dynamic Media Classic에 업로드하고 PDF 옵션에서 링크 추출 을 선택합니다.

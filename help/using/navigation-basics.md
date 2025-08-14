@@ -35,7 +35,7 @@ Adobe Dynamic Media Classic 화면에는 전역 탐색 막대, 에셋 라이브�
 
 * **[!UICONTROL 빌드]**: 메뉴에서 빌드 작업을 선택합니다. 자산 유형을 만들 수 있도록 [작성] 패널이 열립니다.
 
-* **[!UICONTROL Publish]**: 리치 미디어 자산을 Dynamic Media 이미지 서버와 나머지 Adobe Dynamic Media Classic SAAS 인프라 Adobe에 게시할 수 있도록 게시 화면을 엽니다.
+* **[!UICONTROL 게시]**: 리치 미디어 자산을 Adobe Dynamic Media 이미지 서버와 Adobe Dynamic Media Classic SAAS 인프라의 나머지 부분에 게시할 수 있도록 게시 화면을 엽니다.
 
 * **[!UICONTROL 작업]**: 업로드 및 게시 작업의 레코드를 검사할 수 있도록 [작업] 화면을 엽니다.
 
@@ -71,7 +71,7 @@ Adobe Dynamic Media Classic 화면에는 전역 탐색 막대, 에셋 라이브�
 
 * **[!UICONTROL 빌드 모드]**: **[!UICONTROL 빌드]**&#x200B;를 선택한 다음 옵션을 선택하여 [빌드] 메뉴에서 eCatalog, 이미지 집합, 회전 집합 또는 사용 가능한 여러 항목 중 하나를 빌드할 수 있습니다. 빌드 페이지가 열립니다. [작성] 모드로 전환하기 전이나 후에 작업할 자산을 선택할 수 있습니다.
 
-[탐색 기본 사항](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS) 교육 비디오도 참조하세요.
+[탐색 기본 사항](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/571_Navigation%20Basics_converted%20renamed_Getting%20Started-AVS) 교육 비디오도 참조하세요.
 
 >[!MORELIKETHIS]
 >

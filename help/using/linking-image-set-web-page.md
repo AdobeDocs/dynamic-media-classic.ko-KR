@@ -48,7 +48,7 @@ ht-degree: 17%
 
 이미지 세트를 배포하는 가장 일반적인 방법은 웹 페이지에 링크(탐색 아이콘 사용)를 배치하는 것입니다. 선택하면 링크가 팝업 확대/축소 창에 이미지 세트를 표시하는 JSP(동적 페이지)를 시작합니다. 확대/축소 링크를 클릭하면 실제 확대/축소 기능이 포함된 팝업 창이 열립니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 가이드의 [Embed HTML5 확대/축소 뷰어](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)를 참조하십시오.
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 가이드의 [HTML5 확대/축소 뷰어 포함](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)을 참조하십시오.
 
 ## 이미지 집합 뷰어의 포함 코드 복사 {#copying-the-embed-code-of-an-image-set-viewer}
 
@@ -81,4 +81,4 @@ ht-degree: 17%
 
 >[!MORELIKETHIS]
 >
->* [Publish](publishing-files.md#publishing_files)
+>* [게시](publishing-files.md#publishing_files)

@@ -12,8 +12,8 @@ topic: Content Management
 level: Beginner
 source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 23%
+source-wordcount: '1441'
+ht-degree: 24%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classic Video는 데스크톱, iOS, Android™, BlackBerry®
 
 [응용 비디오 사전 설정 활성화 또는 비활성화](/help/using/application-setup.md#activating-or-deactivating-adaptive-video-presets)를 참조하세요.
 
-[비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오도 참조하세요.
+[비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오도 참조하세요.
 
 응용 비디오 세트가 생성되면 MP4 비디오가 포함됩니다.
 
@@ -49,7 +49,7 @@ Adobe Dynamic Media Classic Video는 데스크톱, iOS, Android™, BlackBerry®
 >
 >기본/원본 비디오와 다른 원본 형식 비디오는 응용 비디오 집합에 *추가되지 않습니다*.
 
-* Universal_Media5_Video, Universal_HTMLHTML 5_MixedMedia_dark 및 Universal_Media5_MixedMedia_light 뷰어의 비디오 캡션 및 Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark 및 Universal_HTMLHTML 5_MixedMedia_light 뷰어의 비디오 챕터 탐색
+* Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark 및 Universal_HTML5_MixedMedia_light 뷰어의 비디오 캡션 및 Universal_HTML5_Video, Universal_HTML5_MixedMedia_dark 및 Universal_HTML5_MixedMedia_light 뷰어의 비디오 챕터 탐색
 
   [비디오에 캡션 추가](adding-captions-video.md)를 참조하십시오.
 
@@ -60,7 +60,7 @@ Adobe Dynamic Media Classic Video는 데스크톱, iOS, Android™, BlackBerry®
 
   응용 비디오 스트리밍은 다양한 iOS 플랫폼에서 지원됩니다.
 
-  [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources)에서 최신 지원을 확인하세요.
+  [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)에서 최신 지원을 확인하세요.
 
   Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -79,26 +79,26 @@ Adobe Dynamic Media Classic Video는 데스크톱, iOS, Android™, BlackBerry®
 * 간단한 URL 또는 포함 코드를 사용하여 비디오를 웹 사이트, 모바일 사이트 또는 모바일 애플리케이션에 통합합니다.
 
 다음 교육 비디오를 참조하십시오.
-* [MP4 비디오 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
+* [MP4 비디오 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/563_MP4%20Video%20Overview_converted%20renamed_eVideos-AVS)
 
-* [MP4 비디오 미리 보기](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
+* [MP4 비디오 미리 보기](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/564_MP4%20Video%20Preview_converted%20renamed_eVideos-AVS)
 
-* [MP4 비디오 업로드](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
+* [MP4 비디오 업로드](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/565_MP4%20Video%20Upload_converted%20renamed_eVideos-AVS)
 
-* [스트리밍 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
+* [스트리밍 개요](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/567_Streaming%20Overview_master_eVideos_converted%20renamed_eVideos-AVS)
 
 **빠른 시작**
 
 다음 단계별 워크플로 설명은 Adobe Dynamic Media Classic에서 응용 비디오 세트를 빠르게 시작하고 실행하는 데 도움이 되도록 설계되었습니다. 각 단계 후에는 추가 정보를 찾을 수 있는 주제 머리글에 대한 상호 참조가 있습니다.
 
-## 1. 비디오 업로드 및 인코딩
+## &#x200B;1. 비디오 업로드 및 인코딩
 
 다음 2가지 시나리오 중 하나를 사용하여 적응형 비디오 집합을 업로드하고 생성하십시오.
 
 * **미리 인코딩된 비디오 업로드**: 비디오가 이미 Adobe Dynamic Media Classic 외부에서 인코딩된 경우 전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택합니다. MP4 비디오 파일을 찾아 Adobe Dynamic Media Classic에 바로 업로드할 수 있습니다. 그런 다음 **[!UICONTROL 빌드]** > **[!UICONTROL 응용 비디오 집합]**(으)로 이동합니다. 비디오 파일을 찾습니다. 원하는 비디오 파일을 응용 비디오 세트 표로 드래그 앤 드롭한 다음 세트를 저장합니다.
 * **기본 소스 비디오 업로드**: 비디오가 인코딩되어 있지 않으면 전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 기본 비디오 소스 파일(MP4 이외)을 업로드하십시오. Adobe Dynamic Media Classic은 이러한 파일을 MP4 파일로 인코딩합니다. **[!UICONTROL 업로드 작업 옵션]** 대화 상자의 **[!UICONTROL EVideo 옵션]**&#x200B;에서 **[!UICONTROL 응용 비디오]**&#x200B;를 선택합니다.
 
-  이 기본 옵션을 사용하면 응용 비디오 세트를 만들 수 있습니다. 업로드한 비디오의 치수와 일치하도록 16:9 또는 4:3에 관계없이 비디오에 올바른 인코딩 사전 설정이 자동으로 적용됩니다. 업로드 작업을 제출하면 올바른 종횡비의 3개의 인코딩 비디오 설정을 포함하는 적응형 비디오 세트가 자동으로 생성됩니다.
+  이 기본 옵션을 사용하면 응용 비디오 세트를 만들 수 있습니다. 업로드한 비디오의 차원과 일치하도록 16:9 또는 4:3이든 비디오에 올바른 인코딩 사전 설정이 자동으로 적용됩니다. 업로드 작업을 제출하면 올바른 종횡비의 3개의 인코딩 비디오 설정을 포함하는 적응형 비디오 세트가 자동으로 생성됩니다.
 
   또는 동일한 **[!UICONTROL 작업 옵션]** 대화 상자의 **[!UICONTROL EVideo 옵션]**&#x200B;에서 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장합니다. 원하는 개별 비디오 인코딩 사전 설정을 선택합니다. **데스크톱**, **모바일(iPhone, iPad, Android™)** 및 **태블릿(iPad, Android™)**&#x200B;을(를) 선택하여 MP4 파일을 만들 수 있습니다.
 
@@ -114,7 +114,7 @@ Adobe Dynamic Media Classic은 사전 정의된 다양한 비디오 인코딩 �
 
 [비디오 인코딩 사전 설정 작업](uploading-encoding-videos.md#working_with_video_encoding_presets)을 참조하십시오.
 
-## 2. 비디오 뷰어에서 비디오 미리 보기
+## &#x200B;2. 비디오 뷰어에서 비디오 미리 보기
 
 데스크탑, 웹 사이트 또는 모바일 장치에서 최종 사용자에게 비디오가 재생되는 방식을 보려면 [찾아보기] 패널에서 비디오를 선택합니다. **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다.
 
@@ -128,15 +128,15 @@ Adobe Dynamic Media Classic은 사전 정의된 다양한 비디오 인코딩 �
 
 [비디오 뷰어 사전 설정 작업](previewing-videos-video-viewer.md#working_with_video_viewer_presets)을 참조하세요.
 
-[비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오도 참조하세요.
+[비디오 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/549_video-presets_converted%20renamed_Done-AVS) 교육 비디오도 참조하세요.
 
-## 3. 웹 사이트 및 모바일 사이트에 비디오 배포
+## &#x200B;3. 웹 사이트 및 모바일 사이트에 비디오 배포
 
 비디오를 웹 사이트에 통합하려면, 다음 중 하나를 수행하면 됩니다.
 
 * 자체 팝업 창이나 모달 창에 비디오를 표시합니다. 이 경우 **[!UICONTROL URL 복사]** 기능을 사용합니다.
 
-  비디오에 대한 URL을 가져오려면 [격자 보기] 또는 [목록 보기]에서 [찾아보기] 패널에서 선택합니다. **[!UICONTROL 미리 보기]**&#x200B;를 선택한 다음 `Universal_HTML5_Viewer`의 오른쪽에 있는 **[!UICONTROL URL 복사]**&#x200B;를 선택합니다.
+  비디오에 대한 URL을 가져오려면 [격자 보기] 또는 [목록 보기]에서 [찾아보기] 패널에서 선택합니다. **[!UICONTROL 미리 보기]**&#x200B;를 선택한 다음 **[!UICONTROL 의 오른쪽에 있는]** URL 복사`Universal_HTML5_Viewer`를 선택합니다.
 
   **[!UICONTROL URL 복사]**&#x200B;를 선택하면 URL이 클립보드에 복사됩니다. 이 코드를 웹 사이트, 모바일 사이트 또는 애플리케이션의 HTML에 배치합니다.
 
@@ -146,7 +146,7 @@ Adobe Dynamic Media Classic은 사전 정의된 다양한 비디오 인코딩 �
 
 * 웹 페이지에 포함된 비디오를 표시합니다. 이 경우 **[!UICONTROL 포함 코드]** 기능을 사용합니다.
 
-  비디오에 대한 포함 코드를 가져오려면 [격자 보기] 또는 [목록 보기]에서 [찾아보기] 패널에서 비디오를 선택합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**(으)로 이동합니다. 테이블의 작업 열에서 `Universal_HTML5_Video`의 오른쪽에 있는 **[!UICONTROL 포함 코드]**&#x200B;을(를) 선택합니다. 코드 편집은 허용되지 않습니다.
+  비디오에 대한 포함 코드를 가져오려면 [격자 보기] 또는 [목록 보기]에서 [찾아보기] 패널에서 비디오를 선택합니다. **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**(으)로 이동합니다. 테이블의 작업 열에서 **[!UICONTROL 의 오른쪽에 있는]**&#x200B;포함 코드`Universal_HTML5_Video`을(를) 선택합니다. 코드 편집은 허용되지 않습니다.
 
   **[!UICONTROL 닫기]**&#x200B;를 선택하고 포함 코드를 하나 이상의 웹 페이지에 붙여넣습니다.
 

@@ -21,7 +21,7 @@ ht-degree: 35%
 
 템플릿을 만들려면 **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**(으)로 이동하십시오. [디자이너] 또는 [개발자]를 선택합니다. 이 페이지에서 이미지 및 텍스트 레이어를 추가할 수 있습니다. 레이어 순서를 조정하고, 레이어의 크기와 위치를 변경하고, 이미지와 텍스트에 그림자 및 후광 효과를 적용할 수도 있습니다.
 
-[템플릿 기본 사항](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 교육 비디오도 참조하세요.
+[템플릿 기본 사항](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 교육 비디오도 참조하세요.
 
 >[!NOTE]
 >
@@ -29,9 +29,9 @@ ht-degree: 35%
 
 ## 초기 템플릿 만들기 {#creating-the-initial-template}
 
-템플릿 집합을 만들 때 **[!UICONTROL 저장 후 Publish]** 옵션은 다음과 같은 방법으로 집합 및 집합 구성원에 영향을 줍니다.
+템플릿 집합을 만들 때 **[!UICONTROL 저장 후 게시]** 옵션은 다음과 같은 방법으로 집합과 집합 구성원에 영향을 줍니다.
 
-| 저장하기 전에 **[!UICONTROL 저장 후 Publish]** 옵션을 선택했습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
+| 저장하기 전에 **[!UICONTROL 저장 후 게시]** 옵션을 선택했습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
 | --- | --- | --- |
 | 예 | 게시됨 | 게시됨 |
 | 아니요 | 게시 취소됨 | 세트 구성원은 게시된 상태나 게시되지 않은 상태를 유지합니다. |
@@ -44,13 +44,13 @@ ht-degree: 35%
 
 1. 초기 템플릿을 만들려면 다음 방법 중 하나를 사용합니다.
 
-   * **먼저 PSD 또는 이미지를 선택하십시오**: 검색 패널에서 템플릿에 사용할 PSD 파일 또는 이미지를 선택하고 **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**(으)로 이동합니다.
+   * **먼저 PSD 또는 이미지를 선택하십시오**: 검색 패널에서 템플릿에 사용할 PSD 파일을 선택하고 **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**(으)로 이동합니다.
 
    * **템플릿 화면에서 시작**: **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**&#x200B;으로 이동합니다. [디자이너] 또는 [개발자]를 선택합니다.
 
 1. 캔버스 크기 입력 대화 상자에서 템플릿에 대한 너비와 높이 측정값을 입력합니다.
 1. 자산 라이브러리에서 폴더를 선택하고 템플릿에 사용할 PSD 파일이나 이미지를 [템플릿] 화면으로 드래그합니다.
-1. 완료되면 페이지의 오른쪽 아래 모서리 근처에서 **[!UICONTROL 저장 후 Publish]**&#x200B;이 선택되었는지 확인합니다(기본값).
+1. 완료되면 페이지의 오른쪽 아래 모서리 근처에서 **[!UICONTROL 저장 후 게시]**&#x200B;를 선택해야 합니다(기본값).
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 템플릿을 저장할 폴더를 선택하고 템플릿 이름을 입력한 다음 **[!UICONTROL 제출]**&#x200B;을 선택합니다.
 
@@ -58,9 +58,9 @@ ht-degree: 35%
 
 ## 템플릿 집합 편집 {#editing-a-template-set}
 
-게시된 집합 또는 게시되지 않은 템플릿 집합을 편집하든 관계없이 **[!UICONTROL 저장 후 Publish]** 옵션은 다음과 같은 방법으로 집합 및 집합 구성원에 영향을 줍니다.
+게시된 집합 또는 게시되지 않은 템플릿 집합을 편집하든 관계없이 **[!UICONTROL 저장 후 게시]** 옵션은 다음과 같은 방법으로 집합 및 집합 구성원에 영향을 줍니다.
 
-| 세트를 이미 게시했습니까? | 편집을 저장하기 전에 **[!UICONTROL 저장 후 Publish]** 옵션이 선택되었습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
+| 세트를 이미 게시했습니까? | 편집을 저장하기 전에 **[!UICONTROL 저장 후 게시]** 옵션을 선택했습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
 | --- | --- | --- | --- |
 | 예 | 예 | 게시됨 | 게시됨 |
 | 예 | 아니요 | 게시됨 | 기존 집합 구성원은 게시된 상태를 유지합니다. 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
@@ -73,7 +73,7 @@ ht-degree: 35%
 
 1. 눈금 보기에서 템플릿 집합을 찾은 다음 이미지 아래에서 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 1. 필요에 따라 템플릿을 변경합니다.
-1. 편집을 마치면 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 저장 후 Publish]**&#x200B;이 선택되었는지 확인합니다(기본값).
+1. 편집을 마쳤으면 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 저장 후 게시]**&#x200B;을(를) 선택해야 합니다(기본값).
 1. **[!UICONTROL 저장]**&#x200B;을 선택하고 저장소 폴더를 선택한 다음 집합 이름을 입력한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
 ## 템플릿 삭제

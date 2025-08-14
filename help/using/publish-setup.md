@@ -1,6 +1,6 @@
 ---
 title: 게시 설정
-description: Publish 설정 을 사용하면 기본적으로 자산이 Adobe Dynamic Media Classic 서버에서 웹 사이트 또는 애플리케이션으로 전달되는 방법을 결정할 수 있습니다.
+description: 게시 설정 설정을 사용하면 기본적으로 자산이 Adobe Dynamic Media Classic 서버에서 웹 사이트 또는 애플리케이션으로 전달되는 방법을 결정할 수 있습니다.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -18,15 +18,15 @@ ht-degree: 30%
 
 # 게시 설정 {#publish-setup}
 
-Publish 설정 페이지 설정은 자산이 기본적으로 Adobe Dynamic Media Classic 서버에서 웹 사이트 또는 애플리케이션으로 전달되는 방법을 결정합니다. 설정을 지정하지 않으면 Adobe Dynamic Media Classic 서버는 Publish 설정 페이지의 기본 설정에 따라 자산을 전달합니다. 예를 들어, 해상도 속성이 포함되지 않은 이미지를 전달하라는 요청은 이미지 서버 페이지에서 기본 객체 해상도 설정을 사용하여 이미지를 생성합니다.
+[게시 설정] 페이지 설정은 기본적으로 자산이 Adobe Dynamic Media Classic 서버에서 웹 사이트 또는 애플리케이션으로 전달되는 방법을 결정합니다. 설정을 지정하지 않으면 Adobe Dynamic Media Classic 서버는 게시 설정 페이지의 기본 설정에 따라 자산을 전달합니다. 예를 들어, 해상도 속성이 포함되지 않은 이미지를 전달하라는 요청은 이미지 서버 페이지에서 기본 객체 해상도 설정을 사용하여 이미지를 생성합니다.
 
 관리자는 이미지 서버, 이미지 렌더러 및 비네팅 페이지에서 기본 설정을 변경하여 서버에서 에셋을 전달하기 위한 기본 설정을 지정할 수 있습니다.
 
-Publish 설정 페이지를 열려면 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL Publish 설정]**(으)로 이동합니다.
+게시 설정 페이지를 열려면 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 게시 설정]**(으)로 이동하십시오.
 
 >[!NOTE]
 >
->Publish 설정 페이지는 숙련된 웹 사이트 개발자와 프로그래머가 사용할 수 있습니다. Adobe Dynamic Media Classic에서는 이러한 페이지에서 설정을 변경하는 사용자가 Adobe Dynamic Media Classic, HTTP 프로토콜 표준 및 규칙, 기본 이미징 기술에 익숙하다고 가정합니다.
+>게시 설정 페이지는 숙련된 웹 사이트 개발자와 프로그래머가 사용할 수 있습니다. Adobe Dynamic Media Classic에서는 이러한 페이지에서 설정을 변경하는 사용자가 Adobe Dynamic Media Classic, HTTP 프로토콜 표준 및 규칙, 기본 이미징 기술에 익숙하다고 가정합니다.
 
 ## 이미지 서버 {#image-server}
 
@@ -53,7 +53,7 @@ Adobe Dynamic Media Classic 지원 담당자의 도움을 받아야만 이 설�
   예를 들어 여러 국가에서 팔리는 다국적 브랜드인 경우 각 국가에서 자체 로케일별 뷰어를 사용하도록 할 수 있습니다. 이 기능을 수행하려면 로케일 맵 문자열을 지정합니다. 그런 다음 뷰어 사전 설정에서 도구 설명 텍스트를 편집합니다. 원하는 언어에 대한 번역된 텍스트 문자열을 추가하기만 하면 됩니다.
 
   >[!NOTE]
-  > 로컬라이제이션 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만드십시오.](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 지원 사례에서 설치 도움말을 요청하십시오.
+  > 로컬라이제이션 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만드십시오.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 지원 사례에서 설치 도움말을 요청하십시오.
 
   **[!UICONTROL 현지화 지원]** 설정에 대한 자세한 내용은 [자산 현지화를 설정할 때 고려 사항](publish-setup.md#considerations_when_setting_up_localization_of_assets)을 참조하십시오.
 
@@ -61,7 +61,7 @@ Adobe Dynamic Media Classic 지원 담당자의 도움을 받아야만 이 설�
 
 >[!NOTE]
 >
->로케일 맵 필드와 같은 Adobe Dynamic Media Classic에서 로컬라이제이션 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만드십시오.](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 지원 사례에서 설치 도움말을 요청하십시오.
+>로케일 맵 필드와 같은 Adobe Dynamic Media Classic에서 로컬라이제이션 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만드십시오.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 지원 사례에서 설치 도움말을 요청하십시오.
 
 Adobe Dynamic Media Classic을 사용하는 일반적인 방법은 e-Commerce 웹 사이트에서 제품 이미지를 관리하는 것입니다. 국제 산업은 유사한 제품에 대한 자산이 나라마다 다르게 보이는 문제에 직면하고 있습니다. 일반적으로 차이는 전체 미디어의 일부 부분에 대한 것입니다. 각 국가에 대한 모든 자산을 복사하여 그러한 차이를 해결하는 것은 엄청난 노력이며 단일 기본 자산 메타포와는 모순됩니다. 이와 같은 자산의 차이점은 서로 다른 오디오 트랙을 사용하는 국가별 비디오에서부터 제품과 함께 사용되는 전원 코드의 미묘하지만 중요한 차이에 이르기까지 다양할 수 있습니다. Adobe Dynamic Media Classic에서는 기본 조회 메커니즘을 사용합니다. 사용자는 필요한 로케일에서 시작하여 이미지 서버가 검색하는 자산 접미어 순서를 정의합니다.
 
@@ -109,7 +109,7 @@ Adobe Dynamic Media Classic 및 이미지 제공에는 이미지 및 정적 콘�
 
 `https://server/is/image/company/image?locale=de_DE`
 
-이미지 서버에서 http 호출을 받으면 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL Publish 설정]** > **[!UICONTROL 이미지 서버]** > **[!UICONTROL 로컬라이제이션 지원]** 그룹에 있는 `localeMap` 필드를 통해 `locale=` 매개 변수를 구문 분석합니다.
+이미지 서버에서 http 호출을 받으면 `locale=`설정`localeMap` > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 게시 설정]** > **[!UICONTROL 이미지 서버]** > **[!UICONTROL 로컬라이제이션 지원]** 그룹에 있는 **[!UICONTROL 필드를 통해]** 매개 변수를 구문 분석합니다.
 
 로케일 맵 필드에는 파이프 기호(|)를 사용하여 구별되는 항목 목록이 들어 있습니다.
 
@@ -131,7 +131,7 @@ Adobe Dynamic Media Classic 및 이미지 제공에는 이미지 및 정적 콘�
 
 | URL | `GlobalLocale` 및 `localeMap` ID | 결과 | 주의 |
 | --- | --- | --- | --- |
-| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | 위의 대체 예에서 GlobalLocale은 main으로 설정됩니다. 로케일 매개 변수 de_DE가 `localeMap`의 첫 번째 항목과 일치합니다. GlobalLocale 하위 문자열이 발견되었으며 `localeMap`에서 첫 번째 해당 값 `de`(으)로 대체되었습니다. `image-de-01`. 이미지 서버에 있는 경우 반환됩니다. 그렇지 않으면 두 번째 값이 대체되어 `image-main-01`이(가) 됩니다. |
+| `https://server/is/image/company/image-main-01?locale=de_DE` | `GlobalLocale=mainlocaleMap -` <br><br/> `de_DE,de,main` | `fr_FR,fr,main` | 위의 대체 예에서 GlobalLocale은 main으로 설정됩니다. 로케일 매개 변수 de_DE가 `localeMap`의 첫 번째 항목과 일치합니다. GlobalLocale 하위 문자열이 발견되었으며 `de`에서 첫 번째 해당 값 `localeMap`(으)로 대체되었습니다. `image-de-01`. 이미지 서버에 있는 경우 반환됩니다. 그렇지 않으면 두 번째 값이 대체되어 `image-main-01`이(가) 됩니다. |
 
 URL에 정의된 로케일이 없으면, 이미지 서버는 DefaultLocale이 정의되어 있는 경우 DefaultLocale을 가져오고, URL에 적용합니다.
 

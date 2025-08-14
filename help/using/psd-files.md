@@ -1,6 +1,6 @@
 ---
 title: PSD 파일 작업
-description: Adobe Dynamic Media Classic에서 PSD 파일로 작업하는 방법을 알아봅니다.
+description: Adobe Dynamic Media Classic에서 PSD 파일을 사용하여 작업하는 방법을 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -23,7 +23,7 @@ ht-degree: 21%
 
 PSD(Photoshop 문서 파일)는 Adobe Dynamic Media Classic에서 템플릿을 만드는 데 가장 많이 사용됩니다. PSD 파일을 업로드할 때 파일에서 Adobe Dynamic Media Classic 템플릿을 자동으로 만들 수 있습니다(업로드 화면에서 템플릿 만들기 옵션 선택).
 
-Adobe Dynamic Media Classic은 파일을 사용하여 템플릿을 만드는 경우 레이어가 있는 PSD 파일에서 여러 이미지를 만듭니다. 각 레이어에 대해 하나의 이미지가 만들어집니다.
+Adobe Dynamic Media Classic은 파일을 사용하여 템플릿을 만드는 경우 레이어가 있는 PSD 파일에서 여러 이미지를 만듭니다. 이 파일은 각 레이어에 대해 하나의 이미지를 만듭니다.
 
 ## PSD 업로드 선택 사항 {#psd-upload-options}
 
@@ -51,7 +51,7 @@ PSD 파일을 업로드할 때 사용할 수 있는 선택 사항은 다음과 �
 
 * **Photoshop 옵션**
 
-   * **[!UICONTROL 레이어 유지]**: PSD의 레이어(있는 경우)를 개별 자산으로 리핑합니다. 자산 레이어의 PSD 연결은 유지됩니다. 세부 사항 보기의 PSD 파일을 열고 레이어 패널을 선택하여 해당 파일을 볼 수 있습니다. PSD 파일에서 레이어 보기 및 편집을 참조하십시오.
+   * **[!UICONTROL 레이어 유지]**: PSD의 레이어(있는 경우)를 개별 자산으로 리핑합니다. 자산 레이어의 PSD 연결은 유지됩니다. [세부 사항 보기]에서 PSD 파일을 열고 레이어 패널을 선택하여 볼 수 있습니다. PSD 파일에서 레이어 보기 및 편집 을 참조하십시오.
 
    * **[!UICONTROL 템플릿 만들기]**: PSD 파일의 레이어에서 템플릿을 만듭니다.
 
@@ -61,17 +61,17 @@ PSD 파일을 업로드할 때 사용할 수 있는 선택 사항은 다음과 �
 
    * **[!UICONTROL 레이어 이름 지정]**: PSD 파일의 레이어는 별도의 이미지로 업로드됩니다. Adobe Dynamic Media Classic에서 이러한 이미지의 이름을 지정하려면 다음 옵션 중에서 선택합니다.
 
-      * **[!UICONTROL 레이어 이름]**: PSD 파일에서 레이어 이름 뒤에 이미지 이름을 지정합니다. 예를 들어 원본 PSD 파일에서 이름이 Price Tag인 레이어는 이미지 이름도 Price Tag가 됩니다. 그러나 PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름(배경, 레이어 1, 레이어 2 등)이면 PSD 파일에서 해당 레이어 번호의 이름을 따서 이미지 이름이 지정됩니다. <!-- not their default layer names -->
+      * **[!UICONTROL 레이어 이름]**: PSD 파일에서 레이어 이름 뒤에 이미지 이름을 지정합니다. 예를 들어 원본 PSD 파일에서 이름이 Price Tag인 레이어는 이미지 이름도 Price Tag가 됩니다. 그러나 PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름(배경, 레이어 1, 레이어 2 등)이면 PSD 파일에서 해당 레이어 번호의 이름을 따라 이미지 이름이 지정됩니다. <!-- not their default layer names -->
 
       * **[!UICONTROL Photoshop 및 레이어 번호]**: 원래 레이어 이름을 무시하고 PSD 파일에서 레이어 번호 뒤에 이미지 이름을 지정합니다. Photoshop 파일 이름 뒤에 레이어 번호가 붙어 이미지의 이름이 지정됩니다. 예를 들어, 이름이 `Spring Ad.psd`인 파일의 두 번째 레이어는 Photoshop에 기본이 아닌 이름이 있더라도 이름이 `Spring Ad_2`입니다.
 
-      * **[!UICONTROL Photoshop 및 레이어 이름]**: PSD 파일 뒤에 레이어 이름 또는 레이어 번호를 붙여서 이미지 이름을 지정합니다. 레이어 번호는 PSD 파일의 레이어 이름이 Photoshop 기본 레이어 이름인 경우 사용됩니다. 예를 들어 PSD 파일에서 이름이 `SpringAd`인 `Price Tag` 레이어의 이름은 `Spring Ad_Price Tag`입니다. 기본 이름이 Layer 2인 레이어를 `Spring Ad_2`이라고 합니다.
+      * **[!UICONTROL Photoshop 및 레이어 이름]**: PSD 파일 뒤에 레이어 이름 또는 레이어 번호가 오는 이미지 이름을 지정합니다. 레이어 번호는 PSD 파일의 레이어 이름이 Photoshop 기본 레이어 이름인 경우 사용됩니다. 예를 들어, PSD 파일에서 이름이 `Price Tag`인 `SpringAd` 레이어의 이름은 `Spring Ad_Price Tag`입니다. 기본 이름이 Layer 2인 레이어를 `Spring Ad_2`이라고 합니다.
 
    * **[!UICONTROL 앵커]**: PSD 파일에서 만든 계층화된 컴포지션에서 생성된 템플릿에서 이미지가 고정되는 방식을 지정합니다. 기본 앵커는 가운데입니다. 가운데 앵커를 사용하면 대체 이미지의 종횡비에 관계없이 동일한 공간을 가장 잘 채울 수 있는 대체 이미지를 사용할 수 있습니다. 템플릿 참조 및 매개 변수 대체 사용 시 해당 이미지를 다른 종횡비의 이미지로 대체할 때 효과적으로 같은 공간을 점유합니다. 템플릿의 지정된 공간을 채울 대체 이미지가 애플리케이션에 필요한 경우 다른 설정으로 변경합니다.
 
 ## PSD 파일의 레이어 보기 및 편집 {#viewing-and-editing-layers-in-a-psd-file}
 
-PSD을 업로드할 때 **[!UICONTROL 레이어 유지]** 옵션을 선택한 경우 Adobe Dynamic Media Classic에서 개별 레이어를 에셋으로 리핑했습니다. [상세 보기]의 [찾아보기] 패널에서 파일을 열어 PSD 파일에 속하는 에셋 레이어를 보고 편집할 수 있습니다.
+PSD을 업로드할 때 **[!UICONTROL 레이어 유지]** 옵션을 선택한 경우 Adobe Dynamic Media Classic에서 개별 레이어를 에셋으로 리핑했습니다. [상세 보기]의 [찾아보기] 패널에서 파일을 열어 PSD 파일에 속한 에셋 레이어를 보고 편집할 수 있습니다.
 
 >[!NOTE]
 >

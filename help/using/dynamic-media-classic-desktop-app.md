@@ -25,7 +25,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Adobe은 2020년 10월 1일까지 새 Adobe Dynamic Media Classic 데스크탑 앱을 설치하도록 권장합니다. 이렇게 하면 2020년 12월 31일에 Adobe Flash Player이 더 이상 사용되지 않기 전에 원활하게 전환할 수 있습니다. 해당 날짜 이후, 제품에서 Adobe Dynamic Media Classic으로 레이블이 지정된 Adobe Dynamic Media Classic 사용자 인터페이스의 브라우저 버전에 로그인할 수 없습니다.
+>Adobe은 2020년 10월 1일까지 새 Adobe Dynamic Media Classic 데스크탑 앱을 설치할 것을 권장합니다. 이렇게 하면 2020년 12월 31일에 Adobe Flash Player가 더 이상 사용되지 않도록 하기 전에 원활하게 전환할 수 있습니다. 해당 날짜 이후, 제품에서 Adobe Dynamic Media Classic으로 레이블이 지정된 Adobe Dynamic Media Classic 사용자 인터페이스의 브라우저 버전에 로그인할 수 없습니다.
 
 [새 Adobe Dynamic Media Classic 로그인을 사용할 수 있는 경우 FAQ를 참조하십시오.](/help/using/new-ui-2020.md)
 
@@ -49,7 +49,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 * 이미지를 편집할 때 **[!UICONTROL 저장]** 단추가 작동하지 않습니다.
 * 설정 편집기에서 **[!UICONTROL Assets 추가]** 패널에서 에셋을 스크롤한 후 **[!UICONTROL 닫기]**, **[!UICONTROL 저장]** 및 **[!UICONTROL 다른 이름으로 저장]** 단추가 비활성화됩니다.
 * 비디오 세부 정보 보기의 **[!UICONTROL 재생]** 단추가 작동하지 않았습니다.
-* macOS Monterey를 실행할 때 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 필드에 `d` 및 `e`을(를) 입력할 수 없습니다.
+* macOS Monterey를 실행할 때 `d`사용자 이름`e` 및 **[!UICONTROL 암호]** 필드에 **[!UICONTROL 및]**&#x200B;을(를) 입력할 수 없습니다.
 * 나머지 Analytics API를 버전 2.0으로 이동했습니다.
 
 ## 릴리스 20.21.3의 수정 사항 {#release-sept2021}
@@ -68,9 +68,9 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
 * 20.21.1의 알려진 제한 사항: 로그인 화면의 **[!UICONTROL 서버]** 드롭다운 목록이 비어 있습니다.
 * **[!UICONTROL 업로드 작업 옵션]**&#x200B;에서 **[!UICONTROL Photoshop 옵션]** 아래의 기본 레이어 이름 값은 이제 **[!UICONTROL Photoshop 및 레이어 이름]**&#x200B;입니다. PSD 파일의 레이어는 별도의 이미지로 업로드됩니다.
-   * **[!UICONTROL 레이어 이름]**&#x200B;의 이전 기본값인 PSD 파일에서 해당 레이어 이름 또는 레이어 번호 이름을 따서 이미지 이름을 지정했습니다. PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름인 경우 레이어 번호가 사용되었습니다.
-   * **[!UICONTROL Photoshop 및 레이어 이름]**&#x200B;의 새 기본값은 PSD 파일 뒤에 레이어 이름 또는 레이어 번호를 붙여서 이미지 이름을 지정합니다. PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름인 경우 레이어 번호가 사용됩니다.
-   * 이제 Adobe Dynamic Media Classic의 레이어 이미지에 고유한 이름이 있으므로 기존 PSD 또는 템플릿(원본 PSD 파일에서 공유된 레이어 이름)에 대한 업데이트가 발생하지 않습니다.
+   * 이전 기본값인 **[!UICONTROL 레이어 이름]**&#x200B;은(는) PSD 파일에서 해당 레이어 이름 또는 레이어 번호 이름을 따서 이미지 이름을 지정했습니다. PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름인 경우 레이어 번호가 사용되었습니다.
+   * 새 기본값 **[!UICONTROL Photoshop 및 레이어 이름]**&#x200B;은(는) PSD 파일 뒤에 레이어 이름 또는 레이어 번호를 붙여서 이미지 이름을 지정합니다. PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름인 경우 레이어 번호가 사용됩니다.
+   * 이제 Adobe Dynamic Media Classic의 레이어 이미지에 고유한 이름이 있으므로 기존 PSD 또는 템플릿(원래 PSD 파일에서 공유된 레이어 이름)에 대한 업데이트가 발생하지 않습니다.
 * 자산의 축소판이 깨졌습니다.
 
 ## 릴리스 20.21.1의 수정 사항 {#latest-fixes-desktop-app}
@@ -233,14 +233,14 @@ Windows®에서 최신 버전의 Adobe Dynamic Media Classic 데스크톱 앱을
 
 ## Adobe Dynamic Media Classic 데스크탑 앱 사용에 대한 비디오 설명 {#dmc-app-video-walk-through}
 
-Adobe Dynamic Media Classic 데스크톱 앱을 사용하여 [비디오 둘러보기](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)(길이: 2분 36초).
+Adobe Dynamic Media Classic 데스크톱 앱을 사용하여 [비디오 둘러보기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)&#x200B;(길이: 2분 36초).
 
 ## 데스크탑 앱을 사용하여 컴퓨터의 이미지 캐시 및 자산 캐시를 지우는 중 {#clear-cache}
 
 1. Adobe Dynamic Media Classic 데스크톱 앱의 오른쪽 상단 모서리에서 **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**&#x200B;을 탭합니다.
 1. **[!UICONTROL 개인 설정]** 페이지의 **[!UICONTROL 데스크톱]** 머리글 아래에서 다음 중 하나를 수행합니다.
-   * 컴퓨터에서 Dynamic Media 캐시 이미지 Adobe 파일을 모두 제거하려면 **[!UICONTROL 이미지 캐시 지우기]**&#x200B;를 탭한 다음 **[!UICONTROL 확인]**&#x200B;을 탭합니다.
-   * 컴퓨터에서 Dynamic Media 캐시 에셋 Adobe 파일을 모두 제거하려면 **[!UICONTROL 에셋 캐시 지우기]**&#x200B;를 탭한 다음 **[!UICONTROL 확인]**&#x200B;을 탭합니다.
+   * 컴퓨터에서 모든 Adobe Dynamic Media 캐시된 이미지 파일을 제거하려면 **[!UICONTROL 이미지 캐시 지우기]**&#x200B;를 탭한 다음 **[!UICONTROL 확인]**&#x200B;을 탭합니다.
+   * 컴퓨터에서 모든 Adobe Dynamic Media 캐시 에셋 파일을 제거하려면 **[!UICONTROL 에셋 캐시 지우기]**&#x200B;를 탭한 다음 **[!UICONTROL 확인]**&#x200B;을 탭합니다.
 1. 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 닫기]**&#x200B;를 탭합니다.
 
 ### 이미지 캐시 및 자산 캐시를 수동으로 지우는 중
@@ -271,11 +271,11 @@ Adobe Dynamic Media Classic 데스크톱 앱을 사용하여 [비디오 둘러�
 
 ## 팁과 트릭
 
-**_Adobe Dynamic Media Classic 랜딩 페이지에 미디어 카트 패널을 볼 수 없습니다._**<br>Adobe Dynamic Media Classic에서&#x200B;**[!UICONTROL 설정 > 개인 설정&#x200B;]**&#x200B;을 누릅니다. 브라우저 섹션에서&#x200B;**[!UICONTROL MediaPortal 기능 표시&#x200B;]**&#x200B;를 선택(선택)했는지 확인하십시오.**[!UICONTROL 저장 > 닫기&#x200B;]**&#x200B;를 누릅니다.
+**_Adobe Dynamic Media Classic 랜딩 페이지에 미디어 카트 패널을 볼 수 없습니다._**<br>Adobe Dynamic Media Classic에서**[!UICONTROL 설정 > 개인 설정&#x200B;]**을 누릅니다. 브라우저 섹션에서**[!UICONTROL MediaPortal 기능 표시&#x200B;]**를 선택(선택)했는지 확인하십시오.**[!UICONTROL 저장 > 닫기&#x200B;]**를 누릅니다.
 
-자산의 **_Publish 상태(녹색 표시기)가 올바르게 반영되지 않았습니다._**<br>브라우저 사용자 인터페이스에서 자산의 올바른 게시 상태를 보려면 UI에 다시 로그인해야 합니다. 데스크톱 앱에서 Adobe은 도구 모음에&#x200B;**[!UICONTROL 없음 선택&#x200B;]**&#x200B;단추 오른쪽에&#x200B;**[!UICONTROL 새로 고침&#x200B;]**&#x200B;아이콘을 도입했습니다. 지정된 페이지에 있는 모든 에셋의 최신 상태를 보려면&#x200B;**[!UICONTROL 새로 고침&#x200B;]**&#x200B;아이콘을 탭하세요. 브라우저 UI에서와 같이 다시 로그온할 필요가 없습니다.
+**_자산의 게시 상태(녹색 표시기)가 올바르게 반영되지 않았습니다._**<br>브라우저 사용자 인터페이스에서 자산의 올바른 게시 상태를 보려면 UI에 다시 로그인해야 합니다. 데스크톱 앱에서 Adobe은 도구 모음에**[!UICONTROL 없음 선택&#x200B;]**단추 오른쪽에**[!UICONTROL 새로 고침&#x200B;]**아이콘을 도입했습니다. 지정된 페이지에 있는 모든 에셋의 최신 상태를 보려면**[!UICONTROL 새로 고침&#x200B;]**아이콘을 탭하세요. 브라우저 UI에서와 같이 다시 로그온할 필요가 없습니다.
 
 ![새로 고침 아이콘](/help/using/assets/refresh-icon1.png)
 *새로 고침 아이콘*
 
-**_데스크톱 앱에서 일괄처리 집합 사전 설정이 작동하지 않습니다._**<br>업로드 > 작업 옵션 > 일괄처리 집합 사전 설정&#x200B;**을 탭합니다.**&#x200B;관련&#x200B;**[!UICONTROL 일괄처리 집합 사전 설정&#x200B;]**&#x200B;이 활성화되어 있는지 확인하십시오.**[!UICONTROL 업로드 저장 및 제출&#x200B;]**&#x200B;을 클릭합니다.
+**_데스크톱 앱에서 일괄처리 집합 사전 설정이 작동하지 않습니다._**<br>업로드 > 작업 옵션 > 일괄처리 집합 사전 설정**[!UICONTROL 을 탭합니다.]**관련**[!UICONTROL 일괄처리 집합 사전 설정&#x200B;]**이 활성화되어 있는지 확인하십시오.**[!UICONTROL 업로드 저장 및 제출&#x200B;]**을 클릭합니다.

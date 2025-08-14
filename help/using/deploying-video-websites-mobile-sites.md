@@ -31,9 +31,9 @@ ht-degree: 23%
 
 비디오를 게시하는 데 사용할 수 있는 방법에는 두 가지가 있습니다.
 
-* **업로드 시 자동으로 즉시 Publish 비디오**: 비디오 업로드 프로세스의 일부로 Adobe Dynamic Media Classic에서 비디오를 업로드하고 인코딩할 때 자동으로 게시할 수 있습니다. 이러한 인스턴트 퍼블리싱의 능력은 사후에 별도로 동영상을 게재할 필요가 없다는 것을 의미한다.
+* **업로드 시 자동으로 즉시 비디오 게시**: 비디오 업로드 프로세스의 일부로 Adobe Dynamic Media Classic은 비디오를 업로드하고 인코딩할 때 자동으로 비디오를 게시할 수 있습니다. 이러한 인스턴트 퍼블리싱의 능력은 사후에 별도로 동영상을 게재할 필요가 없다는 것을 의미한다.
 
-* **업로드 후 수동으로 Publish 비디오**: 비디오를 즉시 게시하지 않으려면 언제든지 수동으로 비디오를 게시할 수 있습니다.
+* **업로드 후 수동으로 비디오 게시**: 비디오를 즉시 게시하지 않으려면 언제든지 수동으로 비디오를 게시할 수 있습니다.
 
 비디오를 게시하면 Adobe Dynamic Media Classic에서 HTML 페이지 또는 애플리케이션 코드에 대한 URL 문자열을 활성화합니다.
 
@@ -41,8 +41,8 @@ ht-degree: 23%
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 업로드 시 비디오를 자동으로 즉시 게시하려면 [업로드] 페이지에서 업로드 후 **[!UICONTROL Publish을 선택합니다]**. 완료했으면 더 이상 수행할 단계가 없습니다.
-   * 업로드 후 비디오를 수동으로 게시하려면 [찾아보기] 패널에서 비디오를 선택한 다음 전역 탐색 모음에서 **Publish**&#x200B;을(를) 선택합니다.
+   * 업로드 시 비디오를 자동으로 즉시 게시하려면 [업로드] 페이지에서 **[!UICONTROL 업로드 후 게시]**&#x200B;를 선택합니다. 완료했으면 더 이상 수행할 단계가 없습니다.
+   * 업로드 후 비디오를 수동으로 게시하려면 [찾아보기] 패널에서 비디오를 선택한 다음 전역 탐색 모음에서 **게시**&#x200B;를 선택합니다.
 
 ## 모바일 사이트 또는 웹 사이트에 비디오 URL 연결 {#linking-a-video-url-to-a-mobile-site-or-a-website}
 
@@ -85,18 +85,18 @@ ht-degree: 23%
 1. 왼쪽의 에셋 라이브러리 패널에서 포함 코드를 복사할 비디오 또는 응용 비디오 세트가 포함된 에셋 폴더로 이동합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.
 
-   * **[!UICONTROL 눈금 보기]** 또는 **[!UICONTROL 목록 보기]**&#x200B;를 선택하십시오. [자산 찾아보기] 패널에서 단일 자산의 비디오 썸네일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 HTTP 스트리밍 아래의 원하는 뷰어 오른쪽에 있는 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 `Universal_HTML5_Video` 뷰어와 연결된 **[!UICONTROL 포함 코드]**&#x200B;을(를) 선택하는 것입니다.
+   * **[!UICONTROL 눈금 보기]** 또는 **[!UICONTROL 목록 보기]**&#x200B;를 선택하십시오. [자산 찾아보기] 패널에서 단일 자산의 비디오 썸네일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 HTTP 스트리밍 아래의 원하는 뷰어 오른쪽에 있는 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 **[!UICONTROL 뷰어와 연결된]**&#x200B;포함 코드`Universal_HTML5_Video`을(를) 선택하는 것입니다.
    * **[!UICONTROL 눈금 보기]**&#x200B;를 선택합니다. [에셋 찾아보기] 패널에서 단일 에셋을 선택한 다음 비디오 썸네일 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**&#x200B;을 선택합니다.
 
-     뷰어 목록 페이지의 표에 있는 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 `Universal_HTML5_Video` 뷰어와 연결된 **[!UICONTROL 포함 코드]**&#x200B;을(를) 선택하는 것입니다.
+     뷰어 목록 페이지의 표에 있는 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 **[!UICONTROL 뷰어와 연결된]**&#x200B;포함 코드`Universal_HTML5_Video`을(를) 선택하는 것입니다.
 
    * **[!UICONTROL 목록 보기]**&#x200B;를 선택합니다. [에셋 찾아보기] 패널에서 단일 에셋을 선택한 다음 썸네일 이미지의 오른쪽에 있는 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**(으)로 이동합니다.
 
-     뷰어 목록 페이지의 표에 있는 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 `Universal_HTML5_Video` 뷰어와 연결된 **[!UICONTROL 포함 코드]**&#x200B;을(를) 선택하는 것입니다.
+     뷰어 목록 페이지의 표에 있는 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 **[!UICONTROL 뷰어와 연결된]**&#x200B;포함 코드`Universal_HTML5_Video`을(를) 선택하는 것입니다.
 
    * **[!UICONTROL 눈금 보기]**, **[!UICONTROL 목록 보기]** 또는 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하십시오. 같은 도구 모음에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**(으)로 이동합니다.
 
-     뷰어 목록 페이지의 표에 있는 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 `Universal_HTML5_Video` 뷰어와 연결된 **[!UICONTROL 포함 코드]**&#x200B;을(를) 선택하는 것입니다.
+     뷰어 목록 페이지의 표에 있는 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 **[!UICONTROL 뷰어와 연결된]**&#x200B;포함 코드`Universal_HTML5_Video`을(를) 선택하는 것입니다.
 
 1. 포함 코드 대화 상자에서 **[!UICONTROL 클립보드에 복사]**&#x200B;를 선택합니다.
 
@@ -105,7 +105,7 @@ ht-degree: 23%
 1. **[!UICONTROL 닫기]**&#x200B;를 선택합니다.
 1. 웹 페이지에 포함 코드를 붙여넣습니다.
 
-### MP4 비디오 자산에 HTML5 비디오를 사용하기 위한 포함 코드 구현 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
+### MP4 비디오 자산과 함께 HTML5 비디오를 사용하기 위한 포함 코드 구현 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
 Adobe Dynamic Media Classic HTML5 비디오 플레이어를 사용하지 않을 수 있습니다. 대신 MP4 비디오 자산에 기본 HTML5 `<video>` 태그를 사용하려는 경우 다음 포함 코드 샘플을 사용할 수 있습니다.
 
@@ -131,7 +131,7 @@ Adobe Dynamic Media Classic HTML5 비디오 플레이어를 사용하지 않을 
 
 ## 타사 비디오 플레이어를 사용하여 비디오 배포 {#deploying-video-using-a-third-party-video-player}
 
-Dynamic Media Classic 비디오 뷰어 대신 타사 비디오 플레이어 또는 사용자 지정 비디오 플레이어를 사용하는 경우 HLS 다중 비트 전송률 비디오 스트리밍 또는 점진적 다운로드에 작동하는 직접 비디오 URL을 가져옵니다.
+Dynamic Media Classic 비디오 뷰어 대신 타사 비디오 플레이어 또는 사용자 지정 비디오 플레이어를 사용하는 경우 HLS 다중 비트 전송률 비디오 스트리밍 또는 점진적 다운로드에 작동하는 직접 비디오 URL을 얻습니다.
 
 **타사 비디오 플레이어를 사용하여 비디오를 배포하려면:**
 
@@ -145,7 +145,7 @@ Dynamic Media Classic 비디오 뷰어 대신 타사 비디오 플레이어 또�
   예를 들어 게시된 서버 이름이 `https://s7d9.scene7.com/.`이라고 가정합니다. 2단계의 구문을 사용하면 직접 URL은 다음과 같을 수 있습니다.
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
-* 직접 HLS 스트리밍 비디오 URL을 생성하려면(단일 비트 전송률)
+* 다이렉트 HLS 스트리밍 비디오 URL을 생성하려면(단일 비트 전송률)
 
   **[!UICONTROL 응용 프로그램 일반 설정]** 페이지의 **[!UICONTROL 서버]** 그룹의 **[!UICONTROL HLS 스트리밍 서버 이름]** 텍스트 필드에 다음 구문을 사용하여 직접 URL을 생성합니다.
 
@@ -175,7 +175,7 @@ Adobe Dynamic Media Classic은 업로드 프로세스 중에 비디오 썸네일
 
 비디오 썸네일의 URL을 생성하려면 게시 작업을 수행합니다.
 
-[Publish 동영상](deploying-video-websites-mobile-sites.md#publishing_video)을 참조하세요.
+[비디오 게시](deploying-video-websites-mobile-sites.md#publishing_video)를 참조하십시오.
 
 게시 후에 [세부 사항 보기]의 [URL] 및 [포함 코드] 패널에서 비디오 썸네일 URL을 얻을 수 있습니다. 연결된 URL을 복사할 수 있도록 비디오 썸네일 오른쪽에 있는 **[!UICONTROL URL 복사]**&#x200B;를 선택하십시오.
 
@@ -187,10 +187,10 @@ Adobe Dynamic Media Classic은 업로드 프로세스 중에 비디오 썸네일
 
 [비디오 뷰어 사전 설정 추가 또는 편집](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)을 참조하세요.
 
-[이미지 제공 가이드](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)를 참조하세요.
+[이미지 제공 가이드](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)를 참조하세요.
 
 비디오 썸네일 URL에 수정자를 추가하여 비디오 썸네일을 수정할 수도 있습니다.
 
 >[!MORELIKETHIS]
 >
->* [Publish 파일](publishing-files.md#publishing_files)
+>* [파일 게시](publishing-files.md#publishing_files)

@@ -51,7 +51,7 @@ Adobe Dynamic Media Classic에서 다음 기능을 사용하여 정보 패널 �
    * 하루 종일 데이터가 자주 업데이트되는 경우 더 작은 숫자를 설정합니다.
    * 데이터가 비교적 안정적이고 하루 종일 자주 업데이트하지 않아도 되는 경우 더 높은 숫자를 설정하십시오. 기본값은 10시간입니다.
 
-1. **[!UICONTROL Publish]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL 게시]**&#x200B;를 선택합니다.
 
 ## eCatalogs의 정보 패널에 대한 소스 컨텐츠 가져오기 {#import-source-content-for-the-info-panel-in-ecatalogs}
 

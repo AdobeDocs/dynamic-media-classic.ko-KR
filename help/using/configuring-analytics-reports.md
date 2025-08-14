@@ -29,7 +29,7 @@ Adobe Analytics 보고서에서 원하는 정보를 Adobe Analytics에 알려면
 
 [Adobe Analytics 로그온](log-analytics.md#log_in_to_adobe_analytics)을 참조하세요.
 
-[Publish 구성 정보](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)를 참조하세요.
+[구성 정보 게시](publishing-analytics-configuration-information.md#publishing_adobe_analytics_configuration_information)를 참조하십시오.
 
 ## Adobe Analytics 변수를 Adobe Dynamic Media Classic 뷰어 이벤트 및 변수에 할당 {#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables}
 
@@ -53,7 +53,7 @@ Adobe Analytics 구성 화면을 사용하여 뷰어 이벤트를 Adobe Analytic
    **[!UICONTROL 저장]**&#x200B;을 선택하면 뷰어 이벤트, 해당 Adobe Analytics 변수 및 해당 Adobe Dynamic Media Classic 변수가 Adobe Analytics 구성 화면에 나열됩니다.
 
 1. 오른쪽 아래 모서리에서 **[!UICONTROL 닫기]**&#x200B;를 선택합니다.
-1. 이미지 제공 게시를 실행하려면 **[!UICONTROL Publish]** > **[!UICONTROL Publish 제출]**(으)로 이동하십시오.
+1. 이미지 제공 게시를 실행하려면 **[!UICONTROL 게시]** > **[!UICONTROL 게시 제출]**(으)로 이동하십시오.
 
    뷰어에 포함된 정보를 Adobe Dynamic Media Classic 서버에서 사용할 수 있도록 게시가 필요합니다.
 

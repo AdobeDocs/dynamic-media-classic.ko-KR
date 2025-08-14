@@ -102,9 +102,9 @@ Last Modified Date:
 
  -->
 
-1. Adobe 고객 지원 센터에 문의하여 계정에서 보안 테스트를 사용하도록 요청하십시오.
-1. Adobe Dynamic Media Classic의 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL Publish 설정]** > **[!UICONTROL 이미지 서버]**(으)로 이동합니다.
-1. 이미지 서버 Publish 페이지의 **[!UICONTROL `Publish Context`]** 드롭다운 목록에서 **[!UICONTROL 이미지 제공 테스트]**&#x200B;를 선택합니다.
+1. Adobe 고객 지원 센터에 문의하여 계정에서 보안 테스트를 활성화하도록 요청하십시오.
+1. Adobe Dynamic Media Classic의 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 설정 게시]** > **[!UICONTROL 이미지 서버]**(으)로 이동합니다.
+1. 이미지 서버 게시 페이지의 **[!UICONTROL `Publish Context`]** 드롭다운 목록에서 **[!UICONTROL 이미지 제공 테스트]**&#x200B;를 선택합니다.
 1. 클라이언트 주소 필터에 대해 **[!UICONTROL 추가]**&#x200B;를 선택합니다.
 1. 주소를 활성화(설정)하도록 확인란을 선택한 다음 각 텍스트 필드에 IP 주소와 네트워크 마스크를 입력합니다.
 
@@ -115,19 +115,19 @@ Last Modified Date:
 1. 다음 중 하나를 수행하십시오.
    * IP 주소를 더 추가해야 하는 경우 앞의 두 단계를 반복합니다.
    * 다음 단계로 진행합니다.
-1. 이미지 서버 Publish 페이지의 왼쪽 아래에서 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
+1. 이미지 서버 게시 페이지의 왼쪽 아래에서 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 원하는 이미지를 Adobe Dynamic Media Classic 계정에 업로드합니다.
 
    [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오.
 
 1. 일부 이미지는 게시용으로 표시되어 있고 다른 이미지는 표시 해제되어 있는지 확인한 다음 게시 작업을 제출하십시오.
 
-   [Publish 파일](publishing-files.md#publishing_files)을 참조하세요.
+   [파일 게시](publishing-files.md#publishing_files)를 참조하십시오.
 
 1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]**(으)로 이동하여 보안 테스트 서비스의 이름을 결정합니다.
 1. [애플리케이션 일반 설정] 페이지의 [서버] 그룹에서 **[!UICONTROL [게시 컨텍스트 서버 이름 테스트]]**&#x200B;의 오른쪽에 있는 이름을 찾습니다.
 
-서버 이름이 없거나 서버에 대한 URL이 작동하지 않는 경우 Adobe 지원 센터에 문의하십시오.
+서버 이름이 없거나 서버 URL이 작동하지 않는 경우 Adobe 지원 센터에 문의하십시오.
 
 ### 웹 사이트 변형 준비
 

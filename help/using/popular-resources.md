@@ -18,22 +18,22 @@ ht-degree: 2%
 
 ## Adobe Dynamic Media Classic 기술 설명서
 
-* [릴리스 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
+* [릴리스 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)
 * [사용자 안내서](introduction.md)
 
 ## Adobe Dynamic Media Classic 개발자 리소스
 
-* [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources)
+* [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
 * [뷰어 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html)
-* [이미지 제공 및 이미지 렌더링 API](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources)
+* [이미지 제공 및 이미지 렌더링 API](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)
 
-## Adobe Dynamic Media Classic 뉴스레터, Tutorials 및 웨비나
+## Adobe Dynamic Media Classic 뉴스레터, 튜토리얼 및 웨비나
 
 * [Adobe Dynamic Media Classic 뉴스레터 아카이브](/help/using/dynamic-media-newsletter.md)
 * [이미지 선명하게 하기 우수 사례](/help/using/assets/s7_sharpening_images.pdf)
-* [자산 ROI 극대화](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): 사이트 및 모바일 앱에서 리치 미디어를 제공하기 위한 업계 모범 사례를 알아봅니다. 이 웨비나에서 예제와 데모는 장치 간에 비디오를 효율적으로 전달하는 방법을 보여 줍니다. 마케팅 캠페인에서 동적 크리에이티브를 제공하는 방법을 보여 줍니다. 또한 이미지, 스타일 가이드 또는 룩북을 구매 가능하게 만들어 전환을 늘립니다.
+* [자산 ROI 극대화](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true): 사이트 및 모바일 앱에서 리치 미디어를 제공하기 위한 업계 모범 사례를 알아봅니다. 이 웨비나에서 예제와 데모는 장치 간에 비디오를 효율적으로 전달하는 방법을 보여 줍니다. 마케팅 캠페인에서 동적 크리에이티브를 제공하는 방법을 보여 줍니다. 또한 이미지, 스타일 가이드 또는 룩북을 구매 가능하게 만들어 전환을 늘립니다.
 * [콘텐츠 전송 라이프사이클 가속화](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/): 이 웨비나는 Adobe Experience Manager Assets을 소개하고 시연합니다. 온디맨드는 리치 미디어 관리 및 전송을 위한 차세대 프로그램입니다. 크리에이티브 팀과 마케팅 팀 간에 자산을 공동 작업하고 공유하여 자산 검토 프로세스를 간소화하는 방법을 알아봅니다. 에셋을 쉽게 찾고, 사용하고, 재사용하고, 공유할 수 있도록 에셋 메타데이터를 효율적으로 관리하기 위한 모범 사례에 대해 알아봅니다. 대화형 크로스 채널 리치 미디어 경험을 제공하는 방법을 알아봅니다.
-* [모바일 최적화를 위한 디자인](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&amp;fcsContent=true&amp;pbMode=normal&amp;proto=true): 모든 장치에 타깃팅된 리치 미디어를 효율적으로 전달하기 위해 Adobe Dynamic Media Classic을 사용합니다. 이 웨비나에서는 모바일 앱과 반응형 사이트 전반에 효과적인 이미징 및 비디오 보기 환경을 디자인하고 제공하는 방법에 대해 알아봅니다.
+* [모바일 최적화를 위한 디자인](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&fcsContent=true&pbMode=normal&proto=true): 모든 장치에 타깃팅된 리치 미디어를 효율적으로 전달하기 위해 Adobe Dynamic Media Classic을 사용합니다. 이 웨비나에서는 모바일 앱과 반응형 사이트 전반에 효과적인 이미징 및 비디오 보기 환경을 디자인하고 제공하는 방법에 대해 알아봅니다.
 * [Adobe Dynamic Media Classic에서 SEO를 지원하는 방법](/help/using/assets/s7_seo.pdf): 현재 검색 엔진을 사용하여 웹 사이트 및 이미지를 검색할 수 있습니다. Adobe Dynamic Media Classic은 더 많은 트래픽이 Adobe Dynamic Media Classic 사용자의 웹 사이트로 유도되도록 이미지를 더 검색 엔진 친화적으로 만들기 위한 노력을 지원합니다. 이 PDF은 이를 수행하기 위한 배경 및 구현 지침을 제공합니다.
 * [휴일 전환을 최대화하기 위해 Adobe Dynamic Media Classic 사용](https://adobecustomersuccess.adobeconnect.com/p32n1yr85c9/?proto=true): 이 웨비나는 시청한 폴더에서 콘텐츠를 가져오고 자동으로 회전 집합 및 비디오를 만드는 자동화된 워크플로를 설정하는 방법에 대해 설명합니다. 또한 변경 사항을 신속하게 관리하고 이미지를 업데이트하는 방법도 알아봅니다.
 * [Adobe Dynamic Media Classic에서 대화형 경험을 제공하는 모범 사례](https://seminars.adobeconnect.com/p7wb8ej3u6d/): 이 웨비나는 Adobe Dynamic Media Classic에서 콘텐츠를 가져오는 방법을 알려줍니다. 최적의 성능과 경험을 위해 이미지 사전 설정을 설정하는 방법에 대해 알아봅니다. 뷰어 사전 설정 및 캐싱 구성에 대해서도 알아봅니다.
@@ -42,6 +42,6 @@ ht-degree: 2%
 ## Adobe Dynamic Media Classic 교육
 
 [여기](https://training.adobe.com/training/courses.html#product=adobe-scene7)로 이동하여 현재 사용 가능한 교육 과정을 확인하십시오.
-[Adobe Dynamic Media Classic 교육 비디오](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/intro/training-videos#intro).
+[Adobe Dynamic Media Classic 교육 비디오](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/intro/training-videos#intro).
 
 [Adobe Dynamic Media Classic](home.md)에서 사용할 수 있는 인기 있는 모든 리소스를 확인하세요.

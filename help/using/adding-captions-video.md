@@ -38,7 +38,7 @@ ht-degree: 17%
 
 Adobe Dynamic Media Classic은 캡션 파일을 JSON(JavaScript 개체 표기법) 형식으로 변환할 수 있습니다. 이 전환은 JSON 텍스트를 웹 페이지에 숨겼지만 비디오의 전체 트랜스크립트로 포함할 수 있음을 의미합니다. 그런 다음 검색 엔진은 콘텐츠를 크롤링하고 색인화하여 비디오를 보다 쉽게 검색하고 고객에게 비디오 콘텐츠에 대한 자세한 내용을 제공할 수 있습니다.
 
-URL에서 JSON 함수를 사용하는 방법에 대한 자세한 내용은에서 [정적(이미지가 아닌) 콘텐츠 제공](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)을 참조하십시오.
+URL에서 JSON 함수를 사용하는 방법에 대한 자세한 내용은에서 [정적(이미지가 아닌) 콘텐츠 제공](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)을 참조하십시오.
 
 **비디오에 캡션을 추가하려면:**
 
@@ -54,7 +54,7 @@ URL에서 JSON 함수를 사용하는 방법에 대한 자세한 내용은에서
 
 1. 왼쪽의 에셋 라이브러리 패널에서 업로드한 캡션 파일과 연결할 비디오 파일이 포함된 에셋 폴더로 이동합니다.
 1. [에셋 찾아보기] 패널에서 단일 비디오 에셋을 선택한 다음 에셋의 썸네일 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**&#x200B;을 선택합니다.
-1. 뷰어 목록 테이블에서 이름이 **Universal_Media5_Video**, **Universal_Media5_MixedMedia_dark** 또는 **Universal_HTMLHTML HTML 5_MixedMedia_light**&#x200B;인 HTML5 뷰어를 찾은 후 다음 중 하나를 수행합니다.
+1. 뷰어 목록 테이블에서 이름이 **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** 또는 **Universal_HTML5_MixedMedia_light**&#x200B;인 HTML5 뷰어를 찾은 후 다음 중 하나를 수행합니다.
 
    * 팝업 비디오 뷰어 환경을 사용하려면 이름의 오른쪽 끝에 있는 **[!UICONTROL URL 복사]**&#x200B;를 선택하십시오.
 

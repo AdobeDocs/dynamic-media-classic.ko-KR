@@ -21,7 +21,7 @@ ht-degree: 10%
 
 Adobe Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 강력한 비디오 플레이어입니다. 플레이어의 디자인 측면에서는 표준 웹 개발 도구를 사용하여 비디오 플레이어의 전체 기능을 만들 수 있습니다. 예를 들어 HTML5 및 CSS를 사용하여 단추, 컨트롤 및 사용자 지정 포스터 이미지 배경을 디자인하면 사용자 지정된 모습으로 고객 범위를 넓힐 수 있습니다.
 
-뷰어의 재생 측에서는 브라우저의 비디오 기능을 자동으로 감지합니다. 그런 다음 적응형 비디오 스트리밍이라고도 하는 HLS(HTTP 라이브 스트리밍)를 사용하여 비디오를 제공합니다. 또는 해당 전달 방법이 없으면 대신 HTML5 progressive가 사용됩니다.
+뷰어의 재생 측에서는 브라우저의 비디오 기능을 자동으로 감지합니다. 그런 다음 적응형 비디오 스트리밍이라고도 하는 HLS(HTTP 라이브 스트리밍)를 사용하여 비디오를 제공합니다. 또는 해당 전달 방법이 없는 경우 HTML5 progressive가 대신 사용됩니다.
 
 단일 플레이어로 결합하여 다음과 같은 기능을 제공합니다.
 
@@ -31,9 +31,9 @@ Adobe Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 강력한 �
 
 리치 미디어 콘텐츠의 범위를 데스크탑 및 모바일 사용자까지 확장할 수 있습니다. 또한 간소화된 비디오 환경을 보장합니다.
 
-Adobe 뷰어 참조 가이드의 [HTML 5 뷰어 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)도 참조하세요.
+Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)도 참조하십시오.
 
-[뷰어 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&amp;emailurl=https://s7d5.scene7.com/s7/emailFriend&amp;serverUrl=https://s7d5.scene7.com/is/image/&amp;config=Scene7SharedAssets/Universal_HTML5_Video&amp;contenturl=https://s7d5.scene7.com/skins/&amp;asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) 교육 비디오도 참조하세요.
+[뷰어 사전 설정](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/550_viewer-presets_converted%20renamed_Done-AVS) 교육 비디오도 참조하세요.
 
 ## Adobe Dynamic Media Classic 비디오 뷰어를 사용하여 데스크탑 컴퓨터 및 모바일 장치에서 비디오 재생 {#playback-of-video-on-desktop-computers-and-mobile-devices-using-the-scene-video-viewer}
 

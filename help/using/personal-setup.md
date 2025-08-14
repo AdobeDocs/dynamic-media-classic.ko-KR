@@ -34,7 +34,7 @@ ht-degree: 19%
 ## 데스크톱
 
 * **이미지 캐시 지우기**: 컴퓨터에서 모든 Adobe Dynamic Media 캐시된 이미지 파일을 제거합니다.
-* Adobe **자산 캐시 지우기**: 컴퓨터에서 모든 Dynamic Media 캐시 자산 파일을 제거합니다.
+* **자산 캐시 지우기**: 컴퓨터에서 모든 Adobe Dynamic Media 캐시 자산 파일을 제거합니다.
 
 데스크탑 앱을 사용하여 이미지 및 자산 캐시를 지우는 것 외에도 파일 시스템에서 직접 캐시를 지울 수 있습니다. 운영 체제를 기준으로 다음 위치로 이동합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 19%
 
 **Adobe Dynamic Media Creative Suite 확장을 설치하려면:**
 
-1. Adobe Dynamic Media Classic의 도구 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**(Creative Suite 확장 아래)으로 이동하여 **[!UICONTROL 지금 다운로드]**&#x200B;를 선택하여 `s7csxs.zxp` 파일을 다운로드합니다.
+1. Adobe Dynamic Media Classic의 도구 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**(Creative Suite Extension 아래)으로 이동하여 **[!UICONTROL 지금 다운로드]**&#x200B;를 선택하여 `s7csxs.zxp` 파일을 다운로드합니다.
 1. 확장에 대한 추가 정보를 보려면 **[!UICONTROL 설치]** 및 **[!UICONTROL 시스템 요구 사항]** 링크를 선택하십시오.
 
 <!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.

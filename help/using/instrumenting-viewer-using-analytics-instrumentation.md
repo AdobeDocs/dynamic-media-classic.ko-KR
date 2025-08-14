@@ -21,11 +21,11 @@ ht-degree: 15%
 
 Adobe Analytics Instrumentation Kit를 사용하여 HTML5 뷰어와 Adobe Analytics을 통합할 수 있습니다.
 
-사전 정의된 Adobe Dynamic Media Classic HTML5 뷰어 사전 설정을 사용하는 경우, Adobe Analytics으로 데이터를 전송하기 위한 모든 구현 코드가 이미 포함되어 있습니다. 추가적인 계기는 추가할 필요가 없습니다.
+사전 정의된 Adobe Dynamic Media Classic HTML5 뷰어 사전 설정을 사용하는 경우 Adobe Analytics으로 데이터를 전송하기 위한 모든 구현 코드가 이미 포함되어 있습니다. 추가적인 계기는 추가할 필요가 없습니다.
 
 ## Adobe Dynamic Media Classic에서 Adobe Analytics 추적 설정 {#set-up-adobe-analytics-tracking-from-scene-publishing-system}
 
-모든 HTML5 뷰어에 대해 다음 JavaScript을 일반적으로 &lt;head> 요소의 HTML 컨테이너에 추가합니다.
+모든 HTML5 뷰어에 대해 일반적으로 &lt;head> 요소의 HTML 컨테이너에 다음 JavaScript을 추가합니다.
 
 ```as3
 <!-- ***** Adobe Analytics Tracking ***** --><script type="text/javascript" src="https://s7d6.scene7.com/s7viewers/s_code.jsp?company=<Adobe Dynamic Media Classic Company ID>&preset=companypreset-1"></script>
@@ -35,7 +35,7 @@ Adobe Analytics Instrumentation Kit를 사용하여 HTML5 뷰어와 Adobe Analyt
 
 계속해서 이제 Adobe Analytics 추적 코드에 뷰어 이벤트를 전송하는 함수를 추가합니다.
 
-컨테이너 HTML(또는 JSP, ASPX 또는 기타)에 `s7ComponentEvent()` 함수를 추가합니다.
+`s7ComponentEvent()` 함수를 컨테이너 HTML(또는 JSP, ASPX 또는 기타)에 추가합니다.
 
 ```as3
 function s7ComponentEvent(objectId, componentClass, instanceName, timeStamp, eventData) {     s7track(eventData); }

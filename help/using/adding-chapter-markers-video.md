@@ -25,7 +25,7 @@ ht-degree: 24%
 >
 >사용하는 비디오 플레이어가 장 마커 사용을 지원해야 합니다.
 
-`Universal_HTML5_Video` 뷰어(HTML5)에 대한 챕터 탐색 큐 포인트 및 챕터 제목 팝업 텍스트를 구성하려면 [비디오 뷰어 사전 설정 추가 또는 편집](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)을 참조하십시오.
+[ 뷰어(HTML5)에 대한 챕터 탐색 큐 포인트 및 챕터 제목 팝업 텍스트를 구성하려면 ](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)비디오 뷰어 사전 설정 추가 또는 편집`Universal_HTML5_Video`을 참조하십시오.
 
 [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets)도 참조하세요.
 
