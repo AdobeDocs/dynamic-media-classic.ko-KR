@@ -68,7 +68,7 @@ Adobe에서 Adobe Scene7의 이름을 [!DNL Dynamic Media Classic]&#x200B;(으)�
 +++
 
 +++**업그레이드 프로세스를 시작하려면 어떻게 해야 합니까?**
-제목란 [을(를) 사용하여 Adobe 계정 팀 담당자 또는 ](mailto:s7support@adobe.com)전자 메일 s7support@adobe.com`[!DNL Dynamic Media] Upgrade Program`에 문의하십시오.
+제목란 [을(를) 사용하여 Adobe 계정 팀 담당자 또는 &#x200B;](mailto:s7support@adobe.com)전자 메일 s7support@adobe.com`[!DNL Dynamic Media] Upgrade Program`에 문의하십시오.
 
 +++
 
@@ -271,6 +271,6 @@ Adobe은 프로젝트를 계획하기 위해 사용자와 협력합니다. Adobe
 ## 추가 리소스
 
 +++**어디에서 [!DNL Dynamic Media] 및 해당 기능에 대해 자세히 알아볼 수 있습니까?**
-[[!DNL Dynamic Media] 에 대한 자세한 내용은 ](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)마이크로사이트[!DNL Dynamic Media]를 참조하세요.
+[[!DNL Dynamic Media] 에 대한 자세한 내용은 &#x200B;](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/solutions.html)마이크로사이트[!DNL Dynamic Media]를 참조하세요.
 
 +++
