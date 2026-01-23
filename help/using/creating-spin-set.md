@@ -10,7 +10,7 @@ role: User
 exl-id: 35e8e7fc-5b3c-441a-959c-df2e39ea0d4b
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 32%
@@ -37,7 +37,7 @@ ht-degree: 32%
 
 ## 회전 집합 만들기 {#create}
 
-Adobe Dynamic Media Classic에서 스핀 세트를 작성하거나 만드는 순서는 중요합니다. 회전 세트 페이지의 격자로 이미지를 드래그하여 놓을 때 에셋의 순서를 정하는 방법에 따라 회전 세트가 특정 방향으로 회전합니다. 따라서 빌더에 표시되는 순서는 사용자가 마우스 포인터를 이동하거나 손가락을 왼쪽에서 오른쪽으로 이동할 때 에셋이 회전하는 방식입니다.
+Adobe Dynamic Media Classic에서 회전 세트가 작성되거나 만들어지는 순서가 중요합니다. 회전 세트 페이지의 격자로 이미지를 드래그하여 놓을 때 에셋의 순서를 정하는 방법에 따라 회전 세트가 특정 방향으로 회전합니다. 따라서 빌더에 표시되는 순서는 사용자가 마우스 포인터를 이동하거나 손가락을 왼쪽에서 오른쪽으로 이동할 때 에셋이 회전하는 방식입니다.
 
 집합을 만들 때 **[!UICONTROL 저장 후 게시]** 옵션은 다음과 같은 방법으로 집합 및 집합 구성원에 영향을 줍니다.
 

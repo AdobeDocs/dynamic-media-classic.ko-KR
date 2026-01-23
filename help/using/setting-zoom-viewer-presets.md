@@ -10,9 +10,9 @@ role: User
 exl-id: ddaaff6c-5447-408e-9c92-bcdfd1a0e72e
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '630'
+source-wordcount: '632'
 ht-degree: 40%
 
 ---
@@ -59,7 +59,7 @@ Adobe Dynamic Media Classic에서는 플라이아웃 확대/축소 뷰어 사전
    미리보기 페이지에는 설정을 업데이트하고 변경할 때 뷰어가 표시됩니다.
 
 1. **[!UICONTROL 저장]** 또는 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택하세요.
-1. 뷰어 사전 설정 페이지에서 만든 확대/축소 뷰어 사전 설정 또는 안내식 확대/축소 뷰어 사전 설정을 검사합니다. 조정이 필요하면 **[!UICONTROL 편집]**&#x200B;을 선택하고 `Configure Viewer` 페이지에서 설정을 변경한 다음 **[!UICONTROL 저장]**&#x200B;을 선택하십시오.
+1. 뷰어 사전 설정 페이지에서 만든 확대/축소 뷰어 사전 설정 또는 안내식 확대/축소 뷰어 사전 설정을 검사합니다. 이를 조정하려면 **[!UICONTROL 편집]**&#x200B;을 선택하고 `Configure Viewer` 페이지에서 설정을 변경한 다음 **[!UICONTROL 저장]**&#x200B;을 선택하십시오.
 
 [뷰어 사전 설정] 화면에서 뷰어 사전 설정을 관리하는 방법에 대한 자세한 내용은 [뷰어 사전 설정](application-setup.md#viewer_presets)을 참조하십시오.
 

@@ -10,7 +10,7 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '1703'
 ht-degree: 23%
@@ -73,9 +73,9 @@ ht-degree: 23%
 
 1. 웹 사이트와 모바일 사이트에 HTML5 비디오 URL 링크를 붙여 넣습니다.
 
-## 웹 페이지에 비디오 뷰어 포함 {#embedding-the-video-viewer-on-a-web-page}
+## 웹 페이지에서 비디오 뷰어 추가 {#embedding-the-video-viewer-on-a-web-page}
 
-웹 페이지에 포함된 비디오를 재생하려면 포함 코드 기능을 사용합니다. 포함 코드를 클립보드에 복사하여 웹 페이지에 붙여넣을 수 있습니다. 코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
+웹 페이지에 포함된 비디오를 재생하려면 포함된 코드 기능을 사용합니다. 웹 페이지에 붙여넣을 수 있도록 포함된 코드를 클립보드에 복사합니다. 코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
 
 [모바일 사이트 또는 웹 사이트에 비디오 URL 연결](deploying-video-websites-mobile-sites.md#linking_a_video_url_to_a_mobile_site_or_a_website)도 참조하세요.
 
@@ -103,7 +103,7 @@ ht-degree: 23%
    코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
 
 1. **[!UICONTROL 닫기]**&#x200B;를 선택합니다.
-1. 웹 페이지에 포함 코드를 붙여넣습니다.
+1. 웹 페이지에 포함된 코드를 붙여넣습니다.
 
 ### MP4 비디오 자산과 함께 HTML5 비디오를 사용하기 위한 포함 코드 구현 {#implementing-embed-code-for-using-html-video-with-mp-video-assets}
 
@@ -187,7 +187,7 @@ Adobe Dynamic Media Classic은 업로드 프로세스 중에 비디오 썸네일
 
 [비디오 뷰어 사전 설정 추가 또는 편집](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)을 참조하세요.
 
-[이미지 제공 가이드](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)를 참조하세요.
+[이미지 제공 가이드](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)를 참조하세요.
 
 비디오 썸네일 URL에 수정자를 추가하여 비디오 썸네일을 수정할 수도 있습니다.
 

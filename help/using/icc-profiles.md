@@ -10,10 +10,10 @@ role: User
 exl-id: 989f2761-f5d0-4ece-b2a6-f7b4577aa8a2
 topic: Administration, Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 41%
+ht-degree: 36%
 
 ---
 
@@ -37,7 +37,7 @@ Adobe Dynamic Media Classic에서 이미지를 업로드할 때 ICC 프로파일
 
 ICC 프로파일을 검사하려면 [찾아보기] 패널에서 프로파일을 선택하고 [세부 사항 보기]에 표시합니다. 세부 사항 보기는 ICC 프로파일에 대한 다음 정보를 제공합니다.
 
-* **[!UICONTROL 프로필 클래스]**: ICC(International Color Consortium)는 응용 프로그램 유형을 포함하도록 각 클래스를 정의합니다. 예를 들어 입력 프로필은 디지털 카메라, 스캐너 등의 장치에 적용되고 출력 프로필은 프린터에 적용됩니다.
+* **[!UICONTROL 프로필 클래스]**: ICC(International Color Consortium)는 응용 프로그램 유형을 포함하도록 각 클래스를 정의합니다. 예를 들어 입력 프로필은 디지털 카메라 및 스캐너와 같은 장치에 적용되고 출력 프로필은 프린터에 적용됩니다.
 
 * **[!UICONTROL 색상 공간 유형]**: 이 숫자는 ICC에서 정의한 프로필의 &quot;입력&quot; 색상 공간입니다. 색상 공간 유형은 색상 공간의 구성 요소 수와 이러한 구성 요소의 해석을 정의합니다. 예를 들어 RGB는 빨간색, 녹색 및 파란색의 세 가지 구성 요소로 이루어진 색상 공간입니다. 이 색상 공간 유형은 공간의 특정 색상 특성(예: 기본 색도)을 정의하지 않습니다.
 

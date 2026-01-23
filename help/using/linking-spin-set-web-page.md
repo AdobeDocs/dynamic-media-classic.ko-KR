@@ -10,10 +10,10 @@ role: User
 exl-id: af75547e-20e8-44c2-b165-01532d6e21d0
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '727'
-ht-degree: 23%
+ht-degree: 21%
 
 ---
 
@@ -54,11 +54,11 @@ https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_
 
 이 URL 구문 예(링크가 라이브가 아님)에서 SKU 번호(`sku=backpack_spin`)를 확인합니다. `sku=` 뒤에 있는 문자열이 회전 집합 이름( `backpack spin`)입니다.
 
-## 회전 집합 뷰어의 포함 코드 복사 {#copying-the-embed-code-of-a-spin-set-viewer}
+## 회전 집합 뷰어의 포함된 코드 복사 {#copying-the-embed-code-of-a-spin-set-viewer}
 
-임베드 코드 기능을 사용하면 선택한 회전 집합의 뷰어 코드를 검토할 수 있습니다. 또한 코드를 클립보드에 복사하여 뷰어의 배포를 위해 웹 페이지에 붙여넣을 수 있습니다. 코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
+포함된 코드 기능을 사용하면 선택한 스핀 세트의 뷰어 코드를 검토할 수 있습니다. 또한 코드를 클립보드에 복사하여 뷰어의 배포를 위해 웹 페이지에 붙여넣을 수 있습니다. 코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
 
-**회전 집합 뷰어의 포함 코드를 복사하려면:**
+**회전 집합 뷰어의 포함된 코드를 복사하려면:**
 
 1. [자산 찾아보기] 패널의 [표시] 드롭다운 목록에서 **[!UICONTROL 회전 집합]**&#x200B;을 선택합니다.
 1. 왼쪽의 에셋 라이브러리 패널에서 포함 코드를 복사할 회전 세트가 포함된 에셋 폴더로 이동합니다.

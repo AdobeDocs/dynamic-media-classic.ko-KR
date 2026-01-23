@@ -10,9 +10,9 @@ role: Data Engineer,Admin,User
 exl-id: 05f2cce0-72bf-4933-87ab-c9003c848e35
 topic: Integrations, Development
 level: Experienced
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1232'
 ht-degree: 21%
 
 ---
@@ -100,7 +100,7 @@ Test&amp;Target 오퍼 세트 페이지를 닫기 전에 오퍼 세트를 Adobe 
 1. 필요한 경우 이미지 또는 비디오를 선택하고 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다. 오퍼 미리 보기 페이지에서 선택한 이미지 또는 비디오의 크기와 모양을 변경할 수 있습니다. 또는 오퍼 세트의 모든 이미지 또는 비디오를 변경할 수 있습니다.
 
    * 사전 설정을 선택하여 이미지나 비디오의 모양과 크기를 변경합니다.
-   * 선택한 사전 설정을 오퍼 집합의 모든 오퍼에 적용하려면 **[!UICONTROL 모든 오퍼에 사전 설정 선택]** 확인란을 선택합니다.
+   * 선택한 사전 설정을 오퍼 집합의 모든 오퍼에 적용하려면 **`Select Presets to All`** 확인란을 선택하세요.
 
    **[!UICONTROL 저장]**&#x200B;을 선택하여 이미지 또는 비디오 오퍼에 대한 변경 사항을 저장합니다. 그런 다음 **[!UICONTROL 닫기]**&#x200B;를 선택하여 Test&amp;Target 오퍼 집합 페이지로 돌아갑니다.
 

@@ -10,10 +10,10 @@ role: User
 exl-id: d41b30e7-994a-43f3-8698-7dbfc36305ae
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 20%
+source-wordcount: '614'
+ht-degree: 17%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 20%
    * 목록에서 사전 설정을 삭제하려면 선택한 다음 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
    * 목록에서 사전 설정 순서를 바꾸려면 사전 설정을 선택한 다음 파란색 **[!UICONTROL 위쪽]** 또는 **[!UICONTROL 아래쪽]** 화살표를 선택합니다.
 
-1. 커뮤니티 기능(포함, 링크, 방문)을 뷰어에 추가하려면 다음 중 하나의 선택 사항을 지정합니다.
+1. 커뮤니티 기능(포함, 링크, 방문됨)을 뷰어에 추가하려면 다음 중 하나에 대한 옵션을 지정합니다.
 
    * **전자 메일**: 뷰어에서 전자 메일 단추를 사용하려면 **[!UICONTROL 켜짐]**&#x200B;을 선택하세요. 사용자가 세트를 보면서 이메일 버튼을 선택하면 세트에 대한 링크가 포함된 이메일이 열립니다.
 

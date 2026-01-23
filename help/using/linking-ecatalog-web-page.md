@@ -10,10 +10,10 @@ role: User
 exl-id: aee72576-1e3e-401c-953d-cc2be27f7dfd
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 23%
+source-wordcount: '672'
+ht-degree: 21%
 
 ---
 
@@ -48,13 +48,13 @@ ht-degree: 23%
 
 eCatalog를 배포하는 가장 일반적인 방법은 웹 페이지에서 eCatalog 썸네일 표지 형식으로 링크를 배치하는 것입니다. IT 팀과 협력하여 eCatalog가 간결한 가운데 맞춤 팝업 창에서 시작되도록 합니다. IT 팀에 브라우저의 도구 모음과 주소 표시줄이 표시되지 않도록 요청합니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 가이드의 [HTML5 eCatalog 뷰어 포함](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)을 참조하십시오.
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조에서 [포함된 HTML5 eCatalog 뷰어](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)를 참조하십시오.
 
-## eCatalog 뷰어의 포함 코드 복사 {#copying-the-embed-code-of-an-ecatalog-viewer}
+## eCatalog 뷰어의 포함된 코드 복사 {#copying-the-embed-code-of-an-ecatalog-viewer}
 
-임베드 코드 기능을 사용하면 선택한 eCatalog의 뷰어 코드를 검토할 수 있습니다. 또한 코드를 클립보드에 복사하여 뷰어의 배포를 위해 웹 페이지에 붙여넣을 수 있습니다. 코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
+포함된 코드 기능을 사용하면 선택한 eCatalog의 뷰어 코드를 검토할 수 있습니다. 또한 코드를 클립보드에 복사하여 뷰어의 배포를 위해 웹 페이지에 붙여넣을 수 있습니다. 코드 편집은 [임베드 코드] 대화 상자에서 허용되지 않습니다.
 
-**eCatalog 뷰어의 포함 코드를 복사하려면:**
+**eCatalog 뷰어의 포함된 코드를 복사하려면:**
 
 1. [자산 찾아보기] 패널의 [표시] 드롭다운 목록에서 **[!UICONTROL 카탈로그]**&#x200B;를 선택합니다.
 1. 왼쪽의 에셋 라이브러리 패널에서 포함 코드를 복사할 eCatalog가 포함된 에셋 폴더로 이동합니다.

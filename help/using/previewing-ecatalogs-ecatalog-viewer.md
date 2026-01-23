@@ -10,10 +10,10 @@ role: User
 exl-id: 580cb169-0e26-412d-8dff-74dc63da25d8
 topic: Integrations
 level: Experienced
-source-git-commit: 914fde11270dc731a261da3305b29dd573584d93
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '255'
-ht-degree: 32%
+ht-degree: 22%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 32%
 
 **전자 카탈로그 뷰어에서 전자 카탈로그를 미리 보려면:**
 
-1. 왼쪽의 자산 라이브러리 패널에 있는 [표시] 드롭다운 목록에서 비디오 기반 자산 유형(예: 비디오 또는 비디오 집합)을 선택합니다.
+1. 왼쪽의 자산 라이브러리 패널의 표시 드롭다운 목록에서 비디오 또는 비디오 세트와 같은 비디오 기반 자산 유형을 선택합니다.
 1. 왼쪽의 자산 라이브러리 패널에서 eCatalog 뷰어로 미리 보려는 비디오가 들어 있는 자산 폴더를 탐색합니다.
 1. 다음 중 하나를 수행하십시오.
 

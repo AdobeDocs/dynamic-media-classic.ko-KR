@@ -1,14 +1,14 @@
 ---
 title: Adobe [!DNL Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Experience Manager] Assets으로 업그레이드
-description: ' [!DNL Adobe Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] (으)로 업그레이드하십시오.  [!DNL Dynamic Media]의 주요 이점 및 기능에 대해 알아봅니다. 기능 목록 비교, 업그레이드 FAQ 및 준비 확인 목록을 검토하십시오.'
+description: ' [!DNL Adobe Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Adobe Experience Manager](으)로 업그레이드하십시오.  [!DNL Dynamic Media]의 주요 이점 및 기능에 대해 알아봅니다. 기능 목록 비교, 업그레이드 FAQ 및 준비 확인 목록을 검토하십시오.'
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Adobe에서 [!DNL Dynamic Media]을(를) 만들었습니다.
 
 * 원활하고 통합된 환경 및 [!DNL Adobe Experience Manager]과의 통합: 하나의 저장소, 하나의 소스에서 풍부한 콘텐츠를 구성하고 동적으로 제공
 * 리치 미디어 콘텐츠를 손쉽게 작성 및 게재할 수 있는 새로운 마케터 중심의 사용자 환경
-* 이미지 뷰어 및 비디오 플레이어를 위한 WYSIWYG(What You See Is What You Get) 모양 및 느낌, 동작 편집기입니다.
+* WYSIWYG (What You See Is What You Get) 의 전체적인 모양과 느낌, 이미지 뷰어 및 비디오 플레이어를 위한 행동 편집기에 관한 것입니다.
 * 이미지 핫스팟 및 구매 가능한 비디오를 비롯한 구매 가능한/대화형 미디어 경험 생성 및 배포 시간 단축
 
 ### [!DNL Dynamic Media] Assets 내의 [!DNL Experience Manager] 기능

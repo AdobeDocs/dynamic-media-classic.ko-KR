@@ -10,10 +10,10 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 22%
+source-wordcount: '801'
+ht-degree: 18%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 22%
 
 회전 집합에 대한 ![이미지](/help/using/assets/spin_set.png)
 
-회전 집합도 이미지 맵을 허용합니다. 이미지 맵은 회전 집합 내 이미지의 영역으로, 텍스트가 있는 롤오버 패널을 표시합니다. 사용자가 이미지 맵을 선택하면 특정 종류의 작업이 트리거됩니다. 예를 들어 사용자가 제품에 대해 자세히 알 수 있도록 웹 페이지가 시작됩니다. 회전 집합에서 이미지 맵을 가리키기 위해 사용자가 이미지 맵 위로 마우스 포인터를 이동하면 윤곽선이 이미지 맵 자체에 나타납니다.
+회전 집합도 이미지 맵을 허용합니다. 이미지 맵은 회전 집합 내의 이미지에서 텍스트가 있는 롤오버 패널을 표시하는 영역입니다. 사용자가 이미지 맵을 선택하면 특정 종류의 작업이 트리거됩니다. 예를 들어 사용자가 제품에 대해 자세히 알 수 있도록 웹 페이지가 시작됩니다. 회전 집합에서 이미지 맵을 가리키기 위해 사용자가 이미지 맵 위로 마우스 포인터를 이동하면 윤곽선이 이미지 맵 자체에 나타납니다.
 
 [이미지 맵 만들기](creating-image-maps.md)를 참조하십시오.
 
@@ -37,7 +37,7 @@ ht-degree: 22%
 
 [Dynamic Media 제한 사항](/help/using/limitations.md)도 참조하세요.
 
-이 Spin Sets Quick Start는 Adobe Dynamic Media Classic의 Spin Set 기술을 통해 빠르게 시작하고 실행할 수 있도록 설계되었습니다. 1-7 단계를 수행하십시오. 각 단계가 끝날 때 항목 링크를 선택하여 자세히 알아볼 수 있습니다.
+이 빠른 시작은 Adobe Dynamic Media Classic의 회전 집합 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다. 1-7 단계를 수행하십시오. 각 단계가 끝날 때 항목 링크를 선택하여 자세히 알아볼 수 있습니다.
 
 ## &#x200B;1. 이미지 만들기 및 업로드
 

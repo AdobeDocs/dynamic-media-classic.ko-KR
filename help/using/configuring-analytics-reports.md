@@ -10,10 +10,10 @@ role: Data Engineer,Admin,User
 exl-id: d9fda3b8-7da8-4a30-a5f8-9bb34ec1b43d
 topic: Integrations, Development
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1234'
-ht-degree: 21%
+source-wordcount: '1236'
+ht-degree: 20%
 
 ---
 
@@ -93,7 +93,7 @@ Adobe Analytics 구성 화면의 각 뷰어 이벤트에 대해 Adobe Analytics 
 | viewerId | 각기 다른 뷰어 유형에 지정된 임의 번호입니다. |
 | pageLabel | eCatalog에서는 뷰어에 표시되는 페이지입니다. |
 | 레이블 | 레이블 값(문자열)입니다. |
-| frame | 이미지 집합의 페이지 또는 페이지 참조입니다. |
+| frame | 이미지 세트에서 참조되는 페이지 또는 페이지입니다. |
 | rollover_keyRaw | 처리된 부분만이 아니라 전체 HREF 값입니다. |
 | rollover_keyProc | 이미지 맵에 참조된 항목의 ID입니다(href 및 항목 이벤트에 유효함). |
 | searchTerm | eCatalog 검색에 사용되는 단어입니다. |

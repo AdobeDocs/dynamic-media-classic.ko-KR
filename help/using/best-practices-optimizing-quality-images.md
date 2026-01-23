@@ -10,9 +10,9 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '1602'
+source-wordcount: '1604'
 ht-degree: 39%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 39%
 
 Adobe Dynamic Media Classic에는 이미지 및 렌더링 결과를 조정하고 최적화하는 100개 이상의 이미지 제공 명령이 포함되어 있습니다. 다음 지침은 프로세스를 간소화하고 일부 필수 명령 및 우수 사례를 사용하여 좋은 결과를 빨리 얻는 데 도움이 될 수 있습니다.
 
-[스마트 이미징](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/imaging-faq)도 참조하세요.
+[스마트 이미징](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)도 참조하세요.
 
 >[!TIP]
 >
@@ -35,7 +35,7 @@ Adobe Dynamic Media Classic에는 이미지 및 렌더링 결과를 조정하고
 >* 네트워크 대역폭
 >* DPR(장치 픽셀 비율)
 >
->스냅숏을 사용하는 것이 얼마나 쉬운지 알아보려면 [스냅숏 교육 비디오](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot)를 재생하세요(3분 17초).
+>스냅숏을 사용하는 것이 얼마나 쉬운지 알아보려면 [스냅숏 교육 비디오](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot)를 재생하세요(3분 17초).
 
 
 ## 이미지 형식(&amp;fmt=) 우수 사례 {#best-practices-for-image-format-fmt}
@@ -62,7 +62,7 @@ Adobe Dynamic Media Classic에는 이미지 및 렌더링 결과를 조정하고
 
 이미지 선명하게 하기는 웹 사이트에서 이미지를 제어하는 가장 복잡한 작업으로, 많은 실수가 발생합니다. 다음 유용한 리소스를 참조하여 Adobe Dynamic Media Classic에서 선명하게 하기 및 언샵 마스킹이 작동하는 방식에 대해 자세히 알아보십시오.
 
-모범 사례 백서 [Adobe Dynamic Media Classic 및 이미지 서버에서 이미지 선명하게 하기](/help/using/assets/s7_sharpening_images.pdf).
+PDF의 모범 사례 백서로서 [Adobe Dynamic Media Classic 및 이미지 서버에서 이미지 선명하게 하기](/help/using/assets/s7_sharpening_images.pdf)를 호출했습니다.
 
 <!-- Give a 404 See also [Sharpening an image with unsharp mask](https://helpx.adobe.com/photoshop/atv/cs6-tutorials/sharpening-an-image-with-unsharp-mask.html). -->
 
@@ -70,7 +70,7 @@ Adobe Dynamic Media Classic을 사용하면 수집, 게재 또는 둘 다에 대
 
 사용할 수 있는 이미지 선명하게 하기 방법에는 두 가지가 있습니다.
 
-* 단순 선명하게 하기( `&op_sharpen`): Photoshop에서 사용되는 선명하게 필터와 유사하게, 단순 선명하게 하기는 동적 크기 조정 후 이미지의 최종 보기에 기본 선명하게 하기를 적용합니다. 하지만 이 방법은 사용자가 구성할 수 없습니다. 필요한 경우가 아니면 `&op_sharpen`을(를) 사용하지 않는 것이 좋습니다.
+* 단순 선명하게 하기( `&op_sharpen`): Photoshop에서 사용되는 선명하게 하기 필터와 유사하게, 단순 선명하게 하기는 동적 크기 조정 후 이미지의 최종 보기에 기본 선명하게 하기를 적용합니다. 하지만 이 방법은 사용자가 구성할 수 없습니다. 필요한 경우가 아니면 `&op_sharpen`을(를) 사용하지 않는 것이 좋습니다.
 * 언샵 마스킹(`&op_USM`): 언샵 마스킹은 선명하게 하기를 위한 업계 표준 필터입니다. 아래의 지침에 따라 언샵 마스킹으로 이미지를 선명하게 하는 것이 좋습니다. 언샵 마스킹을 사용하면 다음 3가지 매개 변수를 제어할 수 있습니다.
 
    * `&op_sharpen=amount,radius,threshold`

@@ -9,10 +9,10 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '3981'
-ht-degree: 40%
+ht-degree: 39%
 
 ---
 
@@ -69,7 +69,7 @@ Adobe Dynamic Media Classic은 비디오 축소판도 생성합니다. 비디오
 1. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL EVideo 옵션]**&#x200B;을 확장한 후 다음 중 하나를 수행합니다.
 
    * 가장 좋은 방법은 **[!UICONTROL 응용 비디오 인코딩]**&#x200B;을 선택하는 것입니다. [적응형 비디오(기본값)](application-setup.md#adaptive-video-default)를 참조하십시오.
-   * 선택 사항입니다. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
+   * 선택 사항입니다. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
 [데스크톱 비디오 인코딩 사전 설정](application-setup.md#desktop-video-encoding-presets), [모바일 비디오 인코딩 사전 설정](application-setup.md#mobile-video-encoding-presets), [태블릿 비디오 인코딩 사전 설정](application-setup.md#tablet-video-encoding-presets)을 참조하십시오.
 1. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 업로드 페이지에서 **[!UICONTROL 업로드 후 게시]**&#x200B;가 선택되어 있는지 확인하십시오.
@@ -80,9 +80,9 @@ Adobe Dynamic Media Classic은 비디오 축소판도 생성합니다. 비디오
 1. Adobe Dynamic Media Classic의 찾아보기 패널에서 비디오로 이동하여 선택합니다.
 1. **[!UICONTROL 파일]** > **[!UICONTROL 재처리]**(으)로 이동합니다.
 1. Assets 다시 처리 대화 상자에서 **[!UICONTROL EVideo 옵션]**&#x200B;을 확장한 후 다음 중 하나를 수행합니다.
-   * 가장 좋은 방법은 다음 방법을 사용하는 것입니다. **응용 비디오**&#x200B;를 선택하십시오.
+   * 가장 좋은 방법은 다음 방법을 사용하는 것입니다. **응용 비디오**를 선택하십시오.
 [적응형 비디오(기본값)](application-setup.md#adaptive-video-default)를 참조하십시오.
-   * 선택 사항입니다. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
+   * 선택 사항입니다. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
 [데스크톱 비디오 인코딩 사전 설정](application-setup.md#desktop-video-encoding-presets), [모바일 비디오 인코딩 사전 설정](application-setup.md#mobile-video-encoding-presets), [태블릿 비디오 인코딩 사전 설정](application-setup.md#tablet-video-encoding-presets)을 참조하십시오.
 1. Assets 재처리 대화 상자에서 **[!UICONTROL 제출]**&#x200B;을 선택합니다.
 
@@ -264,7 +264,7 @@ Adobe Dynamic Media Classic은 현재 사용되는 가장 일반적인 인코딩
 * 비디오 인코딩 사전 설정 편집
 * 비디오 사전 설정을 삭제합니다.
 
-Adobe Dynamic Media Classic에 업로드하거나 Adobe Dynamic Media Classic에서 인코딩하는 모든 비디오는 &quot;비디오&quot;로 처리됩니다. 즉, 이 자산 분류는 데스크톱, 모바일 장치 또는 둘 다에서 재생하기 위해 비디오를 제공할 수 있다는 것입니다. 예를 들어 Adobe Dynamic Media Classic에서 이러한 유형의 비디오를 미리 볼 수 있습니다. 또한 비디오 플레이어나 웹 사이트 등에서 사용할 수 있도록 URL(URL 복사 기능 사용)과 포함할 수 있는 코드(포함 코드 기능 사용)를 생성할 수도 있습니다.
+Adobe Dynamic Media Classic에 업로드하거나 Adobe Dynamic Media Classic에서 인코딩하는 모든 비디오는 &quot;비디오&quot;로 처리됩니다. 즉, 이 자산 분류는 데스크톱, 모바일 장치 또는 둘 다에서 재생하기 위해 비디오를 제공할 수 있다는 것입니다. 예를 들어 Adobe Dynamic Media Classic에서 이러한 유형의 비디오를 미리 볼 수 있습니다. 비디오 플레이어, 웹 사이트 등에서 사용하기 위해 URL 복사 기능 사용)과 임베드할 수 있는 코드(임베드된 코드 기능 사용)를 생성할 수도 있습니다.
 
 [비디오 뷰어에서 비디오 미리 보기](previewing-videos-video-viewer.md#previewing-videos-in-a-video-viewer)를 참조하십시오.
 

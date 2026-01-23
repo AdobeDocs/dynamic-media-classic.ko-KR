@@ -10,7 +10,7 @@ role: User
 exl-id: 4b3e8368-f8f5-46d9-9130-361a8273de2c
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
 source-wordcount: '2207'
 ht-degree: 30%
@@ -59,7 +59,7 @@ Adobe Dynamic Media Classic 및 Dynamic Media 이미지 서버에서 [이미지 
 | --- | --- | --- | --- |
 | 단순한 선명하게 하기 | `op_sharpen` | `0` 또는 `1` | `op_sharpen=1` |
 | 재샘플링 모드 | `resMode` | `bilin`, `bicub`, `sharp2`, `trilin`<br><br>`bilin`: 표준 이중 선형 보간을 선택합니다. 가장 빠른 리샘플링 방법으로 일부 앨리어싱 아티팩트가 종종 눈에 띕니다.<br>`bicub`: 쌍입방 보간을 선택합니다. CPU이 `bilin`보다 많이 사용되지만 덜 눈에 띄는 앨리어싱 아티팩트가 있는 더 선명한 이미지를 만듭니다.<br><br>`sharp2`: 수정된 Lanczos Windows® 함수를 보간 알고리즘으로 선택합니다. 그것은 더 높은 CPU 비용으로 쌍입방보다 약간 더 선명한 결과를 낼 수 있다.<br><br>`trilin`: 가능한 경우 더 높은 해상도와 더 낮은 해상도를 모두 사용하는 수정된 3선형 보간을 선택합니다. 앨리어싱이 문제가 되는 경우에만 권장됩니다. 이 방법을 사용하면 높은 빈도의 데이터가 감소하기 때문에 JPEG 크기가 줄어듭니다. | `resMode=sharp2` |
-| 언샵 마스크 | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: 필터 강도 요소(실수 0...5)<br><br>`radius`: 필터 커널 반경(픽셀)(실수 0...250) <br><br>`threshold`: 필터 임계값 레벨(int 0...255)<br><br>`monochrome`: 각 색상 구성 요소를 별도로 언샵 마스크하려면 `0`(으)로 설정하고 이미지 밝기(강도)를 언샵 마스크하려면 `1`(으)로 설정합니다. | `op_usm=1,1,10,0` |
+| 언샵 마스크 | `op_usm` | `amount`, `radius`, `threshold`, `monochrome`<br><br>`amount`: 필터 강도 요소(실수 0...5)<br><br>`radius`: 필터 커널 반경(픽셀)(실수 0...250) <br><br>`threshold`: 필터 임계값 레벨(정수 0...255)<br><br>`monochrome`: 각 색상 구성 요소를 별도로 언샵 마스크하려면 `0`(으)로 설정하고 이미지 밝기(강도)를 언샵 마스크하려면 `1`(으)로 설정합니다. | `op_usm=1,1,10,0` |
 
 **[!UICONTROL 선명하게 하기]** 메뉴를 선택하고 옵션을 선택하십시오.
 

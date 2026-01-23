@@ -10,9 +10,9 @@ role: User
 exl-id: 391eb7ce-ed89-47a8-a6c6-5adb3e95bf78
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '613'
 ht-degree: 17%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 17%
 1. [찾아보기] 패널에서 에셋을 선택하고 다음 중 하나를 수행합니다.
 
    * 에셋을 에셋 라이브러리에서 이동할 폴더를 표시하고 에셋을 폴더로 드래그합니다.
-   * **[!UICONTROL 파일]** > **[!UICONTROL 이동]**(으)로 이동하고 Assets 이동 창에서 폴더를 선택한 다음 **[!UICONTROL 이동]**&#x200B;을 선택합니다.
+   * **[!UICONTROL 파일]** > **`Move`**(으)로 이동하고 `Move Assets` 창에서 폴더를 선택한 다음 **`Move`**&#x200B;을(를) 선택합니다.
 
 ## 자산 이름 바꾸기 {#rename-assets}
 
