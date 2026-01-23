@@ -21,7 +21,7 @@ ht-degree: 21%
 
 자산을 Dynamic Media 이미지 서버에 게시합니다. 자산을 한 번만 게시하거나 Adobe Dynamic Media Classic에서 반복 일정에 자산을 게시하도록 예약할 수 있습니다. 자산이 게시되면 제공할 수 있습니다. Adobe Dynamic Media Classic에서 URL 호출을 복사하여 웹 사이트 또는 애플리케이션에 추가할 수 있습니다.
 
-Adobe Dynamic Media Classic은 이제 HTTP/2를 통해 모든 이미지 및 비디오의 전달을 지원합니다. 즉, 이미지 또는 비디오에 대한 게시된 URL 또는 포함 코드는 호스팅된 에셋을 수락하는 모든 애플리케이션과 통합할 수 있습니다. 게시된 해당 자산은 HTTP/2 프로토콜을 사용하여 전달됩니다. 이 전달 방법은 브라우저와 서버의 통신 방식을 개선하여 모든 Adobe Dynamic Media Classic 에셋의 응답 및 로드 시간을 향상시킵니다. [HTTP2 콘텐츠 배달 FAQ](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/http2)를 참조하십시오.
+Adobe Dynamic Media Classic은 이제 HTTP/2를 통해 모든 이미지 및 비디오의 전달을 지원합니다. 즉, 이미지 또는 비디오에 대한 게시된 URL 또는 포함 코드는 호스팅된 에셋을 수락하는 모든 애플리케이션과 통합할 수 있습니다. 게시된 해당 자산은 HTTP/2 프로토콜을 사용하여 전달됩니다. 이 전달 방법은 브라우저와 서버의 통신 방식을 개선하여 모든 Adobe Dynamic Media Classic 에셋의 응답 및 로드 시간을 향상시킵니다. [HTTP2 콘텐츠 배달 FAQ](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/http2)를 참조하십시오.
 
 ## 업로드 후 게시 {#publish-after-uploading}
 

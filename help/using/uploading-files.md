@@ -26,7 +26,7 @@ Adobe Dynamic Media Classic에 에셋을 업로드하기 전에 에셋의 형식
 
 ### 지원되는 자산 파일 형식 {#supported-asset-file-formats}
 
-이 표에는 Adobe Dynamic Media Classic이 지원하는 에셋 파일 형식이 나와 있습니다. 지원되는 Camera Raw 파일에 대한 자세한 내용은 [https://helpx.adobe.com/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/camera-raw/using/supported-cameras.html)을(를) 참조하십시오.
+이 표에는 Adobe Dynamic Media Classic이 지원하는 에셋 파일 형식이 나와 있습니다. 지원되는 Camera Raw 파일에 대한 자세한 내용은 [https://helpx.adobe.com/kr/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/kr/camera-raw/using/supported-cameras.html)을(를) 참조하십시오.
 
 | 자산 파일 형식 | 설명 |
 | --- | --- |
