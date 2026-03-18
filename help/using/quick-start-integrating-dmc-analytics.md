@@ -25,7 +25,7 @@ Adobe Analytics을 Adobe Dynamic Media Classic과 통합하면 웹 사이트에�
 
 Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명확하게 파악할 수 있습니다. 어떤 제품 프레젠테이션이 전환을 유도하고 어떤 것이 고객의 관심을 끌지 못하는지 결정할 수 있습니다.
 
-[Adobe Analytics에서 비디오 측정](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview)도 참조하세요.
+[Adobe Analytics에서 비디오 측정](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview)도 참조하세요.
 
 >[!NOTE]
 >
