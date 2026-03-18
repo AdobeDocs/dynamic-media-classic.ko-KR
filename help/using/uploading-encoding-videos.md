@@ -9,9 +9,9 @@ role: User
 exl-id: 93ad91d7-f3dd-484b-b62c-633fcb864bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '3981'
+source-wordcount: '4074'
 ht-degree: 39%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 39%
 
   Adobe Dynamic Media Classic은 비디오 파일을 업로드하기 위한 두 가지 워크플로우를 제공합니다.
 
-* **미리 인코딩된 비디오**: MP4 파일을 Adobe Dynamic Media Classic에 직접 업로드합니다. 이 워크플로우에서는 파일 업로드 시 파일이 인코딩되지 않습니다. 데스크톱과 모바일 장치에 제공하기 위해 파일이 사전 인코딩됩니다. 
+* **미리 인코딩된 비디오**: MP4 파일을 Adobe Dynamic Media Classic에 직접 업로드합니다. 이 워크플로우에서는 파일 업로드 시 파일이 인코딩되지 않습니다. 데스크톱과 모바일 장치에 제공하기 위해 파일이 사전 인코딩됩니다.
 
 * **기본 소스 비디오**: 기본 소스 비디오 파일을 업로드하고, 업로드 시 이 파일을 MP4 파일로 인코딩합니다. 인코딩된 비디오는 [찾아보기] 패널에서 &quot;비디오&quot; 레이블이 지정됩니다. Adobe Dynamic Media Classic은 다양한 형식의 비디오 파일 인코딩을 지원합니다.
 
@@ -69,7 +69,7 @@ Adobe Dynamic Media Classic은 비디오 축소판도 생성합니다. 비디오
 1. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL EVideo 옵션]**&#x200B;을 확장한 후 다음 중 하나를 수행합니다.
 
    * 가장 좋은 방법은 **[!UICONTROL 응용 비디오 인코딩]**&#x200B;을 선택하는 것입니다. [적응형 비디오(기본값)](application-setup.md#adaptive-video-default)를 참조하십시오.
-   * 선택 사항입니다. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
+   * 선택적. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
 [데스크톱 비디오 인코딩 사전 설정](application-setup.md#desktop-video-encoding-presets), [모바일 비디오 인코딩 사전 설정](application-setup.md#mobile-video-encoding-presets), [태블릿 비디오 인코딩 사전 설정](application-setup.md#tablet-video-encoding-presets)을 참조하십시오.
 1. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 업로드 페이지에서 **[!UICONTROL 업로드 후 게시]**&#x200B;가 선택되어 있는지 확인하십시오.
@@ -80,9 +80,9 @@ Adobe Dynamic Media Classic은 비디오 축소판도 생성합니다. 비디오
 1. Adobe Dynamic Media Classic의 찾아보기 패널에서 비디오로 이동하여 선택합니다.
 1. **[!UICONTROL 파일]** > **[!UICONTROL 재처리]**(으)로 이동합니다.
 1. Assets 다시 처리 대화 상자에서 **[!UICONTROL EVideo 옵션]**&#x200B;을 확장한 후 다음 중 하나를 수행합니다.
-   * 가장 좋은 방법은 다음 방법을 사용하는 것입니다. **응용 비디오**&#x200B;를 선택하십시오.
+   * 다음 방법을 사용하는 것이 좋습니다. **적응형 비디오**를 선택합니다.
 [적응형 비디오(기본값)](application-setup.md#adaptive-video-default)를 참조하십시오.
-   * 선택 사항입니다. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
+   * 선택적. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
 [데스크톱 비디오 인코딩 사전 설정](application-setup.md#desktop-video-encoding-presets), [모바일 비디오 인코딩 사전 설정](application-setup.md#mobile-video-encoding-presets), [태블릿 비디오 인코딩 사전 설정](application-setup.md#tablet-video-encoding-presets)을 참조하십시오.
 1. Assets 재처리 대화 상자에서 **[!UICONTROL 제출]**&#x200B;을 선택합니다.
 
@@ -125,11 +125,13 @@ Adobe Dynamic Media Classic은 비디오 축소판도 생성합니다. 비디오
 
 다음은 Adobe Dynamic Media Classic에서 소스 비디오 파일을 인코딩하기 위한 모범 사례 팁입니다.
 
-<!-- THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
+<!--
+THE FOLLOWINGS LINKS APPEAR TO BE DEAD AND THE CONTENT COMPLETELY LOST. THE GO URL DOESN'T EVEN WORK ANYMORE.
 For advice about video encoding, see the following:
 
 * Article: [Streaming 101: The Basics — Codecs, Bandwidth, Data Rate, and Resolution][www.adobe.com/go/learn_s7_streaming101_en](https://www.adobe.com/go/learn_s7_streaming101_en). THIS MATERIAL WAS FOUND ON A THIRD PARTY WEBSITE HERE: https://streaminglearningcenter.com/articles/streaming-101-the-basics-codecs-bandwidth-data-rate-and-resolution.html MATERIAL IS GOOD BUT DO NOT LINK TO IT
-* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en). -->
+* Video: [Video Encoding Basics][www.adobe.com/go/learn_s7_encoding_en](https://www.adobe.com/go/learn_s7_encoding_en). 
+-->
 
 ### 소스 비디오 파일 {#source-video-files}
 
@@ -186,7 +188,7 @@ Adobe Dynamic Media Classic에서 메타데이터를 보거나, 비디오 편집
 | --- | --- |
 | 256 | 전화 접속 연결 |
 | 800 | 일반적인 모바일 연결. 이 연결의 경우 3G 환경에 대해 400에서 최대 800 범위의 데이터 속도를 타겟으로 합니다. |
-| 2000 | 일반적인 광대역 데스크톱 연결. 이 연결의 경우 800-2000Kbps 범위의 데이터 속도를 타겟으로 합니다. 대체로 평균 1200-1500Kbps 범위를 타겟으로 합니다. |
+| 2000 | 일반적인 광대역 데스크톱 연결. 이 연결의 경우 800-2000Kbps 범위에서 데이터 전송률을 타겟팅하고 대부분의 타겟은 평균 1200-1500Kbps입니다. |
 | 5000 | 일반적인 고속 광대역 연결. 이 상한 범위로 인코딩할 경우 대부분의 소비자가 이 속도로 제공되는 비디오를 사용할 수 없기 때문에 권장되지 않습니다. |
 
 ### 해상도 {#resolution}

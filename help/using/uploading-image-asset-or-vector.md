@@ -9,10 +9,10 @@ role: User
 exl-id: 2ef78fe6-1e7c-4f48-86da-137ddaa55bbf
 topic: Content Management
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 53%
+source-wordcount: '1051'
+ht-degree: 51%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 53%
 
 ## 공유 암호 키 요청 {#requesting-a-shared-secret-key}
 
-*Admin Console을 사용하여*&#x200B;공유 암호 키[를 요청하여 지원 사례를 만듭니다.](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 기술 지원 사례에서 공유 암호 키를 요청합니다.
+[Admin Console을 사용하여 *공유 암호 키*&#x200B;를 요청하여 지원 사례를 만듭니다.](https://helpx.adobe.com/enterprise/using/support-for-experience-cloud.html) 기술 지원 사례에서 공유 암호 키를 요청합니다.
 
 이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Adobe Dynamic Media Classic에서 키를 받으면 나중에 사용할 수 있도록 로컬에 저장합니다.
 
@@ -43,8 +43,10 @@ ht-degree: 53%
 * 래스터 이미지
   `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602`이 예제에서 공유 암호 키는 `fece4b21-87ee-47fc-9b99-2e29b78b602`입니다.
 
-<!-- * Vector
-  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` -->
+<!-- 
+* Vector
+  `https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9`In this example, the shared-secret key is `2d19f60e-890a-4e79-a1a5-9ac2875429b9` 
+-->
 
 기본적으로 업로드 토큰은 검색한 지 5분(300초) 후에 만료됩니다. 추가 시간을 요청하려면 URL에 `expires`을(를) 포함하고 필요한 시간(초)을 입력하십시오. 예를 들어 다음 샘플 이미지 URL은 1800초 동안 유효한 업로드 토큰을 검색합니다.
 
@@ -87,9 +89,11 @@ URL 쿼리 문자열에 다음 필드를 사용하여 업로드 토큰을 검색
 
 `https://s7ugc1.scene7.com/ugc/image?op=get_uploadtoken&shared_secret=fece4b21-87ee-47fc-9b99-2e29b78b602&expires=600`
 
-<!-- **Sample vector URL:**
+<!-- 
+**Sample vector URL:**
 
-`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` -->
+`https://s7ugc1.scene7.com/ugc/vector?op=get_uploadtoken&shared_secret=2d19f60e-890a-4e79-a1a5-9ac2875429b9&expires=5000` 
+-->
 
 **허용된 HTTP 메서드:**
 `GET` 및 `POST`
@@ -248,7 +252,8 @@ URL 쿼리 문자열에 다음 필드를 사용하여 자산에 대한 정보를
 
 GET 및 POST
 
-<!-- ## Upload a vector asset {#uploading-a-vector-asset}
+<!--
+## Upload a vector asset {#uploading-a-vector-asset}
 
 >[!IMPORTANT]
 >
@@ -383,4 +388,4 @@ Send the asset to upload as a multipart/form post while sending the rest of the 
 **Allowed HTTP method:**
 
 POST
- -->
+-->

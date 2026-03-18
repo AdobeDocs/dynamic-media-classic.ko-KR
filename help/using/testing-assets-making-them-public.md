@@ -10,10 +10,10 @@ role: User
 exl-id: fd78d535-391e-43eb-a8aa-25fa6c2885cb
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1061'
-ht-degree: 19%
+source-wordcount: '1070'
+ht-degree: 21%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 19%
 
 회사 네트워크에서 [https://www.whatismyip.com](https://www.whatismyip.com/)과(와) 같은 웹 사이트를 사용하여 공용 IP 주소를 확인하거나 회사 IT 조직에 이 정보를 요청할 수 있습니다.
 
-Adobe Dynamic Media Classic은 보안 테스트를 통해 스테이징 환경 또는 내부 애플리케이션을 위한 전용 이미지 서버를 구축합니다. 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록 내에 없는 경우 실패 응답이 반환됩니다. Adobe Dynamic Media Classic 회사 관리자는 회사의 보안 테스트 환경에 대해 승인된 IP 주소 목록을 구성합니다.
+Adobe Dynamic Media Classic은 보안 테스트를 통해 스테이징 환경 또는 내부 애플리케이션을 위한 전용 이미지 서버를 구축합니다. 이 서버에 대한 모든 요청은 원본 IP 주소를 확인합니다. 수신 요청이 승인된 IP 주소 목록에 없는 경우 실패 응답이 반환됩니다. Adobe Dynamic Media Classic 회사 관리자는 회사의 보안 테스트 환경에 대해 승인된 IP 주소 목록을 구성합니다.
 
 원본 요청의 위치를 확인해야 하므로 보안 테스트 서비스의 트래픽은 공용 Dynamic Media 이미지 서버 트래픽과 같은 컨텐츠 배포 네트워크를 통해 라우팅되지 않습니다. 보안 테스트 서비스에 대한 요청은 공개 Dynamic Media 이미지 서버에 비해 대기 시간이 약간 더 깁니다.
 
@@ -86,9 +86,11 @@ Last Modified Date:
 
 보안 테스트 서비스를 테스트하여 예상대로 작동하는지 확인하십시오.
 
-<!-- >[!NOTE]
+<!-- 
+>[!NOTE]
 >
->*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. -->
+>*If you do not mention any IPs under **[!UICONTROL Setup]** > **[!UICONTROL Application Setup]** > **[!UICONTROL Publish Setup]** > **[!UICONTROL Image Server]** > **[!UICONTROL Test Image Service]***: If you add an IP only, that IP is able to call the assets and no other IP are allowed to make the calls. As long there is no IP mentioned under that section, all IPs are allowed to make the calls for the assets, and they show up. 
+-->
 
 ### 계정 준비
 

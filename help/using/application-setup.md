@@ -10,10 +10,10 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 84dab57d00d0bd3fec8ed0d0a5ae28e81485fb01
 workflow-type: tm+mt
-source-wordcount: '10892'
-ht-degree: 29%
+source-wordcount: '11377'
+ht-degree: 27%
 
 ---
 
@@ -161,7 +161,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
 
 이미지 사전 설정 화면을 열려면 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 이미지 사전 설정]**(으)로 이동합니다.
 
-[스마트 이미징](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/imaging-faq)을 참조하세요.
+[스마트 이미징](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)을 참조하세요.
 
 ### 이미지 사전 설정 만들기 및 편집 {#creating-and-editing-image-presets}
 
@@ -171,8 +171,8 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
    * **이미지 사전 설정 만들기**: **[!UICONTROL 추가]**&#x200B;를 선택합니다.
    * **기존 사전 설정에서 이미지 사전 설정을 만듭니다**: 만들려는 이미지 사전 설정과 가장 유사한 이미지 사전 설정을 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
-1. [사전 설정 추가] (또는 [편집]) 페이지에서 사전 설정 이름을 입력합니다.
-1. 원하는 [사전 설정] 선택 사항을 설정합니다. 
+1. [사전 설정 추가](또는 [편집]) 페이지에서 사전 설정 이름을 입력합니다.
+1. 원하는 [사전 설정] 선택 사항을 설정합니다.
 
    [이미지 사전 설정 선택 사항](application-setup.md#image_preset_options)을 참조하십시오.
 
@@ -203,7 +203,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
 
    * JPEG 선택 사항
 
-      * **[!UICONTROL 품질]**: JPEG 압축 수준을 제어합니다. 이 설정은 파일 크기와 이미지 품질에 모두 영향을 줍니다. JPEG 품질 범위는 1에서 100 사이입니다.
+      * **[!UICONTROL 품질]**: JPEG 압축 수준을 제어합니다. 이 설정은 파일 크기와 이미지 품질에 모두 영향을 줍니다. JPEG 품질 척도는 1-100입니다.
 
       * **[!UICONTROL JPG 색차 다운샘플링 사용]**: 눈은 고주파 광도보다 고주파 색상 정보에 덜 민감하므로 JPEG 이미지는 이미지 정보를 광도와 색상 구성 요소로 나눕니다. JPEG 이미지가 압축된 경우 광도 구성 요소는 전체 해상도로 유지되고 색상 구성 요소는 픽셀 그룹을 평균화하여 다운샘플링됩니다. 다운샘플링은 체감 품질에 거의 영향을 미치지 않으면서 데이터 양을 1/2 또는 1/3로 줄입니다. 회색 음영 이미지에는 다운샘플링을 적용할 수 없습니다. 이 기술은 고대비 이미지(예: 오버레이된 텍스트가 있는 이미지)에 유용한 압축 양을 줄입니다.
 
@@ -213,7 +213,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
 
 * **[!UICONTROL 색상 공간]**: 색상 공간을 선택하십시오.
 
-* **[!UICONTROL 선명하게 하기]**: 모든 크기 조절 후에 기본 선명하게 하기 필터를 이미지에 적용하려면 **[!UICONTROL `Enable Simple Sharpening`]** 옵션을 선택하십시오. 선명하게 하기는 이미지를 다른 크기로 표시할 때 발생할 수 있는 흐림을 보상하는 데 도움이 됩니다. 
+* **[!UICONTROL 선명하게 하기]**: 모든 크기 조절 후에 기본 선명하게 하기 필터를 이미지에 적용하려면 **[!UICONTROL `Enable Simple Sharpening`]** 옵션을 선택하십시오. 선명하게 하기는 이미지를 다른 크기로 표시할 때 발생할 수 있는 흐림을 보상하는 데 도움이 됩니다.
 
   선명하게 하기, 재샘플링 모드 및 언샵 마스킹에 대한 자세한 내용은 [이미지 선명하게](sharpening-image.md#sharpening_an_image)를 참조하십시오. [선명하게 하기](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/547_sharpening1_converted%20renamed_Done-AVS) 교육 비디오도 참조하세요.
 
@@ -229,7 +229,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
 
 * **[!UICONTROL 언샵 마스킹]**: 선명하게 하기를 미세 조정하려면 다음 옵션을 선택하십시오.
 
-* **[!UICONTROL 양]**: 가장자리 픽셀에 적용된 대비의 양을 제어합니다. 기본값은 1.0입니다. 고해상도 이미지의 경우 5.0만큼 높게 늘릴 수 있습니다. 이 양을 필터 강도의 측정값으로 간주합니다.
+* **[!UICONTROL 양]**: 가장자리 픽셀에 적용된 대비의 양을 제어합니다. 기본값은 1.0입니다. 고해상도 이미지의 경우 최대 5.0까지 늘릴 수 있습니다. 양을 필터 강도를 나타내는 척도로 간주합니다.
 
 * **[!UICONTROL 반경]**: 선명하게 하기가 적용되는 가장자리 픽셀 주위의 픽셀 수를 결정합니다. 고해상도 이미지의 경우 1에서 2 사이의 값을 입력합니다. 값이 작으면 가장자리 픽셀만 선명하게 되고 값이 크면 넓은 범위의 픽셀이 선명하게 됩니다. 올바른 값은 이미지 크기에 따라 달라집니다.
 
@@ -346,7 +346,7 @@ Adobe Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을
 
 ### 응용 비디오 인코딩(16:9 또는 4:3) 사전 설정 {#adaptive-video-encoding-or-video-presets}
 
-이러한 응용 비디오 인코딩 사전 설정은 업로드한 비디오의 종횡비에 따라 자동으로 선택되는 일련의 개별 인코딩 사전 설정을 결합합니다. 예를 들어, 4:3 비디오를 업로드하는 경우 :3응용 비디오 인코딩(16 **또는 4:9):3 옵션의 기본 사전 설정 목록에 있는 5개의 4** 사전 설정을 모두 사용하여 자동으로 인코딩됩니다.
+이러한 응용 비디오 인코딩 사전 설정은 업로드한 비디오의 종횡비에 따라 자동으로 선택되는 일련의 개별 인코딩 사전 설정을 결합합니다. 예를 들어, 4:3 비디오를 업로드하는 경우 **응용 비디오 인코딩(16:9 또는 4:3)** 옵션의 기본 사전 설정 목록에 있는 5개의 4:3 사전 설정을 모두 사용하여 자동으로 인코딩됩니다.
 
 인코딩 옵션 매개 변수에 대한 자세한 내용은 [인코딩 사전 설정 옵션 정보](application-setup.md#about_encoding_preset_options)를 참조하십시오.
 
@@ -426,7 +426,7 @@ Adobe Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을
 
 *뷰어 사전 설정*&#x200B;은 사용자가 컴퓨터 화면과 모바일 장치에서 리치 미디어 자산을 보는 방법을 결정하는 설정 모음입니다. 관리자는 뷰어 사전 설정을 만들 수 있습니다. 뷰어 구성 선택 사항 배열에 대한 설정을 사용할 수 있습니다. 예를 들어 뷰어 표시 크기, 확대/축소 동작, 색상 구성표, 테두리 및 글꼴을 변경할 수 있습니다.
 
-우수 사례로, Adobe Dynamic Media Classic HTML5 비디오 뷰어를 사용하십시오. HTML5 비디오 뷰어에 사용되는 사전 설정은 강력한 비디오 플레이어입니다.
+우수 사례로, Adobe Dynamic Media Classic HTML5 비디오 뷰어를 사용하십시오. HTML5 비디오 뷰어에 사용된 사전 설정은 강력한 비디오 플레이어입니다.
 
 를 단일 플레이어로 결합하여 다음을 수행합니다.
 
@@ -436,7 +436,7 @@ Adobe Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을
 
 리치 미디어 콘텐츠의 범위를 데스크탑, 태블릿 및 모바일 사용자까지 확장하고 간소화된 비디오 환경을 제공합니다.
 
-Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)를 참조하십시오.
+Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)를 참조하십시오.
 
 [Adobe Dynamic Media Classic 뷰어 사전 설정 호환성 매트릭스](application-setup.md#scene7_viewer_preset_compatibility_matrix)를 참조하십시오.
 
@@ -450,7 +450,7 @@ Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experiencelea
 
 웹 페이지마다 요구 사항이 다릅니다. 경우에 따라 별도의 브라우저 창에서 HTML5 뷰어를 여는 링크를 제공하는 웹 페이지가 필요할 수 있습니다. 다른 경우에는 호스팅 페이지에 HTML5 뷰어를 직접 임베드해야 합니다. 후자의 경우 웹 페이지에 정적 레이아웃이 있을 수 있습니다. 또는 &quot;응답형&quot;이며 디바이스마다 또는 브라우저 창 크기마다 다르게 표시됩니다. 이러한 요구 사항에 맞게 Adobe Dynamic Media Classic과 함께 제공되는 HTML5 Viewer는 정적 웹 페이지와 반응형 디자인 웹 페이지를 모두 지원합니다.
 
-웹 페이지에 응답형 뷰어를 포함하는 방법에 대한 자세한 내용은 [응답형 이미지 라이브러리 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [응답형 이미지 라이브러리 사용](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) 및 [명령 참조: 명령 특성](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)을 참조하세요.
+웹 페이지에 응답형 뷰어를 포함하는 방법에 대한 자세한 내용은 [응답형 이미지 라이브러리 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [응답형 이미지 라이브러리 사용](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) 및 [명령 참조: 명령 특성](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)을 참조하세요.
 
 ### 뷰어 사전 설정 유형 {#viewer-preset-types}
 
@@ -494,7 +494,7 @@ Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experiencelea
 
 뷰어에 대해 지원되는 웹 브라우저 및 운영 체제 버전에 대한 자세한 내용은 뷰어 릴리스 정보 를 참조하십시오.
 
-[Adobe 뷰어 참조 릴리스 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources)를 참조하세요.
+[Adobe 뷰어 참조 릴리스 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)를 참조하세요.
 
 |  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ 태블릿 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -568,29 +568,29 @@ Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생
 
 * **사전 설정 추가**: **[!UICONTROL 추가]**&#x200B;를 선택하고 [뷰어 사전 설정 추가] 대화 상자에서 선택하십시오.
 
-      [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets)을 참조하십시오.
-  
+  [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets)을 참조하십시오.
+
 * **사전 설정 편집**: 사전 설정을 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
-      [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets)을 참조하십시오.
-  
+  [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets)을 참조하십시오.
+
 * **사전 설정 삭제**: 사전 설정을 선택한 다음 **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
 
 * **사전 설정 내보내기**: HTML5 뷰어 사전 설정을 선택합니다. 그런 다음 **[!UICONTROL 내보내기]**&#x200B;를 클릭하여 뷰어 스킨을 다운로드하여 다른 뷰어 사전 설정을 만들고 추가하는 기준으로 사용할 수 있습니다.
 
-      HTML5 뷰어 사전 설정 내보내기&rbrack;(application-setup.md#exporting_an_html5_viewer_preset)를 참조하십시오.
-  
+  [HTML5 뷰어 사전 설정 내보내기](application-setup.md#exporting_an_html5_viewer_preset)를 참조하십시오.
+
 * **뷰어 사전 설정 목록 필터링**: 다음 도구를 사용하여 목록을 필터링합니다.
 
-      * **활성/비활성** 드롭다운 목록을 열고 활성 사전 설정, 비활성 사전 설정 또는 모든 사전 설정을 표시하는 옵션을 선택합니다.
-     * **뷰어** 드롭다운 목록을 열고 특정 종류의 뷰어만 볼 수 있는 옵션을 선택합니다. 모든 **를 보려면 [!UICONTROL 모든 뷰어**&#x200B;1&rbrace;를 선택하십시오.]
-  
+   * **활성/비활성** 드롭다운 목록을 열고 활성 사전 설정, 비활성 사전 설정 또는 모든 사전 설정을 표시하는 옵션을 선택합니다.
+   * **뷰어** 드롭다운 목록을 열고 특정 종류의 뷰어만 볼 수 있는 옵션을 선택하십시오. 모든 뷰어를 보려면 **[!UICONTROL 모든 뷰어]**&#x200B;를 선택하십시오.
+
 * **사전 설정 정렬**: 열에서 목록을 정렬할 열 제목(**[!UICONTROL Active]**, **[!UICONTROL Type]**, **[!UICONTROL Preset]** 또는 **[!UICONTROL Platform]**)을 선택합니다. 목록을 내림차순(또는 오름차순)으로 정렬하려면 열 제목을 한 번 더 선택합니다.
 
 * **사전 설정 활성화 및 비활성화**: 사전 설정을 선택한 다음 활성화 또는 비활성화할 수 있도록 해당 [활성] 옵션을 선택합니다.
 
-      뷰어 사전 설정 활성화 또는 비활성화&rbrack;(application-setup.md#activating_or_deactivating_viewer_presets)를 참조하십시오.
-  
+  [뷰어 사전 설정 활성화 또는 비활성화](application-setup.md#activating_or_deactivating_viewer_presets)를 참조하십시오.
+
 >[!NOTE]
 >
 >선택한 뷰어 사전 설정에서 에셋의 모양을 확인할 수 있도록 뷰어 사전 설정 페이지의 오른쪽에 있는 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다. 다른 에셋을 보려면 [뷰어 사전 설정] 페이지에서 **[!UICONTROL 찾아보기]**&#x200B;를 선택하고 [에셋 미리 보기 선택] 대화 상자에서 다른 에셋을 선택하십시오.
@@ -613,12 +613,12 @@ Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생
 
    * **추가**: 도구 모음에서 **[!UICONTROL 추가]**&#x200B;를 선택합니다. 뷰어 사전 설정 추가 대화 상자에서 플랫폼을 선택하고 리치 미디어 자산 유형을 선택합니다.
 
-     뷰어 사전 설정 **&#x200B; 만들었으면     [!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택합니다.
-     
+     뷰어 사전 설정을 만들었으면 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택합니다.
+
    * **기존 뷰어 사전 설정에서 시작하여 추가**: 테이블에서 비디오 뷰어 사전 설정을 선택한 다음 도구 모음에서 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
-         비디오 뷰어를 다시 구성한 후 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택하여 [사전 설정 이름] 텍스트 필드에 다른 이름을 사용하여 사전 설정을 저장합니다.
-     
+     비디오 뷰어를 다시 구성한 후 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택하여 [사전 설정 이름] 텍스트 필드에 다른 이름을 사용하여 사전 설정을 저장합니다.
+
    * **편집**: 기존 뷰어 사전 설정을 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
 1. [뷰어 구성] 페이지의 [사전 설정 이름] 필드에 사전 설정 이름을 입력하거나 편집합니다.
@@ -870,7 +870,7 @@ Adobe Dynamic Media Classic에는 사전 정의된 메타데이터 보기가 포
 
 ### 사용자 지정 필드 관리 {#manage-user-defined-fields}
 
-[사용자 지정 필드] 화면에서는 사용자 지정 메타데이터 필드를 관리하기 위한 명령을 제공합니다. 
+[사용자 지정 필드] 화면에서는 사용자 지정 메타데이터 필드를 관리하기 위한 명령을 제공합니다.
 
 Media Portal 관리자 또는 회사 관리자만 사용자 지정 필드를 관리할 수 있습니다.
 
@@ -938,7 +938,7 @@ Adobe Dynamic Media Classic은 일괄처리 집합 사전 설정을 사용하여
 
 **일괄처리 집합 사전 설정을 만들려면:**
 
-1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]**(으)로 이동합니다. [세부 사항] 페이지의 오른쪽 상단에서 설정되는 **[!UICONTROL 보기 양식]**&#x200B;은 기본 보기입니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]**&#x200B;으로 이동합니다. **[!UICONTROL 세부 정보 페이지의 오른쪽 상단 모서리에 설정된 보기 양식]**&#x200B;이(가) 기본 보기입니다.
 1. [사전 설정 목록] 패널에서 **[!UICONTROL 추가]**&#x200B;를 선택하여 페이지 오른쪽의 [세부 정보] 패널에 있는 정의 필드를 활성화합니다.
 1. [세부 사항] 패널의 사전 설정 이름 필드에서 사전 설정 이름을 입력합니다.
 1. [일괄처리 집합 유형] 드롭다운 메뉴에서, 사전 설정 유형을 선택합니다.
@@ -987,7 +987,7 @@ spin-03-12
 
 **2D 회전 집합의 자동 생성을 위한 일괄처리 집합 사전 설정을 만들려면:**
 
-1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]**(으)로 이동합니다. [세부 사항] 페이지의 오른쪽 상단에서 설정되는 **[!UICONTROL 보기 양식]**&#x200B;은 기본 보기입니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]**&#x200B;으로 이동합니다. **[!UICONTROL 세부 정보 페이지의 오른쪽 상단 모서리에 설정된 보기 양식]**&#x200B;이(가) 기본 보기입니다.
 1. [사전 설정 목록] 패널에서 **[!UICONTROL 추가]**&#x200B;를 선택하여 페이지 오른쪽의 [세부 정보] 패널에 있는 정의 필드를 활성화합니다.
 1. [세부 사항] 패널의 사전 설정 이름 필드에서 사전 설정 이름을 입력합니다.
 1. [일괄처리 집합 유형] 드롭다운 메뉴에서, **[!UICONTROL 자산 집합]**&#x200B;을 선택합니다.

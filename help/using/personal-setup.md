@@ -10,9 +10,9 @@ role: Admin,User
 exl-id: a019f973-7647-466f-8af3-5312e9225e89
 topic: Administration, Collaboration
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+source-git-commit: 9102019811713b953e016fc7c47dc9f7a0dfbcd9
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '841'
 ht-degree: 19%
 
 ---
@@ -48,11 +48,14 @@ ht-degree: 19%
 1. Adobe Dynamic Media Classic의 도구 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 개인 설정]**(Creative Suite Extension 아래)으로 이동하여 **[!UICONTROL 지금 다운로드]**&#x200B;를 선택하여 `s7csxs.zxp` 파일을 다운로드합니다.
 1. 확장에 대한 추가 정보를 보려면 **[!UICONTROL 설치]** 및 **[!UICONTROL 시스템 요구 사항]** 링크를 선택하십시오.
 
-<!--    A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
+<!--    
+A readme file is included at the root of the unzipped file to provide you with additional information about the extension.
 
-1. Depending on your installed operating system, do one of the following: -->
+1. Depending on your installed operating system, do one of the following: 
+-->
 
-<!-- #### Windows
+<!--
+#### Windows
 
 |If you are running|Do this|
 |--- |--- |
@@ -68,7 +71,8 @@ ht-degree: 19%
 |Adobe Illustrator 17 in Adobe Creative Cloud|<ul><li>From the root of the unzipped folder, select CC > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CC/Plug-ins/Illustrator Formats/`.</li></ul><br/>|
 |Adobe Illustrator 16 in Adobe Creative Suite 6|<ul><li>From the root of the unzipped folder, select 6.0 > mac64</li><li>Copy the `AdobeS7FXGFileFormat.aip` folder to Adobe Illustrator's plug-in folder. For example, `/Applications/Adobe Illustrator CS6/Plug-ins/Illustrator Formats/`.</li></ul>|
 
-The plug-in is now available for you to use in Adobe Illustrator. -->
+The plug-in is now available for you to use in Adobe Illustrator.
+-->
 
 ## 브라우저
 

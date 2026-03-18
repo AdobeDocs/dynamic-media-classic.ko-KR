@@ -6,14 +6,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
 geptopics: SG_SCENESEVENONDEMAND_PK/categories/adobe_analytics_instrumentation_kit
 feature: Dynamic Media Classic
-role: Data Engineer,Admin,User
+role: Developer,Admin,User
 exl-id: a8fa2414-af01-4a58-bb33-dfd12c1056cc
 topic: Integrations
 level: Experienced
-source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
+source-git-commit: 458a80aad6e983dbccfe2108f0a389a4651f9f38
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 21%
+source-wordcount: '699'
+ht-degree: 23%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Analytics을 Adobe Dynamic Media Classic과 통합하면 웹 사이트에�
 
 Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명확하게 파악할 수 있습니다. 어떤 제품 프레젠테이션이 전환을 유도하고 어떤 것이 고객의 관심을 끌지 못하는지 결정할 수 있습니다.
 
-[Adobe Analytics에서 비디오 측정](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview)도 참조하세요.
+[Adobe Analytics에서 비디오 측정](https://experienceleague.adobe.com/en/docs/media-analytics/using/media-overview)도 참조하세요.
 
 >[!NOTE]
 >

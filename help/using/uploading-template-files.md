@@ -10,9 +10,9 @@ role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 topic: Content Management
 level: Experienced
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+source-git-commit: 9102019811713b953e016fc7c47dc9f7a0dfbcd9
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '245'
 ht-degree: 32%
 
 ---
@@ -31,8 +31,11 @@ Adobe Photoshop PSD 파일이나 이미지 파일에서 템플릿을 만들 수 
 
 * PSD 파일을 업로드하는 경우 해당 파일에서 템플릿을 만들 수 있습니다. Adobe Dynamic Media Classic은 PSD의 각 레이어에 대해 별도의 이미지를 만듭니다. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL Photoshop 옵션]**&#x200B;을 선택하고 **[!UICONTROL 레이어 유지]** 및 **[!UICONTROL 템플릿 만들기]**&#x200B;를 선택합니다. 그런 다음 **[!UICONTROL 레이어 이름 지정]** 드롭다운 목록에서 Adobe Dynamic Media Classic이 PSD의 레이어에서 만드는 이미지 이름을 지정하는 옵션을 선택합니다.
 [PSD 업로드 선택 사항](psd-files.md#psd_upload_options)을 참조하십시오.
-<!-- THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
-See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). -->
+
+<!--
+THERE IS NO LONGER AN IMAGE EDITING OPTIONS MENU * If you are uploading images, you can create a mask from its clipping path. This option applies to images created with image-editing applications in which a clipping path was created. In the Upload Job Options dialog box, select Image Editing Options and select the Create Mask From Clipping Path option. 
+See [Image editing options at upload](image-editing-options-upload.md#image-editing-options-at-upload). 
+-->
 
 >[!MORELIKETHIS]
 >

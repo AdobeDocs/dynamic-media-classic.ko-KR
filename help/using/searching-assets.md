@@ -10,9 +10,9 @@ role: User
 exl-id: 4b3f690c-7dff-4bf0-9366-085ba918fe6b
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+source-git-commit: 384e1ec078540d0cc5224b98ead6eb880cd92c2a
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1521'
 ht-degree: 17%
 
 ---
@@ -53,9 +53,11 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 
    검색 결과가 오른쪽의 찾아보기 패널에 나타납니다.
 
-<!-- Does not appear to be working anymore >[!NOTE]
+<!--
+Does not appear to be working anymore >[!NOTE]
 >
->Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. -->
+>Adobe Dynamic Media Classic tracks searches. To run a search a second time, select **[!UICONTROL Search]** and choose the name of a search at the bottom of the Search menu. 
+-->
 
 ## 고급 검색 수행 {#conducting-an-advanced-search}
 
@@ -77,7 +79,7 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
    1. **[!UICONTROL 필드 추가]** 드롭다운 메뉴를 선택하고 필드 이름을 선택하십시오.
    1. **[!UICONTROL 포함]** 옵션 선택: **[!UICONTROL 포함]**, **[!UICONTROL 포함하지 않음]**, **[!UICONTROL 다음으로 시작]**, **[!UICONTROL 다음으로 끝남]** 또는 **[!UICONTROL 같음]**.
    1. 숫자 필드의 경우 값을 선택하거나 사용자 지정 날짜 범위를 입력합니다.
-   1. (선택 사항) 1-4 단계를 반복하여 추가 검색 필드를 만듭니다.
+   1. (선택 사항) 더 많은 검색 필드를 만들려면 1-4단계를 반복합니다.
 
 검색 필드를 삭제하려면 **[!UICONTROL 검색 필드 제거]** 아이콘(안에 &quot;X&quot;가 있는 원)을 선택하십시오.
 
@@ -87,7 +89,7 @@ Adobe Dynamic Media Classic에서 파일 에셋을 찾으려면 유형별로 에
 
 ## 메타데이터를 사용하여 자산 필터링 {#filter-assets-using-metadata}
 
-자산 라이브러리의 [필터] 탭에서 자산을 필터링합니다. 자산을 필터링하려면 메타데이터 값을 기준으로 사용합니다. 필터링할 메타데이터 필드를 선택하면 필터 탭에 선택한 필드에 입력된 모든 메타데이터 값이 나열됩니다. 또한 각 값에 할당된 에셋 수도 나열됩니다. 예를 들어 **[!UICONTROL Creator]** 메타데이터 필드에 대한 필터 작업에서 **[!UICONTROL 필터]** 탭에는 다른 자산에 대해 **[!UICONTROL Creator]** 메타데이터 필드에 입력한 모든 이름이 나열됩니다. 또한 각 이름에 지정된 에셋의 수가 나열됩니다. 그런 다음 메타데이터 값을 선택하여 해당 값이 지정된 모든 에셋을 확인합니다. 이 예제에서는 `Prairie Cat` 메타데이터 값을 선택하여 `Prairie Cat`Creator **[!UICONTROL 메타데이터 필드에]** 이름이 입력된 모든 자산을 확인합니다. 여러 메타데이터 필드를 필터링 기준으로 사용하여 필터링할 수 있습니다.
+자산 라이브러리의 [필터] 탭에서 자산을 필터링합니다. 자산을 필터링하려면 메타데이터 값을 기준으로 사용합니다. 필터링할 메타데이터 필드를 선택하면 필터 탭에 선택한 필드에 입력된 모든 메타데이터 값이 나열됩니다. 또한 각 값에 할당된 에셋 수도 나열됩니다. 예를 들어 **[!UICONTROL Creator]** 메타데이터 필드에 대한 필터 작업에서 **[!UICONTROL 필터]** 탭에는 다른 자산에 대해 **[!UICONTROL Creator]** 메타데이터 필드에 입력한 모든 이름이 나열됩니다. 또한 각 이름에 지정된 에셋의 수가 나열됩니다. 그런 다음 메타데이터 값을 선택하여 해당 값이 지정된 모든 에셋을 확인합니다. 이 예제에서는 `Prairie Cat` 메타데이터 값을 선택하여 **[!UICONTROL Creator]** 메타데이터 필드에 `Prairie Cat` 이름이 입력된 모든 자산을 확인합니다. 여러 메타데이터 필드를 필터링 기준으로 사용하여 필터링할 수 있습니다.
 
 필터 작업을 저장하여 여러 번 실행할 수 있습니다.
 
