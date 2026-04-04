@@ -24,7 +24,7 @@ ht-degree: 14%
 | 지원 | 가입 |
 | --- | --- |
 | 횟수 제한 | 제한 없음. |
-| Adobe 시스템 상태 확인 | [Adobe Dynamic Media Classic 시스템 상태](https://status.adobe.com/products/1175). |
+| Adobe 시스템 상태 확인 | [Adobe Dynamic Media Classic 시스템 상태](https://status.adobe.com/kr/products/1175). |
 | 답을 찾을 수 없습니까? | [지원에서 도움을 받으려면 티켓을 여세요](https://experienceleague.adobe.com/ko?support-solution=General#support). |
 | 커뮤니티 포럼 | [Experience Manager 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ko). |
 | SLA(SLA) | [지원 서비스/사용 약관](https://helpx.adobe.com/kr/support/programs/support-policies-terms-conditions.html). |

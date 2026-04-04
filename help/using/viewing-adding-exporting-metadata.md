@@ -25,7 +25,7 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 일부 메타데이터는 파일에 직접 포함됩니다. 파일에 이 메타데이터가 포함되어 있으면 Adobe Dynamic Media Classic이 해당 파일을 자동으로 업로드합니다. Adobe Photoshop, InDesign, Illustrator 및 기타 애플리케이션의 소스 자산에 메타데이터를 포함할 수 있습니다. Adobe Dynamic Media Classic은 이 메타데이터를 인식합니다. 세부 사항 보기의 [메타데이터] 패널에서 개별 파일에 메타데이터를 추가할 수도 있습니다. 자산 간에 일관성을 유지하기 위해 회사 관리자는 입력할 수 있는 메타데이터 필드를 제공하는 메타데이터 템플릿을 만듭니다.
 
-포함된 메타데이터에 대한 자세한 내용은 [확장 가능한 메타데이터 플랫폼](https://www.adobe.com/products/xmp.html)을 참조하십시오.
+포함된 메타데이터에 대한 자세한 내용은 [확장 가능한 메타데이터 플랫폼](https://www.adobe.com/kr/products/xmp.html)을 참조하십시오.
 
 ## 메타데이터 보기 {#view-metadata}
 
