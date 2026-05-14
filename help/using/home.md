@@ -7,9 +7,23 @@ role: Admin,User
 exl-id: af29eabb-f7c6-420b-9c63-9d60ee2dc148
 topic: Administration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T19:59:26.023Z'
+TQID: 'https://experienceleague.adobe.com/QHE-OFzsPsBwdIlkpO1nGo1W5Q2Au9Avy8G8mTzBZGc'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: 348
 ht-degree: 0%
 
 ---
@@ -36,7 +50,7 @@ Adobe Dynamic Media Classic 도움말에 오신 것을 환영합니다. 여기�
 ## Adobe Dynamic Media Classic 사용자 리소스
 
 * [Dynamic Media 월간 뉴스레터](dynamic-media-newsletter.md)
-* [Adobe Dynamic Media Classic 모범 사례 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobe Dynamic Media Classic 우수 사례 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [안내서: 이미지 선명하게 하기를 위한 우수 사례 안내서](/help/using/assets/s7_sharpening_images.pdf)
 * [안내서: Adobe Dynamic Media Classic에서 SEO를 지원하는 방법](/help/using/assets/s7_seo.pdf): 검색 엔진을 통해 웹 사이트 및 이미지를 검색할 수 있습니다. Adobe Dynamic Media Classic은 더 많은 트래픽이 Adobe Dynamic Media Classic 사용자의 웹 사이트로 유도되도록 이미지 검색 엔진 친화적 인 노력을 지원합니다. PDF의 이 안내서에서는 이를 수행하는 데 필요한 배경 및 구현 권장 사항을 제공합니다.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->

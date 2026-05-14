@@ -10,10 +10,18 @@ role: User
 exl-id: eae35207-000c-4ced-b9ab-714c2384a9e7
 topic: Content Management
 level: Beginner
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:11:12.792Z'
+TQID: 'https://experienceleague.adobe.com/0ilSf9rbFcvh2-AVdVnifjNi7bOa5AjCqBFCUC95I5Q'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '844'
-ht-degree: 19%
+source-wordcount: 934
+ht-degree: 18%
 
 ---
 
@@ -35,7 +43,7 @@ Adobe Dynamic Media Classic에 확대/축소 이미지를 업로드하는 것부
 
 전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터 또는 네트워크의 이미지를 Adobe Dynamic Media Classic의 폴더로 업로드합니다. [확대/축소 이미지 업로드](uploading-zoom-images.md#uploading_zoom_images)를 참조하십시오.
 
-## &#x200B;2. 안내식 확대/축소를 위한 확대/축소 대상 만들기
+## &#x200B;2. 유도된 확대/축소를 위한 확대/축소 대상 만들기
 
 확대/축소 타겟을 사용하면 이미지의 특정 부분을 강조 표시할 수 있습니다. 예를 들어 이미지를 고유하거나 특별하게 하는 특정 이미지 부분에 주의를 끌 수 있습니다. [확대/축소 뷰어] 창에서 확대/축소 대상은 이미지 옆에 축소판 이미지 형태로 나타납니다. 이러한 확대/축소 타겟 썸네일 중 하나를 선택하면 지정한 이미지 부분이 자동으로 확대/축소됩니다.
 
@@ -63,6 +71,6 @@ Adobe Dynamic Media Classic에서는 단추 스타일과 뷰어의 전체 모양
 
 전역 탐색 모음에서 **[!UICONTROL 게시]**&#x200B;를 선택합니다. 게시 대화 상자에서 **[!UICONTROL 게시 제출]**&#x200B;을 선택합니다. [확대/축소 이미지 게시](publishing-zoom-images.md#publishing_zoom_images)를 참조하십시오.
 
-## &#x200B;6. 확대/축소 뷰어를 웹 페이지에 연결
+## &#x200B;6. 웹 페이지에 확대/축소 뷰어 연결
 
 Adobe Dynamic Media Classic은 이미지를 확대/축소하는 데 필요한 URL 콜아웃 문자열을 만들고 Dynamic Media 이미지 서버에 이미지를 게시할 때 활성화합니다. **[!UICONTROL 미리 보기]** 페이지에서 이러한 URL 문자열을 복사할 수 있습니다. URL 문자열을 복사하면 웹 사이트 및 응용 프로그램에서 사용할 수 있습니다. [확대/축소 뷰어를 웹 페이지에 연결](linking-zoom-viewers-web-pages.md#linking_zoom_viewers_to_your_web_pages)을 참조하십시오.

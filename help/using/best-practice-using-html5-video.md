@@ -10,10 +10,18 @@ role: User
 exl-id: ce49e4ce-8dc0-41e1-865a-249f23757553
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+autotag-review: '2026-05-13T17:39:23.475Z'
+TQID: 'https://experienceleague.adobe.com/wGnoHGEOQLVV-rnoKBOE8wzphK3VaM-vr9YB1Y-gT8c'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 10%
+source-wordcount: 499
+ht-degree: 8%
 
 ---
 
@@ -53,7 +61,7 @@ Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experiencelea
 | 데스크톱 | Safari(Mac) | HLS 비디오 스트리밍. |
 | 모바일 | Chrome(Android™ 6 이하) | 점진적 다운로드. |
 | 모바일 | Chrome(Android™ 7 이상) | HLS 비디오 스트리밍. |
-| 모바일 | Android™ (기본 브라우저) | 점진적 다운로드. |
+| 모바일 | ™ (기본 브라우저) | 점진적 다운로드. |
 | 모바일 | Safari(iOS) | HLS 비디오 스트리밍. |
 | 모바일 | Chrome(iOS) | HLS 비디오 스트리밍. |
 | 모바일 | 블랙베리® | HLS 비디오 스트리밍. |

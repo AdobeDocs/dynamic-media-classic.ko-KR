@@ -10,10 +10,18 @@ role: User
 exl-id: 757893ae-7507-42a0-a67b-f6542e7231c7
 topic: Content Management
 level: Beginner
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+autotag-review: '2026-05-13T20:10:24.352Z'
+TQID: 'https://experienceleague.adobe.com/23AoGDGEDm6MKPXwRk5Orvi445FdE3BpcTaSY21YSUE'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 16%
+source-wordcount: 698
+ht-degree: 17%
 
 ---
 
@@ -69,7 +77,7 @@ Adobe Dynamic Media Classic에는 혼합 미디어 집합용 기본 뷰어 사�
 
 [혼합 미디어 집합 게시](publishing-mixed-media-set.md#publishing-a-mixed-media-set)를 참조하십시오.
 
-## &#x200B;7. 혼합 미디어 세트를 웹 페이지에 연결
+## &#x200B;7. 웹 페이지에 혼합 미디어 집합 연결
 
 Adobe Dynamic Media Classic은 혼합 미디어 세트를 게시한 후 해당 세트에 대한 URL 호출을 활성화합니다. 미리보기 페이지에서 이러한 URL을 복사할 수 있습니다.
 

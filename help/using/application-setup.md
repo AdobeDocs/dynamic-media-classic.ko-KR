@@ -10,10 +10,22 @@ role: Admin
 exl-id: 3f96606e-ef5c-4c01-aa0f-3148f14e28be
 topic: Administration
 level: Intermediate
-source-git-commit: 84dab57d00d0bd3fec8ed0d0a5ae28e81485fb01
+autotag-review: '2026-05-13T17:38:37.961Z'
+TQID: 'https://experienceleague.adobe.com/GXWZmllFz1-pP-BuzH2WdjpgmvX5cOUipLywGUa8Z0U'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '11377'
-ht-degree: 27%
+source-wordcount: 11377
+ht-degree: 28%
 
 ---
 
@@ -147,7 +159,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
 
 이전에 이미지를 업로드한 다음 원본 파일을 변경(또는 대체)한 경우, 선택한 덮어쓰기 옵션은 Adobe Dynamic Media Classic이 이미지를 대체하는 방법을 지정합니다. 이미지 정보는 변경되지 않고 새 이미지가 이전 이미지를 대체합니다. 폴더에 Adobe Dynamic Media Classic에 아직 없는 이미지도 포함되어 있는 경우 이러한 이미지가 추가됩니다.
 
-업로드된 이미지가 어떤 식으로든 변경되었지만(이미지가 변경됨) 이미지에 대한 참조가 동일하게 유지되는 경우 이 옵션을 사용합니다. 덮어쓰기는 Adobe® PDF를 업로드하고 리핑할 때도 유용합니다. Adobe Dynamic Media Classic에서 이미지를 *립*&#x200B;하는 방법을 미세 조정할 수 있습니다. 업로드(Upload) 대화상자에서 ICC 색상 프로파일 옵션을 조정하고 덮어쓰기 기능을 사용하여 다시 업로드할 수도 있습니다.
+업로드된 이미지가 어떤 식으로든 변경되었지만(이미지가 변경됨) 이미지에 대한 참조가 동일하게 유지되는 경우 이 옵션을 사용합니다. 덮어쓰기는 ® PDF를 업로드하고 리핑할 때도 유용합니다. Adobe Dynamic Media Classic에서 이미지를 *립*&#x200B;하는 방법을 미세 조정할 수 있습니다. 업로드(Upload) 대화상자에서 ICC 색상 프로파일 옵션을 조정하고 덮어쓰기 기능을 사용하여 다시 업로드할 수도 있습니다.
 
 프로덕션 서버의 이미지에 액세스하는 데 사용되는 Adobe Dynamic Media Classic ID는 이미지 파일 이름에서 파생됩니다. 파일 이름에 대문자와 소문자를 사용하는 것은 기존 파일을 대체하는 경우와 이미지에 액세스하는 데 사용되는 Adobe Dynamic Media Classic ID를 대체하는 경우 모두에서 중요합니다. Adobe Dynamic Media Classic에 업로드하기 전에 대문자 및 소문자가 있는 파일 이름을 사용하는 것이 올바르므로 동일한 이미지에 대해 대/소문자만 다른 Adobe Dynamic Media Classic ID가 사용되지 않도록 해야 합니다.
 
@@ -245,7 +257,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
 
 * **[!UICONTROL 렌더링 의도]**: 색상 프로필의 기본 렌더링 의도를 재정의하려면 옵션을 선택합니다. 기본 ICC 프로파일 중 하나가 색상 변환의 대상 색상 공간인 경우 이 옵션을 사용합니다. 또는 이 프로필은 출력 장치(프린터 또는 모니터)를 특성화하며 지정된 렌더링 의도가 이 프로필에 유효합니다.
 
-* **[!UICONTROL 프로필 포함]**: Adobe® Photoshop®에서 이 이미지를 여는 경우 이 프로필이 사용되도록 하려면 이 옵션을 선택하십시오.
+* **[!UICONTROL 프로필 포함]**: ® Photoshop®에서 이 이미지를 여는 경우 이 프로필이 사용되도록 하려면 이 옵션을 선택하십시오.
 
 * **[!UICONTROL 인쇄 해상도]**: 이 이미지를 인쇄할 해상도를 선택합니다. 기본값은 72픽셀입니다.
 
@@ -496,7 +508,7 @@ Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experiencelea
 
 [Adobe 뷰어 참조 릴리스 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources)를 참조하세요.
 
-|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ 태블릿 |
+|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | ™ Smartphone | ™ 태블릿 |
 |--- |--- |--- |--- |--- |--- |--- |
 | 확대/축소 뷰어 |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
@@ -505,27 +517,27 @@ Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experiencelea
 | Universal_HTML5_Zoom_light | HTML5 | X | X | X | X | X |
 
 
-|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ 태블릿 |
+|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | ™ Smartphone | ™ 태블릿 |
 |--- |--- |--- |--- |--- |--- |--- |
 | 이미지 집합 뷰어 |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_ImageSet_light | HTML5 | X | X | X | X | X |
 
-|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ 태블릿 |
+|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | ™ Smartphone | ™ 태블릿 |
 |--- |--- |--- |--- |--- |--- |--- |
 | 견본 집합 뷰어 |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_dark | HTML5 | X | X | X | X | X |
 | Universal_HTML5_SwatchSet_light | HTML5 | X | X | X | X | X |
 
-|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ 태블릿 |
+|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | ™ Smartphone | ™ 태블릿 |
 |--- |--- |--- |--- |--- |--- |--- |
 | eCatalog 뷰어 |  |  |  |  |  |  |
 | Universal_HTML5_eCatalog_Adv(소셜 미디어 및 카탈로그 검색에 대한 지원이 포함됩니다.) | HTML5 | X | X | X | X | X |
 | Universal_HTML5_eCatalog(소셜 미디어 및 카탈로그 검색 지원 포함) | HTML5 | X | X | X | X | X |
 
-|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ 태블릿 |
+|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | ™ Smartphone | ™ 태블릿 |
 |--- |--- |--- |--- |--- |--- |--- |
 | 회전 뷰어 |  |  |  |  |  |  |
 | Universal_HTML5_SpinSet_dark | HTML5 | X | X | X | X | X |
@@ -538,12 +550,12 @@ Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생
 * 다음 위치에서 이 비디오 형식을 지원하는 BlackBerry® 장치를 찾을 수 있습니다. [BlackBerry에서 지원되는 비디오 형식®](https://developers.blackberry.com/us/en)
 * 또한 이 비디오 형식을 지원하는 Windows® 장치는 [Windows® Phone에서 지원되는 비디오 형식](https://learn.microsoft.com/en-us/windows/uwp/audio-video-camera/supported-codecs)에 있습니다.
 
-|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ 태블릿 | BlackBerry® 스마트폰 | Windows® Phone |
+|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | ™ Smartphone | ™ 태블릿 | BlackBerry® 스마트폰 | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
 | Universal_HTML5_Video(자막 지원 포함) [모범 사례: 범용 HTML5 비디오 뷰어 사용](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer)을 참조하세요. | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social(자막 및 소셜 미디어에 대한 지원이 포함됩니다.) | HTML5 | X | X | X | X | X | X | X |
 
-|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ 태블릿 |
+|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | ™ Smartphone | ™ 태블릿 |
 |--- |--- |--- |--- |--- |--- |--- |
 | 혼합 미디어 집합 뷰어 |  |  |  |  |  |  |
 | Universal_HTML5_MixedMedia_dark | HTML5 | X | X | X | X | X |
@@ -553,7 +565,7 @@ Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생
 
 다음 표에서는 iOS, Android™ 2.x 및 Android™ 3.x 장치에서 지원되는 모바일 뷰어 제스처를 식별합니다.
 
-|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | Android™ Smartphone | Android™ 태블릿 |
+|  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | ™ Smartphone | ™ 태블릿 |
 |--- |--- |--- |--- |--- |--- |--- |
 | 이미지 집합 뷰어 |  |  |  |  |  |  |
 | Universal_HTML5_Flyout | HTML5 | X | X | X | X | X |
@@ -938,7 +950,7 @@ Adobe Dynamic Media Classic은 일괄처리 집합 사전 설정을 사용하여
 
 **일괄처리 집합 사전 설정을 만들려면:**
 
-1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]**&#x200B;으로 이동합니다. **[!UICONTROL 세부 정보 페이지의 오른쪽 상단 모서리에 설정된 보기 양식]**&#x200B;이(가) 기본 보기입니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]**(으)로 이동합니다. [세부 사항] 페이지의 오른쪽 상단에서 설정되는 **[!UICONTROL 보기 양식]**&#x200B;은 기본 보기입니다.
 1. [사전 설정 목록] 패널에서 **[!UICONTROL 추가]**&#x200B;를 선택하여 페이지 오른쪽의 [세부 정보] 패널에 있는 정의 필드를 활성화합니다.
 1. [세부 사항] 패널의 사전 설정 이름 필드에서 사전 설정 이름을 입력합니다.
 1. [일괄처리 집합 유형] 드롭다운 메뉴에서, 사전 설정 유형을 선택합니다.
@@ -987,7 +999,7 @@ spin-03-12
 
 **2D 회전 집합의 자동 생성을 위한 일괄처리 집합 사전 설정을 만들려면:**
 
-1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]**&#x200B;으로 이동합니다. **[!UICONTROL 세부 정보 페이지의 오른쪽 상단 모서리에 설정된 보기 양식]**&#x200B;이(가) 기본 보기입니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]** > **[!UICONTROL 일괄처리 집합 사전 설정]**(으)로 이동합니다. [세부 사항] 페이지의 오른쪽 상단에서 설정되는 **[!UICONTROL 보기 양식]**&#x200B;은 기본 보기입니다.
 1. [사전 설정 목록] 패널에서 **[!UICONTROL 추가]**&#x200B;를 선택하여 페이지 오른쪽의 [세부 정보] 패널에 있는 정의 필드를 활성화합니다.
 1. [세부 사항] 패널의 사전 설정 이름 필드에서 사전 설정 이름을 입력합니다.
 1. [일괄처리 집합 유형] 드롭다운 메뉴에서, **[!UICONTROL 자산 집합]**&#x200B;을 선택합니다.

@@ -10,16 +10,25 @@ role: User
 exl-id: a105c18a-7e06-43cb-938c-a3bcdc3e9d22
 topic: Content Management
 level: Experienced
-source-git-commit: 9102019811713b953e016fc7c47dc9f7a0dfbcd9
+autotag-review: '2026-05-13T19:58:21.817Z'
+TQID: 'https://experienceleague.adobe.com/pwmEOjYzNJNV-yxeBfOz3xQBT3rJ9u9imU6cdNgQLDA'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '245'
+source-wordcount: 245
 ht-degree: 32%
 
 ---
 
 # 템플릿 파일 업로드{#uploading-template-files}
 
-템플릿 빌드를 시작하기 전에 템플릿에 필요한 파일을 Adobe Dynamic Media Classic에 업로드합니다. Adobe® Photoshop® PSD 또는 이미지 파일에서 템플릿을 작성할 수 있습니다. 투명도를 허용하기 때문에 TIFF 및 PNG 이미지가 권장됩니다.
+템플릿 빌드를 시작하기 전에 템플릿에 필요한 파일을 Adobe Dynamic Media Classic에 업로드합니다. ® Photoshop® PSD 또는 이미지 파일에서 템플릿을 작성할 수 있습니다. 투명도를 허용하기 때문에 TIFF 및 PNG 이미지가 권장됩니다.
 
 >[!NOTE]
 >

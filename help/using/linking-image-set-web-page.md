@@ -10,10 +10,18 @@ role: User
 exl-id: df4e5218-2a66-413c-b247-b2a16d884041
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:02:41.296Z'
+TQID: 'https://experienceleague.adobe.com/d1hGtQAgf1wwjIAbeRJ-kQW4kfglXNu5VSIGxRTgxnc'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 16%
+source-wordcount: 703
+ht-degree: 18%
 
 ---
 
@@ -46,7 +54,7 @@ ht-degree: 16%
 
 ## 웹 페이지에 이미지 세트 URL 추가 {#adding-image-set-urls-to-your-web-page}
 
-이미지 세트를 배포하는 가장 일반적인 방법은 웹 페이지에 링크(탐색 아이콘 사용)를 배치하는 것입니다. 선택하면 링크가 팝업 확대/축소 창에 이미지 세트를 표시하는 JSP(동적 페이지)를 시작합니다. 확대/축소 링크를 클릭하면 실제 확대/축소 기능이 포함된 팝업 창이 열립니다.
+이미지 세트를 배포하는 가장 일반적인 방법은 웹 페이지에 링크(탐색 아이콘 사용)를 배치하는 것입니다. 선택하면 링크가 팝업 확대/축소 창에 이미지 세트를 표시하는 JSP(동적 페이지)를 시작합니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
 
 자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서에서 [포함된 HTML5 확대/축소 뷰어](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)를 참조하십시오.
 

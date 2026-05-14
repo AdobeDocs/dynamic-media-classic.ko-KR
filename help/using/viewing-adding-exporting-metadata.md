@@ -10,10 +10,20 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:17:59.510Z'
+TQID: 'https://experienceleague.adobe.com/P3JP2z7CY-rBzqYn-jm77I-5j6Orxq-VqWVbj0LTWG4'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 34%
+source-wordcount: 2266
+ht-degree: 35%
 
 ---
 
@@ -81,7 +91,7 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 >[!NOTE]
 >
->메타데이터를 Adobe Dynamic Media Classic에 제대로 가져올 수 있도록 메타데이터 입력용 템플릿을 만들 수 있습니다. 템플릿을 만든 후 이 템플릿을 사용하여 메타데이터를 입력할 수 있습니다.
+>메타데이터를 Adobe Dynamic Media Classic에 제대로 가져올 수 있도록 메타데이터 입력용 템플릿을 만들 수 있습니다. 템플릿을 만든 후 메타데이터를 입력하는 데 사용할 수 있습니다.
 >[업로드할 메타데이터를 입력하는 데 사용할 템플릿 만들기](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)를 참조하십시오.
 
 표준화된 속성에 대한 자세한 내용은 [Adobe XMP 개발자 센터](https://www.adobe.com/devnet/xmp.html)에서 확인할 수 있습니다.
@@ -107,7 +117,7 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 키워드는 쉼표로 구분된 목록으로 가져올 수 있습니다. 개별 값에 쉼표가 나타나면 백슬래시(\)를 사용하여 쉼표를 이스케이프 처리합니다. 리터럴 백슬래시는 일반적인 이중 백슬래시(\\)입니다.
 
-예를 들어, `Hello\, World!,back\\slash,foo`에 대한 값 `dc:subject`이(가) 포함된 메타데이터 가져오기 파일은 에셋에 세 개의 XMP 키워드를 설정합니다. `Hello, World!,` `back\slash,` 및 `foo`.
+예를 들어, `dc:subject`에 대한 값 `Hello\, World!,back\\slash,foo`이(가) 포함된 메타데이터 가져오기 파일은 에셋에 세 개의 XMP 키워드를 설정합니다. `Hello, World!,` `back\slash,` 및 `foo`.
 
 ### XMP 및 메타데이터 스키마 메타데이터 XMP 파일 가져오기
 

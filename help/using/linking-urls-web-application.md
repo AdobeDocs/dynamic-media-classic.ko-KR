@@ -10,10 +10,20 @@ role: User
 exl-id: ca629427-da33-4bab-9d08-6d9368042f7e
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:03:48.579Z'
+TQID: 'https://experienceleague.adobe.com/c8e722KVmasJVtoVl8k7-5vGjvs4Lm-GZavm-TF9fk0'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 26%
+source-wordcount: 844
+ht-degree: 24%
 
 ---
 
@@ -56,7 +66,7 @@ ht-degree: 26%
 
 Dynamic Media 이미지 서버에 대한 이미지 크기 조정을 위한 URL 호출의 기본 구문은 다음과 같습니다.
 
-*path*/*name of Image Server*/*account name*/*image name*?*modifier1*&amp;*modifier2*&amp;...
+*경로*/*이미지 서버 이름*/*계정 이름*/*이미지 이름*?*수정자1*&amp;*수정자2*&amp;...
 
 Dynamic Media 이미지 서버 URL에서 이미지를 표시하기 위한 서버에 대한 명령이 물음표(?) 뒤에 나타납니다. 예를 들어 이 URL 호출은 250픽셀 너비로 &quot;backpack&quot;이라는 이미지를 전달합니다.
 

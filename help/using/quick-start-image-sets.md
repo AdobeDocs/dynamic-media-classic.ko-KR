@@ -10,9 +10,17 @@ role: User
 exl-id: 280e7201-84d6-46b1-94bb-0499beca2992
 topic: Content Management
 level: Beginner
-source-git-commit: 8dc990a1fb1355b00fa4839e14b92bb6562d40b4
+autotag-review: '2026-05-13T20:09:40.553Z'
+TQID: 'https://experienceleague.adobe.com/s3cXJgoACODCKQ8oMlykXjLAVmx6yWw9F2EC-3EbR0k'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: 719
 ht-degree: 11%
 
 ---
@@ -38,7 +46,7 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 다음 이미지 세트 빠른 시작은 Adobe Dynamic Media Classic의 이미지 세트 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
 
-## &#x200B;1. 여러 보기 및 견본에 대한 기본 이미지 업로드
+## &#x200B;1. 여러 보기 및 견본에 대한 1차 이미지 업로드
 
 먼저 이미지 집합에 사용할 이미지를 업로드합니다. 사용자는 이미지 세트 뷰어에서 이미지를 확대할 수 있으므로 이미지를 선택할 때 이 기능을 고려해야 합니다. 이미지의 크기가 2000픽셀 이상인지 확인하십시오. Adobe Dynamic Media Classic은 다양한 이미지 파일 형식을 지원하지만 손실 없는 TIFF, PNG 및 EPS 이미지가 권장됩니다.
 
@@ -70,7 +78,7 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 [에셋 미리 보기](previewing-asset.md#previewing-an-asset)를 참조하십시오.
 
-## &#x200B;5. 이미지 집합 게시
+## &#x200B;5. 이미지 세트 게시
 
 이미지 집합을 게시하면 Adobe Dynamic Media Classic 서버에 표시되고 URL 문자열이 활성화됩니다.
 

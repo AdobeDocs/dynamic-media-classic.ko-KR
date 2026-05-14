@@ -10,9 +10,17 @@ role: User
 exl-id: a9250841-2dba-4fdc-8a6e-91b2fecef72f
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:37:15.687Z'
+TQID: 'https://experienceleague.adobe.com/7o-hO9obr6JB8sIHWQ3KTC6dRzxIBYqlOJOAbanTig0'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: 624
 ht-degree: 22%
 
 ---
@@ -25,7 +33,7 @@ ht-degree: 22%
 >
 >비디오 플레이어는 챕터 마커 사용을 지원해야 합니다.
 
-[&#x200B; 뷰어(HTML5)에 대한 챕터 탐색 큐 포인트 및 챕터 제목 팝업 텍스트를 구성하려면 &#x200B;](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)비디오 뷰어 사전 설정 추가 또는 편집`Universal_HTML5_Video`을 참조하십시오.
+`Universal_HTML5_Video` 뷰어(HTML5)에 대한 챕터 탐색 큐 포인트 및 챕터 제목 팝업 텍스트를 구성하려면 [비디오 뷰어 사전 설정 추가 또는 편집](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)을 참조하십시오.
 
 [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets)도 참조하세요.
 

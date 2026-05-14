@@ -6,9 +6,24 @@ role: Admin,User
 exl-id: 5e322d81-1303-494b-b5dd-df29b5c5d8e2
 topic: Administration, Migration
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:16:25.016Z'
+TQID: 'https://experienceleague.adobe.com/CvChy3DWZdh9S-6Ps3s4BidW0jESBzMQfQmf6zk-4U0'
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: da3860b0-d637-47df-bef0-273751180266
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: 598
 ht-degree: 0%
 
 ---
@@ -17,7 +32,7 @@ ht-degree: 0%
 
 Adobe에서 [!DNL Dynamic Media]을(를) 만들었습니다.
 
-[!DNL Dynamic Media]의 새 [!DNL Adobe Experience Manager]은(는) [!DNL Dynamic Media Classic]에서 기대하는 기능을 기반으로 합니다(이전 Scene7). 더욱 새롭고 향상된 도구를 통해 보다 나은 매력적인 경험을 구축할 수 있습니다.
+[!DNL Adobe Experience Manager]의 새 [!DNL Dynamic Media]은(는) [!DNL Dynamic Media Classic]에서 기대하는 기능을 기반으로 합니다(이전 Scene7). 더욱 새롭고 향상된 도구를 통해 보다 나은 매력적인 경험을 구축할 수 있습니다.
 
 [!DNL Dynamic Media]은(는) 실시간 비주얼 빌더를 사용하여 콘텐츠 빌드 환경을 업그레이드합니다. Adobe의 시도되고, 신뢰할 수 있으며, 확장 가능한 전달 네트워크 위에 위치하며 직관적인 [!DNL Adobe Experience Manager] 사용자 인터페이스와 짝을 이루는 [!DNL Dynamic Media]은(는) 흥미로운 다음 수준 경험을 작성, 반복 및 제공할 수 있는 기능을 제공합니다.
 
@@ -42,13 +57,13 @@ Adobe에서 [!DNL Dynamic Media]을(를) 만들었습니다.
 * WYSIWYG (What You See Is What You Get) 의 전체적인 모양과 느낌, 이미지 뷰어 및 비디오 플레이어를 위한 행동 편집기에 관한 것입니다.
 * 이미지 핫스팟 및 구매 가능한 비디오를 비롯한 구매 가능한/대화형 미디어 경험 생성 및 배포 시간 단축
 
-### [!DNL Dynamic Media] Assets 내의 [!DNL Experience Manager] 기능
+### [!DNL Experience Manager] Assets 내의 [!DNL Dynamic Media] 기능
 
 | 기능 | 설명 |
 | --- | --- |
-| 컨텐츠 생성 및 전달 가속화 | · Collaboration 및 공유 파일을 [!DNL Adobe Creative Cloud] 응용 프로그램과 동기화합니다.<br>· 하나의 애플리케이션, 하나의 인터페이스, 하나의 네트워크로 만들기, 공동 작업, 관리 및 제공 등 Dynamic Asset Management에 필요한 모든 기준을 충족합니다.<br>· 강력한 메타데이터 지원, 스마트 검색, Lightbox 및 컬렉션, 버전 제어 및 공급업체, 파트너 및 가맹점에서 사용할 수 있는 안전한 자산 공유를 통한 엔터프라이즈 수준 디지털 자산 관리<br>· WIP(Work-In-Process) 자산에 대한 검토 및 승인 워크플로 |
-| 간편한 대화형 경험 UI 요소 | · 비기술적, 실시간 빌더로 쉽게 경험을 만들 수 있습니다.<br>· 쇼퍼블/대화형 미디어, 캠페인 자산과 제품 정보를 결합합니다.<br>· 고객 만족도를 높이고 전환을 유도합니다. |
-| 전체 통합 워크플로 | · 전체 [!DNL Adobe Experience Cloud] 솔루션을 포함한 모든 접점에 최적화된 리치 미디어를 제공합니다.<br>· 마케팅 접점 전반에서 고급 에셋 분석, 타기팅 및 에셋 재사용을 위해 [!DNL Adobe Experience Cloud]과(와) 통합 일부 터치포인트에는 이메일의 경우 [!DNL Adobe Campaign], 소셜 채널의 경우 [!DNL Adobe Social], 반응형 웹 및 모바일 앱의 경우 [!DNL Adobe Experience Manager] 사이트가 포함됩니다. |
+| 컨텐츠 생성 및 전달 가속화 | · Collaboration 및 공유 파일을 [!DNL Adobe Creative Cloud] 애플리케이션과 동기화합니다.<br>· Dynamic Asset Management의 모든 필수 기준인 하나의 애플리케이션, 하나의 인터페이스, 하나의 네트워크로 만들고, 공동 작업하고, 관리하고, 전달합니다.<br>· 공급업체, 파트너 및 가맹점에서 사용할 수 있도록 강력한 메타데이터 지원, 스마트 검색, 라이트박스 및 컬렉션, 버전 제어 및 안전한 자산 공유를 통한 엔터프라이즈 수준 디지털 자산 관리<br>· WIP(Work-In-Process) 자산에 대한 검토 및 승인 워크플로. |
+| 간편한 대화형 경험 UI 요소 | · 비기술적 실시간 빌더로 쉽게 경험을 만들 수 있습니다.<br>· 구매 가능한/대화형 미디어, 캠페인 자산과 제품 정보를 결합합니다.<br>· 고객 만족도를 높이고 전환을 유도합니다. |
+| 전체 통합 워크플로 | · 전체 [!DNL Adobe Experience Cloud] 솔루션을 포함하여 모든 접점에 최적화된 리치 미디어를 제공합니다.<br>· [!DNL Adobe Experience Cloud]과(와) 통합하여 마케팅 접점에서 고급 에셋 분석, 타기팅 및 에셋 재사용을 지원합니다. 일부 터치포인트에는 이메일의 경우 [!DNL Adobe Campaign], 소셜 채널의 경우 [!DNL Adobe Social], 반응형 웹 및 모바일 앱의 경우 [!DNL Adobe Experience Manager] 사이트가 포함됩니다. |
 
 ## 왜 Adobe?
 
