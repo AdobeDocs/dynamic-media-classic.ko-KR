@@ -10,10 +10,15 @@ role: User
 exl-id: 26e3cd5b-f070-4b92-af36-25631723460e
 topic: Content Management
 level: Beginner
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:10:31.990Z'
+TQID: 'https://experienceleague.adobe.com/dYjjsyvPAPOS5icw4Yi6Kpo93Nh2qvnCiW5-ih2hmDk'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 18%
+source-wordcount: 856
+ht-degree: 16%
 
 ---
 
@@ -41,7 +46,7 @@ ht-degree: 18%
 
 ## &#x200B;1. 이미지 만들기 및 업로드
 
-최소한 1차원 회전 집합에는 항목의 8-12개 촬영이 필요하고 2차원 회전 집합에는 16-24개 촬영이 필요합니다. 항목을 회전하고 뒤집는 듯한 인상을 주려면 일정한 간격으로 촬영해야 합니다. 예를 들어 1차원 스핀 세트에 12개의 샷이 포함되어 있으면 각 샷에 대해 항목을 30°(360/12)로 회전합니다.
+최소한 1차원 스핀 세트의 경우 8-12개의 샷이 필요하고 2차원 스핀 세트의 경우 16-24개의 샷이 필요합니다. 항목을 회전하고 뒤집는 듯한 인상을 주려면 일정한 간격으로 촬영해야 합니다. 예를 들어 1차원 스핀 세트에 12개의 샷이 포함되어 있으면 각 샷에 대해 항목을 30°(360/12)로 회전합니다.
 
 전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터 또는 네트워크의 회전 이미지를 Adobe Dynamic Media Classic에 업로드합니다.
 
@@ -59,7 +64,7 @@ ht-degree: 18%
 
 [회전 집합 편집](creating-spin-set.md#editing-a-spin-set)을 참조하세요.
 
-## &#x200B;4. 스핀 세트 뷰어 사전 설정 설정
+## &#x200B;4. 스핀 세트 뷰어 사전 설정 설정 설정
 
 관리자는 회전 집합 뷰어 사전 설정을 만들 수 있습니다. 이러한 사전 설정은 회전 집합 뷰어의 모양을 결정합니다. 새 회전 집합 뷰어 사전 설정을 설정하려면 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**(으)로 이동하십시오.
 
@@ -81,7 +86,7 @@ ht-degree: 18%
 
 [회전 집합 게시](publishing-spin-set.md#publishing-a-spin-set)를 참조하십시오.
 
-## &#x200B;7. 스핀 세트를 웹 페이지에 연결
+## &#x200B;7. 웹 페이지에 회전 집합 연결
 
 Adobe Dynamic Media Classic은 회전 집합에 대한 URL 콜아웃 문자열을 만들고 게시한 후 활성화합니다. 미리보기 페이지에서 이러한 URL을 복사할 수 있습니다.
 

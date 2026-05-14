@@ -10,10 +10,15 @@ role: User
 exl-id: 3df22d48-edb5-4927-aefb-104b53f81f1a
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T19:45:00.273Z'
+TQID: 'https://experienceleague.adobe.com/lVQWshcgF66zFJ9pTVdrMaGNowclV5u6nxzqOSetns0'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1703'
-ht-degree: 23%
+source-wordcount: 1735
+ht-degree: 22%
 
 ---
 
@@ -85,18 +90,18 @@ ht-degree: 23%
 1. 왼쪽의 에셋 라이브러리 패널에서 포함 코드를 복사할 비디오 또는 응용 비디오 세트가 포함된 에셋 폴더로 이동합니다.
 1. [자산 찾아보기] 패널 위의 도구 모음 오른쪽에서 다음 중 하나를 수행합니다.
 
-   * **[!UICONTROL 눈금 보기]** 또는 **[!UICONTROL 목록 보기]**&#x200B;를 선택하십시오. [자산 찾아보기] 패널에서 단일 자산의 비디오 썸네일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 HTTP 스트리밍 아래의 원하는 뷰어 오른쪽에 있는 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 **[!UICONTROL 뷰어와 연결된]**&#x200B;포함 코드`Universal_HTML5_Video`을(를) 선택하는 것입니다.
+   * **[!UICONTROL 눈금 보기]** 또는 **[!UICONTROL 목록 보기]**&#x200B;를 선택하십시오. [자산 찾아보기] 패널에서 단일 자산의 비디오 썸네일을 두 번 클릭하여 [세부 사항 보기]에서 엽니다. 오른쪽의 URL 및 포함 코드 패널에서 HTTP 스트리밍 아래의 원하는 뷰어 오른쪽에 있는 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 `Universal_HTML5_Video` 뷰어와 연결된 **[!UICONTROL 포함 코드]**&#x200B;을(를) 선택하는 것입니다.
    * **[!UICONTROL 눈금 보기]**&#x200B;를 선택합니다. [에셋 찾아보기] 패널에서 단일 에셋을 선택한 다음 비디오 썸네일 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**&#x200B;을 선택합니다.
 
-     뷰어 목록 페이지의 표에 있는 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 **[!UICONTROL 뷰어와 연결된]**&#x200B;포함 코드`Universal_HTML5_Video`을(를) 선택하는 것입니다.
+     뷰어 목록 페이지의 표에 있는 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 `Universal_HTML5_Video` 뷰어와 연결된 **[!UICONTROL 포함 코드]**&#x200B;을(를) 선택하는 것입니다.
 
    * **[!UICONTROL 목록 보기]**&#x200B;를 선택합니다. [에셋 찾아보기] 패널에서 단일 에셋을 선택한 다음 썸네일 이미지의 오른쪽에 있는 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**(으)로 이동합니다.
 
-     뷰어 목록 페이지의 표에 있는 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 **[!UICONTROL 뷰어와 연결된]**&#x200B;포함 코드`Universal_HTML5_Video`을(를) 선택하는 것입니다.
+     뷰어 목록 페이지의 표에 있는 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 `Universal_HTML5_Video` 뷰어와 연결된 **[!UICONTROL 포함 코드]**&#x200B;을(를) 선택하는 것입니다.
 
    * **[!UICONTROL 눈금 보기]**, **[!UICONTROL 목록 보기]** 또는 **[!UICONTROL 자세히 보기]**&#x200B;를 선택하십시오. 같은 도구 모음에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**(으)로 이동합니다.
 
-     뷰어 목록 페이지의 표에 있는 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 **[!UICONTROL 뷰어와 연결된]**&#x200B;포함 코드`Universal_HTML5_Video`을(를) 선택하는 것입니다.
+     뷰어 목록 페이지의 표에 있는 작업 열에서 **[!UICONTROL 포함 코드]**&#x200B;를 선택합니다. 가장 좋은 방법은 `Universal_HTML5_Video` 뷰어와 연결된 **[!UICONTROL 포함 코드]**&#x200B;을(를) 선택하는 것입니다.
 
 1. 포함 코드 대화 상자에서 **[!UICONTROL 클립보드에 복사]**&#x200B;를 선택합니다.
 
@@ -187,7 +192,7 @@ Adobe Dynamic Media Classic은 업로드 프로세스 중에 비디오 썸네일
 
 [비디오 뷰어 사전 설정 추가 또는 편집](previewing-videos-video-viewer.md#adding_or_editing_a_video_viewer_preset)을 참조하세요.
 
-[이미지 제공 가이드](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)를 참조하세요.
+[이미지 제공 가이드](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-is-home#image-serving-api)를 참조하세요.
 
 비디오 썸네일 URL에 수정자를 추가하여 비디오 썸네일을 수정할 수도 있습니다.
 

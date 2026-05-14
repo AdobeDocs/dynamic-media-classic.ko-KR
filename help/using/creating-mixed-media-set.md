@@ -9,10 +9,15 @@ role: User
 exl-id: 18669c65-a1c4-4012-8587-cd5095f4bd4e
 topic: Content Management
 level: Intermediate
-source-git-commit: ad7e20fdbe9028c6255865cce95d109f9e9eeab2
+autotag-review: '2026-05-13T17:42:05.016Z'
+TQID: 'https://experienceleague.adobe.com/SgUcHyeFzCORCwV-VtfqQHFp2JDRsPsYb47mo3Z1yK4'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 56%
+source-wordcount: 637
+ht-degree: 57%
 
 ---
 
@@ -64,7 +69,7 @@ ht-degree: 56%
 | 세트를 이미 게시했습니까? | 편집을 저장하기 전에 **[!UICONTROL 저장 후 게시]** 옵션을 선택했습니까? | 저장 후 세트 상태 | 저장 후 세트 구성원 상태 |
 | --- |--- |--- |--- |
 | 예 | 예 | 게시됨 | 게시됨 |
-| 예 | 아니요 | 게시됨 | 기존 집합 구성원은 게시된 상태를 유지합니다. 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
+| 예 | 아니요 | 게시됨 | 기존 세트 구성원은 게시된 상태를 유지합니다. 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
 | 아니요 | 예 | 게시됨 | 게시됨 |
 | 아니요 | 아니요 | 게시 취소됨 | 기존 세트 구성원과 편집 중에 새로 추가한 모든 세트 구성원은 게시된 상태나 게시 취소된 상태를 유지합니다. |
 

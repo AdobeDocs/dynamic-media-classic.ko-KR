@@ -10,10 +10,16 @@ role: Admin,User
 exl-id: 708f32f1-fdbb-4a32-a1b7-836c99b458be
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+autotag-review: '2026-05-13T20:13:54.376Z'
+TQID: 'https://experienceleague.adobe.com/n2Rq8sqOCakqs8Z3s3fGkJ7YDX0RALIvKR-ECSZ3Rqg'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 14%
+source-wordcount: 217
+ht-degree: 12%
 
 ---
 
@@ -24,15 +30,15 @@ ht-degree: 14%
 | 지원 | 가입 |
 | --- | --- |
 | 횟수 제한 | 제한 없음. |
-| Adobe 시스템 상태 확인 | [Adobe Dynamic Media Classic 시스템 상태](https://status.adobe.com/kr/products/1175). |
-| 답을 찾을 수 없습니까? | [지원에서 도움을 받으려면 티켓을 여세요](https://experienceleague.adobe.com/ko?support-solution=General#support). |
-| 커뮤니티 포럼 | [Experience Manager 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?profile.language=ko). |
-| SLA(SLA) | [지원 서비스/사용 약관](https://helpx.adobe.com/kr/support/programs/support-policies-terms-conditions.html). |
+| Adobe 시스템 상태 확인 | [Adobe Dynamic Media Classic 시스템 상태](https://status.adobe.com/products/1175). |
+| 답을 찾을 수 없습니까? | [지원에서 도움을 받으려면 티켓을 여세요](https://experienceleague.adobe.com/?support-solution=General#support). |
+| 커뮤니티 포럼 | [Experience Manager 커뮤니티 포럼](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community). |
+| SLA(SLA) | [지원 서비스/사용 약관](https://helpx.adobe.com/support/programs/support-policies-terms-conditions.html). |
 | 지원되는 사용자 | 조직당 최대 10명의 사용자를 지원 사용자로 지정할 수 있으며, 이 사용자는 고객 지원 센터에서 사례를 열 수 있습니다. |
 | 무료 라이브 웹 교육 및 지침 비디오 | 포함됨. |
-| 전화 지원 | <ul><li>미국 및 캐나다: 1-800-497-0335 </li><li>[다른 지역의 전화 번호](https://experienceleague.adobe.com/ko?support-tab=home#support). </li></ul> |
+| 전화 지원 | <ul><li>미국 및 캐나다: 1-800-497-0335 </li><li>[다른 지역의 전화 번호](https://experienceleague.adobe.com/?support-tab=home#support). </li></ul> |
 
-<!-- |Create a support case| [https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/kr/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
+<!-- |Create a support case| [https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html](https://helpx.adobe.com/enterprise/admin-guide.html/enterprise/using/support-for-experience-cloud.ug.html) | -->
 
 기술 지원에 문제를 보고할 경우 다음 정보를 포함하십시오.
 

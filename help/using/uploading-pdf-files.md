@@ -9,10 +9,15 @@ role: User
 exl-id: a787d6b5-48c8-4cf7-b136-60ba3d3eb2f2
 topic: Integrations, Development
 level: Experienced
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+autotag-review: '2026-05-13T20:17:17.647Z'
+TQID: 'https://experienceleague.adobe.com/SNoRYiCgjJK2TBx6X7HAzv3Xqet64-lm4oSOcat7DfM'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 30%
+source-wordcount: 858
+ht-degree: 29%
 
 ---
 
@@ -36,7 +41,7 @@ Adobe Dynamic Media Classic에 업로드하기 전에 PDF 파일을 준비합니
 * 페이지를 기준으로 파일 이름을 영숫자 순으로 지정합니다. 페이지를 정렬하면 파일이 업로드된 후 페이지를 올바른 순서대로 배치하기가 더 쉽습니다.
 * PDF 페이지에 자르기 표시, 등록 대상 또는 색상 막대가 포함되어 있는지 확인하려면 페이지를 검사합니다. 이러한 표시는 문서를 인쇄할 때 용지를 절단하는 위치를 결정하며, eCatalog를 웹에 배치하기 전에 제거해야 합니다. Adobe Dynamic Media Classic은 PDF 파일을 업로드할 때 자르기 표시 옵션을 제공합니다.
 * 뷰어에서 키워드로 eCatalog를 검색하도록 하려면 PDF 파일이 &quot;병합됨&quot;인지 확인하십시오. 균일화된 PDF 파일에서는 검색어를 추출할 수 없습니다. PDF이 병합되었는지 확인하려면 그 안의 텍스트를 선택해 보십시오. 텍스트를 선택할 수 없는 경우 PDF이 병합되고 뷰어가 eCatalog에서 키워드로 검색할 수 없습니다.
-* 원래 인쇄용이기 때문에 PDF 파일에는 대체로 CMYK 이미지가 포함되어 있습니다. 기본적으로 Adobe Dynamic Media Classic은 이러한 CMYK 이미지를 지능적으로 감지하고 내부 CMYK 색상 프로파일을 사용하여 변환할 수 있습니다. 그러나 사용자 지정 색상 프로필을 사용하여 CMYK 이미지를 전환하려는 경우 이 작업도 가능합니다. 
+* 원래 인쇄용이기 때문에 PDF 파일에는 대체로 CMYK 이미지가 포함되어 있습니다. 기본적으로 Adobe Dynamic Media Classic은 이러한 CMYK 이미지를 지능적으로 감지하고 내부 CMYK 색상 프로파일을 사용하여 변환할 수 있습니다. 그러나 사용자 지정 색상 프로필을 사용하여 CMYK 이미지를 전환하려는 경우 이 작업도 가능합니다.
 
   [ICC(International Color Consortium) 프로필](icc-profiles.md#icc_profiles)을 참조하십시오.
 
@@ -52,11 +57,11 @@ Adobe Dynamic Media Classic에 업로드하기 전에 PDF 파일을 준비합니
 
 * **검색어 추출(선택 사항)**: [업로드 작업 옵션] 대화 상자에서 **[!UICONTROL PDF 옵션]**&#x200B;을 선택합니다. 전자 카탈로그에서 키워드로 검색할 수 있도록 하려면 추출 드롭다운 목록에서 **[!UICONTROL 단어 검색]**&#x200B;을 선택합니다.
 
-* **여러 페이지의 PDF에서 eCatalog 자동 생성(선택 사항)**: 업로드 작업 옵션 대화 상자에서 **[!UICONTROL PDF 옵션]**&#x200B;을 선택합니다. PDF **[!UICONTROL 여러 페이지에서 전자 카탈로그 자동 생성]**&#x200B;을 클릭하면 업로드할 때 전자 카탈로그를 자동으로 만들 수 있습니다. 먼저 PDF 파일을 선택하고 [작성] 명령을 선택하지 않고 eCatalog 화면으로 바로 이동한 다음 eCatalog에서 작업을 시작할 수 있습니다. eCatalog 이름은 PDF 파일을 따서 지정됩니다.
+* **여러 페이지의 PDF에서 eCatalog 자동 생성(선택 사항)**: 업로드 작업 옵션 대화 상자에서 **[!UICONTROL PDF 옵션]**&#x200B;을 선택합니다. **[!UICONTROL 여러 페이지에서 전자 카탈로그 자동 생성]**&#x200B;을 클릭하면 업로드할 때 전자 카탈로그를 자동으로 만들 수 있습니다. 먼저 PDF 파일을 선택하고 [작성] 명령을 선택하지 않고 eCatalog 화면으로 바로 이동한 다음 eCatalog에서 작업을 시작할 수 있습니다. eCatalog 이름은 PDF 파일을 따서 지정됩니다.
 
 * **해결 방법**: [업로드 작업 옵션] 대화 상자에서 **[!UICONTROL PDF 옵션]**&#x200B;을 선택합니다. **[!UICONTROL 해상도]** 텍스트 필드에 값을 입력하십시오. Adobe Dynamic Media Classic은 인치당 150픽셀을 권장합니다.
 
-* **Colorspace**: 업로드 작업 옵션 대화 상자에서 **[!UICONTROL PDF 옵션]**&#x200B;을 선택합니다. 색상 공간 드롭다운 목록에서 **[!UICONTROL 자동으로 검색]**&#x200B;을 선택합니다. 일반적으로 인쇄 출력용으로 만들어진 PDF는 CMYK를 사용하고 온라인 보기용 PDF는 RGB입니다. PDF에서 두 가지 색상 공간을 모두 사용하는 경우 [RGB로 강제 설정] 또는 [CMYK로 강제 설정]을 선택하여 특정 색상 공간을 선택할 수 있습니다. 예를 들어 페이지 그래픽은 CMYK 색상 공간을 사용하고 사진은 RGB를 사용하는 경우 PDF에서 두 가지 색상 공간을 모두 사용합니다. ICC 프로필을 업로드한 경우 해당 이름이 [색상 공간] 메뉴에 표시되며 여기서 프로필을 선택할 수 있습니다. 
+* **Colorspace**: 업로드 작업 옵션 대화 상자에서 **[!UICONTROL PDF 옵션]**&#x200B;을 선택합니다. 색상 공간 드롭다운 목록에서 **[!UICONTROL 자동으로 검색]**&#x200B;을 선택합니다. 일반적으로 인쇄 출력용으로 만들어진 PDF는 CMYK를 사용하고 온라인 보기용 PDF는 RGB입니다. PDF에서 두 가지 색상 공간을 모두 사용하는 경우 [RGB로 강제 설정] 또는 [CMYK로 강제 설정]을 선택하여 특정 색상 공간을 선택할 수 있습니다. 예를 들어 페이지 그래픽은 CMYK 색상 공간을 사용하고 사진은 RGB를 사용하는 경우 PDF에서 두 가지 색상 공간을 모두 사용합니다. ICC 프로필을 업로드한 경우 해당 이름이 [색상 공간] 메뉴에 표시되며 여기서 프로필을 선택할 수 있습니다.
 
   [ICC(International Color Consortium) 프로필](/help/using/icc-profiles.md)을 참조하십시오.
 

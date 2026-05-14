@@ -10,10 +10,16 @@ role: User
 exl-id: 3c50e706-b9ed-49db-8c08-f179de52b9cf
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T17:39:42.316Z'
+TQID: 'https://experienceleague.adobe.com/kw-spdqv6ArVEWk8ID4mnQjYrS25RZntKOJ7-tESasY'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 39%
+source-wordcount: 1637
+ht-degree: 36%
 
 ---
 
@@ -23,7 +29,7 @@ ht-degree: 39%
 
 Adobe Dynamic Media Classic에는 이미지 및 렌더링 결과를 조정하고 최적화하는 100개 이상의 이미지 제공 명령이 포함되어 있습니다. 다음 지침은 프로세스를 간소화하고 일부 필수 명령 및 우수 사례를 사용하여 좋은 결과를 빨리 얻는 데 도움이 될 수 있습니다.
 
-[스마트 이미징](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/imaging-faq)도 참조하세요.
+[스마트 이미징](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)도 참조하세요.
 
 >[!TIP]
 >
@@ -35,7 +41,7 @@ Adobe Dynamic Media Classic에는 이미지 및 렌더링 결과를 조정하고
 >* 네트워크 대역폭
 >* DPR(장치 픽셀 비율)
 >
->스냅숏을 사용하는 것이 얼마나 쉬운지 알아보려면 [스냅숏 교육 비디오](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot)를 재생하세요(3분 17초).
+>스냅숏을 사용하는 것이 얼마나 쉬운지 알아보려면 [스냅숏 교육 비디오](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot)를 재생하세요(3분 17초).
 
 
 ## 이미지 형식(&amp;fmt=) 우수 사례 {#best-practices-for-image-format-fmt}
@@ -78,7 +84,7 @@ Adobe Dynamic Media Classic을 사용하면 수집, 게재 또는 둘 다에 대
       * `amount`(0-5, 효과의 강도)
       * `radius`(0-250, 선명하게 표시된 개체 주위에 그려진 &quot;선명하게 하기 선&quot;의 너비(픽셀 단위)입니다.)
 
-        매개 변수 `radius`과(와) `amount`이(가) 서로 호환됩니다. `radius`을(를) 늘려 `amount`을(를) 줄이는 것을 보상할 수 있습니다. `Radius`은(는) 값이 낮을수록 가장자리 픽셀만 선명하게 하므로 더 세밀하게 제어할 수 있고 값이 높을수록 더 넓은 폭의 픽셀이 선명하게 됩니다.
+        매개 변수 `radius`과(와) `amount`이(가) 서로 호환됩니다. `amount`을(를) 늘려 `radius`을(를) 줄이는 것을 보상할 수 있습니다. `Radius`은(는) 값이 낮을수록 가장자리 픽셀만 선명하게 하므로 더 세밀하게 제어할 수 있고 값이 높을수록 더 넓은 폭의 픽셀이 선명하게 됩니다.
 
       * `threshold`(0-255, 효과 민감도)
 
@@ -129,7 +135,7 @@ JPG 압축에 대한 우수 사례로 `&qlt=85,0`을(를) 사용하십시오.
 
 이러한 설정의 조합은 대부분의 상황에서 탁월한 결과를 생성합니다.
 
-이미지에 추가적인 최적화가 필요한 경우, 반경을 0.2 또는 0.3으로 설정한 상태로 시작하여 선명하게 하기(언샵 마스킹) 매개 변수를 점진적으로 미세 조정한 다음, 양을 1.75에서 최대값 4(Photoshop에서 400%와 같음)까지 점진적으로 늘립니다. 원하는 결과가 나왔는지 확인하십시오.
+이미지를 추가로 최적화해야 하는 경우 반지름이 0.2 또는 0.3으로 설정된 것부터 시작하여 선명하게 하기(언샵 마스킹) 매개 변수를 점진적으로 미세 조정합니다. 그런 다음 양을 1.75에서 최대 4까지 점진적으로 늘립니다(Photoshop의 경우 400%에 해당). 원하는 결과가 나왔는지 확인하십시오.
 
 선명하기 하기 결과가 여전히 만족스럽지 않으면, 반경을 소수점 크기로 증가시킵니다. 모든 소수점 증분의 경우, 양을 1.75에서 다시 시작하여 4까지 점진적으로 증가시킵니다. 원하는 결과를 얻을 때까지 이 프로세스를 반복하십시오. 위의 값은 크리에이티브 스튜디오에서 확인한 접근 방법이며, 다른 값으로 시작하고 다른 전략을 수행할 수 있습니다. 결과가 만족스러운지 여부는 주관적인 문제이므로, 구조화된 실험이 핵심입니다.
 

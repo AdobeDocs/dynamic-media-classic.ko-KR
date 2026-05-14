@@ -10,10 +10,16 @@ role: User
 exl-id: 2be50cc7-9a8b-4f7b-8ebf-18a3208654f2
 topic: Content Management
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:17:59.510Z'
+TQID: 'https://experienceleague.adobe.com/P3JP2z7CY-rBzqYn-jm77I-5j6Orxq-VqWVbj0LTWG4'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 34%
+source-wordcount: 2266
+ht-degree: 35%
 
 ---
 
@@ -25,7 +31,7 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 일부 메타데이터는 파일에 직접 포함됩니다. 파일에 이 메타데이터가 포함되어 있으면 Adobe Dynamic Media Classic이 해당 파일을 자동으로 업로드합니다. Adobe Photoshop, InDesign, Illustrator 및 기타 애플리케이션의 소스 자산에 메타데이터를 포함할 수 있습니다. Adobe Dynamic Media Classic은 이 메타데이터를 인식합니다. 세부 사항 보기의 [메타데이터] 패널에서 개별 파일에 메타데이터를 추가할 수도 있습니다. 자산 간에 일관성을 유지하기 위해 회사 관리자는 입력할 수 있는 메타데이터 필드를 제공하는 메타데이터 템플릿을 만듭니다.
 
-포함된 메타데이터에 대한 자세한 내용은 [확장 가능한 메타데이터 플랫폼](https://www.adobe.com/kr/products/xmp.html)을 참조하십시오.
+포함된 메타데이터에 대한 자세한 내용은 [확장 가능한 메타데이터 플랫폼](https://www.adobe.com/products/xmp.html)을 참조하십시오.
 
 ## 메타데이터 보기 {#view-metadata}
 
@@ -72,7 +78,7 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic에 업로드할 때 파일에 키워드를 추가할 수 있습니다. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 추가 메타데이터]**&#x200B;를 선택하고 키워드를 입력합니다.
+>Adobe Dynamic Media Classic에 업로드할 때 파일에 키워드를 추가할 수 있습니다. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 추가 메타데이터]**를 선택하고 키워드를 입력합니다.
 >[업로드 선택 사항](uploading-files.md#upload_options)을 참조하십시오.
 
 ## 메타데이터 가져오기 {#import-metadata}
@@ -81,7 +87,7 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 >[!NOTE]
 >
->메타데이터를 Adobe Dynamic Media Classic에 제대로 가져올 수 있도록 메타데이터 입력용 템플릿을 만들 수 있습니다. 템플릿을 만든 후 이 템플릿을 사용하여 메타데이터를 입력할 수 있습니다.
+>메타데이터를 Adobe Dynamic Media Classic에 제대로 가져올 수 있도록 메타데이터 입력용 템플릿을 만들 수 있습니다. 템플릿을 만든 후 메타데이터를 입력하는 데 사용할 수 있습니다.
 >[업로드할 메타데이터를 입력하는 데 사용할 템플릿 만들기](viewing-adding-exporting-metadata.md#create_a_template_for_entering_metadata_to_upload)를 참조하십시오.
 
 표준화된 속성에 대한 자세한 내용은 [Adobe XMP 개발자 센터](https://www.adobe.com/devnet/xmp.html)에서 확인할 수 있습니다.
@@ -107,7 +113,7 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 키워드는 쉼표로 구분된 목록으로 가져올 수 있습니다. 개별 값에 쉼표가 나타나면 백슬래시(\)를 사용하여 쉼표를 이스케이프 처리합니다. 리터럴 백슬래시는 일반적인 이중 백슬래시(\\)입니다.
 
-예를 들어, `Hello\, World!,back\\slash,foo`에 대한 값 `dc:subject`이(가) 포함된 메타데이터 가져오기 파일은 에셋에 세 개의 XMP 키워드를 설정합니다. `Hello, World!,` `back\slash,` 및 `foo`.
+예를 들어, `dc:subject`에 대한 값 `Hello\, World!,back\\slash,foo`이(가) 포함된 메타데이터 가져오기 파일은 에셋에 세 개의 XMP 키워드를 설정합니다. `Hello, World!,` `back\slash,` 및 `foo`.
 
 ### XMP 및 메타데이터 스키마 메타데이터 XMP 파일 가져오기
 
@@ -127,7 +133,7 @@ XML 가져오기는 유효한 XML만 허용합니다. XMP 또는 메타데이터
 
 ## 메타데이터 가져오기(FTP 사용) {#import-metadata-via-ftp}
 
-여러 파일에 대한 메타데이터를 가져올 수 있습니다. 탭으로 구분된 파일 또는 XML 파일에 메타데이터를 입력합니다. 그런 다음 [업로드 작업 옵션] (FTP 탭을 통해) 페이지에서 **[!UICONTROL 메타데이터 파일 처리]**&#x200B;를 선택합니다.
+여러 파일에 대한 메타데이터를 가져올 수 있습니다. 탭으로 구분된 파일 또는 XML 파일에 메타데이터를 입력합니다. 그런 다음 [업로드 작업 옵션](FTP 탭을 통해) 페이지에서 **[!UICONTROL 메타데이터 파일 처리]**&#x200B;를 선택합니다.
 
 탭으로 구분된 파일이나 XML 파일의 데이터 형식이 올바른지 확인합니다. 첫 번째 행에 ID 필드를 입력하고 그 뒤에 수정할 메타데이터 필드의 이름을 입력합니다. 각 후속 행에 자산 ID 이름과 메타데이터 값을 순서대로 입력합니다. 탭으로 구분된 파일이나 XML 파일에 포함되지 않은 필드는 수정되지 않습니다.
 

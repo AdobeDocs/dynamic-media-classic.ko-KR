@@ -9,9 +9,15 @@ role: Admin,User
 exl-id: d61ea80a-a98e-43e6-9e2e-4389962134f1
 topic: Administration
 level: Intermediate
-source-git-commit: 550d44027a314dd473a428048f4274bc16b033cd
+autotag-review: '2026-05-13T20:06:03.775Z'
+TQID: 'https://experienceleague.adobe.com/drvyHmeIdmW-jUGd6-Ugc0C8CoveFURR4ozcr1cB-rc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: 1098
 ht-degree: 0%
 
 ---
@@ -94,12 +100,12 @@ Windows®에서 새 Adobe Dynamic Media Classic 데스크톱 앱을 사용하는
 +++**_리치 미디어 전략을 최적화하고 있는지 확인하고 싶습니다. Adobe Dynamic Media Classic에 대해 어떻게 더 많이 알 수 있습니까?_** 
 Adobe Dynamic Media Classic은 리치 미디어 전략을 향상시키도록 설계된 강력하고 다양한 기능을 갖춘 솔루션입니다. 모든 기능을 활용하려면 다음과 같은 실용적인 리소스를 살펴보십시오.
 
-* [Adobe Dynamic Media Classic 모범 사례 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobe Dynamic Media Classic 우수 사례 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [Adobe 블로그 게시물](https://blog.adobe.com/)<!-- (https://blog.adobe.com/tag/dynamic-media/) -->
-* [Adobe Dynamic Media 뉴스레터 아카이브](https://experienceleague.adobe.com/ko/docs/dynamic-media-classic/using/dynamic-media-newsletter)
+* [Adobe Dynamic Media 뉴스레터 아카이브](https://experienceleague.adobe.com/en/docs/dynamic-media-classic/using/dynamic-media-newsletter)
 +++
 
-<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html?lang=ko), and the complementary audit program. -->
+<!-- HIDDEN AUGUST 2, 2021 BECAUSE THE NEWSLETTER WAS DISCONTINUED Plus, [subscribe to the Dynamic Media newsletter](https://www.adobe.com/subscription/dynamic-media-newsletter.html) to stay current on the latest news, information, training opportunities, powerful features available to you such as [Smart Imaging](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/imaging-faq.html), and the complementary audit program. -->
 
 +++**_Adobe Experience Manager Assets을 사용하여 Adobe Dynamic Media로 업그레이드하는 방법에 대해 자세히 알아보고 싶습니다. 자세한 정보는 어디에서 찾을 수 있습니까?_**
 차세대 리치 미디어 작성, 게시 및 동적 전달로 업그레이드할 때의 이점에 대해 자세히 알아보려면 [Adobe Dynamic Media 포털에서 업그레이드하십시오](/help/using/upgrade.md).

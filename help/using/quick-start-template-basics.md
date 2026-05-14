@@ -10,10 +10,16 @@ role: User
 exl-id: bf695fee-821c-4396-829a-d57ccf475b0c
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T20:10:57.394Z'
+TQID: 'https://experienceleague.adobe.com/2DaWdJsCz9f5iXEkMi6N1L7s3eFdvpBc1ECrgbVAueo'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '808'
-ht-degree: 17%
+source-wordcount: 853
+ht-degree: 18%
 
 ---
 
@@ -41,7 +47,7 @@ PSD 파일을 사용하여 템플릿을 만드는 경우 PSD 파일을 업로드
 
 ## &#x200B;2. 템플릿 만들기
 
-PSD 파일에서 템플릿을 만들려면 파일을 업로드할 때 **[!UICONTROL 템플릿 만들기]**&#x200B;를 선택합니다. 이미지에서 템플릿을 만들려면 전역 탐색 모음에서 **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**(으)로 이동하여 캔버스의 너비와 높이 측정값을 입력하십시오. 페이지의 오른쪽 상단 모서리에서 **[!UICONTROL Designer]** 또는 **[!UICONTROL 개발자]**&#x200B;를 선택하고 이미지를 템플릿 페이지로 끕니다. *빌드* > **[!UICONTROL 템플릿 기본 사항]**(으)로 이동하여 **[!UICONTROL 이전]** 이미지를 선택할 수도 있습니다. 템플릿 페이지는 다음 작업을 위한 도구를 제공합니다.
+PSD 파일에서 템플릿을 만들려면 파일을 업로드할 때 **[!UICONTROL 템플릿 만들기]**&#x200B;를 선택합니다. 이미지에서 템플릿을 만들려면 전역 탐색 모음에서 **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**(으)로 이동하여 캔버스의 너비와 높이 측정값을 입력하십시오. 페이지의 오른쪽 상단 모서리에서 **[!UICONTROL Designer]** 또는 **[!UICONTROL 개발자]**&#x200B;를 선택하고 이미지를 템플릿 페이지로 끕니다. **[!UICONTROL 빌드]** > **[!UICONTROL 템플릿 기본 사항]**(으)로 이동하여 *이전* 이미지를 선택할 수도 있습니다. 템플릿 페이지는 다음 작업을 위한 도구를 제공합니다.
 
 * 이미지 레이어 추가 레이어를 추가하려면 이미지를 템플릿 페이지로 드래그합니다.
 * 텍스트 레이어 추가. **[!UICONTROL 텍스트 도구]** 아이콘을 선택합니다. 포인터를 끌어 텍스트 레이어의 상자를 만든 다음 텍스트 페이지의 도구를 사용하여 텍스트 서식을 지정합니다.

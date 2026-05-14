@@ -10,10 +10,16 @@ role: User
 exl-id: 2073d95b-1600-481f-8038-d29e8acacf7d
 topic: Administration, Content Management, Development
 level: Intermediate
-source-git-commit: c4613c78347c4bda3d84747a72146617158c03b6
+autotag-review: '2026-05-13T20:03:57.696Z'
+TQID: 'https://experienceleague.adobe.com/Urf0qGJqj7tCCGDfNwprZnxf6YfDgavWb44pThwds0I'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 21%
+source-wordcount: 698
+ht-degree: 20%
 
 ---
 
@@ -47,7 +53,7 @@ ht-degree: 21%
 
 일반적으로 방문자는 먼저 확대/축소 아이콘을 선택하여 웹 사이트에서 이미지를 확대/축소합니다(종종 아이콘에 확대경의 이미지가 표시됨). 이 아이콘을 선택하면 팝업 창에 이미지를 표시하는 동적 웹 페이지(ASP 또는 JSP)가 실행됩니다. 방문자는 실제로 이 팝업 창에서 이미지를 확대/축소합니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서에서 [포함된 HTML5 기본 확대/축소 뷰어](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)를 참조하십시오.
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서에서 [포함된 HTML5 기본 확대/축소 뷰어](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)를 참조하십시오.
 
 ## 확대/축소 뷰어의 포함된 복사본 복사 {#copying-the-embed-copy-of-a-zoom-viewer}
 

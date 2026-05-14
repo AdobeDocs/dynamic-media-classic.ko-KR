@@ -10,9 +10,14 @@ role: User
 exl-id: 410ba80c-7f01-4cd0-9ab3-db9658757ba7
 topic: Content Management
 level: Intermediate
-source-git-commit: 29752cf9eca0fc9bb760c721e1c3dc8e4ef912c3
+autotag-review: '2026-05-13T20:17:09.649Z'
+TQID: 'https://experienceleague.adobe.com/xi8ZvTLYacPSL7P2uqo142VpXY6SOOU7cZvA7tT0zOQ'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: 275
 ht-degree: 0%
 
 ---
@@ -27,7 +32,7 @@ Adobe Dynamic Media Classic에 이미지를 업로드하기 전에 이미지가 
 
 Adobe Dynamic Media Classic에 업로드하기 전에 1차 이미지 파일을 준비합니다.
 
-* **이미지 크기**: 사용할 것으로 예상되는 가장 큰 크기의 이미지를 만듭니다. 일반적인 이미지 크기는 1500픽셀에서 2500픽셀까지 가장 긴 크기입니다. Adobe Dynamic Media Classic [확대/축소] 기능을 사용하려는 경우 최적의 확대/축소 세부 정보를 위해 가장 긴 크기의 이미지가 2000픽셀 이상인 이미지를 사용하는 것이 좋습니다. Adobe Dynamic Media Classic은 이미지를 각각 최대 2500만 픽셀까지 렌더링할 수 있습니다. 예를 들어 5000 × 5000 MP 이미지나 다른 크기의 조합을 최대 25MP까지 사용할 수 있습니다.
+* **이미지 크기**: 사용할 것으로 예상되는 가장 큰 크기의 이미지를 만듭니다. 일반적인 이미지 크기는 1500픽셀에서 2500픽셀까지 가장 긴 크기입니다. [확대/축소] 기능을 사용하려는 경우 최적의 확대/축소 세부 정보를 위해 가장 긴 크기의 이미지가 2000픽셀 이상인 이미지를 사용하는 것이 좋습니다. Adobe Dynamic Media Classic은 이미지를 각각 최대 2500만 픽셀까지 렌더링할 수 있습니다. 예를 들어 5000 × 5000 MP 이미지나 다른 크기의 조합을 최대 25MP까지 사용할 수 있습니다.
 
 * **파일 형식**: Adobe Dynamic Media Classic은 모든 표준 이미지 파일 형식을 지원합니다. 이러한 형식에는 TIFF, BMP, JPEG, PSD, GIF 및 EPS이 포함됩니다. 무손실 이미지 형식-TIFF 및 PNG-가 권장됩니다. JPEG 이미지를 사용하는 경우 최고 품질 설정을 사용하십시오.
 

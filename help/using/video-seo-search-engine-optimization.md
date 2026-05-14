@@ -10,10 +10,16 @@ role: Admin
 exl-id: f76b0e09-f148-46aa-b710-ec35bfebcb37
 topic: Content Management
 level: Intermediate
-source-git-commit: 61665faba1e6bb711aae5becf0150d1ebe3105c0
+autotag-review: '2026-05-13T20:17:45.884Z'
+TQID: 'https://experienceleague.adobe.com/I9wTnanImSLtXv4Nff2uW92cNkMhoGf5hc8cXsPFNYc'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2296997-5d79-4905-b32e-99b5aa892429id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 27%
+source-wordcount: 1054
+ht-degree: 28%
 
 ---
 
@@ -81,7 +87,7 @@ Adobe Dynamic Media Classic은 사용자가 비디오 사이트 맵 및 mRSS 피
 
 생성 설정 영역에는 비디오 사이트 맵, mRSS 피드 또는 둘 다에 대한 입력 필드가 나열됩니다. [메타데이터] 패널에 메타데이터 필드의 이름이 나열됩니다. [일반 설정] 영역을 사용하여 입력 필드를 메타데이터 필드에 매핑합니다. 이렇게 하면 Adobe Dynamic Media Classic에 비디오 사이트 맵 및/또는 mRSS 피드에 대한 메타데이터를 가져올 위치를 알려 줍니다.
 
-1. [메타데이터 보기] 메뉴에서 메타데이터 보기를 선택합니다. 보기를 선택하면 메타데이터 필드의 이름이 [메타데이터] 패널에 표시됩니다.
+1. [메타데이터 보기] 메뉴에서 메타데이터 보기를 선택합니다. 보기를 선택하면 메타데이터 필드 이름이 [메타데이터] 패널에 표시됩니다.
 [메타데이터 보기](application-setup.md#metadata_views)를 참조하십시오.
 1. [메타데이터] 패널에서 [랜딩 페이지], [제목], [설명], [태그] 및 [범주] 입력 필드로 메타데이터 필드 이름을 드래그합니다. [랜딩 페이지], [제목] 및 [설명] 필드는 필수입니다.
 

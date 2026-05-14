@@ -10,9 +10,15 @@ role: User
 exl-id: deafbd03-06bc-4d7e-87a1-5620ebcac426
 topic: Content Management
 level: Intermediate
-source-git-commit: bc3b696bfde0ed55894cdcbf3533299ae7697e98
+autotag-review: '2026-05-13T17:41:35.428Z'
+TQID: 'https://experienceleague.adobe.com/zss-r9uFbwUnAU35hcpQsXKE1HgyBCrrK7JGiqV65Pg'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '2444'
+source-wordcount: 2454
 ht-degree: 30%
 
 ---
@@ -222,7 +228,7 @@ Adobe Acrobat 또는 Adobe InDesign에서 이미지 맵을 표시할 위치에 �
 ### Adobe Acrobat에서 이미지 맵 만들기 {#to-create-image-maps-in-adobe-acrobat}
 
 1. Adobe Acrobat에서 **[!UICONTROL 도구]** > **[!UICONTROL 고급 편집]** > **[!UICONTROL 도구 연결]**(으)로 이동합니다.
-1. 드래그하여 이미지 맵을 만듭니다.
+1. 마우스를 끌어 이미지 맵을 만듭니다.
 1. 링크 만들기 상자에서 **[!UICONTROL 사용자 지정 링크]**&#x200B;를 선택하고 **[!UICONTROL 다음]**&#x200B;을 선택합니다.
 
 >[!NOTE]

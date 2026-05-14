@@ -10,9 +10,14 @@ role: User
 exl-id: 186f4c7f-16f6-42f5-bc0e-55362c55e794
 topic: Content Management
 level: Intermediate
-source-git-commit: 5140b62c76970cfcee271664f11b1ff605625fe7
+autotag-review: '2026-05-13T19:50:28.929Z'
+TQID: 'https://experienceleague.adobe.com/g-A6M8KM6VT4m-JVyDp6KMMN82CtGTXcoUFVvQsoLps'
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: 430
 ht-degree: 23%
 
 ---
@@ -33,7 +38,7 @@ Adobe Dynamic Media Classic은 다음 글꼴 유형을 지원합니다.
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic 템플릿 레이어에서 글꼴을 사용하려면 모든 글꼴 스타일(굵게, 기울임체, 굵게/기울임체 및 보통)을 업로드하는 것이 좋습니다. Adobe Dynamic Media Classic은 요청을 처리하기 위해 이러한 글꼴 스타일이 필요합니다. 글꼴과 연결된 `PostScript/Adobe Type1`개의 파일을 모두 업로드하는 것도 좋습니다. 이러한 글꼴 중 일부에는 자세한 커닝 정보가 포함되어 있기 때문입니다.
+>템플릿 레이어에서 글꼴을 사용하려면 모든 글꼴 스타일(굵게, 기울임체, 굵게/기울임체 및 보통)을 업로드하는 것이 좋습니다. Adobe Dynamic Media Classic은 요청을 처리하기 위해 이러한 글꼴 스타일이 필요합니다. 글꼴과 연결된 `PostScript/Adobe Type1`개의 파일을 모두 업로드하는 것도 좋습니다. 이러한 글꼴 중 일부에는 자세한 커닝 정보가 포함되어 있기 때문입니다.
 
 ## 글꼴 파일 업로드 {#uploading-font-files}
 
