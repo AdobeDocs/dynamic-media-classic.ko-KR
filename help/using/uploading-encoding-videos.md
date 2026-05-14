@@ -11,10 +11,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:34.556Z'
 TQID: 'https://experienceleague.adobe.com/G7OuvXwsh-eBgUivFbhhsBXhzOh47Of9WwSkHdX-uBQ'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 4074
@@ -75,7 +79,7 @@ Adobe Dynamic Media Classic은 비디오 축소판도 생성합니다. 비디오
 1. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL EVideo 옵션]**&#x200B;을 확장한 후 다음 중 하나를 수행합니다.
 
    * 가장 좋은 방법은 **[!UICONTROL 응용 비디오 인코딩]**&#x200B;을 선택하는 것입니다. [적응형 비디오(기본값)](application-setup.md#adaptive-video-default)를 참조하십시오.
-   * 선택적. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
+   * 선택적. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
 [데스크톱 비디오 인코딩 사전 설정](application-setup.md#desktop-video-encoding-presets), [모바일 비디오 인코딩 사전 설정](application-setup.md#mobile-video-encoding-presets), [태블릿 비디오 인코딩 사전 설정](application-setup.md#tablet-video-encoding-presets)을 참조하십시오.
 1. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 1. 업로드 페이지에서 **[!UICONTROL 업로드 후 게시]**&#x200B;가 선택되어 있는지 확인하십시오.
@@ -86,9 +90,9 @@ Adobe Dynamic Media Classic은 비디오 축소판도 생성합니다. 비디오
 1. Adobe Dynamic Media Classic의 찾아보기 패널에서 비디오로 이동하여 선택합니다.
 1. **[!UICONTROL 파일]** > **[!UICONTROL 재처리]**(으)로 이동합니다.
 1. Assets 다시 처리 대화 상자에서 **[!UICONTROL EVideo 옵션]**&#x200B;을 확장한 후 다음 중 하나를 수행합니다.
-   * 다음 방법을 사용하는 것이 좋습니다. **적응형 비디오**를 선택합니다.
+   * 다음 방법을 사용하는 것이 좋습니다. **적응형 비디오**&#x200B;를 선택합니다.
 [적응형 비디오(기본값)](application-setup.md#adaptive-video-default)를 참조하십시오.
-   * 선택적. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
+   * 선택적. 개별 인코딩 설정을 사용하려면 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장한 다음 데스크톱, 모바일 및 태블릿에 사용할 인코딩 옵션을 선택하십시오.
 [데스크톱 비디오 인코딩 사전 설정](application-setup.md#desktop-video-encoding-presets), [모바일 비디오 인코딩 사전 설정](application-setup.md#mobile-video-encoding-presets), [태블릿 비디오 인코딩 사전 설정](application-setup.md#tablet-video-encoding-presets)을 참조하십시오.
 1. Assets 재처리 대화 상자에서 **[!UICONTROL 제출]**&#x200B;을 선택합니다.
 

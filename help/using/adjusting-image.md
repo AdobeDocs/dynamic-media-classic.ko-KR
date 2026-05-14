@@ -12,9 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:38:08.783Z'
 TQID: 'https://experienceleague.adobe.com/Gze3kMTnn5xWFZ4uUW-aNo5VASF2ncV7T1jvcsRadaQ'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 578
@@ -50,13 +53,13 @@ Adobe Dynamic Media Classic은 이미지 모양을 조정하기 위한 다양한
 
    * 이미지를 새 기본 이미지로 저장하려면 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택합니다.
 
-     드롭다운 목록에서 **[!UICONTROL 새 기본으로 저장]**을 선택합니다.
+     드롭다운 목록에서 **[!UICONTROL 새 기본으로 저장]**&#x200B;을 선택합니다.
 **[!UICONTROL 폴더 이름]** 목록 상자에서 새 기본 이미지를 저장할 폴더를 선택합니다.
 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
    * 이미지를 1차 이미지의 다른 보기로 저장합니다. 이 이미지의 별칭을 만들 수 있습니다. **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택합니다.
 
-     **[!UICONTROL 다른 이름으로 저장]** 대화 상자의 드롭다운 목록에서 **[!UICONTROL 다른 기본 보기로 저장]**을 선택합니다.
+     **[!UICONTROL 다른 이름으로 저장]** 대화 상자의 드롭다운 목록에서 **[!UICONTROL 다른 기본 보기로 저장]**&#x200B;을 선택합니다.
 **[!UICONTROL 폴더 이름]** 목록 상자에서 새 기본 이미지를 저장할 폴더를 선택합니다.
 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 

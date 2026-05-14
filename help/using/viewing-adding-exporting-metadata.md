@@ -12,10 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:17:59.510Z'
 TQID: 'https://experienceleague.adobe.com/P3JP2z7CY-rBzqYn-jm77I-5j6Orxq-VqWVbj0LTWG4'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 2266
@@ -78,7 +82,7 @@ Adobe Dynamic Media Classic에서 작업하는 파일과 관련된 정보를 저
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic에 업로드할 때 파일에 키워드를 추가할 수 있습니다. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 추가 메타데이터]**를 선택하고 키워드를 입력합니다.
+>Adobe Dynamic Media Classic에 업로드할 때 파일에 키워드를 추가할 수 있습니다. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 추가 메타데이터]**&#x200B;를 선택하고 키워드를 입력합니다.
 >[업로드 선택 사항](uploading-files.md#upload_options)을 참조하십시오.
 
 ## 메타데이터 가져오기 {#import-metadata}
@@ -133,7 +137,7 @@ XML 가져오기는 유효한 XML만 허용합니다. XMP 또는 메타데이터
 
 ## 메타데이터 가져오기(FTP 사용) {#import-metadata-via-ftp}
 
-여러 파일에 대한 메타데이터를 가져올 수 있습니다. 탭으로 구분된 파일 또는 XML 파일에 메타데이터를 입력합니다. 그런 다음 [업로드 작업 옵션](FTP 탭을 통해) 페이지에서 **[!UICONTROL 메타데이터 파일 처리]**&#x200B;를 선택합니다.
+여러 파일에 대한 메타데이터를 가져올 수 있습니다. 탭으로 구분된 파일 또는 XML 파일에 메타데이터를 입력합니다. 그런 다음 [업로드 작업 옵션] (FTP 탭을 통해) 페이지에서 **[!UICONTROL 메타데이터 파일 처리]**&#x200B;를 선택합니다.
 
 탭으로 구분된 파일이나 XML 파일의 데이터 형식이 올바른지 확인합니다. 첫 번째 행에 ID 필드를 입력하고 그 뒤에 수정할 메타데이터 필드의 이름을 입력합니다. 각 후속 행에 자산 ID 이름과 메타데이터 값을 순서대로 입력합니다. 탭으로 구분된 파일이나 XML 파일에 포함되지 않은 필드는 수정되지 않습니다.
 

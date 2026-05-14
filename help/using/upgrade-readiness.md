@@ -1,6 +1,6 @@
 ---
 title: 업그레이드 준비
-description: ' [!DNL Adobe Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Adobe Experience Manager](으)로 이동하려는 경우 업그레이드 준비 검사 목록.'
+description: ' [!DNL Adobe Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] (으)로 이동하려는 경우 업그레이드 준비 검사 목록.'
 feature: Dynamic Media Classic
 role: Admin,User
 exl-id: 86537998-b7e9-449c-83eb-6fd04533a00f
@@ -8,10 +8,16 @@ topic: Administration, Migration
 level: Intermediate
 autotag-review: '2026-05-13T20:16:07.073Z'
 TQID: 'https://experienceleague.adobe.com/3Kcp3UwvJV8Mkzk6RBRgOJQ7JKF3Ldek-SiOeqS5EKE'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
 workflow-type: tm+mt
 source-wordcount: 221

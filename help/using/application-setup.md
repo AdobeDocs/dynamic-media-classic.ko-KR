@@ -12,10 +12,16 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:38:37.961Z'
 TQID: 'https://experienceleague.adobe.com/GXWZmllFz1-pP-BuzH2WdjpgmvX5cOUipLywGUa8Z0U'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
 workflow-type: tm+mt
 source-wordcount: 11377
@@ -177,7 +183,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
    * **이미지 사전 설정 만들기**: **[!UICONTROL 추가]**&#x200B;를 선택합니다.
    * **기존 사전 설정에서 이미지 사전 설정을 만듭니다**: 만들려는 이미지 사전 설정과 가장 유사한 이미지 사전 설정을 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
-1. [사전 설정 추가](또는 [편집]) 페이지에서 사전 설정 이름을 입력합니다.
+1. [사전 설정 추가] (또는 [편집]) 페이지에서 사전 설정 이름을 입력합니다.
 1. 원하는 [사전 설정] 선택 사항을 설정합니다.
 
    [이미지 사전 설정 선택 사항](application-setup.md#image_preset_options)을 참조하십시오.
