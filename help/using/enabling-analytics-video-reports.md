@@ -40,7 +40,7 @@ Adobe Analytics 하트비트 기반 비디오 보고를 사용하여 Adobe Dynam
 
 * Adobe Analytics 비디오 보고서와 Adobe Dynamic Media Classic의 통합은 솔루션 변수를 지원하지만 사용자 지정 변수는 지원하지 않습니다.
 
-  솔루션 변수 및 사용자 지정 변수에 대한 자세한 내용은 [오디오 및 비디오 매개 변수](https://experienceleague.adobe.com/en/docs/media-analytics/using/implementation/variables/audio-video-parameters)를 참조하십시오.
+  솔루션 변수 및 사용자 지정 변수에 대한 자세한 내용은 [오디오 및 비디오 매개 변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters)를 참조하십시오.
 
 * 1분 단위의 기본 세그먼트가 지원됩니다. 그러나 시간 증분에 따른 고객 정의 이정표, % 이정표 또는 오프셋 이정표와 같은 사용자 정의 세그먼트 보고는 지원되지 않습니다.
 
