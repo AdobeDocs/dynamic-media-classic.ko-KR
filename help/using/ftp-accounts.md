@@ -21,9 +21,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: af16f8e2f2c8ea927c70e73cef774b09e8cbd346
 workflow-type: tm+mt
-source-wordcount: 239
+source-wordcount: 241
 ht-degree: 52%
 
 ---
@@ -48,7 +48,7 @@ Media Portal 관리자만 FTP 계정을 관리할 수 있습니다. 또한 *Medi
 
    미디어 자산을 업로드하려면 [기존 계정] 테이블에 나열된 FTP 계정 사용자 이름 및 계정에 지정된 암호가 필요합니다.
 
-   [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오.
+   [파일 업로드](uploading-files.md#uploading_files) 항목을 참조하십시오.
 
 ## 기존 FTP 계정 삭제 {#deleting-an-existing-ftp-account}
 
