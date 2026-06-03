@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 62695a6b15ea198fbf668af78e6e066a1b00c8ad
+source-git-commit: 788c18da7c6dc10ecdfbaec06710ded784559f82
 workflow-type: tm+mt
-source-wordcount: 3562
+source-wordcount: 3570
 ht-degree: 22%
 
 ---
@@ -163,7 +163,7 @@ Adobe Dynamic Media Classic에 콘텐츠를 저장하기 위해 선택하는 폴
 
 데스크탑에서 개별 파일을 업로드하거나 FTP를 사용하여 폴더를 업로드할 수 있습니다. 100MB가 넘는 파일을 업로드하거나 전체 폴더 및 하위 폴더를 업로드하려면 **FTP를 통해** 탭을 선택합니다.
 
-Adobe Dynamic Media Classic에서 업로드 작업이 시작 및 종료되는 시기를 확인하고 문제가 발생하면 알리는 이메일 메시지를 보냅니다.
+Adobe Dynamic Media Classic에서 업로드 작업이 시작 및 종료되는 시기를 확인하고 문제를 알리는 이메일 메시지를 보냅니다.
 
 대규모 업로드 작업 중(또는 직후) 일부 새 항목에 &quot;이미지가 아직 최적화되지 않음&quot; 메시지가 표시될 수 있습니다. 이 메시지는 파일이 아직 완전히 처리되지 않아 Adobe Dynamic Media Classic에 추가되지 않았기 때문에 표시됩니다. 이러한 파일은 나중에 최적화할 수 있습니다. [파일 최적화](application-setup.md#optimize_files)를 참조하세요.
 
