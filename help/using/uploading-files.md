@@ -21,9 +21,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e1fd972b1f1cb575295c8dbc79443693cacccdff
+source-git-commit: f6be3a8f58b37185e171449f5abdd755c3cee042
 workflow-type: tm+mt
-source-wordcount: 3571
+source-wordcount: 3681
 ht-degree: 22%
 
 ---
@@ -158,6 +158,18 @@ Adobe Dynamic Media Classic에 콘텐츠를 저장하기 위해 선택하는 폴
 **프로젝트 기반**: 폴더는 롤아웃/드롭 날짜 또는 프로젝트 이름에 따라 구성됩니다. 주로 eCatalog를 생성하는 클라이언트가 이 방법을 선호합니다.
 
 **웹 사이트 폴더 계층 구조 미러링**: 이 폴더 구조는 웹 사이트의 폴더 구조를 미러링합니다. 폴더 이름에는 제품 범주 등이 있습니다.
+
+### FTP 보안 {#about-ftp-security}
+
+Dynamic Media Classic은 FTP 액세스를 위해 다음 보안 정책을 적용합니다.
+
+| 보안 정책 | 설명 |
+| --- | --- |
+| 사용자 격리 | 각 FTP 사용자는 자신의 디렉터리로 제한되며 다른 사용자에게 속한 디렉터리에 액세스할 수 없습니다. |
+| 고유 계정 | 각 FTP 사용자 또는 통합에는 전용 FTP 계정이 필요합니다. 공유 계정은 허용되지 않습니다. [FTP 계정 관리](/help/using/ftp-accounts.md)를 참조하십시오. |
+| 구성 기준선 | FTP 서버 구성은 설정된 보안 기준을 따릅니다. |
+| 진행 중인 감사 | FTP 서버 응용 프로그램 및 기본 운영 체제는 보안 취약점에 대해 정기적으로 감사 및 모니터링되며 필요에 따라 업데이트됩니다. |
+| *신규* 고객을 위한 보안 FTP | 새 고객은 보안 FTP를 통해 프로비저닝됩니다. *기존* 고객은 레거시 FTP에 계속 액세스할 수 있습니다. |
 
 ## 파일 업로드 기본 정보 {#uploading-your-files}
 
