@@ -1,5 +1,5 @@
 ---
-title: Adobe Dynamic Media Classic에서 에셋 관리 기본 정보
+title: Adobe Dynamic Media Classic의 Assets 관리 정보
 description: Adobe Dynamic Media Classic의 에셋 관리에 대한 소개
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -11,25 +11,21 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:34:08.780Z'
 TQID: 'https://experienceleague.adobe.com/nOGzdOPvevf-WlBN7CKuehpCRTNsPlAuAZy40p-l8sA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 0113d50278f9a54db3602b060f978c314b335ff9
 workflow-type: tm+mt
-source-wordcount: 171
-ht-degree: 16%
+source-wordcount: 166
+ht-degree: 7%
 
 ---
 
 # Adobe Dynamic Media Classic에서 에셋 관리 기본 정보 {#about-managing-assets}
 
-Adobe Dynamic Media Classic은 에셋 관리를 위한 에셋 라이브러리를 제공합니다. 자산 라이브러리에는 자산 파일을 저장하는 폴더가 있습니다. 에셋 라이브러리에서 폴더를 선택하면 폴더 컨텐츠가 검색 패널에 표시됩니다. 찾아보기 패널에서 격자, 목록 또는 세부 사항 보기의 항목을 볼 수 있습니다. 단일 자산에 초점을 맞추려면 [찾아보기] 패널에서 해당 자산을 두 번 클릭하여 [세부 사항 보기]에 표시합니다.
+Adobe Dynamic Media Classic은 에셋 관리를 위한 에셋 라이브러리를 제공합니다. 자산 라이브러리에는 자산 파일을 저장하는 폴더가 있습니다. 에셋 라이브러리에서 폴더를 선택하면 폴더 컨텐츠가 검색 패널에 표시됩니다. 찾아보기 패널에서 그리드, 목록 또는 세부 사항 보기를 사용하여 항목을 볼 수 있습니다. 단일 자산에 초점을 맞추려면 [찾아보기] 패널에서 해당 자산을 두 번 클릭하여 [세부 사항 보기]에 표시합니다.
 
-찾아보기 패널에는 보기, 선택 및 찾기 도구가 있습니다. 패널에서는 에셋을 미리 보고, 이동하고, 이름을 바꾸고, 삭제할 수도 있습니다. 삭제한 자산은 휴지통 폴더에 배치되며, 이 폴더에서 자산을 복구할 수 있습니다.
+찾아보기 패널에는 보기, 선택 및 찾기 도구가 있습니다. 패널에서는 에셋 미리 보기, 이동, 이름 변경 및 삭제도 제공됩니다. 삭제한 Assets은 지운 편지함 폴더에 배치됩니다. 이 폴더에서 자산을 복구할 수 있습니다.
 
-에셋을 검사하거나 작업하려면 세부 사항 보기에서 엽니다. 세부 사항 보기에 메타데이터를 기록하여 에셋을 보다 쉽게 찾고 작업할 수 있습니다.
+에셋을 보거나 관리하려면 세부 사항 보기에서 엽니다. 에셋을 쉽게 찾고 작업할 수 있도록 세부 사항 보기의 메타데이터를 추가할 수 있습니다.
