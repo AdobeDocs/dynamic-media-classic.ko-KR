@@ -1,5 +1,5 @@
 ---
-title: 자산 업로드 및 게시 기본 정보
+title: Assets 업로드 및 게시
 description: Adobe Dynamic Media Classic에서 에셋을 업로드하고 게시하는 방법을 알아봅니다.
 contentOwner: rbrough
 products: SG_EXPERIENCEMANAGER/Dynamic-Media-Classic
@@ -11,25 +11,22 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:33:44.592Z'
 TQID: 'https://experienceleague.adobe.com/cBIWqoPxMe-Xw32Ywiqr82U2-wdJySjyM7BzDdGPA0w'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 9417586477c07ca389e075bc8f0d09e21bac7957
 workflow-type: tm+mt
-source-wordcount: 150
-ht-degree: 25%
+source-wordcount: 144
+ht-degree: 20%
 
 ---
 
-# 자산 업로드 및 게시 기본 정보 {#about-uploading-and-publishing-assets}
+# 자산 업로드 및 게시 {#about-uploading-and-publishing-assets}
 
-Adobe Dynamic Media Classic에서의 작업은 세 가지 기본 영역으로 분류됩니다.
+Adobe Dynamic Media Classic에는 다음 세 가지 기본 기능이 포함되어 있습니다.
 
 * Adobe Dynamic Media Classic에 파일 자산을 업로드하는 중입니다.
-* 파일을 사용하여 리치 미디어 자산을 작성할 수 있도록 파일 관리
+* 리치 미디어 자산을 만드는 데 사용할 수 있도록 파일을 관리합니다.
 * 웹 사이트 및 애플리케이션에 전달할 수 있도록 에셋 파일을 Dynamic Media Classic 서버에 게시합니다.
 
 에셋 파일을 Adobe Dynamic Media Classic에 업로드하고 에셋 파일을 Adobe Dynamic Media Classic 서버에 게시하면 시스템에서 이러한 파일 전송을 **[!UICONTROL 작업]** 페이지에 기록합니다. 이 페이지로 이동하여 업로드 및 게시 활동을 추적하고 모니터링할 수 있습니다.
