@@ -19,16 +19,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: d916bcffc88b88a6cefec53fb7775c7a1eb78910
 workflow-type: tm+mt
-source-wordcount: 730
-ht-degree: 15%
+source-wordcount: 716
+ht-degree: 7%
 
 ---
 
 # 비디오에 캡션 추가 {#add-captions-to-video}
 
-비디오 범위를 글로벌 시장으로 확장하십시오. 이렇게 하려면 단일 비디오 또는 응용 비디오 세트에 캡션을 추가할 수 있습니다. 캡션을 추가하면 여러 가지 각 언어로 오디오를 다시 녹음하기 위해 오디오를 더빙하거나 원어민이 투입될 필요가 없어집니다. 비디오는 녹음된 언어로 재생됩니다. 외국어 자막이 표시되기 때문에 다른 언어를 사용하는 사람들도 오디오를 이해할 수 있게 됩니다.
+비디오를 글로벌 시장에 제공할 수 있습니다. 이렇게 하려면 단일 비디오 또는 응용 비디오 세트에 캡션을 추가할 수 있습니다. 캡션 기능을 추가하면 오디오를 더빙하거나 기본 음성 아티스트를 사용하여 각 언어로 오디오를 녹음할 필요가 없습니다. 비디오는 원래 언어로 재생됩니다. 번역된 자막이 나타나므로 다른 언어를 사용하는 사람들도 오디오 부분을 이해할 수 있습니다.
 
 또한 캡션을 사용하면 귀가 들리지 않거나 난청인 사람들을 위한 청각 장애용 캡션을 통해 액세스 가능성이 더 커집니다.
 
@@ -46,9 +46,9 @@ ht-degree: 15%
 
 [뷰어 사전 설정 추가 및 편집](application-setup.md#adding_and_editing_viewer_presets)도 참조하세요.
 
-Adobe Dynamic Media Classic은 캡션 파일을 JSON(JavaScript 개체 표기법) 형식으로 변환할 수 있습니다. 이 전환은 JSON 텍스트를 웹 페이지에 숨겼지만 비디오의 전체 트랜스크립트로 포함할 수 있음을 의미합니다. 검색 엔진은 콘텐츠를 크롤링하고 색인화하여 비디오를 보다 쉽게 검색 가능하고 고객에게 비디오 콘텐츠에 대한 세부 정보를 제공할 수 있습니다.
+Adobe Dynamic Media Classic은 캡션 파일을 JSON(JavaScript 개체 표기법) 형식으로 변환할 수 있습니다. 이 전환을 사용하면 JSON 텍스트를 웹 페이지에 숨겼지만 비디오의 전체 트랜스크립트로 포함할 수 있습니다. 검색 엔진은 콘텐츠를 크롤링하고 색인화하여 비디오를 보다 쉽게 검색 가능하고 고객에게 비디오 콘텐츠에 대한 세부 정보를 제공할 수 있습니다.
 
-URL에서 JSON 함수를 사용하는 방법에 대한 자세한 내용은에서 [정적(이미지가 아닌) 콘텐츠 제공](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)을 참조하십시오.
+URL에서 JSON 함수를 사용하는 방법에 대한 자세한 내용은 [정적(이미지가 아닌) 콘텐츠 제공](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/c-serving-static-nonimage-contents#image-serving-api)을 참조하십시오.
 
 **비디오에 캡션을 추가하려면:**
 
@@ -66,15 +66,15 @@ URL에서 JSON 함수를 사용하는 방법에 대한 자세한 내용은에서
 1. [에셋 찾아보기] 패널에서 단일 비디오 에셋을 선택한 다음 에셋의 썸네일 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**&#x200B;을 선택합니다.
 1. 뷰어 목록 테이블에서 이름이 **Universal_HTML5_Video**, **Universal_HTML5_MixedMedia_dark** 또는 **Universal_HTML5_MixedMedia_light**&#x200B;인 HTML5 뷰어를 찾은 후 다음 중 하나를 수행합니다.
 
-   * 팝업 비디오 뷰어 환경을 사용하려면 이름의 오른쪽 끝에 있는 **[!UICONTROL URL 복사]**&#x200B;를 선택하십시오.
+   * 팝업 비디오 뷰어를 사용하려면 이름 오른쪽에 있는 **[!UICONTROL URL 복사]**&#x200B;를 선택하십시오.
 
-     복사한 비디오 URL을 캡션 파일에 복사한 URL과 연결할 수 있도록 다음 구문과 함께 추가합니다.
+     캡션 파일과 연결할 수 있도록 복사한 비디오 URL에 다음 구문을 추가합니다.
 
      `&caption=<full Copy URL path to the caption file .vtt>,1`
 
      캡션 URL 경로의 끝에 `,1`을(를) 메모하십시오. 경로에서 VTT 파일 이름 확장자 바로 다음에 나오는 `1` 또는 `0`(으)로 각각 설정하여 비디오 플레이어 표시줄의 자막 단추를 선택적으로 활성화하거나 비활성화할 수 있습니다.
 
-   * 포함된 비디오 뷰어 환경을 사용하려면 이름의 맨 오른쪽에 있는 **[!UICONTROL 포함 코드]**&#x200B;를 선택하십시오.
+   * 포함된 비디오 뷰어 환경을 보려면 이름 오른쪽에 있는 **[!UICONTROL 포함 코드]**&#x200B;를 선택하십시오.
 
      포함 코드 대화 상자에서 **[!UICONTROL 클립보드에 복사]**&#x200B;를 선택합니다.
 
