@@ -12,20 +12,14 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:37:47.692Z'
 TQID: 'https://experienceleague.adobe.com/77PJd-uwpdL58aZssu7Ko0fMDpa17heQ1dUUEXRhdDM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 9915c19c020d871f3241feaebbd309d639130855
 workflow-type: tm+mt
-source-wordcount: 1032
-ht-degree: 51%
+source-wordcount: 1031
+ht-degree: 49%
 
 ---
 
@@ -111,7 +105,7 @@ ht-degree: 51%
 
 ## 선택 가능한 Media Portal 사용자 목록 생성 {#generating-a-selectable-list-of-media-portal-users}
 
-Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 수 있습니다. 이 목록은 Media Portal 외부에서 사용하기 위해 사용자 이름과 주소를 잘라내어 붙여 넣으려는 경우에 유용합니다.
+Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 수 있습니다. 이 목록은 Media Portal 외부에서 사용하기 위해 사용자 이름과 주소를 복사하여 붙여넣으려는 경우에 유용합니다.
 
 1. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 관리 설정]** > **[!UICONTROL 사용자 관리]**&#x200B;로 이동합니다.
 1. **[!UICONTROL 사용자 역할별]** 드롭다운 목록에서 Media Portal 사용자 역할의 이름을 선택하고 **[!UICONTROL 새로 고침]**&#x200B;을 선택하여 Media Portal 사용자 클래스 이름을 표시합니다.
@@ -135,7 +129,7 @@ Media Portal 사용자의 이름과 이메일 주소를 팝업 창에 표시할 
 
 [사용자 관리 설정] 화면에서 시작하여 다음 작업을 수행할 수도 있습니다.
 
-* **[!UICONTROL 사용자 목록 필터링 및 정렬]**: Media Portal 사용자 목록을 필터링하여 사용자를 찾습니다.
+* **[!UICONTROL 사용자 목록 필터링 및 정렬]**: 사용자를 찾으려면 Media Portal 사용자 목록을 필터링하십시오.
 
 * **[!UICONTROL 사용자 삭제]**: 목록에서 사용자를 제거합니다.
 
