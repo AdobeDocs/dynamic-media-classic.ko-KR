@@ -1,5 +1,5 @@
 ---
-title: 자동화된 이미지 집합 생성
+title: 이미지 집합 자동 생성
 description: Adobe Dynamic Media Classic에서 이미지 세트 생성을 자동화하는 방법을 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:39:05.303Z'
 TQID: 'https://experienceleague.adobe.com/AmbwwELOq8Dvg7tYDQG-oT3NQ0OISOxxcoAkZhTPN-c'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: f118d8302d0201dbdd865c2eec62846c49478e13
 workflow-type: tm+mt
-source-wordcount: 102
-ht-degree: 61%
+source-wordcount: 104
+ht-degree: 21%
 
 ---
 
@@ -37,14 +34,14 @@ Last Modified Date:
 
  -->
 
-업로드에 종속되지 않은 독립적인 작업으로 집합 생성을 자동화할 수 있습니다.
+업로드에 의존하지 않는 독립적인 작업으로 집합 생성을 자동화할 수 있습니다.
 
 **이미지 집합 생성을 자동화하려면:**
 
 1. **[!UICONTROL 파일]** > **[!UICONTROL 집합 생성]**(으)로 이동합니다.
 1. [집합 생성] 대화 상자에서 작업 이름을 지정합니다.
 
-   기본적으로 작업에는 생성된 작업임을 나타내는 이름과 작업이 생성된 시기가 지정됩니다.
+   기본적으로 작업에는 생성된 작업임을 나타내는 이름과 작업이 생성된 시간이 지정됩니다.
 
 1. 적용하려는 사전 설정을 선택합니다.
 1. **[!UICONTROL 대상 폴더]**&#x200B;를 선택한 다음 사용할 폴더를 지정하십시오.
