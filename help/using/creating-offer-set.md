@@ -12,18 +12,12 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T17:42:42.464Z'
 TQID: 'https://experienceleague.adobe.com/vSBuzOB0sC5y6Kgl0ZadvJXsKRTiEMBzq0Tgu692AYY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-  - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bdid: ff6a42d2-313e-452e-93a6-792e4fad9ff8
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: e0b8668dab1b4f3f936d22642deb9a2519455703
 workflow-type: tm+mt
-source-wordcount: 1292
+source-wordcount: 1287
 ht-degree: 21%
 
 ---
@@ -46,11 +40,11 @@ Adobe Dynamic Media Classic은 오퍼 세트를 만들고 편집할 수 있는 �
 
 ## 오퍼 집합 유형 {#types-of-offer-sets}
 
-다음 유형의 오퍼 세트에서 오퍼 세트를 만듭니다.
+다음 유형의 오퍼 세트 중에서 오퍼 세트를 선택합니다.
 
 * **이미지**: 오퍼 집합에 대한 이미지를 조합할 수 있습니다. 각 이미지에는 세트에 다른 오퍼가 포함됩니다.
 
-* **이미지 템플릿**: **[!UICONTROL 빌드]** > 템플릿 기본 사항 명령을 사용하여 Adobe Dynamic Media Classic에서 이미지 템플릿을 매개 변수화할 수 있습니다. 매개 변수를 통해 템플릿의 구성 요소, 텍스트 프레임의 텍스트, 다른 이미지를 스왑하고 사용자 정의할 수 있습니다. 오퍼 세트의 경우, 예를 들어 템플릿 매개 변수를 사용하여 오퍼 세트의 동일한 이미지에 변형을 만들 수 있습니다. 이미지 템플릿을 만들고 매개 변수화하는 방법에 대한 자세한 내용은 [템플릿 매개 변수 만들기](creating-template-parameters.md#creating_template_parameters)를 참조하십시오.
+* **이미지 템플릿**: **[!UICONTROL 빌드]** > 템플릿 기본 사항 명령을 사용하여 Adobe Dynamic Media Classic에서 이미지 템플릿을 매개 변수화할 수 있습니다. 매개 변수를 통해 템플릿의 구성 요소, 텍스트 프레임의 텍스트 및 다른 이미지를 교체하고 사용자 지정할 수 있습니다. 오퍼 세트의 경우 템플릿 매개 변수를 사용하여 오퍼 세트의 동일한 이미지에 변형을 만들 수 있습니다. 이미지 템플릿을 만들고 매개 변수화하는 방법에 대한 자세한 내용은 [템플릿 매개 변수 만들기](creating-template-parameters.md#creating_template_parameters)를 참조하십시오.
 
 [템플릿 기본 사항](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/553_Template%20Basics_converted%20renamed_Dynamic%20Banners-AVS) 교육 비디오도 참조하세요.
 
@@ -72,14 +66,14 @@ Adobe Dynamic Media Classic은 오퍼 세트를 만들고 편집할 수 있는 �
 1. 템플릿 또는 배너를 선택합니다.
 1. **[!UICONTROL 빌드]** > **[!UICONTROL Test&amp;Target 오퍼 집합]**(으)로 이동합니다.
 
-   Test&amp;Target 오퍼 세트 페이지에 오퍼 세트의 오퍼가 나열됩니다. 목록에서 첫 번째 항목은 개체입니다.
+   Test&amp;Target 오퍼 세트 페이지에 오퍼 세트의 오퍼가 나열됩니다. 목록의 첫 번째 항목이 기본 자산입니다.
 
 1. 개체를 선택하고 **[!UICONTROL 추가 및 미리 보기]**&#x200B;를 선택합니다.
 
    이 페이지의 왼쪽에는 템플릿의 매개 변수와 해당 값이 나열됩니다.
 
-1. 매개 변수 값을 변경하여 오퍼를 만듭니다. 예를 들어 텍스트 필드에 다른 텍스트를 입력하거나, 레이어의 크기를 변경하거나, 한 이미지를 다른 이미지로 바꾸거나, 다른 뷰어 사전 설정을 선택할 수 있습니다.
-1. 오퍼를 오퍼 집합의 일부로 저장하려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 다른 이름으로 저장**]**&#x200B;을 선택하십시오.
+1. 매개 변수 값을 변경하여 오퍼를 만듭니다. 예를 들어 텍스트를 편집하거나, 레이어 크기를 조정하거나, 이미지를 교체하거나, 사전 설정을 선택할 수 있습니다.
+1. 오퍼를 오퍼 집합의 일부로 저장하려면 **[!UICONTROL 저장]** 또는 **[!UICONTROL 다른 이름으로 저장]**&#x200B;을 선택하십시오.
 
    Test&amp;Target 오퍼 집합 페이지에 만든 오퍼가 나열됩니다.
 
@@ -87,7 +81,7 @@ Adobe Dynamic Media Classic은 오퍼 세트를 만들고 편집할 수 있는 �
 1. 완료되면 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 저장 후 게시*]**&#x200B;이 선택되었는지 확인합니다(기본값).
 1. **[!UICONTROL 닫기]**&#x200B;를 선택하고 오퍼 집합의 이름을 입력한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-Test&amp;Target 오퍼 세트 페이지를 닫기 전에 오퍼 세트를 Adobe Target Standard/Premium으로 푸시합니다. [Test&amp;Target에 오퍼 집합 푸시](pushing-offer-sets-target.md#pushing_offer_sets_to_target)를 참조하십시오.
+Test&amp;Target 오퍼 세트 페이지를 닫기 전에 오퍼 세트를 Adobe Target Standard/Premium으로 보냅니다. 오퍼 집합을 Test&amp;Target으로 보내려면 [Test&amp;Target으로 오퍼 집합 푸시](pushing-offer-sets-target.md#pushing_offer_sets_to_target)를 참조하십시오.
 
 ## 이미지 또는 비디오로 오퍼 집합 만들기 {#creating-an-offer-set-with-images-or-videos}
 
@@ -111,14 +105,14 @@ Test&amp;Target 오퍼 세트 페이지를 닫기 전에 오퍼 세트를 Adobe 
 1. 필요한 경우 이미지 또는 비디오를 선택하고 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다. 오퍼 미리 보기 페이지에서 선택한 이미지 또는 비디오의 크기와 모양을 변경할 수 있습니다. 또는 오퍼 세트의 모든 이미지 또는 비디오를 변경할 수 있습니다.
 
    * 사전 설정을 선택하여 이미지나 비디오의 모양과 크기를 변경합니다.
-   * 선택한 사전 설정을 오퍼 집합의 모든 오퍼에 적용하려면 **`Select Presets to All`** 확인란을 선택하세요.
+   * 선택한 사전 설정을 오퍼 집합의 모든 오퍼에 적용하려면 **`Apply Presets to All`** 확인란을 선택하세요.
 
    **[!UICONTROL 저장]**&#x200B;을 선택하여 이미지 또는 비디오 오퍼에 대한 변경 사항을 저장합니다. 그런 다음 **[!UICONTROL 닫기]**&#x200B;를 선택하여 Test&amp;Target 오퍼 집합 페이지로 돌아갑니다.
 
 1. 오퍼 집합에 대한 오퍼를 만들고 다른 이미지에 대한 이미지 사전 설정을 선택한 후 **[!UICONTROL 저장 후 게시]**&#x200B;가 선택되었는지 확인합니다(기본값).
 1. **[!UICONTROL 저장]**&#x200B;을 선택하고 오퍼 집합의 이름을 입력한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-Test&amp;Target 오퍼 세트 페이지를 닫기 전에 오퍼 세트를 Adobe Target Standard/Premium으로 푸시합니다. [Test&amp;Target에 오퍼 집합 푸시](pushing-offer-sets-target.md#pushing_offer_sets_to_target)를 참조하십시오.
+Test&amp;Target 오퍼 세트 페이지를 닫기 전에 오퍼 세트를 Adobe Target Standard/Premium으로 보냅니다. 오퍼 집합을 Test&amp;Target에 푸시하려면 [Test&amp;Target에 오퍼 집합 푸시](pushing-offer-sets-target.md#pushing_offer_sets_to_target)를 참조하십시오.
 
 ## 오퍼 집합 편집 {#editing-an-offer-set}
 
@@ -140,8 +134,8 @@ Test&amp;Target 오퍼 세트 페이지를 닫기 전에 오퍼 세트를 Adobe 
 
    * **오퍼 제거**: 오퍼를 선택한 다음 **[!UICONTROL 삭제]**&#x200B;를 선택하여 집합에서 오퍼를 제거합니다.
    * **오퍼 추가**: 오퍼 추가 방법은 작업 중인 오퍼 집합의 유형에 따라 다릅니다.
-      * **템플릿**: **[!UICONTROL 추가 및 미리 보기]**&#x200B;를 선택하고 오퍼 추가 및 미리 보기 페이지에서 다른 오퍼를 만드십시오.
-      * **이미지 및 비디오**: 이미지 또는 비디오를 Test&amp;Target 오퍼 집합 페이지로 끌어옵니다.
+     * **템플릿**: **[!UICONTROL 추가 및 미리 보기]**&#x200B;를 선택하고 오퍼 추가 및 미리 보기 페이지에서 다른 오퍼를 만드십시오.
+     * **이미지 및 비디오**: 이미지 또는 비디오를 Test&amp;Target 오퍼 집합 페이지로 끌어옵니다.
 
    >[!NOTE]
    >
@@ -152,14 +146,14 @@ Test&amp;Target 오퍼 세트 페이지를 닫기 전에 오퍼 세트를 Adobe 
 
 ## 오퍼 집합 삭제 {#delet-an-offer-set}
 
-삭제된 오퍼 집합은 휴지통으로 이동합니다. 그러나 해당 집합 내의 멤버(또는 &quot;하위&quot;)는 영향을 받지 않습니다. 대신 각 멤버는 기존의 게시 또는 게시 취소 상태를 유지합니다.
+삭제된 오퍼 집합은 휴지통으로 이동합니다. 그러나 해당 세트 내의 멤버는 영향을 받지 않습니다. 대신 각 멤버가 기존의 게시된 상태 또는 게시되지 않은 상태를 유지합니다.
 
 [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
 **오퍼 집합을 삭제하려면:**
 
-1. 그리드 보기, 목록 보기 또는 세부 사항 보기에서 오퍼 집합 하나 이상을 선택합니다.
-1. 전역 탐색 모음에서 **[!UICONTROL 파일]** > **[!UICONTROL 삭제]** > **삭제**(으)로 이동합니다.
+1. [격자 보기], [목록 보기] 또는 [상세 보기]에서 오퍼 집합을 하나 이상 선택합니다.
+1. 전역 탐색 모음에서 **[!UICONTROL 파일]** > **[!UICONTROL 삭제]**(으)로 이동합니다.
 
 >[!MORELIKETHIS]
 >
