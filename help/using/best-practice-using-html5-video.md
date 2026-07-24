@@ -1,5 +1,5 @@
 ---
-title: HTML5 비디오 뷰어 사용에 대한 우수 사례
+title: HTML5 비디오 뷰어 사용 우수 사례
 description: HTML5 비디오 뷰어 사용에 대한 모범 사례에 대해 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,26 +18,26 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 5fdabd28c4d0defdf9f145b581c89640cc1f6118
 workflow-type: tm+mt
-source-wordcount: 499
-ht-degree: 8%
+source-wordcount: 482
+ht-degree: 2%
 
 ---
 
 # HTML5 비디오 뷰어 사용에 대한 우수 사례{#best-practice-using-the-html-video-viewer}
 
-Adobe Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 강력한 비디오 플레이어입니다. 플레이어의 디자인 측면에서는 표준 웹 개발 도구를 사용하여 비디오 플레이어의 전체 기능을 만들 수 있습니다. 예를 들어 HTML5 및 CSS를 사용하여 단추, 컨트롤 및 사용자 지정 포스터 이미지 배경을 디자인하면 사용자 지정된 모습으로 고객 범위를 넓힐 수 있습니다.
+Adobe Dynamic Media Classic HTML5 비디오 뷰어 사전 설정은 고성능 비디오 플레이어입니다. 플레이어 디자인의 경우 표준 웹 개발 도구를 사용하여 비디오 플레이어의 전체 기능을 만들 수 있습니다. 모양을 사용자 지정하려면 HTML5와 CSS를 사용하여 단추, 컨트롤 및 사용자 지정 포스터 이미지를 디자인할 수 있습니다.
 
-뷰어의 재생 측에서는 브라우저의 비디오 기능을 자동으로 감지합니다. 그런 다음 적응형 비디오 스트리밍이라고도 하는 HLS(HTTP 라이브 스트리밍)를 사용하여 비디오를 제공합니다. 또는 해당 전달 방법이 없는 경우 HTML5 progressive가 대신 사용됩니다.
+뷰어 재생의 경우 브라우저의 비디오 기능을 자동으로 감지합니다. 그런 다음 적응형 비디오 스트리밍이라고도 하는 HLS(HTTP 라이브 스트리밍)를 사용하여 비디오를 제공합니다. 또는 해당 전달 방법이 없는 경우 HTML5 progressive가 대신 사용됩니다.
 
-단일 플레이어로 결합하여 다음과 같은 기능을 제공합니다.
+다음 기능을 단일 플레이어에 결합:
 
-* HTML5 및 CSS를 사용하여 디자인된 재생 구성 요소
-* 포함된 재생
-* 브라우저의 기능을 기반으로 하는 적응형 및 점진적 스트리밍 사용
+* HTML5 및 CSS를 사용하여 디자인된 재생 구성 요소입니다.
+* 포함된 재생.
+* 브라우저의 기능을 기반으로 하는 적응형 및 점진적 스트리밍 사용.
 
-리치 미디어 콘텐츠의 범위를 데스크탑 및 모바일 사용자까지 확장할 수 있습니다. 또한 간소화된 비디오 환경을 보장합니다.
+데스크탑 및 모바일 사용자에게 리치 미디어 콘텐츠의 가용성을 높일 수 있습니다. 또한 간소화된 비디오 환경을 보장합니다.
 
 Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)도 참조하십시오.
 
@@ -47,7 +47,7 @@ Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experiencelea
 
 데스크탑 및 모바일 응용 비디오 스트리밍의 경우, 비트 전송률 전환에 사용되는 비디오는 응용 비디오 세트의 모든 MP4 비디오를 기반으로 합니다.
 
-비디오 재생은 HLS 또는 점진적 비디오를 사용하여 발생합니다. HLS(HTTP 라이브 스트리밍)는 네트워크 대역폭 용량에 따라 자동으로 재생을 조정하는 적응형 비디오 스트리밍을 위한 Apple 표준입니다. 또한 고객이 나머지 비디오가 다운로드될 때까지 기다릴 필요 없이 비디오의 어느 지점으로든 &quot;검색&quot;할 수 있습니다. [HTTP 라이브 스트리밍](https://developer.apple.com/streaming/)도 참조하세요. 점진적 비디오는 사용자의 데스크탑 스크린 또는 모바일 디바이스에 비디오를 다운로드하고 로컬로 저장함으로써 전달된다.
+비디오 재생은 HLS 또는 점진적 비디오를 사용하여 발생합니다. HLS(HTTP 라이브 스트리밍)는 네트워크 대역폭 용량에 따라 자동으로 재생을 조정하는 적응형 비디오 스트리밍을 위한 Apple 표준입니다. 또한 사용자가 비디오의 나머지 부분이 다운로드될 때까지 기다리지 않고 비디오의 원하는 지점으로 이동할 수도 있습니다. [HTTP 라이브 스트리밍](https://developer.apple.com/streaming/)도 참조하세요. 이 시스템은 점진적 비디오를 다운로드하여 사용자의 데스크탑 화면 또는 모바일 디바이스에 로컬로 저장하여 전달합니다.
 
 다음 표에서는 Adobe Dynamic Media Classic 비디오 뷰어를 사용하는 데스크탑 컴퓨터 및 모바일 장치에서 비디오의 장치, 브라우저 및 재생 방법에 대해 설명합니다.
 

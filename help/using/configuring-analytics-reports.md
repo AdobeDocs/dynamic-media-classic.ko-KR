@@ -22,22 +22,22 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: d60c30a11ad8777f8074c4283893f8984220c305
 workflow-type: tm+mt
-source-wordcount: 1251
-ht-degree: 22%
+source-wordcount: 1248
+ht-degree: 24%
 
 ---
 
 # Adobe Analytics 보고서 구성{#configuring-adobe-analytics-reports}
 
-Adobe Analytics 보고서에서 원하는 정보를 Adobe Analytics에 알려면 Adobe Analytics 구성 화면으로 이동합니다. 구성 보고서에 따라 이 화면에는 정보를 보려는 각 뷰어 이벤트에 해당하는 Adobe Analytics 변수와 Adobe Dynamic Media Classic 변수가 나열됩니다. 이러한 뷰어 이벤트-Adobe Analytics 변수-Adobe Dynamic Media Classic 변수 조합은 보고되는 정보를 결정합니다.
+Adobe Analytics 보고서에 포함할 정보를 Adobe Analytics에 알려 주려면, Adobe Analytics 구성 화면으로 이동합니다. 구성 후 이 화면에는 정보를 보려는 각 뷰어 이벤트에 대한 해당 Adobe Analytics 변수와 Adobe Dynamic Media Classic 변수가 나열됩니다. 이러한 뷰어 이벤트, Adobe Analytics 변수 및 Adobe Dynamic Media Classic 변수 조합은 보고되는 정보를 결정합니다.
 
-뷰어 이벤트를 변수와 연결하는 것 외에도 Adobe Analytics 구성 화면에서는 뷰어 이벤트를 활성화, 편집 및 삭제할 수 있는 도구를 제공합니다.
+Adobe Analytics 구성 화면에서는 뷰어 이벤트를 변수와 연결할 수 있을 뿐만 아니라 뷰어 이벤트를 활성화, 편집 및 삭제할 수 있는 도구도 제공합니다.
 
 >[!NOTE]
 >
->Adobe Analytics 내에서 Adobe Analytics 보고서 설정을 변경할 때마다 Adobe Dynamic Media Classic 내에서 Adobe Analytics에 다시 로그온하고 Adobe Analytics 구성 설정을 다시 저장한 다음 다시 게시해야 합니다.
+>Adobe Analytics 내에서 Adobe Analytics 보고서 설정을 변경하는 경우 Adobe Dynamic Media Classic 내에서 Adobe Analytics에 로그인하고 Adobe Analytics 구성 설정을 다시 저장한 다음 다시 게시합니다.
 
 [Adobe Analytics 로그온](log-analytics.md#log_in_to_adobe_analytics)을 참조하세요.
 
@@ -49,8 +49,8 @@ Adobe Analytics 구성 화면을 사용하여 뷰어 이벤트를 Adobe Analytic
 
 **Adobe Analytics 변수를 Adobe Dynamic Media Classic 뷰어 이벤트 및 변수에 할당하려면:**
 
-1. Dynamic Media Classic 내에서 Adobe Analytics에 로그인하고 보고서 세트를 선택한 후 Adobe Analytics 구성 페이지의 오른쪽 테이블 열에서 **[!UICONTROL 활성화]**&#x200B;를 선택하여 뷰어 이벤트를 활성화합니다.
-1. 변수 열 아래에 원하는 뷰어 이벤트에 대한 화살표 버튼을 선택하여 변수 쌍 선택기를 표시합니다.
+1. Dynamic Media Classic에서 Adobe Analytics에 로그인하고 보고서 세트를 선택한 후 오른쪽 테이블 열에서 **[!UICONTROL 활성화]**&#x200B;를 선택하여 Adobe Analytics 구성 페이지에서 뷰어 이벤트를 활성화합니다.
+1. 변수 열에서 원하는 뷰어 이벤트에 대한 화살표 버튼을 선택하여 변수 쌍 선택기를 표시합니다.
 
    [뷰어 이벤트](configuring-analytics-reports.md#viewer_events)를 참조하십시오.
 
@@ -71,7 +71,7 @@ Adobe Analytics 구성 화면을 사용하여 뷰어 이벤트를 Adobe Analytic
 
 ### 뷰어 이벤트 {#viewer-events}
 
-뷰어 이벤트는 사용자가 Dynamic Media Classic 뷰어로 수행하는 작업을 설명합니다. 사용자가 썸네일을 선택하거나 비디오를 시작하거나 중지하는 등의 작업을 시작하면 뷰어가 이벤트를 웹 페이지에 &quot;브로드캐스트&quot;합니다. 해당 이벤트와 연결된 데이터도 푸시됩니다.
+뷰어 이벤트는 사용자가 Dynamic Media Classic 뷰어로 수행하는 작업을 설명합니다. 사용자가 썸네일을 선택하거나 비디오를 시작하거나 중지하는 등의 작업을 시작하면 뷰어가 웹 페이지에 이벤트를 보냅니다. 해당 이벤트와 연계된 데이터도 전송됩니다.
 
 다음 표에서는 Adobe Analytics 구성 화면에 추가할 수 있는 뷰어 이벤트에 대해 설명합니다.
 
@@ -95,7 +95,7 @@ Adobe Analytics 구성 화면을 사용하여 뷰어 이벤트를 Adobe Analytic
 
 ### Adobe Dynamic Media Classic 변수 {#scene-variables}
 
-Adobe Analytics 구성 화면의 각 뷰어 이벤트에 대해 Adobe Analytics 변수와 *Adobe Dynamic Media Classic 변수*&#x200B;를 선택하십시오. Adobe Dynamic Media Classic 변수는 보고서에 대해 가져올 수 있는 데이터를 나타냅니다. 예를 들어 `searchTerm` 변수는 eCatalog 검색에 사용되는 키워드를 나열합니다.
+Adobe Analytics 구성 화면의 각 뷰어 이벤트에 대해 Adobe Analytics 변수와 *Adobe Dynamic Media Classic 변수*&#x200B;를 선택하십시오. Adobe Dynamic Media Classic 변수는 보고서에 대해 가져올 수 있는 데이터를 지정합니다. 예를 들어 `searchTerm` 변수는 eCatalog 검색에 사용되는 키워드를 나열합니다.
 
 다음 표에서는 Adobe Dynamic Media Classic 변수에 대해 설명합니다.
 
@@ -119,6 +119,6 @@ Adobe Analytics 구성 화면의 각 뷰어 이벤트에 대해 Adobe Analytics 
 
 * **활성화**: 선택한 뷰어 이벤트를 활성화하려면 **[!UICONTROL 활성화]**&#x200B;를 선택하고 비활성화하려면 **[!UICONTROL 비활성화]**&#x200B;를 선택합니다.
 
-* **편집**: 뷰어 이벤트를 선택하고 **[!UICONTROL 보기/편집]** 변수 회색 단추를 선택합니다. Adobe Dynamic Media Classic 변수 및 Adobe Analytics 변수 드롭다운 목록에서 각 목록에서 다른 변수를 선택합니다. 자세한 내용은 [Adobe Dynamic Media Classic 뷰어 이벤트 및 변수에 Adobe Analytics 변수 할당](#assigning-adobe-analytics-variables-to-scene-viewer-events-and-variables)을 참조하십시오.
+* **편집**: 뷰어 이벤트를 선택하고 **[!UICONTROL 보기/편집]** 변수 회색 단추를 선택합니다. Adobe Dynamic Media Classic 변수 및 Adobe Analytics 변수 드롭다운 목록에서 각 목록에서 다른 변수를 선택합니다. 자세한 내용은 [Adobe Dynamic Media Classic 뷰어 이벤트 및 변수에 Adobe Analytics 변수 할당](#assigning-adobe-analytics-variables-to-adobe-dynamic-media-classic-viewer-events-and-variables)을 참조하십시오.
 
-* **삭제**: 뷰어 이벤트를 선택하고 **[!UICONTROL 보기/편집]** 변수 회색 단추를 선택합니다. **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
+* **삭제**: 뷰어 이벤트를 선택하고 **[!UICONTROL 보기/편집]** 회색 단추를 선택합니다. **[!UICONTROL 삭제]**&#x200B;를 선택합니다.
