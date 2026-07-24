@@ -11,16 +11,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:42:05.016Z'
 TQID: 'https://experienceleague.adobe.com/SgUcHyeFzCORCwV-VtfqQHFp2JDRsPsYb47mo3Z1yK4'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 408b6136b4171af1e0e39a735fc1e56b9d6967ec
 workflow-type: tm+mt
-source-wordcount: 637
-ht-degree: 57%
+source-wordcount: 628
+ht-degree: 54%
 
 ---
 
@@ -53,7 +50,7 @@ ht-degree: 57%
 1. 다음 중 하나를 수행합니다.
 
    * 사운드트랙을 추가하려면 오디오 파일을 자산 라이브러리에서 사운드트랙 상자로 드래그합니다. 사운드트랙은 이미지가 표시되는 동안 재생됩니다. 비디오가 재생되면 중지됩니다.
-   * 집합 순서를 변경하려면 집합을 [혼합 미디어 집합] 화면의 새 위치로 드래그합니다. 화면의 집합 순서에 따라 혼합 미디어 집합 뷰어에서 집합이 사용자에게 표시되는 왼쪽에서 오른쪽 순서가 결정됩니다.
+   * 집합 순서를 변경하려면 집합을 [혼합 미디어 집합] 화면의 새 위치로 드래그합니다. 화면 순서에 따라 사용자가 혼합 미디어 집합 뷰어에서 집합을 볼 수 있는 왼쪽에서 오른쪽 순서가 결정됩니다.
    * (선택 사항) 뷰어에서 비디오를 나타낼 사용자 지정 썸네일을 추가하려면 자산 라이브러리의 이미지 파일을 [썸네일] 자리 표시자 상자로 드래그합니다.
 
 1. 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 저장 후 게시]**&#x200B;가 선택되었는지 확인합니다(기본값).
@@ -61,7 +58,7 @@ ht-degree: 57%
 1. 혼합 미디어 세트를 저장할 폴더를 선택한 다음 세트의 이름을 입력합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 선택합니다.
 
-   이미지 집합 뷰어에서 콤보 이미지 집합의 모양을 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 선택하십시오.
+   이미지 집합 뷰어에서 혼합 미디어 집합의 모양을 보려면 **[!UICONTROL 미리 보기]**&#x200B;를 선택하십시오.
 
 ## 혼합 미디어 집합 편집 {#edit-a-mixed-media-set}
 
@@ -91,7 +88,7 @@ ht-degree: 57%
 
 ## 혼합 미디어 집합 삭제
 
-삭제된 세트는 휴지통으로 이동합니다. 그러나 해당 집합 내의 멤버(또는 &quot;하위&quot;)는 영향을 받지 않습니다. 대신 각 멤버는 기존의 게시 또는 게시 취소 상태를 유지합니다.
+삭제된 세트는 휴지통으로 이동합니다. 해당 세트 내의 멤버는 영향을 받지 않습니다. 대신 각 멤버는 기존의 게시된 상태 또는 게시되지 않은 상태를 유지합니다.
 
 [수동 자산 게시](publishing-files.md#manually_publishing_assets) 및 [수동 자산 게시 취소](publishing-files.md#manually_unpublishing_assets)를 참조하십시오.
 
