@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ece86bc451fa15d9d4bc688bce4b91c2c2f97e33
 workflow-type: tm+mt
-source-wordcount: 1735
-ht-degree: 22%
+source-wordcount: 1720
+ht-degree: 19%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 22%
 
 비디오를 게시하는 데 사용할 수 있는 방법에는 두 가지가 있습니다.
 
-* **업로드 시 자동으로 즉시 비디오 게시**: 비디오 업로드 프로세스의 일부로 Adobe Dynamic Media Classic은 비디오를 업로드하고 인코딩할 때 자동으로 비디오를 게시할 수 있습니다. 이러한 인스턴트 퍼블리싱의 능력은 사후에 별도로 동영상을 게재할 필요가 없다는 것을 의미한다.
+* **업로드 시 자동으로 즉시 비디오 게시**: 비디오 업로드 프로세스의 일부로 Adobe Dynamic Media Classic은 비디오를 업로드하고 인코딩할 때 자동으로 비디오를 게시할 수 있습니다. 인스턴트 퍼블리싱은 동영상을 별도로 게시할 필요가 없다는 의미다.
 
 * **업로드 후 수동으로 비디오 게시**: 비디오를 즉시 게시하지 않으려면 언제든지 수동으로 비디오를 게시할 수 있습니다.
 
@@ -49,7 +49,7 @@ ht-degree: 22%
 
 1. 다음 중 하나를 수행하십시오.
 
-   * 업로드 시 비디오를 자동으로 즉시 게시하려면 [업로드] 페이지에서 **[!UICONTROL 업로드 후 게시]**&#x200B;를 선택합니다. 완료했으면 더 이상 수행할 단계가 없습니다.
+   * 업로드 즉시 자동으로 비디오를 게시하려면 [업로드] 페이지에서 **[!UICONTROL 업로드 후 게시]**&#x200B;를 선택합니다. 프로세스가 완료되어 수행할 추가 단계가 없습니다.
    * 업로드 후 비디오를 수동으로 게시하려면 [찾아보기] 패널에서 비디오를 선택한 다음 전역 탐색 모음에서 **게시**&#x200B;를 선택합니다.
 
 ## 모바일 사이트 또는 웹 사이트에 비디오 URL 연결 {#linking-a-video-url-to-a-mobile-site-or-a-website}
@@ -150,7 +150,8 @@ Dynamic Media Classic 비디오 뷰어 대신 타사 비디오 플레이어 또�
 
   **[!UICONTROL 응용 프로그램 일반 설정]** 페이지의 **[!UICONTROL 서버]** 그룹의 **[!UICONTROL 게시된 서버 이름]** 텍스트 필드에 있는 직접 URL을 만듭니다. 다음 구문을 사용합니다. `server/is/content/company/folder/filename.m3u8`
 
-  예를 들어 게시된 서버 이름이 `https://s7d9.scene7.com/.`이라고 가정합니다. 2단계의 구문을 사용하면 직접 URL은 다음과 같을 수 있습니다.
+  예를 들어 게시된 서버 이름이 `https://s7d9.scene7.com/`이라고 가정합니다. 2단계의 구문을 사용하면 직접 URL은 다음과 같습니다.
+
   `https://s7d9.scene7.com/is/content/GeoRetail/AdobeRIA-AVS.m3u8`
 
 * 다이렉트 HLS 스트리밍 비디오 URL을 생성하려면(단일 비트 전송률)
@@ -159,7 +160,8 @@ Dynamic Media Classic 비디오 뷰어 대신 타사 비디오 플레이어 또�
 
   `server/company/folder/filename.ext.m3u8`
 
-  예를 들어 HLS 스트리밍 서버 이름이 `https://s7mbrstream.scene7.com/hls-vod/`이라고 가정합니다. 2단계의 구문을 사용하면 직접 URL은 다음과 같이 표시될 수 있습니다.
+  예를 들어 HLS 스트리밍 서버 이름이 `https://s7mbrstream.scene7.com/hls-vod/`이라고 가정합니다. 2단계의 구문을 사용하면 직접 URL은 다음과 같습니다.
+
   `https://s7mbrstream.scene7.com/hls-vod/GeoRetail/MBR/ToyStory3\_Teaser1\_High\_iPad\_768x432\_1296K.mp4.m3u8`
 
 * 직접 점진적 비디오 URL을 생성하려면
@@ -168,24 +170,25 @@ Dynamic Media Classic 비디오 뷰어 대신 타사 비디오 플레이어 또�
 
   `server/company/folder/filename`
 
-  예를 들어 점진적 비디오 서버 이름이 `https://s7d9.scene7.com/is/content/`이라고 가정합니다. 2단계의 구문을 사용하면 직접 URL은 다음과 같이 표시될 수 있습니다.
+  예를 들어 점진적 비디오 서버 이름이 `https://s7d9.scene7.com/is/content/`이라고 가정합니다. 2단계의 구문을 사용하면 직접 URL은 다음과 같습니다.
+
   `https://s7d9.scene7.com/e2/GeoRetail/SourceVideo/outdoors.mp4`
 
 ## 비디오 축소판 작업 {#working-with-video-thumbnails}
 
 Adobe Dynamic Media Classic은 인코딩된 비디오 및 사전 인코딩된 비디오에 대한 썸네일을 생성합니다. 이미지 자산 등의 비디오 썸네일을 사용할 수 있습니다. 또한 Adobe Dynamic Media Classic에서 생성하는 비디오 썸네일의 URL을 가져올 수 있습니다. 그런 다음 이러한 URL을 Adobe Dynamic Media Classic 외부에 배포할 수 있습니다. 예를 들어 웹 사이트의 검색 결과, 관련 비디오 목록 및 비디오 재생 목록에 썸네일을 배포할 수 있습니다.
 
-썸네일은 비디오의 첫 번째 이기종 프레임(모두 검정 프레임 또는 모두 흰색 프레임 등이 아님)에 따라 생성됩니다.
+썸네일은 비디오의 첫 번째 이질적인 프레임(모든 블랙 프레임 또는 모든 화이트 프레임이 아님)을 기반으로 생성됩니다.
 
 ### 비디오 썸네일 URL 얻기 {#obtaining-video-thumbnail-urls}
 
-Adobe Dynamic Media Classic은 업로드 프로세스 중에 비디오 썸네일을 자동으로 생성합니다. 축소판은 [목록 보기] 및 [격자 보기]의 [찾아보기] 패널에 나타납니다.
+Adobe Dynamic Media Classic은 업로드 프로세스 중에 비디오 썸네일을 자동으로 생성합니다. 축소판은 [찾아보기] 패널의 [목록 보기] 및 [격자 보기]에 나타납니다.
 
 비디오 썸네일의 URL을 생성하려면 게시 작업을 수행합니다.
 
 [비디오 게시](deploying-video-websites-mobile-sites.md#publishing_video)를 참조하십시오.
 
-게시 후에 [세부 사항 보기]의 [URL] 및 [포함 코드] 패널에서 비디오 썸네일 URL을 얻을 수 있습니다. 연결된 URL을 복사할 수 있도록 비디오 썸네일 오른쪽에 있는 **[!UICONTROL URL 복사]**&#x200B;를 선택하십시오.
+게시 후 URL 및 포함 코드 패널의 세부 사항 보기에서 비디오 썸네일 URL을 가져올 수 있습니다. 연결된 URL을 복사할 수 있도록 비디오 썸네일 오른쪽에 있는 **[!UICONTROL URL 복사]**&#x200B;를 선택하십시오.
 
 ### 비디오 뷰어의 포스터 프레임 수정 {#modifying-poster-frames-in-video-viewers}
 

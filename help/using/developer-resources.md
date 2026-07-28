@@ -17,16 +17,16 @@ role_v2:
   - id: ff6a42d2-313e-452e-93a6-792e4fad9ff8
 level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: ef0ddb7b88e52964af778ddb3ab049ce540f8f3d
 workflow-type: tm+mt
-source-wordcount: 228
+source-wordcount: 221
 ht-degree: 12%
 
 ---
 
 # 개발자 리소스 {#developer-resources}
 
-뷰어, 이미지 제공 및 이미지 렌더링, 이미지 프로덕션 시스템에 대한 참조 안내서에서는 이러한 서버 모듈에 대한 http 프로토콜을 설명합니다. 웹 사이트 또는 사용자 지정 애플리케이션용으로 Adobe Dynamic Media Classic 리치 미디어를 사용하고 추가로 사용자 지정하려는 웹 사이트 개발자는 이 안내서를 사용할 수 있습니다. 사용자가 Dynamic Media Classic 데스크탑 앱, 일반적인 HTTP 프로토콜 표준 및 규칙 및 기본 이미징 용어에 익숙하다고 가정합니다.
+뷰어, 이미지 제공 및 이미지 렌더링, 이미지 프로덕션 시스템용 참조 안내서에서는 이러한 서버 모듈에 대한 HTTP 프로토콜을 설명합니다. 웹 사이트 또는 사용자 정의 애플리케이션에 Adobe Dynamic Media Classic 리치 미디어를 맞춤화하고 사용하려는 웹 사이트 개발자는 이 안내서를 사용할 수 있습니다. 사용자는 Dynamic Media Classic 데스크탑 앱, 일반 HTTP 프로토콜 표준 및 규칙, 기본 이미징 용어에 익숙해야 합니다.
 
 [Dynamic Media 개발자 리소스](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources)도 참조하세요.
 

@@ -20,9 +20,9 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 6cee66920b39dd3995803cf060712025a8b0aa9a
 workflow-type: tm+mt
-source-wordcount: 620
+source-wordcount: 615
 ht-degree: 21%
 
 ---
@@ -60,7 +60,7 @@ Last Modified Date: 2018-06-14T13:52:46.623-0400
 
 >[!NOTE]
 >
->세부 사항 보기의 동일한 폴더에서 에셋에서 에셋으로 페이징할 수 있습니다. **[!UICONTROL 이전 자산]** 또는 **[!UICONTROL 다음 자산]**&#x200B;을 클릭하세요. 이 단추는 세부 사항 보기의 오른쪽 상단 모서리에 있습니다.
+>세부 사항 보기를 사용하여 동일한 폴더의 자산 사이를 탐색할 수 있습니다. **[!UICONTROL 이전 자산]** 또는 **[!UICONTROL 다음 자산]**&#x200B;을 클릭합니다. 이 단추는 세부 사항 보기의 오른쪽 상단 모서리에 있습니다.
 
 ## 세부 사항 보기의 정보 가져오기 {#getting-information-in-detail-view}
 
