@@ -1,5 +1,5 @@
 ---
-title: 업로드된 래스터 이미지 에셋 삭제
+title: 업로드된 래스터 이미지 자산 삭제
 description: Adobe Dynamic Media Classic에서 업로드된 에셋을 삭제하는 방법을 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -11,15 +11,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:44:43.552Z'
 TQID: 'https://experienceleague.adobe.com/EVwriRMQMB9aO3j-cZeaFeZE3wVtbQmQZA67ioyUniI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 7f6a75dae63b295e7df72b3b8b0935a2406c3d32
 workflow-type: tm+mt
-source-wordcount: 141
+source-wordcount: 139
 ht-degree: 33%
 
 ---
@@ -62,7 +59,7 @@ URL 쿼리 문자열에 다음 필드를 사용하여 자산을 삭제할 수 �
 
 >[!IMPORTANT]
 >
->2023년 5월 1일부터 Dynamic Media의 UGC 에셋은 업로드일로부터 최대 60일 동안 사용할 수 있습니다. 60일 이후에는 에셋이 제거됩니다.
+>2023년 5월 1일부터 Dynamic Media의 UGC 에셋은 업로드일로부터 최대 60일까지 사용할 수 있습니다. 60일 후 자산이 제거됩니다.
 
 >[!NOTE]
 >
