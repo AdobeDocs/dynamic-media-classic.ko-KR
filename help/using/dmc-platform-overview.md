@@ -12,21 +12,14 @@ topic: Administration
 level: Beginner
 autotag-review: '2026-05-13T19:46:13.313Z'
 TQID: 'https://experienceleague.adobe.com/qaWxQCcT9VjPt4MmahAR3-voOpUBjYztzNFXSZG6R6k'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: ef0a24ad6af986b394d8838318fd870be66732a6
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: c0fb79fc030080ac7774fc1428d58a48eb11e1f1
 workflow-type: tm+mt
-source-wordcount: 495
-ht-degree: 6%
+source-wordcount: 496
+ht-degree: 13%
 
 ---
 
@@ -52,7 +45,7 @@ Adobe Dynamic Media Classic은 통합되고 리치 미디어 관리, 게시 및 
 
 ## 단일 1차 이미지 및 단일 URL 호출 {#single-master-images-and-single-url-calls}
 
-Adobe Dynamic Media Classic은 Adobe Dynamic Media Classic을 사용하여 개별 기본 에셋 및 URL 요청에서 동적으로 미디어를 전달할 수 있으므로 다른 시스템과 구별됩니다.
+Adobe Dynamic Media Classic은 Adobe Dynamic Media Classic을 사용하여 개별 기본 에셋 및 URL 호출에서 동적으로 미디어를 전달할 수 있으므로 다른 시스템과 구별됩니다.
 
 Adobe Dynamic Media Classic을 사용하여 생성하는 URL 문자열에는 에셋이 전달될 때 서버에 어떻게 표시되는지 알려 주는 지침이 포함되어 있습니다. 예를 들어 동일한 1차 이미지가 서로 다른 크기, 형식, 가중치, 색상 또는 보기로 제공될 수 있습니다. Adobe Dynamic Media Classic을 사용하여 미디어 에셋을 구축하고 게시하는 과정의 일부로 효과를 시각적으로 구성할 수 있습니다. 이렇게 하면 기본 자산을 응용 프로그램에 제공하는 방법을 서버에 올바르게 알려주는 URL 호출을 만듭니다.
 
@@ -61,4 +54,4 @@ Adobe Dynamic Media Classic을 사용하여 생성하는 URL 문자열에는 에
 
 ## 컨텐츠 캐싱 {#content-caching}
 
-Adobe Dynamic Media Classic이 동적으로 생성하는 이미지는 캐싱에 적합합니다. 일반적으로 이 이미지는 자신을 식별하는 고유한 URL 호출이 있는 JPEG 이미지입니다. 이미지는 CDN(Content Delivery Network)에서 전달됩니다. CDN은 컨텐츠를 더 빠르게 전달하기 위해 인터넷에 연결된 서버 시스템입니다. 이미지는 전 세계에 있는 서버에서 컴퓨터로 배포됩니다. CDN 공급업체를 사용하여 캐싱 메커니즘을 구현하려면 CDN을 사용할 수 있는 Dynamic Media 이미지 서버를 가리키도록 서버 이름을 변경합니다. 모든 Adobe Dynamic Media Classic 버전에는 번들 CDN 캐싱이 포함되어 있습니다.
+Adobe Dynamic Media Classic이 동적으로 생성하는 이미지는 캐싱에 적합합니다. 일반적으로 이 이미지는 자신을 식별하는 고유한 URL 호출이 있는 JPEG 이미지입니다. 이미지는 컨텐츠를 더 빨리 제공하기 위해 인터넷에서 네트워크로 연결된 서버 시스템인 CDN(Content Delivery Network)을 통해 제공됩니다. 전 세계에 있는 서버에서 컴퓨터로 이미지가 배포됩니다. CDN 공급업체를 사용하여 캐싱 메커니즘을 구현하려면 CDN을 사용할 수 있는 Dynamic Media 이미지 서버를 가리키도록 서버 이름을 변경합니다. 모든 Adobe Dynamic Media Classic 버전에는 번들 CDN 캐싱이 포함되어 있습니다.
