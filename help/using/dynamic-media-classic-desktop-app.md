@@ -1,5 +1,5 @@
 ---
-title: Adobe Dynamic Media Classic 데스크탑
+title: Adobe Dynamic Media Classic 데스크탑 앱
 description: 이제 사용할 수 있는 Adobe Dynamic Media Classic 데스크탑 애플리케이션에 대해 자세히 알아보십시오.
 contentOwner: rbrough
 content-type: reference
@@ -12,31 +12,26 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:46:24.807Z'
 TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: fcd8f761bcc746c402db2f06347b77352d1488f7
 workflow-type: tm+mt
-source-wordcount: 2135
-ht-degree: 1%
+source-wordcount: 2124
+ht-degree: 0%
 
 ---
 
 # 현재 사용 가능: Adobe Dynamic Media Classic 데스크탑 앱 {#dynamic-media-classic-desktop-app}
 
-이제 Adobe Dynamic Media Classic 사용자는 브라우저에서 Adobe Flash 기술에 의존하지 않는 새로운 데스크탑 앱 환경에 액세스할 수 있습니다.
+이제 Adobe Dynamic Media Classic 사용자는 브라우저에서 Adobe Flash 기술에 의존하지 않는 새 데스크탑 앱에 액세스할 수 있습니다.
 
 이 새 앱은 이제 Windows® 및 macOS에서 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
->Adobe은 2020년 10월 1일까지 새 Adobe Dynamic Media Classic 데스크탑 앱을 설치할 것을 권장합니다. 이렇게 하면 2020년 12월 31일에 Adobe Flash Player가 더 이상 사용되지 않도록 하기 전에 원활하게 전환할 수 있습니다. 해당 날짜 이후, 제품에서 Adobe Dynamic Media Classic으로 레이블이 지정된 Adobe Dynamic Media Classic 사용자 인터페이스의 브라우저 버전에 로그인할 수 없습니다.
+>Adobe은 2020년 10월 1일까지 새 Adobe Dynamic Media Classic 데스크탑 앱을 설치할 것을 권장합니다. 이렇게 하면 2020년 12월 31일에 Adobe Flash Player가 더 이상 사용되지 않기 전에 전환 기간이 있습니다. 해당 날짜 이후, 제품에서 Adobe Dynamic Media Classic으로 레이블이 지정된 Adobe Dynamic Media Classic 사용자 인터페이스의 브라우저 버전에 로그인할 수 없습니다.
 
 [새 Adobe Dynamic Media Classic 로그인을 사용할 수 있는 경우 FAQ를 참조하십시오.](/help/using/new-ui-2020.md)
 
@@ -60,7 +55,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 * 이미지를 편집할 때 **[!UICONTROL 저장]** 단추가 작동하지 않습니다.
 * 설정 편집기에서 **[!UICONTROL Assets 추가]** 패널에서 에셋을 스크롤한 후 **[!UICONTROL 닫기]**, **[!UICONTROL 저장]** 및 **[!UICONTROL 다른 이름으로 저장]** 단추가 비활성화됩니다.
 * 비디오 세부 정보 보기의 **[!UICONTROL 재생]** 단추가 작동하지 않았습니다.
-* macOS Monterey를 실행할 때 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 필드에 `d` 및 `e`을(를) 입력할 수 없습니다.
+* 사용자는 macOS Monterey를 실행할 때 **[!UICONTROL 사용자 이름]** 및 **[!UICONTROL 암호]** 필드에 `d` 및 `e`을(를) 입력할 수 없습니다.
 * 나머지 Analytics API를 버전 2.0으로 이동했습니다.
 
 ## 릴리스 20.21.3의 수정 사항 {#release-sept2021}
@@ -79,14 +74,14 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
 * 20.21.1의 알려진 제한 사항: 로그인 화면의 **[!UICONTROL 서버]** 드롭다운 목록이 비어 있습니다.
 * **[!UICONTROL 업로드 작업 옵션]**&#x200B;에서 **[!UICONTROL Photoshop 옵션]** 아래의 기본 레이어 이름 값은 이제 **[!UICONTROL Photoshop 및 레이어 이름]**&#x200B;입니다. PSD 파일의 레이어가 별도의 이미지로 업로드됩니다.
-   * 이전 기본값인 **[!UICONTROL 레이어 이름]**&#x200B;은(는) PSD 파일에서 해당 레이어 이름 또는 레이어 번호 이름을 따서 이미지 이름을 지정했습니다. PSD 파일의 레이어 이름이 기본 Photoshop 레이어 이름인 경우 레이어 번호가 사용되었습니다.
-   * 새 기본값 **[!UICONTROL Photoshop 및 레이어 이름]**&#x200B;은(는) PSD 파일 뒤에 레이어 이름 또는 레이어 번호를 붙여서 이미지 이름을 지정합니다. 레이어 번호는 PSD 파일의 레이어 이름이 Photoshop 기본 레이어 이름인 경우 사용됩니다.
-   * 이제 Adobe Dynamic Media Classic의 레이어 이미지에 고유한 이름이 있으므로 기존 PSD 또는 템플릿(원래 PSD 파일에서 공유된 레이어 이름)에 대한 업데이트가 발생하지 않습니다.
+  * **[!UICONTROL 레이어 이름]**&#x200B;의 이전 기본값은 PSD 파일에서 해당 레이어 이름 또는 레이어 번호 이름을 따서 이미지 이름을 지정했습니다. PSD 파일의 레이어 이름이 기본 Adobe Photoshop 레이어 이름인 경우 레이어 번호가 사용되었습니다.
+  * **[!UICONTROL Photoshop 및 레이어 이름]**&#x200B;의 새 기본값은 PSD 파일 뒤에 레이어 이름 또는 레이어 번호를 붙여 이미지 이름을 지정합니다. PSD 파일의 레이어 이름이 기본 Adobe Photoshop 레이어 이름인 경우 레이어 번호가 사용됩니다.
+  * 이제 Adobe Dynamic Media Classic의 레이어 이미지에 고유한 이름이 있으므로 기존 PSD 또는 템플릿(원래 PSD 파일에서 공유된 레이어 이름)에 대한 업데이트가 발생하지 않습니다.
 * 자산의 축소판이 깨졌습니다.
 
 ## 릴리스 20.21.1의 수정 사항 {#latest-fixes-desktop-app}
 
-* 시간 제한으로 인해 로그인 문제가 발생하여 다음 메시지가 표시됩니다. *이 사용자는 권한 없이 그룹 또는 그룹에 할당되었을 수 있습니다. 관리자에게 문의하십시오.*
+* 시간 제한으로 인해 로그인 문제가 발생하여 다음 메시지가 표시됩니다. *이 사용자는 권한 없이 그룹 또는 그룹에 할당됩니다. 관리자에게 문의하십시오.*
 * 뷰어 사전 설정은 각각의 잘못된 암호 시도와 중복됩니다.
 * 루트 폴더의 많은 자산으로 인해 데스크탑 애플리케이션이 응답하지 않습니다. (Windows®에서 수정되었으며 macOS에서 원하는 대로 작동합니다.)
 
@@ -95,7 +90,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 * macOS 및 Windows® 모두에 대해 데스크탑 앱 사용자 인터페이스를 통해 업로드할 수 있는 파일 수에 대한 제한은 없습니다.
 * 회사 간에 전환하려면 데스크톱 앱에서 로그아웃할 필요가 없습니다.
 * 이제 붙여넣기 작업을 위한 Ctrl+V가 Windows®에서 작동합니다.
-* 앞으로 데스크탑 앱의 새 버전이 출시되면 사용자는 데스크탑 앱 자체 내에서 알림을 받게 됩니다.
+* 앞으로 데스크탑 앱의 새 버전이 출시되면 사용자는 데스크탑 앱 자체 내에 알림을 받게 됩니다.
 
 ## macOS 또는 Windows®에서 최신 Adobe Dynamic Media Classic 데스크탑 앱을 다운로드하여 설치합니다. {#installation-dmc-app}
 
@@ -110,13 +105,13 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 
    * 최신 버전은 다음에서 사용할 수 있습니다.
 
-      * [macOS (.DMG): 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
-      * [Windows (.EXE): 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
+     * [macOS (.DMG): 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.2/adobe-dynamic-media-classic-20.22.2.dmg)
+     * [Windows (.EXE): 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.exe)
 
    * 이전 버전은 다음에서 사용할 수 있습니다.
 
-      * [macOS (.DMG): 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
-      * [Windows® (.EXE): 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
+     * [macOS (.DMG): 다운로드](https://download.macromedia.com/dynamic-media-classic/20.22.1/adobe-dynamic-media-classic-20.22.1.dmg)
+     * [Windows® (.EXE): 다운로드](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.exe)
 
 <!--
          * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.21.3/adobe-dynamic-media-classic-20.21.3.dmg) 
@@ -160,7 +155,7 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
    | EMEA 생산(유럽, 중동 및 아프리카) | https://s7sps3.scene7.com/ |
    | APAC 프로덕션(아시아 태평양) | https://s7sps5.scene7.com/ |
 
-1. 로그인 후 친숙한 브라우저 사용자 인터페이스 경험을 확인합니다. 데스크탑 앱에서 평소대로 일상적인 Adobe Dynamic Media Classic 활동을 계속할 수 있습니다.
+1. 로그인 후 브라우저 사용자 인터페이스 경험이 표시됩니다. 데스크탑 앱에서 평소대로 Adobe Dynamic Media Classic 활동을 계속할 수 있습니다.
 
 ## macOS에서 최신 Adobe Dynamic Media Classic 데스크톱 앱을 다운로드하여 *자동으로* 설치합니다. {#install-silent-mac-dmc-app}
 
@@ -181,7 +176,7 @@ macOS에서 최신 버전의 Adobe Dynamic Media Classic 데스크톱 앱을 다
 
    `hdiutil attach adobe-dynamic-media-classic-20.22.2.dmg -mountpoint <mount_point_path>`
 
-1. 다음 명령을 사용하여 .APP 파일을 **[!UICONTROL 응용 프로그램]**&#x200B;에 복사합니다.
+1. 다음 명령을 사용하여 `.APP` 파일을 **[!UICONTROL 응용 프로그램]**&#x200B;에 복사합니다.
 
    ```
    rsync -a <mount_point_path>/Adobe\ Dynamic\ Media\ Classic.app /Applications/
@@ -250,7 +245,7 @@ Windows®에서 최신 버전의 Adobe Dynamic Media Classic 데스크톱 앱을
 
 ## Adobe Dynamic Media Classic 데스크탑 앱 사용에 대한 비디오 설명 {#dmc-app-video-walk-through}
 
-Adobe Dynamic Media Classic 데스크톱 앱을 사용하여 [비디오 둘러보기](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)&#x200B;(길이: 2분 36초).
+Adobe Dynamic Media Classic 데스크톱 앱을 사용하여 [비디오 둘러보기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)&#x200B;(길이: 2분 36초).
 
 ## 데스크탑 앱을 사용하여 컴퓨터의 이미지 캐시 및 자산 캐시를 지우는 중 {#clear-cache}
 
@@ -286,13 +281,13 @@ Adobe Dynamic Media Classic 데스크톱 앱을 사용하여 [비디오 둘러�
 
 * Adobe Dynamic Media Classic을 다시 시작한 다음 평소대로 로그인하여 새 회사에서 작업하십시오.
 
-## 팁과 트릭
+## 우수 사례
 
-**_Adobe Dynamic Media Classic의 랜딩 페이지에 미디어 카트 패널을 볼 수 없습니다._**<br>Adobe Dynamic Media Classic에서&#x200B;**[!UICONTROL 설정 > 개인 설정&#x200B;]**&#x200B;을 탭합니다. 브라우저 섹션에서&#x200B;**[!UICONTROL MediaPortal 기능 표시&#x200B;]**&#x200B;를 선택(선택)했는지 확인하십시오.**[!UICONTROL 저장 > 닫기&#x200B;]**&#x200B;를 누릅니다.
+Adobe Dynamic Media Classic의 랜딩 페이지에 Media Portal 패널이 표시되지 않습니다.***<br>Adobe Dynamic Media Classic에서 **[!UICONTROL 설정 > 개인 설정]**&#x200B;을 탭합니다. 브라우저 섹션에서 **[!UICONTROL MediaPortal 기능 표시]**&#x200B;를 선택(선택)했는지 확인하십시오. **[!UICONTROL 저장 > 닫기]**&#x200B;를 누릅니다.
 
-**_자산의 게시 상태(녹색 표시기)가 올바르게 반영되지 않았습니다._**<br>브라우저 사용자 인터페이스에서 자산의 올바른 게시 상태를 보려면 UI에 다시 로그인해야 했습니다. 데스크톱 앱에서 Adobe은 도구 모음에&#x200B;**[!UICONTROL 없음 선택&#x200B;]**&#x200B;단추 오른쪽에&#x200B;**[!UICONTROL 새로 고침&#x200B;]**&#x200B;아이콘을 도입했습니다. 지정된 페이지에 있는 모든 자산의 최신 상태를 보려면&#x200B;**[!UICONTROL 새로 고침&#x200B;]**&#x200B;아이콘을 탭하세요. 브라우저 UI에서와 같이 다시 로그온할 필요가 없습니다.
+***에셋의 게시 상태(녹색 표시기)가 올바르게 반영되지 않았습니다.***<br>에셋의 올바른 게시 상태를 보려면 이전에 브라우저 사용자 인터페이스에서 UI에 다시 로그인해야 했습니다. 데스크톱 앱에서 Adobe은 도구 모음에 **[!UICONTROL 없음 선택]** 단추 오른쪽에 **[!UICONTROL 새로 고침]** 아이콘을 추가했습니다. 지정된 페이지에 있는 모든 에셋의 최신 상태를 보려면 **[!UICONTROL 새로 고침]** 아이콘을 탭하세요. 브라우저 UI에서와 같이 재인증이 필요하지 않습니다.
 
 ![새로 고침 아이콘](/help/using/assets/refresh-icon1.png)
 *새로 고침 아이콘*
 
-**_데스크톱 앱에서 일괄처리 집합 사전 설정이 작동하지 않습니다._**<br>업로드 > 작업 옵션 > 일괄처리 집합 사전 설정&#x200B;**을 탭합니다.**&#x200B;관련&#x200B;**[!UICONTROL 일괄처리 집합 사전 설정&#x200B;]**&#x200B;이 활성화되어 있는지 확인하십시오.**[!UICONTROL 업로드 저장 및 제출&#x200B;]**&#x200B;을 클릭합니다.
+***데스크탑 앱에서 일괄처리 집합 사전 설정이 작동하지 않습니다.***<br>업로드 > 작업 옵션 > 일괄처리 집합 사전 설정&#x200B;]**을 탭합니다.**[!UICONTROL &#x200B;관련 **[!UICONTROL 일괄처리 집합 사전 설정]**&#x200B;이 활성화되어 있는지 확인하십시오. **[!UICONTROL 업로드 저장 및 제출]**&#x200B;을 클릭합니다.
