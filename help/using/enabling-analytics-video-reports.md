@@ -25,28 +25,28 @@ topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
   - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a157ef90a1ff3051fe0939b859d1ba7a63537b82
 workflow-type: tm+mt
-source-wordcount: 270
+source-wordcount: 265
 ht-degree: 0%
 
 ---
 
 # Adobe Analytics 비디오 보고서 활성화{#enabling-adobe-analytics-video-reports}
 
-Adobe Analytics 하트비트 기반 비디오 보고를 사용하여 Adobe Dynamic Media Classic에서 Adobe Analytics을 구성할 때 4개의 비디오 뷰어 이벤트(재생, 일시 중지, 중지, 이정표)를 더 이상 활성화하지 않아도 됩니다. 비디오 하트비트는 기본 Adobe Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어와 함께 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다.
+Adobe Analytics 하트비트 기반 비디오 보고를 사용하면 Adobe Dynamic Media Classic에서 Adobe Analytics을 구성할 때 4개의 비디오 뷰어 이벤트(재생, 일시 중지, 중지, 이정표)를 더 이상 활성화할 필요가 없습니다. 비디오 하트비트는 표준 Adobe Dynamic Media Classic HTML5 비디오 및 혼합 미디어 뷰어와 함께 작동합니다. 비디오 플레이어는 Adobe Analytics 비디오 보고서 내에서 보기 위한 추적 데이터를 생성합니다.
 
 * 스트리밍 미디어 및 &#39;하트비트 측정&#39;에 대한 소개는 [스트리밍 미디어용 Adobe Analytics 정보](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview)를 참조하십시오.
 
 * Adobe Analytics 비디오 보고서와 Adobe Dynamic Media Classic의 통합은 솔루션 변수를 지원하지만 사용자 지정 변수는 지원하지 않습니다.
 
-  솔루션 변수 및 사용자 지정 변수에 대한 자세한 내용은 [오디오 및 비디오 매개 변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/implementation/variables/audio-video-parameters)를 참조하십시오.
+  솔루션 변수 및 사용자 지정 변수에 대한 자세한 내용은 [오디오 및 비디오 매개 변수](https://experienceleague.adobe.com/ko/docs/media-analytics/using/reporting/dimensions/overview)를 참조하십시오.
 
-* 1분 단위의 기본 세그먼트가 지원됩니다. 그러나 시간 증분에 따른 고객 정의 이정표, % 이정표 또는 오프셋 이정표와 같은 사용자 정의 세그먼트 보고는 지원되지 않습니다.
+* 1분 단위의 표준 세그먼트가 지원됩니다. 그러나 시간 증분에 따른 고객 정의 이정표, % 이정표 또는 오프셋 이정표와 같은 사용자 정의 세그먼트 보고는 지원되지 않습니다.
 
   스트리밍 미디어 요구 사항 및 설정에 대한 자세한 내용은 [Adobe Analytics에서 스트리밍 미디어 측정](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview)을 참조하십시오.
 
-* 사용자 지정 및 솔루션 변수에 대한 자세한 내용은 [미디어 보고서 지원](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-reports/media-reports-enable#media-reports)을 참조하세요.
+* 사용자 지정 및 솔루션 변수에 대한 자세한 내용은 [미디어 보고서 지원](https://experienceleague.adobe.com/ko/docs/analytics/admin/admin-tools/manage-report-suites/edit-report-suite/media-management)을 참조하세요.
 
 >[!NOTE]
 >
