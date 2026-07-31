@@ -9,21 +9,13 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:59:26.023Z'
 TQID: 'https://experienceleague.adobe.com/QHE-OFzsPsBwdIlkpO1nGo1W5Q2Au9Avy8G8mTzBZGc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 1c4201677cce2afcb0ab2d4beed5cf1cabe4031c
 workflow-type: tm+mt
-source-wordcount: 348
+source-wordcount: 330
 ht-degree: 0%
 
 ---
@@ -36,25 +28,25 @@ Adobe Dynamic Media Classic 도움말에 오신 것을 환영합니다. 여기�
 
 2020년 6월 30일, Dynamic Media Classic 사용자는 브라우저에서 Adobe Flash 기술에 더 이상 의존하지 않는 새 로그인에 액세스할 수 있습니다.
 
-[자주 묻는 질문](new-ui-2020.md)을 참조하세요. 2020년 5월 7일 자 새로운 업데이트.
+[자주 묻는 질문](new-ui-2020.md)을 참조하세요. 새로운 업데이트는 2020년 5월 7일부터 적용됩니다.
 
 ## Dynamic Media 개발자 리소스
 
-* [Dynamic Media 개발자 리소스 랜딩 페이지](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources): 포함:
-   * 뷰어 참조 안내서
-   * 이미지 제공/이미지 렌더링 API
-   * 이미지 프로덕션 시스템 API
-   * 및 Adobe Dynamic Media Classic 릴리스 노트
+* [Dynamic Media 개발자 리소스 랜딩 페이지](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources): 포함:
+  * 뷰어 참조 안내서
+  * 이미지 제공/이미지 렌더링 API
+  * 이미지 프로덕션 시스템 API
+  * 및 Adobe Dynamic Media Classic 릴리스 노트
 * [뷰어 라이브러리 예](https://landing.adobe.com/en/na/dynamic-media/ctir-2755/live-demos.html): 비디오, 구매 가능한 미디어, 혼합 미디어, 스핀 세트, 인라인 확대/축소, 이미지 및 견본 세트, 플라이아웃에 대한 뷰어 예를 포함합니다.
 
 ## Adobe Dynamic Media Classic 사용자 리소스
 
 * [Dynamic Media 월간 뉴스레터](dynamic-media-newsletter.md)
-* [Adobe Dynamic Media Classic 우수 사례 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobe Dynamic Media Classic 우수 사례 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [안내서: 이미지 선명하게 하기를 위한 우수 사례 안내서](/help/using/assets/s7_sharpening_images.pdf)
-* [안내서: Adobe Dynamic Media Classic에서 SEO를 지원하는 방법](/help/using/assets/s7_seo.pdf): 검색 엔진을 통해 웹 사이트 및 이미지를 검색할 수 있습니다. Adobe Dynamic Media Classic은 더 많은 트래픽이 Adobe Dynamic Media Classic 사용자의 웹 사이트로 유도되도록 이미지 검색 엔진 친화적 인 노력을 지원합니다. PDF의 이 안내서에서는 이를 수행하는 데 필요한 배경 및 구현 권장 사항을 제공합니다.
+* [안내서: Adobe Dynamic Media Classic에서 SEO를 지원하는 방법](/help/using/assets/s7_seo.pdf): 검색 엔진을 통해 웹 사이트 및 이미지를 검색할 수 있습니다. Adobe Dynamic Media Classic은 더 많은 트래픽이 Adobe Dynamic Media Classic 사용자 웹 사이트로 유도되도록 이미지 검색 엔진을 최적화하도록 하는 노력을 지원합니다. 이 PDF 안내서는 이러한 결과를 달성하기 위한 배경 및 구현 권장 사항을 제공합니다.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
-* [웨비나: Adobe Dynamic Media Classic을 사용하여 대화형 환경을 제공하는 모범 사례](https://seminars.adobeconnect.com/p7wb8ej3u6d/): Adobe Dynamic Media Classic에서 콘텐츠를 가져오거나 내보내고 최적의 성능과 경험을 위해 이미지 사전 설정을 설정하는 방법에 대해 알아봅니다. 뷰어 사전 설정 및 캐싱 구성에 대해서도 알아봅니다.
+* [웨비나: Adobe Dynamic Media Classic을 사용하여 대화형 환경을 제공하는 모범 사례](https://seminars.adobeconnect.com/p7wb8ej3u6d/): 최적의 성능을 위해 콘텐츠를 관리하고 이미지 사전 설정을 설정하는 방법에 대해 알아봅니다. 뷰어 사전 설정 및 캐싱 구성에 대해서도 알아봅니다.
 <!-- NOT FOUND * [Webinar: Maximizing your Asset ROI](https://adobecustomersuccess.adobeconnect.com/p5ar3hfrrec/?launcher=false&fcsContent=true&pbMode=normal&proto=true): Learn industry best practices to deliver rich media across your sites and mobile apps. In this webinar, Adobe gives examples and demonstrations showing you how to deliver video efficiently across devices. Learn how you can deliver dynamic creative in your marketing campaigns. Or, increase conversion by making any image, style guide, or lookbook shoppable. -->
 <!-- NOT FOUND * [Webinar: Accelerate Your Content Delivery Lifecycle](https://adobecustomersuccess.adobeconnect.com/p88ducm9pqv/): An introduction and demonstration of Adobe Experience Manager Assets: On Demand, the next generation platform for rich media management and delivery. Learn how to collaborate and share assets between creative and marketing teams to streamline asset review processes. Learn best practices so you can manage asset metadata efficiently. Doing so makes assets easy to find, use, reuse and share. Learn also how to deliver interactive cross-channel rich media experiences. -->
 <!-- NOT FOUND * [Webinar: Design for Mobile Optimization](https://adobecustomersuccess.adobeconnect.com/p6oqd3wydif/?launcher=false&fcsContent=true&pbMode=normal&proto=true): Using Adobe Dynamic Media Classic you can efficiently deliver targeted rich media to all devices. Learn how to design and deliver imaging and video viewing experiences that are effective across mobile apps and responsive sites. -->
@@ -62,5 +54,6 @@ Adobe Dynamic Media Classic 도움말에 오신 것을 환영합니다. 여기�
 
 ## Adobe Dynamic Media Classic 교육
 
-[여기](https://learning.adobe.com/courses.html#product=adobe-scene7)로 이동하여 현재 사용 가능한 교육 과정을 확인하십시오.
+[여기](https://experienceleague.adobe.com/en/premium/premium-search?sort=relevance&q=dynamic+media)&#x200B;(으)로 이동
+
 [Adobe Dynamic Media Classic 교육 비디오](/help/using/training-videos.md).
