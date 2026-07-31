@@ -40,7 +40,7 @@ Adobe Dynamic Media Classic 도움말에 오신 것을 환영합니다. 여기�
 
 ## Dynamic Media 개발자 리소스
 
-* [Dynamic Media 개발자 리소스 랜딩 페이지](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources): 포함:
+* [Dynamic Media 개발자 리소스 랜딩 페이지](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources): 포함:
   * 뷰어 참조 안내서
   * 이미지 제공/이미지 렌더링 API
   * 이미지 프로덕션 시스템 API
@@ -50,7 +50,7 @@ Adobe Dynamic Media Classic 도움말에 오신 것을 환영합니다. 여기�
 ## Adobe Dynamic Media Classic 사용자 리소스
 
 * [Dynamic Media 월간 뉴스레터](dynamic-media-newsletter.md)
-* [Adobe Dynamic Media Classic 우수 사례 자습서](https://experienceleague.adobe.com/en/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
+* [Adobe Dynamic Media Classic 우수 사례 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 * [안내서: 이미지 선명하게 하기를 위한 우수 사례 안내서](/help/using/assets/s7_sharpening_images.pdf)
 * [안내서: Adobe Dynamic Media Classic에서 SEO를 지원하는 방법](/help/using/assets/s7_seo.pdf): 검색 엔진을 통해 웹 사이트 및 이미지를 검색할 수 있습니다. Adobe Dynamic Media Classic은 더 많은 트래픽이 Adobe Dynamic Media Classic 사용자 웹 사이트로 유도되도록 이미지 검색 엔진을 최적화하도록 하는 노력을 지원합니다. 이 PDF 안내서는 이러한 결과를 달성하기 위한 배경 및 구현 권장 사항을 제공합니다.
 <!-- * [Webinar: Best Practices for Responsive Design](http://offers.adobe.com/en/na/marketing/landings/_40458_responsive_design_live_on_demand_webinar.html): Learn practical tips on how to improve your mobile strategy. See real-world examples of responsive design in action. Create one primary asset that works across multiple devices and increase mobile performance by dynamically changing the resolution of images or the orientation of images for portrait or landscape displays. Learn how to also dynamically crop, scale, or resize images. -->
@@ -62,6 +62,6 @@ Adobe Dynamic Media Classic 도움말에 오신 것을 환영합니다. 여기�
 
 ## Adobe Dynamic Media Classic 교육
 
-[여기](https://experienceleague.adobe.com/en/premium/premium-search?sort=relevance&q=dynamic+media)&#x200B;(으)로 이동
+[여기](https://experienceleague.adobe.com/ko/premium/premium-search?sort=relevance&q=dynamic+media)&#x200B;(으)로 이동
 
 [Adobe Dynamic Media Classic 교육 비디오](/help/using/training-videos.md).
