@@ -12,16 +12,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T19:47:10.191Z'
 TQID: 'https://experienceleague.adobe.com/wE2C1kA1I2fYIkXCqMvw-hPWIV5GMcj1Y0-dgkALyyc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 74b2fd3a2c7808f5a3cb73bdece56d2914090d8e
 workflow-type: tm+mt
-source-wordcount: 443
-ht-degree: 38%
+source-wordcount: 448
+ht-degree: 32%
 
 ---
 
@@ -31,12 +28,12 @@ Adobe Dynamic Media Classic에서 편집한 자산을 로컬 네트워크 드라
 
 내보내기 작업에 대해 ZIP 압축 파일의 최대 파일 크기는 1 GB입니다. 또한 내보내기 작업당 최대 500개의 총 에셋이 허용됩니다.
 
-Adobe Dynamic Media Classic은 작업 화면에 작업 내보내기 기록을 보관합니다.
+Adobe Dynamic Media Classic은 [작업] 화면에 내보내기 작업 기록을 보관합니다.
 
 **Adobe Dynamic Media Classic에서 자산을 내보내려면:**
 
 1. 내보낼 자산을 선택한 다음 **[!UICONTROL 파일]** > **[!UICONTROL 내보내기]**(으)로 이동합니다.
-1. [선택한 자산 내보내기] 창에서 **[!UICONTROL [이미지 선택 사항]]**&#x200B;을 클릭하고 다음 중 원하는 선택 사항을 지정합니다. 사용자가 사용할 수 있는 선택 사항은 관리자가 결정합니다.
+1. 선택한 Assets 내보내기 창에서 **[!UICONTROL 이미지 옵션]**&#x200B;을 클릭하고 다음 옵션 중 하나를 지정합니다(관리자가 소프트웨어 사용자가 사용할 수 있는 옵션을 결정함).
 
    * **[!UICONTROL 사전 설정]**: 에셋을 내보낼 때 에셋의 형식을 지정하려면 [이미지 사전 설정]을 선택합니다(선택 사항). 이미지 사전 설정을 선택하면 자산이 이미지 사전 설정에서 정의된 형식을 사용하기 때문에 다른 형식 지정 선택 사항은 사용할 수 없습니다.
 
@@ -86,4 +83,4 @@ Adobe Dynamic Media Classic은 작업 화면에 작업 내보내기 기록을 �
 다양한 자산 유형의 많은 자산을 내보내는 경우 다음 동작이 발생합니다.
 
 * 내보낼 수 없는 모든 자산 유형은 작업 제출 전에 목록에서 제거됩니다
-* 변환이 요청되면 변환할 수 있는 모든 유형은 이고 다른 모든 유형은 원본으로 내보내집니다
+* 변환이 요청되면 변환할 수 있는 모든 유형이 처리되고 다른 모든 유형은 원본 파일로 내보내집니다
