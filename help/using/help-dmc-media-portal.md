@@ -19,7 +19,7 @@ role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: fa52322e2bccf9ac52380c0af87b5ca2bdb7f709
 workflow-type: tm+mt
 source-wordcount: 87
 ht-degree: 0%
@@ -30,7 +30,7 @@ ht-degree: 0%
 
 Adobe Dynamic Media Classic에서도 다음 도움말 문서를 사용할 수 있습니다.
 
-**Adobe Dynamic Media Classic Media 포털 사용**: Adobe Dynamic Media Classic Media 포털은 포털 사용자가 회사에서 승인한 형식으로 에셋을 업로드하고, 찾아보고, 검색하고, 미리 보고, 내보낼 수 있는 간편한 액세스 권한을 제공하는 브라우저 기반 환경입니다. [https://help.adobe.com/ko_KR/scene7/mediaportal/](https://help.adobe.com/ko_KR/scene7/mediaportal/)을(를) 참조하세요.
+**Adobe Dynamic Media Classic Media 포털 사용**: Adobe Dynamic Media Classic Media 포털은 포털 사용자에게 회사에서 승인한 형식으로 에셋을 업로드, 검색, 검색, 미리 보기 및 내보낼 수 있는 액세스 권한을 제공하는 브라우저 기반 환경입니다. [https://help.adobe.com/ko_KR/scene7/mediaportal/](https://help.adobe.com/ko_KR/scene7/mediaportal/)을(를) 참조하세요.
 
 <!-- 
 Is this topic still needed? -rb 04/22/21

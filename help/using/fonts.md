@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: aff765628275d5725ace65a497424effb8213c37
 workflow-type: tm+mt
-source-wordcount: 430
-ht-degree: 23%
+source-wordcount: 431
+ht-degree: 16%
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Dynamic Media Classic은 다음 글꼴 유형을 지원합니다.
 
 >[!NOTE]
 >
->템플릿 레이어에서 글꼴을 사용하려면 모든 글꼴 스타일(굵게, 기울임체, 굵게/기울임체 및 보통)을 업로드하는 것이 좋습니다. Adobe Dynamic Media Classic은 요청을 처리하기 위해 이러한 글꼴 스타일이 필요합니다. 글꼴과 연결된 `PostScript/Adobe Type1`개의 파일을 모두 업로드하는 것도 좋습니다. 이러한 글꼴 중 일부에는 자세한 커닝 정보가 포함되어 있기 때문입니다.
+>템플릿 레이어에서 글꼴을 사용하려면 모든 글꼴 스타일(굵게, 기울임체, 굵게/기울임체 및 보통)을 업로드하는 것이 좋습니다. Adobe Dynamic Media Classic은 요청을 처리하기 위해 이러한 글꼴 스타일이 필요합니다. 글꼴과 연결된 `PostScript/Adobe Type1`개의 파일을 모두 업로드하는 것도 좋습니다. 이러한 글꼴 중 일부에는 특정 커닝 데이터가 포함되어 있기 때문입니다.
 
 ## 글꼴 파일 업로드 {#uploading-font-files}
 
@@ -49,7 +49,7 @@ Adobe Dynamic Media Classic은 다음 글꼴 유형을 지원합니다.
 
 ## 글꼴 파일 정보 편집 {#editing-font-file-information}
 
-글꼴의 ID 이름과 유형 정보를 변경할 수 있습니다. 글꼴 파일을 편집하면 검색 시 도움이 되며 글꼴을 더 쉽게 식별할 수 있습니다.
+글꼴의 ID 이름과 유형 정보를 변경할 수 있습니다. 글꼴 파일을 편집하면 검색과 함께 글꼴을 보다 쉽게 식별할 수 있습니다.
 
 [찾아보기] 패널에서 [세부 사항 보기]에서 편집할 글꼴 파일을 선택하고 [파일] > [정보 편집]을 선택합니다. [정보 편집] 화면이 열립니다. 다음 옵션을 선택한 다음 **[!UICONTROL 제출]**&#x200B;을 선택하십시오.
 
@@ -63,14 +63,14 @@ Adobe Dynamic Media Classic은 다음 글꼴 유형을 지원합니다.
 
 * **[!UICONTROL 글꼴 스타일]**: 옵션은 일반, 굵게, 기울임체 및 굵은 기울임체입니다.
 
-* **[!UICONTROL 글꼴 유형]**: 옵션은 TrueType 및 Adobe Type 1입니다. 이러한 글꼴을 다른 이름으로 호출하는 경우 해당 이름을 입력할 수 있습니다.
+* **[!UICONTROL 글꼴 유형]**: 옵션은 TrueType 및 Adobe Type 1입니다. 이러한 글꼴을 다른 이름으로 호출하는 경우 이름을 입력할 수 있습니다.
 
 * **[!UICONTROL 글꼴 유형 약어]**: 옵션은 다음과 같습니다.
 
-   * **[!UICONTROL TTF]**: PDF/PostScript 렌더링 및 이미지 제공에 사용되는 TrueType 글꼴 파일입니다.
+  * **[!UICONTROL TTF]**: PDF/PostScript 렌더링 및 이미지 제공에 사용되는 TrueType 글꼴 파일입니다.
 
-   * **[!UICONTROL AFM]**: Adobe 글꼴 메트릭 정보가 들어 있으며 이미지 제공에 사용되는 Adobe PostScript 글꼴 파일입니다.
+  * **[!UICONTROL AFM]**: Adobe 글꼴 메트릭 정보가 들어 있으며 이미지 제공에 사용되는 Adobe PostScript 글꼴 파일입니다.
 
-   * **[!UICONTROL PFM]**: 이진 글꼴 지표 정보가 포함된 Adobe PostScript 글꼴 파일입니다.
+  * **[!UICONTROL PFM]**: 이진 글꼴 지표 정보가 포함된 Adobe PostScript 글꼴 파일입니다.
 
-   * **[!UICONTROL PFB]**: 이진 글꼴 윤곽선 정보가 들어 있으며 PDF/PostScript 렌더링 및 이미지 제공에 사용되는 Adobe PostScript 글꼴 파일입니다.
+  * **[!UICONTROL PFB]**: 이진 글꼴 윤곽선 정보가 들어 있으며 PDF/PostScript 렌더링 및 이미지 제공에 사용되는 Adobe PostScript 글꼴 파일입니다.
