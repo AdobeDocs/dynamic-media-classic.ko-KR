@@ -57,7 +57,7 @@ ht-degree: 16%
 
 eCatalog를 배포하는 표준 방법은 웹 페이지에서 eCatalog 썸네일 표지 페이지를 사용하여 링크를 추가하는 것입니다. eCatalog가 중앙 팝업 창에서 시작되도록 하려면 IT 부서에 문의하십시오. 도구 모음과 주소 표시줄을 숨기려면 브라우저를 구성합니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 참조에서 [포함된 HTML5 eCatalog 뷰어](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)를 참조하십시오.
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조에서 [포함된 HTML5 eCatalog 뷰어](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)를 참조하십시오.
 
 ## eCatalog 뷰어의 포함된 코드 복사 {#copying-the-embed-code-of-an-ecatalog-viewer}
 
