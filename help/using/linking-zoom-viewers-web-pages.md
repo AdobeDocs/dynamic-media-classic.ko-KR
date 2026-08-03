@@ -12,24 +12,20 @@ topic: Administration, Content Management, Development
 level: Intermediate
 autotag-review: '2026-05-13T20:03:57.696Z'
 TQID: 'https://experienceleague.adobe.com/Urf0qGJqj7tCCGDfNwprZnxf6YfDgavWb44pThwds0I'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: a39ab917e54f3c998f3542e0ff6628de720ca017
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 20%
+source-wordcount: 696
+ht-degree: 19%
 
 ---
 
 # 웹 페이지에 확대/축소 뷰어 연결{#linking-zoom-viewers-to-your-web-pages}
 
-웹 사이트 및 애플리케이션은 URL 문자열 또는 포함된 코드를 통해 Dynamic Media 이미지 서버 콘텐츠에 액세스합니다. 이 액세스에는 1차 이미지 및 관련 확대/축소 대상이 포함됩니다. 확대/축소 뷰어 사전 설정도 포함되어 있습니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 이러한 URL 문자열 또는 포함된 코드를 웹 페이지 및 애플리케이션에 배치하려면 Adobe Dynamic Media Classic에서 해당 문자열을 복사합니다.
+웹 사이트 및 애플리케이션은 URL 문자열 또는 임베드된 코드를 통해 Dynamic Media 이미지 서버 콘텐츠에 액세스합니다. 이 액세스에는 1차 이미지 및 관련 확대/축소 대상이 포함됩니다. 확대/축소 뷰어 사전 설정도 포함되어 있습니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 이러한 URL 문자열 또는 포함된 코드를 웹 페이지 및 애플리케이션에 배치하려면 Adobe Dynamic Media Classic에서 해당 문자열을 복사합니다.
 
 >[!NOTE]
 >
@@ -55,9 +51,9 @@ ht-degree: 20%
 
 ## 웹 페이지에 확대/축소 뷰어 URL 추가 {#adding-zoom-viewer-urls-to-your-web-page}
 
-일반적으로 방문자는 먼저 확대/축소 아이콘을 선택하여 웹 사이트에서 이미지를 확대/축소합니다(종종 아이콘에 확대경의 이미지가 표시됨). 이 아이콘을 선택하면 팝업 창에 이미지를 표시하는 동적 웹 페이지(ASP 또는 JSP)가 실행됩니다. 방문자는 실제로 이 팝업 창에서 이미지를 확대/축소합니다.
+일반적으로 방문자는 먼저 확대/축소 아이콘을 선택하여 웹 페이지에서 이미지를 확대합니다(종종 아이콘에 확대경의 이미지가 표시됨). 이 아이콘을 선택하면 팝업 창에 이미지를 표시하는 동적 웹 페이지(ASP 또는 JSP)가 실행됩니다. 팝업 창은 방문자가 이미지를 확대/축소하는 위치입니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서에서 [포함된 HTML5 기본 확대/축소 뷰어](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)를 참조하십시오.
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 안내서에서 [포함된 HTML5 기본 확대/축소 뷰어](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/basic-zoom/c-html5-20-basic-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)를 참조하십시오.
 
 ## 확대/축소 뷰어의 포함된 복사본 복사 {#copying-the-embed-copy-of-a-zoom-viewer}
 
