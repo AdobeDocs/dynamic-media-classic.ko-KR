@@ -12,15 +12,12 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:03:11.713Z'
 TQID: 'https://experienceleague.adobe.com/OhGE3-jniPFknPmpVykZWWSKo2jwdef2sA3Yqo5WpWw'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 9a9818aa4573d17781c157cf51a807f46e56b55b
 workflow-type: tm+mt
-source-wordcount: 710
+source-wordcount: 708
 ht-degree: 16%
 
 ---
@@ -56,7 +53,7 @@ ht-degree: 16%
 
 견본 집합을 배포하는 가장 일반적인 방법은 웹 페이지에 링크(탐색 아이콘 사용)를 배치하는 것입니다. 이 옵션을 선택하면 팝업 확대/축소 창에 견본 세트를 표시하는 동적 페이지(ASP 또는 JSP)가 시작됩니다. 확대/축소 링크는 실제 확대/축소 기능이 포함된 팝업 창을 엽니다.
 
-자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 가이드의 [HTML5 확대/축소 뷰어 포함](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)을 참조하십시오.
+자세한 내용 및 코드 샘플은 Adobe 뷰어 참조 가이드의 [HTML5 확대/축소 뷰어 포함](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/zoom/c-html5-20-zoom-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)을 참조하십시오.
 
 ## 견본 집합 뷰어의 포함된 코드 복사 {#copying-the-embed-code-of-a-swatch-set-viewer}
 
