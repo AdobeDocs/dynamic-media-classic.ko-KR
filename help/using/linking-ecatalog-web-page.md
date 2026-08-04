@@ -19,16 +19,16 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a6b941f1da5843a57d082f6bebc4a75a6c2ee65c
 workflow-type: tm+mt
-source-wordcount: 698
-ht-degree: 20%
+source-wordcount: 683
+ht-degree: 16%
 
 ---
 
 # 웹 페이지에 eCatalog 연결{#linking-an-ecatalog-to-a-web-page}
 
-웹 사이트 및 애플리케이션은 URL 문자열 또는 임베드된 코드를 통해 eCatalogs를 포함한 Dynamic Media 이미지 서버 콘텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지 및 애플리케이션에 eCatalog의 URL 문자열 또는 포함 코드를 배치하려면 Adobe Dynamic Media Classic에서 해당 문자열을 복사합니다.
+웹 사이트 및 애플리케이션은 URL 문자열 또는 임베드된 코드를 사용하여 eCatalogs를 포함한 Dynamic Media 이미지 서버 콘텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 웹 페이지 및 애플리케이션에 eCatalog의 URL 문자열 또는 포함 코드를 배치하려면 Adobe Dynamic Media Classic에서 해당 문자열을 복사합니다.
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ ht-degree: 20%
 
 ## 웹 페이지에 eCatalog URL 추가 {#adding-ecatalog-urls-to-your-web-page}
 
-eCatalog를 배포하는 가장 일반적인 방법은 웹 페이지에서 eCatalog 썸네일 표지 형식으로 링크를 배치하는 것입니다. IT 팀과 협력하여 eCatalog가 간결한 가운데 맞춤 팝업 창에서 시작되도록 합니다. IT 팀에 브라우저의 도구 모음과 주소 표시줄이 표시되지 않도록 요청합니다.
+eCatalog를 배포하는 표준 방법은 웹 페이지에서 eCatalog 썸네일 표지 페이지를 사용하여 링크를 추가하는 것입니다. eCatalog가 중앙 팝업 창에서 시작되도록 하려면 IT 부서에 문의하십시오. 도구 모음과 주소 표시줄을 숨기려면 브라우저를 구성합니다.
 
 자세한 내용 및 코드 샘플은 Adobe 뷰어 참조에서 [포함된 HTML5 eCatalog 뷰어](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-aem-assets-dmc/ecatalog/c-html5-20-ecatalog-viewer-about#section-e1c3106f5b3e445d9b95be337c2f94e2)를 참조하십시오.
 

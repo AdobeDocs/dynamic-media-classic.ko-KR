@@ -20,16 +20,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 98c2209424b1ad028b194d1bdf7c71d77b16b50d
 workflow-type: tm+mt
-source-wordcount: 732
-ht-degree: 21%
+source-wordcount: 729
+ht-degree: 16%
 
 ---
 
 # 웹 페이지에 회전 집합 연결{#linking-a-spin-set-to-a-web-page}
 
-웹 사이트 및 애플리케이션은 URL 문자열 또는 포함된 코드를 통해 스핀 세트를 포함한 Dynamic Media 이미지 서버 콘텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 스핀 세트의 URL 문자열 또는 포함 코드를 웹 페이지 및 애플리케이션에 배치하려면 Adobe Dynamic Media Classic에서 복사하십시오.
+웹 사이트 및 애플리케이션은 URL 문자열 또는 포함된 코드를 사용하여 스핀 세트를 포함한 Dynamic Media 이미지 서버 콘텐츠에 액세스합니다. 이러한 URL 문자열은 게시 프로세스 중에 활성화됩니다. 스핀 세트의 URL 문자열 또는 포함 코드를 웹 페이지 및 애플리케이션에 배치하려면 Adobe Dynamic Media Classic에서 복사하십시오.
 
 >[!NOTE]
 >
@@ -56,13 +56,13 @@ ht-degree: 21%
 
 ## 웹 페이지에 회전 집합 URL 추가 {#adding-spin-set-urls-to-your-web-page}
 
-회전 집합은 모든 확대/축소 뷰어와 마찬가지로 [확대/축소] 창에서 회전 집합을 표시하는 동적 페이지(ASP 또는 JSP)를 통해 배포됩니다. Adobe Dynamic Media Classic 플랫폼에 대한 URL 호출은 확대/축소 뷰어에서 동일한 프로토콜을 따릅니다. 그러나 뷰어 사전 설정 이름은 관리자가 기본 회전 집합 뷰어 사전 설정으로 정의한 사전 설정에 따라 달라집니다. 예를 들어 라이브가 아닌 다음 URL 구문 예에는 `viewer.jsp`이라는 사전 설정 이름이 포함되어 있으며 SKU 매개 변수는 이제 회전 집합 이름입니다.
+스핀 세트는 확대/축소 창에 스핀 세트를 표시하는 동적 페이지(ASP 또는 JSP)를 사용하여 모든 확대/축소 뷰어처럼 배포됩니다. Adobe Dynamic Media Classic Platform에 대한 URL 요청은 확대/축소 뷰어와 동일한 프로토콜을 사용합니다. 그러나 뷰어 사전 설정 이름은 관리자가 기본 회전 집합 뷰어 사전 설정으로 정의한 사전 설정에 따라 달라집니다. 예를 들어 다음 URL 구문 예제(라이브 아님)에는 `viewer.jsp`(이)라는 사전 설정 이름이 포함되어 있으며 SKU 매개 변수는 이제 회전 집합 이름입니다.
 
 ```as3
 https://sample.scene7.com/s7ondemand/spin/viewer.jsp?company=S7Web&sku=backpack_spin
 ```
 
-이 URL 구문 예(링크가 라이브가 아님)에서 SKU 번호(`sku=backpack_spin`)를 확인합니다. `sku=` 뒤에 있는 문자열이 회전 집합 이름( `backpack spin`)입니다.
+이 URL 구문 예(링크가 라이브가 아님)에서 SKU 번호(`sku=backpack_spin`)를 참조하십시오. `sku=` 뒤에 있는 문자열이 회전 집합 이름( `backpack spin`)입니다.
 
 ## 회전 집합 뷰어의 포함된 코드 복사 {#copying-the-embed-code-of-a-spin-set-viewer}
 
