@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Adobe Dynamic Media Classic 사용에 대해 자세히 알아보십시오.
 index: true
-source-git-commit: 0113d50278f9a54db3602b060f978c314b335ff9
+source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '805'
 ht-degree: 19%
 
 ---
@@ -58,7 +58,7 @@ ht-degree: 19%
   + [FTP 계정 관리](ftp-accounts.md)
   + [Media Portal 사용자가 사용할 수 있는 내보내기 옵션 지정](specifying-export-options-available-media.md)
   + [이미지 사전 설정 만들기 및 활성화](creating-enabling-image-presets.md)
-  + [메타데이터를 보다 효율적으로 사용](making-efficient-metadata.md)
+  + [효율적인 메타데이터 관리](making-efficient-metadata.md)
   + [Media Portal 화면 사용자 정의](customizing-media-portal-screen.md)
 + 자산 업로드 및 게시 {#upload-publish}
   + [에셋 업로드 및 게시](about-asset-upload-publish.md)
