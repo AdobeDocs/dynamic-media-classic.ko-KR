@@ -12,21 +12,14 @@ topic: Administration, Collaboration
 level: Intermediate
 autotag-review: '2026-05-13T20:04:17.274Z'
 TQID: 'https://experienceleague.adobe.com/ViAv-ylLlmVONL1lliFC1HPfFYYph4MsGB4gSWCxSJQ'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 28282f7005b22a50a9a49416549c29806e497085
 workflow-type: tm+mt
-source-wordcount: 321
-ht-degree: 65%
+source-wordcount: 320
+ht-degree: 50%
 
 ---
 
@@ -34,7 +27,7 @@ ht-degree: 65%
 
 Media Portal에서는 각기 다른 액세스와 권한을 가진 다음 역할을 제공합니다. 사용자를 등록할 때 사용자에게 다음 역할 중 하나를 지정합니다.
 
-* **[!UICONTROL Media Portal 관리자]**: 관리자, 기여자 및 사용자를 추가하거나 제거할 수 있습니다. 관리자는 그룹 액세스 권한을 설정하고, FTP 계정을 관리하고, 회사에서 승인된 전환 형식(사전 설정)을 지정하고, Media Portal 사용자에게 이메일을 보내고, 포털 사용량 및 저장소 보고를 볼 수도 있습니다.
+* **[!UICONTROL Media Portal 관리자]**: 관리자, 기여자 및 사용자를 추가하거나 제거할 수 있습니다. 또한 관리자는 그룹 액세스 권한을 설정하고, FTP 계정을 관리하고, 회사에서 승인한 전환 형식(사전 설정)을 할당하고, Media Portal 사용자에게 이메일을 보내고, 포털 사용 및 스토리지 보고를 볼 수 있습니다.
 
 * **[!UICONTROL Media Portal 사용자]**: 폴더 및 파일에 액세스할 수 있습니다. 사용자는 파일을 찾고, 미리 보고, 다운로드할 수만 있습니다. 이 역할은 회사에서 승인된 자산에 액세스해야 하는 채널 또는 서비스 파트너에 적합합니다.
 
@@ -42,7 +35,7 @@ Media Portal에서는 각기 다른 액세스와 권한을 가진 다음 역할�
 
 * **[!UICONTROL Media Portal 기여자-사용자]**: 폴더 및 파일에 액세스할 수 있습니다. 기여자 사용자는 이미지와 메타데이터를 검색, 미리보기, 다운로드 및 업로드할 수 있습니다. 기여자 사용자는 파일 이름을 변경하고, 파일을 다른 폴더로 이동하고, 파일을 삭제할 수 있습니다.
 
-다음 표에서는 각 역할이 부여된 사용자가 수행할 수 있는 작업에 대해 설명합니다. 관리자와 기여자-사용자는 이 표에 나열된 모든 작업을 수행할 수 있습니다.
+다음 표에서는 각 역할이 부여된 사용자가 수행할 수 있는 작업에 대해 설명합니다. 관리자 및 기여자 사용자는 이 표에 나열된 모든 작업을 수행할 수 있습니다.
 
 | 작업 | 사용자 | 기여자 | 기여자-사용자 |
 | --- | --- | --- | --- |
