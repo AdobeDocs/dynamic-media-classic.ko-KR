@@ -1,5 +1,5 @@
 ---
-title: 에셋 이동, 이름 변경 및 삭제
+title: Assets 이동, 이름 변경 및 삭제
 description: Adobe Dynamic Media Classic에서 에셋을 이동하고, 이름을 변경하고, 삭제하는 방법에 대해 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,23 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:04:38.888Z'
 TQID: 'https://experienceleague.adobe.com/PhoMSxegLPSABPovcBA94eiSksqAcIMhQV93BcAWh-s'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 86437beff2a5d9e45380e423c760c5f5ffe04411
 workflow-type: tm+mt
-source-wordcount: 613
-ht-degree: 17%
+source-wordcount: 607
+ht-degree: 12%
 
 ---
 
 # 에셋 이동, 이름 변경 및 삭제{#moving-renaming-and-deleting-assets}
 
-[찾아보기] 패널에서 에셋을 이동하고, 이름을 바꾸고, 삭제할 수 있습니다. 텍스트 파일을 사용하여 많은 자산을 동시에 삭제할 수도 있습니다.
+[찾아보기] 패널에서 에셋을 이동하고, 이름을 바꾸고, 삭제할 수 있습니다. 또한 텍스트 파일을 사용하여 여러 에셋을 동시에 삭제할 수 있습니다.
 
 ## 자산 이동 {#move-assets}
 
@@ -52,13 +48,13 @@ ht-degree: 17%
 
 [찾아보기] 패널에서 선택한 에셋을 삭제하고 전체 폴더를 삭제할 수 있습니다. 삭제한 자산과 폴더는 휴지통 폴더로 이동되며, 여기서 영구적으로 삭제되기 전에 7일 동안 유지됩니다.
 
-에셋을 삭제하면 에셋에서 파생된 모든 에셋도 삭제됩니다. 예를 들어, [확대/축소 대상]을 생성한 이미지를 삭제하면 이미지와 함께 [확대/축소 대상]도 삭제됩니다.
+자산을 삭제하면 이 자산에서 파생된 모든 자산도 삭제됩니다. 예를 들어, [확대/축소 대상]을 생성한 이미지를 삭제하면 이미지와 함께 [확대/축소 대상]도 삭제됩니다.
 
-확대/축소 타겟, 이미지 특성 및 내역 항목은 이 항목이 파생된 자산을 삭제할 때 영구적으로 삭제됩니다. 자산과 함께 휴지통 폴더로 이동되지 않으며 휴지통에서 복원할 수 없습니다.
+확대/축소 대상, 이미지 속성 및 기록 항목은 파생된 자산을 삭제하면 영구적으로 삭제됩니다. 자산과 함께 휴지통 폴더로 이동되지 않으며 휴지통에서 복원할 수 없습니다.
 
 >[!IMPORTANT]
 >
->대량 삭제는 집중적인 작업입니다. 대량 삭제를 동시에 많이 수행하는 삭제 작업이 아니라 순차적으로 실행해야 합니다. Adobe에서는 삭제 작업을 시간당 5000개 이하의 자산 삭제로 제한하는 것이 좋습니다. 시간당 5000보다 큰 숫자는 속도 제한을 초래할 수 있습니다.
+>대량 삭제는 리소스를 많이 사용하는 작업입니다. 대규모 동시 삭제 작업이 아닌 순차적으로 일괄 삭제를 실행합니다. Adobe에서는 삭제 작업을 시간당 5000개 이하의 자산 삭제로 제한하는 것이 좋습니다. 시간당 5000보다 큰 양은 속도 제한을 일으킬 수 있습니다.
 
 **자산을 삭제하려면:**
 
@@ -73,11 +69,11 @@ Adobe Dynamic Media Classic에서는 에셋 파일을 삭제하는 이유가 동
 
 ## 텍스트 파일을 사용하여 여러 자산 삭제 {#delete-multiple-assets-with-a-text-file}
 
-자산 라이브러리 전체에서 한 번에 많은 자산을 삭제하려면 삭제할 자산을 텍스트 파일에 나열한 다음 목록을 Adobe Dynamic Media Classic에 제출할 수 있습니다.
+에셋 라이브러리 전체에서 여러 에셋을 한 번에 삭제하려면 삭제하려는 에셋을 텍스트 파일에 나열하고 목록을 Adobe Dynamic Media Classic에 제출할 수 있습니다.
 
-Adobe Dynamic Media Classic ID 목록을 만들고 텍스트(.txt) 파일로 저장합니다. 각 Adobe Dynamic Media Classic ID는 고유한 줄에 있어야 합니다(그 뒤에는 하드 반환).
+Adobe Dynamic Media Classic ID 목록을 만들고 텍스트(.txt) 파일로 저장합니다. 각 Adobe Dynamic Media Classic ID는 고유한 줄에 있어야 합니다(뒤에 캐리지 리턴).
 
-목록을 만든 후 다음 단계를 수행하여 자산을 삭제하는 데 사용합니다.
+목록을 사용하여 자산을 삭제하려면 다음 작업을 수행하십시오.
 
 1. **[!UICONTROL 파일]** > **[!UICONTROL 자산 목록 삭제]**(으)로 이동합니다.
 1. **[!UICONTROL 삭제된 자산 목록]** 대화 상자에서 삭제할 자산 목록이 있는 텍스트 파일의 경로를 입력합니다.
