@@ -1,5 +1,5 @@
 ---
-title: 업로드할 견본 집합 자산 준비
+title: 업로드용 견본 집합 Assets 준비
 description: Adobe Dynamic Media Classic에 업로드할 견본 집합 자산을 준비하는 방법을 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,20 +12,17 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:07:11.598Z'
 TQID: 'https://experienceleague.adobe.com/ycea-WknxKN0HeCGeBB0IjxFV3A4Hgv4MSDsccbIjVE'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 327c9ba1e3d58d2daa8032dbd248c0312a7ec882
 workflow-type: tm+mt
 source-wordcount: 180
 ht-degree: 61%
 
 ---
 
-# 업로드할 견본 집합 자산 준비{#preparing-swatch-set-assets-for-upload}
+# 업로드할 견본 집합 Assets 준비{#preparing-swatch-set-assets-for-upload}
 
 필요한 이미지를 업로드하기 전에 이미지가 올바른 크기와 형식인지 확인합니다. 필요한 견본 파일도 어셈블합니다.
 
