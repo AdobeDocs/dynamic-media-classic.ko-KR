@@ -12,20 +12,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:06:21.685Z'
 TQID: 'https://experienceleague.adobe.com/5qHEB75XuruG3SWp5zXaM3nadbtkW9M7xRvPA0mxo4M'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: cbeb7293d2fbe21f2ec2e585b389c1056404341c
 workflow-type: tm+mt
-source-wordcount: 483
-ht-degree: 21%
+source-wordcount: 478
+ht-degree: 14%
 
 ---
 
@@ -33,21 +27,21 @@ ht-degree: 21%
 
 프로젝트는 자산이 저장된 폴더에 독립적으로 자산을 구성할 수 있는 선택적 보조 방법을 제공합니다. 각 자산을 한 폴더에만 배치할 수 있지만 구성을 위해 여러 프로젝트 폴더에 복사할 수 있습니다.
 
-프로젝트 폴더를 만든 후 이 폴더에 자산을 배치할 수 있습니다. 프로젝트의 Assets은 실제로 에셋이 저장된 에셋 라이브러리 폴더에 대한 포인터입니다. 각 자산을 여러 프로젝트에 배치할 수 있습니다. 예를 들어 블라우스 이미지는 &quot;블라우스&quot; 및 &quot;가을 컬렉션&quot; 프로젝트 폴더 모두에 배치할 수 있습니다.
+프로젝트 폴더를 만든 후 이 폴더에 자산을 배치할 수 있습니다. 프로젝트의 Assets은 에셋이 저장된 에셋 라이브러리 폴더에 대한 포인터입니다. 각 자산을 여러 프로젝트에 배치할 수 있습니다. 예를 들어 셔츠 이미지는 &quot;셔츠&quot; 및 &quot;가을 컬렉션&quot; 프로젝트 폴더 모두에 배치할 수 있습니다.
 
-파일을 업로드할 때 프로젝트를 만들거나 자산 라이브러리 패널에서 프로젝트를 만들 수 있습니다.
-
->[!NOTE]
->
->Adobe Dynamic Media Classic에서는 프로젝트가 아닌 메타데이터로 에셋을 구성할 것을 권장합니다. [메타데이터 보기, 추가 및 내보내기](viewing-adding-exporting-metadata.md)를 참조하십시오.
+자산 라이브러리 패널에서 파일을 업로드하거나 프로젝트를 만들 때 프로젝트를 만들 수 있습니다.
 
 >[!NOTE]
 >
->프로젝트로 자산을 구성하려면 관리자가 프로젝트를 사용할 수 있도록 설정해야 합니다. Assets 라이브러리 하단에 프로젝트 폴더 섹션이 표시되지 않는 경우 이 자산 구성 방법을 사용할 수 없습니다. [[애플리케이션 일반 설정]](application-setup.md#general-settings)을 참조하십시오.
+>Adobe Dynamic Media Classic에서는 프로젝트 대신 메타데이터로 에셋을 구성할 것을 권장합니다. [메타데이터 보기, 추가 및 내보내기](viewing-adding-exporting-metadata.md)를 참조하십시오.
+
+>[!NOTE]
+>
+>Projects에서 에셋을 구성하려면 관리자가 에셋을 사용하도록 계정을 구성해야 합니다. 자산 라이브러리 하단에 프로젝트 폴더 섹션이 표시되지 않는 경우 이 자산 구성 방법을 사용할 수 없습니다. [[애플리케이션 일반 설정]](application-setup.md#general-settings)을 참조하십시오.
 
 ## 프로젝트 폴더 만들기 {#creating-a-project-folder}
 
-Assets 라이브러리에서 시작하거나 Adobe Dynamic Media Classic에 파일을 업로드할 때 프로젝트 폴더를 만들 수 있습니다.
+자산 라이브러리에서 시작하거나 Adobe Dynamic Media Classic에 파일을 업로드할 때 프로젝트 폴더를 만들 수 있습니다.
 
 * **자산 라이브러리에서**: 자산 라이브러리의 맨 아래로 스크롤하여 프로젝트 섹션으로 이동한 다음 **[!UICONTROL 프로젝트 추가]**&#x200B;를 선택합니다. 프로젝트의 이름을 입력합니다.
 
@@ -55,15 +49,15 @@ Assets 라이브러리에서 시작하거나 Adobe Dynamic Media Classic에 파�
 
 >[!NOTE]
 >
->자산 라이브러리의 프로젝트 영역은 단일 수준 폴더 목록이며, 하위 폴더를 허용하지 않습니다.
+>자산 라이브러리의 프로젝트 영역은 단일 수준 폴더 목록이며, 하위 폴더는 허용하지 않습니다.
 
 ## 프로젝트 폴더 작업 {#working-with-project-folders}
 
-프로젝트 폴더를 표시하고 삭제하고 이름을 변경하려면 다음 중 하나를 수행합니다.
+프로젝트 폴더를 표시하고 삭제하고 이름을 변경하려면 다음 방법 중 하나를 사용합니다.
 
 * **콘텐츠 검색**: 자산 라이브러리에 있는 폴더의 이름을 선택하십시오. 에셋이 [찾아보기] 패널에 표시됩니다.
 
-* **프로젝트 폴더 삭제**: 프로젝트 폴더를 선택한 다음 **[!UICONTROL 프로젝트 제거]**&#x200B;를 선택합니다. 프로젝트 폴더에서 에셋을 삭제해도 Adobe Dynamic Media Classic에서는 삭제되지 않습니다. 에셋은 에셋이 저장된 원래 폴더에 유지됩니다.
+* **프로젝트 폴더 삭제**: 프로젝트 폴더를 선택한 다음 **[!UICONTROL 프로젝트 제거]**&#x200B;를 선택합니다. 프로젝트 폴더에서 에셋을 제거해도 Adobe Dynamic Media Classic에서 삭제되지는 않습니다. 에셋은 원래 저장소 폴더에 유지됩니다.
 
 * **프로젝트 폴더 이름 바꾸기**: [자산] 패널에서 폴더 이름을 두 번 클릭한 다음 새 이름을 입력합니다.
 
