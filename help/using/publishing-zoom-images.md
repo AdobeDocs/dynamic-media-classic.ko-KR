@@ -12,15 +12,11 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:09:16.669Z'
 TQID: 'https://experienceleague.adobe.com/-mCHk61QcX9lrUqRCCeKFMvXGGJ3oJuu3-MlZL4G-Mc'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 2f233c96497a020111949c809066160717d7ca91
 workflow-type: tm+mt
 source-wordcount: 154
 ht-degree: 0%
@@ -33,7 +29,7 @@ ht-degree: 0%
 
 ## 게시할 이미지 표시 {#marking-images-for-publish}
 
-Dynamic Media 이미지 서버에 복사하려면 이미지가 게시용으로 표시되어야 합니다. **[!UICONTROL 게시용으로 표시]** 아이콘을 선택하여 검색 패널에서 게시할 이미지를 표시할 수 있습니다. 업로드할 때 게시할 이미지를 표시할 수도 있습니다.
+Dynamic Media 이미지 서버에 복사하려면 이미지를 게시용으로 표시해야 합니다. **[!UICONTROL 게시용으로 표시]** 아이콘을 선택하여 검색 패널에서 게시할 이미지를 표시할 수 있습니다. 업로드할 때 게시할 이미지를 표시할 수도 있습니다.
 
 ## 이미지 게시 {#publishing-the-images}
 
