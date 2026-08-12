@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: b7031d38bb5093c8fad86927ac0020020fb801e2
 workflow-type: tm+mt
-source-wordcount: 870
-ht-degree: 19%
+source-wordcount: 853
+ht-degree: 15%
 
 ---
 
@@ -33,9 +33,9 @@ ht-degree: 19%
 
 **비디오 뷰어에서 비디오를 미리 보려면:**
 
-1. 왼쪽의 자산 라이브러리 패널의 표시 드롭다운 목록에서 **[!UICONTROL 비디오]**(단일 인코딩 비디오) 또는 **[!UICONTROL 응용 비디오 집합]**&#x200B;을 선택합니다. 응용 비디오 인코딩 사전 설정을 사용하면 다중 비트 전송률이 인코딩된 비디오 세트가 생성됩니다.
-1. 왼쪽의 자산 라이브러리 패널에서 자산 폴더를 탐색하여 미리 보려는 비디오를 선택합니다.
-1. 다음 중 하나를 수행합니다.
+1. 왼쪽의 자산 라이브러리 패널의 표시 드롭다운 목록에서 **[!UICONTROL 비디오]**(단일 인코딩 비디오) 또는 **[!UICONTROL 응용 비디오 집합]**&#x200B;을 선택합니다. 응용 비디오 인코딩 사전 설정은 다중 비트 전송률이 인코딩된 비디오 집합을 생성합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 에셋 폴더를 탐색하여 미리 볼 비디오를 선택합니다.
+1. 다음 중 하나를 수행하십시오.
 
    * Assets 창 위의 도구 모음 오른쪽에서 **[!UICONTROL 목록 보기]**&#x200B;를 선택합니다. 에셋 창에서 에셋을 마우스로 가리킨 다음 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다.
    * Assets 창 위의 도구 모음 오른쪽에서 **[!UICONTROL 눈금 보기]**&#x200B;를 선택합니다. 자산 창의 자산 축소판 창에서 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다.
@@ -49,7 +49,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic은 데스크탑에서 MP4 비디오를 미리 볼 수 있는 편리한 방법을 제공합니다. 이 방법을 사용할 경우 모바일 장치에서 실제로 테스트하지 않고도 데스크톱에서 모바일 컨텐츠를 미리 볼 수 있습니다. 그러나 데스크탑 미리 보기에 표시되는 내용은 모바일 장치에서 재생이 어떻게 표시되는지 사실적으로 보여 주지 않습니다. 모바일 장치에서 비디오가 어떻게 보이고 재생되는지 미리 보려면 [미리 보기] 화면으로 이동합니다. **[!UICONTROL URL 복사]**&#x200B;를 클릭하고 모바일 장치의 웹 브라우저에 해당 URL을 입력합니다. 자세한 내용은 [웹 사이트 및 모바일 사이트에 비디오 배포](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)를 참조하십시오.
+>Adobe Dynamic Media Classic을 사용하면 데스크탑에서 MP4 비디오를 미리 볼 수 있습니다. 이 방법을 사용하면 모바일 장치에서 테스트하지 않고 데스크탑에서 모바일 콘텐츠를 미리 볼 수 있습니다. 그러나 데스크탑 미리 보기는 모바일 장치에서의 재생을 정확하게 반영하지 않습니다. 모바일 장치에서 비디오가 어떻게 보이고 재생되는지 미리 보려면 [미리 보기] 화면으로 이동합니다. **[!UICONTROL URL 복사]**&#x200B;를 클릭하고 모바일 장치의 웹 브라우저에 해당 URL을 입력합니다. 자세한 내용은 [웹 사이트 및 모바일 사이트에 비디오 배포](deploying-video-websites-mobile-sites.md#deploying_video_to_your_websites_and_mobile_sites)를 참조하십시오.
 
 ## 비디오 뷰어 사전 설정 작업 {#working-with-video-viewer-presets}
 

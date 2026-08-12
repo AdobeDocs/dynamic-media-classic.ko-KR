@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: a6f31cfc417aa908738642a9543ada88b4620c02
 workflow-type: tm+mt
-source-wordcount: 735
-ht-degree: 25%
+source-wordcount: 734
+ht-degree: 20%
 
 ---
 
 # PDF 작업{#working-with-pdfs}
 
-PDF(Portable Document Format) 파일은 Adobe Dynamic Media Classic에서 eCatalogs를 만드는 데 가장 많이 사용됩니다. PDF 파일, Adobe Dynamic Media Classic을 업로드할 때 페이지가 기본적으로 래스터화 또는 rip되어 리치 미디어를 빌드하는 데 사용할 수 있습니다.
+PDF(Portable Document Format) 파일은 Adobe Dynamic Media Classic에서 eCatalogs를 만드는 데 가장 많이 사용됩니다. PDF 파일을 업로드할 때 Adobe Dynamic Media Classic은 기본적으로 페이지를 래스터화하므로 해당 페이지를 사용하여 리치 미디어를 작성할 수 있습니다.
 
 페이지 추출을 위해 PDF을 업로드할 때 Adobe은 다음 제한을 적용합니다.
 
@@ -39,13 +39,13 @@ PDF(Portable Document Format) 파일은 Adobe Dynamic Media Classic에서 eCatal
 
 ## PDF 업로드 선택 사항 {#pdf-upload-options}
 
-PDF 파일을 업로드할 때 다양한 방법으로 형식을 지정할 수 있습니다. 페이지를 자르고, 검색어를 추출하고, 인치당 픽셀 수 해상도를 입력하고, 색상 공간을 선택합니다. PDF 파일에는 종종 트림 여백, 자르기 표시, 등록 표시 및 기타 프린터 표시가 들어 있습니다. PDF 파일을 업로드할 때 페이지 측면에서 이러한 표시를 자를 수 있습니다.
+PDF 파일을 업로드할 때 다양한 방법으로 형식을 지정할 수 있습니다. 페이지를 자르고, 검색어를 추출하고, 인치당 픽셀 수를 입력하고, 색상 공간을 선택할 수 있습니다. PDF 파일에는 종종 재단 여백, 재단선, 등록 표시 및 기타 인쇄 표시가 들어 있습니다. PDF 파일을 업로드할 때 페이지 측면에서 이러한 표시를 자를 수 있습니다.
 
 PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지에 있습니다.
 
 ### 처리 옵션
 
-**[!UICONTROL 래스터화]**: (기본값) PDF 파일의 페이지를 분리하고 벡터 그래픽을 비트맵 이미지로 변환합니다. eCatalog를 만들려면 이 옵션을 선택합니다.
+**[!UICONTROL 래스터화]**: (기본값) PDF 파일의 페이지를 래스터화하고 벡터 그래픽을 비트맵 이미지로 변환하려면 이 옵션을 사용합니다. eCatalog를 만들려면 이 옵션을 선택합니다.
 
 **[!UICONTROL 검색 단어 추출]**: 파일의 키워드를 eCatalog 뷰어에서 검색할 수 있도록 PDF 파일에서 단어를 추출합니다.
 
@@ -75,7 +75,7 @@ PDF 파일을 업로드하는 옵션은 PDF 옵션 아래의 업로드 페이지
 
 * **[!UICONTROL 원래 색 공간 유지]**: 원래 색 공간을 유지합니다.
 
-* **[!UICONTROL 사용자 지정 변환]** > **[!UICONTROL 변환]**: 색상 공간으로 변환할 수 있도록 메뉴를 엽니다. 표준 Photoshop 색상 공간 또는 Adobe Dynamic Media Classic에 업로드한 색상 공간을 선택할 수 있습니다.
+* **[!UICONTROL 사용자 지정 시작]** > **[!UICONTROL 끝]**: `Convert From` 및 `Convert To` 색 공간을 선택할 수 있도록 메뉴를 엽니다. 표준 Adobe Photoshop 색상 공간 또는 Adobe Dynamic Media Classic에 업로드한 색상 공간을 선택할 수 있습니다.
 
 [ICC 프로필](/help/using/icc-profiles.md#icc_profiles)을 참조하십시오.
 
@@ -88,11 +88,11 @@ PDF 파일을 업로드할 때 자동으로 공백 픽셀을 자를 수 있습�
 
    * **[!UICONTROL 다음을 기준으로 트림]**: 색상 또는 투명도를 기준으로 자를지 여부를 선택합니다.
 
-      * **[!UICONTROL 색상]**: 색상 옵션을 선택합니다. 그런 다음 **[!UICONTROL 모서리]** 메뉴를 선택하고 자르려는 공백 색상을 가장 잘 나타내는 색상으로 PDF 모서리를 선택합니다.
+     * **[!UICONTROL 색상]**: 색상 옵션을 선택합니다. 그런 다음 **[!UICONTROL 모서리]** 메뉴를 선택하고 자르려는 공백 색상을 가장 잘 나타내는 색상으로 PDF 모서리를 선택합니다.
 
-      * **[!UICONTROL 투명도]**: 투명도 옵션을 선택합니다.
+     * **[!UICONTROL 투명도]**: 투명도 옵션을 선택합니다.
 
-   * **[!UICONTROL 허용 한도]**: 슬라이더를 드래그하여 0에서 1까지의 허용 한도를 지정하십시오.
+   * **[!UICONTROL 허용 한도]**: 0에서 1까지의 허용 한도를 지정하려면 슬라이더를 끕니다.
 
    * **[!UICONTROL 색상을 기준으로 트리밍]**: PDF 모서리에서 선택한 색상과 정확히 일치하는 경우에만 픽셀을 자르도록 0을 지정합니다. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다.
 
@@ -100,9 +100,9 @@ PDF 파일을 업로드할 때 자동으로 공백 픽셀을 자를 수 있습�
 
 ## PDF 페이지 양쪽에서 자르기 {#cropping-from-the-sides-of-pdf-pages}
 
-PDF 파일을 업로드할 때 페이지 양쪽에서 프린터 표시를 수동으로 제거할 수 있습니다.
+PDF 파일을 업로드할 때 페이지 양쪽에서 인쇄 표시를 수동으로 제거할 수 있습니다.
 
 1. 자르기 메뉴에서 **[!UICONTROL 수동]**&#x200B;을 선택합니다.
 1. [위쪽], [오른쪽], [아래쪽] 및 [왼쪽] 텍스트 상자에 픽셀 설정을 입력하여 페이지 위쪽, 아래쪽 및 측면에서 자릅니다.
 
-잘리는 페이지 양은 PDF 파일에 대해 입력한 [해상도 PX/인치] 설정에 따라 달라집니다. 예를 들어 해상도 PX/인치(Resolution PX/Inch) 설정으로 150(기본값)을 입력한다고 가정합니다. 그런 다음 페이지 양쪽에서 75픽셀을 자릅니다. 이 경우 0.5인치 이(가) 잘립니다. 인치당 150픽셀에서는 75픽셀이 0.5인치입니다.
+자르는 페이지의 양은 PDF 파일에 입력하는 해상도 PX/인치 설정에 따라 다릅니다. 예를 들어 해상도 PX/인치(Resolution PX/Inch) 설정으로 150(기본값)을 입력한다고 가정합니다. 그런 다음 페이지 양쪽에서 75픽셀을 자릅니다. 이 경우 0.5인치 이(가) 잘립니다. 인치당 150픽셀에서는 75픽셀이 0.5인치입니다.

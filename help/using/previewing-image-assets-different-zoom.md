@@ -1,5 +1,5 @@
 ---
-title: 다른 확대/축소 뷰어로 이미지 자산 미리 보기
+title: 다른 확대/축소 뷰어로 이미지 Assets 미리 보기
 description: Adobe Dynamic Media Classic에서 다양한 확대/축소 뷰어를 사용하여 이미지 에셋을 미리 보는 방법에 대해 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 89eddd2da3c67714ba6c239a371763ae731d8b49
 workflow-type: tm+mt
 source-wordcount: 251
-ht-degree: 28%
+ht-degree: 18%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 28%
 **다른 확대/축소 뷰어로 이미지 에셋을 미리 보려면:**
 
 1. 왼쪽의 자산 라이브러리 패널에 있는 [표시] 드롭다운 목록에서 이미지 기반 자산 유형(예: 이미지 또는 이미지 집합)을 선택합니다.
-1. 왼쪽의 자산 라이브러리 패널에서 확대/축소 뷰어로 미리 보려는 이미지가 들어 있는 자산 폴더를 탐색합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 확대/축소 뷰어로 미리 볼 이미지가 포함된 에셋 폴더로 이동합니다.
 1. 다음 중 하나를 수행하십시오.
 
    * Assets 창 위의 도구 모음 오른쪽에서 **[!UICONTROL 눈금 보기]**&#x200B;를 선택합니다. 자산 창의 썸네일 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**(으)로 이동합니다.

@@ -18,16 +18,16 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 3f3b662bf92a81b908f0f10ded2e5c19aa62266a
 workflow-type: tm+mt
-source-wordcount: 258
-ht-degree: 22%
+source-wordcount: 259
+ht-degree: 1%
 
 ---
 
 # eCatalog 뷰어에서 eCatalog 미리 보기{#previewing-ecatalogs-in-the-ecatalog-viewer}
 
-[미리 보기]를 사용하여 다양한 eCatalog 뷰어 사전 설정으로 eCatalog를 표시할 수 있습니다. 다양한 컨트롤을 사용하여 페이지 넘김, 스티커 메모 쓰기, 찾아보기 등을 실험해 볼 수 있습니다.
+미리 보기 기능을 사용하여 다양한 eCatalog 뷰어 사전 설정을 사용하여 eCatalog를 표시할 수 있습니다. 페이지를 넘기고 메모를 추가하고 탐색하기 위해 다른 컨트롤을 사용할 수 있습니다.
 
 [기본 뷰어 구성](application-setup.md#configuring_default_viewers)을 참조하십시오.
 
@@ -35,8 +35,8 @@ ht-degree: 22%
 
 **전자 카탈로그 뷰어에서 전자 카탈로그를 미리 보려면:**
 
-1. 왼쪽의 자산 라이브러리 패널의 표시 드롭다운 목록에서 비디오 또는 비디오 세트와 같은 비디오 기반 자산 유형을 선택합니다.
-1. 왼쪽의 자산 라이브러리 패널에서 eCatalog 뷰어로 미리 보려는 비디오가 들어 있는 자산 폴더를 탐색합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 표시 드롭다운 목록의 eCatalog 또는 eCatalog 세트와 같은 eCatalog 기반 에셋 유형을 선택합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 eCatalog 뷰어로 미리 볼 eCatalog가 포함된 에셋 폴더로 이동합니다.
 1. 다음 중 하나를 수행하십시오.
 
    * Assets 창 위의 도구 모음 오른쪽에서 **[!UICONTROL 눈금 보기]**&#x200B;를 선택합니다. 자산 창의 썸네일 이미지 아래에서 **[!UICONTROL 미리 보기]** > **[!UICONTROL 뷰어 목록]**(으)로 이동합니다.
