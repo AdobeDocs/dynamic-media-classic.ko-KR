@@ -18,9 +18,9 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 149675d236e33ffb14ef1dee7eae6f405fc06325
 workflow-type: tm+mt
-source-wordcount: 178
+source-wordcount: 176
 ht-degree: 10%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 10%
 
 ## 게시할 회전 집합 표시 {#marking-a-spin-set-for-publish}
 
-Adobe Dynamic Media Classic 이미지 서버에 복사할 회전 집합을 게시용으로 표시합니다. 이름 왼쪽에 있는 **[!UICONTROL 게시용으로 표시]** 아이콘을 선택하여 찾아보기 패널에서 회전 집합의 게시를 표시할 수 있습니다. 회전 집합 자체를 게시로 표시하면 집합에 있는 모든 이미지가 게시로 표시됩니다.
+회전 집합을 Adobe Dynamic Media Classic 이미지 서버에 복사하도록 게시용으로 표시합니다. 이름 왼쪽에 있는 **[!UICONTROL 게시용으로 표시]** 아이콘을 선택하여 찾아보기 패널에서 회전 집합을 게시용으로 표시할 수 있습니다. 회전 집합 자체를 게시로 표시하면 집합에 있는 모든 이미지가 게시로 표시됩니다.
 
 ## 회전 집합 게시 {#publishing-the-spin-set}
 
