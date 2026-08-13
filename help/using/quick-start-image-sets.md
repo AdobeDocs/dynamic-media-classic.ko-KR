@@ -12,24 +12,21 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:09:40.553Z'
 TQID: 'https://experienceleague.adobe.com/s3cXJgoACODCKQ8oMlykXjLAVmx6yWw9F2EC-3EbR0k'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: c1f9ca034a6cc7545f18a41876f737eb9144e157
 workflow-type: tm+mt
-source-wordcount: 719
-ht-degree: 11%
+source-wordcount: 707
+ht-degree: 10%
 
 ---
 
 # 빠른 시작: 이미지 집합{#quick-start-image-sets}
 
-Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 이미지 세트 뷰어에서 사용자는 썸네일 이미지를 선택하여 항목의 다양한 보기를 볼 수 있습니다. 이미지 세트 를 사용하면 항목의 대체 고해상도 보기를 표시할 수 있습니다.
+Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 이미지 세트 뷰어에서 사용자는 썸네일 이미지를 선택하여 항목의 다양한 보기를 볼 수 있습니다. 이미지 집합을 사용하면 항목의 대체 고해상도 보기를 표시할 수 있습니다.
 
-이미지 집합 뷰어에서는 이미지를 자세히 검사하기 위해 확대/축소 도구를 제공합니다. 원하는 경우 안내식 확대/축소 대상 및 이미지 맵 을 이미지 세트의 일부로 만들 수 있습니다. 이미지 집합은 보다 조화롭고 친근한 보기 환경을 제공합니다.
+이미지 집합 뷰어에서는 이미지를 자세히 검사하기 위해 확대/축소 도구를 제공합니다. 안내식 확대/축소 대상 및 이미지 맵 을 이미지 세트의 일부로 만들 수 있습니다. 이미지 세트는 보다 일관되고 포커스가 있는 보기 환경을 제공합니다.
 
 [이미지 및 회전 집합: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/556_Image%20&%20Spin%20Sets_converted%20renamed_Dynamic%20Imaging-AVS) 교육 비디오를 참조하십시오.
 
@@ -44,11 +41,11 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 [Dynamic Media 제한 사항](/help/using/limitations.md)도 참조하세요.
 
-다음 이미지 세트 빠른 시작은 Adobe Dynamic Media Classic의 이미지 세트 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
+다음 이미지 집합 빠른 시작은 [!DNL Adobe Dynamic Media Classic]에서 이미지 집합 기술을 사용하는 데 도움이 되도록 디자인되었습니다.
 
 ## &#x200B;1. 여러 보기 및 견본에 대한 1차 이미지 업로드
 
-먼저 이미지 집합에 사용할 이미지를 업로드합니다. 사용자는 이미지 세트 뷰어에서 이미지를 확대할 수 있으므로 이미지를 선택할 때 이 기능을 고려해야 합니다. 이미지의 크기가 2000픽셀 이상인지 확인하십시오. Adobe Dynamic Media Classic은 다양한 이미지 파일 형식을 지원하지만 손실 없는 TIFF, PNG 및 EPS 이미지가 권장됩니다.
+먼저 이미지 집합에 사용할 이미지를 업로드합니다. 사용자는 이미지 세트 뷰어에서 이미지를 확대할 수 있으므로 이미지를 선택할 때 이 기능을 평가해야 합니다. 이미지가 가장 큰 차원에서 최소 2000픽셀인지 확인합니다. Adobe Dynamic Media Classic은 다양한 이미지 파일 형식을 지원하지만 손실 없는 TIFF, PNG 및 EPS 이미지가 권장됩니다.
 
 전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터의 파일을 Adobe Dynamic Media Classic의 폴더로 업로드합니다.
 
@@ -58,7 +55,7 @@ Adobe Dynamic Media Classic 이미지 세트는 사용자에게 통합된 보기
 
 이미지 세트에서 사용자는 이미지 세트 뷰어에서 썸네일 이미지를 선택하여 다른 측면 또는 각도의 이미지를 봅니다.
 
-이미지 집합을 만들려면 전역 탐색 모음에서 **[!UICONTROL 빌드]**&#x200B;를 선택한 다음 **[!UICONTROL 이미지 집합]**&#x200B;을 선택하십시오. 이미지 세트 창에서 이미지를 페이지로 드래그하여 이미지 세트를 작성합니다. 필요한 경우 이미지를 구성, 추가, 삭제합니다.
+이미지 집합을 만들려면 전역 탐색 모음에서 **[!UICONTROL 빌드]**&#x200B;를 선택한 다음 **[!UICONTROL 이미지 집합]**&#x200B;을 선택하십시오. 이미지 집합을 작성하려면 이미지를 이미지 집합 창의 페이지로 끕니다. 필요한 경우 이미지를 구성, 추가, 삭제합니다.
 
 [이미지 집합 만들기](creating-image-set.md#creating-an-image-set)를 참조하세요.
 
