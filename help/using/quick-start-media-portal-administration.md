@@ -12,28 +12,22 @@ topic: Collaboration, Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:17.674Z'
 TQID: 'https://experienceleague.adobe.com/FSvq-Pe4KTPk2wslzWUkBExR1rZNQAqB90Xw5e-QT-Q'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 42facb1222886a1f2b37ae5dbf2af2d163a8fc88
 workflow-type: tm+mt
-source-wordcount: 859
-ht-degree: 35%
+source-wordcount: 830
+ht-degree: 20%
 
 ---
 
 # 빠른 시작: Media Portal{#quick-start-media-portal}
 
-Media Portal을 통해 회사는 승인된 자산을 외부 파트너 및 채널과 회사 내부 사용자에게 쉽게 취득, 제어 및 배포할 수 있습니다. 이 브라우저 기반 &quot;셀프서비스&quot; 환경은 Media Portal 사용자에게 Adobe Dynamic Media Classic 에셋에 대한 관리자 제어 &quot;보기&quot;를 제공하여 회사에서 승인한 포맷으로 에셋에 쉽게 액세스, 탐색, 검색, 미리보기 및 내보낼 수 있도록 합니다.
+Media Portal을 사용하면 승인된 자산을 외부 파트너 및 채널과 내부 사용자에게 쉽게 취득, 제어 및 배포할 수 있습니다. 이 브라우저 기반 &quot;셀프서비스&quot; 환경은 Adobe Dynamic Media Classic 사용자에게 관리자가 제어하는 &quot;보기&quot;를 Media Portal 에셋에 제공하여 회사에서 승인한 형식으로 에셋을 검색, 검색, 미리보기 및 내보내기에 쉽게 액세스할 수 있도록 합니다.
 
-관리자는 사용자가 Media Portal에서 자산을 보고 액세스하고 사용하는 방법을 제어합니다. 또한 웹 사이트 및 브랜드와 일치하도록 Media Portal 인터페이스를 사용자 지정할 수 있습니다. 글꼴, 글꼴 색상, 글꼴 크기를 지정하고 미디어 포털 인터페이스에 로고와 같은 브랜딩 요소를 통합할 수 있습니다.
+관리자는 사용자가 Media Portal에서 자산을 보고 액세스하고 사용하는 방법을 제어합니다. 웹 사이트와 브랜드를 일치시키기 위해 Media Portal 인터페이스를 사용자 정의할 수 있습니다. 글꼴, 글꼴 색상 및 글꼴 크기를 지정하고 미디어 포털 인터페이스에 로고와 같은 브랜딩 요소를 통합할 수 있습니다.
 
 다음 교육 비디오를 참조하십시오.
 
@@ -43,11 +37,11 @@ Media Portal을 통해 회사는 승인된 자산을 외부 파트너 및 채널
 
 * [미디어 포털 둘러보기 2](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/546_mp_tour2_admin_converted%20renamed_Done-AVS)
 
-다음 빠른 시작은 Media Portal 관리를 빠르게 시작하고 실행할 수 있도록 설계되었습니다. 각 단계가 끝나면 자세히 알아보려면 주제 링크를 선택합니다.
+다음 빠른 시작은 Media Portal 관리를 시작하는 데 도움이 되도록 설계되었습니다. 각 단계가 끝나면 자세히 알아보려면 주제 링크를 선택합니다.
 
 ## &#x200B;1. Media Portal 사용자 역할 이해
 
-Media Portal 사용자는 사용자, 기여자 및 사용자-기여자라는 세 가지 역할에 속합니다. 각 역할이 서로 다른 작업 집합을 수행할 수 있습니다. 예를 들어 기여자는 파일과 폴더의 이름을 바꾸고 삭제할 수 있지만 사용자는 이러한 작업을 수행할 수 없습니다. 사용자를 추가할 때 부여할 책임을 이해하려면 각 역할을 이해해야 합니다.
+Media Portal 사용자는 사용자, 기여자 및 사용자-기여자라는 세 가지 역할에 속합니다. 각 역할이 서로 다른 작업 집합을 수행할 수 있습니다. 사용자와 달리 기여자는 파일 및 폴더의 이름을 변경하거나 삭제할 수 있습니다. 다양한 역할을 이해하여 사용자를 추가할 때 사용자에게 어떤 책임을 할당하는지 이해합니다.
 
 [Media Portal user roles](media-portal-user-roles.md#media_portal_user_roles)을 참조하십시오.
 
@@ -59,19 +53,19 @@ Media Portal 사용자는 사용자, 기여자 및 사용자-기여자라는 세
 
 ## &#x200B;3. 사용자 추가
 
-사용자를 추가할 때 사용자에게 역할(사용자, 기여자 또는 기여자-사용자)을 지정합니다. 사용자를 하나 이상의 그룹에 할당할 수도 있습니다. 사용자를 빨리 추가하기 위해 CSV 파일 형식으로 사용자 목록을 업로드할 수 있습니다. 새 사용자에게는 환영 이메일 메시지와 Media Portal 로그온 지침이 전송됩니다.
+사용자를 추가할 때 사용자에게 역할(사용자, 기여자 또는 기여자-사용자)을 지정합니다. 사용자를 하나 이상의 그룹에 할당할 수도 있습니다. 사용자 추가 프로세스를 간소화하기 위해 사용자 목록을 CSV 파일 형태로 업로드할 수 있습니다. 새 사용자에게 Media Portal에 로그온하기 위한 시작 이메일 메시지와 지침이 전송됩니다.
 
 [Media Portal 사용자 추가 및 관리](adding-media-portal-users.md#adding_and_managing_media_portal_users)를 참조하십시오.
 
 ## &#x200B;4. FTP 계정 관리
 
-Media Portal과 연결된 별도의 FTP 계정이 있을 수 있습니다. 이러한 데이터는 Adobe Dynamic Media Classic 계정의 특정 폴더에 매핑될 수 있습니다. 이러한 기능으로 사용자가 개별 FTP 계정을 사용하여 디지털 자산을 해당 계정으로 업로드하도록 할 수 있습니다.
+Media Portal과 연결된 별도의 FTP 계정이 있을 수 있습니다. 이러한 데이터는 Adobe Dynamic Media Classic 계정의 특정 폴더에 매핑될 수 있습니다. 이 기능을 사용하면 사용자가 별도의 FTP 계정을 사용하여 디지털 에셋을 계정에 업로드할 수 있습니다.
 
 [FTP 계정 관리](ftp-accounts.md#managing_ftp_accounts)를 참조하십시오.
 
 >[!NOTE]
 >
->Media Portal 관리자만 이러한 FTP 계정을 관리할 수 있습니다. 또한 Media Portal 기여자-사용자 또는 Media Portal 기여자 역할이 있는 사용자만 파일을 업로드할 수 있습니다.
+>Media Portal 관리자만 이러한 FTP 계정을 관리할 수 있습니다. 또한 Media Portal 사용자 기여자 또는 Media Portal 기여자 역할이 있는 사용자만 파일을 업로드할 수 있습니다.
 
 [Media Portal 사용자 역할](media-portal-user-roles.md#media_portal_user_roles)을 참조하십시오.
 
@@ -83,13 +77,13 @@ Media Portal 사용자는 파일을 내보낼 때 파일을 다시 포맷하고 
 
 ## &#x200B;6. 이미지 사전 설정 만들기
 
-이미지 사전 설정은 사전 정의된 설정의 컬렉션입니다. 이러한 설정은 내보낼 때 이미지 모양의 크기, 이미지 품질, 형식, 해상도 및 기타 측면을 변경할 수 있습니다. 이미지 사전 설정을 만들어 사용자가 이미지를 내보낼 때 형식을 다시 지정하는 방법을 제어할 수 있습니다.
+이미지 사전 설정은 사전 정의된 설정의 컬렉션입니다. 이러한 설정은 내보낼 때 이미지 모양의 크기, 이미지 품질, 형식, 해상도 및 기타 측면을 변경할 수 있습니다. 사용자가 이미지를 내보낼 때 이미지 서식이 다시 지정되는 방식을 제어하려면 이미지 사전 설정을 만듭니다.
 
 [이미지 사전 설정 만들기 및 활성화](creating-enabling-image-presets.md#creating_and_enabling_image_presets)를 참조하십시오.
 
 ## &#x200B;7. 메타데이터 사전 설정 및 사용자 정의 메타데이터 필드 만들기
 
-메타데이터는 파일을 설명하고 식별합니다. 에셋을 검색하고 구성하는 데 사용됩니다. 메타데이터 사전 설정을 만들어 메타데이터를 올바로 입력하고 데이터가 필요한 메타데이터 필드를 채울 수 있습니다. 메타데이터 사전 설정은 사전 정의된 메타데이터 항목 집합입니다. 작업하는 파일을 고유하게 설명하는 메타데이터 필드를 만들 수도 있습니다.
+메타데이터는 파일을 설명하고 식별합니다. 에셋을 검색하고 구성하는 데 사용됩니다. 메타데이터를 올바르게 입력하고 필수 필드를 채우려면 메타데이터 사전 설정을 만들 수 있습니다. 메타데이터 사전 설정은 사전 정의된 메타데이터 항목 집합입니다. 작업하는 파일을 고유하게 설명하는 메타데이터 필드를 만들 수도 있습니다.
 
 [보다 효율적인 메타데이터 사용](making-efficient-metadata.md#making_more_efficient_use_of_metadata)을 참조하십시오.
 
