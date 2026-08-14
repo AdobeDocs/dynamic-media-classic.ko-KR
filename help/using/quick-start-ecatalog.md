@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
 workflow-type: tm+mt
-source-wordcount: 1572
-ht-degree: 25%
+source-wordcount: 1565
+ht-degree: 23%
 
 ---
 
@@ -65,7 +65,7 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 >
 >이제 Adobe Dynamic Media Classic에서 eCatalogs를 작성할 수 있습니다.
 
-이 eCatalog 빠른 시작은 eCatalog를 빨리 시작하고 실행하는 데 도움이 됩니다. 1-7 단계를 수행하십시오. 각 단계 후에는 추가 정보를 찾을 수 있는 주제 머리글에 대한 상호 참조가 있습니다.
+이 eCatalog 빠른 시작은 eCatalogs를 사용하여 빠르게 작업을 시작할 수 있도록 설계되었습니다. 1-7 단계를 수행하십시오. 각 단계 후에는 추가 정보를 찾을 수 있는 주제 머리글에 대한 상호 참조가 있습니다.
 
 ## &#x200B;1. PDF 파일 업로드
 
@@ -83,7 +83,7 @@ eCatalog를 만드는 과정에서 페이지나 페이지 스프레드를 선택
 
 eCatalog 페이지의 **[!UICONTROL 페이지 순서]** 탭에서 레이아웃 옵션을 선택하십시오. **[!UICONTROL 1 Up]**, **[!UICONTROL 2 Up]** 또는 **[!UICONTROL Custom]**. 페이지 또는 스프레드를 끌거나 큰 eCatalog의 경우 [이동] 메뉴에서 페이지 이름을 선택하여 페이지 또는 스프레드를 다시 정렬할 수 있습니다.
 
-페이지를 추가하려면 자산 라이브러리에서 폴더를 선택하고 PDF 또는 이미지 파일을 [주문 페이지] 화면으로 드래그합니다. 기본 페이지 번호 대신 사용자 지정 페이지 이름을 제공하거나 많은 페이지 이름을 가져올 수 있습니다.
+페이지를 추가하려면 에셋 라이브러리에서 폴더를 선택한 다음 PDF 또는 이미지 파일을 페이지 순서 지정 화면으로 드래그합니다. 기본 페이지 번호 대신 사용자 지정 페이지 이름을 제공하거나 많은 페이지 이름을 가져올 수 있습니다.
 
 **[!UICONTROL 저장]**&#x200B;을 선택하고 전자 카탈로그의 이름을 입력한 다음 저장할 Adobe Dynamic Media Classic 폴더를 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 선택합니다. 페이지 순서를 변경하거나 전자 카탈로그를 편집할 때마다 **[!UICONTROL 저장]**&#x200B;을 선택하여 변경 사항을 저장하십시오.
 
@@ -135,6 +135,6 @@ eCatalog와 PDF을 [찾아보기] 패널에서 게시하도록 선택한 후 전
 
 Adobe Dynamic Media Classic은 Dynamic Media 이미지 서버에 게시할 때 eCatalog를 표시하는 데 필요한 URL 콜아웃 문자열을 활성화합니다. 패널에서 URL을 선택하여 미리보기 화면 및 찾아보기 패널(세부 사항 보기)에서 이 URL 문자열을 복사할 수 있습니다. URL 문자열을 복사하면 웹 사이트 및 애플리케이션에서 사용할 수 있습니다.
 
-IT 팀과 함께 eCatalog에 대한 링크를 웹 페이지의 적절한 위치에 배치합니다. 사용자가 링크를 선택하면 eCatalog 뷰어가 나타나고 사용자는 eCatalog를 검색할 수 있습니다.
+웹 페이지에 eCatalog에 대한 링크를 배치하려면 IT 팀과 협력하십시오. 사용자가 링크를 선택하면 eCatalog 뷰어가 나타나고 사용자는 eCatalog를 검색할 수 있습니다.
 
 [웹 페이지에 전자 카탈로그 연결](linking-ecatalog-web-page.md#linking-an-ecatalog-to-a-web-page)을 참조하세요.

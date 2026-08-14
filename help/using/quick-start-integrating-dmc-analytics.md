@@ -22,20 +22,20 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: afc1e5c58de547307108448ae111af91f1f482e7
 workflow-type: tm+mt
-source-wordcount: 699
-ht-degree: 23%
+source-wordcount: 690
+ht-degree: 17%
 
 ---
 
 # 빠른 시작: Adobe Dynamic Media Classic 및 Adobe Analytics 통합 {#quick-start-integrating-dmc-analytics}
 
-Adobe Analytics는 여러 마케팅 채널을 통한 모든 온라인 이니셔티브의 통합 데이터를 측정, 분석 및 최적화할 수 있는 단일 장소를 마케터에게 제공하는 업계 선도적인 제품입니다.
+Adobe Analytics은 마케터가 여러 마케팅 채널에서 모든 온라인 이니셔티브의 통합 데이터를 측정, 분석 및 최적화할 수 있는 중앙 집중식 위치를 제공하는 업계 선도적인 제품입니다.
 
 Adobe Analytics을 Adobe Dynamic Media Classic과 통합하면 웹 사이트에서 Adobe Dynamic Media Classic 뷰어를 사용하는 웹 사이트 방문자의 동작에 대한 보고서를 얻을 수 있습니다. 예를 들어 웹 사이트 방문자가 Adobe Dynamic Media Classic 확대/축소 뷰어에서 확대/축소 대상을 선택하면 Adobe Analytics은 이 작업을 기록합니다. Adobe Analytics 보고서는 Adobe Dynamic Media Classic 뷰어에서 사용자 활동에 대한 누적 정보를 수집할 수 있습니다.
 
-Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명확하게 파악할 수 있습니다. 어떤 제품 프레젠테이션이 전환을 유도하고 어떤 것이 고객의 관심을 끌지 못하는지 결정할 수 있습니다.
+Adobe Analytics 보고서를 사용하면 웹 사이트에서의 고객 활동을 이해할 수 있습니다. 어떤 제품 프레젠테이션이 전환을 유도하고 어떤 것이 고객의 관심을 끌지 못하는지 결정할 수 있습니다.
 
 [Adobe Analytics에서 비디오 측정](https://experienceleague.adobe.com/ko/docs/media-analytics/using/media-overview)도 참조하세요.
 
@@ -43,13 +43,13 @@ Adobe Analytics 보고서를 사용하면 웹 사이트의 고객 활동을 명�
 >
 >Analytics를 Adobe Dynamic Media Classic과 통합하고 Analytics 보고서를 생성하려면 유효한 Adobe Analytics 계정이 필요합니다.
 
-이 빠른 시작은 Adobe Analytics Instrumentation Kit를 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
+이 안내서는 Adobe Analytics 계측 키트를 구성하는 데 도움이 되도록 설계되었습니다.
 
-## &#x200B;1. Adobe Dynamic Media Classic을 통해 Adobe Analytics에 로그온하고 Adobe Analytics 보고서 변수를 다운로드합니다
+## &#x200B;1. Adobe Dynamic Media Classic에서 Adobe Analytics에 로그인하고 Adobe Analytics 보고서 변수를 다운로드합니다
 
 >[!NOTE]
 >
->Adobe Analytics에서 웹 서비스 액세스 그룹의 구성원으로 추가되었는지 확인합니다. Adobe Analytics 보고서를 구성하기 전에 이 유효성 검사를 수행하십시오. 그리고 Adobe Analytics 보고서 변수를 Adobe Dynamic Media Classic 이벤트에 일치시키기 전에 이 그룹의 구성원은 지정된 보고서 세트의 모든 보고서에 액세스할 수 있습니다. 인터페이스에 설정된 권한에 관계없이 Experience Cloud의 웹 서비스 API를 사용하여 그렇게 할 수 있습니다. 그룹에 구성원을 추가하려면 Adobe Analytics에서 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹 편집]**(으)로 이동합니다.
+>Adobe Analytics에서 웹 서비스 액세스 그룹의 구성원으로 추가되었는지 확인합니다. Adobe Analytics 보고서를 구성하기 전과 Adobe Analytics 보고서 변수를 Adobe Dynamic Media Classic 이벤트에 일치시키기 전에 이 확인을 수행하십시오. 이 그룹의 구성원은 지정된 보고서 세트의 모든 보고서에 액세스할 수 있습니다. 인터페이스에 설정된 권한에 관계없이 Experience Cloud 웹 서비스 API를 사용하여 이 작업을 수행할 수 있습니다. 그룹에 구성원을 추가하려면 Adobe Analytics에서 **[!UICONTROL 관리 도구]** > **[!UICONTROL 사용자 관리]** > **[!UICONTROL 그룹 편집]**(으)로 이동합니다.
 
 웹 서비스 액세스 그룹의 구성원임을 확인한 후 Adobe Dynamic Media Classic에서 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL Adobe Analytics]**(으)로 이동합니다. Adobe Analytics 구성 페이지에서 **[!UICONTROL Adobe Analytics 로그인]**&#x200B;을 선택합니다.
 
