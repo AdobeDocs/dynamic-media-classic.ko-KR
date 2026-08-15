@@ -64,7 +64,7 @@ Adobe Dynamic Media Classic 지원 팀원의 도움을 받아야만 이 설정�
   예를 들어 여러 국가에서 팔리는 다국적 브랜드인 경우 각 국가에서 자체 로케일별 뷰어를 사용하도록 할 수 있습니다. 이 기능을 수행하려면 로케일 맵 문자열을 지정합니다. 그런 다음 뷰어 사전 설정에서 도구 설명 텍스트를 편집합니다. 원하는 언어에 대한 번역된 텍스트 문자열을 추가하기만 하면 됩니다.
 
   >[!NOTE]
-  > 로컬라이제이션 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만드십시오.](https://helpx.adobe.com/business/enterprise.html) 지원 사례에서 설치 도움말을 요청합니다.
+  > 로컬라이제이션 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만드십시오.](https://helpx.adobe.com/kr/business/enterprise.html) 지원 사례에서 설치 도움말을 요청합니다.
 
   **[!UICONTROL 현지화 지원]** 설정에 대한 자세한 내용은 [자산 현지화를 설정할 때 고려 사항](publish-setup.md#considerations_when_setting_up_localization_of_assets)을 참조하십시오.
 
@@ -72,7 +72,7 @@ Adobe Dynamic Media Classic 지원 팀원의 도움을 받아야만 이 설정�
 
 >[!NOTE]
 >
->로케일 맵 필드와 같은 Adobe Dynamic Media Classic에서 로컬라이제이션 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만드십시오.](https://helpx.adobe.com/business/enterprise.html) 지원 사례에서 설치 도움말을 요청합니다.
+>로케일 맵 필드와 같은 Adobe Dynamic Media Classic에서 로컬라이제이션 지원 옵션을 설정하려면 [Admin Console을 사용하여 지원 사례를 만드십시오.](https://helpx.adobe.com/kr/business/enterprise.html) 지원 사례에서 설치 도움말을 요청합니다.
 
 Adobe Dynamic Media Classic을 사용하는 일반적인 방법은 eCommerce 웹 사이트에서 제품 이미지를 관리하는 것입니다. 국제 비즈니스는 유사한 제품에 대한 자산이 지역에 따라 다르다는 과제에 직면해 있습니다. 일반적으로 차이점은 미디어의 몇 가지 구성 요소에 대한 것입니다. 이러한 차이를 각 국가별로 모든 자산을 복사하고 덮어쓰는 등의 방법으로 관리하는 것은 복잡한 작업으로서 일차적인 단일 자산 원칙과 일치하지 않는다. 에셋의 차이점은 오디오 트랙이 다른 국가별 비디오부터 제품과 함께 사용되는 전원 코드의 미묘하지만 중요한 차이점까지 다양합니다. Adobe Dynamic Media Classic은 기본 검색 메커니즘을 사용합니다. 이미지 서버가 표시되는 에셋 접미사의 순서를 필수 로케일에서 시작하여 정의합니다.
 
