@@ -12,38 +12,35 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:10:43.672Z'
 TQID: 'https://experienceleague.adobe.com/vS0okk4Ham0VZzFCWdvOpl48NkeW9Nq5wlH6ZJAWGCM'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 2a9101333a8c097674004fdd1cf1b7f9ea96f9dd
 workflow-type: tm+mt
-source-wordcount: 402
-ht-degree: 21%
+source-wordcount: 398
+ht-degree: 17%
 
 ---
 
 # 빠른 시작: 견본 집합{#quick-start-swatch-sets}
 
-Adobe Dynamic Media Classic 견본 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 견본 집합 뷰어에서 사용자는 썸네일을 선택하기만 해도 다른 색상, 재질, 텍스처, 마무리 또는 패브릭으로 렌더링된 항목을 볼 수 있습니다.
+Adobe Dynamic Media Classic 견본 세트는 사용자에게 통합된 보기 환경을 제공합니다. 동적 견본 집합 뷰어를 사용하면 썸네일을 선택하여 다른 색상, 재질, 텍스처, 마무리 또는 패브릭으로 렌더링된 항목을 볼 수 있습니다.
 
-이 견본 세트 빠른 시작은 Adobe Dynamic Media Classic의 견본 세트 기술을 사용하여 빠르게 시작하고 실행할 수 있도록 설계되었습니다.
+이 견본 세트 빠른 시작은 Adobe Dynamic Media Classic에서 견본 세트 기술을 사용하는 데 도움이 되도록 설계되었습니다.
 
 ## &#x200B;1. 이미지 및 견본 파일 업로드
 
 먼저 견본 집합에 사용할 이미지와 견본 파일을 업로드합니다.
 
-전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터의 파일을 Adobe Dynamic Media Classic의 폴더로 업로드합니다. [업로드할 견본 집합 자산 준비](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) 및 [파일 업로드](uploading-files.md#uploading-your-files)를 참조하세요.
+전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 컴퓨터의 파일을 Adobe Dynamic Media Classic의 폴더로 업로드합니다. [업로드용 견본 집합 Assets 준비](preparing-swatch-set-assets-upload.md#preparing-swatch-set-assets-for-upload) 및 [파일 업로드](uploading-files.md#uploading-your-files)를 참조하십시오.
 
 ## &#x200B;2. 견본 집합 만들기
 
-견본 집합을 만들려면 전역 탐색 모음에서 **[!UICONTROL 빌드]** > **[!UICONTROL 견본 집합]**(으)로 이동하십시오. 견본 집합 페이지에서 이미지 및 색상 견본을 페이지로 드래그합니다. [견본 집합 만들기](creating-swatch-set.md#creating-a-swatch-set)를 참조하세요.
+견본 집합을 만들려면 전역 탐색 모음에서 **[!UICONTROL 빌드]** > **[!UICONTROL 견본 집합]**(으)로 이동하십시오. [견본 집합] 페이지에서 이미지 및 색상 견본을 페이지로 드래그합니다. [견본 집합 만들기](creating-swatch-set.md#creating-a-swatch-set)를 참조하세요.
 
-## &#x200B;3. 견본 집합 뷰어 사전 설정 설정 설정
+## &#x200B;3. 견본 집합 뷰어 사전 설정 구성
 
-관리자는 이미지 집합 뷰어 사전 설정을 만들거나 수정할 수 있습니다. Adobe Dynamic Media Classic에는 각 리치 미디어 유형에 대한 기본 뷰어 사전 설정이 포함되어 있습니다. [확대/축소 뷰어: 사용자 지정] > [이미지 집합/색상 견본] 사전 설정을 사용하여 견본 집합을 봅니다.
+관리자는 이미지 집합 뷰어 사전 설정을 만들거나 수정할 수 있습니다. Adobe Dynamic Media Classic에는 각 리치 미디어 유형에 대한 기본 뷰어 사전 설정이 포함되어 있습니다. [확대/축소 뷰어: 사용자 지정] > [이미지 세트/색상 견본 사전 설정]을 사용하여 견본 세트를 볼 수 있습니다.
 
 [뷰어 사전 설정 만들기 및 편집](application-setup.md#adding-and-editing-viewer-presets)을 참조하십시오.
 
