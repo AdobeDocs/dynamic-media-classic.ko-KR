@@ -12,18 +12,14 @@ topic: Content Management
 level: Beginner
 autotag-review: '2026-05-13T20:11:06.721Z'
 TQID: 'https://experienceleague.adobe.com/lB0O224FfzW1smqCgkraE9czEF4XSD98qarRus6GEFw'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: c4e6d81b0d4ad1e5e8cbbacb0791fc49d2491eed
 workflow-type: tm+mt
-source-wordcount: 1748
-ht-degree: 19%
+source-wordcount: 1728
+ht-degree: 15%
 
 ---
 
@@ -31,21 +27,21 @@ ht-degree: 19%
 
 Adobe Dynamic Media Classic Video는 데스크톱, iOS, Android™, BlackBerry® 및 Windows® 모바일 장치를 비롯한 여러 화면에서 스트리밍하기 위한 고품질 응용 비디오를 쉽게 게시할 수 있는 종단간 솔루션입니다. 적응형 비디오 집합은 다른 비트 전송률 및 형식으로 인코딩된 동일한 비디오의 여러 버전(예: 400kbps, 800kbps 및 1000kbps)을 그룹화합니다. 데스크톱 컴퓨터나 모바일 장치가 사용 가능한 대역폭을 검색합니다.
 
-예를 들어 iOS 모바일 장치에서 3G, 4G 또는 Wi-Fi와 같은 대역폭을 감지합니다. 그런 다음 적응형 비디오 집합 내의 다양한 비디오 비트 전송률 중에서 적합한 인코딩된 비디오를 자동으로 선택합니다. 이 비디오는 데스크톱, 모바일 장치 또는 태블릿으로 스트리밍됩니다.
+예를 들어 iOS 디바이스에서 3G, 4G 또는 Wi-Fi를 감지합니다. 그런 다음 적응형 비디오 집합 내의 다양한 비디오 비트 전송률 중에서 적합한 인코딩된 비디오를 자동으로 선택합니다. 이 비디오는 데스크톱, 모바일 장치 또는 태블릿으로 스트리밍됩니다.
 
-또한 데스크톱이나 모바일 장치에서 네트워크 상태가 변경될 경우 비디오 품질이 자동으로 동적으로 전환됩니다. 또한 고객이 데스크탑에서 전체 화면 모드로 전환하면 응용 비디오 세트가 더 나은 해상도를 사용하여 응답하므로 고객의 시청 경험이 향상됩니다. 응용 비디오 세트를 사용하면 가장 잘 재생할 수 있습니다. 여러 화면 및 장치에서 Adobe Dynamic Media Classic 비디오를 재생하는 고객에게 가장 적합합니다.
+또한 데스크톱 또는 모바일 장치에서 네트워크 상태가 변경되면 비디오 품질 스위치가 자동으로 전환됩니다. 또한 고객이 데스크탑에서 전체 화면 모드로 전환하면 응용 비디오 세트가 더 나은 해상도를 사용하여 응답하므로 고객의 시청 경험이 향상됩니다. 응용 비디오 세트는 최적의 재생을 제공합니다. 여러 화면 및 장치에서 Adobe Dynamic Media Classic 비디오를 재생하는 고객에게 가장 적합합니다.
 
-재생하는 동안 재생하거나 선택할 인코딩된 비디오를 결정하기 위해 비디오 플레이어가 사용하는 논리는 다음 알고리즘을 기준으로 합니다.
+비디오 플레이어는 논리를 사용하여 재생 중에 재생하거나 선택할 인코딩된 비디오를 결정합니다. 이 논리는 다음 알고리즘을 기반으로 합니다.
 
 1. 비디오 플레이어는 플레이어 자체에서 &quot;초기 비트율&quot;에 대해 설정된 값에 가장 가까운 비트율에 따라 초기 비디오 조각을 로드합니다.
 1. 다음 기준을 사용하여 대역폭 속도에 대한 변경 사항에 따라 비디오 플레이어 스위치를 전환합니다.
 
    1. 플레이어는 추정된 대역폭보다 낮거나 같은 가장 높은 대역폭 스트림을 선택한다.
-   1. 플레이어는 가용 대역폭의 80%만 고려합니다. 다만 전환하고 있는 경우에는 과대평가를 피하고 곧바로 다시 전환하는 것이 70%에 그쳐 더 보수적이다.
+   1. 플레이어는 가용 대역폭의 80%만 고려합니다. 다만 비트율을 높이는 경우에는 과대평가하여 바로 역변경하는 것을 피하고자 70%에 그치는 것이 더 보수적이다.
 
 자세한 내용은 [https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp](https://android.googlesource.com/platform/frameworks/av/+/master/media/libstagefright/httplive/LiveSession.cpp)에서 알고리즘 로직을 참조하십시오.
 
-단일 비디오 및 응용 비디오 세트 관리를 위해 Adobe Dynamic Media Classic은 다음을 지원합니다.
+단일 비디오 및 응용 비디오 세트를 관리하기 위해 Adobe Dynamic Media Classic은 다음을 지원합니다.
 
 * 지원되는 다양한 비디오 형식의 비디오를 업로드합니다. 또한 오디오 형식과 인코딩 비디오를 MP4 H.264 형식으로 업로드하여 여러 화면에서 재생할 수 있습니다. 사전 정의된 Adobe Dynamic Media Classic 응용 비디오 사전 설정, 단일 비디오 인코딩 사전 설정 또는 자체 인코딩을 사용자 지정하여 비디오의 품질과 크기를 제어할 수 있습니다.
 
@@ -70,7 +66,7 @@ Adobe Dynamic Media Classic Video는 데스크톱, iOS, Android™, BlackBerry®
 
   응용 비디오 스트리밍은 다양한 iOS 플랫폼에서 지원됩니다.
 
-  [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources)에서 최신 지원을 확인하세요.
+  [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)에서 최신 지원을 확인하세요.
 
   Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
@@ -82,8 +78,8 @@ Adobe Dynamic Media Classic Video는 데스크톱, iOS, Android™, BlackBerry®
 
 * 다음을 포함한 Adobe Dynamic Media Classic 뷰어 사전 설정을 사용하여 비디오를 재생합니다.
 
-   * 단일 비디오 뷰어.
-   * 비디오 및 이미지 컨텐츠를 결합하는 혼합 미디어 뷰어
+  * 단일 비디오 뷰어.
+  * 비디오 및 이미지 컨텐츠를 결합하는 혼합 미디어 뷰어
 
 * 브랜드 요구에 맞는 비디오 플레이어를 구성합니다.
 * 간단한 URL 또는 포함 코드를 사용하여 비디오를 웹 사이트, 모바일 사이트 또는 모바일 애플리케이션에 통합합니다.
@@ -99,16 +95,16 @@ Adobe Dynamic Media Classic Video는 데스크톱, iOS, Android™, BlackBerry®
 
 **빠른 시작**
 
-다음 단계별 워크플로 설명은 Adobe Dynamic Media Classic에서 응용 비디오 세트를 빠르게 시작하고 실행하는 데 도움이 되도록 설계되었습니다. 각 단계 후에는 추가 정보를 찾을 수 있는 주제 머리글에 대한 상호 참조가 있습니다.
+다음 단계별 워크플로 설명은 Adobe Dynamic Media Classic에서 응용 비디오 세트를 사용하는 데 도움이 되도록 설계되었습니다. 각 단계 후에는 추가 정보를 찾을 수 있는 주제 머리글에 대한 상호 참조가 있습니다.
 
 ## &#x200B;1. 비디오 업로드 및 인코딩
 
 다음 2가지 시나리오 중 하나를 사용하여 적응형 비디오 집합을 업로드하고 생성하십시오.
 
-* **미리 인코딩된 비디오 업로드**: 비디오가 이미 Adobe Dynamic Media Classic 외부에서 인코딩된 경우 전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택합니다. MP4 비디오 파일을 찾아 Adobe Dynamic Media Classic에 바로 업로드할 수 있습니다. 그런 다음 **[!UICONTROL 빌드]** > **[!UICONTROL 응용 비디오 집합]**(으)로 이동합니다. 비디오 파일을 찾습니다. 원하는 비디오 파일을 응용 비디오 세트 표로 드래그 앤 드롭한 다음 세트를 저장합니다.
+* **미리 인코딩된 비디오 업로드**: 비디오가 이미 Adobe Dynamic Media Classic 외부에서 인코딩된 경우 전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택합니다. MP4 비디오 파일을 찾아 Adobe Dynamic Media Classic에 바로 업로드할 수 있습니다. 그런 다음 **[!UICONTROL 빌드]** > **[!UICONTROL 응용 비디오 집합]**(으)로 이동합니다. 비디오 파일을 찾습니다. 원하는 비디오 파일을 응용 비디오 세트 표로 이동한 다음 세트를 저장합니다.
 * **기본 소스 비디오 업로드**: 비디오가 인코딩되어 있지 않으면 전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 기본 비디오 소스 파일(MP4 이외)을 업로드하십시오. Adobe Dynamic Media Classic은 이러한 파일을 MP4 파일로 인코딩합니다. **[!UICONTROL 업로드 작업 옵션]** 대화 상자의 **[!UICONTROL EVideo 옵션]**&#x200B;에서 **[!UICONTROL 응용 비디오]**&#x200B;를 선택합니다.
 
-  이 기본 옵션을 사용하면 응용 비디오 세트를 만들 수 있습니다. 업로드한 비디오의 차원과 일치하도록 16:9 또는 4:3이든 비디오에 올바른 인코딩 사전 설정이 자동으로 적용됩니다. 업로드 작업을 제출하면 올바른 종횡비의 3개의 인코딩 비디오 설정을 포함하는 적응형 비디오 세트가 자동으로 생성됩니다.
+  이 기본 옵션을 사용하면 응용 비디오 세트를 만들 수 있습니다. 업로드한 비디오의 치수와 일치하도록 16:9 또는 4:3에 관계없이 비디오에 올바른 인코딩 사전 설정이 자동으로 적용됩니다. 업로드 작업을 제출하면 올바른 종횡비의 3개의 인코딩 비디오 설정을 포함하는 적응형 비디오 세트가 자동으로 생성됩니다.
 
   또는 동일한 **[!UICONTROL 작업 옵션]** 대화 상자의 **[!UICONTROL EVideo 옵션]**&#x200B;에서 **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;을 확장합니다. 원하는 개별 비디오 인코딩 사전 설정을 선택합니다. **데스크톱**, **모바일(iPhone, iPad, Android™)** 및 **태블릿(iPad, Android™)**&#x200B;을(를) 선택하여 MP4 파일을 만들 수 있습니다.
 
@@ -120,7 +116,7 @@ Adobe Dynamic Media Classic Video는 데스크톱, iOS, Android™, BlackBerry®
 
 Adobe Dynamic Media Classic은 사전 정의된 다양한 비디오 인코딩 사전 설정을 제공합니다. 이러한 사전 정의된 사전 설정은 현재 사용되는 가장 일반적인 비디오 인코딩 설정을 반영하며 대상 페이지에서 재생하도록 최적화됩니다.
 
-그러나 추가적인 사용자 지정이 필요한 경우, 관리자는 비디오 사전 설정을 만들어 비디오의 크기 및 재생 환경을 최종 사용자에 맞게 사용자 지정할 수 있습니다. 관리자는 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 비디오 사전 설정]** > **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;에 있는 비디오 사전 설정 페이지에서 비디오 사전 설정을 추가하고 관리할 수 있습니다. [비디오 사전 설정] 페이지에서는 비디오 사전 설정을 추가, 편집, 삭제 및 활성화하는 선택 사항을 제공합니다.
+그러나 추가 맞춤화가 필요한 경우 관리자는 비디오 사전 설정을 만들어 최종 사용자의 비디오 크기 및 재생 환경을 맞춤화할 수 있습니다. 관리자는 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 비디오 사전 설정]** > **[!UICONTROL 단일 인코딩 사전 설정]**&#x200B;에 있는 비디오 사전 설정 페이지에서 비디오 사전 설정을 추가하고 관리할 수 있습니다. [비디오 사전 설정] 페이지에서는 비디오 사전 설정을 추가, 편집, 삭제 및 활성화하는 선택 사항을 제공합니다.
 
 [비디오 인코딩 사전 설정 작업](uploading-encoding-videos.md#working_with_video_encoding_presets)을 참조하십시오.
 
