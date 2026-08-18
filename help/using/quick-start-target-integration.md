@@ -35,7 +35,7 @@ Adobe Target Standard/Premium은 마케팅 팀에 관리 제어 기능을 제공
 
 Adobe Dynamic Media Classic을 사용하면 Adobe Target Standard/Premium 캠페인에 대한 오퍼 및 오퍼 세트를 만들 수 있습니다. 예를 들어 동일한 리치 미디어 에셋의 변형 세 개를 사용하여 오퍼 세트를 만들 수 있습니다. 그런 다음 Adobe Target Standard 또는 Premium에서 더 나은 전환 성능을 제공하는 자산을 결정하도록 할 수 있습니다. 기본 템플릿 또는 개별 이미지에서 오퍼 및 오퍼 세트를 만들 수 있습니다. 오퍼가 mbox 및 경험과 연결된 Adobe Target Standard/Premium에 오퍼 세트를 푸시하거나 저장한 후 Adobe Target Standard/Premium에서 캠페인을 실행할 수 있습니다. 이러한 캠페인은 클릭스루 및 전환에 가장 적합한 웹 사이트의 변형을 결정합니다.
 
-다이내믹 Adobe Dynamic Media Classic 콘텐츠를 보다 효율적으로 사용자 지정하려면 Adobe Target Standard/Premium HTML 오퍼를 사용하십시오. 자세한 내용은 [Adobe Target Standard/Premium 제품 설명서](https://experienceleague.adobe.com/en/docs/target)를 참조하세요.
+다이내믹 Adobe Dynamic Media Classic 콘텐츠를 보다 효율적으로 사용자 지정하려면 Adobe Target Standard/Premium HTML 오퍼를 사용하십시오. 자세한 내용은 [Adobe Target Standard/Premium 제품 설명서](https://experienceleague.adobe.com/ko/docs/target)를 참조하세요.
 
 >[!NOTE]
 >
