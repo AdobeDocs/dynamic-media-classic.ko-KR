@@ -1,5 +1,5 @@
 ---
-title: 찾아보기 패널에서 에셋 선택
+title: 찾아보기 패널에서 Assets 선택
 description: Adobe Dynamic Media Classic의 검색 패널에서 에셋을 선택하는 방법을 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,23 +12,19 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:11:47.710Z'
 TQID: 'https://experienceleague.adobe.com/l8-4aT-7RbLlnM9lxq1DQhiUeALUL4AMpHrmuEN5ypA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+source-git-commit: 7b153b6e9d49e5923925a6529e195588e8aba450
 workflow-type: tm+mt
-source-wordcount: 109
+source-wordcount: 106
 ht-degree: 18%
 
 ---
 
 # 찾아보기 패널에서 에셋 선택{#selecting-assets-in-the-browse-panel}
 
-작업을 수행할 수 있도록 검색 패널에서 에셋을 선택합니다. 다음 기술을 사용하여 자산을 선택합니다.
+[검색] 패널에서 사용할 자산을 선택합니다. 다음 기술을 사용하여 자산을 선택합니다.
 
 * **단일 자산**: 자산을 선택합니다(두 번 클릭하면 세부 정보 보기에서 자산이 열림).
 
