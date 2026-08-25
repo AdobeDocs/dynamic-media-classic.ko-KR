@@ -1,5 +1,5 @@
 ---
-title: Dynamic Media 제한 사항
+title: Dynamic Media 제한
 description: 이미지 세트 또는 스핀 세트를 만들거나 PDF을 업로드할 때 모범 사례 및 적용된 제한에 대해 알아봅니다. 또한 Dynamic Media에서 지원되지 않는 웹 브라우저 및 운영 체제 조합에 대해 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,24 +12,18 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:02:23.354Z'
 TQID: 'https://experienceleague.adobe.com/7dtiaPb7sWkPb5gocOc8xLOnz3U3gJuSdaW2LSkajMk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-topic_v2:
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: c4599d7dfba3811fba73f7e9366f9427f0f20d78
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: d378ca77-2da1-4f39-ad92-1917fe974a38
+topic_v2: id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: b589fcbd330e4c703d64f0143c87e5674c772924
 workflow-type: tm+mt
 source-wordcount: 352
 ht-degree: 1%
 
 ---
 
-# Dynamic Media 제한 사항
+# Dynamic Media 제한
 
 다음 섹션에서는 Dynamic Media의 제한 사항에 대해 설명합니다.
 
