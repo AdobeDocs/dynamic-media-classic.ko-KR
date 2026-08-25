@@ -22,16 +22,16 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 7e29275844146b46dba3f1034d1a244f5be5b8b8
 workflow-type: tm+mt
-source-wordcount: 217
-ht-degree: 12%
+source-wordcount: 216
+ht-degree: 6%
 
 ---
 
 # 지원 {#support}
 
-기술 지원은 규모에 관계없이 모든 회사의 요구를 충족할 수 있도록 제공됩니다. 다음 표에서는 Adobe Dynamic Media Classic 고객 지원 서비스에 대해 설명합니다.
+기술 지원 서비스는 모든 규모의 회사의 요구 사항을 충족하도록 설계되었습니다. 다음 표에서는 Adobe Dynamic Media Classic 고객 지원 서비스에 대해 설명합니다.
 
 | 지원 | 가입 |
 | --- | --- |
@@ -49,7 +49,7 @@ ht-degree: 12%
 기술 지원에 문제를 보고할 경우 다음 정보를 포함하십시오.
 
 * Adobe Dynamic Media Classic 회사 이름.
-* 이름, 전화 번호 및 이메일 주소입니다.
+* 이름, 전화번호 및 이메일 주소.
 * Adobe Dynamic Media Classic 애플리케이션, 플랫폼 및 버전.
 * 문제에 대한 설명 및 문제를 재현하는 데 필요한 단계입니다.
 * 오류 메시지(있는 경우)

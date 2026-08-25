@@ -21,16 +21,16 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: b589fcbd330e4c703d64f0143c87e5674c772924
 workflow-type: tm+mt
-source-wordcount: 125
+source-wordcount: 122
 ht-degree: 11%
 
 ---
 
 # Adobe Dynamic Media Classic 데스크탑 앱에 대한 시스템 요구 사항 {#system-requirements}
 
-Adobe Dynamic Media Classic 데스크탑 앱을 최상의 환경에서 사용하려면 시스템이 다음 시스템 요구 사항 및 제안을 충족하는지 확인하십시오.
+Adobe Dynamic Media Classic 데스크탑 앱을 사용하려면 시스템이 다음 시스템 요구 사항 및 제안을 충족하는지 확인하십시오.
 
 * ® Windows® 7 이상 또는 macOS X 10.10 이상 Mac 인텔® 프로세서가 필요합니다.
 * 3GB RAM 이상 필요(4GB 이상 권장).
@@ -42,5 +42,5 @@ Adobe Dynamic Media Classic 데스크탑 앱을 최상의 환경에서 사용하
 
 >[!MORELIKETHIS]
 >
->* [Dynamic Media 제한 사항](/help/using/limitations.md)
+>* [Dynamic Media 제약 조건](/help/using/limitations.md)
 

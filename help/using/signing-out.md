@@ -1,5 +1,5 @@
 ---
-title: Adobe Dynamic Media Classic에서 로그인 및 로그아웃
+title: Adobe Dynamic Media Classic에 로그인 및 로그아웃
 description: Adobe Dynamic Media Classic에 로그인하고 로그아웃하는 방법에 대해 알아봅니다. 북미(NA), 유럽, 중동, 아프리카(EMEA) 또는 아시아 태평양(APAC)의 프로덕션 서버에 연결하는 방법도 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -20,7 +20,7 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 69ab9545c953152b98c0981abaef0d33f6b5683e
 workflow-type: tm+mt
 source-wordcount: 237
 ht-degree: 6%
@@ -33,7 +33,7 @@ ht-degree: 6%
 
 Adobe Dynamic Media Classic 데스크탑 애플리케이션을 사용하기 전에 다음 사항이 있는지 확인하십시오.
 
-* **사용자 이름**: 전자 메일 주소를 로그인 이름으로 사용합니다.
+* **사용자 이름**: 메일 주소를 사용자 이름으로 사용합니다.
 
 * **암호**: Adobe Dynamic Media Classic 또는 Adobe Dynamic Media Classic 관리자로부터 &quot;환영&quot; 전자 메일을 통해 임시 암호를 받습니다. 처음 로그인하면 이 임시 암호를 변경하라는 메시지가 표시됩니다.
 
