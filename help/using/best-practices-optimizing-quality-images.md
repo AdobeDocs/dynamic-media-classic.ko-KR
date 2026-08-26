@@ -1,5 +1,5 @@
 ---
-title: 이미지 품질 최적화 우수 사례
+title: 이미지 품질 최적화 지침
 description: 이미지 품질을 최적화하는 모범 사례에 대해 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -12,30 +12,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T17:39:42.316Z'
 TQID: 'https://experienceleague.adobe.com/kw-spdqv6ArVEWk8ID4mnQjYrS25RZntKOJ7-tESasY'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b29d7cc6962ca9e7724bb43987947b08af5cd4d7
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: bcc5edb5-84c3-4940-9f84-ed88b6c16274id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1589
 ht-degree: 27%
 
 ---
 
-# 이미지 품질 최적화 우수 사례{#best-practices-for-optimizing-the-quality-of-your-images}
+# 이미지 품질 최적화 지침{#best-practices-for-optimizing-the-quality-of-your-images}
 
 이미지 품질을 최적화하는 데는 시간이 오래 걸릴 수 있습니다. 많은 요소가 허용되는 결과를 렌더링하는 데 기여합니다. 또한 이미지 품질은 개인마다 다르게 생각하므로 결과는 어느 정도 주관적입니다. 구조화된 실험은 필수적입니다.
 
 Adobe Dynamic Media Classic에는 이미지 및 렌더링 결과를 조정하고 최적화하는 100개 이상의 이미지 제공 명령이 포함되어 있습니다. 다음 지침은 프로세스를 간소화하고 일부 필수 명령 및 우수 사례를 사용하여 좋은 결과를 빨리 얻는 데 도움이 될 수 있습니다.
 
-[스마트 이미징](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/imaging-faq)도 참조하세요.
+[스마트 이미징](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)도 참조하세요.
 
 >[!TIP]
 >
@@ -47,7 +41,7 @@ Adobe Dynamic Media Classic에는 이미지 및 렌더링 결과를 조정하고
 >* 네트워크 대역폭
 >* DPR(장치 픽셀 비율)
 >
->스냅숏을 사용하는 방법을 알아보려면 [스냅숏 교육 비디오](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot)&#x200B;(3분 17초)를 보세요.
+>스냅숏을 사용하는 방법을 알아보려면 [스냅숏 교육 비디오](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/images/dynamic-media-snapshot)&#x200B;(3분 17초)를 보세요.
 
 
 ## 이미지 형식(&amp;fmt=) 우수 사례 {#best-practices-for-image-format-fmt}
