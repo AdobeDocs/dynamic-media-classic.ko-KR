@@ -8,20 +8,13 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:15:39.241Z'
 TQID: 'https://experienceleague.adobe.com/0ODwpm8UKHiOr7Ttv5MBKEnxu2HDfUw3yxZ6YhEfK4M'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-  - id: da3860b0-d637-47df-bef0-273751180266
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: d095671a-1355-40aa-8b5f-06c33c68080bid: da3860b0-d637-47df-bef0-273751180266
+source-git-commit: 4496b2796aae231c4c913f8ee988f9e2c2d2a65f
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1584
 ht-degree: 0%
 
 ---
@@ -44,15 +37,15 @@ ht-degree: 0%
 
 * [!DNL Adobe Creative Cloud] 응용 프로그램과 Collaboration 및 공유 파일 동기화.
 * 다음을 통한 엔터프라이즈급 디지털 자산 관리:
-   * 강력한 메타데이터 지원
-   * 스마트 검색
-   * lightbox 및 컬렉션
-   * 버전 제어
-   * 공급업체, 파트너 및 프랜차이즈가 사용할 수 있도록 자산 공유 보호
+  * 강력한 메타데이터 지원
+  * 스마트 검색
+  * lightbox 및 컬렉션
+  * 버전 제어
+  * 공급업체, 파트너 및 프랜차이즈가 사용할 수 있도록 자산 공유 보호
 * WIP 자산에 대한 검토 및 승인 워크플로우입니다.
 * 새로운 UI를 통해 간편하게 채택하고 사용할 수 있습니다.
 * 이미지 및 비디오를 사용하여 구매 가능한/대화형 미디어 경험을 만들어 전환을 유도하고 사용자 참여도와 만족도를 향상시킵니다.
-* 캠페인 에셋을 제품 정보와 결합하여 장바구니로의 클릭을 간소화합니다.
+* 캠페인 에셋을 제품 정보와 결합하여 구매 프로세스를 간소화합니다.
 * WYSIWYG Viewer Designer을 사용하여 대화형 뷰어를 쉽게 만들고, 조정하고, 브랜드화하고, 배포할 수 있습니다.
 * [!DNL Experience Cloud] 솔루션에 최적화된 리치 미디어를 제공합니다.
 * 마케팅 접점 간에 고급 에셋 분석, 타기팅 및 에셋 재사용을 위해 [!DNL Experience Cloud]과(와) 통합됩니다. 이러한 터치포인트에는 이메일의 경우 [!DNL Adobe Campaign], 소셜 채널의 경우 [!DNL Adobe Social], 반응형 웹 및 모바일 앱의 경우 [!DNL Experience Manager] 사이트가 포함됩니다.
@@ -60,11 +53,11 @@ ht-degree: 0%
 +++
 
 +++**기존 Adobe CDN(Content Delivery Network)을 [!DNL Dynamic Media]에서 사용합니까?**
-예. [!DNL Dynamic Media]은(는) Adobe의 강력한 최상위 전달 네트워크를 사용합니다.
+예. [!DNL Dynamic Media]은(는) Adobe의 강력한 고성능 전달 네트워크를 사용합니다.
 
 * 최고의 리치 미디어 공급업체가 인터넷 소매 1000에 9년 연속 공급됩니다.
-* 24/7/265 지원, 99.95%의 SLA
-* 전 세계 800개 이상의 클라이언트, 월간 3.5페타바이트의 트래픽, 5억 개 이상의 자산에 대한 관리가 가능한 검증된 인프라로서 매년 60%의 트래픽 증가
+* 24/7/365 지원, 99.95%의 SLA
+* 전 세계 800개 이상의 클라이언트, 매월 3.5페타바이트의 데이터 전송 및 5억 개 이상의 자산이 관리되고 있으며 연간 60%의 트래픽 증가를 보이는 검증된 인프라
 
 +++
 
@@ -86,7 +79,7 @@ Adobe에서 Adobe Scene7의 이름을 [!DNL Dynamic Media Classic]&#x200B;(으)�
 +++
 
 +++**업그레이드 프로세스는 어떻게 처리됩니까?**
-AGS(Adobe 글로벌 서비스)는 업그레이드를 처리하고 서비스 프로젝트로 처리합니다. Adobe은 에셋의 마이그레이션만 제공합니다. 기타 모든 업그레이드 측면 및 단계는 고객, AGS 또는 파트너가 담당합니다. 요약 수준에서 업그레이드 계획에는 다음이 포함됩니다.
+AGS(Adobe 글로벌 서비스)는 업그레이드를 처리하고 서비스 프로젝트로 처리합니다. Adobe은 에셋의 마이그레이션만 제공합니다. 기타 모든 업그레이드 측면 및 단계는 고객, AGS 또는 파트너가 담당합니다. 업그레이드 계획에는 다음이 포함됩니다.
 
 * 회사/사용자 계정을 프로비저닝합니다.
 * [!DNL Dynamic Media Classic]&#x200B;(이전 Scene7)의 자산을 [!DNL Experience Manager] Assets의 [!DNL Dynamic Media] 구성 요소(자동 업그레이드 도구를 통해 Adobe 제공)로 복제합니다.
@@ -133,7 +126,7 @@ AGS(Adobe 글로벌 서비스)는 업그레이드를 처리하고 서비스 프�
 +++
 
 +++**[!DNL Dynamic Media]&#x200B;(으)로 업그레이드한 후에도 [!DNL Dynamic Media Classic]&#x200B;(이전 Adobe Scene7)을(를) 계속 사용할 수 있습니까?**
-[!DNL Dynamic Media]&#x200B;(으)로 업그레이드한 후에는 이미징 및 비디오에 Dynamic Media만 사용해야 합니다. 다음을 포함하여 [!DNL Dynamic Media]에서 아직 사용할 수 없는 기능에 대해서만 [!DNL Dynamic Media Classic]을(를) 계속 사용할 수 있습니다.
+[!DNL Dynamic Media]&#x200B;(으)로 업그레이드한 후에는 이미징 및 비디오에 Dynamic Media만 사용하십시오. 다음을 포함하여 [!DNL Dynamic Media]에서 아직 사용할 수 없는 기능에 대해서만 [!DNL Dynamic Media Classic]을(를) 계속 사용할 수 있습니다.
 
 * 시각적 구성기(이미지 작성자, 이미지 렌더링).
 * 이미지 템플릿.
@@ -152,17 +145,17 @@ AGS(Adobe 글로벌 서비스)는 업그레이드를 처리하고 서비스 프�
 +++
 
 +++**프로덕션 URL을 업데이트해야 합니까?**
-아니. Adobe은 [!DNL Dynamic Media] 솔루션에서 [!DNL Dynamic Media Classic] 게시 및 게재 인프라를 그대로 계속 사용합니다. 이 접근 방식의 이점은 웹 페이지에서 프로덕션 URL을 변경할 필요가 없으므로 [!DNL Dynamic Media]&#x200B;(으)로 마이그레이션하는 데 따른 위험과 노력을 최소화할 수 있다는 것입니다.
+아니. Adobe은 [!DNL Dynamic Media] 솔루션에서 [!DNL Dynamic Media Classic] 게시 및 게재 인프라를 그대로 계속 사용합니다. 이 접근 방식의 이점은 웹 페이지에서 프로덕션 URL을 변경할 필요가 없으므로 [!DNL Dynamic Media]&#x200B;(으)로 마이그레이션하는 데 드는 위험과 노력을 줄일 수 있다는 것입니다.
 
 +++
 
 +++**API 통합 및 기타 자동화 스크립트를 다시 작성해야 합니까?**
-아니. Adobe은 [!DNL Dynamic Media] 솔루션에서 [!DNL Dynamic Media Classic] 게시 및 게재 인프라를 그대로 계속 사용합니다. 또한 모든 자산이 [!DNL Dynamic Media Classic]에 복제됩니다. 이 접근 방식의 이점은 API 기반 통합 또는 자동화 스크립트를 다시 작성하지 않아도 되므로 [!DNL Dynamic Media]&#x200B;(으)로 마이그레이션하는 데 따른 위험과 노력을 최소화할 수 있다는 것입니다.
+아니. Adobe은 [!DNL Dynamic Media] 솔루션에서 [!DNL Dynamic Media Classic] 게시 및 게재 인프라를 그대로 계속 사용합니다. 또한 모든 자산이 [!DNL Dynamic Media Classic]에 복제됩니다. 이 접근 방식의 이점은 API 기반 통합 또는 자동화 스크립트를 다시 작성하지 않아도 되므로 [!DNL Dynamic Media]&#x200B;(으)로 마이그레이션하는 데 따른 위험과 노력을 줄일 수 있다는 것입니다.
 
 +++
 
 +++**사용자 지정 뷰어를 변경하거나 다시 개발해야 합니까?**
-아니. Adobe은 [!DNL Dynamic Media] 솔루션에서 [!DNL Dynamic Media Classic] 게시 및 게재 인프라를 그대로 계속 사용합니다. 이 접근 방식의 이점은 사용자 지정 뷰어를 계속 사용할 수 있으므로 [!DNL Dynamic Media]&#x200B;(으)로 마이그레이션하는 데 따른 위험과 노력을 최소화할 수 있다는 것입니다.
+아니. Adobe은 [!DNL Dynamic Media] 솔루션에서 [!DNL Dynamic Media Classic] 게시 및 게재 인프라를 그대로 계속 사용합니다. 이 접근 방식의 이점은 사용자 지정 뷰어를 계속 사용할 수 있으므로 [!DNL Dynamic Media]&#x200B;(으)로 마이그레이션하는 데 드는 위험과 노력을 줄일 수 있다는 것입니다.
 +++
 
 +++**이미지 사전 설정, 비디오 인코딩 등의 설정을 [!DNL Dynamic Media]&#x200B;(으)로 마이그레이션하려면 어떻게 해야 합니까?**
@@ -254,7 +247,7 @@ Adobe은 [!DNL Dynamic Media]&#x200B;(으)로 이동하는 모든 자산에 대�
 ## 컨설팅 서비스
 
 +++**업그레이드 프로세스를 직접 완료할 수 있습니까?**
-아니. Adobe 담당자 및 AGS와 협력하여 업그레이드 범위를 지정하십시오.
+아니. 업그레이드 범위를 지정하려면 Adobe 담당자 및 AGS와 협력하십시오.
 
 +++
 
@@ -268,14 +261,14 @@ Adobe은 프로젝트를 계획하기 위해 사용자와 협력합니다. Adobe
 ## 지원 및 교육
 
 +++**지원을 받으려면 어떻게 해야 합니까?**
-연중무휴 24시간 Client Care 지원을 이용할 수 있습니다. [기술 지원 서비스에 문의](https://experienceleague.adobe.com/ko?support-solution=General#support).
+연중무휴 24시간 Client Care 지원을 이용할 수 있습니다. [기술 지원 서비스에 문의](https://experienceleague.adobe.com/?support-solution=General#support).
 
 전화: 1-800-898-9743 (US) | +44 (0)20 35641782 (UK) | +81-3-6743-9632(일본)
 
 +++
 
 +++**유료 교육 옵션에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
-[Adobe 디지털 학습 서비스](https://learning.adobe.com)를 참조하세요.
+[Adobe 디지털 학습 서비스](https://experienceleague.adobe.com/en/premium/home)를 참조하세요.
 
 사용자 지정 또는 개별 교육에 대해서는 Adobe 계정 팀 담당자에게 문의하십시오.
 
