@@ -268,14 +268,14 @@ Adobe은 프로젝트를 계획하기 위해 사용자와 협력합니다. Adobe
 ## 지원 및 교육
 
 +++**지원을 받으려면 어떻게 해야 합니까?**
-연중무휴 24시간 Client Care 지원을 이용할 수 있습니다. [기술 지원 서비스에 문의](https://experienceleague.adobe.com/?support-solution=General#support).
+연중무휴 24시간 Client Care 지원을 이용할 수 있습니다. [기술 지원 서비스에 문의](https://experienceleague.adobe.com/ko?support-solution=General#support).
 
 전화: 1-800-898-9743 (US) | +44 (0)20 35641782 (UK) | +81-3-6743-9632(일본)
 
 +++
 
 +++**유료 교육 옵션에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
-[Adobe 디지털 학습 서비스](https://experienceleague.adobe.com/en/premium/home)를 참조하세요.
+[Adobe 디지털 학습 서비스](https://experienceleague.adobe.com/ko/premium/home)를 참조하세요.
 
 사용자 지정 또는 개별 교육에 대해서는 Adobe 계정 팀 담당자에게 문의하십시오.
 
