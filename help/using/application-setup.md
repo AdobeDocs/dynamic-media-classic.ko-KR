@@ -12,20 +12,14 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T17:38:37.961Z'
 TQID: 'https://experienceleague.adobe.com/GXWZmllFz1-pP-BuzH2WdjpgmvX5cOUipLywGUa8Z0U'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: b179d4d28fe4859010783fcf725c3e8c6704416e
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 11344
-ht-degree: 26%
+source-wordcount: 11367
+ht-degree: 27%
 
 ---
 
@@ -173,7 +167,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
 
 이미지 사전 설정 화면을 열려면 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 이미지 사전 설정]**(으)로 이동합니다.
 
-[스마트 이미징](https://experienceleague.adobe.com/ko/docs/experience-manager-65/content/assets/dynamic/imaging-faq)을 참조하세요.
+[스마트 이미징](https://experienceleague.adobe.com/en/docs/experience-manager-65/content/assets/dynamic/imaging-faq)을 참조하세요.
 
 ### 이미지 사전 설정 만들기 및 편집 {#creating-and-editing-image-presets}
 
@@ -183,7 +177,7 @@ Adobe Dynamic Media Classic에서는 두 파일의 이름이 동일하지 않습
    * **이미지 사전 설정 만들기**: **[!UICONTROL 추가]**&#x200B;를 선택합니다.
    * **기존 사전 설정에서 이미지 사전 설정을 만듭니다**: 만들려는 이미지 사전 설정과 가장 유사한 이미지 사전 설정을 선택한 다음 **[!UICONTROL 편집]**&#x200B;을 선택합니다.
 
-1. [사전 설정 추가] (또는 [편집]) 페이지에서 사전 설정 이름을 입력합니다.
+1. [사전 설정 추가](또는 [편집]) 페이지에서 사전 설정 이름을 입력합니다.
 1. 원하는 [사전 설정] 선택 사항을 설정합니다.
 
    [이미지 사전 설정 선택 사항](application-setup.md#image_preset_options)을 참조하십시오.
@@ -448,7 +442,7 @@ Adobe Dynamic Media Classic에서는 응용 비디오 인코딩 사전 설정을
 
 리치 미디어 콘텐츠의 범위를 데스크탑, 태블릿 및 모바일 사용자까지 확장하고 간소화된 비디오 환경을 제공합니다.
 
-Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)를 참조하십시오.
+Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/library/viewers-for-aem-assets-only/c-html5-aem-asset-viewers#viewers-for-aem-assets-only)를 참조하십시오.
 
 [Adobe Dynamic Media Classic 뷰어 사전 설정 호환성 매트릭스](application-setup.md#scene7_viewer_preset_compatibility_matrix)를 참조하십시오.
 
@@ -462,7 +456,7 @@ Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experiencelea
 
 웹 페이지마다 요구 사항이 다릅니다. 경우에 따라 별도의 브라우저 창에서 HTML5 뷰어를 여는 링크를 제공하는 웹 페이지가 필요할 수 있습니다. 다른 경우에는 호스팅 페이지에 HTML5 뷰어를 직접 임베드해야 합니다. 후자의 경우 웹 페이지에는 정적 레이아웃이 있습니다. 또는 &quot;응답형&quot;이며 디바이스마다 또는 브라우저 창 크기마다 다르게 표시됩니다. 이러한 요구 사항에 맞게 Adobe Dynamic Media Classic과 함께 제공되는 HTML5 Viewer는 정적 웹 페이지와 반응형 디자인 웹 페이지를 모두 지원합니다.
 
-웹 페이지에 응답형 뷰어를 포함하는 방법에 대한 자세한 내용은 [응답형 이미지 라이브러리 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [응답형 이미지 라이브러리 사용](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) 및 [명령 참조: 명령 특성](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)을 참조하세요.
+웹 페이지에 응답형 뷰어를 포함하는 방법에 대한 자세한 내용은 [응답형 이미지 라이브러리 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/c-about-responsive-static-image-library#image-serving-api), [응답형 이미지 라이브러리 사용](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#image-serving-api) 및 [명령 참조: 명령 특성](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/image-serving-api/image-serving-api/responsive-static-image-library/t-using-responsive-static-image-library#responsive-static-image-library)을 참조하세요.
 
 ### 뷰어 사전 설정 유형 {#viewer-preset-types}
 
@@ -506,7 +500,7 @@ Adobe 뷰어 참조 안내서에서 [HTML 5 뷰어 정보](https://experiencelea
 
 뷰어에 대해 지원되는 웹 브라우저 및 운영 체제 버전에 대한 자세한 내용은 뷰어 릴리스 정보 를 참조하십시오.
 
-[Adobe 뷰어 참조 릴리스 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources)를 참조하세요.
+[Adobe 뷰어 참조 릴리스 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)를 참조하세요.
 
 |  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | ™ Smartphone | ™ 태블릿 |
 |--- |--- |--- |--- |--- |--- |--- |
@@ -552,7 +546,7 @@ Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생
 
 |  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | ™ Smartphone | ™ 태블릿 | BlackBerry® 스마트폰 | Windows® Phone |
 |--- |--- |--- |--- |--- |--- |--- |--- |--- |
-| Universal_HTML5_Video(자막 지원 포함) [모범 사례: 범용 HTML5 비디오 뷰어 사용](best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer)을 참조하세요. | HTML5 | X | X | X | X | X | X | X |
+| Universal_HTML5_Video(자막 지원 포함) [우수 사례: 범용 HTML5 비디오 뷰어 사용]을 참조하십시오.(best-practice-using-html5-video.md#best_practice_using_the_html5_video_viewer) | HTML5 | X | X | X | X | X | X | X |
 | Universal_HTML5_Video_social(자막 및 소셜 미디어에 대한 지원이 포함됩니다.) | HTML5 | X | X | X | X | X | X | X |
 
 |  | 뷰어 기술 | 데스크톱 | Apple iPhone | Apple iPad | ™ Smartphone | ™ 태블릿 |

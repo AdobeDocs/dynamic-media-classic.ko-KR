@@ -11,28 +11,24 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:55.218Z'
 TQID: 'https://experienceleague.adobe.com/oR7ZZoQsq8nYVZnpQ82hn2PwgIiCmKXKnHfdr0GQSb8'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 1051
-ht-degree: 51%
+source-wordcount: 1052
+ht-degree: 46%
 
 ---
 
 # 래스터 이미지 자산 업로드 {#uploading-an-image-asset-or-a-vector-asset}
 
-이미지 자산을 업로드하려면 먼저 공유 비밀 키를 요청합니다. 이 공유 보안 키를 사용하여 업로드 토큰을 검색합니다. 그런 다음 업로드 토큰을 사용하여 래스터 이미지 에셋을 업로드합니다.
+이미지 에셋을 업로드하려면 먼저 공유 암호 키를 요청해야 합니다. 이 공유 보안 키를 사용하여 업로드 토큰을 검색합니다. 그런 다음 업로드 토큰을 사용하여 래스터 이미지 에셋을 업로드합니다.
 
 >[!IMPORTANT]
 >
->2023년 5월 1일부터 Dynamic Media의 UGC 에셋은 업로드일로부터 최대 60일 동안 사용할 수 있습니다. 60일 이후에는 에셋이 제거됩니다.
+>2023년 5월 1일부터 Dynamic Media의 UGC 에셋은 업로드일로부터 최대 60일까지 사용할 수 있습니다. 60일 후 자산이 제거됩니다.
 
 >[!NOTE]
 >
@@ -40,13 +36,13 @@ ht-degree: 51%
 
 ## 공유 암호 키 요청 {#requesting-a-shared-secret-key}
 
-[Admin Console을 사용하여 *공유 암호 키*&#x200B;를 요청하여 지원 사례를 만듭니다.](https://helpx.adobe.com/kr/enterprise/using/support-for-experience-cloud.html) 기술 지원 사례에서 공유 암호 키를 요청합니다.
+[Admin Console을 사용하여 ](https://helpx.adobe.com/business/enterprise.html)지원 사례를 만드는 방법으로 *공유 암호 키*&#x200B;를 요청합니다. 기술 지원 사례에서 공유 암호 키를 요청합니다.
 
 이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Adobe Dynamic Media Classic에서 키를 받으면 나중에 사용할 수 있도록 로컬에 저장합니다.
 
 ## 업로드 토큰 검색 {#retrieving-the-upload-token}
 
-*업로드 토큰*&#x200B;은 아무도 동일한 공유 보안 키를 사용하여 자산을 업로드할 수 없게 하며, 업로드가 합법적이고 신뢰할 수 있는 소스에서 제공된 것인지 확인합니다.
+*업로드 토큰*&#x200B;은(는) 동일한 공유 암호 키를 사용하여 자산을 업로드할 수 없도록 합니다. 업로드가 합법적이고 신뢰할 수 있는 소스에서 제공된 것인지 확인합니다.
 
 업로드 토큰은 특정 시간 동안만 사용할 수 있는 영숫자 문자열입니다. 업로드 토큰을 검색할 수 있도록 다음 URL을 사용하여 공유 암호 키를 대체하십시오.
 
@@ -148,7 +144,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 * 파일 크기 제한.
 * 파일 이름 확장자 목록입니다.
 * 자산과 연결된 색상 프로파일 및 파일 이름을 유지할지 여부입니다.
-* 녹아웃 배경 사용 여부. [녹아웃 배경]을 활성화하면 [모퉁이], [허용치] 및 [채우기 방법]을 설정합니다.
+* 녹아웃 배경 사용 여부. [녹아웃 배경]을 활성화하면 [모퉁이], [허용치] 및 [채우기 방법]을 구성합니다.
 업로드 시 [이미지 미세 조정 옵션](image-editing-options-upload.md#image-editing-options-at-upload)에서 녹아웃 배경 을 참조하십시오.
 * 업로드할 파일의 이름입니다.
 
@@ -156,7 +152,7 @@ https://s7ugc1.scene7.com/ugc/image?op=upload&upload_token=aa2a378a-cd25-4c80-99
 
 Firefox에서 브라우저 창을 마우스 오른쪽 단추로 클릭한 다음 **[!UICONTROL 페이지 Source 보기]**&#x200B;를 선택합니다. 이 코드는 사용자가 **[!UICONTROL 제출]**&#x200B;을 선택할 때 실행되는 POST 메서드와 해당 URL 쿼리 문자열을 보여 줍니다.
 
-Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL 보기]** > **[!UICONTROL Source]**(으)로 이동하십시오. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 웹 개발자 도구]**&#x200B;로 이동하십시오. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
+브라우저에서 XML 응답을 보려면 **[!UICONTROL 보기]** > **[!UICONTROL Source]**(으)로 이동하십시오. Firefox에서 XML 응답을 보려면 **[!UICONTROL 도구]** > **[!UICONTROL 브라우저 도구]** > **[!UICONTROL 웹 개발자 도구]**&#x200B;로 이동하십시오. XML 응답을 보려는 경우 Firefox를 사용하는 것이 좋습니다.
 
 다음은 성공적인 업로드에 대한 샘플 응답입니다.
 
@@ -184,13 +180,13 @@ Internet Explorer에서 XML 응답을 보려면 **[!UICONTROL 보기]** > **[!UI
 >
 >업로드한 자산(JPG, GIF 등)이 PTIFF 형식으로 전환되고 응답에서 해당 PTIFF 자산에 대한 직접 링크를 보냅니다.
 
-자산은 다른 ImageServing 리소스와 같으며, 자산에 처리 쿼리를 적용할 수 있습니다. 예를 들어 다음 URL은 지정된 너비 및 높이까지 확장된 에셋을 요청합니다.
+자산은 ImageServing 리소스이며, 처리 쿼리를 해당 자산에 적용할 수 있습니다. 예를 들어 다음 URL은 지정한 너비와 높이로 늘린 자산을 요청합니다.
 
 ```as3
 https://s7w2p1.scene7.com/is/image/S7WebUGC/ugc/9536356.tif?&wid=800&hei=100&fit=stretch
 ```
 
-멀티파트/양식 게시로 업로드할 자산을 보내고 나머지 값을 URL 쿼리 문자열로 보냅니다. URL 쿼리 문자열에 다음 필드를 사용하여 자산을 업로드할 수 있습니다.
+에셋을 업로드하려면 해당 에셋을 다중 파트/양식 게시물로 보내고 나머지 값은 URL 쿼리 문자열로 보냅니다. URL 쿼리 문자열에 다음 필드를 사용하여 자산을 업로드할 수 있습니다.
 
 | URL 매개 변수 | 필수 또는 선택 사항 | 값 |
 | --- | --- | --- |

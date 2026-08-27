@@ -12,16 +12,11 @@ topic: Administration
 level: Intermediate
 autotag-review: '2026-05-13T19:46:24.807Z'
 TQID: 'https://experienceleague.adobe.com/w-jPQYG7xGeBmC8fOzcPzi6ZZ-urf0C0-HoDKVbjCWk'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: fcd8f761bcc746c402db2f06347b77352d1488f7
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 2124
 ht-degree: 0%
@@ -38,7 +33,7 @@ ht-degree: 0%
 >
 >Adobe은 2020년 10월 1일까지 새 Adobe Dynamic Media Classic 데스크탑 앱을 설치할 것을 권장합니다. 이렇게 하면 2020년 12월 31일에 Adobe Flash Player가 더 이상 사용되지 않기 전에 전환 기간이 있습니다. 해당 날짜 이후, 제품에서 Adobe Dynamic Media Classic으로 레이블이 지정된 Adobe Dynamic Media Classic 사용자 인터페이스의 브라우저 버전에 로그인할 수 없습니다.
 
-[새 Adobe Dynamic Media Classic 로그인을 사용할 수 있는 경우 FAQ를 참조하십시오.](/help/using/new-ui-2020.md)
+[새 Adobe Dynamic Media Classic 로그인 사용 가능](/help/using/new-ui-2020.md)에 대한 FAQ를 참조하십시오.
 
 ## Adobe Dynamic Media Classic 데스크탑 앱에 대한 시스템 요구 사항 {#system-requirements-dmc-app}
 
@@ -128,8 +123,8 @@ Adobe Dynamic Media Classic 데스크탑 앱은 다음 운영 체제와 호환�
 -->
 
 <!--
-    * [macOS (.DMG): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg)
-    * [Windows (.EXE): Download.](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe) 
+    * [macOS (.DMG): Download](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.dmg).
+    * [Windows (.EXE): Download](https://download.macromedia.com/dynamic-media-classic/20.20.2/adobe-dynamic-media-classic-20.20.2.exe). 
 -->
 
 
@@ -250,7 +245,7 @@ Windows®에서 최신 버전의 Adobe Dynamic Media Classic 데스크톱 앱을
 
 ## Adobe Dynamic Media Classic 데스크탑 앱 사용에 대한 비디오 설명 {#dmc-app-video-walk-through}
 
-Adobe Dynamic Media Classic 데스크톱 앱을 사용하여 [비디오 둘러보기](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)&#x200B;(길이: 2분 36초).
+Adobe Dynamic Media Classic 데스크톱 앱을 사용하여 [비디오 둘러보기](https://experienceleague.adobe.com/en/docs/experience-manager-learn/assets/dynamic-media/dynamic-media-classic-desktop-application#dynamic-media)&#x200B;(길이: 2분 36초).
 
 ## 데스크탑 앱을 사용하여 컴퓨터의 이미지 캐시 및 자산 캐시를 지우는 중 {#clear-cache}
 
@@ -295,4 +290,4 @@ Adobe Dynamic Media Classic의 랜딩 페이지에 Media Portal 패널이 표시
 ![새로 고침 아이콘](/help/using/assets/refresh-icon1.png)
 *새로 고침 아이콘*
 
-***데스크탑 앱에서 일괄처리 집합 사전 설정이 작동하지 않습니다.***<br>업로드 > 작업 옵션 > 일괄처리 집합 사전 설정&#x200B;**을 탭합니다.**&#x200B;관련 **[!UICONTROL 일괄처리 집합 사전 설정]**&#x200B;이 활성화되어 있는지 확인하십시오. **[!UICONTROL 업로드 저장 및 제출]**&#x200B;을 클릭합니다.
+***데스크탑 앱에서 일괄처리 집합 사전 설정이 작동하지 않습니다.***<br>업로드 > 작업 옵션 > 일괄처리 집합 사전 설정&#x200B;]**을 탭합니다.**[!UICONTROL &#x200B;관련 **[!UICONTROL 일괄처리 집합 사전 설정]**&#x200B;이 활성화되어 있는지 확인하십시오. **[!UICONTROL 업로드 저장 및 제출]**&#x200B;을 클릭합니다.
