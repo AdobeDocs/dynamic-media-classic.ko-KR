@@ -12,17 +12,13 @@ topic: Content Management
 level: Experienced
 autotag-review: '2026-05-13T19:58:21.817Z'
 TQID: 'https://experienceleague.adobe.com/pwmEOjYzNJNV-yxeBfOz3xQBT3rJ9u9imU6cdNgQLDA'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 9c30d97a0a8b110f966eec5901c6e1dc84590951
 workflow-type: tm+mt
-source-wordcount: 245
-ht-degree: 32%
+source-wordcount: 244
+ht-degree: 12%
 
 ---
 
@@ -32,11 +28,11 @@ ht-degree: 32%
 
 >[!NOTE]
 >
->Adobe Dynamic Media Classic에서는 템플릿에서 웹 사이트에 표시할 정확한 크기로 투명 TIFF 또는 PSD 이미지를 사용하는 것이 좋습니다. 템플릿을 게시할 때 동일한 크기인 이미지 사전 설정을 사용하여 이미지를 호출합니다. 크기에 주의하여 템플릿 크기가 원래 디자인된 크기보다 작거나 크게 조정(재샘플링)되지 않도록 합니다.
+>Adobe Dynamic Media Classic에서는 템플릿에서 웹 사이트에 표시할 정확한 크기로 투명 TIFF 또는 PSD 이미지를 사용하는 것이 좋습니다. 템플릿을 게시할 때 동일한 크기의 이미지 사전 설정으로 이미지를 호출합니다. 크기에 주의하면 템플릿의 크기가 디자인된 크기보다 크거나 작은 크기로 재조절(재샘플링)되지 않습니다.
 
 Adobe Photoshop PSD 파일이나 이미지 파일에서 템플릿을 만들 수 있습니다.
 
-파일 업로드에 대한 자세한 지침은 [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오. 템플릿 파일을 업로드하는 경우 다음 사항에 주의합니다.
+파일 업로드에 대한 자세한 지침은 [파일 업로드](uploading-files.md#uploading_files)를 참조하십시오. 템플릿 파일을 업로드할 때 다음 사항을 고려하십시오.
 
 * PSD 파일을 업로드하는 경우 해당 파일에서 템플릿을 만들 수 있습니다. Adobe Dynamic Media Classic은 PSD의 각 레이어에 대해 별도의 이미지를 만듭니다. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL Photoshop 옵션]**&#x200B;을 선택하고 **[!UICONTROL 레이어 유지]** 및 **[!UICONTROL 템플릿 만들기]**&#x200B;를 선택합니다. 그런 다음 **[!UICONTROL 레이어 이름 지정]** 드롭다운 목록에서 Adobe Dynamic Media Classic이 PSD의 레이어에서 만드는 이미지 이름을 지정하는 옵션을 선택합니다.
 [PSD 업로드 선택 사항](psd-files.md#psd_upload_options)을 참조하십시오.
