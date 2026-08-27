@@ -40,7 +40,7 @@ ht-degree: 46%
 
 ## 공유 암호 키 요청 {#requesting-a-shared-secret-key}
 
-[Admin Console을 사용하여 &#x200B;](https://helpx.adobe.com/business/enterprise.html)지원 사례를 만드는 방법으로 *공유 암호 키*&#x200B;를 요청합니다. 기술 지원 사례에서 공유 암호 키를 요청합니다.
+[Admin Console을 사용하여 &#x200B;](https://helpx.adobe.com/kr/business/enterprise.html)지원 사례를 만드는 방법으로 *공유 암호 키*&#x200B;를 요청합니다. 기술 지원 사례에서 공유 암호 키를 요청합니다.
 
 이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Adobe Dynamic Media Classic에서 키를 받으면 나중에 사용할 수 있도록 로컬에 저장합니다.
 
