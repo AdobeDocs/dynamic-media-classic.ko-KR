@@ -11,34 +11,28 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:48.480Z'
 TQID: 'https://experienceleague.adobe.com/GHFAnTWOGJjh5T5swbhJLj9-3iAOP7Ne5MQRObGPubI'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2:
-  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-  - id: c2be0313-b3ae-45e0-b454-d20bf54b23f2
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: e52a31a700f7b319f0fe3aee836687771bf5618c
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: c2be0313-b3ae-45e0-b454-d20bf54b23f2id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 1d39c652980a2e0c502c27856fda7fd7e6c4ec0a
 workflow-type: tm+mt
-source-wordcount: 3571
-ht-degree: 22%
+source-wordcount: 4137
+ht-degree: 24%
 
 ---
 
 # 파일 업로드{#uploading-files}
 
-에셋 파일을 Adobe Dynamic Media Classic에 업로드하기 전에 에셋 파일의 이름이 올바른지 확인하십시오. 폴더 구조가 원하는 방식으로 설정되고 구성되어 있는지 확인합니다. Adobe Dynamic Media Classic에서 제공하는 FTP 사이트나 컴퓨터 또는 네트워크에서 직접 파일을 업로드할 수 있습니다. Adobe Dynamic Media Classic에서는 파일을 업로드할 때 최적화하는 옵션을 제공합니다. Adobe Dynamic Media Classic Desktop 응용 프로그램을 설치한 경우 바탕 화면에서 직접 파일과 폴더를 끌어 업로드할 수 있습니다. [[애플리케이션 일반 설정]](application-setup.md#general_settings)을 참조하십시오.
+에셋 파일을 Adobe Dynamic Media Classic에 업로드하기 전에 에셋 파일의 이름이 올바른지 확인하십시오. 폴더 구조가 요구 사항에 따라 설정되고 구성되었는지 확인합니다. Adobe Dynamic Media Classic에서 제공하는 FTP 사이트나 컴퓨터 또는 네트워크에서 직접 파일을 업로드할 수 있습니다. Adobe Dynamic Media Classic에서는 파일을 업로드할 때 최적화하는 옵션을 제공합니다. Adobe Dynamic Media Classic Desktop 응용 프로그램을 설치한 경우 바탕 화면에서 직접 파일과 폴더를 끌어 업로드할 수 있습니다. [[애플리케이션 일반 설정]](application-setup.md#general_settings)을 참조하십시오.
 
 ## 업로드할 자산 및 폴더 준비 {#preparing-your-assets-and-folders-for-uploading}
 
-Adobe Dynamic Media Classic에 에셋을 업로드하기 전에 에셋의 형식과 크기가 올바른지 확인하십시오. 에셋 이름을 지정하려면 Adobe Dynamic Media Classic 규칙도 준수해야 합니다. 파일에 대한 폴더 구조를 설정하여 파일을 쉽게 찾고 작업할 수 있도록 합니다.
+Adobe Dynamic Media Classic에 에셋을 업로드하기 전에 에셋의 형식과 크기가 올바른지 확인하십시오. 에셋 이름을 지정하려면 Adobe Dynamic Media Classic 규칙도 준수해야 합니다. 파일에 대한 폴더 구조를 만들면 파일을 쉽게 찾고 관리할 수 있습니다.
 
 ### 지원되는 자산 파일 형식 {#supported-asset-file-formats}
 
-이 표에는 Adobe Dynamic Media Classic이 지원하는 에셋 파일 형식이 나와 있습니다. 지원되는 Camera Raw 파일에 대한 자세한 내용은 [https://helpx.adobe.com/kr/camera-raw/using/supported-cameras.html](https://helpx.adobe.com/kr/camera-raw/using/supported-cameras.html)을(를) 참조하십시오.
+이 표에는 Adobe Dynamic Media Classic이 지원하는 에셋 파일 형식이 나와 있습니다. 지원되는 Camera Raw 파일에 대한 자세한 내용은 [지원되는 카메라](https://helpx.adobe.com/camera-raw/desktop/dng-and-file-formats/camera-raw-plug-supported-cameras.html)를 참조하십시오.
 
 | 자산 파일 형식 | 설명 |
 | --- | --- |
@@ -128,7 +122,7 @@ Adobe Dynamic Media Classic은 정적 콘텐츠의 미리보기 URL을 생성하
 
 * 이름이 같은 자산 ID는 시스템에서 사용할 수 없습니다.
 * 자산 ID 이름은 대소문자를 구분합니다.
-* 가장 좋은 방법은 에셋 ID에 공백이 없는지 확인하는 것입니다. 예: `black jacket.tif` 및 `blue jacket.jpg`. Adobe Dynamic Media Classic은 자산 이름을 사용하여 URL 문자열을 구성하는 경우 자산 이름의 빈 공간을 ASCII 인코딩합니다. 이러한 ASCII 코드는 읽기 어려우며 URL 읽기가 더 어려워질 수 있습니다.
+* 가장 좋은 방법은 에셋 ID에 공백이 없는지 확인하는 것입니다. 예: `dark jacket.tif` 및 `blue jacket.jpg`. Adobe Dynamic Media Classic은 자산 이름을 사용하여 URL 문자열을 구성하는 경우 자산 이름의 빈 공간을 ASCII 인코딩합니다. 이러한 ASCII 코드는 읽기 어려우며 URL 읽기가 더 어려워질 수 있습니다.
 * 언어 관련 문자는 파일 이름에 허용됩니다. 그러나 다음 문자는 파일 이름에 허용되지 않습니다.
 
   `\ ; / ? : @ & = + $ , &#42; " &lt; > | ' { } %`
@@ -144,10 +138,10 @@ Adobe Dynamic Media Classic은 정적 콘텐츠의 미리보기 URL을 생성하
 
 ### 폴더 구성 및 구조 {#folder-organization-and-structure}
 
-컨텐츠를 시스템에 업로드하기 전에 Adobe Dynamic Media Classic에서 컨텐츠에 대한 폴더 및 하위 폴더를 구성하고 구조화합니다. 미리 계획하는 것은 두 가지 이점이 있습니다.
+컨텐츠를 시스템에 업로드하기 전에 Adobe Dynamic Media Classic에서 컨텐츠에 대한 폴더 및 하위 폴더를 구성하고 구조화합니다. Planning에는 두 가지 이점이 있습니다.
 
 * FTP를 사용하여 Adobe Dynamic Media Classic에 콘텐츠를 업로드할 때 업로드 중에 폴더 구조를 복제하도록 시스템에 지시할 수 있습니다. 이렇게 하면 콘텐츠가 컴퓨터 또는 네트워크에 있는 것과 동일한 Adobe Dynamic Media Classic 폴더 및 하위 폴더에 구성됩니다. (Adobe Dynamic Media Classic에서 폴더 구조를 복제하려면 FTP를 사용하여 자산을 업로드할 때 **하위 폴더 포함** 옵션을 선택합니다.)
-* 파일을 업로드한 후 시스템 내의 폴더를 재구성하는 것은 시작하기 전에 폴더 구조를 계획하는 것보다 시간과 노력이 더 많이 소요됩니다.
+* 파일을 업로드한 후 시스템 내에서 폴더를 재구성하는 것은 시작하기 전에 폴더 구조를 계획하는 것보다 더 많은 시간과 노력이 필요합니다.
 
 Adobe Dynamic Media Classic에 콘텐츠를 저장하기 위해 선택하는 폴더 이름 지정 접근 방식 및 구조는 조직의 요구 사항에 따라 다릅니다. 다음은 몇 가지 샘플 폴더 구조입니다.
 
@@ -165,7 +159,7 @@ Adobe Dynamic Media Classic에 콘텐츠를 저장하기 위해 선택하는 폴
 
 Adobe Dynamic Media Classic에서 업로드 작업이 시작 및 종료되는 시기를 확인하고 문제를 알리는 이메일 메시지를 보냅니다.
 
-대규모 업로드 작업 중(또는 직후) 일부 새 항목에 &quot;이미지가 아직 최적화되지 않음&quot; 메시지가 표시될 수 있습니다. 이 메시지는 파일이 아직 완전히 처리되지 않아 Adobe Dynamic Media Classic에 추가되지 않았기 때문에 표시됩니다. 이러한 파일은 나중에 최적화할 수 있습니다. [파일 최적화](application-setup.md#optimize_files)를 참조하세요.
+대규모 업로드 작업 중(또는 작업 직후) 일부 새 항목에는 &quot;이미지가 아직 최적화되지 않음&quot; 메시지가 표시됩니다. 이 메시지는 파일이 아직 완전히 처리되지 않아 Adobe Dynamic Media Classic에 추가되지 않았기 때문에 표시됩니다. 이러한 파일은 나중에 최적화할 수 있습니다. [파일 최적화](application-setup.md#optimize_files)를 참조하세요.
 
 ### FTP 보안 {#ftp-security}
 
@@ -188,17 +182,17 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 1. 업로드 페이지 왼쪽의 **[!UICONTROL 업로드할 파일 선택]** 영역에서 **[!UICONTROL 찾아보기]**&#x200B;를 선택하여 업로드할 파일 또는 폴더를 선택한 다음 **[!UICONTROL 열기]**&#x200B;를 선택합니다.
 1. 업로드 페이지의 오른쪽의 선택한 **폴더 대상** 영역에서 업로드한 파일 또는 폴더를 추가하려는 대상 폴더로 이동합니다.
 1. (선택 사항) [업로드] 페이지 하단 근처에 있는 [작업 이름] 텍스트 필드에 업로드 작업의 새 이름을 입력합니다. 또는 Adobe Dynamic Media Classic에서 제공하는 기본 이름을 사용할 수 있습니다. 업로드 및 게시 작업은 작업 페이지에 기록되며, 이 페이지에서 작업 상태를 확인할 수 있습니다. [작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
-1. (선택 사항) 업로드 페이지 하단 근처에서 **[!UICONTROL 업로드 후 게시]**&#x200B;를 선택하면 업로드한 자산을 자동으로 게시할 수 있습니다.
-파일을 게시하면 라이브 서버로 전송됩니다. 이러한 파일의 URL은 외부 웹 사이트 및 애플리케이션에서 사용할 수 있습니다. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
-1. (선택 사항) [업로드] 페이지 하단 근처에 있는 **[!UICONTROL 확장명에 관계없이 같은 기본 에셋 이름으로 모든 폴더에 덮어쓰기]**&#x200B;를 선택합니다. 업로드하는 파일이 같은 이름으로 기존 파일을 바꾸도록 하려면. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
-이 옵션의 이름은 **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 응용 프로그램에 업로드]** > **[!UICONTROL 이미지 덮어쓰기]**&#x200B;의 설정에 따라 다를 수 있습니다.
+1. (선택 사항) 업로드 페이지 하단 근처에서 **[!UICONTROL 업로드 후 게시]**를 선택하면 업로드한 자산을 자동으로 게시할 수 있습니다.
+파일을 게시하면 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
+1. (선택 사항) [업로드] 페이지 하단 근처에 있는 **[!UICONTROL 확장명에 관계없이 같은 기본 에셋 이름으로 모든 폴더에 덮어쓰기]**를 선택합니다. 업로드하는 파일이 같은 이름으로 기존 파일을 바꾸도록 하려면. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
+이 옵션의 이름은 **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 응용 프로그램에 업로드]** > **[!UICONTROL 이미지 덮어쓰기]**&#x200B;의 설정에 따라 다릅니다.
 1. [업로드] 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 작업 옵션]**&#x200B;을 선택한 다음 원하는 옵션을 지정합니다.
 
    [업로드 선택 사항](uploading-files.md#upload_options)을 참조하십시오.
 
 1. 업로드 작업 옵션 대화 상자에서 **[!UICONTROL 저장]**&#x200B;을 선택합니다.
-1. 업로드 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 업로드 제출]**&#x200B;을 선택합니다.
-업로드 진행 상황을 보려면 전역 탐색 모음에서 **[!UICONTROL 작업]**&#x200B;을(를) 선택하십시오. Adobe Dynamic Media Classic에서 계속 작업할 수 있습니다. 언제든지 [작업] 페이지로 돌아가서 진행 중인 작업을 검토합니다. 진행 중인 업로드 작업을 취소하려면 [기간] 시간 옆에 있는 **[!UICONTROL 취소]**&#x200B;를 선택하십시오.
+1. 업로드 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 업로드 제출]**을 선택합니다.
+업로드 진행 상황을 보려면 전역 탐색 모음에서 **[!UICONTROL 작업]**&#x200B;을(를) 선택하십시오. Adobe Dynamic Media Classic에서 계속 작업할 수 있습니다. 언제든지 [작업] 페이지로 돌아가서 진행 중인 작업을 검토합니다. 진행 중인 업로드 작업을 취소하려면 [기간] 옆에 있는 **[!UICONTROL 취소]**&#x200B;를 선택합니다.
 
 ### FTP를 통해 탭을 사용하여 파일 업로드 {#upload-files-using-via-ftp}
 
@@ -208,11 +202,11 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 1. 업로드 페이지 왼쪽의 **[!UICONTROL 업로드할 FTP 폴더 선택]** 영역에서 파일을 업로드할 FTP 폴더를 선택합니다.
 1. 업로드 페이지의 오른쪽의 선택한 **[!UICONTROL Adobe Dynamic Media 폴더 대상]** 영역에서 Adobe Dynamic Media Classic의 대상 폴더를 선택합니다.
 1. (선택 사항) [업로드] 페이지 하단 근처에 있는 [작업 이름] 텍스트 필드에 업로드 작업의 새 이름을 입력합니다. 또는 Adobe Dynamic Media Classic에서 제공하는 기본 시스템 생성 이름을 사용할 수 있습니다. 업로드 및 게시 작업은 작업 페이지에 기록되며, 이 페이지에서 작업 상태를 확인할 수 있습니다.
-[작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하세요.
-1. (선택 사항) 업로드 페이지 하단 근처에서 **[!UICONTROL 업로드 후 게시]**&#x200B;를 선택하면 업로드하는 자산을 자동으로 게시할 수 있습니다.
-파일을 게시하면 라이브 서버로 전송됩니다. 이러한 파일의 URL은 외부 웹 사이트 및 애플리케이션에서 사용할 수 있습니다. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
-1. (선택 사항) [업로드] 페이지 하단 근처에 있는 **[!UICONTROL 확장명에 관계없이 같은 기본 에셋 이름으로 모든 폴더에 덮어쓰기]**&#x200B;를 선택합니다. 업로드하는 파일이 같은 이름으로 기존 파일을 바꾸도록 하려면. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
-이 옵션의 이름은 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 응용 프로그램에 업로드]** > **[!UICONTROL 이미지 덮어쓰기]**&#x200B;의 설정에 따라 다를 수 있습니다.
+[작업 파일 확인](checking-job-files.md#checking_job_files)을 참조하십시오.
+1. (선택 사항) 업로드 페이지 하단 근처에서 **[!UICONTROL 업로드 후 게시]**를 선택하면 업로드하는 자산을 자동으로 게시할 수 있습니다.
+파일을 게시하면 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
+1. (선택 사항) [업로드] 페이지 하단 근처에 있는 **[!UICONTROL 확장명에 관계없이 같은 기본 에셋 이름으로 모든 폴더에 덮어쓰기]**를 선택합니다. 업로드하는 파일이 같은 이름으로 기존 파일을 바꾸도록 하려면. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
+이 옵션의 이름은 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 응용 프로그램에 업로드]** > **[!UICONTROL 이미지 덮어쓰기]**&#x200B;의 설정에 따라 다릅니다.
 1. 선택 사항입니다. **[!UICONTROL FTP를 통해]** 탭을 선택한 경우에만 사용할 수 있습니다. 업로드 페이지 하단 근처에서 **[!UICONTROL 업로드 시 Zip 또는 Tar 파일 압축 해제]**&#x200B;를 선택하면 업로드한 ZIP 또는 TAR 파일에서 모든 파일을 자동으로 추출할 수 있습니다. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
 1. [업로드] 페이지의 오른쪽 아래 모서리에서 **[!UICONTROL 작업 옵션]**&#x200B;을 선택한 다음 원하는 옵션을 지정합니다.
 
@@ -233,43 +227,43 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 
   일반 설정에서 **[!UICONTROL 기본 업로드 옵션]** 대화 상자를 사용하여 작업을 업로드하는 *기본* 옵션을 선택할 수도 있습니다. **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 기본 업로드 옵션]**(으)로 이동한 다음 원하는 기본 옵션을 설정합니다.
 
-   * **[!UICONTROL When]**: 이 옵션은 **[!UICONTROL FTP를 통해]** 탭을 선택한 경우에만 사용할 수 있습니다.
-      * **[!UICONTROL 한 번]**: 한 번 실행되는 업로드 작업을 지정합니다. 옵션에는 다음이 포함됩니다.
-         * **[!UICONTROL 지금]**: [업로드 작업 옵션] 대화 상자에서 **[!UICONTROL 저장]**&#x200B;을 선택한 다음 [업로드] 페이지에서 **[!UICONTROL 업로드 제출]**&#x200B;을 선택한 직후에 업로드 작업을 실행합니다.
-         * **[!UICONTROL 나중에 예약]**: 업로드 작업을 실행할 연도, 월, 일 및 시간(15분 단위)을 선택합니다.
-      * **[!UICONTROL 반복]**: 매일, 매주 또는 매월 실행되는 업로드 작업을 지정합니다. 또는 업로드 작업을 원하는 사양에 맞게 사용자 정의합니다.
-         * **[!UICONTROL 매일]**: 작업을 매일 실행할 시간을 설정합니다. 작업이 월요일부터 금요일까지 실행되도록 하려면 **[!UICONTROL 주중만]**&#x200B;을(를) 선택하십시오.
-         * **[!UICONTROL 주별]**: 작업을 실행할 특정 요일과 시간을 선택합니다.
-         * **[!UICONTROL 월별]**: 작업을 실행할 특정 요일 또는 요일(시작 시간 포함)을 선택합니다.
-         * **[!UICONTROL 사용자 지정]**: 업로드 또는 게시 작업 시간 간격을 고유한 사양에 맞게 사용자 지정합니다. [사용자 지정 업로드 또는 게시 작업 시간 간격 만들기](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval)를 참조하십시오.
+  * **[!UICONTROL When]**: 이 옵션은 **[!UICONTROL FTP를 통해]** 탭을 선택한 경우에만 사용할 수 있습니다.
+    * **[!UICONTROL 한 번]**: 한 번 실행되는 업로드 작업을 지정합니다. 옵션에는 다음이 포함됩니다.
+      * **[!UICONTROL 지금]**: [업로드 작업 옵션] 대화 상자에서 **[!UICONTROL 저장]**&#x200B;을 선택한 다음 [업로드] 페이지에서 **[!UICONTROL 업로드 제출]**&#x200B;을 선택한 직후에 업로드 작업을 실행합니다.
+      * **[!UICONTROL 나중에 예약]**: 업로드 작업을 실행할 연도, 월, 일 및 시간(15분 단위)을 선택합니다.
+    * **[!UICONTROL 반복]**: 매일, 매주 또는 매월 실행되는 업로드 작업을 지정합니다. 또는 업로드 작업을 원하는 사양에 맞게 사용자 정의합니다.
+      * **[!UICONTROL 매일]**: 작업을 매일 실행할 시간을 설정합니다. 작업이 월요일부터 금요일까지 실행되도록 하려면 **[!UICONTROL 주중만]**&#x200B;을(를) 선택하십시오.
+      * **[!UICONTROL 주별]**: 작업을 실행할 특정 요일과 시간을 선택합니다.
+      * **[!UICONTROL 월별]**: 작업을 실행할 특정 요일 또는 요일(시작 시간 포함)을 선택합니다.
+      * **[!UICONTROL 사용자 지정]**: 업로드 또는 게시 작업 시간 간격을 고유한 사양에 맞게 사용자 지정합니다. [사용자 지정 업로드 또는 게시 작업 시간 간격 만들기](checking-job-files.md#creating-a-custom-upload-or-publish-job-time-interval)를 참조하십시오.
 
-   * **[!UICONTROL 업로드 후 게시]**: **[!UICONTROL 데스크톱에서]** 탭 또는 **[!UICONTROL FTP를 통해]** 탭을 선택한 경우 사용할 수 있습니다. 업로드한 자산을 자동으로 게시할 수 있도록 이 옵션을 선택합니다. 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. 이 옵션은 업로드 페이지에서도 사용할 수 있습니다.
+  * **[!UICONTROL 업로드 후 게시]**: **[!UICONTROL 데스크톱에서]** 탭 또는 **[!UICONTROL FTP를 통해]** 탭을 선택한 경우 사용할 수 있습니다. 업로드한 자산을 자동으로 게시할 수 있도록 이 옵션을 선택합니다. 파일을 게시하면 파일은 라이브 서버로 전송됩니다. 그런 다음 외부 웹 사이트와 애플리케이션에서 이러한 파일의 URL을 사용할 수 있습니다. 이 옵션은 업로드 페이지에서도 사용할 수 있습니다.
 
-   * **[!UICONTROL 확장명에 관계없이 같은 기본 자산 이름으로 모든 폴더에 덮어쓰기]**: **[!UICONTROL 데스크탑에서]** 탭 또는 **[!UICONTROL FTP를 통해]** 탭을 선택한 경우 사용할 수 있습니다. 업로드한 파일이 동일한 이름을 가진 기존 파일을 대체하길 원하는 경우 이 선택 사항을 선택하십시오. 이 옵션은 업로드 페이지에서도 사용할 수 있습니다. 이 옵션의 이름은 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 응용 프로그램에 업로드]** > **[!UICONTROL 이미지 덮어쓰기]**&#x200B;의 설정에 따라 다를 수 있습니다.
+  * **[!UICONTROL 확장명에 관계없이 같은 기본 자산 이름으로 모든 폴더에 덮어쓰기]**: **[!UICONTROL 데스크탑에서]** 탭 또는 **[!UICONTROL FTP를 통해]** 탭을 선택한 경우 사용할 수 있습니다. 업로드한 파일이 동일한 이름을 가진 기존 파일을 대체하길 원하는 경우 이 선택 사항을 선택하십시오. 이 옵션은 업로드 페이지에서도 사용할 수 있습니다. 이 옵션의 이름은 **[!UICONTROL 설정]** > **[!UICONTROL 응용 프로그램 설정]** > **[!UICONTROL 일반 설정]** > **[!UICONTROL 응용 프로그램에 업로드]** > **[!UICONTROL 이미지 덮어쓰기]**&#x200B;의 설정에 따라 다를 수 있습니다.
 
-   * **[!UICONTROL 업로드 시 Zip 또는 Tar 파일 압축 풀기]**: **[!UICONTROL 데스크탑에서]** 탭 또는 **[!UICONTROL FTP를 통해]** 탭을 선택한 경우 사용할 수 있습니다.
-업로드한 ZIP 또는 TAR 파일에서 모든 파일을 자동으로 추출할 수 있도록 이 옵션을 선택합니다. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
+  * **[!UICONTROL 업로드 시 Zip 또는 Tar 파일 압축 풀기]**: **[!UICONTROL 데스크탑에서]** 탭 또는 **[!UICONTROL FTP를 통해]** 탭을 선택한 경우 사용할 수 있습니다.
+    업로드한 ZIP 또는 TAR 파일에서 모든 파일을 자동으로 추출할 수 있도록 이 옵션을 선택합니다. 이와 동일한 옵션은 [작업 옵션] 대화 상자에서도 사용할 수 있습니다.
 
-   * **[!UICONTROL 하위 폴더 포함]**: **[!UICONTROL FTP를 통해]** 탭을 선택한 경우에만 사용할 수 있습니다.
-업로드하려는 폴더의 하위 폴더를 업로드하려면 이 옵션을 선택합니다. 업로드한 폴더 및 하위 폴더의 이름은 Adobe Dynamic Media Classic에 자동으로 입력됩니다.
+  * **[!UICONTROL 하위 폴더 포함]**: **[!UICONTROL FTP를 통해]** 탭을 선택한 경우에만 사용할 수 있습니다.
+    업로드 폴더의 하위 폴더를 업로드하려면 이 선택 사항을 선택하십시오. 업로드한 폴더 및 하위 폴더의 이름은 Adobe Dynamic Media Classic에 자동으로 입력됩니다.
 
-   * **[!UICONTROL 메타데이터 파일 처리]**: **[!UICONTROL FTP를 통해]** 탭을 선택한 경우에만 사용할 수 있습니다. 탭으로 구분된 또는 XML 파일을 업로드하여 여러 에셋에 메타데이터를 추가하려면 이 옵션을 선택합니다.
-[메타데이터 가져오기(FTP를 통해)](viewing-adding-exporting-metadata.md#import-metadata)를 참조하십시오.
+  * **[!UICONTROL 메타데이터 파일 처리]**: **[!UICONTROL FTP를 통해]** 탭을 선택한 경우에만 사용할 수 있습니다. 탭으로 구분된 파일이나 XML 파일을 업로드하여 여러 자산에 메타데이터를 추가하려는 경우 이 선택 사항을 선택합니다.
+    [메타데이터 가져오기(FTP 사용)](viewing-adding-exporting-metadata.md#import-metadata)를 참조하십시오.
 
 * **자르기 옵션**: 이미지에서 공백 픽셀을 자동으로 자릅니다. **[!UICONTROL 자르기]** 메뉴를 열고 **[!UICONTROL 수동]**&#x200B;을 선택한 다음 [위쪽], [오른쪽], [아래쪽] 및 [왼쪽] 텍스트 필드에 픽셀 측정값을 입력하여 옆에서 자릅니다. 자르기 메뉴에서 **[!UICONTROL 트리밍]**&#x200B;을 선택하고 다음 옵션을 선택할 수도 있습니다.
 
-   * **[!UICONTROL 다음을 기준으로 트림]**: 색상 또는 투명도를 기준으로 자를지 여부를 선택합니다.
-      * **[!UICONTROL 색상]**: 색상 옵션을 선택합니다. 그런 다음 [모퉁이] 메뉴를 선택하고 자르려는 공백 색상을 가장 잘 나타내는 색상으로 이미지의 모퉁이를 선택합니다.
-색상을 기준으로 트리밍: 이미지의 모퉁이에서 선택한 색상과 정확히 일치하는 경우에만 픽셀을 자르도록 0을 지정합니다. 1에 가까운 숫자를 사용하면 더 많은 색상 차이를 사용할 수 있습니다.
-      * **[!UICONTROL 투명도]**: **[!UICONTROL 투명도]** 옵션을 선택합니다.
-투명도를 기반으로 트리밍: 픽셀이 투명한 경우에만 자르도록 0을 지정합니다. 1에 가까운 숫자를 사용하면 투명도가 더 높아집니다.
-      * **[!UICONTROL 허용 한도]**: 슬라이더를 드래그하여 0에서 1까지의 허용 한도를 지정하십시오.
+  * **[!UICONTROL 다음을 기준으로 트림]**: 색상 또는 투명도를 기준으로 자를지 여부를 선택합니다.
+    * **[!UICONTROL 색상]**: 색상 옵션을 선택합니다. [모서리] 메뉴를 선택한 다음 자르려는 공백 색상을 가장 잘 나타내는 색상이 지정된 이미지 모서리를 선택합니다.
+      색상을 기반으로 트림: 이미지 모서리에서 선택한 색상과 잘라낼 픽셀의 색상이 일치하는 경우에만 0으로 지정하십시오. 값이 1에 가까워질수록 색상 차이를 더 많이 허용합니다.
+    * **[!UICONTROL 투명도]**: **[!UICONTROL 투명도]** 옵션을 선택합니다.
+      투명도를 기반으로 트리밍: 픽셀이 투명한 경우에만 자르도록 0을 지정합니다. 1에 가까운 숫자를 사용하면 투명도가 더 높아집니다.
+    * **[!UICONTROL 허용 한도]**: 슬라이더를 드래그하여 0에서 1까지의 허용 한도를 지정하십시오.
 
 * **색상 프로필 옵션**: Adobe Dynamic Media Classic 동적 게재에 사용되는 최적화된 파일을 만들 때 색상 변환을 선택하십시오.
 
-   * **[!UICONTROL 기본 색상 보존]**: 이미지에 색상 공간 정보가 포함될 때마다 소스 이미지 색상을 유지합니다. 색상 변환은 없습니다. 거의 모든 이미지에는 현재 적절한 색상 프로필이 이미 포함되어 있습니다. 그러나 CMYK 소스 이미지에 포함된 색상 프로필이 없는 경우, 색상이 sRGB(표준 빨강 녹색 파랑) 색상 공간으로 변환됩니다. sRGB는 웹 페이지에 이미지를 표시하는 데 권장되는 색상 공간입니다.
-   * **[!UICONTROL 원래 색상 공간 유지]**: Adobe Dynamic Media Classic으로 수집되는 시점에 색상 변환 없이 원래 색상을 유지합니다. 임베드된 색상 프로파일이 없는 이미지의 경우, 이미지에 대한 요청을 처리하는 데 필요한 색상 변환은 게시 설정에 구성된 대로 기본 색상 프로파일을 사용하여 수행됩니다. 이러한 색상 프로파일이 이 옵션을 사용하여 만든 파일의 색상과 항상 일치하지는 않습니다. 따라서 [기본 색상 유지] 옵션을 사용하는 것이 좋습니다.
-   * **[!UICONTROL 사용자 지정 변환]** > **[!UICONTROL 변환]**: **[!UICONTROL 변환 변환]** 및 **[!UICONTROL 변환]** 색상 공간을 선택할 수 있도록 메뉴를 엽니다. 이 고급 옵션은 소스 파일에 포함된 모든 색상 정보를 무시합니다. 제출하는 모든 이미지에 잘못되거나 누락된 색상 프로파일 데이터가 포함된 경우에만 이 옵션을 선택합니다.
+  * **[!UICONTROL 기본 색상 보존]**: 이미지에 색상 공간 정보가 포함될 때마다 소스 이미지 색상을 유지합니다. 색상 변환은 없습니다. 거의 모든 이미지에는 현재 적절한 색상 프로필이 이미 포함되어 있습니다. 그러나 CMYK 소스 이미지에 포함된 색상 프로필이 없는 경우, 색상이 sRGB(표준 빨강 녹색 파랑) 색상 공간으로 변환됩니다. sRGB는 웹 페이지에 이미지를 표시하는 데 권장되는 색상 공간입니다.
+  * **[!UICONTROL 원래 색상 공간 유지]**: Adobe Dynamic Media Classic으로 수집되는 시점에 색상 변환 없이 원래 색상을 유지합니다. 임베드된 색상 프로파일이 없는 이미지의 경우, 이미지에 대한 요청을 처리하는 데 필요한 색상 변환은 게시 설정에 구성된 대로 기본 색상 프로파일을 사용하여 수행됩니다. 이러한 색상 프로파일이 이 옵션을 사용하여 만든 파일의 색상과 항상 일치하지는 않습니다. 따라서 [기본 색상 유지] 옵션을 사용하는 것이 좋습니다.
+  * **[!UICONTROL 사용자 지정 변환]** > **[!UICONTROL 변환]**: **[!UICONTROL 변환 변환]** 및 **[!UICONTROL 변환]** 색상 공간을 선택할 수 있도록 메뉴를 엽니다. 이 고급 옵션은 소스 파일에 포함된 모든 색상 정보를 무시합니다. 제출하는 모든 이미지에 잘못되거나 누락된 색상 프로파일 데이터가 포함된 경우에만 이 옵션을 선택합니다.
 
 * **이미지 편집 옵션**: 이미지에서 클리핑 `<>` 마스크를 유지하고 색상 프로파일을 선택할 수 있습니다.
 업로드 시 [이미지 미세 조정 옵션](image-editing-options-upload.md#image-editing-options-at-upload)을 참조하십시오.
@@ -278,10 +272,10 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 [PostScript 및 Adobe Illustrator 파일 작업](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)을 참조하세요.
 
 * **Adobe Photoshop 옵션**: Adobe® Photoshop® 파일에서 템플릿을 만들고, 레이어를 유지하고, 레이어 이름 지정 방법을 지정하고, 텍스트를 추출하고, 이미지가 템플릿에 고정되는 방법을 지정할 수 있습니다.
-[PSD 업로드 옵션](psd-files.md#psd_upload_options)을 참조하세요.
+[PSD 업로드 선택 사항](psd-files.md#psd_upload_options)을 참조하십시오.
 
 * **PDF 옵션**: 파일을 래스터화하고, 검색어와 링크를 추출하고, 전자 카탈로그를 자동 생성하고, 해상도를 설정하고, 색상 공간을 선택할 수 있습니다.
-[PDF 업로드 옵션](pdfs.md#pdf_upload_options)을 참조하세요.
+[PDF 업로드 선택 사항](pdfs.md#pdf_upload_options)을 참조하십시오.
 
 * **Adobe Illustrator 옵션**: Adobe Illustrator® 파일을 래스터화하고, 투명한 배경을 유지하고, 해상도를 선택하고, 색상 공간을 선택할 수 있습니다.
 [PostScript 및 Adobe Illustrator 파일 작업](postscript-illustrator-files.md#working_with_postscript_and_illustrator_files)을 참조하세요.
@@ -289,12 +283,12 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 * **EVIDEO 옵션**: 비디오 사전 설정을 선택하여 비디오 파일을 변환할 수 있습니다.
 [비디오 인코딩 사전 설정 작업](uploading-encoding-videos.md#working_with_video_encoding_presets)을 참조하십시오.
 
-* **추가 메타데이터**: 업로드할 파일을 설명하는 키워드를 입력하십시오. 키워드를 쉼표로 구분합니다. 키워드를 사용하면 자산을 더 쉽게 검색할 수 있습니다.
+* **추가 메타데이터**: 업로드할 파일을 설명하는 키워드를 입력하십시오. 키워드를 쉼표로 구분합니다. 키워드를 사용하면 자산을 쉽게 검색할 수 있습니다.
 [고급 검색 실시](searching-assets.md#conducting_an_advanced_search)를 참조하십시오.
-[키워드 업로드](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) 교육 비디오도 참조하십시오.
+[키워드 업로드](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/548_upload-keywords_converted%20renamed_Done-AVS) 교육 비디오도 참조하세요.
 
-* **일괄처리 집합 사전 설정**: 업로드한 파일에서 이미지 집합, 회전 집합 또는 견본 집합을 만들려면 사용할 사전 설정의 **[!UICONTROL 활성]** 열을 선택하십시오. 두 개 이상의 사전 설정을 선택할 수 있습니다. [응용 프로그램 설정/일괄처리 집합 사전 설정] 페이지에서 사전 설정을 만들 수 있습니다.
-[일괄처리 집합 사전 설정](application-setup.md#batch_set_presets)을 참조하십시오.
+* **일괄처리 집합 사전 설정**: 업로드한 파일에서 이미지 집합, 회전 집합 또는 견본 집합을 만들려면 사용할 사전 설정의 **[!UICONTROL 활성]** 열을 선택하십시오. 여러 개의 사전 설정을 선택할 수 있습니다. [응용 프로그램 설정/일괄처리 집합 사전 설정] 페이지에서 사전 설정을 만들 수 있습니다.
+[배치 집합 사전 설정](application-setup.md#batch_set_presets)을 참조하십시오.
 
 * **고급**: [다른 작업으로 업로드 팔로우](uploading-files.md#follow-an-upload-with-another-job)를 참조하십시오.
 
@@ -302,7 +296,7 @@ Adobe Dynamic Media Classic Desktop 응용 프로그램을 끌어 파일과 폴�
 
 FTP를 사용하여 항목을 업로드할 때 업로드가 완료되면 후속 작업이 시작되도록 예약할 수 있습니다. 다른 작업이 시작되도록 예약된 경우 여기에서 예약한 작업은 이후 큐에 대기합니다.
 
-새 작업은 지정한 주소로 알림을 전송하여 해당 위치의 코드가 트리거될 수 있도록 합니다. 이 후속 게시 작업은 업로드 작업과 동일한 이름을 사용하지만 시작 부분에 *Pub_* 텍스트가 추가됩니다.
+새 작업은 지정한 주소로 알림을 전송하여 해당 위치의 코드가 실행될 수 있도록 합니다. 이 후속 게시 작업은 업로드 작업과 동일한 이름을 사용하지만 *Pub_* 텍스트를 접두사로 추가합니다.
 
 **다른 작업으로 업로드 수행:**
 
