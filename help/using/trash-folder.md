@@ -19,10 +19,10 @@ role_v2:
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 6da2e49f8dde8d9bbedb1d4264f34d52548d0d6c
 workflow-type: tm+mt
-source-wordcount: 563
-ht-degree: 28%
+source-wordcount: 562
+ht-degree: 24%
 
 ---
 
@@ -36,15 +36,15 @@ Adobe Dynamic Media Classic에서 삭제한 항목은 휴지통 폴더로 이동
 
 >[!NOTE]
 >
->휴지통 폴더로 이동된 Assets은 여전히 Adobe Dynamic Media Classic에 등록됩니다. 예를 들어 휴지통 폴더에서 삭제된 파일과 이름이 같은 파일을 업로드하려고 한다고 가정해 보겠습니다. Adobe Dynamic Media Classic은 업로드할 자산을 중복 자산으로 처리합니다. 이러한 경우 이름에 숫자가 추가됩니다.
+>휴지통 폴더로 이동된 Assets은 여전히 Adobe Dynamic Media Classic에 등록됩니다. 예를 들어 휴지통 폴더에서 삭제된 파일과 이름이 같은 파일을 업로드하려고 한다고 가정해 보겠습니다. Adobe Dynamic Media Classic은 업로드할 자산을 중복 자산으로 처리합니다. 이 경우 이름에 숫자가 추가됩니다.
 
 ## 휴지통 폴더 정보 {#about-the-trash-folder}
 
 폴더에서 삭제한 항목은 휴지통 폴더에 배치됩니다. 항목을 삭제하고 휴지통 폴더로 이동하는 경우 다음 동작이 발생합니다.
 
 * 항목이 Adobe Dynamic Media Classic 폴더에서 제거되지만 휴지통 폴더에 남아 있는 동안에는 해당 ID를 다른 자산에 할당할 수 없습니다. 휴지통 폴더에 있는 파일과 이름이 같은 에셋을 업로드하려고 하면 Adobe Dynamic Media Classic이 에셋 이름에 숫자를 추가합니다.
-* 항목을 게시할 수 없습니다. 항목을 삭제할 때 게시로 표시된 경우에도 항목이 게시되지 않습니다.
-* 항목이 복원되거나 7일이 지나거나 다른 사용자가 **[!UICONTROL 휴지통 비우기]** 명령을 선택할 때까지 휴지통 폴더에 남아 있습니다. 7일 후에는 자동 정리 작업에 의해 항목이 영구적으로 삭제됩니다.
+* 항목을 게시할 수 없습니다. 항목을 삭제할 때 게시용으로 표시되었더라도 게시되지 않습니다.
+* 항목이 복원되거나 7일이 지나거나 다른 사용자가 **[!UICONTROL 휴지통 비우기]** 명령을 선택할 때까지 휴지통 폴더에 남아 있습니다. 7일 후 자동 삭제 작업은 항목을 영구적으로 삭제합니다.
 
 ## 휴지통 폴더에서 자산 복원 {#restoring-assets-from-the-trash-folder}
 

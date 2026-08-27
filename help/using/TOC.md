@@ -6,9 +6,9 @@ user-guide-title: Adobe Dynamic Media Classic 안내서
 breadcrumb-title: Dynamic Media Classic 안내서
 user-guide-description: Adobe Dynamic Media Classic 사용에 대해 자세히 알아보십시오.
 index: true
-source-git-commit: 487ca7be68e8b515fc0c4d7bf2c00c0666fcfa4b
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: '805'
+source-wordcount: '803'
 ht-degree: 19%
 
 ---
@@ -20,11 +20,11 @@ ht-degree: 19%
   + [Dynamic Media로 업그레이드해야 하는 이유](upgrade.md)
   + [업그레이드 FAQ](upgrade-faq.md)
   + [기능 목록 비교](upgrade-feature-comparison.md)
-  + [업그레이드 준비 확인 목록](upgrade-readiness.md)
+  + [업그레이드 준비 검사 목록](upgrade-readiness.md)
 + [Adobe Dynamic Media Classic 안내서](home.md)
 + [Adobe Dynamic Media Classic 우수 사례 자습서](https://experienceleague.adobe.com/ko/docs/experience-manager-learn/dynamic-media-classic-tutorial/overview)
 + [이제 새 Adobe Dynamic Media Classic 로그온 사용 가능](new-ui-2020.md)
-+ [Experience League의 Adobe Dynamic Media 뉴스레터 아카이브](dynamic-media-newsletter.md)
++ [Adobe Experience League의 Adobe Dynamic Media 뉴스레터 아카이브](dynamic-media-newsletter.md)
 + Adobe Dynamic Media Classic 소개 {#intro}
   + [Adobe Dynamic Media Classic 데스크탑 앱: 이제 사용 가능](dynamic-media-classic-desktop-app.md)
   + [Adobe Dynamic Media Classic 도움말 정보](introduction.md)
@@ -58,10 +58,10 @@ ht-degree: 19%
   + [FTP 계정 관리](ftp-accounts.md)
   + [Media Portal 사용자가 사용할 수 있는 내보내기 옵션 지정](specifying-export-options-available-media.md)
   + [이미지 사전 설정 만들기 및 활성화](creating-enabling-image-presets.md)
-  + [효율적인 메타데이터 관리](making-efficient-metadata.md)
+  + [메타데이터 관리](making-efficient-metadata.md)
   + [Media Portal 화면 사용자 정의](customizing-media-portal-screen.md)
 + 자산 업로드 및 게시 {#upload-publish}
-  + [에셋 업로드 및 게시](about-asset-upload-publish.md)
+  + [자산 업로드 및 게시](about-asset-upload-publish.md)
   + [파일 업로드](uploading-files.md)
   + [파일 게시](publishing-files.md)
   + [Dynamic Media 제한 사항](limitations.md)
@@ -108,7 +108,7 @@ ht-degree: 19%
   + [웹 페이지에 eCatalog 연결](linking-ecatalog-web-page.md)
 + 이미지 집합 {#image-sets}
   + [빠른 시작: 이미지 집합](quick-start-image-sets.md)
-  + [업로드할 이미지 세트 자산 준비](preparing-image-set-assets-upload.md)
+  + [업로드할 이미지 세트 Assets 준비](preparing-image-set-assets-upload.md)
   + [이미지 집합 만들기](creating-image-set.md)
   + [이미지 집합에 확대/축소 대상 및 이미지 맵 포함](including-zoom-targets-image-maps-image-sets.md)
   + [이미지 세트의 정보 패널 컨텐츠 관리](info-panel-content-image-sets.md)
@@ -118,7 +118,7 @@ ht-degree: 19%
 + 견본 집합 {#swatch-sets}
   + [빠른 시작: 견본 집합](quick-start-swatch-sets.md)
   + [견본 집합에 확대/축소 대상 및 이미지 맵 포함](including-zoom-targets-image-maps-swatch-sets.md)
-  + [업로드할 견본 집합 자산 준비](preparing-swatch-set-assets-upload.md)
+  + [업로드할 견본 집합 Assets 준비](preparing-swatch-set-assets-upload.md)
   + [견본 집합 만들기](creating-swatch-set.md)
   + [견본 집합 보기](viewing-swatch-sets.md)
   + [웹 페이지에 견본 집합 연결](linking-swatch-set-web-page.md)
@@ -172,7 +172,7 @@ ht-degree: 19%
   + [디스크 사용 정보 가져오기](getting-disk-usage-information.md)
   + [래스터 이미지 자산 업로드](uploading-image-asset-or-vector.md)
 + 기본 파일 {#master-files}
-  + [이미지 품질 최적화 우수 사례](best-practices-optimizing-quality-images.md)
+  + [이미지 품질 최적화 지침](best-practices-optimizing-quality-images.md)
   + [이미지 편집](editing-images.md)
   + [이미지 맵 만들기](creating-image-maps.md)
   + [이미지 자르기](cropping-image.md)
@@ -181,7 +181,7 @@ ht-degree: 19%
   + [업로드 시 이미지 세부 조정 편집 옵션](image-editing-options-upload.md)
   + [PDF 작업](pdfs.md)
   + [PSD 파일 작업](psd-files.md)
-  + [PostScript 및 Illustrator 파일 작업](postscript-illustrator-files.md)
+  + [PostScript 및 Adobe Illustrator 파일 작업](postscript-illustrator-files.md)
   + [비네팅, 창 덮개 및 캐비닛 파일 작업](vignette-window-covering-cabinet-files.md)
 + 지원 파일 {#support-files}
   + [글꼴](fonts.md)

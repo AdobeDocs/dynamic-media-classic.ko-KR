@@ -1,5 +1,5 @@
 ---
-title: 효율적인 메타데이터 관리
+title: 메타데이터 관리
 description: Adobe Dynamic Media Classic에서 메타데이터를 보다 효율적으로 사용하는 방법에 대해 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -21,14 +21,14 @@ level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: fdc076f96c16423fb4ed47e583b9c4b95b507e64
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 163
+source-wordcount: 161
 ht-degree: 37%
 
 ---
 
-# 효율적인 메타데이터 관리{#making-more-efficient-use-of-metadata}
+# 메타데이터 관리 {#making-more-efficient-use-of-metadata}
 
 Adobe Dynamic Media Classic의 모든 파일에는 메타데이터가 포함되어 있습니다. 메타데이터는 파일을 설명하고 식별하며, 자산을 검색하고 구성하는 데 사용됩니다. 에셋의 메타데이터를 보려면 세부 사항 보기에서 에셋을 열고 메타데이터 패널을 검사합니다. 이 패널의 메타데이터 필드는 자산을 설명하는 정보를 제공합니다.
 

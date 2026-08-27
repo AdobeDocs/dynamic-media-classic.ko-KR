@@ -22,9 +22,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 42a60be8f52236a376c408b168323c9aca8ecf6b
 workflow-type: tm+mt
-source-wordcount: 345
+source-wordcount: 343
 ht-degree: 5%
 
 ---
@@ -35,7 +35,7 @@ Adobe Analytics에서 필요한 변수를 만들어 Adobe Dynamic Media Classic 
 
 **Adobe Analytics 보고서를 보고 통합을 테스트하려면:**
 
-1. 계정, 특히 가져오려는 지표를 브로드캐스트하는 계정에서 Adobe Dynamic Media Classic 뷰어를 시작하고 이와 상호 작용하여 일부 이벤트 데이터를 만듭니다.
+1. 가져오려는 지표를 브로드캐스트하는 계정에서 Adobe Dynamic Media Classic 뷰어를 시작하고 이와 상호 작용하여 일부 이벤트 데이터를 만듭니다.
 
    예를 들어 이미지 세트에서 인기 있는 대체 보기를 측정하려면 이미지 세트를 미리 보고 다른 썸네일 이미지를 클릭합니다.
 
@@ -43,7 +43,7 @@ Adobe Analytics에서 필요한 변수를 만들어 Adobe Dynamic Media Classic 
 
    예를 들어 샘플 계정에서 **[!UICONTROL LoadAsset]** prop에 액세스하려면 적절한 메뉴 선택 사항은 **[!UICONTROL 사용자 지정 트래픽]** > **[!UICONTROL 사용자 지정 트래픽1-10]** > **[!UICONTROL LoadAsset]**&#x200B;입니다. 사용자 지정 Prop이 10개 이상인 경우 다른 메뉴 선택 사항도 표시됩니다.
 
-1. Adobe Analytics에 의해 생성된 차트를 봅니다. 이 차트는 일반적으로 단일 지표에 대한 데이터입니다. 이 데이터가 연결된 에셋에 대해서도 알려면 이 이벤트의 에셋 데이터를 가져옵니다. 예를 들어, 50%만 시청하는 비디오나 인기 있는 세트 이미지를 파악하는 것이 유용합니다.
+1. Adobe Analytics에 의해 생성된 차트를 봅니다. 이 차트는 단일 지표에 대한 데이터입니다. 이 데이터가 연결된 에셋도 알려면 이 이벤트의 에셋 데이터를 가져옵니다. 예를 들어, 50%만 시청하는 비디오와 자주 시청하는 집합 내의 이미지를 알고 있는 것이 유용합니다.
 
 >[!NOTE]
 >

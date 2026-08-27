@@ -21,20 +21,20 @@ topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: e44775f081eb50324762f2409552e2e833a3b953
 workflow-type: tm+mt
-source-wordcount: 598
+source-wordcount: 574
 ht-degree: 0%
 
 ---
 
 # [!DNL Dynamic Media]&#x200B;(으)로 업그레이드하는 이유
 
-Adobe에서 [!DNL Dynamic Media]을(를) 만들었습니다.
+Adobe에서 필요에 따라 [!DNL Dynamic Media]을(를) 만들었습니다.
 
 [!DNL Adobe Experience Manager]의 새 [!DNL Dynamic Media]은(는) [!DNL Dynamic Media Classic]에서 기대하는 기능을 기반으로 합니다(이전 Scene7). 더욱 새롭고 향상된 도구를 통해 보다 나은 매력적인 경험을 구축할 수 있습니다.
 
-[!DNL Dynamic Media]은(는) 실시간 비주얼 빌더를 사용하여 콘텐츠 빌드 환경을 업그레이드합니다. Adobe의 시도되고, 신뢰할 수 있으며, 확장 가능한 전달 네트워크 위에 위치하며 직관적인 [!DNL Adobe Experience Manager] 사용자 인터페이스와 짝을 이루는 [!DNL Dynamic Media]은(는) 흥미로운 다음 수준 경험을 작성, 반복 및 제공할 수 있는 기능을 제공합니다.
+[!DNL Dynamic Media]은(는) 실시간 비주얼 빌더를 사용하여 콘텐츠 빌드 환경을 업그레이드합니다. [!DNL Dynamic Media]은(는) Adobe의 확장 가능한 전달 네트워크를 사용하고 직관적인 [!DNL Adobe Experience Manager] 사용자 인터페이스와 결합하여 매력적인 고급 경험을 작성, 반복 및 제공할 수 있는 기능을 제공합니다.
 
 | [!DNL Dynamic Media]에 대해 얻을 수 있는 이점 | 설명 |
 | --- | --- |
@@ -50,11 +50,11 @@ Adobe에서 [!DNL Dynamic Media]을(를) 만들었습니다.
 
 ## [!DNL Dynamic Media]의 주요 이점 및 기능
 
-[!DNL Dynamic Media]은(는) [!DNL Dynamic Media Classic]의 자연스러운 진화입니다. 리치 미디어 작성, 게시 및 전달 도구 세트를 제공합니다. 또한 혁신적인 사용자 중심 인터페이스를 통해 동급 최고의 서비스를 제공하여 최신 실제 워크플로우를 육성합니다.
+[!DNL Dynamic Media]은(는) [!DNL Dynamic Media Classic]의 후속 버전입니다. 리치 미디어 작성, 게시 및 전달 도구 세트를 제공합니다. 또한 혁신적인 사용자 중심 인터페이스를 통한 고품질 제공, 최신 워크플로우 향상도 포함됩니다.
 
 * 원활하고 통합된 환경 및 [!DNL Adobe Experience Manager]과의 통합: 하나의 저장소, 하나의 소스에서 풍부한 콘텐츠를 구성하고 동적으로 제공
-* 리치 미디어 콘텐츠를 손쉽게 작성 및 게재할 수 있는 새로운 마케터 중심의 사용자 환경
-* WYSIWYG (What You See Is What You Get) 의 전체적인 모양과 느낌, 이미지 뷰어 및 비디오 플레이어를 위한 행동 편집기에 관한 것입니다.
+* 리치 미디어 콘텐츠를 손쉽게 작성 및 게재할 수 있는 새로운 마케팅 중심 사용자 환경
+* 이미지 뷰어 및 비디오 플레이어의 전반적인 모양과 느낌 및 동작 편집기에 대한 시각적 편집.
 * 이미지 핫스팟 및 구매 가능한 비디오를 비롯한 구매 가능한/대화형 미디어 경험 생성 및 배포 시간 단축
 
 ### [!DNL Experience Manager] Assets 내의 [!DNL Dynamic Media] 기능
@@ -65,10 +65,10 @@ Adobe에서 [!DNL Dynamic Media]을(를) 만들었습니다.
 | 간편한 대화형 경험 UI 요소 | · 비기술적 실시간 빌더로 쉽게 경험을 만들 수 있습니다.<br>· 구매 가능한/대화형 미디어, 캠페인 자산과 제품 정보를 결합합니다.<br>· 고객 만족도를 높이고 전환을 유도합니다. |
 | 전체 통합 워크플로 | · 전체 [!DNL Adobe Experience Cloud] 솔루션을 포함하여 모든 접점에 최적화된 리치 미디어를 제공합니다.<br>· [!DNL Adobe Experience Cloud]과(와) 통합하여 마케팅 접점에서 고급 에셋 분석, 타기팅 및 에셋 재사용을 지원합니다. 일부 터치포인트에는 이메일의 경우 [!DNL Adobe Campaign], 소셜 채널의 경우 [!DNL Adobe Social], 반응형 웹 및 모바일 앱의 경우 [!DNL Adobe Experience Manager] 사이트가 포함됩니다. |
 
-## 왜 Adobe?
+## Adobe을 선택하는 이유
 
-* 디지털 자산 Forrester WAVE 보고서에서 가장 큰 긍정적인 영향을 미칩니다.
+* 디지털 자산 Forrester WAVE 보고서에서 가장 높은 순위를 차지한 공급업체.
 * 2016 온라인 비디오 플랫폼 보고서의 강력한 성능.
-* 최고의 리치 미디어 공급업체가 인터넷 소매 1000에 9년 연속 공급됩니다.
-* 24/7/265 지원, 99.95% SLA, Adobe Professional Services.
-* 전 세계 800개 이상의 클라이언트, 월간 3.5페타바이트의 트래픽, 5억 개 이상의 자산에 대한 관리 능력을 제공하는 검증된 인프라로서 매년 60%의 트래픽 증가
+* 최고의 리치 미디어 제공 업체 인터넷 소매 1000, 연속 9 년.
+* 24/7/365 지원, 99.95% SLA, Adobe Professional Services.
+* 전 세계 800개 이상의 클라이언트, 매월 3.5페타바이트의 트래픽, 5억 개 이상의 자산에 대한 관리가 이루어지고 있으며 매년 60%의 트래픽 증가를 보이는 검증된 인프라

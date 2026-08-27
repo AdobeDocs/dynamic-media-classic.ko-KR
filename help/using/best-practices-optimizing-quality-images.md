@@ -1,5 +1,5 @@
 ---
-title: 이미지 품질 최적화 우수 사례
+title: 이미지 품질 최적화 지침
 description: 이미지 품질을 최적화하는 모범 사례에 대해 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -22,14 +22,14 @@ topic_v2:
   - id: bcc5edb5-84c3-4940-9f84-ed88b6c16274
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: b29d7cc6962ca9e7724bb43987947b08af5cd4d7
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 1591
+source-wordcount: 1589
 ht-degree: 27%
 
 ---
 
-# 이미지 품질 최적화 우수 사례{#best-practices-for-optimizing-the-quality-of-your-images}
+# 이미지 품질 최적화 지침{#best-practices-for-optimizing-the-quality-of-your-images}
 
 이미지 품질을 최적화하는 데는 시간이 오래 걸릴 수 있습니다. 많은 요소가 허용되는 결과를 렌더링하는 데 기여합니다. 또한 이미지 품질은 개인마다 다르게 생각하므로 결과는 어느 정도 주관적입니다. 구조화된 실험은 필수적입니다.
 

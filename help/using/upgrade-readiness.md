@@ -1,5 +1,5 @@
 ---
-title: 업그레이드 준비
+title: 업그레이드 준비 검사 목록
 description: ' [!DNL Adobe Dynamic Media Classic] 에서  [!DNL Dynamic Media] on [!DNL Adobe Experience Manager] (으)로 이동하려는 경우 업그레이드 준비 검사 목록.'
 feature: Dynamic Media Classic
 role: Admin,User
@@ -18,9 +18,9 @@ level_v2:
   - id: d378ca77-2da1-4f39-ad92-1917fe974a38
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: bbfeefce82fc757d71e5ad0038120752eb0683c1
 workflow-type: tm+mt
-source-wordcount: 221
+source-wordcount: 223
 ht-degree: 1%
 
 ---
