@@ -11,10 +11,14 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:16:55.218Z'
 TQID: 'https://experienceleague.adobe.com/oR7ZZoQsq8nYVZnpQ82hn2PwgIiCmKXKnHfdr0GQSb8'
-product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+product_v2:
+  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
 source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1052
@@ -36,7 +40,7 @@ ht-degree: 46%
 
 ## 공유 암호 키 요청 {#requesting-a-shared-secret-key}
 
-[Admin Console을 사용하여 ](https://helpx.adobe.com/business/enterprise.html)지원 사례를 만드는 방법으로 *공유 암호 키*&#x200B;를 요청합니다. 기술 지원 사례에서 공유 암호 키를 요청합니다.
+[Admin Console을 사용하여 &#x200B;](https://helpx.adobe.com/business/enterprise.html)지원 사례를 만드는 방법으로 *공유 암호 키*&#x200B;를 요청합니다. 기술 지원 사례에서 공유 암호 키를 요청합니다.
 
 이메일 메시지에 이미지 자산을 업로드하는 데 사용할 회사 이름을 제공합니다. Adobe Dynamic Media Classic에서 키를 받으면 나중에 사용할 수 있도록 로컬에 저장합니다.
 
