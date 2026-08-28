@@ -23,9 +23,9 @@ topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: c0fb79fc030080ac7774fc1428d58a48eb11e1f1
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
-source-wordcount: 496
+source-wordcount: 515
 ht-degree: 13%
 
 ---
@@ -56,7 +56,7 @@ Adobe Dynamic Media Classic은 Adobe Dynamic Media Classic을 사용하여 개�
 
 Adobe Dynamic Media Classic을 사용하여 생성하는 URL 문자열에는 에셋이 전달될 때 서버에 어떻게 표시되는지 알려 주는 지침이 포함되어 있습니다. 예를 들어 동일한 1차 이미지가 서로 다른 크기, 형식, 가중치, 색상 또는 보기로 제공될 수 있습니다. Adobe Dynamic Media Classic을 사용하여 미디어 에셋을 구축하고 게시하는 과정의 일부로 효과를 시각적으로 구성할 수 있습니다. 이렇게 하면 기본 자산을 응용 프로그램에 제공하는 방법을 서버에 올바르게 알려주는 URL 호출을 만듭니다.
 
-![Adobe Dynamic Media Classic은 서로 다른 크기 및 형식의 다른 미디어에 동일한 기본 이미지를 제공할 수 있습니다.](/help/using/assets/gs_dynamic_publishing.png)
+![Adobe Dynamic Media Classic은 서로 다른 크기와 형식의 다른 미디어에 동일한 기본 이미지를 제공할 수 있습니다](/help/using/assets/gs_dynamic_publishing.png).
 *Adobe Dynamic Media Classic은 크기나 대역폭에 관계없이 모든 화면에 일관된 품질 환경을 제공합니다.*
 
 ## 컨텐츠 캐싱 {#content-caching}

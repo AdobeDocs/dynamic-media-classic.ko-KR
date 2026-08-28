@@ -18,7 +18,7 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
-source-git-commit: e66a98d5071f107477891c3769f1301fcc0d86db
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 870
 ht-degree: 5%
@@ -33,7 +33,7 @@ ht-degree: 5%
 * 웹 사이트 또는 애플리케이션 전체에서 이미지 크기를 빠르게 변경할 수 있습니다. 예를 들어 모든 썸네일 이미지를 변경하려면 &quot;썸네일&quot; 이미지 사전 설정을 수정할 수 있습니다. 이미지 사전 설정은 크기 및 서식 특성의 컬렉션입니다. 웹 사이트 또는 애플리케이션 전체에서 모든 썸네일 이미지의 크기를 변경하려면 &quot;썸네일&quot; 이미지 사전 설정을 수정할 수 있습니다.
 * 컨텐츠 또는 자산 관리 시스템에서 기본 파일 또는 다양한 파생물을 관리할 필요가 없습니다.
 
-![동일한 고해상도 기본 파일에서 크기가 다른 파생 이미지를 여러 개 만들 수 있습니다.](/help/using/assets/is_derivative_sizes_popup.png)
+![동일한 고해상도 기본 파일에서 크기가 다른 파생 이미지를 여러 개 만들 수 있습니다](/help/using/assets/is_derivative_sizes_popup.png).
 
 [이미지 크기 조정: Dynamic Imaging](https://s7d5.scene7.com/s7viewers/html5/VideoViewer.html?videoserverurl=https://s7d5.scene7.com/is/content/&emailurl=https://s7d5.scene7.com/s7/emailFriend&serverUrl=https://s7d5.scene7.com/is/image/&config=Scene7SharedAssets/Universal_HTML5_Video&contenturl=https://s7d5.scene7.com/skins/&asset=S7tutorials/557_Image%20Sizing_converted%20renamed_Dynamic%20Imaging-AVS) 교육 비디오를 참조하십시오.
 

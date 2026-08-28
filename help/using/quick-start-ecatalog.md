@@ -19,7 +19,7 @@ role_v2:
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 434650e895dc16bf523b12106700915171ae2f73
+source-git-commit: 202f477d78272c66d0ac490e3a5041839b3e4f4d
 workflow-type: tm+mt
 source-wordcount: 1565
 ht-degree: 23%
@@ -49,7 +49,7 @@ eCatalog에 대해 선택하는 설정에 따라 뷰어에서는 다음을 수�
 * 손가락을 모아 확대, 살짝 밀어 페이지 넘김 등의 제스처 상호 작용을 사용합니다.
 * 키워드로 항목을 검색합니다.
 
-![사용자에게 표시되는 전자 카탈로그입니다. A) eCatalog에서 페이지를 여는 중 B)eCatalog가 페이지 2.](/help/using/assets/ec_cat_viewer_popup.png)(으)로 전환됨
+![사용자에게 표시되는 전자 카탈로그입니다. A) eCatalog에서 페이지를 여는 중 B)eCatalog가 페이지 2](/help/using/assets/ec_cat_viewer_popup.png)(으)로 전환되었습니다.
 
 eCatalog를 만들려면 일반적으로 Adobe Acrobat 또는 다른 인쇄 프로그램에서 만든 고해상도 PDF 파일을 사용하지만, 이미지 파일에서 eCatalog를 만들 수도 있습니다.
 
