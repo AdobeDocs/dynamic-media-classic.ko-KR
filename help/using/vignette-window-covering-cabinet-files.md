@@ -12,26 +12,23 @@ topic: Integrations, Development
 level: Experienced
 autotag-review: '2026-05-13T19:58:38.425Z'
 TQID: 'https://experienceleague.adobe.com/mwsWq0PTNNANT8NExzPBR-8iqCTDbYPVXguSYkQAFoU'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
-source-git-commit: 0d05ca7402db1d8894db1127088905143fb97cff
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: d378ca77-2da1-4f39-ad92-1917fe974a38
+source-git-commit: 150b1171b439f7e05ffd3af4450dcc30cf89536a
 workflow-type: tm+mt
-source-wordcount: 146
-ht-degree: 1%
+source-wordcount: 145
+ht-degree: 6%
 
 ---
 
 # 비네팅, 창 덮개 및 캐비닛 파일 작업{#working-with-vignette-window-covering-and-cabinet-files}
 
-Adobe Dynamic Media Classic 이미지 작성 도구 사용자는 비네팅(VNT 파일), 창 전환(VNW 파일) 및 캐비닛(VNC 파일)을 *사용*&#x200B;할 수 있습니다. Adobe Dynamic Media Classic에서는 이러한 파일을 만들거나 편집할 수 없습니다.
+Adobe Dynamic Media Classic 이미지 작성 도구 사용자는 비네팅(VNT 파일), 창 커버(VNW 파일) 및 캐비닛(VNC 파일)에 액세스할 수 있습니다. Adobe Dynamic Media Classic에서는 이러한 파일을 만들거나 편집할 수 없습니다.
 
-비네팅, 창 덮개 및 캐비닛은 작성된 이미지입니다. 이미지 작성이라는 다른 Adobe Dynamic Media Classic 프로그램을 사용하면 이미지에서 객체를 마스킹하여 사용자가 동일한 이미지를 다양한 텍스처나 색상으로 볼 수 있습니다. 예를 들어, 사용자들은 다양한 직물로 천을 덮은 소파, 다양한 창문 처리로 장식된 창문, 또는 다양한 종류의 나무로 마감된 캐비닛을 봅니다.
+비네팅, 창 커버링 및 캐비닛은 작성된 이미지입니다. 이미지 작성이라는 다른 Adobe Dynamic Media Classic 프로그램을 사용하면 이미지에서 객체를 마스킹하여 사용자가 동일한 이미지를 다양한 텍스처나 색상으로 볼 수 있습니다. 예를 들어, 사용자들은 다양한 직물로 천을 덮은 소파, 다양한 창문 처리로 장식된 창문, 또는 다양한 종류의 나무로 마감된 캐비닛을 봅니다.
 
-다른 파일에서처럼 비네팅, 창 덮개 및 캐비닛을 업로드합니다.
+다른 파일과 동일한 방식으로 비네팅, 창 덮개 및 캐비닛을 업로드합니다.
 
 >[!MORELIKETHIS]
 >
