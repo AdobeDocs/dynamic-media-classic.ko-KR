@@ -12,28 +12,25 @@ topic: Content Management
 level: Intermediate
 autotag-review: '2026-05-13T20:18:31.253Z'
 TQID: 'https://experienceleague.adobe.com/LoxI3OmVOAtiiieHgJpKFwKUHJAn6GUA1x85CHuWtPs'
-product_v2:
-  - id: beaff0dd-a904-4c6b-8290-b527cd877d75
-role_v2:
-  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
-level_v2:
-  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+product_v2: id: beaff0dd-a904-4c6b-8290-b527cd877d75
+role_v2: id: b69b2659-1057-424e-8fc5-ed9e016dc554
+level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+source-git-commit: 94d13170028e09a5ed61cb236e17c379f234f4c3
 workflow-type: tm+mt
-source-wordcount: 466
-ht-degree: 15%
+source-wordcount: 462
+ht-degree: 7%
 
 ---
 
 # 견본 집합 보기{#viewing-swatch-sets}
 
-[미리 보기] 창에서 사용 가능한 사전 설정을 사용하여 견본 집합을 볼 수 있습니다. 확대/축소 뷰어: 견본 세트에 대한 사용자 지정 뷰어 사전 설정을 사용할 수 있습니다.
+[미리 보기] 창에서 사용 가능한 사전 설정을 사용하여 견본 집합을 볼 수 있습니다. 견본 집합에 대해 확대/축소 뷰어 사용자 지정 뷰어 사전 설정을 사용할 수 있습니다.
 
 Adobe Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 있습니다. 관리자는 뷰어 사전 설정을 만들거나 수정할 수 있습니다.
 
 ## 견본 집합에 대한 확대/축소 뷰어 사전 설정 설정 {#setting-up-zoom-viewer-presets-for-swatch-sets}
 
-요구에 맞게 뷰어 사전 설정을 만들고 사용자 지정할 수 있습니다.
+뷰어 사전 설정을 만들고 사용자 지정할 수 있습니다.
 
 1. 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**(으)로 이동합니다.
 1. 다음 중 하나를 수행하십시오.
@@ -55,8 +52,8 @@ Adobe Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 �
 미리보기 를 사용하여 HTML5와 같은 특정 뷰어 유형에 자산이 표시되는 방식을 확인할 수 있습니다. 미리 보기 위해 선택한 에셋 유형 및 관련 뷰어에 따라 일부 뷰어 유형 플랫폼을 미리 보기에서 사용할 수 있는 것은 아닙니다.
 
 1. 왼쪽의 자산 라이브러리 패널의 **[!UICONTROL 표시]** 드롭다운 목록에서 **[!UICONTROL 견본 집합]**&#x200B;과 같은 견본 집합 기반 자산 유형을 선택합니다.
-1. 왼쪽의 자산 라이브러리 패널에서 뷰어로 미리 보려는 견본 집합이 들어 있는 자산 폴더를 탐색합니다.
-1. 다음 중 하나를 수행합니다.
+1. 왼쪽의 에셋 라이브러리 패널에서 뷰어로 미리 볼 견본 세트가 포함된 에셋 폴더로 이동합니다.
+1. 다음 중 하나를 수행하십시오.
 
    * Adobe Dynamic Media Classic 창의 오른쪽 위 모서리 근처에서 **[!UICONTROL 목록 보기]** 아이콘을 선택합니다. 에셋 창에서 에셋을 마우스로 가리킨 다음 **[!UICONTROL 미리 보기]**(미리 보기 드롭다운 목록이 아님)을(를) 선택합니다.
    * Adobe Dynamic Media Classic 창의 오른쪽 위 모서리 근처에서 **[!UICONTROL 격자 보기]** 아이콘을 선택합니다. 자산 창의 자산 축소판 창에서 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다(미리 보기 드롭다운 목록이 아님).
@@ -67,7 +64,7 @@ Adobe Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 �
 
    지정된 뷰어 링크를 선택하면 연결된 URL이 자동으로 클립보드에 복사됩니다.
 
-1. [미리 보기] 호출기로 돌아가려면 표시된 뷰어를 닫습니다.
+1. 미리보기 창으로 돌아가려면 표시된 뷰어를 닫습니다.
 1. Assets 페이지로 돌아가려면 **[!UICONTROL 닫기]**&#x200B;를 선택하십시오.
 
 >[!MORELIKETHIS]
