@@ -31,4 +31,4 @@ ht-degree: 4%
 
 # 새로운 기능 {#what-s-new}
 
-최신 Adobe Dynamic Media Classic 릴리스 정보를 검토하려면 [Adobe Dynamic Media Classic 릴리스 정보](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources/release-notes/s7rn2017)를 참조하세요.
+최신 Adobe Dynamic Media Classic 릴리스 정보를 검토하려면 [Adobe Dynamic Media Classic 릴리스 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/release-notes/s7rn2017)를 참조하세요.
