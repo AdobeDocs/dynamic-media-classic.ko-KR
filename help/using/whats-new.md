@@ -1,5 +1,5 @@
 ---
-title: 새로운 기능
+title: 새로운 사항
 description: 최신 릴리스 정보를 통해 새로운 Adobe Dynamic Media Classic에 대해 알아봅니다.
 contentOwner: Rick Brough
 content-type: reference
@@ -22,13 +22,13 @@ level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: f946a6e26bd1ee869292e808c9cca72b884a0e20
 workflow-type: tm+mt
-source-wordcount: 55
-ht-degree: 0%
+source-wordcount: 49
+ht-degree: 4%
 
 ---
 
 # 새로운 기능 {#what-s-new}
 
-새로운 기능, 개선 사항 및 수정 사항을 포함한 최신 Adobe Dynamic Media Classic 릴리스 정보를 검토하려면 [Adobe Dynamic Media Classic 릴리스 노트](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/release-notes/s7rn2017)를 참조하십시오.
+최신 Adobe Dynamic Media Classic 릴리스 정보를 검토하려면 [Adobe Dynamic Media Classic 릴리스 정보](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources/release-notes/s7rn2017)를 참조하세요.

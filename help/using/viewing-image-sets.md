@@ -18,10 +18,10 @@ role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 81e92d0e8963cccb5b058328cb7601925f7ace4f
+source-git-commit: 1d00f05c8705cdb241dffe9639afab653e566dc9
 workflow-type: tm+mt
-source-wordcount: 500
-ht-degree: 19%
+source-wordcount: 496
+ht-degree: 17%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 �
 
 ## 이미지 집합에 대해 확대/축소 뷰어 사전 설정 지정 {#setting-up-zoom-viewer-presets-for-image-sets}
 
-요구에 맞게 뷰어 사전 설정을 만들고 사용자 지정할 수 있습니다.
+뷰어 사전 설정을 만들고 사용자 지정할 수 있습니다.
 
 1. 전역 탐색 모음에서 **[!UICONTROL 설정]** > **[!UICONTROL 뷰어 사전 설정]**(으)로 이동합니다.
 1. 다음 중 하나를 수행하여 [뷰어 사전 설정] 페이지에서 뷰어 사전 설정을 만들거나 편집합니다.
@@ -57,7 +57,7 @@ Adobe Dynamic Media Classic에는 기본 뷰어 사전 설정이 포함되어 �
 
 1. 왼쪽의 자산 라이브러리 패널의 **[!UICONTROL 표시]** 드롭다운 목록에서 **[!UICONTROL 이미지 집합]**&#x200B;을 선택합니다.
 1. 왼쪽의 자산 라이브러리 패널에서 자산 폴더를 탐색하여 미리 보려는 이미지 집합을 선택합니다.
-1. 다음 중 하나를 수행합니다.
+1. 다음 중 하나를 수행하십시오.
 
    * Adobe Dynamic Media Classic 창의 오른쪽 위 모서리 근처에서 **[!UICONTROL 목록 보기]** 아이콘을 선택합니다. 에셋 창에서 에셋을 마우스로 가리킨 다음 **[!UICONTROL 미리 보기]**(미리 보기 드롭다운 목록이 아님)을(를) 선택합니다.
    * Adobe Dynamic Media Classic 창의 오른쪽 위 모서리 근처에서 **[!UICONTROL 격자 보기]** 아이콘을 선택합니다. 자산 창의 자산 축소판 창에서 **[!UICONTROL 미리 보기]**&#x200B;를 선택합니다(미리 보기 드롭다운 목록이 아님).
