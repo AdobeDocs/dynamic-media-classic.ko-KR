@@ -14,19 +14,21 @@ autotag-review: '2026-05-13T20:11:06.721Z'
 TQID: 'https://experienceleague.adobe.com/lB0O224FfzW1smqCgkraE9czEF4XSD98qarRus6GEFw'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: c4e6d81b0d4ad1e5e8cbbacb0791fc49d2491eed
+    internal-label: Metadata
+source-git-commit: 427ca1ab97562ad3405e9f80e1e2bd7e3a4f3474
 workflow-type: tm+mt
-source-wordcount: 1728
+source-wordcount: '1728'
 ht-degree: 15%
-
 ---
-
 # 빠른 시작: Adobe Dynamic Media Classic의 비디오{#quick-start-video}
 
 Adobe Dynamic Media Classic Video는 데스크톱, iOS, Android™, BlackBerry® 및 Windows® 모바일 장치를 비롯한 여러 화면에서 스트리밍하기 위한 고품질 응용 비디오를 쉽게 게시할 수 있는 종단간 솔루션입니다. 적응형 비디오 집합은 다른 비트 전송률 및 형식으로 인코딩된 동일한 비디오의 여러 버전(예: 400kbps, 800kbps 및 1000kbps)을 그룹화합니다. 데스크톱 컴퓨터나 모바일 장치가 사용 가능한 대역폭을 검색합니다.
@@ -70,7 +72,7 @@ Adobe Dynamic Media Classic Video는 데스크톱, iOS, Android™, BlackBerry®
 
   응용 비디오 스트리밍은 다양한 iOS 플랫폼에서 지원됩니다.
 
-  [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/ko/docs/dynamic-media-developer-resources)에서 최신 지원을 확인하세요.
+  [Adobe 뷰어 참조 안내서](https://experienceleague.adobe.com/en/docs/dynamic-media-developer-resources)에서 최신 지원을 확인하세요.
 
   Adobe Dynamic Media Classic은 MP4 H.264 비디오용 모바일 비디오 재생을 지원합니다. <!-- LINK IS 404; NO SUITABLE REPLACEMENT WAS FOUND You can find BlackBerry&reg; devices that support this video format at the following website: -->
 
