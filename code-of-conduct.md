@@ -1,15 +1,14 @@
 ---
 source-git-commit: de6997fda88c4471625242ee9cca59b344cee945
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '457'
 ht-degree: 0%
-
 ---
 # Adobe 행동 수칙
 
-## Adobe 서약
+## Adobe 공약
 
-개방적이고 환영하는 환경을 조성하기 위해, 기여자 및 유지 관리자는 Adobe의 프로젝트 및 지역 사회에 모든 사람들을 대상으로 차별 없는 경험을 할 것을 서약합니다. 이 조치는 다음 사항에 관계없이 적용됩니다.
+개방적이고 환영하는 환경을 조성하기 위해, 기여자 및 유지 관리자는 Adobe의 프로젝트 및 커뮤니티에 모든 사람이 차별 없는 경험을 할 수 있도록 하겠다고 서약합니다. 이 조치는 다음 사항에 관계없이 적용됩니다.
 
 * 연령
 * 신체 사이즈
@@ -65,4 +64,4 @@ ht-degree: 0%
 
 ## 속성
 
-이 행동 수칙은 [기여자 규약](https://www.contributor-covenant.org/), 버전 1.4, 사용 가능 [https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/).
+이 행동 수칙은 [https://www.contributor-covenant.org/version/1/4](https://www.contributor-covenant.org/version/1/4/)에서 제공하는 [기여자 규약](https://www.contributor-covenant.org/), 버전 1.4에서 채택되었습니다.
