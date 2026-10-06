@@ -14,19 +14,23 @@ autotag-review: '2026-05-13T17:43:26.837Z'
 TQID: 'https://experienceleague.adobe.com/E1qnvzD2WIqVHt0UAtIq7bZfYlPZbfG9Ye6F9ntX5Q4'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: 23257d3c04ec0d662f382ffb55fd6c26454d39a2
+    internal-label: Metadata
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 1496
+source-wordcount: '1496'
 ht-degree: 18%
-
 ---
-
 # eCatalog 이미지 맵 만들기{#creating-ecatalog-image-maps}
 
 이미지 맵은 eCatalog 페이지의 영역으로서 마우스로 롤오버하거나 다양한 종류의 작업을 트리거하도록 선택할 수 있습니다. 예를 들어 이미지 맵 위로 포인터를 이동하면 항목에 대한 롤오버 텍스트 설명이 표시됩니다. 이미지 맵을 선택하면 다른 작업이 시작됩니다. 예를 들어, 사용자가 항목에 대해 자세히 알아보거나 구매할 수 있도록 웹 페이지를 열거나, 사용 중인 항목을 보기 위해 비디오를 시작할 수 있습니다.

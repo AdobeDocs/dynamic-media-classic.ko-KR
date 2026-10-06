@@ -14,19 +14,23 @@ autotag-review: '2026-05-13T19:51:12.585Z'
 TQID: 'https://experienceleague.adobe.com/KZEo-DNrfZJt66xzSAHpLX6A8j1evxOBtwSxQfk44Wc'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
-source-git-commit: a6556d91057da7b0cd02523a48f97e2eadcebb88
+    internal-label: Metadata
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 889
+source-wordcount: '889'
 ht-degree: 26%
-
 ---
-
 # eCatalogs의 정보 패널 콘텐츠 관리{#managing-info-panel-content-in-ecatalogs}
 
 eCatalog에 롤오버의 이미지 맵 텍스트를 사용하는 것은 물론 정보 패널을 사용하여 링크를 비롯한 많은 롤오버 텍스트를 추가할 수도 있습니다. 시간 캐싱을 사용하고 콘텐츠 업데이트를 예약하여 정보 패널을 관리할 수도 있습니다.

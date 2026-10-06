@@ -13,18 +13,22 @@ autotag-review: '2026-05-13T20:17:17.647Z'
 TQID: 'https://experienceleague.adobe.com/SNoRYiCgjJK2TBx6X7HAzv3Xqet64-lm4oSOcat7DfM'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: 4035cd307a13d1174f8b66fb1cd1ab39138d1310
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 838
+source-wordcount: '838'
 ht-degree: 18%
-
 ---
-
 # PDF 파일 업로드{#uploading-the-pdf-files}
 
 Adobe PDF 파일은 eCatalog의 소스입니다. 이러한 파일에는 모든 이미지 정보, 글꼴 및 벡터 그래픽이 포함되어 있습니다. 이미지를 사용하여 eCatalog를 작성할 수도 있습니다. PDF 파일을 업로드하도록 준비한 후 전역 탐색 모음에서 **[!UICONTROL 업로드]**&#x200B;를 선택하여 PDF 업로드를 시작합니다.

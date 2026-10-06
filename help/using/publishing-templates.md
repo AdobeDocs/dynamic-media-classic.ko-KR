@@ -14,17 +14,20 @@ autotag-review: '2026-05-13T20:09:10.008Z'
 TQID: 'https://experienceleague.adobe.com/Yih-wBixagRAQAOSGXz93bEmNJA7a-YbSCfiTLRIAiA'
 product_v2:
   - id: beaff0dd-a904-4c6b-8290-b527cd877d75
+    internal-label: Dynamic Media Classic
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: e78479f4044d2af484db2dd9783cbcff7940ea59
+    internal-label: Intermediate
+  - id: d378ca77-2da1-4f39-ad92-1917fe974a38
+    internal-label: Experienced
+source-git-commit: d12d3b1055080f034ebd7e7ec00941fa58ec5caf
 workflow-type: tm+mt
-source-wordcount: 171
+source-wordcount: '171'
 ht-degree: 1%
-
 ---
-
 # 템플릿 게시{#publishing-templates}
 
 템플릿을 게시하면 해당 템플릿이 웹 사이트 및 애플리케이션에서 사용할 수 있는 Dynamic Media 이미지 서버에 배치됩니다. 게시 프로세스 중에 Adobe Dynamic Media Classic은 웹 사이트 및 애플리케이션에 필요한 URL을 활성화합니다.
